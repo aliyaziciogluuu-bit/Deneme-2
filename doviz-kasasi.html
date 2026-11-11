@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Döviz Kasası</title>
+<title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111512" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Döviz Kasası">
+<meta name="apple-mobile-web-app-title" content="Çilek Döviz">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -71,6 +71,7 @@
   }
   header.top h1 { margin: 0; font: 600 32px/1.1 Georgia, "Times New Roman", serif; letter-spacing: -.01em; }
   header.top p { margin: 4px 0 0; color: var(--muted); }
+  .eyebrow { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--gold); margin-bottom: 2px; }
   .top-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 
   .market { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 4px; scrollbar-width: thin; }
@@ -256,7 +257,7 @@
   }
   .board[hidden] { display: none; }
   .board header {
-    display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+    display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px;
     border-bottom: 2px solid #c8921f; padding-bottom: 10px; margin-bottom: 4px;
   }
   .board h2 { margin: 0; color: #f4d27a; font: 600 clamp(22px, 5vw, 44px)/1.1 Georgia, "Times New Roman", serif; }
@@ -372,7 +373,8 @@
 
   <header class="top">
     <div>
-      <h1>Döviz Kasası</h1>
+      <div class="eyebrow">Döviz Kasası</div>
+      <h1>Yazıcıoğlu Çilek Döviz</h1>
       <p>Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.</p>
     </div>
     <div class="top-tools">
@@ -742,7 +744,7 @@
 </dialog>
 
 <div class="board" id="board" hidden>
-  <header><h2>Döviz ve Altın Kurları</h2><time id="boardTime"></time></header>
+  <header><h2>Yazıcıoğlu Çilek Döviz</h2><time id="boardTime"></time></header>
   <table>
     <thead><tr><th>Varlık</th><th>Alış</th><th>Satış</th></tr></thead>
     <tbody id="boardBody"></tbody>
@@ -2052,7 +2054,7 @@
         .forEach(function (f) { if (!file && navigator.canShare && navigator.canShare({ files: [f] })) file = f; });
     } catch (e) { /* dosya paylaşımı yok */ }
     if (file && navigator.share) {
-      navigator.share({ files: [file], title: 'Döviz Kasası yedeği' }).then(done, function (err) {
+      navigator.share({ files: [file], title: 'Yazıcıoğlu Çilek Döviz yedeği' }).then(done, function (err) {
         if (err && err.name === 'AbortError') return;   // kullanıcı vazgeçti
         download(base + '.json', text, 'application/json');
         done();

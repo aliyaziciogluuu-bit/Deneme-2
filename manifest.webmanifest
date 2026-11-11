@@ -1,6 +1,6 @@
 {
-  "name": "Döviz Kasası",
-  "short_name": "Döviz Kasası",
+  "name": "Yazıcıoğlu Çilek Döviz",
+  "short_name": "Çilek Döviz",
   "description": "Döviz ve altın kasanızı, bakiyenizi ve kâr/zararınızı takip edin.",
   "lang": "tr",
   "start_url": "./doviz-kasasi.html",
