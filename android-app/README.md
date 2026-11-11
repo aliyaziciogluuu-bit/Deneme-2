@@ -11,7 +11,9 @@ Oyunun kendisi tek yerde durur (`../golgekuyu.html`); paket her derlemede oradan
 | `scripts/make-icons.py` | Uygulama simgelerini oyundaki karakterden üretir |
 | `fonts/` | Pixelify Sans yazı tipi ve lisansı (SIL OFL 1.1) |
 | `android/` | Android Studio / Gradle projesi |
-| `store/icon-512.png` | Google Play mağaza simgesi |
+| `store/` | Mağaza görselleri (simge, tanıtım görseli, ekran görüntüleri) ve `listing.md` içinde mağaza metinleri |
+| `scripts/make-store-art.cjs` | Mağaza görsellerini oyundan yeniden üretir (Playwright gerekir) |
+| `../gizlilik.html` | Gizlilik politikası sayfası (yayınlamadan önce sarı alanları doldurun) |
 
 ## Bilgisayarsız: APK'yı GitHub'da derletmek
 
@@ -25,6 +27,24 @@ GitHub paketi kendisi derler.
 
 Bu deneme APK'sı yalnızca kendi telefonunuzda denemek içindir; Google Play'e yüklenemez.
 Elle çalıştırmak için iş akışı sayfasındaki **Run workflow** düğmesini kullanabilirsiniz.
+
+## Play Store yol haritası
+
+Depoda hazır olanlar: uygulama projesi, otomatik derleme, ödüllü reklam, mağaza görselleri, mağaza metinleri
+ve gizlilik politikası taslağı. Geriye kalan adımlar hesap ve kimlik gerektirdiği için sizin yapmanız gerekir:
+
+1. **Google Play geliştirici hesabı** açın (tek seferlik ücretli, kimlik doğrulaması ister).
+2. **AdMob hesabı** açın, uygulamayı ekleyin, ödüllü reklam birimi oluşturun; kimlikleri `ads.config.json` dosyasına girin.
+3. **Uygulama kimliğine** karar verin ve imza anahtarını oluşturun (aşağıdaki bölüm).
+4. **Gizlilik politikasını yayınlayın:** `gizlilik.html` içindeki sarı alanları (ad, e-posta, tarih) doldurun ve
+   sayfayı herkese açık bir adreste yayınlayın (örneğin GitHub Pages).
+5. **Play Console'da uygulamayı oluşturun:** `store/listing.md` içindeki metinleri ve `store/` görsellerini yükleyin,
+   içerik derecelendirmesi, hedef kitle, reklam ve veri güvenliği formlarını doldurun.
+6. **Kapalı test:** yeni kişisel hesaplarda Google, yayından önce bir grup test kullanıcısıyla belirli bir süre
+   kapalı test yapılmasını ister. Güncel sayı ve süreyi Play Console'da görürsünüz.
+7. İmzalı `app-release.aab` dosyasını yükleyin ve incelemeye gönderin.
+
+Ücretler, test şartları ve formlar zamanla değişir; her adımda Play Console'un gösterdiği güncel bilgiyi esas alın.
 
 ## Google Play'e yüklemeden önce
 
