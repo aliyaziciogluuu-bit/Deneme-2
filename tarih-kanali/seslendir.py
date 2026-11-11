@@ -1,6 +1,7 @@
 """Senaryodaki her cümleyi seslendirir ve sonucu konuşma tanıma ile doğrular.
 
-Kullanım:  python seslendir.py 01-dans-vebasi
+Kullanım:  python seslendir.py 01-dans-vebasi          # eksik ya da hatalı cümleleri üretir
+           python seslendir.py 01-dans-vebasi 8 36 37  # bu cümleleri kelimesi kelimesine doğru çıkana dek yeniden dener
 Çıktı:     <video klasörü>/ses/000.wav, 001.wav ... ve ses/rapor.json
 
 Ses modeli: Chatterbox Multilingual (MIT lisansı, ticari kullanıma açık).
@@ -35,6 +36,17 @@ def benzerlik(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, sade(a), sade(b)).ratio()
 
 
+def kelime_hatasi(duyulan: str, beklenen: str) -> int:
+    """Duyulan metinde beklenenden farklı çıkan kelime sayısı."""
+    a, b = sade(duyulan).split(), sade(beklenen).split()
+    return sum(max(i2 - i1, j2 - j1) for is_, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b).get_opcodes() if is_ != "equal")
+
+
+def hiz_uygun(hiz: float, metin: str) -> bool:
+    alt, ust = (6.0, 20.0) if len(metin) < 30 else HIZ  # kısa cümlelerde ölçüm kaba olduğundan aralık geniş
+    return alt <= hiz <= ust
+
+
 def kirp(ses: np.ndarray, sr: int) -> np.ndarray:
     """Baştaki ve sondaki sessizliği atar, 60 ms pay bırakır."""
     cerceve = int(sr * 0.02)
@@ -57,6 +69,7 @@ def main() -> None:
     hedef.mkdir(exist_ok=True)
     rapor_yolu = hedef / "rapor.json"
     rapor = json.loads(rapor_yolu.read_text(encoding="utf-8")) if rapor_yolu.exists() else {}
+    yeniden = {int(x) for x in sys.argv[2:]}
 
     from chatterbox.mtl_tts import ChatterboxMultilingualTTS
     from faster_whisper import WhisperModel
@@ -74,8 +87,9 @@ def main() -> None:
         puan = max(benzerlik(duyulan, okunan), benzerlik(duyulan, c["yazi"]))
         sure = len(ses) / tts.sr
         hiz = len(okunan) / sure
-        return {"puan": round(puan, 3), "sure": round(sure, 2), "hiz": round(hiz, 1), "deneme": deneme,
-                "duyulan": duyulan, "uygun": bool(puan >= ESIK and HIZ[0] <= hiz <= HIZ[1])}
+        hata = min(kelime_hatasi(duyulan, okunan), kelime_hatasi(duyulan, c["yazi"]))
+        return {"puan": round(puan, 3), "hata": hata, "sure": round(sure, 2), "hiz": round(hiz, 1), "deneme": deneme,
+                "duyulan": duyulan, "uygun": bool(puan >= ESIK and hiz_uygun(hiz, okunan))}
 
     for i, c in enumerate(cumleler):
         ad = f"{i:03d}"
@@ -84,17 +98,23 @@ def main() -> None:
         if (hedef / f"{ad}.wav").exists() and ad in rapor:  # önceki çalıştırmanın sonucunu yeniden değerlendir
             eski = rapor[ad]
             puan = max(benzerlik(eski["duyulan"], okunan), benzerlik(eski["duyulan"], c["yazi"]))
-            eski.update(puan=round(puan, 3), uygun=bool(puan >= ESIK and HIZ[0] <= eski["hiz"] <= HIZ[1]))
-            if eski["uygun"]:
+            hata = min(kelime_hatasi(eski["duyulan"], okunan), kelime_hatasi(eski["duyulan"], c["yazi"]))
+            eski.update(puan=round(puan, 3), hata=hata, uygun=bool(puan >= ESIK and hiz_uygun(eski["hiz"], okunan)))
+            rapor_yolu.write_text(json.dumps(rapor, ensure_ascii=False, indent=1), encoding="utf-8")
+            if (eski["uygun"] or yeniden) and i not in yeniden:  # liste verildiyse yalnızca listedekiler işlenir
                 continue
             onceki = eski["deneme"]
             en_iyi = ({k: v for k, v in eski.items() if k != "yazi"}, sf.read(hedef / f"{ad}.wav", dtype="float32")[0])
+            if i in yeniden:
+                en_iyi[0]["uygun"] = False
         for deneme, cfg in enumerate(CFG):
             torch.manual_seed(7919 * (deneme + 1 + onceki) + i)
             dalga = tts.generate(okunan, language_id="tr", cfg_weight=cfg, temperature=0.7)
             ses = kirp(dalga.squeeze().cpu().numpy().astype(np.float32), tts.sr)
             aday = degerlendir(ses, c, okunan, onceki + deneme + 1)
-            if en_iyi is None or (aday["uygun"], aday["puan"]) > (en_iyi[0]["uygun"], en_iyi[0]["puan"]):
+            if i in yeniden:  # zorla yenilenen cümlede tek kelime hatası bile kabul edilmez
+                aday["uygun"] = aday["uygun"] and aday["hata"] == 0
+            if en_iyi is None or (aday["uygun"], -aday["hata"], aday["puan"]) > (en_iyi[0]["uygun"], -en_iyi[0]["hata"], en_iyi[0]["puan"]):
                 en_iyi = (aday, ses)
             if aday["uygun"]:
                 break
