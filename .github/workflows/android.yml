@@ -1,0 +1,70 @@
+name: Android paketi
+
+# Gölgekuyu'nun Android paketini derler.
+# - Her derlemede: telefona doğrudan kurulabilen deneme APK'sı (debug).
+# - İmza anahtarı gizli değişkenleri tanımlıysa: Google Play'e yüklenecek imzalı AAB.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - golgekuyu.html
+      - android-app/**
+      - .github/workflows/android.yml
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: android-app/package-lock.json
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Web dosyalarını hazırla ve Android projesine aktar
+        working-directory: android-app
+        run: |
+          npm ci
+          npm run sync
+
+      - name: Deneme APK'sını derle
+        working-directory: android-app/android
+        run: ./gradlew --no-daemon assembleDebug
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: golgekuyu-deneme-apk
+          path: android-app/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+
+      - name: İmzalı yayın paketini (AAB) derle
+        if: env.HAS_KEYSTORE == 'true'
+        working-directory: android-app/android
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/yayin.jks"
+          ANDROID_KEYSTORE_FILE="$RUNNER_TEMP/yayin.jks" ./gradlew --no-daemon bundleRelease
+          rm -f "$RUNNER_TEMP/yayin.jks"
+
+      - uses: actions/upload-artifact@v4
+        if: env.HAS_KEYSTORE == 'true'
+        with:
+          name: golgekuyu-yayin-aab
+          path: android-app/android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error

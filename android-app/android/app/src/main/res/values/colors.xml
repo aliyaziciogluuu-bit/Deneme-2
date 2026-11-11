@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Oyunun arka plan rengi: açılış ekranı ve pencere zemini -->
+    <color name="gameBackground">#0D0A14</color>
+</resources>

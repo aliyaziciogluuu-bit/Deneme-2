@@ -24,3 +24,6 @@ Her kat rastgele üretilir; düşmanlar, sandıklar, tuzaklar, sunaklar ve tücc
 Seviye atladıkça üç güçten birini seçersiniz, nadirlik seviyeli eşyalar (silah, zırh, takı)
 kuşanırsınız, her 5 katta bir patronla karşılaşırsınız. Ölünce kazanılan ruhlarla kalıcı
 geliştirmeler ve yeni sınıflar (Okçu, Büyücü) açılır. İlerleme yalnızca cihazın tarayıcısında saklanır.
+
+Android paketi `android-app/` klasöründedir; kurulum ve Google Play adımları için
+`android-app/README.md` dosyasına bakın.

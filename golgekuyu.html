@@ -1041,6 +1041,18 @@ window.addEventListener('keydown', e => {
 });
 document.addEventListener('visibilitychange', () => { if (document.hidden) { saveRun(); saveMeta(); } });
 window.addEventListener('pagehide', () => { saveRun(); saveMeta(); });
+/* Android paketi (Capacitor): geri tuşu açık pencereyi kapatır, seferde karakter ekranını açar, ana menüde uygulamayı arka plana alır. */
+(() => {
+  const cap = window.Capacitor; if (!cap || !cap.registerPlugin || !cap.isNativePlatform || !cap.isNativePlatform()) return;
+  try {
+    const App = cap.registerPlugin('App');
+    App.addListener('backButton', () => {
+      if (modal === 'char' || modal === 'shop' || modal === 'shrine') closePanel();
+      else if (modal === 'menu') { if (menuTab !== 'play') showMenu('play'); else { saveMeta(); App.minimizeApp(); } }
+      else if (!modal && G && !over) showChar();
+    });
+  } catch (e) {}
+})();
 if (window.ResizeObserver) new ResizeObserver(resize).observe($('stage')); window.addEventListener('resize', resize);
 
 /* ================= BAŞLAT ================= */
