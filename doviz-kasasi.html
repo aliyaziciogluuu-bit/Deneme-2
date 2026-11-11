@@ -175,6 +175,55 @@
   footer { color: var(--muted); font-size: 13px; text-align: center; }
   footer p { margin: 0 0 6px; }
 
+  /* Sekmeler */
+  .view-off { display: none !important; }
+  nav.tabs { display: flex; gap: 4px; margin: 0 0 16px; border-bottom: 1px solid var(--line); }
+  nav.tabs button {
+    display: flex; align-items: center; gap: 8px; border: 0; border-bottom: 3px solid transparent; border-radius: 0;
+    background: none; padding: 10px 14px; min-height: 44px; color: var(--muted); font-weight: 600;
+  }
+  nav.tabs button svg {
+    width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor;
+    stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+  }
+  nav.tabs button[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .mini { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  .mini > div { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; min-width: 0; }
+  .mini .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .mini .v { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .banner {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--surface-2);
+    border: 1px solid var(--gold); border-radius: 10px; padding: 10px 14px; margin-bottom: 16px;
+  }
+  .banner[hidden] { display: none; }
+  .banner span { flex: 1 1 200px; }
+  .quick { display: flex; flex-wrap: wrap; gap: 6px; }
+  .quick button { min-height: 36px; padding: 4px 12px; border-radius: 999px; font-size: 14px; }
+  .quick button[aria-pressed="true"], .modeseg button[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent); color: var(--accent-ink);
+  }
+  label.check { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink); font-weight: 500; cursor: pointer; }
+  label.check input { width: 20px; height: 20px; min-height: 0; flex: none; }
+  .recent { list-style: none; margin: 0; padding: 0; }
+  .recent li {
+    display: flex; justify-content: space-between; gap: 12px; padding: 10px 16px;
+    border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums;
+  }
+  .recent li:last-child { border-bottom: 0; }
+  .recent .l { min-width: 0; }
+  .recent .r { text-align: right; white-space: nowrap; }
+  .recent small { display: block; color: var(--muted); overflow-wrap: anywhere; }
+  .modeseg { display: inline-flex; gap: 4px; }
+  tr.link { cursor: pointer; }
+  .toast {
+    position: fixed; left: 16px; right: 16px; margin: 0 auto; width: fit-content; bottom: calc(20px + env(safe-area-inset-bottom)); z-index: 30;
+    display: flex; align-items: center; gap: 12px; background: var(--ink); color: var(--bg); border-radius: 10px;
+    padding: 8px 8px 8px 16px; box-shadow: 0 6px 24px rgba(0, 0, 0, .25);
+  }
+  .toast[hidden] { display: none; }
+  .toast button { background: transparent; border-color: currentColor; color: inherit; min-height: 34px; padding: 2px 12px; white-space: nowrap; }
+
   /* Kur tablosu */
   .rate-row {
     display: grid; grid-template-columns: minmax(150px, 1.3fr) 1fr 1fr minmax(170px, 1.4fr) auto;
@@ -190,9 +239,8 @@
   .rate-row input { min-height: 38px; padding: 6px 8px; }
 
   /* Gün sonu */
-  .daystats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-bottom: 1px solid var(--line); }
-  .daystats > div { padding: 12px 16px; border-right: 1px solid var(--line); min-width: 0; }
-  .daystats > div:last-child { border-right: 0; }
+  .daystats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px; background: var(--line); border-bottom: 1px solid var(--line); }
+  .daystats > div { padding: 12px 16px; min-width: 0; background: var(--surface); }
   .daystats .k, .count-sum .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
   .daystats .v, .count-sum .v { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 
@@ -217,12 +265,24 @@
       grid-template-areas: "name del" "buy sell" "info info";
     }
     .rate-row .del { justify-self: end; }
-    .daystats { grid-template-columns: repeat(2, 1fr); }
-    .daystats > div:nth-child(2) { border-right: 0; }
-    .daystats > div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+    .daystats { grid-template-columns: repeat(3, 1fr); }
   }
   /* Telefonda özet satırlara, tablolar kart listesine döner */
   @media (max-width: 640px) {
+    header.top { padding-bottom: 12px; }
+    header.top p { display: none; }
+    .wrap { padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
+    nav.tabs {
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; margin: 0; gap: 0; background: var(--surface);
+      border-top: 1px solid var(--line); border-bottom: 0; padding: 0 4px env(safe-area-inset-bottom);
+    }
+    nav.tabs button {
+      flex: 1 1 0; flex-direction: column; gap: 2px; padding: 6px 2px; font-size: 11px; min-width: 0;
+      border-bottom: 0; border-top: 3px solid transparent;
+    }
+    nav.tabs button[aria-current="page"] { border-top-color: var(--accent); }
+    .toast { bottom: calc(76px + env(safe-area-inset-bottom)); }
+    .daystats { grid-template-columns: repeat(2, 1fr); }
     .stats { grid-template-columns: 1fr; gap: 8px; }
     .count-sum { grid-template-columns: 1fr; }
     .count-sum > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; border-right: 0; border-bottom: 1px solid var(--line); padding: 10px 16px; }
@@ -269,10 +329,28 @@
     </div>
   </header>
 
-  <div class="market" id="market" aria-label="Piyasa fiyatları"></div>
-  <p class="rates-info" id="ratesInfo">Fiyatlar henüz güncellenmedi.</p>
+  <nav class="tabs" id="tabs" aria-label="Bölümler">
+    <button type="button" data-go="islem"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg><span>İşlem</span></button>
+    <button type="button" data-go="kasa"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M15.5 14.5h2"/></svg><span>Kasa</span></button>
+    <button type="button" data-go="kurlar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-3-3M18 16H6l3 3"/></svg><span>Kurlar</span></button>
+    <button type="button" data-go="gun"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M8 3v4M16 3v4"/></svg><span>Gün sonu</span></button>
+    <button type="button" data-go="liste"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7h11M9 12h11M9 17h11M4.5 7h.01M4.5 12h.01M4.5 17h.01"/></svg><span>İşlemler</span></button>
+  </nav>
 
-  <div class="stats">
+  <div class="banner" id="backupBanner" data-view="islem" hidden>
+    <span id="backupText"></span>
+    <button type="button" class="small primary" id="btnBackupNow">Şimdi yedekle</button>
+    <button type="button" class="small" id="btnBackupLater">Sonra</button>
+  </div>
+  <div class="mini" data-view="islem">
+    <div><div class="k">TL kasası</div><div class="v amt" id="mTL">₺0,00</div></div>
+    <div><div class="k">Bugünkü kâr</div><div class="v amt" id="mToday">₺0,00</div></div>
+  </div>
+
+  <div class="market" id="market" data-view="kurlar" aria-label="Piyasa fiyatları"></div>
+  <p class="rates-info" id="ratesInfo" data-view="kurlar">Fiyatlar henüz güncellenmedi.</p>
+
+  <div class="stats" data-view="kasa">
     <div class="stat main">
       <div class="label">Toplam kasa</div>
       <div class="value amt" id="sTotal">₺0,00</div>
@@ -295,10 +373,14 @@
     </div>
   </div>
 
-  <section class="card">
+  <section class="card" data-view="islem">
     <div class="head"><h2 id="formTitle">Yeni işlem</h2></div>
     <div class="body">
       <form class="tx" id="txForm" novalidate>
+        <div class="f full">
+          <span class="lbl">Hızlı seçim</span>
+          <div class="quick" id="quick"></div>
+        </div>
         <div class="f wide">
           <span class="lbl">İşlem türü</span>
           <div class="seg">
@@ -335,6 +417,9 @@
           <label for="fRate2">Satış kuru (₺)</label>
           <input type="number" id="fRate2" inputmode="decimal" step="any" min="0" placeholder="0,00">
         </div>
+        <div class="f full" id="expField" hidden>
+          <label class="check" for="fExp"><input type="checkbox" id="fExp"> Masraf olarak işle (günün net kârından düşülür)</label>
+        </div>
         <div class="f full">
           <label for="fNote">Açıklama (isteğe bağlı)</label>
           <input type="text" id="fNote" maxlength="120" placeholder="Örn. Müşteri adı, açılış bakiyesi, masraf…">
@@ -353,7 +438,16 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="card" data-view="islem">
+    <div class="head">
+      <h2>Son işlemler</h2>
+      <button type="button" class="small" id="btnAllTx">Tümünü gör</button>
+    </div>
+    <ul class="recent" id="recent"></ul>
+    <div class="empty" id="recentEmpty">Henüz işlem yok.</div>
+  </section>
+
+  <section class="card" data-view="kurlar">
     <div class="head">
       <h2>Kur tablom</h2>
       <div class="tools">
@@ -367,7 +461,7 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="card" data-view="kasa">
     <div class="head">
       <h2>Kasa bakiyeleri</h2>
       <span class="hint">Stok, piyasa fiyatıyla değerlenir; fiyatı elle de değiştirebilirsiniz.</span>
@@ -385,7 +479,7 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="card" data-view="kasa">
     <div class="head">
       <h2>Kasa sayımı</h2>
       <div class="tools">
@@ -408,23 +502,30 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="card" data-view="gun">
     <div class="head">
-      <h2>Gün sonu özeti</h2>
+      <h2 id="dayTitle">Gün sonu özeti</h2>
       <div class="tools">
+        <span class="modeseg">
+          <button type="button" class="small" id="modeDay" aria-pressed="true">Gün</button>
+          <button type="button" class="small" id="modeMonth" aria-pressed="false">Ay</button>
+        </span>
         <button type="button" class="small" id="dayPrev" aria-label="Önceki gün">‹</button>
         <input type="date" id="dayDate" aria-label="Özet tarihi">
+        <input type="month" id="monthDate" aria-label="Rapor ayı" hidden>
         <button type="button" class="small" id="dayNext" aria-label="Sonraki gün">›</button>
         <button type="button" class="small" id="dayToday">Bugün</button>
       </div>
     </div>
     <div class="daystats">
-      <div><div class="k">Günün kârı</div><div class="v amt" id="dProfit">₺0,00</div></div>
+      <div><div class="k">Net kâr</div><div class="v amt" id="dNet">₺0,00</div></div>
+      <div><div class="k">Alım-satım kârı</div><div class="v amt" id="dProfit">₺0,00</div></div>
+      <div><div class="k">Masraf</div><div class="v amt" id="dExp">₺0,00</div></div>
       <div><div class="k">Alış toplamı</div><div class="v amt" id="dBuy">₺0,00</div></div>
       <div><div class="k">Satış toplamı</div><div class="v amt" id="dSell">₺0,00</div></div>
       <div><div class="k">İşlem sayısı</div><div class="v" id="dCount">0</div></div>
     </div>
-    <div class="table-wrap">
+    <div class="table-wrap" id="dayWrap">
       <table class="cards">
         <thead>
           <tr><th>Varlık</th><th>Gün başı</th><th>Giren</th><th>Çıkan</th><th>Gün sonu</th><th>Kâr</th></tr>
@@ -432,13 +533,27 @@
         <tbody id="dayBody"></tbody>
       </table>
     </div>
+    <div class="table-wrap" id="monthWrap" hidden>
+      <table class="cards">
+        <thead>
+          <tr><th>Gün</th><th>Alış</th><th>Satış</th><th>Kâr</th><th>Masraf</th><th>Net kâr</th><th>İşlem</th></tr>
+        </thead>
+        <tbody id="monthBody"></tbody>
+      </table>
+    </div>
     <div class="foot hint" id="dayFoot"></div>
   </section>
 
-  <section class="card">
+  <section class="card" data-view="liste">
     <div class="head">
       <h2>İşlemler</h2>
       <div class="tools">
+        <input type="search" id="filterText" placeholder="Ara: açıklama, varlık…" aria-label="İşlemlerde ara">
+        <select id="filterDate" aria-label="Tarihe göre filtrele">
+          <option value="">Tüm tarihler</option>
+          <option value="today">Bugün</option>
+          <option value="month">Bu ay</option>
+        </select>
         <select id="filterCur" aria-label="Varlığa göre filtrele"></select>
         <select id="filterType" aria-label="İşlem türüne göre filtrele">
           <option value="">Tüm türler</option>
@@ -448,7 +563,7 @@
         <button type="button" class="small" id="btnCsv">CSV indir</button>
         <button type="button" class="small" id="btnExport">Yedek al</button>
         <button type="button" class="small" id="btnImport">Yedek yükle</button>
-        <input type="file" id="fileImport" accept="application/json,.json" hidden>
+        <input type="file" id="fileImport" accept="application/json,.json,text/plain,.txt" hidden>
       </div>
     </div>
     <div class="table-wrap">
@@ -463,6 +578,7 @@
       </table>
     </div>
     <div class="empty" id="txEmpty">Kayıtlı işlem yok.</div>
+    <div class="foot hint" id="backupInfo"></div>
   </section>
 
   <footer>
@@ -470,6 +586,11 @@
     <p>Bu sayfa bir takip aracıdır; resmî fiş ve yasal bildirimlerin yerini tutmaz.</p>
     <p id="iosHint" hidden>iPhone’da ana ekrana eklemek için Safari’de Paylaş düğmesine, sonra “Ana Ekrana Ekle”ye dokunun.</p>
   </footer>
+</div>
+
+<div class="toast" id="toast" role="status" hidden>
+  <span id="toastMsg"></span>
+  <button type="button" id="toastUndo">Geri al</button>
 </div>
 
 <script>
@@ -560,6 +681,7 @@
       };
       if (t.arb) o.arb = String(t.arb);   // arbitrajın iki ayağını birbirine bağlar
       if (t.adj) o.adj = true;            // kasa sayımı farkı
+      if (t.exp && isCash(t.cur) && t.type === 'out') o.exp = true;   // masraf: net kârdan düşülür
       return o;
     });
     var rates = {}, sell = {}, chg = {}, my = null;
@@ -615,7 +737,11 @@
   // Stok eksiye düşerse error döner. day verilirse o günün gün başı / gün sonu özeti de hesaplanır.
   function compute(txs, day) {
     var acc = {}, tl = 0, tlEntries = 0, error = null;
-    var rep = day ? { open: null, close: null, assets: {}, tlIn: 0, tlOut: 0, buyTL: 0, sellTL: 0, profit: 0, count: 0 } : null;
+    var days = {};   // gün başına alış, satış, kâr, masraf ve işlem sayısı
+    var rep = day ? { open: null, close: null, assets: {}, tlIn: 0, tlOut: 0, buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 } : null;
+    function dayOf(date) {
+      return days[date] || (days[date] = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 });
+    }
     function snap() {
       var s = { tl: tl, bal: {} };
       Object.keys(acc).forEach(function (c) { s.bal[c] = acc[c].bal; });
@@ -625,12 +751,13 @@
       if (rep && !rep.open && t.date >= day) rep.open = snap();
       if (rep && !rep.close && t.date > day) rep.close = snap();
       var inDay = rep && t.date === day;
-      if (inDay) rep.count++;
+      var D = dayOf(t.date);
+      D.count++;
 
       if (isCash(t.cur)) {
         tlEntries++;
         if (t.type === 'in') { tl += t.amount; if (inDay) rep.tlIn += t.amount; }
-        else { tl -= t.amount; if (inDay) rep.tlOut += t.amount; }
+        else { tl -= t.amount; if (inDay) rep.tlOut += t.amount; if (t.exp) D.expense += t.amount; }
         return;
       }
       var a = acc[t.cur] || (acc[t.cur] = { bal: 0, cost: 0, realized: 0 });
@@ -654,7 +781,8 @@
         a.bal += t.amount;
         a.cost += total;
         tl -= total;
-        if (d) { d.inn += t.amount; rep.buyTL += total; }
+        D.buyTL += total;
+        if (d) d.inn += t.amount;
       } else {
         var avg = a.bal > EPS ? a.cost / a.bal : 0;
         var profit = t.amount * (t.rate - avg);
@@ -663,14 +791,18 @@
         a.bal -= t.amount;
         tl += total;
         if (Math.abs(a.bal) < EPS) { a.bal = 0; a.cost = 0; }
-        if (d) { d.out += t.amount; d.sold = true; d.profit += profit; rep.sellTL += total; rep.profit += profit; }
+        D.sellTL += total;
+        D.profit += profit;
+        if (d) { d.out += t.amount; d.sold = true; d.profit += profit; }
       }
     });
     if (rep) {
       if (!rep.open) rep.open = snap();
       if (!rep.close) rep.close = snap();
+      var z = days[day];
+      if (z) Object.keys(z).forEach(function (k) { rep[k] = z[k]; });
     }
-    return { acc: acc, tl: tl, tlEntries: tlEntries, error: error, day: rep };
+    return { acc: acc, tl: tl, tlEntries: tlEntries, error: error, day: rep, days: days };
   }
 
   // ---------- Biçimlendirme ----------
@@ -692,6 +824,10 @@
     return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
   }
   function today() { return isoDate(new Date()); }
+  function shiftMonth(ym, n) {
+    var p = ym.split('-');
+    return isoDate(new Date(Number(p[0]), Number(p[1]) - 1 + n, 1)).slice(0, 7);
+  }
   function shiftDay(iso, n) {
     var p = iso.split('-');
     return isoDate(new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2]) + n));
@@ -782,9 +918,14 @@
     $('sTL').textContent = fmtTL(res.tl);
     $('sTL').className = 'value amt ' + signClass(Math.min(res.tl, 0));
     $('sTLSub').textContent = res.tl < -0.005 ? (res.tlEntries ? 'Kasa ekside' : 'Açılış bakiyesini TL girişi olarak ekleyin') : 'Nakit';
-    $('sToday').textContent = fmtSigned(res.day.profit);
-    $('sToday').className = 'value amt ' + signClass(res.day.profit);
-    $('sTodaySub').textContent = res.day.count + ' işlem';
+    var netToday = res.day.profit - res.day.expense;
+    $('sToday').textContent = fmtSigned(netToday);
+    $('sToday').className = 'value amt ' + signClass(netToday);
+    $('sTodaySub').textContent = res.day.count + ' işlem' + (res.day.expense > EPS ? ' · masraf ' + fmtTL(res.day.expense) : '');
+    $('mTL').textContent = fmtTL(res.tl);
+    $('mTL').className = 'v amt ' + signClass(Math.min(res.tl, 0));
+    $('mToday').textContent = fmtSigned(netToday);
+    $('mToday').className = 'v amt ' + signClass(netToday);
     $('sStock').textContent = fmtTL(stock);
     $('sStockSub').textContent = stockCost > EPS ? 'Stok K/Z ' + fmtSigned(unreal) + ' (' + fmtPct(unreal / stockCost * 100) + ')' : '';
     $('sStockSub').className = 'sub amt ' + signClass(unreal);
@@ -793,6 +934,8 @@
     renderMyRates();
     renderCount();
     renderDay();
+    renderRecent();
+    renderBackup();
     renderFilter();
     renderTx();
     renderRatesInfo();
@@ -885,14 +1028,35 @@
   }
 
   // ---------- Gün sonu ----------
+  var reportMode = 'day';   // 'day': gün sonu özeti, 'month': aylık rapor
+  function sumStats(z) {
+    var net = z.profit - z.expense;
+    $('dNet').textContent = fmtSigned(net);
+    $('dNet').className = 'v amt ' + signClass(net);
+    $('dProfit').textContent = fmtSigned(z.profit);
+    $('dProfit').className = 'v amt ' + signClass(z.profit);
+    $('dExp').textContent = fmtTL(z.expense);
+    $('dBuy').textContent = fmtTL(z.buyTL);
+    $('dSell').textContent = fmtTL(z.sellTL);
+    $('dCount').textContent = String(z.count);
+  }
   function renderDay() {
+    var month = reportMode === 'month';
+    $('modeDay').setAttribute('aria-pressed', month ? 'false' : 'true');
+    $('modeMonth').setAttribute('aria-pressed', month ? 'true' : 'false');
+    $('dayDate').hidden = month;
+    $('monthDate').hidden = !month;
+    $('dayWrap').hidden = month;
+    $('monthWrap').hidden = !month;
+    $('dayTitle').textContent = month ? 'Aylık rapor' : 'Gün sonu özeti';
+    $('dayToday').textContent = month ? 'Bu ay' : 'Bugün';
+    $('dayPrev').setAttribute('aria-label', month ? 'Önceki ay' : 'Önceki gün');
+    $('dayNext').setAttribute('aria-label', month ? 'Sonraki ay' : 'Sonraki gün');
+    if (month) return renderMonth();
+
     var day = $('dayDate').value || today();
     var res = compute(state.tx, day), rep = res.day;
-    $('dProfit').textContent = fmtSigned(rep.profit);
-    $('dProfit').className = 'v amt ' + signClass(rep.profit);
-    $('dBuy').textContent = fmtTL(rep.buyTL);
-    $('dSell').textContent = fmtTL(rep.sellTL);
-    $('dCount').textContent = String(rep.count);
+    sumStats(rep);
 
     var body = $('dayBody');
     body.textContent = '';
@@ -920,14 +1084,72 @@
       ]));
     });
 
-    var allTime = Object.keys(res.acc).reduce(function (s, c) { return s + res.acc[c].realized; }, 0);
     $('dayFoot').textContent = (rep.count ? '' : fmtDate(day) + ' tarihinde işlem yok. ') +
-      'Kâr, satış kuru ile ortalama alış maliyeti arasındaki farktır. Bugüne kadarki toplam kâr: ' + fmtSigned(allTime);
+      'Alım-satım kârı, satış kuru ile ortalama alış maliyeti arasındaki farktır; net kâr bundan masraflar düşülerek bulunur.';
     $('dayNext').disabled = day >= today();
+  }
+  function renderMonth() {
+    var ym = $('monthDate').value || today().slice(0, 7);
+    var res = compute(state.tx), sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 };
+    var body = $('monthBody');
+    body.textContent = '';
+    var cell = function (lbl, text, cls) { return el('td', { 'data-label': lbl, class: cls == null ? 'amt' : cls, text: text }); };
+    Object.keys(res.days).filter(function (d) { return d.slice(0, 7) === ym; }).sort().reverse().forEach(function (d) {
+      var z = res.days[d], net = z.profit - z.expense;
+      Object.keys(sum).forEach(function (k) { sum[k] += z[k]; });
+      var tr = el('tr', { class: 'link', tabindex: '0', title: 'Gün sonu özetini aç' }, [
+        el('td', { class: 'span title cur', text: fmtDate(d) }),
+        cell('Alış', fmtTL(z.buyTL)),
+        cell('Satış', fmtTL(z.sellTL)),
+        cell('Kâr', fmtSigned(z.profit), 'amt ' + signClass(z.profit)),
+        cell('Masraf', z.expense > EPS ? fmtTL(z.expense) : '—'),
+        cell('Net kâr', fmtSigned(net), 'amt ' + signClass(net)),
+        cell('İşlem', String(z.count), '')
+      ]);
+      var open = function () { reportMode = 'day'; setDay(d); };
+      tr.addEventListener('click', open);
+      tr.addEventListener('keydown', function (e) { if (e.key === 'Enter') open(); });
+      body.appendChild(tr);
+    });
+    if (!body.children.length) {
+      body.appendChild(el('tr', {}, [el('td', { colspan: '7', class: 'span left', text: 'Bu ayda işlem yok.' })]));
+    }
+    sumStats(sum);
+    $('dayFoot').textContent = 'Bir günün ayrıntısı için satırına dokunun. Net kâr, alım-satım kârından masraflar düşülerek bulunur.';
+    $('dayNext').disabled = ym >= today().slice(0, 7);
   }
   function setDay(iso) {
     $('dayDate').value = iso > today() ? today() : iso;
     renderDay();
+  }
+  function setMonth(ym) {
+    var cur = today().slice(0, 7);
+    $('monthDate').value = ym > cur ? cur : ym;
+    renderDay();
+  }
+  function stepReport(n) {
+    if (reportMode === 'month') setMonth(shiftMonth($('monthDate').value || today().slice(0, 7), n));
+    else setDay(shiftDay($('dayDate').value || today(), n));
+  }
+
+  // İşlem sekmesindeki kısa liste
+  function renderRecent() {
+    var list = $('recent');
+    list.textContent = '';
+    sorted(state.tx).reverse().slice(0, 6).forEach(function (t) {
+      var plain = isCash(t.cur) || !!t.adj;
+      var left = el('div', { class: 'l' }, [
+        el('span', { class: 'badge ' + t.type, text: typeLabel(t) }), document.createTextNode(' '),
+        el('span', { class: 'cur' + (isMetal(t.cur) ? ' metal' : ''), text: label(t.cur) }),
+        el('small', { text: fmtDate(t.date) + (t.note ? ' · ' + t.note : '') })
+      ]);
+      var right = el('div', { class: 'r amt' }, [
+        el('span', { class: t.type === 'in' ? 'pos' : 'neg', text: (t.type === 'in' ? '+' : '−') + fmtAmt(t.amount, t.cur) })
+      ]);
+      if (!plain) right.appendChild(el('small', { text: fmtRate(t.rate, t.cur) + ' · ' + fmtTL(t.amount * t.rate) }));
+      list.appendChild(el('li', {}, [left, right]));
+    });
+    $('recentEmpty').hidden = list.children.length > 0;
   }
 
   function renderFilter() {
@@ -942,14 +1164,19 @@
 
   function typeLabel(t) {
     if (t.adj) return 'Sayım farkı';
+    if (t.exp) return 'Masraf';
     if (t.arb) return t.type === 'in' ? 'Arbitraj alış' : 'Arbitraj satış';
     if (isCash(t.cur)) return t.type === 'in' ? 'TL girişi' : 'TL çıkışı';
     return t.type === 'in' ? 'Alış' : 'Satış';
   }
   function renderTx() {
-    var fc = $('filterCur').value, ft = $('filterType').value;
+    var fc = $('filterCur').value, ft = $('filterType').value, fd = $('filterDate').value;
+    var q = $('filterText').value.trim().toLocaleLowerCase('tr');
+    var from = fd === 'today' ? today() : fd === 'month' ? today().slice(0, 7) : '';
     var rows = sorted(state.tx).reverse().filter(function (t) {
-      return (!fc || t.cur === fc) && (!ft || t.type === ft);
+      if ((fc && t.cur !== fc) || (ft && t.type !== ft)) return false;
+      if (from && t.date.slice(0, from.length) !== from) return false;
+      return !q || (label(t.cur) + ' ' + t.cur + ' ' + typeLabel(t) + ' ' + t.note).toLocaleLowerCase('tr').indexOf(q) >= 0;
     });
     var body = $('txBody');
     body.textContent = '';
@@ -1014,6 +1241,35 @@
       : isMetal(c) ? (unit(c) === 'adet' ? 'Adet fiyatı (₺)' : 'Gram fiyatı (₺)') : 'Kur (₺)';
     $('lAmount2').textContent = 'Verilen ' + lowerFirst(amountLabel($('fCur2').value));
     Array.prototype.forEach.call(document.querySelectorAll('.arbf'), function (f) { f.hidden = !arb; });
+    $('expField').hidden = !(cash && formType() === 'out');
+    renderQuick();
+  }
+  // Kur tablosundaki varlıklar için tek dokunuşla seçim düğmeleri
+  function renderQuick() {
+    var box = $('quick'), cur = $('fCur').value;
+    box.textContent = '';
+    Object.keys(state.myRates || {}).sort(byCode).concat([TL]).forEach(function (c) {
+      var b = el('button', { type: 'button', 'aria-pressed': c === cur ? 'true' : 'false', text: label(c) });
+      b.addEventListener('click', function () {
+        $('fCur').value = c;
+        onTarget('cur');
+        $('fAmount').focus();
+      });
+      box.appendChild(b);
+    });
+  }
+  // Varlık ya da işlem türü değişince kurları yeniden öner
+  function onTarget(source) {
+    if (isArb()) {
+      // Arbitraj TL ile yapılmaz; alınan ve verilen varlık da aynı olamaz
+      if (isCash($('fCur').value)) {
+        if (source === 'cur') $('tIn').checked = true; else $('fCur').value = 'USD';
+      }
+      if (isArb() && $('fCur2').value === $('fCur').value) $('fCur2').value = $('fCur').value === 'EUR' ? 'USD' : 'EUR';
+    }
+    if (!editingId) rateTouched = false;
+    rate2Touched = amount2Touched = false;
+    prefillRate();
   }
   // Arbitrajda verilen miktar, alınan tutarın TL karşılığından hesaplanır (elle değiştirilebilir)
   function autoAmount2() {
@@ -1062,6 +1318,7 @@
     $('fAmount').value = '';
     $('fAmount2').value = '';
     $('fNote').value = '';
+    $('fExp').checked = false;
     $('formTitle').textContent = 'Yeni işlem';
     $('btnSave').textContent = 'İşlemi kaydet';
     $('btnCancel').hidden = true;
@@ -1079,6 +1336,8 @@
     $('fAmount').value = t.amount;
     $('fRate').value = isCash(t.cur) ? '' : t.rate;
     $('fNote').value = t.note;
+    $('fExp').checked = !!t.exp;
+    setView('islem');
     $('formTitle').textContent = 'İşlemi düzenle';
     $('btnSave').textContent = 'Değişikliği kaydet';
     $('btnCancel').hidden = false;
@@ -1103,18 +1362,20 @@
       id: old ? old.id : uid(), seq: old ? old.seq : maxSeq + 1, date: date, type: formType(),
       cur: cur, amount: amount, rate: rate, note: $('fNote').value.trim()
     };
+    if (cash && tx.type === 'out' && $('fExp').checked) tx.exp = true;
     var next = state.tx.filter(function (x) { return x.id !== tx.id; }).concat([tx]);
     var res = compute(next);
     if (res.error) return setMsg(res.error, 'err');
 
+    var before = snapshot();
     state.tx = next;
     if (!cash && !(state.rates[cur] > 0)) state.rates[cur] = rate;
     save();
     var wasEdit = !!old;
     resetForm();
     render();
-    setMsg((wasEdit ? 'İşlem güncellendi.' : 'İşlem kaydedildi.') +
-           (res.tl < -0.005 ? ' TL kasası eksiye düştü: ' + fmtTL(res.tl) : ''), res.tl < -0.005 ? 'err' : 'ok');
+    setMsg(res.tl < -0.005 ? 'TL kasası eksiye düştü: ' + fmtTL(res.tl) : '', 'err');
+    toast(wasEdit ? 'İşlem güncellendi.' : 'İşlem kaydedildi.', before);
   }
   // Arbitraj: bir varlık alınır, karşılığında başka bir varlık verilir. Birbirine bağlı iki işlem olarak kaydedilir.
   function submitArb(date) {
@@ -1134,14 +1395,15 @@
     ]);
     var res = compute(next);
     if (res.error) return setMsg(res.error, 'err');
+    var before = snapshot();
     state.tx = next;
     if (!(state.rates[c] > 0)) state.rates[c] = r;
     if (!(state.rates[c2] > 0)) state.rates[c2] = r2;
     save();
     resetForm();
     render();
-    setMsg('Arbitraj kaydedildi.' + (res.tl < -0.005 ? ' TL kasası eksiye düştü: ' + fmtTL(res.tl) : ''),
-           res.tl < -0.005 ? 'err' : 'ok');
+    setMsg(res.tl < -0.005 ? 'TL kasası eksiye düştü: ' + fmtTL(res.tl) : '', 'err');
+    toast('Arbitraj kaydedildi.', before);
   }
   function describeTx(t) {
     return fmtDate(t.date) + ' · ' + typeLabel(t) + ' · ' + fmtAmt(t.amount, t.cur) +
@@ -1161,10 +1423,12 @@
     }
     var question = group.length > 1 ? 'Arbitrajın iki işlemi birlikte silinsin mi?' : 'Bu işlem silinsin mi?';
     if (!confirm(question + '\n' + group.map(describeTx).join('\n'))) return;
+    var before = snapshot();
     state.tx = next;
     save();
     if (ids.indexOf(editingId) >= 0) resetForm();
     render();
+    toast(group.length > 1 ? 'Arbitraj silindi.' : 'İşlem silindi.', before);
   }
 
   // ---------- Kasa sayımı ----------
@@ -1232,7 +1496,8 @@
     var c = state.count.cur;
     if (!countHasInput(c)) return;
     var counted = countedTotal(c), rec = recordedBal(c), diff = countDiff(c);
-    if (Math.abs(diff) >= 0.00005) {
+    var before = snapshot(), posted = Math.abs(diff) >= 0.00005;
+    if (posted) {
       if (!confirm('Kayıtlı ' + label(c) + ' bakiyesi sayılan tutara eşitlenecek.\nKayıtlı: ' + fmtAmt(rec, c) +
                    '\nSayılan: ' + fmtAmt(counted, c) + '\nFark: ' + fmtAmt(Math.abs(diff), c) +
                    (diff > 0 ? ' fazla' : ' eksik') + '\nDevam edilsin mi?')) return;
@@ -1251,6 +1516,30 @@
     delete state.count.qty[c];
     save();
     render();
+    toast(posted ? 'Sayım farkı kasaya işlendi.' : 'Sayım kaydedildi.', before);
+  }
+
+  // ---------- Geri al ----------
+  var toastTimer = null, undoData = null;
+  function snapshot() { return JSON.stringify({ tx: state.tx, count: state.count }); }
+  function toast(text, undo) {
+    undoData = undo || null;
+    $('toastMsg').textContent = text;
+    $('toastUndo').hidden = !undo;
+    $('toast').hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { $('toast').hidden = true; undoData = null; }, undo ? 8000 : 3500);
+  }
+  function undoLast() {
+    if (!undoData) return;
+    var prev = JSON.parse(undoData);
+    undoData = null;
+    state.tx = prev.tx;
+    state.count = prev.count;
+    save();
+    resetForm();
+    render();
+    toast('Geri alındı.');
   }
 
   // ---------- Canlı fiyatlar ----------
@@ -1355,8 +1644,61 @@
     });
     download('doviz-kasasi-' + today() + '.csv', '﻿' + lines.join('\r\n'), 'text/csv;charset=utf-8');
   }
-  function exportJson() {
-    download('doviz-kasasi-yedek-' + today() + '.json', JSON.stringify(state, null, 2), 'application/json');
+  // Yedeği telefonda paylaşım menüsüyle (WhatsApp, e-posta, Drive…) gönderir; desteklenmiyorsa dosya olarak indirir
+  function backupNow() {
+    var base = 'doviz-kasasi-yedek-' + today(), text = JSON.stringify(state, null, 2);
+    var done = function () { ui.backupAt = new Date().toISOString(); ui.snooze = null; saveUI(); renderBackup(); };
+    var file = null;
+    try {
+      [new File([text], base + '.json', { type: 'application/json' }), new File([text], base + '.txt', { type: 'text/plain' })]
+        .forEach(function (f) { if (!file && navigator.canShare && navigator.canShare({ files: [f] })) file = f; });
+    } catch (e) { /* dosya paylaşımı yok */ }
+    if (file && navigator.share) {
+      navigator.share({ files: [file], title: 'Döviz Kasası yedeği' }).then(done, function (err) {
+        if (err && err.name === 'AbortError') return;   // kullanıcı vazgeçti
+        download(base + '.json', text, 'application/json');
+        done();
+      });
+    } else {
+      download(base + '.json', text, 'application/json');
+      done();
+    }
+  }
+  function renderBackup() {
+    var now = Date.now(), last = ui.backupAt ? new Date(ui.backupAt).getTime() : 0;
+    var days = last ? Math.floor((now - last) / 864e5) : null;
+    var snoozed = ui.snooze && new Date(ui.snooze).getTime() > now;
+    var due = days === null ? state.tx.length >= 3 : days >= 7 && state.tx.length > 0;
+    $('backupBanner').hidden = !due || snoozed;
+    $('backupText').textContent = days === null
+      ? 'Kayıtlarınız yalnızca bu cihazda duruyor ve henüz yedeklenmedi.'
+      : 'Son yedek ' + days + ' gün önce alındı.';
+    $('backupInfo').textContent = last
+      ? 'Son yedek: ' + new Date(last).toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+      : 'Henüz yedek alınmadı.';
+  }
+
+  // ---------- Sekmeler ve tercihler ----------
+  var ui = { hide: false, backupAt: null, snooze: null };
+  function loadUI() {
+    try {
+      var u = JSON.parse(localStorage.getItem(UI_KEY) || '{}');
+      ui.hide = !!u.hide;
+      ui.backupAt = typeof u.backupAt === 'string' ? u.backupAt : null;
+      ui.snooze = typeof u.snooze === 'string' ? u.snooze : null;
+    } catch (e) { /* yoksay */ }
+  }
+  function saveUI() {
+    try { localStorage.setItem(UI_KEY, JSON.stringify(ui)); } catch (e) { /* yoksay */ }
+  }
+  function setView(v) {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-view]'), function (n) {
+      n.classList.toggle('view-off', n.getAttribute('data-view') !== v);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('#tabs button'), function (b) {
+      if (b.getAttribute('data-go') === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
+    });
+    window.scrollTo(0, 0);
   }
   function importJson(file) {
     var reader = new FileReader();
@@ -1387,7 +1729,8 @@
     document.body.classList.toggle('hide-amt', on);
     $('btnHide').textContent = on ? 'Tutarları göster' : 'Tutarları gizle';
     $('btnHide').setAttribute('aria-pressed', on ? 'true' : 'false');
-    try { localStorage.setItem(UI_KEY, JSON.stringify({ hide: on })); } catch (e) { /* yoksay */ }
+    ui.hide = on;
+    saveUI();
   }
   function initInstall() {
     var standalone = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
@@ -1434,33 +1777,23 @@
     sel2.value = 'EUR';
 
     load();
-    var hide = false;
-    try { hide = !!JSON.parse(localStorage.getItem(UI_KEY) || '{}').hide; } catch (e) { /* yoksay */ }
-    setHidden(hide);
+    loadUI();
+    setHidden(ui.hide);
+    setView('islem');
     $('fDate').value = today();
     $('dayDate').value = today();
     $('dayDate').max = today();
+    $('monthDate').value = today().slice(0, 7);
+    $('monthDate').max = today().slice(0, 7);
     prefillRate();
     render();
 
     $('txForm').addEventListener('submit', submitForm);
     $('btnCancel').addEventListener('click', function () { resetForm(); setMsg(''); });
-    var retarget = function (ev) {
-      if (isArb()) {
-        // Arbitraj TL ile yapılmaz; alınan ve verilen varlık da aynı olamaz
-        if (isCash($('fCur').value)) {
-          if (ev.target === $('fCur')) $('tIn').checked = true; else $('fCur').value = 'USD';
-        }
-        if ($('fCur2').value === $('fCur').value) $('fCur2').value = $('fCur').value === 'EUR' ? 'USD' : 'EUR';
-      }
-      if (!editingId) rateTouched = false;
-      rate2Touched = amount2Touched = false;
-      prefillRate();
-    };
-    $('fCur').addEventListener('change', retarget);
-    $('tIn').addEventListener('change', retarget);
-    $('tOut').addEventListener('change', retarget);
-    $('tArb').addEventListener('change', retarget);
+    $('fCur').addEventListener('change', function () { onTarget('cur'); });
+    ['tIn', 'tOut', 'tArb'].forEach(function (id) {
+      $(id).addEventListener('change', function () { onTarget('type'); });
+    });
     $('fCur2').addEventListener('change', function () { rate2Touched = amount2Touched = false; prefillRate(); });
     $('fRate').addEventListener('input', function () { rateTouched = true; autoAmount2(); updateTotal(); });
     $('fAmount').addEventListener('input', function () { autoAmount2(); updateTotal(); });
@@ -1476,6 +1809,22 @@
       save(); renderCount();
     });
     $('filterCur').addEventListener('change', renderTx);
+    $('filterDate').addEventListener('change', renderTx);
+    $('filterText').addEventListener('input', renderTx);
+    $('tabs').addEventListener('click', function (e) {
+      var b = e.target.closest ? e.target.closest('button[data-go]') : null;
+      if (b) setView(b.getAttribute('data-go'));
+    });
+    $('btnAllTx').addEventListener('click', function () { setView('liste'); });
+    $('toastUndo').addEventListener('click', undoLast);
+    $('btnBackupNow').addEventListener('click', backupNow);
+    $('btnBackupLater').addEventListener('click', function () {
+      ui.snooze = new Date(Date.now() + 864e5).toISOString();
+      saveUI(); renderBackup();
+    });
+    $('modeDay').addEventListener('click', function () { reportMode = 'day'; renderDay(); });
+    $('modeMonth').addEventListener('click', function () { reportMode = 'month'; renderDay(); });
+    $('monthDate').addEventListener('change', function () { setMonth(this.value || today().slice(0, 7)); });
     $('filterType').addEventListener('change', renderTx);
     $('btnRates').addEventListener('click', function () { updateRates(false); });
     $('btnHide').addEventListener('click', function () { setHidden(!document.body.classList.contains('hide-amt')); });
@@ -1488,11 +1837,13 @@
       }
     });
     $('dayDate').addEventListener('change', function () { setDay(this.value || today()); });
-    $('dayPrev').addEventListener('click', function () { setDay(shiftDay($('dayDate').value || today(), -1)); });
-    $('dayNext').addEventListener('click', function () { setDay(shiftDay($('dayDate').value || today(), 1)); });
-    $('dayToday').addEventListener('click', function () { setDay(today()); });
+    $('dayPrev').addEventListener('click', function () { stepReport(-1); });
+    $('dayNext').addEventListener('click', function () { stepReport(1); });
+    $('dayToday').addEventListener('click', function () {
+      if (reportMode === 'month') setMonth(today().slice(0, 7)); else setDay(today());
+    });
     $('btnCsv').addEventListener('click', exportCsv);
-    $('btnExport').addEventListener('click', exportJson);
+    $('btnExport').addEventListener('click', backupNow);
     $('btnImport').addEventListener('click', function () { $('fileImport').click(); });
     $('fileImport').addEventListener('change', function () {
       if (this.files[0]) importJson(this.files[0]);
