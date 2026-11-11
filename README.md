@@ -2,8 +2,10 @@
 
 ## Döviz Kasası
 
-`doviz-kasasi.html` — döviz, altın ve gümüş kasasını takip eden tek sayfalık uygulama.
-Veriler yalnızca kullanılan cihazın tarayıcısında saklanır.
+`doviz-kasasi.html` — döviz, altın ve gümüş alış–satışlarını takip eden tek sayfalık uygulama:
+TL kasası, kendi alış–satış kur tablonuz, stok ve gün sonu kâr özeti.
+Veriler yalnızca kullanılan cihazın tarayıcısında saklanır. Resmî fiş ve yasal bildirimlerin
+yerini tutmaz.
 
 Telefonun ana ekranına eklenebilmesi için sayfanın HTTPS üzerinden yayınlanması gerekir
 (örneğin GitHub Pages). Yayınlandıktan sonra:
