@@ -1,0 +1,452 @@
+{
+ "000": {
+  "yazi": "Temmuz 1518. Strazburg'da bir kadın, sokağın ortasında dans etmeye başlıyor.",
+  "puan": 0.986,
+  "sure": 6.1,
+  "hiz": 15.1,
+  "deneme": 2,
+  "duyulan": "Temmuz 1518, Strasburg'da bir kadın sokağın ortasında dans etmeye başlıyor.",
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Müzik yok. Düğün yok. Kutlanacak hiçbir şey yok.",
+  "puan": 1.0,
+  "sure": 3.6,
+  "hiz": 13.3,
+  "deneme": 2,
+  "duyulan": "Müzik yok, düğün yok, kutlanacak hiçbir şey yok.",
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kadın saatlerce, sonra günlerce dans ediyor.",
+  "puan": 1.0,
+  "sure": 3.96,
+  "hiz": 11.1,
+  "deneme": 1,
+  "duyulan": "Kadın saatlerce, sonra günlerce dans ediyor.",
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bir hafta içinde onlarca kişi ona katılıyor. Bir ay sonra sayı yüzleri buluyor.",
+  "puan": 0.987,
+  "sure": 4.4,
+  "hiz": 18.0,
+  "deneme": 3,
+  "duyulan": "Bir hafta içinde onlarca kişi ona katılıyor. Bir ay sonra sayıya yüzleri buluyor.",
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Ve hiçbiri duramıyor.",
+  "puan": 1.0,
+  "sure": 3.16,
+  "hiz": 6.6,
+  "deneme": 4,
+  "duyulan": "Ve hiçbiri duramıyor.",
+  "uygun": false
+ },
+ "005": {
+  "yazi": "Bu, tarihin en tuhaf salgınlarından birinin, Dans Vebası'nın hikâyesi.",
+  "puan": 1.0,
+  "sure": 6.36,
+  "hiz": 11.0,
+  "deneme": 1,
+  "duyulan": "Bu, tarihin en tuhaf salgınlarından birinin dans vebasının hikayesi.",
+  "uygun": true
+ },
+ "006": {
+  "yazi": "O yıllarda Strazburg, Kutsal Roma İmparatorluğu'na bağlı zengin bir ticaret şehriydi.",
+  "puan": 0.988,
+  "sure": 5.94,
+  "hiz": 14.3,
+  "deneme": 1,
+  "duyulan": "O yıllarda Strasburg, kutsal Roma imparatorluğuna bağlı zengin bir ticaret şehriydi.",
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Ama 1518'e gelindiğinde halk çok zor günler geçiriyordu.",
+  "puan": 1.0,
+  "sure": 5.0,
+  "hiz": 14.2,
+  "deneme": 2,
+  "duyulan": "ama 1518'e gelindiğinde halk çok zor günler geçiriyordu.",
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Art arda gelen kötü hasatlar yüzünden tahıl fiyatları fırlamış, kıtlık baş göstermişti.",
+  "puan": 0.976,
+  "sure": 5.72,
+  "hiz": 15.2,
+  "deneme": 1,
+  "duyulan": "art arda gelen kötü hasatlar yüzünden tahoo fiyatları fırlamış kıtlık baş göstermişti",
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Çiçek hastalığı ve frengi şehri kasıp kavuruyordu.",
+  "puan": 0.98,
+  "sure": 2.9,
+  "hiz": 17.2,
+  "deneme": 5,
+  "duyulan": "Çiçek hastalığı ve Frenki şehri kasıp kavuruyordu.",
+  "uygun": true
+ },
+ "010": {
+  "yazi": "İnsanlar aç, hasta ve korku içindeydi.",
+  "puan": 1.0,
+  "sure": 4.12,
+  "hiz": 9.2,
+  "deneme": 4,
+  "duyulan": "İnsanlar aç, hasta ve korku içindeydi.",
+  "uygun": true
+ },
+ "011": {
+  "yazi": "İşte böyle bir yazın ortasında, kayıtlara Frau Troffea adıyla geçen bir kadın evinden çıktı ve dans etmeye başladı.",
+  "puan": 0.996,
+  "sure": 6.64,
+  "hiz": 17.2,
+  "deneme": 5,
+  "duyulan": "İşte böyle bir yazın ortasında kayıtlara Frau Trofea adıyla geçen bir kadın evinden çıktı ve dans etmeye başladı.",
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Akşam olduğunda bitkinlikten yere yığıldı. Ama ertesi sabah kalkıp yeniden başladı.",
+  "puan": 0.988,
+  "sure": 5.74,
+  "hiz": 14.5,
+  "deneme": 1,
+  "duyulan": "Akşam olduğunda bitkinlikten yere yıldı ama ertesi sabah kalkıp yeniden başladı.",
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Ayakları şişti, kanadı; yine de durmadı. Günlerce böyle devam etti.",
+  "puan": 1.0,
+  "sure": 5.28,
+  "hiz": 12.7,
+  "deneme": 1,
+  "duyulan": "Ayakları şişti, kanadı, yine de durmadı. Günlerce böyle devam etti.",
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Onun adını, olaydan birkaç yıl sonra şehre gelen ünlü hekim Paracelsus'un yazılarından biliyoruz.",
+  "puan": 0.995,
+  "sure": 7.28,
+  "hiz": 13.3,
+  "deneme": 1,
+  "duyulan": "Onun adını, olaydan birkaç yıl sonra şehire gelen ünlü Hekim Paracelsus'un yazılarından biliyoruz.",
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Asıl korkutucu olan bundan sonra yaşandı.",
+  "puan": 1.0,
+  "sure": 3.8,
+  "hiz": 10.8,
+  "deneme": 1,
+  "duyulan": "Asıl korkutucu olan bundan sonra yaşandı.",
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Bir hafta içinde otuzdan fazla kişi aynı şekilde dans etmeye başladı.",
+  "puan": 0.955,
+  "sure": 5.0,
+  "hiz": 13.8,
+  "deneme": 1,
+  "duyulan": "Bir hafta içinde 30'dan fazla kişi aynı şekilde dans etmeye başladı.",
+  "uygun": false
+ },
+ "017": {
+  "yazi": "Dönemin bir kroniğine göre ağustos ayında sayı dört yüze ulaştı.",
+  "puan": 0.909,
+  "sure": 4.42,
+  "hiz": 14.5,
+  "deneme": 3,
+  "duyulan": "Dönemin bir kroniğine göre Ağustos ayında sayı 400'e ulaştı.",
+  "uygun": false
+ },
+ "018": {
+  "yazi": "Anlatılanlara göre bu bir eğlence değildi. Dans edenler bitkin ve çaresizdi, ama duramıyorlardı.",
+  "puan": 0.989,
+  "sure": 6.3,
+  "hiz": 15.2,
+  "deneme": 1,
+  "duyulan": "Anlatımanlara göre bu bir eğlence değildi. Dans edenler bitkin ve çaresizdi ama duramıyorlardı.",
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Şehir meclisi hekimlere danıştı. Hekimler yıldızları ya da şeytanı suçlamadı.",
+  "puan": 1.0,
+  "sure": 4.66,
+  "hiz": 16.5,
+  "deneme": 1,
+  "duyulan": "Şehir meclisi hekimlere danıştı, hekimler yıldızları ya da şeytanı suçlamadı.",
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Teşhisleri şuydu: aşırı ısınmış kan.",
+  "puan": 1.0,
+  "sure": 3.6,
+  "hiz": 10.0,
+  "deneme": 5,
+  "duyulan": "Teşhisleri şuydu. Aşırı ısınmış kan.",
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Önerdikleri tedavi ise bugün kulağa inanılmaz geliyor: daha çok dans.",
+  "puan": 1.0,
+  "sure": 5.82,
+  "hiz": 11.9,
+  "deneme": 1,
+  "duyulan": "Önerdikleri tedavi ise bugün kulağa inanılmaz geliyor, daha çok dans.",
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Meclis lonca binalarını boşalttı ve pazar yerine ahşap bir sahne kurdurdu.",
+  "puan": 1.0,
+  "sure": 4.22,
+  "hiz": 17.5,
+  "deneme": 3,
+  "duyulan": "Meclis lonca binalarını boşalttı ve pazar yerine ahşap bir sahne kurdurdu.",
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Müzisyenler tutuldu. Hatta dans edenleri ayakta tutsunlar diye güçlü adamlar kiralandı.",
+  "puan": 1.0,
+  "sure": 4.84,
+  "hiz": 18.0,
+  "deneme": 3,
+  "duyulan": "Müzisyenler tutuldu hatta dans edenleri ayakta tutsunlar diye güçlü adamlar kiralandı.",
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Düşünce basitti: yeterince dans ederlerse, hastalık vücutlarından çıkıp gidecekti.",
+  "puan": 1.0,
+  "sure": 6.2,
+  "hiz": 13.2,
+  "deneme": 1,
+  "duyulan": "Düşünce basitti, yeterince dans ederlerse, hastalık vücutlarından çıkıp gidecekti.",
+  "uygun": true
+ },
+ "025": {
+  "yazi": "Tam tersi oldu. Müzik ve kalabalık, salgını daha da büyüttü.",
+  "puan": 1.0,
+  "sure": 5.08,
+  "hiz": 11.8,
+  "deneme": 1,
+  "duyulan": "tam tersi oldu. Müzik ve kalabalık salgını daha da büyüttü.",
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Bazı anlatılara göre insanlar bitkinlikten ve kalp krizinden ölüyordu. Günde on beş kişinin öldüğünü yazan kaynaklar bile var.",
+  "puan": 0.967,
+  "sure": 7.24,
+  "hiz": 17.4,
+  "deneme": 2,
+  "duyulan": "Bazı anlatılara göre insanlar bitkinlikten ve kalp krizinden ölüyordu. Günde 15 kişinin öldüğünü yazan kaynaklar bile var.",
+  "uygun": false
+ },
+ "027": {
+  "yazi": "Ancak o dönemin Strazburg belgelerinde ölü sayısı geçmiyor.",
+  "puan": 0.983,
+  "sure": 5.1,
+  "hiz": 11.6,
+  "deneme": 3,
+  "duyulan": "Ancak o dönemin Strasburg belgelerinde ölü sayısı geçmiyor.",
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Yani kaç kişinin öldüğünü, hatta ölen olup olmadığını bugün kesin olarak bilmiyoruz.",
+  "puan": 1.0,
+  "sure": 5.96,
+  "hiz": 14.1,
+  "deneme": 1,
+  "duyulan": "Yani kaç kişinin öldüğünü hatta ölen olup olmadığını bugün kesin olarak bilmiyoruz.",
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Meclis hatasını anladı ve kararını tersine çevirdi. Şehirde müzik ve dans yasaklandı.",
+  "puan": 1.0,
+  "sure": 4.96,
+  "hiz": 17.1,
+  "deneme": 1,
+  "duyulan": "Meclis hatasını anladı ve kararını tersine çevirdi. Şehirde müzik ve dans yasaklandı.",
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Çünkü halk, bu belanın Aziz Vitus'un laneti olduğuna inanıyordu.",
+  "puan": 0.984,
+  "sure": 4.44,
+  "hiz": 14.4,
+  "deneme": 3,
+  "duyulan": "Çünkü halk bu belanın Aziz Vitos'un laneti olduğuna inanıyordu.",
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Dans edenler arabalara bindirildi ve Saverne kasabası yakınlarında, Aziz Vitus'a adanmış bir mabede götürüldü.",
+  "puan": 0.981,
+  "sure": 6.52,
+  "hiz": 16.7,
+  "deneme": 5,
+  "duyulan": "Dans edenler arabalara bindirildi ve Savern kasabası yakınlarında Aziz Vitos'a atanmış bir mabede götürüldü.",
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Orada ayaklarına kırmızı ayakkabılar giydirildi ve azizin heykelinin etrafında dolaştırıldılar.",
+  "puan": 1.0,
+  "sure": 5.44,
+  "hiz": 17.5,
+  "deneme": 5,
+  "duyulan": "Orada ayaklarına kırmızı ayakkabılar giydirildi ve Aziz'in heykelinin etrafında dolaştırıldılar.",
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Eylül ayının başında salgın, başladığı gibi aniden sona erdi.",
+  "puan": 1.0,
+  "sure": 5.24,
+  "hiz": 11.6,
+  "deneme": 1,
+  "duyulan": "Eylül ayının başında salgın başladığı gibi aniden sona erdi.",
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Peki gerçekte ne olmuştu?",
+  "puan": 0.98,
+  "sure": 1.34,
+  "hiz": 18.7,
+  "deneme": 3,
+  "duyulan": "Peki gerçekten ne olmuştu?",
+  "uygun": false
+ },
+ "035": {
+  "yazi": "İlk açıklama, çavdar mahmuzu denen bir mantar.",
+  "puan": 1.0,
+  "sure": 2.7,
+  "hiz": 17.0,
+  "deneme": 1,
+  "duyulan": "İlk açıklama, Çavdar Mahmuz'u denen bir mantar.",
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Bu mantar çavdar başaklarında ürer ve sanrılara, kasılmalara yol açan maddeler içerir.",
+  "puan": 0.976,
+  "sure": 5.88,
+  "hiz": 14.6,
+  "deneme": 2,
+  "duyulan": "Bu mantar çablar başaklarında ürer ve sanrılara, kasılmalara yol açan maddeler içerir.",
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Ama bu teoride bir sorun var: çavdar mahmuzu zehirlenmesi insanı günlerce dans ettirmez.",
+  "puan": 0.982,
+  "sure": 5.8,
+  "hiz": 15.2,
+  "deneme": 1,
+  "duyulan": "Ama bu teoride bir sorun var, çadır mahmuzu zehirlenmesi insanı günlerce dans ettirmez.",
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Tam tersine, şiddetli kasılmalar yüzünden ayakta durmak bile zorlaşır.",
+  "puan": 1.0,
+  "sure": 4.44,
+  "hiz": 15.8,
+  "deneme": 1,
+  "duyulan": "Tam tersine şiddetli kasılmalar yüzünden ayakta durmak bile zorlaşır.",
+  "uygun": true
+ },
+ "039": {
+  "yazi": "İkinci açıklama, tarihçi John Waller'a ait ve bugün en çok kabul göreni.",
+  "puan": 0.962,
+  "sure": 4.38,
+  "hiz": 16.0,
+  "deneme": 3,
+  "duyulan": "İkinci açıklama, tarihçi konvolara ait ve bugün en çok kabul göreni.",
+  "uygun": false
+ },
+ "040": {
+  "yazi": "Ona göre bu, kitlesel bir psikolojik rahatsızlıktı.",
+  "puan": 1.0,
+  "sure": 2.84,
+  "hiz": 18.0,
+  "deneme": 1,
+  "duyulan": "Ona göre bu kitlesel bir psikolojik rahatsızlıktı.",
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Açlık, hastalık ve korkuyla bunalmış insanlar, Aziz Vitus'un lanetine yürekten inanıyordu.",
+  "puan": 0.988,
+  "sure": 5.74,
+  "hiz": 15.7,
+  "deneme": 1,
+  "duyulan": "Açlık, hastalık ve korkuyla bunalmış insanlar Aziz Vitos'un lanetine yürekten inanıyordu.",
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Bir kişi dans etmeye başlayınca, bu inanç başkalarını da bir tür transa sürükledi.",
+  "puan": 1.0,
+  "sure": 5.6,
+  "hiz": 14.6,
+  "deneme": 4,
+  "duyulan": "Bir kişi dans etmeye başlayınca bu inanç başkalarını da bir tür transa sürükledi.",
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Yani onları dans ettiren şey bir zehir değil, çaresizlik ve korkuydu.",
+  "puan": 1.0,
+  "sure": 6.52,
+  "hiz": 10.6,
+  "deneme": 1,
+  "duyulan": "Yani onları dans ettiren şey bir zehir değil, çaresizlik ve korkuydu.",
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Strazburg'daki olay tek örnek de değil. Orta Çağ Avrupa'sında benzer dans salgınları defalarca görüldü.",
+  "puan": 0.969,
+  "sure": 5.06,
+  "hiz": 20.4,
+  "deneme": 3,
+  "duyulan": "Strasburg'daki olay tek örnekte değil. Ortaçağ Avrupa'sında benzer dans salgınları defalarca görüldü.",
+  "uygun": false
+ },
+ "045": {
+  "yazi": "Ama 1518, bunların en iyi belgelenmiş olanı.",
+  "puan": 1.0,
+  "sure": 3.62,
+  "hiz": 16.6,
+  "deneme": 1,
+  "duyulan": "Ama 1518, bunların en iyi belgelenmiş olanı.",
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Beş yüz yıl sonra bile kesin cevabı bilmiyoruz.",
+  "puan": 0.886,
+  "sure": 3.64,
+  "hiz": 12.9,
+  "deneme": 1,
+  "duyulan": "500 yıl sonra bile kesin cevabı bilmiyoruz.",
+  "uygun": false
+ },
+ "047": {
+  "yazi": "Bildiğimiz tek şey şu: bir yaz boyunca, bir şehrin insanları dans etti ve duramadı.",
+  "puan": 1.0,
+  "sure": 5.3,
+  "hiz": 15.7,
+  "deneme": 1,
+  "duyulan": "Bildiğimiz tek şey şu, bir yaz boyunca bir şehrin insanları dans etti ve duramadı.",
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Sizce asıl sebep neydi? Düşüncenizi yorumlara yazın.",
+  "puan": 1.0,
+  "sure": 4.14,
+  "hiz": 12.6,
+  "deneme": 4,
+  "duyulan": "Sizce asıl sebep neydi? Düşüncenizi yorumlara yazın.",
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Bir sonraki videoda görüşmek üzere.",
+  "puan": 1.0,
+  "sure": 2.92,
+  "hiz": 12.0,
+  "deneme": 1,
+  "duyulan": "Bir sonraki videoda görüşmek üzere.",
+  "uygun": true
+ }
+}

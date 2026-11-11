@@ -19,14 +19,15 @@ import numpy as np
 import soundfile as sf
 import torch
 
-DENEME = 3          # bir cümle için en fazla kaç kez üretilsin
-ESIK = 0.85         # metinle benzerlik bu değerin altındaysa yeniden üret
+CFG = (0.0, 0.0, 0.4, 0.0, 0.4)  # her denemede kullanılacak cfg_weight; deneme sayısı = uzunluk
+ESIK = 0.975        # metinle benzerlik bu değerin altındaysa yeniden üret
 HIZ = (9.0, 18.0)   # kabul edilen konuşma hızı (karakter/saniye)
 
 
 def sade(metin: str) -> str:
     metin = metin.replace("I", "ı").replace("İ", "i").lower()
-    metin = re.sub(r"[^a-zçğıöşüâîû0-9 ]", " ", metin)
+    metin = re.sub(r"['’]", "", metin).translate(str.maketrans("âîû", "aiu"))
+    metin = re.sub(r"[^a-zçğıöşü0-9 ]", " ", metin)
     return re.sub(r"\s+", " ", metin).strip()
 
 
@@ -64,37 +65,44 @@ def main() -> None:
     tts = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
     dinleyici = WhisperModel("medium", device="cpu", compute_type="int8", cpu_threads=4)
 
+    def degerlendir(ses, c, okunan, deneme):
+        gecici = hedef / "_gecici.wav"
+        sf.write(gecici, ses, tts.sr)
+        parcalar, _ = dinleyici.transcribe(str(gecici), language="tr", beam_size=5)
+        gecici.unlink()
+        duyulan = " ".join(p.text.strip() for p in parcalar)
+        puan = max(benzerlik(duyulan, okunan), benzerlik(duyulan, c["yazi"]))
+        sure = len(ses) / tts.sr
+        hiz = len(okunan) / sure
+        return {"puan": round(puan, 3), "sure": round(sure, 2), "hiz": round(hiz, 1), "deneme": deneme,
+                "duyulan": duyulan, "uygun": bool(puan >= ESIK and HIZ[0] <= hiz <= HIZ[1])}
+
     for i, c in enumerate(cumleler):
         ad = f"{i:03d}"
-        if (hedef / f"{ad}.wav").exists() and ad in rapor:
-            continue
         okunan = c.get("ses", c["yazi"])
-        en_iyi = None
-        for deneme in range(DENEME):
-            torch.manual_seed(1000 * deneme + i)
-            dalga = tts.generate(okunan, language_id="tr", cfg_weight=0.0, temperature=0.7)
+        en_iyi, onceki = None, 0
+        if (hedef / f"{ad}.wav").exists() and ad in rapor:  # önceki çalıştırmanın sonucunu yeniden değerlendir
+            eski = rapor[ad]
+            puan = max(benzerlik(eski["duyulan"], okunan), benzerlik(eski["duyulan"], c["yazi"]))
+            eski.update(puan=round(puan, 3), uygun=bool(puan >= ESIK and HIZ[0] <= eski["hiz"] <= HIZ[1]))
+            if eski["uygun"]:
+                continue
+            onceki = eski["deneme"]
+            en_iyi = ({k: v for k, v in eski.items() if k != "yazi"}, sf.read(hedef / f"{ad}.wav", dtype="float32")[0])
+        for deneme, cfg in enumerate(CFG):
+            torch.manual_seed(7919 * (deneme + 1 + onceki) + i)
+            dalga = tts.generate(okunan, language_id="tr", cfg_weight=cfg, temperature=0.7)
             ses = kirp(dalga.squeeze().cpu().numpy().astype(np.float32), tts.sr)
-            gecici = hedef / f"_{ad}.wav"
-            sf.write(gecici, ses, tts.sr)
-            parcalar, _ = dinleyici.transcribe(str(gecici), language="tr", beam_size=5)
-            duyulan = " ".join(p.text.strip() for p in parcalar)
-            puan = max(benzerlik(duyulan, okunan), benzerlik(duyulan, c["yazi"]))
-            sure = len(ses) / tts.sr
-            hiz = len(okunan) / sure
-            uygun = puan >= ESIK and HIZ[0] <= hiz <= HIZ[1]
-            aday = {"puan": round(puan, 3), "sure": round(sure, 2), "hiz": round(hiz, 1),
-                    "deneme": deneme + 1, "duyulan": duyulan, "uygun": uygun}
-            if en_iyi is None or (uygun, puan) > (en_iyi[0]["uygun"], en_iyi[0]["puan"]):
+            aday = degerlendir(ses, c, okunan, onceki + deneme + 1)
+            if en_iyi is None or (aday["uygun"], aday["puan"]) > (en_iyi[0]["uygun"], en_iyi[0]["puan"]):
                 en_iyi = (aday, ses)
-            gecici.unlink()
-            if uygun:
+            if aday["uygun"]:
                 break
         sf.write(hedef / f"{ad}.wav", en_iyi[1], tts.sr)
         rapor[ad] = {"yazi": c["yazi"], **en_iyi[0]}
         rapor_yolu.write_text(json.dumps(rapor, ensure_ascii=False, indent=1), encoding="utf-8")
         print(ad, en_iyi[0]["puan"], en_iyi[0]["sure"], "OK" if en_iyi[0]["uygun"] else "KONTROL ET",
               "|", en_iyi[0]["duyulan"], flush=True)
-
 
 if __name__ == "__main__":
     main()
