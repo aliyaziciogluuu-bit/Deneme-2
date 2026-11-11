@@ -44,4 +44,6 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Vuruş titreşimi -->
+    <uses-permission android:name="android.permission.VIBRATE" />
 </manifest>
