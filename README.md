@@ -3,7 +3,8 @@
 ## Döviz Kasası
 
 `doviz-kasasi.html` — döviz, altın ve gümüş alış–satışlarını takip eden tek sayfalık uygulama:
-TL kasası, kendi alış–satış kur tablonuz, stok ve gün sonu kâr özeti.
+TL kasası, kendi alış–satış kur tablonuz, arbitraj, kupür bazında kasa sayımı,
+stok ve gün sonu kâr özeti.
 Veriler yalnızca kullanılan cihazın tarayıcısında saklanır. Resmî fiş ve yasal bildirimlerin
 yerini tutmaz.
 

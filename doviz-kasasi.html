@@ -136,6 +136,7 @@
   form.tx .f.full { grid-column: 1 / -1; }
   form.tx .f.form-foot { flex-direction: row; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
   form.tx .f[hidden] { display: none; }
+  form.tx .f.arb-first { grid-column-start: 4; }
   label, .lbl { font-size: 12px; color: var(--muted); font-weight: 600; }
   input, select, button { font: inherit; color: inherit; }
   input, select {
@@ -144,7 +145,7 @@
   }
   input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
   td input.rate { width: 118px; min-height: 34px; padding: 4px 8px; text-align: right; font-size: 15px; }
-  .seg { position: relative; display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .seg { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
   .seg label {
     display: block; text-align: center; padding: 10px 8px; cursor: pointer; font-size: 14px;
     color: var(--ink); background: var(--bg); min-height: 42px;
@@ -152,6 +153,8 @@
   .seg input { position: absolute; opacity: 0; width: 0; height: 0; min-height: 0; }
   .seg input:checked + label.in { background: var(--pos-bg); color: var(--pos); }
   .seg input:checked + label.out { background: var(--neg-bg); color: var(--neg); }
+  .seg input:checked + label.arb { background: var(--surface-2); color: var(--gold); }
+  .seg input:disabled + label { opacity: .45; cursor: default; }
   .seg input:focus-visible + label { outline: 2px solid var(--focus); outline-offset: -2px; }
 
   button {
@@ -190,11 +193,22 @@
   .daystats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-bottom: 1px solid var(--line); }
   .daystats > div { padding: 12px 16px; border-right: 1px solid var(--line); min-width: 0; }
   .daystats > div:last-child { border-right: 0; }
-  .daystats .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
-  .daystats .v { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .daystats .k, .count-sum .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .daystats .v, .count-sum .v { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+
+  /* Kasa sayımı */
+  .count-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 8px 28px; }
+  .count-row { display: grid; grid-template-columns: 78px minmax(0, 1fr) minmax(96px, auto); gap: 8px; align-items: center; font-variant-numeric: tabular-nums; }
+  .count-row .d { font-weight: 650; }
+  .count-row .s { text-align: right; color: var(--muted); }
+  .count-row input { min-height: 38px; padding: 6px 8px; }
+  .count-sum { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+  .count-sum > div { padding: 12px 16px; border-right: 1px solid var(--line); min-width: 0; }
+  .count-sum > div:last-child { border-right: 0; }
 
   @media (max-width: 820px) {
     .stats { grid-template-columns: repeat(2, 1fr); }
+    form.tx .f.arb-first { grid-column-start: auto; }
     form.tx { grid-template-columns: repeat(2, 1fr); }
     form.tx .f.wide { grid-column: 1 / -1; }
     header.top h1 { font-size: 26px; }
@@ -210,6 +224,9 @@
   /* Telefonda özet satırlara, tablolar kart listesine döner */
   @media (max-width: 640px) {
     .stats { grid-template-columns: 1fr; gap: 8px; }
+    .count-sum { grid-template-columns: 1fr; }
+    .count-sum > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; border-right: 0; border-bottom: 1px solid var(--line); padding: 10px 16px; }
+    .count-sum > div:last-child { border-bottom: 0; }
     .stat.main .value { font-size: 28px; }
     .stat:not(.main) { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: 12px; padding: 12px 16px; }
     .stat:not(.main) .label { grid-row: 1 / span 2; }
@@ -287,6 +304,7 @@
           <div class="seg">
             <input type="radio" name="type" id="tIn" value="in" checked><label class="in" for="tIn" id="lIn">Alış</label>
             <input type="radio" name="type" id="tOut" value="out"><label class="out" for="tOut" id="lOut">Satış</label>
+            <input type="radio" name="type" id="tArb" value="arb"><label class="arb" for="tArb">Arbitraj</label>
           </div>
         </div>
         <div class="f">
@@ -294,7 +312,7 @@
           <input type="date" id="fDate" required>
         </div>
         <div class="f">
-          <label for="fCur">Varlık</label>
+          <label for="fCur" id="lCur">Varlık</label>
           <select id="fCur"></select>
         </div>
         <div class="f">
@@ -304,6 +322,18 @@
         <div class="f" id="rateField">
           <label for="fRate" id="lRate">Kur (₺)</label>
           <input type="number" id="fRate" inputmode="decimal" step="any" min="0" placeholder="0,00" required>
+        </div>
+        <div class="f arbf arb-first" hidden>
+          <label for="fCur2">Verilen varlık</label>
+          <select id="fCur2"></select>
+        </div>
+        <div class="f arbf" hidden>
+          <label for="fAmount2" id="lAmount2">Verilen tutar</label>
+          <input type="number" id="fAmount2" inputmode="decimal" step="any" min="0" placeholder="0">
+        </div>
+        <div class="f arbf" hidden>
+          <label for="fRate2">Satış kuru (₺)</label>
+          <input type="number" id="fRate2" inputmode="decimal" step="any" min="0" placeholder="0,00">
         </div>
         <div class="f full">
           <label for="fNote">Açıklama (isteğe bağlı)</label>
@@ -352,6 +382,29 @@
         </thead>
         <tbody id="balBody"></tbody>
       </table>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="head">
+      <h2>Kasa sayımı</h2>
+      <div class="tools">
+        <span class="hint">Kupür adetlerini girin; kayıtlı bakiyeyle karşılaştırılır.</span>
+        <select id="countCur" aria-label="Sayılacak varlık"></select>
+      </div>
+    </div>
+    <div class="body">
+      <div class="count-grid" id="countGrid"></div>
+    </div>
+    <div class="count-sum">
+      <div><div class="k">Sayılan</div><div class="v amt" id="cCounted">—</div></div>
+      <div><div class="k">Kayıtlı bakiye</div><div class="v amt" id="cRecorded">—</div></div>
+      <div><div class="k">Fark</div><div class="v amt" id="cDiff">—</div></div>
+    </div>
+    <div class="foot">
+      <button type="button" class="primary" id="btnCountApply">Sayımı kaydet</button>
+      <button type="button" id="btnCountClear">Temizle</button>
+      <span class="hint" id="cLast"></span>
     </div>
   </section>
 
@@ -450,6 +503,13 @@
   var PRICED = CODES.filter(function (c) { return c !== TL; });   // kuru olan varlıklar
   var MARKET = ['USD', 'EUR', 'GBP', 'GA', 'CEYREK', 'GUMUS'];
   var DEFAULT_TABLE = ['USD', 'EUR', 'GBP', 'GA', 'CEYREK'];
+  // Kasa sayımında gösterilen banknot kupürleri; listede olmayanlar “Diğer” alanına tutar olarak girilir
+  var DENOMS = {
+    TRY: [200, 100, 50, 20, 10, 5], USD: [100, 50, 20, 10, 5, 2, 1], EUR: [500, 200, 100, 50, 20, 10, 5],
+    GBP: [50, 20, 10, 5], CHF: [1000, 200, 100, 50, 20, 10], SAR: [500, 100, 50, 10, 5, 1],
+    AED: [1000, 500, 200, 100, 50, 20, 10, 5], JPY: [10000, 5000, 2000, 1000], CAD: [100, 50, 20, 10, 5],
+    AUD: [100, 50, 20, 10, 5], RUB: [5000, 2000, 1000, 500, 200, 100, 50]
+  };
 
   function isCash(c) { return c === TL; }
   function isMetal(c) { return !!ASSETS[c].unit; }
@@ -457,9 +517,14 @@
   function unit(c) { return isCash(c) ? 'TL' : ASSETS[c].unit || c; }
 
   // rates/sell: piyasa alış ve satış fiyatı; myRates: büronun kendi alış–satış kurları
-  var state = { tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null };
+  // count: kasa sayımı taslağı (qty) ve varlık başına son sayım (last)
+  var state = {
+    tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
+    count: { cur: TL, qty: {}, last: {} }
+  };
+  var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
   var editingId = null;
-  var rateTouched = false;
+  var rateTouched = false, rate2Touched = false, amount2Touched = false;
   var refreshing = false;
 
   var $ = function (id) { return document.getElementById(id); };
@@ -489,10 +554,13 @@
           !/^\d{4}-\d{2}-\d{2}$/.test(t.date) || !(amount > 0) || !(rate > 0)) {
         throw new Error('Geçersiz işlem kaydı (satır ' + (i + 1) + ')');
       }
-      return {
+      var o = {
         id: String(t.id || uid()), seq: Number(t.seq) || i, date: t.date, type: t.type,
         cur: t.cur, amount: amount, rate: rate, note: String(t.note || '').slice(0, 120)
       };
+      if (t.arb) o.arb = String(t.arb);   // arbitrajın iki ayağını birbirine bağlar
+      if (t.adj) o.adj = true;            // kasa sayımı farkı
+      return o;
     });
     var rates = {}, sell = {}, chg = {}, my = null;
     PRICED.forEach(function (c) {
@@ -511,8 +579,29 @@
     }
     state = {
       tx: tx, rates: rates, sell: sell, chg: chg, myRates: my, ratesUpdated: data.ratesUpdated || null,
-      rateSrc: data.rateSrc === 'tr' || data.rateSrc === 'fb' ? data.rateSrc : null
+      rateSrc: data.rateSrc === 'tr' || data.rateSrc === 'fb' ? data.rateSrc : null,
+      count: cleanCount(data.count)
     };
+  }
+  function cleanCount(c) {
+    var out = { cur: TL, qty: {}, last: {} };
+    if (!c || typeof c !== 'object') return out;
+    if (ASSETS[c.cur]) out.cur = c.cur;
+    CODES.forEach(function (k) {
+      var q = c.qty && c.qty[k], l = c.last && c.last[k];
+      if (q && typeof q === 'object') {
+        var clean = {};
+        Object.keys(q).forEach(function (d) {
+          var v = Number(q[d]);
+          if (/^(\d+|other)$/.test(d) && v > 0 && isFinite(v)) clean[d] = v;
+        });
+        if (Object.keys(clean).length) out.qty[k] = clean;
+      }
+      if (l && typeof l === 'object' && isFinite(Number(l.counted)) && isFinite(Number(l.recorded))) {
+        out.last[k] = { at: String(l.at || ''), counted: Number(l.counted), recorded: Number(l.recorded) };
+      }
+    });
+    return out;
   }
 
   // ---------- Hesap ----------
@@ -545,18 +634,28 @@
         return;
       }
       var a = acc[t.cur] || (acc[t.cur] = { bal: 0, cost: 0, realized: 0 });
-      var d = inDay ? (rep.assets[t.cur] || (rep.assets[t.cur] = { inn: 0, out: 0, profit: 0 })) : null;
+      var d = inDay ? (rep.assets[t.cur] || (rep.assets[t.cur] = { inn: 0, out: 0, profit: 0, sold: false })) : null;
       var total = t.amount * t.rate;
+      if (t.type === 'out' && t.amount > a.bal + EPS && !error) {
+        error = fmtDate(t.date) + ' tarihinde kasada yeterli ' + label(t.cur) +
+                ' yok (bakiye: ' + fmtAmt(a.bal, t.cur) + ').';
+      }
+      if (t.adj) {
+        // Sayım farkı: stok ortalama maliyetle düzeltilir; TL kasasını ve kârı etkilemez
+        var unitCost = a.bal > EPS ? a.cost / a.bal : t.rate;
+        var sign = t.type === 'in' ? 1 : -1;
+        a.bal += sign * t.amount;
+        a.cost += sign * t.amount * unitCost;
+        if (Math.abs(a.bal) < EPS) { a.bal = 0; a.cost = 0; }
+        if (d) d[t.type === 'in' ? 'inn' : 'out'] += t.amount;
+        return;
+      }
       if (t.type === 'in') {
         a.bal += t.amount;
         a.cost += total;
         tl -= total;
         if (d) { d.inn += t.amount; rep.buyTL += total; }
       } else {
-        if (t.amount > a.bal + EPS && !error) {
-          error = fmtDate(t.date) + ' tarihinde kasada yeterli ' + label(t.cur) +
-                  ' yok (bakiye: ' + fmtAmt(a.bal, t.cur) + ').';
-        }
         var avg = a.bal > EPS ? a.cost / a.bal : 0;
         var profit = t.amount * (t.rate - avg);
         a.realized += profit;
@@ -564,7 +663,7 @@
         a.bal -= t.amount;
         tl += total;
         if (Math.abs(a.bal) < EPS) { a.bal = 0; a.cost = 0; }
-        if (d) { d.out += t.amount; d.profit += profit; rep.sellTL += total; rep.profit += profit; }
+        if (d) { d.out += t.amount; d.sold = true; d.profit += profit; rep.sellTL += total; rep.profit += profit; }
       }
     });
     if (rep) {
@@ -618,6 +717,7 @@
   // ---------- Çizim ----------
   function render() {
     var res = compute(state.tx, today()), acc = res.acc;
+    lastRes = res;
     var curs = Object.keys(acc).sort(byCode);
     var stock = 0, stockCost = 0, unreal = 0, missing = false;
 
@@ -691,6 +791,7 @@
 
     renderMarket();
     renderMyRates();
+    renderCount();
     renderDay();
     renderFilter();
     renderTx();
@@ -808,14 +909,14 @@
     Object.keys(rep.close.bal).sort(byCode).forEach(function (c) {
       var d = rep.assets[c], open = rep.open.bal[c] || 0, close = rep.close.bal[c] || 0;
       if (!d && open < EPS && close < EPS) return;
-      d = d || { inn: 0, out: 0, profit: 0 };
+      d = d || { inn: 0, out: 0, profit: 0, sold: false };
       body.appendChild(el('tr', {}, [
         assetCell(c, 'span title'),
         cell('Gün başı', fmtAmt(open, c)),
         cell('Giren', dash(d.inn, c)),
         cell('Çıkan', dash(d.out, c)),
         cell('Gün sonu', fmtAmt(close, c)),
-        cell('Kâr', d.out > EPS ? fmtSigned(d.profit) : '—', 'amt ' + (d.out > EPS ? signClass(d.profit) : ''))
+        cell('Kâr', d.sold ? fmtSigned(d.profit) : '—', 'amt ' + (d.sold ? signClass(d.profit) : ''))
       ]));
     });
 
@@ -840,6 +941,8 @@
   }
 
   function typeLabel(t) {
+    if (t.adj) return 'Sayım farkı';
+    if (t.arb) return t.type === 'in' ? 'Arbitraj alış' : 'Arbitraj satış';
     if (isCash(t.cur)) return t.type === 'in' ? 'TL girişi' : 'TL çıkışı';
     return t.type === 'in' ? 'Alış' : 'Satış';
   }
@@ -855,7 +958,8 @@
       edit.addEventListener('click', function () { startEdit(t.id); });
       var del = el('button', { type: 'button', class: 'small danger', text: 'Sil' });
       del.addEventListener('click', function () { removeTx(t.id); });
-      var cash = isCash(t.cur);
+      var cash = isCash(t.cur) || !!t.adj;   // kur ve TL karşılığı gösterilmeyen satırlar
+      var actions = t.arb || t.adj ? [del] : [edit, document.createTextNode(' '), del];
       body.appendChild(el('tr', {}, [
         el('td', { 'data-label': 'Tarih', text: fmtDate(t.date) }),
         el('td', { 'data-label': 'Tür', class: 'left' }, [el('span', { class: 'badge ' + t.type, text: typeLabel(t) })]),
@@ -864,7 +968,7 @@
         el('td', { 'data-label': 'Kur (₺)', class: cash ? 'skip' : '', text: cash ? '—' : fmtRate(t.rate, t.cur) }),
         el('td', { 'data-label': 'TL karşılığı', class: 'amt' + (cash ? ' skip' : ''), text: cash ? '—' : fmtTL(t.amount * t.rate) }),
         el('td', { class: 'left note span', text: t.note }),
-        el('td', { class: 'span actions' }, [edit, document.createTextNode(' '), del])
+        el('td', { class: 'span actions' }, actions)
       ]));
     });
     $('txEmpty').hidden = rows.length > 0;
@@ -892,34 +996,71 @@
     m.textContent = text || '';
     m.className = 'msg ' + (kind || '');
   }
-  function formType() { return $('tOut').checked ? 'out' : 'in'; }
+  function formType() { return $('tArb').checked ? 'arb' : $('tOut').checked ? 'out' : 'in'; }
+  function isArb() { return formType() === 'arb'; }
+  function shortName(c) { return isMetal(c) ? label(c) : c; }
+  function amountLabel(c) {
+    return isCash(c) ? 'Tutar (₺)' : isMetal(c) ? (unit(c) === 'adet' ? 'Adet' : 'Miktar (gr)') : 'Tutar (' + c + ')';
+  }
+  function lowerFirst(t) { return t.charAt(0).toLowerCase() + t.slice(1); }
   function updateLabels() {
-    var c = $('fCur').value, cash = isCash(c);
+    var c = $('fCur').value, cash = isCash(c), arb = isArb();
     $('lIn').textContent = cash ? 'TL girişi' : 'Alış';
     $('lOut').textContent = cash ? 'TL çıkışı' : 'Satış';
     $('rateField').hidden = cash;
-    $('lAmount').textContent = cash ? 'Tutar (₺)'
-      : isMetal(c) ? (unit(c) === 'adet' ? 'Adet' : 'Miktar (gr)') : 'Tutar (' + c + ')';
-    $('lRate').textContent = isMetal(c) ? (unit(c) === 'adet' ? 'Adet fiyatı (₺)' : 'Gram fiyatı (₺)') : 'Kur (₺)';
+    $('lCur').textContent = arb ? 'Alınan varlık' : 'Varlık';
+    $('lAmount').textContent = arb ? 'Alınan ' + lowerFirst(amountLabel(c)) : amountLabel(c);
+    $('lRate').textContent = arb ? 'Alış kuru (₺)'
+      : isMetal(c) ? (unit(c) === 'adet' ? 'Adet fiyatı (₺)' : 'Gram fiyatı (₺)') : 'Kur (₺)';
+    $('lAmount2').textContent = 'Verilen ' + lowerFirst(amountLabel($('fCur2').value));
+    Array.prototype.forEach.call(document.querySelectorAll('.arbf'), function (f) { f.hidden = !arb; });
+  }
+  // Arbitrajda verilen miktar, alınan tutarın TL karşılığından hesaplanır (elle değiştirilebilir)
+  function autoAmount2() {
+    if (!isArb() || amount2Touched) return;
+    var a = Number($('fAmount').value), r = Number($('fRate').value), r2 = Number($('fRate2').value);
+    $('fAmount2').value = a > 0 && r > 0 && r2 > 0
+      ? String(Number((a * r / r2).toFixed(isMetal($('fCur2').value) ? 3 : 2))) : '';
   }
   function updateTotal() {
     var c = $('fCur').value, a = Number($('fAmount').value), r = isCash(c) ? 1 : Number($('fRate').value);
+    if (isArb()) {
+      var c2 = $('fCur2').value, a2 = Number($('fAmount2').value), r2 = Number($('fRate2').value), parts = [];
+      if (r > 0 && r2 > 0) parts.push('Çapraz kur: 1 ' + shortName(c) + ' = ' + fmtNum(r / r2, 4) + ' ' + shortName(c2));
+      if (a > 0 && r > 0 && a2 > 0 && r2 > 0) {
+        var diff = a2 * r2 - a * r;
+        parts.push(Math.abs(diff) < 0.005 ? 'TL kasası değişmez'
+          : (diff > 0 ? 'TL kasasına girecek: ' : 'TL kasasından çıkacak: ') + fmtTL(Math.abs(diff)));
+      }
+      $('fTotal').textContent = parts.join(' · ') || 'Çapraz kur: —';
+      return;
+    }
     var goesIn = isCash(c) ? formType() === 'in' : formType() === 'out';
     $('fTotal').textContent = (goesIn ? 'TL kasasına girecek: ' : 'TL kasasından çıkacak: ') +
       (a > 0 && r > 0 ? fmtTL(a * r) : '—');
   }
   function prefillRate() {
     updateLabels();
+    var arb = isArb();
     if (!rateTouched) {
-      var c = $('fCur').value, r = isCash(c) ? null : suggested(c, formType());
+      var c = $('fCur').value, r = isCash(c) ? null : suggested(c, arb ? 'in' : formType());
       $('fRate').value = r ? r : '';
+    }
+    if (arb) {
+      if (!rate2Touched) {
+        var r2 = suggested($('fCur2').value, 'out');
+        $('fRate2').value = r2 ? r2 : '';
+      }
+      autoAmount2();
     }
     updateTotal();
   }
   function resetForm() {
     editingId = null;
-    rateTouched = false;
+    rateTouched = rate2Touched = amount2Touched = false;
+    $('tArb').disabled = false;
     $('fAmount').value = '';
+    $('fAmount2').value = '';
     $('fNote').value = '';
     $('formTitle').textContent = 'Yeni işlem';
     $('btnSave').textContent = 'İşlemi kaydet';
@@ -932,6 +1073,7 @@
     editingId = id;
     rateTouched = true;
     (t.type === 'out' ? $('tOut') : $('tIn')).checked = true;
+    $('tArb').disabled = true;   // düzenlenen tek işlem arbitraja çevrilemez
     $('fDate').value = t.date;
     $('fCur').value = t.cur;
     $('fAmount').value = t.amount;
@@ -951,6 +1093,7 @@
     var date = $('fDate').value, cur = $('fCur').value, cash = isCash(cur);
     var amount = Number($('fAmount').value), rate = cash ? 1 : Number($('fRate').value);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return setMsg('Geçerli bir tarih seçin.', 'err');
+    if (isArb()) return submitArb(date);
     if (!(amount > 0) || !isFinite(amount)) return setMsg('Miktar sıfırdan büyük olmalı.', 'err');
     if (!(rate > 0) || !isFinite(rate)) return setMsg('Kur sıfırdan büyük olmalı.', 'err');
 
@@ -973,21 +1116,140 @@
     setMsg((wasEdit ? 'İşlem güncellendi.' : 'İşlem kaydedildi.') +
            (res.tl < -0.005 ? ' TL kasası eksiye düştü: ' + fmtTL(res.tl) : ''), res.tl < -0.005 ? 'err' : 'ok');
   }
+  // Arbitraj: bir varlık alınır, karşılığında başka bir varlık verilir. Birbirine bağlı iki işlem olarak kaydedilir.
+  function submitArb(date) {
+    var c = $('fCur').value, c2 = $('fCur2').value;
+    var a = Number($('fAmount').value), r = Number($('fRate').value);
+    var a2 = Number($('fAmount2').value), r2 = Number($('fRate2').value);
+    var ok = function (v) { return v > 0 && isFinite(v); };
+    if (isCash(c) || c === c2) return setMsg('Alınan ve verilen varlık farklı olmalı.', 'err');
+    if (!ok(a) || !ok(a2)) return setMsg('Alınan ve verilen miktar sıfırdan büyük olmalı.', 'err');
+    if (!ok(r) || !ok(r2)) return setMsg('Alış ve satış kuru sıfırdan büyük olmalı.', 'err');
+
+    var maxSeq = state.tx.reduce(function (m, t) { return Math.max(m, t.seq); }, 0);
+    var gid = uid(), note = $('fNote').value.trim();
+    var next = state.tx.concat([
+      { id: uid(), seq: maxSeq + 1, date: date, type: 'in', cur: c, amount: a, rate: r, note: note, arb: gid },
+      { id: uid(), seq: maxSeq + 2, date: date, type: 'out', cur: c2, amount: a2, rate: r2, note: note, arb: gid }
+    ]);
+    var res = compute(next);
+    if (res.error) return setMsg(res.error, 'err');
+    state.tx = next;
+    if (!(state.rates[c] > 0)) state.rates[c] = r;
+    if (!(state.rates[c2] > 0)) state.rates[c2] = r2;
+    save();
+    resetForm();
+    render();
+    setMsg('Arbitraj kaydedildi.' + (res.tl < -0.005 ? ' TL kasası eksiye düştü: ' + fmtTL(res.tl) : ''),
+           res.tl < -0.005 ? 'err' : 'ok');
+  }
+  function describeTx(t) {
+    return fmtDate(t.date) + ' · ' + typeLabel(t) + ' · ' + fmtAmt(t.amount, t.cur) +
+           (isCash(t.cur) ? '' : ' ' + shortName(t.cur));
+  }
   function removeTx(id) {
     var t = state.tx.filter(function (x) { return x.id === id; })[0];
     if (!t) return;
-    var next = state.tx.filter(function (x) { return x.id !== id; });
+    // Arbitrajın iki ayağı birlikte silinir
+    var group = t.arb ? state.tx.filter(function (x) { return x.arb === t.arb; }) : [t];
+    var ids = group.map(function (x) { return x.id; });
+    var next = state.tx.filter(function (x) { return ids.indexOf(x.id) < 0; });
     var res = compute(next);
     if (res.error) {
       alert('Bu işlem silinemez: silinirse ' + res.error + '\nÖnce ilgili satış işlemini silin ya da düzenleyin.');
       return;
     }
-    var info = fmtDate(t.date) + ' · ' + typeLabel(t) + ' · ' + fmtAmt(t.amount, t.cur) +
-               (isCash(t.cur) ? '' : ' ' + (isMetal(t.cur) ? label(t.cur) : t.cur));
-    if (!confirm('Bu işlem silinsin mi?\n' + info)) return;
+    var question = group.length > 1 ? 'Arbitrajın iki işlemi birlikte silinsin mi?' : 'Bu işlem silinsin mi?';
+    if (!confirm(question + '\n' + group.map(describeTx).join('\n'))) return;
     state.tx = next;
     save();
-    if (editingId === id) resetForm();
+    if (ids.indexOf(editingId) >= 0) resetForm();
+    render();
+  }
+
+  // ---------- Kasa sayımı ----------
+  function recordedBal(c) { return isCash(c) ? lastRes.tl : (lastRes.acc[c] ? lastRes.acc[c].bal : 0); }
+  function countHasInput(c) { return Object.keys(state.count.qty[c] || {}).length > 0; }
+  function countedTotal(c) {
+    var q = state.count.qty[c] || {}, sum = Number(q.other) || 0;
+    (DENOMS[c] || []).forEach(function (d) { sum += d * (Number(q[d]) || 0); });
+    return sum;
+  }
+  function countDiff(c) { return round4(countedTotal(c) - recordedBal(c)); }
+  function renderCount() {
+    var c = state.count.cur, grid = $('countGrid');
+    $('countCur').value = c;
+    // Adet yazılırken satırları yeniden kurma
+    if (!(grid.contains(document.activeElement) && document.activeElement.tagName === 'INPUT')) {
+      grid.textContent = '';
+      var q = state.count.qty[c] || {};
+      var row = function (key, text, mult, placeholder, aria) {
+        var input = el('input', {
+          type: 'number', inputmode: mult ? 'numeric' : 'decimal', step: mult ? '1' : 'any', min: '0',
+          placeholder: placeholder, 'aria-label': aria
+        });
+        if (q[key]) input.value = q[key];
+        var sub = el('span', { class: 's amt', text: q[key] ? fmtAmt((mult || 1) * q[key], c) : '' });
+        input.addEventListener('input', function () {
+          var v = Number(input.value), cur = state.count.qty[c] || (state.count.qty[c] = {});
+          if (v > 0 && isFinite(v)) cur[key] = v; else delete cur[key];
+          if (!Object.keys(cur).length) delete state.count.qty[c];
+          sub.textContent = v > 0 && isFinite(v) ? fmtAmt((mult || 1) * v, c) : '';
+          save();
+          updateCountSum();
+        });
+        grid.appendChild(el('div', { class: 'count-row' }, [el('span', { class: 'd', text: text }), input, sub]));
+      };
+      var sym = isCash(c) ? '₺' : c;
+      (DENOMS[c] || []).forEach(function (d) {
+        row(String(d), fmtNum(d, 0) + ' ' + sym, d, 'adet', fmtNum(d, 0) + ' ' + sym + ' adedi');
+      });
+      if (DENOMS[c]) row('other', 'Diğer', 0, 'tutar', 'Bozuk para ve diğer kupürlerin tutarı');
+      else row('other', 'Sayılan', 0, unit(c), 'Sayılan miktar');
+    }
+    updateCountSum();
+  }
+  function updateCountSum() {
+    var c = state.count.cur, has = countHasInput(c), diff = countDiff(c), even = Math.abs(diff) < 0.00005;
+    $('cCounted').textContent = has ? fmtAmt(countedTotal(c), c) : '—';
+    $('cRecorded').textContent = fmtAmt(recordedBal(c), c);
+    $('cDiff').textContent = !has ? '—' : even ? 'Kasa tutuyor'
+      : fmtAmt(Math.abs(diff), c) + (diff > 0 ? ' fazla' : ' eksik');
+    $('cDiff').className = 'v amt ' + (!has ? '' : even ? 'pos' : diff < 0 ? 'neg' : '');
+    $('btnCountApply').disabled = !has;
+    $('btnCountApply').textContent = has && !even ? 'Farkı kasaya işle' : 'Sayımı kaydet';
+    $('btnCountClear').disabled = !has;
+    var last = state.count.last[c], txt = '';
+    if (last) {
+      var d = new Date(last.at), ld = round4(last.counted - last.recorded);
+      txt = 'Son sayım' + (isNaN(d) ? '' : ': ' + d.toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })) +
+            ' · ' + (Math.abs(ld) < 0.00005 ? 'kasa tutuyordu' : fmtAmt(Math.abs(ld), c) + (ld > 0 ? ' fazla çıktı' : ' eksik çıktı'));
+    }
+    $('cLast').textContent = txt;
+  }
+  // Sayımı kaydeder; fark varsa kayıtlı bakiyeyi sayılan tutara eşitleyen bir "Sayım farkı" işlemi ekler
+  function applyCount() {
+    var c = state.count.cur;
+    if (!countHasInput(c)) return;
+    var counted = countedTotal(c), rec = recordedBal(c), diff = countDiff(c);
+    if (Math.abs(diff) >= 0.00005) {
+      if (!confirm('Kayıtlı ' + label(c) + ' bakiyesi sayılan tutara eşitlenecek.\nKayıtlı: ' + fmtAmt(rec, c) +
+                   '\nSayılan: ' + fmtAmt(counted, c) + '\nFark: ' + fmtAmt(Math.abs(diff), c) +
+                   (diff > 0 ? ' fazla' : ' eksik') + '\nDevam edilsin mi?')) return;
+      var a = lastRes.acc[c];
+      var cost = isCash(c) ? 1 : a && a.bal > EPS ? a.cost / a.bal : state.rates[c] > 0 ? state.rates[c] : 1;
+      var maxSeq = state.tx.reduce(function (m, t) { return Math.max(m, t.seq); }, 0);
+      var next = state.tx.concat([{
+        id: uid(), seq: maxSeq + 1, date: today(), type: diff > 0 ? 'in' : 'out', cur: c,
+        amount: Math.abs(diff), rate: cost, adj: true, note: 'Kasa sayımı farkı'
+      }]);
+      var res = compute(next);
+      if (res.error) return alert('Fark işlenemedi: ' + res.error);
+      state.tx = next;
+    }
+    state.count.last[c] = { at: new Date().toISOString(), counted: counted, recorded: rec };
+    delete state.count.qty[c];
+    save();
     render();
   }
 
@@ -1163,6 +1425,13 @@
     sel.appendChild(gMetal);
     sel.appendChild(gCash);
     sel.value = 'USD';
+    var sel2 = $('fCur2'), selCount = $('countCur');
+    CODES.forEach(function (c) {
+      var text = isCash(c) ? 'TL' : isMetal(c) ? label(c) : c + ' — ' + ASSETS[c].name;
+      if (!isCash(c)) sel2.appendChild(el('option', { value: c, text: text }));
+      selCount.appendChild(el('option', { value: c, text: text }));
+    });
+    sel2.value = 'EUR';
 
     load();
     var hide = false;
@@ -1176,12 +1445,36 @@
 
     $('txForm').addEventListener('submit', submitForm);
     $('btnCancel').addEventListener('click', function () { resetForm(); setMsg(''); });
-    var retarget = function () { if (!editingId) rateTouched = false; prefillRate(); };
+    var retarget = function (ev) {
+      if (isArb()) {
+        // Arbitraj TL ile yapılmaz; alınan ve verilen varlık da aynı olamaz
+        if (isCash($('fCur').value)) {
+          if (ev.target === $('fCur')) $('tIn').checked = true; else $('fCur').value = 'USD';
+        }
+        if ($('fCur2').value === $('fCur').value) $('fCur2').value = $('fCur').value === 'EUR' ? 'USD' : 'EUR';
+      }
+      if (!editingId) rateTouched = false;
+      rate2Touched = amount2Touched = false;
+      prefillRate();
+    };
     $('fCur').addEventListener('change', retarget);
     $('tIn').addEventListener('change', retarget);
     $('tOut').addEventListener('change', retarget);
-    $('fRate').addEventListener('input', function () { rateTouched = true; updateTotal(); });
-    $('fAmount').addEventListener('input', updateTotal);
+    $('tArb').addEventListener('change', retarget);
+    $('fCur2').addEventListener('change', function () { rate2Touched = amount2Touched = false; prefillRate(); });
+    $('fRate').addEventListener('input', function () { rateTouched = true; autoAmount2(); updateTotal(); });
+    $('fAmount').addEventListener('input', function () { autoAmount2(); updateTotal(); });
+    $('fRate2').addEventListener('input', function () { rate2Touched = true; autoAmount2(); updateTotal(); });
+    $('fAmount2').addEventListener('input', function () { amount2Touched = true; updateTotal(); });
+    $('countCur').addEventListener('change', function () {
+      if (ASSETS[this.value]) state.count.cur = this.value;
+      save(); renderCount();
+    });
+    $('btnCountApply').addEventListener('click', applyCount);
+    $('btnCountClear').addEventListener('click', function () {
+      delete state.count.qty[state.count.cur];
+      save(); renderCount();
+    });
     $('filterCur').addEventListener('change', renderTx);
     $('filterType').addEventListener('change', renderTx);
     $('btnRates').addEventListener('click', function () { updateRates(false); });
