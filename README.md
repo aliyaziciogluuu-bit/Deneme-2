@@ -16,3 +16,11 @@ Telefonun ana ekranına eklenebilmesi için sayfanın HTTPS üzerinden yayınlan
 
 Fiyat kaynakları: finans.truncgil.com (asıl), open.er-api.com / api.frankfurter.dev ve
 api.gold-api.com (yedek).
+
+## Gölgekuyu — zindan RPG'si
+
+`golgekuyu.html` — tek dosyalık, telefonda dokunarak oynanan sıra tabanlı bir zindan oyunu.
+Her kat rastgele üretilir; düşmanlar, sandıklar, tuzaklar, sunaklar ve tüccar vardır.
+Seviye atladıkça üç güçten birini seçersiniz, nadirlik seviyeli eşyalar (silah, zırh, takı)
+kuşanırsınız, her 5 katta bir patronla karşılaşırsınız. Ölünce kazanılan ruhlarla kalıcı
+geliştirmeler ve yeni sınıflar (Okçu, Büyücü) açılır. İlerleme yalnızca cihazın tarayıcısında saklanır.

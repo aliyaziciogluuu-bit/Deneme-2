@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d0a14">
+<style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}body{margin:0}</style>
+<!--A-->
+<title>Gölgekuyu</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap">
+<style>
+/* Yerleşim: tek ekran. Üstte can/deneyim şeridi, ortada zindan penceresi, altta başparmak hizasında eylem çubuğu. */
+:root{
+  --void:#0d0a14; --stone:#1b1626; --stone-2:#2a2238; --line:#43385a;
+  --bone:#ece4d0; --dim:#a79db8;
+  --torch:#f2a33a; --blood:#d9484a; --moss:#62b86a; --mana:#5a9be0; --soul:#b07ae8;
+  --rar0:#c3bccd; --rar1:#6aa8ea; --rar2:#b98af0; --rar3:#f5b04a;
+  --display:'Pixelify Sans',ui-monospace,'Courier New',monospace;
+  --body:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  color-scheme:dark;
+}
+html,body{height:100%;box-sizing:border-box}
+body{background:var(--void);color:var(--bone);font-family:var(--body);overflow:hidden;
+  -webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;overscroll-behavior:none}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+button{font:inherit;color:inherit;touch-action:manipulation;cursor:pointer}
+button:focus-visible{outline:2px solid var(--torch);outline-offset:2px}
+.px{image-rendering:pixelated;image-rendering:crisp-edges}
+
+#app{position:relative;height:100%;max-width:600px;margin:0 auto;display:flex;flex-direction:column;gap:8px;
+  padding-block:8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* --- üst şerit --- */
+#hud{display:flex;gap:10px;align-items:stretch;font-family:var(--display)}
+.bars{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.bar{position:relative;height:22px;background:#07050c;border:2px solid var(--line)}
+.bar i{position:absolute;inset:0 auto 0 0;width:0;transition:width .18s}
+.bar span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;
+  text-shadow:0 1px 0 #000,1px 0 0 #000,-1px 0 0 #000,0 -1px 0 #000;font-variant-numeric:tabular-nums}
+.bar.hp i{background:linear-gradient(#ef6466,var(--blood) 55%,#a82f3a)}
+.bar.xp{height:14px}.bar.xp i{background:linear-gradient(#c79bf4,var(--soul) 55%,#7c4fb8)}
+.bar.xp span{font-size:11px}
+.meta{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end;font-size:14px;font-weight:600;white-space:nowrap}
+.meta .gold{color:#f2c94c;display:flex;align-items:center;gap:4px}
+.meta img{width:16px;height:16px}
+
+/* --- sahne --- */
+#stage{position:relative;flex:1;min-height:0;border:2px solid var(--line);background:#07050c;overflow:hidden}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none}
+#mini{position:absolute;top:6px;right:6px;width:68px;height:68px;background:rgba(7,5,12,.72);border:2px solid var(--line);pointer-events:none}
+#bossBar{position:absolute;top:8px;left:8px;right:86px;font-family:var(--display);pointer-events:none}
+#bossBar b{display:block;font-size:13px;color:#ffb3a8;text-shadow:0 1px 0 #000;margin-bottom:2px}
+#bossBar div{height:10px;background:#07050c;border:2px solid #6d2630}
+#bossBar i{display:block;height:100%;background:var(--blood);transition:width .15s}
+#log{position:absolute;left:8px;bottom:8px;right:8px;display:flex;flex-direction:column;gap:2px;pointer-events:none;
+  font-size:12px;line-height:1.3;color:var(--dim);text-shadow:0 1px 0 #000,0 0 4px #000}
+#log div{animation:logfade 6s forwards}
+@keyframes logfade{0%,70%{opacity:1}100%{opacity:0}}
+#toast{position:absolute;left:50%;top:22%;transform:translateX(-50%);padding:6px 12px;background:rgba(7,5,12,.88);border:2px solid var(--torch);
+  font-family:var(--display);font-size:14px;font-weight:600;text-align:center;max-width:86%;pointer-events:none;opacity:0;transition:opacity .25s}
+#toast.on{opacity:1}
+#banner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;pointer-events:none;
+  font-family:var(--display);background:#07050c;opacity:0}
+#banner.on{animation:banner 1.5s ease-out}
+#banner b{font-size:34px;font-weight:700;color:var(--torch);letter-spacing:.06em}
+#banner span{font-size:15px;color:var(--dim)}
+@keyframes banner{0%{opacity:1}55%{opacity:1}100%{opacity:0}}
+#descend{position:absolute;left:50%;bottom:44px;transform:translateX(-50%);z-index:2}
+
+/* --- eylem çubuğu --- */
+#bar{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.act{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:58px;padding:4px 2px;
+  background:var(--stone-2);border:2px solid var(--line);border-bottom-width:5px;font-family:var(--display);font-size:11px;font-weight:600;line-height:1.1;text-align:center}
+.act:active{transform:translateY(2px);border-bottom-width:3px;margin-bottom:2px}
+.act img{width:26px;height:26px}
+.act .n{position:absolute;top:2px;right:4px;font-size:13px;color:var(--torch)}
+.act.cd{filter:saturate(.25) brightness(.7)}
+.act.cd .n{inset:0;display:flex;align-items:center;justify-content:center;font-size:24px;color:#fff;text-shadow:0 2px 0 #000}
+.act.on{border-color:var(--torch);background:#3a2c20}
+
+/* --- düğmeler --- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 14px;background:var(--stone-2);
+  border:2px solid var(--line);border-bottom-width:5px;font-family:var(--display);font-size:16px;font-weight:600;text-align:center}
+.btn:active{transform:translateY(2px);border-bottom-width:3px;margin-bottom:2px}
+.btn.pri{background:#7a3b12;border-color:var(--torch);color:#fff3dc}
+.btn.soul{background:#3b2760;border-color:var(--soul)}
+.btn.wide{width:100%}
+.btn[disabled]{opacity:.45;pointer-events:none}
+.btn img{width:20px;height:20px}
+
+/* --- paneller --- */
+#overlay{position:absolute;inset:0;z-index:5;display:flex;align-items:center;justify-content:center;background:rgba(7,5,12,.8);
+  padding:12px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px))}
+#overlay.solid{background:var(--void);align-items:stretch}
+#panel{width:100%;max-height:100%;overflow-y:auto;background:var(--stone);border:2px solid var(--line);box-shadow:0 0 0 2px #000,6px 6px 0 2px rgba(0,0,0,.55);
+  padding:16px;display:flex;flex-direction:column;gap:12px}
+#overlay.solid #panel{background:transparent;border:0;box-shadow:none;padding:8px 0}
+#panel h1{margin:0;font-family:var(--display);font-size:clamp(40px,13vw,60px);font-weight:700;line-height:1;letter-spacing:.02em;color:var(--torch);
+  text-shadow:0 4px 0 #6a2f0c,0 8px 0 #000}
+#panel h2{margin:0;font-family:var(--display);font-size:24px;font-weight:700;color:var(--torch);text-wrap:balance}
+#panel h3{margin:0;font-family:var(--display);font-size:16px;font-weight:600}
+#panel p{margin:0;font-size:14px;line-height:1.5;color:var(--dim)}
+.tag{max-width:34ch}
+.chips{display:flex;flex-wrap:wrap;gap:8px;font-family:var(--display);font-size:14px}
+.chips span{display:inline-flex;align-items:center;gap:6px;padding:4px 8px;background:var(--stone);border:2px solid var(--line)}
+.chips img{width:16px;height:16px}.chips b{color:var(--bone)}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
+.tabs button{padding:8px 2px;background:transparent;border:0;border-bottom:3px solid var(--line);font-family:var(--display);font-size:14px;font-weight:600;color:var(--dim)}
+.tabs button.on{color:var(--torch);border-color:var(--torch)}
+.classes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.cls{display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 4px;background:var(--stone);border:2px solid var(--line);font-family:var(--display);font-size:14px;font-weight:600}
+.cls img{width:50px;height:50px}
+.cls.on{border-color:var(--torch);background:#2e2233}
+.cls.lock img{filter:brightness(.25)}
+.cls small{font-size:12px;color:var(--dim);display:flex;align-items:center;gap:3px}
+.cls small img{width:14px;height:14px;filter:none}
+.statline{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--display);font-size:13px;color:var(--bone)}
+.stack{display:flex;flex-direction:column;gap:8px}
+.row{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:8px;background:var(--stone);border:2px solid var(--line)}
+#overlay:not(.solid) .row{background:var(--stone-2)}
+.row>img{width:30px;height:30px}
+.row .t{min-width:0}
+.row .t b{display:block;font-family:var(--display);font-size:15px}
+.row .t span{display:block;font-size:12.5px;line-height:1.35;color:var(--dim)}
+.row .btn{min-height:38px;padding:4px 10px;font-size:14px}
+.row.done{opacity:.6}.row.got{border-color:var(--moss)}
+.pips{display:flex;gap:2px;margin-top:4px}.pips i{width:8px;height:5px;background:#07050c;border:1px solid var(--line)}.pips i.f{background:var(--soul);border-color:var(--soul)}
+.perk{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;width:100%;padding:12px;text-align:left;background:var(--stone-2);border:2px solid var(--line);border-bottom-width:5px}
+.perk:active{transform:translateY(2px);border-bottom-width:3px;margin-bottom:2px}
+.perk img{width:36px;height:36px}
+.perk b{display:block;font-family:var(--display);font-size:17px;color:var(--bone)}
+.perk span{display:block;font-size:13px;color:var(--dim);line-height:1.35}
+.perk em{font-style:normal;color:var(--torch);font-family:var(--display);font-size:12px}
+.item{padding:10px;background:var(--void);border:2px solid var(--line);display:flex;flex-direction:column;gap:3px}
+.item b{font-family:var(--display);font-size:16px}
+.item small{font-family:var(--display);font-size:12px;color:var(--dim)}
+.item span{font-size:13px}
+.item .pw{font-family:var(--display);font-size:13px;color:var(--dim)}
+.r0{color:var(--rar0)}.r1{color:var(--rar1)}.r2{color:var(--rar2)}.r3{color:var(--rar3)}
+.item.r1b{border-color:var(--rar1)}.item.r2b{border-color:var(--rar2)}.item.r3b{border-color:var(--rar3)}
+.up{color:var(--moss)}.down{color:var(--blood)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;font-family:var(--display);font-size:14px}
+.grid2 span{display:flex;justify-content:space-between;gap:8px;color:var(--dim)}.grid2 b{color:var(--bone);font-variant-numeric:tabular-nums}
+.souls{display:flex;align-items:center;justify-content:center;gap:10px;padding:10px;border:2px solid var(--soul);background:#1e1533;font-family:var(--display);font-size:22px;font-weight:700}
+.souls img{width:28px;height:28px}
+.guide{display:flex;flex-direction:column;gap:10px}
+.guide p b{color:var(--bone)}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}#banner.on{animation-duration:.6s}}
+</style>
+<!--/A-->
+</head>
+<body>
+<!--B-->
+<div id="app" lang="tr">
+  <header id="hud">
+    <div class="bars">
+      <div class="bar hp"><i id="hpFill"></i><span id="hpTxt"></span></div>
+      <div class="bar xp"><i id="xpFill"></i><span id="xpTxt"></span></div>
+    </div>
+    <div class="meta"><span id="floorTxt">Kat 1</span><span class="gold"><img class="px" id="goldIco" alt=""><span id="goldTxt">0</span></span></div>
+  </header>
+  <main id="stage">
+    <canvas id="cv"></canvas>
+    <canvas id="mini" class="px" width="102" height="102"></canvas>
+    <div id="bossBar" hidden><b id="bossName"></b><div><i id="bossFill"></i></div></div>
+    <div id="log"></div>
+    <div id="toast"></div>
+    <div id="banner"><b id="bannerT"></b><span id="bannerS"></span></div>
+    <button class="btn pri" id="descend" hidden>Aşağı in ▼</button>
+  </main>
+  <footer id="bar">
+    <button class="act" id="sk0"></button>
+    <button class="act" id="sk1"></button>
+    <button class="act" id="potBtn"></button>
+    <button class="act" id="expBtn"></button>
+    <button class="act" id="charBtn"></button>
+  </footer>
+  <div id="overlay" class="solid"><div id="panel"></div></div>
+</div>
+<script>
+(() => {
+'use strict';
+const $ = id => document.getElementById(id);
+const rnd = Math.random;
+const ri = (a, b) => a + Math.floor(rnd() * (b - a + 1));
+const pick = a => a[Math.floor(rnd() * a.length)];
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const DIRS = [[1, 0], [-1, 0], [0, 1], [0, -1]];
+
+/* ================= KAYIT ================= */
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+  del(k) { try { localStorage.removeItem(k); } catch (e) {} }
+};
+const META_KEY = 'golgekuyu.meta.v1', RUN_KEY = 'golgekuyu.run.v1';
+const meta = Object.assign({ souls: 0, up: {}, classes: { warrior: true }, last: 'warrior', best: 0, runs: 0, kills: 0, bossKills: 0, ach: {}, sound: true, tip: false },
+  store.get(META_KEY, {}));
+const saveMeta = () => store.set(META_KEY, meta);
+
+/* ================= VERİ ================= */
+const PAL = { k: '#1a1423', w: '#f4f1e8', g: '#a7adb5', G: '#626873', r: '#d94a4a', R: '#8f2a35', o: '#e8913a', y: '#f2c94c',
+  b: '#4a8fd9', B: '#2b4f8f', n: '#9a6a44', N: '#5e3d27', s: '#f0c8a0', e: '#62b86a', E: '#2f7a45', p: '#a875e0', P: '#5f3a8f', c: '#7fe0d8', m: '#e07ab0' };
+const SPR = {
+  warrior: ['.ggg....', 'ggggg.w.', 'sksks.w.', '.sss..w.', 'rrrrrsy.', 'rRRRr.n.', '.g.g....', '.N.N....'],
+  archer: ['.EEE....', 'EEEEE.n.', 'sksks..n', '.sss...n', 'eeeees.n', 'eNNNe.n.', '.n.n....', '.N.N....'],
+  mage: ['..p...c.', '.ppp..n.', 'ppppp.n.', 'sksks.n.', '.www.sn.', 'ppppp.n.', 'pPpPp.n.', '.P.P....'],
+  rat: ['........', '........', '....gg..', '.ggggkg.', 'mggggggm', 'm.gggg..', '..G..G..', '........'],
+  bat: ['........', 'P......P', 'PP.pp.PP', 'PPPppPPP', '.PrpprP.', '..pppp..', '...pp...', '........'],
+  skeleton: ['.www....', 'wwwww.g.', 'wkwkw.g.', '.www..g.', 'wgwgww..', '.www....', '.w.w....', '.g.g....'],
+  slime: ['........', '........', '..eeee..', '.eeweee.', 'eekeekee', 'eeeeeeee', 'EeeeeeeE', '.EEEEEE.'],
+  minislime: ['........', '........', '........', '........', '..eee...', '.ekeke..', '.eeeee..', '.EEEEE..'],
+  spider: ['........', 'g.g..g.g', '.g.gg.g.', '..pppp..', 'ggprrpgg', '..pPPp..', '.g.gg.g.', 'g.g..g.g'],
+  goblin: ['........', 'e...e.n.', 'eeeee..n', 'ekeke..n', '.eee...n', 'nnnnne.n', '.n.n..n.', '.N.N....'],
+  orc: ['.EEE..G.', 'EEEEEGGG', 'EkEkE.n.', 'EwEwE.n.', 'nnnnnen.', 'nNNNn.n.', 'nnnnn...', '.N.N....'],
+  ghost: ['..www...', '.wwwww..', 'wwkwkww.', 'wwwwwww.', 'wwwkwww.', 'cwwwwwc.', 'cwcwcwc.', 'c.c.c.c.'],
+  shaman: ['.ppp..y.', 'ppppp.n.', 'ekeke.n.', '.eee..n.', 'pppppen.', 'pPPPp.n.', 'ppppp...', '.N.N....'],
+  golem: ['.GGGGGG.', 'GggggggG', 'GgcggcgG', 'GggggggG', 'gGggggGg', 'gGgGGgGg', '.Gg..gG.', '.GG..GG.'],
+  demon: ['R.....R.', 'RR...RR.', '.rrrrr..', '.ryryr..', '.rrrrr..', 'RrrRrrR.', '.rrrrr..', '.R...R..'],
+  wraith: ['..ppp...', '.pPPPp..', '.PcPcP..', 'pPPPPPp.', 'pPPPPPp.', '.pPPPp..', '.p.pPp..', '...p.p..'],
+  mimic: ['........', '.nnnnnn.', 'nyyyyyyn', 'nwkwwkwn', 'nrrrrrrn', 'nwrwwrwn', 'nNNNNNNn', '.nnnnnn.'],
+  king: ['y.y.y...', 'yyyyy.g.', 'wwwww.g.', 'wrwrw.g.', '.www.wgg', 'RwwwR.g.', 'RwRwR...', '.w.w....'],
+  queen: ['g.g..g.g', '.g.gg.g.', '..rmmr..', 'ggmmmmgg', '.mmrrmm.', 'gmmmmmmg', '.g.mm.g.', 'g..gg..g'],
+  lord: ['o.y..y.o', 'oy.oo.yo', '.oooooo.', '.owoowo.', '.oooooo.', 'RoorrooR', '.RooooR.', '.R.RR.R.'],
+  dragon: ['.p...p..', '.pp.ppp.', '..ppcppp', 'pppppprr', 'pPppppp.', 'pPPppp..', '.ppppp..', '.P..P...'],
+  merchant: ['.nnn....', 'nnnnn...', 'sksks...', '.www....', 'nnnnnyy.', 'nNnNnyy.', 'nnnnn...', '.N.N....'],
+  chest: ['........', '.nnnnnn.', 'nyyyyyyn', 'nnnnnnnn', 'nnnyynnn', 'nNNyyNNn', 'nNNNNNNn', '........'],
+  gold: ['........', '........', '...y....', '..yyy.y.', '.yyoyyy.', 'yyyyyoyy', '.yoyyyy.', '........'],
+  potion: ['...nn...', '...gg...', '..gggg..', '..grrg..', '.grrrrg.', '.grwrrg.', '.grrrrg.', '..gggg..'],
+  sword: ['......ww', '.....wgw', '....wgw.', '.n.wgw..', '.nngw...', '..nn....', '.n.nn...', 'n.......'],
+  armor: ['........', 'gg....gg', 'gggggggg', '.gggggg.', '.gGggGg.', '.gggggg.', '.gGGGGg.', '..gggg..'],
+  ring: ['........', '...cc...', '...cc...', '..yyyy..', '.yy..yy.', '.y....y.', '.yy..yy.', '..yyyy..'],
+  fountain: ['........', '...cc...', '..c..c..', '.gccccg.', 'gcbccbcg', 'gggggggg', '.GGGGGG.', '..GGGG..'],
+  fountain0: ['........', '........', '........', '.gGGGGg.', 'gGGGGGGg', 'gggggggg', '.GGGGGG.', '..GGGG..'],
+  shrine: ['...p....', '..pmp...', '..ppp...', '...p....', '.gggggg.', '..gGGg..', '..gGGg..', '.gggggg.'],
+  shrine0: ['........', '........', '........', '........', '.gggggg.', '..gGGg..', '..gGGg..', '.gggggg.'],
+  trap: ['........', 'w..w..w.', 'g..g..g.', '........', '.w..w..w', '.g..g..g', '........', '........'],
+  heart: ['........', '.rr..rr.', 'rwrrrrrr', 'rrrrrrrr', 'rrrrrrrr', '.rrrrrr.', '..rrrr..', '...rr...'],
+  shield: ['.bbbbbb.', 'bBBBBBBb', 'bBByyBBb', 'bByyyyBb', 'bBByyBBb', '.bBBBBb.', '..bBBb..', '...bb...'],
+  star: ['...yy...', '...yy...', 'yyyyyyyy', '.yyyyyy.', '..yyyy..', '.yyyyyy.', '.yy..yy.', 'y......y'],
+  skull: ['.wwwwww.', 'wwwwwwww', 'wkkwwkkw', 'wkkwwkkw', 'wwwkkwww', '.wwwwww.', '.wkwwkw.', '..wwww..'],
+  soul: ['...pp...', '..pmmp..', '.pmwmpp.', 'pmmmmppP', '.pmmppP.', '..pmpP..', '...pP...', '........'],
+  boots: ['........', '..nn....', '..nn....', '..nn....', '..nnn...', '..nnnnn.', '..NNNNN.', '........'],
+  drop: ['...e....', '...e....', '..eee...', '..eee...', '.eewee..', '.eeeee..', '.eeeee..', '..eee...'],
+  bolt: ['....yy..', '...yy...', '..yy....', '.yyyyy..', '...yy...', '..yy....', '.yy.....', '.y......'],
+  fire: ['...o....', '..oo....', '..oyo.o.', '.ooyooo.', '.oyyyoo.', 'ooywyyoo', '.oyyyyo.', '..oooo..'],
+  arrow: ['.....www', '......ww', '.....n.w', '....n...', '...n....', '.gn.....', 'gg......', '.g......'],
+  ice: ['...c....', '.c.c.c..', '..ccc...', 'ccccccc.', '..ccc...', '.c.c.c..', '...c....', '........'],
+  compass: ['..gggg..', '.g....g.', 'g...r..g', 'g..rw..g', 'g..wb..g', 'g..b...g', '.g....g.', '..gggg..']
+};
+const THEMES = [
+  { n: 'Unutulmuş Zindan', f: '#3b3450', f2: '#332c46', f3: '#473f5e', w: '#7a7191', wl: '#9c93b3', wd: '#544c69', t: '#241e30', t2: '#2c2539' },
+  { n: 'Yosunlu Mağaralar', f: '#2f4038', f2: '#283730', f3: '#3a4d42', w: '#5f8068', wl: '#80a488', wd: '#42594a', t: '#1b2620', t2: '#22302a' },
+  { n: 'Kor Ocakları', f: '#45322d', f2: '#3b2a26', f3: '#553c33', w: '#95553f', wl: '#ba725b', wd: '#6a392b', t: '#2a1a17', t2: '#33201c' },
+  { n: 'Gölge Diyarı', f: '#2a2a48', f2: '#23233d', f3: '#343458', w: '#55559a', wl: '#7676c0', wd: '#3b3b6e', t: '#15152a', t2: '#1c1c36' }
+];
+const CLASSES = {
+  warrior: { n: 'Savaşçı', hp: 110, atk: 10, def: 6, crit: 5, dodge: 0, range: 1, ghp: 9, gatk: 1.1, gdef: .5, cost: 0, sk: ['whirl', 'roar'], d: 'Dayanıklı yakın dövüşçü. Kalabalığın ortasında parlar.' },
+  archer: { n: 'Okçu', hp: 84, atk: 9, def: 3, crit: 14, dodge: 8, range: 4, ghp: 5, gatk: 1.1, gdef: .3, cost: 40, sk: ['rain', 'stun'], d: 'Uzaktan vurur, sık kritik atar. Derisi incedir.' },
+  mage: { n: 'Büyücü', hp: 72, atk: 12, def: 2, crit: 6, dodge: 0, range: 4, ghp: 4, gatk: 1.25, gdef: .2, cost: 90, sk: ['fireball', 'frost'], d: 'En yüksek hasar, en kırılgan beden. Alan büyüleri kullanır.' }
+};
+const MOBS = {
+  rat: { n: 'Sıçan', hp: 12, atk: 5, def: 0, xp: 4, spd: 1.3, from: 1, to: 5 },
+  bat: { n: 'Yarasa', hp: 9, atk: 5, def: 0, xp: 4, spd: 1.3, erratic: .4, from: 1, to: 7 },
+  skeleton: { n: 'İskelet', hp: 22, atk: 9, def: 2, xp: 7, from: 2, to: 11 },
+  slime: { n: 'Balçık', hp: 26, atk: 7, def: 0, xp: 7, spd: .75, split: 1, from: 2, to: 9 },
+  minislime: { n: 'Balçıkçık', hp: 9, atk: 4, def: 0, xp: 2 },
+  goblin: { n: 'Goblin Okçu', hp: 15, atk: 7, def: 1, xp: 8, range: 4, from: 3, to: 12 },
+  spider: { n: 'Örümcek', hp: 18, atk: 7, def: 1, xp: 8, spd: 1.2, poison: 3, from: 4, to: 13 },
+  orc: { n: 'Ork', hp: 44, atk: 14, def: 4, xp: 14, from: 6, to: 16 },
+  ghost: { n: 'Hayalet', hp: 24, atk: 12, def: 0, xp: 13, dodge: 30, from: 7, to: 99 },
+  shaman: { n: 'Şaman', hp: 26, atk: 12, def: 1, xp: 15, range: 5, magic: 1, from: 8, to: 99 },
+  golem: { n: 'Golem', hp: 90, atk: 19, def: 9, xp: 24, spd: .6, from: 11, to: 99 },
+  demon: { n: 'İblis', hp: 60, atk: 20, def: 5, xp: 26, from: 12, to: 99 },
+  wraith: { n: 'Gölge', hp: 46, atk: 21, def: 2, xp: 28, spd: 1.2, drain: 1, from: 16, to: 99 },
+  mimic: { n: 'Taklitçi', hp: 40, atk: 12, def: 3, xp: 20 },
+  king: { n: 'İskelet Kral', hp: 260, atk: 14, def: 4, xp: 80, boss: 1 },
+  queen: { n: 'Örümcek Ana', hp: 620, atk: 26, def: 5, xp: 160, boss: 1, poison: 3, spd: 1.25 },
+  lord: { n: 'Ateş Lordu', hp: 1200, atk: 40, def: 8, xp: 280, boss: 1 },
+  dragon: { n: 'Gölge Ejder', hp: 2200, atk: 60, def: 10, xp: 450, boss: 1 }
+};
+const BOSSES = ['king', 'queen', 'lord', 'dragon'];
+const PERKS = [
+  { id: 'vit', n: 'Dev Gücü', d: '+%15 azami can', ic: 'heart', max: 9 },
+  { id: 'str', n: 'Keskin Bilek', d: '+%12 saldırı', ic: 'sword', max: 9 },
+  { id: 'iron', n: 'Demir Deri', d: '+3 savunma ve +%10 savunma', ic: 'shield', max: 9 },
+  { id: 'ls', n: 'Kan Emici', d: 'Verdiğin hasarın %5’i can olarak döner', ic: 'heart', max: 5 },
+  { id: 'crit', n: 'Kritik Ustası', d: '+%8 kritik şansı', ic: 'bolt', max: 6 },
+  { id: 'cdmg', n: 'Ölümcül Darbe', d: '+%35 kritik hasarı', ic: 'skull', max: 5 },
+  { id: 'dodge', n: 'Çevik', d: '+%6 kaçınma', ic: 'boots', max: 5 },
+  { id: 'thorn', n: 'Dikenli Zırh', d: 'Sana vuran, yediğin hasarın %30’unu geri yer', ic: 'shield', max: 4 },
+  { id: 'venom', n: 'Zehirli Silah', d: 'Vuruşların düşmanı 3 tur zehirler', ic: 'drop', max: 4 },
+  { id: 'dbl', n: 'Çifte Vuruş', d: '+%12 ikinci vuruş şansı', ic: 'sword', max: 5 },
+  { id: 'greed', n: 'Hazine Avcısı', d: '+%30 altın', ic: 'gold', max: 3 },
+  { id: 'wise', n: 'Bilge', d: '+%15 deneyim', ic: 'star', max: 3 },
+  { id: 'cdr', n: 'Usta', d: 'Yetenekler 1 tur erken dolar', ic: 'bolt', max: 3 },
+  { id: 'alch', n: 'Simyacı', d: 'İksirler %20 daha çok iyileştirir, hemen +1 iksir', ic: 'potion', max: 3 },
+  { id: 'regen', n: 'Yenilenme', d: 'Her 4 turda %2 can yeniler', ic: 'heart', max: 3 },
+  { id: 'exec', n: 'İnfaz', d: 'Canı %30’un altındaki düşmana +%50 hasar', ic: 'skull', max: 3 },
+  { id: 'rage', n: 'Öfke', d: 'Eksik canının her %10’u için +%4 saldırı', ic: 'fire', max: 3 },
+  { id: 'feast', n: 'Savaş Ganimeti', d: 'Her öldürmede %5 can yeniler', ic: 'heart', max: 3 }
+];
+const UPS = [
+  { id: 'hp', n: 'Dayanıklılık', d: '+10 azami can', ic: 'heart', max: 10, cost: l => 10 + l * 8 },
+  { id: 'atk', n: 'Güç', d: '+1 saldırı', ic: 'sword', max: 10, cost: l => 12 + l * 10 },
+  { id: 'def', n: 'Zırh', d: '+1 savunma', ic: 'shield', max: 8, cost: l => 12 + l * 10 },
+  { id: 'crit', n: 'Keskin Göz', d: '+%2 kritik şansı', ic: 'bolt', max: 5, cost: l => 15 + l * 12 },
+  { id: 'pot', n: 'İksir Kesesi', d: 'Sefere +1 iksirle başla', ic: 'potion', max: 3, cost: l => 20 + l * 25 },
+  { id: 'gold', n: 'Altın Burun', d: '+%10 altın', ic: 'gold', max: 5, cost: l => 12 + l * 10 },
+  { id: 'xp', n: 'Bilgelik', d: '+%8 deneyim', ic: 'star', max: 5, cost: l => 15 + l * 12 },
+  { id: 'luck', n: 'Şans', d: 'Daha nadir ganimet düşer', ic: 'ring', max: 5, cost: l => 20 + l * 18 },
+  { id: 'revive', n: 'İkinci Nefes', d: 'Her seferde bir kez ölümden dön', ic: 'soul', max: 1, cost: () => 150 }
+];
+const ACH = [
+  { id: 'k1', n: 'İlk Kan', d: 'İlk düşmanını öldür', r: 3, t: () => meta.kills >= 1 },
+  { id: 'k100', n: 'Kasap', d: 'Toplam 100 düşman öldür', r: 10, t: () => meta.kills >= 100 },
+  { id: 'k500', n: 'Kıyım', d: 'Toplam 500 düşman öldür', r: 30, t: () => meta.kills >= 500 },
+  { id: 'f5', n: 'Derine İnen', d: '5. kata ulaş', r: 8, t: () => meta.best >= 5 },
+  { id: 'f10', n: 'Karanlığa Alışan', d: '10. kata ulaş', r: 15, t: () => meta.best >= 10 },
+  { id: 'f15', n: 'Kor Yürüyen', d: '15. kata ulaş', r: 25, t: () => meta.best >= 15 },
+  { id: 'f20', n: 'Kuyunun Dibi', d: '20. kata ulaş', r: 40, t: () => meta.best >= 20 },
+  { id: 'b1', n: 'Kral Katili', d: 'İskelet Kral’ı devir', r: 15, t: () => meta.bossKills >= 1 },
+  { id: 'b4', n: 'Ejder Avcısı', d: 'Gölge Ejder’i devir', r: 60, t: () => meta.won },
+  { id: 'leg', n: 'Efsane', d: 'Efsanevi bir eşya kuşan', r: 15, t: () => G && Object.values(G.p.gear).some(i => i && i.rar === 3) },
+  { id: 'l10', n: 'Usta Maceracı', d: '10. seviyeye ulaş', r: 10, t: () => G && G.p.level >= 10 },
+  { id: 'rich', n: 'Zengin', d: 'Tek seferde 500 altın topla', r: 10, t: () => G && G.st.gold >= 500 },
+  { id: 'cls', n: 'Üçlü', d: 'Tüm sınıfların kilidini aç', r: 20, t: () => Object.keys(CLASSES).every(c => meta.classes[c]) }
+];
+const RAR = ['Sıradan', 'Nadir', 'Destansı', 'Efsanevi'];
+const AFF = { crit: ['kritik şansı', 1], ls: ['can çalma', 1], hp: ['azami can', 0], dodge: ['kaçınma', 1], thorns: ['diken hasarı', 0], gold: ['altın', 1], xp: ['deneyim', 1], atk: ['saldırı', 0], def: ['savunma', 0], dbl: ['çifte vuruş', 1] };
+const SLOT = { weapon: 'Silah', armor: 'Zırh', ring: 'Takı' };
+
+/* ================= DURUM ================= */
+let G = null, S = null, vis = new Uint8Array(0), over = false, modal = null, auto = null;
+let menuTab = 'play', selClass = meta.classes[meta.last] ? meta.last : 'warrior', confirmNew = false;
+const idx = (x, y) => y * G.W + x;
+const inb = (x, y) => x >= 0 && y >= 0 && x < G.W && y < G.H;
+const mobAt = (x, y) => G.mobs.find(m => m.x === x && m.y === y && m.hp > 0);
+const busy = () => !G || over || !!modal;
+const visMobs = () => G.mobs.filter(m => m.hp > 0 && vis[idx(m.x, m.y)]);
+const man = (a, b) => Math.abs(a.x - b.x) + Math.abs(a.y - b.y);
+const cheb = (a, b) => Math.max(Math.abs(a.x - b.x), Math.abs(a.y - b.y));
+
+/* ================= SES ================= */
+let ac = null;
+function tone(f, d, type, vol, f2, delay) {
+  const t = ac.currentTime + (delay || 0), o = ac.createOscillator(), g = ac.createGain();
+  o.type = type || 'square'; o.frequency.setValueAtTime(f, t);
+  if (f2) o.frequency.exponentialRampToValueAtTime(f2, t + d);
+  g.gain.setValueAtTime(vol || .05, t); g.gain.exponentialRampToValueAtTime(.0001, t + d);
+  o.connect(g); g.connect(ac.destination); o.start(t); o.stop(t + d + .02);
+}
+function noise(d, vol) {
+  const n = Math.floor(ac.sampleRate * d), b = ac.createBuffer(1, n, ac.sampleRate), ch = b.getChannelData(0);
+  for (let i = 0; i < n; i++) ch[i] = (rnd() * 2 - 1) * (1 - i / n);
+  const s = ac.createBufferSource(), g = ac.createGain(); g.gain.value = vol || .08; s.buffer = b; s.connect(g); g.connect(ac.destination); s.start();
+}
+function sfx(k) {
+  if (!meta.sound) return;
+  try {
+    if (!ac) ac = new (window.AudioContext || window.webkitAudioContext)();
+    if (ac.state === 'suspended') ac.resume();
+    if (k === 'hit') { noise(.06, .07); tone(190, .07, 'square', .04, 90); }
+    else if (k === 'crit') { noise(.09, .1); tone(520, .12, 'square', .05, 180); }
+    else if (k === 'hurt') tone(150, .14, 'sawtooth', .06, 60);
+    else if (k === 'miss') tone(700, .05, 'sine', .03, 900);
+    else if (k === 'coin') { tone(988, .06, 'square', .035); tone(1319, .1, 'square', .035, 0, .06); }
+    else if (k === 'potion') tone(300, .22, 'sine', .07, 700);
+    else if (k === 'level') [523, 659, 784, 1047].forEach((f, i) => tone(f, .14, 'square', .045, 0, i * .08));
+    else if (k === 'stairs') tone(260, .35, 'triangle', .07, 80);
+    else if (k === 'die') tone(220, .8, 'sawtooth', .07, 40);
+    else if (k === 'boss') { tone(70, .6, 'sawtooth', .09, 45); noise(.3, .05); }
+    else if (k === 'skill') tone(260, .2, 'sawtooth', .05, 900);
+    else if (k === 'chest') { tone(440, .08, 'square', .04); tone(660, .14, 'square', .04, 0, .08); }
+    else if (k === 'click') tone(600, .03, 'square', .025);
+    else if (k === 'kill') tone(240, .12, 'square', .04, 60);
+  } catch (e) {}
+}
+const vib = ms => { try { if (navigator.vibrate) navigator.vibrate(ms); } catch (e) {} };
+
+/* ================= GRAFİK ÖNBELLEĞİ ================= */
+const cv = $('cv'), ctx = cv.getContext('2d'), mini = $('mini'), mctx = mini.getContext('2d');
+let K = 4, T = 40, cw = 0, ch = 0, SP = {}, TI = null, tiTheme = -1, tiK = 0;
+function buildSprite(rows, k, white) {
+  const c = document.createElement('canvas'); c.width = c.height = 10 * k; const x = c.getContext('2d');
+  x.fillStyle = '#120d1c';
+  for (let j = 0; j < 8; j++) for (let i = 0; i < 8; i++) if (rows[j][i] !== '.') { x.fillRect(i * k, (j + 1) * k, 3 * k, k); x.fillRect((i + 1) * k, j * k, k, 3 * k); }
+  for (let j = 0; j < 8; j++) for (let i = 0; i < 8; i++) { const c2 = rows[j][i]; if (c2 !== '.') { x.fillStyle = white ? '#fff' : PAL[c2]; x.fillRect((i + 1) * k, (j + 1) * k, k, k); } }
+  return c;
+}
+function buildSprites() { SP = {}; for (const n in SPR) SP[n] = { i: buildSprite(SPR[n], K), f: buildSprite(SPR[n], K, true) }; }
+const icoCache = {};
+function ico(n) { if (!icoCache[n]) { try { icoCache[n] = buildSprite(SPR[n] || SPR.star, 4).toDataURL(); } catch (e) { icoCache[n] = ''; } } return icoCache[n]; }
+const img = (n, cls) => `<img class="px ${cls || ''}" alt="" src="${ico(n)}">`;
+function buildTiles(th) {
+  const k = K, mk = () => { const c = document.createElement('canvas'); c.width = c.height = 10 * k; return c; };
+  const h = (a, b, s) => { const v = Math.sin(a * 127.1 + b * 311.7 + s * 74.7) * 43758.5453; return v - Math.floor(v); };
+  const px = (x, i, j, w, hh, col) => { x.fillStyle = col; x.fillRect(i * k, j * k, w * k, hh * k); };
+  const fl = [];
+  for (let v = 0; v < 4; v++) {
+    const c = mk(), x = c.getContext('2d'); px(x, 0, 0, 10, 10, th.f);
+    for (let j = 0; j < 10; j++) for (let i = 0; i < 10; i++) { const r = h(i, j, v); if (r < .1) px(x, i, j, 1, 1, th.f2); else if (r > .94) px(x, i, j, 1, 1, th.f3); }
+    px(x, 0, 0, 10, .5, th.f2); px(x, 0, 0, .5, 10, th.f2); fl.push(c);
+  }
+  const wf = mk(); { const x = wf.getContext('2d'); px(x, 0, 0, 10, 10, th.w); px(x, 0, 0, 10, 2, th.wl); px(x, 0, 2, 10, 1, th.wd);
+    px(x, 0, 6, 10, 1, th.wd); px(x, 0, 9, 10, 1, '#0b0812'); px(x, 4, 3, 1, 3, th.wd); px(x, 9, 3, 1, 3, th.wd); px(x, 1, 7, 1, 2, th.wd); px(x, 6, 7, 1, 2, th.wd); }
+  const wt = mk(); { const x = wt.getContext('2d'); px(x, 0, 0, 10, 10, th.t);
+    for (let j = 0; j < 10; j++) for (let i = 0; i < 10; i++) if (h(i, j, 9) < .12) px(x, i, j, 1, 1, th.t2); }
+  const st = mk(); { const x = st.getContext('2d'); px(x, 1, 1, 8, 8, '#0b0812'); px(x, 1, 1, 8, 2, th.wl); px(x, 1, 3, 8, 2, th.w); px(x, 1, 5, 8, 2, th.wd); px(x, 1, 7, 8, 2, th.t);
+    px(x, 0, 0, 10, 1, '#f2c94c'); px(x, 0, 9, 10, 1, '#f2c94c'); px(x, 0, 0, 1, 10, '#f2c94c'); px(x, 9, 0, 1, 10, '#f2c94c'); }
+  return { fl, wf, wt, st };
+}
+function resize() {
+  const st = $('stage'), w = st.clientWidth, h = st.clientHeight, dpr = Math.min(3, window.devicePixelRatio || 1);
+  if (!w || !h) return;
+  const cssT = clamp(w / 9.6, 32, 48), k = Math.max(2, Math.round(cssT * dpr / 10));
+  cw = cv.width = Math.round(w * dpr); ch = cv.height = Math.round(h * dpr);
+  if (k !== K || !SP.warrior) { K = k; T = 10 * k; buildSprites(); tiK = 0; }
+  ctx.imageSmoothingEnabled = false;
+}
+
+/* ================= EFEKTLER ================= */
+const fx = { fl: [], pt: [], pr: [], rg: [] }; let shake = 0, time = 0;
+const noMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function floatT(x, y, txt, col, big) { fx.fl.push({ x: x + .5 + (rnd() - .5) * .4, y: y + .1, txt: String(txt), col: col || '#fff', t: 0, big }); }
+function burst(x, y, col, n) { for (let i = 0; i < (n || 8); i++) { const a = rnd() * 6.28, s = 1 + rnd() * 3; fx.pt.push({ x: x + .5, y: y + .5, vx: Math.cos(a) * s, vy: Math.sin(a) * s - 1.5, t: 0, l: .3 + rnd() * .3, col }); } }
+function proj(a, b, col) { fx.pr.push({ x0: a.x + .5, y0: a.y + .45, x1: b.x + .5, y1: b.y + .5, t: 0, d: .13, col }); }
+function ring(x, y, r, col) { fx.rg.push({ x: x + .5, y: y + .5, r, t: 0, d: .4, col }); }
+function addShake(v) { if (!noMotion) shake = Math.min(12, Math.max(shake, v)); }
+let toastT = 0;
+function toast(t) { const e = $('toast'); e.textContent = t; e.classList.add('on'); clearTimeout(toastT); toastT = setTimeout(() => e.classList.remove('on'), 1900); }
+function log(t) { const l = $('log'), d = document.createElement('div'); d.textContent = t; l.appendChild(d); while (l.children.length > 3) l.removeChild(l.firstChild); setTimeout(() => d.remove(), 6000); }
+function banner(a, b) { const e = $('banner'); $('bannerT').textContent = a; $('bannerS').textContent = b; e.classList.remove('on'); void e.offsetWidth; e.classList.add('on'); }
+
+/* ================= KARAKTER HESABI ================= */
+function recalc() {
+  const p = G.p, c = CLASSES[p.cls], L = p.level - 1, pk = p.perks, up = meta.up, n = id => pk[id] || 0;
+  let hp = c.hp + c.ghp * L + (up.hp || 0) * 10, atk = c.atk + c.gatk * L + (up.atk || 0), def = c.def + c.gdef * L + (up.def || 0);
+  const s = { crit: c.crit + (up.crit || 0) * 2 + n('crit') * 8, critDmg: 150 + n('cdmg') * 35, dodge: c.dodge + n('dodge') * 6, ls: n('ls') * 5, thorns: 0, thornPct: n('thorn') * 30,
+    gold: 100 + (up.gold || 0) * 10 + n('greed') * 30, xp: 100 + (up.xp || 0) * 8 + n('wise') * 15, dbl: n('dbl') * 12, venom: n('venom'), regen: n('regen'), exec: n('exec'),
+    rage: n('rage'), feast: n('feast'), potMul: 1 + n('alch') * .2, cdr: n('cdr') };
+  for (const sl in p.gear) { const it = p.gear[sl]; if (!it) continue; atk += it.atk || 0; def += it.def || 0; hp += it.hp || 0;
+    for (const a in it.aff) { if (a === 'hp') hp += it.aff[a]; else if (a === 'atk') atk += it.aff[a]; else if (a === 'def') def += it.aff[a]; else s[a] += it.aff[a]; } }
+  s.maxHp = Math.max(10, Math.round(hp * (1 + .15 * n('vit')) * (1 + p.bon.hp / 100)));
+  s.atk = Math.round(atk * (1 + .12 * n('str')) * (1 + p.bon.atk / 100));
+  s.def = Math.round((def + 3 * n('iron')) * (1 + .1 * n('iron')));
+  s.dodge = Math.min(60, s.dodge); s.crit = Math.min(90, s.crit);
+  S = s; if (p.hp > S.maxHp) p.hp = S.maxHp;
+}
+const POT_MAX = 5;
+function addPotion(x, y) { const p = G.p; if (p.potions >= POT_MAX) { gainGold(10 + G.floor * 2, x, y); return; } p.potions++; floatT(x, y, '+1 iksir', '#ff8f8f'); sfx('potion'); }
+const xpNeed = l => Math.round(14 + 10 * (l - 1) + 3 * (l - 1) * (l - 1));
+function heal(v, quiet) { const p = G.p, b = p.hp; p.hp = Math.min(S.maxHp, p.hp + Math.max(1, Math.round(v))); const d = Math.round(p.hp - b); if (d > 0 && !quiet) floatT(p.x, p.y, '+' + d, '#7be08a'); }
+function gainGold(v, x, y) { const p = G.p, g = Math.max(1, Math.round(v * S.gold / 100)); p.gold += g; G.st.gold += g; floatT(x, y, '+' + g, '#f2c94c'); sfx('coin'); }
+function gainXp(v) {
+  const p = G.p; p.xp += Math.max(1, Math.round(v * S.xp / 100));
+  while (p.xp >= xpNeed(p.level)) { p.xp -= xpNeed(p.level); p.level++; p.pend++; recalc(); heal(S.maxHp * .2, true);
+    floatT(p.x, p.y, 'SEVİYE ' + p.level, '#f2c94c', true); ring(p.x, p.y, 2.2, '#f2c94c'); sfx('level'); }
+}
+
+/* ================= EŞYA ================= */
+function genItem(ilvl, slot, minRar) {
+  slot = slot || pick(['weapon', 'weapon', 'armor', 'armor', 'ring']);
+  const luck = meta.up.luck || 0, r = rnd() * 100, leg = 1.5 + luck * .7 + ilvl * .08, epic = 7 + luck * 1.5 + ilvl * .25, rare = 26 + luck * 2 + ilvl * .4;
+  let rar = r < leg ? 3 : r < leg + epic ? 2 : r < leg + epic + rare ? 1 : 0; rar = Math.max(rar, minRar || 0);
+  const mult = [1, 1.3, 1.65, 2.1][rar], v = () => .9 + rnd() * .2, it = { slot, rar, ilvl, aff: {} };
+  let base, pool, nAff = rar;
+  if (slot === 'weapon') { it.atk = Math.max(2, Math.round((3 + ilvl * 1.6) * mult * v())); pool = ['crit', 'ls', 'dbl', 'atk', 'gold', 'xp'];
+    base = pick({ warrior: ['Kılıç', 'Balta', 'Gürz'], archer: ['Yay', 'Arbalet', 'Uzun Yay'], mage: ['Asa', 'Değnek', 'Küre'] }[G.p.cls]); }
+  else if (slot === 'armor') { it.def = Math.max(1, Math.round((2 + ilvl * .9) * mult * v())); it.hp = Math.round((6 + ilvl * 2.2) * mult * v()); pool = ['hp', 'dodge', 'thorns', 'def', 'gold', 'xp'];
+    base = pick(ilvl < 6 ? ['Deri Yelek', 'Örme Zırh'] : ilvl < 12 ? ['Zincir Zırh', 'Pullu Zırh'] : ['Plaka Zırh', 'Ejder Pulu']); }
+  else { pool = ['crit', 'ls', 'hp', 'dodge', 'atk', 'def', 'dbl', 'gold', 'xp']; nAff = rar + 1; base = pick(['Yüzük', 'Tılsım', 'Kolye']); }
+  const val = { crit: () => 3 + rar * 2 + ri(0, 2), ls: () => 2 + rar + ri(0, 1), hp: () => Math.round((8 + ilvl * 2) * (1 + rar * .3)), dodge: () => 3 + rar + ri(0, 2),
+    thorns: () => Math.round((2 + ilvl * .6) * (1 + rar * .3)), gold: () => 10 + rar * 5, xp: () => 8 + rar * 4, atk: () => Math.round((1 + ilvl * .5) * (1 + rar * .3)),
+    def: () => Math.round((1 + ilvl * .35) * (1 + rar * .3)), dbl: () => 4 + rar * 2 };
+  pool = pool.slice().sort(() => rnd() - .5);
+  for (let i = 0; i < nAff && i < pool.length; i++) it.aff[pool[i]] = val[pool[i]]();
+  it.name = pick([['Paslı', 'Eski', 'Sade', 'Yıpranmış'], ['Keskin', 'Sağlam', 'İşlemeli', 'Usta İşi'], ['Kadim', 'Rünlü', 'Lanetli', 'Kraliyet'], ['Efsanevi', 'Ejderha', 'Gölgeyutan', 'Kutsal']][rar]) + ' ' + base;
+  it.price = Math.round((12 + ilvl * 7) * [1, 1.8, 3.2, 6][rar]);
+  return it;
+}
+const score = it => !it ? 0 : Math.round((it.atk || 0) * 2.2 + (it.def || 0) * 2 + (it.hp || 0) * .35 +
+  Object.entries(it.aff).reduce((s, [a, v]) => s + v * ({ crit: 1.5, ls: 3, hp: .35, dodge: 1.5, thorns: 1, gold: .3, xp: .3, atk: 2.2, def: 2, dbl: 1.5 }[a]), 0));
+const sellVal = it => Math.max(1, Math.round(it.price * .15));
+function itemCard(it, cmp) {
+  if (!it) return `<div class="item"><small>Kuşanılan</small><b class="r0">Boş</b></div>`;
+  const lines = [];
+  if (it.atk) lines.push(`+${it.atk} saldırı`); if (it.def) lines.push(`+${it.def} savunma`); if (it.hp) lines.push(`+${it.hp} azami can`);
+  for (const a in it.aff) lines.push(AFF[a][1] ? `+%${it.aff[a]} ${AFF[a][0]}` : `+${it.aff[a]} ${AFF[a][0]}`);
+  const sc = score(it), d = cmp === undefined ? '' : sc > cmp ? ' <span class="up">▲</span>' : sc < cmp ? ' <span class="down">▼</span>' : '';
+  return `<div class="item r${it.rar}b"><small>${SLOT[it.slot]} · ${RAR[it.rar]}</small><b class="r${it.rar}">${it.name}</b>${lines.map(l => `<span>${l}</span>`).join('')}<span class="pw">Güç ${sc}${d}</span></div>`;
+}
+function equip(it) { const p = G.p, old = p.gear[it.slot]; p.gear[it.slot] = it; recalc(); if (old) gainGold(sellVal(old) * 100 / S.gold, p.x, p.y); checkAch(); }
+
+/* ================= ZİNDAN ÜRETİMİ ================= */
+function flood(sx, sy, pass, maxD) {
+  const W = G.W, d = new Int16Array(W * G.H).fill(-1), q = [sy * W + sx]; d[q[0]] = 0; maxD = maxD || 999;
+  for (let h = 0; h < q.length; h++) { const c = q[h], x = c % W, y = (c / W) | 0, dv = d[c]; if (dv >= maxD) continue;
+    for (const [dx, dy] of DIRS) { const nx = x + dx, ny = y + dy; if (!inb(nx, ny)) continue; const n = ny * W + nx; if (d[n] >= 0 || !pass(nx, ny, n)) continue; d[n] = dv + 1; q.push(n); } }
+  return d;
+}
+function spawnMob(type, x, y, o) {
+  const d = MOBS[type], f = G.floor, cyc = Math.floor((f - 1) / 20); o = o || {};
+  let hm = d.boss ? Math.pow(3, cyc) : Math.pow(1.13, f - 1), am = d.boss ? Math.pow(2.4, cyc) : 1.1 * Math.pow(1.13, f - 1);
+  if (o.elite) { hm *= 2.2; am *= 1.3; } if (o.weak) hm *= .55;
+  const m = { id: G.nid++, t: type, x, y, rx: x, ry: y, bx: 0, by: 0, hp: Math.round(d.hp * hm), atk: Math.max(1, Math.round(d.atk * am)), def: Math.round(d.def * am),
+    xp: Math.round(d.xp * (1 + .12 * (f - 1)) * (o.elite ? 3 : 1) * (o.min ? .3 : 1)), awake: !!o.awake, en: 0, stun: 0, poison: 0, pd: 0, fl: 0 };
+  m.maxHp = m.hp; if (o.elite) m.elite = 1; if (d.boss) m.boss = 1; if (o.min) m.min = 1;
+  G.mobs.push(m); return m;
+}
+function genFloor() {
+  const f = G.floor, boss = f % 5 === 0, W = G.W = 34, H = G.H = 34, p = G.p;
+  G.tiles = new Array(W * H).fill(0); G.seen = new Array(W * H).fill(0); G.objs = {}; G.mobs = []; G.hazards = []; G.stairs = null;
+  vis = new Uint8Array(W * H);
+  const rooms = [], carve = r => { for (let y = r.y; y < r.y + r.h; y++) for (let x = r.x; x < r.x + r.w; x++) G.tiles[y * W + x] = 1; };
+  const fits = r => rooms.every(o => r.x + r.w + 1 < o.x || o.x + o.w + 1 < r.x || r.y + r.h + 1 < o.y || o.y + o.h + 1 < r.y);
+  if (boss) { const r = { w: 9, h: 9, x: ri(2, W - 12), y: ri(2, H - 12) }; rooms.push(r); carve(r); }
+  const target = boss ? 5 : ri(6, 9);
+  for (let i = 0; i < 500 && rooms.length < target; i++) { const w = ri(4, 8), h = ri(4, 7), r = { w, h, x: ri(1, W - w - 2), y: ri(1, H - h - 2) }; if (fits(r)) { rooms.push(r); carve(r); } }
+  const cx = r => r.x + (r.w >> 1), cy = r => r.y + (r.h >> 1);
+  const tunnel = (a, b) => { let x = cx(a), y = cy(a); const tx = cx(b), ty = cy(b);
+    const hz = () => { while (x !== tx) { x += Math.sign(tx - x); G.tiles[y * W + x] = 1; } }, vt = () => { while (y !== ty) { y += Math.sign(ty - y); G.tiles[y * W + x] = 1; } };
+    if (rnd() < .5) { hz(); vt(); } else { vt(); hz(); } };
+  for (let i = 1; i < rooms.length; i++) { let best = 0, bd = 1e9; for (let j = 0; j < i; j++) { const d = Math.abs(cx(rooms[i]) - cx(rooms[j])) + Math.abs(cy(rooms[i]) - cy(rooms[j])); if (d < bd) { bd = d; best = j; } } tunnel(rooms[i], rooms[best]); }
+  for (let k = 0; k < 2; k++) { const a = pick(rooms), b = pick(rooms); if (a !== b) tunnel(a, b); }
+  const far = from => { const d = flood(cx(from), cy(from), (x, y, n) => G.tiles[n] > 0); let best = null, bd = -1; for (const r of rooms) { const v = d[cy(r) * W + cx(r)]; if (r !== from && v > bd) { bd = v; best = r; } } return best; };
+  let startR, endR; if (boss) { endR = rooms[0]; startR = far(endR); } else { startR = pick(rooms); endR = far(startR); }
+  p.x = cx(startR); p.y = cy(startR);
+  const used = new Set([p.y * W + p.x]);
+  if (!boss) { G.stairs = { x: cx(endR), y: cy(endR) }; G.tiles[cy(endR) * W + cx(endR)] = 2; used.add(cy(endR) * W + cx(endR)); }
+  const spot = (r, inner) => { const m = inner ? 1 : 0; for (let i = 0; i < 40; i++) { const x = ri(r.x + m, r.x + r.w - 1 - m), y = ri(r.y + m, r.y + r.h - 1 - m), k = y * W + x; if (!used.has(k)) { used.add(k); return { x, y }; } } return null; };
+  const pool = Object.keys(MOBS).filter(k => MOBS[k].from && f >= MOBS[k].from && f <= MOBS[k].to);
+  for (const r of rooms) {
+    if (r === startR) continue;
+    if (boss && r === endR) { const cyc = (f / 5 - 1) % 4; used.add(cy(r) * W + cx(r)); spawnMob(BOSSES[cyc], cx(r), cy(r));
+      for (let i = 0; i < 2; i++) { const s = spot(r); if (s) spawnMob(pick(pool), s.x, s.y); } continue; }
+    const n = clamp(ri(1, 2) + (rnd() < f * .06 ? 1 : 0) + (r.w * r.h > 35 ? 1 : 0), 1, 4);
+    for (let i = 0; i < n; i++) { const s = spot(r); if (s) spawnMob(pick(pool), s.x, s.y, { elite: f >= 3 && rnd() < .07 }); }
+  }
+  const others = rooms.filter(r => r !== startR && !(boss && r === endR));
+  const put = (t, extra, r) => { const s = spot(r || pick(others), true); if (s) G.objs[s.y * W + s.x] = Object.assign({ t }, extra); };
+  for (let i = ri(3, 5); i > 0; i--) put('gold', { v: Math.round(ri(6, 14) * (1 + f * .25)) });
+  for (let i = (rnd() < .6 ? 1 : 0) + (rnd() < .25 ? 1 : 0); i > 0; i--) put('potion');
+  if (boss) put('potion', null, startR);
+  for (let i = ri(1, 2); i > 0; i--) put('chest', { mimic: f >= 4 && rnd() < .12 });
+  if (rnd() < .4) put('fountain');
+  if (f >= 2 && rnd() < .32) put('shrine', { k: pick(['blood', 'gold', 'fate', 'fate']) });
+  for (let i = ri(0, Math.min(4, 1 + Math.floor(f / 3))); i > 0; i--) put('trap');
+  if (f % 5 === 2 || f % 5 === 4) put('merchant', {}, startR);
+}
+function enterFloor(fresh) {
+  const p = G.p; p.rx = p.x; p.ry = p.y; auto = null; fx.fl.length = fx.pt.length = fx.pr.length = fx.rg.length = 0;
+  fov(); hud(); miniDraw();
+  const th = THEMES[Math.floor((G.floor - 1) / 5) % 4];
+  if (fresh) { banner('KAT ' + G.floor, G.floor % 5 === 0 ? 'Bir şey seni bekliyor…' : th.n); saveRun(); }
+}
+
+/* ================= GÖRÜŞ ================= */
+function fov() {
+  const p = G.p, W = G.W, R = 7, px = p.x, py = p.y; vis.fill(0); vis[py * W + px] = 1;
+  const ray = (tx, ty) => { let x = px, y = py; const dx = Math.abs(tx - x), dy = Math.abs(ty - y), sx = x < tx ? 1 : -1, sy = y < ty ? 1 : -1; let err = dx - dy;
+    for (let i = 0; i < 24; i++) { if (x === tx && y === ty) break; const e2 = 2 * err; if (e2 > -dy) { err -= dy; x += sx; } if (e2 < dx) { err += dx; y += sy; }
+      if (!inb(x, y) || (x - px) * (x - px) + (y - py) * (y - py) > R * R + R) break; vis[y * W + x] = 1; if (!G.tiles[y * W + x]) break; } };
+  for (let i = -R; i <= R; i++) { ray(px + i, py - R); ray(px + i, py + R); ray(px - R, py + i); ray(px + R, py + i); }
+  const add = [];
+  for (let y = Math.max(0, py - R); y <= Math.min(G.H - 1, py + R); y++) for (let x = Math.max(0, px - R); x <= Math.min(W - 1, px + R); x++) {
+    const n = y * W + x; if (!vis[n] || !G.tiles[n]) continue;
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) { const nx = x + dx, ny = y + dy; if (inb(nx, ny) && !G.tiles[ny * W + nx]) add.push(ny * W + nx); } }
+  for (const n of add) vis[n] = 1;
+  for (let n = 0; n < vis.length; n++) if (vis[n]) G.seen[n] = 1;
+  for (const m of G.mobs) if (!m.awake && vis[idx(m.x, m.y)]) { m.awake = true; if (m.boss) { sfx('boss'); toast(MOBS[m.t].n + ' uyandı!'); addShake(8); } }
+}
+function los(a, b) {
+  let x = a.x, y = a.y; const dx = Math.abs(b.x - x), dy = Math.abs(b.y - y), sx = x < b.x ? 1 : -1, sy = y < b.y ? 1 : -1; let err = dx - dy;
+  for (let i = 0; i < 40; i++) { if (x === b.x && y === b.y) return true; const e2 = 2 * err; if (e2 > -dy) { err -= dy; x += sx; } if (e2 < dx) { err += dx; y += sy; }
+    if (x === b.x && y === b.y) return true; if (!G.tiles[idx(x, y)]) return false; }
+  return false;
+}
+
+/* ================= SAVAŞ ================= */
+function hitMob(m, mult, o) {
+  const p = G.p, d = MOBS[m.t]; o = o || {}; m.awake = true;
+  if (d.dodge && !o.sure && rnd() * 100 < d.dodge) { floatT(m.x, m.y, 'Iska', '#c9c3d6'); sfx('miss'); return 0; }
+  let atk = S.atk * (mult || 1); if (p.roar > 0) atk *= 1.5;
+  if (S.rage) atk *= 1 + S.rage * .04 * Math.floor((1 - p.hp / S.maxHp) * 10);
+  const crit = rnd() * 100 < S.crit;
+  let dmg = atk * (.9 + rnd() * .2) * (1 - m.def / (m.def + 40)); if (crit) dmg *= S.critDmg / 100;
+  if (S.exec && m.hp / m.maxHp < .3) dmg *= 1 + .5 * S.exec;
+  dmg = Math.max(1, Math.round(dmg)); m.hp -= dmg; m.fl = .12;
+  floatT(m.x, m.y, dmg + (crit ? '!' : ''), crit ? '#f2c94c' : '#fff', crit); burst(m.x, m.y, crit ? '#f2c94c' : '#d94a4a', crit ? 10 : 5);
+  if (crit) addShake(5); sfx(crit ? 'crit' : 'hit');
+  if (S.ls) heal(dmg * S.ls / 100, true);
+  if (S.venom && m.hp > 0) { m.poison = 3; m.pd = Math.max(m.pd, Math.round(S.atk * .2 * S.venom)); }
+  if (m.hp <= 0) killMob(m);
+  return dmg;
+}
+function playerAttack(m, ranged) {
+  const p = G.p; p.face = m.x < p.x ? -1 : m.x > p.x ? 1 : p.face;
+  if (ranged) proj(p, m, p.cls === 'mage' ? '#a875e0' : '#f4f1e8'); else { p.bx = Math.sign(m.x - p.x) * .35; p.by = Math.sign(m.y - p.y) * .35; }
+  const far = ranged ? .75 : 1; hitMob(m, far);
+  if (m.hp > 0 && rnd() * 100 < S.dbl) { floatT(p.x, p.y, 'Çifte!', '#7fe0d8'); hitMob(m, far); }
+}
+function killMob(m) {
+  const p = G.p, d = MOBS[m.t], f = G.floor; m.hp = 0; G.mobs = G.mobs.filter(o => o !== m);
+  burst(m.x, m.y, '#c9c3d6', 12); sfx('kill'); G.st.kills++; meta.kills++;
+  gainXp(m.xp); if (S.feast) heal(S.maxHp * .05 * S.feast);
+  if (d.split) { let n = 0; for (const [dx, dy] of DIRS) { const x = m.x + dx, y = m.y + dy; if (n < 2 && G.tiles[idx(x, y)] && !mobAt(x, y) && !(x === p.x && y === p.y) && !blockAt(idx(x, y))) { spawnMob('minislime', x, y, { awake: 1 }); n++; } } }
+  if (m.boss) {
+    G.st.bosses++; meta.bossKills++; addShake(12); ring(m.x, m.y, 4, '#f2c94c'); sfx('level');
+    for (const o of G.mobs.slice()) if (o.min) { burst(o.x, o.y, '#c9c3d6', 8); G.mobs = G.mobs.filter(q => q !== o); }
+    delete G.objs[idx(m.x, m.y)]; G.tiles[idx(m.x, m.y)] = 2; G.stairs = { x: m.x, y: m.y }; G.hazards = [];
+    G.loot.push(genItem(f + 2, null, 2)); gainGold(40 + f * 12, m.x, m.y); addPotion(m.x, m.y);
+    if (m.t === 'dragon' && !meta.won) { meta.won = true; toast('Gölge Ejder devrildi! Kuyu daha da derine iniyor…'); } else toast(d.n + ' devrildi!');
+    log('Merdiven açıldı.'); saveMeta();
+  } else if (!m.min) {
+    if (m.elite) { G.st.elite++; G.loot.push(genItem(f + 1, null, 1)); gainGold(15 + f * 4, m.x, m.y); }
+    else { const r = rnd(); if (r < .3) gainGold(ri(3, 8) * (1 + f * .2), m.x, m.y); else if (r < .36) addPotion(m.x, m.y); else if (r < .42) G.loot.push(genItem(f)); }
+  }
+  checkAch();
+}
+function damagePlayer(dmg) {
+  const p = G.p; p.hp -= dmg; p.fl = .15; addShake(4 + dmg / S.maxHp * 40); floatT(p.x, p.y, '-' + dmg, '#ff6b6b', dmg > S.maxHp * .15); sfx('hurt'); vib(20); auto = null;
+  if (p.hp <= 0) playerDown();
+}
+function playerDown() {
+  const p = G.p;
+  if (p.revive > 0) { p.revive--; p.hp = Math.round(S.maxHp * .4); p.poison = 0; ring(p.x, p.y, 3, '#b07ae8'); floatT(p.x, p.y, 'İKİNCİ NEFES', '#b07ae8', true); toast('İkinci Nefes seni geri getirdi'); sfx('level'); return; }
+  p.hp = 0; over = true; auto = null; sfx('die'); burst(p.x, p.y, '#d94a4a', 20); hud(); setTimeout(showDeath, 1000);
+}
+function mobAttack(m, ranged) {
+  const p = G.p, d = MOBS[m.t];
+  if (ranged) proj(m, p, d.magic || m.boss ? '#a875e0' : '#e8d9b0'); else { m.bx = Math.sign(p.x - m.x) * .3; m.by = Math.sign(p.y - m.y) * .3; }
+  if (rnd() * 100 < S.dodge) { floatT(p.x, p.y, 'Kaçındın', '#7fe0d8'); sfx('miss'); return; }
+  const red = S.def / (S.def + 34 + 6 * G.floor) * (d.magic ? .5 : 1), dmg = Math.max(1, Math.round(m.atk * (.85 + rnd() * .3) * (1 - red)));
+  damagePlayer(dmg); if (p.hp <= 0) return;
+  if (d.poison && rnd() < .5) { p.poison = Math.max(p.poison, d.poison + 1); floatT(p.x, p.y, 'Zehir!', '#62b86a'); }
+  if (d.drain) m.hp = Math.min(m.maxHp, m.hp + dmg);
+  if (!ranged) { const th = S.thorns + Math.round(dmg * S.thornPct / 100); if (th > 0) { m.hp -= th; m.fl = .1; floatT(m.x, m.y, th, '#e8913a'); if (m.hp <= 0) killMob(m); } }
+}
+const blockAt = n => { const o = G.objs[n]; return o && (o.t === 'chest' || o.t === 'merchant'); };
+function summon(m, type, n, o) { let c = 0; const p = G.p;
+  for (let r = 1; r <= 2 && c < n; r++) for (let dy = -r; dy <= r && c < n; dy++) for (let dx = -r; dx <= r && c < n; dx++) { const x = m.x + dx, y = m.y + dy;
+    if (inb(x, y) && G.tiles[idx(x, y)] === 1 && !mobAt(x, y) && !(x === p.x && y === p.y) && !blockAt(idx(x, y)) && rnd() < .5) { spawnMob(type, x, y, Object.assign({ awake: 1, min: 1 }, o)); burst(x, y, '#a875e0', 6); c++; } } }
+function mobAct(m, dist) {
+  const p = G.p, d = MOBS[m.t], dd = man(m, p);
+  if (m.boss) {
+    m.tk = (m.tk || 0) + 1; const mins = G.mobs.filter(o => o.min).length;
+    if (m.t === 'king' && m.tk % 5 === 0 && mins < 4) { summon(m, 'skeleton', 2, { weak: 1 }); floatT(m.x, m.y, 'Kalkın!', '#f2c94c'); sfx('boss'); return; }
+    if (m.t === 'queen' && m.tk % 4 === 0 && mins < 5) { summon(m, 'spider', 1, { weak: 1 }); return; }
+    if (m.t === 'lord' && m.tk % 3 === 0) { for (const [dx, dy] of [[0, 0], ...DIRS]) { const x = p.x + dx, y = p.y + dy; if (G.tiles[idx(x, y)]) G.hazards.push({ x, y, t: 1, dmg: Math.round(m.atk * 1.5) }); } floatT(m.x, m.y, 'Yan!', '#e8913a'); sfx('skill'); return; }
+    if (m.t === 'dragon') { if (m.tk % 3 === 0 && dd > 1 && dd <= 7 && los(m, p)) { mobAttack(m, true); return; } if (m.tk % 8 === 0 && mins < 3) { summon(m, 'wraith', 1, { weak: 1 }); return; } }
+  }
+  if (dd === 1) { mobAttack(m); return; }
+  if (d.range && (m.x - p.x) * (m.x - p.x) + (m.y - p.y) * (m.y - p.y) <= d.range * d.range && los(m, p)) { mobAttack(m, true); return; }
+  const cur = dist[idx(m.x, m.y)]; let best = null, bv = cur < 0 ? 1e9 : cur;
+  const free = (x, y) => G.tiles[idx(x, y)] > 0 && !mobAt(x, y) && !(x === p.x && y === p.y) && !blockAt(idx(x, y));
+  if (d.erratic && rnd() < d.erratic) { const [dx, dy] = pick(DIRS); if (free(m.x + dx, m.y + dy)) { m.x += dx; m.y += dy; } return; }
+  for (const [dx, dy] of DIRS) { const x = m.x + dx, y = m.y + dy, v = dist[idx(x, y)]; if (v >= 0 && free(x, y) && (v < bv || (v === bv && best === null && rnd() < .3))) { bv = v; best = [dx, dy]; } }
+  if (best) { m.x += best[0]; m.y += best[1]; }
+}
+function mobsAct() {
+  const p = G.p, dist = flood(p.x, p.y, (x, y, n) => G.tiles[n] > 0 && !blockAt(n), 26);
+  const list = G.mobs.filter(m => m.awake).sort((a, b) => man(a, p) - man(b, p));
+  for (const m of list) {
+    if (m.hp <= 0 || p.hp <= 0) continue;
+    if (m.poison > 0) { m.poison--; m.hp -= m.pd; floatT(m.x, m.y, m.pd, '#62b86a'); if (m.hp <= 0) { killMob(m); continue; } }
+    if (m.stun > 0) { m.stun--; continue; }
+    m.en += MOBS[m.t].spd || 1;
+    while (m.en >= 1 && m.hp > 0 && p.hp > 0) { m.en -= 1; mobAct(m, dist); }
+  }
+}
+function tickHazards() {
+  const p = G.p, keep = [];
+  for (const h of G.hazards) { if (h.t > 0) { h.t--; keep.push(h); continue; }
+    burst(h.x, h.y, '#e8913a', 6); if (h.x === p.x && h.y === p.y && p.hp > 0) damagePlayer(Math.max(1, Math.round(h.dmg * (1 - S.def / (S.def + 34 + 6 * G.floor) * .5)))); }
+  G.hazards = keep;
+}
+function endTurn() {
+  const p = G.p; G.turn++;
+  for (let i = 0; i < 2; i++) if (p.cd[i] > 0) p.cd[i]--;
+  if (p.roar > 0) p.roar--;
+  if (p.poison > 0 && p.hp > 0) { p.poison--; const d = Math.max(1, Math.round(S.maxHp * .02)); p.hp -= d; floatT(p.x, p.y, '-' + d, '#62b86a'); if (p.hp <= 0) playerDown(); }
+  if (S.regen && G.turn % 4 === 0 && p.hp > 0) heal(S.maxHp * .02 * S.regen, true);
+  if (p.hp > 0) tickHazards();
+  if (p.hp > 0) mobsAct();
+  fov(); hud(); miniDraw();
+  if (G.turn % 12 === 0) saveRun();
+  pump();
+}
+
+/* ================= OYUNCU EYLEMLERİ ================= */
+function tryMove(dx, dy) {
+  const p = G.p, nx = p.x + dx, ny = p.y + dy; if (!inb(nx, ny)) return false;
+  if (dx) p.face = dx;
+  const m = mobAt(nx, ny); if (m) { playerAttack(m); endTurn(); return 'hit'; }
+  const n = idx(nx, ny); if (!G.tiles[n]) return false;
+  const o = G.objs[n];
+  if (o && o.t === 'merchant') { auto = null; showShop(o); return 'ui'; }
+  if (o && o.t === 'chest') {
+    auto = null; delete G.objs[n]; sfx('chest'); burst(nx, ny, '#f2c94c', 10);
+    if (o.mimic) { spawnMob('mimic', nx, ny, { awake: 1 }); floatT(nx, ny, 'Taklitçi!', '#ff6b6b', true); addShake(6); }
+    else { if (rnd() < .7) G.loot.push(genItem(G.floor + (rnd() < .3 ? 1 : 0))); else gainGold(ri(20, 40) * (1 + G.floor * .25), nx, ny);
+      if (rnd() < .2) addPotion(nx, ny); }
+    endTurn(); return 'ui';
+  }
+  p.x = nx; p.y = ny;
+  if (o) {
+    if (o.t === 'gold') { gainGold(o.v, nx, ny); delete G.objs[n]; }
+    else if (o.t === 'potion') { addPotion(nx, ny); delete G.objs[n]; }
+    else if (o.t === 'fountain' && !o.used && p.hp < S.maxHp) { o.used = 1; heal(S.maxHp * .5); p.poison = 0; ring(nx, ny, 1.6, '#7fe0d8'); sfx('potion'); log('Çeşmenin suyu yaralarını sardı.'); }
+    else if (o.t === 'trap') { delete G.objs[n]; damagePlayer(Math.round(S.maxHp * .1) + G.floor); log('Diken tuzağına bastın!'); }
+    else if (o.t === 'shrine' && !o.used) { auto = null; endTurn(); if (!over) showShrine(o); return 'ui'; }
+  }
+  endTurn(); return 'move';
+}
+function wait() { if (busy()) return; auto = null; endTurn(); }
+function usePotion() {
+  if (busy()) return; const p = G.p; auto = null;
+  if (p.potions <= 0) { toast('İksirin kalmadı'); return; }
+  if (p.hp >= S.maxHp && !p.poison) { toast('Canın zaten dolu'); return; }
+  p.potions--; heal(S.maxHp * .4 * S.potMul); p.poison = 0; sfx('potion'); ring(p.x, p.y, 1.4, '#ff8f8f'); endTurn();
+}
+const SKILLS = {
+  whirl: { n: 'Kasırga', s: 'Kasırga', cd: 6, ic: 'sword', d: 'Çevrendeki tüm düşmanlara %170 hasar',
+    use() { const p = G.p, t = visMobs().filter(m => cheb(m, p) === 1); if (!t.length) return false; ring(p.x, p.y, 1.7, '#f4f1e8'); t.forEach(m => hitMob(m, 1.7)); return true; } },
+  roar: { n: 'Savaş Narası', s: 'Nara', cd: 16, ic: 'star', d: '%12 can yeniler, 4 tur +%50 saldırı',
+    use() { const p = G.p; heal(S.maxHp * .12); p.roar = 5; ring(p.x, p.y, 2, '#f2c94c'); floatT(p.x, p.y, 'NARA!', '#f2c94c', true); return true; } },
+  rain: { n: 'Ok Yağmuru', s: 'Yağmur', cd: 7, ic: 'arrow', d: 'Görünen tüm düşmanlara %70 hasar',
+    use() { const p = G.p, t = visMobs().filter(m => cheb(m, p) <= 6); if (!t.length) return false; t.forEach(m => { proj(p, m, '#f4f1e8'); hitMob(m, .7); }); return true; } },
+  stun: { n: 'Sersemletici Ok', s: 'Sersemlet', cd: 8, ic: 'bolt', d: 'En yakın düşmana %180 hasar, 3 tur sersemletir',
+    use() { const p = G.p, t = nearest(); if (!t) return false; proj(p, t, '#f2c94c'); hitMob(t, 1.8, { sure: 1 }); if (t.hp > 0) { t.stun = t.boss ? 1 : 3; floatT(t.x, t.y, 'Sersem', '#f2c94c'); } return true; } },
+  fireball: { n: 'Ateş Topu', s: 'Ateş Topu', cd: 6, ic: 'fire', d: 'Hedefe %200, yanındakilere %100 hasar',
+    use() { const p = G.p, t = nearest(); if (!t) return false; proj(p, t, '#e8913a'); const near = G.mobs.filter(m => m !== t && m.hp > 0 && cheb(m, t) === 1);
+      ring(t.x, t.y, 1.7, '#e8913a'); burst(t.x, t.y, '#e8913a', 14); addShake(6); hitMob(t, 2, { sure: 1 }); near.forEach(m => hitMob(m, 1, { sure: 1 })); return true; } },
+  frost: { n: 'Buz Halkası', s: 'Buz', cd: 12, ic: 'ice', d: '2 kare içindeki düşmanlara %90 hasar, 3 tur dondurur',
+    use() { const p = G.p, t = visMobs().filter(m => cheb(m, p) <= 2); if (!t.length) return false; ring(p.x, p.y, 2.6, '#7fe0d8');
+      t.forEach(m => { hitMob(m, .9, { sure: 1 }); if (m.hp > 0) m.stun = m.boss ? 1 : 3; }); return true; } }
+};
+function nearest() { const p = G.p; let best = null, bd = 1e9; for (const m of visMobs()) { const d = (m.x - p.x) * (m.x - p.x) + (m.y - p.y) * (m.y - p.y); if (d < bd && los(p, m)) { bd = d; best = m; } } return best; }
+function useSkill(i) {
+  if (busy()) return; const p = G.p, sk = SKILLS[CLASSES[p.cls].sk[i]]; auto = null;
+  if (p.cd[i] > 0) { toast(`${sk.n}: ${p.cd[i]} tur sonra hazır`); return; }
+  if (!sk.use()) { toast('Menzilde düşman yok'); return; }
+  p.cd[i] = Math.max(2, sk.cd - S.cdr) + 1; sfx('skill'); endTurn();
+}
+function canShoot(m) { const p = G.p, r = CLASSES[p.cls].range; return r > 1 && (m.x - p.x) * (m.x - p.x) + (m.y - p.y) * (m.y - p.y) <= r * r + 1 && los(p, m); }
+function stepToward(tx, ty) {
+  const p = G.p, W = G.W;
+  const run = (strict, blind) => flood(tx, ty, (x, y, n) => (blind || G.seen[n]) && G.tiles[n] > 0 && !blockAt(n) && !(vis[n] && mobAt(x, y)) && !(strict && avoid(n)));
+  let d = run(true); if (d[p.y * W + p.x] < 0) d = run(false); if (d[p.y * W + p.x] < 0) d = run(false, true);
+  const cur = d[p.y * W + p.x]; if (cur <= 0) return false;
+  for (const [dx, dy] of DIRS) { const x = p.x + dx, y = p.y + dy; if (inb(x, y) && d[y * W + x] === cur - 1) return tryMove(dx, dy); }
+  return false;
+}
+const avoid = n => { const o = G.objs[n]; return o && (o.t === 'trap' || (o.t === 'shrine' && !o.used)); };
+function exploreStep() {
+  const p = G.p, W = G.W, d = flood(p.x, p.y, (x, y, n) => G.seen[n] && G.tiles[n] > 0 && !blockAt(n) && !avoid(n));
+  let best = -1, bd = 1e9;
+  for (let n = 0; n < d.length; n++) {
+    const o = G.objs[n], x = n % W, y = (n / W) | 0;
+    if (d[n] < 0) { if (o && o.t === 'chest' && G.seen[n]) for (const [dx, dy] of DIRS) { const v = inb(x + dx, y + dy) ? d[n + dy * W + dx] : -1; if (v >= 0 && v + 1 < bd) { bd = v + 1; best = n; } } continue; }
+    if (d[n] === 0 || d[n] >= bd) continue;
+    let goal = o && (o.t === 'gold' || o.t === 'potion' || (o.t === 'fountain' && !o.used && p.hp < S.maxHp * .6));
+    if (!goal) for (const [dx, dy] of DIRS) { if (inb(x + dx, y + dy) && !G.seen[n + dy * W + dx]) { goal = true; break; } }
+    if (goal) { bd = d[n]; best = n; }
+  }
+  if (best >= 0) return stepToward(best % W, (best / W) | 0);
+  if (G.stairs) { if (p.x === G.stairs.x && p.y === G.stairs.y) { toast('Kat temizlendi. Aşağı inebilirsin.'); return false; } return stepToward(G.stairs.x, G.stairs.y); }
+  toast('Keşfedilecek yer kalmadı'); return false;
+}
+function autoTick() {
+  if (!auto) return; if (busy()) { auto = null; hud(); return; }
+  if (visMobs().length) { auto = null; hud(); return; }
+  const r = auto.explore ? exploreStep() : stepToward(auto.x, auto.y);
+  if (r !== 'move' || (!auto || (!auto.explore && G.p.x === auto.x && G.p.y === auto.y))) { auto = null; }
+  hud();
+}
+setInterval(autoTick, 85);
+function toggleExplore() {
+  if (busy()) return;
+  if (auto) { auto = null; hud(); return; }
+  if (visMobs().length) { toast('Önce düşmanları hallet'); return; }
+  auto = { explore: 1 }; autoTick();
+}
+function handleTap(tx, ty) {
+  if (busy()) return; const p = G.p; auto = null;
+  if (!inb(tx, ty)) return;
+  if (tx === p.x && ty === p.y) { if (G.tiles[idx(tx, ty)] === 2) descend(); else wait(); return; }
+  const n = idx(tx, ty); if (!G.seen[n]) return;
+  const m = mobAt(tx, ty);
+  if (m && vis[n]) { if (man(m, p) === 1) { playerAttack(m); endTurn(); } else if (canShoot(m)) { playerAttack(m, true); endTurn(); } else if (!stepToward(tx, ty)) wait(); return; }
+  if (!G.tiles[n]) return;
+  if (visMobs().length) stepToward(tx, ty); else { auto = { x: tx, y: ty }; autoTick(); }
+  hud();
+}
+function descend() {
+  if (busy()) return; const p = G.p; if (G.tiles[idx(p.x, p.y)] !== 2) return;
+  G.floor++; sfx('stairs'); if (G.floor > meta.best) meta.best = G.floor; saveMeta();
+  heal(S.maxHp * .1, true); genFloor(); enterFloor(true); checkAch();
+  if (G.floor % 5 === 0) log('Bu katta güçlü bir şey var. Hazırlan.');
+}
+
+/* ================= ÇİZİM ================= */
+function drawEnt(name, rx, ry, o, ox, oy) {
+  const s = o.scale || 1, size = T * s, bob = o.nobob ? 0 : Math.round(Math.sin(time * 4 + (o.ph || 0)) * .6) * K;
+  const px = Math.round(ox + (rx + .5 + (o.bx || 0)) * T - size / 2), py = Math.round(oy + (ry + 1 + (o.by || 0)) * T - size - bob);
+  ctx.fillStyle = 'rgba(0,0,0,.32)'; ctx.fillRect(Math.round(ox + (rx + .5) * T - size * .3), Math.round(oy + (ry + 1) * T - K * 2), Math.round(size * .6), K);
+  const im = SP[name] ? (o.flash ? SP[name].f : SP[name].i) : SP.skull.i;
+  if (o.face < 0) { ctx.save(); ctx.translate(px + size, py); ctx.scale(-1, 1); ctx.drawImage(im, 0, 0, size, size); ctx.restore(); } else ctx.drawImage(im, px, py, size, size);
+}
+let lastTs = 0;
+function frame(ts) {
+  requestAnimationFrame(frame);
+  const dt = Math.min(.05, (ts - lastTs) / 1000 || 0); lastTs = ts; time += dt;
+  if (!G || !cw) return;
+  const p = G.p, W = G.W, H = G.H, L = Math.min(1, dt * 18), thI = Math.floor((G.floor - 1) / 5) % 4;
+  if (tiTheme !== thI || tiK !== K) { TI = buildTiles(THEMES[thI]); tiTheme = thI; tiK = K; }
+  const lerp = e => { e.rx += (e.x - e.rx) * L; e.ry += (e.y - e.ry) * L; e.bx = (e.bx || 0) * (1 - L); e.by = (e.by || 0) * (1 - L); if (e.fl > 0) e.fl -= dt; };
+  lerp(p); G.mobs.forEach(lerp);
+  shake = Math.max(0, shake - dt * 40);
+  const sx = shake ? (rnd() - .5) * shake * K * .5 : 0, sy = shake ? (rnd() - .5) * shake * K * .5 : 0;
+  ctx.fillStyle = '#07050c'; ctx.fillRect(0, 0, cw, ch);
+  const ox = Math.round(cw / 2 - (p.rx + .5) * T + sx), oy = Math.round(ch / 2 - (p.ry + .5) * T + sy);
+  const x0 = Math.max(0, Math.floor(-ox / T)), x1 = Math.min(W - 1, Math.floor((cw - ox) / T)), y0 = Math.max(0, Math.floor(-oy / T)), y1 = Math.min(H - 1, Math.floor((ch - oy) / T));
+  for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) {
+    const n = y * W + x; if (!G.seen[n]) continue; const t = G.tiles[n], px = ox + x * T, py = oy + y * T;
+    if (!t) ctx.drawImage(y + 1 < H && G.tiles[n + W] > 0 && G.seen[n + W] ? TI.wf : TI.wt, px, py);
+    else { ctx.drawImage(TI.fl[(x * 7 + y * 13) % 4], px, py); if (t === 2) ctx.drawImage(TI.st, px, py);
+      if (y > 0 && !G.tiles[n - W]) { ctx.fillStyle = 'rgba(0,0,0,.28)'; ctx.fillRect(px, py, T, K * 2); } }
+    const o = G.objs[n];
+    if (o) { const nm = o.t === 'fountain' && o.used ? 'fountain0' : o.t === 'shrine' && o.used ? 'shrine0' : o.t; ctx.drawImage(SP[nm].i, px, py - (o.t === 'merchant' ? K : 0)); }
+    const a = vis[n] ? clamp((Math.hypot(x - p.rx, y - p.ry) - 3) / 9, 0, .42) : .64;
+    if (a > 0) { ctx.fillStyle = `rgba(7,5,12,${a})`; ctx.fillRect(px, py, T, T); }
+  }
+  for (const h of G.hazards) { ctx.fillStyle = `rgba(232,90,40,${.35 + .25 * Math.sin(time * 14)})`; ctx.fillRect(ox + h.x * T, oy + h.y * T, T, T); ctx.strokeStyle = '#f2c94c'; ctx.lineWidth = K; ctx.strokeRect(ox + h.x * T + K / 2, oy + h.y * T + K / 2, T - K, T - K); }
+  if (auto && !auto.explore) { ctx.strokeStyle = 'rgba(242,163,58,.8)'; ctx.lineWidth = K; ctx.strokeRect(ox + auto.x * T + K, oy + auto.y * T + K, T - 2 * K, T - 2 * K); }
+  const ents = G.mobs.filter(m => vis[idx(m.x, m.y)]).sort((a, b) => a.y - b.y);
+  for (const m of ents) {
+    const sc = m.boss ? 1.6 : m.elite ? 1.25 : 1;
+    if (m.elite) { ctx.fillStyle = `rgba(242,201,76,${.18 + .08 * Math.sin(time * 6)})`; ctx.fillRect(ox + m.rx * T, oy + m.ry * T, T, T); }
+    drawEnt(m.t, m.rx, m.ry, { scale: sc, flash: m.fl > 0, face: m.x > p.x ? -1 : 1, ph: m.id, bx: m.bx, by: m.by }, ox, oy);
+    const bx = ox + m.rx * T + K, by = oy + (m.ry + 1) * T - T * sc - K * 2;
+    if (m.hp < m.maxHp && !m.boss) { ctx.fillStyle = '#07050c'; ctx.fillRect(bx, by, T - 2 * K, K * 1.5); ctx.fillStyle = m.elite ? '#f2c94c' : '#d94a4a'; ctx.fillRect(bx, by, (T - 2 * K) * clamp(m.hp / m.maxHp, 0, 1), K * 1.5); }
+    if (m.stun > 0) { ctx.fillStyle = '#7fe0d8'; ctx.fillRect(bx + T * .3, by - K * 2.5, K * 2, K * 2); }
+    if (m.poison > 0) { ctx.fillStyle = '#62b86a'; ctx.fillRect(bx, by - K * 2.5, K * 2, K * 2); }
+  }
+  if (p.hp > 0) { if (p.roar > 0) { ctx.fillStyle = `rgba(242,201,76,${.15 + .08 * Math.sin(time * 8)})`; ctx.fillRect(ox + p.rx * T, oy + p.ry * T, T, T); }
+    drawEnt(p.cls, p.rx, p.ry, { flash: p.fl > 0, face: p.face, bx: p.bx, by: p.by }, ox, oy); }
+  for (let i = fx.pr.length - 1; i >= 0; i--) { const q = fx.pr[i]; q.t += dt; const u = Math.min(1, q.t / q.d); ctx.fillStyle = q.col;
+    for (let s = 0; s < 3; s++) { const uu = Math.max(0, u - s * .12), sz = K * (2 - s * .5); ctx.fillRect(ox + (q.x0 + (q.x1 - q.x0) * uu) * T - sz / 2, oy + (q.y0 + (q.y1 - q.y0) * uu) * T - sz / 2, sz, sz); }
+    if (u >= 1) fx.pr.splice(i, 1); }
+  for (let i = fx.rg.length - 1; i >= 0; i--) { const q = fx.rg[i]; q.t += dt; const u = q.t / q.d; if (u >= 1) { fx.rg.splice(i, 1); continue; }
+    ctx.globalAlpha = 1 - u; ctx.strokeStyle = q.col; ctx.lineWidth = K * 1.5; ctx.beginPath(); ctx.arc(ox + q.x * T, oy + q.y * T, q.r * T * (.2 + .8 * u), 0, 6.3); ctx.stroke(); ctx.globalAlpha = 1; }
+  for (let i = fx.pt.length - 1; i >= 0; i--) { const q = fx.pt[i]; q.t += dt; if (q.t >= q.l) { fx.pt.splice(i, 1); continue; } q.x += q.vx * dt; q.y += q.vy * dt; q.vy += 9 * dt;
+    ctx.globalAlpha = 1 - q.t / q.l; ctx.fillStyle = q.col; ctx.fillRect(Math.round(ox + q.x * T), Math.round(oy + q.y * T), K * 1.5, K * 1.5); ctx.globalAlpha = 1; }
+  ctx.textAlign = 'center'; ctx.lineJoin = 'round';
+  for (let i = fx.fl.length - 1; i >= 0; i--) { const q = fx.fl[i]; q.t += dt; if (q.t >= .9) { fx.fl.splice(i, 1); continue; }
+    const u = q.t / .9, fs = Math.round(T * (q.big ? .5 : .36)); ctx.font = `700 ${fs}px "Pixelify Sans",ui-monospace,monospace`; ctx.globalAlpha = u > .7 ? (1 - u) / .3 : 1;
+    const X = ox + q.x * T, Y = oy + (q.y - u * .9) * T; ctx.lineWidth = Math.max(3, K); ctx.strokeStyle = '#120d1c'; ctx.strokeText(q.txt, X, Y); ctx.fillStyle = q.col; ctx.fillText(q.txt, X, Y); ctx.globalAlpha = 1; }
+  if (p.hp > 0 && p.hp / S.maxHp < .3) { const g = ctx.createRadialGradient(cw / 2, ch / 2, Math.min(cw, ch) * .3, cw / 2, ch / 2, Math.max(cw, ch) * .7); g.addColorStop(0, 'rgba(217,72,74,0)'); g.addColorStop(1, `rgba(217,72,74,${.28 + .1 * Math.sin(time * 5)})`); ctx.fillStyle = g; ctx.fillRect(0, 0, cw, ch); }
+}
+function miniDraw() {
+  const W = G.W, s = 3, p = G.p; mctx.clearRect(0, 0, 102, 102);
+  for (let n = 0; n < G.tiles.length; n++) { if (!G.seen[n] || !G.tiles[n]) continue; const o = G.objs[n];
+    mctx.fillStyle = G.tiles[n] === 2 ? '#f2c94c' : o && (o.t === 'chest' || o.t === 'merchant') ? '#e8913a' : vis[n] ? '#8d84a8' : '#4a435c'; mctx.fillRect((n % W) * s, ((n / W) | 0) * s, s, s); }
+  mctx.fillStyle = '#ff5c5c'; for (const m of visMobs()) mctx.fillRect(m.x * s, m.y * s, s, s);
+  mctx.fillStyle = '#fff'; mctx.fillRect(p.x * s, p.y * s, s, s);
+}
+
+/* ================= ARAYÜZ ================= */
+function hud() {
+  if (!G) return; const p = G.p, c = CLASSES[p.cls];
+  $('hpFill').style.width = clamp(p.hp / S.maxHp * 100, 0, 100) + '%'; $('hpTxt').textContent = `${Math.max(0, Math.ceil(p.hp))} / ${S.maxHp}` + (p.poison > 0 ? ' · zehir' : '');
+  $('xpFill').style.width = clamp(p.xp / xpNeed(p.level) * 100, 0, 100) + '%'; $('xpTxt').textContent = 'Seviye ' + p.level;
+  $('floorTxt').textContent = 'Kat ' + G.floor; $('goldTxt').textContent = p.gold;
+  c.sk.forEach((id, i) => { const sk = SKILLS[id], b = $('sk' + i), cd = p.cd[i]; b.className = 'act' + (cd > 0 ? ' cd' : ''); b.innerHTML = img(sk.ic) + `<span>${sk.s}</span>` + (cd > 0 ? `<span class="n">${cd}</span>` : ''); });
+  $('potBtn').innerHTML = img('potion') + `<span>İksir</span><span class="n">${p.potions}/${POT_MAX}</span>`;
+  $('expBtn').className = 'act' + (auto && auto.explore ? ' on' : ''); $('expBtn').innerHTML = img('compass') + `<span>${auto && auto.explore ? 'Dur' : 'Keşfet'}</span>`;
+  $('charBtn').innerHTML = img(p.cls) + '<span>Karakter</span>';
+  $('descend').hidden = over || G.tiles[idx(p.x, p.y)] !== 2;
+  const b = G.mobs.find(m => m.boss && m.awake); $('bossBar').hidden = !b;
+  if (b) { $('bossName').textContent = MOBS[b.t].n; $('bossFill').style.width = clamp(b.hp / b.maxHp * 100, 0, 100) + '%'; }
+}
+function openPanel(html, kind, solid) { modal = kind; $('overlay').hidden = false; $('overlay').className = solid ? 'solid' : ''; $('panel').innerHTML = html; $('panel').scrollTop = 0; }
+function closePanel() { modal = null; $('overlay').hidden = true; if (G) { hud(); pump(); } }
+function pump() { if (modal || over || !G) return; if (G.loot.length) showLoot(); else if (G.p.pend > 0) showLevel(); }
+function checkAch() {
+  for (const a of ACH) if (!meta.ach[a.id] && a.t()) { meta.ach[a.id] = 1; meta.souls += a.r; toast(`Başarım: ${a.n} (+${a.r} ruh)`); sfx('level'); saveMeta(); }
+}
+function showLevel() {
+  const p = G.p;
+  if (!p.choices) p.choices = PERKS.filter(k => (p.perks[k.id] || 0) < k.max).sort(() => rnd() - .5).slice(0, 3).map(k => k.id);
+  openPanel(`<h2>Seviye atladın!</h2><p>Bir güç seç. Sefer boyunca seninle kalır.</p><div class="stack">` +
+    p.choices.map(id => { const k = PERKS.find(q => q.id === id), n = p.perks[id] || 0; return `<button class="perk" data-a="perk" data-v="${id}">${img(k.ic)}<span><b>${k.n}</b><span>${k.d}</span>${n ? `<em>Sende ${n} tane var</em>` : ''}</span></button>`; }).join('') + `</div>`, 'level');
+}
+function showLoot() {
+  const p = G.p, it = G.loot[0], cur = p.gear[it.slot];
+  openPanel(`<h2>Ganimet!</h2><div class="two">${itemCard(it, score(cur))}${cur ? itemCard(cur).replace('<small>', '<small>Kuşanılan · ') : itemCard(null)}</div>
+    <div class="two"><button class="btn pri" data-a="equip">Kuşan</button><button class="btn" data-a="sell">Sat ${img('gold')} ${Math.round(sellVal(it) * S.gold / 100)}</button></div>`, 'loot');
+  sfx('chest');
+}
+function showShop(o) {
+  const p = G.p, f = G.floor;
+  if (!o.stock) o.stock = { items: [genItem(f + 1, 'weapon', 1), genItem(f + 1, 'armor'), genItem(f + 1, 'ring')], pot: 3 };
+  const pp = 22 + f * 5, hp = 15 + f * 6;
+  openPanel(`<h2>Gezgin Tüccar</h2><div class="chips"><span>${img('gold')} <b>${p.gold}</b> altın</span></div><div class="stack">` +
+    o.stock.items.map((it, i) => `<div>${itemCard(it, score(p.gear[it.slot]))}<button class="btn wide" data-a="buy" data-v="${i}" ${p.gold < it.price ? 'disabled' : ''}>Satın al ${img('gold')} ${it.price}</button></div>`).join('') +
+    (o.stock.pot > 0 ? `<div class="row">${img('potion')}<div class="t"><b>Can iksiri</b><span>Canının %40’ını yeniler. En çok ${POT_MAX} tane taşırsın. Kalan: ${o.stock.pot}</span></div><button class="btn" data-a="buypot" ${p.gold < pp || p.potions >= POT_MAX ? 'disabled' : ''}>${img('gold')} ${pp}</button></div>` : '') +
+    `<div class="row">${img('heart')}<div class="t"><b>Yaraları sar</b><span>Canını tamamen doldurur.</span></div><button class="btn" data-a="buyheal" ${p.gold < hp || p.hp >= S.maxHp ? 'disabled' : ''}>${img('gold')} ${hp}</button></div>
+    </div><button class="btn wide" data-a="close">Yola devam</button>`, 'shop');
+  modalObj = o;
+}
+let modalObj = null;
+function showShrine(o) {
+  const f = G.floor, cost = 30 + f * 10; modalObj = o;
+  const T2 = { blood: ['Kan Sunağı', 'Azami canının %15’ini kalıcı olarak ver, karşılığında +%15 saldırı kazan.', 'Kanını sun'],
+    gold: ['Altın Sunağı', `${cost} altın bırak, +%12 azami can kazan.`, `${cost} altın bırak`], fate: ['Kader Sunağı', 'Kaderine razı ol. Büyük bir ödül de çıkabilir, bela da.', 'Kaderini dene'] }[o.k];
+  openPanel(`<h2>${T2[0]}</h2><p>${T2[1]}</p><div class="two"><button class="btn soul" data-a="shrineYes" ${o.k === 'gold' && G.p.gold < cost ? 'disabled' : ''}>${T2[2]}</button><button class="btn" data-a="close">Dokunma</button></div>`, 'shrine');
+}
+function shrineYes() {
+  const o = modalObj, p = G.p, f = G.floor; o.used = 1; ring(p.x, p.y, 2, '#b07ae8'); sfx('skill');
+  if (o.k === 'blood') { p.bon.hp -= 15; p.bon.atk += 15; recalc(); log('Kanın sunağa aktı. Bileğin güçlendi.'); }
+  else if (o.k === 'gold') { p.gold -= 30 + f * 10; p.bon.hp += 12; recalc(); heal(S.maxHp * .12); log('Altınların eridi. Bedenin güçlendi.'); }
+  else { const r = rnd();
+    if (r < .25) { heal(S.maxHp); addPotion(p.x, p.y); log('Kader güldü: canın doldu, bir iksir buldun.'); }
+    else if (r < .45) { p.pend++; log('Kader güldü: yeni bir güç kazandın.'); }
+    else if (r < .65) { G.loot.push(genItem(f + 2, null, 1)); log('Kader güldü: sunakta bir hazine belirdi.'); }
+    else if (r < .82) { const d = Math.round(p.hp * .3); p.hp -= d; floatT(p.x, p.y, '-' + d, '#ff6b6b', true); log('Kader sırtını döndü: canın çekildi.'); }
+    else { const pool = Object.keys(MOBS).filter(k => MOBS[k].from && f >= MOBS[k].from && f <= MOBS[k].to); summon(p, pick(pool), 2, { min: 0 }); log('Kader sırtını döndü: gölgeler canlandı!'); } }
+  closePanel(); fov(); hud();
+}
+function showChar() {
+  if (!G || over || modal) return; const p = G.p, c = CLASSES[p.cls]; auto = null;
+  const perks = PERKS.filter(k => p.perks[k.id]).map(k => `<span>${k.n} <b>×${p.perks[k.id]}</b></span>`).join('');
+  openPanel(`<h2>${c.n} · Seviye ${p.level}</h2>
+    <div class="grid2"><span>Can <b>${Math.ceil(p.hp)}/${S.maxHp}</b></span><span>Saldırı <b>${S.atk}</b></span><span>Savunma <b>${S.def}</b></span><span>Kritik <b>%${S.crit}</b></span>
+    <span>Kaçınma <b>%${S.dodge}</b></span><span>Can çalma <b>%${S.ls}</b></span><span>Öldürme <b>${G.st.kills}</b></span><span>Tur <b>${G.turn}</b></span></div>
+    <div class="stack">${['weapon', 'armor', 'ring'].map(s => p.gear[s] ? itemCard(p.gear[s]) : `<div class="item"><small>${SLOT[s]}</small><b class="r0">Boş</b></div>`).join('')}</div>
+    ${perks ? `<h3>Güçler</h3><div class="grid2">${perks}</div>` : ''}
+    <h3>Yetenekler</h3><div class="stack">${c.sk.map(id => `<div class="row">${img(SKILLS[id].ic)}<div class="t"><b>${SKILLS[id].n}</b><span>${SKILLS[id].d}. Bekleme: ${Math.max(2, SKILLS[id].cd - S.cdr)} tur.</span></div><span></span></div>`).join('')}</div>
+    <button class="btn pri wide" data-a="close">Sefere dön</button>
+    <div class="two"><button class="btn" data-a="sound">Ses: ${meta.sound ? 'Açık' : 'Kapalı'}</button><button class="btn" data-a="tomenu">Ana menü</button></div>`, 'char');
+}
+function soulsFor() { const p = G.p; return Math.floor(G.floor * 2.5 + G.st.bosses * 12 + G.st.kills * .2 + G.st.gold / 100 + p.level); }
+function showDeath() {
+  const p = G.p, got = soulsFor(), rec = G.floor >= meta.best && G.floor > 1;
+  meta.souls += got; meta.runs++; if (G.floor > meta.best) meta.best = G.floor; saveMeta(); store.del(RUN_KEY);
+  const st = G.st, fl = G.floor, lv = p.level, cls = p.cls; G = null;
+  const cheap = UPS.filter(u => (meta.up[u.id] || 0) < u.max && u.cost(meta.up[u.id] || 0) <= meta.souls).length;
+  openPanel(`<h2>Kuyu seni yuttu</h2><p>${CLASSES[cls].n}, ${fl}. katta düştü.${rec ? ' Bu, şimdiye dek indiğin en derin kat.' : ''}</p>
+    <div class="grid2"><span>Kat <b>${fl}</b></span><span>Seviye <b>${lv}</b></span><span>Öldürme <b>${st.kills}</b></span><span>Patron <b>${st.bosses}</b></span><span>Altın <b>${st.gold}</b></span><span>Seçkin <b>${st.elite}</b></span></div>
+    <div class="souls">${img('soul')} +${got} ruh</div>
+    <p>${cheap ? `Ruhların ${cheap} kalıcı geliştirmeye yetiyor. Bir sonraki sefer daha güçlü başlarsın.` : `Toplam ${meta.souls} ruhun var. Biraz daha biriktir, kalıcı güçler seni bekliyor.`}</p>
+    <button class="btn pri wide" data-a="retry">Tekrar in</button>
+    <div class="two"><button class="btn soul" data-a="ups">Güçlen</button><button class="btn" data-a="menu">Ana menü</button></div>`, 'death');
+}
+
+/* --- ana menü --- */
+function showMenu(tab) {
+  if (tab) menuTab = tab; const run = store.get(RUN_KEY, null), hasRun = run && run.v === 1 && run.p;
+  const tabs = [['play', 'Sefer'], ['up', 'Güçlen'], ['ach', 'Başarım'], ['how', 'Rehber']].map(([k, n]) => `<button class="${menuTab === k ? 'on' : ''}" data-a="tab" data-v="${k}">${n}</button>`).join('');
+  let body = '';
+  if (menuTab === 'play') {
+    const c = CLASSES[selClass], own = meta.classes[selClass];
+    body = `<div class="classes">${Object.keys(CLASSES).map(k => { const o = meta.classes[k]; return `<button class="cls ${k === selClass ? 'on' : ''} ${o ? '' : 'lock'}" data-a="cls" data-v="${k}">${img(k)}<span>${CLASSES[k].n}</span>${o ? '' : `<small>${img('soul')}${CLASSES[k].cost}</small>`}</button>`; }).join('')}</div>
+      <p>${c.d}</p><div class="statline"><span>Can ${c.hp}</span><span>Saldırı ${c.atk}</span><span>Savunma ${c.def}</span><span>Menzil ${c.range}</span></div>
+      <div class="stack">${c.sk.map(id => `<div class="row">${img(SKILLS[id].ic)}<div class="t"><b>${SKILLS[id].n}</b><span>${SKILLS[id].d}</span></div><span></span></div>`).join('')}</div>
+      <div class="stack">${!own ? `<button class="btn soul wide" data-a="unlock" ${meta.souls < c.cost ? 'disabled' : ''}>Kilidi aç ${img('soul')} ${c.cost}</button>` :
+        (hasRun ? `<button class="btn pri wide" data-a="continue">Devam et · Kat ${run.floor} · ${CLASSES[run.p.cls].n}</button><button class="btn wide" data-a="start">${confirmNew ? 'Emin misin? Kayıtlı sefer silinir' : 'Yeni sefer'}</button>` : `<button class="btn pri wide" data-a="start">Kuyuya in</button>`)}</div>`;
+  } else if (menuTab === 'up') {
+    body = `<p>Ruhlar ölünce kazanılır ve kalıcıdır. Her geliştirme sonraki bütün seferlerde geçerli olur.</p><div class="stack">` + UPS.map(u => { const l = meta.up[u.id] || 0, full = l >= u.max, cost = u.cost(l);
+      return `<div class="row ${full ? 'done' : ''}">${img(u.ic)}<div class="t"><b>${u.n}</b><span>${u.d}</span><div class="pips">${Array.from({ length: u.max }, (_, i) => `<i class="${i < l ? 'f' : ''}"></i>`).join('')}</div></div>${full ? '<span class="r1">Tam</span>' : `<button class="btn soul" data-a="buyup" data-v="${u.id}" ${meta.souls < cost ? 'disabled' : ''}>${img('soul')} ${cost}</button>`}</div>`; }).join('') + `</div>`;
+  } else if (menuTab === 'ach') {
+    body = `<div class="stack">` + ACH.map(a => `<div class="row ${meta.ach[a.id] ? 'got' : ''}">${img(meta.ach[a.id] ? 'star' : 'skull')}<div class="t"><b>${a.n}</b><span>${a.d}</span></div><span class="${meta.ach[a.id] ? 'up' : ''}">${meta.ach[a.id] ? 'Tamam' : '+' + a.r + ' ruh'}</span></div>`).join('') + `</div>`;
+  } else {
+    body = `<div class="guide"><p><b>Yürü ve saldır.</b> Zemine dokun, kahraman oraya yürür. Düşmana dokun, saldırır. Klavyede ok tuşları ya da WASD.</p>
+      <p><b>Keşfet düğmesi</b> seni katta otomatik gezdirir, ganimeti toplar. Bir düşman görünce durur, karar sana kalır.</p>
+      <p><b>Sıra tabanlıdır.</b> Sen kıpırdamadıkça kimse kıpırdamaz. Dar koridorda dövüşürsen düşmanlar tek tek gelir.</p>
+      <p><b>Her seviyede bir güç seçersin.</b> Aynı gücü üst üste almak onu katlar. Sandıklar ve seçkin düşmanlar eşya düşürür.</p>
+      <p><b>Her 5 katta bir patron bekler.</b> Öncesinde iksir biriktir. Merdiven patron ölünce açılır.</p>
+      <p><b>Ölüm son değil.</b> Düştüğünde ruh kazanırsın. Ruhlarla kalıcı güçler ve yeni sınıflar açılır.</p>
+      <p>Kısayollar: 1 ve 2 yetenek, Q iksir, E keşfet, F en yakın düşmana saldır, boşluk bekle, Enter merdivenden in.</p></div>`;
+  }
+  openPanel(`<div><h1>Gölgekuyu</h1></div><p class="tag">Her iniş bir öncekinden derine gider. Her ölüm seni biraz daha güçlendirir.</p>
+    <div class="chips"><span>En derin <b>${meta.best ? 'Kat ' + meta.best : 'yok'}</b></span><span>${img('soul')} <b>${meta.souls}</b> ruh</span><span>Sefer <b>${meta.runs}</b></span></div>
+    <nav class="tabs">${tabs}</nav>${body}`, 'menu', true);
+}
+function newRun(cls) {
+  over = false; meta.last = cls; saveMeta();
+  G = { v: 1, floor: 1, turn: 0, nid: 1, W: 34, H: 34, tiles: [], seen: [], objs: {}, mobs: [], hazards: [], stairs: null, loot: [],
+    p: { cls, x: 0, y: 0, rx: 0, ry: 0, bx: 0, by: 0, fl: 0, face: 1, hp: 1, level: 1, xp: 0, gold: 0, potions: 1 + (meta.up.pot || 0), perks: {}, gear: { weapon: null, armor: null, ring: null },
+      cd: [0, 0], roar: 0, poison: 0, pend: 0, choices: null, revive: meta.up.revive ? 1 : 0, bon: { hp: 0, atk: 0 } },
+    st: { kills: 0, bosses: 0, gold: 0, elite: 0 } };
+  recalc(); G.p.hp = S.maxHp; genFloor(); closePanel(); resize(); enterFloor(true);
+  if (!meta.tip) { meta.tip = true; saveMeta(); setTimeout(() => toast('Zemine dokun: yürü. Düşmana dokun: saldır.'), 1600); }
+}
+function loadRun() {
+  const r = store.get(RUN_KEY, null); if (!r || r.v !== 1 || !r.p || !r.tiles || !r.tiles.length) return false;
+  G = r; over = false; vis = new Uint8Array(G.W * G.H); G.mobs.forEach(m => { m.rx = m.x; m.ry = m.y; }); recalc(); closePanel(); resize(); enterFloor(false); pump(); return true;
+}
+function saveRun() { if (G && !over) store.set(RUN_KEY, G); }
+
+/* ================= GİRDİ ================= */
+const ACT = {
+  tab: v => { confirmNew = false; showMenu(v); }, cls: v => { selClass = v; confirmNew = false; showMenu(); },
+  unlock: () => { const c = CLASSES[selClass]; if (meta.souls >= c.cost) { meta.souls -= c.cost; meta.classes[selClass] = true; saveMeta(); sfx('level'); checkAch(); showMenu(); } },
+  start: () => { if (store.get(RUN_KEY, null) && !confirmNew) { confirmNew = true; showMenu(); return; } confirmNew = false; store.del(RUN_KEY); newRun(selClass); },
+  continue: () => { if (!loadRun()) { store.del(RUN_KEY); showMenu(); } },
+  buyup: v => { const u = UPS.find(q => q.id === v), l = meta.up[v] || 0, c = u.cost(l); if (l < u.max && meta.souls >= c) { meta.souls -= c; meta.up[v] = l + 1; saveMeta(); sfx('coin'); const sc = $('panel').scrollTop; showMenu(); $('panel').scrollTop = sc; } },
+  perk: v => { const p = G.p; p.perks[v] = (p.perks[v] || 0) + 1; p.pend--; p.choices = null; const b = S.maxHp; recalc(); if (v === 'vit') heal(S.maxHp - b, true); if (v === 'alch') addPotion(p.x, p.y); saveRun(); closePanel(); },
+  equip: () => { const it = G.loot.shift(); equip(it); log(it.name + ' kuşanıldı.'); saveRun(); closePanel(); },
+  sell: () => { const it = G.loot.shift(); gainGold(sellVal(it), G.p.x, G.p.y); saveRun(); closePanel(); },
+  buy: v => { const p = G.p, it = modalObj.stock.items[+v]; if (p.gold < it.price) return; p.gold -= it.price; modalObj.stock.items.splice(+v, 1); equip(it); sfx('coin'); showShop(modalObj); },
+  buypot: () => { const p = G.p, c = 22 + G.floor * 5; if (p.gold < c || p.potions >= POT_MAX) return; p.gold -= c; p.potions++; modalObj.stock.pot--; sfx('potion'); showShop(modalObj); },
+  buyheal: () => { const p = G.p, c = 15 + G.floor * 6; if (p.gold < c) return; p.gold -= c; p.hp = S.maxHp; p.poison = 0; sfx('potion'); showShop(modalObj); },
+  shrineYes, close: () => closePanel(),
+  sound: () => { meta.sound = !meta.sound; saveMeta(); modal = null; showChar(); },
+  tomenu: () => { saveRun(); G = null; showMenu('play'); },
+  retry: () => newRun(meta.last), ups: () => showMenu('up'), menu: () => showMenu('play')
+};
+$('panel').addEventListener('click', e => { const b = e.target.closest('[data-a]'); if (!b || b.disabled) return; sfx('click'); ACT[b.dataset.a](b.dataset.v); });
+cv.addEventListener('pointerdown', e => {
+  if (busy()) return; const r = cv.getBoundingClientRect(), p = G.p, sc = cw / r.width;
+  const wx = ((e.clientX - r.left) * sc - cw / 2) / T + p.rx + .5, wy = ((e.clientY - r.top) * sc - ch / 2) / T + p.ry + .5;
+  handleTap(Math.floor(wx), Math.floor(wy)); e.preventDefault();
+});
+$('sk0').onclick = () => useSkill(0); $('sk1').onclick = () => useSkill(1); $('potBtn').onclick = usePotion; $('expBtn').onclick = toggleExplore; $('charBtn').onclick = showChar; $('descend').onclick = descend;
+window.addEventListener('keydown', e => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return; const k = e.key.toLowerCase();
+  if (modal) { if (k === 'escape' && (modal === 'char' || modal === 'shop' || modal === 'shrine')) closePanel(); return; }
+  if (busy()) return;
+  const mv = { arrowup: [0, -1], w: [0, -1], arrowdown: [0, 1], s: [0, 1], arrowleft: [-1, 0], a: [-1, 0], arrowright: [1, 0], d: [1, 0] }[k];
+  if (mv) { auto = null; tryMove(mv[0], mv[1]); e.preventDefault(); }
+  else if (k === ' ') { wait(); e.preventDefault(); }
+  else if (k === '1') useSkill(0); else if (k === '2') useSkill(1); else if (k === 'q') usePotion(); else if (k === 'e') toggleExplore();
+  else if (k === 'f') { const m = nearest(); if (m && (man(m, G.p) === 1 || canShoot(m))) { playerAttack(m, man(m, G.p) > 1); endTurn(); } }
+  else if (k === 'enter') { descend(); e.preventDefault(); } else if (k === 'c' || k === 'escape') showChar();
+});
+document.addEventListener('visibilitychange', () => { if (document.hidden) { saveRun(); saveMeta(); } });
+window.addEventListener('pagehide', () => { saveRun(); saveMeta(); });
+if (window.ResizeObserver) new ResizeObserver(resize).observe($('stage')); window.addEventListener('resize', resize);
+
+/* ================= BAŞLAT ================= */
+function start(data) {
+  $('goldIco').src = ico('gold'); resize();
+  if (!(data && data.resume && loadRun())) showMenu('play');
+  requestAnimationFrame(frame);
+}
+window.__gk = { get G() { return G; }, get S() { return S; }, get modal() { return modal; }, get over() { return over; }, meta, SPR, newRun, handleTap, exploreStep, useSkill, usePotion, descend, tryMove, visMobs, nearest, canShoot, playerAttack, endTurn, ACT };
+const hot = window.claude && window.claude.hot;
+try { if (hot && hot.snapshot) hot.snapshot(() => { saveRun(); saveMeta(); return { resume: !!G }; }); } catch (e) {}
+if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+})();
+</script>
+<!--/B-->
+</body>
+</html>
