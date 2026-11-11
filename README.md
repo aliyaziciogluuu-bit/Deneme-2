@@ -1,6 +1,6 @@
 # Deneme-2
 
-## Döviz Kasası
+## Yazıcıoğlu Çilek Döviz — Döviz Kasası
 
 `doviz-kasasi.html` — döviz, altın ve gümüş alış–satışlarını takip eden tek sayfalık uygulama:
 TL kasası, kendi alış–satış kur tablonuz, arbitraj, kupür bazında kasa sayımı, masraf ve
