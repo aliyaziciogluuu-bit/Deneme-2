@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+// AdMob uygulama kimliği android-app/ads.config.json dosyasından okunur.
+def adsConfig = new groovy.json.JsonSlurper().parse(file('../../ads.config.json'))
+
 android {
     namespace = "com.golgekuyu.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -9,6 +12,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        manifestPlaceholders = [admobAppId: adsConfig.appId]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

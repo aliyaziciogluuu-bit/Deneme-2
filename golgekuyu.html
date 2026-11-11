@@ -945,14 +945,17 @@ function showChar() {
     <div class="two"><button class="btn" data-a="sound">Ses: ${meta.sound ? 'Açık' : 'Kapalı'}</button><button class="btn" data-a="tomenu">Ana menü</button></div>`, 'char');
 }
 function soulsFor() { const p = G.p; return Math.floor(G.floor * 2.5 + G.st.bosses * 12 + G.st.kills * .2 + G.st.gold / 100 + p.level); }
+let lastDeath = null;
 function showDeath() {
-  const p = G.p, got = soulsFor(), rec = G.floor >= meta.best && G.floor > 1;
-  meta.souls += got; meta.runs++; if (G.floor > meta.best) meta.best = G.floor; saveMeta(); store.del(RUN_KEY);
-  const st = G.st, fl = G.floor, lv = p.level, cls = p.cls; G = null;
+  if (G) { const got = soulsFor(), rec = G.floor >= meta.best && G.floor > 1;
+    meta.souls += got; meta.runs++; if (G.floor > meta.best) meta.best = G.floor; saveMeta(); store.del(RUN_KEY);
+    lastDeath = { run: G, got, rec, dbl: false }; G = null; }
+  const d = lastDeath, r = d.run, got = d.got * (d.dbl ? 2 : 1), rec = d.rec, st = r.st, fl = r.floor, lv = r.p.level, cls = r.p.cls;
+  const adBtns = !ads.ok || d.dbl ? '' : `<div class="stack">${r.adRev ? '' : `<button class="btn soul wide" data-a="adrevive">Reklam izle, yarım canla devam et</button>`}<button class="btn soul wide" data-a="addouble">Reklam izle, ruhları ikiye katla (+${d.got})</button></div>`;
   const cheap = UPS.filter(u => (meta.up[u.id] || 0) < u.max && u.cost(meta.up[u.id] || 0) <= meta.souls).length;
   openPanel(`<h2>Kuyu seni yuttu</h2><p>${CLASSES[cls].n}, ${fl}. katta düştü.${rec ? ' Bu, şimdiye dek indiğin en derin kat.' : ''}</p>
     <div class="grid2"><span>Kat <b>${fl}</b></span><span>Seviye <b>${lv}</b></span><span>Öldürme <b>${st.kills}</b></span><span>Patron <b>${st.bosses}</b></span><span>Altın <b>${st.gold}</b></span><span>Seçkin <b>${st.elite}</b></span></div>
-    <div class="souls">${img('soul')} +${got} ruh</div>
+    <div class="souls">${img('soul')} +${got} ruh</div>${adBtns}
     <p>${cheap ? `Ruhların ${cheap} kalıcı geliştirmeye yetiyor. Bir sonraki sefer daha güçlü başlarsın.` : `Toplam ${meta.souls} ruhun var. Biraz daha biriktir, kalıcı güçler seni bekliyor.`}</p>
     <button class="btn pri wide" data-a="retry">Tekrar in</button>
     <div class="two"><button class="btn soul" data-a="ups">Güçlen</button><button class="btn" data-a="menu">Ana menü</button></div>`, 'death');
@@ -1019,7 +1022,16 @@ const ACT = {
   shrineYes, close: () => closePanel(),
   sound: () => { meta.sound = !meta.sound; saveMeta(); modal = null; showChar(); },
   tomenu: () => { saveRun(); G = null; showMenu('play'); },
-  retry: () => newRun(meta.last), ups: () => showMenu('up'), menu: () => showMenu('play')
+  retry: () => { lastDeath = null; newRun(meta.last); }, ups: () => { lastDeath = null; showMenu('up'); }, menu: () => { lastDeath = null; showMenu('play'); },
+  adrevive: () => ads.show(() => {
+    const d = lastDeath; if (!d) return; lastDeath = null;
+    meta.souls = Math.max(0, meta.souls - d.got); meta.runs = Math.max(0, meta.runs - 1); saveMeta();
+    G = d.run; G.adRev = 1; over = false; recalc(); const p = G.p; p.hp = Math.round(S.maxHp * .5); p.poison = 0; G.hazards = [];
+    for (const m of G.mobs) if (m.awake) m.stun = Math.max(m.stun, 2);
+    modal = null; $('overlay').hidden = true; fov(); hud(); miniDraw();
+    ring(p.x, p.y, 3, '#b07ae8'); floatT(p.x, p.y, 'GERİ DÖNDÜN', '#b07ae8', true); sfx('level'); saveRun();
+  }),
+  addouble: () => ads.show(() => { const d = lastDeath; if (!d || d.dbl) return; d.dbl = true; meta.souls += d.got; saveMeta(); sfx('level'); showDeath(); })
 };
 $('panel').addEventListener('click', e => { const b = e.target.closest('[data-a]'); if (!b || b.disabled) return; sfx('click'); ACT[b.dataset.a](b.dataset.v); });
 cv.addEventListener('pointerdown', e => {
@@ -1055,9 +1067,46 @@ window.addEventListener('pagehide', () => { saveRun(); saveMeta(); });
 })();
 if (window.ResizeObserver) new ResizeObserver(resize).observe($('stage')); window.addEventListener('resize', resize);
 
+/* ================= ÖDÜLLÜ REKLAM =================
+   Yalnızca Android paketinde çalışır (android-app/). Web sürümünde reklam yoktur, düğmeler görünmez.
+   Ödül, reklam sonuna kadar izlenip kapatıldığında verilir. */
+const ads = {
+  ok: false, loaded: false, loading: false, busy: false, earned: false, cb: null, plugin: null, cfg: null,
+  init() {
+    const cap = window.Capacitor, cfg = this.cfg = window.GK_ADS;
+    if (!cfg || !cfg.rewardedAdUnitId || !cap || !cap.registerPlugin || !cap.isNativePlatform || !cap.isNativePlatform()) return;
+    try {
+      const A = this.plugin = cap.registerPlugin('AdMob');
+      A.addListener('onRewardedVideoAdReward', () => { this.earned = true; });
+      A.addListener('onRewardedVideoAdDismissed', () => this.finish());
+      A.addListener('onRewardedVideoAdFailedToShow', () => this.finish());
+      A.initialize({ initializeForTesting: !!cfg.testing })
+        .then(() => A.requestConsentInfo().then(i => (i && i.isConsentFormAvailable && i.status === 'REQUIRED' ? A.showConsentForm() : null)).catch(() => null))
+        .then(() => { this.ok = true; this.load(); }).catch(() => {});
+    } catch (e) {}
+  },
+  load() {
+    if (!this.ok || this.loaded || this.loading) return; this.loading = true;
+    this.plugin.prepareRewardVideoAd({ adId: this.cfg.rewardedAdUnitId, isTesting: !!this.cfg.testing })
+      .then(() => { this.loaded = true; this.loading = false; })
+      .catch(() => { this.loading = false; setTimeout(() => this.load(), 30000); });
+  },
+  show(onReward) {
+    if (this.busy) return;
+    if (!this.loaded) { toast('Reklam henüz hazır değil. Biraz sonra tekrar dene.'); this.load(); return; }
+    this.busy = true; this.earned = false; this.loaded = false; this.cb = onReward;
+    this.plugin.showRewardVideoAd().catch(() => this.finish());
+  },
+  finish() {
+    if (!this.busy) return; this.busy = false; const cb = this.cb; this.cb = null;
+    if (this.earned && cb) cb(); else toast('Reklam tamamlanmadı, ödül verilmedi.');
+    this.load();
+  }
+};
+
 /* ================= BAŞLAT ================= */
 function start(data) {
-  $('goldIco').src = ico('gold'); resize();
+  $('goldIco').src = ico('gold'); resize(); ads.init();
   if (!(data && data.resume && loadRun())) showMenu('play');
   requestAnimationFrame(frame);
 }

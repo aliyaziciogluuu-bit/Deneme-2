@@ -1,6 +1,7 @@
 // Oyunun web dosyasını (../golgekuyu.html) Android paketinin www klasörüne hazırlar:
 // - yazı tipini çevrimdışı çalışsın diye pakete gömer,
-// - Capacitor'ın tarayıcı tarafı betiğini ekler (geri tuşu gibi yerel özellikler için).
+// - Capacitor'ın tarayıcı tarafı betiğini ekler (geri tuşu gibi yerel özellikler için),
+// - ads.config.json içindeki reklam birimi kimliğini oyuna aktarır.
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -21,7 +22,9 @@ html = html.replace(fontLink, '<style>' +
 
 const marker = '<div id="app" lang="tr">';
 if (!html.includes(marker)) throw new Error('golgekuyu.html içinde oyun kabı bulunamadı');
-html = html.replace(marker, '<script src="capacitor.js"></script>\n' + marker);
+const ads = JSON.parse(readFileSync(join(app, 'ads.config.json'), 'utf8'));
+const adsCfg = { rewardedAdUnitId: ads.rewardedAdUnitId, testing: !!ads.testing };
+html = html.replace(marker, `<script src="capacitor.js"></script>\n<script>window.GK_ADS=${JSON.stringify(adsCfg)};</script>\n` + marker);
 
 rmSync(www, { recursive: true, force: true });
 mkdirSync(join(www, 'fonts'), { recursive: true });

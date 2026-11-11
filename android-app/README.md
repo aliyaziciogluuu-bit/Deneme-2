@@ -6,6 +6,7 @@ Oyunun kendisi tek yerde durur (`../golgekuyu.html`); paket her derlemede oradan
 | Yol | Ne işe yarar |
 | --- | --- |
 | `capacitor.config.json` | Uygulama kimliği (`appId`) ve adı |
+| `ads.config.json` | AdMob uygulama kimliği ve ödüllü reklam birimi |
 | `scripts/build-web.mjs` | Oyunu `www/` klasörüne hazırlar, yazı tipini pakete gömer |
 | `scripts/make-icons.py` | Uygulama simgelerini oyundaki karakterden üretir |
 | `fonts/` | Pixelify Sans yazı tipi ve lisansı (SIL OFL 1.1) |
@@ -54,6 +55,28 @@ Elle çalıştırmak için iş akışı sayfasındaki **Run workflow** düğmesi
    (`versionName` kullanıcıya görünen sürüm adıdır).
 5. Play Console ayrıca gizlilik politikası adresi, ekran görüntüleri, içerik derecelendirmesi ve
    mağaza simgesi (`store/icon-512.png`) ister.
+
+## Ödüllü reklam (AdMob)
+
+Reklam yalnızca Android uygulamasında çalışır; web sürümünde düğmeler hiç görünmez. Oyuncu ölünce
+iki seçenek çıkar, ikisi de isteğe bağlıdır:
+
+- **Reklam izle, yarım canla devam et** — sefer başına bir kez. Görünen düşmanlar 2 tur sersemler.
+- **Reklam izle, ruhları ikiye katla** — o seferde kazanılan ruhlar iki katına çıkar.
+
+Ödül, reklam sonuna kadar izlenirse verilir. Reklam yüklenemezse oyun normal şekilde devam eder.
+
+`ads.config.json` içindeki kimlikler **Google'ın herkese açık deneme kimlikleridir**: deneme reklamı
+gösterir, para kazandırmaz. Yayınlamadan önce:
+
+1. [AdMob](https://admob.google.com) hesabı açın, uygulamayı ekleyin ve bir **ödüllü** reklam birimi oluşturun.
+2. `ads.config.json` dosyasında `appId` (içinde `~` olan) ve `rewardedAdUnitId` (içinde `/` olan)
+   değerlerini kendi kimliklerinizle değiştirin, `testing` değerini `false` yapın.
+3. Kendi telefonunuzda denerken `testing` değerini `true` bırakın. Gerçek reklamlara kendiniz
+   tıklamak AdMob hesabının kapatılmasına yol açabilir.
+4. Play Console'da uygulamanın **reklam içerdiğini** bildirin ve gizlilik politikanızda reklam
+   kimliği kullanımını belirtin. Avrupa'daki kullanıcılara izin penceresi göstermek için AdMob'da
+   "Gizlilik ve mesajlaşma" bölümünden bir GDPR mesajı oluşturun; uygulama bunu açılışta kendisi gösterir.
 
 ## Bilgisayarda derlemek
 
