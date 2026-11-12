@@ -1,10 +1,11 @@
-_gecici/
+**/ses_kaynak/yagmur.*
 __pycache__/
+_gecici/
+_ses.m4a
+_shorts.*
+_video.mp4
 onizleme*.jpg
 ses_deneme.wav
-video.mp4
-**/ses_kaynak/yagmur.*
-_ses.m4a
-_video.mp4
 shorts.mp4
-_shorts.*
+video.mp4
+video_*.mp4

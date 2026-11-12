@@ -9,6 +9,8 @@ Kullanım:
   python uret.py 02-snowy-castle --dakika 60        # tam video (video.mp4)
   python uret.py 02-snowy-castle --dakika 60 --crf 32   # daha küçük dosya
   python uret.py 02-snowy-castle --sesdegistir      # mevcut videonun yalnızca sesini yeniden kur
+  python uret.py 03-christmas-cabin --dakika 180 --720 --hevc --crf 35 --ses-kbps 96 --cikti video_3saat.mp4
+                                                    # 3 saatlik sürüm, 400 MB altına sığar
 
 Gerekenler: ffmpeg, pip install numpy scipy opencv-python-headless pillow
 """
@@ -385,17 +387,21 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
     for k in range(int(a.get("ates_katman", 1))):
         iz = uzat(ates, n, rng)
         iz *= a.get("ates_duzey", 0.22) / np.percentile(np.abs(iz[::5]), 99.95)
-        citirti = signal.sosfilt(yuksek, iz).astype(np.float32)
-        citirti = (tavan * np.tanh(citirti / tavan)).astype(np.float32)          # en sert çıtırtıları yumuşat
-        govde = signal.sosfilt(alcak, iz).astype(np.float32) * a.get("ates_govde", 1.0)   # alevin alçak uğultusu
-        iz = citirti + govde
         kay = (0.0, 0.12, -0.08)[k % 3]                                          # katmanlar biraz farklı yerlerden gelsin
-        zemin[:, 0] += iz * (sol + kay)
-        zemin[:, 1] += iz * (sag - kay)
-    np.tanh(zemin * 1.6, out=zemin)      # tepe değerini sınırla; sıkıştırılmış seste taşma olmasın
-    zemin /= 1.6
+        zi_y, zi_a = np.zeros((yuksek.shape[0], 2)), np.zeros((alcak.shape[0], 2))
+        for i in range(0, n, SR * 120):                                          # uzun sürümlerde bellek yetsin diye parça parça
+            p = iz[i:i + SR * 120]
+            citirti, zi_y = signal.sosfilt(yuksek, p, zi=zi_y)
+            citirti = tavan * np.tanh(citirti / tavan)                           # en sert çıtırtıları yumuşat
+            govde, zi_a = signal.sosfilt(alcak, p, zi=zi_a)                      # alevin alçak uğultusu
+            p = (citirti + govde * a.get("ates_govde", 1.0)).astype(np.float32)
+            zemin[i:i + len(p), 0] += p * (sol + kay)
+            zemin[i:i + len(p), 1] += p * (sag - kay)
+        del iz
+    for i in range(0, n, SR * 120):      # tepe değerini sınırla; sıkıştırılmış seste taşma olmasın
+        zemin[i:i + SR * 120] = np.tanh(zemin[i:i + SR * 120] * 1.6) / 1.6
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-",
-                           "-af", f"afade=t=in:d={giris},afade=t=out:st={max(n / SR - cikis, 0)}:d={cikis}", "-c:a", "aac", "-b:a", "160k", str(yol)], stdin=subprocess.PIPE)
+                           "-af", f"afade=t=in:d={giris},afade=t=out:st={max(n / SR - cikis, 0)}:d={cikis}", "-c:a", "aac", "-b:a", f"{SES_KBPS}k", str(yol)], stdin=subprocess.PIPE)
     for i in range(0, n, SR * 30):
         ff.stdin.write(zemin[i:i + SR * 30].tobytes())
     ff.stdin.close()
@@ -403,10 +409,22 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
 
 
 # ------------------------------------------------------------------ çıktı
-CRF = sys.argv[sys.argv.index("--crf") + 1] if "--crf" in sys.argv else "27"   # büyüdükçe dosya küçülür
+def secenek(ad, varsayilan):
+    return sys.argv[sys.argv.index(ad) + 1] if ad in sys.argv else varsayilan
+
+
+CRF = secenek("--crf", "27")             # büyüdükçe dosya küçülür
+SES_KBPS = secenek("--ses-kbps", "160")
+CIKTI = secenek("--cikti", "video.mp4")
 # Her parça tek anahtar kareyle kodlanır: dosya küçülür, parçalar yeniden kodlanmadan uç uca eklenir.
-KODLAMA = ["-c:v", "libx264", "-preset", "slow", "-crf", CRF, "-pix_fmt", "yuv420p", "-bf", "3",
-           "-g", str(T * FPS), "-keyint_min", str(T * FPS), "-sc_threshold", "0"]
+if "--hevc" in sys.argv:                 # uzun sürümler için: aynı kalitede yaklaşık yarı boyut (YouTube kabul eder)
+    KODLAMA = ["-c:v", "libx265", "-preset", "medium", "-crf", CRF, "-pix_fmt", "yuv420p", "-tag:v", "hvc1",
+               "-x265-params", f"keyint={T * FPS}:min-keyint={T * FPS}:scenecut=0:log-level=error"]
+else:
+    KODLAMA = ["-c:v", "libx264", "-preset", "slow", "-crf", CRF, "-pix_fmt", "yuv420p", "-bf", "3",
+               "-g", str(T * FPS), "-keyint_min", str(T * FPS), "-sc_threshold", "0"]
+if "--720" in sys.argv:                  # dosya gönderme sınırına sığmayan uzun sürümler için
+    KODLAMA = ["-vf", "scale=1280:720:flags=lanczos", *KODLAMA]
 
 
 def gorunum_yaz(sahne: Sahne, yol: pathlib.Path, **secenek):
@@ -446,11 +464,11 @@ def main():
     ses_kur(klasor, gecici / "ses.m4a", tur * T)
     (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (tur - 2) + "file 'kapanis.mp4'\n")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(gecici / "liste.txt"), "-i", str(gecici / "ses.m4a"),
-                    "-c", "copy", "-shortest", "-movflags", "+faststart", str(klasor / "video.mp4")], check=True)
+                    "-c", "copy", "-shortest", "-movflags", "+faststart", str(klasor / CIKTI)], check=True)
     for d in gecici.iterdir():
         d.unlink()
     gecici.rmdir()
-    print(f"Hazır: {klasor / 'video.mp4'} ({tur * T / 60:.0f} dk)")
+    print(f"Hazır: {klasor / CIKTI} ({tur * T / 60:.0f} dk)")
 
 
 if __name__ == "__main__":
