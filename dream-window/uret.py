@@ -192,7 +192,7 @@ class Sahne:
             x0, y0, x1, y1 = self.buhar_kutu = self.o(*self.ayar["buhar"]["kutu"])
             yuk, gen = y1 - y0, x1 - x0
             yy, xx = np.mgrid[0:yuk, 0:gen].astype(np.float32)
-            self.buhar_agirlik = np.exp(-((xx - gen / 2) ** 2 / (2 * (gen / 4) ** 2) + (yy - yuk * 0.45) ** 2 / (2 * (yuk / 3.4) ** 2)))
+            self.buhar_agirlik = np.exp(-((xx - gen / 2) ** 2 / (2 * (gen / 4) ** 2) + (yy - yuk * 0.45) ** 2 / (2 * (yuk / 3.4) ** 2))) * self.ayar["buhar"].get("genlik", 1.0)   # genlik: arkada düz çizgiler varsa küçült
             self.buhar_dx = Dalga(30, yuk, gen, [(90, 400, 4, 5.0), (55, 300, 7, 3.0), (34, 200, 11, 1.5)])
             self.buhar_izgara = np.mgrid[0:yuk, 0:gen].astype(np.float32)
 

@@ -1,0 +1,26 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {"baslik": "Dream Window", "alt": ["NATURE", "SNOW", "FIREPLACE", "RELAXATION", "SLEEP"]},
+  "yagis": "kar",
+  "cam": {
+    "kutular": [[1100, 0, 1672, 585]],
+    "esik": -0.01,
+    "temizlik": 5
+  },
+  "ates": {"kutu": [100, 385, 400, 670], "ic": [145, 398, 385, 650], "taban": 625, "tepe": 405, "olcek": 0.95, "kivilcim": 14, "alev_g": 0.6},
+  "isiklar": [
+    {"x": 240, "y": 540, "sigma": 340, "genlik": 0.085},
+    {"x": 38, "y": 100, "sigma": 50, "genlik": 0.10},
+    {"x": 105, "y": 160, "sigma": 45, "genlik": 0.10},
+    {"x": 610, "y": 112, "sigma": 50, "genlik": 0.10},
+    {"x": 82, "y": 745, "sigma": 70, "genlik": 0.10},
+    {"x": 962, "y": 470, "sigma": 45, "genlik": 0.10},
+    {"x": 930, "y": 492, "sigma": 30, "genlik": 0.10},
+    {"x": 1335, "y": 615, "sigma": 70, "genlik": 0.10}
+  ],
+  "pirilti": [
+    {"kutu": [1105, 250, 1672, 440], "genlik": 0.15, "esik": 0.6, "sicak": 0.15}
+  ],
+  "buhar": {"kutu": [1050, 495, 1145, 640], "genlik": 0.5},
+  "ses": {"ates": "ses_kaynak/ates.ogg", "ates_katman": 3, "ates_duzey": 0.18, "ates_tavan": 0.17, "ates_govde": 3.3, "ates_denge": [0.9, 0.5]}
+}
