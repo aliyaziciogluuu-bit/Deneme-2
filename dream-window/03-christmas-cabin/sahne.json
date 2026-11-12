@@ -113,5 +113,13 @@
       0.55,
       1.0
     ]
+  },
+  "shorts": {
+    "bas": 1290,
+    "son": 330,
+    "tur": 2,
+    "baslik": "Cozy Christmas Cabin",
+    "alt": "Snowfall & Crackling Fireplace",
+    "ses_kazanc": 7.5
   }
 }

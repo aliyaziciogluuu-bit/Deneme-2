@@ -327,7 +327,7 @@ def uzat(kayit: np.ndarray, n: int, rng, parca=(9, 24), gecis_sn=0.4) -> np.ndar
     return iz[:n]
 
 
-def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float):
+def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float = 4, cikis: float = 8):
     """Sesi gerçek kayıtlardan kurar: isteğe bağlı bir zemin sesi (yağmur ya da rüzgâr) ve şömine çıtırtısı."""
     a = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))["ses"]
     n = int(sure * SR)
@@ -395,7 +395,7 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float):
     np.tanh(zemin * 1.6, out=zemin)      # tepe değerini sınırla; sıkıştırılmış seste taşma olmasın
     zemin /= 1.6
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-",
-                           "-af", f"afade=t=in:d=4,afade=t=out:st={max(n / SR - 8, 0)}:d=8", "-c:a", "aac", "-b:a", "160k", str(yol)], stdin=subprocess.PIPE)
+                           "-af", f"afade=t=in:d={giris},afade=t=out:st={max(n / SR - cikis, 0)}:d={cikis}", "-c:a", "aac", "-b:a", "160k", str(yol)], stdin=subprocess.PIPE)
     for i in range(0, n, SR * 30):
         ff.stdin.write(zemin[i:i + SR * 30].tobytes())
     ff.stdin.close()
