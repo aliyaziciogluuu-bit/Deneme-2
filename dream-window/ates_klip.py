@@ -5,8 +5,9 @@ sonu başına yumuşak geçişle bağlanarak kusursuz döngü yapılır ve sahne
 uret.py bu klibi şöminenin içine yerleştirir; odanın geri kalanı orijinal görsel olarak kalır.
 
 Kullanım:
-  python ates_klip.py 05-snowy-library                  # üretir (ücretli: 480p, 10 sn)
-  python ates_klip.py 05-snowy-library --cozunurluk 720p
+  python ates_klip.py 05-snowy-library                  # Seedance ile üretir (ücretli: 480p, 5 sn ≈ 0,15 $)
+  python ates_klip.py 05-snowy-library --model kwaivgi/kling-v2.5-turbo-pro --cikti ates_kling.mp4
+  python ates_klip.py 05-snowy-library --cozunurluk 720p --sure 10
   python ates_klip.py 03-christmas-cabin --klipten tum_sahne.mp4   # hazır bir tam sahne klibinden kırpar (ücretsiz)
 
 API anahtarı ortamın ağ geçidi tarafından eklenir; bu betikte anahtar yoktur.
@@ -25,6 +26,16 @@ API = "https://api.replicate.com/v1"
 ISTEM = ("Static locked-off close-up shot of a fireplace, the camera does not move at all. The fire burns naturally: "
          "flames flicker and dance around the logs, embers glow and small sparks rise. The stone and brick around the fire "
          "and everything outside the fireplace stay completely still. No camera movement, no zoom, no people, no smoke filling the room.")
+YASAK = "camera movement, zoom, pan, people, hands, text, smoke filling the room, sparks or glow outside the fireplace, flickering walls, morphing objects"
+
+
+def girdi_kur(model: str, adres: str, g) -> dict:
+    """Her modelin alan adları farklı; bitiş karesi zorlanmaz (doğal hareket için), döngüyü dongu_yap kurar."""
+    if model.startswith("kwaivgi/kling"):
+        return {"start_image": adres, "prompt": ISTEM, "negative_prompt": YASAK, "duration": 5 if g.sure <= 5 else 10}
+    if model.startswith("bytedance/seedance"):
+        return {"image": adres, "prompt": ISTEM, "duration": g.sure, "resolution": g.cozunurluk, "fps": 24, "camera_fixed": True}
+    raise SystemExit(f"Bu model için girdi tanımlı değil: {model}")
 
 
 def curl(*arg, cikti=None):
@@ -85,7 +96,9 @@ def main():
     p.add_argument("sahne")
     p.add_argument("--model", default="bytedance/seedance-1-pro")
     p.add_argument("--cozunurluk", default="480p")
-    p.add_argument("--sure", type=int, default=10)
+    p.add_argument("--sure", type=int, default=5)
+    p.add_argument("--cikti", default="ates_klip.mp4")
+    p.add_argument("--baglama", action="store_true", help="sahne.json'a yazma (yalnızca karşılaştırma için üret)")
     p.add_argument("--klipten", help="hazır tam sahne klibi (1920x1080); Replicate'e gitmeden kırpılır")
     g = p.parse_args()
 
@@ -95,7 +108,7 @@ def main():
     gorsel = cv2.imread(str(klasor / ayar["gorsel"]))
     yuk, gen = gorsel.shape[:2]
     kutu = kirpma_kutusu(ayar, gen, yuk)
-    hedef = klasor / "ates_klip.mp4"
+    hedef = klasor / g.cikti
     bilgi = {"dosya": hedef.name, "kutu": kutu}
 
     if g.klipten:
@@ -103,7 +116,7 @@ def main():
         sure = dongu_yap(pathlib.Path(g.klipten), hedef, [int(round(v * olcek)) for v in kutu])
         bilgi["kaynak"] = "tam sahne klibinden kırpıldı"
     else:
-        gecici = klasor / "_ates_kirpma.jpg"
+        gecici = klasor / f"_kirpma_{hedef.stem}.jpg"
         x0, y0, x1, y1 = kutu
         kirpma = gorsel[y0:y1, x0:x1]
         if kirpma.shape[1] < 960:                                  # model girdisi en az 960x720 olsun
@@ -112,8 +125,7 @@ def main():
         dosya = curl("-X", "POST", f"{API}/files", "-F", f"content=@{gecici};type=image/jpeg;filename=ates.jpg")
         gecici.unlink()
         adres = dosya["urls"]["get"]
-        girdi = {"image": adres, "last_frame_image": adres, "prompt": ISTEM, "duration": g.sure,
-                 "resolution": g.cozunurluk, "aspect_ratio": "4:3", "fps": 24, "camera_fixed": True}
+        girdi = girdi_kur(g.model, adres, g)
         tahmin = curl("-X", "POST", f"{API}/models/{g.model}/predictions", "-H", "Content-Type: application/json",
                       "-d", json.dumps({"input": girdi}))
         print("Üretim başladı:", tahmin["id"], flush=True)
@@ -123,13 +135,16 @@ def main():
         if tahmin["status"] != "succeeded":
             raise SystemExit(f"Üretim başarısız: {tahmin.get('error')}")
         cikti = tahmin["output"] if isinstance(tahmin["output"], str) else tahmin["output"][0]
-        ham = klasor / "_ates_ham.mp4"
+        ham = klasor / f"_ham_{hedef.stem}.mp4"
         curl(cikti, cikti=ham)
-        sure = dongu_yap(ham, hedef)
+        sure = dongu_yap(ham, hedef, gecis=24 if g.sure <= 5 else 36)
         ham.unlink()
         bilgi.update(model=g.model, cozunurluk=g.cozunurluk, tahmin=tahmin["id"],
                      sure_sn=round(tahmin.get("metrics", {}).get("predict_time", 0)))
 
+    if g.baglama:
+        print(f"Hazır: {hedef} ({sure:.1f} sn döngü); sahne.json değiştirilmedi. Bilgi: {json.dumps(bilgi, ensure_ascii=False)}")
+        return
     ayar["ates_klip"] = bilgi
     ayar_yolu.write_text(json.dumps(ayar, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Hazır: {hedef} ({sure:.1f} sn döngü), sahne.json güncellendi")
