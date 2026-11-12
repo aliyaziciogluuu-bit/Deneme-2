@@ -5,9 +5,11 @@ sonu başına yumuşak geçişle bağlanarak kusursuz döngü yapılır ve sahne
 uret.py bu klibi şöminenin içine yerleştirir; odanın geri kalanı orijinal görsel olarak kalır.
 
 Kullanım:
-  python ates_klip.py 05-snowy-library                  # Seedance ile üretir (ücretli: 480p, 5 sn ≈ 0,15 $)
-  python ates_klip.py 05-snowy-library --model kwaivgi/kling-v2.5-turbo-pro --cikti ates_kling.mp4
-  python ates_klip.py 05-snowy-library --cozunurluk 720p --sure 10
+  python ates_klip.py 05-snowy-library                  # Kling, 10 sn (≈ 0,70 $), 8,5 sn'lik döngü
+  python ates_klip.py 05-snowy-library --model bytedance/seedance-1-pro --cozunurluk 480p   # daha ucuz (≈ 0,30 $), daha yumuşak
+
+Model karşılaştırması (kütüphane şöminesi, Kasım 2026): Kling orijinal görsele daha sadık, daha keskin ve
+çevresi daha sabit çıktı; bu yüzden varsayılan Kling.
   python ates_klip.py 03-christmas-cabin --klipten tum_sahne.mp4   # hazır bir tam sahne klibinden kırpar (ücretsiz)
 
 API anahtarı ortamın ağ geçidi tarafından eklenir; bu betikte anahtar yoktur.
@@ -94,9 +96,9 @@ def dongu_yap(kaynak: pathlib.Path, hedef: pathlib.Path, kutu_px=None, gecis=36)
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("sahne")
-    p.add_argument("--model", default="bytedance/seedance-1-pro")
+    p.add_argument("--model", default="kwaivgi/kling-v2.5-turbo-pro")
     p.add_argument("--cozunurluk", default="480p")
-    p.add_argument("--sure", type=int, default=5)
+    p.add_argument("--sure", type=int, default=10)
     p.add_argument("--cikti", default="ates_klip.mp4")
     p.add_argument("--baglama", action="store_true", help="sahne.json'a yazma (yalnızca karşılaştırma için üret)")
     p.add_argument("--klipten", help="hazır tam sahne klibi (1920x1080); Replicate'e gitmeden kırpılır")
