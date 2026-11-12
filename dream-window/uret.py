@@ -64,6 +64,7 @@ class Sahne:
         self._cam()
         self._ates()
         self._isik()
+        self._pirilti()
         self._su_ve_buhar()
         self._yagis()
 
@@ -122,7 +123,7 @@ class Sahne:
         x0, y0, x1, y1 = self.ates_kutu = self.o(*a["kutu"])
         bolge = self.temiz[y0:y1, x0:x1]
         b, g, r = cv2.split(bolge)
-        alev = ((r > 0.78) & (g > 0.35) & (b < 0.55) & (r - b > 0.35)).astype(np.uint8)
+        alev = ((r > 0.78) & (g > a.get("alev_g", 0.35)) & (b < 0.55) & (r - b > 0.35)).astype(np.uint8)   # alev_g: turuncu tuğlayı alevden ayırır
         ic = np.zeros_like(alev)
         ax, ay, bx, by = self.o(*a["ic"])                             # ocağın iç boşluğu; taş çerçeve oynamasın
         ic[ay - y0:by - y0, ax - x0:bx - x0] = 1
@@ -160,6 +161,21 @@ class Sahne:
         self.isik_dilim = (slice(satir[0], satir[-1] + 1), slice(sutun[0], sutun[-1] + 1))   # hız için yalnızca etkilenen alan
         self.isiklar = [(h[self.isik_dilim], f, g) for h, f, g in self.isiklar]
         self.sicak = np.array([0.55, 0.85, 1.0], np.float32)          # BGR: sıcak ışık maviyi az etkiler
+
+    def _pirilti(self):
+        """Ağaç ve süs ışıklarının göz kırpması: kutulardaki küçük parlak noktalar ayrı ayrı yanıp söner."""
+        self.piriltilar = []
+        rng = np.random.default_rng(70)
+        for p in self.ayar.get("pirilti", []):
+            x0, y0, x1, y1 = self.o(*p["kutu"])
+            b, g, r = cv2.split(self.temiz[y0:y1, x0:x1])
+            parlak = ((0.114 * b + 0.587 * g + 0.299 * r) > p.get("esik", 0.72)).astype(np.float32)
+            maske = cv2.GaussianBlur(parlak, (0, 0), 2.5)
+            hucre = 14                                               # her hücre kendi hızında ve fazında yanıp söner
+            ky, kx = (y1 - y0) // hucre + 1, (x1 - x0) // hucre + 1
+            buyut = lambda d: np.kron(d, np.ones((hucre, hucre), np.float32))[:y1 - y0, :x1 - x0]
+            self.piriltilar.append(((x0, y0, x1, y1), maske * p.get("genlik", 0.4),
+                                    buyut(rng.uniform(0, 2 * np.pi, (ky, kx)).astype(np.float32)), buyut(rng.integers(3, 11, (ky, kx)).astype(np.float32))))
 
     def _su_ve_buhar(self):
         self.su_kutu = self.buhar_kutu = None
@@ -270,6 +286,8 @@ class Sahne:
         # ateş ve mum ışığının odaya vuran titremesi
         kazanc = sum(harita * (f(t) * genlik) for harita, f, genlik in self.isiklar)
         kare[self.isik_dilim] *= 1 + kazanc[..., None] * self.sicak
+        for (px0, py0, px1, py1), guc, faz, hiz in self.piriltilar:
+            kare[py0:py1, px0:px1] *= (1 + guc * np.sin(faz + np.float32(2 * np.pi * t / T) * hiz))[..., None]
 
         # yağmur ya da kar
         x0, y0, x1, y1 = self.cam_kutu
