@@ -121,5 +121,15 @@
     "baslik": "Cozy Christmas Cabin",
     "alt": "Snowfall & Crackling Fireplace",
     "ses_kazanc": 7.5
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kutu": [
+      1168,
+      400,
+      1621,
+      740
+    ],
+    "kaynak": "tam sahne klibinden kırpıldı"
   }
 }

@@ -147,6 +147,35 @@ class Sahne:
         self.kivilcim = [dict(x=rng.uniform(0.3, 0.7) * gen, faz=rng.uniform(0, 1), tur=int(rng.integers(4, 10)),
                               sal=rng.uniform(4, 14) * s, salfaz=rng.uniform(0, 6.28), saltur=int(rng.integers(6, 20)),
                               boy=rng.uniform(0.5, 0.95)) for _ in range(int(a.get("kivilcim", 14)))]
+        self._ates_klip()
+
+    def _ates_klip(self):
+        """sahne.json'da "ates_klip" varsa şöminenin içi gerçek ateş videosuyla değiştirilir (ates_klip.py üretir)."""
+        self.klip = None
+        k = self.ayar.get("ates_klip")
+        if not k:
+            return
+        kx0, ky0, kx1, ky1 = self.klip_kutu = self.o(*k["kutu"])
+        gen, yuk = kx1 - kx0, ky1 - ky0
+        cap = cv2.VideoCapture(str(self.klasor / k["dosya"]))
+        kareler = []
+        while True:
+            ok, f = cap.read()
+            if not ok:
+                break
+            kareler.append(cv2.resize(f, (gen, yuk), interpolation=cv2.INTER_AREA).astype(np.float32) / 255)
+        donus = T * FPS
+        hedef = min((d for d in range(donus // 4, donus + 1) if donus % d == 0), key=lambda d: abs(d - len(kareler)))
+        sira = [int(round(i * len(kareler) / hedef)) % len(kareler) for i in range(hedef)]   # 24 sn'lik döngüye tam sığsın
+        ix0, iy0, ix1, iy1 = self.o(*k.get("maske", self.ayar["ates"]["ic"]))
+        maske = np.zeros((Y, G), np.float32)
+        maske[iy0:iy1, ix0:ix1] = 1
+        maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7))[ky0:ky1, kx0:kx1, None]
+        orta = np.mean(kareler[::max(len(kareler) // 20, 1)], axis=0)
+        m = maske[..., 0] > 0.5                                       # renkleri orijinal görsele eşitle
+        oran = ((self.temiz[ky0:ky1, kx0:kx1][m].mean(axis=0) + 1e-3) / (orta[m].mean(axis=0) + 1e-3)).astype(np.float32)
+        self.klip = [np.clip(kareler[i] * oran, 0, 1) for i in sira]
+        self.klip_maske = maske
 
     def _isik(self):
         """Ateşin ve mumların çevreye vurduğu ışığın oynaması için kazanç haritaları."""
@@ -266,11 +295,16 @@ class Sahne:
             kare = self.temiz.copy()
 
         # ateş
+        if self.klip is not None:
+            kx0, ky0, kx1, ky1 = self.klip_kutu
+            b = kare[ky0:ky1, kx0:kx1]
+            kare[ky0:ky1, kx0:kx1] = b * (1 - self.klip_maske) + self.klip[n % len(self.klip)] * self.klip_maske
         x0, y0, x1, y1 = self.ates_kutu
-        self._buk(kare, self.ates_kutu, self.ates_izgara, self.ates_dx(t) * self.ates_agirlik, self.ates_dy(t) * self.ates_agirlik)
-        kare[y0:y1, x0:x1] *= (1 + 0.09 * self.ates_parlaklik(t) * self.alev)[..., None]
+        if self.klip is None:
+            self._buk(kare, self.ates_kutu, self.ates_izgara, self.ates_dx(t) * self.ates_agirlik, self.ates_dy(t) * self.ates_agirlik)
+            kare[y0:y1, x0:x1] *= (1 + 0.09 * self.ates_parlaklik(t) * self.alev)[..., None]
         yuk, gen = y1 - y0, x1 - x0
-        for k in self.kivilcim:
+        for k in (self.kivilcim if self.klip is None else []):   # gerçek ateş klibi kendi kıvılcımlarını taşır
             p = (k["faz"] + k["tur"] * t / T) % 1.0
             ky = yuk * (0.72 - p * k["boy"] * 0.62)
             kx = k["x"] + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / T) + p * 10
