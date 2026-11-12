@@ -328,58 +328,70 @@ def uzat(kayit: np.ndarray, n: int, rng, parca=(9, 24), gecis_sn=0.4) -> np.ndar
 
 
 def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float):
-    """Sesi gerçek kayıtlardan kurar: bir zemin sesi (yağmur ya da rüzgâr) ve solda duran şömine çıtırtısı."""
+    """Sesi gerçek kayıtlardan kurar: isteğe bağlı bir zemin sesi (yağmur ya da rüzgâr) ve şömine çıtırtısı."""
     a = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))["ses"]
     n = int(sure * SR)
     rng = np.random.default_rng(11)
 
-    zemin_dosya = klasor / a["zemin"]
-    uzunluk = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(zemin_dosya)],
-                                   capture_output=True, text=True).stdout)
-    bas = a.get("zemin_bas", 0)
-    if uzunluk - bas >= sure:        # kayıt yeterince uzun: kesintisiz kullan
-        zemin = kayit_coz(zemin_dosya, 2, ("-ss", str(bas), "-t", str(sure)))[:n]
-        zemin = np.pad(zemin, ((0, n - len(zemin)), (0, 0)))
-    else:                            # kısa kayıt: iki kanal için ayrı ayrı uzat, böylece ses geniş duyulur
-        tek = kayit_coz(zemin_dosya, 1)[:, 0]
-        tek = tek[int(bas * SR):]
-        zemin = np.stack([uzat(tek, n, rng, (20, 55), 3.0), uzat(tek, n, rng, (20, 55), 3.0)], axis=1)
-    sos = signal.butter(4, a.get("alt_kesim", 100), "highpass", fs=SR, output="sos")
-    if a.get("ust_kesim"):
-        sos = np.vstack([sos, signal.butter(2, a["ust_kesim"], "lowpass", fs=SR, output="sos")])
-    zemin = signal.sosfilt(sos, zemin, axis=0).astype(np.float32)
+    zemin = np.zeros((n, 2), np.float32)
+    if a.get("zemin"):               # zemin sesi isteğe bağlı; yoksa yalnızca şömine duyulur
+        zemin_dosya = klasor / a["zemin"]
+        uzunluk = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(zemin_dosya)],
+                                       capture_output=True, text=True).stdout)
+        bas = a.get("zemin_bas", 0)
+        if uzunluk - bas >= sure:        # kayıt yeterince uzun: kesintisiz kullan
+            zemin = kayit_coz(zemin_dosya, 2, ("-ss", str(bas), "-t", str(sure)))[:n]
+            zemin = np.pad(zemin, ((0, n - len(zemin)), (0, 0)))
+        else:                            # kısa kayıt: iki kanal için ayrı ayrı uzat, böylece ses geniş duyulur
+            tek = kayit_coz(zemin_dosya, 1)[:, 0]
+            tek = tek[int(bas * SR):]
+            zemin = np.stack([uzat(tek, n, rng, (20, 55), 3.0), uzat(tek, n, rng, (20, 55), 3.0)], axis=1)
+        sos = signal.butter(4, a.get("alt_kesim", 100), "highpass", fs=SR, output="sos")
+        if a.get("ust_kesim"):
+            sos = np.vstack([sos, signal.butter(2, a["ust_kesim"], "lowpass", fs=SR, output="sos")])
+        zemin = signal.sosfilt(sos, zemin, axis=0).astype(np.float32)
 
-    def duzelt(pencere_sn, yumusat, kazanc_hesabi):
-        pencere = int(SR * pencere_sn)
-        adet = n // pencere
-        rms = np.sqrt((zemin[:adet * pencere].mean(axis=1).reshape(adet, pencere) ** 2).mean(axis=1)) + 1e-9
-        rms = np.convolve(np.pad(rms, yumusat // 2, mode="edge"), np.ones(yumusat) / yumusat, "valid")
-        kazanc = kazanc_hesabi(rms)
-        merkez = (np.arange(adet) + 0.5) * pencere
-        for i in range(0, n, SR * 60):
-            j = min(i + SR * 60, n)
-            zemin[i:j] *= np.interp(np.arange(i, j), merkez, kazanc).astype(np.float32)[:, None]
+        def duzelt(pencere_sn, yumusat, kazanc_hesabi):
+            pencere = int(SR * pencere_sn)
+            adet = n // pencere
+            rms = np.sqrt((zemin[:adet * pencere].mean(axis=1).reshape(adet, pencere) ** 2).mean(axis=1)) + 1e-9
+            rms = np.convolve(np.pad(rms, yumusat // 2, mode="edge"), np.ones(yumusat) / yumusat, "valid")
+            kazanc = kazanc_hesabi(rms)
+            merkez = (np.arange(adet) + 0.5) * pencere
+            for i in range(0, n, SR * 60):
+                j = min(i + SR * 60, n)
+                zemin[i:j] *= np.interp(np.arange(i, j), merkez, kazanc).astype(np.float32)[:, None]
 
-    if a.get("duzey_dengele", True):     # kayıt boyunca yavaşça değişen ses düzeyini dengele
-        duzelt(5, 13, lambda r: np.clip((np.median(r) / r) ** 0.8, 0.35, 2.8))
-    esik = a.get("ani_esik", 1.3)        # ani yükselmeleri bastır: uyuyan birini irkiltmesin
-    duzelt(1, 3, lambda r: np.minimum(1.0, (np.median(r) * esik / r) ** 0.85))
-    if a.get("dalgalanma"):              # düzeyi sabit bir kayda yavaş, tekrar etmeyen iniş çıkışlar ekle
-        d = a["dalgalanma"]
-        for i in range(0, n, SR * 60):
-            t = np.arange(i, min(i + SR * 60, n), dtype=np.float32) / SR
-            zemin[i:i + len(t)] *= (1 + d * (0.5 * np.sin(2 * np.pi * t / 41.3) + 0.3 * np.sin(2 * np.pi * t / 67.1 + 1) + 0.2 * np.sin(2 * np.pi * t / 113.7 + 2)))[:, None]
-    zemin *= a.get("zemin_duzey", 0.075) / float(np.sqrt((zemin[::7] ** 2).mean()))
+        if a.get("duzey_dengele", True):     # kayıt boyunca yavaşça değişen ses düzeyini dengele
+            duzelt(5, 13, lambda r: np.clip((np.median(r) / r) ** 0.8, 0.35, 2.8))
+        esik = a.get("ani_esik", 1.3)        # ani yükselmeleri bastır: uyuyan birini irkiltmesin
+        duzelt(1, 3, lambda r: np.minimum(1.0, (np.median(r) * esik / r) ** 0.85))
+        if a.get("dalgalanma"):              # düzeyi sabit bir kayda yavaş, tekrar etmeyen iniş çıkışlar ekle
+            d = a["dalgalanma"]
+            for i in range(0, n, SR * 60):
+                t = np.arange(i, min(i + SR * 60, n), dtype=np.float32) / SR
+                zemin[i:i + len(t)] *= (1 + d * (0.5 * np.sin(2 * np.pi * t / 41.3) + 0.3 * np.sin(2 * np.pi * t / 67.1 + 1) + 0.2 * np.sin(2 * np.pi * t / 113.7 + 2)))[:, None]
+        zemin *= a.get("zemin_duzey", 0.075) / float(np.sqrt((zemin[::7] ** 2).mean()))
 
+
+    # şömine: kısa kayıttan birkaç bağımsız katman üst üste biner; ateş daha dolu ve sık çıtırtılı duyulur
     ates = kayit_coz(klasor / a["ates"], 1)[:, 0]
-    iz = uzat(ates[int(0.5 * SR):len(ates) - int(0.5 * SR)], n, rng)
-    iz *= a.get("ates_duzey", 0.22) / np.percentile(np.abs(iz[::5]), 99.95)
-    tavan = a.get("ates_tavan", 0.32)
-    iz = (tavan * np.tanh(iz / tavan)).astype(np.float32)        # en sert çıtırtıları yumuşat
-
+    ates = ates[int(0.5 * SR):len(ates) - int(0.5 * SR)]
     sol, sag = a.get("ates_denge", [1.0, 0.45])                  # şöminenin görüntüdeki yerine göre sol/sağ düzeyi
-    zemin[:, 0] += iz * sol
-    zemin[:, 1] += iz * sag
+    kesim = a.get("ates_govde_kesim", 600)
+    alcak = np.vstack([signal.butter(2, 70, "highpass", fs=SR, output="sos"), signal.butter(2, kesim, "lowpass", fs=SR, output="sos")])
+    yuksek = signal.butter(2, kesim, "highpass", fs=SR, output="sos")
+    tavan = a.get("ates_tavan", 0.32)
+    for k in range(int(a.get("ates_katman", 1))):
+        iz = uzat(ates, n, rng)
+        iz *= a.get("ates_duzey", 0.22) / np.percentile(np.abs(iz[::5]), 99.95)
+        citirti = signal.sosfilt(yuksek, iz).astype(np.float32)
+        citirti = (tavan * np.tanh(citirti / tavan)).astype(np.float32)          # en sert çıtırtıları yumuşat
+        govde = signal.sosfilt(alcak, iz).astype(np.float32) * a.get("ates_govde", 1.0)   # alevin alçak uğultusu
+        iz = citirti + govde
+        kay = (0.0, 0.12, -0.08)[k % 3]                                          # katmanlar biraz farklı yerlerden gelsin
+        zemin[:, 0] += iz * (sol + kay)
+        zemin[:, 1] += iz * (sag - kay)
     np.tanh(zemin * 1.6, out=zemin)      # tepe değerini sınırla; sıkıştırılmış seste taşma olmasın
     zemin /= 1.6
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-",

@@ -1,35 +1,117 @@
 {
   "gorsel": "sahne.png",
-  "acilis_yazi": {"baslik": "Dream Window", "alt": ["NATURE", "SNOW", "FIREPLACE", "RELAXATION", "SLEEP"]},
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "NATURE",
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
   "yagis": "kar",
   "cam": {
-    "kutular": [[0, 0, 862, 665], [898, 210, 992, 612]],
+    "kutular": [
+      [
+        0,
+        0,
+        862,
+        665
+      ],
+      [
+        898,
+        210,
+        992,
+        612
+      ]
+    ],
     "esik": -0.01,
     "temizlik": 5
   },
-  "ates": {"kutu": [1270, 470, 1520, 670], "ic": [1295, 492, 1498, 650], "taban": 632, "tepe": 498, "olcek": 0.65, "kivilcim": 12, "alev_g": 0.66},
+  "ates": {
+    "kutu": [
+      1270,
+      470,
+      1520,
+      670
+    ],
+    "ic": [
+      1295,
+      492,
+      1498,
+      650
+    ],
+    "taban": 632,
+    "tepe": 498,
+    "olcek": 0.65,
+    "kivilcim": 12,
+    "alev_g": 0.66
+  },
   "isiklar": [
-    {"x": 1400, "y": 580, "sigma": 340, "genlik": 0.085},
-    {"x": 1380, "y": 320, "sigma": 75, "genlik": 0.10},
-    {"x": 870, "y": 655, "sigma": 60, "genlik": 0.10},
-    {"x": 1640, "y": 510, "sigma": 40, "genlik": 0.10}
+    {
+      "x": 1400,
+      "y": 580,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 1380,
+      "y": 320,
+      "sigma": 75,
+      "genlik": 0.1
+    },
+    {
+      "x": 870,
+      "y": 655,
+      "sigma": 60,
+      "genlik": 0.1
+    },
+    {
+      "x": 1640,
+      "y": 510,
+      "sigma": 40,
+      "genlik": 0.1
+    }
   ],
   "pirilti": [
-    {"kutu": [940, 280, 1170, 630], "genlik": 0.4},
-    {"kutu": [1170, 300, 1320, 480], "genlik": 0.35},
-    {"kutu": [1445, 295, 1640, 400], "genlik": 0.35}
+    {
+      "kutu": [
+        940,
+        280,
+        1170,
+        630
+      ],
+      "genlik": 0.4
+    },
+    {
+      "kutu": [
+        1170,
+        300,
+        1320,
+        480
+      ],
+      "genlik": 0.35
+    },
+    {
+      "kutu": [
+        1445,
+        295,
+        1640,
+        400
+      ],
+      "genlik": 0.35
+    }
   ],
   "ses": {
-    "zemin": "ses_kaynak/ruzgar.mp3",
-    "alt_kesim": 60,
-    "ust_kesim": 1500,
-    "duzey_dengele": false,
-    "ani_esik": 1.6,
-    "dalgalanma": 0.3,
-    "zemin_duzey": 0.058,
     "ates": "ses_kaynak/ates.ogg",
-    "ates_duzey": 0.24,
-    "ates_tavan": 0.26,
-    "ates_denge": [0.5, 1.0]
+    "ates_katman": 3,
+    "ates_duzey": 0.2,
+    "ates_tavan": 0.22,
+    "ates_govde": 3.0,
+    "ates_denge": [
+      0.55,
+      1.0
+    ]
   }
 }
