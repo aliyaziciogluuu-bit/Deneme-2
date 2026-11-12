@@ -346,6 +346,11 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float):
         duzelt(5, 13, lambda r: np.clip((np.median(r) / r) ** 0.8, 0.35, 2.8))
     esik = a.get("ani_esik", 1.3)        # ani yükselmeleri bastır: uyuyan birini irkiltmesin
     duzelt(1, 3, lambda r: np.minimum(1.0, (np.median(r) * esik / r) ** 0.85))
+    if a.get("dalgalanma"):              # düzeyi sabit bir kayda yavaş, tekrar etmeyen iniş çıkışlar ekle
+        d = a["dalgalanma"]
+        for i in range(0, n, SR * 60):
+            t = np.arange(i, min(i + SR * 60, n), dtype=np.float32) / SR
+            zemin[i:i + len(t)] *= (1 + d * (0.5 * np.sin(2 * np.pi * t / 41.3) + 0.3 * np.sin(2 * np.pi * t / 67.1 + 1) + 0.2 * np.sin(2 * np.pi * t / 113.7 + 2)))[:, None]
     zemin *= a.get("zemin_duzey", 0.075) / float(np.sqrt((zemin[::7] ** 2).mean()))
 
     ates = kayit_coz(klasor / a["ates"], 1)[:, 0]

@@ -21,14 +21,15 @@
     {"x": 1420, "y": 765, "sigma": 35, "genlik": 0.10}
   ],
   "ses": {
-    "zemin": "ses_kaynak/ruzgar.ogg",
+    "zemin": "ses_kaynak/ruzgar.mp3",
     "alt_kesim": 60,
-    "ust_kesim": 5000,
+    "ust_kesim": 1500,
     "duzey_dengele": false,
-    "ani_esik": 2.2,
-    "zemin_duzey": 0.065,
+    "ani_esik": 1.6,
+    "dalgalanma": 0.3,
+    "zemin_duzey": 0.055,
     "ates": "ses_kaynak/ates.ogg",
-    "ates_duzey": 0.20,
+    "ates_duzey": 0.21,
     "ates_tavan": 0.26,
     "ates_denge": [0.45, 1.0]
   }
