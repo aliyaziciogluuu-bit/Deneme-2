@@ -169,7 +169,7 @@ class Sahne:
         for p in self.ayar.get("pirilti", []):
             x0, y0, x1, y1 = self.o(*p["kutu"])
             b, g, r = cv2.split(self.temiz[y0:y1, x0:x1])
-            parlak = ((0.114 * b + 0.587 * g + 0.299 * r) > p.get("esik", 0.72)).astype(np.float32)
+            parlak = (((0.114 * b + 0.587 * g + 0.299 * r) > p.get("esik", 0.72)) & ((r - b) >= p.get("sicak", -1.0))).astype(np.float32)   # sicak: yalnızca sıcak renkli ışıklar (kar parlamasın)
             maske = cv2.GaussianBlur(parlak, (0, 0), 2.5)
             hucre = 14                                               # her hücre kendi hızında ve fazında yanıp söner
             ky, kx = (y1 - y0) // hucre + 1, (x1 - x0) // hucre + 1
@@ -182,7 +182,7 @@ class Sahne:
         if "su" in self.ayar:
             x0, y0, x1, y1 = self.su_kutu = self.o(*self.ayar["su"]["kutu"])
             b, g, r = cv2.split(self.temiz[y0:y1, x0:x1])
-            su = ((b > 0.42) & (b > r + 0.04)).astype(np.float32)
+            su = ((b > self.ayar["su"].get("esik", 0.42)) & (b > r + 0.04)).astype(np.float32)
             self.su_agirlik = cv2.GaussianBlur(su, (0, 0), 3)
             yuk, gen = su.shape
             self.su_dx = Dalga(20, yuk, gen, [(60, 45, 9, 2.2), (34, 28, 15, 1.3), (22, 60, 21, 0.8)], yon=-1.0)

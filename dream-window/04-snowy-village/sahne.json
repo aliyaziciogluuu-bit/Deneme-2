@@ -1,0 +1,33 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {"baslik": "Dream Window", "alt": ["NATURE", "SNOW", "FIREPLACE", "RELAXATION", "SLEEP"]},
+  "yagis": "kar",
+  "cam": {
+    "kutular": [[555, 0, 782, 527], [808, 0, 1606, 627], [1648, 0, 1672, 520]],
+    "esik": -0.01,
+    "temizlik": 5,
+    "haric": [
+      [[788, 518], [1018, 518], [1018, 630], [788, 630]],
+      [[1295, 630], [1318, 560], [1520, 503], [1606, 518], [1606, 630]]
+    ]
+  },
+  "ates": {"kutu": [280, 470, 480, 655], "ic": [296, 486, 464, 640], "taban": 612, "tepe": 488, "olcek": 0.5, "kivilcim": 8, "alev_g": 0.5},
+  "isiklar": [
+    {"x": 380, "y": 560, "sigma": 300, "genlik": 0.085},
+    {"x": 115, "y": 560, "sigma": 50, "genlik": 0.10},
+    {"x": 395, "y": 390, "sigma": 50, "genlik": 0.10},
+    {"x": 455, "y": 170, "sigma": 60, "genlik": 0.10},
+    {"x": 175, "y": 65, "sigma": 45, "genlik": 0.10},
+    {"x": 650, "y": 580, "sigma": 60, "genlik": 0.10},
+    {"x": 745, "y": 680, "sigma": 60, "genlik": 0.10},
+    {"x": 925, "y": 735, "sigma": 35, "genlik": 0.10},
+    {"x": 1153, "y": 735, "sigma": 50, "genlik": 0.10}
+  ],
+  "pirilti": [
+    {"kutu": [830, 330, 1600, 500], "genlik": 0.22, "esik": 0.5, "sicak": 0.15},
+    {"kutu": [830, 500, 1295, 605], "genlik": 0.22, "esik": 0.5, "sicak": 0.15}
+  ],
+  "su": {"kutu": [1015, 490, 1560, 598], "esik": 0.2},
+  "buhar": {"kutu": [945, 585, 1035, 682]},
+  "ses": {"ates": "ses_kaynak/ates.ogg", "ates_katman": 3, "ates_duzey": 0.18, "ates_tavan": 0.17, "ates_govde": 3.3, "ates_denge": [0.9, 0.5]}
+}
