@@ -3,3 +3,6 @@ __pycache__/
 onizleme*.jpg
 ses_deneme.wav
 video.mp4
+**/ses_kaynak/yagmur.*
+_ses.m4a
+_video.mp4

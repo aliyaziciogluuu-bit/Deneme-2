@@ -7,6 +7,7 @@ Kullanım:
   python uret.py 01-rainy-cabin --kare        # kontrol için birkaç kare (onizleme.jpg)
   python uret.py 01-rainy-cabin --ses 20      # 20 saniyelik ses denemesi (ses_deneme.wav)
   python uret.py 01-rainy-cabin --dakika 60   # tam video (video.mp4)
+  python uret.py 01-rainy-cabin --sesdegistir # mevcut videonun yalnızca sesini yeniden kur
   python uret.py 01-rainy-cabin --dakika 60 --crf 32   # daha küçük dosya
 
 Gerekenler: ffmpeg, pip install numpy scipy opencv-python-headless
@@ -297,6 +298,75 @@ def ses_yaz(yol: pathlib.Path, sure: float, kodek=("-c:a", "aac", "-b:a", "128k"
     assert ff.wait() == 0
 
 
+def ses_kayittan(klasor: pathlib.Path, yol: pathlib.Path, sure: float):
+    """Sesi gerçek kayıtlardan kurar: ses_kaynak/yagmur.* (uzun yağmur kaydı) ve ses_kaynak/ates.* (kısa ateş kaydı)."""
+    kaynak = klasor / "ses_kaynak"
+    yagmur_dosya, ates_dosya = next(kaynak.glob("yagmur.*")), next(kaynak.glob("ates.*"))
+
+    def coz(dosya, kanal, ek=()):
+        ham = subprocess.run(["ffmpeg", "-v", "error", *ek, "-i", str(dosya), "-f", "f32le", "-ac", str(kanal), "-ar", str(SR), "-"],
+                             capture_output=True, check=True).stdout
+        return np.frombuffer(ham, np.float32).reshape(-1, kanal).copy()
+
+    # yağmur: baştaki 20 sn atlanır, 100 Hz altındaki uğultu ve darbeler süzülür
+    yagmur = coz(yagmur_dosya, 2, ("-ss", "20", "-t", str(sure)))
+    yagmur = signal.sosfilt(signal.butter(4, 100, "highpass", fs=SR, output="sos"), yagmur, axis=0).astype(np.float32)
+    n = len(yagmur)
+    assert n >= int(sure * SR) - SR, "yağmur kaydı istenen süreden kısa"
+    # kayıt boyunca yavaşça değişen ses düzeyini dengele (yağmurun şiddeti kayıtta 10 dB oynuyor)
+    pencere = SR * 5
+    adet = n // pencere
+    rms = np.sqrt((yagmur[:adet * pencere].mean(axis=1).reshape(adet, pencere) ** 2).mean(axis=1)) + 1e-9
+    yumusak = np.convolve(np.pad(rms, 6, mode="edge"), np.ones(13) / 13, "valid")
+    kazanc = np.clip((np.median(rms) / yumusak) ** 0.8, 0.35, 2.8)
+    merkez = (np.arange(adet) + 0.5) * pencere
+    for i in range(0, n, SR * 60):
+        j = min(i + SR * 60, n)
+        yagmur[i:j] *= np.interp(np.arange(i, j), merkez, kazanc).astype(np.float32)[:, None]
+    # kısa süreli ani yükselmeleri (sağanak, rüzgâr, uzak gürültü) bastır: uyuyan birini irkiltmesin
+    saniye = n // SR
+    rms1 = np.sqrt((yagmur[:saniye * SR].mean(axis=1).reshape(saniye, SR) ** 2).mean(axis=1)) + 1e-9
+    rms1 = np.convolve(np.pad(rms1, 1, mode="edge"), np.ones(3) / 3, "valid")
+    esik = np.median(rms1) * 1.3
+    kisma = np.minimum(1.0, (esik / rms1) ** 0.85)
+    merkez1 = (np.arange(saniye) + 0.5) * SR
+    for i in range(0, n, SR * 60):
+        j = min(i + SR * 60, n)
+        yagmur[i:j] *= np.interp(np.arange(i, j), merkez1, kisma).astype(np.float32)[:, None]
+    duzey = float(np.sqrt((yagmur[::7] ** 2).mean()))
+    yagmur *= 0.075 / duzey
+
+    # ateş: kısa kayıttan rastgele uzunlukta parçalar seçip yumuşak geçişle eklenir; böylece çıtırtı düzeni tekrar etmez
+    ates = coz(ates_dosya, 1)[:, 0]
+    ates = ates[int(0.5 * SR):len(ates) - int(0.5 * SR)]
+    rng, gecis = np.random.default_rng(11), int(0.4 * SR)
+    iz = np.zeros(n + SR * 30, np.float32)
+    konum = 0
+    while konum < n:
+        uzunluk = int(rng.uniform(9, 24) * SR)
+        bas = int(rng.integers(0, len(ates) - uzunluk))
+        parca = ates[bas:bas + uzunluk].copy()
+        parca[:gecis] *= np.sin(np.linspace(0, np.pi / 2, gecis)) ** 2
+        parca[-gecis:] *= np.cos(np.linspace(0, np.pi / 2, gecis)) ** 2
+        iz[konum:konum + uzunluk] += parca
+        konum += uzunluk - gecis
+    iz = iz[:n]
+    iz *= 0.22 / np.percentile(np.abs(iz[::5]), 99.95)      # çıtırtılar yağmurun biraz üstünde kalsın
+    iz = (0.32 * np.tanh(iz / 0.32)).astype(np.float32)     # en sert çıtırtıları yumuşat
+
+    ses = yagmur
+    ses[:, 0] += iz            # şömine solda
+    ses[:, 1] += iz * 0.45
+    np.tanh(ses * 1.3, out=ses)
+    ses /= 1.3
+    ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-",
+                           "-af", f"afade=t=in:d=4,afade=t=out:st={max(n / SR - 8, 0)}:d=8", "-c:a", "aac", "-b:a", "160k", str(yol)], stdin=subprocess.PIPE)
+    for i in range(0, n, SR * 30):
+        ff.stdin.write(ses[i:i + SR * 30].tobytes())
+    ff.stdin.close()
+    assert ff.wait() == 0
+
+
 # ------------------------------------------------------------------ çıktı
 # Her parça tek anahtar kareyle kodlanır: dosya küçülür, parçalar yeniden kodlanmadan uç uca eklenir.
 CRF = sys.argv[sys.argv.index("--crf") + 1] if "--crf" in sys.argv else "27"   # büyüdükçe dosya küçülür
@@ -318,6 +388,15 @@ def main():
     if "--ses" in sys.argv:
         ses_yaz(klasor / "ses_deneme.wav", float(sys.argv[sys.argv.index("--ses") + 1]), ("-c:a", "pcm_s16le"))
         return
+    if "--sesdegistir" in sys.argv:      # görüntüyü yeniden üretmeden yalnızca sesi yenile
+        sure = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(klasor / "video.mp4")],
+                                    capture_output=True, text=True).stdout)
+        ses_kayittan(klasor, klasor / "_ses.m4a", sure)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(klasor / "video.mp4"), "-i", str(klasor / "_ses.m4a"), "-map", "0:v", "-map", "1:a",
+                        "-c", "copy", "-shortest", "-movflags", "+faststart", str(klasor / "_video.mp4")], check=True)
+        (klasor / "_video.mp4").replace(klasor / "video.mp4")
+        (klasor / "_ses.m4a").unlink()
+        return
     sahne = Sahne(klasor)
     if "--kare" in sys.argv:
         kareler = [sahne.kare(0, acilis=True) * 0 + sahne.kare(72, acilis=True), sahne.kare(200), sahne.kare(201), sahne.kare(400)]
@@ -333,7 +412,10 @@ def main():
     gorunum_yaz(sahne, gecici / "acilis.mp4", acilis=True)
     gorunum_yaz(sahne, gecici / "dongu.mp4")
     gorunum_yaz(sahne, gecici / "kapanis.mp4", kapanis=True)
-    ses_yaz(gecici / "ses.m4a", tur * T)
+    if (klasor / "ses_kaynak").is_dir():      # gerçek kayıt varsa onu kullan, yoksa sesi üret
+        ses_kayittan(klasor, gecici / "ses.m4a", tur * T)
+    else:
+        ses_yaz(gecici / "ses.m4a", tur * T)
     (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (tur - 2) + "file 'kapanis.mp4'\n")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(gecici / "liste.txt"), "-i", str(gecici / "ses.m4a"),
                     "-c", "copy", "-shortest", "-movflags", "+faststart", str(klasor / "video.mp4")], check=True)
