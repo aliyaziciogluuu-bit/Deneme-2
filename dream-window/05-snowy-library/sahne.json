@@ -126,13 +126,16 @@
     ]
   },
   "ates_klip": {
-    "dosya": "ates_kling.mp4",
+    "dosya": "ates_klip.mp4",
     "kutu": [
       0,
       285,
       646,
       769
     ],
-    "model": "kwaivgi/kling-v2.5-turbo-pro"
+    "model": "kwaivgi/kling-v2.5-turbo-pro",
+    "cozunurluk": "480p",
+    "tahmin": "ntkdfsq4k5rmr0d1t6s9erpbrg",
+    "sure_sn": 342
   }
 }
