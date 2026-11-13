@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dream Window//Takvim//TR
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Istanbul
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:+03
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bca97826-fdf6-4872-8dbf-68911c928d7d@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261115T200000
+DTEND;TZID=Europe/Istanbul:20261115T203000
+SUMMARY:Dream Window: 3 saatlik Kütüphane videosunu yayınla
+DESCRIPTION:Dosyalar: 05-snowy-library video_3saat.mp4, kapak_3saat.jpg, yukleme_3saat.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 3 saatlik Kütüphane videosunu yayınla
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e373aab9-b90e-4f0f-9d19-887100e34cf2@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261116T200000
+DTEND;TZID=Europe/Istanbul:20261116T203000
+SUMMARY:Dream Window: Kütüphane Shorts'unu yükle
+DESCRIPTION:shorts.mp4 ve shorts_yukleme.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: Kütüphane Shorts'unu yükle
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:732c36df-44a1-4070-b675-7f5f5107e2f2@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261118T200000
+DTEND;TZID=Europe/Istanbul:20261118T203000
+SUMMARY:Dream Window: 3 saatlik Noel kulübesi videosunu yayınla
+DESCRIPTION:03-christmas-cabin video_3saat.mp4, kapak_3saat.jpg, yukleme_3saat.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 3 saatlik Noel kulübesi videosunu yayınla
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4cbac33d-cd8c-4a89-9aca-f5f70dd7bdcf@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261119T200000
+DTEND;TZID=Europe/Istanbul:20261119T203000
+SUMMARY:Dream Window: Analytics ekran görüntülerini Claude'a gönder
+DESCRIPTION:Studio > Analytics: gösterim, tıklama oranı, izlenme süresi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: Analytics ekran görüntülerini Claude'a gönder
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a317ccd-cec4-4e15-a62f-064547980e1e@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261120T200000
+DTEND;TZID=Europe/Istanbul:20261120T203000
+SUMMARY:Dream Window: 2 Adımlı Doğrulama'yı tekrar dene
+DESCRIPTION:Telefon Ayarlar > Google > Hesabı yönet > Güvenlik
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 2 Adımlı Doğrulama'yı tekrar dene
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6ef3c0e-f8fc-4b99-a871-93bd4580d424@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T203000
+SUMMARY:Dream Window: 3 saatlik Yağmurlu kafe videosunu yayınla
+DESCRIPTION:06-rainy-cafe video_3saat.mp4, kapak_3saat.jpg, yukleme_3saat.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 3 saatlik Yağmurlu kafe videosunu yayınla
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f16a7d42-20db-4c1f-86a7-78f73605583b@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261125T200000
+DTEND;TZID=Europe/Istanbul:20261125T203000
+SUMMARY:Dream Window: 3 saatlik Çatı katı videosunu yayınla
+DESCRIPTION:08-attic-bedroom video_3saat.mp4, kapak_3saat.jpg, yukleme_3saat.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 3 saatlik Çatı katı videosunu yayınla
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b2d7cef6-d9c1-4e18-addc-99b77dc683ef@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261201T200000
+DTEND;TZID=Europe/Istanbul:20261201T203000
+SUMMARY:Dream Window: 3 saatlik Noel arifesi videosunu yayınla
+DESCRIPTION:07-christmas-eve video_3saat.mp4, kapak_3saat.jpg, yukleme_3saat.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 3 saatlik Noel arifesi videosunu yayınla
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c59390fa-073b-46f3-9e47-4eba8ab7f6c8@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261205T200000
+DTEND;TZID=Europe/Istanbul:20261205T203000
+SUMMARY:Dream Window: 3 saatlik Japon bahçesi videosunu yayınla
+DESCRIPTION:10-japanese-garden video_3saat.mp4, kapak_3saat.jpg, yukleme_3saat.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 3 saatlik Japon bahçesi videosunu yayınla
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:31e069ca-2fd3-4eda-8261-2e4716f7c2f2@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261209T200000
+DTEND;TZID=Europe/Istanbul:20261209T203000
+SUMMARY:Dream Window: 3 saatlik Deniz feneri videosunu yayınla
+DESCRIPTION:09-lighthouse video_3saat.mp4, kapak_3saat.jpg, yukleme_3saat.txt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: 3 saatlik Deniz feneri videosunu yayınla
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6dfd2180-99f0-49f4-a6ed-a9f0a627b4a0@dreamwindow
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Istanbul:20261215T200000
+DTEND;TZID=Europe/Istanbul:20261215T203000
+SUMMARY:Dream Window: İkinci kanal kararı (Claude ile konuş)
+DESCRIPTION:Analytics ekran görüntülerini hazırla
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dream Window: İkinci kanal kararı (Claude ile konuş)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
