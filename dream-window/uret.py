@@ -69,6 +69,7 @@ class Sahne:
             self._ates()
         self._isik()
         self._pirilti()
+        self.ek_klipler = [self._klip_yukle(k, k["kutu"]) for k in self.ayar.get("ek_klipler", [])]   # örn. gerçek deniz
         self._su_ve_buhar()
         self._yagis()
 
@@ -156,16 +157,12 @@ class Sahne:
                               boy=rng.uniform(0.5, 0.95)) for _ in range(int(a.get("kivilcim", 14)))]
         self._ates_klip()
 
-    def _ates_klip(self):
-        """sahne.json'da "ates_klip" varsa şöminenin içi gerçek ateş videosuyla değiştirilir (ates_klip.py üretir)."""
-        self.klip = None
-        k = self.ayar.get("ates_klip")
-        if not k:
-            return
+    def _klip_yukle(self, k, varsayilan_maske):
+        """Bir video klibini sahnedeki yerine hazırlar: boyut, 24 sn'lik döngüye uyum, yumuşak maske, renk eşitleme."""
         ax0, ay0, ax1, ay1 = self.o(*k["kutu"])
         gen, yuk = ax1 - ax0, ay1 - ay0
         # başka sahneden uyarlanan klip görüntünün dışına taşabilir: taşan kısım kırpılır
-        kx0, ky0, kx1, ky1 = self.klip_kutu = (max(ax0, 0), max(ay0, 0), min(ax1, G), min(ay1, Y))
+        kx0, ky0, kx1, ky1 = kutu = (max(ax0, 0), max(ay0, 0), min(ax1, G), min(ay1, Y))
         kes = (slice(ky0 - ay0, ky1 - ay0), slice(kx0 - ax0, kx1 - ax0))
         cap = cv2.VideoCapture(str(self.klasor / k["dosya"]))
         kareler = []
@@ -178,18 +175,27 @@ class Sahne:
         hedef = min((d for d in range(donus // 4, donus + 1) if donus % d == 0), key=lambda d: abs(d - len(kareler)))
         sira = [int(round(i * len(kareler) / hedef)) % len(kareler) for i in range(hedef)]   # 24 sn'lik döngüye tam sığsın
         maske = np.zeros((Y, G), np.float32)
-        for kutu in k.get("maskeler", [k.get("maske", self.ayar["ates"]["ic"])]):   # örn. iki camlı kapakta iki cam
-            ix0, iy0, ix1, iy1 = self.o(*kutu)
+        for m in k.get("maskeler", [k.get("maske", varsayilan_maske)]):   # örn. iki camlı kapakta iki cam
+            ix0, iy0, ix1, iy1 = self.o(*m)
             maske[iy0:iy1, ix0:ix1] = 1
-        for kutu in k.get("haric", []):                                # kapak çerçevesi, kulp gibi önde kalanlar
-            ix0, iy0, ix1, iy1 = self.o(*kutu)
+        for m in k.get("haric", []):                                   # kapak çerçevesi, kulp gibi önde kalanlar
+            ix0, iy0, ix1, iy1 = self.o(*m)
             maske[iy0:iy1, ix0:ix1] = 0
-        maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7))[ky0:ky1, kx0:kx1, None]
+        maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7))
+        if k.get("maske_cam"):                                         # pencere çerçevesi önde kalsın
+            maske *= self.cam
+        maske = maske[ky0:ky1, kx0:kx1, None]
         orta = np.mean(kareler[::max(len(kareler) // 20, 1)], axis=0)
-        m = maske[..., 0] > 0.5                                       # renkleri orijinal görsele eşitle
+        m = maske[..., 0] > 0.5                                        # renkleri orijinal görsele eşitle
         oran = ((self.temiz[ky0:ky1, kx0:kx1][m].mean(axis=0) + 1e-3) / (orta[m].mean(axis=0) + 1e-3)).astype(np.float32)
-        self.klip = [np.clip(kareler[i] * oran, 0, 1) for i in sira]
-        self.klip_maske = maske
+        return [np.clip(kareler[i] * oran, 0, 1) for i in sira], kutu, maske
+
+    def _ates_klip(self):
+        """sahne.json'da "ates_klip" varsa şöminenin içi gerçek ateş videosuyla değiştirilir (ates_klip.py üretir)."""
+        self.klip = None
+        k = self.ayar.get("ates_klip")
+        if k:
+            self.klip, self.klip_kutu, self.klip_maske = self._klip_yukle(k, self.ayar["ates"]["ic"])
 
     def _isik(self):
         """Ateşin ve mumların çevreye vurduğu ışığın oynaması için kazanç haritaları."""
@@ -331,6 +337,10 @@ class Sahne:
             if 2 < kx < gen - 2 and 2 < ky < yuk - 2 and guc > 0.03:
                 yama = kare[y0 + int(ky) - 1:y0 + int(ky) + 2, x0 + int(kx) - 1:x0 + int(kx) + 2]
                 yama += np.array([0.15, 0.55, 1.0], np.float32) * guc * np.array([[0.3, 0.6, 0.3], [0.6, 1.0, 0.6], [0.3, 0.6, 0.3]], np.float32)[..., None]
+
+        # ek gerçek video klipleri (örn. pencereden görünen deniz)
+        for klip, (ex0, ey0, ex1, ey1), maske in self.ek_klipler:
+            kare[ey0:ey1, ex0:ex1] = kare[ey0:ey1, ex0:ex1] * (1 - maske) + klip[n % len(klip)] * maske
 
         # akan su ve buhar
         if self.su_kutu:

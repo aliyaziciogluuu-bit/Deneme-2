@@ -36,11 +36,12 @@ YASAK = "camera movement, zoom, pan, people, hands, text, smoke filling the room
 
 
 def girdi_kur(model: str, adres: str, g) -> dict:
+    istem, yasak = (g.istem or ISTEM), (g.yasak or YASAK)
     """Her modelin alan adları farklı; bitiş karesi zorlanmaz (doğal hareket için), döngüyü dongu_yap kurar."""
     if model.startswith("kwaivgi/kling"):
-        return {"start_image": adres, "prompt": ISTEM, "negative_prompt": YASAK, "duration": 5 if g.sure <= 5 else 10}
+        return {"start_image": adres, "prompt": istem, "negative_prompt": yasak, "duration": 5 if g.sure <= 5 else 10}
     if model.startswith("bytedance/seedance"):
-        return {"image": adres, "prompt": ISTEM, "duration": g.sure, "resolution": g.cozunurluk, "fps": 24, "camera_fixed": True}
+        return {"image": adres, "prompt": istem, "duration": g.sure, "resolution": g.cozunurluk, "fps": 24, "camera_fixed": True}
     raise SystemExit(f"Bu model için girdi tanımlı değil: {model}")
 
 
@@ -106,6 +107,10 @@ def main():
     p.add_argument("--sure", type=int, default=10)
     p.add_argument("--cikti", default="ates_klip.mp4")
     p.add_argument("--baglama", action="store_true", help="sahne.json'a yazma (yalnızca karşılaştırma için üret)")
+    p.add_argument("--kutu", type=int, nargs=4, help="şömine yerine bu bölgeyi canlandır (kaynak görsel pikseli: x0 y0 x1 y1)")
+    p.add_argument("--istem", help="Kling/Seedance komutu (varsayılan: şömine ateşi)")
+    p.add_argument("--yasak", help="istenmeyenler (negative prompt)")
+    p.add_argument("--ek", action="store_true", help="klibi ateş yerine sahne.json'daki ek_klipler listesine ekle (örn. deniz)")
     p.add_argument("--klipten", help="hazır tam sahne klibi (1920x1080); Replicate'e gitmeden kırpılır")
     g = p.parse_args()
 
@@ -114,7 +119,7 @@ def main():
     ayar = json.loads(ayar_yolu.read_text(encoding="utf-8"))
     gorsel = cv2.imread(str(klasor / ayar["gorsel"]))
     yuk, gen = gorsel.shape[:2]
-    kutu = kirpma_kutusu(ayar, gen, yuk)
+    kutu = list(g.kutu) if g.kutu else kirpma_kutusu(ayar, gen, yuk)
     hedef = klasor / g.cikti
     bilgi = {"dosya": hedef.name, "kutu": kutu}
 
@@ -126,8 +131,8 @@ def main():
         gecici = klasor / f"_kirpma_{hedef.stem}.jpg"
         x0, y0, x1, y1 = kutu
         kirpma = gorsel[y0:y1, x0:x1]
-        if kirpma.shape[1] < 960:                                  # model girdisi en az 960x720 olsun
-            kirpma = cv2.resize(kirpma, (960, 720), interpolation=cv2.INTER_LANCZOS4)
+        if kirpma.shape[1] < 960:                                  # model girdisi en az 960 piksel genişlikte olsun (oran korunur)
+            kirpma = cv2.resize(kirpma, (960, round(960 * kirpma.shape[0] / kirpma.shape[1])), interpolation=cv2.INTER_LANCZOS4)
         cv2.imwrite(str(gecici), kirpma, [cv2.IMWRITE_JPEG_QUALITY, 94])
         dosya = curl("-X", "POST", f"{API}/files", "-F", f"content=@{gecici};type=image/jpeg;filename=ates.jpg")
         gecici.unlink()
@@ -152,7 +157,11 @@ def main():
     if g.baglama:
         print(f"Hazır: {hedef} ({sure:.1f} sn döngü); sahne.json değiştirilmedi. Bilgi: {json.dumps(bilgi, ensure_ascii=False)}")
         return
-    ayar["ates_klip"] = bilgi
+    if g.ek:
+        bilgi["maske_cam"] = True                                  # yalnızca camın arkası değişir, çerçeve önde kalır
+        ayar["ek_klipler"] = [k for k in ayar.get("ek_klipler", []) if k["dosya"] != bilgi["dosya"]] + [bilgi]
+    else:
+        ayar["ates_klip"] = bilgi
     ayar_yolu.write_text(json.dumps(ayar, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Hazır: {hedef} ({sure:.1f} sn döngü), sahne.json güncellendi")
 
