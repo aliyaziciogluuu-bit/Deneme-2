@@ -167,16 +167,21 @@
     ],
     "genlik": 0.8
   },
-  "ses": {
-    "ates": "ses_kaynak/ates.ogg",
-    "ates_katman": 2,
-    "ates_duzey": 0.11,
-    "ates_tavan": 0.1,
-    "ates_govde": 3.5,
-    "ates_govde_kesim": 450,
-    "ates_denge": [
-      0.8,
-      0.8
-    ]
-  }
+  "ses": {},
+  "ek_klipler": [
+    {
+      "dosya": "aurora_klip.mp4",
+      "kutu": [
+        640,
+        0,
+        1672,
+        470
+      ],
+      "model": "kwaivgi/kling-v2.5-turbo-pro",
+      "cozunurluk": "480p",
+      "tahmin": "2mjz58rncsrmy0d1ttns8kc9zg",
+      "sure_sn": 294,
+      "maske_cam": true
+    }
+  ]
 }
