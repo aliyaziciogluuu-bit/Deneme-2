@@ -95,27 +95,6 @@
       "genlik": 0.1
     }
   ],
-  "pirilti": [
-    {
-      "kutu": [
-        1010,
-        265,
-        1140,
-        320
-      ],
-      "genlik": 0.35,
-      "esik": 0.55
-    }
-  ],
-  "su": {
-    "kutu": [
-      990,
-      395,
-      1500,
-      675
-    ],
-    "esik": 0.25
-  },
   "buhar": {
     "kutu": [
       1015,
@@ -138,5 +117,21 @@
       1.0,
       0.5
     ]
-  }
+  },
+  "ek_klipler": [
+    {
+      "dosya": "deniz_klip.mp4",
+      "kutu": [
+        940,
+        260,
+        1560,
+        690
+      ],
+      "model": "kwaivgi/kling-v2.5-turbo-pro",
+      "cozunurluk": "480p",
+      "tahmin": "y9h82vqm9nrmy0d1ttasf2tghw",
+      "sure_sn": 202,
+      "maske_cam": true
+    }
+  ]
 }
