@@ -379,22 +379,35 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
         uzunluk = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(zemin_dosya)],
                                        capture_output=True, text=True).stdout)
         bas = a.get("zemin_bas", 0)
+        # Uzun sürümlerde (3 saat ≈ 4 GB ses) bellek yetsin diye her adım yerinde ve parça parça yapılır.
         if uzunluk - bas >= sure:        # kayıt yeterince uzun: kesintisiz kullan
-            zemin = kayit_coz(zemin_dosya, 2, ("-ss", str(bas), "-t", str(sure)))[:n]
-            zemin = np.pad(zemin, ((0, n - len(zemin)), (0, 0)))
+            ham = kayit_coz(zemin_dosya, 2, ("-ss", str(bas), "-t", str(sure)))[:n]
+            zemin[:len(ham)] = ham
+            del ham
         else:                            # kısa kayıt: iki kanal için ayrı ayrı uzat, böylece ses geniş duyulur
             tek = kayit_coz(zemin_dosya, 1)[:, 0]
-            tek = tek[int(bas * SR):]
-            zemin = np.stack([uzat(tek, n, rng, (20, 55), 3.0), uzat(tek, n, rng, (20, 55), 3.0)], axis=1)
+            tek = tek[int(bas * SR):].copy()
+            for kanal in (0, 1):
+                zemin[:, kanal] = uzat(tek, n, rng, (20, 55), 3.0)
+            del tek
         sos = signal.butter(4, a.get("alt_kesim", 100), "highpass", fs=SR, output="sos")
         if a.get("ust_kesim"):
             sos = np.vstack([sos, signal.butter(2, a["ust_kesim"], "lowpass", fs=SR, output="sos")])
-        zemin = signal.sosfilt(sos, zemin, axis=0).astype(np.float32)
+        zi = np.zeros((sos.shape[0], 2, 2))
+        for i in range(0, n, SR * 120):
+            parca, zi = signal.sosfilt(sos, zemin[i:i + SR * 120], axis=0, zi=zi)
+            zemin[i:i + SR * 120] = parca
 
         def duzelt(pencere_sn, yumusat, kazanc_hesabi):
             pencere = int(SR * pencere_sn)
             adet = n // pencere
-            rms = np.sqrt((zemin[:adet * pencere].mean(axis=1).reshape(adet, pencere) ** 2).mean(axis=1)) + 1e-9
+            rms = np.empty(adet)
+            blok = max(1, (SR * 120) // pencere)
+            for b in range(0, adet, blok):
+                e = min(b + blok, adet)
+                m = zemin[b * pencere:e * pencere].mean(axis=1).reshape(e - b, pencere)
+                rms[b:e] = np.sqrt((m.astype(np.float64) ** 2).mean(axis=1))
+            rms += 1e-9
             rms = np.convolve(np.pad(rms, yumusat // 2, mode="edge"), np.ones(yumusat) / yumusat, "valid")
             kazanc = kazanc_hesabi(rms)
             merkez = (np.arange(adet) + 0.5) * pencere
