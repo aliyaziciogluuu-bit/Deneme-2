@@ -167,9 +167,13 @@ class Sahne:
         donus = T * FPS
         hedef = min((d for d in range(donus // 4, donus + 1) if donus % d == 0), key=lambda d: abs(d - len(kareler)))
         sira = [int(round(i * len(kareler) / hedef)) % len(kareler) for i in range(hedef)]   # 24 sn'lik döngüye tam sığsın
-        ix0, iy0, ix1, iy1 = self.o(*k.get("maske", self.ayar["ates"]["ic"]))
         maske = np.zeros((Y, G), np.float32)
-        maske[iy0:iy1, ix0:ix1] = 1
+        for kutu in k.get("maskeler", [k.get("maske", self.ayar["ates"]["ic"])]):   # örn. iki camlı kapakta iki cam
+            ix0, iy0, ix1, iy1 = self.o(*kutu)
+            maske[iy0:iy1, ix0:ix1] = 1
+        for kutu in k.get("haric", []):                                # kapak çerçevesi, kulp gibi önde kalanlar
+            ix0, iy0, ix1, iy1 = self.o(*kutu)
+            maske[iy0:iy1, ix0:ix1] = 0
         maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7))[ky0:ky1, kx0:kx1, None]
         orta = np.mean(kareler[::max(len(kareler) // 20, 1)], axis=0)
         m = maske[..., 0] > 0.5                                       # renkleri orijinal görsele eşitle

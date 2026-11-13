@@ -211,5 +211,38 @@
     "baslik": "Cozy Winter Cabin",
     "alt": "Snowy Village & Crackling Fire",
     "ses_kazanc": 7.5
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kutu": [
+      215,
+      423,
+      638,
+      710
+    ],
+    "kaynak": "08-attic-bedroom klibinden uyarlandı (ücretsiz)",
+    "maskeler": [
+      [
+        304,
+        495,
+        383,
+        644
+      ],
+      [
+        402,
+        492,
+        458,
+        639
+      ]
+    ],
+    "haric": [
+      [
+        395,
+        555,
+        415,
+        585
+      ]
+    ],
+    "yumusaklik": 2.5
   }
 }
