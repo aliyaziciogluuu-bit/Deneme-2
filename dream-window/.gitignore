@@ -1,6 +1,7 @@
 **/ses_kaynak/yagmur.*
 *.bundle
 *_onizleme.jpg
+_*.mp4
 __pycache__/
 _gecici/
 _ses.m4a
