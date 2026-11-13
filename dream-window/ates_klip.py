@@ -41,7 +41,8 @@ def girdi_kur(model: str, adres: str, g) -> dict:
 
 
 def curl(*arg, cikti=None):
-    komut = ["curl", "-sS", "-m", "300", "--retry", "3", *arg]
+    yeniden = [] if "POST" in arg else ["--retry", "3"]   # gönderme isteği yeniden denenmez: çift (ücretli) üretim olmasın
+    komut = ["curl", "-sS", "-m", "300", *yeniden, *arg]
     if cikti:
         komut += ["-o", str(cikti)]
     r = subprocess.run(komut, capture_output=True, text=cikti is None, check=True)
