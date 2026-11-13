@@ -13,6 +13,10 @@ Model karşılaştırması (kütüphane şöminesi, Kasım 2026): Kling orijinal
   python ates_klip.py 03-christmas-cabin --klipten tum_sahne.mp4   # hazır bir tam sahne klibinden kırpar (ücretsiz)
 
 API anahtarı ortamın ağ geçidi tarafından eklenir; bu betikte anahtar yoktur.
+
+Kanal sahibinin isteği (Kasım 2026): para harcamadan önce elimizdeki klipleri dene. Yeni sahnede ocak türü
+benzerse (açık taş şömine: 03, 05, 07; camlı soba: 06, 08) mevcut bir klibi yeni ocağa oturt; yerine
+oturmazsa Kling ile yeni klip üret ve bunu kanal sahibine söyle. Aynı klibi art arda videolarda kullanma.
 """
 import argparse
 import json
