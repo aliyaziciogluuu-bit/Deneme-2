@@ -1,0 +1,112 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "RAIN",
+      "GARDEN",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        662,
+        0,
+        1538,
+        690
+      ],
+      [
+        482,
+        60,
+        628,
+        565
+      ]
+    ],
+    "esik": 0.05,
+    "temizlik": 3,
+    "haric": [
+      [
+        [
+          1250,
+          250
+        ],
+        [
+          1480,
+          250
+        ],
+        [
+          1480,
+          520
+        ],
+        [
+          1250,
+          520
+        ]
+      ],
+      [
+        [
+          662,
+          628
+        ],
+        [
+          1040,
+          628
+        ],
+        [
+          1040,
+          700
+        ],
+        [
+          662,
+          700
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 305,
+      "y": 440,
+      "sigma": 90,
+      "genlik": 0.08
+    },
+    {
+      "x": 1365,
+      "y": 368,
+      "sigma": 45,
+      "genlik": 0.1
+    },
+    {
+      "x": 604,
+      "y": 470,
+      "sigma": 30,
+      "genlik": 0.1
+    }
+  ],
+  "su": {
+    "kutu": [
+      870,
+      495,
+      1540,
+      690
+    ],
+    "esik": 0.18
+  },
+  "buhar": {
+    "kutu": [
+      395,
+      470,
+      495,
+      640
+    ],
+    "genlik": 0.8
+  },
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08
+  }
+}

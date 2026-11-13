@@ -64,7 +64,9 @@ class Sahne:
         self.acilis_gorseli = buyut(cv2.imread(str(klasor / self.ayar["acilis_gorseli"]))) if self.ayar.get("acilis_gorseli") else None
         self.acilis_yazi = self._yazi() if self.ayar.get("acilis_yazi") else None
         self._cam()
-        self._ates()
+        self.klip, self.ates_kutu = None, None
+        if "ates" in self.ayar:              # şöminesi olmayan sahnelerde ateş adımı atlanır
+            self._ates()
         self._isik()
         self._pirilti()
         self._su_ve_buhar()
@@ -107,6 +109,11 @@ class Sahne:
             x0, y0, x1, y1 = self.o(*k)
             kutu[y0:y1, x0:x1] = 1
         maske &= kutu
+        if c.get("daire"):                                            # yuvarlak pencere: dairenin dışını at
+            cx, cy, r = c["daire"]
+            (cx, cy), r = self.o(cx, cy), r * self.olcek
+            yy, xx = np.ogrid[0:Y, 0:G]
+            maske &= (((xx - cx) ** 2 + (yy - cy) ** 2) <= r * r).astype(np.uint8)
         for cokgen in c.get("haric", []):
             cv2.fillPoly(maske, [np.array([self.o(*p) for p in cokgen], np.int32)], 0)
         for k in c.get("yesil_haric", []):                           # camın önündeki yapraklar
@@ -155,15 +162,18 @@ class Sahne:
         k = self.ayar.get("ates_klip")
         if not k:
             return
-        kx0, ky0, kx1, ky1 = self.klip_kutu = self.o(*k["kutu"])
-        gen, yuk = kx1 - kx0, ky1 - ky0
+        ax0, ay0, ax1, ay1 = self.o(*k["kutu"])
+        gen, yuk = ax1 - ax0, ay1 - ay0
+        # başka sahneden uyarlanan klip görüntünün dışına taşabilir: taşan kısım kırpılır
+        kx0, ky0, kx1, ky1 = self.klip_kutu = (max(ax0, 0), max(ay0, 0), min(ax1, G), min(ay1, Y))
+        kes = (slice(ky0 - ay0, ky1 - ay0), slice(kx0 - ax0, kx1 - ax0))
         cap = cv2.VideoCapture(str(self.klasor / k["dosya"]))
         kareler = []
         while True:
             ok, f = cap.read()
             if not ok:
                 break
-            kareler.append(cv2.resize(f, (gen, yuk), interpolation=cv2.INTER_AREA).astype(np.float32) / 255)
+            kareler.append(cv2.resize(f, (gen, yuk), interpolation=cv2.INTER_AREA)[kes].astype(np.float32) / 255)
         donus = T * FPS
         hedef = min((d for d in range(donus // 4, donus + 1) if donus % d == 0), key=lambda d: abs(d - len(kareler)))
         sira = [int(round(i * len(kareler) / hedef)) % len(kareler) for i in range(hedef)]   # 24 sn'lik döngüye tam sığsın
@@ -299,16 +309,21 @@ class Sahne:
             kare = self.temiz.copy()
 
         # ateş
-        if self.klip is not None:
+        if self.ates_kutu is None:
+            pass
+        elif self.klip is not None:
             kx0, ky0, kx1, ky1 = self.klip_kutu
             b = kare[ky0:ky1, kx0:kx1]
             kare[ky0:ky1, kx0:kx1] = b * (1 - self.klip_maske) + self.klip[n % len(self.klip)] * self.klip_maske
-        x0, y0, x1, y1 = self.ates_kutu
-        if self.klip is None:
+        else:
+            x0, y0, x1, y1 = self.ates_kutu
             self._buk(kare, self.ates_kutu, self.ates_izgara, self.ates_dx(t) * self.ates_agirlik, self.ates_dy(t) * self.ates_agirlik)
             kare[y0:y1, x0:x1] *= (1 + 0.09 * self.ates_parlaklik(t) * self.alev)[..., None]
-        yuk, gen = y1 - y0, x1 - x0
-        for k in (self.kivilcim if self.klip is None else []):   # gerçek ateş klibi kendi kıvılcımlarını taşır
+        kivilcimlar = self.kivilcim if (self.ates_kutu is not None and self.klip is None) else []   # gerçek ateş klibi kendi kıvılcımlarını taşır
+        if kivilcimlar:
+            x0, y0, x1, y1 = self.ates_kutu
+            yuk, gen = y1 - y0, x1 - x0
+        for k in kivilcimlar:
             p = (k["faz"] + k["tur"] * t / T) % 1.0
             ky = yuk * (0.72 - p * k["boy"] * 0.62)
             kx = k["x"] + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / T) + p * 10
@@ -428,14 +443,14 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
 
 
     # şömine: kısa kayıttan birkaç bağımsız katman üst üste biner; ateş daha dolu ve sık çıtırtılı duyulur
-    ates = kayit_coz(klasor / a["ates"], 1)[:, 0]
+    ates = kayit_coz(klasor / a["ates"], 1)[:, 0] if a.get("ates") else np.zeros(SR * 30, np.float32)
     ates = ates[int(0.5 * SR):len(ates) - int(0.5 * SR)]
     sol, sag = a.get("ates_denge", [1.0, 0.45])                  # şöminenin görüntüdeki yerine göre sol/sağ düzeyi
     kesim = a.get("ates_govde_kesim", 600)
     alcak = np.vstack([signal.butter(2, 70, "highpass", fs=SR, output="sos"), signal.butter(2, kesim, "lowpass", fs=SR, output="sos")])
     yuksek = signal.butter(2, kesim, "highpass", fs=SR, output="sos")
     tavan = a.get("ates_tavan", 0.32)
-    for k in range(int(a.get("ates_katman", 1))):
+    for k in range(int(a.get("ates_katman", 1)) if a.get("ates") else 0):
         iz = uzat(ates, n, rng)
         iz *= a.get("ates_duzey", 0.22) / np.percentile(np.abs(iz[::5]), 99.95)
         kay = (0.0, 0.12, -0.08)[k % 3]                                          # katmanlar biraz farklı yerlerden gelsin

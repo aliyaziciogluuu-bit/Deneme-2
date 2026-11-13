@@ -1,0 +1,142 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "RAIN",
+      "STORM",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        935,
+        5,
+        1660,
+        690
+      ]
+    ],
+    "daire": [
+      1297,
+      345,
+      352
+    ],
+    "esik": 0.0,
+    "temizlik": 3,
+    "haric": [
+      [
+        [
+          1500,
+          380
+        ],
+        [
+          1672,
+          380
+        ],
+        [
+          1672,
+          720
+        ],
+        [
+          1500,
+          720
+        ]
+      ]
+    ]
+  },
+  "ates": {
+    "kutu": [
+      90,
+      400,
+      370,
+      680
+    ],
+    "ic": [
+      118,
+      428,
+      345,
+      652
+    ],
+    "taban": 640,
+    "tepe": 430
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kutu": [
+      -11,
+      329,
+      608,
+      747
+    ],
+    "kaynak": "08-attic-bedroom klibinden uyarlandı (ücretsiz)",
+    "yumusaklik": 4
+  },
+  "isiklar": [
+    {
+      "x": 230,
+      "y": 540,
+      "sigma": 330,
+      "genlik": 0.085
+    },
+    {
+      "x": 735,
+      "y": 285,
+      "sigma": 45,
+      "genlik": 0.1
+    },
+    {
+      "x": 1562,
+      "y": 600,
+      "sigma": 75,
+      "genlik": 0.1
+    }
+  ],
+  "pirilti": [
+    {
+      "kutu": [
+        1010,
+        265,
+        1140,
+        320
+      ],
+      "genlik": 0.35,
+      "esik": 0.55
+    }
+  ],
+  "su": {
+    "kutu": [
+      990,
+      395,
+      1500,
+      675
+    ],
+    "esik": 0.25
+  },
+  "buhar": {
+    "kutu": [
+      1015,
+      560,
+      1135,
+      730
+    ],
+    "genlik": 0.7
+  },
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.075,
+    "ates": "ses_kaynak/ates.ogg",
+    "ates_katman": 3,
+    "ates_duzey": 0.16,
+    "ates_tavan": 0.15,
+    "ates_govde": 3.0,
+    "ates_denge": [
+      1.0,
+      0.5
+    ]
+  }
+}
