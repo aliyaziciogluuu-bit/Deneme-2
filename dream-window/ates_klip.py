@@ -157,6 +157,7 @@ def main():
     if g.baglama:
         print(f"Hazır: {hedef} ({sure:.1f} sn döngü); sahne.json değiştirilmedi. Bilgi: {json.dumps(bilgi, ensure_ascii=False)}")
         return
+    ayar = json.loads(ayar_yolu.read_text(encoding="utf-8"))      # üretim sürerken dosya değişmiş olabilir: güncelini oku
     if g.ek:
         bilgi["maske_cam"] = True                                  # yalnızca camın arkası değişir, çerçeve önde kalır
         ayar["ek_klipler"] = [k for k in ayar.get("ek_klipler", []) if k["dosya"] != bilgi["dosya"]] + [bilgi]

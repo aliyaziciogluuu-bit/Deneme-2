@@ -515,12 +515,12 @@ def gorunum_yaz(sahne: Sahne, yol: pathlib.Path, **secenek):
 def main():
     klasor = KOK / sys.argv[1]
     if "--sesdegistir" in sys.argv:      # görüntüyü yeniden üretmeden yalnızca sesi yenile
-        sure = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(klasor / "video.mp4")],
+        sure = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(klasor / CIKTI)],
                                     capture_output=True, text=True).stdout)
-        ses_kur(klasor, klasor / "_ses.m4a", sure)
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(klasor / "video.mp4"), "-i", str(klasor / "_ses.m4a"), "-map", "0:v", "-map", "1:a",
+        ses_kur(klasor, klasor / "_ses.m4a", sure)  # ses bit hızı --ses-kbps ile
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(klasor / CIKTI), "-i", str(klasor / "_ses.m4a"), "-map", "0:v", "-map", "1:a",
                         "-c", "copy", "-shortest", "-movflags", "+faststart", str(klasor / "_video.mp4")], check=True)
-        (klasor / "_video.mp4").replace(klasor / "video.mp4")
+        (klasor / "_video.mp4").replace(klasor / CIKTI)
         (klasor / "_ses.m4a").unlink()
         return
     sahne = Sahne(klasor)
