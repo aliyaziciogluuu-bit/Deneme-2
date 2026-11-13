@@ -1,4 +1,5 @@
 **/ses_kaynak/yagmur.*
+*.bundle
 *_onizleme.jpg
 __pycache__/
 _gecici/
