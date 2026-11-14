@@ -385,12 +385,14 @@ def kayit_coz(dosya, kanal, ek=()):
     return np.frombuffer(ham, np.float32).reshape(-1, kanal).copy()
 
 
-def uzat(kayit: np.ndarray, n: int, rng, parca=(9, 24), gecis_sn=0.4) -> np.ndarray:
+def uzat(kayit, n: int, rng, parca=(9, 24), gecis_sn=0.4) -> np.ndarray:
     """Kısa bir kayıttan rastgele parçalar seçip yumuşak geçişle ekleyerek n örneğe uzatır; düzen tekrar etmez."""
     gecis = int(gecis_sn * SR)
     iz = np.zeros(n + int(parca[1] * SR) + SR, np.float32)
     konum = 0
+    kayitlar = kayit if isinstance(kayit, list) else [kayit]     # birden fazla temiz bölüm verilebilir
     while konum < n:
+        kayit = kayitlar[int(rng.integers(0, len(kayitlar)))]
         uzunluk = min(int(rng.uniform(*parca) * SR), len(kayit) - 1)
         bas = int(rng.integers(0, len(kayit) - uzunluk))
         p = kayit[bas:bas + uzunluk].copy()
@@ -420,13 +422,18 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
             del ham
         else:                            # kısa kayıt: iki kanal için ayrı ayrı uzat, böylece ses geniş duyulur
             tek = kayit_coz(zemin_dosya, 1)[:, 0]
-            tek = tek[int(bas * SR):].copy()
+            if a.get("zemin_parcalar"):      # yalnızca seçilen temiz bölümler (örn. trenin sabit hızla gittiği yerler)
+                tek = [tek[int(b * SR):int(e * SR)].copy() for b, e in a["zemin_parcalar"]]
+                uzunluklar = (min(20, min(len(t) for t in tek) / SR - 1), min(55, min(len(t) for t in tek) / SR - 1))
+            else:
+                tek = tek[int(bas * SR):].copy()
+                uzunluklar = (20, 55)
             for kanal in (0, 1):
-                zemin[:, kanal] = uzat(tek, n, rng, (20, 55), 3.0)
+                zemin[:, kanal] = uzat(tek, n, rng, uzunluklar, 3.0)
             del tek
         sos = signal.butter(4, a.get("alt_kesim", 100), "highpass", fs=SR, output="sos")
         if a.get("ust_kesim"):
-            sos = np.vstack([sos, signal.butter(2, a["ust_kesim"], "lowpass", fs=SR, output="sos")])
+            sos = np.vstack([sos, signal.butter(a.get("ust_kesim_derece", 2), a["ust_kesim"], "lowpass", fs=SR, output="sos")])
         zi = np.zeros((sos.shape[0], 2, 2))
         for i in range(0, n, SR * 120):
             parca, zi = signal.sosfilt(sos, zemin[i:i + SR * 120], axis=0, zi=zi)
