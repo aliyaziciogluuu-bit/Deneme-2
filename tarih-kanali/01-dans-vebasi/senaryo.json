@@ -1,0 +1,112 @@
+{
+  "baslik": "1518 Dans Vebası: Bir Şehir Neden Günlerce Dans Etti?",
+  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur (yabancı adlar ve sayılar okunuşuyla yazılmıştır).",
+  "aciklama": "Temmuz 1518'de Strazburg'da bir kadın sokakta dans etmeye başladı ve günlerce duramadı. Haftalar içinde yüzlerce kişi ona katıldı. Şehrin hekimleri tedavi olarak daha çok dans önerdi. Bu videoda tarihin en tuhaf salgınlarından biri olan Dans Vebası'nı ve bugün öne sürülen açıklamaları anlatıyoruz.",
+  "kaynaklar": [
+    "John Waller, A Time to Dance, a Time to Die: The Extraordinary Story of the Dancing Plague of 1518 (2008)",
+    "John Waller, “A forgotten plague: making sense of dancing mania”, The Lancet, 2009"
+  ],
+  "etiketler": ["dans vebası", "1518", "Strazburg", "tarih", "Orta Çağ", "tuhaf tarih", "tarihin gizemleri", "belgesel", "Aziz Vitus", "Paracelsus"],
+  "sahneler": [
+    {
+      "ad": "Giriş",
+      "cumleler": [
+        {"yazi": "Temmuz 1518. Strazburg'da bir kadın, sokağın ortasında dans etmeye başlıyor.", "ses": "Temmuz bin beş yüz on sekiz. Strazburg'da bir kadın, sokağın ortasında dans etmeye başlıyor."},
+        {"yazi": "Müzik yok. Düğün yok. Kutlanacak hiçbir şey yok."},
+        {"yazi": "Kadın saatlerce, sonra günlerce dans ediyor."},
+        {"yazi": "Bir hafta içinde onlarca kişi ona katılıyor. Bir ay sonra sayı yüzleri buluyor."},
+        {"yazi": "Ve hiçbiri duramıyor."},
+        {"yazi": "Bu, tarihin en tuhaf salgınlarından birinin, Dans Vebası'nın hikâyesi."}
+      ]
+    },
+    {
+      "ad": "1518'de Strazburg",
+      "cumleler": [
+        {"yazi": "O yıllarda Strazburg, Kutsal Roma İmparatorluğu'na bağlı zengin bir ticaret şehriydi."},
+        {"yazi": "Ama 1518'e gelindiğinde halk çok zor günler geçiriyordu.", "ses": "Ama bin beş yüz on sekize gelindiğinde halk çok zor günler geçiriyordu."},
+        {"yazi": "Art arda gelen kötü hasatlar yüzünden yiyecek fiyatları fırlamış, kıtlık baş göstermişti."},
+        {"yazi": "Çiçek hastalığı ve frengi şehri kasıp kavuruyordu."},
+        {"yazi": "İnsanlar aç, hasta ve korku içindeydi."}
+      ]
+    },
+    {
+      "ad": "Frau Troffea",
+      "cumleler": [
+        {"yazi": "İşte böyle bir yazın ortasında, kayıtlara Frau Troffea adıyla geçen bir kadın evinden çıktı ve dans etmeye başladı.", "ses": "İşte böyle bir yazın ortasında, kayıtlara Frav Trofea adıyla geçen bir kadın evinden çıktı ve dans etmeye başladı."},
+        {"yazi": "Akşam olduğunda bitkinlikten yere yığıldı. Ama ertesi sabah kalkıp yeniden başladı."},
+        {"yazi": "Ayakları şişti, kanadı; yine de durmadı. Günlerce böyle devam etti."},
+        {"yazi": "Onun adını, olaydan birkaç yıl sonra şehre gelen ünlü hekim Paracelsus'un yazılarından biliyoruz.", "ses": "Onun adını, olaydan birkaç yıl sonra şehre gelen ünlü hekim Paraselsus'un yazılarından biliyoruz."}
+      ]
+    },
+    {
+      "ad": "Salgın yayılıyor",
+      "cumleler": [
+        {"yazi": "Asıl korkutucu olan bundan sonra yaşandı."},
+        {"yazi": "Bir hafta içinde otuzdan fazla kişi aynı şekilde dans etmeye başladı."},
+        {"yazi": "Dönemin bir kroniğine göre ağustos ayında sayı dört yüze ulaştı."},
+        {"yazi": "Anlatılanlara göre bu bir eğlence değildi. Dans edenler bitkin ve çaresizdi, ama duramıyorlardı."}
+      ]
+    },
+    {
+      "ad": "Hekimlerin reçetesi: daha çok dans",
+      "cumleler": [
+        {"yazi": "Şehir meclisi hekimlere danıştı. Hekimler yıldızları ya da şeytanı suçlamadı."},
+        {"yazi": "Teşhisleri şuydu: aşırı ısınmış kan."},
+        {"yazi": "Önerdikleri tedavi ise bugün kulağa inanılmaz geliyor: daha çok dans."},
+        {"yazi": "Meclis lonca binalarını boşalttı ve pazar yerine ahşap bir sahne kurdurdu."},
+        {"yazi": "Müzisyenler tutuldu. Hatta dans edenleri ayakta tutsunlar diye güçlü adamlar kiralandı."},
+        {"yazi": "Düşünce basitti: yeterince dans ederlerse, hastalık vücutlarından çıkıp gidecekti."}
+      ]
+    },
+    {
+      "ad": "İşler kontrolden çıkıyor",
+      "cumleler": [
+        {"yazi": "Tam tersi oldu. Müzik ve kalabalık, salgını daha da büyüttü."},
+        {"yazi": "Bazı anlatılara göre insanlar bitkinlikten ve kalp krizinden ölüyordu. Günde on beş kişinin öldüğünü yazan kaynaklar bile var."},
+        {"yazi": "Ancak o dönemin Strazburg belgelerinde ölü sayısı geçmiyor."},
+        {"yazi": "Yani kaç kişinin öldüğünü, hatta ölen olup olmadığını bugün kesin olarak bilmiyoruz."}
+      ]
+    },
+    {
+      "ad": "Aziz Vitus'un laneti",
+      "cumleler": [
+        {"yazi": "Meclis hatasını anladı ve kararını tersine çevirdi. Şehirde müzik ve dans yasaklandı."},
+        {"yazi": "Çünkü halk, bu belanın Aziz Vitus'un laneti olduğuna inanıyordu."},
+        {"yazi": "Dans edenler arabalara bindirildi ve Saverne kasabası yakınlarında, Aziz Vitus'a adanmış bir mabede götürüldü.", "ses": "Dans edenler arabalara bindirildi ve Savern kasabası yakınlarında, Aziz Vitus'a adanmış bir mabede götürüldü."},
+        {"yazi": "Orada ayaklarına kırmızı ayakkabılar giydirildi ve azizin heykelinin etrafında dolaştırıldılar."},
+        {"yazi": "Eylül ayının başında salgın, başladığı gibi aniden sona erdi."}
+      ]
+    },
+    {
+      "ad": "1. teori: Çavdar mahmuzu",
+      "cumleler": [
+        {"yazi": "Peki gerçekte ne olmuştu?"},
+        {"yazi": "İlk açıklama, çavdar mahmuzu denen bir mantar."},
+        {"yazi": "Bu mantar çavdar başaklarında ürer ve sanrılara, kasılmalara yol açan maddeler içerir."},
+        {"yazi": "Ama bu teoride bir sorun var: çavdar mahmuzu zehirlenmesi insanı günlerce dans ettirmez."},
+        {"yazi": "Tam tersine, şiddetli kasılmalar yüzünden ayakta durmak bile zorlaşır."}
+      ]
+    },
+    {
+      "ad": "2. teori: Kitlesel psikoloji",
+      "cumleler": [
+        {"yazi": "İkinci açıklama, tarihçi John Waller'a ait ve bugün en çok kabul göreni.", "ses": "İkinci açıklama, tarihçi Con Volır'a ait ve bugün en çok kabul göreni."},
+        {"yazi": "Ona göre bu, kitlesel bir psikolojik rahatsızlıktı."},
+        {"yazi": "Açlık, hastalık ve korkuyla bunalmış insanlar, Aziz Vitus'un lanetine yürekten inanıyordu."},
+        {"yazi": "Bir kişi dans etmeye başlayınca, bu inanç başkalarını da bir tür transa sürükledi."},
+        {"yazi": "Yani onları dans ettiren şey bir zehir değil, çaresizlik ve korkuydu."}
+      ]
+    },
+    {
+      "ad": "Kapanış",
+      "cumleler": [
+        {"yazi": "Strazburg'daki olay tek örnek de değil. Orta Çağ Avrupa'sında benzer dans salgınları defalarca görüldü."},
+        {"yazi": "Ama 1518, bunların en iyi belgelenmiş olanı.", "ses": "Ama bin beş yüz on sekiz, bunların en iyi belgelenmiş olanı."},
+        {"yazi": "Beş yüz yıl sonra bile kesin cevabı bilmiyoruz."},
+        {"yazi": "Bildiğimiz tek şey şu: bir yaz boyunca, bir şehrin insanları dans etti ve duramadı."},
+        {"yazi": "Sizce asıl sebep neydi? Düşüncenizi yorumlara yazın."},
+        {"yazi": "Bir sonraki videoda görüşmek üzere."}
+      ]
+    }
+  ]
+}

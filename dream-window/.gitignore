@@ -1,0 +1,15 @@
+**/ses_kaynak/yagmur.*
+*.bundle
+*_onizleme.jpg
+_*.mp4
+__pycache__/
+_gecici/
+_ses.m4a
+_shorts.*
+_video.mp4
+onizleme*.jpg
+ornek_*.mp4
+ses_deneme.wav
+shorts.mp4
+video.mp4
+video_*.mp4

@@ -1,0 +1,125 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "DEEP SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        860,
+        0,
+        1645,
+        490
+      ]
+    ],
+    "esik": 0.02,
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          800,
+          452
+        ],
+        [
+          965,
+          452
+        ],
+        [
+          965,
+          495
+        ],
+        [
+          800,
+          495
+        ]
+      ]
+    ]
+  },
+  "ates": {
+    "kutu": [
+      120,
+      420,
+      380,
+      700
+    ],
+    "ic": [
+      132,
+      435,
+      365,
+      690
+    ],
+    "taban": 670,
+    "tepe": 440
+  },
+  "isiklar": [
+    {
+      "x": 250,
+      "y": 560,
+      "sigma": 300,
+      "genlik": 0.09
+    },
+    {
+      "x": 487,
+      "y": 600,
+      "sigma": 40,
+      "genlik": 0.1
+    },
+    {
+      "x": 540,
+      "y": 330,
+      "sigma": 45,
+      "genlik": 0.1
+    }
+  ],
+  "pirilti": [
+    {
+      "kutu": [
+        380,
+        0,
+        1040,
+        240
+      ],
+      "genlik": 0.35,
+      "esik": 0.7,
+      "sicak": 0.15
+    }
+  ],
+  "ses": {
+    "ates": "ses_kaynak/ates.ogg",
+    "ates_katman": 3,
+    "ates_duzey": 0.16,
+    "ates_tavan": 0.15,
+    "ates_govde": 3.0,
+    "ates_denge": [
+      1.0,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kutu": [
+      0,
+      322,
+      635,
+      798
+    ],
+    "model": "kwaivgi/kling-v2.5-turbo-pro",
+    "tahmin": "qnghjgfprdrmw0d1teqrm6g1gm",
+    "sure_sn": 131
+  },
+  "shorts": {
+    "bas": 250,
+    "son": 1250,
+    "tur": 2,
+    "baslik": "Cozy Attic Bedroom",
+    "alt": "Snowy Night & Wood Stove",
+    "ses_kazanc": 7.5
+  }
+}
