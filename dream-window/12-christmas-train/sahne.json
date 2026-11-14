@@ -185,26 +185,10 @@
     "olcek": 1.012
   },
   "ses": {
-    "zemin": "ses_kaynak/tren.mp3",
-    "zemin_parcalar": [
-      [
-        180,
-        270
-      ],
-      [
-        662,
-        742
-      ],
-      [
-        930,
-        985
-      ]
-    ],
+    "zemin": "ses_kaynak/eski_tren.mp3",
     "alt_kesim": 35,
-    "ust_kesim": 650,
-    "duzey_dengele": false,
+    "duzey_dengele": true,
     "ani_esik": 1.6,
-    "zemin_duzey": 0.075,
-    "ust_kesim_derece": 4
+    "zemin_duzey": 0.08
   }
 }
