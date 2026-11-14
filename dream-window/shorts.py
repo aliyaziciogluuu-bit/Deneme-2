@@ -42,11 +42,13 @@ def yazi_katmani(baslik: str, alt: str):
 
 def main():
     klasor = uret.KOK / sys.argv[1]
-    sahne = uret.Sahne(klasor)
     anahtar = sys.argv[2] if len(sys.argv) > 2 else "shorts"
+    import json
+    tur = int(json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))[anahtar].get("tur", 2))
+    uret.DONGU = tur * uret.T                                 # Shorts boyunca hiçbir hareket tekrar etmesin (ateş, kar, kuzey ışıkları)
+    sahne = uret.Sahne(klasor)
     a = sahne.ayar[anahtar]
-    tur = int(a.get("tur", 2))
-    kare_sayisi = tur * uret.T * uret.FPS
+    kare_sayisi = uret.DONGU * uret.FPS
     gen = uret.Y * SG // SY                                   # 1080p karede dikey kadrajın genişliği
     bas, son = (min(max(sahne.o(v)[0], gen // 2), uret.G - gen // 2) for v in (a["bas"], a["son"]))
     renk, saydam = yazi_katmani(a["baslik"], a["alt"])
@@ -55,7 +57,7 @@ def main():
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{SG}x{SY}", "-r", str(uret.FPS), "-i", "-",
                            "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-pix_fmt", "yuv420p", str(gecici)], stdin=subprocess.PIPE)
     for n in range(kare_sayisi):
-        kare = sahne.kare(n % (uret.T * uret.FPS))
+        kare = sahne.kare(n)
         merkez = bas + (son - bas) * (1 - np.cos(2 * np.pi * n / kare_sayisi)) / 2      # git ve yumuşakça geri dön
         x0 = merkez - gen / 2
         m = np.float32([[SG / gen, 0, -x0 * SG / gen], [0, SY / uret.Y, 0]])            # piksel altı kaydırma: hareket titremez
