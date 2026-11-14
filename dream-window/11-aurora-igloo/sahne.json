@@ -192,7 +192,8 @@
       "cozunurluk": "480p",
       "tahmin": "2mjz58rncsrmy0d1ttns8kc9zg",
       "sure_sn": 294,
-      "maske_cam": true
+      "maske_cam": true,
+      "zaman_bukme": true
     }
   ],
   "shorts": {
@@ -210,5 +211,6 @@
     "baslik": "POV: you wake up under the northern lights",
     "alt": "on Christmas night",
     "ses_kazanc": 10.5
-  }
+  },
+  "dongu_sn": 96
 }

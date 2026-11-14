@@ -25,6 +25,7 @@ from scipy import signal
 
 G, Y, FPS = 1920, 1080, 24
 T = 24                      # görüntü döngüsünün süresi (sn); bütün hareketler bu sürede başa döner
+DONGU = T                   # videonun tekrar birimi (sn, T'nin katı); sahne.json "dongu_sn" ile uzatılır (örn. kuzey ışıkları)
 SR = 48000
 KOK = pathlib.Path(__file__).parent
 
@@ -51,6 +52,20 @@ class Dalga:
 
     def __call__(self, t):
         return sum(g * np.sin(f + np.float32(2 * np.pi * d * t / T)) for f, d, g in self.terimler)
+
+
+class KlipDizi:
+    """Uzun klip dizisi: kareler bellekte tutulmaz, istenince iki kaynak karenin karışımı olarak hesaplanır."""
+    def __init__(self, kareler, oran, tarif):
+        self.kareler, self.oran, self.tarif = kareler, oran, tarif
+
+    def __len__(self):
+        return len(self.tarif)
+
+    def __getitem__(self, i):
+        a, b, w = self.tarif[i]
+        k = self.kareler[a] if w < 1e-3 else self.kareler[a] * np.float32(1 - w) + self.kareler[b] * np.float32(w)
+        return np.clip(k * self.oran, 0, 1)
 
 
 class Sahne:
@@ -171,9 +186,12 @@ class Sahne:
             if not ok:
                 break
             kareler.append(cv2.resize(f, (gen, yuk), interpolation=cv2.INTER_AREA)[kes].astype(np.float32) / 255)
-        donus = T * FPS
-        hedef = min((d for d in range(donus // 4, donus + 1) if donus % d == 0), key=lambda d: abs(d - len(kareler)))
-        sira = [int(round(i * len(kareler) / hedef)) % len(kareler) for i in range(hedef)]   # 24 sn'lik döngüye tam sığsın
+        if k.get("zaman_bukme") or k.get("karisik"):
+            sira = None                                                # aşağıda: klip DONGU boyunca ileri-geri, değişken hızla oynar
+        else:
+            donus = T * FPS
+            hedef = min((d for d in range(donus // 4, donus + 1) if donus % d == 0), key=lambda d: abs(d - len(kareler)))
+            sira = [int(round(i * len(kareler) / hedef)) % len(kareler) for i in range(hedef)]   # 24 sn'lik döngüye tam sığsın
         maske = np.zeros((Y, G), np.float32)
         for m in k.get("maskeler", [k.get("maske", varsayilan_maske)]):   # örn. iki camlı kapakta iki cam
             ix0, iy0, ix1, iy1 = self.o(*m)
@@ -188,7 +206,49 @@ class Sahne:
         orta = np.mean(kareler[::max(len(kareler) // 20, 1)], axis=0)
         m = maske[..., 0] > 0.5                                        # renkleri orijinal görsele eşitle
         oran = ((self.temiz[ky0:ky1, kx0:kx1][m].mean(axis=0) + 1e-3) / (orta[m].mean(axis=0) + 1e-3)).astype(np.float32)
+        if sira is None and k.get("karisik"):
+            return self._karisik(kareler, oran), kutu, maske
+        if sira is None:
+            return self._zaman_buk(kareler, oran, k.get("zaman_bukme")), kutu, maske
         return [np.clip(kareler[i] * oran, 0, 1) for i in sira], kutu, maske
+
+    @staticmethod
+    def _karisik(kareler, oran, parca_sn=4.0, gecis=24):
+        """Ateş, deniz gibi geri oynatılamayan klipler için: döngü klibinin rastgele yerlerinden ileri oynayan parçalar
+        yumuşak geçişle art arda eklenir; DONGU boyunca aynı düzen tekrar etmez, son parça ilkine bağlanır (kusursuz döngü)."""
+        N, L = DONGU * FPS, len(kareler)
+        m = max(int(round(N / (parca_sn * FPS))), 2)
+        while N % m:
+            m += 1
+        S = N // m
+        rng = np.random.default_rng(len(kareler) * 7919 + N)
+        bas = [0]
+        for _ in range(m - 1):                                         # ardışık parçalar klibin uzak yerlerinden başlasın
+            bas.append(int((bas[-1] + rng.uniform(0.3, 0.7) * L) % L))
+        print(f"karışık döngü: {N} kare, {m} parça × {S / FPS:.1f} sn", flush=True)
+        tarif = []
+        for i in range(N):
+            j, yerel = divmod(i, S)
+            kalan, w = S - yerel, 0.0
+            if kalan <= gecis:                                         # parçanın sonu bir sonrakinin başına karışır
+                w = 1 - (kalan - 0.5) / gecis
+                w = w * w * (3 - 2 * w)
+            tarif.append(((bas[j] + yerel) % L, (bas[(j + 1) % m] - kalan) % L, w))
+        return KlipDizi(kareler, oran, tarif)
+
+    @staticmethod
+    def _zaman_buk(kareler, oran, _):
+        """Kısa klibi DONGU süresince tekrar etmeden oynatır: konum birkaç sinüsün toplamı (ileri-geri, değişken hız).
+        Yön değişimleri hız sıfırken olur, bu yüzden fark edilmez; aradaki kareler komşu karelerin karışımıdır."""
+        N, L = DONGU * FPS, len(kareler)
+        u = np.arange(N) / N
+        f = sum(a * np.sin(2 * np.pi * k * u + faz) for k, a, faz in
+                [(1, 1.0, 0.4), (2, 0.6, 1.9), (5, 0.35, 4.1), (7, 0.25, 0.7), (11, 0.1, 2.5)])   # ort. ~0,34x, en çok ~1,1x
+        f = (f - f.min()) / (f.max() - f.min())
+        konum = f * (L - 1)
+        hiz_k = np.abs(np.diff(np.append(konum, konum[0])))
+        print(f"zaman bükme: {N} kare, ortalama hız {hiz_k.mean():.2f}x, en yüksek {hiz_k.max():.2f}x", flush=True)
+        return KlipDizi(kareler, oran, [(int(p), min(int(p) + 1, L - 1), p - int(p)) for p in konum])
 
     def _ates_klip(self):
         """sahne.json'da "ates_klip" varsa şöminenin içi gerçek ateş videosuyla değiştirilir (ates_klip.py üretir)."""
@@ -374,7 +434,7 @@ class Sahne:
         if acilis:
             kare = kare * min(t / 2.5, 1.0)
         if kapanis:
-            kare = kare * min(max((T - t) / 6.0, 0.0), 1.0)
+            kare = kare * min(max((DONGU - t) / 6.0, 0.0), 1.0)
         return (np.clip(kare, 0, 1) * 255 + 0.5).astype(np.uint8)
 
 
@@ -522,7 +582,7 @@ if "--720" in sys.argv:                  # dosya gönderme sınırına sığmaya
 def gorunum_yaz(sahne: Sahne, yol: pathlib.Path, **secenek):
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{G}x{Y}", "-r", str(FPS),
                            "-i", "-", *KODLAMA, "-video_track_timescale", "12288", str(yol)], stdin=subprocess.PIPE)
-    for n in range(T * FPS):
+    for n in range(DONGU * FPS):
         ff.stdin.write(sahne.kare(n, **secenek).tobytes())
     ff.stdin.close()
     assert ff.wait() == 0
@@ -539,6 +599,9 @@ def main():
         (klasor / "_video.mp4").replace(klasor / CIKTI)
         (klasor / "_ses.m4a").unlink()
         return
+    global DONGU
+    DONGU = int(json.loads((klasor / "sahne.json").read_text(encoding="utf-8")).get("dongu_sn", T))
+    assert DONGU % T == 0, "dongu_sn 24'ün katı olmalı"
     sahne = Sahne(klasor)
     if "--kare" in sys.argv:
         kareler = [sahne.kare(72, acilis=True), sahne.kare(200), sahne.kare(201), sahne.kare(400)]
@@ -547,20 +610,20 @@ def main():
         return
 
     dakika = float(sys.argv[sys.argv.index("--dakika") + 1]) if "--dakika" in sys.argv else 60
-    tur = max(int(round(dakika * 60 / T)), 3)
+    tur = max(int(round(dakika * 60 / DONGU)), 3)
     gecici = klasor / "_gecici"
     gecici.mkdir(exist_ok=True)
     gorunum_yaz(sahne, gecici / "acilis.mp4", acilis=True)
     gorunum_yaz(sahne, gecici / "dongu.mp4")
     gorunum_yaz(sahne, gecici / "kapanis.mp4", kapanis=True)
-    ses_kur(klasor, gecici / "ses.m4a", tur * T)
+    ses_kur(klasor, gecici / "ses.m4a", tur * DONGU)
     (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (tur - 2) + "file 'kapanis.mp4'\n")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(gecici / "liste.txt"), "-i", str(gecici / "ses.m4a"),
                     "-c", "copy", "-shortest", "-movflags", "+faststart", str(klasor / CIKTI)], check=True)
     for d in gecici.iterdir():
         d.unlink()
     gecici.rmdir()
-    print(f"Hazır: {klasor / CIKTI} ({tur * T / 60:.0f} dk)")
+    print(f"Hazır: {klasor / CIKTI} ({tur * DONGU / 60:.0f} dk)")
 
 
 if __name__ == "__main__":
