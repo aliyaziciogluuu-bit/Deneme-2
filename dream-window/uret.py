@@ -24,6 +24,9 @@ import numpy as np
 from scipy import signal
 
 G, Y, FPS = 1920, 1080, 24
+if "--4k" in sys.argv:                   # 4K: sahne.json'da "gorsel_4k" (yapay zekâyla büyütülmüş görsel) varsa o kullanılır
+    G, Y = 3840, 2160
+K = G / 1920                             # sabit piksel ölçüleri (kar tanesi, yazı, bulanıklık) 1080p'ye göre yazıldı; 4K'da 2 kat
 T = 24                      # görüntü döngüsünün süresi (sn); bütün hareketler bu sürede başa döner
 DONGU = T                   # videonun tekrar birimi (sn, T'nin katı); sahne.json "dongu_sn" ile uzatılır (örn. kuzey ışıkları)
 SR = 48000
@@ -91,6 +94,8 @@ class Sahne:
         self.ayar = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))
         ham = cv2.imread(str(klasor / self.ayar["gorsel"]))
         self.olcek = G / ham.shape[1]          # sahne.json koordinatları kaynak görselin pikselleridir
+        if K > 1 and self.ayar.get("gorsel_4k"):
+            ham = cv2.imread(str(klasor / self.ayar["gorsel_4k"]))
         buyut = lambda g: cv2.resize(g, (G, Y), interpolation=cv2.INTER_LANCZOS4).astype(np.float32) / 255
         self.temiz = buyut(ham)
         self.acilis_gorseli = buyut(cv2.imread(str(klasor / self.ayar["acilis_gorseli"]))) if self.ayar.get("acilis_gorseli") else None
@@ -116,16 +121,16 @@ class Sahne:
         y = self.ayar["acilis_yazi"]
         kat = Image.new("RGBA", (G, Y), (0, 0, 0, 0))
         golge = Image.new("RGBA", (G, Y), (0, 0, 0, 0))
-        buyuk = ImageFont.truetype("/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf", 150)
-        kucuk = ImageFont.truetype("/usr/share/fonts/opentype/inter/Inter-Medium.otf", 30)
+        buyuk = ImageFont.truetype("/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf", int(150 * K))
+        kucuk = ImageFont.truetype("/usr/share/fonts/opentype/inter/Inter-Medium.otf", int(30 * K))
         for katman, renk in ((golge, (0, 0, 0, 210)), (kat, (255, 240, 214, 255))):
             ciz = ImageDraw.Draw(katman)
-            ciz.text((G / 2, 430), y["baslik"], font=buyuk, fill=renk, anchor="mm")
-            ciz.text((G / 2, 560), "   •   ".join(y["alt"]), font=kucuk, fill=renk, anchor="mm")
+            ciz.text((G / 2, 430 * K), y["baslik"], font=buyuk, fill=renk, anchor="mm")
+            ciz.text((G / 2, 560 * K), "   •   ".join(y["alt"]), font=kucuk, fill=renk, anchor="mm")
             gen = ciz.textlength("   •   ".join(y["alt"]), font=kucuk)
-            for x0, x1 in ((G / 2 - gen / 2 - 110, G / 2 - gen / 2 - 30), (G / 2 + gen / 2 + 30, G / 2 + gen / 2 + 110)):
-                ciz.line((x0, 560, x1, 560), fill=renk, width=2)
-        golge = golge.filter(ImageFilter.GaussianBlur(14))
+            for x0, x1 in ((G / 2 - gen / 2 - 110 * K, G / 2 - gen / 2 - 30 * K), (G / 2 + gen / 2 + 30 * K, G / 2 + gen / 2 + 110 * K)):
+                ciz.line((x0, 560 * K, x1, 560 * K), fill=renk, width=int(2 * K))
+        golge = golge.filter(ImageFilter.GaussianBlur(14 * K))
         golge.alpha_composite(golge)
         golge.alpha_composite(kat)
         dizi = np.asarray(golge).astype(np.float32) / 255
@@ -152,16 +157,16 @@ class Sahne:
         for k in c.get("yesil_haric", []):                           # camın önündeki yapraklar
             x0, y0, x1, y1 = self.o(*k)
             maske[y0:y1, x0:x1][(g - b)[y0:y1, x0:x1] > 0.06] = 0
-        acik = int(c.get("temizlik", 7))
+        acik = int(c.get("temizlik", 7) * K)
         maske = cv2.morphologyEx(maske, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (acik, acik)))
-        self.cam = cv2.GaussianBlur(maske.astype(np.float32), (0, 0), 2.0)
+        self.cam = cv2.GaussianBlur(maske.astype(np.float32), (0, 0), 2.0 * K)
         kutular = np.array([self.o(*k) for k in c["kutular"]])
         self.cam_kutu = (max(int(kutular[:, 0].min()), 0), max(int(kutular[:, 1].min()), 0),
                          min(int(kutular[:, 2].max()), G), min(int(kutular[:, 3].max()), Y))
 
     def _ates(self):
         a = self.ayar["ates"]
-        s = a.get("olcek", 1.0)                                       # 1.0: yaklaşık 250 piksel boyunda alev
+        s = a.get("olcek", 1.0) * K                                   # 1.0: yaklaşık 250 piksel boyunda alev (1080p)
         x0, y0, x1, y1 = self.ates_kutu = self.o(*a["kutu"])
         bolge = self.temiz[y0:y1, x0:x1]
         b, g, r = cv2.split(bolge)
@@ -216,7 +221,7 @@ class Sahne:
         for m in k.get("haric", []):                                   # kapak çerçevesi, kulp gibi önde kalanlar
             ix0, iy0, ix1, iy1 = self.o(*m)
             maske[iy0:iy1, ix0:ix1] = 0
-        maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7))
+        maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7) * K)
         if k.get("maske_cam"):                                         # pencere çerçevesi önde kalsın
             maske *= self.cam
         maske = maske[ky0:ky1, kx0:kx1, None]
@@ -298,8 +303,8 @@ class Sahne:
             x0, y0, x1, y1 = self.o(*p["kutu"])
             b, g, r = cv2.split(self.temiz[y0:y1, x0:x1])
             parlak = (((0.114 * b + 0.587 * g + 0.299 * r) > p.get("esik", 0.72)) & ((r - b) >= p.get("sicak", -1.0))).astype(np.float32)   # sicak: yalnızca sıcak renkli ışıklar (kar parlamasın)
-            maske = cv2.GaussianBlur(parlak, (0, 0), 2.5)
-            hucre = 14                                               # her hücre kendi hızında ve fazında yanıp söner
+            maske = cv2.GaussianBlur(parlak, (0, 0), 2.5 * K)
+            hucre = int(14 * K)                                              # her hücre kendi hızında ve fazında yanıp söner
             ky, kx = (y1 - y0) // hucre + 1, (x1 - x0) // hucre + 1
             buyut = lambda d: np.kron(d, np.ones((hucre, hucre), np.float32))[:y1 - y0, :x1 - x0]
             self.piriltilar.append(((x0, y0, x1, y1), maske * p.get("genlik", 0.4),
@@ -311,33 +316,33 @@ class Sahne:
             x0, y0, x1, y1 = self.su_kutu = self.o(*self.ayar["su"]["kutu"])
             b, g, r = cv2.split(self.temiz[y0:y1, x0:x1])
             su = ((b > self.ayar["su"].get("esik", 0.42)) & (b > r + 0.04)).astype(np.float32)
-            self.su_agirlik = cv2.GaussianBlur(su, (0, 0), 3)
+            self.su_agirlik = cv2.GaussianBlur(su, (0, 0), 3 * K)
             yuk, gen = su.shape
-            self.su_dx = Dalga(20, yuk, gen, [(60, 45, 9, 2.2), (34, 28, 15, 1.3), (22, 60, 21, 0.8)], yon=-1.0)
-            self.su_dy = Dalga(21, yuk, gen, [(40, 50, 12, 1.2), (24, 36, 19, 0.7)], yon=-1.0)
+            self.su_dx = Dalga(20, yuk, gen, [(60, 45, 9, 2.2), (34, 28, 15, 1.3), (22, 60, 21, 0.8)], yon=-1.0, olcek=K)
+            self.su_dy = Dalga(21, yuk, gen, [(40, 50, 12, 1.2), (24, 36, 19, 0.7)], yon=-1.0, olcek=K)
             self.su_izgara = np.mgrid[0:yuk, 0:gen].astype(np.float32)
         if "buhar" in self.ayar:
             x0, y0, x1, y1 = self.buhar_kutu = self.o(*self.ayar["buhar"]["kutu"])
             yuk, gen = y1 - y0, x1 - x0
             yy, xx = np.mgrid[0:yuk, 0:gen].astype(np.float32)
             self.buhar_agirlik = np.exp(-((xx - gen / 2) ** 2 / (2 * (gen / 4) ** 2) + (yy - yuk * 0.45) ** 2 / (2 * (yuk / 3.4) ** 2))) * self.ayar["buhar"].get("genlik", 1.0)   # genlik: arkada düz çizgiler varsa küçült
-            self.buhar_dx = Dalga(30, yuk, gen, [(90, 400, 4, 5.0), (55, 300, 7, 3.0), (34, 200, 11, 1.5)])
+            self.buhar_dx = Dalga(30, yuk, gen, [(90, 400, 4, 5.0), (55, 300, 7, 3.0), (34, 200, 11, 1.5)], olcek=K)
             self.buhar_izgara = np.mgrid[0:yuk, 0:gen].astype(np.float32)
 
     def _yagis(self):
         x0, y0, x1, y1 = self.cam_kutu
         self.yg, self.yy_ = x1 - x0, y1 - y0
-        self.tur_boyu = self.yy_ + 140                    # damlanın ya da tanenin bir turda kat ettiği yol (px)
-        self.tur_eni = self.yg + 80
+        self.tur_boyu = self.yy_ + 140 * K                    # damlanın ya da tanenin bir turda kat ettiği yol (px)
+        self.tur_eni = self.yg + 80 * K
         rng = np.random.default_rng(40)
         self.tur = self.ayar.get("yagis", "yagmur")
 
         # tur: T saniyede kaç kez baştan düşer (tam sayı olduğu için döngü kusursuz kapanır)
         if self.tur == "yagmur":
             def katman(adet, tur, boy, parlak, kalin):
-                return dict(x=rng.uniform(-20, self.yg + 20, adet), y=rng.uniform(0, self.tur_boyu, adet),
-                            tur=uzun(rng.integers(tur[0], tur[1] + 1, adet)), boy=rng.uniform(*boy, adet),
-                            parlak=rng.uniform(*parlak, adet), kalin=kalin)
+                return dict(x=rng.uniform(-20 * K, self.yg + 20 * K, adet), y=rng.uniform(0, self.tur_boyu, adet),
+                            tur=uzun(rng.integers(tur[0], tur[1] + 1, adet)), boy=rng.uniform(*boy, adet) * K,
+                            parlak=rng.uniform(*parlak, adet), kalin=max(int(round(kalin * K)), 1))
             self.yagmur = [katman(520, (30, 48), (14, 30), (0.07, 0.17), 1),      # uzak, ince
                            katman(170, (52, 84), (36, 80), (0.14, 0.34), 1),      # yakın, hızlı
                            katman(30, (62, 90), (60, 110), (0.22, 0.40), 1),      # cama en yakın, uzun
@@ -348,9 +353,9 @@ class Sahne:
             def katman(adet, tur, yatay, yaricap, parlak, bulanik):
                 return dict(x=rng.uniform(0, self.tur_eni, adet), y=rng.uniform(0, self.tur_boyu, adet),
                             tur=uzun(rng.integers(tur[0], tur[1] + 1, adet)), yatay=uzun(rng.integers(yatay[0], yatay[1] + 1, adet)),
-                            yaricap=rng.uniform(*yaricap, adet), parlak=rng.uniform(*parlak, adet),
-                            sal=rng.uniform(3, 16, adet), salfaz=rng.uniform(0, 6.28, adet), saltur=uzun(rng.integers(2, 7, adet)), bulanik=bulanik)
-            yogunluk = self.yg * self.yy_ / (1300 * 800)
+                            yaricap=rng.uniform(*yaricap, adet) * K, parlak=rng.uniform(*parlak, adet),
+                            sal=rng.uniform(3, 16, adet) * K, salfaz=rng.uniform(0, 6.28, adet), saltur=uzun(rng.integers(2, 7, adet)), bulanik=bulanik * K)
+            yogunluk = self.yg * self.yy_ / (1300 * 800 * K * K)
             self.kar = [katman(int(900 * yogunluk), (2, 3), (0, 1), (0.6, 1.1), (0.25, 0.55), 0.6),   # uzak, küçük, yavaş
                         katman(int(380 * yogunluk), (3, 5), (1, 1), (1.0, 1.8), (0.40, 0.80), 0.8),   # orta
                         katman(int(70 * yogunluk), (5, 8), (1, 2), (2.0, 3.4), (0.45, 0.75), 1.8)]    # cama yakın, iri, bulanık
@@ -367,16 +372,16 @@ class Sahne:
         if self.tur == "yagmur":
             katman = np.zeros((self.yy_, self.yg), np.uint8)
             for y in self.yagmur:
-                ypos = (y["y"] + y["tur"] * self.tur_boyu * t / DONGU) % self.tur_boyu - 110
+                ypos = (y["y"] + y["tur"] * self.tur_boyu * t / DONGU) % self.tur_boyu - 110 * K
                 for x, yp, boy, par in zip(y["x"], ypos, y["boy"], y["parlak"]):
                     xa = x + yp * self.egim
                     cv2.line(katman, (int(xa - boy * self.egim), int(yp - boy)), (int(xa), int(yp)), int(par * 255), y["kalin"], cv2.LINE_AA)
-            return cv2.GaussianBlur(katman, (0, 0), 0.7).astype(np.float32) / 255
+            return cv2.GaussianBlur(katman, (0, 0), 0.7 * K).astype(np.float32) / 255
         toplam = np.zeros((self.yy_, self.yg), np.float32)
         for k in self.kar:
             katman = np.zeros((self.yy_, self.yg), np.uint8)
-            ypos = (k["y"] + k["tur"] * self.tur_boyu * t / DONGU) % self.tur_boyu - 70
-            xpos = (k["x"] - k["yatay"] * self.tur_eni * t / DONGU + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / DONGU)) % self.tur_eni - 40
+            ypos = (k["y"] + k["tur"] * self.tur_boyu * t / DONGU) % self.tur_boyu - 70 * K
+            xpos = (k["x"] - k["yatay"] * self.tur_eni * t / DONGU + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / DONGU)) % self.tur_eni - 40 * K
             for x, y, r, par in zip(xpos, ypos, k["yaricap"], k["parlak"]):   # shift=4: piksel altı konum, hareket titremez
                 cv2.circle(katman, (int(x * 16), int(y * 16)), int(r * 16), int(par * 255), -1, cv2.LINE_AA, 4)
             toplam += cv2.GaussianBlur(katman, (0, 0), k["bulanik"]).astype(np.float32) / 255
@@ -409,7 +414,7 @@ class Sahne:
         for k in kivilcimlar:
             p = (k["faz"] + k["tur"] * t / DONGU) % 1.0
             ky = yuk * (0.72 - p * k["boy"] * 0.62)
-            kx = k["x"] + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / DONGU) + p * 10
+            kx = k["x"] + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / DONGU) + p * 10 * K
             guc = (1 - p) ** 1.5 * min(p * 8, 1.0)
             if 2 < kx < gen - 2 and 2 < ky < yuk - 2 and guc > 0.03:
                 yama = kare[y0 + int(ky) - 1:y0 + int(ky) + 2, x0 + int(kx) - 1:x0 + int(kx) + 2]
@@ -638,6 +643,19 @@ def main():
     gorunum_yaz(sahne, gecici / "kapanis.mp4", kapanis=True)
     ses_kur(klasor, gecici / "ses.m4a", tur * DONGU)
     (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (tur - 2) + "file 'kapanis.mp4'\n")
+    if "--paket" in sys.argv:            # büyük (4K) videolar: parçalar gönderilir, kanal sahibi kendi bilgisayarında birleştirir
+        ad = secenek("--paket", klasor.name)
+        hedef = klasor / f"paket_{ad}"
+        if hedef.exists():
+            for d in hedef.iterdir():
+                d.unlink()
+        gecici.rename(hedef)
+        (hedef / "BIRLESTIR.bat").write_text(
+            "@echo off\r\ncd /d \"%~dp0\"\r\necho Video birlestiriliyor, lutfen bekleyin...\r\n"
+            f"ffmpeg -v error -y -f concat -safe 0 -i liste.txt -i ses.m4a -map 0:v -map 1:a -c copy -shortest -movflags +faststart \"{ad}.mp4\"\r\n"
+            f"if exist \"{ad}.mp4\" (echo HAZIR: {ad}.mp4) else (echo HATA: ffmpeg.exe bu klasorde mi?)\r\npause\r\n", encoding="ascii")
+        print(f"Paket hazır: {hedef}")
+        return
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(gecici / "liste.txt"), "-i", str(gecici / "ses.m4a"),
                     "-c", "copy", "-shortest", "-movflags", "+faststart", str(klasor / CIKTI)], check=True)
     for d in gecici.iterdir():
