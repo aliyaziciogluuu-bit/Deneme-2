@@ -130,7 +130,8 @@
       1621,
       740
     ],
-    "kaynak": "tam sahne klibinden kırpıldı"
+    "kaynak": "tam sahne klibinden kırpıldı",
+    "karisik": true
   },
   "shorts2": {
     "bas": 330,
@@ -139,5 +140,6 @@
     "baslik": "POV: Christmas night in a log cabin",
     "alt": "snow falling under the full moon",
     "ses_kazanc": 7.5
-  }
+  },
+  "dongu_sn": 96
 }

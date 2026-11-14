@@ -324,7 +324,8 @@
     "model": "kwaivgi/kling-v2.5-turbo-pro",
     "cozunurluk": "480p",
     "tahmin": "nt29hq4p1drmw0d1tb98p1wezc",
-    "sure_sn": 131
+    "sure_sn": 131,
+    "karisik": true
   },
   "shorts": {
     "bas": 250,
@@ -341,5 +342,6 @@
     "baslik": "POV: the café stays open in the rain",
     "alt": "just for you",
     "ses_kazanc": 1.5
-  }
+  },
+  "dongu_sn": 96
 }

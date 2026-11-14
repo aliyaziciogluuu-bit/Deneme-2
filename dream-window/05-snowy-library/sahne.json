@@ -136,7 +136,8 @@
     "model": "kwaivgi/kling-v2.5-turbo-pro",
     "cozunurluk": "480p",
     "tahmin": "ntkdfsq4k5rmr0d1t6s9erpbrg",
-    "sure_sn": 342
+    "sure_sn": 342,
+    "karisik": true
   },
   "shorts": {
     "bas": 260,
@@ -153,5 +154,6 @@
     "baslik": "POV: you found a hidden winter library",
     "alt": "and it's snowing outside",
     "ses_kazanc": 7.5
-  }
+  },
+  "dongu_sn": 96
 }

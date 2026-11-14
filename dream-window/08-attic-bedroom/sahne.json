@@ -112,7 +112,8 @@
     ],
     "model": "kwaivgi/kling-v2.5-turbo-pro",
     "tahmin": "qnghjgfprdrmw0d1teqrm6g1gm",
-    "sure_sn": 131
+    "sure_sn": 131,
+    "karisik": true
   },
   "shorts": {
     "bas": 250,
@@ -129,5 +130,6 @@
     "baslik": "POV: the coziest room on the mountain",
     "alt": "snow falling all night",
     "ses_kazanc": 7.5
-  }
+  },
+  "dongu_sn": 96
 }
