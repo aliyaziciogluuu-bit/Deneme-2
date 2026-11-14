@@ -43,7 +43,8 @@ def uzun(c):
     c = np.asarray(c)
     if M == 1:
         return c
-    j = _TUR_RNG.integers(-(M // 2), M // 2 + 1, c.shape)
+    tek = np.array([v for v in range(-(M // 2), M // 2 + 1) if v % 2 != 0] or [0])
+    j = tek[_TUR_RNG.integers(0, len(tek), c.shape)]               # tek sapma: frekanslar çift kalıp döngüyü yarıya bölmesin
     return np.where(c == 0, 0, np.maximum(c * M + j, 1))
 
 
@@ -445,7 +446,9 @@ class Sahne:
             a, z = sa.get("genlik", 1.5) * self.olcek, sa.get("olcek", 1.012)
             w = 2 * np.pi * t / DONGU                         # bütün frekanslar tam sayı: döngü kusursuz kalır
             if not hasattr(self, "_sal_f"):
-                self._sal_f = [int(x) for x in uzun([24, 37, 61, 7, 5])]
+                M = DONGU // T                                 # frekanslar döngü kare sayısıyla ortak çarpansız: yarı/üçte bir döngüde dönmez
+                self._sal_f = [int(f) if M == 1 else int(f) for f in ([24, 37, 61, 7, 5] if M == 1 else
+                               [next(v for v in range(c * M + 1, c * M + 50) if np.gcd(v, DONGU) == 1) for c in (24, 37, 61, 7, 5)])]
             f1, f2, f3, f4, f5 = self._sal_f
             dy = a * (0.55 * np.sin(f1 * w) + 0.3 * np.sin(f2 * w + 1.0) + 0.15 * np.sin(f3 * w + 2.0))
             dx = a * 0.35 * np.sin(f4 * w + 0.5)
