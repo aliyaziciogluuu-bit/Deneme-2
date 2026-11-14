@@ -641,9 +641,22 @@ def main():
     tur = max(int(np.ceil(dakika * 60 / DONGU - 1e-9)), 3)       # en az istenen süre ("3 saat" başlığı doğru kalsın)
     gecici = klasor / f"_gecici_{pathlib.Path(CIKTI).stem}_{secenek('--paket', '')}_{G}"   # aynı sahnede aynı anda iki iş çakışmasın
     gecici.mkdir(exist_ok=True)
-    gorunum_yaz(sahne, gecici / "acilis.mp4", acilis=True)
-    gorunum_yaz(sahne, gecici / "dongu.mp4")
-    gorunum_yaz(sahne, gecici / "kapanis.mp4", kapanis=True)
+    def hazir(yol):                      # yarıda kalan işten sağlam kalan parça yeniden üretilmez
+        if not yol.exists():
+            return False
+        r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(yol)], capture_output=True, text=True)
+        try:
+            return abs(float(r.stdout) - DONGU) < 0.05
+        except ValueError:
+            return False
+    for ad, secim in (("acilis", dict(acilis=True)), ("dongu", {}), ("kapanis", dict(kapanis=True))):
+        if hazir(gecici / f"{ad}.mp4"):
+            print(f"{ad}.mp4 hazır, atlanıyor", flush=True)
+        else:
+            gorunum_yaz(sahne, gecici / f"{ad}.mp4", **secim)
+    del sahne                            # 4K sahnenin belleği ses hazırlanmadan önce boşalsın (yoksa bellek yetmiyor)
+    import gc
+    gc.collect()
     ses_kur(klasor, gecici / "ses.m4a", tur * DONGU)
     (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (tur - 2) + "file 'kapanis.mp4'\n")
     if "--paket" in sys.argv:            # büyük (4K) videolar: parçalar gönderilir, kanal sahibi kendi bilgisayarında birleştirir
