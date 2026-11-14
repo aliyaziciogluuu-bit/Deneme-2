@@ -8,6 +8,7 @@ import json
 import os
 import pathlib
 import sys
+import zipfile
 
 KOK = pathlib.Path(__file__).parent
 AD = {"01-rainy-cabin": "yagmurlu_kulube", "03-christmas-cabin": "noel_kulubesi", "04-snowy-village": "karli_kasaba",
@@ -54,6 +55,16 @@ def main():
                     f"   - Başlık, açıklama, etiketler: {sira}_UZUN_{ad}_metin.txt",
                     f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim.jpg (yükledikten sonra Studio'dan ekle)",
                     "   - Çocuklara özel değil · Herkese açık · Açıklamadaki öyküyü ve Sound credits satırlarını silme", ""]
+        paket = sorted(d for d in (KOK / k).glob("paket_*4K") if (d / "BIRLESTIR.bat").exists())
+        if paket:                                                      # 4K sürümü: parçalar tek zip içinde (sıkıştırmasız)
+            zip_ad = f"{sira}_UZUN_{ad}_4K_paket.zip"
+            if not (hedef / zip_ad).exists():
+                with zipfile.ZipFile(hedef / zip_ad, "w", zipfile.ZIP_STORED) as z:
+                    for d in sorted(paket[-1].iterdir()):
+                        z.write(d, f"{ad}_4K/{d.name}")
+            adimlar[-1:-1] = [f"   - 4K SÜRÜM (yalnızca bilgisayardaysan): {zip_ad}",
+                              "     Zip'i aç, ffmpeg.exe'yi açılan klasöre koy, BIRLESTIR.bat'a çift tıkla;",
+                              "     çıkan 4K videoyu yukarıdaki video yerine yükle (başlık, küçük resim aynı)."]
         sira += 1
     if "shorts" in gun:
         k, anahtar = gun["shorts"]; ad = AD[k]
