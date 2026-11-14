@@ -113,5 +113,13 @@
     "model": "kwaivgi/kling-v2.5-turbo-pro",
     "tahmin": "qnghjgfprdrmw0d1teqrm6g1gm",
     "sure_sn": 131
+  },
+  "shorts": {
+    "bas": 250,
+    "son": 1250,
+    "tur": 2,
+    "baslik": "Cozy Attic Bedroom",
+    "alt": "Snowy Night & Wood Stove",
+    "ses_kazanc": 7.5
   }
 }

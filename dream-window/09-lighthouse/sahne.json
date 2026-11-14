@@ -133,5 +133,13 @@
       "sure_sn": 202,
       "maske_cam": true
     }
-  ]
+  ],
+  "shorts": {
+    "bas": 230,
+    "son": 1300,
+    "tur": 2,
+    "baslik": "Stormy Lighthouse",
+    "alt": "Rain & Crackling Fire",
+    "ses_kazanc": 1.5
+  }
 }

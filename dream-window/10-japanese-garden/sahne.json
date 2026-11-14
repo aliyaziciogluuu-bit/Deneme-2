@@ -108,5 +108,13 @@
     "zemin": "ses_kaynak/yagmur.mp3",
     "zemin_bas": 20,
     "zemin_duzey": 0.08
+  },
+  "shorts": {
+    "bas": 300,
+    "son": 1150,
+    "tur": 2,
+    "baslik": "Rainy Japanese Garden",
+    "alt": "Gentle Rain at Night",
+    "ses_kazanc": 1.5
   }
 }

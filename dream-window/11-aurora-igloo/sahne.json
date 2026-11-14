@@ -194,5 +194,13 @@
       "sure_sn": 294,
       "maske_cam": true
     }
-  ]
+  ],
+  "shorts": {
+    "bas": 500,
+    "son": 1250,
+    "tur": 2,
+    "baslik": "Northern Lights Igloo",
+    "alt": "Christmas Night in Lapland",
+    "ses_kazanc": 12
+  }
 }
