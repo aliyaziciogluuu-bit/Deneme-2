@@ -1,22 +1,113 @@
 {
-  "2026-11-15": {"uzun": "05-snowy-library", "shorts": ["07-christmas-eve", "shorts"]},
-  "2026-11-16": {"shorts": ["05-snowy-library", "shorts"]},
-  "2026-11-17": {"shorts": ["11-aurora-igloo", "shorts"]},
-  "2026-11-18": {"uzun": "03-christmas-cabin", "shorts": ["06-rainy-cafe", "shorts"]},
-  "2026-11-19": {"shorts": ["08-attic-bedroom", "shorts"], "not": "Bugün ayrıca Analytics ekran görüntülerini Claude'a gönder."},
-  "2026-11-20": {"shorts": ["10-japanese-garden", "shorts"], "not": "Bugün ayrıca 2 Adımlı Doğrulama'yı tekrar dene."},
-  "2026-11-21": {"uzun": "06-rainy-cafe", "shorts": ["09-lighthouse", "shorts"]},
-  "2026-11-22": {"shorts": ["01-rainy-cabin", "shorts2"]},
-  "2026-11-23": {"shorts": ["03-christmas-cabin", "shorts2"]},
-  "2026-11-24": {"shorts": ["05-snowy-library", "shorts2"]},
-  "2026-11-25": {"uzun": "08-attic-bedroom", "shorts": ["04-snowy-village", "shorts2"]},
-  "2026-11-26": {"shorts": ["08-attic-bedroom", "shorts2"]},
-  "2026-11-27": {"shorts": ["06-rainy-cafe", "shorts2"]},
-  "2026-11-28": {"shorts": ["07-christmas-eve", "shorts2"]},
-  "2026-11-29": {"shorts": ["11-aurora-igloo", "shorts2"]},
-  "2026-12-01": {"uzun": "07-christmas-eve"},
-  "2026-12-05": {"uzun": "10-japanese-garden"},
-  "2026-12-09": {"uzun": "09-lighthouse"},
-  "2026-12-19": {"uzun": "11-aurora-igloo"},
-  "2026-12-23": {"uzun": "12-christmas-train"}
+  "2026-11-15": {
+    "uzun": "05-snowy-library",
+    "shorts": [
+      "07-christmas-eve",
+      "shorts"
+    ]
+  },
+  "2026-11-16": {
+    "shorts": [
+      "05-snowy-library",
+      "shorts"
+    ]
+  },
+  "2026-11-17": {
+    "shorts": [
+      "11-aurora-igloo",
+      "shorts"
+    ]
+  },
+  "2026-11-18": {
+    "uzun": "03-christmas-cabin",
+    "shorts": [
+      "06-rainy-cafe",
+      "shorts"
+    ]
+  },
+  "2026-11-19": {
+    "shorts": [
+      "08-attic-bedroom",
+      "shorts"
+    ],
+    "not": "Bugün ayrıca Analytics ekran görüntülerini Claude'a gönder."
+  },
+  "2026-11-20": {
+    "shorts": [
+      "10-japanese-garden",
+      "shorts"
+    ],
+    "not": "Bugün ayrıca 2 Adımlı Doğrulama'yı tekrar dene."
+  },
+  "2026-11-21": {
+    "uzun": "06-rainy-cafe",
+    "shorts": [
+      "09-lighthouse",
+      "shorts"
+    ]
+  },
+  "2026-11-22": {
+    "shorts": [
+      "01-rainy-cabin",
+      "shorts2"
+    ]
+  },
+  "2026-11-23": {
+    "shorts": [
+      "03-christmas-cabin",
+      "shorts2"
+    ]
+  },
+  "2026-11-24": {
+    "shorts": [
+      "05-snowy-library",
+      "shorts2"
+    ]
+  },
+  "2026-11-25": {
+    "uzun": "08-attic-bedroom",
+    "shorts": [
+      "04-snowy-village",
+      "shorts2"
+    ]
+  },
+  "2026-11-26": {
+    "shorts": [
+      "08-attic-bedroom",
+      "shorts2"
+    ]
+  },
+  "2026-11-27": {
+    "shorts": [
+      "06-rainy-cafe",
+      "shorts2"
+    ]
+  },
+  "2026-11-28": {
+    "shorts": [
+      "07-christmas-eve",
+      "shorts2"
+    ]
+  },
+  "2026-11-29": {
+    "shorts": [
+      "11-aurora-igloo",
+      "shorts2"
+    ]
+  },
+  "2026-12-01": {
+    "uzun": "07-christmas-eve"
+  },
+  "2026-12-05": {
+    "uzun": "10-japanese-garden"
+  },
+  "2026-12-09": {
+    "uzun": "09-lighthouse"
+  },
+  "2026-12-19": {
+    "uzun": "11-aurora-igloo"
+  },
+  "2026-12-23": {
+    "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et."
+  }
 }
