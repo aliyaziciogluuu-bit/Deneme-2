@@ -329,5 +329,13 @@
     "baslik": "Christmas Eve",
     "alt": "Snowfall & Crackling Fireplace",
     "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1400,
+    "son": 700,
+    "tur": 2,
+    "baslik": "POV: it's Christmas Eve",
+    "alt": "the market is glowing below",
+    "ses_kazanc": 7.5
   }
 }

@@ -145,5 +145,13 @@
     "baslik": "Cozy Winter Library",
     "alt": "Snowfall & Crackling Fireplace",
     "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1450,
+    "son": 1000,
+    "tur": 2,
+    "baslik": "POV: you found a hidden winter library",
+    "alt": "and it's snowing outside",
+    "ses_kazanc": 7.5
   }
 }

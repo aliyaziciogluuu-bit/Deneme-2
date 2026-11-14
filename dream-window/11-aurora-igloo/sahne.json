@@ -202,5 +202,13 @@
     "baslik": "Northern Lights Igloo",
     "alt": "Christmas Night in Lapland",
     "ses_kazanc": 10.5
+  },
+  "shorts2": {
+    "bas": 1300,
+    "son": 900,
+    "tur": 2,
+    "baslik": "POV: you wake up under the northern lights",
+    "alt": "on Christmas night",
+    "ses_kazanc": 10.5
   }
 }

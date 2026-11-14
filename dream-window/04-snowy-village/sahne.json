@@ -244,5 +244,13 @@
       ]
     ],
     "yumusaklik": 2.5
+  },
+  "shorts2": {
+    "bas": 1400,
+    "son": 900,
+    "tur": 2,
+    "baslik": "POV: a snowy night above the village",
+    "alt": "and the stove is warm",
+    "ses_kazanc": 7.5
   }
 }

@@ -333,5 +333,13 @@
     "baslik": "Rainy Night Café",
     "alt": "Rain & Crackling Fireplace",
     "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 1400,
+    "son": 900,
+    "tur": 2,
+    "baslik": "POV: the café stays open in the rain",
+    "alt": "just for you",
+    "ses_kazanc": 1.5
   }
 }
