@@ -56,7 +56,9 @@ def main():
                     f"   - Video: {sira}_UZUN_{ad}_video.mp4",
                     f"   - Başlık, açıklama, etiketler: {sira}_UZUN_{ad}_metin.txt",
                     f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim.jpg (yükledikten sonra Studio'dan ekle)",
-                    "   - Çocuklara özel değil · Herkese açık · Açıklamadaki öyküyü ve Sound credits satırlarını silme", ""]
+                    "   - Çocuklara özel değil · Herkese açık · Açıklamadaki öyküyü ve Sound credits satırlarını silme",
+                    "   - Video öğeleri adımında BİTİŞ EKRANI ekle: Abone ol + En son yüklenen video (son 20 sn; telefonda yoksa bilgisayardan)",
+                    "   - Yayından sonra şu yorumu yazıp sabitle: New 3-hour sleep ambience every week 🌙 Subscribe so you don't miss the next one.", ""]
         paket = sorted(d for d in (KOK / k).glob("paket_*4K") if (d / "BIRLESTIR.bat").exists())
         if paket:                                                      # 4K sürümü: parçalar tek zip içinde (sıkıştırmasız)
             zip_ad = f"{sira}_UZUN_{ad}_4K_paket.zip"
