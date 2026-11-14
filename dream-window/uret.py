@@ -230,7 +230,7 @@ class Sahne:
         m = maske[..., 0] > 0.5                                        # renkleri orijinal görsele eşitle
         oran = ((self.temiz[ky0:ky1, kx0:kx1][m].mean(axis=0) + 1e-3) / (orta[m].mean(axis=0) + 1e-3)).astype(np.float32)
         if sira is None and k.get("karisik"):
-            return self._karisik(kareler, oran), kutu, maske
+            return self._karisik(kareler, oran, k.get("parca_sn", 4.0), int(k.get("gecis_sn", 1.0) * FPS)), kutu, maske   # deniz: uzun parça, az karışım
         if sira is None:
             return self._zaman_buk(kareler, oran, k.get("zaman_bukme")), kutu, maske
         return [np.clip(kareler[i] * oran, 0, 1) for i in sira], kutu, maske
