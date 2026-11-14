@@ -1,50 +1,29 @@
 {
   "2026-11-15": {
-    "shorts": [
-      "07-christmas-eve",
-      "shorts"
-    ],
-    "not": "Kütüphane uzun videosu 14 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). Studio > İçerik'te planlanmış Noel treni videosunun Kısıtlamalar sütununa bak: 'Yok' değilse ekran görüntüsünü Claude'a gönder."
+    "not": "Kütüphane uzun videosu 14 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). Studio > İçerik'te planlanmış Noel treni videosunun Kısıtlamalar sütununa bak: 'Yok' değilse ekran görüntüsünü Claude'a gönder.",
+    "planli_shorts": true
   },
   "2026-11-16": {
-    "shorts": [
-      "05-snowy-library",
-      "shorts"
-    ]
+    "planli_shorts": true
   },
   "2026-11-17": {
-    "shorts": [
-      "11-aurora-igloo",
-      "shorts"
-    ]
+    "planli_shorts": true
   },
   "2026-11-18": {
-    "shorts": [
-      "06-rainy-cafe",
-      "shorts"
-    ],
-    "not": "Noel kulübesi 4K uzun videosu 14 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme)."
+    "not": "Noel kulübesi 4K uzun videosu 14 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme).",
+    "planli_shorts": true
   },
   "2026-11-19": {
-    "shorts": [
-      "08-attic-bedroom",
-      "shorts"
-    ],
-    "not": "Bugün ayrıca Analytics ekran görüntülerini Claude'a gönder."
+    "not": "Bugün ayrıca Analytics ekran görüntülerini Claude'a gönder.",
+    "planli_shorts": true
   },
   "2026-11-20": {
-    "shorts": [
-      "10-japanese-garden",
-      "shorts"
-    ],
-    "not": "Bugün ayrıca 2 Adımlı Doğrulama'yı tekrar dene."
+    "not": "Bugün ayrıca 2 Adımlı Doğrulama'yı tekrar dene.",
+    "planli_shorts": true
   },
   "2026-11-21": {
     "uzun": "06-rainy-cafe",
-    "shorts": [
-      "09-lighthouse",
-      "shorts"
-    ]
+    "planli_shorts": true
   },
   "2026-11-22": {
     "shorts": [

@@ -41,6 +41,8 @@ def main():
     if tarih not in takvim:
         raise SystemExit(f"{tarih} için plan yok")
     gun = takvim[tarih]
+    if not any(k in gun for k in ("uzun", "shorts", "not")):
+        raise SystemExit(f"{tarih} için plan yok (bugünkü yüklemeler önceden planlandı)")
     hedef = KOK / "bugun" / tarih
     hedef.mkdir(parents=True, exist_ok=True)
     adimlar, sira = [f"DREAM WINDOW – {tarih} YÜKLEME TALİMATI", ""], 1
@@ -78,6 +80,8 @@ def main():
                     f"   - Başlık ve açıklama: {sira}_SHORTS_{ad}_metin.txt",
                     "   - YouTube'un önerdiği müziği ekleme · Çocuklara özel değil · Herkese açık",
                     f"   - İlgili video: {ilgili_metin}", ""]
+    if gun.get("planli_shorts"):
+        adimlar += ["Bugünün Shorts'u önceden planlandı, 19:30'da kendiliğinden yayınlanacak (tekrar yükleme).", ""]
     if gun.get("not"):
         adimlar += ["NOT: " + gun["not"], ""]
     adimlar.append("Bu klasördeki dosyalar yalnızca bugüne ait. Eski mesajlardaki dosyalarla karıştırmamak için bugün gelenleri kullan.")
