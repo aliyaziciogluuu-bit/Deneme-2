@@ -635,7 +635,7 @@ def main():
         return
 
     dakika = float(sys.argv[sys.argv.index("--dakika") + 1]) if "--dakika" in sys.argv else 60
-    tur = max(int(round(dakika * 60 / DONGU)), 3)
+    tur = max(int(np.ceil(dakika * 60 / DONGU - 1e-9)), 3)       # en az istenen süre ("3 saat" başlığı doğru kalsın)
     gecici = klasor / "_gecici"
     gecici.mkdir(exist_ok=True)
     gorunum_yaz(sahne, gecici / "acilis.mp4", acilis=True)
