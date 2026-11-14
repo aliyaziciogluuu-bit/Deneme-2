@@ -358,6 +358,15 @@ class Sahne:
         x0, y0, x1, y1 = self.cam_kutu
         kare[y0:y1, x0:x1] += (self._yagis_katmani(t) * self.cam[y0:y1, x0:x1])[..., None] * self.yagis_renk
 
+        if self.ayar.get("sallanti"):                       # tren gibi hareketli sahnelerde hafif, ritmik sallantı
+            sa = self.ayar["sallanti"]
+            a, z = sa.get("genlik", 1.5) * self.olcek, sa.get("olcek", 1.012)
+            w = 2 * np.pi * t / T                             # bütün frekanslar 24 sn'de tam tur: döngü kusursuz kalır
+            dy = a * (0.55 * np.sin(24 * w) + 0.3 * np.sin(37 * w + 1.0) + 0.15 * np.sin(61 * w + 2.0))
+            dx = a * 0.35 * np.sin(7 * w + 0.5)
+            M = cv2.getRotationMatrix2D((G / 2, Y / 2), 0.04 * np.sin(5 * w), z)
+            M[0, 2] += dx; M[1, 2] += dy
+            kare = cv2.warpAffine(kare, M, (G, Y), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
         if acilis and self.acilis_yazi is not None:         # kanal adı birkaç saniye görünüp kaybolur
             renk, saydam = self.acilis_yazi
             a = saydam * (min(max((t - 1.0) / 1.5, 0.0), 1.0) * (1 - gecis))
