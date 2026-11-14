@@ -30,12 +30,27 @@ SR = 48000
 KOK = pathlib.Path(__file__).parent
 
 
+_TUR_RNG = np.random.default_rng(99)
+
+
+def uzun(c):
+    """T saniyedeki tur sayısını DONGU'ya taşır: hız aynı kalır, küçük rastgele sapma eklenir. Böylece kar tanesi, alev,
+    ışık titremesi gibi öğeler 24 sn'de bir aynı düzene dönmez; bütün görüntü ancak DONGU sonunda başa döner."""
+    M = DONGU // T
+    c = np.asarray(c)
+    if M == 1:
+        return c
+    j = _TUR_RNG.integers(-(M // 2), M // 2 + 1, c.shape)
+    return np.where(c == 0, 0, np.maximum(c * M + j, 1))
+
+
 def titresim(tohum, donguler=(2, 3, 5, 8, 13, 21, 34)):
-    """T saniyede kusursuz başa dönen, -1..1 arası düzensiz bir titreşim fonksiyonu."""
+    """DONGU saniyede kusursuz başa dönen, -1..1 arası düzensiz bir titreşim fonksiyonu."""
     rng = np.random.default_rng(tohum)
+    donguler = uzun(donguler)
     faz = rng.uniform(0, 2 * np.pi, len(donguler))
     guc = 1 / np.sqrt(np.array(donguler, dtype=float))
-    return lambda t: float(np.sum(guc * np.sin(2 * np.pi * np.array(donguler) * t / T + faz)) / guc.sum() * 1.8)
+    return lambda t: float(np.sum(guc * np.sin(2 * np.pi * np.array(donguler) * t / DONGU + faz)) / guc.sum() * 1.8)
 
 
 class Dalga:
@@ -48,10 +63,10 @@ class Dalga:
         for dalga_boyu_y, dalga_boyu_x, dongu, genlik in bilesenler:
             faz = (2 * np.pi * yy / (dalga_boyu_y * olcek) * yon + 2 * np.pi * xx / (dalga_boyu_x * olcek) * rng.choice([-1, 1])
                    + rng.uniform(0, 2 * np.pi)).astype(np.float32)
-            self.terimler.append((faz, dongu, genlik * olcek))
+            self.terimler.append((faz, int(uzun(dongu)), genlik * olcek))
 
     def __call__(self, t):
-        return sum(g * np.sin(f + np.float32(2 * np.pi * d * t / T)) for f, d, g in self.terimler)
+        return sum(g * np.sin(f + np.float32(2 * np.pi * d * t / DONGU)) for f, d, g in self.terimler)
 
 
 class KlipDizi:
@@ -70,6 +85,8 @@ class KlipDizi:
 
 class Sahne:
     def __init__(self, klasor: pathlib.Path):
+        global _TUR_RNG
+        _TUR_RNG = np.random.default_rng(99)        # aynı sahne her seferinde aynı hareketi üretsin
         self.klasor = klasor
         self.ayar = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))
         ham = cv2.imread(str(klasor / self.ayar["gorsel"]))
@@ -167,8 +184,8 @@ class Sahne:
         self.ates_izgara = np.mgrid[0:yuk, 0:gen].astype(np.float32)
         self.ates_parlaklik = titresim(3, (5, 9, 14, 23, 37, 55))
         rng = np.random.default_rng(4)                                # yükselen kıvılcımlar
-        self.kivilcim = [dict(x=rng.uniform(0.3, 0.7) * gen, faz=rng.uniform(0, 1), tur=int(rng.integers(4, 10)),
-                              sal=rng.uniform(4, 14) * s, salfaz=rng.uniform(0, 6.28), saltur=int(rng.integers(6, 20)),
+        self.kivilcim = [dict(x=rng.uniform(0.3, 0.7) * gen, faz=rng.uniform(0, 1), tur=int(uzun(rng.integers(4, 10))),
+                              sal=rng.uniform(4, 14) * s, salfaz=rng.uniform(0, 6.28), saltur=int(uzun(rng.integers(6, 20))),
                               boy=rng.uniform(0.5, 0.95)) for _ in range(int(a.get("kivilcim", 14)))]
         self._ates_klip()
 
@@ -286,7 +303,7 @@ class Sahne:
             ky, kx = (y1 - y0) // hucre + 1, (x1 - x0) // hucre + 1
             buyut = lambda d: np.kron(d, np.ones((hucre, hucre), np.float32))[:y1 - y0, :x1 - x0]
             self.piriltilar.append(((x0, y0, x1, y1), maske * p.get("genlik", 0.4),
-                                    buyut(rng.uniform(0, 2 * np.pi, (ky, kx)).astype(np.float32)), buyut(rng.integers(3, 11, (ky, kx)).astype(np.float32))))
+                                    buyut(rng.uniform(0, 2 * np.pi, (ky, kx)).astype(np.float32)), buyut(uzun(rng.integers(3, 11, (ky, kx))).astype(np.float32))))
 
     def _su_ve_buhar(self):
         self.su_kutu = self.buhar_kutu = None
@@ -319,7 +336,7 @@ class Sahne:
         if self.tur == "yagmur":
             def katman(adet, tur, boy, parlak, kalin):
                 return dict(x=rng.uniform(-20, self.yg + 20, adet), y=rng.uniform(0, self.tur_boyu, adet),
-                            tur=rng.integers(tur[0], tur[1] + 1, adet), boy=rng.uniform(*boy, adet),
+                            tur=uzun(rng.integers(tur[0], tur[1] + 1, adet)), boy=rng.uniform(*boy, adet),
                             parlak=rng.uniform(*parlak, adet), kalin=kalin)
             self.yagmur = [katman(520, (30, 48), (14, 30), (0.07, 0.17), 1),      # uzak, ince
                            katman(170, (52, 84), (36, 80), (0.14, 0.34), 1),      # yakın, hızlı
@@ -330,9 +347,9 @@ class Sahne:
         else:
             def katman(adet, tur, yatay, yaricap, parlak, bulanik):
                 return dict(x=rng.uniform(0, self.tur_eni, adet), y=rng.uniform(0, self.tur_boyu, adet),
-                            tur=rng.integers(tur[0], tur[1] + 1, adet), yatay=rng.integers(yatay[0], yatay[1] + 1, adet),
+                            tur=uzun(rng.integers(tur[0], tur[1] + 1, adet)), yatay=uzun(rng.integers(yatay[0], yatay[1] + 1, adet)),
                             yaricap=rng.uniform(*yaricap, adet), parlak=rng.uniform(*parlak, adet),
-                            sal=rng.uniform(3, 16, adet), salfaz=rng.uniform(0, 6.28, adet), saltur=rng.integers(2, 7, adet), bulanik=bulanik)
+                            sal=rng.uniform(3, 16, adet), salfaz=rng.uniform(0, 6.28, adet), saltur=uzun(rng.integers(2, 7, adet)), bulanik=bulanik)
             yogunluk = self.yg * self.yy_ / (1300 * 800)
             self.kar = [katman(int(900 * yogunluk), (2, 3), (0, 1), (0.6, 1.1), (0.25, 0.55), 0.6),   # uzak, küçük, yavaş
                         katman(int(380 * yogunluk), (3, 5), (1, 1), (1.0, 1.8), (0.40, 0.80), 0.8),   # orta
@@ -350,7 +367,7 @@ class Sahne:
         if self.tur == "yagmur":
             katman = np.zeros((self.yy_, self.yg), np.uint8)
             for y in self.yagmur:
-                ypos = (y["y"] + y["tur"] * self.tur_boyu * t / T) % self.tur_boyu - 110
+                ypos = (y["y"] + y["tur"] * self.tur_boyu * t / DONGU) % self.tur_boyu - 110
                 for x, yp, boy, par in zip(y["x"], ypos, y["boy"], y["parlak"]):
                     xa = x + yp * self.egim
                     cv2.line(katman, (int(xa - boy * self.egim), int(yp - boy)), (int(xa), int(yp)), int(par * 255), y["kalin"], cv2.LINE_AA)
@@ -358,8 +375,8 @@ class Sahne:
         toplam = np.zeros((self.yy_, self.yg), np.float32)
         for k in self.kar:
             katman = np.zeros((self.yy_, self.yg), np.uint8)
-            ypos = (k["y"] + k["tur"] * self.tur_boyu * t / T) % self.tur_boyu - 70
-            xpos = (k["x"] - k["yatay"] * self.tur_eni * t / T + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / T)) % self.tur_eni - 40
+            ypos = (k["y"] + k["tur"] * self.tur_boyu * t / DONGU) % self.tur_boyu - 70
+            xpos = (k["x"] - k["yatay"] * self.tur_eni * t / DONGU + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / DONGU)) % self.tur_eni - 40
             for x, y, r, par in zip(xpos, ypos, k["yaricap"], k["parlak"]):   # shift=4: piksel altı konum, hareket titremez
                 cv2.circle(katman, (int(x * 16), int(y * 16)), int(r * 16), int(par * 255), -1, cv2.LINE_AA, 4)
             toplam += cv2.GaussianBlur(katman, (0, 0), k["bulanik"]).astype(np.float32) / 255
@@ -390,9 +407,9 @@ class Sahne:
             x0, y0, x1, y1 = self.ates_kutu
             yuk, gen = y1 - y0, x1 - x0
         for k in kivilcimlar:
-            p = (k["faz"] + k["tur"] * t / T) % 1.0
+            p = (k["faz"] + k["tur"] * t / DONGU) % 1.0
             ky = yuk * (0.72 - p * k["boy"] * 0.62)
-            kx = k["x"] + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / T) + p * 10
+            kx = k["x"] + k["sal"] * np.sin(k["salfaz"] + 2 * np.pi * k["saltur"] * t / DONGU) + p * 10
             guc = (1 - p) ** 1.5 * min(p * 8, 1.0)
             if 2 < kx < gen - 2 and 2 < ky < yuk - 2 and guc > 0.03:
                 yama = kare[y0 + int(ky) - 1:y0 + int(ky) + 2, x0 + int(kx) - 1:x0 + int(kx) + 2]
@@ -412,7 +429,7 @@ class Sahne:
         kazanc = sum(harita * (f(t) * genlik) for harita, f, genlik in self.isiklar)
         kare[self.isik_dilim] *= 1 + kazanc[..., None] * self.sicak
         for (px0, py0, px1, py1), guc, faz, hiz in self.piriltilar:
-            kare[py0:py1, px0:px1] *= (1 + guc * np.sin(faz + np.float32(2 * np.pi * t / T) * hiz))[..., None]
+            kare[py0:py1, px0:px1] *= (1 + guc * np.sin(faz + np.float32(2 * np.pi * t / DONGU) * hiz))[..., None]
 
         # yağmur ya da kar
         x0, y0, x1, y1 = self.cam_kutu
@@ -421,10 +438,13 @@ class Sahne:
         if self.ayar.get("sallanti"):                       # tren gibi hareketli sahnelerde hafif, ritmik sallantı
             sa = self.ayar["sallanti"]
             a, z = sa.get("genlik", 1.5) * self.olcek, sa.get("olcek", 1.012)
-            w = 2 * np.pi * t / T                             # bütün frekanslar 24 sn'de tam tur: döngü kusursuz kalır
-            dy = a * (0.55 * np.sin(24 * w) + 0.3 * np.sin(37 * w + 1.0) + 0.15 * np.sin(61 * w + 2.0))
-            dx = a * 0.35 * np.sin(7 * w + 0.5)
-            M = cv2.getRotationMatrix2D((G / 2, Y / 2), 0.04 * np.sin(5 * w), z)
+            w = 2 * np.pi * t / DONGU                         # bütün frekanslar tam sayı: döngü kusursuz kalır
+            if not hasattr(self, "_sal_f"):
+                self._sal_f = [int(x) for x in uzun([24, 37, 61, 7, 5])]
+            f1, f2, f3, f4, f5 = self._sal_f
+            dy = a * (0.55 * np.sin(f1 * w) + 0.3 * np.sin(f2 * w + 1.0) + 0.15 * np.sin(f3 * w + 2.0))
+            dx = a * 0.35 * np.sin(f4 * w + 0.5)
+            M = cv2.getRotationMatrix2D((G / 2, Y / 2), 0.04 * np.sin(f5 * w), z)
             M[0, 2] += dx; M[1, 2] += dy
             kare = cv2.warpAffine(kare, M, (G, Y), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
         if acilis and self.acilis_yazi is not None:         # kanal adı birkaç saniye görünüp kaybolur
