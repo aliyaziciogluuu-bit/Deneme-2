@@ -1,0 +1,138 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "RAIN",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        711,
+        0,
+        1647,
+        604
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 260,
+      "y": 600,
+      "sigma": 300,
+      "genlik": 0.08
+    },
+    {
+      "x": 522,
+      "y": 436,
+      "sigma": 60,
+      "genlik": 0.1
+    },
+    {
+      "x": 566,
+      "y": 105,
+      "sigma": 40,
+      "genlik": 0.1
+    },
+    {
+      "x": 505,
+      "y": 793,
+      "sigma": 45,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Rainy Lake Cabin",
+  "ates": {
+    "kutu": [
+      120,
+      470,
+      400,
+      740
+    ],
+    "ic": [
+      160,
+      505,
+      360,
+      700
+    ],
+    "taban": 690,
+    "tepe": 540,
+    "olcek": 0.9,
+    "kivilcim": 14
+  },
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ],
+    "ates": [
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_gece.mp3",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "09-lighthouse",
+    "karisik": true,
+    "kutu": [
+      19,
+      401,
+      638,
+      804
+    ]
+  },
+  "shorts": {
+    "bas": 300,
+    "son": 1300,
+    "tur": 2,
+    "baslik": "Rainy Lake Cabin",
+    "alt": "Rain & Crackling Wood Stove",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 1300,
+    "son": 300,
+    "tur": 2,
+    "baslik": "POV: a cabin by a misty lake",
+    "alt": "rain on the window all night",
+    "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      540,
+      560,
+      650,
+      720
+    ],
+    "genlik": 0.7
+  },
+  "su": {
+    "kutu": [
+      900,
+      425,
+      1640,
+      555
+    ],
+    "esik": 0.18
+  }
+}
