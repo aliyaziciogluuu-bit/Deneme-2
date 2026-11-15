@@ -1,0 +1,194 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "RAIN",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        0,
+        0,
+        770,
+        640
+      ],
+      [
+        770,
+        0,
+        1290,
+        280
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5,
+    "yesil_haric": [
+      [
+        0,
+        0,
+        770,
+        640
+      ],
+      [
+        770,
+        0,
+        1290,
+        280
+      ]
+    ],
+    "haric": [
+      [
+        [
+          0,
+          560
+        ],
+        [
+          500,
+          560
+        ],
+        [
+          500,
+          941
+        ],
+        [
+          0,
+          941
+        ]
+      ],
+      [
+        [
+          440,
+          500
+        ],
+        [
+          600,
+          500
+        ],
+        [
+          600,
+          780
+        ],
+        [
+          440,
+          780
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 1530,
+      "y": 620,
+      "sigma": 260,
+      "genlik": 0.07
+    },
+    {
+      "x": 1254,
+      "y": 139,
+      "sigma": 60,
+      "genlik": 0.1
+    },
+    {
+      "x": 514,
+      "y": 640,
+      "sigma": 55,
+      "genlik": 0.1
+    },
+    {
+      "x": 1097,
+      "y": 436,
+      "sigma": 35,
+      "genlik": 0.1
+    },
+    {
+      "x": 1332,
+      "y": 409,
+      "sigma": 35,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Rainy Greenhouse",
+  "ates": {
+    "kutu": [
+      1426,
+      521,
+      1636,
+      723
+    ],
+    "ic": [
+      1447,
+      553,
+      1615,
+      707
+    ],
+    "taban": 701,
+    "tepe": 566,
+    "olcek": 0.61,
+    "kivilcim": 14
+  },
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ],
+    "ates": [
+      "../sesler/ates_gece.mp3",
+      "../sesler/ates_somine_yumusak.mp3",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "06-rainy-cafe",
+    "karisik": true,
+    "kutu": [
+      1360,
+      450,
+      1852,
+      794
+    ],
+    "cubuk_koru": true
+  },
+  "shorts": {
+    "bas": 380,
+    "son": 1350,
+    "tur": 2,
+    "baslik": "Rainy Greenhouse",
+    "alt": "Rain on Glass & Wood Stove",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 1350,
+    "son": 380,
+    "tur": 2,
+    "baslik": "POV: a greenhouse in the rain",
+    "alt": "tea, plants and a warm stove",
+    "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      690,
+      595,
+      790,
+      715
+    ],
+    "genlik": 0.7
+  }
+}
