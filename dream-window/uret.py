@@ -225,6 +225,12 @@ class Sahne:
         maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7) * K)
         if k.get("maske_cam"):                                         # pencere çerçevesi önde kalsın
             maske *= self.cam
+        if k.get("cubuk_koru"):                                        # camlı sobanın kapak çubukları: orijinal görselden önde kalsın
+            b_, g_, r_ = cv2.split(self.temiz)
+            parlak = 0.114 * b_ + 0.587 * g_ + 0.299 * r_
+            cubuk = (parlak < k.get("cubuk_esik", 0.2)).astype(np.float32)
+            cubuk = cv2.GaussianBlur(cv2.dilate(cubuk, np.ones((3, 3), np.uint8)), (0, 0), 1.2 * K)
+            maske = maske * (1 - np.clip(cubuk * 1.4, 0, 1))
         maske = maske[ky0:ky1, kx0:kx1, None]
         orta = np.mean(kareler[::max(len(kareler) // 20, 1)], axis=0)
         m = maske[..., 0] > 0.5                                        # renkleri orijinal görsele eşitle

@@ -1,0 +1,172 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        0,
+        0,
+        1032,
+        530
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          0,
+          355
+        ],
+        [
+          420,
+          355
+        ],
+        [
+          420,
+          941
+        ],
+        [
+          0,
+          941
+        ]
+      ],
+      [
+        [
+          110,
+          170
+        ],
+        [
+          300,
+          170
+        ],
+        [
+          300,
+          330
+        ],
+        [
+          110,
+          330
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 1463,
+      "y": 489,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 73,
+      "y": 740,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1618,
+      "y": 708,
+      "sigma": 73,
+      "genlik": 0.1
+    },
+    {
+      "x": 72,
+      "y": 693,
+      "sigma": 81,
+      "genlik": 0.1
+    },
+    {
+      "x": 335,
+      "y": 736,
+      "sigma": 67,
+      "genlik": 0.1
+    },
+    {
+      "x": 294,
+      "y": 737,
+      "sigma": 69,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Alpine Chalet",
+  "ates": {
+    "kutu": [
+      1294,
+      331,
+      1633,
+      624
+    ],
+    "ic": [
+      1328,
+      377,
+      1599,
+      601
+    ],
+    "taban": 592,
+    "tepe": 396,
+    "olcek": 0.89,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "../sesler/ates_somine_yumusak.mp3",
+      "../sesler/ates_gece.mp3",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "05-snowy-library",
+    "karisik": true,
+    "kutu": [
+      1181,
+      228,
+      1910,
+      725
+    ]
+  },
+  "shorts": {
+    "bas": 516,
+    "son": 1463,
+    "tur": 2,
+    "baslik": "Alpine Chalet",
+    "alt": "Snowy Mountains & Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1463,
+    "son": 516,
+    "tur": 2,
+    "baslik": "POV: a chalet above the clouds",
+    "alt": "snow, moonlight and a warm fire",
+    "ses_kazanc": 7.5
+  },
+  "buhar": {
+    "kutu": [
+      250,
+      630,
+      370,
+      760
+    ],
+    "genlik": 0.7
+  }
+}

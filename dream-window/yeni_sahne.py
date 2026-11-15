@@ -72,8 +72,11 @@ def algila(gorsel, ates="oto", susler=False):
     k = max(W // 80, 5)
     soguk = cv2.morphologyEx(soguk, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_RECT, (k * 2, k * 2)))
     soguk = cv2.morphologyEx(soguk, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_RECT, (k, k)))
-    acik_soguk = (parlak > 0.55) & ((b - r) > 0)                     # ay, kar, yağmur çizgileri: gerçek camda bulunur, gölgede kalan rafta yok
-    pencere = [c for c in bilesenler(soguk, W * H * 0.02) if acik_soguk[c[2]].mean() > 0.005]
+    acik_soguk = (parlak > 0.45) & ((b - r) > 0)                     # ay, kar, yağmur çizgileri: gerçek camda bulunur, gölgede kalan rafta yok
+    adaylar = bilesenler(soguk, W * H * 0.02)
+    pencere = [c for c in adaylar if acik_soguk[c[2]].mean() > 0.008]
+    if not pencere and adaylar:                                        # çok karanlık gece camı: en büyük soğuk bölge pencere sayılır
+        pencere = [max(adaylar, key=lambda c: c[0][cv2.CC_STAT_AREA])]
     pencere = sorted(pencere, key=lambda c: -c[0][cv2.CC_STAT_AREA])[:3]
     sonuc["kutular"] = [kutu_al(c[0]) for c in pencere]
     cam_maske = np.zeros((H, W), bool)
