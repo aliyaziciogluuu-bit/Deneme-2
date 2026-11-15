@@ -518,7 +518,8 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
     """Sesi gerçek kayıtlardan kurar: isteğe bağlı bir zemin sesi (yağmur ya da rüzgâr) ve şömine çıtırtısı."""
     a = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))["ses"]
     n = int(sure * SR)
-    rng = np.random.default_rng(11)
+    import zlib
+    rng = np.random.default_rng(11 + zlib.crc32(klasor.name.encode()) % 100000)   # her sahnenin ses düzeni farklı olsun
 
     zemin = np.zeros((n, 2), np.float32)
     if a.get("zemin"):               # zemin sesi isteğe bağlı; yoksa yalnızca şömine duyulur
@@ -537,8 +538,16 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
                 tek = [tek[int(b * SR):int(e * SR)].copy() for b, e in a["zemin_parcalar"]]
                 uzunluklar = (min(20, min(len(t) for t in tek) / SR - 1), min(55, min(len(t) for t in tek) / SR - 1))
             else:
-                tek = tek[int(bas * SR):].copy()
+                tek = [tek[int(bas * SR):].copy()]
                 uzunluklar = (20, 55)
+            if a.get("zemin_ek"):            # ek kayıtlar (örn. farklı yağmurlar): ana kayıtla aynı düzeye getirilip havuza katılır
+                hedef_rms = np.sqrt(np.mean(np.concatenate([t[::50] for t in (tek if isinstance(tek, list) else [tek])]) ** 2))
+                tek = tek if isinstance(tek, list) else [tek]
+                for d in a["zemin_ek"]:
+                    ek = kayit_coz(klasor / d, 1)[:, 0]
+                    ek = ek[int(0.5 * SR):len(ek) - int(0.5 * SR)]
+                    tek.append(ek * np.float32(hedef_rms / (np.sqrt(np.mean(ek[::50] ** 2)) + 1e-9)))
+                uzunluklar = (min(uzunluklar[0], min(len(t) for t in tek) / SR - 1), min(uzunluklar[1], min(len(t) for t in tek) / SR - 1))
             for kanal in (0, 1):
                 zemin[:, kanal] = uzat(tek, n, rng, uzunluklar, 3.0)
             del tek

@@ -92,7 +92,10 @@
     }
   ],
   "ses": {
-    "ates": "ses_kaynak/ates.ogg",
+    "ates": [
+      "../sesler/ates_somine_yumusak.mp3",
+      "../sesler/ates_somine_gur.mp3"
+    ],
     "ates_katman": 3,
     "ates_duzey": 0.16,
     "ates_tavan": 0.15,

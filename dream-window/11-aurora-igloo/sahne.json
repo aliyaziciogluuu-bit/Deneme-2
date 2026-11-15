@@ -168,7 +168,11 @@
     "genlik": 0.8
   },
   "ses": {
-    "ates": "ses_kaynak/ates.ogg",
+    "ates": [
+      "../sesler/ates_somine_yumusak.mp3",
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_gece.mp3"
+    ],
     "ates_katman": 2,
     "ates_duzey": 0.16,
     "ates_tavan": 0.14,

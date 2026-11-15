@@ -303,7 +303,11 @@
     "zemin": "ses_kaynak/yagmur.mp3",
     "zemin_bas": 20,
     "zemin_duzey": 0.07,
-    "ates": "ses_kaynak/ates.ogg",
+    "ates": [
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_yumusak.mp3",
+      "../sesler/ates_gece.mp3"
+    ],
     "ates_katman": 3,
     "ates_duzey": 0.16,
     "ates_tavan": 0.15,
@@ -311,6 +315,9 @@
     "ates_denge": [
       1.0,
       0.5
+    ],
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3"
     ]
   },
   "ates_klip": {

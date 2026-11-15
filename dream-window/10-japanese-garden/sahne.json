@@ -107,7 +107,11 @@
   "ses": {
     "zemin": "ses_kaynak/yagmur.mp3",
     "zemin_bas": 20,
-    "zemin_duzey": 0.08
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ]
   },
   "shorts": {
     "bas": 300,
