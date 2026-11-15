@@ -173,7 +173,15 @@
   "ses": {
     "zemin": "ses_kaynak/yagmur.mp3",
     "zemin_bas": 20,
-    "ates": "ses_kaynak/ates.ogg"
+    "ates": [
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_yumusak.mp3",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ]
   },
   "shorts2": {
     "bas": 200,
@@ -182,5 +190,18 @@
     "baslik": "POV: rain outside your cabin window",
     "alt": "and the fire keeps you warm",
     "ses_kazanc": 1.5
-  }
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "05-snowy-library",
+    "karisik": true,
+    "kutu": [
+      -3,
+      342,
+      535,
+      741
+    ]
+  },
+  "dongu_sn": 96,
+  "gorsel_4k": "sahne_4k.png"
 }

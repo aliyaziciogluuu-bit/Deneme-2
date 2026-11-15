@@ -388,7 +388,9 @@ class Sahne:
             toplam += cv2.GaussianBlur(katman, (0, 0), k["bulanik"]).astype(np.float32) / 255
         return toplam
 
-    def kare(self, n: int, acilis=False, kapanis=False) -> np.ndarray:
+    def kare(self, n: int, acilis=False, kapanis=False, kararma=False, siyah=False) -> np.ndarray:
+        if siyah:                                            # karanlık ekran: görüntü yok, ses sürer
+            return np.zeros((Y, G, 3), np.uint8)
         t = n / FPS
         gecis = float(np.clip((t - 5.0) / 3.0, 0, 1))
         gecis = gecis * gecis * (3 - 2 * gecis)
@@ -463,6 +465,9 @@ class Sahne:
             kare = kare * min(t / 2.5, 1.0)
         if kapanis:
             kare = kare * min(max((DONGU - t) / 6.0, 0.0), 1.0)
+        if kararma:                                          # karanlık ekran sürümü: bir dakikada yavaşça kararır
+            a = min(max(1.0 - t / 60.0, 0.0), 1.0)
+            kare = kare * (a * a * (3 - 2 * a))
         return (np.clip(kare, 0, 1) * 255 + 0.5).astype(np.uint8)
 
 
@@ -514,12 +519,12 @@ def lufs(ses: np.ndarray) -> float:
     return float(-0.691 + 10 * np.log10(e.mean()))
 
 
-def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float = 4, cikis: float = 8, hedef: float = None):
+def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float = 4, cikis: float = 8, hedef: float = None, tohum_ek: int = 0):
     """Sesi gerçek kayıtlardan kurar: isteğe bağlı bir zemin sesi (yağmur ya da rüzgâr) ve şömine çıtırtısı."""
     a = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))["ses"]
     n = int(sure * SR)
     import zlib
-    rng = np.random.default_rng(11 + zlib.crc32(klasor.name.encode()) % 100000)   # her sahnenin ses düzeni farklı olsun
+    rng = np.random.default_rng(11 + zlib.crc32(klasor.name.encode()) % 100000 + 7919 * tohum_ek)   # her sahnenin (ve uzun seste her parçanın) düzeni farklı
 
     zemin = np.zeros((n, 2), np.float32)
     if a.get("zemin"):               # zemin sesi isteğe bağlı; yoksa yalnızca şömine duyulur
@@ -691,7 +696,11 @@ def main():
             return abs(float(r.stdout) - DONGU) < 0.05
         except ValueError:
             return False
-    for ad, secim in (("acilis", dict(acilis=True)), ("dongu", {}), ("kapanis", dict(kapanis=True))):
+    karanlik = float(secenek("--karanlik", "0"))             # dakika: bu süreden sonra ekran kararır, ses devam eder
+    parcalar = (("acilis", dict(acilis=True)), ("dongu", {}), ("kapanis", dict(kapanis=True)))
+    if karanlik:
+        parcalar = (("acilis", dict(acilis=True)), ("dongu", {}), ("kararma", dict(kararma=True)), ("siyah", dict(siyah=True)))
+    for ad, secim in parcalar:
         if hazir(gecici / f"{ad}.mp4"):
             print(f"{ad}.mp4 hazır, atlanıyor", flush=True)
         else:
@@ -699,8 +708,30 @@ def main():
     del sahne                            # 4K sahnenin belleği ses hazırlanmadan önce boşalsın (yoksa bellek yetmiyor)
     import gc
     gc.collect()
-    ses_kur(klasor, gecici / "ses.m4a", tur * DONGU)
-    (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (tur - 2) + "file 'kapanis.mp4'\n")
+    toplam = tur * DONGU
+    if toplam <= 4 * 3600:
+        ses_kur(klasor, gecici / "ses.m4a", toplam)
+    else:                                # 10 saatlik ses belleğe sığmaz: ≤3 saatlik parçalar ayrı üretilip yumuşak geçişle birleşir
+        adet = int(np.ceil(toplam / (3 * 3600)))
+        gecis = 4.0
+        parca_sure = toplam / adet + gecis
+        yollar = []
+        for i in range(adet):
+            yol = gecici / f"_ses_{i}.m4a"
+            if not yol.exists():
+                ses_kur(klasor, yol, parca_sure, giris=4 if i == 0 else 0.01, cikis=8 if i == adet - 1 else 0.01, tohum_ek=i + 1)
+            yollar.append(yol)
+        filtre = "".join(f"[{'a' + str(i - 1) if i > 1 else '0'}][{i}]acrossfade=d={gecis}:c1=tri:c2=tri[a{i}];" for i in range(1, adet))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", *sum([["-i", str(y)] for y in yollar], []), "-filter_complex", filtre.rstrip(";"),
+                        "-map", f"[a{adet - 1}]", "-t", str(toplam), "-c:a", "aac", "-b:a", f"{SES_KBPS}k", str(gecici / "ses.m4a")], check=True)
+        for y in yollar:
+            y.unlink()
+    if karanlik:
+        gorunen = max(int(np.ceil(karanlik * 60 / DONGU)), 1)
+        (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (gorunen - 1) + "file 'kararma.mp4'\n"
+                                         + "file 'siyah.mp4'\n" * (tur - gorunen - 1))
+    else:
+        (gecici / "liste.txt").write_text("file 'acilis.mp4'\n" + "file 'dongu.mp4'\n" * (tur - 2) + "file 'kapanis.mp4'\n")
     if "--paket" in sys.argv:            # büyük (4K) videolar: parçalar gönderilir, kanal sahibi kendi bilgisayarında birleştirir
         ad = secenek("--paket", klasor.name)
         hedef = klasor / f"paket_{ad}"
