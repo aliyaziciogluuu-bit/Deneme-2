@@ -1,0 +1,146 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        730,
+        0,
+        1630,
+        583
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 301,
+      "y": 466,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 1480,
+      "y": 730,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1595,
+      "y": 655,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 317,
+      "y": 173,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 506,
+      "y": 188,
+      "sigma": 79,
+      "genlik": 0.1
+    },
+    {
+      "x": 1477,
+      "y": 891,
+      "sigma": 63,
+      "genlik": 0.1
+    },
+    {
+      "x": 1353,
+      "y": 694,
+      "sigma": 76,
+      "genlik": 0.1
+    },
+    {
+      "x": 608,
+      "y": 340,
+      "sigma": 57,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Snowy Forest Cabin",
+  "ates": {
+    "kutu": [
+      130,
+      313,
+      473,
+      597
+    ],
+    "ic": [
+      165,
+      357,
+      438,
+      575
+    ],
+    "taban": 566,
+    "tepe": 376,
+    "olcek": 0.86,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3",
+      "../sesler/ates_gece.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "03-christmas-cabin",
+    "karisik": true,
+    "kutu": [
+      -9,
+      213,
+      611,
+      696
+    ]
+  },
+  "shorts": {
+    "bas": 301,
+    "son": 1180,
+    "tur": 2,
+    "baslik": "Snowy Forest Cabin",
+    "alt": "Snowfall & Crackling Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1180,
+    "son": 301,
+    "tur": 2,
+    "baslik": "POV: a cabin by a frozen lake",
+    "alt": "the fire is already lit",
+    "ses_kazanc": 7.5
+  },
+  "buhar": {
+    "kutu": [
+      1200,
+      560,
+      1330,
+      705
+    ],
+    "genlik": 0.7
+  }
+}
