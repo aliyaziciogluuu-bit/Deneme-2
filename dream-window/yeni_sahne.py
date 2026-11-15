@@ -216,11 +216,15 @@ def taslak(g):
         ses = {}
         if g.yagis == "yagmur":
             shutil.copy(KOK / "06-rainy-cafe/ses_kaynak/yagmur.mp3", klasor / "ses_kaynak/yagmur.mp3")
-            ses.update(zemin="ses_kaynak/yagmur.mp3", zemin_bas=20, zemin_duzey=0.08)
+            ses.update(zemin="ses_kaynak/yagmur.mp3", zemin_bas=20, zemin_duzey=0.08,
+                       zemin_ek=["../sesler/yagmur_cam.mp3", "../sesler/yagmur_hafif.mp3"])   # ortak kütüphaneden farklı yağmurlar
         if "ates" in a:
             ayar["ates"] = a["ates"]
             shutil.copy(KOK / "05-snowy-library/ses_kaynak/ates.ogg", klasor / "ses_kaynak/ates.ogg")
-            ses.update(ates="ses_kaynak/ates.ogg", ates_katman=3, ates_duzey=0.18, ates_tavan=0.17, ates_govde=3.3, ates_denge=[0.9, 0.5])
+            import random                                              # her yeni sahneye kütüphaneden farklı bir ateş karışımı
+            havuz = ["../sesler/ates_somine_yumusak.mp3", "../sesler/ates_somine_gur.mp3", "../sesler/ates_gece.mp3", "ses_kaynak/ates.ogg"]
+            random.Random(klasor.name).shuffle(havuz)
+            ses.update(ates=havuz[:3], ates_katman=3, ates_duzey=0.18, ates_tavan=0.17, ates_govde=3.3, ates_denge=[0.9, 0.5])
         ayar["ses"] = ses
         if g.ates_klip and "ates" in a:                                 # mevcut gerçek ateş klibini yeni ocağa oturt (ücretsiz)
             kaynak = KOK / g.ates_klip
