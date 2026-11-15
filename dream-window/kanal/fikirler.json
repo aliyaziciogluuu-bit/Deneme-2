@@ -1,0 +1,10 @@
+[
+  {"klasor": "13-forest-cabin", "ad": "Snowy Forest Cabin", "yagis": "kar", "ates": "var", "noel": false, "ates_klip": "05-snowy-library",
+   "istem": "a small log cabin bedroom deep in a snowy pine forest, a large window on the right looking at tall snow-covered pines and a frozen lake, an open stone fireplace on the left, a bed with wool blankets"},
+  {"klasor": "14-new-year-loft", "ad": "New Year's Eve Loft", "yagis": "kar", "ates": "var", "noel": true, "ates_klip": "07-christmas-eve",
+   "istem": "a cozy city loft apartment on New Year's Eve, a tall arched window overlooking snowy old town rooftops with distant fireworks, an open brick fireplace on the left, a velvet armchair and champagne glasses"},
+  {"klasor": "15-rainy-bookshop", "ad": "Rainy Night Bookshop", "yagis": "yagmur", "ates": "var", "noel": false, "ates_klip": "06-rainy-cafe",
+   "istem": "an old bookshop at night, a big shop window on the right with rain streaming down and a wet cobblestone street with glowing street lamps outside, a small cast-iron wood stove with glass door on the left, shelves full of old books"},
+  {"klasor": "16-mountain-chalet", "ad": "Alpine Chalet", "yagis": "kar", "ates": "var", "noel": false, "ates_klip": "03-christmas-cabin",
+   "istem": "a wooden alpine chalet living room, a panoramic window showing snowy mountain peaks under a full moon, a stone fireplace on the right, sheepskin rugs and a reading chair"}
+]
