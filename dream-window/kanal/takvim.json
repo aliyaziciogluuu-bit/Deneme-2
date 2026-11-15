@@ -23,7 +23,8 @@
   },
   "2026-11-21": {
     "uzun": "06-rainy-cafe",
-    "planli_shorts": true
+    "planli_shorts": true,
+    "not": "Yağmurlu kafe Shorts'unun (18 Kasım) İlgili videosu olarak bugünkü kafe videosunu bağla (yayınlandıktan sonra)."
   },
   "2026-11-22": {
     "shorts": [
@@ -48,7 +49,8 @@
     "shorts": [
       "04-snowy-village",
       "shorts2"
-    ]
+    ],
+    "not": "Çatı katı Shorts'unun (19 Kasım) İlgili videosu olarak bugünkü çatı katı videosunu bağla."
   },
   "2026-11-26": {
     "shorts": [
@@ -75,16 +77,20 @@
     ]
   },
   "2026-12-01": {
-    "uzun": "07-christmas-eve"
+    "uzun": "07-christmas-eve",
+    "not": "Noel arifesi Shorts'larının (15 ve 28 Kasım) İlgili videosunu yeni Noel arifesi 3 saatlik videoyla değiştir."
   },
   "2026-12-05": {
-    "uzun": "10-japanese-garden"
+    "uzun": "10-japanese-garden",
+    "not": "Japon bahçesi Shorts'unun (20 Kasım) İlgili videosu olarak bugünkü videoyu bağla."
   },
   "2026-12-09": {
-    "uzun": "09-lighthouse"
+    "uzun": "09-lighthouse",
+    "not": "Deniz feneri Shorts'unun (21 Kasım) İlgili videosu olarak bugünkü videoyu bağla."
   },
   "2026-12-19": {
-    "uzun": "11-aurora-igloo"
+    "uzun": "11-aurora-igloo",
+    "not": "Kuzey ışıkları Shorts'larının (17 ve 29 Kasım) İlgili videosu olarak bugünkü iglo videosunu bağla."
   },
   "2026-12-23": {
     "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et."
