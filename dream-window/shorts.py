@@ -69,9 +69,9 @@ def main():
     assert ff.wait() == 0
 
     ses = klasor / f"_{anahtar}.m4a"
-    uret.ses_kur(klasor, ses, kare_sayisi / uret.FPS, giris=0.6, cikis=0.8)
+    uret.ses_kur(klasor, ses, kare_sayisi / uret.FPS, giris=0.6, cikis=0.8, hedef=-16.0)   # Shorts telefonda izlenir: bütün Shorts aynı ve biraz daha yüksek
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(gecici), "-i", str(ses), "-c:v", "copy",
-                    "-af", f"volume={a.get('ses_kazanc', 9)}dB,alimiter=limit=0.89:level=disabled", "-c:a", "aac", "-b:a", "192k",
+                    "-af", "alimiter=limit=0.89:level=disabled", "-c:a", "aac", "-b:a", "192k",
                     "-shortest", "-movflags", "+faststart", str(klasor / f"{anahtar}.mp4")], check=True)
     gecici.unlink()
     ses.unlink()

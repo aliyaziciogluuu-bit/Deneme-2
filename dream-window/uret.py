@@ -491,7 +491,30 @@ def uzat(kayit, n: int, rng, parca=(9, 24), gecis_sn=0.4) -> np.ndarray:
     return iz[:n]
 
 
-def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float = 4, cikis: float = 8):
+# ITU-R BS.1770 K-ağırlıklı ses yüksekliği (LUFS): kulağın algıladığı yüksekliği ölçer
+K_RAF = (np.array([1.53512485958697, -2.69169618940638, 1.19839281085285]), np.array([1.0, -1.69065929318241, 0.73248077421585]))
+K_GECIREN = (np.array([1.0, -2.0, 1.0]), np.array([1.0, -1.99004745483398, 0.99007225036621]))
+HEDEF_LUFS = -24.0                       # bütün uzun videolar aynı yükseklikte (uyku için rahat, YouTube'un -14 sınırının çok altında)
+
+
+def lufs(ses: np.ndarray) -> float:
+    """Tüm parça için kapılı (gated) bütünleşik ses yüksekliği; 3 saatlik seste bellek yetsin diye parça parça."""
+    sos = np.vstack([signal.tf2sos(*K_RAF), signal.tf2sos(*K_GECIREN)])
+    zi = np.zeros((sos.shape[0], 2, 2))
+    blok = int(0.4 * SR)
+    enerjiler = []
+    for i in range(0, len(ses) - blok, SR * 120):
+        p, zi = signal.sosfilt(sos, ses[i:i + SR * 120], axis=0, zi=zi)
+        m = len(p) // blok * blok
+        enerjiler.append((p[:m] ** 2).reshape(-1, blok, 2).mean(axis=1).sum(axis=1))
+    e = np.concatenate(enerjiler)
+    e = e[-0.691 + 10 * np.log10(e + 1e-12) > -70]                    # mutlak kapı
+    esik = -0.691 + 10 * np.log10(e.mean()) - 10                       # göreli kapı
+    e = e[-0.691 + 10 * np.log10(e) > esik]
+    return float(-0.691 + 10 * np.log10(e.mean()))
+
+
+def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float = 4, cikis: float = 8, hedef: float = None):
     """Sesi gerçek kayıtlardan kurar: isteğe bağlı bir zemin sesi (yağmur ya da rüzgâr) ve şömine çıtırtısı."""
     a = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))["ses"]
     n = int(sure * SR)
@@ -578,10 +601,17 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
             zemin[i:i + len(p), 0] += p * (sol + kay)
             zemin[i:i + len(p), 1] += p * (sag - kay)
         del iz
+    hedef = a.get("hedef_lufs", HEDEF_LUFS) if hedef is None else hedef
+    once = lufs(zemin)
+    kazanc = np.float32(10 ** ((hedef - once) / 20))                   # her video aynı yükseklikte duyulsun
     for i in range(0, n, SR * 120):      # tepe değerini sınırla; sıkıştırılmış seste taşma olmasın
-        zemin[i:i + SR * 120] = np.tanh(zemin[i:i + SR * 120] * 1.6) / 1.6
+        zemin[i:i + SR * 120] = np.tanh(zemin[i:i + SR * 120] * kazanc * 1.6) / 1.6
+    duzeltme = np.float32(10 ** ((hedef - lufs(zemin)) / 20))         # sınırlayıcının yuttuğu küçük farkı geri ver
+    for i in range(0, n, SR * 120):
+        zemin[i:i + SR * 120] *= duzeltme
+    print(f"ses yüksekliği: {once:.1f} → {hedef:.1f} LUFS", flush=True)
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-",
-                           "-af", f"afade=t=in:d={giris},afade=t=out:st={max(n / SR - cikis, 0)}:d={cikis}", "-c:a", "aac", "-b:a", f"{SES_KBPS}k", str(yol)], stdin=subprocess.PIPE)
+                           "-af", f"alimiter=limit=0.7:attack=2:release=80:level=disabled,afade=t=in:d={giris},afade=t=out:st={max(n / SR - cikis, 0)}:d={cikis}", "-c:a", "aac", "-b:a", f"{SES_KBPS}k", str(yol)], stdin=subprocess.PIPE)
     for i in range(0, n, SR * 30):
         ff.stdin.write(zemin[i:i + SR * 30].tobytes())
     ff.stdin.close()
