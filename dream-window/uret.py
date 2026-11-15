@@ -580,8 +580,11 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
 
 
     # şömine: kısa kayıttan birkaç bağımsız katman üst üste biner; ateş daha dolu ve sık çıtırtılı duyulur
-    ates = kayit_coz(klasor / a["ates"], 1)[:, 0] if a.get("ates") else np.zeros(SR * 30, np.float32)
-    ates = ates[int(0.5 * SR):len(ates) - int(0.5 * SR)]
+    # "ates" tek dosya ya da dosya listesi olabilir: birden fazla kayıt varsa uzat() parçaları hepsinden seçer (çıtırtı tekrar etmez)
+    ates_dosyalar = ([a["ates"]] if isinstance(a.get("ates"), str) else a.get("ates")) or []
+    ates = [kayit_coz(klasor / d, 1)[:, 0] for d in ates_dosyalar] or [np.zeros(SR * 30, np.float32)]
+    ates = [x[int(0.5 * SR):len(x) - int(0.5 * SR)] for x in ates]
+    ates = [x / (np.percentile(np.abs(x[::5]), 99.9) + 1e-6) for x in ates]     # kayıtlar arasında düzey farkı olmasın
     sol, sag = a.get("ates_denge", [1.0, 0.45])                  # şöminenin görüntüdeki yerine göre sol/sağ düzeyi
     kesim = a.get("ates_govde_kesim", 600)
     alcak = np.vstack([signal.butter(2, 70, "highpass", fs=SR, output="sos"), signal.butter(2, kesim, "lowpass", fs=SR, output="sos")])
