@@ -11,19 +11,35 @@ import pandas as pd
 from .config import PortfolioConfig
 
 
+TREND_GATES = ("none", "entry", "entry_exit")
+
+
 def select_holdings(scores: pd.DataFrame, current: list[str], cfg: PortfolioConfig) -> list[str]:
     """Bantlı seçim: eldeki hisse sırası ``hold_rank`` içindeyse kalır, boşalan yerlere en iyi
     sıradaki yeni hisseler alınır. Puan tablosunda olmayan (evrenden çıkan) hisseler bırakılır.
+
+    Teknik onay kapısı (``trend_gate``) açıksa puan tablosunun ``uptrend`` sütunu da aranır:
+    yeni alımlar yalnızca yükseliş eğilimindeki ve sırası bandın içindeki hisselerden yapılır;
+    ``entry_exit`` kipinde eğilimini yitiren eldeki hisse de bırakılır. Yeterli aday yoksa
+    liste kısa kalır (kalan pay nakittir).
     """
+    if cfg.trend_gate not in TREND_GATES:
+        raise ValueError(f"bilinmeyen teknik onay kapısı: {cfg.trend_gate}")
     if scores.empty:
         return []
     rank = scores["rank"]
-    keep = sorted((s for s in current if s in rank.index and rank[s] <= cfg.hold_rank), key=lambda s: rank[s])
-    keep = keep[: cfg.n_holdings]
+    gated = cfg.trend_gate != "none"
+    up = scores["uptrend"].fillna(False).astype(bool) if gated else None
+    keep = [s for s in current if s in rank.index and rank[s] <= cfg.hold_rank]
+    if cfg.trend_gate == "entry_exit":
+        keep = [s for s in keep if up[s]]
+    keep = sorted(keep, key=lambda s: rank[s])[: cfg.n_holdings]
     kept = set(keep)
     slots = cfg.n_holdings - len(keep)
-    newcomers = [s for s in rank.sort_values().index if s not in kept][: max(slots, 0)]
-    return keep + newcomers
+    candidates = [s for s in rank.sort_values().index if s not in kept]
+    if gated:
+        candidates = [s for s in candidates if up[s] and rank[s] <= cfg.hold_rank]
+    return keep + candidates[: max(slots, 0)]
 
 
 def target_weights(holdings: list[str], exposure: float, cfg: PortfolioConfig) -> pd.Series:

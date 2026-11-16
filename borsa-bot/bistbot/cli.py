@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import datetime as dt
 import json
 import logging
@@ -17,13 +18,14 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from .config import load_config
+from .config import Config, load_config
 from .pipeline import default_cache_dir, load_panel, open_stores, prepare_dataset, sync_isy
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = ROOT / "ayar.toml"
 DEFAULT_STATE = ROOT / "state" / "bot.json"
 DEFAULT_WEB_DATA = ROOT / "web" / "data"
+DEFAULT_EXEC_CONFIG = ROOT / "emir-ayar.toml"
 BACKTEST_START = dt.date(2015, 11, 30)
 
 log = logging.getLogger("bistbot")
@@ -142,12 +144,16 @@ def cmd_backtest(args) -> int:
     from .research import full_report
 
     cfg = load_config(args.ayar)
+    # Rapor her zaman ön kayıtlı (birincil) stratejiyi esas alır; ``ayar.toml`` strateji
+    # ayarlarını değiştiriyorsa (ör. hibrit mod) o ayar "canlı" başlığıyla ayrıca raporlanır.
+    base = Config(cost=cfg.cost, capital=cfg.capital)
+    live = cfg if cfg != base else None
     stores = open_stores(args.onbellek)
     today = _istanbul_today()
     panel = load_panel(stores, BACKTEST_START, today)
     ever = sorted(panel.bist100.columns[panel.bist100.any().to_numpy()])
     ds = prepare_dataset(stores, panel, ever)
-    report = full_report(ds, cfg, args.baslangic, n_random=args.rastgele, n_boot=args.bootstrap)
+    report = full_report(ds, base, args.baslangic, n_random=args.rastgele, n_boot=args.bootstrap, live=live)
     series = report.pop("_series")
     report.pop("_primary")
     weekly = pd.DataFrame(series).resample("W-FRI").last().dropna(how="all")
@@ -201,6 +207,41 @@ def cmd_doktor(args) -> int:
     return 0 if ok else 1
 
 
+def cmd_emir(args) -> int:
+    """Emir fişini aracı kuruma iletir (Matriks IQ'nun açık olduğu bilgisayarda çalışır)."""
+    from .exec import app
+    from .exec.settings import MODES, SettingsError, load_settings
+
+    try:
+        settings = load_settings(args.emir_ayar)
+    except SettingsError as exc:
+        print(f"Ayar hatası ({args.emir_ayar}): {exc}")
+        return 2
+    if args.mod:
+        # Komut satırından yalnızca daha güvenli bir kipe geçilebilir; gerçek kip ayar dosyasında açılır.
+        if MODES.index(args.mod) > MODES.index(settings.mod):
+            print("Gerçek emir kipi komut satırından açılamaz; emir-ayar.toml içinde mod = \"gercek\" yazın.")
+            return 2
+        settings = dataclasses.replace(settings, mod=args.mod)
+    if args.fis:
+        settings = dataclasses.replace(settings, fis=args.fis)
+    base = Path(args.emir_ayar).resolve().parent
+    if args.hesap:
+        return app.cmd_account(settings)
+    if args.yon_testi:
+        if args.fiyat is None:
+            print("--yon-testi ile birlikte --fiyat (hissenin şu anki fiyatı) verilmelidir")
+            return 2
+        return app.cmd_side_test(settings, args.yon_testi, args.fiyat)
+    if args.iptal:
+        return app.cmd_cancel(settings)
+    if args.durum:
+        return app.cmd_status(settings)
+    result = app.cmd_run(settings, base)
+    print(result.message or result.status)
+    return 0 if result.ok else 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="bistbot", description="Borsa İstanbul için kurallı al-sat botu (kâğıt portföy + emir listesi).")
     parser.add_argument("--onbellek", type=Path, default=default_cache_dir(), help="veri önbelleği klasörü")
@@ -231,12 +272,34 @@ def build_parser() -> argparse.ArgumentParser:
     b.add_argument("--cikti", type=Path, default=DEFAULT_WEB_DATA / "backtest.json")
     b.set_defaults(func=cmd_backtest)
 
+    e = sub.add_parser("emir", help="emir fişini Matriks IQ üzerinden aracı kuruma ilet (Telegram onayıyla)")
+    e.add_argument("--emir-ayar", type=Path, default=DEFAULT_EXEC_CONFIG, help="emir ayar dosyası (TOML)")
+    e.add_argument("--fis", help="emir fişinin adresi ya da dosya yolu (ayarı geçersiz kılar)")
+    e.add_argument("--mod", choices=("deneme", "salt-okunur"), help="bu çalıştırma için daha güvenli bir kip")
+    what = e.add_mutually_exclusive_group()
+    what.add_argument("--hesap", action="store_true", help="Matriks IQ'daki hesap ve pozisyonları göster (yalnızca okur)")
+    what.add_argument("--yon-testi", metavar="SEMBOL", help="1 lotluk test emriyle alış/satış kodlarını doğrula")
+    what.add_argument("--iptal", action="store_true", help="botun bugün gönderdiği bekleyen emirleri iptal et")
+    what.add_argument("--durum", action="store_true", help="bugünkü emir günlüğünü göster")
+    e.add_argument("--fiyat", type=float, help="--yon-testi için hissenin şu anki fiyatı")
+    e.set_defaults(func=cmd_emir)
+
     k = sub.add_parser("doktor", help="veri kaynaklarına erişimi sına")
     k.set_defaults(func=cmd_doktor)
     return parser
 
 
+def _safe_console() -> None:
+    """Windows konsolu Türkçe harfleri ya da simgeleri yazamıyorsa program durmasın (ör. cp857)."""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(errors="replace")
+        except (AttributeError, ValueError):
+            pass
+
+
 def main(argv: list[str] | None = None) -> int:
+    _safe_console()
     args = build_parser().parse_args(argv)
     logging.basicConfig(
         level=logging.DEBUG if args.ayrintili else logging.INFO,

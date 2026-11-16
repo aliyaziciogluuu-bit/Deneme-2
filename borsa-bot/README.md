@@ -4,26 +4,36 @@ Borsa İstanbul için kurallı bir al-sat botu. Her işlem günü kapanıştan s
 BIST 100 hisselerini puanlar, bir **kâğıt portföy** tutar ve ertesi sabah vermeniz gereken
 **emir listesini** (hisse, lot, limit fiyat) hazırlayıp Telegram'a ve panele yazar.
 
-> **Önemli.** Bot gerçek hesabınıza emir **göndermez**; emirleri aracı kurumunuzun uygulamasından siz
-> girersiniz. Buradaki hiçbir şey yatırım tavsiyesi değildir. Geçmiş performans geleceği garanti etmez;
-> kaybetmeyi göze alamayacağınız parayla işlem yapmayın.
+> **Önemli.** Varsayılan kullanımda bot gerçek hesabınıza emir **göndermez**; emirleri aracı kurumunuzun
+> uygulamasından siz girersiniz. İsterseniz, Windows'ta Matriks IQ açıkken emirleri bot gönderir; ama yalnızca
+> Telegram'dan o listeye özel kodu yazarak onay verdikten sonra (bkz. [Gerçek emir](#gerçek-emir-matriks-iq-ile-telegram-onayıyla)).
+> Buradaki hiçbir şey yatırım tavsiyesi değildir. Geçmiş performans geleceği garanti etmez; kaybetmeyi göze
+> alamayacağınız parayla işlem yapmayın.
 
 ## Ne yapar?
 
 - **Evren:** O günkü resmî BIST 100 üyeleri (brüt takasta, tek fiyatta veya işlemi durdurulmuş olanlar ile
   bir yıldan kısa geçmişi olanlar hariç).
-- **Puanlama (dört sütun, eşit ağırlık):**
-  - *Değer* — özkaynağa ve kâra göre ucuzluk (düşük PD/DD, düşük F/K),
-  - *Kârlılık* — özkaynak kârlılığı,
-  - *Düşük risk* — az oynak, düşük betalı, "piyango" gibi davranmayan hisseler,
-  - *Momentum* — son 12 ayın getirisi (son ay hariç).
+- **Puanlama (hibrit: temel + teknik analiz, sütunlar eşit ağırlıklı):**
+  - **Temel analiz katmanı**
+    - *Değer* — özkaynağa ve kâra göre ucuzluk (düşük PD/DD, düşük F/K),
+    - *Kârlılık* — özkaynak kârlılığı.
+  - **Teknik analiz katmanı**
+    - *Momentum* — son 12 ayın getirisi (son ay hariç),
+    - *Düşük risk* — az oynak, düşük betalı, "piyango" gibi davranmayan hisseler,
+    - *Teknik sütun* (hibrit modda açık) — fiyatın 200 günlük ortalamaya uzaklığı, 50/200 günlük ortalama
+      oranı ve 52 haftalık zirveye yakınlık.
 - **Portföy:** En iyi 20 hisse, eşit ağırlık. Ayda bir (ayın ilk işlem günü) gözden geçirilir; eldeki bir
   hisse sıralamada 40'ın altına düşmedikçe satılmaz (gereksiz al-satı önler).
 - **İşlem:** Karar akşam verilir, emirler **ertesi sabah açılış seansında** limitli girilir.
 
-Bu sütunlar, Borsa İstanbul üzerine yayımlanmış akademik çalışmalarda öne çıkan etkenlerdir. Hareketli
-ortalama, RSI, MACD gibi göstergelere dayalı kurallar bilerek kullanılmadı: BIST üzerindeki çalışmalarda
-al-tut stratejisini geçemedikleri görülüyor.
+İlk dört sütun, Borsa İstanbul üzerine yayımlanmış akademik çalışmalarda öne çıkan etkenlerdir ve "temel
+strateji"yi oluşturur. Teknik sütun sonradan eklendi; ayrıntısı ve dürüst test sonucu
+[Hibrit mod](#hibrit-mod-teknik--temel-analiz) başlığındadır. Eğilim ölçüleri **nakde (gecelik faize) göre**
+fiyattan hesaplanır: yüksek enflasyonda TL fiyatların neredeyse hepsi 200 günlük ortalamasının üstündedir;
+"yükseliş" ancak hisse faizden fazla kazandırıyorsa anlamlıdır. RSI ve MACD panelde **bilgi olarak**
+gösterilir ama puana katılmaz: tek başına al-sat kuralı olarak BIST'te al-tut stratejisini geçemedikleri
+görülüyor ve hisse seçiminde işe yaradıklarına dair sağlam kanıt yok.
 
 ## Geçmiş testi (dürüst hâliyle)
 
@@ -56,7 +66,8 @@ dahil; yani "bugünün kazananlarını geçmişe taşıma" hatası yok).
 | 2025 | +15% | +16% | +15% | **+55%** |
 | 2026 (13 Kasım'a kadar) | −9% | −14% | +5% | **+40%** |
 
-**Bu sonuçlar ne kadar güvenilir? Kısaca: umut verici, ama kanıtlanmış değil.**
+**Bu sonuçlar ne kadar güvenilir? Kısaca: umut verici, ama kanıtlanmış değil.** (Aşağıdaki rakamlar ön
+kayıtlı temel strateji içindir; hibrit modun rakamları ayrı başlıktadır.)
 
 - Strateji BIST 100 endeksini yılda yaklaşık 10 puan geçti; ancak bunun yaklaşık 4 puanı seçimden değil,
   hisseleri **eşit ağırlıkla** tutmaktan geliyor (havuz sepeti de endeksi geçiyor).
@@ -64,9 +75,10 @@ dahil; yani "bugünün kazananlarını geçmişe taşıma" hatası yok).
   alfa t-istatistiği 1,7 (2'nin altı), bootstrap %90 güven aralığı yılda **−0,9 ile +9,4 puan** arası
   (sıfırı içeriyor), sepeti geçme olasılığı %91.
 - Aynı havuzdan rastgele seçilip aynı kurallarla tutulan 200 portföyün **%89'unu** geçti (hepsini değil).
-- 27 farklı ayarla denendi (hisse sayısı, sıklık, sütunların tek tek çıkarılması vb.). Rejim filtresi
-  dışındaki 23 ayarın 22'si kendi havuz sepetini geçti (biri, yalnız kârlılık sütunu, sepetle aynı kaldı). Kullanılan ayar bu denemelerin en iyisi değil
-  (Sharpe'a göre 16.), önceden sabitlenen ayardır; en iyi görüneni seçmek veriye uydurma olurdu.
+- 31 farklı ayarla denendi (hisse sayısı, sıklık, sütunların tek tek çıkarılması, rejim filtresi, dört hibrit
+  biçim). Rejim filtresi ve hibritler dışındaki 23 ayarın 22'si kendi havuz sepetini geçti (biri, yalnız
+  kârlılık sütunu, sepetle aynı kaldı). Temel strateji bu denemelerin en iyisi değil (Sharpe'a göre 20.),
+  önceden sabitlenen ayardır; en iyi görüneni seçmek veriye uydurma olurdu.
 - Masraflar iki katına çıkınca yıllık getiri %41,8'den %41,1'e iniyor; emirler bir gün geç girilirse değişmiyor.
 
 **Zayıf yanlar — bunları bilerek kullanın:**
@@ -81,8 +93,8 @@ dahil; yani "bugünün kazananlarını geçmişe taşıma" hatası yok).
   olağandır. Bu botu "piyasayı kesin yener" diye değil, "BIST 100 içinde disiplinli, dağıtılmış, kurallı
   bir portföy yöneticisi" diye değerlendirin.
 
-Ayrıntılı rapor (27 denemenin tamamı, varsayım duyarlılıkları, grafikler) panelin **Geçmiş testi**
-sekmesindedir.
+Ayrıntılı rapor (31 denemenin tamamı, hibrit karşılaştırması, varsayım duyarlılıkları, grafikler) panelin
+**Geçmiş testi** sekmesindedir.
 
 **Bağımsız inceleme ve düzeltmeler.** İlk geçmiş testi üç bağımsız incelemeden geçirildi ve sonuçları
 olduğundan iyi gösteren hatalar bulundu; hepsi düzeltildi ve test yeniden çalıştırıldı:
@@ -92,6 +104,41 @@ değerlendiriliyor; (2) kıyas sepeti, borsanın Şubat 2023'te yeniden açıld�
 (3) kıyas her gün yeniden dengeleniyordu, oysa adil kıyas stratejiyle aynı takvimi kullanan sepettir;
 (4) rastgele portföy testi rastgele portföylere fazladan masraf yüklüyordu. Bu düzeltmelerden önce seçim
 katkısı "+9,7 puan, t = 2,3" görünüyordu; doğrusu yukarıdaki "+6 puan, t = 1,7"dir.
+
+### Hibrit mod (teknik + temel analiz)
+
+Hibrit mod, yukarıdaki dört sütuna bir **teknik sütun** ekler (`ayar.toml` içinde `w_technical = 1.0`;
+depoda açık gelir). Dört hibrit biçim, sonuçlar görülmeden **önce** beyan edildi ve geçme ölçütleri önceden
+yazıldı: (1) tam dönemde hem getiri hem Sharpe temel stratejiden yüksek, (2) üç alt dönemin en az ikisinde
+daha iyi, (3) masraflar iki katına çıkınca da Sharpe daha yüksek.
+
+| Biçim | Yıllık getiri | Sharpe | En büyük düşüş | 2017-19 | 2020-22 | 2023-26 | Nakde faiz yokken | Ölçütler |
+|---|---:|---:|---:|---:|---:|---:|---:|:---:|
+| Temel strateji (4 sütun) | %41,8 | 0,57 | −%32 | %25 | %96 | %21 | %41,4 | – |
+| **Teknik sütun (kullanılan hibrit)** | **%46,3** | **0,69** | −%35 | %27 | %99 | %28 | %45,6 | ✓ ✓ ✓ |
+| Onay kapısı, yalnız alımda | %42,5 | 0,58 | −%35 | %24 | %95 | %24 | %41,7 | ✓ ✗ ✓ |
+| Onay kapısı, alım + çıkış (ön kayıtlı aday) | %47,4 | 0,77 | −%33 | %22 | %89 | %41 | %39,7 | ✓ ✗ ✓ |
+| Teknik sütun + onay kapısı | %52,1 | 0,88 | −%32 | %25 | %99 | %43 | %46,4 | ✓ ✓ ✓ |
+
+**Dürüst okuma:**
+
+- Önceden "aday" ilan ettiğim biçim **onay kapısıydı** (hisse ancak yükseliş eğilimindeyse alınır, eğilim
+  bozulunca satılır, uygun hisse yoksa para nakitte bekler). Toplamda iyi görünse de **kendi koyduğum ikinci
+  ölçütü geçemedi**: kazancının neredeyse tamamı 2023-2026'dan (faizin hisseleri geçtiği dönemden) geliyor,
+  diğer iki dönemde temel stratejinin gerisinde ve nakdiniz faiz kazanmıyorsa zarar ettiriyor (%39,7 < %41,4).
+  Bu yüzden varsayılan değil; `ayar.toml` içinde isteğe bağlı bir seçenek olarak duruyor.
+- **Teknik sütun** üç ölçütü de geçti: üç alt dönemin üçünde de daha iyi, masraf iki katına çıkınca da daha
+  iyi ve nakit faizine bağlı değil. Hibrit mod olarak bu kullanılıyor. Alfa t-istatistiği 2,4, sönümlenmiş
+  Sharpe (DSR, 31 deneme sayılarak) %91.
+- **Ama** teknik sütun, dört hibrit biçim denendikten **sonra** seçildi; yani burada şans payı var. En iyi
+  görünen biçimi ("teknik sütun + kapı", %52) bilerek seçmedim: en parlak sonucu almak veriye uydurmanın ta
+  kendisidir. Gerçek sonuçların bu tablodan düşük çıkması olağandır.
+- En büyük düşüş iyileşmiyor (−%35); hibrit mod da hep hissededir ve 2024-2026'da gecelik faizin gerisinde
+  kaldı (2024 +%33, 2025 +%15, 2026 +%6; aynı yıllarda faiz +%64, +%55, +%40).
+
+Hibrit modu kapatmak için `ayar.toml` içinde `w_technical = 0` yazın (temel stratejiye döner). Onay kapısını
+denemek için aynı dosyadaki `trend_gate = "entry_exit"` satırını açın. Bu ayarlar yalnızca sonraki kararları
+etkiler; geçmiş kâğıt işlemler değişmez.
 
 ### İsteğe bağlı "temkinli mod"
 
@@ -157,12 +204,70 @@ Bot bundan sonra her işlem günü İstanbul saatiyle 19:17'de (yedekleri 20:47,
 **Vergi notu (2026 itibarıyla, bilgi amaçlı):** BIST hisselerinin alım-satım kazancında stopaj %0'dır;
 nakit temettüde %15 stopaj kesilir (geçmiş testte düşülmüştür). Kendi durumunuz için mali müşavirinize danışın.
 
-## Neden gerçek emir göndermiyor?
+## Gerçek emir (Matriks IQ ile, Telegram onayıyla)
 
-Türkiye'de bireysel yatırımcıya açık, ücretsiz ve güvenilir bir emir API'si şu an yok: en yaygın olanı
-(Deniz Yatırım AlgoLab) 31.12.2025'te kapatıldı; kalan seçenekler SMS onayı, ücretli masaüstü programı veya
-sık değişen sunucu adresleri gerektiriyor. Bu yüzden bot, her aracı kurumda çalışan en sağlam yolu izler:
-**emir listesi + sizin onayınız.** Ayda bir kaç emir girmek birkaç dakikanızı alır.
+Bot, emir listesini aracı kurumunuza kendisi de gönderebilir. Bunun için **Windows bilgisayarda Matriks IQ
+masaüstü programı** gerekir: program açıkken aynı bilgisayarda bir "Dışarıdan Emir Kabulü" kapısı açar
+(`127.0.0.1:18890`) ve bot emirleri bu kapıdan iletir. **Telefondaki Matriks Mobil IQ uygulaması bu kapıyı
+açmaz;** yalnızca telefonunuz varsa emirleri listeden elle girmeye devam edersiniz. Onay, rapor ve panel
+her durumda telefondan kullanılır.
+
+**Nasıl çalışır?**
+
+1. Bulut tarafı her akşam emir listesini (fişi) üretir (`web/data/latest.json`).
+2. Emir günü sabahı bilgisayarınızdaki bot fişi okur ve güvenlik kontrollerinden geçirir: fiş bugünün seansı
+   için mi, tek emir ve günlük toplam sınırlarının içinde mi, fiyatlar son kapanışa yakın mı, satılacak lot
+   hesabınızda var mı (elinizde olandan fazlası asla satılmaz). Bir ihlal varsa **hiçbir emir gitmez**.
+3. Telegram'a emir listesi ve dört haneli bir **kod** gelir. Kodu yazarsanız emirler gönderilir; `RED`
+   yazarsanız ya da 17:30'a kadar yanıt vermezseniz gönderilmez. Kod o listeye özeldir ve yalnızca sizin
+   Telegram hesabınızdan kabul edilir.
+4. Emirler limitli ve günlük olarak, önce satışlar sonra alışlar gönderilir: 09:40-09:55 arasındaysa açılış
+   seansına, daha geç onaylarsanız sürekli işleme. Parası yetmediği için reddedilen alışlar, satışlar
+   gerçekleşince bir kez daha denenir.
+5. Sonuç (gerçekleşen, bekleyen, reddedilen) Telegram'a yazılır. Gönderim sırasında `DUR` yazarsanız sıradaki
+   emirler durur; `bistbot emir --iptal` bekleyen emirleri iptal eder.
+
+**Kurulum (Windows):**
+
+1. [Python 3.11+](https://www.python.org/downloads/) kurun ("Add to PATH" işaretli olsun) ve bu depoyu
+   bilgisayara indirin (`git clone` ya da ZIP).
+2. `borsa-bot\windows\kur.bat` dosyasını çalıştırın; `emir-ayar.toml` oluşur. İçine Telegram bot anahtarınızı
+   ve sohbet numaranızı yazın (bu dosya depoya gönderilmez).
+3. Matriks IQ'da aracı kurumunuza giriş yapın. **Dışarıdan Emir Kabulü** ayrı bir lisansla çalışır: Matriks'in
+   belgesine göre kapı ancak "ilgili lisans aktif edildiğinde" açılır; lisans için Matriks'e (ya da aracı
+   kurumunuza) başvurun. Belge: "MatriksIQ Dışarıdan Emir Kabulü API Dokümanı" (matriksdata.com).
+4. Bağlantıyı sınayın (yalnızca okur). Komut satırında `borsa-bot` klasöründe:
+   `.venv\Scripts\activate` ve ardından `python -m bistbot emir --hesap`. Hesaplarınız, pozisyonlarınız ve
+   bakiye satırları listelenir; gerekiyorsa `emir-ayar.toml` içindeki `[matriks]` ayarlarını buna göre doldurun.
+5. Birkaç gün **deneme** kipinde bırakın (`mod = "deneme"` ya da `"salt-okunur"`): onay mesajı gelir, siz
+   onaylarsınız, ama emir gönderilmez.
+6. **Yön testi** (zorunlu, seans içinde): `python -m bistbot emir --yon-testi SEMBOL --fiyat FİYAT`. Elinizde
+   olmayan bir hisse için piyasanın %5 altında **1 lotluk** alış emri gönderilir, size Matriks IQ'da "ALIŞ"
+   olarak görünüp görünmediği sorulur ve emir iptal edilir. Bu test geçmeden gerçek kip açılmaz.
+7. `emir-ayar.toml` içinde `mod = "gercek"` yapın ve `windows\gorev-kur.bat` ile hafta içi her sabah 09:25'e
+   görev ekleyin. O saatte bilgisayar açık, Matriks IQ çalışıyor ve aracı kurum girişi yapılmış olmalıdır.
+
+**Bilmeniz gerekenler (dürüstçe):**
+
+- Bu bölüm **gerçek Matriks IQ programıyla denenemedi** (program Windows'ta, lisansla ve aracı kurum
+  girişiyle çalışır; geliştirme ortamında yoktu). Protokol, Matriks'in resmî API belgesinden (sürüm 1.6) ve
+  kendi yayımladığı örnek istemcilerden (github.com/MatriksIQ) çıkarıldı; belgedeki örnek iletileri taklit
+  eden sahte bir sunucuya karşı test edildi. İlk kullanımda küçük sorunlar çıkması beklenir; o yüzden sıra
+  şudur: `--hesap` → deneme kipi → yön testi → küçük sınırlarla gerçek kip.
+- Belgeye göre yeni emirde **alış 1, satış 2**'dir (Matriks'in örnek kodunda 2022'ye kadar 0/1 idi). Yanlış
+  kod, alış yerine satış demektir; **yön testi** bunu kendi hesabınızda, 1 lotla doğrulamak içindir. Ayrıca
+  her emrin yanıtındaki yön, testte görülen değerle karşılaştırılır; uyuşmazsa emir iptal edilir ve gönderim
+  durur. (Matriks IQ yanıtlarda yön alanını doldurmuyorsa bu denetim satışlarda yanlış alarm verebilir; o
+  zaman Telegram'daki uyarıda yazdığı gibi `yon_yanit_denetimi = false` yapılır.)
+- Bot her emri göndermeden **önce** günlüğe yazar ve aynı emri ikinci kez göndermez. Bir emrin yanıtı
+  alınamazsa ("belirsiz") gönderim durur ve bot o emri kendiliğinden yeniden göndermez; Matriks IQ'dan
+  kontrol etmeniz istenir.
+- Resmî tatilleri bot tam bilemez (dinî bayramları `emir-ayar.toml` içindeki `tatiller` listesine yazın);
+  tatil ya da yarım gün ise onay mesajına `RED` yazın.
+- Gerçek gerçekleşme fiyatları ve miktarları kâğıt portföyden farklı olabilir (kâğıt portföy açılış fiyatını
+  varsayar). Onay mesajı, kâğıt portföy ile hesabınız arasındaki lot farklarını gösterir.
+- Sınırlar (`[sinirlar]`) 100.000 TL'lik portföye göre ayarlıdır; sermayeniz farklıysa güncelleyin.
+- Otomatik emir, hatalı çalıştığında gerçek para kaybettirebilir. Küçük tutarla başlayın.
 
 ## Veri kaynakları
 
@@ -202,11 +307,12 @@ sık değişen sunucu adresleri gerektiriyor. Bu yüzden bot, her aracı kurumda
 ```bash
 cd borsa-bot
 pip install -r requirements-dev.txt
-python -m pytest                      # 96 test, ağ erişimi gerektirmez
+python -m pytest                      # ağ erişimi gerektirmez (emir katmanı sahte Matriks sunucusuyla sınanır)
 python -m bistbot doktor              # veri kaynaklarına erişim testi
 python -m bistbot gunluk --deneme     # bugünün sinyalleri; hiçbir şey kaydetmez
 python -m bistbot veri                # 2015'ten bugüne veriyi indir (≈1 saat)
 python -m bistbot backtest            # geçmiş testi + sağlamlık raporu → web/data/backtest.json
+python -m bistbot emir --mod deneme   # günün fişini deneme kipinde işle (emir göndermez)
 ```
 
 | Modül | Görev |
@@ -216,11 +322,13 @@ python -m bistbot backtest            # geçmiş testi + sağlamlık raporu → 
 | `bistbot/data/adjust.py` | Düzeltme katsayıları ve eksik sermaye olaylarının onarımı |
 | `bistbot/data/isyatirim.py`, `isystore.py`, `macro.py` | İş Yatırım ve TLREF verileri, önbellek |
 | `bistbot/data/dataset.py` | Hepsini tek veri nesnesinde birleştirir; mali tablolar gecikmeli devreye girer |
-| `bistbot/signals.py` | Evren filtresi, özellikler, bileşik puan |
-| `bistbot/portfolio.py` | Seçim bandı, ağırlıklar, takvim, rejim filtresi |
+| `bistbot/signals.py` | Evren filtresi, özellikler, temel/teknik sütunlar, bileşik puan |
+| `bistbot/technical.py` | Teknik göstergeler: eğilim (nakde göre), RSI, MACD, ATR |
+| `bistbot/portfolio.py` | Seçim bandı, teknik onay kapısı, ağırlıklar, takvim, rejim filtresi |
 | `bistbot/backtest/` | Motor, ölçüler, aşırı uyum istatistikleri, kıyaslar |
 | `bistbot/research.py` | Ön kayıtlı deneme seti ve sağlamlık raporu |
 | `bistbot/live/` | Günlük çalıştırıcı, durum dosyası, bildirim |
+| `bistbot/exec/` | Gerçek emir katmanı: fiş doğrulama, sınırlar, Telegram onayı, Matriks IQ bağlantısı, emir günlüğü |
 | `web/` | Panel (tek sayfa, bağımlılıksız) |
 
 **İleriye bakma (look-ahead) güvenceleri:** kararlar `t` günü kapanış verisiyle verilir, işlemler `t+1`

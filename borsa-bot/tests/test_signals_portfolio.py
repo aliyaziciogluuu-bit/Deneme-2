@@ -160,3 +160,105 @@ def test_config_overrides_and_validation(tmp_path):
     with pytest.raises(ValueError):
         load_config(f)
     assert load_config(tmp_path / "yok.toml") == Config()
+
+
+# ------------------------------------------------------------------ hibrit: teknik sütun ve onay kapısı
+def _scored(cfg=None, n_days=420, seed=1):
+    cfg = cfg or Config()
+    ds = make_dataset(n_days=n_days, seed=seed)
+    feats = compute_features(ds, cfg.signal)
+    universe = universe_mask(ds, feats, cfg.universe)
+    day = ds.dates[-1]
+    return ds, feats, universe, day, score_date(ds, feats, universe.loc[day], day, cfg.signal)
+
+
+def test_default_score_ignores_the_technical_pillar():
+    """Teknik sütun kapalıyken (varsayılan) bileşik puan dört sütunun ortalamasıdır."""
+    _, _, _, _, table = _scored()
+    four = table[["value", "quality", "lowrisk", "momentum"]].mean(axis=1)
+    pd.testing.assert_series_equal(table["score"], four, check_names=False)
+    assert table["technical"].notna().all() and table["uptrend"].dtype == bool
+    pd.testing.assert_series_equal(table["fundamental"], table[["value", "quality"]].mean(axis=1), check_names=False)
+    pd.testing.assert_series_equal(table["tech"], table[["lowrisk", "momentum"]].mean(axis=1), check_names=False)
+
+
+def test_technical_pillar_changes_the_score_only_when_enabled():
+    base = Config()
+    hybrid = base.with_overrides(signal={"w_technical": 1.0})
+    ds, feats, universe, day, plain = _scored(base)
+    table = score_date(ds, feats, universe.loc[day], day, hybrid.signal)
+    five = table[["value", "quality", "lowrisk", "momentum", "technical"]].mean(axis=1)
+    pd.testing.assert_series_equal(table["score"], five, check_names=False)
+    pd.testing.assert_series_equal(table["tech"], table[["lowrisk", "momentum", "technical"]].mean(axis=1), check_names=False)
+    # Sütunların kendisi ağırlıktan bağımsızdır.
+    pd.testing.assert_series_equal(table["technical"].sort_index(), plain["technical"].sort_index())
+    # Teknik sütun = üç eğilim ölçüsünün evren içi sıralarının ortalaması.
+    members = list(table.index)
+    parts = [_pct_rank(getattr(feats, name).loc[day, members].astype(float)) for name in ("trend", "ma_cross", "high_52w")]
+    pd.testing.assert_series_equal(table["technical"], pd.concat(parts, axis=1).mean(axis=1).loc[members], check_names=False)
+    assert (table["uptrend"] == (feats.trend.loc[day, members] > 0)).all()
+
+
+def test_hybrid_scores_have_no_lookahead():
+    cfg = Config().with_overrides(signal={"w_technical": 1.0})
+    ds = make_dataset(n_days=420)
+    feats = compute_features(ds, cfg.signal)
+    universe = universe_mask(ds, feats, cfg.universe)
+    day = ds.dates[380]
+    full = score_date(ds, feats, universe.loc[day], day, cfg.signal)
+    cut = ds.as_of(day)
+    cut_feats = compute_features(cut, cfg.signal)
+    cut_universe = universe_mask(cut, cut_feats, cfg.universe)
+    pd.testing.assert_frame_equal(full, score_date(cut, cut_feats, cut_universe.loc[day], day, cfg.signal))
+
+
+def _table(ranks: dict[str, int], up: set[str]) -> pd.DataFrame:
+    return pd.DataFrame({"rank": pd.Series(ranks), "uptrend": pd.Series({s: s in up for s in ranks})}).sort_values("rank")
+
+
+def test_trend_gate_entry_blocks_new_buys_but_keeps_holdings():
+    cfg = PortfolioConfig(n_holdings=3, hold_rank=5, trend_gate="entry")
+    ranks = {"A": 1, "B": 2, "C": 3, "D": 4, "E": 5, "F": 6}
+    table = _table(ranks, up={"B", "D", "F"})
+    # Boş portföy: yalnızca yükseliş eğilimindeki ve bandın (ilk 5) içindeki hisseler alınır; F sıra dışı.
+    assert select_holdings(table, [], cfg) == ["B", "D"]
+    # Eldeki A eğilimde değil ama "entry" kipinde satılmaz.
+    assert select_holdings(table, ["A"], cfg) == ["A", "B", "D"]
+    # Kapı kapalıyken eski davranış: en iyi sıradakiler.
+    assert select_holdings(table, [], PortfolioConfig(n_holdings=3, hold_rank=5)) == ["A", "B", "C"]
+
+
+def test_trend_gate_entry_exit_drops_holdings_that_lost_trend():
+    cfg = PortfolioConfig(n_holdings=3, hold_rank=5, trend_gate="entry_exit")
+    table = _table({"A": 1, "B": 2, "C": 3, "D": 4, "E": 5, "F": 6}, up={"B", "D"})
+    assert select_holdings(table, ["A", "B"], cfg) == ["B", "D"]  # A çıkar, uygun aday yetmediği için bir pay nakit
+    assert target_weights(["B", "D"], 1.0, cfg).sum() == pytest.approx(2 / 3)
+    assert select_holdings(_table({"A": 1, "B": 2}, up=set()), ["A"], cfg) == []  # hiçbiri eğilimde değil: tümü nakit
+
+
+def test_trend_gate_requires_uptrend_column_and_valid_name():
+    table = pd.DataFrame({"rank": pd.Series({"A": 1, "B": 2})})
+    with pytest.raises(KeyError):
+        select_holdings(table, [], PortfolioConfig(trend_gate="entry"))
+    with pytest.raises(ValueError):
+        select_holdings(table, [], PortfolioConfig(trend_gate="acik"))
+
+
+def test_gate_backtest_holds_cash_when_few_stocks_trend(dataset):
+    from bistbot.backtest.engine import run_backtest
+
+    dataset.rf[:] = 3.0  # yıllık %300 faiz: neredeyse hiçbir hisse nakdi geçemez
+    base = Config().with_overrides(portfolio={"n_holdings": 5, "hold_rank": 8})
+    gated = base.with_overrides(portfolio={"trend_gate": "entry_exit"})
+    start = dataset.dates[300]
+    free, held = run_backtest(dataset, base, start=start), run_backtest(dataset, gated, start=start)
+    assert free.invested.iloc[-1] > 0.9 and held.invested.mean() < 0.5
+    assert held.n_positions.max() <= 5
+
+
+def test_hybrid_settings_load_from_toml(tmp_path):
+    path = tmp_path / "ayar.toml"
+    path.write_text('[signal]\nw_technical = 1.0\n[portfolio]\ntrend_gate = "entry_exit"\n', encoding="utf-8")
+    cfg = load_config(path)
+    assert cfg.signal.w_technical == 1.0 and cfg.portfolio.trend_gate == "entry_exit"
+    assert Config().signal.w_technical == 0.0 and Config().portfolio.trend_gate == "none"  # ön kayıtlı varsayılan

@@ -1,7 +1,7 @@
 # BIST Bot ayarları
 # Bu dosyada yalnızca değiştirmek isteyebileceğiniz ayarlar var; yazılmayanlar varsayılanda kalır.
-# Strateji parametreleri (sinyaller, hisse sayısı, bant) bilerek burada yok: onlar geçmiş veriye
-# bakılmadan önce sabitlendi. Değiştirmek sonuçları "veriye uydurma" riskine sokar.
+# Strateji parametrelerinin çoğu (hisse sayısı, bant, pencereler) bilerek burada yok: onlar geçmiş
+# veriye bakılmadan önce sabitlendi. Değiştirmek sonuçları "veriye uydurma" riskine sokar.
 
 # Kâğıt portföyün başlangıç sermayesi (TL). Emir listesindeki lot adetleri buna göre hesaplanır.
 # Gerçek hesabınızda ayıracağınız tutarı yazın.
@@ -17,6 +17,25 @@ slippage = 0.001
 # Boştaki nakdin gecelik faizin (TLREF) ne kadarını kazandığı varsayımı (stopaj sonrası).
 # Aracı kurumunuz boş bakiyeyi değerlendirmiyorsa 0 yazın.
 cash_yield_share = 0.8
+
+# --- Hibrit mod: teknik + temel analiz -------------------------------------------------
+# Temel katman: değer (PD/DD, F/K) ve kârlılık (özkaynak kârlılığı).
+# Teknik katman: momentum, düşük oynaklık ve aşağıdaki "teknik sütun" (nakde göre fiyatın
+# 200 günlük ortalamaya uzaklığı, 50/200 ortalama oranı, 52 haftalık zirveye yakınlık).
+# w_technical = 1 teknik sütunu diğer dört sütunla eşit ağırlıkta puana katar; 0 kapatır.
+# Geçmiş testte (2017-2026) üç alt dönemin üçünde de temel stratejiden iyi sonuç verdi;
+# ama dört hibrit biçim denendikten sonra seçildiği için şans payı vardır (bkz. README).
+[signal]
+w_technical = 1.0
+
+# --- İsteğe bağlı: teknik onay kapısı ---------------------------------------------------
+# Hisse ancak yükseliş eğilimindeyse (nakde göre fiyatı 200 günlük ortalamasının üstünde)
+# alınır, eğilimi bozulursa ayın ilk işlem gününde satılır; uygun hisse yoksa para nakitte
+# bekler. Geçmiş testte toplam getiriyi artırdı ama kazancın tamamı 2023-2026'dan (faizin
+# hisseleri geçtiği dönemden) geldi, diğer iki dönemde geride kaldı ve nakdiniz faiz
+# kazanmıyorsa zarar ettiriyor; önceden koyduğumuz ölçütü geçemediği için varsayılan değil.
+# Açmak için: aşağıdaki [portfolio] başlığını ve trend_gate satırını açın.
+# trend_gate = "entry_exit"
 
 # --- İsteğe bağlı: temkinli mod ---------------------------------------------------------
 # BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse portföyün yarısı nakitte tutulur.

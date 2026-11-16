@@ -12,6 +12,16 @@ Dört sütun (hepsi BIST üzerine yayımlanmış kesitsel bulgulara dayanır):
 * **Momentum**: 12 aylık getiri, son ay hariç.
 
 Sütun puanları evren içi yüzdelik sıralardır ve eşit ağırlıkla birleştirilir.
+
+Hibrit mod için iki ek (varsayılanda kapalı) parça vardır:
+
+* **Teknik sütun** (``w_technical``): nakde göre fiyatın 200 günlük ortalamaya uzaklığı,
+  50/200 günlük ortalama oranı ve 52 haftalık zirveye yakınlık.
+* **Yükseliş eğilimi** (``uptrend``): nakde göre fiyat 200 günlük ortalamasının üstünde mi;
+  portföy tarafındaki teknik onay kapısı bu sütunu kullanır.
+
+"Temel" katman değer + kârlılık, "teknik" katman momentum + düşük risk (+ teknik sütun)
+sütunlarıdır; ``fundamental`` ve ``tech`` sütunları bu iki katmanın ortalama puanıdır.
 """
 from __future__ import annotations
 
@@ -23,8 +33,12 @@ import pandas as pd
 from .config import SignalConfig, UniverseConfig
 from .data.dataset import Dataset
 from .rules import CONTINUOUS_METHOD, MAIN_MARKETS
+from .technical import excess_price, trend_measures
 
-PILLARS = ("value", "quality", "lowrisk", "momentum")
+PILLARS = ("value", "quality", "lowrisk", "momentum", "technical")
+FUNDAMENTAL_PILLARS = ("value", "quality")
+TECHNICAL_PILLARS = ("lowrisk", "momentum", "technical")
+SCORE_COLUMNS = [*PILLARS, "fundamental", "tech", "uptrend", "score", "rank"]
 
 
 @dataclass
@@ -41,6 +55,10 @@ class Features:
     history: pd.DataFrame
     traded_60: pd.DataFrame
     adv_20: pd.DataFrame
+    #: Nakde göre fiyatın uzun ortalamaya uzaklığı, kısa/uzun ortalama oranı − 1, zirveye oran.
+    trend: pd.DataFrame
+    ma_cross: pd.DataFrame
+    high_52w: pd.DataFrame
 
 
 def _rolling_top_mean(values: np.ndarray, window: int, top_n: int, min_obs: int) -> np.ndarray:
@@ -88,6 +106,8 @@ def compute_features(ds: Dataset, cfg: SignalConfig, symbols: list[str] | None =
     )
     momentum = px.shift(cfg.mom_skip) / px.shift(cfg.mom_lookback) - 1.0
 
+    trend, ma_cross, high_52w = trend_measures(excess_price(ds, px), cfg.trend_window, cfg.trend_short_window)
+
     mcap = ds.mcap[cols].where(ds.mcap[cols] > 0)
     equity, ni = ds.equity[cols], ds.ni_annual[cols]
     return Features(
@@ -98,6 +118,7 @@ def compute_features(ds: Dataset, cfg: SignalConfig, symbols: list[str] | None =
         history=traded.cumsum(),
         traded_60=traded.rolling(60, min_periods=1).sum(),
         adv_20=ds.panel.value[cols].rolling(20, min_periods=10).median(),
+        trend=trend, ma_cross=ma_cross, high_52w=high_52w,
     )
 
 
@@ -155,9 +176,8 @@ def score_date(
     ``rank`` 1'den başlar. Yeterli verisi olmayan hisseler tabloda yer almaz.
     """
     members = list(universe.index[universe.to_numpy(dtype=bool)])
-    cols = ["value", "quality", "lowrisk", "momentum", "score", "rank"]
     if not members:
-        return pd.DataFrame(columns=cols)
+        return pd.DataFrame(columns=SCORE_COLUMNS)
     row = lambda df: df.loc[date, members].astype(float)  # noqa: E731
     group = ds.is_financial.reindex(members).fillna(False)
 
@@ -172,10 +192,17 @@ def score_date(
         [_pct_rank(-row(feats.vol)), _pct_rank(-row(feats.beta)), _pct_rank(-row(feats.lottery))], axis=1
     ).mean(axis=1)
     momentum = _pct_rank(row(feats.momentum))
+    trend = row(feats.trend)
+    technical = pd.concat(
+        [_pct_rank(trend), _pct_rank(row(feats.ma_cross)), _pct_rank(row(feats.high_52w))], axis=1
+    ).mean(axis=1)
 
-    table = pd.DataFrame({"value": value, "quality": quality, "lowrisk": lowrisk, "momentum": momentum})
+    table = pd.DataFrame(
+        {"value": value, "quality": quality, "lowrisk": lowrisk, "momentum": momentum, "technical": technical}
+    )
     weights = pd.Series(
-        {"value": cfg.w_value, "quality": cfg.w_quality, "lowrisk": cfg.w_lowrisk, "momentum": cfg.w_momentum}
+        {"value": cfg.w_value, "quality": cfg.w_quality, "lowrisk": cfg.w_lowrisk, "momentum": cfg.w_momentum,
+         "technical": cfg.w_technical}
     )
     active = weights[weights > 0]
     if active.empty:
@@ -185,9 +212,13 @@ def score_date(
     available = part.notna().mul(active, axis=1).sum(axis=1)
     score = weighted.sum(axis=1, min_count=1) / available.where(available > 0)
     enough = part.notna().sum(axis=1) >= min(cfg.min_pillars, len(active))
+    table["fundamental"] = table[list(FUNDAMENTAL_PILLARS)].mean(axis=1)
+    table["tech"] = table[[c for c in TECHNICAL_PILLARS if c != "technical" or cfg.w_technical > 0]].mean(axis=1)
+    # Eğilimi hesaplanamayan hisse (yetersiz geçmiş) yükselişte sayılmaz.
+    table["uptrend"] = (trend > 0) & trend.notna()
     table["score"] = score.where(enough)
     table = table.dropna(subset=["score"])
     # Belirleyici sıralama: puan (azalan), eşitlikte sembol adı.
     table = table.assign(_sym=table.index).sort_values(["score", "_sym"], ascending=[False, True]).drop(columns="_sym")
     table["rank"] = np.arange(1, len(table) + 1)
-    return table[cols]
+    return table[SCORE_COLUMNS]

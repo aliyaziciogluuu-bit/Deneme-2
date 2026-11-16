@@ -359,3 +359,46 @@ def test_stale_index_series_blocks_new_decision(live):
     assert not res.decided and any("endeks" in w for w in res.warnings)
     ds.xu100.rename("value").rename_axis("date").to_csv(stores.macro.index_path("XU100"))
     assert run_daily(stores, state_path, Config(), evening(ds.dates[330]), sync=False).decided
+
+
+def test_enabling_hybrid_later_keeps_past_decisions_and_changes_only_future_ones(live):
+    """Hibrit mod sonradan açılırsa dondurulmuş kararlar ve geçmiş kâğıt işlemler değişmez."""
+    stores, state_path, ds = live
+    first = ds.dates[320]
+    base = run_daily(stores, state_path, Config(), evening(first), sync=False)
+    assert base.decided
+    frozen = dict(BotState.load(state_path).decisions)
+    hybrid = Config().with_overrides(signal={"w_technical": 1.0}, portfolio={"trend_gate": "entry_exit"})
+    later = ds.dates[330]
+    plain_run = run_daily(stores, state_path, Config(), evening(later), sync=False, save=False)
+    hybrid_run = run_daily(stores, state_path, hybrid, evening(later), sync=False, save=False)
+    assert BotState.load(state_path).decisions == frozen
+    # Aynı dondurulmuş kararlarla aynı kâğıt portföy: değer, pozisyonlar ve işlemler birebir aynı.
+    a, b = plain_run.payload, hybrid_run.payload
+    assert a["equity"] == b["equity"] and a["ledger"] == b["ledger"]
+    assert [(p["symbol"], p["lots"]) for p in a["positions"]] == [(p["symbol"], p["lots"]) for p in b["positions"]]
+    assert b["settings"]["w_technical"] == 1.0 and b["settings"]["trend_gate"] == "entry_exit"
+    # Panel verisi teknik görünümü taşır.
+    top = b["top"][0]
+    assert {"fundamental", "tech", "technical", "uptrend", "rsi", "trend", "macd_up"} <= set(top)
+    assert all("uptrend" in p for p in b["positions"])
+
+
+def test_live_payload_is_a_valid_order_ticket(live):
+    """Bulut tarafının ürettiği fiş, emir katmanının sıkı doğrulamasından geçer."""
+    from bistbot.exec.guard import check_ticket
+    from bistbot.exec.runner import IST
+    from bistbot.exec.settings import Limits
+    from bistbot.exec.ticket import parse_ticket
+
+    stores, state_path, ds = live
+    day = ds.dates[320]
+    payload = run_daily(stores, state_path, Config(), evening(day), sync=False).payload
+    ticket = parse_ticket(payload)
+    assert len(ticket.orders) == 20 and ticket.session > ticket.as_of
+    made = dt.datetime.fromisoformat(payload["generated_at"])
+    now = dt.datetime.combine(ticket.session, dt.time(9, 20), IST)
+    # Üretim zamanı gerçek saatten geldiği için yalnızca tutar/fiyat sınırları sınanır.
+    problems = [p for p in check_ticket(ticket, now, Limits(azami_fis_yasi_saat=1e9)) if "gelecekte" not in p]
+    assert problems == [], problems
+    assert made.tzinfo is not None

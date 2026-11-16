@@ -4,6 +4,22 @@
 sabitlenmiştir. Aşağıdaki "deneme" listesi de önceden beyan edilmiştir; amaç en iyisini
 seçmek değil, sonucun tek bir parametre seçimine bağlı olup olmadığını görmektir. Yine de
 her deneme, şans payını ölçen istatistiklerde (DSR, PBO) sayılır.
+
+Hibrit (teknik + temel) ön kaydı — 16 Kasım 2026, hiçbir hibrit backtest koşulmadan önce
+----------------------------------------------------------------------------------------
+Dört hibrit deneme beyan edilmiştir (``hibrit_*``). Aday olan ``hibrit_kapi_cikis``'tır:
+hisseyi bileşik puan seçer, teknik analiz alımı onaylar ve eğilim bozulunca çıkarır
+("temel analizle seç, teknik analizle zamanla"). Eğilim, enflasyon yanılgısına düşmemek için
+nakde (gecelik faize) göre fiyatın 200 günlük ortalamasıyla ölçülür; pencere uzunlukları
+(200/50/252) yaygın kullanılan değerlerdir ve denenerek seçilmemiştir.
+
+Karar kuralı (sonuç görülmeden yazıldı): hibrit aday ancak şu üç koşulun **hepsini**
+sağlarsa varsayılan strateji olur; aksi hâlde varsayılan değişmez ve hibrit, ``ayar.toml``
+ile açılabilen bir seçenek olarak kalır:
+
+1. Tam dönemde hem Sharpe oranı hem yıllık getirisi birincil stratejiden yüksek,
+2. Üç alt dönemin (2017-19, 2020-22, 2023-26) en az ikisinde yıllık getirisi birincilden yüksek,
+3. İşlem masrafı iki katına çıkarıldığında da Sharpe oranı birincilden yüksek.
 """
 from __future__ import annotations
 
@@ -29,6 +45,10 @@ PERIODS = {
     "2020-2022": ("2020-01-01", "2022-12-31"),
     "2023-2026": ("2023-01-01", "2026-12-31"),
 }
+
+
+#: Ön kayıtlı hibrit aday (bkz. modül başı).
+HYBRID_CANDIDATE = "hibrit_kapi_cikis"
 
 
 def declared_trials(base: Config) -> dict[str, Config]:
@@ -64,6 +84,11 @@ def declared_trials(base: Config) -> dict[str, Config]:
         "rejim_yari": o(portfolio={"regime": "trend", "regime_off_exposure": 0.5}),
         "rejim_yari_6ay": o(portfolio={"regime": "trend", "regime_off_exposure": 0.5, "regime_lookback": 126}),
         "rejim_yari_9ay": o(portfolio={"regime": "trend", "regime_off_exposure": 0.5, "regime_lookback": 189}),
+        # Hibrit (teknik + temel) denemeleri: bkz. modül başındaki ön kayıt.
+        "hibrit_sutun": o(signal={"w_technical": 1.0}),
+        "hibrit_kapi": o(portfolio={"trend_gate": "entry"}),
+        HYBRID_CANDIDATE: o(portfolio={"trend_gate": "entry_exit"}),
+        "hibrit_tam": o(signal={"w_technical": 1.0}, portfolio={"trend_gate": "entry_exit"}),
     }
 
 
@@ -91,7 +116,8 @@ class Lab:
         key = (cfg.signal, cfg.universe)
         if key not in self._prepared:
             fkey = ("f", cfg.signal.vol_window, cfg.signal.beta_window, cfg.signal.max_window,
-                    cfg.signal.max_top_n, cfg.signal.mom_lookback, cfg.signal.mom_skip)
+                    cfg.signal.max_top_n, cfg.signal.mom_lookback, cfg.signal.mom_skip,
+                    cfg.signal.trend_window, cfg.signal.trend_short_window)
             if fkey not in self._prepared:
                 self._prepared[fkey] = compute_features(self.ds, cfg.signal, self.symbols)
             feats = self._prepared[fkey]
@@ -152,9 +178,72 @@ def _row(name: str, res: BacktestResult, lab: Lab, bench: dict[str, pd.Series]) 
     }
 
 
+HYBRID_TRIALS = ("hibrit_sutun", "hibrit_kapi", HYBRID_CANDIDATE, "hibrit_tam")
+
+
+def _double_cost(cfg: Config) -> Config:
+    return cfg.with_overrides(cost={"commission": cfg.cost.commission * 2, "slippage": cfg.cost.slippage * 2})
+
+
+def hybrid_report(lab: Lab, base: Config, results: dict[str, BacktestResult], sr_trials: np.ndarray) -> dict:
+    """Hibrit denemelerin birincil stratejiyle karşılaştırması ve ön kayıtlı karar kuralı.
+
+    ``results``: ``{deneme adı: backtest sonucu}`` (birincil ve dört hibrit deneme).
+    Ölçütler modül başındaki ön kayıttaki üç koşuldur; her hibrit için ayrı ayrı sınanır,
+    ama bağlayıcı olan yalnızca ön kayıtlı adayın (``HYBRID_CANDIDATE``) sonucudur.
+    """
+    trials = declared_trials(base)
+    rows: dict[str, dict] = {}
+    for name in ("birincil", *HYBRID_TRIALS):
+        cfg, res = trials[name], results[name]
+        s = summarize(res.equity, lab.ds.rf, lab.benchmarks(cfg)["ew"])
+        costly = summarize(lab.run(_double_cost(cfg)).equity, lab.ds.rf)
+        no_yield = summarize(lab.run(cfg.with_overrides(cost={"cash_yield_share": 0.0})).equity, lab.ds.rf)
+        x = (res.equity.pct_change().fillna(0.0) - lab.rf_daily.reindex(res.equity.index)).to_numpy()
+        rows[name] = {
+            "cagr": s["cagr"], "sharpe": s["sharpe"], "max_dd": s["max_drawdown"], "alfa_t": s["alpha_tstat"],
+            "ew_ustu_cagr": s["excess_cagr"], "devir_hizi": res.turnover(), "ort_yatirim": float(res.invested.mean()),
+            "sharpe_2x": costly["sharpe"], "cagr_2x": costly["cagr"],
+            "cagr_faizsiz": no_yield["cagr"], "sharpe_faizsiz": no_yield["sharpe"],
+            "dsr_vs_cash": stats.deflated_sharpe(x, sr_trials),
+            "donem": {p: cagr(res.equity.loc[a:b]) for p, (a, b) in PERIODS.items() if len(res.equity.loc[a:b]) > 60},
+        }
+    ref = rows["birincil"]
+    for name in HYBRID_TRIALS:
+        r = rows[name]
+        better = [p for p in r["donem"] if r["donem"][p] > ref["donem"][p]]
+        rule = {
+            "tam_donem": bool(r["sharpe"] > ref["sharpe"] and r["cagr"] > ref["cagr"]),
+            "iyi_donem_sayisi": len(better), "donem_sayisi": len(r["donem"]),
+            "alt_donem": bool(len(better) >= 2),
+            "maliyet_2x": bool(r["sharpe_2x"] > ref["sharpe_2x"]),
+        }
+        rule["gecti"] = bool(rule["tam_donem"] and rule["alt_donem"] and rule["maliyet_2x"])
+        # Nakit faiz kazanmasa da birincilden iyi mi (ön kayıtlı ölçüt değil, ek bilgi).
+        rule["faizsiz_de_iyi"] = bool(r["cagr_faizsiz"] > ref["cagr_faizsiz"])
+        r["kural"] = rule
+    gate = {"trend_gate": "entry_exit"}
+    windows = {}
+    for w in (150, 250):  # duyarlılık (seçim denemesi değil): eğilim penceresi
+        cfg = base.with_overrides(portfolio=gate, signal={"trend_window": w})
+        res = lab.run(cfg)
+        s = summarize(res.equity, lab.ds.rf)
+        windows[str(w)] = {"cagr": s["cagr"], "sharpe": s["sharpe"], "max_dd": s["max_drawdown"]}
+    return {
+        "aday": HYBRID_CANDIDATE,
+        "aday_gecti": rows[HYBRID_CANDIDATE]["kural"]["gecti"],
+        "denemeler": rows,
+        "aday_pencere": windows,
+    }
+
+
 def full_report(ds: Dataset, base: Config, start: str, end: str | None = None,
-                n_random: int = 200, n_boot: int = 2000, seed: int = 20261116) -> dict:
-    """Birincil backtest + tüm sağlamlık testleri. Dönen sözlük JSON'a yazılabilir."""
+                n_random: int = 200, n_boot: int = 2000, seed: int = 20261116, live: Config | None = None) -> dict:
+    """Birincil backtest + tüm sağlamlık testleri. Dönen sözlük JSON'a yazılabilir.
+
+    ``base`` ön kayıtlı (birincil) stratejidir. ``live`` verilirse, kullanıcının ``ayar.toml``
+    ile çalıştırdığı ayarın (ör. hibrit mod) sonuçları ``live`` başlığı altında ayrıca raporlanır.
+    """
     lab = Lab(ds, start, end)
     bench = lab.benchmarks(base)
     primary = lab.run(base, keep_scores=True)
@@ -210,10 +299,12 @@ def full_report(ds: Dataset, base: Config, start: str, end: str | None = None,
 
     # Beyan edilmiş denemeler.
     trials = declared_trials(base)
-    rows, excess_cash, active = [], {}, {}
+    rows, excess_cash, active, hybrid_results = [], {}, {}, {}
     ew_ret = bench["ew"].pct_change().fillna(0.0)
     for name, cfg in trials.items():
         res = primary if name == "birincil" else lab.run(cfg)
+        if name == "birincil" or name in HYBRID_TRIALS:
+            hybrid_results[name] = res
         b = lab.benchmarks(cfg)
         rows.append(_row(name, res, lab, b))
         r = res.equity.pct_change().fillna(0.0)
@@ -240,6 +331,28 @@ def full_report(ds: Dataset, base: Config, start: str, end: str | None = None,
         "pbo_active": stats.cscv_pbo(ac_df, 10),
         "primary_rank_by_sharpe": int((table["sharpe"] > table.at["birincil", "sharpe"]).sum() + 1),
     }
+
+    report["hybrid"] = hybrid_report(lab, base, hybrid_results, sr_trials)
+
+    if live is not None:
+        live_res = lab.run(live)
+        live_bench = lab.benchmarks(live)
+        lx = (live_res.equity.pct_change().fillna(0.0) - rfd).to_numpy()
+        report["live"] = {
+            "vs_ew": summarize(live_res.equity, ds.rf, live_bench["ew"]),
+            "turnover": live_res.turnover(),
+            "avg_invested": float(live_res.invested.mean()),
+            "dsr_vs_cash": stats.deflated_sharpe(lx, sr_trials),
+            "periods": {p: cagr(live_res.equity.loc[a:b]) for p, (a, b) in PERIODS.items()
+                        if len(live_res.equity.loc[a:b]) > 60},
+            "settings": {
+                "w_technical": live.signal.w_technical, "trend_gate": live.portfolio.trend_gate,
+                "regime": live.portfolio.regime, "regime_off_exposure": live.portfolio.regime_off_exposure,
+            },
+        }
+        series["canli"] = live_res.equity / live_res.equity.iloc[0]
+        series["canli_usd"] = deflate(live_res.equity, usd)
+        report["yearly"] = yearly_returns(series).round(4).to_dict(orient="index")
 
     frame = pd.DataFrame({"s": ret.to_numpy(), "rf": rfd.to_numpy(), "b": ew_ret.reindex(ret.index).fillna(0.0).to_numpy()})
     ann = TRADING_DAYS

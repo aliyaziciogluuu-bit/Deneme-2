@@ -33,6 +33,7 @@ from ..data.dataset import Dataset
 from ..pipeline import Stores, candidate_symbols, load_panel, prepare_dataset, sync_isy
 from ..portfolio import cash_index, rebalance_dates
 from ..signals import compute_features, score_date, universe_mask
+from ..technical import compute_technicals
 from .state import BotState
 
 log = logging.getLogger(__name__)
@@ -451,12 +452,28 @@ def build_payload(
     years = (eq.index[-1] - eq.index[0]).days / 365.25
 
     held_now = set(res.positions)
+    shown = ("value", "quality", "lowrisk", "momentum", "technical", "fundamental", "tech")
+    wanted = sorted(set(table.head(40).index) | held_now)
+    tech = compute_technicals(ds, wanted, cfg.signal.trend_window, cfg.signal.trend_short_window)
+
+    def technical_view(sym: str) -> dict:
+        """Ekranda gösterilen teknik görünüm: eğilim (nakde göre), RSI ve MACD yönü."""
+        trend, rsi, macd = (float(getattr(tech, k).at[last, sym]) for k in ("trend", "rsi", "macd_hist"))
+        return {
+            "uptrend": bool(trend > 0) if np.isfinite(trend) else None,
+            "trend": round(trend, 4) if np.isfinite(trend) else None,
+            "rsi": round(rsi, 1) if np.isfinite(rsi) else None,
+            "macd_up": bool(macd > 0) if np.isfinite(macd) else None,
+        }
+
     top = [
         {"rank": int(row["rank"]), "symbol": sym, "name": names.get(sym, sym), "score": round(float(row["score"]), 3),
-         **{k: (round(float(row[k]), 2) if np.isfinite(row[k]) else None) for k in ("value", "quality", "lowrisk", "momentum")},
-         "held": sym in held_now}
+         **{k: (round(float(row[k]), 2) if np.isfinite(row[k]) else None) for k in shown},
+         **technical_view(sym), "held": sym in held_now}
         for sym, row in table.head(40).iterrows()
     ]
+    for pos in positions:
+        pos.update(technical_view(pos["symbol"]))
 
     frozen = list(state.decisions)
     xu_last, rf_last = ds.xu100.loc[last], ds.rf.loc[last]
@@ -493,6 +510,7 @@ def build_payload(
         "settings": {
             "n_holdings": cfg.portfolio.n_holdings, "hold_rank": cfg.portfolio.hold_rank,
             "frequency": cfg.portfolio.frequency, "regime": cfg.portfolio.regime,
+            "w_technical": cfg.signal.w_technical, "trend_gate": cfg.portfolio.trend_gate,
             "commission": cfg.cost.commission, "slippage": cfg.cost.slippage,
         },
     }

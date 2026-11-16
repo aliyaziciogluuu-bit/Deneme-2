@@ -73,7 +73,7 @@ def format_message(payload: dict) -> str:
                            f"gerekir. Kâğıt portföy hakların satıldığını varsaydı (+{tl(e['cash'])} TL).")]
     for w in payload.get("warnings") or []:
         lines += ["", f"⚠️ {w}"]
-    lines += ["", "Bu bir yatırım tavsiyesi değildir; emirleri kendiniz verirsiniz."]
+    lines += ["", "Bu bir yatırım tavsiyesi değildir; emirler yalnızca sizin kararınızla verilir."]
     return "\n".join(lines)
 
 

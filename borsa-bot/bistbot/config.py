@@ -28,6 +28,13 @@ class SignalConfig:
     w_quality: float = 1.0
     w_lowrisk: float = 1.0
     w_momentum: float = 1.0
+    #: Teknik sütunun ağırlığı (0 = kapalı). Teknik sütun üç eğilim ölçüsünün ortalamasıdır:
+    #: nakde göre fiyatın 200 günlük ortalamaya uzaklığı, 50/200 günlük ortalama oranı ve
+    #: 52 haftalık zirveye yakınlık (bkz. technical.py).
+    w_technical: float = 0.0
+    #: Eğilim ölçülerinin uzun ve kısa hareketli ortalama pencereleri (seans).
+    trend_window: int = 200
+    trend_short_window: int = 50
     #: Bileşik puan için en az kaç sütunun verisi bulunmalı.
     min_pillars: int = 3
     vol_window: int = 252
@@ -61,7 +68,13 @@ class PortfolioConfig:
     #: üstüne kadar limitli verilir; aracı kurum alım gücünü limit fiyattan ayırdığı için
     #: emirlerin toplamı bu fiyattan da eldeki paraya sığmalıdır.
     buy_headroom: float = 0.03
-    #: Piyasa rejimi filtresi: "none" | "trend" (bkz. risk.py).
+    #: Teknik onay kapısı (hibrit mod): "none" | "entry" | "entry_exit".
+    #: ``entry``: bir hisse ancak yükseliş eğilimindeyse (nakde göre fiyatı 200 günlük
+    #: ortalamasının üstündeyse) ve sırası elde tutma bandının içindeyse alınır.
+    #: ``entry_exit``: ayrıca eldeki hisse eğilimini yitirdiyse karar gününde satılır.
+    #: Kapıdan geçen hisse yetmezse boş kalan paylar nakitte bekler.
+    trend_gate: str = "none"
+    #: Piyasa rejimi filtresi: "none" | "trend" (bkz. portfolio.py).
     regime: str = "none"
     #: Rejim olumsuzken hisse ağırlığı (0-1).
     regime_off_exposure: float = 0.0
