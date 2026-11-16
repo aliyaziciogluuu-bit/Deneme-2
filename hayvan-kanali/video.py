@@ -377,8 +377,33 @@ def kapak(sahne: Sahne, yol: pathlib.Path):
     kare.save(yol, quality=92)
 
 
+def ses_yuksekligi_duzelt(video: pathlib.Path, hedef=-14.0, tepe=-2.5):
+    """Tek geçişli loudnorm hedefin altında kalabiliyor; ölçüp farkı kazançla kapatır, tepeleri sınırlar (görüntüye dokunmaz)."""
+    def olc(yol):
+        r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(yol), "-af", "ebur128=peak=true", "-f", "null", "-"],
+                           capture_output=True, text=True)
+        ozet = r.stderr[r.stderr.rfind("Summary:"):]
+        import re as _re
+        return (float(_re.search(r"I:\s+(-?[\d.]+) LUFS", ozet).group(1)),
+                float(_re.search(r"Peak:\s+(-?[\d.]+) dBFS", ozet).group(1)))
+    for _ in range(3):
+        olculen, gercek_tepe = olc(video)
+        fark = hedef - olculen
+        if abs(fark) <= 0.4 and gercek_tepe <= -1.0:  # AAC sıkıştırması tepeleri biraz yükseltir; sınır bu yüzden -2,5 dB
+            return
+        gecici = video.with_name("_ses_duzelt.mp4")
+        sinir = 10 ** (tepe / 20)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(video), "-map", "0:v", "-map", "0:a", "-c:v", "copy",
+                        "-af", f"volume={fark:.2f}dB,alimiter=limit={sinir:.4f}:level=disabled:attack=5:release=50,aresample=48000",
+                        "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(gecici)], check=True)
+        gecici.replace(video)
+
+
 def main():
     klasor = KOK / sys.argv[1]
+    if "--ses-duzelt" in sys.argv:  # yalnızca bitmiş videonun ses yüksekliğini düzelt
+        ses_yuksekligi_duzelt(klasor / "video.mp4")
+        return
     klipleri_hazirla(klasor)
     sahne = Sahne(klasor)
     if "--onizleme" in sys.argv:
@@ -413,6 +438,7 @@ def main():
         ["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(gecici / "liste.txt"), *girdiler,
          "-filter_complex", filtre, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
          "-shortest", "-movflags", "+faststart", str(klasor / "video.mp4")], check=True)
+    ses_yuksekligi_duzelt(klasor / "video.mp4")
     for d in gecici.iterdir():
         d.unlink()
     gecici.rmdir()

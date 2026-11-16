@@ -60,6 +60,7 @@ def sade(metin: str):
     metin = re.sub(r"['’]", "", metin).translate(str.maketrans("âîû", "aiu"))
     metin = re.sub(r"[^a-zçğıöşü0-9 ]", " ", metin)
     kelimeler = re.sub(r"\s+", " ", metin).strip().split()
+    kelimeler = [{"cm": "santimetre", "km": "kilometre", "m": "metre"}.get(k, k) for k in kelimeler]
     birlesik = []  # "adı ise" → "adıysa", "yılanın ise" → "yılanınsa" (konuşmada doğal kısaltma, okuma hatası değil)
     for k in kelimeler:
         if k == "ise" and birlesik:
@@ -197,7 +198,7 @@ def main():
         for i in tek:
             c, ad = hepsi[i], f"{i:03d}"
             ok, yz = c.get("ses", c["yazi"]), c["yazi"]
-            sinir = 0 if len(sade(yz)) <= 6 else 1
+            sinir = 0  # tek cümle yeniden üretiliyorsa sıfır hata aranır
             en_iyi = None
             for deneme in range(1, DENEME + 2):
                 kayit = hedef / f"cumle_{ad}.wav"

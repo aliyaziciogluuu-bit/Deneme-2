@@ -155,289 +155,289 @@ Peki bu hayvana neden sağır deniyor?
 Adın nereden geldiği kesin olarak bilinmiyor.
 
 40
-00:02:02,210 --> 00:02:04,706
+00:02:02,210 --> 00:02:05,058
 Ama bildiğimiz bir şey var: sağır değil.
 
 41
-00:02:04,706 --> 00:02:07,135
+00:02:05,058 --> 00:02:07,795
 Kulak delikleri var ve duyabiliyor.
 
 42
-00:02:07,240 --> 00:02:09,705
+00:02:07,900 --> 00:02:10,365
 Benzer bir yanlış isim başka dillerde de var.
 
 43
-00:02:09,810 --> 00:02:13,084
+00:02:10,470 --> 00:02:13,744
 İngilizcede ona kör solucan anlamına gelen
 
 44
-00:02:13,084 --> 00:02:16,915
+00:02:13,744 --> 00:02:17,575
 blindworm deniyor; oysa ne kör, ne de solucan.
 
 45
-00:02:17,020 --> 00:02:20,971
+00:02:17,680 --> 00:02:21,631
 Avrupa'daki akrabasının bilimsel adıysa Anguis fragilis;
 
 46
-00:02:20,971 --> 00:02:23,685
+00:02:21,631 --> 00:02:24,345
 fragilis, Latincede kırılgan demek.
 
 47
-00:02:23,790 --> 00:02:27,460
+00:02:24,450 --> 00:02:28,120
 Bu ismin, kolayca kopan kuyruğuna gönderme yaptığı düşünülüyor.
 
 48
-00:02:28,060 --> 00:02:30,525
+00:02:28,720 --> 00:02:31,185
 En çok sorulan soru: zehirli mi?
 
 49
-00:02:30,630 --> 00:02:32,815
+00:02:31,290 --> 00:02:33,475
 Hayır. Sağır yılanın zehri yok.
 
 50
-00:02:32,920 --> 00:02:37,785
+00:02:33,580 --> 00:02:38,905
 İnsana saldırmaz; tehlike hissettiğinde kaçmayı ya da saklanmayı seçer.
 
 51
-00:02:37,890 --> 00:02:41,135
+00:02:39,010 --> 00:02:42,255
 Eline alındığında kıvranabilir, hatta dışkılayabilir.
 
 52
-00:02:41,240 --> 00:02:45,745
+00:02:42,360 --> 00:02:46,865
 Çok nadiren ısırmayı dener, ama küçük dişleri insana zarar vermez.
 
 53
-00:02:45,850 --> 00:02:47,975
+00:02:46,970 --> 00:02:49,095
 En büyük savunması ise kuyruğu.
 
 54
-00:02:48,080 --> 00:02:50,667
+00:02:49,200 --> 00:02:51,787
 Bir yırtıcı onu kuyruğundan yakaladığında
 
 55
-00:02:50,667 --> 00:02:53,940
+00:02:51,787 --> 00:02:55,060
 kuyruk kopar ve bir süre kıpırdamaya devam eder.
 
 56
-00:02:54,045 --> 00:02:58,530
+00:02:55,165 --> 00:02:59,650
 Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar.
 
 57
-00:02:58,635 --> 00:03:01,466
+00:02:59,755 --> 00:03:02,586
 Kuyruk bir miktar yenilenir, ama genellikle kısa ve
 
 58
-00:03:01,466 --> 00:03:04,820
+00:03:02,586 --> 00:03:05,940
 küt bir uç olarak kalır; hiçbir zaman eskisi gibi olmaz.
 
 59
-00:03:04,925 --> 00:03:07,755
+00:03:06,045 --> 00:03:08,875
 Bu yüzden onu asla kuyruğundan tutmamak gerekir.
 
 60
-00:03:08,355 --> 00:03:11,187
+00:03:09,475 --> 00:03:12,307
 Sağır yılanın menüsünde sümüklü böcekler,
 
 61
-00:03:11,187 --> 00:03:13,780
+00:03:12,307 --> 00:03:14,900
 solucanlar ve böcek larvaları var.
 
 62
-00:03:13,885 --> 00:03:16,970
+00:03:15,005 --> 00:03:18,090
 Yani bahçendeki marulları, fideleri ve çilekleri
 
 63
-00:03:16,970 --> 00:03:19,850
+00:03:18,090 --> 00:03:20,970
 kemiren sümüklü böceklerin doğal düşmanı.
 
 64
-00:03:19,955 --> 00:03:23,520
+00:03:21,075 --> 00:03:24,640
 Yavaş hareket eden avları seçiyor; acele etmesine gerek yok.
 
 65
-00:03:23,625 --> 00:03:25,638
+00:03:24,745 --> 00:03:26,758
 Çoğunlukla sabah erken saatlerde,
 
 66
-00:03:25,638 --> 00:03:28,750
+00:03:26,758 --> 00:03:29,870
 akşamüstü ya da yağmurdan sonra ortaya çıkıyor.
 
 67
-00:03:28,855 --> 00:03:31,166
+00:03:29,975 --> 00:03:32,286
 Günün sıcak saatlerinde ise taşların,
 
 68
-00:03:31,166 --> 00:03:34,660
+00:03:32,286 --> 00:03:35,780
 kütüklerin ve yaprak yığınlarının altına saklanıyor.
 
 69
-00:03:34,765 --> 00:03:38,410
+00:03:35,885 --> 00:03:39,530
 Bahçede bir taşı kaldırdığında onunla karşılaşmanın sebebi bu.
 
 70
-00:03:38,515 --> 00:03:40,735
+00:03:39,635 --> 00:03:42,099
 Sümüklü böcek ilaçları avını öldürür;
 
 71
-00:03:40,735 --> 00:03:43,685
+00:03:42,099 --> 00:03:45,345
 zehirlenmiş avı yemek ona da zarar verebilir.
 
 72
-00:03:44,285 --> 00:03:48,850
+00:03:45,945 --> 00:03:50,510
 Sağır yılanın bir sürprizi daha var: yumurtlamıyor, yavru doğuruyor.
 
 73
-00:03:48,955 --> 00:03:52,700
+00:03:50,615 --> 00:03:54,360
 Çiftleşme ilkbaharda, kış uykusundan uyandıktan sonra oluyor.
 
 74
-00:03:52,805 --> 00:03:55,730
+00:03:54,465 --> 00:03:57,390
 Yumurtalar annenin vücudunun içinde gelişiyor.
 
 75
-00:03:55,835 --> 00:03:59,163
+00:03:57,495 --> 00:04:00,823
 Yaz sonuna doğru da ince, parlak, yaklaşık yedi
 
 76
-00:03:59,163 --> 00:04:03,020
+00:04:00,823 --> 00:04:04,680
 ila on santimetre boyunda yavrular dünyaya geliyor.
 
 77
-00:04:03,125 --> 00:04:06,450
+00:04:04,785 --> 00:04:08,110
 Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.
 
 78
-00:04:06,555 --> 00:04:10,642
+00:04:08,215 --> 00:04:12,302
 Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına,
 
 79
-00:04:10,642 --> 00:04:15,340
+00:04:12,302 --> 00:04:17,000
 kök aralarına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.
 
 80
-00:04:15,445 --> 00:04:18,755
+00:04:17,105 --> 00:04:20,415
 Bazen aynı kış sığınağını birçok birey paylaşıyor.
 
 81
-00:04:19,355 --> 00:04:22,920
+00:04:21,015 --> 00:04:24,580
 Ve belki de en şaşırtıcı bilgi: ne kadar yaşadığı.
 
 82
-00:04:23,025 --> 00:04:27,730
+00:04:24,685 --> 00:04:29,390
 Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı.
 
 83
-00:04:27,835 --> 00:04:31,760
+00:04:29,495 --> 00:04:33,420
 Bu, onu bilinen en uzun ömürlü kertenkelelerden biri yapıyor.
 
 84
-00:04:31,865 --> 00:04:36,230
+00:04:33,525 --> 00:04:37,890
 Doğadaysa ömrü çok daha kısa; çoğu birey on yılı göremiyor.
 
 85
-00:04:36,335 --> 00:04:38,745
+00:04:37,995 --> 00:04:40,405
 Çünkü doğada onu bekleyen tehlikeler çok.
 
 86
-00:04:39,345 --> 00:04:42,619
+00:04:41,005 --> 00:04:44,279
 Kirpiler, kuşlar ve bazı yılanlar onu avlıyor.
 
 87
-00:04:42,619 --> 00:04:45,070
+00:04:44,279 --> 00:04:46,730
 Evlerin çevresinde ise kediler.
 
 88
-00:04:45,175 --> 00:04:49,180
+00:04:46,835 --> 00:04:50,840
 Ama en büyük tehlikelerden biri, onu yılan sanan insanlar.
 
 89
-00:04:49,285 --> 00:04:52,990
+00:04:50,945 --> 00:04:54,650
 Pek çok sağır yılan, sırf yılana benzediği için öldürülüyor.
 
 90
-00:04:53,095 --> 00:04:57,360
+00:04:54,755 --> 00:04:59,020
 Yollarda araçların altında kalıyor, çim biçme makinelerine yakalanıyor.
 
 91
-00:04:57,465 --> 00:04:59,915
+00:04:59,125 --> 00:05:01,575
 Bir yanlış tanıma, bahçenin en faydalı
 
 92
-00:04:59,915 --> 00:05:02,615
+00:05:01,575 --> 00:05:04,275
 canlılarından birinin sonu olabiliyor.
 
 93
-00:05:03,215 --> 00:05:06,860
+00:05:04,875 --> 00:05:08,520
 Peki bahçende bir sağır yılanla karşılaşırsan ne yapmalısın?
 
 94
-00:05:06,965 --> 00:05:09,610
+00:05:08,625 --> 00:05:11,270
 En iyisi, onu rahat bırakmak.
 
 95
-00:05:09,715 --> 00:05:14,400
+00:05:11,375 --> 00:05:16,060
 Kaldırdığın taşı, altındaki hayvanı ezmeden, yavaşça eski yerine koy.
 
 96
-00:05:14,505 --> 00:05:17,953
+00:05:16,165 --> 00:05:19,613
 Eve girdiyse, eldiven takıp bir kartonla yavaşça bir kovaya
 
 97
-00:05:17,953 --> 00:05:22,230
+00:05:19,613 --> 00:05:23,890
 yönlendirebilir, sonra bahçenin gölgelik bir köşesine bırakabilirsin.
 
 98
-00:05:22,335 --> 00:05:24,540
+00:05:23,995 --> 00:05:26,200
 Onu asla kuyruğundan tutma.
 
 99
-00:05:24,645 --> 00:05:28,510
+00:05:26,305 --> 00:05:30,170
 Ve önemli bir uyarı: Türkiye'de zehirli engerekler de yaşıyor.
 
 100
-00:05:28,615 --> 00:05:31,346
+00:05:30,275 --> 00:05:33,006
 Gördüğün hayvanın ne olduğundan emin
 
 101
-00:05:31,346 --> 00:05:35,080
+00:05:33,006 --> 00:05:36,740
 değilsen ona dokunma, yaklaşma; mesafeni koru.
 
 102
-00:05:35,185 --> 00:05:38,610
+00:05:36,845 --> 00:05:40,270
 Uzaktan bir fotoğraf çekip sonra incelemek, en güvenli yol.
 
 103
-00:05:38,715 --> 00:05:42,036
+00:05:40,375 --> 00:05:43,696
 Biraz yaprak yığını, birkaç taş ve ilaçsız bir köşe,
 
 104
-00:05:42,036 --> 00:05:44,905
+00:05:43,696 --> 00:05:46,565
 sağır yılana bahçende yaşamak için yeter.
 
 105
-00:05:45,505 --> 00:05:49,530
+00:05:47,165 --> 00:05:51,190
 Sağır yılan ne yılan, ne sağır, ne de tehlikeli.
 
 106
-00:05:49,635 --> 00:05:53,260
+00:05:51,295 --> 00:05:54,920
 Sadece yanlış tanınan, sessiz bir bahçe komşusu.
 
 107
-00:05:53,365 --> 00:05:56,376
+00:05:55,025 --> 00:05:58,036
 Bir dahaki sefere bir taşın altında onu gördüğünde,
 
 108
-00:05:56,376 --> 00:05:58,570
+00:05:58,036 --> 00:06:00,230
 ona biraz daha farklı bakacaksın.
 
 109
-00:05:58,675 --> 00:06:02,220
+00:06:00,335 --> 00:06:03,880
 Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz.
 
 110
-00:06:02,325 --> 00:06:05,706
+00:06:03,985 --> 00:06:07,366
 Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
 
 111
-00:06:05,706 --> 00:06:09,035
+00:06:07,366 --> 00:06:10,695
 komşuları anlatmaya devam edeceğiz. Görüşmek üzere.

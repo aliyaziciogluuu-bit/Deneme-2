@@ -190,10 +190,11 @@
  },
  "027": {
   "yazi": "Ama bildiğimiz bir şey var: sağır değil. Kulak delikleri var ve duyabiliyor.",
-  "duyulan": "Ama bildiğimiz bir şey var, sahar değil, kulak delikleri var ve duyabiliyor.",
-  "hata": 1,
-  "sure": 4.68,
-  "uygun": true
+  "duyulan": "Ama bildiğimiz bir şey var, sağır değil. Kulak delikleri var ve duyabiliyor.",
+  "hata": 0,
+  "sure": 5.34,
+  "uygun": true,
+  "tek_basina": true
  },
  "028": {
   "yazi": "Benzer bir yanlış isim başka dillerde de var.",
@@ -239,10 +240,11 @@
  },
  "034": {
   "yazi": "İnsana saldırmaz; tehlike hissettiğinde kaçmayı ya da saklanmayı seçer.",
-  "duyulan": "İnsanı saldırmaz, tehlike hissettiğinde kaçmayı ya da saklanmayı seçer.",
-  "hata": 1,
-  "sure": 4.62,
-  "uygun": true
+  "duyulan": "İnsana saldırmaz, tehlike hissettiğinde kaçmayı ya da saklanmayı seçer.",
+  "hata": 0,
+  "sure": 5.08,
+  "uygun": true,
+  "tek_basina": true
  },
  "035": {
   "yazi": "Eline alındığında kıvranabilir, hatta dışkılayabilir.",
@@ -337,10 +339,11 @@
  },
  "048": {
   "yazi": "Sümüklü böcek ilaçları avını öldürür; zehirlenmiş avı yemek ona da zarar verebilir.",
-  "duyulan": "Sümüklü böcek ilaçları avına öldürür, zehirlenmiş avı yemek ona da zarar verebilir.",
-  "hata": 1,
-  "sure": 4.92,
-  "uygun": true
+  "duyulan": "Sümüklü böcek ilaçları avını öldürür, zehirlenmiş avı yemek ona da zarar verebilir.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true,
+  "tek_basina": true
  },
  "049": {
   "yazi": "Sağır yılanın bir sürprizi daha var: yumurtlamıyor, yavru doğuruyor.",

@@ -81,23 +81,32 @@ def main():
     test("Siyah kare yok", not siyah, f"{siyah}" if siyah else "")
     test("Donmuş görüntü yok (4 sn+)", not donuk, f"başlangıçlar: {donuk}" if donuk else "")
 
-    # 2
+    # 2  Bitmiş videonun sesi (kuş sesi ve ses düzeltmesi dahil) her cümlenin kendi zaman aralığında dinlenir.
+    #    6 dakikalık kaydı tek parça dinletmek Whisper'ın kendi hatalarını artırıyor; cümle aralıkları hem daha
+    #    güvenilir hem de son karışımı doğrudan denetler.
     from faster_whisper import WhisperModel
+    from seslendir_bulut import fark
+    import video as vmod
+    zaman, _, _, _ = vmod.cizelge(klasor)
     ham = subprocess.run(["ffmpeg", "-v", "error", "-i", str(video), "-f", "f32le", "-ac", "1", "-ar", "16000", "-"],
                          capture_output=True, check=True).stdout
+    ses = np.frombuffer(ham, dtype=np.float32)
     dinleyici = WhisperModel("medium", device="cpu", compute_type="int8", cpu_threads=4)
-    parcalar, _ = dinleyici.transcribe(np.frombuffer(ham, dtype=np.float32), language="tr", beam_size=5)
-    duyulan = " ".join(p.text.strip() for p in parcalar)
-    (klasor / "son_kontrol_duyulan.txt").write_text(duyulan + "\n", encoding="utf-8")
-    beklenen = sade(" ".join(cumleler))
-    duy = sade(duyulan)
-    farklar = [(op, " ".join(beklenen[i1:i2]), " ".join(duy[j1:j2]))
-               for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, beklenen, duy, autojunk=False).get_opcodes() if op != "equal"]
-    hata = sum(max(len(b.split()), len(d.split())) for _, b, d in farklar)
-    oran = hata / len(beklenen)
-    test("Bitmiş videoda anlatım = senaryo", oran <= 0.02, f"{hata}/{len(beklenen)} kelime farkı (%{oran * 100:.1f})")
-    for op, b, d in farklar:
-        print(f"      fark: senaryo «{b}» → duyulan «{d}»")
+    toplam_hata, toplam_kelime, sorunlu, satirlar = 0, 0, [], []
+    for i, c in enumerate(zaman):
+        parca = ses[max(int((c["bas"] - 0.15) * 16000), 0): int((c["bit"] + 0.15) * 16000)]
+        duy = " ".join(p.text.strip() for p in dinleyici.transcribe(parca, language="tr", beam_size=5)[0])
+        h = fark(duy, c["yazi"])
+        n = len(sade(c["yazi"]))
+        toplam_hata += h
+        toplam_kelime += n
+        satirlar.append(f"{i:03d} fark={h} | {c['yazi']} || {duy}")
+        if h > (0 if n <= 6 else 1):
+            sorunlu.append(i)
+            print(f"      {i:03d}: senaryo «{c['yazi']}» → duyulan «{duy}»")
+    (klasor / "son_kontrol_duyulan.txt").write_text("\n".join(satirlar) + "\n", encoding="utf-8")
+    test("Bitmiş videoda anlatım = senaryo (cümle cümle)", not sorunlu,
+         f"{len(zaman) - len(sorunlu)}/{len(zaman)} cümle birebir, toplam {toplam_hata}/{toplam_kelime} kelime farkı")
 
     # 6
     srt = (klasor / "altyazi.srt").read_text(encoding="utf-8").strip().split("\n\n")
