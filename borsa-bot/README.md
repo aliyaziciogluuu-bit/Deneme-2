@@ -202,7 +202,7 @@ sık değişen sunucu adresleri gerektiriyor. Bu yüzden bot, her aracı kurumda
 ```bash
 cd borsa-bot
 pip install -r requirements-dev.txt
-python -m pytest                      # 100'den fazla test, ağ erişimi gerektirmez
+python -m pytest                      # 96 test, ağ erişimi gerektirmez
 python -m bistbot doktor              # veri kaynaklarına erişim testi
 python -m bistbot gunluk --deneme     # bugünün sinyalleri; hiçbir şey kaydetmez
 python -m bistbot veri                # 2015'ten bugüne veriyi indir (≈1 saat)
