@@ -390,5 +390,75 @@
   "hata": 0,
   "sure": 3.06,
   "uygun": true
+ },
+ "056": {
+  "yazi": "Ve belki de en şaşırtıcı bilgi: ne kadar yaşadığı.",
+  "duyulan": "ve belki de en şaşırtıcı bilgi ne kadar yaşadığı.",
+  "hata": 0,
+  "sure": 3.32,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı.",
+  "duyulan": "Avrupa'daki akrabasının bakım altındaki bir bireyi 54 yıl yaşadı.",
+  "hata": 0,
+  "sure": 4.46,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Bu, onu bilinen en uzun ömürlü kertenkelelerden biri yapıyor.",
+  "duyulan": "Bu, onu bilinen en uzun ömürlü kertenkelelerden biri yapıyor.",
+  "hata": 0,
+  "sure": 3.68,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Doğada ise ömrü çok daha kısa; çoğu birey on yılı göremiyor.",
+  "duyulan": "Doğadaysa ömrü çok daha kısa, çoğu birey 10 yılı göremiyor.",
+  "hata": 2,
+  "sure": 4.12,
+  "uygun": false
+ },
+ "060": {
+  "yazi": "Çünkü doğada onu bekleyen tehlikeler çok.",
+  "duyulan": "Çünkü doğada onu bekleyen tehlikeler çok.",
+  "hata": 0,
+  "sure": 2.16,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Kirpiler, kuşlar ve bazı yılanlar onu avlıyor. Evlerin çevresinde ise kediler.",
+  "duyulan": "Kirpiler, kuşlar ve bazı yılanlar onu avlıyor. Evlerin çevresinde ise kediler.",
+  "hata": 0,
+  "sure": 5.48,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Ama en büyük tehlikelerden biri, onu yılan sanan insanlar.",
+  "duyulan": "ama en büyük tehlikelerden biri onu yılan sanan insanlar.",
+  "hata": 0,
+  "sure": 3.76,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Pek çok sağır yılan, sırf yılana benzediği için öldürülüyor.",
+  "duyulan": "pek çok sağır yılan sırf yılana benzediği için öldürülüyor.",
+  "hata": 0,
+  "sure": 3.46,
+  "uygun": true
+ },
+ "064": {
+  "yazi": "Yollarda araçların altında kalıyor, çim biçme makinelerine yakalanıyor.",
+  "duyulan": "Yollarda araçların altında kalıyor. Çim biçme makinelerine yakalanıyor.",
+  "hata": 0,
+  "sure": 4.02,
+  "uygun": true
+ },
+ "065": {
+  "yazi": "Bir yanlış tanıma, bahçenin en faydalı canlılarından birinin sonu olabiliyor.",
+  "duyulan": "bir yanlış tanıma bahçenin en faydalı canlılarından birinin sonu olabiliyor.",
+  "hata": 0,
+  "sure": 4.9,
+  "uygun": true
  }
 }
