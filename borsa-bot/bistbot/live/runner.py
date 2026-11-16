@@ -428,7 +428,8 @@ def build_payload(
              "ref_price": px, "limit_price": limit, "value": round(lots * px, 2), "reason": o.reason,
              "carried": bool(res.pending_due is not None and res.pending_due != last)}
         )
-    orders.sort(key=lambda r: (r["side"] != "sell", r["symbol"]))
+    # Sıra korunur: önce satışlar, sonra alımlar öncelik sırasıyla (en iyi sıradaki hisse önce).
+    # Bir satış gerçekleşmez de para yetmezse kâğıt portföy listenin SONUNDAKİ alımı kısar.
 
     today_iso = str(last.date())
     events = [

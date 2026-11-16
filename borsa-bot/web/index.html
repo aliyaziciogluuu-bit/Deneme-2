@@ -208,7 +208,7 @@
     $("orders").innerHTML = o.length
       ? '<div class="scroll">' + table(["Hisse", "", "Lot", "Limit", "Yaklaşık TL", "Son fiyat"], o.map((r) => [
           sym(r), side(r.side), tl(r.lots), (r.side === "sell" ? "≥ " : "≤ ") + tl(r.limit_price, 2), tl(r.value), tl(r.ref_price, 2),
-        ])) + '</div><p class="note" style="margin-top:10px">Önce satışları, sonra alışları girin. Emirleri açılış seansı (09:40–09:55) için <b>limitli</b> verin; limit, son kapanışın %3 uzağına (tavan/taban içinde) ayarlanmıştır ve alımların toplamı limit fiyattan da nakdinize sığacak şekilde hesaplanmıştır. Açılışı tavandan olan hisseyi almayın.</p>'
+        ])) + '</div><p class="note" style="margin-top:10px">Önce satışları, sonra alışları girin (aracı kurumunuz bekleyen satışın parasını kullandırmıyorsa alışları satışlar gerçekleşince girin; bir satış gerçekleşmezse listenin sonundaki alımı azaltın). Emirleri açılış seansı (09:40–09:55) için <b>limitli</b> verin; limit, son kapanışın %3 uzağına (tavan/taban içinde) ayarlanmıştır ve alımların toplamı limit fiyattan da nakdinize sığacak şekilde hesaplanmıştır. Açılışı tavandan olan hisseyi almayın.</p>'
       : `<p class="note">Yeni emir yok. Son karar: ${trDate(d.last_decision)}. Bot portföyü ayda bir, ayın ilk işlem günü gözden geçirir.</p>`;
     const ev = (d.events || []).map((e) => {
       if (e.kind === "temettü") return `<div class="banner" style="margin:10px 0 0">${esc(e.symbol)} temettü ödedi: nakde +${tl(e.cash)} TL (stopaj sonrası).</div>`;

@@ -105,8 +105,8 @@ def test_buys_are_scaled_pro_rata_to_available_cash():
     orders = plan_orders({"X": 10_000.0}, {"X": 1000.0}, prices, 90_000.0, targets, band=0.25,
                          cash=80_000.0, cost_rate=0.01, headroom=0.03)
     buys = [o for o in orders if o.side == "buy"]
-    available = 80_000 + 10_000 * 0.99
-    assert sum(o.shares * 10.0 for o in buys) * 1.04 == pytest.approx(available)  # limit fiyattan da para yeter
+    available = 80_000 + 10_000 * (1 - 0.01 - 0.03)  # satış da limit fiyattan (%3 aşağıdan) sayılır
+    assert sum(o.shares * 10.0 for o in buys) * 1.04 == pytest.approx(available)  # alımlar limit fiyattan da sığar
     assert len({round(o.shares, 6) for o in buys}) == 1  # hepsi aynı oranda küçültüldü
     # Para yetiyorsa dokunulmaz.
     roomy = plan_orders({}, {}, prices, 100_000.0, targets * 0.5, band=0.25, cash=100_000.0, cost_rate=0.01)

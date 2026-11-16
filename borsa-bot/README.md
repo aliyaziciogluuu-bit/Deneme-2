@@ -36,7 +36,7 @@ dahil; yani "bugünün kazananlarını geçmişe taşıma" hatası yok).
 
 | | Yıllık getiri | En büyük düşüş | Sharpe* |
 |---|---:|---:|---:|
-| **Strateji (20 hisse, masraflar düşülmüş)** | **%42,1** | **−%32** | **0,58** |
+| **Strateji (20 hisse, masraflar düşülmüş)** | **%41,8** | **−%32** | **0,57** |
 | Havuz sepeti: seçim yapılan tüm hisseler, eşit ağırlık, masrafsız | %35,9 | −%38 | 0,39 |
 | BIST 100 endeksi (büyük şirket ağırlıklı, temettüsüz) | %31,8 | −%32 | 0,27 |
 | Gecelik faiz (TLREF) | %27,2 | – | – |
@@ -45,29 +45,29 @@ dahil; yani "bugünün kazananlarını geçmişe taşıma" hatası yok).
 
 | Yıl | Strateji | Havuz sepeti | BIST 100 | Gecelik faiz |
 |---|---:|---:|---:|---:|
-| 2017 | +57% | +48% | +48% | +12% |
+| 2017 | +56% | +48% | +48% | +12% |
 | 2018 | −14% | −24% | −21% | +20% |
 | 2019 | +46% | +60% | +25% | +23% |
-| 2020 | +76% | +78% | +29% | +11% |
+| 2020 | +75% | +78% | +29% | +11% |
 | 2021 | +43% | +21% | +26% | +20% |
-| 2022 | +205% | +237% | +197% | +14% |
-| 2023 | +62% | +27% | +36% | +21% |
+| 2022 | +202% | +237% | +197% | +14% |
+| 2023 | +60% | +27% | +36% | +21% |
 | 2024 | +27% | +24% | +32% | **+64%** |
 | 2025 | +15% | +16% | +15% | **+55%** |
-| 2026 (13 Kasım'a kadar) | −10% | −14% | +5% | **+40%** |
+| 2026 (13 Kasım'a kadar) | −9% | −14% | +5% | **+40%** |
 
 **Bu sonuçlar ne kadar güvenilir? Kısaca: umut verici, ama kanıtlanmış değil.**
 
 - Strateji BIST 100 endeksini yılda yaklaşık 10 puan geçti; ancak bunun yaklaşık 4 puanı seçimden değil,
   hisseleri **eşit ağırlıkla** tutmaktan geliyor (havuz sepeti de endeksi geçiyor).
 - Hisse **seçiminin** katkısı, havuz sepetine göre yılda yaklaşık **+6 puan**. İstatistiksel olarak sınırda:
-  alfa t-istatistiği 1,75 (2'nin altı), bootstrap %90 güven aralığı yılda **−0,7 ile +9,6 puan** arası
-  (sıfırı içeriyor), sepeti geçme olasılığı %92.
-- Aynı havuzdan rastgele seçilip aynı kurallarla tutulan 200 portföyün **%90'ını** geçti (hepsini değil).
+  alfa t-istatistiği 1,7 (2'nin altı), bootstrap %90 güven aralığı yılda **−0,9 ile +9,4 puan** arası
+  (sıfırı içeriyor), sepeti geçme olasılığı %91.
+- Aynı havuzdan rastgele seçilip aynı kurallarla tutulan 200 portföyün **%89'unu** geçti (hepsini değil).
 - 27 farklı ayarla denendi (hisse sayısı, sıklık, sütunların tek tek çıkarılması vb.). Rejim filtresi
-  dışındaki 23 ayarın 22'si kendi havuz sepetini geçti. Kullanılan ayar bu denemelerin en iyisi değil
+  dışındaki 23 ayarın 22'si kendi havuz sepetini geçti (biri, yalnız kârlılık sütunu, sepetle aynı kaldı). Kullanılan ayar bu denemelerin en iyisi değil
   (Sharpe'a göre 16.), önceden sabitlenen ayardır; en iyi görüneni seçmek veriye uydurma olurdu.
-- Masraflar iki katına çıkınca yıllık getiri %42,1'den %41,3'e iniyor; emirler bir gün geç girilirse değişmiyor.
+- Masraflar iki katına çıkınca yıllık getiri %41,8'den %41,1'e iniyor; emirler bir gün geç girilirse değişmiyor.
 
 **Zayıf yanlar — bunları bilerek kullanın:**
 
@@ -75,7 +75,7 @@ dahil; yani "bugünün kazananlarını geçmişe taşıma" hatası yok).
   kaldı; 2026'da strateji ekside. Strateji "hangi hisse" sorusuna yanıt verir; "hisse mi, faiz mi" sorusuna vermez.
 - Portföy hep hissededir: piyasa düşünce o da düşer. Geçmişte en büyük düşüş %32; benzer koşullarda %55'e
   kadar düşüş olasılık dışı değil (bootstrap %5'lik dilim).
-- Sharpe oranının %90 güven aralığı −0,11 ile 1,28 arasında; yani faizi geçeceği kesin değil.
+- Sharpe oranının %90 güven aralığı −0,12 ile 1,27 arasında; yani faizi geçeceği kesin değil.
 - Dolar bazında 2025 ve 2026 eksi.
 - 10 yıllık veri, bir stratejiyi "kanıtlamak" için kısadır. Gerçek sonuçların geçmiş testin gerisinde kalması
   olağandır. Bu botu "piyasayı kesin yener" diye değil, "BIST 100 içinde disiplinli, dağıtılmış, kurallı
@@ -91,15 +91,15 @@ yani o tarihte bilinmeyen bilgi içeriyordu — artık kullanılmıyor, her mali
 değerlendiriliyor; (2) kıyas sepeti, borsanın Şubat 2023'te yeniden açıldığı günün yükselişini kaçırıyordu;
 (3) kıyas her gün yeniden dengeleniyordu, oysa adil kıyas stratejiyle aynı takvimi kullanan sepettir;
 (4) rastgele portföy testi rastgele portföylere fazladan masraf yüklüyordu. Bu düzeltmelerden önce seçim
-katkısı "+9,7 puan, t = 2,3" görünüyordu; doğrusu yukarıdaki "+6 puan, t = 1,75"tir.
+katkısı "+9,7 puan, t = 2,3" görünüyordu; doğrusu yukarıdaki "+6 puan, t = 1,7"dir.
 
 ### İsteğe bağlı "temkinli mod"
 
 BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse portföyün yarısını nakitte tutan bir filtre de
-var. Geçmiş testte yıllık getiriyi %46,6'ya çıkardı ve en büyük düşüşü %24'e indirdi. **Varsayılan değildir**,
+var. Geçmiş testte yıllık getiriyi %46,5'e çıkardı ve en büyük düşüşü %24'e indirdi. **Varsayılan değildir**,
 çünkü kazancı yalnızca iki döneme (2018-19 ve 2024-26) ve 12 aylık ayara dayanıyor; 6 aylık ayarda fayda
-kayboluyor (%40,4), 9 aylıkta azalıyor (%42,4) ve nakdiniz faiz kazanmıyorsa temel stratejiden kötü sonuç
-veriyor (%38,1). Açmak isterseniz `ayar.toml` dosyasının sonundaki üç satırın başındaki `#` işaretlerini
+kayboluyor (%40,2), 9 aylıkta azalıyor (%42,2) ve nakdiniz faiz kazanmıyorsa temel stratejiden kötü sonuç
+veriyor (%38,0). Açmak isterseniz `ayar.toml` dosyasının sonundaki üç satırın başındaki `#` işaretlerini
 silin ve nakit kısmını gecelik repo ya da para piyasası fonunda değerlendirin (para piyasası fonları da
 risksiz değildir). Bu ayar yalnızca sonraki kararları etkiler.
 
@@ -137,7 +137,11 @@ Bot bundan sonra her işlem günü İstanbul saatiyle 19:17'de (yedekleri 20:47,
 - Mesajda **emir varsa**, sonraki seansın açılışından önce (**09:40'tan önce**) aracı kurum uygulamanızdan girin:
   - önce **satışları**, sonra **alışları**;
   - emir türü **limitli**, mesajdaki limit fiyatla (son kapanışın %3 uzağı, tavan/taban içinde);
-  - lot adetleri tamdır ve alımların toplamı, limit fiyattan bile nakdinize sığacak şekilde hesaplanır;
+  - lot adetleri tamdır ve alımların toplamı, limit fiyatlardan bile (nakit + satış gelirine) sığacak
+    şekilde hesaplanır; aracı kurumunuz bekleyen satışın parasını kullandırmıyorsa alışları satışlar
+    gerçekleştikten hemen sonra girin;
+  - bir satış gerçekleşmezse (taban) parası yetmeyen, yani listenin sonundaki alımı azaltın; ertesi
+    akşamki mesajdaki "gerçekleşen" listesi kâğıt portföyün ne aldığını gösterir;
   - açılışı tavandan olan hisseyi **almayın** (bot da kâğıt portföyde almaz); tabandan açıldığı için
     satılamayan hisse ertesi günün listesinde "önceki günden kalan" olarak yeniden gelir.
 - Emir çoğu ay yalnızca ayın ilk işlem günü akşamı gelir (ayda ortalama 5 işlem).

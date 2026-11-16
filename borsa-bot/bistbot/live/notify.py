@@ -51,7 +51,10 @@ def format_message(payload: dict) -> str:
                 f"{side} {o['symbol']:<6} {o['lots']} lot  ≈{tl(o['value'])} TL  "
                 f"limit {bound} {tl(o['limit_price'], 2)}{note}"
             )
-        lines.append("Önce satışları, sonra alışları girin. Emirler açılış seansı (09:40-09:55) için limitlidir.")
+        lines.append("Önce satışları, sonra alışları girin; emirler açılış seansı (09:40-09:55) için limitlidir.")
+        if any(o["side"] == "sell" for o in orders) and any(o["side"] == "buy" for o in orders):
+            lines.append("Aracı kurumunuz bekleyen satışın parasını kullandırmıyorsa alışları satışlar gerçekleşince "
+                         "girin. Bir satış gerçekleşmezse listenin sonundaki alımı azaltın.")
     else:
         lines += ["", "Yeni emir yok."]
     fills = payload.get("fills_today") or []

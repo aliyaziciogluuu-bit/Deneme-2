@@ -111,9 +111,9 @@ def plan_orders(
     göreli olarak ``band``'dan fazla sapmışsa farkı kadar alınır/satılır.
 
     ``cash`` verilirse alımlar eldeki paraya sığdırılır: mevcut nakit + satışlardan beklenen
-    gelir (masraf düşülmüş). Alımların maliyeti, fiyatın ``headroom`` kadar yukarıda
-    gerçekleşebileceği varsayımıyla hesaplanır (limit fiyat payı). Para yetmiyorsa bütün
-    alımlar aynı oranda küçültülür (sıradaki son hisse aç bırakılmaz).
+    gelir (masraf düşülmüş). Emirler limitli verildiği için en kötü durum varsayılır: alımlar
+    ``headroom`` kadar yukarıdan, satışlar ``headroom`` kadar aşağıdan gerçekleşse de para
+    yetmelidir. Yetmiyorsa bütün alımlar aynı oranda küçültülür (son hisse aç bırakılmaz).
     """
     sells: list[Order] = []
     buys: list[Order] = []
@@ -140,7 +140,7 @@ def plan_orders(
                 sells.append(Order(sym, "sell", min(-diff / price, position_shares[sym]), reason="ağırlık"))
     if cash is not None and buys:
         proceeds = sum(o.shares * prices.get(o.symbol, 0.0) for o in sells if np.isfinite(prices.get(o.symbol, np.nan)))
-        available = max(cash + proceeds * (1.0 - cost_rate), 0.0)
+        available = max(cash + proceeds * (1.0 - cost_rate - headroom), 0.0)
         need = sum(o.shares * prices[o.symbol] for o in buys) * (1.0 + cost_rate + headroom)
         if need > available:
             scale = available / need if need > 0 else 0.0
