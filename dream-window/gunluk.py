@@ -14,10 +14,12 @@ KOK = pathlib.Path(__file__).parent
 AD = {"01-rainy-cabin": "yagmurlu_kulube", "03-christmas-cabin": "noel_kulubesi", "04-snowy-village": "karli_kasaba",
       "05-snowy-library": "kutuphane", "06-rainy-cafe": "yagmurlu_kafe", "07-christmas-eve": "noel_arifesi",
       "08-attic-bedroom": "cati_kati", "09-lighthouse": "deniz_feneri", "10-japanese-garden": "japon_bahcesi",
-      "11-aurora-igloo": "kuzey_isiklari", "12-christmas-train": "noel_treni"}
+      "11-aurora-igloo": "kuzey_isiklari", "12-christmas-train": "noel_treni",
+      "13-forest-cabin": "orman_kulubesi", "14-new-year-loft": "yilbasi_cati_kati", "15-rainy-bookshop": "yagmurlu_kitapci", "16-mountain-chalet": "alp_dag_evi", "17-dining-car": "yemekli_vagon", "18-rainy-greenhouse": "yagmurlu_sera", "19-castle-library": "kale_kutuphanesi", "20-lake-cabin": "gol_kulubesi"}
 TR = {"yagmurlu_kulube": "Yağmurlu kulübe", "noel_kulubesi": "Noel kulübesi", "karli_kasaba": "Karlı kasaba", "kutuphane": "Kütüphane",
       "yagmurlu_kafe": "Yağmurlu kafe", "noel_arifesi": "Noel arifesi", "cati_kati": "Çatı katı", "deniz_feneri": "Deniz feneri",
-      "japon_bahcesi": "Japon bahçesi", "kuzey_isiklari": "Kuzey ışıkları iglo", "noel_treni": "Noel treni"}
+      "japon_bahcesi": "Japon bahçesi", "kuzey_isiklari": "Kuzey ışıkları iglo", "noel_treni": "Noel treni",
+      "orman_kulubesi": "Karlı orman kulübesi", "yilbasi_cati_kati": "Yılbaşı çatı katı", "yagmurlu_kitapci": "Yağmurlu kitapçı", "alp_dag_evi": "Alp dağ evi", "yemekli_vagon": "Kış treni yemekli vagon", "yagmurlu_sera": "Yağmurlu sera", "kale_kutuphanesi": "Kale kütüphanesi", "gol_kulubesi": "Göl kenarı kulübe"}
 
 
 def bagla(kaynak: pathlib.Path, hedef: pathlib.Path):

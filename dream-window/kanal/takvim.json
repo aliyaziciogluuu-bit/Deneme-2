@@ -88,11 +88,35 @@
     "uzun": "09-lighthouse",
     "not": "Deniz feneri Shorts'unun (21 Kasım) İlgili videosu olarak bugünkü videoyu bağla."
   },
+  "2026-12-13": {
+    "uzun": "13-forest-cabin"
+  },
   "2026-12-19": {
     "uzun": "11-aurora-igloo",
     "not": "Kuzey ışıkları Shorts'larının (17 ve 29 Kasım) İlgili videosu olarak bugünkü iglo videosunu bağla."
   },
   "2026-12-23": {
     "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et."
+  },
+  "2026-12-28": {
+    "uzun": "14-new-year-loft"
+  },
+  "2027-01-02": {
+    "uzun": "15-rainy-bookshop"
+  },
+  "2027-01-05": {
+    "uzun": "16-mountain-chalet"
+  },
+  "2027-01-09": {
+    "uzun": "18-rainy-greenhouse"
+  },
+  "2027-01-12": {
+    "uzun": "17-dining-car"
+  },
+  "2027-01-16": {
+    "uzun": "20-lake-cabin"
+  },
+  "2027-01-19": {
+    "uzun": "19-castle-library"
   }
 }
