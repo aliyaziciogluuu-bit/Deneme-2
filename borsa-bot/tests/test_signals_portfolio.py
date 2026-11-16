@@ -72,15 +72,19 @@ def test_universe_excludes_flagged_and_young_stocks():
     ds.panel.gross.loc[day, "S01"] = True
     ds.panel.suspended.loc[day, "S02"] = True
     ds.panel.method.loc[day, "S03"] = "TF"
-    ds.panel.market.loc[day, "S04"] = "T"
+    ds.panel.market.loc[day, "S04"] = "K"  # endeks üyesiyse pazar kodu engel değildir
     ds.panel.bist100.loc[day, "S05"] = False
     ds.factor.loc[day, "S06"] = np.nan
     ds.panel.close.loc[ds.dates[:200], "S07"] = np.nan  # geç halka arz: 120 seans geçmiş
     cfg = Config()
     feats = compute_features(ds, cfg.signal)
     uni = universe_mask(ds, feats, cfg.universe).loc[day]
-    assert not uni[["S01", "S02", "S03", "S04", "S05", "S06", "S07"]].any()
-    assert uni[["S00", "S08", "S09"]].all()
+    assert not uni[["S01", "S02", "S03", "S05", "S06", "S07"]].any()
+    assert uni[["S00", "S04", "S08", "S09"]].all()
+    # Endeks şartı kapalıyken yalnızca ana pazarlar alınır.
+    from bistbot.config import UniverseConfig
+    loose = universe_mask(ds, feats, UniverseConfig(require_bist100=False)).loc[day]
+    assert not loose["S04"] and loose["S05"]
 
 
 def test_score_table_is_sorted_and_deterministic():

@@ -232,6 +232,13 @@ class BulletinStore:
             self._nosession_path.write_text("\n".join(d.isoformat() for d in sorted(self._nosession)) + "\n")
         return stats
 
+    def forget_nosession(self, days: list[dt.date]) -> None:
+        """"Seans yok" işaretlerini kaldırır (başka bir kaynak o gün seans olduğunu gösterdiyse)."""
+        before = len(self._nosession)
+        self._nosession.difference_update(days)
+        if len(self._nosession) != before:
+            self._nosession_path.write_text("".join(d.isoformat() + "\n" for d in sorted(self._nosession)))
+
     # -- okuma ------------------------------------------------------------------
     def load_day(self, day: dt.date) -> pd.DataFrame:
         df = pd.read_csv(

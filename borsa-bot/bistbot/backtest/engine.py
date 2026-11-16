@@ -15,11 +15,18 @@ Gerçekçilik:
 * boştaki nakit gecelik faizin bir payını kazanır;
 * kottan çıkan hisse son kapanışından nakde döner.
 
-Hesaplar düzeltilmiş fiyat uzayında ve kesirli payla yapılır; TL değerleri gerçektir, lot
-yuvarlaması (küçük sermayede önemsiz) yalnızca canlı kâğıt portföyde uygulanır.
+Hesaplar düzeltilmiş fiyat uzayında yapılır; TL değerleri gerçektir. İki kip vardır:
+
+* araştırma kipi (varsayılan): kesirli pay, temettüler (stopaj düşülerek) aynı hisseye yeniden
+  yatırılmış sayılır;
+* lot kipi (``lot_mode=True``, canlı kâğıt portföy): yalnızca tam lot alınıp satılır, nakit
+  temettü ve rüçhan hakkı değeri nakde eklenir, bedelsiz/bölünmede lot adedi değişir. Böylece
+  kâğıt portföy, emir listesini uygulayan birinin hesabıyla aynı lotları taşır.
 """
 from __future__ import annotations
 
+import math
+import re
 from dataclasses import dataclass, field
 
 import numpy as np
@@ -57,6 +64,7 @@ class BacktestResult:
     positions: dict[str, float] = field(default_factory=dict)  # son gün: sembol -> düzeltilmiş pay
     pending: list[Order] = field(default_factory=list)  # son günden sonra gerçekleşecek emirler
     pending_due: pd.Timestamp | None = None  # bekleyen emirlerin karar günü
+    events: list[dict] = field(default_factory=list)  # lot kipinde eldeki hisselerin özsermaye olayları
 
     @property
     def returns(self) -> pd.Series:
@@ -75,6 +83,17 @@ class BacktestResult:
         return float(self.trades["cost"].sum()) if not self.trades.empty else 0.0
 
 
+def is_share_event(code: str) -> bool:
+    """Bültenin özsermaye hali kodu lot adedini değiştiren bir olay mı (bedelsiz, sermaye azaltımı)?
+
+    Kodlar: 01 bedelli, 03 bedelsiz, 04 sermaye azaltımı, 06 nakit temettü; birleşik olaylar
+    ``01&03`` gibi yazılır. Bedelsiz ya da azaltım içeren her olay lot adedini değiştirir;
+    yalnızca temettü / yalnızca bedelli olaylarda lot aynı kalır, değer farkı nakittir.
+    """
+    parts = {p.strip().lstrip("0") for p in re.split(r"[&\-]", str(code)) if p.strip()}
+    return bool(parts & {"3", "4"})
+
+
 def plan_orders(
     position_values: dict[str, float],
     position_shares: dict[str, float],
@@ -82,11 +101,19 @@ def plan_orders(
     equity: float,
     targets: pd.Series,
     band: float,
+    cash: float | None = None,
+    cost_rate: float = 0.0,
+    headroom: float = 0.0,
 ) -> list[Order]:
     """Mevcut pozisyonlardan hedef ağırlıklara geçiş emirleri (önce satışlar).
 
     Hedefte olmayan pozisyon tümüyle satılır. Hedefte olan pozisyonun ağırlığı hedefinden
     göreli olarak ``band``'dan fazla sapmışsa farkı kadar alınır/satılır.
+
+    ``cash`` verilirse alımlar eldeki paraya sığdırılır: mevcut nakit + satışlardan beklenen
+    gelir (masraf düşülmüş). Alımların maliyeti, fiyatın ``headroom`` kadar yukarıda
+    gerçekleşebileceği varsayımıyla hesaplanır (limit fiyat payı). Para yetmiyorsa bütün
+    alımlar aynı oranda küçültülür (sıradaki son hisse aç bırakılmaz).
     """
     sells: list[Order] = []
     buys: list[Order] = []
@@ -111,6 +138,15 @@ def plan_orders(
                 buys.append(Order(sym, "buy", diff / price, reason="ağırlık"))
             else:
                 sells.append(Order(sym, "sell", min(-diff / price, position_shares[sym]), reason="ağırlık"))
+    if cash is not None and buys:
+        proceeds = sum(o.shares * prices.get(o.symbol, 0.0) for o in sells if np.isfinite(prices.get(o.symbol, np.nan)))
+        available = max(cash + proceeds * (1.0 - cost_rate), 0.0)
+        need = sum(o.shares * prices[o.symbol] for o in buys) * (1.0 + cost_rate + headroom)
+        if need > available:
+            scale = available / need if need > 0 else 0.0
+            for o in buys:
+                o.shares *= scale
+            buys = [o for o in buys if o.shares > 0]
     return sells + buys
 
 
@@ -127,6 +163,7 @@ def run_backtest(
     score_tables: dict | None = None,
     fixed_targets: dict | None = None,
     decision_dates: list | None = None,
+    lot_mode: bool = False,
 ) -> BacktestResult:
     """Stratejiyi geçmiş veride çalıştırır.
 
@@ -140,7 +177,8 @@ def run_backtest(
     ve dondurulmuş kararlar ``{gün: hedef ağırlık serisi}``; bu günlerde puan hesaplanmaz,
     kayıtlı hedefler aynen uygulanır (canlı kâğıt portföyün yeniden oynatılması için).
     ``decision_dates``: verilirse takvim yerine yalnızca bu günlerde karar verilir (canlıda
-    botun gerçekten çalışıp karar verdiği günler).
+    botun gerçekten çalışıp karar verdiği günler). ``lot_mode``: tam lot ve nakit temettü
+    kipi (modül açıklamasına bakın).
     """
     if execution_delay < 1:
         raise ValueError("execution_delay en az 1 olmalı (aynı gün kapanışından işlem yapılamaz)")
@@ -163,6 +201,8 @@ def run_backtest(
     suspended = ds.panel.suspended[cols].to_numpy(dtype=bool)
     listed = ds.panel.listed[cols].to_numpy(dtype=bool)
     div_tax = ds.div_tax[cols].to_numpy(dtype=float)
+    factor = ds.factor[cols].ffill().to_numpy(dtype=float)
+    corp = ds.panel.corp_action[cols].to_numpy(dtype=object)
     adv = feats.adv_20.to_numpy(dtype=float)
     limit = price_limit_series(dates).to_numpy()
     rf = ds.rf.to_numpy(dtype=float)
@@ -185,6 +225,7 @@ def run_backtest(
     pending_day: pd.Timestamp | None = None
     trades: list[dict] = []
     unfilled: list[dict] = []
+    events: list[dict] = []
     eq_hist, cash_hist, inv_hist, npos_hist = [], [], [], []
     weights_hist: dict[pd.Timestamp, pd.Series] = {}
     scores_hist: dict[pd.Timestamp, pd.DataFrame] = {}
@@ -198,7 +239,37 @@ def run_backtest(
         # 2) Temettü stopajı ve kottan çıkış.
         for sym in list(shares):
             j = col_pos[sym]
-            if div_tax[i, j] > 0:
+            if lot_mode and i > 0:
+                f_now, f_prev = factor[i, j], factor[i - 1, j]
+                if np.isfinite(f_now) and np.isfinite(f_prev) and f_now > 0 and abs(f_prev / f_now - 1.0) > 1e-9:
+                    step = f_prev / f_now  # < 1: hak kullanım gününde fiyat bu oranda düşer
+                    prev_px = adj_close[i - 1, j]
+                    lots_before = shares[sym] * f_prev
+                    code = str(corp[i, j] or "")
+                    if is_share_event(code) or step > 1.0:
+                        # Bedelsiz / bölünme: düzeltilmiş pay aynı kalır, lot 1/step katına çıkar;
+                        # küsurat lot nakde çevrilir.
+                        lots = shares[sym] * f_now
+                        whole = math.floor(lots + 1e-9)
+                        credit = (lots - whole) / f_now * prev_px if np.isfinite(prev_px) else 0.0
+                        shares[sym] = whole / f_now
+                        kind = "bedelsiz"
+                    else:
+                        # Nakit temettü / rüçhan hakkı: lot aynı kalır, değer farkı nakde eklenir
+                        # (temettüde stopaj düşülür; rüçhan hakkı kuramsal değerinden satılmış sayılır).
+                        value_prev = shares[sym] * prev_px if np.isfinite(prev_px) else 0.0
+                        credit = max(value_prev * ((1.0 - step) - div_tax[i, j]), 0.0)
+                        shares[sym] *= step
+                        kind = "bedelli" if "1" in {p.lstrip("0") for p in re.split(r"[&\-]", code)} else "temettü"
+                    cash += credit
+                    events.append(
+                        {"date": day, "symbol": sym, "kind": kind, "code": code, "step": step, "cash": credit,
+                         "lots_before": lots_before, "lots_after": shares.get(sym, 0.0) * f_now}
+                    )
+                    if shares[sym] <= 1e-12:
+                        del shares[sym]
+                        continue
+            elif div_tax[i, j] > 0:
                 shares[sym] *= 1.0 - div_tax[i, j]
             if not listed[i, j]:
                 last_px = adj_close[i, j]
@@ -234,15 +305,25 @@ def run_backtest(
                 continue
 
             qty = order.shares
+            f_exec = factor[i, j] if lot_mode and np.isfinite(factor[i, j]) and factor[i, j] > 0 else 1.0
+
+            def whole_lots(q: float) -> float:
+                """Lot kipinde miktarı tam lota aşağı yuvarlar (düzeltilmiş pay cinsinden döner)."""
+                return math.floor(q * f_exec + 1e-9) / f_exec if lot_mode else q
+
             if order.side == "sell":
                 held = shares.get(order.symbol, 0.0)
-                qty = held if order.exit else min(qty, held)
+                qty = held if order.exit else min(whole_lots(qty), held)
                 if qty <= 0:
                     continue
+            else:
+                qty = whole_lots(qty)
             cap_value = cfg.portfolio.max_participation * adv[i - 1, j] if i > 0 else np.inf
             if np.isfinite(cap_value) and qty * px > cap_value:
                 unfilled.append({"date": day, "symbol": order.symbol, "side": order.side, "reason": "hacim sınırı"})
-                qty = cap_value / px
+                qty = whole_lots(cap_value / px)
+                if qty <= 0:
+                    continue
             if order.side == "sell":
                 gross = qty * px
                 fee = gross * (commission + slip)
@@ -253,7 +334,7 @@ def run_backtest(
             else:
                 unit = px * (1.0 + commission + slip)
                 if qty * unit > cash:
-                    qty = max(cash, 0.0) / unit
+                    qty = whole_lots(max(cash, 0.0) / unit)
                 if qty <= 0:
                     unfilled.append({"date": day, "symbol": order.symbol, "side": "buy", "reason": "nakit yok"})
                     continue
@@ -286,13 +367,22 @@ def run_backtest(
                     table = score_tables[day]
                 else:
                     table = score_date(ds, feats, universe.loc[day], day, cfg.signal)
+                if table.empty:
+                    # Hiçbir hisse puanlanamadı: piyasa kapalı ya da veri yok. Portföye
+                    # dokunma; karar bir sonraki seansa kalır.
+                    if decision_dates is None and i + 1 <= i1:
+                        decision_set.add(dates[i + 1])
+                    continue
                 if scorer is not None:
                     table = scorer(day, table)
                 holdings = select_holdings(table, list(shares), cfg.portfolio)
                 targets = target_weights(holdings, float(exposure[i]), cfg.portfolio)
             targets = targets[[s for s in targets.index if s in col_pos]]
             prices = {s: adj_close[i, col_pos[s]] for s in set(shares) | set(targets.index)}
-            orders = plan_orders(values, shares, prices, equity, targets, cfg.portfolio.rebalance_band)
+            orders = plan_orders(
+                values, shares, prices, equity, targets, cfg.portfolio.rebalance_band,
+                cash=cash, cost_rate=commission + slip, headroom=cfg.portfolio.buy_headroom,
+            )
             pending = [(i + execution_delay, o) for o in orders]  # yeni plan eskisinin yerini alır
             pending_day = day
             weights_hist[day] = targets
@@ -313,4 +403,5 @@ def run_backtest(
         positions=dict(shares),
         pending=[o for _, o in pending],
         pending_due=pending_day if pending else None,
+        events=events,
     )

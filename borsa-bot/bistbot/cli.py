@@ -29,8 +29,13 @@ BACKTEST_START = dt.date(2015, 11, 30)
 log = logging.getLogger("bistbot")
 
 
+def _istanbul_now() -> dt.datetime:
+    """İstanbul saati (UTC+3, yaz saati uygulaması yok)."""
+    return (dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=3)).replace(tzinfo=None)
+
+
 def _istanbul_today() -> dt.date:
-    return (dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=3)).date()
+    return _istanbul_now().date()
 
 
 def _json_default(obj):
@@ -79,20 +84,26 @@ def write_json(path: Path, data: dict) -> None:
 # ---------------------------------------------------------------------------- komutlar
 def cmd_gunluk(args) -> int:
     from .live.notify import format_message, send_telegram
-    from .live.runner import DataNotReady, run_daily
-    from .live.state import BotState
+    from .live.runner import DataNotReady, notification_digest, run_daily
 
     cfg = load_config(args.ayar)
-    stores = open_stores(args.onbellek)
-    today = dt.date.fromisoformat(args.bugun) if args.bugun else _istanbul_today()
+    stores = open_stores(args.onbellek, live=True)
+    if args.bugun:
+        hour, minute = (int(x) for x in args.saat.split(":"))
+        now = dt.datetime.combine(dt.date.fromisoformat(args.bugun), dt.time(hour, minute))
+    else:
+        now = _istanbul_now()
     try:
-        result = run_daily(stores, args.durum, cfg, today, sync=not args.esitleme_yok, save=not args.deneme)
+        result = run_daily(stores, args.durum, cfg, now, sync=not args.esitleme_yok, save=not args.deneme)
     except DataNotReady as exc:
         log.error("veri hazır değil: %s", exc)
-        if not args.bildirim_yok:
-            send_telegram(f"⚠️ BIST Bot çalışamadı: {exc}")
+        if not args.bildirim_yok and not args.deneme:
+            send_telegram(f"⚠️ BIST Bot çalışamadı: {exc}. Bir sonraki çalıştırmada yeniden denenecek.")
         return 2
     payload = result.payload
+    if payload is None:  # henüz başlamadı: ilk karar için uygun zaman bekleniyor
+        print(result.message)
+        return 0
     message = format_message(payload)
     print(message)
     if args.deneme:
@@ -100,11 +111,11 @@ def cmd_gunluk(args) -> int:
     # Yeni seans yoksa içerik değişmez: dosyayı yeniden yazma (gereksiz depo kaydı oluşmasın).
     if not same_content(args.web / "latest.json", payload):
         write_json(args.web / "latest.json", payload)
-    state = result.state or BotState.load(args.durum)
-    already = state.notified == payload["as_of"]
-    if not args.bildirim_yok and (not already or args.yeniden_bildir):
+    state = result.state
+    digest = notification_digest(payload)
+    if not args.bildirim_yok and (digest != state.notified or args.yeniden_bildir):
         if send_telegram(message):
-            state.notified = payload["as_of"]
+            state.notified = digest
             state.save(args.durum)
     return 0
 
@@ -198,10 +209,11 @@ def build_parser() -> argparse.ArgumentParser:
     g = sub.add_parser("gunluk", help="günlük çalıştırma")
     g.add_argument("--durum", type=Path, default=DEFAULT_STATE)
     g.add_argument("--web", type=Path, default=DEFAULT_WEB_DATA)
-    g.add_argument("--bugun", help="tarihi elle ver (YYYY-AA-GG)")
+    g.add_argument("--bugun", help="tarihi elle ver (YYYY-AA-GG); sınama içindir")
+    g.add_argument("--saat", default="20:00", help="--bugun ile birlikte İstanbul saati (SS:DD)")
     g.add_argument("--esitleme-yok", action="store_true", help="veri indirme; yalnızca önbelleği kullan")
     g.add_argument("--bildirim-yok", action="store_true")
-    g.add_argument("--yeniden-bildir", action="store_true", help="aynı gün için bildirimi yeniden gönder")
+    g.add_argument("--yeniden-bildir", action="store_true", help="içerik değişmese de bildirimi yeniden gönder")
     g.add_argument("--deneme", action="store_true", help="hiçbir şey kaydetme, yalnızca ekrana yaz")
     g.set_defaults(func=cmd_gunluk)
 
@@ -228,6 +240,9 @@ def main(argv: list[str] | None = None) -> int:
         level=logging.DEBUG if args.ayrintili else logging.INFO,
         format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S",
     )
+    # HTTP kitaplığının ayrıntı günlüğü istek adresini yazar; Telegram adresi anahtarı içerdiği
+    # için ayrıntılı kipte bile kapalı tutulur.
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
     return args.func(args)
 
 

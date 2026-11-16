@@ -39,12 +39,18 @@ class Stores:
     macro: MacroStore
 
 
-def open_stores(root: Path | str) -> Stores:
+def open_stores(root: Path | str, live: bool = False) -> Stores:
+    """Önbellek klasörlerini açar.
+
+    Günlük çalışma (``live=True``) İş Yatırım dosyalarını ayrı bir klasörde tutar: orada
+    yalnızca son ~1,5 yıllık pencere indirilir ve bu kısa dosyalar, uzun dönem araştırma
+    dosyalarının üzerine yazılmamalıdır.
+    """
     root = Path(root)
     return Stores(
         root=root,
         bulletins=BulletinStore(root / "bulletin", HttpClient(min_interval=0.15)),
-        isy=IsyStore(root / "isy", HttpClient(min_interval=0.4)),
+        isy=IsyStore(root / ("isy-live" if live else "isy"), HttpClient(min_interval=0.4)),
         macro=MacroStore(root / "macro", HttpClient(min_interval=0.4)),
     )
 

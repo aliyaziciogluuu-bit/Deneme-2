@@ -35,7 +35,11 @@ jobs:
       run:
         working-directory: borsa-bot
     steps:
+      # Olayın tetiklendiği andaki değil, dalın şu anki ucunu al: sırada bekleyen bir çalıştırma
+      # bir öncekinin yazdığı durumu görsün (yoksa aynı kararı ikinci kez verip bildirir).
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v5
         with:
@@ -76,14 +80,20 @@ jobs:
             exit 0
           fi
           git commit -m "BIST Bot: $(date -u +%Y-%m-%d) güncellemesi"
+          # Araya başka bir kayıt girdiyse üzerine yeniden uygula; aynı dosyada çakışma olursa
+          # bu çalıştırmanın ürettiği (en güncel) sürüm geçerlidir.
           for i in 1 2 3; do
-            git pull --rebase && git push && exit 0
+            if git pull --rebase -X theirs && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
             sleep 10
           done
+          echo "Durum depoya yazılamadı." >&2
           exit 1
 
       - name: Hata bildirimi
-        if: failure()
+        if: failure() || cancelled()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

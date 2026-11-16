@@ -4,9 +4,11 @@
 # bakılmadan önce sabitlendi. Değiştirmek sonuçları "veriye uydurma" riskine sokar.
 
 # Kâğıt portföyün başlangıç sermayesi (TL). Emir listesindeki lot adetleri buna göre hesaplanır.
-# Gerçek hesabınızda ayıracağınız tutarı yazın. İlk çalıştırmadan SONRA değiştirmenin etkisi olmaz.
+# Gerçek hesabınızda ayıracağınız tutarı yazın.
 capital = 100000
 
+# ÖNEMLİ: Sermaye ve aşağıdaki [cost] ayarları botun verdiği İLK kararda sabitlenir. Sonradan
+# değiştirmenin etkisi olmaz; böylece geçmiş işlemler yeniden yazılmaz. Baştan doğru girin.
 [cost]
 # Aracı kurumunuzun komisyon oranı (tek yön, BSMV hariç). 0.002 = binde 2.
 commission = 0.002

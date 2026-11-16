@@ -6,7 +6,7 @@ kararlar ``t`` kapanışından sonra verilir, işlemler ``t+1`` seansında yapı
 Dört sütun (hepsi BIST üzerine yayımlanmış kesitsel bulgulara dayanır):
 
 * **Değer**: özkaynak / piyasa değeri (düşük PD/DD) ve kâr / piyasa değeri (düşük F/K).
-* **Kârlılık**: son 12 ay net kâr / ortalama özkaynak.
+* **Kârlılık**: yıllıklandırılmış net kâr / özkaynak (aynı mali tablodan).
 * **Düşük risk**: düşük oynaklık, düşük beta, düşük "piyango" eğilimi (son ayın en yüksek
   günlük getirileri).
 * **Momentum**: 12 aylık getiri, son ay hariç.
@@ -89,14 +89,12 @@ def compute_features(ds: Dataset, cfg: SignalConfig, symbols: list[str] | None =
     momentum = px.shift(cfg.mom_skip) / px.shift(cfg.mom_lookback) - 1.0
 
     mcap = ds.mcap[cols].where(ds.mcap[cols] > 0)
-    equity, ni, eq_prev = ds.equity[cols], ds.ni_ttm[cols], ds.equity_prev[cols]
-    # Ortalama özkaynak; bir yıl öncesi yoksa güncel özkaynak kullanılır.
-    avg_equity = (equity + eq_prev.fillna(equity)) / 2.0
+    equity, ni = ds.equity[cols], ds.ni_annual[cols]
     return Features(
         vol=vol, beta=beta, lottery=lottery, momentum=momentum,
         book_to_market=equity / mcap,
         earnings_yield=ni / mcap,
-        roe=ni / avg_equity.where(avg_equity > 0),
+        roe=ni / equity.where(equity > 0),
         history=traded.cumsum(),
         traded_60=traded.rolling(60, min_periods=1).sum(),
         adv_20=ds.panel.value[cols].rolling(20, min_periods=10).median(),
@@ -108,8 +106,7 @@ def universe_mask(ds: Dataset, feats: Features, cfg: UniverseConfig) -> pd.DataF
     cols = list(feats.vol.columns)
     p = ds.panel
     mask = (
-        p.market[cols].isin(MAIN_MARKETS)
-        & (p.method[cols] == CONTINUOUS_METHOD)
+        (p.method[cols] == CONTINUOUS_METHOD)
         & ~p.gross[cols]
         & ~p.suspended[cols]
         & p.close[cols].notna()
@@ -118,7 +115,11 @@ def universe_mask(ds: Dataset, feats: Features, cfg: UniverseConfig) -> pd.DataF
         & (feats.traded_60 >= cfg.min_traded_days_60)
     )
     if cfg.require_bist100:
+        # Endeks üyeliği yeterlidir; pazar kodu aranmaz (2020'ye kadar GYO'lar ve yatırım
+        # ortaklıkları BIST 100 üyesi olsalar da bültende ayrı bir pazar koduyla yer alır).
         mask &= p.bist100[cols]
+    else:
+        mask &= p.market[cols].isin(MAIN_MARKETS)
     return mask
 
 

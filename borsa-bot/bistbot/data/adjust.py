@@ -68,13 +68,14 @@ def factor_steps(factor: pd.Series) -> pd.Series:
 def align_factor(factor: pd.Series, dates: pd.DatetimeIndex) -> pd.Series:
     """Katsayıyı bülten tarihlerine hizalar.
 
-    Arada eksik gün varsa önceki günün katsayısı taşınır; seri başlamadan önceki günlere
-    ilk katsayı, bittikten sonraki günlere son katsayı yazılır.
+    Arada eksik gün varsa önceki günün katsayısı taşınır; seri bittikten sonraki günlere son
+    katsayı yazılır. Seri başlamadan ÖNCEKİ günler boş (NaN) kalır: o günlerdeki özsermaye
+    olayları bilinmediği için ilk katsayıyı geriye taşımak sessizce yanlış getiri üretir.
     """
     if factor.empty:
         return pd.Series(np.nan, index=dates, name="factor")
     f = factor[~factor.index.duplicated(keep="last")].sort_index()
-    out = f.reindex(f.index.union(dates)).ffill().bfill().reindex(dates)
+    out = f.reindex(f.index.union(dates)).ffill().reindex(dates)
     out.name = "factor"
     return out
 

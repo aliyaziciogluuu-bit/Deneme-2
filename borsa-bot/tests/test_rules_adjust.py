@@ -62,7 +62,8 @@ def test_align_factor_extends_to_bulletin_dates():
     f = _series([0.5, 0.5, 1.0, 1.0], start="2022-01-05")
     dates = pd.bdate_range("2022-01-03", periods=8)
     out = align_factor(f, dates)
-    assert out.iloc[0] == 0.5 and out.iloc[-1] == 1.0 and not out.isna().any()
+    # Seri başlamadan önceki günler boş kalır (geriye doldurma yok); sonrası taşınır.
+    assert out.iloc[:2].isna().all() and out.iloc[2] == 0.5 and out.iloc[-1] == 1.0 and not out.iloc[2:].isna().any()
 
 
 def _bars(closes, prev_field=None):

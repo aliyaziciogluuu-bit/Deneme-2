@@ -98,12 +98,21 @@ class Lab:
             self._prepared[key] = Prepared(feats, universe_mask(self.ds, feats, cfg.universe), {})
         return self._prepared[key]
 
+    def decision_days(self, cfg: Config) -> list[pd.Timestamp]:
+        days = set(rebalance_dates(self.ds.dates, cfg.portfolio)) | {self.start}
+        return sorted(d for d in days if self.start <= d <= self.end)
+
+    def tables(self, cfg: Config) -> dict:
+        """Karar günlerinin puan tabloları (bir kez hesaplanır, koşular arasında paylaşılır)."""
+        prep = self.prepare(cfg)
+        for day in self.decision_days(cfg):
+            if day not in prep.tables:
+                prep.tables[day] = score_date(self.ds, prep.feats, prep.universe.loc[day], day, cfg.signal)
+        return prep.tables
+
     def run(self, cfg: Config, scorer=None, **kw) -> BacktestResult:
         prep = self.prepare(cfg)
-        # Puan tabloları yalnızca karar günlerinde gerekir; koşular arasında paylaşılır.
-        for day in set(rebalance_dates(self.ds.dates, cfg.portfolio)) | {self.start}:
-            if self.start <= day <= self.end and day in prep.universe.index and day not in prep.tables:
-                prep.tables[day] = score_date(self.ds, prep.feats, prep.universe.loc[day], day, cfg.signal)
+        self.tables(cfg)
         start = kw.pop("start", self.start)
         end = kw.pop("end", self.end)
         return run_backtest(
@@ -120,8 +129,12 @@ class Lab:
             s = s.loc[window].dropna()
             return s / s.iloc[0]
 
+        tables = self.tables(cfg)
+        # Sepet, stratejinin o gün seçim yaptığı havuzun (puanlanan hisselerin) tamamıdır.
+        baskets = {d: list(tables[d].index) for d in self.decision_days(cfg) if not tables[d].empty}
         return {
-            "ew": norm(bm.equal_weight_universe(self.ds, prep.universe)),
+            "ew": norm(bm.periodic_equal_weight(self.ds, baskets)),
+            "ew_daily": norm(bm.equal_weight_universe(self.ds, prep.universe)),
             "xu100": norm(self.ds.xu100),
             "cash": norm(bm.cash(self.ds)),
         }
@@ -165,7 +178,8 @@ def full_report(ds: Dataset, base: Config, start: str, end: str | None = None,
 
     usd = ds.usdtry
     series = {
-        "strateji": eq / eq.iloc[0], "esit_agirlik": bench["ew"], "bist100": bench["xu100"], "nakit": bench["cash"],
+        "strateji": eq / eq.iloc[0], "esit_agirlik": bench["ew"], "esit_agirlik_gunluk": bench["ew_daily"],
+        "bist100": bench["xu100"], "nakit": bench["cash"],
         "strateji_usd": deflate(eq, usd), "bist100_usd": deflate(bench["xu100"], usd),
         "strateji_nakde_gore": deflate(eq, bench["cash"]),
     }
@@ -240,16 +254,28 @@ def full_report(ds: Dataset, base: Config, start: str, end: str | None = None,
     }
 
     # Rastgele portföy testi: aynı evren, aynı kurallar, karıştırılmış sıralar.
+    # Her rastgele portföyde hisselere bir kez rastgele puan verilir ve koşu boyunca sabit
+    # tutulur: sıralar gerçek puanlar gibi kalıcıdır, devir hızı (dolayısıyla masraf)
+    # stratejiden yüksek olmaz. Her ay yeniden karıştırmak rastgele portföylere yılda ~%4
+    # fazladan masraf yükler ve testi stratejinin lehine çarpıtırdı.
     rng = np.random.default_rng(seed)
-    rand_cagr, rand_sharpe = [], []
+    rand_cagr, rand_sharpe, rand_turnover = [], [], []
 
-    def shuffle(_day, tbl):
-        out = tbl.copy()
-        out["rank"] = rng.permutation(len(out)) + 1
-        return out.sort_values("rank")
+    def fixed_random_scorer():
+        score = pd.Series(rng.random(len(lab.symbols)), index=lab.symbols)
+
+        def scorer(_day, tbl):
+            out = tbl.copy()
+            out["score"] = score.reindex(out.index).to_numpy()
+            out = out.assign(_s=out.index).sort_values(["score", "_s"], ascending=[False, True]).drop(columns="_s")
+            out["rank"] = np.arange(1, len(out) + 1)
+            return out
+
+        return scorer
 
     for _ in range(n_random):
-        r = lab.run(base, scorer=shuffle)
+        r = lab.run(base, scorer=fixed_random_scorer())
+        rand_turnover.append(r.turnover())
         s = summarize(r.equity, ds.rf)
         rand_cagr.append(s["cagr"])
         rand_sharpe.append(s["sharpe"])
@@ -261,6 +287,7 @@ def full_report(ds: Dataset, base: Config, start: str, end: str | None = None,
         "cagr_p95": float(np.quantile(rand_cagr, 0.95)) if rand_cagr else float("nan"),
         "strategy_cagr_percentile": stats.percentile_of(p["cagr"], np.array(rand_cagr)),
         "strategy_sharpe_percentile": stats.percentile_of(p["sharpe"], np.array(rand_sharpe)),
+        "turnover_median": float(np.median(rand_turnover)) if rand_turnover else float("nan"),
     }
     report["_series"] = {k: v for k, v in series.items()}
     report["_primary"] = primary

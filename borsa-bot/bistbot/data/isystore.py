@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import datetime as dt
 import logging
+import os
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -14,6 +16,10 @@ from .http import HttpClient
 log = logging.getLogger(__name__)
 
 HISTORY_START = dt.date(2015, 11, 30)
+
+
+class EmptyResponse(RuntimeError):
+    """Kaynak boş yanıt verdi; önbellekteki dolu dosya korundu."""
 
 
 def quarter_ends(start: dt.date, end: dt.date) -> list[tuple[int, int]]:
@@ -58,15 +64,25 @@ class IsyStore:
         return self.path(kind, symbol).exists()
 
     # -- indirme ----------------------------------------------------------------
-    def fetch_history(self, symbol: str, end: dt.date, start: dt.date = HISTORY_START) -> pd.DataFrame:
-        df = isy.fetch_history(self.client, symbol, start, end)
-        df.to_csv(self.path("history", symbol), index=False)
+    def _write(self, kind: str, symbol: str, df: pd.DataFrame) -> pd.DataFrame:
+        """Dosyayı atomik yazar. Kaynak boş yanıt verdiyse ve elde dolu bir dosya varsa
+        eskisi korunur: geçici bir kesinti, iyi veriyi silmemelidir.
+        """
+        path = self.path(kind, symbol)
+        if df.empty and path.exists():
+            old = self.load(kind, symbol)
+            if old is not None and not old.empty:
+                raise EmptyResponse(f"{kind} {symbol}: kaynak boş yanıt verdi, eldeki veri korundu")
+        tmp = path.with_suffix(f".{threading.get_ident()}.tmp")
+        df.to_csv(tmp, index=False)
+        os.replace(tmp, path)
         return df
 
+    def fetch_history(self, symbol: str, end: dt.date, start: dt.date = HISTORY_START) -> pd.DataFrame:
+        return self._write("history", symbol, isy.fetch_history(self.client, symbol, start, end))
+
     def fetch_actions(self, symbol: str) -> pd.DataFrame:
-        df = isy.fetch_corporate_actions(self.client, symbol)
-        df.to_csv(self.path("actions", symbol), index=False)
-        return df
+        return self._write("actions", symbol, isy.fetch_corporate_actions(self.client, symbol))
 
     def fetch_financials(self, symbol: str, start: dt.date, end: dt.date) -> pd.DataFrame:
         """Tüm dönemleri getirir; mevcut dosyadaki dönemleri korur, yenileriyle birleştirir."""
@@ -104,8 +120,7 @@ class IsyStore:
             )
         else:
             df = pd.DataFrame(columns=isy.FINANCIAL_COLUMNS)
-        df.to_csv(self.path("financials", symbol), index=False)
-        return df
+        return self._write("financials", symbol, df)
 
     def sync(
         self,

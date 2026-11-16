@@ -113,7 +113,7 @@
       <p>Her işlem günü kapanıştan sonra Borsa İstanbul'un resmî günlük bültenini indirir, BIST 100 hisselerini dört ölçüte göre puanlar ve en iyi 20 hisseden eşit ağırlıklı bir portföy tutar. Ayda bir (ayın ilk işlem günü) portföyü gözden geçirir.</p>
       <p><b>Dört ölçüt:</b> değer (özkaynağa ve kâra göre ucuzluk), kârlılık (özkaynak kârlılığı), düşük risk (az oynak, az "piyango" hissesi) ve momentum (son 12 ayın getirisi, son ay hariç). Bunlar Borsa İstanbul üzerine yayımlanmış akademik çalışmalarda öne çıkan etkenlerdir.</p>
       <p><b>Emirler gerçek hesaba gönderilmez.</b> Bot bir "kâğıt portföy" tutar ve ertesi sabah vermeniz gereken emirlerin listesini üretir. Emirleri aracı kurumunuzun uygulamasından siz girersiniz: açılış seansı (09:40–09:55) için limitli emir, önce satışlar sonra alışlar.</p>
-      <p><b>Riskler:</b> Geçmiş performans geleceği garanti etmez. Bu portföy her zaman hissededir; piyasa düştüğünde o da düşer (geçmiş testte en büyük düşüş %36). Son yıllarda gecelik faiz hisselerin önünde gitti. Kaybetmeyi göze alamayacağınız parayla işlem yapmayın. Buradaki hiçbir şey yatırım tavsiyesi değildir.</p>
+      <p><b>Riskler:</b> Geçmiş performans geleceği garanti etmez. Bu portföy her zaman hissededir; piyasa düştüğünde o da düşer (geçmiş testte en büyük düşüş %32). Son yıllarda gecelik faiz hisselerin önünde gitti. Kaybetmeyi göze alamayacağınız parayla işlem yapmayın. Buradaki hiçbir şey yatırım tavsiyesi değildir.</p>
     </div>
   </section>
   <footer id="foot"></footer>
@@ -199,17 +199,23 @@
       stat("En büyük düşüş", pct(d.max_drawdown), "neg"),
       stat("Aynı dönem BIST 100", pct(d.xu100_return), cls(d.xu100_return)),
       stat("Aynı dönem gecelik faiz", pct(d.cash_return), cls(d.cash_return)),
-      stat("Hisse ağırlığı", "%" + nf(0).format(d.invested_pct * 100)),
-      stat("Gecelik faiz (yıllık)", "%" + nf(1).format(d.rf_annual * 100)),
+      stat("Hisse ağırlığı", "%" + nf(0).format(d.invested_pct * 100) + " · nakit " + tl(d.cash) + " TL"),
+      stat("Gecelik faiz (yıllık)", d.rf_annual == null ? "–" : "%" + nf(1).format(d.rf_annual * 100)),
     ].join("");
 
     const o = d.orders || [];
-    $("ordersTitle").textContent = o.length ? trDate(d.next_session) + " açılışı için emirler" : "Emirler";
+    $("ordersTitle").textContent = o.length ? "Sonraki seans açılışı için emirler (en erken " + trDate(d.next_session) + ")" : "Emirler";
     $("orders").innerHTML = o.length
       ? '<div class="scroll">' + table(["Hisse", "", "Lot", "Limit", "Yaklaşık TL", "Son fiyat"], o.map((r) => [
           sym(r), side(r.side), tl(r.lots), (r.side === "sell" ? "≥ " : "≤ ") + tl(r.limit_price, 2), tl(r.value), tl(r.ref_price, 2),
-        ])) + '</div><p class="note" style="margin-top:10px">Önce satışları, sonra alışları girin. Emirleri açılış seansı (09:40–09:55) için <b>limitli</b> verin; limit, son kapanışın %3 uzağına (tavan/taban içinde) ayarlanmıştır. Açılışı tavandan olan hisseyi almayın.</p>'
-      : `<p class="note">Bugün yeni emir yok. Son karar: ${trDate(d.last_decision)}. Bot portföyü ayda bir, ayın ilk işlem günü gözden geçirir.</p>`;
+        ])) + '</div><p class="note" style="margin-top:10px">Önce satışları, sonra alışları girin. Emirleri açılış seansı (09:40–09:55) için <b>limitli</b> verin; limit, son kapanışın %3 uzağına (tavan/taban içinde) ayarlanmıştır ve alımların toplamı limit fiyattan da nakdinize sığacak şekilde hesaplanmıştır. Açılışı tavandan olan hisseyi almayın.</p>'
+      : `<p class="note">Yeni emir yok. Son karar: ${trDate(d.last_decision)}. Bot portföyü ayda bir, ayın ilk işlem günü gözden geçirir.</p>`;
+    const ev = (d.events || []).map((e) => {
+      if (e.kind === "temettü") return `<div class="banner" style="margin:10px 0 0">${esc(e.symbol)} temettü ödedi: nakde +${tl(e.cash)} TL (stopaj sonrası).</div>`;
+      if (e.kind === "bedelsiz") return `<div class="banner" style="margin:10px 0 0">${esc(e.symbol)} bedelsiz/bölünme: lot adediniz ${tl(e.lots_before)} → ${tl(e.lots_after)}.</div>`;
+      return `<div class="banner bad" style="margin:10px 0 0">${esc(e.symbol)} bedelli sermaye artırımı: rüçhan haklarınızı satmanız ya da kullanmanız gerekir. Kâğıt portföy hakların satıldığını varsaydı (+${tl(e.cash)} TL).</div>`;
+    }).join("");
+    $("orders").insertAdjacentHTML("beforeend", ev);
 
     const c = d.curve || [];
     const t = (r) => new Date(r.d).getTime();
@@ -219,7 +225,7 @@
       { name: "Kâğıt portföy", color: css("--accent"), bold: true, points: c.map((r) => [t(r), r.e]) },
     ], { label: "Kâğıt portföy, BIST 100 ve gecelik faiz (başlangıç = 1)" });
 
-    $("positions").innerHTML = table(["Hisse", "Lot", "Fiyat", "Değer TL", "Ağırlık", "Kâr/zarar", "Sıra", "Alış"],
+    $("positions").innerHTML = table(["Hisse", "Lot", "Fiyat", "Değer TL", "Ağırlık", "Fiyat K/Z", "Sıra", "Alış"],
       (d.positions || []).map((r) => [sym(r), tl(r.lots), tl(r.price, 2), tl(r.value), "%" + nf(1).format(r.weight * 100),
         `<span class="${cls(r.pnl_pct)}">${pct(r.pnl_pct)}</span>`, r.rank ?? "–", trDate(r.since)]));
 
@@ -244,32 +250,34 @@
     const row = (name, s, bold) => [bold ? `<b>${name}</b>` : name, pct(s.cagr), "%" + nf(0).format(s.volatility * 100),
       name === "Gecelik faiz" ? "–" : nf(2).format(s.sharpe), pct(s.max_drawdown, 0)];
     let h = `<div class="card"><h2>Geçmiş testi: ${trDate(b.start)} – ${trDate(b.end)}</h2>
-      <p class="note">Kurallar veriye bakılmadan önce sabitlendi. Sonuçlar komisyon, BSMV, kayma ve temettü stopajı düşülmüş hâlidir; işlemler kararın ertesi günü açılış fiyatından yapılmıştır. Kıyas olarak aynı havuzun (BIST 100) eşit ağırlıklı ortalaması, BIST 100 endeksi ve gecelik faiz verilmiştir.</p>
+      <p class="note">Kurallar veriye bakılmadan önce sabitlendi. Sonuçlar komisyon, BSMV, kayma ve temettü stopajı düşülmüş hâlidir; işlemler kararın ertesi günü açılış fiyatından yapılmıştır. Asıl kıyas "havuz sepeti"dir: stratejinin seçim yaptığı hisselerin tamamı, aynı takvimle, eşit ağırlıkla ve masrafsız tutulsaydı ne olurdu.</p>
       <div class="scroll">${table(["", "Yıllık getiri", "Oynaklık", "Sharpe*", "En büyük düşüş"], [
-        row("Strateji", p, true), row("Eşit ağırlıklı BIST 100", bm.ew), row("BIST 100 endeksi", bm.xu100), row("Gecelik faiz", bm.cash)])}</div>
-      <p class="note" style="margin-top:8px">* Sharpe, gecelik faizin üzerindeki getiriyle hesaplanır. BIST 100 endeksi temettü içermez (yılda yaklaşık 2–3 puan eksik gösterir).</p></div>`;
+        row("Strateji (20 hisse)", p, true), row("Havuz sepeti (tüm hisseler, eşit ağırlık)", bm.ew), row("BIST 100 endeksi", bm.xu100), row("Gecelik faiz", bm.cash)])}</div>
+      <p class="note" style="margin-top:8px">* Sharpe, gecelik faizin üzerindeki getiriyle hesaplanır. BIST 100 endeksi büyük şirket ağırlıklıdır ve temettü içermez (yılda yaklaşık 2–3 puan eksik gösterir); stratejinin endekse farkının bir kısmı seçimden değil, eşit ağırlıktan gelir.</p></div>`;
 
     h += '<div class="card"><h2>Değer eğrisi (logaritmik ölçek, başlangıç = 1)</h2><div id="btChart"></div></div>';
 
     const years = Object.keys(b.yearly || {}).sort();
-    h += `<div class="card"><h2>Yıllara göre getiri</h2><div class="scroll">${table(["Yıl", "Strateji", "Eşit ağ.", "BIST 100", "Faiz", "Strateji (USD)", "BIST 100 (USD)"],
-      years.map((y) => { const r = b.yearly[y]; const c = (v) => `<span class="${cls(v)}">${pct(v, 0)}</span>`;
+    h += `<div class="card"><h2>Yıllara göre getiri</h2><div class="scroll">${table(["Yıl", "Strateji", "Havuz sepeti", "BIST 100", "Faiz", "Strateji (USD)", "BIST 100 (USD)"],
+      years.map((y) => { const r = b.yearly[y]; const c = (v) => `<span class="${cls(v)}">${pct(v, 0)}</span>`; // esit_agirlik = havuz sepeti
         return [y, `<b>${c(r.strateji)}</b>`, c(r.esit_agirlik), c(r.bist100), c(r.nakit), c(r.strateji_usd), c(r.bist100_usd)]; }))}</div>
-      <p class="note" style="margin-top:8px">Dikkat: 2024, 2025 ve 2026'da gecelik faiz hem endeksin hem stratejinin önünde. Dolar bazında son yıllar zayıf.</p></div>`;
+      <p class="note" style="margin-top:8px">Dikkat: 2024, 2025 ve 2026'da gecelik faiz hem endeksin hem stratejinin önünde. Dolar bazında son yıllar zayıf; 2026'da strateji ekside.</p></div>`;
 
     h += `<div class="card"><h2>Ne kadar güvenilir?</h2><div class="grid">
-      ${stat("BIST 100 ortalamasına göre fazla getiri", pct(p.excess_cagr) + " / yıl", cls(p.excess_cagr))}
+      ${stat("Havuz sepetine göre fazla getiri", pct(p.excess_cagr) + " / yıl", cls(p.excess_cagr))}
       ${stat("Alfa t-istatistiği", nf(2).format(p.alpha_tstat))}
       ${stat("Yıllık devir hızı", nf(2).format(b.primary.turnover) + "×")}
       ${stat("Rastgele portföylere göre", rp.strategy_cagr_percentile != null ? "%" + nf(0).format(rp.strategy_cagr_percentile * 100) + " dilim" : "–")}
       ${stat("Sharpe %90 aralığı", bs.sharpe ? nf(2).format(bs.sharpe.p05) + " – " + nf(2).format(bs.sharpe.p95) : "–")}
-      ${stat("Ortalamayı geçme olasılığı", bs.ew_ustu_yillik ? "%" + nf(0).format(bs.ew_ustu_yillik.p_positive * 100) : "–")}
+      ${stat("Sepeti geçme olasılığı", bs.ew_ustu_yillik ? "%" + nf(0).format(bs.ew_ustu_yillik.p_positive * 100) : "–")}
+      ${stat("Fazla getiri %90 aralığı", bs.ew_ustu_yillik ? pct(bs.ew_ustu_yillik.p05) + " … " + pct(bs.ew_ustu_yillik.p95) : "–")}
+      ${stat("Aşırı uyum olasılığı (PBO)", sb.pbo_active && sb.pbo_active.pbo != null ? "%" + nf(0).format(sb.pbo_active.pbo * 100) : "–")}
       ${stat("Sönümlenmiş Sharpe (DSR)", sb.dsr_vs_cash != null ? "%" + nf(0).format(sb.dsr_vs_cash * 100) : "–")}
       ${stat("Birincil ayarın sırası", sb.primary_rank_by_sharpe != null ? sb.primary_rank_by_sharpe + " / " + sb.n_trials : "–")}
       </div><div class="note" style="margin-top:10px">
-      <p><b>Nasıl okunur:</b> t-istatistiği 2'nin üzerindeyse seçim katkısı şansla açıklanması zor demektir; 3'ün altında kaldığı sürece "kanıtlanmış" sayılmaz. "Rastgele portföylere göre" değeri, aynı havuzdan aynı kurallarla rastgele seçilen ${tl(rp.n)} portföyün kaçta kaçını geçtiğini gösterir.</p>
-      <p>DSR, denenen ${tl(sb.n_trials)} farklı ayarın en iyisinin şansla çıkabileceğini hesaba katar (1'e yakın olması iyidir). "Birincil ayarın sırası", kullanılan ayarın bu denemeler içinde Sharpe'a göre kaçıncı olduğunu gösterir: en iyisi seçilmedi, önceden sabitlenen ayar kullanılıyor. Denemeler arasından geçmişte en iyi görüneni seçmek aşırı uyum olurdu; sütunların göreli başarısı dönemden döneme tersine dönüyor.</p>
-      <p>Gerçek hayatta sonuçların geçmiş testin gerisinde kalması olağandır; planı geçmiş testin yarısı kadar bir katkıya göre yapmak akıllıcadır.</p></div></div>`;
+      <p><b>Nasıl okunur:</b> Seçimin katkısı için alfa t-istatistiği 2'nin altındaysa sonuç "umut verici ama kanıtlanmış değil" demektir; burada durum budur. "Rastgele portföylere göre" değeri, aynı havuzdan rastgele seçilip aynı kurallarla tutulan ${tl(rp.n)} portföyün kaçta kaçını geçtiğini gösterir (%95 ve üstü güçlü, %90 civarı sınırda sayılır). Fazla getirinin %90 aralığı sıfırı içeriyorsa katkının hiç olmaması da olasıdır.</p>
+      <p>DSR, denenen ${tl(sb.n_trials)} farklı ayarın en iyisinin şansla çıkabileceğini hesaba katar (1'e yakın olması iyidir). "Birincil ayarın sırası", kullanılan ayarın bu denemeler içinde Sharpe'a göre kaçıncı olduğunu gösterir: en iyisi seçilmedi, önceden sabitlenen ayar kullanılıyor. PBO, denemeler arasından geçmişte en iyi görüneni seçmenin sonradan ne sıklıkla hayal kırıklığı yarattığını ölçer (%50 yazı-tura demektir; faize göre ölçüldüğünde %${sb.pbo_vs_cash && sb.pbo_vs_cash.pbo != null ? nf(0).format(sb.pbo_vs_cash.pbo * 100) : "–"}).</p>
+      <p>Gerçek hayatta sonuçların geçmiş testin gerisinde kalması olağandır. Bu stratejiyi "piyasayı kesin yener" diye değil, "BIST 100 içinde disiplinli, dağıtılmış ve kurallı bir portföy" diye değerlendirin.</p></div></div>`;
 
     const sens = b.sensitivity || {};
     const sl = { maliyetsiz: "Masrafsız", maliyet_2x: "Masraflar 2 katı", bir_gun_gec: "Emirler bir gün geç", nakit_faizsiz: "Nakde faiz yok",
@@ -291,8 +299,8 @@
     const names = Object.keys(tr);
     if (names.length) {
       h += `<div class="card"><h2>Ayar duyarlılığı (${names.length} deneme)</h2>
-        <p class="note">Aynı strateji farklı ayarlarla. Amaç en iyisini seçmek değil, sonucun tek bir ayara bağlı olmadığını görmektir. "Temkinli mod" (BIST 100 son 12 ayda gecelik faizi geçemediyse portföyün yarısını nakitte tutmak) geçmişte iyi görünüyor; ancak kazancı iki döneme ve 12 aylık ayara bağlı, 6–9 aylık ayarda kayboluyor ve nakde faiz işlemezse zarar ediyor. Bu yüzden varsayılan değil, isteğe bağlıdır.</p>
-        <div class="scroll">${table(["Deneme", "Yıllık getiri", "Sharpe", "En büyük düşüş", "Ortalamaya fark", "Devir"],
+        <p class="note">Aynı strateji farklı ayarlarla; "sepete fark" her denemenin kendi havuz sepetine göredir. Amaç en iyisini seçmek değil, sonucun tek bir ayara bağlı olmadığını görmektir. "Temkinli mod" (BIST 100 son 12 ayda gecelik faizi geçemediyse portföyün yarısını nakitte tutmak) geçmişte iyi görünüyor; ancak kazancı iki döneme ve 12 aylık ayara bağlı, 6–9 aylık ayarda büyük ölçüde kayboluyor ve nakde faiz işlemezse temel stratejiden kötü sonuç veriyor. Bu yüzden varsayılan değil, isteğe bağlıdır.</p>
+        <div class="scroll">${table(["Deneme", "Yıllık getiri", "Sharpe", "En büyük düşüş", "Sepete fark", "Devir"],
           names.map((n) => { const r = tr[n]; return [n === "birincil" ? "<b>Birincil (kullanılan)</b>" : esc(TRIAL[n] || n), pct(r.cagr), nf(2).format(r.sharpe), pct(r.max_dd, 0),
             `<span class="${cls(r.ew_ustu_cagr)}">${pct(r.ew_ustu_cagr)}</span>`, nf(1).format(r.devir_hizi) + "×"]; }))}</div></div>`;
     }
@@ -302,7 +310,7 @@
     chart($("btChart"), [
       { name: "Gecelik faiz", color: css("--muted"), points: ser("nakit") },
       { name: "BIST 100", color: css("--gold"), points: ser("bist100") },
-      { name: "Eşit ağırlıklı BIST 100", color: css("--blue"), points: ser("esit_agirlik") },
+      { name: "Havuz sepeti", color: css("--blue"), points: ser("esit_agirlik") },
       { name: "Strateji", color: css("--accent"), bold: true, points: ser("strateji") },
     ], { log: true, fmt: (v) => nf(v < 10 ? 1 : 0).format(v) + "×", label: "Geçmiş testi değer eğrisi" });
   }

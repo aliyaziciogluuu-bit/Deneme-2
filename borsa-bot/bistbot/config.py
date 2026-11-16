@@ -57,6 +57,10 @@ class PortfolioConfig:
     offset: int = 0
     #: Tek emrin, hissenin 20 günlük medyan işlem hacmine oranı için üst sınır.
     max_participation: float = 0.05
+    #: Alımlar planlanırken fiyat için bırakılan pay. Alış emirleri son kapanışın bu kadar
+    #: üstüne kadar limitli verilir; aracı kurum alım gücünü limit fiyattan ayırdığı için
+    #: emirlerin toplamı bu fiyattan da eldeki paraya sığmalıdır.
+    buy_headroom: float = 0.03
     #: Piyasa rejimi filtresi: "none" | "trend" (bkz. risk.py).
     regime: str = "none"
     #: Rejim olumsuzken hisse ağırlığı (0-1).

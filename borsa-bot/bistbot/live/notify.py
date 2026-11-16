@@ -35,31 +35,39 @@ def tr_date(iso: str) -> str:
 def format_message(payload: dict) -> str:
     """Panel verisinden okunaklı Türkçe özet üretir."""
     lines = [
-        f"📊 BIST Bot — {tr_date(payload['as_of'])}",
+        f"📊 BIST Bot — {tr_date(payload['as_of'])} kapanışı",
         f"Kâğıt portföy: {tl(payload['equity'])} TL  (gün {pct(payload['day_return'])}, toplam {pct(payload['total_return'])})",
         f"Aynı dönemde BIST 100 {pct(payload['xu100_return'])}, gecelik faiz {pct(payload['cash_return'])}",
-        f"Hisse ağırlığı %{payload['invested_pct'] * 100:.0f}, {len(payload['positions'])} hisse",
+        f"Hisse ağırlığı %{payload['invested_pct'] * 100:.0f}, {len(payload['positions'])} hisse, nakit {tl(payload['cash'])} TL",
     ]
     orders = payload.get("orders") or []
     if orders:
-        lines += ["", f"🔔 {tr_date(payload['next_session'])} AÇILIŞI İÇİN EMİRLER"]
+        lines += ["", f"🔔 SONRAKİ SEANS AÇILIŞI İÇİN EMİRLER (en erken {tr_date(payload['next_session'])})"]
         for o in orders:
             side = "SAT" if o["side"] == "sell" else "AL "
             bound = "en az" if o["side"] == "sell" else "en çok"
-            note = "  (ertelenmiş)" if o.get("carried") else ""
+            note = "  (önceki günden kalan)" if o.get("carried") else ""
             lines.append(
                 f"{side} {o['symbol']:<6} {o['lots']} lot  ≈{tl(o['value'])} TL  "
                 f"limit {bound} {tl(o['limit_price'], 2)}{note}"
             )
-        lines.append("Önce satışları, sonra alışları girin. Emirler açılış seansı için limitlidir.")
+        lines.append("Önce satışları, sonra alışları girin. Emirler açılış seansı (09:40-09:55) için limitlidir.")
     else:
-        lines += ["", "Bugün yeni emir yok."]
+        lines += ["", "Yeni emir yok."]
     fills = payload.get("fills_today") or []
     if fills:
-        lines += ["", "✅ Bugün gerçekleşen (kâğıt)"]
+        lines += ["", "✅ Bugün gerçekleşen (kâğıt portföy, açılış fiyatından)"]
         for f in fills:
             side = "SAT" if f["side"] == "sell" else "AL "
             lines.append(f"{side} {f['symbol']:<6} {f['lots']} lot @ {tl(f['price'], 2)}")
+    for e in payload.get("events") or []:
+        if e["kind"] == "temettü":
+            lines += ["", f"💰 {e['symbol']} temettü ödedi: nakde +{tl(e['cash'])} TL (stopaj sonrası)."]
+        elif e["kind"] == "bedelsiz":
+            lines += ["", f"ℹ️ {e['symbol']} bedelsiz/bölünme: lot adediniz {e['lots_before']} → {e['lots_after']}."]
+        else:
+            lines += ["", (f"⚠️ {e['symbol']} bedelli sermaye artırımı: rüçhan haklarınızı satmanız ya da kullanmanız "
+                           f"gerekir. Kâğıt portföy hakların satıldığını varsaydı (+{tl(e['cash'])} TL).")]
     for w in payload.get("warnings") or []:
         lines += ["", f"⚠️ {w}"]
     lines += ["", "Bu bir yatırım tavsiyesi değildir; emirleri kendiniz verirsiniz."]
