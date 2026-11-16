@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Bahçede bir taşı kaldırıyorsun ve altında parlak, kahverengi bir şey kıvrılıyor.",
+  "duyulan": "Bahçede bir taşı kaldırıyorsun ve altında parlak, kahverengi bir şey kıvrılıyor.",
+  "hata": 0,
+  "sure": 5.48,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "İlk düşüncen belli: yılan!",
+  "duyulan": "İlk düşüncen belli, yılan.",
+  "hata": 0,
+  "sure": 1.88,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Çoğu insan o an eline ne geçerse ona uzanıyor.",
+  "duyulan": "Çoğu insan o an eline ne geçerse ona uzanıyor.",
+  "hata": 0,
+  "sure": 3.18,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Oysa o hayvan bir yılan değil.",
+  "duyulan": "Oysa o hayvan bir yılan değil.",
+  "hata": 0,
+  "sure": 1.76,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Sağır da değil.",
+  "duyulan": "Sağırda değil.",
+  "hata": 2,
+  "sure": 0.86,
+  "uygun": false
+ },
+ "005": {
+  "yazi": "Ve büyük ihtimalle bahçendeki en faydalı komşulardan biri.",
+  "duyulan": "ve büyük ihtimalle bahçendeki en faydalı komşulardan biri.",
+  "hata": 0,
+  "sure": 3.74,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Bu, halk arasında sağır yılan dediğimiz canlının hikâyesi.",
+  "duyulan": "Bu, halk arasında sağır yılan dediğimiz canlının hikayesi.",
+  "hata": 0,
+  "sure": 3.66,
+  "uygun": true
+ }
+}

@@ -1,0 +1,339 @@
+{
+  "baslik": "Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)",
+  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur (Latince adlar ve sayılar okunuşuyla yazılmıştır).",
+  "aciklama": "Bahçede taşı kaldırdın, altında parlak, kahverengi bir \"yılan\" kıvrılıyor. Dur: o bir yılan değil. Halk arasında sağır yılan dediğimiz bu canlı aslında bacaksız bir kertenkele, sağır da değil, zehri de yok. Üstelik bahçendeki sümüklü böceklerin en sessiz avcısı.\n\nBu videoda sağır yılanın (Anguis colchica, yılanımsı kertenkele) yılandan nasıl ayırt edildiğini, göz kırpmasının ve kuyruğunu koparmasının ne anlama geldiğini, zehirli olup olmadığını ve neden yumurta değil yavru doğurduğunu anlatıyoruz. Avrupa'daki akrabasının bakım altında 54 yıl yaşamasının hikâyesi de videoda.\n\nBahçede sağır yılan görürsem ne yapmalıyım, eve girerse nasıl çıkarırım, yılanla nasıl karıştırmam diye merak ediyorsan, güvenli yöntemler de videoda. Unutma: Türkiye'de zehirli engerekler de yaşıyor; ne olduğundan emin olmadığın hiçbir hayvana dokunma.",
+  "yorum_sorusu": "Senin oralarda bu hayvana ne diyorlar? Bahçende hiç gördün mü? Yorumlarda konuşalım.",
+  "kaynaklar": [
+    "AdaMerOs Herptil Türkiye – Yılanımsı Kertenkele (Anguis colchica): turkherptil.org",
+    "The Reptile Database – Anguis colchica (Nordmann, 1840): reptile-database.reptarium.cz/Anguis/colchica",
+    "Benkovský, N. ve ark. (2021). PeerJ – Anguis colchica ve A. fragilis'in morfolojik ayrımı: pmc.ncbi.nlm.nih.gov/articles/PMC8706331",
+    "Jablonski, D. & Meduna, P. (2010). Herpetology Notes 3 – Anguis türlerinde mavi benekler",
+    "Kidov, A.A. ve ark. (2023). Age structure of the population of Anguis colchica orientalis in the Talysh Mountains. Biology Bulletin 50(10). doi:10.1134/S1062359023100345",
+    "Woodland Trust – Slow worm: woodlandtrust.org.uk",
+    "Guinness World Records – Oldest lizard (Kopenhag, 1892–1946, 54 yıl): guinnessworldrecords.com"
+  ],
+  "etiketler": [
+    "sağır yılan",
+    "yılanımsı kertenkele",
+    "Anguis colchica",
+    "bacaksız kertenkele",
+    "yılan mı kertenkele mi",
+    "sağır yılan zehirli mi",
+    "bahçede yılan",
+    "kertenkele",
+    "sürüngenler",
+    "doğa",
+    "bahçe",
+    "Karadeniz"
+  ],
+  "kapak": {
+    "gorsel": "kapak",
+    "buyuk": [
+      "YILAN",
+      "DEĞİL!"
+    ],
+    "kucuk": "Sağır da değil",
+    "konum": "sol"
+  },
+  "sahneler": [
+    {
+      "ad": "Taşın altındaki parlak hayvan",
+      "cumleler": [
+        {
+          "yazi": "Bahçede bir taşı kaldırıyorsun ve altında parlak, kahverengi bir şey kıvrılıyor."
+        },
+        {
+          "yazi": "İlk düşüncen belli: yılan!"
+        },
+        {
+          "yazi": "Çoğu insan o an eline ne geçerse ona uzanıyor."
+        },
+        {
+          "yazi": "Oysa o hayvan bir yılan değil."
+        },
+        {
+          "yazi": "Sağır da değil."
+        },
+        {
+          "yazi": "Ve büyük ihtimalle bahçendeki en faydalı komşulardan biri."
+        },
+        {
+          "yazi": "Bu, halk arasında sağır yılan dediğimiz canlının hikâyesi."
+        }
+      ]
+    },
+    {
+      "ad": "Sağır yılan kimdir?",
+      "cumleler": [
+        {
+          "yazi": "Sağır yılan aslında bacaksız bir kertenkele."
+        },
+        {
+          "yazi": "Türkiye'deki türünün bilimsel adı Anguis colchica; Türkçede yılanımsı kertenkele de deniyor.",
+          "ses": "Türkiye'deki türünün bilimsel adı Angu-is kolkika; Türkçede yılanımsı kertenkele de deniyor."
+        },
+        {
+          "yazi": "Boyu genellikle otuz ile elli santimetre arasında."
+        },
+        {
+          "yazi": "Pulları o kadar düzgün ki, derisi cilalanmış gibi parlıyor."
+        },
+        {
+          "yazi": "Rengi bakır, bronz ya da kahverengi; bazı erkeklerin sırtında mavi benekler bile olabiliyor."
+        },
+        {
+          "yazi": "Türkiye'de başta Trakya, Marmara ve Karadeniz Bölgesi olmak üzere, kuzeydeki nemli ve ormanlık alanlarda yaşıyor."
+        },
+        {
+          "yazi": "Orman içleri, orman açıklıkları, çayırlar, yol kenarları ve bahçeler onun evi."
+        },
+        {
+          "yazi": "Deniz kenarından iki bin metre yüksekliğe kadar görülebiliyor."
+        }
+      ]
+    },
+    {
+      "ad": "Yılan değil: 5 işaret",
+      "cumleler": [
+        {
+          "yazi": "Peki madem bir kertenkele, neden bacakları yok?"
+        },
+        {
+          "yazi": "Ataları, toprağın ve yaprakların arasında sürünerek yaşamaya uyum sağlarken bacaklarını zamanla kaybetti."
+        },
+        {
+          "yazi": "Ama vücudunda kertenkele olduğunu ele veren işaretler hâlâ duruyor."
+        },
+        {
+          "yazi": "Birincisi: göz kırpıyor."
+        },
+        {
+          "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz."
+        },
+        {
+          "yazi": "Sağır yılanın ise gerçek göz kapakları var."
+        },
+        {
+          "yazi": "İkincisi: çoğu bireyde başının yanlarında, bazen pulların arasında zor seçilen minicik kulak delikleri bulunuyor. Yılanların dış kulak deliği yoktur."
+        },
+        {
+          "yazi": "Üçüncüsü: başı gövdesine belirgin bir boyun olmadan, kesintisiz bağlanıyor."
+        },
+        {
+          "yazi": "Dördüncüsü: tıpkı duvarlarda gördüğün kertenkeleler gibi, kuyruğunu koparabiliyor."
+        },
+        {
+          "yazi": "Beşincisi: çoğu yılanın karnında enine dizilmiş geniş, tek sıra pullar vardır; sağır yılanın karnı ise sırtı gibi küçük pullarla kaplı."
+        }
+      ]
+    },
+    {
+      "ad": "Neden \"sağır\" deniyor?",
+      "cumleler": [
+        {
+          "yazi": "Peki bu hayvana neden sağır deniyor?"
+        },
+        {
+          "yazi": "Adın nereden geldiği kesin olarak bilinmiyor."
+        },
+        {
+          "yazi": "Ama bildiğimiz bir şey var: sağır değil. Kulak delikleri var ve duyabiliyor."
+        },
+        {
+          "yazi": "Benzer bir yanlış isim başka dillerde de var."
+        },
+        {
+          "yazi": "İngilizcede ona kör solucan anlamına gelen blindworm deniyor; oysa ne kör, ne de solucan.",
+          "ses": "İngilizcede ona kör solucan anlamına gelen, blaynd-vörm deniyor; oysa ne kör, ne de solucan."
+        },
+        {
+          "yazi": "Avrupa'daki akrabasının bilimsel adı ise Anguis fragilis; fragilis, Latincede kırılgan demek.",
+          "ses": "Avrupa'daki akrabasının bilimsel adı ise Angu-is fracilis; fracilis, Latincede kırılgan demek."
+        },
+        {
+          "yazi": "Bu ismin, kolayca kopan kuyruğuna gönderme yaptığı düşünülüyor."
+        }
+      ]
+    },
+    {
+      "ad": "Zehirli mi, ısırır mı?",
+      "cumleler": [
+        {
+          "yazi": "En çok sorulan soru: zehirli mi?"
+        },
+        {
+          "yazi": "Hayır. Sağır yılanın zehri yok."
+        },
+        {
+          "yazi": "İnsana saldırmaz; tehlike hissettiğinde kaçmayı ya da saklanmayı seçer."
+        },
+        {
+          "yazi": "Eline alındığında kıvranabilir, hatta dışkılayabilir."
+        },
+        {
+          "yazi": "Çok nadiren ısırmayı dener, ama küçük dişleri insana zarar vermez."
+        },
+        {
+          "yazi": "En büyük savunması ise kuyruğu."
+        },
+        {
+          "yazi": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder."
+        },
+        {
+          "yazi": "Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar."
+        },
+        {
+          "yazi": "Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır; hiçbir zaman eskisi gibi olmaz."
+        },
+        {
+          "yazi": "Bu yüzden onu asla kuyruğundan tutmamak gerekir."
+        }
+      ]
+    },
+    {
+      "ad": "Bahçenin sessiz avcısı",
+      "cumleler": [
+        {
+          "yazi": "Sağır yılanın menüsünde sümüklü böcekler, solucanlar ve böcek larvaları var."
+        },
+        {
+          "yazi": "Yani bahçendeki marulları, fideleri ve çilekleri kemiren sümüklü böceklerin doğal düşmanı."
+        },
+        {
+          "yazi": "Yavaş hareket eden avları seçiyor; acele etmesine gerek yok."
+        },
+        {
+          "yazi": "Çoğunlukla sabah erken saatlerde, akşamüstü ya da yağmurdan sonra ortaya çıkıyor."
+        },
+        {
+          "yazi": "Günün sıcak saatlerinde ise taşların, kütüklerin ve yaprak yığınlarının altına saklanıyor."
+        },
+        {
+          "yazi": "Bahçede bir taşı kaldırdığında onunla karşılaşmanın sebebi bu."
+        },
+        {
+          "yazi": "Sümüklü böcek ilaçları avını öldürür; zehirlenmiş avı yemek ona da zarar verebilir."
+        }
+      ]
+    },
+    {
+      "ad": "Yumurta değil, yavru",
+      "cumleler": [
+        {
+          "yazi": "Sağır yılanın bir sürprizi daha var: yumurtlamıyor, yavru doğuruyor."
+        },
+        {
+          "yazi": "Çiftleşme ilkbaharda, kış uykusundan uyandıktan sonra oluyor."
+        },
+        {
+          "yazi": "Yumurtalar annenin vücudunun içinde gelişiyor."
+        },
+        {
+          "yazi": "Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor."
+        },
+        {
+          "yazi": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor."
+        },
+        {
+          "yazi": "Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına, kök aralarına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor."
+        },
+        {
+          "yazi": "Bazen aynı kış sığınağını birçok birey paylaşıyor."
+        }
+      ]
+    },
+    {
+      "ad": "54 yıllık rekor",
+      "cumleler": [
+        {
+          "yazi": "Ve belki de en şaşırtıcı bilgi: ne kadar yaşadığı."
+        },
+        {
+          "yazi": "Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı.",
+          "ses": "Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı."
+        },
+        {
+          "yazi": "Bu, onu bilinen en uzun ömürlü kertenkelelerden biri yapıyor."
+        },
+        {
+          "yazi": "Doğada ise ömrü çok daha kısa; çoğu birey on yılı göremiyor."
+        },
+        {
+          "yazi": "Çünkü doğada onu bekleyen tehlikeler çok."
+        }
+      ]
+    },
+    {
+      "ad": "Asıl tehlike: biz",
+      "cumleler": [
+        {
+          "yazi": "Kirpiler, kuşlar ve bazı yılanlar onu avlıyor. Evlerin çevresinde ise kediler."
+        },
+        {
+          "yazi": "Ama en büyük tehlikelerden biri, onu yılan sanan insanlar."
+        },
+        {
+          "yazi": "Pek çok sağır yılan, sırf yılana benzediği için öldürülüyor."
+        },
+        {
+          "yazi": "Yollarda araçların altında kalıyor, çim biçme makinelerine yakalanıyor."
+        },
+        {
+          "yazi": "Bir yanlış tanıma, bahçenin en faydalı canlılarından birinin sonu olabiliyor."
+        }
+      ]
+    },
+    {
+      "ad": "Karşılaşırsan ne yapmalısın?",
+      "cumleler": [
+        {
+          "yazi": "Peki bahçende bir sağır yılanla karşılaşırsan ne yapmalısın?"
+        },
+        {
+          "yazi": "En iyisi, onu rahat bırakmak."
+        },
+        {
+          "yazi": "Kaldırdığın taşı, altındaki hayvanı ezmeden, yavaşça eski yerine koy."
+        },
+        {
+          "yazi": "Eve girdiyse, eldiven takıp bir kartonla yavaşça bir kovaya yönlendirebilir, sonra bahçenin gölgelik bir köşesine bırakabilirsin."
+        },
+        {
+          "yazi": "Onu asla kuyruğundan tutma."
+        },
+        {
+          "yazi": "Ve önemli bir uyarı: Türkiye'de zehirli engerekler de yaşıyor."
+        },
+        {
+          "yazi": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma; mesafeni koru."
+        },
+        {
+          "yazi": "Uzaktan bir fotoğraf çekip sonra incelemek, en güvenli yol."
+        },
+        {
+          "yazi": "Biraz yaprak yığını, birkaç taş ve ilaçsız bir köşe, sağır yılana bahçende yaşamak için yeter."
+        }
+      ]
+    },
+    {
+      "ad": "Kapanış",
+      "cumleler": [
+        {
+          "yazi": "Sağır yılan ne yılan, ne sağır, ne de tehlikeli."
+        },
+        {
+          "yazi": "Sadece yanlış tanınan, sessiz bir bahçe komşusu."
+        },
+        {
+          "yazi": "Bir dahaki sefere bir taşın altında onu gördüğünde, ona biraz daha farklı bakacaksın."
+        },
+        {
+          "yazi": "Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz."
+        },
+        {
+          "yazi": "Evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
+        }
+      ]
+    }
+  ]
+}

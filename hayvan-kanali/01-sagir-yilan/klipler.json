@@ -1,0 +1,11 @@
+{
+  "not": "Sağır yılanın bacağı yoktur; her istemde 'legless, slithers like a snake' vurgusu bilerek tekrarlanır. Kamera hareketi yavaş tutulur ki video.py'deki diğer çekimlerle uyumlu olsun.",
+  "klipler": [
+    {"ad": "tas_alti", "gorsel": "tas_alti", "sure": 5, "istem": "The hand slowly lifts the flat stone a little higher, revealing more of the soil; the legless bronze slow worm underneath slowly shifts its coils and moves its small head, slithering like a snake. Gentle, slow camera push-in. Storybook watercolor style preserved."},
+    {"ad": "panik", "gorsel": "panik", "sure": 5, "istem": "The startled woman takes a step back in fright and raises the garden shovel defensively, her headscarf moving in the breeze; lettuce leaves sway gently. She does not strike anything. Slow subtle camera movement. Storybook watercolor style preserved."},
+    {"ad": "goz", "gorsel": "goz", "sure": 5, "istem": "Extreme close-up: the reptile slowly blinks, its eyelids closing fully over the eye and opening again, then blinks once more; tiny movements of the head, the background softly breathing. Static camera. Painterly style preserved."},
+    {"ad": "orman", "gorsel": "orman", "sure": 5, "istem": "The legless bronze slow worm slithers slowly forward through the leaf litter like a small snake, its glossy body gliding in smooth S-curves; ferns and leaves sway lightly, soft morning mist drifts. Slow camera pan following it. Storybook watercolor style preserved."},
+    {"ad": "kuyruk", "gorsel": "kuyruk", "sure": 5, "istem": "The small detached piece of tail on the ground twitches and wriggles; the blackbird hops toward it and pecks at it curiously, while the legless bronze slow worm slithers away into the tall grass and disappears. Slow camera. Storybook watercolor style preserved."},
+    {"ad": "salyangoz", "gorsel": "salyangoz", "sure": 5, "istem": "Rain falls gently; the legless bronze slow worm slithers slowly toward the small grey slug at the base of the lettuce, like a small snake, raindrops bouncing on the leaves. Slow camera push-in. Storybook watercolor style preserved."}
+  ]
+}

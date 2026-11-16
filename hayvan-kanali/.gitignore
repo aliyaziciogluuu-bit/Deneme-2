@@ -1,0 +1,9 @@
+_gecici/
+__pycache__/
+onizleme.jpg
+*/adaylar/*
+!*/adaylar/secim.jpg
+*/video.mp4
+*/ses/sahne_*.wav
+*/ses/*.indirilen
+*/klipler/_*_istek.json
