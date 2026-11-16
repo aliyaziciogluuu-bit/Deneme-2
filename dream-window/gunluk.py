@@ -21,6 +21,9 @@ TR = {"yagmurlu_kulube": "Yağmurlu kulübe", "noel_kulubesi": "Noel kulübesi",
       "japon_bahcesi": "Japon bahçesi", "kuzey_isiklari": "Kuzey ışıkları iglo", "noel_treni": "Noel treni",
       "orman_kulubesi": "Karlı orman kulübesi", "yilbasi_cati_kati": "Yılbaşı çatı katı", "yagmurlu_kitapci": "Yağmurlu kitapçı", "alp_dag_evi": "Alp dağ evi", "yemekli_vagon": "Kış treni yemekli vagon", "yagmurlu_sera": "Yağmurlu sera", "kale_kutuphanesi": "Kale kütüphanesi", "gol_kulubesi": "Göl kenarı kulübe"}
 
+# takvimde "uzun" olarak geçmeyen, doğrudan YouTube'da planlanan uzun videolar (yayın tarihi)
+YOUTUBEDA_PLANLI = {"05-snowy-library": "2026-11-15", "12-christmas-train": "2026-12-23"}
+
 
 def bagla(kaynak: pathlib.Path, hedef: pathlib.Path):
     if not kaynak.exists():
@@ -81,7 +84,8 @@ def main():
         k, anahtar = gun["shorts"]; ad = AD[k]
         bagla(KOK / k / f"{anahtar}.mp4", hedef / f"{sira}_SHORTS_{ad}.mp4")
         bagla(KOK / k / f"{anahtar}_yukleme.txt", hedef / f"{sira}_SHORTS_{ad}_metin.txt")
-        ilgili = [t for t, g in sorted(takvim.items()) if g.get("uzun") == k and t <= tarih]
+        ilgili = [t for t, g in sorted(takvim.items()) if g.get("uzun") == k and t <= tarih] \
+            + [t for t in [YOUTUBEDA_PLANLI.get(k)] if t and t <= tarih]
         ilgili_metin = (f"{TR[ad]} uzun videosu" if ilgili or k in ("01-rainy-cabin", "03-christmas-cabin", "04-snowy-village")
                         else "henüz yok (uzun sürüm yayınlanınca bağla)")
         adimlar += [f"{sira}) SHORTS (saat 19:30): {TR[ad]}",
