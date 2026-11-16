@@ -173,5 +173,54 @@
   "hata": 0,
   "sure": 8.72,
   "uygun": true
+ },
+ "025": {
+  "yazi": "Peki bu hayvana neden sağır deniyor?",
+  "duyulan": "Peki bu hayvana neden sağır deniyor?",
+  "hata": 0,
+  "sure": 2.56,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Adın nereden geldiği kesin olarak bilinmiyor.",
+  "duyulan": "Adın nereden geldiği kesin olarak bilinmiyor.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Ama bildiğimiz bir şey var: sağır değil. Kulak delikleri var ve duyabiliyor.",
+  "duyulan": "Ama bildiğimiz bir şey var, sahar değil, kulak delikleri var ve duyabiliyor.",
+  "hata": 1,
+  "sure": 4.68,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Benzer bir yanlış isim başka dillerde de var.",
+  "duyulan": "Benzer bir yanlış isim başka dillerde de var.",
+  "hata": 0,
+  "sure": 2.22,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "İngilizcede ona kör solucan anlamına gelen blindworm deniyor; oysa ne kör, ne de solucan.",
+  "duyulan": "İngilizce de ona kör solucan anlamına gelen blind worm deniyor. Oysa ne kör ne de solucan.",
+  "hata": 0,
+  "sure": 6.86,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Avrupa'daki akrabasının bilimsel adı ise Anguis fragilis; fragilis, Latincede kırılgan demek.",
+  "duyulan": "Avrupa'daki akrabasının bilimsel adıysa Anguis fragilis, fragilis latincede kırılgan demek.",
+  "hata": 2,
+  "sure": 6.42,
+  "uygun": false
+ },
+ "031": {
+  "yazi": "Bu ismin, kolayca kopan kuyruğuna gönderme yaptığı düşünülüyor.",
+  "duyulan": "bu ismin kolayca kopan kuyruğuna gönderme yaptığı düşünülüyor.",
+  "hata": 0,
+  "sure": 3.42,
+  "uygun": true
  }
 }
