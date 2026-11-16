@@ -134,9 +134,37 @@ def load_config(path: Path | None = None) -> Config:
             sections[name] = data[name]
     if "capital" in data:
         sections["capital"] = data["capital"]
+    for name, values in sections.items():
+        if name != "capital":
+            _check_types(name, values, getattr(cfg, name))
+    if isinstance(data.get("capital"), bool) or not isinstance(data.get("capital", 0), (int, float)):
+        raise ValueError(f"capital sayı olmalı ({data.get('capital')!r}); tırnak ya da nokta kullanmadan yazın (ör. 100000)")
+    portfolio = data.get("portfolio", {})
+    if portfolio.get("regime") == "trend" and "regime_off_exposure" not in portfolio:
+        # Yazılmazsa 0 olur, yani rejim olumsuzken portföyün TAMAMI nakde geçer.
+        raise ValueError("[portfolio] regime açıldığında regime_off_exposure da yazılmalı "
+                         "(0.5 = portföyün yarısı nakitte; 0 = tamamı nakitte)")
     cfg = cfg.with_overrides(**sections)
     validate_config(cfg)
     return cfg
+
+
+def _check_types(section: str, values: dict, current) -> None:
+    """Dosyadaki değerin türü alanın türüyle aynı olmalı (tırnak içine alınmış sayı, ondalıklı hisse
+    sayısı gibi hatalar yükleme anında, ayarın adıyla bildirilir)."""
+    for key, value in values.items():
+        default = getattr(current, key)
+        if isinstance(default, bool):
+            ok = isinstance(value, bool)
+        elif isinstance(default, int):
+            ok = isinstance(value, int) and not isinstance(value, bool)
+        elif isinstance(default, float):
+            ok = isinstance(value, (int, float)) and not isinstance(value, bool)
+        else:
+            ok = isinstance(value, str)
+        if not ok:
+            kind = {bool: "true/false", int: "tam sayı", float: "sayı"}.get(type(default), "metin")
+            raise ValueError(f"[{section}] {key} {kind} olmalı ({value!r})")
 
 
 def validate_config(cfg: Config) -> None:
@@ -159,4 +187,5 @@ def validate_config(cfg: Config) -> None:
           "[signal] sütun ağırlıkları eksi olamaz ve en az biri pozitif olmalı")
     check(1 <= s.trend_short_window < s.trend_window, "[signal] trend_short_window, trend_window'dan küçük olmalı")
     check(c.commission >= 0 and c.slippage >= 0 and 0 <= c.cash_yield_share <= 1.5, "[cost] masraf ayarları geçersiz")
-    check(cfg.capital > 0, "capital pozitif olmalı")
+    check(cfg.capital >= 1000,
+          f"capital en az 1.000 TL olmalı ({cfg.capital:g}); binlik ayırıcı kullanmadan yazın (ör. 100000)")

@@ -248,17 +248,18 @@ def test_dry_run_without_telegram_needs_no_approval_but_live_does(tmp_path):
     assert result.status == "error" and real.placed == []
 
 
-def test_run_lock_is_exclusive_and_recovers_from_stale_lock(tmp_path):
+def test_run_lock_is_exclusive_and_survives_leftover_files(tmp_path):
     with RunLock(tmp_path):
         with pytest.raises(AlreadyRunning):
             with RunLock(tmp_path):
                 pass
+        with pytest.raises(AlreadyRunning):  # kilit süreç boyunca tutulur; ikinci deneme de alamaz
+            with RunLock(tmp_path):
+                pass
     with RunLock(tmp_path):  # serbest bırakıldıktan sonra yeniden alınır
         pass
-    (tmp_path / "kilit").write_text("eski")
-    import os
-    old = dt.datetime.now().timestamp() - 13 * 3600
-    os.utime(tmp_path / "kilit", (old, old))
+    # Çökmüş bir çalıştırmadan kalan dosya (işletim sistemi kilidi yok) engel değildir; yaşına bakılmaz.
+    (tmp_path / "kilit").write_text("eski kayıt")
     with RunLock(tmp_path):
         pass
 
@@ -512,14 +513,30 @@ def test_positions_are_reread_right_before_sending(tmp_path):
     assert broker.placed[0].symbol == "GARAN" and broker.placed[0].lots == 10
     assert "10 lot kaldığı için 40 yerine 10 lot satılıyor" in http.sent[-1]
 
+    # Satılacak hisse elle satılmış (diğer lotlar duruyor): satış çıkarılır, alışlar gider, fiş açık kalır.
+    class SoldAll(ScriptedBroker):
+        def positions(self):
+            self.reads = getattr(self, "reads", 0) + 1
+            return {"GARAN": 40, "AKBNK": 70} if self.reads == 1 else {"AKBNK": 70}
+
+    sold = SoldAll()
+    result2, _, http2, journal2, _ = run(tmp_path / "b", broker=sold)
+    assert [o.side for o in sold.placed] == ["buy", "buy"]  # satış hiç gönderilmedi (açığa satış yok)
+    assert not journal2.batch_done(ticket().digest) and "GARAN (satış)" in http2.sent[-1]
+
+    # Pozisyon listesi gönderim anında bomboş dönerse (henüz yüklenmemiş): hiçbir emir gönderilmez.
     class Gone(ScriptedBroker):
         def positions(self):
             self.reads = getattr(self, "reads", 0) + 1
             return {"GARAN": 40} if self.reads == 1 else {}
 
     gone = Gone()
-    run(tmp_path / "b", broker=gone)
-    assert [o.side for o in gone.placed] == ["buy", "buy"]  # satış hiç gönderilmedi (açığa satış yok)
+    result3, _, http3, journal3, _ = run(tmp_path / "c", broker=gone)
+    assert result3.status == "halted" and gone.placed == [] and "pozisyon listesi boş döndü" in http3.sent[-1]
+    assert not journal3.batch_done(ticket().digest)
+    again = ScriptedBroker(HELD)  # lotlar yeniden görünür: yeniden çalıştırma her şeyi gönderir
+    run(tmp_path / "c", broker=again)
+    assert len(again.placed) == 3
 
 
 def test_definitely_unsent_order_can_be_sent_on_the_next_run(tmp_path):
@@ -651,14 +668,34 @@ def test_group_chat_privacy_mode_is_explained(tmp_path):
     assert "gizlilik kipi" in http.sent[0] and "/setprivacy" in http.sent[0]
 
 
-def test_run_lock_releases_only_its_own_lock(tmp_path):
-    lock = RunLock(tmp_path)
-    with lock:
-        (tmp_path / "kilit").write_text("baska-jeton 1 x\n")  # kilidi başka bir çalıştırma devralmış
-    assert (tmp_path / "kilit").exists()  # başkasının kilidi silinmez
-    with pytest.raises(AlreadyRunning):
-        with RunLock(tmp_path):
-            pass
+def test_two_runs_cannot_hold_the_lock_at_the_same_time(tmp_path):
+    """Kilit işletim sistemi düzeyindedir: dosyanın içeriği ya da yaşı değişse de ikinci çalıştırma giremez."""
+    import os
+    import threading
+
+    entered, errors = [], []
+
+    def worker(name):
+        try:
+            with RunLock(tmp_path):
+                entered.append(name)
+                gate.wait(2)
+        except AlreadyRunning:
+            errors.append(name)
+
+    gate = threading.Event()
+    first = threading.Thread(target=worker, args=("a",))
+    first.start()
+    while not entered:
+        pass
+    old = dt.datetime.now().timestamp() - 48 * 3600
+    os.utime(tmp_path / "kilit", (old, old))  # "bayat" görünse bile
+    second = threading.Thread(target=worker, args=("b",))
+    second.start()
+    second.join()
+    gate.set()
+    first.join()
+    assert entered == ["a"] and errors == ["b"]
 
 
 def test_side_test_rechecks_the_order_after_the_user_answers(tmp_path):
@@ -709,3 +746,93 @@ def test_command_line_mode_can_only_be_made_safer(tmp_path, capsys):
     assert "Emir fişi okunamadı" in capsys.readouterr().out
     with pytest.raises(SystemExit):
         cli.main(["emir", "--emir-ayar", str(config), "--mod", "gercek"])  # komut satırında gerçek kip seçeneği yok
+
+
+def test_mixed_ticket_stays_open_when_the_sell_could_not_be_planned(tmp_path):
+    """09:25'te lotlar görünmüyorsa satış planlanamaz; alışlar onaylanıp gitse de fiş "işlendi" sayılmaz."""
+    blind = ScriptedBroker({})
+    result, _, http, journal, _ = run(tmp_path, broker=blind)
+    assert [o.side for o in blind.placed] == ["buy", "buy"] and "alışların parası eksik kalabilir" in http.sent[0]
+    assert not journal.batch_done(ticket().digest) and "planlanamayan 1 satış" in http.sent[-1]
+    later = ScriptedBroker({"GARAN": 40, "THYAO": 15, "ASELS": 50})
+    result2, _, _, journal2, _ = run(tmp_path, broker=later)
+    assert [(o.symbol, o.side) for o in later.placed] == [("GARAN", "sell")] and journal2.batch_done(ticket().digest)
+
+
+def test_second_round_budget_excludes_buys_that_are_still_working(tmp_path):
+    """Bekleyen (gerçekleşmemiş) alışın parası ikinci tur bütçesinden düşülür."""
+    tk = ticket(orders=FOUR)
+    broker = ScriptedBroker(HELD, cash=5_000.0, behaviour={"THYAO": "rest"})
+    _, _, http, _, _ = run(tmp_path, broker=broker, tk=tk)
+    # THYAO (4.635 TL) bekliyor; satıştan sonra bakiye 8.880 TL ama 4.649'u THYAO'ya ayrılı: yalnız ASELS sığar.
+    assert [o.symbol for o in broker.placed] == ["GARAN", "THYAO", "ASELS"]
+    assert "Bakiye yetmediği için şu alışlar gönderilmedi: KCHOL" in http.sent[-1]
+
+
+def test_partly_filled_order_is_never_retried_even_if_it_later_shows_rejected(tmp_path):
+    from bistbot.exec.base import OrderState
+
+    class PartialThenRejected(ScriptedBroker):
+        def place(self, order):
+            if order.symbol == "THYAO" and not order.key.endswith("|2"):
+                self.placed.append(order)
+                return OrderState(order.key, "partial", broker_id="p1", filled_lots=5, avg_price=309.0)
+            return super().place(order)
+
+        def refresh(self, state):
+            if state.broker_id == "p1":
+                return OrderState(state.key, "rejected", broker_id="p1", filled_lots=0, message="reddedildi")
+            return super().refresh(state)
+
+    broker = PartialThenRejected(HELD)
+    result, _, http, journal, _ = run(tmp_path, broker=broker)
+    assert [o.key for o in broker.placed].count("2026-11-30|THYAO|buy|2") == 0  # 5 lot alınmıştı: yeniden deneme yok
+    assert journal.was_sent("2026-11-30|THYAO|buy")
+    again = ScriptedBroker(HELD)
+    run(tmp_path, broker=again)
+    assert all(o.symbol != "THYAO" for o in again.placed)
+
+
+def test_undelivered_reports_are_flushed_even_on_days_without_orders(tmp_path):
+    from bistbot.exec.runner import keep_undelivered
+
+    s = settings(tmp_path, mod="deneme", fis="latest.json")
+    keep_undelivered(s.klasor, "⛔ Gönderim DURDU: örnek rapor")
+    (tmp_path / "latest.json").write_text(json.dumps(payload(orders=[])), encoding="utf-8")
+    sent = []
+
+    class Tg:
+        is_group = False
+
+        def try_send(self, text):
+            sent.append(text)
+            return True
+
+    original = app.make_telegram
+    app.make_telegram = lambda settings: Tg()
+    try:
+        result = app.cmd_run(s, tmp_path, FakeClock())
+    finally:
+        app.make_telegram = original
+    assert result.status == "no_orders" and len(sent) == 1 and "örnek rapor" in sent[0]
+    assert not (s.klasor / "iletilemeyen.jsonl").exists()
+
+
+def test_user_is_warned_when_the_stop_channel_is_down(tmp_path):
+    """Onaydan sonra Telegram okunamıyorsa (ör. botu başka bir program dinliyor) kullanıcı uyarılır."""
+    clock = FakeClock()
+    s = settings(tmp_path, mod="gercek")
+    tg, http = fake_telegram(clock, "approve")
+    orig = http.post
+
+    def post(url, data=None, timeout=None):
+        if url.endswith("getUpdates") and any("Onay alındı" in t for t in http.sent):
+            return type("R", (), {"status_code": 409, "json": lambda self: {"ok": False}})()
+        return orig(url, data=data, timeout=timeout)
+
+    http.post = post
+    broker = ScriptedBroker(HELD)
+    result = run_batch(s, ticket(), broker, tg, Journal(journal_path(s)), clock)
+    assert result.status == "done" and len(broker.placed) == 3
+    warnings = [t for t in http.sent if "okunamıyor" in t and "DUR" in t]
+    assert len(warnings) == 1 and str(s.klasor / "DUR") in warnings[0]

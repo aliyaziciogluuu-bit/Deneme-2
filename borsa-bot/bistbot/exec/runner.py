@@ -64,57 +64,63 @@ class AlreadyRunning(RuntimeError):
 
 
 class RunLock:
-    """Aynı anda iki çalıştırmanın emir göndermesini önleyen kilit dosyası.
+    """Aynı anda iki çalıştırmanın emir göndermesini önleyen kilit.
 
-    Dosyada bu çalıştırmaya özel bir jeton durur; çıkarken yalnızca kendi kilidini siler. Bayat
-    (12 saatten eski) bir kilit devralınırken dosya atomik olarak değiştirilir ve jeton yeniden
-    okunur: aynı anda iki devralan olursa yalnızca biri devam eder.
+    Kilit dosyası açık tutulur ve işletim sistemi düzeyinde kilitlenir (Windows'ta ``msvcrt.locking``,
+    diğerlerinde ``flock``). Süreç hangi nedenle biterse bitsin kilidi işletim sistemi bırakır;
+    "bayat kilit" tahmini ya da dosya silme yarışı yoktur.
     """
 
-    def __init__(self, folder: Path, stale_hours: float = 12.0):
+    def __init__(self, folder: Path):
         self.path = Path(folder) / LOCK_FILE
-        self.stale = stale_hours * 3600.0
-        self.token = secrets.token_hex(8)
-
-    def _content(self) -> str:
-        return f"{self.token} {os.getpid()} {dt.datetime.now(IST).isoformat(timespec='seconds')}\n"
-
-    def _holder(self) -> str:
-        try:
-            return self.path.read_text(encoding="utf-8").split(" ", 1)[0]
-        except OSError:
-            return ""
+        self._fh = None
 
     def __enter__(self) -> "RunLock":
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        busy = AlreadyRunning(
-            f"başka bir emir çalıştırması sürüyor (kilit: {self.path}). Emin değilseniz Matriks IQ'da "
-            "emirlerinizi kontrol edin; çalışan başka program yoksa bu dosyayı silin."
-        )
+        fh = open(self.path, "a+b")
         try:
-            fd = os.open(self.path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
-        except FileExistsError:
-            try:
-                age = time.time() - self.path.stat().st_mtime
-            except FileNotFoundError:
-                age = 0.0  # sahibi tam o anda çıktı: bu çalıştırma yine de beklemeden vazgeçer
-            if age <= self.stale:
-                raise busy from None
-            # Bayat kilit (yarıda kalmış eski çalıştırma): atomik devral, sonra gerçekten bizde mi diye bak.
-            tmp = self.path.with_name(f"{LOCK_FILE}.{self.token}")
-            tmp.write_text(self._content(), encoding="utf-8")
-            os.replace(tmp, self.path)
-            time.sleep(0.3)
-            if self._holder() != self.token:
-                raise busy from None
-            return self
-        with os.fdopen(fd, "w", encoding="utf-8") as fh:
-            fh.write(self._content())
+            if os.name == "nt":
+                import msvcrt
+
+                fh.seek(0)
+                msvcrt.locking(fh.fileno(), msvcrt.LK_NBLCK, 1)
+            else:
+                import fcntl
+
+                fcntl.flock(fh.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError:
+            fh.close()
+            raise AlreadyRunning(
+                f"başka bir emir çalıştırması sürüyor (kilit: {self.path}). O çalıştırma bitince yeniden deneyin; "
+                "emin değilseniz Matriks IQ'da emirlerinizi kontrol edin."
+            ) from None
+        self._fh = fh
+        try:  # bilgi amaçlı: kilidi kim, ne zaman aldı
+            fh.seek(1 if os.name == "nt" else 0)
+            fh.truncate()
+            fh.write(f" {os.getpid()} {dt.datetime.now(IST).isoformat(timespec='seconds')}\n".encode())
+            fh.flush()
+        except OSError:
+            pass
         return self
 
     def __exit__(self, *exc) -> None:
-        if self._holder() == self.token:
-            self.path.unlink(missing_ok=True)
+        fh, self._fh = self._fh, None
+        if fh is None:
+            return
+        try:
+            if os.name == "nt":
+                import msvcrt
+
+                fh.seek(0)
+                msvcrt.locking(fh.fileno(), msvcrt.LK_UNLCK, 1)
+            else:
+                import fcntl
+
+                fcntl.flock(fh.fileno(), fcntl.LOCK_UN)
+        except OSError:
+            pass
+        fh.close()
 
 
 def load_state(folder: Path) -> dict:
@@ -134,34 +140,59 @@ def save_state(folder: Path, state: dict) -> None:
     os.replace(tmp, folder / STATE_FILE)
 
 
-def keep_undelivered(folder: Path, text: str) -> None:
-    """Telegram'a iletilemeyen önemli bildirimi saklar; sonraki çalıştırmanın başında yeniden denenir."""
+def _outbox(folder: Path) -> list[dict]:
+    try:
+        raw = (Path(folder) / OUTBOX_FILE).read_bytes()
+    except OSError:
+        return []
+    out = []
+    for line in raw.split(b"\n"):
+        try:
+            entry = json.loads(line.decode("utf-8", errors="replace"))
+        except ValueError:
+            continue
+        if isinstance(entry, dict) and entry.get("text"):
+            out.append(entry)
+    return out
+
+
+def _write_outbox(folder: Path, entries: list[dict]) -> None:
     folder = Path(folder)
+    path = folder / OUTBOX_FILE
+    if not entries:
+        path.unlink(missing_ok=True)
+        return
     folder.mkdir(parents=True, exist_ok=True)
-    entry = {"ts": dt.datetime.now(IST).isoformat(timespec="seconds"), "text": text}
-    with open(folder / OUTBOX_FILE, "a", encoding="utf-8") as fh:
-        fh.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    tmp = folder / (OUTBOX_FILE + ".tmp")
+    tmp.write_text("".join(json.dumps(e, ensure_ascii=False) + "\n" for e in entries), encoding="utf-8")
+    os.replace(tmp, path)
+
+
+def keep_undelivered(folder: Path, text: str) -> str:
+    """Önemli bildirimi gönderilmeden ÖNCE saklar (süreç gönderim sırasında kesilse de kaybolmasın);
+    kaydın kimliğini döndürür."""
+    ident = secrets.token_hex(6)
+    entries = _outbox(folder)
+    entries.append({"id": ident, "ts": dt.datetime.now(IST).isoformat(timespec="seconds"), "text": text})
+    _write_outbox(folder, entries)
+    return ident
+
+
+def drop_undelivered(folder: Path, ident: str) -> None:
+    _write_outbox(folder, [e for e in _outbox(folder) if e.get("id") != ident])
 
 
 def flush_undelivered(folder: Path, tg: Telegram) -> None:
-    path = Path(folder) / OUTBOX_FILE
-    try:
-        lines = path.read_bytes().split(b"\n")
-    except OSError:
-        return
+    """Önceki çalıştırmalardan iletilemeyen bildirimleri gönderir; gönderilemeyenler saklı kalır."""
+    entries = _outbox(folder)
     left = []
-    for raw in lines:
-        try:
-            entry = json.loads(raw.decode("utf-8", errors="replace"))
-        except ValueError:
-            continue
-        text = f"📮 Daha önce iletilemeyen bildirim ({str(entry.get('ts', ''))[:16]}):\n{entry.get('text', '')}"
-        if left or not tg.try_send(text):
-            left.append(raw)
-    if left:
-        path.write_bytes(b"\n".join(left) + b"\n")
-    else:
-        path.unlink(missing_ok=True)
+    for i, entry in enumerate(entries):
+        text = f"📮 Daha önce iletilemeyen bildirim ({str(entry.get('ts', ''))[:16]}):\n{entry['text']}"
+        if not tg.try_send(text):
+            left = entries[i:]
+            break
+    if len(left) != len(entries):
+        _write_outbox(folder, left)
 
 
 def sent_totals(journal: Journal, session: dt.date) -> tuple[float, float]:
@@ -286,6 +317,13 @@ class _Batch:
         self.orders: dict[str, OrderRequest] = {}
         self.notes: list[str] = []
         self.recoveries = 0
+        self.stop_warned = False
+        #: Her emir için görülen en büyük gerçekleşme (bir kez gerçekleşen emir yeniden denenmez).
+        self.max_filled: dict[str, int] = {}
+        #: Gönderimden hemen önce hesapta lot kalmadığı için çıkarılan satışlar (açık iş sayılır).
+        self.dropped_sells: list[OrderRequest] = []
+        #: Onay öncesinde okunan pozisyonlar (gönderim anındaki okumayla karşılaştırılır).
+        self.positions_at_plan: dict[str, int] = {}
 
     # -- yardımcılar -------------------------------------------------------------------
     def say(self, text: str, important: bool = False) -> None:
@@ -297,22 +335,33 @@ class _Batch:
         if not important:
             self.tg.try_send(text)
             return
+        ident = None
+        try:
+            ident = keep_undelivered(self.s.klasor, text)  # önce sakla: gönderim sırasında kesilirse kaybolmasın
+        except OSError:
+            log.exception("bildirim saklanamadı")
         try:
             ok = self.tg.deliver(text, clock=lambda: self.clock.now().timestamp(), sleep=self.clock.sleep)
         except Exception:  # bildirim hatası akışı bozmasın
             log.exception("bildirim gönderilemedi")
             ok = False
-        if not ok:
+        if ok and ident is not None:
             try:
-                keep_undelivered(self.s.klasor, text)
+                drop_undelivered(self.s.klasor, ident)
             except OSError:
-                log.exception("iletilemeyen bildirim saklanamadı")
+                log.exception("saklanan bildirim silinemedi")
 
     def stop_reason(self) -> str | None:
         if (Path(self.s.klasor) / STOP_FILE).exists():
             return f"{STOP_FILE} dosyası bulundu"
-        if self.tg is not None and self.tg.stop_requested(0):
-            return "Telegram'dan durdurma istendi"
+        if self.tg is not None:
+            if self.tg.stop_requested(0):
+                return "Telegram'dan durdurma istendi"
+            if self.tg.stop_failures >= 3 and not self.stop_warned:
+                # Mesajlar okunamıyor: kullanıcı DUR yazdığında işe yaramayacağını bilmeli.
+                self.stop_warned = True
+                self.tg.try_send(f"⚠️ Telegram mesajlarınız şu an okunamıyor; DUR yazmanız işe yaramayabilir. Durdurmak "
+                                 f"için bilgisayarda {Path(self.s.klasor) / STOP_FILE} adlı boş bir dosya oluşturun.")
         return None
 
     def wait_until(self, when: dt.datetime) -> None:
@@ -371,6 +420,7 @@ class _Batch:
             self.record("unknown", order.key, message=text)
             raise _Halt(f"{order.symbol} emrinde {text}") from exc
         self.states[order.key] = state
+        self.max_filled[order.key] = max(self.max_filled.get(order.key, 0), state.filled_lots)
         self.record(state.status, order.key, broker_id=state.broker_id, filled=state.filled_lots,
                     avg=state.avg_price, message=state.message)
         if state.status == "unknown":
@@ -440,6 +490,7 @@ class _Batch:
                 self.record(new.status, key, broker_id=new.broker_id, filled=new.filled_lots,
                             avg=new.avg_price, message=new.message)
             self.states[key] = new
+            self.max_filled[key] = max(self.max_filled.get(key, 0), new.filled_lots)
         return True
 
     def monitor(self, until: dt.datetime) -> None:
@@ -470,11 +521,16 @@ class _Batch:
 
     # -- gönderim ----------------------------------------------------------------------
     def read_cash(self) -> float | None:
+        """Harcanabilir bakiye: aracı kurumdan okunan tutardan, botun bugün gönderdiği ve hâlâ bekleyen
+        alışların gerçekleşmemiş kısmı düşülür (aracı kurumun bunu zaten düşüp düşmediği bilinmediği
+        için temkinli tarafta kalınır)."""
         try:
             cash = self.broker.cash()
         except BrokerError:
             return None
-        return cash if cash is not None and cash == cash else None
+        if cash is None or cash != cash:
+            return None
+        return cash - self.journal.working_buys(str(self.ticket.session)) * (1.0 + COST_MARGIN)
 
     def prepare(self, plan: Plan) -> None:
         """Göndermeden hemen önce (onay saatler önce verilmiş olabilir): bağlantı ve oturum yerinde mi,
@@ -486,12 +542,17 @@ class _Batch:
             held = self.broker.positions()
         except BrokerError as exc:
             raise _Halt(f"gönderimden önce aracı kurum bağlantısı doğrulanamadı: {exc}") from exc
+        if not held and self.positions_at_plan and any(o.side == "sell" for o in plan.orders):
+            # Onay öncesinde lotlar görünüyordu, şimdi liste bomboş: büyük olasılıkla pozisyonlar henüz
+            # yüklenmedi (ör. Matriks IQ yeniden başladı). Satışsız alışa girmek yerine hiçbir şey gönderme.
+            raise _Halt("hesaptaki lotlar şu an okunamıyor (pozisyon listesi boş döndü); hiçbir emir gönderilmedi")
         checked: list[OrderRequest] = []
         for order in plan.orders:
             if order.side == "sell":
                 have = int(held.get(order.symbol, 0))
                 if have <= 0:
                     self.notes.append(f"{order.symbol} satışı gönderilmedi: hesapta artık satılabilir lot yok.")
+                    self.dropped_sells.append(order)
                     continue
                 if have < order.lots:
                     self.notes.append(f"{order.symbol}: hesapta {have} lot kaldığı için {order.lots} yerine {have} lot satılıyor.")
@@ -526,7 +587,7 @@ class _Batch:
         okunamıyorsa ertelenen alışlar gönderilmez.
         """
         rejected = [o for o in plan.orders if o.side == "buy" and o.key in self.states
-                    and self.states[o.key].status == "rejected" and self.states[o.key].filled_lots == 0]
+                    and self.states[o.key].status == "rejected" and self.max_filled.get(o.key, 0) == 0]
         waiting = {o.key for o in deferred} | {o.key for o in rejected}
         candidates = [o for o in plan.orders if o.key in waiting]  # fişteki öncelik sırası korunur
         if not candidates:
@@ -635,6 +696,10 @@ def run_batch(s: ExecSettings, ticket: Ticket, broker: Broker, tg: Telegram | No
     cash = cash if cash is not None and cash == cash else None
 
     plan = build_plan(ticket, positions, cash, done)
+    batch.positions_at_plan = dict(positions)
+    if plan.unsellable and any(o.side == "buy" for o in plan.orders):
+        plan.notes.insert(0, "⚠️ Satış gönderilemeyeceği için alışların parası eksik kalabilir. Lotlarınız hesapta "
+                             "görünmüyorsa RED yazın, Matriks IQ'da girişinizi kontrol edip yeniden çalıştırın.")
     between = trading_days_between(ticket, s.tatiller)
     if between:
         plan.notes.insert(0, (
@@ -659,8 +724,8 @@ def run_batch(s: ExecSettings, ticket: Ticket, broker: Broker, tg: Telegram | No
     journal.record("batch_start", digest=digest, mode=s.mod, orders=len(plan.orders))
     if tg is not None:
         if tg.is_group and tg.can_read_group_messages() is False:
-            plan.notes.append("⚠️ Bot bu grupta düz mesajları göremiyor (gizlilik kipi açık). Kodu ve DUR'u bu mesaja "
-                              "YANIT olarak ya da /dur biçiminde yazın; kalıcı çözüm: BotFather → /setprivacy → Disable.")
+            plan.notes.append("⚠️ Bot bu grupta düz mesajları göremiyor (gizlilik kipi açık). Kodu bu mesaja YANIT olarak "
+                              "yazın; durdurmak için /dur yazın. Kalıcı çözüm: BotFather → /setprivacy → Disable.")
         code = new_code()
         text = approval_text(s, ticket, plan, broker, cash, code, deadline)
         label = f"{ticket.session:%d.%m.%Y} {'GERÇEK' if s.live else 'DENEME'} ({len(plan.orders)} emir)"
@@ -716,9 +781,13 @@ def run_batch(s: ExecSettings, ticket: Ticket, broker: Broker, tg: Telegram | No
         extra.insert(0, f"⛔ Gönderim DURDU: {halted}")
         if unsent:
             extra.append("Gönderilmeyen emirler: " + ", ".join(name(o) for o in unsent))
-    elif unsent or refused:
+    elif unsent or refused or batch.dropped_sells or plan.unsellable:
         # Fiş "tamamlandı" sayılmaz: nedeni giderilince yeniden çalıştırılırsa bu emirler yeni onayla denenir.
-        extra.append("Gönderilmeyen ya da reddedilen emirler var: " + ", ".join(name(o) for o in unsent + refused)
+        # Hesapta lot görünmediği için gönderilemeyen satışlar da açık iş sayılır.
+        open_orders = [name(o) for o in unsent + refused + batch.dropped_sells]
+        if plan.unsellable:
+            open_orders.append(f"hesapta lot görünmediği için planlanamayan {plan.unsellable} satış")
+        extra.append("Gönderilmeyen ya da reddedilen emirler var: " + ", ".join(dict.fromkeys(open_orders))
                      + ". Yeniden denemek için programı bir kez daha çalıştırın (yeniden onay istenir) ya da elle girin.")
     else:
         batch.record("batch_done", "", digest=digest)

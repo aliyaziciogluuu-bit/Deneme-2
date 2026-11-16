@@ -83,20 +83,41 @@ class Journal:
 
         ``sending`` kaydının hemen ardından gelen ``not_sent`` ("kesinlikle gitmedi") ve hiç
         gerçekleşmeden gelen ``rejected`` (aracı kurum reddetti) o denemeyi geri alır; başka
-        hiçbir kayıt gönderilmiş bir emri gönderilmemiş yapmaz.
+        hiçbir kayıt gönderilmiş bir emri gönderilmemiş yapmaz. Kısmen de olsa gerçekleşmiş bir emir
+        sonradan "reddedildi" görünse bile gönderilmiş sayılır.
         """
-        sent, last = False, None
+        sent, last, filled = False, None, False
         for e in self.entries():
             if e.get("key") != key:
                 continue
             event = e.get("event")
+            # Bir kez gerçekleşme görülmüşse (kısmi de olsa) sonradan gelen hiçbir kayıt emri yok saydıramaz.
+            filled = filled or bool(e.get("filled")) or event in ("partial", "filled")
             if event in SENT_EVENTS:
                 sent, last = True, event
             elif event == "not_sent" and last == "sending":
                 sent, last = False, None
-            elif event == "rejected" and not e.get("filled"):
+            elif event == "rejected" and not filled:
                 sent, last = False, None
         return sent
+
+    def working_buys(self, session: str) -> float:
+        """Bu seansta gönderilmiş, henüz bitmemiş (bekleyen ya da akıbeti belirsiz) alışların gerçekleşmemiş
+        kısmının limit fiyattan tutarı. Bakiye hesabında bu tutar "harcanmış" sayılır."""
+        orders: dict[str, dict] = {}
+        for e in self.entries():
+            key = e.get("key") or ""
+            if e.get("event") == "sending" and e.get("session") == session and e.get("side") == "buy":
+                orders[key] = {"lots": float(e.get("lots") or 0), "limit": float(e.get("limit") or 0),
+                               "filled": 0.0, "event": "sending"}
+            elif key in orders and e.get("event") in SENT_EVENTS | {"rejected", "not_sent"}:
+                orders[key]["event"] = e["event"]
+                orders[key]["filled"] = max(orders[key]["filled"], float(e.get("filled") or 0))
+        total = 0.0
+        for o in orders.values():
+            if o["event"] in ("sending", "accepted", "partial", "unknown"):
+                total += max(o["lots"] - o["filled"], 0.0) * o["limit"]
+        return total
 
     def order_sent(self, key: str) -> bool:
         """Emir, ilk denemede ya da ikinci turda gönderildi mi? (``key`` ek taşımayan temel anahtardır.)"""

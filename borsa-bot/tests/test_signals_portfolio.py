@@ -294,6 +294,12 @@ def test_hybrid_never_scores_a_stock_without_fundamentals():
     ('[signal]\nw_technical = -1\n', "ağırlık"),
     ('[signal]\ntrend_gate = "entry_exit"\n', "bilinmeyen"),
     ('capital = 0\n', "capital"),
+    ('capital = 100.000\n', "binlik"),                       # Türkçe binlik ayırıcı: 100 TL olarak okunurdu
+    ('capital = "250000"\n', "capital"),
+    ('[cost]\ncommission = "0.002"\n', "commission"),        # tırnak içinde sayı
+    ('[signal]\nw_technical = "1.0"\n', "w_technical"),
+    ('[portfolio]\nn_holdings = 15.0\n', "tam sayı"),
+    ('[portfolio]\nregime = "trend"\n', "regime_off_exposure"),  # tek başına açılırsa tümü nakde geçerdi
 ])
 def test_bad_setting_values_are_rejected_when_the_file_is_loaded(tmp_path, text, expected):
     path = tmp_path / "ayar.toml"
@@ -308,7 +314,8 @@ def test_shipped_settings_file_runs_the_preregistered_strategy():
     from pathlib import Path
 
     shipped = Path(__file__).resolve().parent.parent / "ayar.toml"
-    assert load_config(shipped) == Config()
+    cfg = load_config(shipped)  # sermaye ve masraf kullanıcıya özeldir; yalnızca strateji bölümleri karşılaştırılır
+    assert (cfg.signal, cfg.portfolio, cfg.universe) == (Config().signal, Config().portfolio, Config().universe)
     # Yorum satırındaki seçeneklerin hepsi açıldığında dosya yine geçerlidir ve doğru bölümlere düşer.
     options = r'^# (\[signal\]|w_technical = 1\.0|\[portfolio\]|trend_gate = "entry_exit"|regime = "trend"|regime_off_exposure = 0\.5)$'
     opened = re.sub(options, r"\1", shipped.read_text(encoding="utf-8"), flags=re.M)
@@ -316,3 +323,22 @@ def test_shipped_settings_file_runs_the_preregistered_strategy():
     data = tomllib.loads(opened)
     assert data["signal"] == {"w_technical": 1.0}
     assert data["portfolio"] == {"trend_gate": "entry_exit", "regime": "trend", "regime_off_exposure": 0.5}
+
+
+def test_each_optional_setting_can_be_enabled_on_its_own():
+    import re
+    import tomllib
+    from pathlib import Path
+
+    text = (Path(__file__).resolve().parent.parent / "ayar.toml").read_text(encoding="utf-8")
+
+    def opened(*lines):
+        out = text
+        for line in lines:
+            out = re.sub(rf"^# ({re.escape(line)})$", r"\1", out, flags=re.M)
+        return tomllib.loads(out)
+
+    assert opened("[signal]", "w_technical = 1.0")["signal"] == {"w_technical": 1.0}
+    assert opened("[portfolio]", 'trend_gate = "entry_exit"')["portfolio"] == {"trend_gate": "entry_exit"}
+    both = opened("[portfolio]", 'regime = "trend"', "regime_off_exposure = 0.5")["portfolio"]
+    assert both == {"regime": "trend", "regime_off_exposure": 0.5}

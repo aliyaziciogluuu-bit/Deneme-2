@@ -11,8 +11,8 @@ from .dryrun import DryRunBroker, ReadOnlyBroker
 from .guard import round_down_to_tick
 from .journal import Journal
 from .matriks import STATUS_TEXT, MatriksBroker, _number, _order_qty, mask
-from .runner import (IST, AlreadyRunning, Clock, RunLock, RunResult, account_fingerprint, journal_path, load_state,
-                     run_batch, save_state)
+from .runner import (IST, AlreadyRunning, Clock, RunLock, RunResult, account_fingerprint, flush_undelivered,
+                     journal_path, load_state, run_batch, save_state)
 from .settings import ExecSettings, SettingsError
 from .telegram import Telegram
 from .ticket import Ticket, TicketError, load_ticket
@@ -89,6 +89,12 @@ def cmd_run(s: ExecSettings, base: Path, clock: Clock | None = None) -> RunResul
     """Günün emir fişini işler."""
     clock = clock or Clock()
     tg = make_telegram(s)
+    if tg is not None:
+        # Önceki çalıştırmadan iletilemeyen rapor/uyarı varsa (emir olmayan günlerde de) önce o gönderilir.
+        try:
+            flush_undelivered(s.klasor, tg)
+        except OSError:
+            log.exception("iletilemeyen bildirimler okunamadı")
     if s.git_guncelle and not s.fis.startswith("https://"):
         git_pull(base)
     try:

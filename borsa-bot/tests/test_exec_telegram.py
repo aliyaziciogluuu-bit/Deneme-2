@@ -19,14 +19,17 @@ def test_correct_code_from_owner_approves():
     assert http.sent[0].startswith("emirler")
 
 
-@pytest.mark.parametrize("text", ["ONAY 4821", "onay4821", " 4821 ", "Evet 4821"])
+@pytest.mark.parametrize("text", ["ONAY 4821", "onay4821", " 4821 ", "Evet 4821", "/4821", "4821.", "ONAY 4821.",
+                                  "48 21", "kod 4821", "4821@BistBot"])
 def test_accepted_spellings(text):
     clock = FakeClock()
     tg, _ = fake_telegram(clock, lambda code: [text])
     assert ask(tg, clock).approved
 
 
-@pytest.mark.parametrize("text", ["RED", "red", "Hayır", "iptal", "İPTAL", "dur", "vazgeç"])
+@pytest.mark.parametrize("text", ["RED", "red", "Hayır", "iptal", "İPTAL", "dur", "vazgeç", "hayır dur", "iptal et",
+                                  "DUR DUR DUR", "dur lütfen", "vazgeçtim", "red ediyorum", "🛑 DUR", "gönderme",
+                                  "@BistBot dur", "/dur@BistBot", "4821 hayır gönderme"])
 def test_reject_words(text):
     clock = FakeClock()
     tg, _ = fake_telegram(clock, lambda code: [text])
@@ -110,7 +113,7 @@ def test_wrong_code_then_right_code_and_replies_never_repeat_the_code():
     assert all("4821" not in t for t in replies)  # geçerli kod hata yanıtlarında yinelenmez
 
 
-@pytest.mark.parametrize("after", ["RED", "DUR", "İptal", "/dur", "vazgeç."])
+@pytest.mark.parametrize("after", ["RED", "DUR", "İptal", "/dur", "vazgeç.", "hayır dur gönderme", "iptal et"])
 def test_last_word_wins_when_code_and_revocation_arrive_together(after):
     """Kod yazıldıktan sonra vazgeçildiyse (aynı yığında ya da hemen ardından) emir gönderilmez."""
     clock = FakeClock()
@@ -204,11 +207,13 @@ def test_stop_words_after_approval_and_helpers():
     http.add_message("dur", user_id=999)
     assert not tg.stop_requested(0)
     # Onaydan sonra yalnız DUR değil, bütün vazgeçme sözcükleri ve yazım biçimleri durdurur.
-    for text in ("DUR", "red", "İptal", "Hayır", "vazgeç", "Dur.", "/dur", "/dur@BistBot", "durdur", "STOP!"):
+    for text in ("DUR", "red", "İptal", "Hayır", "vazgeç", "Dur.", "/dur", "/dur@BistBot", "durdur", "STOP!",
+                 "hayır dur", "@BistBot dur", "lütfen durdurun", "iptal edin"):
         http.add_message(text)
         assert tg.stop_requested(0), text
-    http.add_message("ne oldu?")
-    assert not tg.stop_requested(0)
+    for text in ("ne oldu?", "durum nedir", "durma devam et"):  # durdurma değil
+        http.add_message(text)
+        assert not tg.stop_requested(0), text
     assert "Anlaşılmadı" in http.sent[-1] and "DUR" in http.sent[-1]  # kullanıcı durdurduğunu sanmasın
     assert normalize(" İptal ") == "IPTAL" and normalize("vazgeç") == "VAZGEC" and normalize("Hayır") == "HAYIR"
     assert command("/dur@BistBot") == "DUR" and command("Dur.") == "DUR" and command("1234.") == "1234"
@@ -281,3 +286,114 @@ def test_important_messages_are_retried_and_group_privacy_is_detected():
     http.reads_groups = True
     assert tg.can_read_group_messages() is True
     assert not tg.is_group and Telegram(TOKEN, "-100123", "42", http=http).is_group
+
+
+def test_unclear_text_next_to_the_code_is_not_an_approval():
+    """Kodla birlikte anlaşılmayan bir şey yazıldıysa onay sayılmaz; kullanıcıya sorulur."""
+    clock2 = FakeClock()
+    tg2, http2 = fake_telegram(clock2, lambda code: [code, "bekle biraz"])
+    orig = http2.post
+
+    def post(url, data=None, timeout=None):
+        resp = orig(url, data=data, timeout=timeout)
+        if url.endswith("sendMessage") and "birlikte yazdığınızı anlamadım" in data["text"]:
+            http2.add_message("4821")  # kullanıcı netleştirir: yalnızca kod
+        return resp
+
+    http2.post = post
+    d = ask(tg2, clock2)
+    assert d.approved and any("birlikte yazdığınızı anlamadım" in t for t in http2.sent)
+    # Netleştirmezse süre dolar ve emir gitmez.
+    clock3 = FakeClock()
+    tg3, _ = fake_telegram(clock3, lambda code: [code, "sonra bakarız"])
+    assert ask(tg3, clock3, minutes=5).status == "timeout"
+
+
+def test_owner_text_from_an_earlier_page_survives_a_failed_later_page():
+    clock = FakeClock()
+    tg, http = fake_telegram(clock, "none")
+    http.add_message("DUR")
+    for _ in range(150):
+        http.add_message("spam", user_id=999, chat_id=999)
+    orig, state = http.post, {"n": 0}
+
+    def paged(url, data=None, timeout=None):
+        if url.endswith("getUpdates"):
+            state["n"] += 1
+            if state["n"] == 2:
+                raise requests.ConnectionError("ikinci sayfa okunamadı")
+            offset = int(data.get("offset") or 0)
+            keep = [u for u in http.queue if u["update_id"] >= offset]
+            http.queue = keep
+            return type("R", (), {"status_code": 200, "json": lambda self: {"ok": True, "result": keep[:100]}})()
+        return orig(url, data=data, timeout=timeout)
+
+    http.post = paged
+    assert tg.stop_requested(0)  # ilk sayfadaki DUR, ikinci sayfa hatasına rağmen görülür
+
+
+def test_a_single_stray_conflict_does_not_end_the_wait():
+    clock = FakeClock()
+    tg, http = fake_telegram(clock, "approve")
+    orig, state = http.post, {"n": 0}
+
+    def post(url, data=None, timeout=None):
+        if url.endswith("getUpdates"):
+            state["n"] += 1
+            if state["n"] == 2:  # başka bir yerden bir kez getUpdates çağrıldı
+                return type("R", (), {"status_code": 409, "json": lambda self: {"ok": False}})()
+        return orig(url, data=data, timeout=timeout)
+
+    http.post = post
+    assert ask(tg, clock).approved
+
+
+def test_long_reports_resend_only_the_missing_parts():
+    clock = FakeClock()
+    tg, http = fake_telegram(clock, "none")
+    text = "\n".join(f"satır {i} " + "x" * 60 for i in range(120))  # iki parçaya bölünür
+    orig, state = http.post, {"n": 0}
+
+    def post(url, data=None, timeout=None):
+        if url.endswith("sendMessage"):
+            state["n"] += 1
+            if state["n"] in (2, 3):  # ikinci parça iki kez başarısız
+                raise requests.ConnectionError("yok")
+        return orig(url, data=data, timeout=timeout)
+
+    http.post = post
+    from bistbot.live.notify import split_message
+
+    parts = split_message(text)
+    assert len(parts) >= 2
+    assert tg.deliver(text, clock=lambda: clock.now().timestamp(), sleep=clock.sleep)
+    assert http.sent == parts  # her parça tam bir kez: gönderilmiş ilk parça yinelenmedi
+
+
+def test_stop_poll_backoff_is_measured_after_the_failure():
+    clock = FakeClock()
+    tg, http = fake_telegram(clock, "none")
+    now = {"t": 0.0}
+    tg._monotonic = lambda: now["t"]
+    orig = http.post
+
+    def slow_failure(url, data=None, timeout=None):
+        now["t"] += 12.0  # hata 12 saniye sürdü
+        raise requests.ConnectionError("yavaş ağ")
+
+    http.post = slow_failure
+    assert not tg.stop_requested(0)
+    before = now["t"]
+    for _ in range(5):
+        assert not tg.stop_requested(0)  # hemen yeniden denenmez (her emirde 12 sn beklenmez)
+    assert now["t"] == before
+    now["t"] += 11.0
+    http.post = orig
+    http.add_message("DUR")
+    assert tg.stop_requested(0)  # süre dolunca yoklama sürer
+    # Anında dönen tek bir hata sonraki yoklamayı geciktirmez.
+    http.status = 502
+    assert not tg.stop_requested(0)
+    http.status = 200
+    http.add_message("dur")
+    assert tg.stop_requested(0)

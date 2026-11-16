@@ -90,7 +90,7 @@ def cmd_gunluk(args) -> int:
 
     try:
         cfg = load_config(args.ayar)
-    except (ValueError, OSError) as exc:
+    except (ValueError, TypeError, OSError) as exc:
         # Ayar dosyası bozuksa bot sessizce durmasın: neyin yanlış olduğu bildirilsin.
         text = f"⚠️ BIST Bot çalışmadı: ayar dosyasında hata ({args.ayar.name}): {exc}"
         print(text)

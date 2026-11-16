@@ -27,15 +27,18 @@ cash_yield_share = 0.8
 #
 # 1) Teknik sütun: nakde göre fiyatın 200 günlük ortalamaya uzaklığı, 50/200 ortalama oranı ve
 #    52 haftalık zirveye yakınlık beşinci sütun olarak puana katılır. Geçmiş testte yıllık getiriyi
-#    %41,8'den %44,2'ye çıkardı ama en büyük düşüşü %32'den %35'e derinleştirdi; katkı küçük ve
-#    karar günü ya da hisse sayısı değişince tutarlı değil.
+#    %41,8'den %44,2'ye çıkardı ve dokuz komşu ayarın yedisinde önde kaldı; ama en büyük düşüşü
+#    %32'den %35'e derinleştirdi, katkısı küçük ve sonuçlar görüldükten sonra öne çıktı (şans payı).
 #    Açmak için aşağıdaki iki satırın başındaki "#" işaretlerini silin:
 # [signal]
 # w_technical = 1.0
 
 # --- İsteğe bağlı portföy seçenekleri ----------------------------------------------------
-# Bu ikisi aynı [portfolio] başlığı altında durur. Birini ya da ikisini açmak için ÖNCE
-# "# [portfolio]" satırının, sonra istediğiniz ayar satırlarının başındaki "#" işaretini silin.
+# Bu ikisi aynı [portfolio] başlığı altında durur. Açmak için ÖNCE "# [portfolio]" satırının,
+# sonra istediğiniz seçeneğin satır(lar)ının başındaki "#" işaretini silin:
+#   onay kapısı için : trend_gate satırı
+#   temkinli mod için: regime VE regime_off_exposure satırları (ikisi birlikte; yalnızca regime
+#                      açılırsa bot hata verir, çünkü o zaman portföyün tamamı nakde geçerdi)
 #
 # 2) Teknik onay kapısı (trend_gate): hisse ancak yükseliş eğilimindeyse (nakde göre fiyatı
 #    200 günlük ortalamasının üstünde) alınır, eğilimi bozulursa ayın ilk işlem gününde satılır;
@@ -46,7 +49,7 @@ cash_yield_share = 0.8
 #
 # 3) Temkinli mod (regime): BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse
 #    portföyün yarısı nakitte tutulur. Geçmiş testte düşüşleri azalttı ve 2024-2026'da getiriyi
-#    artırdı; ancak kazanç iki döneme dayanıyor, 6-9 aylık ayarda kayboluyor ve nakdiniz faiz
+#    artırdı; ancak kazanç iki döneme dayanıyor, 6 aylık ayarda kayboluyor, 9 aylıkta azalıyor ve nakdiniz faiz
 #    kazanmıyorsa temel stratejiden kötü sonuç veriyor. Açarsanız nakit kısmını gecelik repo ya da
 #    para piyasası fonunda değerlendirin.
 #

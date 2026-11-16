@@ -15,6 +15,7 @@ Güvenlik kuralları:
 from __future__ import annotations
 
 import logging
+import re
 import secrets
 import time
 from dataclasses import dataclass
@@ -28,12 +29,18 @@ log = logging.getLogger(__name__)
 API = "https://api.telegram.org"
 #: Yanlış kod bu kadar kez yazılırsa istek reddedilmiş sayılır.
 MAX_WRONG = 5
-#: Bilgisayar saati ile Telegram sunucu saati arasında izin verilen en büyük fark (saniye).
-MAX_CLOCK_SKEW = 180.0
-#: Onayı reddeden ve (onaydan sonra) gönderimi durduran sözcükler.
-REJECT_WORDS = frozenset({"RED", "REDDET", "HAYIR", "IPTAL", "DUR", "DURDUR", "STOP", "VAZGEC"})
+#: Bilgisayar saati ile Telegram sunucu saati arasında izin verilen en büyük fark (saniye). Gönderim
+#: pencerelerinin kenar payları 15-30 saniyedir; saat bundan fazla şaşıyorsa emir gönderilmez.
+MAX_CLOCK_SKEW = 10.0
+#: Onayı reddeden ve (onaydan sonra) gönderimi durduran sözcükler; mesajın herhangi bir sözcüğü olabilir.
+REJECT_WORDS = frozenset({"RED", "REDDET", "HAYIR", "IPTAL", "DUR", "DURDUR", "STOP", "VAZGEC", "GONDERME", "YAPMA"})
+#: Bu öneklerle başlayan sözcükler de vazgeçme sayılır ("vazgeçtim", "iptal et", "durdurun", "reddediyorum").
+REJECT_PREFIXES = ("VAZGEC", "IPTAL", "DURDUR", "REDDE", "GONDERME")
+#: Kodun yanında yazılabilecek onay sözcükleri ("ONAY 1234", "evet 1234").
+CONFIRM_WORDS = frozenset({"ONAY", "ONAYLA", "ONAYLIYORUM", "EVET", "OK", "TAMAM", "KOD"})
 PAGE = 100
-_PUNCT = " .,!?;:…-_*\"'()[]"
+_CODE_WORD = re.compile(r"(?:ONAYLIYORUM|ONAYLA|ONAY|EVET|TAMAM|OK|KOD)?(\d+)")
+_TR = str.maketrans("ıiİşŞğĞüÜöÖçÇ", "IIISSGGUUOOCC")
 
 
 class TelegramError(RuntimeError):
@@ -51,19 +58,50 @@ class TelegramError(RuntimeError):
 
 def normalize(text: str) -> str:
     """Karşılaştırma için sadeleştirir: boşlukları atar, büyütür, Türkçe harfleri düzleştirir."""
-    table = str.maketrans("ıiİşŞğĞüÜöÖçÇ", "IIISSGGUUOOCC")
-    return "".join(text.split()).translate(table).upper()
+    return "".join(text.split()).translate(_TR).upper()
+
+
+def tokens(text: str) -> list[str]:
+    """Mesajın sözcükleri: büyük harf, Türkçe harfler düzleştirilmiş, noktalama atılmış. Komut biçimleri
+    de anlaşılır: "/dur", "/dur@BotAdı" -> "DUR"; "@BotAdı dur" -> "DUR"; "1234." -> "1234"."""
+    out = []
+    for part in re.split(r"[^0-9A-Z@/]+", text.translate(_TR).upper()):
+        word = part.lstrip("/").split("@", 1)[0]
+        if word:
+            out.append(word)
+    return out
+
+
+def is_reject(text: str) -> bool:
+    """Mesajda bir vazgeçme/durdurma sözcüğü var mı ("hayır dur", "iptal et", "vazgeçtim", "/dur" ...)."""
+    return any(word in REJECT_WORDS or word.startswith(REJECT_PREFIXES) for word in tokens(text))
 
 
 def command(text: str) -> str:
-    """Sözcük karşılaştırması için: baştaki ``/``, sondaki ``@botadı`` ve noktalama atılır
-    ("/dur@bot", "Dur.", "İptal!" hepsi anlaşılır). Kod karşılaştırmasında KULLANILMAZ."""
-    word = normalize(text).lstrip("/").split("@", 1)[0]
-    return word.strip(_PUNCT)
+    """Tek sözcüklü mesajın sözcüğü (yoksa boş): ``tokens`` ile aynı sadeleştirme."""
+    words = tokens(text)
+    return words[0] if len(words) == 1 else ""
 
 
-def is_code_like(word: str) -> bool:
-    return word.isdigit() or word.strip("ONAYEVTK").isdigit()
+def classify(text: str, code: str) -> str:
+    """Onay beklerken gelen mesajın türü: ``reject`` | ``code`` | ``wrong_code`` | ``other``.
+
+    Kod yalnızca tam olarak yazılmışsa (yanında en çok "onay", "evet" gibi sözcüklerle) kabul edilir;
+    "/1234", "1234." ve "48 21" yazımları da geçerlidir. Başka sözcük içeren mesaj onay sayılmaz.
+    """
+    if is_reject(text):
+        return "reject"
+    digits = []
+    for word in tokens(text):
+        if word in CONFIRM_WORDS:
+            continue
+        match = _CODE_WORD.fullmatch(word)  # "1234" ya da bitişik yazılmış "ONAY1234"
+        if match is None:
+            return "other"
+        digits.append(match.group(1))
+    if not digits:
+        return "other"
+    return "code" if "".join(digits) == code else "wrong_code"
 
 
 @dataclass
@@ -89,6 +127,8 @@ class Telegram:
         self._offset: int | None = None
         self._monotonic = monotonic
         self._stop_retry_at = float("-inf")
+        #: Durdurma yoklamasının art arda kaç kez başarısız olduğu (kanal kapalıysa kullanıcı uyarılır).
+        self.stop_failures = 0
 
     @property
     def is_group(self) -> bool:
@@ -119,13 +159,18 @@ class Telegram:
             raise TelegramError("Telegram isteği reddetti")
         return body
 
-    def send(self, text: str) -> int:
-        """Metni gönderir; son parçanın sunucu saatini (Unix) döndürür."""
+    def _send_parts(self, parts: list[str], done: int = 0) -> tuple[int, int]:
+        """``done`` sayıda parça önceden gönderilmişse kalanları yollar; ``(gönderilen parça, sunucu saati)``."""
         stamp = 0
-        for part in split_message(text):
+        for part in parts[done:]:
             body = self._call("sendMessage", chat_id=self.chat_id, text=part, disable_web_page_preview="true")
             stamp = int((body.get("result") or {}).get("date") or 0)
-        return stamp
+            done += 1
+        return done, stamp
+
+    def send(self, text: str) -> int:
+        """Metni gönderir; son parçanın sunucu saatini (Unix) döndürür."""
+        return self._send_parts(split_message(text))[1]
 
     def try_send(self, text: str) -> bool:
         try:
@@ -136,11 +181,15 @@ class Telegram:
             return False
 
     def deliver(self, text: str, patience: float = 300.0, clock=time.time, sleep=time.sleep) -> bool:
-        """Önemli bildirim (rapor, durdurma, uyarı): geçici hatalarda ``patience`` saniye boyunca yeniden dener."""
-        end, attempt = clock() + patience, 0
+        """Önemli bildirim (rapor, durdurma, uyarı): geçici hatalarda ``patience`` saniye boyunca yeniden
+        dener. Uzun mesajın gönderilmiş parçaları yinelenmez; yalnızca kalan parçalar yeniden denenir."""
+        parts = split_message(text)
+        end, attempt, done = clock() + patience, 0, 0
         while True:
             try:
-                self.send(text)
+                while done < len(parts):
+                    self._call("sendMessage", chat_id=self.chat_id, text=parts[done], disable_web_page_preview="true")
+                    done += 1
                 return True
             except TelegramError as exc:
                 attempt += 1
@@ -180,7 +229,12 @@ class Telegram:
         """
         texts: list[str] = []
         for page in range(max_pages):
-            batch = self.updates(wait if page == 0 else 0)
+            try:
+                batch = self.updates(wait if page == 0 else 0)
+            except TelegramError:
+                if page == 0:
+                    raise
+                break  # önceki sayfalarda okunanlar kaybolmasın; kalanı sonraki yoklamada okunur
             for update in batch:
                 msg = update.get("message")
                 if not isinstance(msg, dict):
@@ -197,21 +251,25 @@ class Telegram:
         return texts
 
     def stop_requested(self, since: int = 0, backoff: float = 10.0) -> bool:
-        """Onaydan sonra yetkili kişi durdurma/vazgeçme sözcüğü yazdı mı (beklemeden bakar).
+        """Onaydan sonra yetkili kişi durdurma/vazgeçme yazdı mı (beklemeden bakar).
 
-        "DUR", "RED", "İPTAL", "HAYIR", "VAZGEÇ", "/dur" ... hepsi durdurur. Anlaşılmayan bir
-        mesaja yanıt verilir ki kullanıcı durdurduğunu sanmasın. Ağ hatasında ``False`` döner ve
-        Telegram'a ulaşılamıyorken her emirde yeniden beklememek için kısa süre yoklanmaz.
+        "DUR", "RED", "İPTAL", "hayır dur", "vazgeçtim", "/dur" ... hepsi durdurur. Anlaşılmayan bir
+        mesaja yanıt verilir ki kullanıcı durdurduğunu sanmasın. Ağ hatasında ``False`` döner;
+        Telegram yavaşsa (hata saniyeler sürdüyse) her emirde yeniden beklememek için kısa süre yoklanmaz.
         """
-        now = self._monotonic()
-        if now < self._stop_retry_at:
+        started = self._monotonic()
+        if started < self._stop_retry_at:
             return False
         try:
             texts = self.authorised_texts(since, wait=0)
         except TelegramError:
-            self._stop_retry_at = now + backoff
+            self.stop_failures += 1
+            ended = self._monotonic()
+            if ended - started >= 1.0:  # anında dönen hata (ör. tek bir 502) sonraki yoklamayı geciktirmez
+                self._stop_retry_at = ended + backoff
             return False
-        if any(command(t) in REJECT_WORDS for t in texts):
+        self.stop_failures = 0
+        if any(is_reject(t) for t in texts):
             return True
         if texts:
             self.try_send("Anlaşılmadı. Emirler gönderilmek üzere ya da gönderiliyor; durdurmak için DUR yazın.")
@@ -238,36 +296,45 @@ def request_approval(
             tg.try_send(f"⛔ Onay yanıtınız okunamıyor: {exc}. Emirler GÖNDERİLMEDİ.")
         return Decision("timeout", f"Telegram kullanılamıyor: {exc}")
 
+    def fatal(exc: TelegramError, conflicts: int) -> bool:
+        """Kalıcı hata mı? Tek seferlik 409 (ör. başka bir yerden bir kez getUpdates çağrılması) geçicidir."""
+        return exc.permanent and (not exc.conflict or conflicts >= 3)
+
     # İnternet kısa süre yoksa hemen vazgeçilmez; süre dolana kadar yeniden denenir.
-    sent_at, attempt = None, 0
+    sent_at, attempt, conflicts = None, 0, 0
+    before = after = clock()
     while sent_at is None:
         try:
             tg.updates(wait=0)  # eski mesajları tüket
+            before = clock()
             sent_at = tg.send(text) or int(clock())
+            after = clock()
         except TelegramError as exc:
-            if exc.permanent:
+            conflicts = conflicts + 1 if exc.conflict else 0
+            if fatal(exc, conflicts):
                 return permanent(exc)
             attempt += 1
             log.warning("Telegram'a ulaşılamadı (%d): %s", attempt, exc)
             if clock() + 30.0 >= deadline:
                 return Decision("timeout", f"Telegram'a ulaşılamadı: {exc}")
             sleep(min(60.0, 5.0 * attempt))
-    skew = abs(sent_at - clock())
+    # Saat farkı: sunucu saati, isteğin gönderilmeden önceki ve sonraki yerel saatinin arasında olmalı
+    # (ağ gecikmesi farka katılmaz). Gönderim pencereleri bilgisayarın saatine göre hesaplanır.
+    skew = max(before - (sent_at + 1), sent_at - after, 0.0)
     if skew > MAX_CLOCK_SKEW:
-        # Gönderim pencereleri bilgisayarın saatine göre hesaplanır; saat yanlışsa emir gönderilmez.
-        tg.try_send(f"⛔ Bilgisayarın saati Telegram saatinden {int(skew / 60)} dakika farklı. Saati düzeltin; "
-                    "emirler GÖNDERİLMEDİ.")
+        tg.try_send(f"⛔ Bilgisayarın saati Telegram saatinden yaklaşık {int(skew)} saniye farklı. Saati düzeltin "
+                    "(Windows: Ayarlar → Saat ve dil → Şimdi eşitle); emirler GÖNDERİLMEDİ.")
         return Decision("rejected", f"bilgisayar saati yanlış ({int(skew)} sn fark)")
 
-    codes = (code, "ONAY" + code, "EVET" + code, "OK" + code)
-    wrong, failures = 0, 0
+    wrong, failures, conflicts = 0, 0, 0
     while clock() < deadline:
         wait = int(max(0, min(poll, deadline - clock())))
         try:
             texts = tg.authorised_texts(sent_at, wait=wait)
-            failures = 0
+            failures = conflicts = 0
         except TelegramError as exc:
-            if exc.permanent:
+            conflicts = conflicts + 1 if exc.conflict else 0
+            if fatal(exc, conflicts):
                 return permanent(exc)
             failures += 1
             log.warning("Telegram okunamadı (%d): %s", failures, exc)
@@ -275,19 +342,28 @@ def request_approval(
                 tg.try_send(f"⚠️ Onay yanıtınız okunamıyor ({exc}). Sorun sürerse emirler gönderilmeyecek.")
             sleep(min(30.0, 3.0 * failures))
             continue
-        # Karar tüm yığına bakılarak verilir: vazgeçme sözcüğü, koddan önce de sonra da yazılsa geçerlidir.
-        if any(command(t) in REJECT_WORDS for t in texts):
+        # Karar tüm yığına bakılarak verilir: vazgeçme, koddan önce de sonra da yazılsa geçerlidir.
+        kinds = [classify(t, code) for t in texts]
+        if "reject" in kinds:
             return Decision("rejected", "kullanıcı reddetti", by_user=True)
-        if any(normalize(t) in codes for t in texts):
-            try:
-                late = tg.authorised_texts(sent_at, wait=0)  # koddan hemen sonra yazılmış bir vazgeçme var mı
-            except TelegramError:
-                late = []
-            if any(command(t) in REJECT_WORDS for t in late):
-                return Decision("rejected", "kullanıcı koddan sonra vazgeçti", by_user=True)
-            return Decision("approved", "kod doğrulandı")
-        for raw in texts:
-            if is_code_like(normalize(raw)):
+        if "code" in kinds:
+            unclear = any(k != "code" for k in kinds)
+            if not unclear:
+                try:
+                    late = tg.authorised_texts(sent_at, wait=0)  # koddan hemen sonra yazılmış bir şey var mı
+                except TelegramError:
+                    late = []
+                if any(is_reject(t) for t in late):
+                    return Decision("rejected", "kullanıcı koddan sonra vazgeçti", by_user=True)
+                unclear = any(classify(t, code) != "code" for t in late)
+            if not unclear:
+                return Decision("approved", "kod doğrulandı")
+            # Kodla birlikte anlaşılmayan bir şey yazılmış (ör. "bekle", "sonra"): onay sayılmaz.
+            tg.try_send("Kodu aldım ama birlikte yazdığınızı anlamadım; emirler GÖNDERİLMEDİ. Onaylıyorsanız "
+                        "yalnızca kodu yeniden yazın; vazgeçtiyseniz RED yazın.")
+            continue
+        for kind in kinds:
+            if kind == "wrong_code":
                 wrong += 1
                 if wrong >= MAX_WRONG:
                     tg.try_send("Kod çok kez yanlış yazıldı. Emirler GÖNDERİLMEDİ.")

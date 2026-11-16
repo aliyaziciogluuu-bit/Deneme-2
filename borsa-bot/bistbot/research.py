@@ -29,9 +29,11 @@ da sağlıyor göründü ve bir süre ``ayar.toml`` içinde açık bırakıldı;
 hatalı olduğunu gösterdi: teknik sütun açıkken mali tablosu hiç olmayan hisseler yalnızca fiyat
 sütunlarıyla puanlanabiliyordu ve görünen üstünlüğün yaklaşık yarısı böyle tek bir hisseden
 geliyordu. ``score_date`` düzeltildi (hibritte en az bir temel sütun aranır). Düzeltilmiş
-sonuçta teknik sütunun katkısı küçüktür ve karar günü ile hisse sayısı değiştirildiğinde tutarlı
-değildir (bkz. rapordaki ``sutun_dayaniklilik``). Bu nedenle hiçbir hibrit ek parça varsayılan
-değildir; ikisi de ``ayar.toml`` ile açılabilen seçeneklerdir. Not: ön kayıt metni, denemeler ve
+sonuçta teknik sütunun katkısı küçüktür (yılda yaklaşık +2,3 puan), en büyük düşüşü derinleştirir
+ve dokuz komşu ayarın yedisinde öndedir (bkz. rapordaki ``sutun_dayaniklilik``). Yine de
+sonuçlar görüldükten sonra öne çıktığı ve ön kayıtlı aday olmadığı için kural gereği varsayılan
+yapılmamıştır: hiçbir hibrit ek parça varsayılan değildir; ikisi de ``ayar.toml`` ile açılabilen
+seçeneklerdir. Not: ön kayıt metni, denemeler ve
 sonuçlar aynı commit'te yer aldığı için ön kaydın sırası depo geçmişinden doğrulanamaz.
 """
 from __future__ import annotations
@@ -246,9 +248,12 @@ def hybrid_report(lab: Lab, base: Config, results: dict[str, BacktestResult], sr
     # Teknik sütun, komşu ayarlarda da birincilden iyi mi? (seçim denemesi değil; sonucun tek bir
     # ayara bağlı olup olmadığını gösterir)
     robustness = []
-    variants = {
-        "Ayın 6. işlem günü": {"offset": 5}, "Ayın 11. işlem günü": {"offset": 10},
-        "10 hisse": {"n_holdings": 10, "hold_rank": 20}, "30 hisse": {"n_holdings": 30, "hold_rank": 60},
+    n = base.portfolio.n_holdings
+    variants = {  # beyan edilmiş denemelerdeki, sinyale dokunmayan bütün komşu ayarlar
+        "Ayın 6. işlem günü": {"offset": 5}, "Ayın 11. işlem günü": {"offset": 10}, "Ayın 16. işlem günü": {"offset": 15},
+        "10 hisse": {"n_holdings": 10, "hold_rank": 20}, "15 hisse": {"n_holdings": 15, "hold_rank": 30},
+        "30 hisse": {"n_holdings": 30, "hold_rank": 60}, "Haftalık dengeleme": {"frequency": "weekly"},
+        "Elde tutma bandı yok": {"hold_rank": n}, "Geniş bant": {"hold_rank": 3 * n},
     }
     for label, change in variants.items():
         plain = summarize(lab.run(base.with_overrides(portfolio=change)).equity, lab.ds.rf)

@@ -118,7 +118,7 @@ en az ikisinde daha iyi, (3) masraflar iki katına çıkınca da Sharpe daha yü
 | **Temel strateji (varsayılan)** | **%41,8** | **0,57** | −%32 | %25 | %96 | %21 | %41,4 | – |
 | Teknik sütun (5. sütun) | %44,2 | 0,63 | −%35 | %27 | %99 | %23 | %43,6 | ✓ ✓ ✓ |
 | Onay kapısı, yalnız alımda | %42,5 | 0,58 | −%35 | %24 | %95 | %24 | %41,7 | ✓ ✗ ✓ |
-| Onay kapısı, alım + çıkış (ön kayıtlı aday) | %47,4 | 0,77 | −%33 | %22 | %89 | %41 | %39,7 | ✓ ✗ ✓ |
+| Onay kapısı, alım + çıkış (ön kayıtlı aday) | %47,4 | 0,77 | −%33 | %21 | %89 | %41 | %39,7 | ✓ ✗ ✓ |
 | Teknik sütun + onay kapısı | %49,7 | 0,81 | −%32 | %26 | %99 | %37 | %43,8 | ✓ ✓ ✓ |
 
 **Sonuç: ek teknik parçaların hiçbiri varsayılan değil; ikisi de `ayar.toml` ile açılabilen seçenek.** Nedenleri:
@@ -128,11 +128,13 @@ en az ikisinde daha iyi, (3) masraflar iki katına çıkınca da Sharpe daha yü
   ölçütü geçemedi**: kazancının neredeyse tamamı 2023-2026'dan (faizin hisseleri geçtiği dönemden) geliyor,
   diğer iki dönemde temel stratejinin gerisinde ve nakdiniz faiz kazanmıyorsa daha kötü (%39,7'ye karşı %41,4).
   Kural açıktı: aday geçemezse varsayılan değişmez.
-- **Teknik sütun** tabloda üç ölçütü de sağlıyor görünüyor; ama katkısı küçük (yılda yaklaşık +2,4 puan),
-  en büyük düşüşü derinleştiriyor (−%35) ve **sağlam değil**: karar günü ayın 6. işlem gününe alınınca fark
-  kayboluyor (%42,6'ya karşı %42,5), 10 hisseli portföyde temel strateji daha iyi (%50,2'ye karşı %49,7);
-  ayın 11. günü ve 30 hisse ayarlarında ise sütun daha iyi. Gerçek bir etken böyle ayar değişikliklerinde
-  yön değiştirmemelidir. Ayrıca bu biçim, dört biçim denendikten **sonra** öne çıktı (şans payı).
+- **Teknik sütun** tabloda üç ölçütü de sağlıyor ve dokuz komşu ayarın (farklı karar günleri, hisse sayıları,
+  haftalık dengeleme, bant genişlikleri) **yedisinde** temel stratejiden önde; önde olmadığı iki ayar, kararın
+  ayın 6. işlem gününde verilmesi (%42,6'ya karşı %42,5: fark yok) ve 10 hisseli portföy (%49,7'ye karşı
+  %50,2). Yani katkısı büyük olasılıkla tümüyle rastlantı değil; ama küçük (yılda yaklaşık +2,3 puan), en
+  büyük düşüşü derinleştiriyor (−%35) ve dört biçim denendikten **sonra** öne çıktı (şans payı). Ön kayıtlı
+  aday olmadığı için kuralı sonradan esnetmedim. **Ek teknik parçalardan birini açmak isterseniz en
+  savunulabilir olanı budur.**
 - "Teknik sütun + kapı" en parlak rakamı veriyor (%49,7); onu seçmek, veriye uydurmanın ta kendisi olurdu.
 
 **Bir hata ve düzeltmesi (şeffaflık için).** İlk hibrit testte teknik sütun çok daha iyi görünüyordu (%46,3,
