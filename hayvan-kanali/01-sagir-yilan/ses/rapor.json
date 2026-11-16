@@ -222,5 +222,75 @@
   "hata": 0,
   "sure": 3.42,
   "uygun": true
+ },
+ "032": {
+  "yazi": "En çok sorulan soru: zehirli mi?",
+  "duyulan": "En çok sorulan soru zehirli mi?",
+  "hata": 0,
+  "sure": 2.22,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Hayır. Sağır yılanın zehri yok.",
+  "duyulan": "Hayır, sağır yılanın zehri yok.",
+  "hata": 0,
+  "sure": 1.94,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "İnsana saldırmaz; tehlike hissettiğinde kaçmayı ya da saklanmayı seçer.",
+  "duyulan": "İnsanı saldırmaz, tehlike hissettiğinde kaçmayı ya da saklanmayı seçer.",
+  "hata": 1,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Eline alındığında kıvranabilir, hatta dışkılayabilir.",
+  "duyulan": "eline alındığında kıvranabilir, hatta dışkılayabilir.",
+  "hata": 0,
+  "sure": 3.0,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Çok nadiren ısırmayı dener, ama küçük dişleri insana zarar vermez.",
+  "duyulan": "çok nadiren ısırmayı dener ama küçük dişleri insana zarar vermez.",
+  "hata": 0,
+  "sure": 4.26,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "En büyük savunması ise kuyruğu.",
+  "duyulan": "En büyük savunması ise kuyruğu.",
+  "hata": 0,
+  "sure": 1.88,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.",
+  "duyulan": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruğu kopar ve bir süre kıpırdamaya devam eder.",
+  "hata": 1,
+  "sure": 5.62,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar.",
+  "duyulan": "Yırtıcı kıvranan kuyrukla uğraşırken sağır yılan sessizce kaçar.",
+  "hata": 0,
+  "sure": 4.24,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır; hiçbir zaman eskisi gibi olmaz.",
+  "duyulan": "Kuyruk bir miktar yenilenir ama genellikle kısa ve küt bir uç olarak kalır, hiçbir zaman eskisi gibi olmaz.",
+  "hata": 0,
+  "sure": 5.94,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Bu yüzden onu asla kuyruğundan tutmamak gerekir.",
+  "duyulan": "Bu yüzden onu asla kuyruğundan tutmamak gerekir.",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
  }
 }
