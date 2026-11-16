@@ -262,6 +262,7 @@ def main():
             if not r["uygun"]:
                 print(f"  KONTROL ET {a}: {yz}  |  duyulan: {r['duyulan']}", flush=True)
         rapor_yolu.write_text(json.dumps(rapor, ensure_ascii=False, indent=1), encoding="utf-8")
+    rapor_yolu.write_text(json.dumps(rapor, ensure_ascii=False, indent=1), encoding="utf-8")  # yeniden değerlendirmeler de kaydedilsin
     sorunlu = [a for a, r in sorted(rapor.items()) if not r["uygun"]]
     print("Bitti." if not sorunlu else f"Kontrol edilecek cümleler: {sorunlu}")
 

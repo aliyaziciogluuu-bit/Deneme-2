@@ -142,9 +142,9 @@
  "020": {
   "yazi": "Sağır yılanın ise gerçek göz kapakları var.",
   "duyulan": "Sağır yılanınsa gerçek göz kapakları var.",
-  "hata": 2,
+  "hata": 0,
   "sure": 2.4,
-  "uygun": false
+  "uygun": true
  },
  "021": {
   "yazi": "İkincisi: çoğu bireyde başının yanlarında, bazen pulların arasında zor seçilen minicik kulak delikleri bulunuyor. Yılanların dış kulak deliği yoktur.",
@@ -212,9 +212,9 @@
  "030": {
   "yazi": "Avrupa'daki akrabasının bilimsel adı ise Anguis fragilis; fragilis, Latincede kırılgan demek.",
   "duyulan": "Avrupa'daki akrabasının bilimsel adıysa Anguis fragilis, fragilis latincede kırılgan demek.",
-  "hata": 2,
+  "hata": 0,
   "sure": 6.42,
-  "uygun": false
+  "uygun": true
  },
  "031": {
   "yazi": "Bu ismin, kolayca kopan kuyruğuna gönderme yaptığı düşünülüyor.",
@@ -415,9 +415,9 @@
  "059": {
   "yazi": "Doğada ise ömrü çok daha kısa; çoğu birey on yılı göremiyor.",
   "duyulan": "Doğadaysa ömrü çok daha kısa, çoğu birey 10 yılı göremiyor.",
-  "hata": 2,
+  "hata": 0,
   "sure": 4.12,
-  "uygun": false
+  "uygun": true
  },
  "060": {
   "yazi": "Çünkü doğada onu bekleyen tehlikeler çok.",
