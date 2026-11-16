@@ -103,5 +103,75 @@
   "hata": 0,
   "sure": 3.22,
   "uygun": true
+ },
+ "015": {
+  "yazi": "Peki madem bir kertenkele, neden bacakları yok?",
+  "duyulan": "Peki madem bir kertenkele neden bacakları yok?",
+  "hata": 0,
+  "sure": 3.02,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Ataları, toprağın ve yaprakların arasında sürünerek yaşamaya uyum sağlarken bacaklarını zamanla kaybetti.",
+  "duyulan": "Ataları toprağın ve yaprakların arasında sürünerek yaşamaya uyum sağlarken bacaklarını zamanla kaybetti.",
+  "hata": 0,
+  "sure": 6.28,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Ama vücudunda kertenkele olduğunu ele veren işaretler hâlâ duruyor.",
+  "duyulan": "ama vücudunda kertenkele olduğunu ele veren işaretler hâlâ duruyor.",
+  "hata": 0,
+  "sure": 4.22,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Birincisi: göz kırpıyor.",
+  "duyulan": "Birincisi, göz kırpıyor.",
+  "hata": 0,
+  "sure": 1.6,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
+  "duyulan": "Yılanların göz kapağı yoktur. Gözleri şeffaf bir pul lakaplıdır ve hiç kapanmaz.",
+  "hata": 0,
+  "sure": 4.96,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Sağır yılanın ise gerçek göz kapakları var.",
+  "duyulan": "Sağır yılanınsa gerçek göz kapakları var.",
+  "hata": 2,
+  "sure": 2.4,
+  "uygun": false
+ },
+ "021": {
+  "yazi": "İkincisi: çoğu bireyde başının yanlarında, bazen pulların arasında zor seçilen minicik kulak delikleri bulunuyor. Yılanların dış kulak deliği yoktur.",
+  "duyulan": "İkincisi, çoğu bireyde başının yanlarında, bazen pulların arasında zor seçilen minicik kulak delikleri bulunuyor. Yılanların dış kulak deliği yoktur.",
+  "hata": 0,
+  "sure": 8.9,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Üçüncüsü: başı gövdesine belirgin bir boyun olmadan, kesintisiz bağlanıyor.",
+  "duyulan": "Üçüncüsü, başı gövdesine belirgin bir boyun olmadan kesintisiz bağlanıyor.",
+  "hata": 0,
+  "sure": 4.48,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Dördüncüsü: tıpkı duvarlarda gördüğün kertenkeleler gibi, kuyruğunu koparabiliyor.",
+  "duyulan": "Dördüncüsü, tıpkı duvarlarda gördüğün kertenkeleler gibi kuyruğunu koparabiliyor.",
+  "hata": 0,
+  "sure": 4.52,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Beşincisi: çoğu yılanın karnında enine dizilmiş geniş, tek sıra pullar vardır; sağır yılanın karnı ise sırtı gibi küçük pullarla kaplı.",
+  "duyulan": "Beşincisi, çoğu yılanın karnında enine dizilmiş, geniş, tek sıra pullar vardır. Sağır yılanın karnı ise sırtı gibi küçük pullarla kaplı.",
+  "hata": 0,
+  "sure": 8.72,
+  "uygun": true
  }
 }
