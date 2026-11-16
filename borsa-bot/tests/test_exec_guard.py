@@ -144,3 +144,45 @@ def test_settings_defaults_are_safe_and_validated(tmp_path):
                                  '[matriks]\nlot_alanlari = ["QtyAvailable", "QtyT2"]\n'), env={})
     assert custom.zaman.onay_son == dt.time(16, 0) and custom.sinirlar.azami_emir_tl == 9000.0
     assert custom.matriks.lot_alanlari == ("QtyAvailable", "QtyT2") and custom.tatiller == ("2027-03-10",)
+
+
+def test_ticket_equity_must_be_positive_and_finite():
+    for bad in (0, -5, float("nan"), float("inf"), "100000", None):
+        with pytest.raises(TicketError):
+            parse_ticket(payload(equity=bad))
+
+
+def test_order_identity_is_the_decision_not_the_session():
+    a, b = ticket(), ticket(session=dt.date(2026, 12, 2))
+    assert a.order_key(a.orders[0]) == b.order_key(b.orders[0]) == "2026-11-30|GARAN|sell"
+    assert a.digest != b.digest
+    from bistbot.exec.guard import trading_days_between
+    assert trading_days_between(a) == [] and trading_days_between(b) == [dt.date(2026, 12, 1)]
+    friday = ticket(as_of=dt.date(2026, 11, 27), session=dt.date(2026, 11, 30))
+    assert trading_days_between(friday) == []  # hafta sonu işlem günü değildir
+    assert trading_days_between(b, holidays=("2026-12-01",)) == []
+
+
+def test_journal_semantics_and_torn_files(tmp_path):
+    from bistbot.exec.journal import Journal
+
+    j = Journal(tmp_path / "g.jsonl")
+    j.record("sending", "k1")
+    assert j.was_sent("k1")                       # akıbeti belirsiz: gönderilmiş say
+    j.record("not_sent", "k1")
+    assert not j.was_sent("k1")                   # kesinlikle gitmedi
+    j.record("sending", "k1"); j.record("rejected", "k1", filled=0)
+    assert not j.was_sent("k1")                   # aracı kurum reddetti
+    j.record("sending", "k2"); j.record("accepted", "k2"); j.record("not_sent", "k2")
+    assert j.was_sent("k2")                       # kabul edilmiş emri hiçbir kayıt geri almaz
+    j.record("sending", "k3|2"); j.record("unknown", "k3|2")
+    assert j.order_sent("k3") and not j.was_sent("k3")
+    j.record("deferred", "k4")
+    assert not j.order_sent("k4")
+    # Yarım yazılmış, bozuk UTF-8 ile biten dosya: okuma çökmez, sonraki kayıt yeni satırda başlar.
+    with open(j.path, "ab") as fh:
+        fh.write('{"event": "sending", "key": "k5", "message": "\u015f'.encode("utf-8")[:-1] + b"\xc5")
+    assert j.was_sent("k1") is False and j.was_sent("k2")
+    j.record("sending", "k6")
+    assert j.was_sent("k6") and not j.was_sent("k5")
+    assert all(isinstance(e, dict) for e in j.entries())

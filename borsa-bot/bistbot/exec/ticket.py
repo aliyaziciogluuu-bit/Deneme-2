@@ -4,6 +4,7 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import json
+import math
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -44,11 +45,13 @@ class Ticket:
         return hashlib.sha256(json.dumps(key).encode()).hexdigest()[:16]
 
     def order_key(self, order: TicketOrder) -> str:
-        return f"{self.session}|{order.symbol}|{order.side}"
+        """Emrin kimliği kararın dayandığı gündür: aynı karar başka bir seans için yeniden
+        yayımlanırsa (ör. bülten gecikince) aynı emir ikinci kez gönderilmez."""
+        return f"{self.as_of}|{order.symbol}|{order.side}"
 
 
 def _num(value, what: str) -> float:
-    if isinstance(value, bool) or not isinstance(value, (int, float)):
+    if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
         raise TicketError(f"{what} sayı değil: {value!r}")
     return float(value)
 
@@ -99,9 +102,13 @@ def parse_ticket(payload: dict) -> Ticket:
         if isinstance(lots, bool) or not isinstance(lots, int) or lots < 0:
             raise TicketError(f"{p.get('symbol')}: pozisyon lotu hatalı")
         positions[p["symbol"]] = lots
+    equity = _num(payload.get("equity"), "portföy değeri")
+    if not equity > 0:
+        # Oran sınırları portföy değerine göre hesaplanır; sıfır/eksi değer bu sınırları boşa çıkarırdı.
+        raise TicketError(f"portföy değeri pozitif olmalı: {equity!r}")
     return Ticket(
         as_of=as_of, session=session, generated_at=str(payload.get("generated_at", "")),
-        equity=_num(payload.get("equity"), "portföy değeri"), orders=tuple(orders), positions=positions,
+        equity=equity, orders=tuple(orders), positions=positions,
     )
 
 

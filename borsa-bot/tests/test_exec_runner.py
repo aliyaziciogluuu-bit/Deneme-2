@@ -3,6 +3,7 @@ import datetime as dt
 import json
 
 import pytest
+import requests
 
 from bistbot.exec import app
 from bistbot.exec.dryrun import DryRunBroker
@@ -89,7 +90,7 @@ def test_broker_error_during_send_halts(tmp_path):
     broker = ScriptedBroker(HELD, behaviour={"GARAN": "error"})
     result, _, http, journal, _ = run(tmp_path, broker=broker)
     assert result.status == "halted" and len(broker.placed) == 1
-    assert events(journal, "2026-12-01|GARAN|sell") == ["sending", "unknown"]
+    assert events(journal, "2026-11-30|GARAN|sell") == ["sending", "unknown"]
 
 
 def test_connection_failure_sends_nothing(tmp_path):
@@ -170,7 +171,7 @@ def test_telegram_stop_between_orders(tmp_path):
 
     broker = StopAfterFirst(HELD)
     result = run_batch(s, ticket(), broker, tg, Journal(journal_path(s)), clock)
-    assert result.status == "halted" and len(broker.placed) == 1 and "DUR" in result.message
+    assert result.status == "halted" and len(broker.placed) == 1 and "durdurma istendi" in result.message
 
 
 def test_sells_capped_to_real_holdings_and_missing_position_skipped(tmp_path):
@@ -187,7 +188,7 @@ def test_buys_beyond_cash_wait_for_sells_then_go_in_second_round(tmp_path):
     broker = ScriptedBroker(HELD, cash=5_000.0)
     result, _, http, journal, clock = run(tmp_path, broker=broker)
     assert [(o.symbol, o.key.endswith("|2")) for o in broker.placed] == [("GARAN", False), ("THYAO", False), ("ASELS", True)]
-    assert "deferred" in events(journal, "2026-12-01|ASELS|buy")
+    assert "deferred" in events(journal, "2026-11-30|ASELS|buy")
     assert result.status == "done" and clock.now().time() >= dt.time(10, 0, 30)  # ikinci tur sürekli işlemde
 
 
@@ -203,7 +204,7 @@ def test_rejected_buy_is_retried_once_after_sells_fill(tmp_path):
     broker = ScriptedBroker(HELD, behaviour={"ASELS": "reject_once"})
     result, _, http, journal, _ = run(tmp_path, broker=broker)
     keys = [o.key for o in broker.placed]
-    assert keys == ["2026-12-01|GARAN|sell", "2026-12-01|THYAO|buy", "2026-12-01|ASELS|buy", "2026-12-01|ASELS|buy|2"]
+    assert keys == ["2026-11-30|GARAN|sell", "2026-11-30|THYAO|buy", "2026-11-30|ASELS|buy", "2026-11-30|ASELS|buy|2"]
     always = ScriptedBroker(HELD, behaviour={"ASELS": "reject"})
     result2, _, http2, _, _ = run(tmp_path / "b", broker=always)
     assert [o.symbol for o in always.placed].count("ASELS") == 2  # bir kez daha denenir, sonra bırakılır
@@ -294,7 +295,8 @@ def test_live_mode_is_locked_until_side_test_passes(tmp_path):
         # Belgedeki gibi: istekte alış 1, yanıtta alış 0 görünür; öğrenilen değer 0'dır.
         assert record["yanit_alis"] == 0 and record["alis_kodu"] == 1 and len(server.cancels) == 2
         assert "0~123456" not in json.dumps(load_state(s.klasor))  # hesap numarası açık yazılmaz
-        assert app.make_broker(s, ticket()).echo_buy == 0
+        live_broker = app.make_broker(s, ticket())
+        assert live_broker.echo_buy == 0 and record["kimlik_yankisi"] is True and live_broker._ids_echoed
         # Kodlar sonradan değiştirilirse doğrulama geçersiz olur.
         changed = live_settings(tmp_path, server.port, alis_kodu=0, satis_kodu=1)
         with pytest.raises(SettingsError):
@@ -404,3 +406,306 @@ def test_cancel_command_cancels_only_the_bots_working_orders(tmp_path):
         # İptal isteğinde yön, yeni emirdeki kodlamayla gider (belgedeki örnek): satış 2, alış 1.
         assert {c["Symbol"]: c["OrderSide"] for c in server.cancels} == {"GARAN": 2, "THYAO": 1, "ASELS": 1}
         assert all(c["ApiCommands"] == 4 and c["Quantity"] == c["LeavesQty"] > 0 for c in server.cancels)
+
+
+# ------------------------------------------------------------------ bağımsız incelemenin senaryoları
+FOUR = [
+    {"symbol": "GARAN", "side": "sell", "lots": 40, "ref_price": 100.0, "limit_price": 97.0},
+    {"symbol": "THYAO", "side": "buy", "lots": 15, "ref_price": 300.0, "limit_price": 309.0},
+    {"symbol": "ASELS", "side": "buy", "lots": 50, "ref_price": 80.0, "limit_price": 82.4},
+    {"symbol": "KCHOL", "side": "buy", "lots": 20, "ref_price": 200.0, "limit_price": 206.0},
+]
+
+
+def test_second_round_orders_are_not_duplicated_on_rerun(tmp_path):
+    """Kritik: ikinci turda (|2) gönderilen ya da belirsiz kalan alış, yeniden çalıştırmada bir daha gönderilmez."""
+    big_sell = [{**FOUR[0], "lots": 100}] + FOUR[1:]  # satış 9.700 TL: ikinci turda iki alışa da yeter
+    tk = ticket(orders=big_sell)
+    first = ScriptedBroker({"GARAN": 100}, cash=5_000.0, behaviour={"KCHOL": "unknown"})
+    result, _, http, journal, _ = run(tmp_path, broker=first, tk=tk)
+    keys = [o.key for o in first.placed]
+    assert keys == ["2026-11-30|GARAN|sell", "2026-11-30|THYAO|buy", "2026-11-30|ASELS|buy|2", "2026-11-30|KCHOL|buy|2"]
+    assert result.status == "halted" and "BELİRSİZ" in http.sent[-1]
+    again = ScriptedBroker({"THYAO": 15, "ASELS": 50}, cash=20_000.0)
+    result2, _, http2, _, _ = run(tmp_path, broker=again, tk=tk)
+    assert again.placed == [] and result2.status == "done"
+    assert "KCHOL alış: önceki çalıştırmada akıbeti BELİRSİZ" in http2.sent[0]
+    assert "ASELS alış: daha önce gönderildi" in http2.sent[0]
+
+
+def test_same_decision_reissued_for_next_session_is_not_bought_twice(tmp_path):
+    """Bülten gecikince aynı karar ertesi seans için yeniden yayımlanır; emirler ikinci kez gitmez."""
+    run(tmp_path)  # 1 Aralık seansı: üç emir gönderildi
+    reissued = ticket(session=dt.date(2026, 12, 2), generated="2026-12-01T16:25:00+00:00")  # karar günü yine 30 Kasım
+    broker = ScriptedBroker({"AKBNK": 70, "THYAO": 15, "ASELS": 50})
+    result, _, http, _, _ = run(tmp_path, broker=broker, tk=reissued, clock=FakeClock(day=dt.date(2026, 12, 2)))
+    assert broker.placed == [] and result.status == "done"
+    assert "daha önce gönderildi" in http.sent[0]
+
+
+def test_stale_decision_and_already_held_buys_are_flagged_in_the_approval(tmp_path):
+    late = ticket(session=dt.date(2026, 12, 2), generated="2026-12-01T16:25:00+00:00")
+    broker = ScriptedBroker({"GARAN": 40, "AKBNK": 70, "THYAO": 15})
+    _, _, http, _, _ = run(tmp_path, broker=broker, tk=late, clock=FakeClock(day=dt.date(2026, 12, 2)), reply="reject")
+    text = http.sent[0]
+    assert "arada işlem günü var (01.12)" in text and "ZATEN var" in text and "THYAO" in text
+    assert broker.placed == []
+    # Aradaki gün tatil listesindeyse uyarı çıkmaz.
+    _, _, http2, _, _ = run(tmp_path / "b", broker=ScriptedBroker(HELD), tk=late, reply="reject",
+                            clock=FakeClock(day=dt.date(2026, 12, 2)), tatiller=("2026-12-01",))
+    assert "arada işlem günü" not in http2.sent[0]
+
+
+def test_changing_your_mind_after_approval_stops_the_orders(tmp_path):
+    for word in ("RED", "İptal", "vazgeç", "/dur"):
+        clock = FakeClock()
+        s = settings(tmp_path / word.strip("/"), mod="gercek")
+        tg, http = fake_telegram(clock, lambda code, w=word: [code])
+        orig = http.post
+
+        def post(url, data=None, timeout=None, w=word):
+            resp = orig(url, data=data, timeout=timeout)
+            if url.endswith("sendMessage") and "Onay alındı" in data["text"]:
+                http.add_message(w)  # 09:20'de onayladı, emirler 09:40'ta gidecekti
+            return resp
+
+        http.post = post
+        broker = ScriptedBroker(HELD)
+        result = run_batch(s, ticket(), broker, tg, Journal(journal_path(s)), clock)
+        assert result.status == "halted" and broker.placed == [], word
+        assert "DURDU" in http.sent[-1]
+
+
+def test_second_round_never_spends_more_than_the_cash_that_is_really_there(tmp_path):
+    # (a) Yalnız alış var, bakiye birine yetiyor: ertelenenler bakiye yetmediği için gönderilmez.
+    only_buys = ticket(orders=FOUR[1:])
+    broker = ScriptedBroker(HELD, cash=5_000.0)
+    _, _, http, _, _ = run(tmp_path / "a", broker=broker, tk=only_buys)
+    assert [o.symbol for o in broker.placed] == ["THYAO"]
+    assert "Bakiye yetmediği için şu alışlar gönderilmedi: ASELS, KCHOL" in http.sent[-1]
+    # (b) Satış parası yalnızca birine yetiyor: sığan gönderilir, sığmayan bildirilir.
+    broker = ScriptedBroker(HELD, cash=5_000.0)
+    _, _, http, _, _ = run(tmp_path / "b", broker=broker, tk=ticket(orders=FOUR))
+    assert [o.symbol for o in broker.placed] == ["GARAN", "THYAO", "ASELS"]  # 351 + 3.880 = 4.231 TL: yalnız ASELS sığar
+    assert "Bakiye yetmediği için şu alışlar gönderilmedi: KCHOL" in http.sent[-1]
+
+    # (c) Bakiye ikinci turda okunamıyorsa ertelenen alışlar gönderilmez.
+    class CashGoesAway(ScriptedBroker):
+        def cash(self):
+            self.reads = getattr(self, "reads", 0) + 1
+            return 5_000.0 if self.reads <= 2 else None
+
+    broker = CashGoesAway(HELD)
+    _, _, http, _, _ = run(tmp_path / "c", broker=broker, tk=ticket(orders=FOUR))
+    assert [o.symbol for o in broker.placed] == ["GARAN", "THYAO"] and "Bakiye yeniden okunamadığı için" in http.sent[-1]
+
+
+def test_positions_are_reread_right_before_sending(tmp_path):
+    """Onay ile gönderim arasında hisse elle satıldıysa bot olmayan lotu satmaya çalışmaz."""
+    class SoldByHand(ScriptedBroker):
+        def positions(self):
+            self.reads = getattr(self, "reads", 0) + 1
+            return {"GARAN": 40, "AKBNK": 70} if self.reads == 1 else {"GARAN": 10, "AKBNK": 70}
+
+    broker = SoldByHand()
+    result, _, http, _, _ = run(tmp_path, broker=broker)
+    assert broker.placed[0].symbol == "GARAN" and broker.placed[0].lots == 10
+    assert "10 lot kaldığı için 40 yerine 10 lot satılıyor" in http.sent[-1]
+
+    class Gone(ScriptedBroker):
+        def positions(self):
+            self.reads = getattr(self, "reads", 0) + 1
+            return {"GARAN": 40} if self.reads == 1 else {}
+
+    gone = Gone()
+    run(tmp_path / "b", broker=gone)
+    assert [o.side for o in gone.placed] == ["buy", "buy"]  # satış hiç gönderilmedi (açığa satış yok)
+
+
+def test_definitely_unsent_order_can_be_sent_on_the_next_run(tmp_path):
+    broker = ScriptedBroker(HELD, behaviour={"THYAO": "not_sent"})
+    result, _, http, journal, _ = run(tmp_path, broker=broker)
+    assert result.status == "halted" and "hiçbir şey gitmedi" in http.sent[-1] and "BELİRSİZ" not in http.sent[-1]
+    assert events(journal, "2026-11-30|THYAO|buy") == ["sending", "not_sent"]
+    again = ScriptedBroker({"AKBNK": 70})
+    run(tmp_path, broker=again)
+    assert [o.symbol for o in again.placed] == ["THYAO", "ASELS"]  # GARAN yeniden gönderilmez
+
+
+def test_unexpected_exception_still_produces_a_report(tmp_path):
+    broker = ScriptedBroker(HELD, behaviour={"THYAO": "crash"})
+    result, _, http, journal, _ = run(tmp_path, broker=broker)
+    assert result.status == "halted" and [o.symbol for o in broker.placed] == ["GARAN", "THYAO"]
+    report = http.sent[-1]
+    assert "DURDU" in report and "beklenmeyen hata" in report and "BELİRSİZ" in report and "ASELS" in report
+    assert events(journal, "2026-11-30|THYAO|buy") == ["sending", "unknown"]
+
+    class BrokenReader(ScriptedBroker):
+        def positions(self):
+            self.reads = getattr(self, "reads", 0) + 1
+            if self.reads > 1:
+                raise RuntimeError("çözülemeyen yanıt")
+            return dict(HELD)
+
+    broken = BrokenReader()
+    result2, _, http2, _, _ = run(tmp_path / "b", broker=broken)
+    assert result2.status == "halted" and broken.placed == [] and "DURDU" in http2.sent[-1]
+
+
+def test_journal_failure_after_sending_does_not_hide_the_report(tmp_path):
+    clock = FakeClock()
+    s = settings(tmp_path, mod="gercek")
+    tg, http = fake_telegram(clock, "approve")
+    journal = Journal(journal_path(s))
+    orig = journal.record
+
+    def record(event, key="", **data):
+        if event == "filled":
+            raise OSError("disk dolu")
+        return orig(event, key, **data)
+
+    journal.record = record
+    broker = ScriptedBroker(HELD)
+    run_batch(s, ticket(), broker, tg, journal, clock)
+    assert len(broker.placed) == 3 and "Emir günlüğüne yazılamadı" in http.sent[-1] and "gerçekleşti" in http.sent[-1]
+    # Sonuç yazılamadıysa emir "gönderilmiş olabilir" olarak kalır ve yeniden gönderilmez.
+    again = ScriptedBroker(HELD)
+    run_batch(s, ticket(), again, fake_telegram(FakeClock(), "approve")[0], Journal(journal_path(s)), FakeClock())
+    assert again.placed == []
+
+
+def test_ticket_is_not_marked_done_when_sells_could_not_be_planned(tmp_path):
+    exits = ticket(orders=[FOUR[0]])
+    result, broker, http, journal, _ = run(tmp_path, broker=ScriptedBroker({}), tk=exits)  # pozisyonlar boş okundu
+    assert result.status == "nothing_sendable" and not journal.batch_done(exits.digest)
+    assert "satılabilir lot yok" in http.sent[0]
+    later = ScriptedBroker({"GARAN": 40})
+    result2, _, _, _, _ = run(tmp_path, broker=later, tk=exits)
+    assert result2.status == "done" and [o.symbol for o in later.placed] == ["GARAN"]
+
+
+def test_rejected_orders_are_offered_again_with_an_honest_label(tmp_path):
+    broker = ScriptedBroker(HELD, behaviour={"THYAO": "reject", "GARAN": "rest"})
+    run(tmp_path, broker=broker)  # THYAO reddedildi; satış gerçekleşmediği için ikinci tur yok
+    again = ScriptedBroker(HELD)
+    _, _, http, _, _ = run(tmp_path, broker=again)
+    assert [o.symbol for o in again.placed] == ["THYAO"]  # red kesin: yeni onayla yeniden denenebilir
+    assert "GARAN satış: daha önce gönderildi" in http.sent[0] and "THYAO alış: daha önce" not in http.sent[0]
+
+
+def test_non_user_rejections_are_not_reported_as_your_decision(tmp_path):
+    clock = FakeClock()
+    s = settings(tmp_path, mod="gercek")
+    tg, http = fake_telegram(clock, "approve")
+    http.now = lambda: int(clock.now().timestamp()) + 3600
+    result = run_batch(s, ticket(), ScriptedBroker(HELD), tg, Journal(journal_path(s)), clock)
+    assert result.status == "rejected" and "onay verilmedi" in result.message and "vazgeçtiniz" not in result.message
+    result2, _, http2, _, _ = run(tmp_path / "b", reply="reject")
+    assert "vazgeçtiniz" in result2.message
+
+
+def test_final_report_is_retried_and_kept_if_telegram_stays_down(tmp_path):
+    clock = FakeClock()
+    s = settings(tmp_path, mod="gercek")
+    tg, http = fake_telegram(clock, "approve")
+    orig = http.post
+
+    def post(url, data=None, timeout=None):
+        if url.endswith("sendMessage") and "Emir raporu" in data["text"]:
+            raise requests.ConnectionError("ağ yok")
+        return orig(url, data=data, timeout=timeout)
+
+    http.post = post
+    result = run_batch(s, ticket(), ScriptedBroker(HELD), tg, Journal(journal_path(s)), clock)
+    assert result.status == "done" and not any("Emir raporu" in t for t in http.sent)
+    kept = (s.klasor / "iletilemeyen.jsonl").read_text(encoding="utf-8")
+    assert "Emir raporu" in kept
+    # Sonraki çalıştırmanın başında (o gün emir olmasa da) iletilir.
+    tg2, http2 = fake_telegram(FakeClock(day=dt.date(2026, 12, 2)), "approve")
+    run_batch(s, ticket(orders=[]), ScriptedBroker(HELD), tg2, Journal(journal_path(s)), FakeClock(day=dt.date(2026, 12, 2)))
+    assert "Daha önce iletilemeyen bildirim" in http2.sent[0] and "Emir raporu" in http2.sent[0]
+    assert not (s.klasor / "iletilemeyen.jsonl").exists()
+
+
+def test_daily_totals_count_what_was_already_sent_today(tmp_path):
+    tight = Limits(azami_alis_tl=10_000.0)
+    first = ticket(orders=[FOUR[1]])                                            # THYAO 4.635 TL
+    assert run(tmp_path, tk=first, sinirlar=tight, broker=ScriptedBroker(HELD))[0].status == "done"
+    second = ticket(orders=[FOUR[1], {"symbol": "KCHOL", "side": "buy", "lots": 30, "ref_price": 200.0, "limit_price": 206.0}])
+    result, broker, http, _, _ = run(tmp_path, tk=second, sinirlar=tight, broker=ScriptedBroker(HELD))  # +6.180 TL
+    assert result.status == "blocked" and broker.placed == [] and "bugün daha önce gönderilenlerle birlikte" in http.sent[0]
+    # Aynı fişin yeniden çalıştırılması kendi emirlerini iki kez saymaz.
+    ok = ticket(orders=[FOUR[1], {"symbol": "KCHOL", "side": "buy", "lots": 20, "ref_price": 200.0, "limit_price": 206.0}])
+    result2, broker2, _, _, _ = run(tmp_path, tk=ok, sinirlar=tight, broker=ScriptedBroker(HELD))  # 4.635 + 4.120
+    assert result2.status == "done" and [o.symbol for o in broker2.placed] == ["KCHOL"]
+
+
+def test_group_chat_privacy_mode_is_explained(tmp_path):
+    clock = FakeClock()
+    s = settings(tmp_path, mod="gercek", telegram=TelegramSettings(token=TOKEN, chat_id="-100555", onaylayan_id="555"))
+    from exec_helpers import FakeTelegramHttp
+    from bistbot.exec.telegram import Telegram
+    http = FakeTelegramHttp(clock, "approve", user_id=555, chat_id=-100555)
+    tg = Telegram(TOKEN, "-100555", "555", http=http)
+    run_batch(s, ticket(), ScriptedBroker(HELD), tg, Journal(journal_path(s)), clock)
+    assert "gizlilik kipi" in http.sent[0] and "/setprivacy" in http.sent[0]
+
+
+def test_run_lock_releases_only_its_own_lock(tmp_path):
+    lock = RunLock(tmp_path)
+    with lock:
+        (tmp_path / "kilit").write_text("baska-jeton 1 x\n")  # kilidi başka bir çalıştırma devralmış
+    assert (tmp_path / "kilit").exists()  # başkasının kilidi silinmez
+    with pytest.raises(AlreadyRunning):
+        with RunLock(tmp_path):
+            pass
+
+
+def test_side_test_rechecks_the_order_after_the_user_answers(tmp_path):
+    """Kullanıcı yanıt verirken emir reddedilir ya da gerçekleşirse yön doğrulanmış sayılmaz."""
+    import time
+
+    for event in ("reject", "fill"):
+        with MockMatriks(default="rest") as server:
+            s = live_settings(tmp_path / event, server.port)
+            said = []
+
+            def ask(prompt, server=server, event=event):
+                if "ALIŞ olarak" in prompt:
+                    getattr(server, event)("KCHOL")
+                    time.sleep(0.3)
+                return "evet"
+
+            assert app.cmd_side_test(s, "KCHOL", 200.0, ask=ask, out=said.append) == 1
+            assert app.calibration(s) is None
+            assert any("REDDEDİLDİ" in t or "GERÇEKLEŞTİ" in t for t in said)
+
+
+def test_cancel_command_finds_orders_whose_number_was_never_journaled(tmp_path):
+    with MockMatriks(positions={"GARAN": 40.0, "AKBNK": 70.0}, default="rest") as server:
+        s = live_settings(tmp_path, server.port)
+        journal = Journal(journal_path(s))
+        # Günlükte emir numarası olmayan (ilk yanıtta gelmemiş) bekleyen bir alış.
+        journal.record("sending", "2026-11-30|THYAO|buy", symbol="THYAO", side="buy", lots=15, limit=309.0,
+                       session=str(SESSION), as_of="2026-11-30")
+        journal.record("accepted", "2026-11-30|THYAO|buy", broker_id=None, filled=0)
+        server.orders["4242"] = {"Symbol": "THYAO", "OrderID": "4242", "OrderID2": "4242*309", "OrderQty": 15.0,
+                                 "OrdStatus": "0", "LeavesQty": 15.0, "FilledQty": 0.0, "Price": 309.0, "Quantity": 0.0,
+                                 "OrderSide": 0, "AccountId": "0~123456", "BrokageId": "7", "TimeInForce": "0"}
+        server.orders["4243"] = {**server.orders["4242"], "OrderID": "4243", "Symbol": "SISE"}  # bota ait değil
+        said = []
+        assert app.cmd_cancel(s, out=said.append, today=SESSION) == 0
+        assert [c["OrderID"] for c in server.cancels] == ["4242"] and server.cancels[0]["OrderSide"] == 1
+
+
+def test_command_line_mode_can_only_be_made_safer(tmp_path, capsys):
+    from bistbot import cli
+
+    config = tmp_path / "emir-ayar.toml"
+    config.write_text('mod = "deneme"\nfis = "yok.json"\n', encoding="utf-8")
+    assert cli.main(["emir", "--emir-ayar", str(config), "--mod", "salt-okunur"]) == 2
+    assert "daha güvenli bir kipe" in capsys.readouterr().out
+    assert cli.main(["emir", "--emir-ayar", str(config), "--mod", "deneme"]) == 1  # fiş yok: hata, ama kip kabul edildi
+    assert "Emir fişi okunamadı" in capsys.readouterr().out
+    with pytest.raises(SystemExit):
+        cli.main(["emir", "--emir-ayar", str(config), "--mod", "gercek"])  # komut satırında gerçek kip seçeneği yok

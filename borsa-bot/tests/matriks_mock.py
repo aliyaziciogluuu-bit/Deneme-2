@@ -23,7 +23,7 @@ class MockMatriks:
     def __init__(self, positions=None, behaviour=None, default="fill", echo_client_id=True, side_echo="zero",
                  chunk=None, accounts=None, info=None, cash_rows=False):
         self.positions = dict(positions or {})
-        #: sembol -> davranış: fill | rest | reject | partial | silent | drop | reject_once
+        #: sembol -> davranış: fill | rest | reject | partial | silent | drop | reject_once | pending
         self.behaviour = dict(behaviour or {})
         self.default = default
         self.echo_client_id = echo_client_id
@@ -38,6 +38,8 @@ class MockMatriks:
             {"Code": "LMT", "Key": "İşlem Limiti", "Value": "50000", "DataType": 1},
         ]
         self.cash_rows = cash_rows
+        #: Gerçekleşen/iptal listesi boşken hiç yanıt verme (bazı sürümlerde boş sorgular yanıtsız kalır).
+        self.silent_when_empty = False
         self.received: list[dict] = []
         self.new_orders: list[dict] = []
         self.cancels: list[dict] = []
@@ -174,7 +176,12 @@ class MockMatriks:
             self._send(conn, {"Informations": self.info, "Request": m, "ApiCommands": 8})
         elif cmd == 8:
             done = [self._pushed(o) for o in self.orders.values() if o["OrdStatus"] == "2"]
-            self._send(conn, {**ident, "FilledOrderApiModels": done, "ApiCommands": 9})
+            if done or not self.silent_when_empty:
+                self._send(conn, {**ident, "FilledOrderApiModels": done, "ApiCommands": 9})
+        elif cmd == 9:
+            gone = [self._pushed(o) for o in self.orders.values() if o["OrdStatus"] in ("4", "8")]
+            if gone or not self.silent_when_empty:
+                self._send(conn, {**ident, "CanceledOrderApiModels": gone, "ApiCommands": 10})
 
     def _new_order(self, conn: socket.socket, m: dict) -> None:
         self.new_orders.append(m)
@@ -206,6 +213,11 @@ class MockMatriks:
         # Belgedeki "Yeni Emir İsteği" örnek çıktısı: durum henüz boş, açıklama yok.
         first = {**order, "OrdStatus": "\u0000", "Explanation": None, "TradeDate": "0001-01-01T00:00:00",
                  "TransactTime": "00:00:00", "ApiCommands": 3}
+        if mode == "pending":
+            # İlk bildirim "iletilmeyi bekliyor" ve emir numarası yok; numara sonraki bildirimde gelir.
+            early = {**first, "OrdStatus": "A", "OrderID": None, "OrderID2": None}
+            self._send(conn, early, self._order_message(dict(order)))
+            return
         if mode == "reject":
             order.update(OrdStatus="8", LeavesQty=0.0, Explanation="Yetersiz bakiye")
             self._send(conn, first, self._order_message(order))
@@ -229,3 +241,28 @@ class MockMatriks:
                 order.update(OrdStatus="2", LeavesQty=0.0, FilledQty=float(order["OrderQty"]), AvgPx=price or order["Price"],
                              Explanation="Gerçekleşti")
                 self.push(self._order_message(order))
+
+    def reject(self, symbol: str) -> None:
+        """Bekleyen emri sonradan reddeder."""
+        for order in self.orders.values():
+            if order["Symbol"] == symbol and order["OrdStatus"] in ("0", "1", "A"):
+                order.update(OrdStatus="8", LeavesQty=0.0, Explanation="Reddedildi")
+                self.push(self._order_message(order))
+
+    def session(self, logged_in: bool, account="0~123456", brokage="7") -> None:
+        """Aracı kurum oturumu açıldı (5) ya da kapandı (6) bildirimi."""
+        self.push({"AccountId": account, "BrokageId": brokage, "BrokageName": "Test Yatırım",
+                   "ApiCommands": 5 if logged_in else 6})
+
+    def drop_clients(self) -> None:
+        """Bağlı istemcilerin bağlantısını koparır (Matriks IQ kapandı)."""
+        for conn in list(self._conns):
+            try:
+                conn.shutdown(socket.SHUT_RDWR)  # okuyan iş parçacığı beklerken de karşı tarafa kapanış gitsin
+            except OSError:
+                pass
+            try:
+                conn.close()
+            except OSError:
+                pass
+        self._conns.clear()

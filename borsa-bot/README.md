@@ -220,12 +220,15 @@ her durumda telefondan kullanılır.
    hesabınızda var mı (elinizde olandan fazlası asla satılmaz). Bir ihlal varsa **hiçbir emir gitmez**.
 3. Telegram'a emir listesi ve dört haneli bir **kod** gelir. Kodu yazarsanız emirler gönderilir; `RED`
    yazarsanız ya da 17:30'a kadar yanıt vermezseniz gönderilmez. Kod o listeye özeldir ve yalnızca sizin
-   Telegram hesabınızdan kabul edilir.
+   Telegram hesabınızdan kabul edilir. Son söz geçerlidir: koddan sonra `RED`, `İPTAL` ya da `DUR` yazarsanız
+   emirler gitmez.
 4. Emirler limitli ve günlük olarak, önce satışlar sonra alışlar gönderilir: 09:40-09:55 arasındaysa açılış
    seansına, daha geç onaylarsanız sürekli işleme. Parası yetmediği için reddedilen alışlar, satışlar
    gerçekleşince bir kez daha denenir.
-5. Sonuç (gerçekleşen, bekleyen, reddedilen) Telegram'a yazılır. Gönderim sırasında `DUR` yazarsanız sıradaki
-   emirler durur; `bistbot emir --iptal` bekleyen emirleri iptal eder.
+5. Sonuç (gerçekleşen, bekleyen, reddedilen) Telegram'a yazılır. Onaydan sonra `DUR` (ya da `RED`, `İPTAL`)
+   yazarsanız sıradaki emirler durur; `bistbot emir --iptal` botun o gün gönderdiği bekleyen emirleri iptal
+   eder. Reddedilen ya da gönderilemeyen emir kaldıysa programı yeniden çalıştırabilirsiniz: yalnızca kalanlar
+   için yeniden onay istenir, gönderilmiş olanlar bir daha gönderilmez.
 
 **Kurulum (Windows):**
 
@@ -259,9 +262,16 @@ her durumda telefondan kullanılır.
   her emrin yanıtındaki yön, testte görülen değerle karşılaştırılır; uyuşmazsa emir iptal edilir ve gönderim
   durur. (Matriks IQ yanıtlarda yön alanını doldurmuyorsa bu denetim satışlarda yanlış alarm verebilir; o
   zaman Telegram'daki uyarıda yazdığı gibi `yon_yanit_denetimi = false` yapılır.)
-- Bot her emri göndermeden **önce** günlüğe yazar ve aynı emri ikinci kez göndermez. Bir emrin yanıtı
-  alınamazsa ("belirsiz") gönderim durur ve bot o emri kendiliğinden yeniden göndermez; Matriks IQ'dan
-  kontrol etmeniz istenir.
+- Bot her emri göndermeden **önce** günlüğe yazar ve aynı emri ikinci kez göndermez (program yeniden
+  başlatılsa, aynı karar ertesi gün için yeniden yayımlansa ya da alış ikinci turda gönderilmiş olsa bile).
+  Bir emrin yanıtı alınamazsa ("belirsiz") gönderim durur ve bot o emri kendiliğinden yeniden göndermez;
+  Matriks IQ'dan kontrol etmeniz istenir.
+- Emirler gönderilmeden hemen önce bağlantı, hesaptaki lotlar ve (okunabiliyorsa) bakiye **yeniden** okunur:
+  onaydan sonra bir hisseyi elle sattıysanız bot olmayan lotu satmaya çalışmaz. Matriks IQ bağlantısı ya da
+  aracı kurum oturumu düşerse rapor "emir durumları izlenemedi" der; eski durumu güncelmiş gibi göstermez.
+- Telegram grubunda kullanıyorsanız botun gizlilik kipini kapatın (BotFather → `/setprivacy` → Disable);
+  aksi hâlde bot düz yazılmış `DUR` mesajını göremez (`/dur` ya da mesaja yanıt olarak yazmak çalışır).
+  En güvenlisi botla **özel sohbet** kullanmaktır.
 - Resmî tatilleri bot tam bilemez (dinî bayramları `emir-ayar.toml` içindeki `tatiller` listesine yazın);
   tatil ya da yarım gün ise onay mesajına `RED` yazın.
 - Gerçek gerçekleşme fiyatları ve miktarları kâğıt portföyden farklı olabilir (kâğıt portföy açılış fiyatını

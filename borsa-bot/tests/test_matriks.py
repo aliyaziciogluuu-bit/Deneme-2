@@ -3,7 +3,7 @@ import time
 
 import pytest
 
-from bistbot.exec.base import BrokerError, OrderRequest
+from bistbot.exec.base import BrokerError, NotSent, OrderRequest
 from bistbot.exec.matriks import MatriksBroker, SideMismatch, client_order_id, mask
 from bistbot.exec.settings import MatriksSettings
 from matriks_mock import MockMatriks
@@ -273,3 +273,199 @@ def test_case_insensitive_messages_and_number_formats():
     assert _number("9574528.62") == 9574528.62 and _number("12.345,67") == 12345.67
     assert _number("-1,570.50") == -1570.5 and _number("1234,5") == 1234.5 and _number("") == 0.0
     assert _number(True) == 0.0 and _number(None) == 0.0 and _number("abc", default=-1.0) == -1.0
+
+
+# ------------------------------------------------------------------ bağımsız incelemenin senaryoları
+def test_order_id_arriving_in_a_later_event_is_adopted():
+    """İlk bildirim emir numarasız gelse de sonraki bildirimler aynı emre yazılır."""
+    with MockMatriks(default="pending", echo_client_id=False) as server:
+        b = broker_for(server)
+        b.connect()
+        try:
+            st = b.place(order("GARAN", "buy", 10, 98.5))
+            deadline = time.time() + 2
+            while b.refresh(st).broker_id is None and time.time() < deadline:
+                time.sleep(0.02)
+            assert b.refresh(st).broker_id == "1001"
+            server.fill("GARAN", 98.0)
+            assert wait_done(b, st).filled_lots == 10
+        finally:
+            b.close()
+
+
+def test_foreign_orders_are_never_attributed_to_ours():
+    with MockMatriks(default="silent") as server:
+        b = MatriksBroker(MatriksSettings(port=server.port, zaman_asimi=0.8), echo_buy=0)
+        b.connect()
+        try:
+            foreign = {"Symbol": "GARAN", "OrderID": "777", "OrderQty": 10.0, "Quantity": 0.0, "Price": 98.5,
+                       "OrdStatus": "2", "FilledQty": 10.0, "OrderSide": 1, "AccountId": "0~123456", "ApiCommands": 3}
+            import threading
+            # Bizim alışımız yanıt beklerken aynı içerikte ama başkasına ait iletiler gelir:
+            # (1) başka bir istemci kimliği taşıyan, (2) ters yönde (satış) olan, (3) başka hesaba ait.
+            threading.Timer(0.2, lambda: server.push(
+                {**foreign, "ClientOrderId": "baska-kimlik", "OrderSide": 0},
+                foreign,
+                {**foreign, "OrderSide": 0, "AccountId": "0~999999"},
+            )).start()
+            st = b.place(order("GARAN", "buy", 10, 98.5))
+            assert st.status == "unknown" and st.broker_id is None  # hiçbiri bizim emrimize yazılmadı
+        finally:
+            b.close()
+
+
+def test_content_matching_stops_once_server_is_seen_to_echo_client_ids():
+    with MockMatriks(behaviour={"THYAO": "silent"}) as server:
+        b = broker_for(server, timeout=0.8)
+        b.connect()
+        try:
+            assert wait_done(b, b.place(order("GARAN", "buy", 10, 98.5))).status == "filled"  # kimlik geri geldi
+            import threading
+            threading.Timer(0.2, lambda: server.push(
+                {"Symbol": "THYAO", "OrderID": "555", "OrderQty": 3.0, "Price": 312.5, "OrdStatus": "0",
+                 "OrderSide": 0, "AccountId": "0~123456", "ApiCommands": 3})).start()
+            st = b.place(order("THYAO", "buy", 3, 312.5))
+            assert st.status == "unknown"  # kimliksiz ileti elle girilmiş başka bir emirdir
+        finally:
+            b.close()
+
+
+def test_refresh_reports_lost_monitoring_instead_of_stale_state():
+    with MockMatriks(default="rest") as server:
+        b = broker_for(server)
+        b.connect()
+        try:
+            st = b.place(order())
+            assert b.refresh(st).status == "accepted"
+            server.session(logged_in=False)
+            time.sleep(0.2)
+            with pytest.raises(BrokerError, match="izlenemiyor"):
+                b.refresh(st)
+            server.session(logged_in=True)
+            time.sleep(0.2)
+            assert b.refresh(st).status == "accepted"
+            server.drop_clients()
+            time.sleep(1.3)
+            with pytest.raises(BrokerError, match="izlenemiyor"):
+                b.refresh(st)
+        finally:
+            b.close()
+
+
+def test_orders_blocked_before_sending_are_definitely_not_sent_and_reconnect_works():
+    with MockMatriks() as server:
+        b = broker_for(server)
+        b.connect()
+        try:
+            server.session(logged_in=False)
+            time.sleep(0.2)
+            with pytest.raises(NotSent):
+                b.place(order())
+            server.drop_clients()
+            time.sleep(1.3)
+            with pytest.raises(NotSent):
+                b.place(order())
+            assert server.new_orders == []
+            b.ensure_ready()  # yeniden bağlanır ve hesabı yeniden seçer
+            assert b.place(order()).status in ("accepted", "filled") and len(server.new_orders) == 1
+            # Eski bağlantının iş parçacıkları yeni bağlantıyı kapatmamalı.
+            time.sleep(1.3)
+            assert b.wire.connected and b.positions() == {}
+        finally:
+            b.close()
+
+
+def test_sync_recovers_fills_missed_while_disconnected():
+    with MockMatriks(default="rest") as server:
+        b = broker_for(server)
+        b.connect()
+        try:
+            st = b.place(order("GARAN", "buy", 10, 98.5))
+            deadline = time.time() + 2
+            while b.refresh(st).broker_id is None and time.time() < deadline:
+                time.sleep(0.02)
+            server.drop_clients()
+            time.sleep(1.3)
+            server.fill("GARAN", 98.1)  # bildirim kimseye ulaşmaz
+            b.ensure_ready()
+            assert b.refresh(st).status == "accepted"  # henüz bilinmiyor
+            b.sync()
+            done = b.refresh(st)
+            assert (done.status, done.filled_lots, done.avg_price) == ("filled", 10, 98.1)
+        finally:
+            b.close()
+
+
+def test_side_mismatch_reports_the_real_outcome():
+    # (a) Emir iptal edilebildi.
+    with MockMatriks(default="rest", side_echo="swapped") as server:
+        b = MatriksBroker(MatriksSettings(port=server.port, zaman_asimi=2.0), echo_buy=1)
+        b.connect()
+        try:
+            with pytest.raises(SideMismatch) as err:
+                b.place(order())
+            assert "emir iptal edildi" in str(err.value) and err.value.state.status == "cancelled"
+        finally:
+            b.close()
+    # (b) Emir hemen gerçekleşti: iptal gönderilmez ve mesaj bunu söyler.
+    with MockMatriks(default="fill", side_echo="swapped") as server:
+        b = MatriksBroker(MatriksSettings(port=server.port, zaman_asimi=2.0), echo_buy=1)
+        b.connect()
+        try:
+            with pytest.raises(SideMismatch) as err:
+                b.place(order())
+            text = str(err.value)
+            assert ("GERÇEKLEŞTİ" in text or "iptal edildi" in text) and "iptal istendi" not in text
+            if "GERÇEKLEŞTİ" in text:
+                assert server.cancels == [] and err.value.state.filled_lots == 10
+        finally:
+            b.close()
+    # (c) Emir numarası ilk bildirimde yok: numara beklenir, sonra iptal gönderilir.
+    with MockMatriks(default="pending", side_echo="swapped") as server:
+        b = MatriksBroker(MatriksSettings(port=server.port, zaman_asimi=2.0), echo_buy=1)
+        b.connect()
+        try:
+            with pytest.raises(SideMismatch) as err:
+                b.place(order())
+            assert len(server.cancels) == 1 and server.cancels[0]["OrderID"] == "1001"
+            assert err.value.state.status == "cancelled"
+        finally:
+            b.close()
+
+
+def test_sync_tolerates_queries_that_stay_unanswered_when_empty():
+    with MockMatriks(default="rest") as server:
+        server.silent_when_empty = True
+        b = broker_for(server, timeout=1.0)
+        b.connect()
+        try:
+            st = b.place(order("GARAN", "buy", 10, 98.5))
+            started = time.time()
+            b.sync()  # gerçekleşen ve iptal listeleri boş: yanıt gelmez, hata sayılmaz
+            first = time.time() - started
+            assert b.refresh(st).status == "accepted"
+            started = time.time()
+            b.sync()
+            assert time.time() - started < first  # ikinci turda yanıtsız sorgular için uzun beklenmez
+            server.fill("GARAN")
+            b.sync()
+            assert wait_done(b, st).status == "filled"
+        finally:
+            b.close()
+
+
+def test_side_mismatch_cancels_the_remainder_of_a_partially_filled_order():
+    with MockMatriks(default="partial", side_echo="swapped") as server:
+        b = MatriksBroker(MatriksSettings(port=server.port, zaman_asimi=2.0), echo_buy=1)
+        b.connect()
+        try:
+            with pytest.raises(SideMismatch) as err:
+                b.place(order("GARAN", "buy", 10, 98.5))
+            text = str(err.value)
+            assert len(server.cancels) == 1 and err.value.state.done  # çalışan kalan için iptal gönderildi
+            if err.value.state.filled_lots:  # kısmi gerçekleşme iptalden önce görüldüyse mesajda yer alır
+                assert "5 lot GERÇEKLEŞTİ" in text and "kalan iptal edildi" in text
+            else:
+                assert "emir iptal edildi" in text
+        finally:
+            b.close()

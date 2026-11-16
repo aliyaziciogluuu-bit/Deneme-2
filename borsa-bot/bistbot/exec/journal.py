@@ -5,7 +5,12 @@ yeniden başlasa bile), (2) ne zaman, ne gönderildiğinin denetlenebilir izini 
 
 Kural: bir emir için ``sending`` kaydı düşülüp sonucu yazılmadıysa o emrin akıbeti belirsizdir
 ve program onu kendiliğinden YENİDEN GÖNDERMEZ; önce aracı kurumdaki emir/pozisyon durumu
-kontrol edilmelidir.
+kontrol edilmelidir. İki istisna vardır, ikisinde de emrin aracı kurumda çalışmadığı kesindir:
+bağlantı daha gönderimden önce yoksa yazılan ``not_sent`` ve aracı kurumun reddi (``rejected``).
+
+Bir emrin kimliği kararın dayandığı gündür (``karar günü|sembol|yön``); aynı karar başka bir
+seans için yeniden yayımlansa da ikinci kez gönderilmez. Satış parası beklenerek ikinci turda
+gönderilen alışlar aynı kimliğin ``|2`` ekli hâlini kullanır ve aynı emir sayılır.
 """
 from __future__ import annotations
 
@@ -16,6 +21,8 @@ from pathlib import Path
 
 #: Bu olaylardan biri kayıtlıysa emir gönderilmiş (ya da gönderilmiş olabilir) sayılır.
 SENT_EVENTS = frozenset({"sending", "accepted", "partial", "filled", "unknown", "cancelled"})
+#: İkinci tur (yeniden deneme) anahtarının eki.
+RETRY = "|2"
 
 
 class Journal:
@@ -27,26 +34,40 @@ class Journal:
         entry = {"ts": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "event": event, "key": key, **data}
         line = json.dumps(entry, ensure_ascii=False, sort_keys=True)
         # Her kayıt diske hemen yazılır: emir gönderilmeden ÖNCE "sending" kaydı güvende olmalı.
+        # Dosya yarım bir satırla bitiyorsa (elektrik kesintisi) yeni kayıt ona yapışmasın.
+        torn = False
+        try:
+            with open(self.path, "rb") as fh:
+                fh.seek(0, os.SEEK_END)
+                if fh.tell() > 0:
+                    fh.seek(-1, os.SEEK_END)
+                    torn = fh.read(1) != b"\n"
+        except FileNotFoundError:
+            pass
         with open(self.path, "a", encoding="utf-8") as fh:
-            fh.write(line + "\n")
+            fh.write(("\n" if torn else "") + line + "\n")
             fh.flush()
             os.fsync(fh.fileno())
         return entry
 
     def entries(self) -> list[dict]:
-        if not self.path.exists():
+        try:
+            data = self.path.read_bytes()
+        except FileNotFoundError:
             return []
         out = []
-        for line in self.path.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
+        for raw in data.split(b"\n"):
+            line = raw.decode("utf-8", errors="replace").strip()
             if not line:
                 continue
             try:
-                out.append(json.loads(line))
+                entry = json.loads(line)
             except ValueError:
-                # Yarım yazılmış son satır (ör. elektrik kesintisi): yok sayılır ama
-                # o emrin "sending" kaydı bir önceki satırda durur.
+                # Yarım ya da bozuk satır (ör. elektrik kesintisi): yok sayılır ama o emrin
+                # "sending" kaydı bir önceki satırda durur.
                 continue
+            if isinstance(entry, dict):
+                out.append(entry)
         return out
 
     def last_events(self) -> dict[str, dict]:
@@ -58,8 +79,28 @@ class Journal:
         return last
 
     def was_sent(self, key: str) -> bool:
-        """Bu emir daha önce gönderildi mi (ya da gönderilmiş olabilir mi)?"""
-        return any(e.get("key") == key and e.get("event") in SENT_EVENTS for e in self.entries())
+        """Tam bu anahtarla bir emir gönderildi mi (ya da gönderilmiş olabilir mi)?
+
+        ``sending`` kaydının hemen ardından gelen ``not_sent`` ("kesinlikle gitmedi") ve hiç
+        gerçekleşmeden gelen ``rejected`` (aracı kurum reddetti) o denemeyi geri alır; başka
+        hiçbir kayıt gönderilmiş bir emri gönderilmemiş yapmaz.
+        """
+        sent, last = False, None
+        for e in self.entries():
+            if e.get("key") != key:
+                continue
+            event = e.get("event")
+            if event in SENT_EVENTS:
+                sent, last = True, event
+            elif event == "not_sent" and last == "sending":
+                sent, last = False, None
+            elif event == "rejected" and not e.get("filled"):
+                sent, last = False, None
+        return sent
+
+    def order_sent(self, key: str) -> bool:
+        """Emir, ilk denemede ya da ikinci turda gönderildi mi? (``key`` ek taşımayan temel anahtardır.)"""
+        return self.was_sent(key) or self.was_sent(key + RETRY)
 
     def batch_done(self, digest: str) -> bool:
         return any(e.get("event") == "batch_done" and e.get("digest") == digest for e in self.entries())

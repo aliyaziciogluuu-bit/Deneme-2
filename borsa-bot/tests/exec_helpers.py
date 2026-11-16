@@ -4,7 +4,7 @@ from __future__ import annotations
 import datetime as dt
 import re
 
-from bistbot.exec.base import BrokerError, OrderRequest, OrderState
+from bistbot.exec.base import BrokerError, NotSent, OrderRequest, OrderState
 from bistbot.exec.runner import IST
 from bistbot.exec.settings import ExecSettings, Limits, TelegramSettings
 from bistbot.exec.telegram import Telegram
@@ -71,6 +71,7 @@ class FakeTelegramHttp:
         self.calls: list[tuple[str, dict]] = []
         self._update_id = 100
         self.status = 200
+        self.reads_groups = False
 
     def now(self) -> int:
         return int(self.clock.now().timestamp()) if self.clock else 1_800_000_000
@@ -103,6 +104,8 @@ class FakeTelegramHttp:
                     else:
                         self.add_message(a)
             return _Resp(body={"ok": True, "result": {"date": self.now()}})
+        if method == "getMe":
+            return _Resp(body={"ok": True, "result": {"id": 1, "is_bot": True, "can_read_all_group_messages": self.reads_groups}})
         if method == "getUpdates":
             offset = int(data.get("offset") or 0)
             items = [u for u in self.queue if u["update_id"] >= offset]
@@ -148,6 +151,13 @@ class ScriptedBroker:
     def cash(self):
         return self._cash
 
+    def _settle(self, order: OrderRequest) -> None:
+        """Gerçekleşen emir bakiyeyi ve pozisyonu değiştirir (bakiye biliniyorsa)."""
+        sign = 1 if order.side == "sell" else -1
+        if self._cash is not None:
+            self._cash += sign * order.value
+        self._positions[order.symbol] = self._positions.get(order.symbol, 0) - sign * order.lots
+
     def place(self, order: OrderRequest) -> OrderState:
         self.placed.append(order)
         mode = self.behaviour.get(order.symbol, self.default)
@@ -156,12 +166,17 @@ class ScriptedBroker:
             self._seen.add(order.symbol)
         if mode == "error":
             raise BrokerError("bağlantı koptu")
+        if mode == "not_sent":
+            raise NotSent("bağlantı kapalı")
+        if mode == "crash":
+            raise ValueError("beklenmeyen yanıt biçimi")
         if mode == "unknown":
             return OrderState(order.key, "unknown", message="yanıt yok")
         if mode == "reject":
             return OrderState(order.key, "rejected", broker_id="r1", message="reddedildi — Yetersiz bakiye")
         if mode == "rest":
             return OrderState(order.key, "accepted", broker_id=f"b{len(self.placed)}", message="bekliyor")
+        self._settle(order)
         return OrderState(order.key, "filled", broker_id=f"b{len(self.placed)}", filled_lots=order.lots,
                           avg_price=order.limit_price, message="gerçekleşti")
 
@@ -169,6 +184,7 @@ class ScriptedBroker:
         symbol = state.key.split("|")[1]
         if state.status == "accepted" and symbol in self.fill_on_refresh:
             order = next(o for o in self.placed if o.key == state.key)
+            self._settle(order)
             return OrderState(state.key, "filled", broker_id=state.broker_id, filled_lots=order.lots,
                               avg_price=order.limit_price, message="gerçekleşti")
         return state

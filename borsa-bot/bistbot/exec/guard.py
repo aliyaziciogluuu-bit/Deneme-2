@@ -73,8 +73,28 @@ def session_problems(ticket: Ticket, now: dt.datetime, holidays: tuple[str, ...]
     return problems
 
 
-def check_ticket(ticket: Ticket, now: dt.datetime, limits: Limits) -> list[str]:
-    """Fişi durduran sınır ihlallerinin listesi (boşsa fiş gönderilebilir). ``now`` saat dilimli olmalı."""
+def trading_days_between(ticket: Ticket, holidays: tuple[str, ...] = ()) -> list[dt.date]:
+    """Karar günü ile emir seansı arasında kalan (ikisi hariç) işlem günleri.
+
+    Olağan durumda boştur. Doluysa fiş, arada geçen seansın verisini görmeden yeniden yayımlanmıştır
+    (ör. bülten gecikmiştir) ya da aradaki gün listede olmayan bir tatildir.
+    """
+    days, day = [], ticket.as_of + dt.timedelta(days=1)
+    while day < ticket.session:
+        if day.weekday() < 5 and (day.month, day.day) not in FIXED_HOLIDAYS and day.isoformat() not in holidays:
+            days.append(day)
+        day += dt.timedelta(days=1)
+    return days
+
+
+def check_ticket(ticket: Ticket, now: dt.datetime, limits: Limits, done: frozenset[str] | set[str] = frozenset(),
+                 sent_buy: float = 0.0, sent_sell: float = 0.0) -> list[str]:
+    """Fişi durduran sınır ihlallerinin listesi (boşsa fiş gönderilebilir). ``now`` saat dilimli olmalı.
+
+    ``done``: daha önce gönderilmiş emirlerin anahtarları (toplamlara yeniden katılmaz).
+    ``sent_buy`` / ``sent_sell``: bugün daha önce gönderilmiş alış / satışların tutarı; günlük
+    toplam sınırları bunlarla birlikte uygulanır.
+    """
     problems: list[str] = []
     age = ticket_age_hours(ticket, now)
     if age is None:
@@ -91,13 +111,14 @@ def check_ticket(ticket: Ticket, now: dt.datetime, limits: Limits) -> list[str]:
     buys = sells = 0.0
     for o in ticket.orders:
         value = o.lots * o.limit_price
-        if o.side == "buy":
-            buys += value
-        else:
-            sells += value
+        if ticket.order_key(o) not in done:
+            if o.side == "buy":
+                buys += value
+            else:
+                sells += value
         if value > limits.azami_emir_tl:
             problems.append(f"{o.symbol}: emir tutarı {_tl(value)} TL, tek emir sınırı {_tl(limits.azami_emir_tl)} TL")
-        if ticket.equity > 0 and value > ticket.equity * limits.azami_emir_orani:
+        if value > ticket.equity * limits.azami_emir_orani:
             problems.append(
                 f"{o.symbol}: emir, portföyün %{value / ticket.equity * 100:.0f}'i (sınır %{limits.azami_emir_orani * 100:.0f})"
             )
@@ -108,11 +129,12 @@ def check_ticket(ticket: Ticket, now: dt.datetime, limits: Limits) -> list[str]:
             problems.append(f"{o.symbol}: limit fiyat emrin yönüyle uyumsuz")
         if not on_tick(o.limit_price):
             problems.append(f"{o.symbol}: limit fiyat ({o.limit_price}) fiyat adımına uymuyor")
-    if buys > limits.azami_alis_tl:
-        problems.append(f"alışların toplamı {_tl(buys)} TL, sınır {_tl(limits.azami_alis_tl)} TL")
-    if sells > limits.azami_satis_tl:
-        problems.append(f"satışların toplamı {_tl(sells)} TL, sınır {_tl(limits.azami_satis_tl)} TL")
-    if ticket.equity > 0 and buys > ticket.equity * 1.10:
+    earlier = " (bugün daha önce gönderilenlerle birlikte)" if sent_buy or sent_sell else ""
+    if buys + sent_buy > limits.azami_alis_tl:
+        problems.append(f"alışların toplamı {_tl(buys + sent_buy)} TL{earlier}, sınır {_tl(limits.azami_alis_tl)} TL")
+    if sells + sent_sell > limits.azami_satis_tl:
+        problems.append(f"satışların toplamı {_tl(sells + sent_sell)} TL{earlier}, sınır {_tl(limits.azami_satis_tl)} TL")
+    if buys + sent_buy > ticket.equity * 1.10:
         problems.append("alışların toplamı kâğıt portföy değerini aşıyor")
     return problems
 
@@ -125,6 +147,8 @@ class Plan:
     notes: list[str] = field(default_factory=list)
     #: Gönderilmeyecek emirler ve nedenleri.
     skipped: list[str] = field(default_factory=list)
+    #: Hesapta lot olmadığı için atlanan satış sayısı (pozisyonlar okunamamış olabilir).
+    unsellable: int = 0
 
     @property
     def buy_total(self) -> float:
@@ -135,37 +159,52 @@ class Plan:
         return sum(o.value for o in self.orders if o.side == "sell")
 
 
-def build_plan(ticket: Ticket, positions: dict[str, int], cash: float | None, done: set[str] | None = None) -> Plan:
-    """Fişi hesaptaki gerçek pozisyonlara uyarlar. ``done``: daha önce gönderilmiş emir anahtarları."""
-    done = done or set()
+def build_plan(ticket: Ticket, positions: dict[str, int], cash: float | None,
+               done: dict[str, str] | set[str] | None = None) -> Plan:
+    """Fişi hesaptaki gerçek pozisyonlara uyarlar.
+
+    ``done``: daha önce gönderilmiş emirler, ``{anahtar: açıklama}`` (ör. "daha önce gönderildi",
+    "akıbeti belirsiz"); küme verilirse açıklama "daha önce gönderildi" olur.
+    """
+    if done is None:
+        done = {}
+    elif not isinstance(done, dict):
+        done = {key: "daha önce gönderildi" for key in done}
     plan = Plan()
     sells = [o for o in ticket.orders if o.side == "sell"]
     buys = [o for o in ticket.orders if o.side == "buy"]
     for o in sells + buys:
         key = ticket.order_key(o)
         if key in done:
-            plan.skipped.append(f"{o.symbol} {'satış' if o.side == 'sell' else 'alış'}: daha önce gönderildi")
+            plan.skipped.append(f"{o.symbol} {'satış' if o.side == 'sell' else 'alış'}: {done[key]}")
             continue
         lots = o.lots
         if o.side == "sell":
             have = int(positions.get(o.symbol, 0))
             if have <= 0:
                 plan.skipped.append(f"{o.symbol} satış: hesapta satılabilir lot yok (fişte {o.lots} lot)")
+                plan.unsellable += 1
                 continue
             if have < lots:
                 plan.notes.append(f"{o.symbol}: fişte {o.lots} lot satış var, hesapta satılabilir {have} lot; {have} lot satılacak.")
                 lots = have
         plan.orders.append(OrderRequest(key, o.symbol, o.side, lots, o.limit_price))
 
-    # Kâğıt portföy ile gerçek hesap arasındaki farklar (bilgi amaçlı).
+    # Kâğıt portföy ile gerçek hesap arasındaki farklar (bilgi amaçlı). Alınacak hisseler de
+    # karşılaştırılır: kâğıtta olmayan bir hisse hesapta varsa aynı alım daha önce yapılmış olabilir.
     diffs = []
-    for sym in sorted(set(ticket.positions) | {o.symbol for o in sells}):
+    for sym in sorted(set(ticket.positions) | {o.symbol for o in ticket.orders}):
         paper, real = int(ticket.positions.get(sym, 0)), int(positions.get(sym, 0))
         if paper != real:
             diffs.append(f"{sym} kâğıtta {paper}, hesapta {real} lot")
     if diffs:
         more = f" (+{len(diffs) - 6} hisse daha)" if len(diffs) > 6 else ""
         plan.notes.append("Kâğıt portföy ile hesabınız farklı: " + "; ".join(diffs[:6]) + more + ".")
+    already = [o.symbol for o in buys if ticket.order_key(o) not in done
+               and int(positions.get(o.symbol, 0)) > 0 and int(ticket.positions.get(o.symbol, 0)) == 0]
+    if already:
+        plan.notes.append("⚠️ Alınacak şu hisseler hesabınızda ZATEN var (kâğıt portföyde yok): " + ", ".join(already)
+                          + ". Aynı alımı daha önce yaptıysanız RED yazın.")
 
     if cash is not None and cash == cash:
         need = plan.buy_total * (1.0 + COST_MARGIN)

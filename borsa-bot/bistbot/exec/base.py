@@ -13,6 +13,13 @@ class BrokerError(RuntimeError):
     """Aracı kurum bağlantısında ya da yanıtında hata."""
 
 
+class NotSent(BrokerError):
+    """Emir kesinlikle GÖNDERİLMEDİ (bağlantı ya da oturum daha gönderimden önce yoktu).
+
+    Bu hatayı alan emir "belirsiz" sayılmaz; sonraki çalıştırmada yeniden gönderilebilir.
+    """
+
+
 @dataclass(frozen=True)
 class OrderRequest:
     """Gönderilecek tek bir limitli emir. ``key`` aynı emrin iki kez gönderilmesini önler."""

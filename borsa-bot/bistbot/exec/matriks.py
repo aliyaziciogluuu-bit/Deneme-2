@@ -40,7 +40,7 @@ import threading
 import time
 from dataclasses import dataclass, field
 
-from .base import BrokerError, OrderRequest, OrderState
+from .base import BrokerError, NotSent, OrderRequest, OrderState
 from .settings import MatriksSettings
 
 log = logging.getLogger(__name__)
@@ -124,7 +124,14 @@ def _order_qty(msg: dict) -> float:
 
 
 class SideMismatch(BrokerError):
-    """Matriks IQ'nun bildirdiği emir yönü beklenenle uyuşmuyor: gönderim durdurulmalı."""
+    """Matriks IQ'nun bildirdiği emir yönü beklenenle uyuşmuyor: gönderim durdurulmalı.
+
+    ``state`` emrin bilinen son durumudur (iptal edildi mi, gerçekleşti mi, hâlâ çalışıyor mu).
+    """
+
+    def __init__(self, message: str, state: OrderState | None = None):
+        super().__init__(message)
+        self.state = state
 
 
 def client_order_id(now: float | None = None) -> str:
@@ -164,7 +171,11 @@ def mask(account: str) -> str:
 
 
 class MatriksWire:
-    """Soket, çerçeveleme (0x0B), okuma iş parçacığı ve canlılık iletileri."""
+    """Soket, çerçeveleme (0x0B), okuma iş parçacığı ve canlılık iletileri.
+
+    Her bağlantının kendi "kapandı" işareti vardır; eski bir bağlantının iş parçacıkları
+    yeniden bağlanıldıktan sonra yeni bağlantıya dokunamaz.
+    """
 
     def __init__(self, host: str, port: int, timeout: float = 15.0, json_mode: bool = True, keepalive: float = 30.0):
         self.host, self.port, self.timeout = host, port, timeout
@@ -175,37 +186,37 @@ class MatriksWire:
         self._inbox: list[dict] = []
         self._listeners: list = []
         self._closed = threading.Event()
+        self._closed.set()
         self.error: str | None = None
-        self._threads: list[threading.Thread] = []
 
     # -- bağlantı ---------------------------------------------------------------------
     def connect(self) -> None:
+        self.close()
         try:
-            self._sock = socket.create_connection((self.host, self.port), timeout=self.timeout)
+            sock = socket.create_connection((self.host, self.port), timeout=self.timeout)
         except OSError as exc:
             raise BrokerError(
                 f"Matriks IQ'ya bağlanılamadı ({self.host}:{self.port}): {type(exc).__name__}. Program açık mı, "
-                "'Dışarıdan Emir Kabulü' etkin mi?"
+                "'Dışarıdan Emir Kabulü' lisansı etkin mi?"
             ) from exc
-        self._sock.settimeout(1.0)
+        sock.settimeout(1.0)
         try:
-            self._sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+            sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
         except OSError:
             pass
-        self._closed.clear()
-        self.error = None
+        closed = threading.Event()
+        self._sock, self._closed, self.error = sock, closed, None
         for target in (self._read_loop, self._keepalive_loop):
-            thread = threading.Thread(target=target, daemon=True)
-            thread.start()
-            self._threads.append(thread)
+            threading.Thread(target=target, args=(sock, closed), daemon=True).start()
         if self.json_mode:
-            # Örnek C# istemcisi bağlanınca bu sonlandırıcısız metni yollar (0 = JSON).
+            # Belgeye göre ilk iş mesajlaşma tipi seçilir: sonlandırıcısız "SetMessageType0" (JSON).
             self._raw_send(b"SetMessageType0")
             time.sleep(0.3)
 
     def close(self) -> None:
-        self._closed.set()
-        sock, self._sock = self._sock, None
+        closed, sock = self._closed, self._sock
+        closed.set()
+        self._sock = None
         if sock is not None:
             try:
                 sock.close()
@@ -220,44 +231,48 @@ class MatriksWire:
 
     # -- gönderme ---------------------------------------------------------------------
     def _raw_send(self, data: bytes) -> None:
-        sock = self._sock
-        if sock is None or self._closed.is_set():
-            raise BrokerError("Matriks IQ bağlantısı kapalı" + (f": {self.error}" if self.error else ""))
+        sock, closed = self._sock, self._closed
+        if sock is None or closed.is_set():
+            # Tek bayt bile yazılmadı: ileti kesinlikle gitmedi.
+            raise NotSent("Matriks IQ bağlantısı kapalı" + (f": {self.error}" if self.error else ""))
         with self._send_lock:
             try:
                 sock.sendall(data)
             except OSError as exc:
-                self._fail(f"gönderim hatası ({type(exc).__name__})")
-                raise BrokerError("Matriks IQ'ya ileti gönderilemedi") from exc
+                self._fail(f"gönderim hatası ({type(exc).__name__})", closed)
+                raise BrokerError("Matriks IQ'ya ileti gönderilirken bağlantı koptu") from exc
 
     def send(self, payload: dict) -> None:
         text = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
         self._raw_send(text.encode("utf-8") + TERMINATOR)
 
     # -- alma -------------------------------------------------------------------------
-    def _fail(self, reason: str) -> None:
-        if not self._closed.is_set():
+    def _fail(self, reason: str, closed: threading.Event) -> None:
+        """``closed`` işaretli bağlantıyı hatayla kapatır; güncel bağlantı değilse ona dokunmaz."""
+        if closed is not self._closed:
+            closed.set()
+            return
+        if not closed.is_set():
             self.error = reason
             log.warning("Matriks IQ bağlantısı koptu: %s", reason)
         self.close()
 
-    def _read_loop(self) -> None:
+    def _read_loop(self, sock: socket.socket, closed: threading.Event) -> None:
         buffer = bytearray()
-        sock = self._sock
-        while not self._closed.is_set() and sock is not None:
+        while not closed.is_set():
             try:
                 chunk = sock.recv(65536)
             except socket.timeout:
                 continue
             except OSError as exc:
-                self._fail(f"okuma hatası ({type(exc).__name__})")
+                self._fail(f"okuma hatası ({type(exc).__name__})", closed)
                 return
             if not chunk:
-                self._fail("Matriks IQ bağlantıyı kapattı")
+                self._fail("Matriks IQ bağlantıyı kapattı", closed)
                 return
             buffer.extend(chunk)
             if len(buffer) > MAX_MESSAGE:
-                self._fail("ileti çok büyük")
+                self._fail("ileti çok büyük", closed)
                 return
             while True:
                 cut = buffer.find(TERMINATOR)
@@ -293,8 +308,10 @@ class MatriksWire:
                 del self._inbox[:1000]
             self._cond.notify_all()
 
-    def _keepalive_loop(self) -> None:
-        while not self._closed.wait(self.keepalive):
+    def _keepalive_loop(self, sock: socket.socket, closed: threading.Event) -> None:
+        while not closed.wait(self.keepalive):
+            if sock is not self._sock:
+                return
             try:
                 now = dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
                 self.send({"KeepAliveDate": now.isoformat(), "ApiCommands": KEEP_ALIVE})
@@ -349,6 +366,9 @@ class MatriksBroker:
         self._tracks: list[_Track] = []
         self._changed = threading.Condition(self._lock)
         self.logged_out = False
+        #: Sunucunun istemci emir kimliğini (ClientOrderId) geri gönderdiği görüldü mü.
+        self._ids_echoed = False
+        self._quiet_queries: set[str] = set()
         self.wire.add_listener(self._on_message)
 
     # -- bağlantı ve hesap -------------------------------------------------------------
@@ -356,6 +376,12 @@ class MatriksBroker:
         if not self.wire.connected:
             self.wire.connect()
         self._select_account(self.accounts())
+        self.logged_out = False
+
+    def ensure_ready(self) -> None:
+        """Emir göndermeden hemen önce: bağlantı ya da oturum düştüyse yeniden kurar, kuramazsa hata verir."""
+        if not self.wire.connected or self.logged_out:
+            self.connect()
 
     def close(self) -> None:
         self.wire.close()
@@ -399,13 +425,13 @@ class MatriksBroker:
         self.brokage_id, self.account_id = match[0]["BrokageId"], match[0]["AccountId"]
         self.brokage_name = match[0]["BrokageName"]
 
-    def _request(self, command: int, reply_kind: int, **extra) -> dict:
+    def _request(self, command: int, reply_kind: int, timeout: float | None = None) -> dict:
         since = time.monotonic()
         payload = {"BrokageId": self.brokage_id, "AccountId": self.account_id, "ExchangeId": self.s.borsa_id,
-                   "ApiCommands": command, **extra}
+                   "ApiCommands": command}
         self.wire.send(payload)
         mine = lambda m: str(m.get("AccountId", self.account_id)) == self.account_id  # noqa: E731
-        return self.wire.wait_for(reply_kind, mine, since=since)
+        return self.wire.wait_for(reply_kind, mine, timeout=timeout, since=since)
 
     def raw_positions(self) -> list[dict]:
         reply = self._request(LIST_POSITIONS, R_POSITIONS)
@@ -454,54 +480,107 @@ class MatriksBroker:
                 return _number(value, default=float("nan"))
         return None
 
-    def open_orders(self) -> list[dict]:
-        reply = self._request(LIST_ORDERS, R_ORDERS)
+    def open_orders(self, timeout: float | None = None) -> list[dict]:
+        reply = self._request(LIST_ORDERS, R_ORDERS, timeout)
         return [o for o in reply.get("OrderApiModels") or [] if isinstance(o, dict)]
 
-    def filled_orders(self) -> list[dict]:
-        reply = self._request(LIST_FILLED, R_FILLED)
+    def filled_orders(self, timeout: float | None = None) -> list[dict]:
+        reply = self._request(LIST_FILLED, R_FILLED, timeout)
         return [o for o in reply.get("FilledOrderApiModels") or [] if isinstance(o, dict)]
 
+    def canceled_orders(self, timeout: float | None = None) -> list[dict]:
+        reply = self._request(LIST_CANCELED, R_CANCELED, timeout)
+        return [o for o in reply.get("CanceledOrderApiModels") or [] if isinstance(o, dict)]
+
+    def sync(self) -> None:
+        """Emir durumlarını sorgularla tazeler (kaçan bildirimlere karşı). Yalnızca emir numarası ya da
+        istemci kimliğiyle eşleşen kayıtlar işlenir; içerik benzerliğiyle eşleştirme yapılmaz.
+
+        Liste boşken Matriks IQ hiç yanıt vermeyebilir; bağlantı ayaktaysa yanıtsızlık "kayıt yok"
+        sayılır. Bağlantı ya da oturum düşmüşse hata verilir.
+        """
+        if not self.wire.connected or self.logged_out:
+            raise BrokerError("Matriks IQ bağlantısı ya da aracı kurum oturumu düştü")
+        for fetch in (self.open_orders, self.filled_orders, self.canceled_orders):
+            # Bir sorgu bir kez yanıtsız kaldıysa sonraki turlarda onun için uzun beklenmez.
+            quiet = fetch.__name__ in self._quiet_queries
+            try:
+                items = fetch(timeout=0.5 if quiet else min(self.s.zaman_asimi, 3.0))
+            except BrokerError:
+                if not self.wire.connected:
+                    raise
+                self._quiet_queries.add(fetch.__name__)
+                continue
+            self._quiet_queries.discard(fetch.__name__)
+            for item in items:
+                msg = item if isinstance(item, Msg) else Msg(item)
+                msg["_rx"] = time.monotonic()
+                self._apply(msg, allow_content=False)
+
     # -- emirler ----------------------------------------------------------------------
+    def _mine(self, msg: dict) -> bool:
+        return str(msg.get("AccountId", self.account_id)) == self.account_id
+
     def _on_message(self, msg: dict) -> None:
         kind = msg.get("ApiCommands")
-        if kind == R_LOGOUT and str(msg.get("AccountId", "")) == self.account_id:
+        # Oturum bildirimi hesabı açıkça taşımalıdır (canlılık yanıtı da 6 koduyla gelebilir).
+        session = msg.get("AccountId") is not None and "KeepAliveDate" not in msg and self._mine(msg)
+        if kind == R_LOGOUT and session:
             self.logged_out = True
-        if kind != R_ORDER_CHANGED:
-            return
-        with self._changed:
-            track = self._match(msg)
-            if track is not None:
-                # Bitmiş bir emrin (gerçekleşti/iptal/red) üzerine, geç gelen durumsuz bir ileti yazılmaz.
-                if not (_status_code(track.raw) in FINAL_CODES and _status_code(msg) not in FINAL_CODES):
-                    track.raw = msg
-                track.events += 1
-                if msg.get("OrderId"):
-                    track.order_id = str(msg["OrderId"])
-                self._changed.notify_all()
+        elif kind == R_LOGIN and session:
+            self.logged_out = False
+        if kind == R_ORDER_CHANGED:
+            self._apply(msg, allow_content=True)
 
-    def _match(self, msg: dict) -> _Track | None:
-        coid, oid = str(msg.get("ClientOrderId") or ""), str(msg.get("OrderId") or "")
-        for t in self._tracks:
-            if coid and coid == t.client_id:
-                t.matched_by = t.matched_by or "kimlik"
-                return t
-        for t in self._tracks:
-            if oid and t.order_id == oid:
-                return t
-        # Yedek eşleştirme: Matriks IQ istemci kimliğini geri göndermiyorsa, bu oturumda
-        # gönderilip henüz eşleşmemiş, hesap/sembol/adet/fiyatı aynı olan en eski emir.
-        if str(msg.get("AccountId", self.account_id)) != self.account_id:
+    def _apply(self, msg: dict, allow_content: bool) -> None:
+        with self._changed:
+            track = self._match(msg, allow_content)
+            if track is None:
+                return
+            # Bitmiş bir emrin (gerçekleşti/iptal/red) üzerine, geç gelen durumsuz bir ileti yazılmaz.
+            if not (_status_code(track.raw) in FINAL_CODES and _status_code(msg) not in FINAL_CODES):
+                track.raw = msg
+            track.events += 1
+            if msg.get("OrderId"):
+                track.order_id = str(msg["OrderId"])
+            self._changed.notify_all()
+
+    def _side_agrees(self, track: _Track, msg: dict) -> bool:
+        """Yanıttaki yön biliniyorsa emrin yönüyle çelişmemeli (içerikle eşleştirmede kullanılır)."""
+        echo = msg.get("OrderSide")
+        if self.echo_buy is None or echo is None or not self.s.yon_yanit_denetimi:
+            return True
+        return (echo == self.echo_buy) == (track.order.side == "buy")
+
+    def _match(self, msg: dict, allow_content: bool = True) -> _Track | None:
+        coid, oid = str(msg.get("ClientOrderId") or "").strip(), str(msg.get("OrderId") or "").strip()
+        if coid:
+            for t in self._tracks:
+                if coid == t.client_id:
+                    self._ids_echoed = True
+                    t.matched_by = t.matched_by or "kimlik"
+                    return t
+        if oid:
+            for t in self._tracks:
+                if t.order_id == oid:
+                    return t
+        # Buradan sonrası yedek yol: Matriks IQ istemci kimliğini geri göndermiyorsa emir içeriğiyle
+        # (hesap, sembol, adet, fiyat) eşleştirilir. Başka bir kimlik taşıyan ileti başkasının emridir;
+        # sunucunun kimlikleri geri gönderdiği bir kez görüldüyse kimliksiz iletiler de bizim sayılmaz.
+        if not allow_content or coid or self._ids_echoed or not self._mine(msg):
             return None
         symbol = str(msg.get("Symbol") or "").upper()
-        qty = _order_qty(msg)
-        price = _number(msg.get("Price"))
-        for t in self._tracks:
-            if t.order_id is None and t.events == 0 and t.order.symbol == symbol and int(qty + 1e-9) == t.order.lots \
-                    and abs(price - t.order.limit_price) < 1e-6 and msg["_rx"] >= t.sent_at:
-                t.matched_by = "içerik"
-                return t
-        return None
+        qty, price = _order_qty(msg), _number(msg.get("Price"))
+        candidates = [
+            t for t in self._tracks
+            if t.order_id is None and _status_code(t.raw) not in FINAL_CODES and t.order.symbol == symbol
+            and int(qty + 1e-9) == t.order.lots and abs(price - t.order.limit_price) < 1e-6
+            and msg["_rx"] >= t.sent_at and self._side_agrees(t, msg)
+        ]
+        if len(candidates) != 1:
+            return None  # belirsiz: hiçbir emre yazılmaz, gönderen taraf "belirsiz" olarak ele alır
+        candidates[0].matched_by = "içerik"
+        return candidates[0]
 
     def _state(self, track: _Track) -> OrderState:
         raw = track.raw
@@ -521,7 +600,7 @@ class MatriksBroker:
                           message=note, raw=Msg({k: v for k, v in raw.items() if k != "_rx"}))
 
     def _payload(self, order: OrderRequest, code: int, client_id: str) -> dict:
-        """Matriks örnek istemcisinin ``OrderRequest`` nesnesini serileştirdiği biçim (tüm alanlarla)."""
+        """Belgedeki "Yeni Emir İsteği" örnek sorgusu ve örnek istemcinin ``OrderRequest`` nesnesi (tüm alanlarla)."""
         lots = int(order.lots)
         return {
             "Symbol": order.symbol, "AccountId": self.account_id, "BrokageId": self.brokage_id,
@@ -534,26 +613,39 @@ class MatriksBroker:
             "OrderType": ORDER_TYPE_LIMIT, "TransactionType": TRANSACTION_NORMAL, "ApiCommands": NEW_ORDER,
         }
 
+    def _wait(self, track: _Track, done, timeout: float | None = None) -> None:
+        """``done(track)`` doğru olana, bağlantı kopana ya da süre dolana kadar bekler."""
+        deadline = time.monotonic() + (self.s.zaman_asimi if timeout is None else timeout)
+        with self._changed:
+            while not done(track) and time.monotonic() < deadline and self.wire.connected:
+                self._changed.wait(0.25)
+
     def place(self, order: OrderRequest) -> OrderState:
+        # Gönderimden ÖNCE anlaşılan engeller "kesinlikle gitmedi" olarak bildirilir (NotSent).
         if self.logged_out:
-            raise BrokerError("Matriks IQ'da aracı kurum oturumu kapandı")
+            raise NotSent("Matriks IQ'da aracı kurum oturumu kapalı")
         if not self.account_id or not self.brokage_id:
-            raise BrokerError("hesap seçilmedi (önce connect)")
+            raise NotSent("hesap seçilmedi (önce connect)")
+        if not self.wire.connected:
+            raise NotSent("Matriks IQ bağlantısı kapalı" + (f": {self.wire.error}" if self.wire.error else ""))
         code = self.s.alis_kodu if order.side == "buy" else self.s.satis_kodu
         track = _Track(order, client_order_id(), time.monotonic(), code)
         with self._lock:
             self._tracks.append(track)
-        self.wire.send(self._payload(order, code, track.client_id))
-        deadline = time.monotonic() + self.s.zaman_asimi
-        with self._changed:
-            while track.events == 0 and time.monotonic() < deadline and self.wire.connected:
-                self._changed.wait(0.25)
+        try:
+            self.wire.send(self._payload(order, code, track.client_id))
+        except NotSent:
+            with self._lock:
+                self._tracks.remove(track)
+            raise
+        self._wait(track, lambda t: t.events > 0)
+        with self._lock:
             state = self._state(track)
         if state.status != "unknown":
-            self._check_side(track, state)
+            self._check_side(track)
         return state
 
-    def _check_side(self, track: _Track, state: OrderState) -> None:
+    def _check_side(self, track: _Track) -> None:
         """Yanıttaki yön, yön testinde doğrulanan değerle uyuşmalı; uyuşmuyorsa emri iptal et ve dur."""
         if self.echo_buy is None or not self.s.yon_yanit_denetimi:
             return
@@ -563,17 +655,28 @@ class MatriksBroker:
         is_buy = track.order.side == "buy"
         if (echo == self.echo_buy) == is_buy:
             return
-        cancelled = "iptal istendi"
-        try:
-            if not state.done:
-                self.cancel(state)
-        except BrokerError as exc:
-            cancelled = f"iptal edilemedi: {exc}"
+        # İptal için emir numarası gerekir; henüz gelmediyse kısa süre beklenir.
+        self._wait(track, lambda t: t.order_id is not None or _status_code(t.raw) in FINAL_CODES)
+        with self._lock:
+            state = self._state(track)
+        if state.done:
+            outcome = (f"emir GERÇEKLEŞTİ ({state.filled_lots} lot): ters yönde işlem yapılmış olabilir"
+                       if state.filled_lots else f"emir çalışmıyor ({state.message})")
+        else:
+            # Emir hâlâ çalışıyorsa (kısmen gerçekleşmiş olsa bile) kalanı iptal edilir.
+            try:
+                state = self.cancel(state)
+                rest = "kalan iptal edildi" if state.done else "kalan İPTAL DOĞRULANAMADI, hâlâ çalışıyor olabilir"
+            except BrokerError as exc:
+                rest = f"kalan İPTAL EDİLEMEDİ ({exc}), hâlâ çalışıyor olabilir"
+            outcome = (f"{state.filled_lots} lot GERÇEKLEŞTİ (ters yönde olabilir); {rest}" if state.filled_lots
+                       else rest.replace("kalan", "emir", 1))
         raise SideMismatch(
             f"{track.order.symbol}: gönderilen yön {'ALIŞ' if is_buy else 'SATIŞ'} ama Matriks IQ farklı bildirdi "
-            f"(OrderSide={echo!r}); {cancelled}. Gönderim durduruldu; Matriks IQ'da emirlerinizi kontrol edin. "
+            f"(OrderSide={echo!r}); {outcome}. Gönderim durduruldu; Matriks IQ'da emirlerinizi kontrol edin. "
             "Emir orada doğru yönde görünüyorsa yanıttaki yön alanı güvenilir değildir: emir-ayar.toml içinde "
-            "[matriks] yon_yanit_denetimi = false yapın."
+            "[matriks] yon_yanit_denetimi = false yapın.",
+            state,
         )
 
     def _track_of(self, state: OrderState) -> _Track | None:
@@ -584,11 +687,16 @@ class MatriksBroker:
         return None
 
     def refresh(self, state: OrderState) -> OrderState:
+        """Emrin bilinen son durumu. Bağlantı ya da oturum düştüyse bildirimler gelmez; bu durumda
+        eski durumu güncelmiş gibi göstermek yerine hata verilir."""
         track = self._track_of(state)
         if track is None:
             return state
         with self._lock:
-            return self._state(track)
+            current = self._state(track)
+        if not current.done and (not self.wire.connected or self.logged_out):
+            raise BrokerError("Matriks IQ bağlantısı ya da aracı kurum oturumu düştü; emir durumları izlenemiyor")
+        return current
 
     def _request_side(self, raw: dict, known: int | None = None) -> int:
         """İptal isteğinde yön, yeni emirdeki kodlamayla gönderilir (belgedeki örnek sorgu)."""
@@ -610,7 +718,7 @@ class MatriksBroker:
             "OrderSide": self._request_side(raw, side_code),
             "OrderId": order_id, "OrderId2": order_id2, "OrderID": order_id, "OrderID2": order_id2,
             "ClientOrderId": raw.get("ClientOrderId"),
-            "OrderQty": _order_qty(raw), "OrdStatus": str(raw.get("OrdStatus") or "").strip(" \x00") or STATUS_NEW,
+            "OrderQty": _order_qty(raw), "OrdStatus": _status_code(raw) or STATUS_NEW,
             "LeavesQty": leaves, "FilledQty": _number(raw.get("FilledQty")), "AvgPx": _number(raw.get("AvgPx")),
             "TradeDate": raw.get("TradeDate") or _NET_MIN_DATE, "TransactTime": raw.get("TransactTime") or "00:00:00",
             "StopPx": _number(raw.get("StopPx")), "Explanation": None,
@@ -627,13 +735,17 @@ class MatriksBroker:
         track = self._track_of(state)
         if track is None or not track.raw:
             raise BrokerError("iptal için emrin Matriks IQ kaydı yok")
-        before = track.events
-        self.cancel_raw(track.raw, track.code)
-        deadline = time.monotonic() + self.s.zaman_asimi
-        with self._changed:
-            while time.monotonic() < deadline and self.wire.connected:
-                current = self._state(track)
-                if current.done or (track.events > before and current.status == "cancelled"):
-                    return current
-                self._changed.wait(0.25)
+        if track.order_id is None:
+            self._wait(track, lambda t: t.order_id is not None or _status_code(t.raw) in FINAL_CODES)
+        with self._lock:
+            current = self._state(track)
+            raw = Msg({k: v for k, v in track.raw.items() if k != "_rx"})
+        if current.done:
+            return current
+        if track.order_id is None:
+            raise BrokerError("emir numarası henüz gelmedi; iptal gönderilemedi")
+        raw["OrderId"] = track.order_id
+        self.cancel_raw(raw, track.code)
+        self._wait(track, lambda t: _status_code(t.raw) in FINAL_CODES)
+        with self._lock:
             return self._state(track)

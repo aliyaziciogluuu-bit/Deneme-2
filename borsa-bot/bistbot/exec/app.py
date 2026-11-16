@@ -10,7 +10,7 @@ from .base import Broker, BrokerError, OrderRequest
 from .dryrun import DryRunBroker, ReadOnlyBroker
 from .guard import round_down_to_tick
 from .journal import Journal
-from .matriks import STATUS_TEXT, MatriksBroker, mask
+from .matriks import STATUS_TEXT, MatriksBroker, _number, _order_qty, mask
 from .runner import (IST, AlreadyRunning, Clock, RunLock, RunResult, account_fingerprint, journal_path, load_state,
                      run_batch, save_state)
 from .settings import ExecSettings, SettingsError
@@ -25,9 +25,10 @@ CALIBRATION_KEY = "yon_testi"
 class VerifiedMatriksBroker(MatriksBroker):
     """Gerçek kipte kullanılan bağlantı: hesap, yön testinin yapıldığı hesapla aynı olmalıdır."""
 
-    def __init__(self, settings, echo_buy, fingerprint: str):
+    def __init__(self, settings, echo_buy, fingerprint: str, ids_echoed: bool = False):
         super().__init__(settings, echo_buy=echo_buy)
         self._fingerprint = fingerprint
+        self._ids_echoed = bool(ids_echoed)
 
     def connect(self) -> None:
         super().connect()
@@ -56,7 +57,8 @@ def make_broker(s: ExecSettings, ticket: Ticket) -> Broker:
             "Gerçek emir kipi için önce yön testi gerekli: seans içinde 'bistbot emir --yon-testi SEMBOL --fiyat FİYAT' "
             "çalıştırın (1 lotluk, piyasanın altında bir alış emriyle alış/satış kodları doğrulanır)."
         )
-    return VerifiedMatriksBroker(s.matriks, record.get("yanit_alis"), str(record.get("hesap", "")))
+    return VerifiedMatriksBroker(s.matriks, record.get("yanit_alis"), str(record.get("hesap", "")),
+                                 bool(record.get("kimlik_yankisi")))
 
 
 def make_telegram(s: ExecSettings) -> Telegram | None:
@@ -187,10 +189,30 @@ def cmd_side_test(s: ExecSettings, symbol: str, price: float, ask=input, out=pri
             return 1
         answer = ask(f"Matriks IQ'nun emir penceresinde {symbol} 1 lot emri ALIŞ olarak mı görünüyor? (evet/hayır): ")
         confirmed = answer.strip().lower() in ("evet", "e")
+        # Kullanıcı yanıt verirken emir reddedilmiş ya da gerçekleşmiş olabilir: durumu yeniden oku.
+        try:
+            state = broker.refresh(state)
+        except BrokerError as exc:
+            out(f"UYARI: emir durumu okunamadı ({exc}); Matriks IQ'dan emri kontrol edip elle iptal edin.")
+            return 1
+        echo = state.raw.get("OrderSide")
+        if state.status == "rejected":
+            out(f"Emir sonradan REDDEDİLDİ ({state.message}); yön doğrulanmadı.")
+            return 1
+        if state.filled_lots:
+            out("UYARI: test emri GERÇEKLEŞTİ. Hesabınızı kontrol edin; yön kodları doğrulanmadı.")
+            return 1
+        if state.done:
+            out(f"Test emri kendiliğinden kapandı ({state.message}); yön doğrulanmadı. Testi yineleyin.")
+            return 1
+        cancelled = False
         try:
             final = broker.cancel(state)
             out(f"Test emri iptali: {final.status} — {final.message}")
-            if not final.done:
+            cancelled = final.status == "cancelled" and final.filled_lots == 0
+            if final.filled_lots:
+                out("UYARI: test emri iptal edilemeden GERÇEKLEŞTİ. Hesabınızı kontrol edin.")
+            elif not cancelled:
                 out("UYARI: iptal doğrulanamadı; emri Matriks IQ'dan elle iptal edin.")
         except BrokerError as exc:
             out(f"UYARI: test emri iptal edilemedi ({exc}); Matriks IQ'dan elle iptal edin.")
@@ -198,10 +220,15 @@ def cmd_side_test(s: ExecSettings, symbol: str, price: float, ask=input, out=pri
             out("Yön doğrulanmadı; gerçek emir kipi kapalı kalacak. [matriks] alis_kodu / satis_kodu değerlerini "
                 "Matriks'in güncel belgesine göre düzeltip testi yineleyin.")
             return 1
+        if not cancelled:
+            out("Test emri temiz biçimde iptal edilemediği için yön doğrulaması kaydedilmedi; testi yineleyin.")
+            return 1
         state_file = load_state(s.klasor)
         state_file[CALIBRATION_KEY] = {
             "dogrulandi": True, "alis_kodu": s.matriks.alis_kodu, "satis_kodu": s.matriks.satis_kodu,
             "yanit_alis": echo, "hesap": account_fingerprint(broker.brokage_id, broker.account_id),
+            # Matriks IQ istemci emir kimliğini geri gönderiyor mu? Gönderiyorsa içerikle eşleştirme hiç kullanılmaz.
+            "kimlik_yankisi": bool(str(state.raw.get("ClientOrderId") or "").strip()),
             "tarih": dt.datetime.now(IST).isoformat(timespec="seconds"), "sembol": symbol,
         }
         save_state(s.klasor, state_file)
@@ -215,19 +242,19 @@ def cmd_side_test(s: ExecSettings, symbol: str, price: float, ask=input, out=pri
 
 
 def _today_orders(journal: Journal, day: dt.date) -> dict[str, dict]:
-    """Bugünün seansı için günlükteki emirler: ``{anahtar: {symbol, side, lots, limit, broker_id, event}}``."""
+    """Bugünün seansında gönderilen emirler: ``{anahtar: {symbol, side, lots, limit, broker_id, event}}``."""
     out: dict[str, dict] = {}
     for e in journal.entries():
         key = e.get("key") or ""
-        if not key.startswith(f"{day.isoformat()}|"):
-            continue
-        row = out.setdefault(key, {})
-        if e["event"] == "sending":
-            row.update(symbol=e.get("symbol"), side=e.get("side"), lots=e.get("lots"), limit=e.get("limit"))
-        if e.get("broker_id"):
-            row["broker_id"] = str(e["broker_id"])
-        row["event"] = e["event"]
-        row["filled"] = e.get("filled", row.get("filled", 0))
+        if e.get("event") == "sending" and e.get("session") == day.isoformat():
+            out[key] = {"symbol": e.get("symbol"), "side": e.get("side"), "lots": e.get("lots"),
+                        "limit": e.get("limit"), "event": "sending", "filled": 0}
+        elif key in out:
+            row = out[key]
+            if e.get("broker_id"):
+                row["broker_id"] = str(e["broker_id"])
+            row["event"] = e.get("event")
+            row["filled"] = e.get("filled", row.get("filled", 0))
     return out
 
 
@@ -259,6 +286,16 @@ def cmd_cancel(s: ExecSettings, out=print, today: dt.date | None = None) -> int:
         broker.connect()
         waiting = broker.open_orders()
         targets = [o for o in waiting if str(o.get("OrderId") or "") in sides]
+        # Emir numarası günlüğe düşmemiş (ilk yanıtta gelmemiş) emirler içerikle aranır.
+        for row in mine.values():
+            if row.get("broker_id") or row.get("event") not in ("accepted", "partial") or not row.get("symbol"):
+                continue
+            same = [o for o in waiting if o not in targets and str(o.get("Symbol") or "").upper() == row["symbol"]
+                    and abs(_number(o.get("Price")) - float(row.get("limit") or 0)) < 1e-6
+                    and int(_order_qty(o) + 1e-9) == int(row.get("lots") or 0)]
+            if len(same) == 1:
+                targets.append(same[0])
+                sides[str(same[0].get("OrderId"))] = row.get("side")
         if not targets:
             out(f"İptal edilecek bekleyen bot emri bulunamadı (Matriks IQ'da {len(waiting)} bekleyen emir var).")
             return 0

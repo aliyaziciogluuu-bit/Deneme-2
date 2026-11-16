@@ -220,7 +220,8 @@ def cmd_emir(args) -> int:
     if args.mod:
         # Komut satırından yalnızca daha güvenli bir kipe geçilebilir; gerçek kip ayar dosyasında açılır.
         if MODES.index(args.mod) > MODES.index(settings.mod):
-            print("Gerçek emir kipi komut satırından açılamaz; emir-ayar.toml içinde mod = \"gercek\" yazın.")
+            print(f"Komut satırından yalnızca daha güvenli bir kipe geçilebilir (ayar dosyasındaki kip: "
+                  f"{settings.mod}). Kipi değiştirmek için emir-ayar.toml içindeki mod satırını düzenleyin.")
             return 2
         settings = dataclasses.replace(settings, mod=args.mod)
     if args.fis:
