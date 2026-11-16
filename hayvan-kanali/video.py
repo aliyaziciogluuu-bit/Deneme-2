@@ -324,7 +324,7 @@ def parca_uret(gorev):
     sahne = Sahne(klasor)
     ff = subprocess.Popen(
         ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{G}x{Y}", "-r", str(FPS), "-i", "-",
-         "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-threads", "2", str(yol)],
+         "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p", "-threads", "2", str(yol)],
         stdin=subprocess.PIPE)
     for n in range(bas, bit):
         ff.stdin.write(sahne.kare(n).tobytes())
