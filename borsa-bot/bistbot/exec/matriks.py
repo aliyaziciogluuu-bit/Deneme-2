@@ -545,13 +545,6 @@ class MatriksBroker:
                 track.order_id = str(msg["OrderId"])
             self._changed.notify_all()
 
-    def _side_agrees(self, track: _Track, msg: dict) -> bool:
-        """Yanıttaki yön biliniyorsa emrin yönüyle çelişmemeli (içerikle eşleştirmede kullanılır)."""
-        echo = msg.get("OrderSide")
-        if self.echo_buy is None or echo is None or not self.s.yon_yanit_denetimi:
-            return True
-        return (echo == self.echo_buy) == (track.order.side == "buy")
-
     def _match(self, msg: dict, allow_content: bool = True) -> _Track | None:
         coid, oid = str(msg.get("ClientOrderId") or "").strip(), str(msg.get("OrderId") or "").strip()
         if coid:
@@ -575,8 +568,10 @@ class MatriksBroker:
             t for t in self._tracks
             if t.order_id is None and _status_code(t.raw) not in FINAL_CODES and t.order.symbol == symbol
             and int(qty + 1e-9) == t.order.lots and abs(price - t.order.limit_price) < 1e-6
-            and msg["_rx"] >= t.sent_at and self._side_agrees(t, msg)
+            and msg["_rx"] >= t.sent_at
         ]
+        # Yön burada bilerek aranmaz: içeriği aynı, yönü ters bir ileti büyük olasılıkla bizim emrimizin
+        # ters yorumlanmış hâlidir; emre yazılır ki yön denetimi onu görüp iptal etsin ve gönderimi durdursun.
         if len(candidates) != 1:
             return None  # belirsiz: hiçbir emre yazılmaz, gönderen taraf "belirsiz" olarak ele alır
         candidates[0].matched_by = "içerik"

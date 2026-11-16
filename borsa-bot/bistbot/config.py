@@ -58,9 +58,9 @@ class PortfolioConfig:
     hold_rank: int = 40
     #: Hedef ağırlıktan bu oranda (göreli) sapmadıkça ağırlık düzeltmesi yapılmaz.
     rebalance_band: float = 0.25
-    #: Yeniden dengeleme sıklığı: "monthly" (ayın son seansı) veya "weekly".
+    #: Yeniden dengeleme sıklığı: "monthly" (ayın ilk seansı) veya "weekly" (haftanın ilk seansı).
     frequency: str = "monthly"
-    #: Aylık dengelemede ay sonundan kaç seans önce karar verileceği (0 = son seans).
+    #: Karar gününün dönem başından kaç seans sonra olacağı (0 = dönemin ilk seansı).
     offset: int = 0
     #: Tek emrin, hissenin 20 günlük medyan işlem hacmine oranı için üst sınır.
     max_participation: float = 0.05
@@ -134,4 +134,29 @@ def load_config(path: Path | None = None) -> Config:
             sections[name] = data[name]
     if "capital" in data:
         sections["capital"] = data["capital"]
-    return cfg.with_overrides(**sections)
+    cfg = cfg.with_overrides(**sections)
+    validate_config(cfg)
+    return cfg
+
+
+def validate_config(cfg: Config) -> None:
+    """Ayar değerlerini yükleme anında sınar: yanlış yazılmış bir seçenek ancak karar gününde ortaya
+    çıkıp o günün kararını kaçırtmasın."""
+    def check(ok: bool, text: str) -> None:
+        if not ok:
+            raise ValueError(text)
+
+    p, s, c = cfg.portfolio, cfg.signal, cfg.cost
+    check(p.trend_gate in ("none", "entry", "entry_exit"),
+          f'[portfolio] trend_gate "none", "entry" ya da "entry_exit" olmalı ({p.trend_gate!r})')
+    check(p.regime in ("none", "trend"), f'[portfolio] regime "none" ya da "trend" olmalı ({p.regime!r})')
+    check(p.frequency in ("monthly", "weekly"), f'[portfolio] frequency "monthly" ya da "weekly" olmalı ({p.frequency!r})')
+    check(0.0 <= p.regime_off_exposure <= 1.0, "[portfolio] regime_off_exposure 0 ile 1 arasında olmalı")
+    check(1 <= p.n_holdings <= p.hold_rank, "[portfolio] n_holdings en az 1 ve hold_rank'ten büyük olmamalı")
+    check(p.offset >= 0 and p.regime_lookback >= 20, "[portfolio] offset ve regime_lookback geçersiz")
+    weights = (s.w_value, s.w_quality, s.w_lowrisk, s.w_momentum, s.w_technical)
+    check(all(w >= 0 for w in weights) and any(w > 0 for w in weights),
+          "[signal] sütun ağırlıkları eksi olamaz ve en az biri pozitif olmalı")
+    check(1 <= s.trend_short_window < s.trend_window, "[signal] trend_short_window, trend_window'dan küçük olmalı")
+    check(c.commission >= 0 and c.slippage >= 0 and 0 <= c.cash_yield_share <= 1.5, "[cost] masraf ayarları geçersiz")
+    check(cfg.capital > 0, "capital pozitif olmalı")

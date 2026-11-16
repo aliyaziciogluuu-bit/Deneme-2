@@ -212,6 +212,12 @@ def score_date(
     available = part.notna().mul(active, axis=1).sum(axis=1)
     score = weighted.sum(axis=1, min_count=1) / available.where(available > 0)
     enough = part.notna().sum(axis=1) >= min(cfg.min_pillars, len(active))
+    # Teknik sütun açıkken üç fiyat sütunu (düşük risk, momentum, teknik) tek başına "yeterli sütun"
+    # sayısına ulaşır. Hibrit mod "temel + teknik" olduğundan, mali tablosu hiç olmayan bir hisse
+    # yalnızca fiyat ölçütleriyle puanlanmaz: en az bir temel sütunun (değer ya da kârlılık) verisi aranır.
+    fundamentals = [c for c in FUNDAMENTAL_PILLARS if c in active.index]
+    if cfg.w_technical > 0 and fundamentals:
+        enough &= part[fundamentals].notna().any(axis=1)
     table["fundamental"] = table[list(FUNDAMENTAL_PILLARS)].mean(axis=1)
     table["tech"] = table[[c for c in TECHNICAL_PILLARS if c != "technical" or cfg.w_technical > 0]].mean(axis=1)
     # Eğilimi hesaplanamayan hisse (yetersiz geçmiş) yükselişte sayılmaz.

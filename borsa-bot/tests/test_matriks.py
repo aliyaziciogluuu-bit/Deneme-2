@@ -299,17 +299,31 @@ def test_foreign_orders_are_never_attributed_to_ours():
         b.connect()
         try:
             foreign = {"Symbol": "GARAN", "OrderID": "777", "OrderQty": 10.0, "Quantity": 0.0, "Price": 98.5,
-                       "OrdStatus": "2", "FilledQty": 10.0, "OrderSide": 1, "AccountId": "0~123456", "ApiCommands": 3}
+                       "OrdStatus": "2", "FilledQty": 10.0, "OrderSide": 0, "AccountId": "0~123456", "ApiCommands": 3}
             import threading
             # Bizim alışımız yanıt beklerken aynı içerikte ama başkasına ait iletiler gelir:
-            # (1) başka bir istemci kimliği taşıyan, (2) ters yönde (satış) olan, (3) başka hesaba ait.
+            # (1) başka bir istemci kimliği taşıyan, (2) başka hesaba ait, (3) adedi farklı olan.
             threading.Timer(0.2, lambda: server.push(
-                {**foreign, "ClientOrderId": "baska-kimlik", "OrderSide": 0},
-                foreign,
-                {**foreign, "OrderSide": 0, "AccountId": "0~999999"},
+                {**foreign, "ClientOrderId": "baska-kimlik"},
+                {**foreign, "AccountId": "0~999999"},
+                {**foreign, "OrderQty": 11.0, "FilledQty": 11.0},
             )).start()
             st = b.place(order("GARAN", "buy", 10, 98.5))
             assert st.status == "unknown" and st.broker_id is None  # hiçbiri bizim emrimize yazılmadı
+        finally:
+            b.close()
+
+
+def test_reversed_order_is_caught_even_when_the_server_does_not_echo_client_ids():
+    """Kimlik geri gelmiyorsa da: içeriği aynı, yönü ters ileti emrimize yazılır, emir iptal edilir, gönderim durur."""
+    with MockMatriks(default="rest", side_echo="swapped", echo_client_id=False) as server:
+        b = MatriksBroker(MatriksSettings(port=server.port, zaman_asimi=2.0), echo_buy=1)
+        b.connect()
+        try:
+            with pytest.raises(SideMismatch) as err:
+                b.place(order("GARAN", "buy", 10, 98.5))
+            assert len(server.cancels) == 1 and server.cancels[0]["OrderID"] == "1001"
+            assert err.value.state.status == "cancelled"
         finally:
             b.close()
 

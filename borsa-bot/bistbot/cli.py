@@ -88,7 +88,15 @@ def cmd_gunluk(args) -> int:
     from .live.notify import format_message, send_telegram
     from .live.runner import DataNotReady, notification_digest, run_daily
 
-    cfg = load_config(args.ayar)
+    try:
+        cfg = load_config(args.ayar)
+    except (ValueError, OSError) as exc:
+        # Ayar dosyası bozuksa bot sessizce durmasın: neyin yanlış olduğu bildirilsin.
+        text = f"⚠️ BIST Bot çalışmadı: ayar dosyasında hata ({args.ayar.name}): {exc}"
+        print(text)
+        if not args.bildirim_yok and not args.deneme:
+            send_telegram(text)
+        return 2
     stores = open_stores(args.onbellek, live=True)
     if args.bugun:
         hour, minute = (int(x) for x in args.saat.split(":"))
@@ -166,6 +174,10 @@ def cmd_backtest(args) -> int:
     p = report["primary"]["vs_ew"]
     print(f"Dönem {report['start']} → {report['end']}")
     print(f"Strateji: yıllık %{p['cagr'] * 100:.1f}, Sharpe {p['sharpe']:.2f}, en büyük düşüş %{p['max_drawdown'] * 100:.1f}")
+    if "live" in report:
+        v = report["live"]["vs_ew"]
+        print(f"ayar.toml ile çalışan ayar: yıllık %{v['cagr'] * 100:.1f}, Sharpe {v['sharpe']:.2f}, "
+              f"en büyük düşüş %{v['max_drawdown'] * 100:.1f}")
     for key, label in (("ew", "Eşit ağırlıklı BIST 100"), ("xu100", "BIST 100 endeksi"), ("cash", "Gecelik faiz")):
         b = report["benchmarks"][key]
         print(f"{label}: yıllık %{b['cagr'] * 100:.1f}, en büyük düşüş %{b['max_drawdown'] * 100:.1f}")

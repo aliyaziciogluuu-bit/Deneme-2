@@ -402,3 +402,14 @@ def test_live_payload_is_a_valid_order_ticket(live):
     problems = [p for p in check_ticket(ticket, now, Limits(azami_fis_yasi_saat=1e9)) if "gelecekte" not in p]
     assert problems == [], problems
     assert made.tzinfo is not None
+
+
+def test_broken_settings_file_is_reported_instead_of_crashing(tmp_path, capsys, monkeypatch):
+    sent = []
+    monkeypatch.setattr(notify, "send_telegram", lambda text: sent.append(text) or True)
+    bad = tmp_path / "ayar.toml"
+    bad.write_text('[signal]\ntrend_gate = "entry_exit"\n', encoding="utf-8")
+    code = cli.main(["--ayar", str(bad), "--onbellek", str(tmp_path / "cache"), "gunluk", "--durum", str(tmp_path / "s.json"),
+                     "--web", str(tmp_path / "web"), "--esitleme-yok"])
+    assert code == 2 and "ayar dosyasında hata" in capsys.readouterr().out
+    assert sent and "trend_gate" in sent[0]

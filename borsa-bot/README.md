@@ -21,14 +21,15 @@ BIST 100 hisselerini puanlar, bir **kâğıt portföy** tutar ve ertesi sabah ve
   - **Teknik analiz katmanı**
     - *Momentum* — son 12 ayın getirisi (son ay hariç),
     - *Düşük risk* — az oynak, düşük betalı, "piyango" gibi davranmayan hisseler,
-    - *Teknik sütun* (hibrit modda açık) — fiyatın 200 günlük ortalamaya uzaklığı, 50/200 günlük ortalama
-      oranı ve 52 haftalık zirveye yakınlık.
+    - *Teknik sütun* (isteğe bağlı, kapalı gelir) — fiyatın 200 günlük ortalamaya uzaklığı, 50/200 günlük
+      ortalama oranı ve 52 haftalık zirveye yakınlık.
 - **Portföy:** En iyi 20 hisse, eşit ağırlık. Ayda bir (ayın ilk işlem günü) gözden geçirilir; eldeki bir
   hisse sıralamada 40'ın altına düşmedikçe satılmaz (gereksiz al-satı önler).
 - **İşlem:** Karar akşam verilir, emirler **ertesi sabah açılış seansında** limitli girilir.
 
-İlk dört sütun, Borsa İstanbul üzerine yayımlanmış akademik çalışmalarda öne çıkan etkenlerdir ve "temel
-strateji"yi oluşturur. Teknik sütun sonradan eklendi; ayrıntısı ve dürüst test sonucu
+İlk dört sütun, Borsa İstanbul üzerine yayımlanmış akademik çalışmalarda öne çıkan etkenlerdir ve varsayılan
+stratejiyi oluşturur: bot bu hâliyle zaten temel ve teknik analizi birlikte kullanır. Ek teknik parçalar
+(teknik sütun, teknik onay kapısı) sonradan eklendi ve isteğe bağlıdır; ayrıntısı ve dürüst test sonucu
 [Hibrit mod](#hibrit-mod-teknik--temel-analiz) başlığındadır. Eğilim ölçüleri **nakde (gecelik faize) göre**
 fiyattan hesaplanır: yüksek enflasyonda TL fiyatların neredeyse hepsi 200 günlük ortalamasının üstündedir;
 "yükseliş" ancak hisse faizden fazla kazandırıyorsa anlamlıdır. RSI ve MACD panelde **bilgi olarak**
@@ -107,38 +108,44 @@ katkısı "+9,7 puan, t = 2,3" görünüyordu; doğrusu yukarıdaki "+6 puan, t 
 
 ### Hibrit mod (teknik + temel analiz)
 
-Hibrit mod, yukarıdaki dört sütuna bir **teknik sütun** ekler (`ayar.toml` içinde `w_technical = 1.0`;
-depoda açık gelir). Dört hibrit biçim, sonuçlar görülmeden **önce** beyan edildi ve geçme ölçütleri önceden
-yazıldı: (1) tam dönemde hem getiri hem Sharpe temel stratejiden yüksek, (2) üç alt dönemin en az ikisinde
-daha iyi, (3) masraflar iki katına çıkınca da Sharpe daha yüksek.
+Bot her zaman iki katmanla puanlar: **temel** (değer, kârlılık) ve **teknik** (momentum, düşük risk). Buna
+eklenebilecek dört **ek teknik parça** denendi. Biçimler, sonuçlar görülmeden **önce** beyan edildi ve geçme
+ölçütleri önceden yazıldı: (1) tam dönemde hem getiri hem Sharpe temel stratejiden yüksek, (2) üç alt dönemin
+en az ikisinde daha iyi, (3) masraflar iki katına çıkınca da Sharpe daha yüksek.
 
 | Biçim | Yıllık getiri | Sharpe | En büyük düşüş | 2017-19 | 2020-22 | 2023-26 | Nakde faiz yokken | Ölçütler |
 |---|---:|---:|---:|---:|---:|---:|---:|:---:|
-| Temel strateji (4 sütun) | %41,8 | 0,57 | −%32 | %25 | %96 | %21 | %41,4 | – |
-| **Teknik sütun (kullanılan hibrit)** | **%46,3** | **0,69** | −%35 | %27 | %99 | %28 | %45,6 | ✓ ✓ ✓ |
+| **Temel strateji (varsayılan)** | **%41,8** | **0,57** | −%32 | %25 | %96 | %21 | %41,4 | – |
+| Teknik sütun (5. sütun) | %44,2 | 0,63 | −%35 | %27 | %99 | %23 | %43,6 | ✓ ✓ ✓ |
 | Onay kapısı, yalnız alımda | %42,5 | 0,58 | −%35 | %24 | %95 | %24 | %41,7 | ✓ ✗ ✓ |
 | Onay kapısı, alım + çıkış (ön kayıtlı aday) | %47,4 | 0,77 | −%33 | %22 | %89 | %41 | %39,7 | ✓ ✗ ✓ |
-| Teknik sütun + onay kapısı | %52,1 | 0,88 | −%32 | %25 | %99 | %43 | %46,4 | ✓ ✓ ✓ |
+| Teknik sütun + onay kapısı | %49,7 | 0,81 | −%32 | %26 | %99 | %37 | %43,8 | ✓ ✓ ✓ |
 
-**Dürüst okuma:**
+**Sonuç: ek teknik parçaların hiçbiri varsayılan değil; ikisi de `ayar.toml` ile açılabilen seçenek.** Nedenleri:
 
 - Önceden "aday" ilan ettiğim biçim **onay kapısıydı** (hisse ancak yükseliş eğilimindeyse alınır, eğilim
   bozulunca satılır, uygun hisse yoksa para nakitte bekler). Toplamda iyi görünse de **kendi koyduğum ikinci
   ölçütü geçemedi**: kazancının neredeyse tamamı 2023-2026'dan (faizin hisseleri geçtiği dönemden) geliyor,
-  diğer iki dönemde temel stratejinin gerisinde ve nakdiniz faiz kazanmıyorsa zarar ettiriyor (%39,7 < %41,4).
-  Bu yüzden varsayılan değil; `ayar.toml` içinde isteğe bağlı bir seçenek olarak duruyor.
-- **Teknik sütun** üç ölçütü de geçti: üç alt dönemin üçünde de daha iyi, masraf iki katına çıkınca da daha
-  iyi ve nakit faizine bağlı değil. Hibrit mod olarak bu kullanılıyor. Alfa t-istatistiği 2,4, sönümlenmiş
-  Sharpe (DSR, 31 deneme sayılarak) %91.
-- **Ama** teknik sütun, dört hibrit biçim denendikten **sonra** seçildi; yani burada şans payı var. En iyi
-  görünen biçimi ("teknik sütun + kapı", %52) bilerek seçmedim: en parlak sonucu almak veriye uydurmanın ta
-  kendisidir. Gerçek sonuçların bu tablodan düşük çıkması olağandır.
-- En büyük düşüş iyileşmiyor (−%35); hibrit mod da hep hissededir ve 2024-2026'da gecelik faizin gerisinde
-  kaldı (2024 +%33, 2025 +%15, 2026 +%6; aynı yıllarda faiz +%64, +%55, +%40).
+  diğer iki dönemde temel stratejinin gerisinde ve nakdiniz faiz kazanmıyorsa daha kötü (%39,7'ye karşı %41,4).
+  Kural açıktı: aday geçemezse varsayılan değişmez.
+- **Teknik sütun** tabloda üç ölçütü de sağlıyor görünüyor; ama katkısı küçük (yılda yaklaşık +2,4 puan),
+  en büyük düşüşü derinleştiriyor (−%35) ve **sağlam değil**: karar günü ayın 6. işlem gününe alınınca fark
+  kayboluyor (%42,6'ya karşı %42,5), 10 hisseli portföyde temel strateji daha iyi (%50,2'ye karşı %49,7);
+  ayın 11. günü ve 30 hisse ayarlarında ise sütun daha iyi. Gerçek bir etken böyle ayar değişikliklerinde
+  yön değiştirmemelidir. Ayrıca bu biçim, dört biçim denendikten **sonra** öne çıktı (şans payı).
+- "Teknik sütun + kapı" en parlak rakamı veriyor (%49,7); onu seçmek, veriye uydurmanın ta kendisi olurdu.
 
-Hibrit modu kapatmak için `ayar.toml` içinde `w_technical = 0` yazın (temel stratejiye döner). Onay kapısını
-denemek için aynı dosyadaki `trend_gate = "entry_exit"` satırını açın. Bu ayarlar yalnızca sonraki kararları
-etkiler; geçmiş kâğıt işlemler değişmez.
+**Bir hata ve düzeltmesi (şeffaflık için).** İlk hibrit testte teknik sütun çok daha iyi görünüyordu (%46,3,
+Sharpe 0,69) ve bir süre açık bırakılmıştı. Bağımsız inceleme nedenini buldu: teknik sütun açıkken **mali
+tablosu hiç olmayan** hisseler yalnızca fiyat ölçütleriyle puanlanıp listeye girebiliyordu ve görünen
+üstünlüğün yaklaşık yarısı böyle tek bir hisseden geliyordu. Bu, "temel + teknik" fikrine aykırıydı;
+düzeltildi (hibritte en az bir temel ölçütün verisi aranır) ve test yeniden çalıştırıldı. Yukarıdaki tablo
+düzeltilmiş hâlidir.
+
+Teknik sütunu denemek için `ayar.toml` içindeki `[signal]` ve `w_technical = 1.0` satırlarını, onay kapısı
+için `[portfolio]` ve `trend_gate = "entry_exit"` satırlarını açın (başlarındaki `#` işaretini silin). Bu
+ayarlar yalnızca sonraki kararları etkiler; geçmiş kâğıt işlemler değişmez. Panelin **Sıralama** sekmesi her
+hisse için temel ve teknik katman puanını, eğilimini ve RSI değerini her durumda gösterir.
 
 ### İsteğe bağlı "temkinli mod"
 
@@ -146,9 +153,10 @@ BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse portföyün yar�
 var. Geçmiş testte yıllık getiriyi %46,5'e çıkardı ve en büyük düşüşü %24'e indirdi. **Varsayılan değildir**,
 çünkü kazancı yalnızca iki döneme (2018-19 ve 2024-26) ve 12 aylık ayara dayanıyor; 6 aylık ayarda fayda
 kayboluyor (%40,2), 9 aylıkta azalıyor (%42,2) ve nakdiniz faiz kazanmıyorsa temel stratejiden kötü sonuç
-veriyor (%38,0). Açmak isterseniz `ayar.toml` dosyasının sonundaki üç satırın başındaki `#` işaretlerini
-silin ve nakit kısmını gecelik repo ya da para piyasası fonunda değerlendirin (para piyasası fonları da
-risksiz değildir). Bu ayar yalnızca sonraki kararları etkiler.
+veriyor (%38,0). Açmak isterseniz `ayar.toml` dosyasının sonundaki `[portfolio]`, `regime` ve
+`regime_off_exposure` satırlarının başındaki `#` işaretlerini silin ve nakit kısmını gecelik repo ya da para
+piyasası fonunda değerlendirin (para piyasası fonları da risksiz değildir). Bu ayar yalnızca sonraki kararları
+etkiler.
 
 ## Kurulum (telefondan yapılabilir)
 

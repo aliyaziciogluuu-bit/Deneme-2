@@ -20,6 +20,19 @@ ile açılabilen bir seçenek olarak kalır:
 1. Tam dönemde hem Sharpe oranı hem yıllık getirisi birincil stratejiden yüksek,
 2. Üç alt dönemin (2017-19, 2020-22, 2023-26) en az ikisinde yıllık getirisi birincilden yüksek,
 3. İşlem masrafı iki katına çıkarıldığında da Sharpe oranı birincilden yüksek.
+
+Sonuç ve düzeltme (aynı gün, sonuçlar görüldükten sonra yazıldı)
+----------------------------------------------------------------
+Aday (``hibrit_kapi_cikis``) ikinci koşulu sağlamadı (üç alt dönemin yalnızca birinde daha iyi);
+kural gereği varsayılan strateji değişmedi. Teknik sütun (``hibrit_sutun``) ilk koşuda üç koşulu
+da sağlıyor göründü ve bir süre ``ayar.toml`` içinde açık bırakıldı; bağımsız inceleme bunun
+hatalı olduğunu gösterdi: teknik sütun açıkken mali tablosu hiç olmayan hisseler yalnızca fiyat
+sütunlarıyla puanlanabiliyordu ve görünen üstünlüğün yaklaşık yarısı böyle tek bir hisseden
+geliyordu. ``score_date`` düzeltildi (hibritte en az bir temel sütun aranır). Düzeltilmiş
+sonuçta teknik sütunun katkısı küçüktür ve karar günü ile hisse sayısı değiştirildiğinde tutarlı
+değildir (bkz. rapordaki ``sutun_dayaniklilik``). Bu nedenle hiçbir hibrit ek parça varsayılan
+değildir; ikisi de ``ayar.toml`` ile açılabilen seçeneklerdir. Not: ön kayıt metni, denemeler ve
+sonuçlar aynı commit'te yer aldığı için ön kaydın sırası depo geçmişinden doğrulanamaz.
 """
 from __future__ import annotations
 
@@ -54,7 +67,8 @@ HYBRID_CANDIDATE = "hibrit_kapi_cikis"
 def declared_trials(base: Config) -> dict[str, Config]:
     """Önceden beyan edilmiş deneme seti (birincil yapılandırma + tek tek komşuları)."""
     o = base.with_overrides
-    only = lambda **w: {"w_value": 0.0, "w_quality": 0.0, "w_lowrisk": 0.0, "w_momentum": 0.0, **w}  # noqa: E731
+    only = lambda **w: {"w_value": 0.0, "w_quality": 0.0, "w_lowrisk": 0.0, "w_momentum": 0.0,  # noqa: E731
+                        "w_technical": 0.0, **w}
     n = base.portfolio.n_holdings
     return {
         "birincil": base,
@@ -229,11 +243,27 @@ def hybrid_report(lab: Lab, base: Config, results: dict[str, BacktestResult], sr
         res = lab.run(cfg)
         s = summarize(res.equity, lab.ds.rf)
         windows[str(w)] = {"cagr": s["cagr"], "sharpe": s["sharpe"], "max_dd": s["max_drawdown"]}
+    # Teknik sütun, komşu ayarlarda da birincilden iyi mi? (seçim denemesi değil; sonucun tek bir
+    # ayara bağlı olup olmadığını gösterir)
+    robustness = []
+    variants = {
+        "Ayın 6. işlem günü": {"offset": 5}, "Ayın 11. işlem günü": {"offset": 10},
+        "10 hisse": {"n_holdings": 10, "hold_rank": 20}, "30 hisse": {"n_holdings": 30, "hold_rank": 60},
+    }
+    for label, change in variants.items():
+        plain = summarize(lab.run(base.with_overrides(portfolio=change)).equity, lab.ds.rf)
+        pillar = summarize(lab.run(base.with_overrides(portfolio=change, signal={"w_technical": 1.0})).equity, lab.ds.rf)
+        robustness.append({
+            "ayar": label, "birincil_cagr": plain["cagr"], "sutun_cagr": pillar["cagr"],
+            "birincil_sharpe": plain["sharpe"], "sutun_sharpe": pillar["sharpe"],
+            "sutun_iyi": bool(pillar["cagr"] > plain["cagr"] and pillar["sharpe"] > plain["sharpe"]),
+        })
     return {
         "aday": HYBRID_CANDIDATE,
         "aday_gecti": rows[HYBRID_CANDIDATE]["kural"]["gecti"],
         "denemeler": rows,
         "aday_pencere": windows,
+        "sutun_dayaniklilik": robustness,
     }
 
 

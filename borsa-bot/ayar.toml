@@ -18,31 +18,39 @@ slippage = 0.001
 # Aracı kurumunuz boş bakiyeyi değerlendirmiyorsa 0 yazın.
 cash_yield_share = 0.8
 
-# --- Hibrit mod: teknik + temel analiz -------------------------------------------------
-# Temel katman: değer (PD/DD, F/K) ve kârlılık (özkaynak kârlılığı).
-# Teknik katman: momentum, düşük oynaklık ve aşağıdaki "teknik sütun" (nakde göre fiyatın
-# 200 günlük ortalamaya uzaklığı, 50/200 ortalama oranı, 52 haftalık zirveye yakınlık).
-# w_technical = 1 teknik sütunu diğer dört sütunla eşit ağırlıkta puana katar; 0 kapatır.
-# Geçmiş testte (2017-2026) üç alt dönemin üçünde de temel stratejiden iyi sonuç verdi;
-# ama dört hibrit biçim denendikten sonra seçildiği için şans payı vardır (bkz. README).
-[signal]
-w_technical = 1.0
+# --- Temel + teknik analiz (hibrit) ------------------------------------------------------
+# Bot her zaman iki katmanla puanlar:
+#   Temel katman : değer (PD/DD, F/K) ve kârlılık (özkaynak kârlılığı)
+#   Teknik katman: momentum (12 ay) ve düşük risk (oynaklık, beta)
+# Aşağıdaki iki EK teknik parça isteğe bağlıdır ve KAPALI gelir; çünkü geçmiş testte (2017-2026)
+# önceden koyduğumuz ölçütleri sağlam biçimde geçemediler (ayrıntı: README, "Hibrit mod").
+#
+# 1) Teknik sütun: nakde göre fiyatın 200 günlük ortalamaya uzaklığı, 50/200 ortalama oranı ve
+#    52 haftalık zirveye yakınlık beşinci sütun olarak puana katılır. Geçmiş testte yıllık getiriyi
+#    %41,8'den %44,2'ye çıkardı ama en büyük düşüşü %32'den %35'e derinleştirdi; katkı küçük ve
+#    karar günü ya da hisse sayısı değişince tutarlı değil.
+#    Açmak için aşağıdaki iki satırın başındaki "#" işaretlerini silin:
+# [signal]
+# w_technical = 1.0
 
-# --- İsteğe bağlı: teknik onay kapısı ---------------------------------------------------
-# Hisse ancak yükseliş eğilimindeyse (nakde göre fiyatı 200 günlük ortalamasının üstünde)
-# alınır, eğilimi bozulursa ayın ilk işlem gününde satılır; uygun hisse yoksa para nakitte
-# bekler. Geçmiş testte toplam getiriyi artırdı ama kazancın tamamı 2023-2026'dan (faizin
-# hisseleri geçtiği dönemden) geldi, diğer iki dönemde geride kaldı ve nakdiniz faiz
-# kazanmıyorsa zarar ettiriyor; önceden koyduğumuz ölçütü geçemediği için varsayılan değil.
-# Açmak için: aşağıdaki [portfolio] başlığını ve trend_gate satırını açın.
-# trend_gate = "entry_exit"
-
-# --- İsteğe bağlı: temkinli mod ---------------------------------------------------------
-# BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse portföyün yarısı nakitte tutulur.
-# Geçmiş testte düşüşleri azalttı ve 2024-2026'da (faizin hisseleri geçtiği dönem) getiriyi artırdı;
-# ancak kazanç iki döneme dayanıyor, 6-9 aylık ayarda kayboluyor ve nakdiniz faiz kazanmıyorsa
-# zarar ettiriyor. Bu yüzden varsayılan değildir. Açmak için aşağıdaki üç satırın başındaki
-# "#" işaretlerini silin ve nakit kısmını gecelik repo / para piyasası fonunda değerlendirin.
+# --- İsteğe bağlı portföy seçenekleri ----------------------------------------------------
+# Bu ikisi aynı [portfolio] başlığı altında durur. Birini ya da ikisini açmak için ÖNCE
+# "# [portfolio]" satırının, sonra istediğiniz ayar satırlarının başındaki "#" işaretini silin.
+#
+# 2) Teknik onay kapısı (trend_gate): hisse ancak yükseliş eğilimindeyse (nakde göre fiyatı
+#    200 günlük ortalamasının üstünde) alınır, eğilimi bozulursa ayın ilk işlem gününde satılır;
+#    uygun hisse yoksa para nakitte bekler. Geçmiş testte toplam getiriyi artırdı (%47,4) ama
+#    kazancın neredeyse tamamı 2023-2026'dan (faizin hisseleri geçtiği dönemden) geldi, diğer iki
+#    dönemde temel stratejinin gerisinde kaldı ve nakdiniz faiz kazanmıyorsa temel stratejiden
+#    kötü sonuç veriyor (%39,7'ye karşı %41,4).
+#
+# 3) Temkinli mod (regime): BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse
+#    portföyün yarısı nakitte tutulur. Geçmiş testte düşüşleri azalttı ve 2024-2026'da getiriyi
+#    artırdı; ancak kazanç iki döneme dayanıyor, 6-9 aylık ayarda kayboluyor ve nakdiniz faiz
+#    kazanmıyorsa temel stratejiden kötü sonuç veriyor. Açarsanız nakit kısmını gecelik repo ya da
+#    para piyasası fonunda değerlendirin.
+#
 # [portfolio]
+# trend_gate = "entry_exit"
 # regime = "trend"
 # regime_off_exposure = 0.5

@@ -262,3 +262,57 @@ def test_hybrid_settings_load_from_toml(tmp_path):
     cfg = load_config(path)
     assert cfg.signal.w_technical == 1.0 and cfg.portfolio.trend_gate == "entry_exit"
     assert Config().signal.w_technical == 0.0 and Config().portfolio.trend_gate == "none"  # ön kayıtlı varsayılan
+
+
+def test_hybrid_never_scores_a_stock_without_fundamentals():
+    """Mali tablosu olmayan hisse, teknik sütun açıkken yalnızca fiyat ölçütleriyle listeye giremez."""
+    ds = make_dataset(n_days=420)
+    ds.equity["S04"] = np.nan
+    ds.ni_annual["S04"] = np.nan
+    base, hybrid = Config(), Config().with_overrides(signal={"w_technical": 1.0})
+    feats = compute_features(ds, base.signal)
+    universe = universe_mask(ds, feats, base.universe)
+    day = ds.dates[-1]
+    plain = score_date(ds, feats, universe.loc[day], day, base.signal)
+    mixed = score_date(ds, feats, universe.loc[day], day, hybrid.signal)
+    assert "S04" not in plain.index and "S04" not in mixed.index
+    assert len(mixed) == len(plain) == 11
+    assert (mixed[["value", "quality"]].notna().any(axis=1)).all()
+    # Yalnızca kârlılığı eksik olan (özkaynağı olan) hisse ise puanlanır: bir temel sütunu vardır.
+    ds.ni_annual["S05"] = np.nan
+    feats = compute_features(ds, base.signal)
+    mixed = score_date(ds, feats, universe.loc[day], day, hybrid.signal)
+    assert "S05" in mixed.index and np.isnan(mixed.at["S05", "quality"]) and np.isfinite(mixed.at["S05", "value"])
+
+
+@pytest.mark.parametrize("text, expected", [
+    ('[portfolio]\ntrend_gate = "entry-exit"\n', "trend_gate"),
+    ('[portfolio]\nregime = "acik"\n', "regime"),
+    ('[portfolio]\nfrequency = "daily"\n', "frequency"),
+    ('[portfolio]\nregime_off_exposure = 1.5\n', "regime_off_exposure"),
+    ('[portfolio]\nn_holdings = 50\n', "n_holdings"),
+    ('[signal]\nw_technical = -1\n', "ağırlık"),
+    ('[signal]\ntrend_gate = "entry_exit"\n', "bilinmeyen"),
+    ('capital = 0\n', "capital"),
+])
+def test_bad_setting_values_are_rejected_when_the_file_is_loaded(tmp_path, text, expected):
+    path = tmp_path / "ayar.toml"
+    path.write_text(text, encoding="utf-8")
+    with pytest.raises(ValueError, match=expected):
+        load_config(path)
+
+
+def test_shipped_settings_file_runs_the_preregistered_strategy():
+    """Depodaki ayar.toml, ön kayıtlı temel stratejiyi çalıştırır; hibrit ek parçalar isteğe bağlıdır."""
+    import re
+    from pathlib import Path
+
+    shipped = Path(__file__).resolve().parent.parent / "ayar.toml"
+    assert load_config(shipped) == Config()
+    # Yorum satırındaki seçeneklerin hepsi açıldığında dosya yine geçerlidir ve doğru bölümlere düşer.
+    options = r'^# (\[signal\]|w_technical = 1\.0|\[portfolio\]|trend_gate = "entry_exit"|regime = "trend"|regime_off_exposure = 0\.5)$'
+    opened = re.sub(options, r"\1", shipped.read_text(encoding="utf-8"), flags=re.M)
+    import tomllib
+    data = tomllib.loads(opened)
+    assert data["signal"] == {"w_technical": 1.0}
+    assert data["portfolio"] == {"trend_gate": "entry_exit", "regime": "trend", "regime_off_exposure": 0.5}
