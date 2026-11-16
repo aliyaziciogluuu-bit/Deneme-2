@@ -57,7 +57,17 @@ def sade(metin: str):
     metin = metin.replace("I", "ı").replace("İ", "i").lower()
     metin = re.sub(r"['’]", "", metin).translate(str.maketrans("âîû", "aiu"))
     metin = re.sub(r"[^a-zçğıöşü0-9 ]", " ", metin)
-    return re.sub(r"\s+", " ", metin).strip().split()
+    kelimeler = re.sub(r"\s+", " ", metin).strip().split()
+    birlesik = []  # "adı ise" → "adıysa", "yılanın ise" → "yılanınsa" (konuşmada doğal kısaltma, okuma hatası değil)
+    for k in kelimeler:
+        if k == "ise" and birlesik:
+            onceki = birlesik[-1]
+            unluler = [h for h in onceki if h in "aeıioöuü"]
+            ek = "sa" if (unluler and unluler[-1] in "aıou") else "se"
+            birlesik[-1] = onceki + ("y" + ek if onceki[-1] in "aeıioöuü" else ek)
+        else:
+            birlesik.append(k)
+    return birlesik
 
 
 def fark(duyulan, beklenen) -> int:
