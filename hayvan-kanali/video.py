@@ -389,7 +389,10 @@ def ses_yuksekligi_duzelt(video: pathlib.Path, hedef=-14.0, tepe=-2.5):
     for _ in range(3):
         olculen, gercek_tepe = olc(video)
         fark = hedef - olculen
-        if abs(fark) <= 0.4 and gercek_tepe <= -1.0:  # AAC sıkıştırması tepeleri biraz yükseltir; sınır bu yüzden -2,5 dB
+        # Kabul aralığı -16..-13 LUFS. Deney (16 Kasım 2026): tek geçiş -15,7 LUFS verip konuşmayı birebir korurken,
+        # -14'e zorlamak için eklenen kazanç + sınırlayıcı + ikinci AAC kodlaması konuşma netliğini bozdu ("sağır"→"sahar").
+        # YouTube kısık videoları yükseltmez, yalnızca yüksekleri kısar; 1-2 dB kısık olmak netlik kaybından iyidir.
+        if -16.0 <= olculen <= -13.0 and gercek_tepe <= -1.0:
             return
         gecici = video.with_name("_ses_duzelt.mp4")
         sinir = 10 ** (tepe / 20)

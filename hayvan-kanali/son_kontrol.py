@@ -6,7 +6,7 @@ Gerekenler: ffmpeg, pip install faster-whisper numpy pillow
 Testler:
   1. Ses kaydı: her cümle ses/rapor.json'da doğrulanmış mı
   2. Bitmiş videonun sesi baştan sona yeniden dinlenir, senaryoyla kelime kelime karşılaştırılır (en fazla %2 fark)
-  3. Ses yüksekliği: -14 LUFS (±1), gerçek tepe ≤ -1 dBTP
+  3. Ses yüksekliği: -16..-13 LUFS (YouTube referansı -14; netliği bozmamak için tek geçiş), gerçek tepe ≤ -1 dBTP
   4. Görüntü: 1920x1080, 30 fps, H.264 + AAC; video ve ses süresi tutarlı
   5. Siyah kare (0,5 sn'den uzun) ve donmuş görüntü (4 sn'den uzun) yok
   6. Altyazı: sıralı, çakışmasız, video süresi içinde, satır uzunluğu makul
@@ -70,7 +70,7 @@ def main():
     ozet = r.stderr[r.stderr.rfind("Summary:"):]
     lufs = float(re.search(r"I:\s+(-?[\d.]+) LUFS", ozet).group(1))
     tepe = float(re.search(r"Peak:\s+(-?[\d.]+) dBFS", ozet).group(1))
-    test("Ses yüksekliği (YouTube: -14 LUFS)", abs(lufs + 14) <= 1.0 and tepe <= -0.9, f"{lufs:.1f} LUFS, tepe {tepe:.1f} dBTP")
+    test("Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP)", -16.0 <= lufs <= -13.0 and tepe <= -0.9, f"{lufs:.1f} LUFS, tepe {tepe:.1f} dBTP")
 
     # 5
     r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(video), "-vf",
