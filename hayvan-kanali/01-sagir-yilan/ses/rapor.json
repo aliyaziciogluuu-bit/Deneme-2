@@ -292,5 +292,103 @@
   "hata": 0,
   "sure": 2.58,
   "uygun": true
+ },
+ "042": {
+  "yazi": "Sağır yılanın menüsünde sümüklü böcekler, solucanlar ve böcek larvaları var.",
+  "duyulan": "Sığar yılanın menüsünde sümüklü böcekler, solucanlar ve böcek larvaları var.",
+  "hata": 1,
+  "sure": 5.18,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Yani bahçendeki marulları, fideleri ve çilekleri kemiren sümüklü böceklerin doğal düşmanı.",
+  "duyulan": "yani bahçendeki marulları, fideleri ve çilekleri kemiren sümüklü böceklerin doğal düşmanı.",
+  "hata": 0,
+  "sure": 5.72,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Yavaş hareket eden avları seçiyor; acele etmesine gerek yok.",
+  "duyulan": "Yavaş hareket eden avları seçiyor. Acele etmesine gerek yok.",
+  "hata": 0,
+  "sure": 3.32,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Çoğunlukla sabah erken saatlerde, akşamüstü ya da yağmurdan sonra ortaya çıkıyor.",
+  "duyulan": "çoğunlukla sabah erken saatlerde, akşamüstü ya da yağmurdan sonra ortaya çıkıyor.",
+  "hata": 0,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Günün sıcak saatlerinde ise taşların, kütüklerin ve yaprak yığınlarının altına saklanıyor.",
+  "duyulan": "Günün sıcak saatlerinde ise taşların, kütüklerin ve yaprak yağınlarının altına saklanıyor.",
+  "hata": 1,
+  "sure": 5.56,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Bahçede bir taşı kaldırdığında onunla karşılaşmanın sebebi bu.",
+  "duyulan": "bahçede bir taşı kaldırdığında onunla karşılaşmanın sebebi bu.",
+  "hata": 0,
+  "sure": 3.4,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Sümüklü böcek ilaçları avını öldürür; zehirlenmiş avı yemek ona da zarar verebilir.",
+  "duyulan": "Sümüklü böcek ilaçları avına öldürür, zehirlenmiş avı yemek ona da zarar verebilir.",
+  "hata": 1,
+  "sure": 4.92,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Sağır yılanın bir sürprizi daha var: yumurtlamıyor, yavru doğuruyor.",
+  "duyulan": "Sağır yılanın bir sürprizi daha var. Yumurtlamıyor, yavru doğuruyor.",
+  "hata": 0,
+  "sure": 4.32,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Çiftleşme ilkbaharda, kış uykusundan uyandıktan sonra oluyor.",
+  "duyulan": "Çiftleşme ilkbaharda, kış uykusundan uyandıktan sonra oluyor.",
+  "hata": 0,
+  "sure": 3.5,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Yumurtalar annenin vücudunun içinde gelişiyor.",
+  "duyulan": "yumurtalar annenin vücudunun içinde gelişiyor.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor.",
+  "duyulan": "Yaz sonuna doğru da ince, parlak, yaklaşık 7 ila 10 cm boyunda yavrular dünyaya geliyor.",
+  "hata": 1,
+  "sure": 6.94,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.",
+  "duyulan": "Yavrular doğar doğmaz, kendi başlarına yaşamaya başlıyor.",
+  "hata": 0,
+  "sure": 3.08,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına, kök aralarına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.",
+  "duyulan": "Sonbaharda, genellikle Ekim ayında, sağır yılanlar toprağın altına, kök aralarına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.",
+  "hata": 0,
+  "sure": 8.54,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Bazen aynı kış sığınağını birçok birey paylaşıyor.",
+  "duyulan": "bazen aynı kış sığınağını birçok birey paylaşıyor.",
+  "hata": 0,
+  "sure": 3.06,
+  "uygun": true
  }
 }
