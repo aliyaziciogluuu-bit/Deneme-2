@@ -1,0 +1,9 @@
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+.emir/
+emir-ayar.toml
+.emir-cikti.log

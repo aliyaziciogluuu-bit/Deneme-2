@@ -16,3 +16,12 @@ Telefonun ana ekranına eklenebilmesi için sayfanın HTTPS üzerinden yayınlan
 
 Fiyat kaynakları: finans.truncgil.com (asıl), open.er-api.com / api.frankfurter.dev ve
 api.gold-api.com (yedek).
+
+## BIST Bot — Borsa İstanbul için kurallı al-sat botu
+
+`borsa-bot/` klasörü Döviz Kasası'ndan bağımsız ikinci bir araçtır: her işlem günü kapanıştan sonra
+BIST 100 hisselerini temel + teknik analizle (hibrit) puanlar, bir kâğıt portföy tutar ve ertesi sabahın
+emir listesini hazırlar. İsteğe bağlı olarak, Windows'ta Matriks IQ açıkken emirleri Telegram onayınızla
+aracı kuruma kendisi gönderir. Kurulum, geçmiş testi sonuçları ve riskler için
+[`borsa-bot/README.md`](borsa-bot/README.md) dosyasına bakın. Panel: sayfa adresinizin sonuna
+`borsa-bot/web/` ekleyin.

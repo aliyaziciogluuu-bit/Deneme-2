@@ -1,0 +1,68 @@
+# BIST Bot — emir ayarları (ÖRNEK)
+# Bu dosyayı "emir-ayar.toml" adıyla kopyalayıp düzenleyin. emir-ayar.toml depoya GÖNDERİLMEZ
+# (.gitignore içinde); hesap numaranız ve Telegram anahtarınız yalnızca bu bilgisayarda kalır.
+
+# Kip:
+#   "deneme"      : hiçbir yere bağlanmaz; emirler yalnızca Telegram'a/ekrana yazılır.
+#   "salt-okunur" : Matriks IQ'dan hesabınız ve pozisyonlarınız okunur, emir GÖNDERİLMEZ.
+#   "gercek"      : emirler Matriks IQ üzerinden aracı kurumunuza gönderilir.
+#                   Önce "bistbot emir --yon-testi" başarıyla yapılmış olmalıdır.
+mod = "deneme"
+
+# Emir fişi: bulut tarafının ürettiği latest.json. Deponuz herkese açıksa ham adresi yazın:
+# fis = "https://raw.githubusercontent.com/KULLANICI/DEPO/main/borsa-bot/web/data/latest.json"
+# Depo gizliyse bu bilgisayardaki kopyayı kullanın ve her çalıştırmada güncellensin:
+fis = "web/data/latest.json"
+git_guncelle = true
+
+# Borsanın kapalı olduğu, tarihi her yıl değişen günler (dinî bayramlar, arife sonrası vb.).
+# 1 Ocak, 23 Nisan, 1 Mayıs, 19 Mayıs, 15 Temmuz, 30 Ağustos, 29 Ekim zaten bilinir.
+tatiller = []
+
+[telegram]
+# Bulut tarafında kullandığınız botun aynısı. İsterseniz bu ikisini dosyaya yazmak yerine
+# TELEGRAM_BOT_TOKEN ve TELEGRAM_CHAT_ID ortam değişkenleriyle verin.
+token = ""
+chat_id = ""
+# chat_id bir grup ise onay verebilecek kişinin Telegram kullanıcı numarası (özel sohbette gerekmez).
+onaylayan_id = ""
+
+[sinirlar]
+# Fiş bu sınırlardan birini aşarsa HİÇBİR emir gönderilmez ve Telegram'a uyarı gelir.
+# Sermayeniz 100.000 TL'den farklıysa bunları kendi tutarınıza göre ayarlayın.
+azami_emir_tl = 25000        # tek emir
+azami_alis_tl = 120000       # bir gündeki alışların toplamı
+azami_satis_tl = 120000      # bir gündeki satışların toplamı
+azami_emir_orani = 0.15      # tek emrin kâğıt portföye oranı
+azami_emir_sayisi = 45
+azami_fiyat_sapmasi = 0.035  # limit fiyat son kapanıştan en çok %3,5 uzak olabilir
+
+[zaman]
+# İstanbul saati. Onay en geç bu saate kadar gelmeli; gelmezse o gün emir gönderilmez.
+onay_son = "17:30"
+# Emirler gönderildikten sonra gerçekleşmelerin izlenme süresi (dakika).
+izleme_dakika = 12
+# Satışlar gerçekleşince, parası yetmediği için bekleyen/reddedilen alışlar bir kez daha denensin.
+ikinci_tur = true
+
+[matriks]
+# Matriks IQ aynı bilgisayarda açık olmalı ve "Dışarıdan Emir Kabulü" etkinleştirilmiş olmalı.
+port = 18890
+# Birden çok hesabınız varsa "bistbot emir --hesap" çıktısındaki numaraları yazın.
+araci_kurum_id = ""
+hesap_id = ""
+# Satılabilir lotun okunduğu alan. "bistbot emir --hesap" çıktısında QtyAvailable boş/0 görünüyor
+# ama elinizde hisse varsa ["QtyAvailable", "QtyT2"] deneyin.
+lot_alanlari = ["QtyAvailable"]
+# Kullanılabilir TL bakiyenin anahtarı ("bistbot emir --hesap" çıktısındaki "anahtar" değeri).
+# Boş bırakılırsa bot bakiyeyi bilmez; parası yetmeyen alışları aracı kurumunuz reddeder ve bot
+# satışlar gerçekleşince bir kez daha dener.
+nakit_anahtari = ""
+# Yeni emirde yön kodları (Matriks API belgesi, Tablo 4.6: alış 1, satış 2). Yön testi
+# başarısız olursa Matriks'in güncel belgesine bakıp düzeltin ve testi yineleyin.
+alis_kodu = 1
+satis_kodu = 2
+# Her emrin yanıtındaki yön, yön testinde görülen değerle karşılaştırılır. Matriks IQ bu alanı
+# doldurmuyorsa (bot satışlarda "farklı bildirdi" uyarısı verip duruyorsa ve emir Matriks IQ'da
+# doğru yönde görünüyorsa) false yapın.
+yon_yanit_denetimi = true

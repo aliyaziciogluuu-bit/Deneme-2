@@ -1,0 +1,59 @@
+# BIST Bot ayarları
+# Bu dosyada yalnızca değiştirmek isteyebileceğiniz ayarlar var; yazılmayanlar varsayılanda kalır.
+# Strateji parametrelerinin çoğu (hisse sayısı, bant, pencereler) bilerek burada yok: onlar geçmiş
+# veriye bakılmadan önce sabitlendi. Değiştirmek sonuçları "veriye uydurma" riskine sokar.
+
+# Kâğıt portföyün başlangıç sermayesi (TL). Emir listesindeki lot adetleri buna göre hesaplanır.
+# Gerçek hesabınızda ayıracağınız tutarı yazın.
+capital = 100000
+
+# ÖNEMLİ: Sermaye ve aşağıdaki [cost] ayarları botun verdiği İLK kararda sabitlenir. Sonradan
+# değiştirmenin etkisi olmaz; böylece geçmiş işlemler yeniden yazılmaz. Baştan doğru girin.
+[cost]
+# Aracı kurumunuzun komisyon oranı (tek yön, BSMV hariç). 0.002 = binde 2.
+commission = 0.002
+# Alım-satım farkı ve kayma için varsayım (tek yön). 0.001 = binde 1.
+slippage = 0.001
+# Boştaki nakdin gecelik faizin (TLREF) ne kadarını kazandığı varsayımı (stopaj sonrası).
+# Aracı kurumunuz boş bakiyeyi değerlendirmiyorsa 0 yazın.
+cash_yield_share = 0.8
+
+# --- Temel + teknik analiz (hibrit) ------------------------------------------------------
+# Bot her zaman iki katmanla puanlar:
+#   Temel katman : değer (PD/DD, F/K) ve kârlılık (özkaynak kârlılığı)
+#   Teknik katman: momentum (12 ay) ve düşük risk (oynaklık, beta)
+# Aşağıdaki iki EK teknik parça isteğe bağlıdır ve KAPALI gelir; çünkü geçmiş testte (2017-2026)
+# önceden koyduğumuz ölçütleri sağlam biçimde geçemediler (ayrıntı: README, "Hibrit mod").
+#
+# 1) Teknik sütun: nakde göre fiyatın 200 günlük ortalamaya uzaklığı, 50/200 ortalama oranı ve
+#    52 haftalık zirveye yakınlık beşinci sütun olarak puana katılır. Geçmiş testte yıllık getiriyi
+#    %41,8'den %44,2'ye çıkardı ve dokuz komşu ayarın yedisinde önde kaldı; ama en büyük düşüşü
+#    %32'den %35'e derinleştirdi, katkısı küçük ve sonuçlar görüldükten sonra öne çıktı (şans payı).
+#    Açmak için aşağıdaki iki satırın başındaki "#" işaretlerini silin:
+# [signal]
+# w_technical = 1.0
+
+# --- İsteğe bağlı portföy seçenekleri ----------------------------------------------------
+# Bu ikisi aynı [portfolio] başlığı altında durur. Açmak için ÖNCE "# [portfolio]" satırının,
+# sonra istediğiniz seçeneğin satır(lar)ının başındaki "#" işaretini silin:
+#   onay kapısı için : trend_gate satırı
+#   temkinli mod için: regime VE regime_off_exposure satırları (ikisi birlikte; yalnızca regime
+#                      açılırsa bot hata verir, çünkü o zaman portföyün tamamı nakde geçerdi)
+#
+# 2) Teknik onay kapısı (trend_gate): hisse ancak yükseliş eğilimindeyse (nakde göre fiyatı
+#    200 günlük ortalamasının üstünde) alınır, eğilimi bozulursa ayın ilk işlem gününde satılır;
+#    uygun hisse yoksa para nakitte bekler. Geçmiş testte toplam getiriyi artırdı (%47,4) ama
+#    kazancın neredeyse tamamı 2023-2026'dan (faizin hisseleri geçtiği dönemden) geldi, diğer iki
+#    dönemde temel stratejinin gerisinde kaldı ve nakdiniz faiz kazanmıyorsa temel stratejiden
+#    kötü sonuç veriyor (%39,7'ye karşı %41,4).
+#
+# 3) Temkinli mod (regime): BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse
+#    portföyün yarısı nakitte tutulur. Geçmiş testte düşüşleri azalttı ve 2024-2026'da getiriyi
+#    artırdı; ancak kazanç iki döneme dayanıyor, 6 aylık ayarda kayboluyor, 9 aylıkta azalıyor ve nakdiniz faiz
+#    kazanmıyorsa temel stratejiden kötü sonuç veriyor. Açarsanız nakit kısmını gecelik repo ya da
+#    para piyasası fonunda değerlendirin.
+#
+# [portfolio]
+# trend_gate = "entry_exit"
+# regime = "trend"
+# regime_off_exposure = 0.5
