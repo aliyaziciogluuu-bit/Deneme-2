@@ -2,6 +2,8 @@
 
 Kullanım:  python seslendir_bulut.py 01-sagir-yilan          # eksik sahneleri üretir
            python seslendir_bulut.py 01-sagir-yilan 3 7      # 3. ve 7. sahneyi (0'dan sayılır) yeniden üretir
+           python seslendir_bulut.py 01-sagir-yilan --cumle 70  # yalnızca 70 numaralı cümleyi tek başına yeniden üretir
+                                                     (sahnenin geri kalanı doğruysa bütün sahneyi baştan üretmeye gerek kalmaz)
 Çıktı:     <video>/ses/000.wav, 001.wav ... (video.py bunları kullanır), ses/sahne_N.wav, ses/rapor.json
 
 Neden sahne sahne: Her cümleyi ayrı üretmek tonlamayı kopuk yapar; bir sahnenin tamamı tek seferde okunduğunda
@@ -174,7 +176,8 @@ def main():
     hedef.mkdir(exist_ok=True)
     rapor_yolu = hedef / "rapor.json"
     rapor = json.loads(rapor_yolu.read_text(encoding="utf-8")) if rapor_yolu.exists() else {}
-    zorla = {int(x) for x in sys.argv[2:]}
+    tek = [int(x) for x in sys.argv[sys.argv.index("--cumle") + 1:]] if "--cumle" in sys.argv else []
+    zorla = set() if tek else {int(x) for x in sys.argv[2:]}
 
     from faster_whisper import WhisperModel
     dinleyici = WhisperModel("medium", device="cpu", compute_type="int8", cpu_threads=4)
@@ -188,6 +191,31 @@ def main():
 
     def on16(ses):
         return np.interp(np.arange(0, len(ses), SR / 16000), np.arange(len(ses)), ses).astype(np.float32)
+
+    if tek:
+        hepsi = [c for s in senaryo["sahneler"] for c in s["cumleler"]]
+        for i in tek:
+            c, ad = hepsi[i], f"{i:03d}"
+            ok, yz = c.get("ses", c["yazi"]), c["yazi"]
+            sinir = 0 if len(sade(yz)) <= 6 else 1
+            en_iyi = None
+            for deneme in range(1, DENEME + 2):
+                kayit = hedef / f"cumle_{ad}.wav"
+                tts(ok, kayit)
+                p = kirp(oku(kayit))
+                kayit.unlink()
+                duy = dinle(on16(p))
+                h = min(fark(duy, ok), fark(duy, yz))
+                r = {"duyulan": duy, "hata": h, "sure": round(len(p) / SR, 2), "uygun": h <= sinir, "tek_basina": True}
+                print(f"cümle {ad} deneme {deneme}: fark {h} | {duy}", flush=True)
+                if en_iyi is None or h < en_iyi[1]["hata"]:
+                    en_iyi = (p, r)
+                if r["uygun"]:
+                    break
+            sf.write(hedef / f"{ad}.wav", en_iyi[0], SR)
+            rapor[ad] = {"yazi": yz, **en_iyi[1]}
+            rapor_yolu.write_text(json.dumps(rapor, ensure_ascii=False, indent=1), encoding="utf-8")
+        return
 
     no = 0
     for s_i, sahne in enumerate(senaryo["sahneler"]):

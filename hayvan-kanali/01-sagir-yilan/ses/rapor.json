@@ -460,5 +460,103 @@
   "hata": 0,
   "sure": 4.9,
   "uygun": true
+ },
+ "066": {
+  "yazi": "Peki bahçende bir sağır yılanla karşılaşırsan ne yapmalısın?",
+  "duyulan": "Peki bahçende bir sağır yılanla karşılaşırsan ne yapmalısın?",
+  "hata": 0,
+  "sure": 3.4,
+  "uygun": true
+ },
+ "067": {
+  "yazi": "En iyisi, onu rahat bırakmak.",
+  "duyulan": "en iyisi onu rahat bırakmak.",
+  "hata": 0,
+  "sure": 2.4,
+  "uygun": true
+ },
+ "068": {
+  "yazi": "Kaldırdığın taşı, altındaki hayvanı ezmeden, yavaşça eski yerine koy.",
+  "duyulan": "Kaldırdığın taşı altındaki hayvanı ezmeden yavaşça eski yerine koy.",
+  "hata": 0,
+  "sure": 4.44,
+  "uygun": true
+ },
+ "069": {
+  "yazi": "Eve girdiyse, eldiven takıp bir kartonla yavaşça bir kovaya yönlendirebilir, sonra bahçenin gölgelik bir köşesine bırakabilirsin.",
+  "duyulan": "Eve girdiyse, eldiven takıp bir kartonla yavaşça bir kovaya yönlendirebilir, sonra bahçenin gölgelik bir köşesine bırakabilirsin.",
+  "hata": 0,
+  "sure": 7.48,
+  "uygun": true
+ },
+ "070": {
+  "yazi": "Onu asla kuyruğundan tutma.",
+  "duyulan": "Onu asla kuruğundan tutma!",
+  "hata": 1,
+  "sure": 1.6,
+  "uygun": false
+ },
+ "071": {
+  "yazi": "Ve önemli bir uyarı: Türkiye'de zehirli engerekler de yaşıyor.",
+  "duyulan": "ve önemli bir uyarı. Türkiye'de zehirli engerekler de yaşıyor.",
+  "hata": 0,
+  "sure": 3.62,
+  "uygun": true
+ },
+ "072": {
+  "yazi": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma; mesafeni koru.",
+  "duyulan": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma, mesafeni koru.",
+  "hata": 0,
+  "sure": 6.22,
+  "uygun": true
+ },
+ "073": {
+  "yazi": "Uzaktan bir fotoğraf çekip sonra incelemek, en güvenli yol.",
+  "duyulan": "Uzaktan bir fotoğraf çekip sonra incelemek en güvenli yol.",
+  "hata": 0,
+  "sure": 3.18,
+  "uygun": true
+ },
+ "074": {
+  "yazi": "Biraz yaprak yığını, birkaç taş ve ilaçsız bir köşe, sağır yılana bahçende yaşamak için yeter.",
+  "duyulan": "Biraz yaprak yığını, birkaç taş ve ilaçsız bir köşe sağır yılana bahçende yaşamak için yeter.",
+  "hata": 0,
+  "sure": 5.94,
+  "uygun": true
+ },
+ "075": {
+  "yazi": "Sağır yılan ne yılan, ne sağır, ne de tehlikeli.",
+  "duyulan": "Sağır yılan ne yılan, ne sağır, ne de tehlikeli.",
+  "hata": 0,
+  "sure": 3.78,
+  "uygun": true
+ },
+ "076": {
+  "yazi": "Sadece yanlış tanınan, sessiz bir bahçe komşusu.",
+  "duyulan": "Sadece yanlış tanınan sessiz bir bahçe komşusu.",
+  "hata": 0,
+  "sure": 3.38,
+  "uygun": true
+ },
+ "077": {
+  "yazi": "Bir dahaki sefere bir taşın altında onu gördüğünde, ona biraz daha farklı bakacaksın.",
+  "duyulan": "Bir dahaki sefere bir taşın altında onu gördüğünde ona biraz daha farklı bakacaksın.",
+  "hata": 0,
+  "sure": 4.96,
+  "uygun": true
+ },
+ "078": {
+  "yazi": "Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz.",
+  "duyulan": "Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz.",
+  "hata": 0,
+  "sure": 3.3,
+  "uygun": true
+ },
+ "079": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "duyulan": "Avludaki komşularda, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "hata": 0,
+  "sure": 6.46,
+  "uygun": true
  }
 }
