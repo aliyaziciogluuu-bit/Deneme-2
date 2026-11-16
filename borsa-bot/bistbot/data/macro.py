@@ -155,3 +155,31 @@ class MacroStore:
             rf = pd.concat([old[old.index < rf.index[0]], rf])
         rf.rename("rf").rename_axis("date").to_csv(self.rf_path)
         return rf
+
+    # -- endeksler ------------------------------------------------------------------
+    def index_path(self, code: str) -> Path:
+        return self.root / f"{code.lower()}.csv"
+
+    def load_index(self, code: str = "XU100") -> pd.Series:
+        path = self.index_path(code)
+        if not path.exists():
+            return pd.Series(dtype=float, name=code)
+        df = pd.read_csv(path, parse_dates=["date"])
+        return df.set_index("date")["value"].rename(code)
+
+    def sync_index(self, code: str, start: dt.date, end: dt.date) -> pd.Series:
+        """Endeks kapanışlarını yeniler (ör. ``XU100``). Başarısızlıkta önbelleği korur."""
+        old = self.load_index(code)
+        try:
+            new = fetch_isy_index(self.client, code, start, end)
+            new = new[new > 0]
+            if new.empty:
+                raise HttpError(f"{code}: boş seri")
+        except Exception as exc:
+            if old.empty:
+                raise
+            log.warning("%s endeksi yenilenemedi, önbellek kullanılıyor: %s", code, exc)
+            return old
+        merged = pd.concat([old[~old.index.isin(new.index)], new]).sort_index() if not old.empty else new
+        merged.rename("value").rename_axis("date").to_csv(self.index_path(code))
+        return merged.rename(code)

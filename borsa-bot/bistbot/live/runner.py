@@ -111,6 +111,7 @@ def run_daily(
         stats = stores.bulletins.sync(data_start, today, today=today)
         log.info("bültenler: %s", stats)
         stores.macro.sync_rf(data_start - dt.timedelta(days=40), today)
+        stores.macro.sync_index("XU100", data_start - dt.timedelta(days=40), today)
     panel = load_panel(stores, data_start, today)
     if len(panel.dates) < MIN_SESSIONS:
         raise DataNotReady(f"yalnızca {len(panel.dates)} seans veri var; en az {MIN_SESSIONS} gerekli")

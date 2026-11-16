@@ -29,6 +29,8 @@ INTERIM_LAG_DAYS = 75
 ANNUAL_LAG_DAYS = 145
 #: Son mali tablo bu kadar günden eskiyse temel veriler "yok" sayılır.
 STALE_DAYS = 460
+#: Endeks / kur serisinde boşluk en fazla bu kadar seans taşınır (ör. 2023 deprem kapanışı 5 seans).
+INDEX_MAX_GAP = 7
 #: İş Yatırım ile bülten kapanışı arasında kabul edilen uyuşmazlık oranı.
 MAX_CLOSE_MISMATCH = 0.02
 
@@ -201,8 +203,15 @@ def build_dataset(
     isy: IsyStore,
     rf: pd.Series,
     symbols: list[str] | None = None,
+    xu100: pd.Series | None = None,
 ) -> Dataset:
-    """Panel + İş Yatırım önbelleğinden ``Dataset`` kurar (ağ erişimi yapmaz)."""
+    """Panel + İş Yatırım önbelleğinden ``Dataset`` kurar (ağ erişimi yapmaz).
+
+    ``xu100`` verilirse BIST 100 serisi olarak o kullanılır (günlük çalışmada endeks ayrıca
+    indirilir); verilmezse hisse geçmiş dosyalarındaki endeks sütunundan türetilir. Endeks
+    en fazla ``INDEX_MAX_GAP`` seans taşınır; daha eski veri "yok" sayılır ki bayat endeksle
+    karar verilmesin.
+    """
     dates = panel.dates
     all_syms = list(panel.symbols)
     use = [s for s in (symbols or all_syms) if s in panel.close.columns]
@@ -263,17 +272,22 @@ def build_dataset(
             info["fin_periods"] = 0
         quality[sym] = info
 
+    def on_dates(s: pd.Series) -> pd.Series:
+        s = s.where(s > 0).dropna()
+        s = s[~s.index.duplicated(keep="last")].sort_index()
+        return s.reindex(s.index.union(dates)).ffill(limit=INDEX_MAX_GAP).reindex(dates)
+
     def median_series(parts: list[pd.Series]) -> pd.Series:
         if not parts:
             return pd.Series(np.nan, index=dates)
-        s = pd.concat(parts, axis=1).median(axis=1)
-        s = s.where(s > 0)
-        return s.reindex(s.index.union(dates)).ffill().reindex(dates)
+        return on_dates(pd.concat(parts, axis=1).median(axis=1))
+
+    index_series = on_dates(xu100) if xu100 is not None and len(xu100) else median_series(xu_parts)
 
     rf_daily = rf.reindex(rf.index.union(dates)).ffill().reindex(dates) if len(rf) else pd.Series(np.nan, index=dates)
     return Dataset(
         panel=panel, factor=factor, div_tax=div_tax.clip(lower=0.0, upper=0.2), mcap=mcap,
         equity=equity, ni_ttm=ni_ttm, equity_prev=equity_prev, is_financial=is_fin,
-        xu100=median_series(xu_parts), usdtry=median_series(usd_parts), rf=rf_daily,
+        xu100=index_series, usdtry=median_series(usd_parts), rf=rf_daily,
         quality=pd.DataFrame.from_dict(quality, orient="index"),
     )

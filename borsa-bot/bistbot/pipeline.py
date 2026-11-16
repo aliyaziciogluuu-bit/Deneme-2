@@ -134,4 +134,5 @@ def prepare_dataset(stores: Stores, panel: MarketPanel, symbols: list[str]) -> D
     rf = stores.macro.load_rf()
     if rf.empty:
         raise RuntimeError("risksiz oran önbelleği boş: önce veriyi eşitleyin")
-    return build_dataset(panel, stores.isy, rf, symbols)
+    xu100 = stores.macro.load_index("XU100")
+    return build_dataset(panel, stores.isy, rf, symbols, xu100=xu100 if len(xu100) else None)

@@ -116,6 +116,7 @@ def cmd_veri(args) -> int:
     stats = stores.bulletins.sync(start, today, today=today, workers=args.is_parcacigi, progress=True)
     log.info("bültenler: %s", stats)
     stores.macro.sync_rf(start - dt.timedelta(days=40), today)
+    stores.macro.sync_index("XU100", start - dt.timedelta(days=40), today)
     panel = load_panel(stores, start, today)
     ever = sorted(panel.bist100.columns[panel.bist100.any().to_numpy()])
     log.info("%d seans, %d pay; BIST 100'e girmiş %d pay için İş Yatırım verisi eşitleniyor", len(panel.dates),

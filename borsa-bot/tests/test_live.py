@@ -187,3 +187,15 @@ def test_notification_text_formatting_and_splitting(monkeypatch):
     monkeypatch.delenv("TELEGRAM_BOT_TOKEN", raising=False)
     monkeypatch.delenv("TELEGRAM_CHAT_ID", raising=False)
     assert notify.send_telegram("merhaba") is False and not notify.telegram_configured()
+
+
+def test_stale_index_series_blocks_new_decision(live):
+    """Endeks verisi günlerdir güncellenmemişse bayat endeksle karar verilmez."""
+    stores, state_path, ds = live
+    stale = ds.xu100.iloc[:300]  # son 45 seans eksik
+    stale.rename("value").rename_axis("date").to_csv(stores.macro.index_path("XU100"))
+    res = run_daily(stores, state_path, Config(), ds.dates[330].date(), sync=False)
+    assert not res.decided and any("endeks" in w for w in res.warnings)
+    # Endeks tamamlanınca aynı gün karar verilir.
+    ds.xu100.rename("value").rename_axis("date").to_csv(stores.macro.index_path("XU100"))
+    assert run_daily(stores, state_path, Config(), ds.dates[330].date(), sync=False).decided
