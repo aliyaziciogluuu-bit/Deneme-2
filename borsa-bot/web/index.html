@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BIST Bot</title>
+<meta name="description" content="Borsa İstanbul için kurallı al-sat botu: kâğıt portföy, günlük emir listesi ve geçmiş testi.">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111512" media="(prefers-color-scheme: dark)">
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #f4f1ea; --surface: #fffdf8; --surface-2: #f9f6ee; --ink: #1d2420; --muted: #6b7268;
+    --line: #e2ddd0; --accent: #1f5c45; --accent-ink: #ffffff; --gold: #a9781a; --blue: #4a6fa5;
+    --pos: #1c7a4d; --neg: #b3402e; --pos-bg: #e4f2e9; --neg-bg: #f8e6e2; --warn-bg: #fbf0d4; --warn-ink: #6b4d06;
+    --shadow: 0 1px 2px rgba(29, 36, 32, .06), 0 4px 16px rgba(29, 36, 32, .05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111512; --surface: #19201b; --surface-2: #1f2721; --ink: #e8ebe4; --muted: #98a195;
+      --line: #2b342d; --accent: #6fcf9f; --accent-ink: #0d1a13; --gold: #e0b454; --blue: #8fb0e0;
+      --pos: #6fcf9f; --neg: #f08a78; --pos-bg: #1b3327; --neg-bg: #3a211d; --warn-bg: #3a3118; --warn-ink: #f1d98a;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { padding: calc(14px + env(safe-area-inset-top)) 16px 8px; max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 0; letter-spacing: -.01em; }
+  h2 { font-size: 15px; margin: 0 0 10px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  main { max-width: 880px; margin: 0 auto; padding: 0 16px calc(32px + env(safe-area-inset-bottom)); }
+  nav { display: flex; gap: 6px; overflow-x: auto; padding: 8px 0 12px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 2; }
+  nav::-webkit-scrollbar { display: none; }
+  nav button { flex: 0 0 auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 8px 14px; border-radius: 999px; font: inherit; font-size: 14px; cursor: pointer; }
+  nav button[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+  nav button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin-bottom: 12px; box-shadow: var(--shadow); }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  @media (min-width: 620px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  .stat { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+  .stat .k { color: var(--muted); font-size: 12px; }
+  .stat .v { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .pos { color: var(--pos); } .neg { color: var(--neg); } .muted { color: var(--muted); }
+  .banner { border-radius: 12px; padding: 10px 12px; margin-bottom: 12px; background: var(--warn-bg); color: var(--warn-ink); font-size: 14px; }
+  .banner.bad { background: var(--neg-bg); color: var(--neg); }
+  .scroll { overflow-x: auto; margin: 0 -14px; padding: 0 14px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
+  th, td { padding: 7px 8px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+  th:first-child, td:first-child { text-align: left; padding-left: 0; }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  tr:last-child td { border-bottom: 0; }
+  .tag { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 650; }
+  .tag.buy { background: var(--pos-bg); color: var(--pos); } .tag.sell { background: var(--neg-bg); color: var(--neg); }
+  .name { color: var(--muted); font-size: 12px; display: block; max-width: 150px; overflow: hidden; text-overflow: ellipsis; }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .legend i { display: inline-block; width: 10px; height: 3px; border-radius: 2px; margin-right: 5px; vertical-align: middle; }
+  svg { display: block; width: 100%; height: auto; }
+  .note { font-size: 13px; color: var(--muted); }
+  .note p { margin: 0 0 8px; } .note p:last-child { margin: 0; }
+  section[hidden] { display: none; }
+  .bar { height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; min-width: 44px; }
+  .bar b { display: block; height: 100%; background: var(--accent); }
+  footer { color: var(--muted); font-size: 12px; margin-top: 18px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>BIST Bot</h1>
+  <div class="sub" id="asof">Yükleniyor…</div>
+</header>
+<main>
+  <nav role="tablist" aria-label="Bölümler">
+    <button role="tab" data-tab="bugun" aria-selected="true">Bugün</button>
+    <button role="tab" data-tab="portfoy" aria-selected="false">Portföy</button>
+    <button role="tab" data-tab="siralama" aria-selected="false">Sıralama</button>
+    <button role="tab" data-tab="islemler" aria-selected="false">İşlemler</button>
+    <button role="tab" data-tab="gecmis" aria-selected="false">Geçmiş testi</button>
+    <button role="tab" data-tab="nasil" aria-selected="false">Nasıl çalışır</button>
+  </nav>
+  <div id="banners"></div>
+
+  <section id="bugun">
+    <div class="card"><div class="grid" id="stats"></div></div>
+    <div class="card"><h2 id="ordersTitle">Emirler</h2><div id="orders"></div></div>
+    <div class="card"><h2>Kâğıt portföy, BIST 100 ve gecelik faiz</h2><div id="liveChart"></div></div>
+  </section>
+
+  <section id="portfoy" hidden>
+    <div class="card"><h2>Eldeki hisseler</h2><div class="scroll" id="positions"></div></div>
+  </section>
+
+  <section id="siralama" hidden>
+    <div class="card">
+      <h2>Bugünkü sıralama (ilk 40)</h2>
+      <p class="note">Puanlar 0–1 arası evren içi sıralardır; dört sütunun ortalaması bileşik puanı verir. İlk 20 alınır, sırası 40'ın altına düşen satılır.</p>
+      <div class="scroll" id="ranking"></div>
+    </div>
+  </section>
+
+  <section id="islemler" hidden>
+    <div class="card"><h2>Kâğıt portföy işlemleri</h2><div class="scroll" id="ledger"></div></div>
+  </section>
+
+  <section id="gecmis" hidden>
+    <div id="bt"></div>
+  </section>
+
+  <section id="nasil" hidden>
+    <div class="card note">
+      <h2>Bot ne yapar?</h2>
+      <p>Her işlem günü kapanıştan sonra Borsa İstanbul'un resmî günlük bültenini indirir, BIST 100 hisselerini dört ölçüte göre puanlar ve en iyi 20 hisseden eşit ağırlıklı bir portföy tutar. Ayda bir (ayın ilk işlem günü) portföyü gözden geçirir.</p>
+      <p><b>Dört ölçüt:</b> değer (özkaynağa ve kâra göre ucuzluk), kârlılık (özkaynak kârlılığı), düşük risk (az oynak, az "piyango" hissesi) ve momentum (son 12 ayın getirisi, son ay hariç). Bunlar Borsa İstanbul üzerine yayımlanmış akademik çalışmalarda öne çıkan etkenlerdir.</p>
+      <p><b>Emirler gerçek hesaba gönderilmez.</b> Bot bir "kâğıt portföy" tutar ve ertesi sabah vermeniz gereken emirlerin listesini üretir. Emirleri aracı kurumunuzun uygulamasından siz girersiniz: açılış seansı (09:40–09:55) için limitli emir, önce satışlar sonra alışlar.</p>
+      <p><b>Riskler:</b> Geçmiş performans geleceği garanti etmez. Bu portföy her zaman hissededir; piyasa düştüğünde o da düşer (geçmiş testte en büyük düşüş %36). Son yıllarda gecelik faiz hisselerin önünde gitti. Kaybetmeyi göze alamayacağınız parayla işlem yapmayın. Buradaki hiçbir şey yatırım tavsiyesi değildir.</p>
+    </div>
+  </section>
+  <footer id="foot"></footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const nf = (d) => new Intl.NumberFormat("tr-TR", { minimumFractionDigits: d, maximumFractionDigits: d });
+  const tl = (v, d = 0) => (v == null || !isFinite(v) ? "–" : nf(d).format(v));
+  const pct = (v, d = 1) => (v == null || !isFinite(v) ? "–" : (v > 0 ? "+" : "") + nf(d).format(v * 100) + "%");
+  const cls = (v) => (v == null || !isFinite(v) || v === 0 ? "" : v > 0 ? "pos" : "neg");
+  const trDate = (iso) => { if (!iso) return "–"; const [y, m, d] = iso.slice(0, 10).split("-"); return d + "." + m + "." + y; };
+  const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+  // ---- sekmeler
+  const tabs = Array.from(document.querySelectorAll("nav button"));
+  function show(name) {
+    tabs.forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === name)));
+    document.querySelectorAll("main > section").forEach((s) => { s.hidden = s.id !== name; });
+    try { localStorage.setItem("bistbot-tab", name); } catch (e) { /* özel pencere */ }
+  }
+  tabs.forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
+  try { const t = localStorage.getItem("bistbot-tab"); if (t && $(t)) show(t); } catch (e) { /* yok say */ }
+
+  // ---- çizgi grafik (SVG)
+  function chart(el, series, opts) {
+    opts = opts || {};
+    const W = 640, H = 340, L = 70, R = 10, T = 12, B = 34;
+    const pts = series.flatMap((s) => s.points);
+    if (pts.length < 2) { el.innerHTML = '<p class="note">Grafik için henüz yeterli veri yok.</p>'; return; }
+    const f = opts.log ? Math.log : (v) => v;
+    const xs = pts.map((p) => p[0]), ys = pts.map((p) => f(p[1]));
+    const x0 = Math.min(...xs), x1 = Math.max(...xs);
+    let y0 = Math.min(...ys), y1 = Math.max(...ys);
+    if (y1 - y0 < 1e-9) { y0 -= 0.01; y1 += 0.01; }
+    const pad = (y1 - y0) * 0.06; y0 -= pad; y1 += pad;
+    const X = (t) => L + (t - x0) / Math.max(x1 - x0, 1) * (W - L - R);
+    const Y = (v) => T + (1 - (f(v) - y0) / (y1 - y0)) * (H - T - B);
+    let g = "";
+    const inv = opts.log ? Math.exp : (v) => v;
+    for (let i = 0; i <= 4; i++) {
+      const yv = y0 + (y1 - y0) * i / 4, val = inv(yv), yy = T + (1 - i / 4) * (H - T - B);
+      g += `<line x1="${L}" x2="${W - R}" y1="${yy}" y2="${yy}" stroke="${css("--line")}" stroke-width="1"/>`;
+      g += `<text x="${L - 6}" y="${yy + 7}" text-anchor="end" font-size="20" fill="${css("--muted")}">${opts.fmt ? opts.fmt(val) : nf(2).format(val)}</text>`;
+    }
+    const d0 = new Date(x0), d1 = new Date(x1);
+    const lab = (d) => d.toLocaleDateString("tr-TR", { month: "short", year: "2-digit" });
+    g += `<text x="${L}" y="${H - 8}" font-size="20" fill="${css("--muted")}">${lab(d0)}</text>`;
+    g += `<text x="${W - R}" y="${H - 8}" text-anchor="end" font-size="20" fill="${css("--muted")}">${lab(d1)}</text>`;
+    series.forEach((s) => {
+      const path = s.points.map((p, i) => (i ? "L" : "M") + X(p[0]).toFixed(1) + " " + Y(p[1]).toFixed(1)).join(" ");
+      g += `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="${s.bold ? 3.2 : 2}" stroke-linejoin="round"/>`;
+    });
+    const legend = series.map((s) => `<span><i style="background:${s.color}"></i>${esc(s.name)}</span>`).join("");
+    el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(opts.label || "Grafik")}">${g}</svg><div class="legend">${legend}</div>`;
+  }
+
+  const stat = (k, v, c) => `<div class="stat"><div class="k">${esc(k)}</div><div class="v ${c || ""}">${v}</div></div>`;
+  function table(head, rows) {
+    if (!rows.length) return '<p class="note">Kayıt yok.</p>';
+    return "<table><thead><tr>" + head.map((h) => `<th>${esc(h)}</th>`).join("") + "</tr></thead><tbody>" +
+      rows.map((r) => "<tr>" + r.map((c) => `<td>${c}</td>`).join("") + "</tr>").join("") + "</tbody></table>";
+  }
+  const sym = (r) => `<b>${esc(r.symbol)}</b><span class="name">${esc(r.name)}</span>`;
+  const side = (s) => `<span class="tag ${s === "sell" ? "sell" : "buy"}">${s === "sell" ? "SAT" : "AL"}</span>`;
+
+  // ---- canlı veri
+  function renderLive(d) {
+    $("asof").textContent = trDate(d.as_of) + " kapanışı itibarıyla · başlangıç " + trDate(d.start);
+    const banners = [];
+    const age = (Date.now() - new Date(d.as_of + "T18:30:00+03:00").getTime()) / 86400000;
+    if (age > 4.5) banners.push(`<div class="banner bad">Veri ${Math.floor(age)} gündür güncellenmedi. Bot çalışmıyor olabilir; GitHub'da "Actions" sekmesini kontrol edin.</div>`);
+    (d.warnings || []).forEach((w) => banners.push(`<div class="banner">${esc(w)}</div>`));
+    $("banners").innerHTML = banners.join("");
+
+    $("stats").innerHTML = [
+      stat("Kâğıt portföy", tl(d.equity) + " TL"),
+      stat("Bugün", pct(d.day_return, 2), cls(d.day_return)),
+      stat("Başlangıçtan beri", pct(d.total_return), cls(d.total_return)),
+      stat("En büyük düşüş", pct(d.max_drawdown), "neg"),
+      stat("Aynı dönem BIST 100", pct(d.xu100_return), cls(d.xu100_return)),
+      stat("Aynı dönem gecelik faiz", pct(d.cash_return), cls(d.cash_return)),
+      stat("Hisse ağırlığı", "%" + nf(0).format(d.invested_pct * 100)),
+      stat("Gecelik faiz (yıllık)", "%" + nf(1).format(d.rf_annual * 100)),
+    ].join("");
+
+    const o = d.orders || [];
+    $("ordersTitle").textContent = o.length ? trDate(d.next_session) + " açılışı için emirler" : "Emirler";
+    $("orders").innerHTML = o.length
+      ? '<div class="scroll">' + table(["Hisse", "", "Lot", "Limit", "Yaklaşık TL", "Son fiyat"], o.map((r) => [
+          sym(r), side(r.side), tl(r.lots), (r.side === "sell" ? "≥ " : "≤ ") + tl(r.limit_price, 2), tl(r.value), tl(r.ref_price, 2),
+        ])) + '</div><p class="note" style="margin-top:10px">Önce satışları, sonra alışları girin. Emirleri açılış seansı (09:40–09:55) için <b>limitli</b> verin; limit, son kapanışın %3 uzağına (tavan/taban içinde) ayarlanmıştır. Açılışı tavandan olan hisseyi almayın.</p>'
+      : `<p class="note">Bugün yeni emir yok. Son karar: ${trDate(d.last_decision)}. Bot portföyü ayda bir, ayın ilk işlem günü gözden geçirir.</p>`;
+
+    const c = d.curve || [];
+    const t = (r) => new Date(r.d).getTime();
+    chart($("liveChart"), [
+      { name: "Gecelik faiz", color: css("--muted"), points: c.map((r) => [t(r), r.c]) },
+      { name: "BIST 100", color: css("--gold"), points: c.map((r) => [t(r), r.x]) },
+      { name: "Kâğıt portföy", color: css("--accent"), bold: true, points: c.map((r) => [t(r), r.e]) },
+    ], { label: "Kâğıt portföy, BIST 100 ve gecelik faiz (başlangıç = 1)" });
+
+    $("positions").innerHTML = table(["Hisse", "Lot", "Fiyat", "Değer TL", "Ağırlık", "Kâr/zarar", "Sıra", "Alış"],
+      (d.positions || []).map((r) => [sym(r), tl(r.lots), tl(r.price, 2), tl(r.value), "%" + nf(1).format(r.weight * 100),
+        `<span class="${cls(r.pnl_pct)}">${pct(r.pnl_pct)}</span>`, r.rank ?? "–", trDate(r.since)]));
+
+    const bar = (v) => v == null ? "–" : `<div class="bar" title="${nf(2).format(v)}"><b style="width:${Math.round(v * 100)}%"></b></div>`;
+    $("ranking").innerHTML = table(["#", "Hisse", "Puan", "Değer", "Kârlılık", "Düşük risk", "Momentum", ""],
+      (d.top || []).map((r) => [r.rank, sym(r), nf(2).format(r.score), bar(r.value), bar(r.quality), bar(r.lowrisk), bar(r.momentum),
+        r.held ? '<span class="tag buy">elde</span>' : ""]));
+    // İlk sütun sıra numarası olduğu için hisse sütununu sola yasla.
+    $("ranking").querySelectorAll("td:nth-child(2), th:nth-child(2)").forEach((e) => { e.style.textAlign = "left"; });
+
+    $("ledger").innerHTML = table(["Tarih", "Hisse", "", "Lot", "Fiyat", "Tutar TL", "Masraf", "Neden"],
+      (d.ledger || []).slice().reverse().map((r) => [trDate(r.date), sym(r), side(r.side), tl(r.lots), tl(r.price, 2), tl(r.value), tl(r.cost, 0), esc(r.reason)]));
+    $("ledger").querySelectorAll("td:nth-child(2), th:nth-child(2)").forEach((e) => { e.style.textAlign = "left"; });
+
+    $("foot").textContent = "Son güncelleme: " + new Date(d.generated_at).toLocaleString("tr-TR") +
+      " · Başlangıç sermayesi " + tl(d.capital) + " TL · Ödenen toplam masraf " + tl(d.costs_paid) + " TL";
+  }
+
+  // ---- geçmiş testi
+  function renderBacktest(b) {
+    const p = b.primary.vs_ew, bm = b.benchmarks, sb = b.selection_bias || {}, bs = b.bootstrap || {}, rp = b.random_portfolios || {};
+    const row = (name, s, bold) => [bold ? `<b>${name}</b>` : name, pct(s.cagr), "%" + nf(0).format(s.volatility * 100),
+      name === "Gecelik faiz" ? "–" : nf(2).format(s.sharpe), pct(s.max_drawdown, 0)];
+    let h = `<div class="card"><h2>Geçmiş testi: ${trDate(b.start)} – ${trDate(b.end)}</h2>
+      <p class="note">Kurallar veriye bakılmadan önce sabitlendi. Sonuçlar komisyon, BSMV, kayma ve temettü stopajı düşülmüş hâlidir; işlemler kararın ertesi günü açılış fiyatından yapılmıştır. Kıyas olarak aynı havuzun (BIST 100) eşit ağırlıklı ortalaması, BIST 100 endeksi ve gecelik faiz verilmiştir.</p>
+      <div class="scroll">${table(["", "Yıllık getiri", "Oynaklık", "Sharpe*", "En büyük düşüş"], [
+        row("Strateji", p, true), row("Eşit ağırlıklı BIST 100", bm.ew), row("BIST 100 endeksi", bm.xu100), row("Gecelik faiz", bm.cash)])}</div>
+      <p class="note" style="margin-top:8px">* Sharpe, gecelik faizin üzerindeki getiriyle hesaplanır. BIST 100 endeksi temettü içermez (yılda yaklaşık 2–3 puan eksik gösterir).</p></div>`;
+
+    h += '<div class="card"><h2>Değer eğrisi (logaritmik ölçek, başlangıç = 1)</h2><div id="btChart"></div></div>';
+
+    const years = Object.keys(b.yearly || {}).sort();
+    h += `<div class="card"><h2>Yıllara göre getiri</h2><div class="scroll">${table(["Yıl", "Strateji", "Eşit ağ.", "BIST 100", "Faiz", "Strateji (USD)", "BIST 100 (USD)"],
+      years.map((y) => { const r = b.yearly[y]; const c = (v) => `<span class="${cls(v)}">${pct(v, 0)}</span>`;
+        return [y, `<b>${c(r.strateji)}</b>`, c(r.esit_agirlik), c(r.bist100), c(r.nakit), c(r.strateji_usd), c(r.bist100_usd)]; }))}</div>
+      <p class="note" style="margin-top:8px">Dikkat: 2024, 2025 ve 2026'da gecelik faiz hem endeksin hem stratejinin önünde. Dolar bazında son yıllar zayıf.</p></div>`;
+
+    h += `<div class="card"><h2>Ne kadar güvenilir?</h2><div class="grid">
+      ${stat("BIST 100 ortalamasına göre fazla getiri", pct(p.excess_cagr) + " / yıl", cls(p.excess_cagr))}
+      ${stat("Alfa t-istatistiği", nf(2).format(p.alpha_tstat))}
+      ${stat("Yıllık devir hızı", nf(2).format(b.primary.turnover) + "×")}
+      ${stat("Rastgele portföylere göre", rp.strategy_cagr_percentile != null ? "%" + nf(0).format(rp.strategy_cagr_percentile * 100) + " dilim" : "–")}
+      ${stat("Sharpe %90 aralığı", bs.sharpe ? nf(2).format(bs.sharpe.p05) + " – " + nf(2).format(bs.sharpe.p95) : "–")}
+      ${stat("Ortalamayı geçme olasılığı", bs.ew_ustu_yillik ? "%" + nf(0).format(bs.ew_ustu_yillik.p_positive * 100) : "–")}
+      ${stat("Sönümlenmiş Sharpe (DSR)", sb.dsr_vs_cash != null ? "%" + nf(0).format(sb.dsr_vs_cash * 100) : "–")}
+      ${stat("Birincil ayarın sırası", sb.primary_rank_by_sharpe != null ? sb.primary_rank_by_sharpe + " / " + sb.n_trials : "–")}
+      </div><div class="note" style="margin-top:10px">
+      <p><b>Nasıl okunur:</b> t-istatistiği 2'nin üzerindeyse seçim katkısı şansla açıklanması zor demektir; 3'ün altında kaldığı sürece "kanıtlanmış" sayılmaz. "Rastgele portföylere göre" değeri, aynı havuzdan aynı kurallarla rastgele seçilen ${tl(rp.n)} portföyün kaçta kaçını geçtiğini gösterir.</p>
+      <p>DSR, denenen ${tl(sb.n_trials)} farklı ayarın en iyisinin şansla çıkabileceğini hesaba katar (1'e yakın olması iyidir). "Birincil ayarın sırası", kullanılan ayarın bu denemeler içinde Sharpe'a göre kaçıncı olduğunu gösterir: en iyisi seçilmedi, önceden sabitlenen ayar kullanılıyor. Denemeler arasından geçmişte en iyi görüneni seçmek aşırı uyum olurdu; sütunların göreli başarısı dönemden döneme tersine dönüyor.</p>
+      <p>Gerçek hayatta sonuçların geçmiş testin gerisinde kalması olağandır; planı geçmiş testin yarısı kadar bir katkıya göre yapmak akıllıcadır.</p></div></div>`;
+
+    const sens = b.sensitivity || {};
+    const sl = { maliyetsiz: "Masrafsız", maliyet_2x: "Masraflar 2 katı", bir_gun_gec: "Emirler bir gün geç", nakit_faizsiz: "Nakde faiz yok",
+      rejim_yari_nakit_faizsiz: "Temkinli mod, nakde faiz yok" };
+    h += `<div class="card"><h2>Varsayımlar değişirse</h2><div class="scroll">${table(["Senaryo", "Yıllık getiri", "Sharpe", "En büyük düşüş"],
+      [["<b>Temel</b>", pct(p.cagr), nf(2).format(p.sharpe), pct(p.max_drawdown, 0)]].concat(
+        Object.keys(sl).filter((k) => sens[k]).map((k) => [sl[k], pct(sens[k].cagr), nf(2).format(sens[k].sharpe), pct(sens[k].max_dd, 0)])))}</div></div>`;
+
+    const tr = b.trials || {};
+    const TRIAL = {
+      hisse_10: "10 hisse", hisse_15: "15 hisse", hisse_30: "30 hisse", bant_yok: "Elde tutma bandı yok", bant_3x: "Geniş bant (60)",
+      haftalik: "Haftalık dengeleme", ay_gun_5: "Ayın 6. işlem günü", ay_gun_10: "Ayın 11. işlem günü", ay_gun_15: "Ayın 16. işlem günü",
+      yalniz_deger: "Yalnız değer", yalniz_karlilik: "Yalnız kârlılık", yalniz_dusuk_risk: "Yalnız düşük risk", yalniz_momentum: "Yalnız momentum",
+      degersiz: "Değer sütunu yok", karliliksiz: "Kârlılık sütunu yok", dusuk_risksiz: "Düşük risk sütunu yok", momentumsuz: "Momentum sütunu yok",
+      momentum_6_1: "Momentum 6 ay", momentum_12_0: "Momentum, son ay dahil", oynaklik_126: "Oynaklık 6 ay", grup_notr_degil: "Banka ayrımı yok",
+      gecmis_126: "Yeni hisseler de (6 ay geçmiş)", rejim_nakit: "Rejim filtresi: tümü nakit", rejim_yari: "Temkinli mod (yarı nakit, 12 ay)",
+      rejim_yari_6ay: "Temkinli mod (6 ay)", rejim_yari_9ay: "Temkinli mod (9 ay)",
+    };
+    const names = Object.keys(tr);
+    if (names.length) {
+      h += `<div class="card"><h2>Ayar duyarlılığı (${names.length} deneme)</h2>
+        <p class="note">Aynı strateji farklı ayarlarla. Amaç en iyisini seçmek değil, sonucun tek bir ayara bağlı olmadığını görmektir. "Temkinli mod" (BIST 100 son 12 ayda gecelik faizi geçemediyse portföyün yarısını nakitte tutmak) geçmişte iyi görünüyor; ancak kazancı iki döneme ve 12 aylık ayara bağlı, 6–9 aylık ayarda kayboluyor ve nakde faiz işlemezse zarar ediyor. Bu yüzden varsayılan değil, isteğe bağlıdır.</p>
+        <div class="scroll">${table(["Deneme", "Yıllık getiri", "Sharpe", "En büyük düşüş", "Ortalamaya fark", "Devir"],
+          names.map((n) => { const r = tr[n]; return [n === "birincil" ? "<b>Birincil (kullanılan)</b>" : esc(TRIAL[n] || n), pct(r.cagr), nf(2).format(r.sharpe), pct(r.max_dd, 0),
+            `<span class="${cls(r.ew_ustu_cagr)}">${pct(r.ew_ustu_cagr)}</span>`, nf(1).format(r.devir_hizi) + "×"]; }))}</div></div>`;
+    }
+    $("bt").innerHTML = h;
+    const c = b.curve || [], t = (r) => new Date(r.d).getTime();
+    const ser = (k) => c.filter((r) => r[k] != null).map((r) => [t(r), r[k]]);
+    chart($("btChart"), [
+      { name: "Gecelik faiz", color: css("--muted"), points: ser("nakit") },
+      { name: "BIST 100", color: css("--gold"), points: ser("bist100") },
+      { name: "Eşit ağırlıklı BIST 100", color: css("--blue"), points: ser("esit_agirlik") },
+      { name: "Strateji", color: css("--accent"), bold: true, points: ser("strateji") },
+    ], { log: true, fmt: (v) => nf(v < 10 ? 1 : 0).format(v) + "×", label: "Geçmiş testi değer eğrisi" });
+  }
+
+  // Veri iki yerden denenir ve en yenisi kullanılır: sayfanın kendi klasörü ve (GitHub Pages'te
+  // yayımlanıyorsa) deponun ham dosyası. Böylece Pages yeniden yayımlanmasa da panel güncel kalır.
+  function sources(name) {
+    const list = ["data/" + name];
+    const m = location.hostname.match(/^([a-z0-9-]+)\.github\.io$/i);
+    const seg = location.pathname.split("/").filter(Boolean);
+    if (m && seg.length) list.push("https://raw.githubusercontent.com/" + m[1] + "/" + seg[0] + "/main/borsa-bot/web/data/" + name);
+    return list;
+  }
+  const fetchJson = (url) => fetch(url + "?t=" + Date.now(), { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  function get(name) {
+    return Promise.allSettled(sources(name).map(fetchJson)).then((results) => {
+      const ok = results.filter((r) => r.status === "fulfilled" && r.value).map((r) => r.value);
+      if (!ok.length) throw new Error("veri yok");
+      return ok.sort((a, b) => String(b.generated_at || "").localeCompare(String(a.generated_at || "")))[0];
+    });
+  }
+  get("latest.json").then(renderLive).catch(() => {
+    $("asof").textContent = "Bot henüz çalışmadı";
+    $("banners").innerHTML = '<div class="banner">Henüz günlük veri yok. Bot ilk kez çalıştığında (işlem günü akşamı) bu sayfa dolacak. Kurulum adımları için depodaki <b>borsa-bot/README.md</b> dosyasına bakın.</div>';
+    ["stats", "orders", "liveChart", "positions", "ranking", "ledger"].forEach((id) => { $(id).innerHTML = '<p class="note">Veri bekleniyor.</p>'; });
+  });
+  get("backtest.json").then(renderBacktest).catch(() => { $("bt").innerHTML = '<div class="card note">Geçmiş testi raporu bulunamadı.</div>'; });
+})();
+</script>
+</body>
+</html>

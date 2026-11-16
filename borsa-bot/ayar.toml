@@ -1,0 +1,27 @@
+# BIST Bot ayarları
+# Bu dosyada yalnızca değiştirmek isteyebileceğiniz ayarlar var; yazılmayanlar varsayılanda kalır.
+# Strateji parametreleri (sinyaller, hisse sayısı, bant) bilerek burada yok: onlar geçmiş veriye
+# bakılmadan önce sabitlendi. Değiştirmek sonuçları "veriye uydurma" riskine sokar.
+
+# Kâğıt portföyün başlangıç sermayesi (TL). Emir listesindeki lot adetleri buna göre hesaplanır.
+# Gerçek hesabınızda ayıracağınız tutarı yazın. İlk çalıştırmadan SONRA değiştirmenin etkisi olmaz.
+capital = 100000
+
+[cost]
+# Aracı kurumunuzun komisyon oranı (tek yön, BSMV hariç). 0.002 = binde 2.
+commission = 0.002
+# Alım-satım farkı ve kayma için varsayım (tek yön). 0.001 = binde 1.
+slippage = 0.001
+# Boştaki nakdin gecelik faizin (TLREF) ne kadarını kazandığı varsayımı (stopaj sonrası).
+# Aracı kurumunuz boş bakiyeyi değerlendirmiyorsa 0 yazın.
+cash_yield_share = 0.8
+
+# --- İsteğe bağlı: temkinli mod ---------------------------------------------------------
+# BIST 100'ün son 12 aylık getirisi gecelik faizin gerisindeyse portföyün yarısı nakitte tutulur.
+# Geçmiş testte düşüşleri azalttı ve 2024-2026'da (faizin hisseleri geçtiği dönem) getiriyi artırdı;
+# ancak kazanç iki döneme dayanıyor, 6-9 aylık ayarda kayboluyor ve nakdiniz faiz kazanmıyorsa
+# zarar ettiriyor. Bu yüzden varsayılan değildir. Açmak için aşağıdaki üç satırın başındaki
+# "#" işaretlerini silin ve nakit kısmını gecelik repo / para piyasası fonunda değerlendirin.
+# [portfolio]
+# regime = "trend"
+# regime_off_exposure = 0.5

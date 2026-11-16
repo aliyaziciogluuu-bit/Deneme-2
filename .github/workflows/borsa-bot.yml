@@ -1,0 +1,96 @@
+# BIST Bot — her işlem günü kapanıştan sonra çalışır, kâğıt portföyü günceller,
+# ertesi seansın emir listesini üretir, paneli ve durumu depoya yazar, Telegram'a bildirir.
+#
+# Saatler UTC'dir (İstanbul = UTC+3, yaz saati yok). Bülten ~18:25'te yayımlanır.
+# GitHub zamanlanmış işleri geciktirebilir veya atlayabilir; bu yüzden üç deneme var ve
+# iş kendini tekrarlamaya dayanıklıdır (aynı gün ikinci kez çalışmak bir şeyi değiştirmez).
+name: BIST Bot
+
+on:
+  schedule:
+    - cron: "17 16 * * 1-5"   # 19:17 İstanbul
+    - cron: "47 17 * * 1-5"   # 20:47 İstanbul (yedek)
+    - cron: "23 19 * * 1-5"   # 22:23 İstanbul (yedek)
+    - cron: "43 5 * * 1-5"    # 08:43 İstanbul (akşam çalışmadıysa açılıştan önce son şans)
+  workflow_dispatch:
+    inputs:
+      komut:
+        description: "Çalıştırılacak komut"
+        type: choice
+        default: gunluk
+        options: [gunluk, doktor]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: borsa-bot
+  cancel-in-progress: false
+
+jobs:
+  calistir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: borsa-bot
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: borsa-bot/requirements.txt
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      # Piyasa verisi depoya konmaz; önbellek yalnızca hız içindir, silinirse yeniden indirilir.
+      - name: Veri önbelleği
+        uses: actions/cache@v4
+        with:
+          path: borsa-bot/.cache
+          key: bistbot-veri-${{ github.run_id }}
+          restore-keys: bistbot-veri-
+
+      - name: Bağlantı testi
+        if: github.event_name == 'workflow_dispatch' && inputs.komut == 'doktor'
+        run: python -m bistbot doktor
+
+      - name: Günlük çalıştırma
+        if: github.event_name != 'workflow_dispatch' || inputs.komut == 'gunluk'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m bistbot gunluk
+
+      - name: Durumu ve paneli depoya yaz
+        if: github.event_name != 'workflow_dispatch' || inputs.komut == 'gunluk'
+        run: |
+          git config user.name "bist-bot"
+          git config user.email "bist-bot@users.noreply.github.com"
+          git add state web/data
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+            exit 0
+          fi
+          git commit -m "BIST Bot: $(date -u +%Y-%m-%d) güncellemesi"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 10
+          done
+          exit 1
+
+      - name: Hata bildirimi
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            curl -sS -o /dev/null -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+              --data-urlencode "text=⚠️ BIST Bot çalışırken hata oluştu. Ayrıntı: ${RUN_URL}"
+          fi
