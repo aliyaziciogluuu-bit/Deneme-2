@@ -122,5 +122,13 @@
     "ses_kazanc": 1.5
   },
   "dongu_sn": 96,
-  "gorsel_4k": "sahne_4k.png"
+  "gorsel_4k": "sahne_4k.png",
+  "shorts2": {
+    "bas": 1150,
+    "son": 300,
+    "tur": 2,
+    "baslik": "POV: a tea room in the rain",
+    "alt": "the lantern is still glowing",
+    "ses_kazanc": 1.5
+  }
 }

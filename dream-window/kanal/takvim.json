@@ -84,39 +84,178 @@
     "uzun": "10-japanese-garden",
     "not": "Japon bahçesi Shorts'unun (20 Kasım) İlgili videosu olarak bugünkü videoyu bağla."
   },
+  "2026-12-07": {
+    "shorts": [
+      "10-japanese-garden",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Japon bahçesi 3 saatlik videosunu seç (o video yayında)."
+  },
   "2026-12-09": {
     "uzun": "09-lighthouse",
     "not": "Deniz feneri Shorts'unun (21 Kasım) İlgili videosu olarak bugünkü videoyu bağla."
   },
+  "2026-12-10": {
+    "shorts": [
+      "13-forest-cabin",
+      "shorts"
+    ]
+  },
+  "2026-12-11": {
+    "shorts": [
+      "09-lighthouse",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Deniz feneri 3 saatlik videosunu seç (o video yayında)."
+  },
   "2026-12-13": {
-    "uzun": "13-forest-cabin"
+    "uzun": "13-forest-cabin",
+    "not": "Karlı orman kulübesi Shorts'unun (10 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2026-12-15": {
+    "shorts": [
+      "13-forest-cabin",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Karlı orman kulübesi 3 saatlik videosunu seç (o video yayında)."
   },
   "2026-12-19": {
     "uzun": "11-aurora-igloo",
     "not": "Kuzey ışıkları Shorts'larının (17 ve 29 Kasım) İlgili videosu olarak bugünkü iglo videosunu bağla."
   },
+  "2026-12-20": {
+    "shorts": [
+      "12-christmas-train",
+      "shorts"
+    ]
+  },
   "2026-12-23": {
-    "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et."
+    "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et. Noel treni Shorts'unun (20 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2026-12-24": {
+    "shorts": [
+      "12-christmas-train",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Noel treni 3 saatlik videosunu seç (o video yayında)."
+  },
+  "2026-12-26": {
+    "shorts": [
+      "14-new-year-loft",
+      "shorts"
+    ]
   },
   "2026-12-28": {
-    "uzun": "14-new-year-loft"
+    "uzun": "14-new-year-loft",
+    "not": "Yılbaşı çatı katı Shorts'unun (26 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2026-12-30": {
+    "shorts": [
+      "15-rainy-bookshop",
+      "shorts"
+    ]
+  },
+  "2026-12-31": {
+    "shorts": [
+      "14-new-year-loft",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Yılbaşı çatı katı 3 saatlik videosunu seç (o video yayında)."
   },
   "2027-01-02": {
-    "uzun": "15-rainy-bookshop"
+    "uzun": "15-rainy-bookshop",
+    "not": "Yağmurlu kitapçı Shorts'unun (30 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2027-01-03": {
+    "shorts": [
+      "16-mountain-chalet",
+      "shorts"
+    ]
+  },
+  "2027-01-04": {
+    "shorts": [
+      "15-rainy-bookshop",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Yağmurlu kitapçı 3 saatlik videosunu seç (o video yayında)."
   },
   "2027-01-05": {
-    "uzun": "16-mountain-chalet"
+    "uzun": "16-mountain-chalet",
+    "not": "Alp dağ evi Shorts'unun (3 Ocak) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2027-01-06": {
+    "shorts": [
+      "18-rainy-greenhouse",
+      "shorts"
+    ]
+  },
+  "2027-01-07": {
+    "shorts": [
+      "16-mountain-chalet",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Alp dağ evi 3 saatlik videosunu seç (o video yayında)."
   },
   "2027-01-09": {
-    "uzun": "18-rainy-greenhouse"
+    "uzun": "18-rainy-greenhouse",
+    "not": "Yağmurlu sera Shorts'unun (6 Ocak) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2027-01-10": {
+    "shorts": [
+      "17-dining-car",
+      "shorts"
+    ]
+  },
+  "2027-01-11": {
+    "shorts": [
+      "18-rainy-greenhouse",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Yağmurlu sera 3 saatlik videosunu seç (o video yayında)."
   },
   "2027-01-12": {
-    "uzun": "17-dining-car"
+    "uzun": "17-dining-car",
+    "not": "Kış treni yemekli vagon Shorts'unun (10 Ocak) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2027-01-13": {
+    "shorts": [
+      "20-lake-cabin",
+      "shorts"
+    ]
+  },
+  "2027-01-14": {
+    "shorts": [
+      "17-dining-car",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Kış treni yemekli vagon 3 saatlik videosunu seç (o video yayında)."
   },
   "2027-01-16": {
-    "uzun": "20-lake-cabin"
+    "uzun": "20-lake-cabin",
+    "not": "Göl kenarı kulübe Shorts'unun (13 Ocak) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2027-01-17": {
+    "shorts": [
+      "19-castle-library",
+      "shorts"
+    ]
+  },
+  "2027-01-18": {
+    "shorts": [
+      "20-lake-cabin",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Göl kenarı kulübe 3 saatlik videosunu seç (o video yayında)."
   },
   "2027-01-19": {
-    "uzun": "19-castle-library"
+    "uzun": "19-castle-library",
+    "not": "Kale kütüphanesi Shorts'unun (17 Ocak) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2027-01-21": {
+    "shorts": [
+      "19-castle-library",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Kale kütüphanesi 3 saatlik videosunu seç (o video yayında)."
   }
 }

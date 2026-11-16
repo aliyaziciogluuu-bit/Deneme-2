@@ -192,5 +192,21 @@
     "zemin_duzey": 0.08
   },
   "dongu_sn": 96,
-  "gorsel_4k": "sahne_4k.png"
+  "gorsel_4k": "sahne_4k.png",
+  "shorts": {
+    "bas": 500,
+    "son": 1350,
+    "tur": 2,
+    "baslik": "Christmas Night Train",
+    "alt": "Snowfall & Gentle Train Sounds",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 1350,
+    "son": 600,
+    "tur": 2,
+    "baslik": "POV: Christmas Eve on a train",
+    "alt": "the village lights pass by",
+    "ses_kazanc": 1.5
+  }
 }
