@@ -491,10 +491,11 @@
  },
  "070": {
   "yazi": "Onu asla kuyruğundan tutma.",
-  "duyulan": "Onu asla kuruğundan tutma!",
-  "hata": 1,
-  "sure": 1.6,
-  "uygun": false
+  "duyulan": "Onu asla kuyruğundan tutma.",
+  "hata": 0,
+  "sure": 1.96,
+  "uygun": true,
+  "tek_basina": true
  },
  "071": {
   "yazi": "Ve önemli bir uyarı: Türkiye'de zehirli engerekler de yaşıyor.",
