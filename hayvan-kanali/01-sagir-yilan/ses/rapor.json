@@ -80,8 +80,9 @@
   "yazi": "Rengi bakır, bronz ya da kahverengi; bazı erkeklerin sırtında mavi benekler bile olabiliyor.",
   "duyulan": "rengi bakır, bronz ya da kahverengi. Bazı erkeklerin sırtında mavi benekler bile olabiliyor.",
   "hata": 0,
-  "sure": 6.02,
-  "uygun": true
+  "sure": 6.98,
+  "uygun": true,
+  "tek_basina": true
  },
  "012": {
   "yazi": "Türkiye'de başta Trakya, Marmara ve Karadeniz Bölgesi olmak üzere, kuzeydeki nemli ve ormanlık alanlarda yaşıyor.",
@@ -120,10 +121,11 @@
  },
  "017": {
   "yazi": "Ama vücudunda kertenkele olduğunu ele veren işaretler hâlâ duruyor.",
-  "duyulan": "ama vücudunda kertenkele olduğunu ele veren işaretler hâlâ duruyor.",
+  "duyulan": "Ama vücudunda kertenkele olduğunu ele veren işaretler hâlâ duruyor.",
   "hata": 0,
-  "sure": 4.22,
-  "uygun": true
+  "sure": 4.18,
+  "uygun": true,
+  "tek_basina": true
  },
  "018": {
   "yazi": "Birincisi: göz kırpıyor.",
@@ -134,10 +136,11 @@
  },
  "019": {
   "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
-  "duyulan": "Yılanların göz kapağı yoktur. Gözleri şeffaf bir pul lakaplıdır ve hiç kapanmaz.",
+  "duyulan": "Yılanların göz kapağı yoktur, gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
   "hata": 0,
-  "sure": 4.96,
-  "uygun": true
+  "sure": 5.8,
+  "uygun": true,
+  "tek_basina": true
  },
  "020": {
   "yazi": "Sağır yılanın ise gerçek göz kapakları var.",
@@ -269,10 +272,11 @@
  },
  "038": {
   "yazi": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.",
-  "duyulan": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruğu kopar ve bir süre kıpırdamaya devam eder.",
-  "hata": 1,
-  "sure": 5.62,
-  "uygun": true
+  "duyulan": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.",
+  "hata": 0,
+  "sure": 5.82,
+  "uygun": true,
+  "tek_basina": true
  },
  "039": {
   "yazi": "Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar.",
@@ -283,10 +287,11 @@
  },
  "040": {
   "yazi": "Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır; hiçbir zaman eskisi gibi olmaz.",
-  "duyulan": "Kuyruk bir miktar yenilenir ama genellikle kısa ve küt bir uç olarak kalır, hiçbir zaman eskisi gibi olmaz.",
+  "duyulan": "Kuyruk bir miktar yenilenir ama genellikle kısa ve küt bir uç olarak kalır. Hiçbir zaman eskisi gibi olmaz.",
   "hata": 0,
-  "sure": 5.94,
-  "uygun": true
+  "sure": 6.86,
+  "uygun": true,
+  "tek_basina": true
  },
  "041": {
   "yazi": "Bu yüzden onu asla kuyruğundan tutmamak gerekir.",
@@ -325,10 +330,11 @@
  },
  "046": {
   "yazi": "Günün sıcak saatlerinde ise taşların, kütüklerin ve yaprak yığınlarının altına saklanıyor.",
-  "duyulan": "Günün sıcak saatlerinde ise taşların, kütüklerin ve yaprak yağınlarının altına saklanıyor.",
-  "hata": 1,
-  "sure": 5.56,
-  "uygun": true
+  "duyulan": "Günün sıcak saatlerinde ise taşların, kütüklerin ve yaprak yığınlarının altına saklanıyor.",
+  "hata": 0,
+  "sure": 6.08,
+  "uygun": true,
+  "tek_basina": true
  },
  "047": {
   "yazi": "Bahçede bir taşı kaldırdığında onunla karşılaşmanın sebebi bu.",
