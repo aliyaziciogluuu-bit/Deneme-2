@@ -1,10 +1,7 @@
 # Kanal kimliği
 
-## Ad önerileri (YouTube'da ve Instagram'da boşta olup olmadığına bakılmalı)
-1. **Avludaki Komşular** (önerilen) – sıcak, akılda kalıcı, konuyu tam anlatıyor
-2. Saçak Altı
-3. Kapı Önü Doğa
-4. Bahçe Sakinleri
+## Kanal adı: **Avludaki Komşular** (kanal sahibi seçti, 16 Kasım 2026)
+Önerilen kullanıcı adı (handle): @AvludakiKomsular — YouTube'da boşta olup olmadığına kanal açılırken bakılmalı.
 
 ## Kanal açıklaması (YouTube > Kanalı özelleştir > Temel bilgiler)
 Bahçende taşın altından çıkan "yılan", çatı arasındaki yarasa, gece duvarda dolaşan kertenkele, kapının önündeki kirpi...

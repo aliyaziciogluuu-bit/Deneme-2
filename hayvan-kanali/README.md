@@ -1,4 +1,4 @@
-# Hayvan kanalı (ikinci kanal)
+# Avludaki Komşular (ikinci kanal)
 
 Evin, bahçenin ve köyün çevresinde yaşayan ama yanlış tanınan hayvanları anlatan, yüz göstermeyen Türkçe anlatımlı kanal.
 Dream Window ve tarih-kanali düzeninden türetildi; kanal kimliği, ad önerileri ve yayın ilkeleri `kanal/kanal_aciklamasi.md` içinde.

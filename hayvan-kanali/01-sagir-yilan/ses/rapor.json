@@ -30,9 +30,9 @@
  "004": {
   "yazi": "Sağır da değil.",
   "duyulan": "Sağırda değil.",
-  "hata": 2,
+  "hata": 0,
   "sure": 0.86,
-  "uygun": false
+  "uygun": true
  },
  "005": {
   "yazi": "Ve büyük ihtimalle bahçendeki en faydalı komşulardan biri.",
@@ -46,6 +46,62 @@
   "duyulan": "Bu, halk arasında sağır yılan dediğimiz canlının hikayesi.",
   "hata": 0,
   "sure": 3.66,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Sağır yılan aslında bacaksız bir kertenkele.",
+  "duyulan": "Sağır yılan aslında bacaksız bir kertenkele.",
+  "hata": 0,
+  "sure": 2.72,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Türkiye'deki türünün bilimsel adı Anguis colchica; Türkçede yılanımsı kertenkele de deniyor.",
+  "duyulan": "Türkiye'deki türünün bilimsel adı Anguys colchica. Türkçe'de yılanımsı kertenkele de deniyor.",
+  "hata": 1,
+  "sure": 5.68,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Boyu genellikle otuz ile elli santimetre arasında.",
+  "duyulan": "Boyu genellikle 30 ile 50 cm arasında.",
+  "hata": 1,
+  "sure": 2.72,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Pulları o kadar düzgün ki, derisi cilalanmış gibi parlıyor.",
+  "duyulan": "Pulları o kadar düzgün ki derisi cilalanmış gibi parlıyor.",
+  "hata": 0,
+  "sure": 3.36,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Rengi bakır, bronz ya da kahverengi; bazı erkeklerin sırtında mavi benekler bile olabiliyor.",
+  "duyulan": "rengi bakır, bronz ya da kahverengi. Bazı erkeklerin sırtında mavi benekler bile olabiliyor.",
+  "hata": 0,
+  "sure": 6.02,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Türkiye'de başta Trakya, Marmara ve Karadeniz Bölgesi olmak üzere, kuzeydeki nemli ve ormanlık alanlarda yaşıyor.",
+  "duyulan": "Türkiye'de başta Trakya, Marmara ve Karadeniz bölgesi olmak üzere kuzeydeki nemli ve ormanlık alanlarda yaşıyor.",
+  "hata": 0,
+  "sure": 7.22,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Orman içleri, orman açıklıkları, çayırlar, yol kenarları ve bahçeler onun evi.",
+  "duyulan": "Orman içleri, orman açıklıkları, çayırlar, yol kenarları ve bahçeler onun evi.",
+  "hata": 0,
+  "sure": 4.72,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Deniz kenarından iki bin metre yüksekliğe kadar görülebiliyor.",
+  "duyulan": "deniz kenarından 2000 metre yüksekliğe kadar görülebiliyor.",
+  "hata": 0,
+  "sure": 3.22,
   "uygun": true
  }
 }
