@@ -1,0 +1,44 @@
+{
+ "start": "2026-11-16",
+ "capital": 100000.0,
+ "settings": {
+  "cost": {
+   "commission": 0.002,
+   "bsmv": 0.05,
+   "slippage": 0.001,
+   "cash_yield_share": 0.8
+  },
+  "portfolio": {
+   "rebalance_band": 0.25,
+   "max_participation": 0.05,
+   "buy_headroom": 0.03
+  }
+ },
+ "decisions": {
+  "2026-11-16": {
+   "TUPRS": 0.05,
+   "RGYAS": 0.05,
+   "GLYHO": 0.05,
+   "CCOLA": 0.05,
+   "AHGAZ": 0.05,
+   "TRGYO": 0.05,
+   "AYGAZ": 0.05,
+   "PETKM": 0.05,
+   "AEFES": 0.05,
+   "KRDMD": 0.05,
+   "BIMAS": 0.05,
+   "ALARK": 0.05,
+   "ANSGR": 0.05,
+   "ISDMR": 0.05,
+   "GWIND": 0.05,
+   "ALBRK": 0.05,
+   "TTKOM": 0.05,
+   "SAHOL": 0.05,
+   "ULKER": 0.05,
+   "TCKRC": 0.05
+  }
+ },
+ "reported": [],
+ "notified": null,
+ "version": 2
+}
