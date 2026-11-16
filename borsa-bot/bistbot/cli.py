@@ -103,6 +103,8 @@ def cmd_gunluk(args) -> int:
     payload = result.payload
     if payload is None:  # henüz başlamadı: ilk karar için uygun zaman bekleniyor
         print(result.message)
+        if not args.bildirim_yok and not args.deneme:
+            send_telegram("ℹ️ " + result.message)
         return 0
     message = format_message(payload)
     print(message)

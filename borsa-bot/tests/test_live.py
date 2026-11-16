@@ -4,7 +4,6 @@ import datetime as dt
 import json
 import shutil
 
-import numpy as np
 import pandas as pd
 import pytest
 
@@ -146,7 +145,6 @@ def test_exit_tickets_never_exceed_the_lots_the_user_holds(live):
 
 def test_no_decision_while_the_next_session_is_already_open(live):
     stores, state_path, ds = live
-    last = ds.dates[320]
     next_day = ds.dates[321]
     # Bültenler yalnızca "last" gününe kadar var; ertesi gün öğleden sonra elle çalıştırma.
     for d in ds.dates[321:]:

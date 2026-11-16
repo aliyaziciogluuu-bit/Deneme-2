@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 
 from bistbot.backtest import benchmarks as bm
-from bistbot.backtest.engine import Order, plan_orders, run_backtest
+from bistbot.backtest.engine import plan_orders, run_backtest
 from bistbot.backtest.metrics import cagr, daily_rf, drawdown, summarize, yearly_returns
 from bistbot.config import Config
 from bistbot.signals import compute_features, universe_mask

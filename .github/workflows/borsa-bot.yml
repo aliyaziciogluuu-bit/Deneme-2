@@ -74,6 +74,7 @@ jobs:
         run: |
           git config user.name "bist-bot"
           git config user.email "bist-bot@users.noreply.github.com"
+          mkdir -p state web/data   # ilk karar verilmeden önce durum klasörü henüz yoktur
           git add state web/data
           if git diff --cached --quiet; then
             echo "Değişiklik yok."

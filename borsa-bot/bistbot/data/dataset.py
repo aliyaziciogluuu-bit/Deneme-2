@@ -7,7 +7,6 @@ mali tablolar yasal bildirim süresinden uzun, sabit bir gecikmeyle devreye gire
 """
 from __future__ import annotations
 
-import datetime as dt
 import logging
 from dataclasses import dataclass, field
 

@@ -13,8 +13,6 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 
-import pandas as pd
-
 from .data.bulletin import BulletinStore
 from .data.dataset import Dataset, build_dataset
 from .data.http import HttpClient
