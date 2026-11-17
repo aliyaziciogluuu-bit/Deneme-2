@@ -383,5 +383,33 @@
   "hata": 0,
   "sure": 5.46,
   "uygun": true
+ },
+ "055": {
+  "yazi": "Türkiye'de yarasalar yasal koruma altında; onları öldürmek, yakalamak ve barınaklarına zarar vermek yasak.",
+  "duyulan": "Türkiye'de yara salar, yasal koruma altında. Onları öldürmek, yakalamak ve barınaklarına zarar vermek yasak.",
+  "hata": 0,
+  "sure": 6.48,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Çatı arasında bir yarasa kolonisi varsa, onları kendi başına çıkarmaya çalışma; yetkililerden yardım iste.",
+  "duyulan": "Çatı arasında bir yarasa kolonisi varsa, onları kendi başına çıkarmaya çalışma. Yetkililerden yardım iste.",
+  "hata": 0,
+  "sure": 5.82,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Bahçene bir yarasa kutusu asarak onlara güvenli bir barınak sağlayabilirsin.",
+  "duyulan": "Bahçene bir yara sakutusu asarak onlara güvenli bir barınak sağlayabilirsin.",
+  "hata": 0,
+  "sure": 4.73,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Böcek ilacını azaltmak da, yarasaların besin bulmasına yardım eder.",
+  "duyulan": "Böcek ilacını azaltmak da yarasaların besin bulmasına yardım eder.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
  }
 }
