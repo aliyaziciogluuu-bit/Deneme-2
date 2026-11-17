@@ -138,7 +138,8 @@ def yukleme_yaz(senaryo, cumleler, yol: pathlib.Path):
         satirlar += ["", "Bölümler:"] + [f"{t // 60}:{t % 60:02d} {ad}" for t, ad in bolumler]
     if senaryo.get("yorum_sorusu"):
         satirlar += ["", "🌿 " + senaryo["yorum_sorusu"]]
-    satirlar += ["", "Kaynaklar:"] + [f"- {k}" for k in senaryo.get("kaynaklar", [])]
+    if senaryo.get("kaynaklar"):  # Shorts'ta kaynak açıklamanın içinde
+        satirlar += ["", "Kaynaklar:"] + [f"- {k}" for k in senaryo["kaynaklar"]]
     satirlar += ["", senaryo.get("beyan", "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. "
                                           "Bilgiler yukarıdaki kaynaklardan derlenmiştir.")]
     if senaryo.get("ambiyans", {}).get("kaynak"):

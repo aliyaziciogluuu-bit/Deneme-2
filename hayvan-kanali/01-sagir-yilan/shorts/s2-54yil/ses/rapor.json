@@ -1,0 +1,45 @@
+{
+ "000": {
+  "yazi": "Bahçende gördüğün bu parlak hayvan, bilinen en uzun ömürlü kertenkele türlerinden birinin yakın akrabası.",
+  "duyulan": "Bahçende gördüğün bu parlak hayvan, bilinen en uzun ömürlü kertenkele türlerinden birinin yakın akrabası.",
+  "hata": 0,
+  "sure": 6.4,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "001": {
+  "yazi": "Ona sağır yılan diyoruz, ama aslında bacaksız bir kertenkele.",
+  "duyulan": "Ona sağır yılan diyoruz ama aslında bacaksız bir kertenkele.",
+  "hata": 0,
+  "sure": 3.8,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı.",
+  "duyulan": "Avrupa'daki akrabasının bakım altındaki bir bireyi 54 yıl yaşadı.",
+  "hata": 0,
+  "sure": 4.42,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Doğada ömrü çok daha kısa; çoğu birey on yılı göremiyor.",
+  "duyulan": "Doğada ömrü çok daha kısa, çoğu birey 10 yılı göremiyor.",
+  "hata": 0,
+  "sure": 3.52,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Onu tehdit edenler arasında, yılan sanıp öldüren insanlar, arabalar ve çim biçme makineleri var.",
+  "duyulan": "Onu tehdit edenler arasında yılan sanıp öldüren insanlar, arabalar ve çim biçme makineleri var.",
+  "hata": 0,
+  "sure": 6.34,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bir dahaki sefere onu görürsen, rahat bırak. Tam videosu kanalımızda.",
+  "duyulan": "Bir dahaki sefere onu görürsen rahat bırak. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 3.92,
+  "uygun": true
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "000": {
+  "yazi": "Bir yarasaya asla çıplak elle dokunma.",
+  "duyulan": "Bir yarasaya asla çıplak elle dokunma.",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "duyulan": "Yarasaların çok azı kuduz ya da benzeri virüsler taşır ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "hata": 0,
+  "sure": 6.06,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka.",
+  "duyulan": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.",
+  "hata": 0,
+  "sure": 7.58,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+  "duyulan": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasa ile temas ettiğini söyle.",
+  "hata": 0,
+  "sure": 4.76,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "004": {
+  "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir.",
+  "duyulan": "kuduz aşısı gerekip gerekmediğine doktor karar verir.",
+  "hata": 0,
+  "sure": 2.78,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
+  "duyulan": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
+  "hata": 0,
+  "sure": 5.44,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "006": {
+  "yazi": "Odada uyuyan biri ya da küçük bir çocuk varsa, yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+  "duyulan": "Odada uyuyan biri ya da küçük bir çocuk varsa, yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 6.34,
+  "uygun": true
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "000": {
+  "yazi": "Duvardaki bu kertenkele yemeğe düşerse zehirler mi?",
+  "duyulan": "Duvardaki bu kertenkele yemeğe düşerse zehirler mi?",
+  "hata": 0,
+  "sure": 3.5,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "001": {
+  "yazi": "Hayır. Ev kertenkelesinin zehri yok.",
+  "duyulan": "Hayır, ev kerten kelesinin zehri yok.",
+  "hata": 0,
+  "sure": 2.5,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Yemeğe düşen bir kertenkele, yemeğe zehir bulaştırmaz.",
+  "duyulan": "Yemeğe düşen bir kertenkele yemeğe zehir bulaştırmaz.",
+  "hata": 0,
+  "sure": 3.0,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Ama pek çok sürüngen gibi, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor.",
+  "duyulan": "ama pek çok sürüngen gibi vücudunda ve dışkısında salmonella bakterisi taşıyabiliyor.",
+  "hata": 0,
+  "sure": 5.5,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani asıl mesele zehir değil, temizlik.",
+  "duyulan": "Yani asıl mesele zehir değil, temizlik.",
+  "hata": 0,
+  "sure": 2.36,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Üzerine kertenkele düşen yiyeceği at, yüzeyi temizleyip dezenfekte et.",
+  "duyulan": "Üzerine kertenkele düşen yiyeceği at, yüzeyi temizleyip dezenfekte et.",
+  "hata": 0,
+  "sure": 4.2,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Ona dokunduysan ellerini yıka. Tam videosu kanalımızda.",
+  "duyulan": "Ona dokunduysan ellerini yıka. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 3.58,
+  "uygun": true
+ }
+}

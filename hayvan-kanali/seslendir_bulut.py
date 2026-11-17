@@ -37,7 +37,7 @@ DENEME = 4
 ESDEGER = {"geco": "geko", "gecko": "geko", "gecolar": "gekolar", "turkicus": "turcicus", "turkikus": "turcicus",
            "hemidaktilus": "hemidactylus", "ortadoğu": "orta doğu", "ciyaklama": "cıyaklama", "koçi": "kotschy",
            "kotschi": "kotschy", "anguis": "anguis", "kolkika": "colchica", "fracilis": "fragilis",
-           "plinyus": "plinius", "plinyos": "plinius", "salia": "salya", "sendeliyen": "sendeleyen"}
+           "plinyus": "plinius", "plinyos": "plinius", "plinyusa": "pliniusa", "plinyosa": "pliniusa", "salia": "salya", "sendeliyen": "sendeleyen"}
 
 BIR = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
 ON = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]

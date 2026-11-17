@@ -1,0 +1,58 @@
+{
+ "000": {
+  "yazi": "Bahçede bunu görürsen, önce gözlerine bak.",
+  "duyulan": "Bahçede bunu görürsen önce gözlerine bak.",
+  "hata": 0,
+  "sure": 2.62,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Halk arasında ona sağır yılan deniyor, ama o bir yılan değil.",
+  "duyulan": "Halk arasında ona sağır yılan deniyor ama o bir yılan değil.",
+  "hata": 0,
+  "sure": 3.14,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bacaksız bir kertenkele.",
+  "duyulan": "bacaksız bir kertenkele",
+  "hata": 0,
+  "sure": 1.34,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
+  "duyulan": "Yılanların göz kapağı yoktur, gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
+  "hata": 0,
+  "sure": 4.76,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Sağır yılanın gerçek göz kapakları var.",
+  "duyulan": "sağır yılanın gerçek göz kapakları var.",
+  "hata": 0,
+  "sure": 2.52,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Üstelik pek çok kertenkele gibi kuyruğunu koparabiliyor.",
+  "duyulan": "Üstelik pek çok kertenkele gibi kuyruğunu koparabiliyor.",
+  "hata": 0,
+  "sure": 2.82,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Zehri yok ve bahçendeki sümüklü böcekleri avlıyor.",
+  "duyulan": "zehri yok ve bahçendeki sümüklü böcekleri avlıyor.",
+  "hata": 0,
+  "sure": 2.88,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Onu öldürme. Tam videosu kanalımızda.",
+  "duyulan": "Onu öldürme, tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 2.4,
+  "uygun": true
+ }
+}

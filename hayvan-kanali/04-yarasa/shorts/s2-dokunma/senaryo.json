@@ -1,7 +1,7 @@
 {
   "dikey": true,
   "baslik": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
-  "aciklama": "Yarasaların çok azı kuduz taşır, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: WHO – Rabies; T.C. Sağlık Bakanlığı – Kuduz Profilaksi Rehberi\n\n#shorts #yarasa #kuduz #sağlık #doğa",
+  "aciklama": "Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: WHO – Rabies; T.C. Sağlık Bakanlığı – Kuduz Profilaksi Rehberi\n\n#shorts #yarasa #kuduz #sağlık #doğa",
   "etiketler": [
     "yarasa",
     "yarasa kuduz",
@@ -28,7 +28,7 @@
           "yazi": "Bir yarasaya asla çıplak elle dokunma."
         },
         {
-          "yazi": "Yarasaların çok azı kuduz virüsü taşır, ama hangisinin taşıdığını bakarak anlayamazsın."
+          "yazi": "Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığını bakarak anlayamazsın."
         },
         {
           "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka."
@@ -40,7 +40,10 @@
           "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir."
         },
         {
-          "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç ve odadan çık. Tam videosu kanalımızda."
+          "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık."
+        },
+        {
+          "yazi": "Odada uyuyan biri ya da küçük bir çocuk varsa, yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda."
         }
       ]
     }

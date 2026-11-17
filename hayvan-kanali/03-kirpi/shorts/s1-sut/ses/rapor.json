@@ -1,0 +1,45 @@
+{
+ "000": {
+  "yazi": "Bahçende kirpi görürsen, önüne sakın süt koyma.",
+  "duyulan": "Bahçende kirpi görürsen önüne sakın süt koyma!",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor.",
+  "duyulan": "Kirpiler, sütte ki laktoz adlı şekeri sindiremiyor.",
+  "hata": 0,
+  "sure": 2.92,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
+  "duyulan": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
+  "hata": 0,
+  "sure": 3.0,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Küçük bir hayvanda ishal, hızla sıvı kaybına yol açabilir.",
+  "duyulan": "küçük bir hayvanda ishal hızla sıvı kaybına yol açabilir.",
+  "hata": 0,
+  "sure": 4.08,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "004": {
+  "yazi": "Zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
+  "duyulan": "Zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Onun yerine sığ bir kapta temiz su bırak. Tam videosu kanalımızda.",
+  "duyulan": "Onun yerine sığ bir kapta temiz su bırak. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 4.22,
+  "uygun": true
+ }
+}

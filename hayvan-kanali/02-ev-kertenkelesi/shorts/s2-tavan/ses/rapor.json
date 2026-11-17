@@ -1,0 +1,53 @@
+{
+ "000": {
+  "yazi": "Bu kertenkele tavanda baş aşağı nasıl yürüyor?",
+  "duyulan": "Bu kertenkele tavanda baş aşağı nasıl yürüyor?",
+  "hata": 0,
+  "sure": 2.8,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Cevap parmaklarında saklı.",
+  "duyulan": "Cevap, parmaklarında saklı.",
+  "hata": 0,
+  "sure": 1.5,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.",
+  "duyulan": "Parmaklarının altında ince yapraklar gibi sıralanmış pedler var.",
+  "hata": 0,
+  "sure": 3.66,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.",
+  "duyulan": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kıl lakaplı.",
+  "hata": 0,
+  "sure": 4.1,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.",
+  "duyulan": "her kılın ucu da çok sayıda daha da küçük uca ayrılıyor.",
+  "hata": 0,
+  "sure": 4.04,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "005": {
+  "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
+  "duyulan": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
+  "hata": 0,
+  "sure": 5.36,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Milyonlarca uç bir araya gelince, bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda.",
+  "duyulan": "Milyonlarca uç bir araya gelince, bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 6.06,
+  "uygun": true,
+  "tek_basina": true
+ }
+}
