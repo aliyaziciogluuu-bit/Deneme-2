@@ -1,0 +1,48 @@
+{
+  "dikey": true,
+  "baslik": "Kirpiye Sakın Süt Verme! 🦔 #shorts",
+  "aciklama": "Kirpiler laktozu sindiremez; süt ishale ve susuz kalmaya yol açar. Onun yerine sığ bir kapta su bırak. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\nKaynak: Hedgehog Street (BHPS ve PTES)\n\n#shorts #kirpi #hayvansevgisi #doğa #bahçe",
+  "etiketler": [
+    "kirpi",
+    "kirpiye süt verilir mi",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "KİRPİYE",
+    "SÜT VERME!"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Öldürebilirsin)",
+  "sahneler": [
+    {
+      "ad": "Kirpiye Sakın Süt Verme! 🦔 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Bahçende kirpi görürsen, önüne sakın süt koyma."
+        },
+        {
+          "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor."
+        },
+        {
+          "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor."
+        },
+        {
+          "yazi": "İshal, küçük bir hayvan için hızla susuz kalmak demek."
+        },
+        {
+          "yazi": "Zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir."
+        },
+        {
+          "yazi": "Onun yerine sığ bir kapta temiz su bırak. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

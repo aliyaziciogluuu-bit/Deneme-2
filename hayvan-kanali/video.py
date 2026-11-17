@@ -7,11 +7,14 @@ Kullanım:
 Girdi (video klasöründe): senaryo.json, cekimler.json, gorseller/, ses/000.wav ...
 İsteğe bağlı: senaryo.json'da "ambiyans": {"dosya": "../sesler/bahce.ogg", "seviye": 0.07, "kaynak": "..."}
   → anlatımın altına çok kısık doğa sesi döşenir (CC0 kayıtlar; kaynak açıklamaya yazılır).
+Dikey (Shorts): senaryo.json'da "dikey": true → 1080x1920, üstte sabit "ust_yazi" (satır listesi), büyük orta altyazı,
+  bölüm ve kapak üretilmez. Görseller ve klipler ana videodan kullanılabilir (gorseller/klipler klasörlerine bağlantı).
 Gerekenler: ffmpeg, pip install pillow numpy
 """
 import json
 import multiprocessing as mp
 import pathlib
+import shutil
 import subprocess
 import sys
 
@@ -19,6 +22,16 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 G, Y, FPS = 1920, 1080, 30
+DIKEY = False
+PARCA_SINIR = 74
+
+
+def bicim_ayarla(senaryo):
+    """Yatay (1920x1080) ya da dikey Shorts (1080x1920) biçimini senaryoya göre seçer."""
+    global G, Y, DIKEY, PARCA_SINIR
+    DIKEY = bool(senaryo.get("dikey"))
+    G, Y = (1080, 1920) if DIKEY else (1920, 1080)
+    PARCA_SINIR = 38 if DIKEY else 74
 SR = 48000
 ARA_CUMLE, ARA_SAHNE, GIRIS, BITIS = 0.35, 0.85, 0.7, 2.5
 GECIS = 0.35  # çekimler arası geçiş süresi (sn)
@@ -42,6 +55,7 @@ def sesi_oku(yol: pathlib.Path) -> np.ndarray:
 def cizelge(klasor: pathlib.Path):
     """Cümlelerin başlangıç/bitiş zamanlarını ve birleşik ses kaydını döndürür."""
     senaryo = json.loads((klasor / "senaryo.json").read_text(encoding="utf-8"))
+    bicim_ayarla(senaryo)
     cumleler, t, parcalar = [], GIRIS, []
     for sahne in senaryo["sahneler"]:
         for j, c in enumerate(sahne["cumleler"]):
@@ -78,8 +92,9 @@ def cekimleri_kur(klasor: pathlib.Path, cumleler, toplam):
 
 
 # ---------------------------------------------------------------- altyazı
-def parcala(metin: str, sinir: int = 74):
+def parcala(metin: str, sinir: int = None):
     """Cümleyi ekrana sığacak, yaklaşık eşit uzunlukta altyazı parçalarına böler."""
+    sinir = sinir or PARCA_SINIR
     if len(metin) <= sinir:
         return [metin]
     adet = -(-len(metin) // sinir)
@@ -118,8 +133,9 @@ def srt_yaz(liste, yol: pathlib.Path):
 def yukleme_yaz(senaryo, cumleler, yol: pathlib.Path):
     """YouTube'a yüklerken kopyalanacak başlık, açıklama, bölümler ve etiketler."""
     bolumler = [(0 if i == 0 else int(c["bas"]), c["bolum"]) for i, c in enumerate(cumleler) if c["bolum"]]
-    satirlar = ["BAŞLIK", senaryo["baslik"], "", "AÇIKLAMA", senaryo.get("aciklama", ""), "", "Bölümler:"]
-    satirlar += [f"{t // 60}:{t % 60:02d} {ad}" for t, ad in bolumler]
+    satirlar = ["BAŞLIK", senaryo["baslik"], "", "AÇIKLAMA", senaryo.get("aciklama", "")]
+    if not senaryo.get("dikey"):  # Shorts'ta bölüm olmaz
+        satirlar += ["", "Bölümler:"] + [f"{t // 60}:{t % 60:02d} {ad}" for t, ad in bolumler]
     if senaryo.get("yorum_sorusu"):
         satirlar += ["", "🌿 " + senaryo["yorum_sorusu"]]
     satirlar += ["", "Kaynaklar:"] + [f"- {k}" for k in senaryo.get("kaynaklar", [])]
@@ -162,13 +178,14 @@ def yazi_katmani(satirlar, font, renk=(255, 255, 255), kontur=4, aralik=1.25):
 
 
 def etiket_katmani(metin: str):
-    font = ImageFont.truetype(YAZI, 34)
+    font = ImageFont.truetype(YAZI, 46 if DIKEY else 34)  # dikeyde telefonda okunacak büyüklük
+    yuk = 86 if DIKEY else 64
     gen = int(font.getlength(metin)) + 56
-    kat = Image.new("RGBA", (gen, 64), (0, 0, 0, 0))
+    kat = Image.new("RGBA", (gen, yuk), (0, 0, 0, 0))
     ciz = ImageDraw.Draw(kat)
-    ciz.rounded_rectangle((0, 0, gen - 1, 63), radius=10, fill=(12, 10, 8, 200))
-    ciz.rectangle((0, 0, 7, 63), fill=(214, 164, 62, 255))
-    ciz.text((30, 32), metin, font=font, fill=(245, 240, 230, 255), anchor="lm")
+    ciz.rounded_rectangle((0, 0, gen - 1, yuk - 1), radius=10, fill=(12, 10, 8, 200))
+    ciz.rectangle((0, 0, 7, yuk - 1), fill=(214, 164, 62, 255))
+    ciz.text((30, yuk // 2), metin, font=font, fill=(245, 240, 230, 255), anchor="lm")
     return kat
 
 
@@ -186,7 +203,10 @@ def sabit_katman():
     yy, xx = np.mgrid[0:Y, 0:G].astype(np.float32)
     uzak = np.sqrt(((xx - G / 2) / (G / 2)) ** 2 + ((yy - Y / 2) / (Y / 2)) ** 2)
     kose = np.clip((uzak - 0.75) / 0.75, 0, 1) ** 1.6 * 150
-    alt = np.clip((yy - Y * 0.68) / (Y * 0.32), 0, 1) ** 1.3 * 175
+    if DIKEY:  # üst yazı ve orta-alt altyazı için üstte ve altta yumuşak karartma
+        alt = np.clip((yy - Y * 0.5) / (Y * 0.5), 0, 1) ** 1.2 * 165 + np.clip((Y * 0.22 - yy) / (Y * 0.22), 0, 1) ** 1.5 * 150
+    else:
+        alt = np.clip((yy - Y * 0.68) / (Y * 0.32), 0, 1) ** 1.3 * 175
     alfa = np.clip(kose + alt, 0, 235).astype(np.uint8)
     kat = np.zeros((Y, G, 4), dtype=np.uint8)
     kat[..., 3] = alfa
@@ -218,14 +238,18 @@ def klipleri_hazirla(klasor: pathlib.Path):
     plan = json.loads((klasor / "cekimler.json").read_text(encoding="utf-8"))["cekimler"]
     gecici = klasor / "_gecici"
     gecici.mkdir(exist_ok=True)
-    for ad in sorted({c["klip"] for c in plan if c.get("klip")}):
+    kx = {}
+    for c in plan:  # dikeyde klibin hangi yatay bölümü alınacak (0 sol, 0,5 orta, 1 sağ)
+        if c.get("klip"):
+            kx.setdefault(c["klip"], c.get("kx", 0.5))
+    for ad in sorted(kx):
         hedef = gecici / f"klip_{ad}.rgb"
         if not (klasor / "klipler" / f"{ad}.mp4").exists():
             print(f"UYARI: klipler/{ad}.mp4 yok, o çekimde görsel kullanılacak")
             continue
         if not hedef.exists():
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(klasor / "klipler" / f"{ad}.mp4"), "-an", "-vf",
-                            f"scale={G}:{Y}:force_original_aspect_ratio=increase:flags=lanczos,crop={G}:{Y},fps={FPS}",
+                            f"scale={G}:{Y}:force_original_aspect_ratio=increase:flags=lanczos,crop={G}:{Y}:(iw-{G})*{kx[ad]}:(ih-{Y})/2,fps={FPS}",
                             "-pix_fmt", "rgb24", "-f", "rawvideo", str(hedef)], check=True)
 
 
@@ -241,7 +265,19 @@ class Sahne:
         self._gorsel, self._kat, self._klip = {}, {}, {}
         self.sabit = sabit_katman()
         self.siyah = Image.new("RGB", (G, Y), (0, 0, 0))
-        self.f_alt = ImageFont.truetype(YAZI, 50)
+        self.f_alt = ImageFont.truetype(YAZI_KALIN if DIKEY else YAZI, 66 if DIKEY else 50)
+        self.ust = None
+        if DIKEY and self.senaryo.get("ust_yazi"):
+            f = ImageFont.truetype(YAZI_KALIN, 104)
+            while max(f.getlength(x) for x in self.senaryo["ust_yazi"]) > G - 120 and f.size > 60:
+                f = ImageFont.truetype(YAZI_KALIN, f.size - 4)
+            satirlar = [yazi_katmani([x], f, (255, 255, 255) if i % 2 == 0 else (250, 204, 72), 7)
+                        for i, x in enumerate(self.senaryo["ust_yazi"])]
+            self.ust = Image.new("RGBA", (G, sum(k.height for k in satirlar) + 10), (0, 0, 0, 0))
+            y = 0
+            for k in satirlar:
+                self.ust.alpha_composite(k, ((G - k.width) // 2, y))
+                y += k.height - 30
 
     def gorsel(self, c):
         anahtar = (c["gorsel"], c.get("kip"))
@@ -277,8 +313,9 @@ class Sahne:
         p = (t - c["bas"]) / (c["bit"] - c["bas"])
         p = p * p * (3 - 2 * p)  # yumuşak başlayıp yumuşak biten kamera hareketi
         cx, cy, w = (a + (b - a) * p for a, b in zip(c.get("a", [0.5, 0.5, 1.0]), c.get("b", [0.5, 0.5, 0.85])))
-        gen = min(w, 1.0, g.height * 16 / 9 / g.width) * g.width
-        yuk = gen * 9 / 16
+        oran = G / Y  # yatayda 16:9, dikeyde 9:16 kesit; w en büyük kesitin oranı
+        gen = min(w, 1.0) * min(g.width, g.height * oran)
+        yuk = gen / oran
         x0 = min(max(cx * g.width - gen / 2, 0), g.width - gen)
         y0 = min(max(cy * g.height - yuk / 2, 0), g.height - yuk)
         kare = g.resize((G, Y), Image.BICUBIC, box=(x0, y0, x0 + gen, y0 + yuk))
@@ -299,7 +336,7 @@ class Sahne:
         cik = min((c["bit"] - t) / 0.4, 1.0) if k < len(self.plan) - 1 else 1.0
         if c.get("etiket"):
             kat = soluk(self.katman(("e", c["etiket"]), lambda: etiket_katmani(c["etiket"])), max(min(gir, cik), 0))
-            kare.paste(kat, (70, 64), kat)
+            kare.paste(kat, (60, 420) if DIKEY else (70, 64), kat)
         if c.get("baslik"):
             b = c["baslik"]
             buyuk = self.katman(("b", b["buyuk"]), lambda: yazi_katmani(
@@ -307,14 +344,21 @@ class Sahne:
             kucuk = self.katman(("k", b["kucuk"]), lambda: yazi_katmani(
                 [b["kucuk"]], ImageFont.truetype(YAZI, 54 if len(b["kucuk"]) < 30 else 42), (240, 234, 222), 3))
             oran = max(min(min((t - c["bas"] - 0.3) / 0.7, 1.0), cik), 0)
-            for kat, y in ((buyuk, 330), (kucuk, 330 + buyuk.height + 6)):
+            by = 760 if DIKEY else 330
+            for kat, y in ((buyuk, by), (kucuk, by + buyuk.height + 6)):
                 kat = soluk(kat, oran)
                 kare.paste(kat, ((G - kat.width) // 2, y), kat)
 
+        if self.ust is not None:
+            kare.paste(self.ust, (0, 130), self.ust)
         a = next((a for a in self.alt if a["bas"] <= t < a["bit"]), None)
         if a:
-            kat = self.katman(("a", a["yazi"]), lambda: yazi_katmani(satirla(a["yazi"], self.f_alt, G - 300), self.f_alt))
-            kare.paste(kat, ((G - kat.width) // 2, Y - 78 - kat.height), kat)
+            if DIKEY:  # Shorts'ta altyazı ortanın biraz altında; alttaki düğme ve açıklama alanına girmez
+                kat = self.katman(("a", a["yazi"]), lambda: yazi_katmani(satirla(a["yazi"], self.f_alt, (G - 80) / 0.62), self.f_alt, kontur=6))
+                kare.paste(kat, ((G - kat.width) // 2, int(Y * 0.64) - kat.height // 2), kat)
+            else:
+                kat = self.katman(("a", a["yazi"]), lambda: yazi_katmani(satirla(a["yazi"], self.f_alt, G - 300), self.f_alt))
+                kare.paste(kat, ((G - kat.width) // 2, Y - 78 - kat.height), kat)
         return kare
 
 
@@ -335,11 +379,12 @@ def parca_uret(gorev):
 
 def onizleme(sahne: Sahne, yol: pathlib.Path):
     """Her çekimin ortasından bir kare alıp tek sayfada toplar."""
-    kareler = [sahne.kare(int((c["bas"] + c["bit"]) / 2 * FPS)).resize((480, 270), Image.BICUBIC) for c in sahne.plan]
-    sutun = 4
-    sayfa = Image.new("RGB", (sutun * 480, -(-len(kareler) // sutun) * 270), (20, 20, 20))
+    kg, ky = (270, 480) if DIKEY else (480, 270)
+    kareler = [sahne.kare(int((c["bas"] + c["bit"]) / 2 * FPS)).resize((kg, ky), Image.BICUBIC) for c in sahne.plan]
+    sutun = 6 if DIKEY else 4
+    sayfa = Image.new("RGB", (sutun * kg, -(-len(kareler) // sutun) * ky), (20, 20, 20))
     for i, k in enumerate(kareler):
-        sayfa.paste(k, (i % sutun * 480, i // sutun * 270))
+        sayfa.paste(k, (i % sutun * kg, i // sutun * ky))
     sayfa.save(yol, quality=85)
 
 
@@ -404,6 +449,7 @@ def ses_yuksekligi_duzelt(video: pathlib.Path, hedef=-14.0, tepe=-2.5):
 
 def main():
     klasor = KOK / sys.argv[1]
+    bicim_ayarla(json.loads((klasor / "senaryo.json").read_text(encoding="utf-8")))
     if "--ses-duzelt" in sys.argv:  # yalnızca bitmiş videonun ses yüksekliğini düzelt
         ses_yuksekligi_duzelt(klasor / "video.mp4")
         return
@@ -411,13 +457,15 @@ def main():
     sahne = Sahne(klasor)
     if "--onizleme" in sys.argv:
         onizleme(sahne, klasor / "onizleme.jpg")
+        shutil.rmtree(klasor / "_gecici", ignore_errors=True)  # dikey klip önbelleği klip başına ~900 MB; diski doldurmasın
         return
     eksik = [i for i in range(len(sahne.cumleler)) if not list((klasor / "ses").glob(f"{i:03d}.*"))]
     assert not eksik, f"ses dosyası eksik cümleler: {eksik}"
 
     gecici = klasor / "_gecici"
     srt_yaz(sahne.alt, klasor / "altyazi.srt")
-    kapak(sahne, klasor / "kapak.jpg")
+    if sahne.senaryo.get("kapak") and not DIKEY:
+        kapak(sahne, klasor / "kapak.jpg")
     yukleme_yaz(sahne.senaryo, sahne.cumleler, klasor / "yukleme.txt")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-", str(gecici / "ses.wav")],
                    input=sahne.kayit.tobytes(), check=True)

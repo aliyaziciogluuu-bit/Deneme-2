@@ -1,0 +1,48 @@
+{
+  "dikey": true,
+  "baslik": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
+  "aciklama": "Yarasaların çok azı kuduz taşır, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: WHO – Rabies; T.C. Sağlık Bakanlığı – Kuduz Profilaksi Rehberi\n\n#shorts #yarasa #kuduz #sağlık #doğa",
+  "etiketler": [
+    "yarasa",
+    "yarasa kuduz",
+    "yarasa ısırığı",
+    "shorts"
+  ],
+  "ust_yazi": [
+    "YARASAYA",
+    "DOKUNMA!"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Yarasa Saça Yapışır mı? (Asıl Tehlike ve Asıl Fayda)",
+  "sahneler": [
+    {
+      "ad": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
+      "cumleler": [
+        {
+          "yazi": "Bir yarasaya asla çıplak elle dokunma."
+        },
+        {
+          "yazi": "Yarasaların çok azı kuduz virüsü taşır, ama hangisinin taşıdığını bakarak anlayamazsın."
+        },
+        {
+          "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka."
+        },
+        {
+          "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle."
+        },
+        {
+          "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir."
+        },
+        {
+          "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç ve odadan çık. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

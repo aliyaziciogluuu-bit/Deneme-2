@@ -1,0 +1,111 @@
+{
+ "shorts": [
+  {
+   "ad": "s1-yemek",
+   "baslik": "Kertenkele Yemeğe Düşerse Zehirler mi? 🦎 #shorts",
+   "aciklama": "Ev kertenkelesinin zehri yok; ama pek çok sürüngen gibi Salmonella taşıyabilir. Asıl mesele temizlik. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\nKaynak: CDC – Reptiles and Amphibians\n\n#shorts #kertenkele #geko #evdekertenkele #doğa",
+   "etiketler": [
+    "ev kertenkelesi",
+    "geko",
+    "kertenkele zehirli mi",
+    "shorts"
+   ],
+   "ust_yazi": [
+    "YEMEĞE DÜŞERSE",
+    "zehirler mi?"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Duvardaki bu kertenkele yemeğe düşerse zehirler mi?",
+     "gorsel": "mutfak_lamba",
+     "klip": "mutfak_lamba",
+     "kx": 0.75
+    },
+    {
+     "yazi": "Hayır. Ev kertenkelesinin zehri yok.",
+     "gorsel": "bakisma",
+     "x": 0.5
+    },
+    {
+     "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez.",
+     "gorsel": "yemek",
+     "x": 0.45
+    },
+    {
+     "yazi": "Ama pek çok sürüngen gibi, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor.",
+     "gorsel": "portre",
+     "x": 0.22,
+     "etiket": "Salmonella"
+    },
+    {
+     "yazi": "Yani asıl mesele zehir değil, temizlik.",
+     "gorsel": "hijyen",
+     "x": 0.5
+    },
+    {
+     "yazi": "Üzerine kertenkele düşen yiyeceği at, yüzeyi temizleyip dezenfekte et.",
+     "gorsel": "hijyen",
+     "x": 0.35
+    },
+    {
+     "yazi": "Ona dokunduysan ellerini yıka. Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.75
+    }
+   ]
+  },
+  {
+   "ad": "s2-tavan",
+   "baslik": "Kertenkele Tavanda Nasıl Yürüyor? 🤯 #shorts",
+   "aciklama": "Gekoların parmaklarında milyonlarca mikroskobik uç var; moleküller arası çekimle tavanda tutunuyorlar. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\nKaynak: Autumn ve ark. (2002), PNAS\n\n#shorts #geko #bilim #doğa #kertenkele",
+   "etiketler": [
+    "geko",
+    "kertenkele",
+    "bilim",
+    "shorts"
+   ],
+   "ust_yazi": [
+    "TAVANDA",
+    "nasıl yürüyor?"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Bu kertenkele tavanda baş aşağı nasıl yürüyor?",
+     "gorsel": "tavan",
+     "klip": "tavan",
+     "kx": 0.35
+    },
+    {
+     "yazi": "Cevap parmaklarında saklı.",
+     "gorsel": "parmak",
+     "x": 0.28
+    },
+    {
+     "yazi": "Parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.",
+     "gorsel": "parmak",
+     "x": 0.65
+    },
+    {
+     "yazi": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.",
+     "gorsel": "kil",
+     "x": 0.5
+    },
+    {
+     "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.",
+     "gorsel": "kil",
+     "x": 0.3
+    },
+    {
+     "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
+     "gorsel": "kil",
+     "x": 0.7
+    },
+    {
+     "yazi": "Milyonlarca uç bir araya gelince, bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda.",
+     "gorsel": "tavan",
+     "x": 0.35
+    }
+   ]
+  }
+ ]
+}

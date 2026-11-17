@@ -1,0 +1,104 @@
+{
+ "shorts": [
+  {
+   "ad": "s1-sac",
+   "baslik": "Yarasa Saça Yapışır mı? 🦇 #shorts",
+   "aciklama": "Yarasalar saça yapışmaz: karanlıkta yankıyla yön buluyorlar. Başının yakınından geçen yarasa büyük ihtimalle bir böcek yakalıyor. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #efsane #doğa #bilim",
+   "etiketler": [
+    "yarasa",
+    "yarasa saça yapışır mı",
+    "ekolokasyon",
+    "shorts"
+   ],
+   "ust_yazi": [
+    "YARASA",
+    "saça yapışır mı?"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Yarasa saça yapışır mı?",
+     "gorsel": "bagiran",
+     "x": 0.3
+    },
+    {
+     "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane.",
+     "gorsel": "balkon_aksam",
+     "klip": "balkon_aksam",
+     "kx": 0.4
+    },
+    {
+     "yazi": "Yarasalar, çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
+     "gorsel": "ekolokasyon",
+     "x": 0.35
+    },
+    {
+     "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu anlıyor.",
+     "gorsel": "ekolokasyon",
+     "klip": "ekolokasyon",
+     "kx": 0.45
+    },
+    {
+     "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor.",
+     "gorsel": "ekolokasyon",
+     "x": 0.7
+    },
+    {
+     "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceği yakalıyor. Tam videosu kanalımızda.",
+     "gorsel": "lamba_yarasa",
+     "klip": "lamba_yarasa",
+     "kx": 0.65
+    }
+   ]
+  },
+  {
+   "ad": "s2-dokunma",
+   "baslik": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
+   "aciklama": "Yarasaların çok azı kuduz taşır, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: WHO – Rabies; T.C. Sağlık Bakanlığı – Kuduz Profilaksi Rehberi\n\n#shorts #yarasa #kuduz #sağlık #doğa",
+   "etiketler": [
+    "yarasa",
+    "yarasa kuduz",
+    "yarasa ısırığı",
+    "shorts"
+   ],
+   "ust_yazi": [
+    "YARASAYA",
+    "DOKUNMA!"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Bir yarasaya asla çıplak elle dokunma.",
+     "gorsel": "yerde",
+     "x": 0.47,
+     "y": 0.62
+    },
+    {
+     "yazi": "Yarasaların çok azı kuduz virüsü taşır, ama hangisinin taşıdığını bakarak anlayamazsın.",
+     "gorsel": "goz",
+     "x": 0.5
+    },
+    {
+     "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka.",
+     "gorsel": "el_yikama",
+     "x": 0.42,
+     "etiket": "En az 15 dakika"
+    },
+    {
+     "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+     "gorsel": "el_yikama",
+     "x": 0.6
+    },
+    {
+     "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir.",
+     "gorsel": "portre",
+     "x": 0.65
+    },
+    {
+     "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç ve odadan çık. Tam videosu kanalımızda.",
+     "gorsel": "oda",
+     "klip": "oda",
+     "kx": 0.6
+    }
+   ]
+  }
+ ]
+}

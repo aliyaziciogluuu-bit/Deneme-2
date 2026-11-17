@@ -1,0 +1,102 @@
+{
+ "shorts": [
+  {
+   "ad": "s1-sut",
+   "baslik": "Kirpiye Sakın Süt Verme! 🦔 #shorts",
+   "aciklama": "Kirpiler laktozu sindiremez; süt ishale ve susuz kalmaya yol açar. Onun yerine sığ bir kapta su bırak. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\nKaynak: Hedgehog Street (BHPS ve PTES)\n\n#shorts #kirpi #hayvansevgisi #doğa #bahçe",
+   "etiketler": [
+    "kirpi",
+    "kirpiye süt verilir mi",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "KİRPİYE",
+    "SÜT VERME!"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Bahçende kirpi görürsen, önüne sakın süt koyma.",
+     "gorsel": "bahce_gece",
+     "klip": "bahce_gece",
+     "kx": 0.65
+    },
+    {
+     "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor.",
+     "gorsel": "sut_kabi",
+     "x": 0.75
+    },
+    {
+     "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
+     "gorsel": "hasta",
+     "x": 0.68
+    },
+    {
+     "yazi": "İshal, küçük bir hayvan için hızla susuz kalmak demek.",
+     "gorsel": "hasta",
+     "x": 0.45
+    },
+    {
+     "yazi": "Zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
+     "gorsel": "yavrular",
+     "x": 0.45
+    },
+    {
+     "yazi": "Onun yerine sığ bir kapta temiz su bırak. Tam videosu kanalımızda.",
+     "gorsel": "su_kabi",
+     "klip": "su_kabi",
+     "kx": 0.55
+    }
+   ]
+  },
+  {
+   "ad": "s2-elma",
+   "baslik": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
+   "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık 2000 yıl önce Romalı yazar Plinius'a dayanıyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #efsane #doğa",
+   "etiketler": [
+    "kirpi",
+    "kirpi elma",
+    "efsane",
+    "shorts"
+   ],
+   "ust_yazi": [
+    "SIRTINDA ELMA",
+    "taşır mı?"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Kirpiler sırtlarında elma taşır mı?",
+     "gorsel": "elma",
+     "x": 0.5
+    },
+    {
+     "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
+     "ses": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'a kadar uzanıyor.",
+     "gorsel": "plinius",
+     "x": 0.7
+    },
+    {
+     "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor.",
+     "gorsel": "elma",
+     "x": 0.55
+    },
+    {
+     "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.",
+     "gorsel": "portre",
+     "x": 0.75
+    },
+    {
+     "yazi": "Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor.",
+     "gorsel": "bocek_av",
+     "klip": "bocek_av",
+     "kx": 0.5
+    },
+    {
+     "yazi": "Asıl menüsünde böcekler, tırtıllar, solucanlar ve salyangozlar var. Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.3
+    }
+   ]
+  }
+ ]
+}

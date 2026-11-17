@@ -1,0 +1,48 @@
+{
+  "dikey": true,
+  "baslik": "Yarasa Saça Yapışır mı? 🦇 #shorts",
+  "aciklama": "Yarasalar saça yapışmaz: karanlıkta yankıyla yön buluyorlar. Başının yakınından geçen yarasa büyük ihtimalle bir böcek yakalıyor. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #efsane #doğa #bilim",
+  "etiketler": [
+    "yarasa",
+    "yarasa saça yapışır mı",
+    "ekolokasyon",
+    "shorts"
+  ],
+  "ust_yazi": [
+    "YARASA",
+    "saça yapışır mı?"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Yarasa Saça Yapışır mı? (Asıl Tehlike ve Asıl Fayda)",
+  "sahneler": [
+    {
+      "ad": "Yarasa Saça Yapışır mı? 🦇 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Yarasa saça yapışır mı?"
+        },
+        {
+          "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane."
+        },
+        {
+          "yazi": "Yarasalar, çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor."
+        },
+        {
+          "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu anlıyor."
+        },
+        {
+          "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor."
+        },
+        {
+          "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceği yakalıyor. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

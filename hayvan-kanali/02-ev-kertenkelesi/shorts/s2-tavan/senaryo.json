@@ -1,0 +1,51 @@
+{
+  "dikey": true,
+  "baslik": "Kertenkele Tavanda Nasıl Yürüyor? 🤯 #shorts",
+  "aciklama": "Gekoların parmaklarında milyonlarca mikroskobik uç var; moleküller arası çekimle tavanda tutunuyorlar. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\nKaynak: Autumn ve ark. (2002), PNAS\n\n#shorts #geko #bilim #doğa #kertenkele",
+  "etiketler": [
+    "geko",
+    "kertenkele",
+    "bilim",
+    "shorts"
+  ],
+  "ust_yazi": [
+    "TAVANDA",
+    "nasıl yürüyor?"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)",
+  "sahneler": [
+    {
+      "ad": "Kertenkele Tavanda Nasıl Yürüyor? 🤯 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Bu kertenkele tavanda baş aşağı nasıl yürüyor?"
+        },
+        {
+          "yazi": "Cevap parmaklarında saklı."
+        },
+        {
+          "yazi": "Parmaklarının altında, ince yapraklar gibi sıralanmış pedler var."
+        },
+        {
+          "yazi": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı."
+        },
+        {
+          "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor."
+        },
+        {
+          "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor."
+        },
+        {
+          "yazi": "Milyonlarca uç bir araya gelince, bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

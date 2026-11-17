@@ -60,9 +60,12 @@ def main():
     a = next(s for s in bilgi["streams"] if s["codec_type"] == "audio")
     fps = eval(v["r_frame_rate"])
     vs, as_ = float(v["duration"]), float(a["duration"])
-    test("Görüntü biçimi", (v["width"], v["height"]) == (1920, 1080) and abs(fps - 30) < 0.01 and v["codec_name"] == "h264"
+    dikey = bool(senaryo.get("dikey"))
+    test("Görüntü biçimi", (v["width"], v["height"]) == ((1080, 1920) if dikey else (1920, 1080)) and abs(fps - 30) < 0.01 and v["codec_name"] == "h264"
          and a["codec_name"] == "aac", f"{v['width']}x{v['height']} {fps:.0f} fps {v['codec_name']}/{a['codec_name']}")
     test("Video ve ses süresi tutarlı", abs(vs - as_) < 0.5, f"video {vs:.1f} sn, ses {as_:.1f} sn")
+    if dikey:
+        test("Shorts süresi (≤ 60 sn)", vs <= 60.0, f"{vs:.1f} sn")
 
     # 3
     r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(video), "-af", "ebur128=peak=true", "-f", "null", "-"],
@@ -129,16 +132,18 @@ def main():
     test("Açıklama uzunluğu ve karakterleri", len(aciklama) <= 5000 and "<" not in aciklama and ">" not in aciklama,
          f"{len(aciklama)} karakter")
     test("Etiketler (toplam ≤ 500)", sum(len(e) for e in etiketler) + 2 * (len(etiketler) - 1) <= 500, f"{len(etiketler)} etiket")
-    bolumler = [(int(m), int(s), ad) for m, s, ad in re.findall(r"^(\d+):(\d{2}) (.+)$", aciklama, re.M)]
+    bolumler = [] if dikey else [(int(m), int(s), ad) for m, s, ad in re.findall(r"^(\d+):(\d{2}) (.+)$", aciklama, re.M)]
     saniye = [m * 60 + s for m, s, _ in bolumler]
-    test("Bölümler (YouTube kuralları)", saniye and saniye[0] == 0 and len(saniye) >= 3
+    if not dikey:
+      test("Bölümler (YouTube kuralları)", saniye and saniye[0] == 0 and len(saniye) >= 3
          and all(b - a >= 10 for a, b in zip(saniye, saniye[1:] + [vs])), f"{len(saniye)} bölüm, en kısa "
          f"{min(b - a for a, b in zip(saniye, saniye[1:] + [vs])):.0f} sn")
 
     # 9
     kapak = klasor / "kapak.jpg"
-    im = Image.open(kapak)
-    test("Kapak", im.size == (1280, 720) and im.format == "JPEG" and kapak.stat().st_size < 2 * 1024 * 1024,
+    if not dikey:
+      im = Image.open(kapak)
+      test("Kapak", im.size == (1280, 720) and im.format == "JPEG" and kapak.stat().st_size < 2 * 1024 * 1024,
          f"{im.size[0]}x{im.size[1]}, {kapak.stat().st_size // 1024} KB")
 
     kalan = [s for s in sonuclar if not s[1]]

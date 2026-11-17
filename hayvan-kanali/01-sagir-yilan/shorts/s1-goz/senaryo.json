@@ -1,0 +1,55 @@
+{
+  "dikey": true,
+  "baslik": "Göz Kırpıyorsa Yılan Değildir! 🐍 #shorts",
+  "aciklama": "Sağır yılan aslında bacaksız bir kertenkele: göz kırpar, kuyruğunu koparabilir, zehri yoktur. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\n#shorts #sağıryılan #kertenkele #doğa #bahçe",
+  "etiketler": [
+    "sağır yılan",
+    "kertenkele",
+    "yılan mı",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "YILAN DEĞİL!",
+    "Göz kırpıyor"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/bahce_kuslar.ogg",
+    "seviye": 0.12,
+    "kaynak": "“Birdsong mild sunny day”, stephan, Wikimedia Commons (kamu malı)"
+  },
+  "ana_video": "Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)",
+  "sahneler": [
+    {
+      "ad": "Göz Kırpıyorsa Yılan Değildir! 🐍 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Bahçede bunu görürsen, önce gözlerine bak."
+        },
+        {
+          "yazi": "Halk arasında ona sağır yılan deniyor, ama o bir yılan değil."
+        },
+        {
+          "yazi": "Bacaksız bir kertenkele."
+        },
+        {
+          "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz."
+        },
+        {
+          "yazi": "Sağır yılanın gerçek göz kapakları var."
+        },
+        {
+          "yazi": "Üstelik tıpkı kertenkeleler gibi kuyruğunu koparabiliyor."
+        },
+        {
+          "yazi": "Zehri yok ve bahçendeki sümüklü böcekleri avlıyor."
+        },
+        {
+          "yazi": "Onu öldürme. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

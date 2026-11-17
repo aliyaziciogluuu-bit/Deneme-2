@@ -1,0 +1,121 @@
+{
+ "shorts": [
+  {
+   "ad": "s1-goz",
+   "baslik": "Göz Kırpıyorsa Yılan Değildir! 🐍 #shorts",
+   "aciklama": "Sağır yılan aslında bacaksız bir kertenkele: göz kırpar, kuyruğunu koparabilir, zehri yoktur. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\n#shorts #sağıryılan #kertenkele #doğa #bahçe",
+   "etiketler": [
+    "sağır yılan",
+    "kertenkele",
+    "yılan mı",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "YILAN DEĞİL!",
+    "Göz kırpıyor"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Bahçede bunu görürsen, önce gözlerine bak.",
+     "gorsel": "tas_alti",
+     "klip": "tas_alti",
+     "kx": 0.55
+    },
+    {
+     "yazi": "Halk arasında ona sağır yılan deniyor, ama o bir yılan değil.",
+     "gorsel": "portre",
+     "x": 0.75
+    },
+    {
+     "yazi": "Bacaksız bir kertenkele.",
+     "gorsel": "mavi_benek",
+     "x": 0.6
+    },
+    {
+     "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
+     "gorsel": "yilan_goz",
+     "x": 0.5,
+     "etiket": "Yılan: göz kapağı yok"
+    },
+    {
+     "yazi": "Sağır yılanın gerçek göz kapakları var.",
+     "gorsel": "goz",
+     "klip": "goz",
+     "kx": 0.4,
+     "etiket": "Sağır yılan: göz kırpar"
+    },
+    {
+     "yazi": "Üstelik tıpkı kertenkeleler gibi kuyruğunu koparabiliyor.",
+     "gorsel": "kuyruk",
+     "klip": "kuyruk",
+     "kx": 0.35
+    },
+    {
+     "yazi": "Zehri yok ve bahçendeki sümüklü böcekleri avlıyor.",
+     "gorsel": "salyangoz",
+     "klip": "salyangoz",
+     "kx": 0.35
+    },
+    {
+     "yazi": "Onu öldürme. Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.62
+    }
+   ]
+  },
+  {
+   "ad": "s2-54yil",
+   "baslik": "54 Yıl Yaşayan Kertenkele! 😮 #shorts",
+   "aciklama": "Sağır yılanın Avrupa'daki akrabası bakım altında 54 yıl yaşadı (Kopenhag, 1892–1946). Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\nKaynak: Guinness World Records – Oldest lizard\n\n#shorts #sağıryılan #kertenkele #rekor #doğa",
+   "etiketler": [
+    "sağır yılan",
+    "kertenkele",
+    "rekor",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "54 YIL",
+    "yaşayan kertenkele"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Bahçende gördüğün bu parlak hayvan, bilinen en uzun ömürlü kertenkelelerden birinin akrabası.",
+     "gorsel": "tas_alti",
+     "klip": "tas_alti",
+     "kx": 0.55
+    },
+    {
+     "yazi": "Ona sağır yılan diyoruz, ama aslında bacaksız bir kertenkele.",
+     "gorsel": "portre",
+     "x": 0.75
+    },
+    {
+     "yazi": "Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı.",
+     "gorsel": "kapak",
+     "x": 0.6,
+     "etiket": "Kopenhag, 1892–1946"
+    },
+    {
+     "yazi": "Doğada ömrü çok daha kısa; çoğu birey on yılı göremiyor.",
+     "gorsel": "orman",
+     "klip": "orman",
+     "kx": 0.5
+    },
+    {
+     "yazi": "Onu yılan sanıp öldürenler, arabalar ve çim biçme makineleri en büyük tehlikeleri arasında.",
+     "gorsel": "cim",
+     "x": 0.22,
+     "x2": 0.68,
+     "w": 1.0
+    },
+    {
+     "yazi": "Bir dahaki sefere onu görürsen, rahat bırak. Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.62
+    }
+   ]
+  }
+ ]
+}

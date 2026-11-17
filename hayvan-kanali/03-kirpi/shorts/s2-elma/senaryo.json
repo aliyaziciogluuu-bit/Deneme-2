@@ -1,0 +1,49 @@
+{
+  "dikey": true,
+  "baslik": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
+  "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık 2000 yıl önce Romalı yazar Plinius'a dayanıyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #efsane #doğa",
+  "etiketler": [
+    "kirpi",
+    "kirpi elma",
+    "efsane",
+    "shorts"
+  ],
+  "ust_yazi": [
+    "SIRTINDA ELMA",
+    "taşır mı?"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Öldürebilirsin)",
+  "sahneler": [
+    {
+      "ad": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Kirpiler sırtlarında elma taşır mı?"
+        },
+        {
+          "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
+          "ses": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'a kadar uzanıyor."
+        },
+        {
+          "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor."
+        },
+        {
+          "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok."
+        },
+        {
+          "yazi": "Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor."
+        },
+        {
+          "yazi": "Asıl menüsünde böcekler, tırtıllar, solucanlar ve salyangozlar var. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}
