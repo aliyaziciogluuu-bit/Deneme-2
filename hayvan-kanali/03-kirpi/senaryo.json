@@ -54,7 +54,7 @@
           "yazi": "İçin ısınıyor ve aklına ilk gelen şeyi yapıyorsun: bir kaba biraz süt koyup önüne bırakıyorsun."
         },
         {
-          "yazi": "Ama bu iyilik, kirpiyi hasta edebilir."
+          "yazi": "Ama bu iyi niyetli hareket, onu hasta edebilir."
         },
         {
           "yazi": "Hatta zayıf bir kirpiyse ya da bir yavruysa, öldürebilir."
@@ -86,7 +86,7 @@
           "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir."
         },
         {
-          "yazi": "Laktozsuz süt de, bitki sütleri de bahçedeki bir kirpi için doğru seçim değil."
+          "yazi": "Laktozu alınmış süt ya da bitki sütleri de bahçedeki bir kirpi için doğru seçim değil."
         },
         {
           "yazi": "Ekmek de iyi bir seçim değil; karnını doyurur ama ona gereken besinleri vermez."
@@ -126,7 +126,8 @@
           "yazi": "Türkiye'de üç kirpi türü yaşıyor."
         },
         {
-          "yazi": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli akgöğüslü kirpi."
+          "yazi": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli akgöğüslü kirpi.",
+          "ses": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli ak göğüslü kirpi."
         },
         {
           "yazi": "Trakya'da da onun yakın akrabası Balkan kirpisi yaşıyor."
@@ -163,7 +164,7 @@
       "ad": "Sırtında elma taşır mı?",
       "cumleler": [
         {
-          "yazi": "Kirpilerle ilgili en eski efsanelerden biri, sırtına meyve takıp yuvasına taşıdığı."
+          "yazi": "Kirpilerle ilgili en eski efsanelerden biri, sırtına meyve takıp yuvasına taşıdığı inancı."
         },
         {
           "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
@@ -279,7 +280,7 @@
           "yazi": "Kirpiler bir gecede birkaç kilometreye kadar yol yürüyebiliyor."
         },
         {
-          "yazi": "Bu yüzden bahçe duvarının ya da çitin dibinde açılan yaklaşık on üç santimetrelik bir delik, onlar için bir geçit oluyor."
+          "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan yaklaşık on üç santimetrelik bir delik, onlar için bir geçit oluyor."
         },
         {
           "yazi": "Bahçenin bir köşesinde bırakılan yaprak yığını da onlara yuva oluyor."
@@ -296,7 +297,7 @@
       "ad": "Kapanış",
       "cumleler": [
         {
-          "yazi": "Kirpi ne süt ister, ne de ekmek."
+          "yazi": "Bir kirpi ne süt ister, ne de ekmek."
         },
         {
           "yazi": "Sadece biraz su, güvenli bir köşe ve geceleri dolaşabileceği bir bahçe."

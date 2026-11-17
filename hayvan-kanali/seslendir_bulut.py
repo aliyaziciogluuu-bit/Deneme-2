@@ -36,7 +36,8 @@ DENEME = 4
 # Yabancı/Latince kelimelerin konuşma tanımada çıkan eşdeğer yazımları (okuma doğru, yalnızca yazım farklı)
 ESDEGER = {"geco": "geko", "gecko": "geko", "gecolar": "gekolar", "turkicus": "turcicus", "turkikus": "turcicus",
            "hemidaktilus": "hemidactylus", "ortadoğu": "orta doğu", "ciyaklama": "cıyaklama", "koçi": "kotschy",
-           "kotschi": "kotschy", "anguis": "anguis", "kolkika": "colchica", "fracilis": "fragilis"}
+           "kotschi": "kotschy", "anguis": "anguis", "kolkika": "colchica", "fracilis": "fragilis",
+           "plinyus": "plinius", "plinyos": "plinius", "salia": "salya", "sendeliyen": "sendeleyen"}
 
 BIR = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
 ON = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
