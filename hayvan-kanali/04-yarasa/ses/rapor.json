@@ -108,10 +108,10 @@
   "uygun": true
  },
  "015": {
-  "yazi": "Hayır. Bu, kuşaktan kuşağa anlatılan bir efsane.",
-  "duyulan": "Hayır, bu kuşaktan kuşağı anlatılan bir efsane.",
-  "hata": 1,
-  "sure": 3.82,
+  "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane.",
+  "duyulan": "Hayır, bu nesilden nesile anlatılan bir efsane.",
+  "hata": 0,
+  "sure": 4.02,
   "uygun": true,
   "tek_basina": true
  },
@@ -246,8 +246,9 @@
   "yazi": "Bu kadar yavaş çoğaldıkları için, bir koloninin zarar görmesi o bölgedeki yarasaları uzun yıllar etkileyebiliyor.",
   "duyulan": "Bu kadar yavaş çoğaldıkları için bir koloninin zarar görmesi o bölgedeki yarasaları uzun yıllar etkileyebiliyor.",
   "hata": 0,
-  "sure": 6.9,
-  "uygun": true
+  "sure": 7.5,
+  "uygun": true,
+  "tek_basina": true
  },
  "035": {
   "yazi": "Buna karşılık şaşırtıcı derecede uzun yaşıyorlar.",
@@ -260,8 +261,9 @@
   "yazi": "Sibirya'da halkalanan küçük bir yarasa, en az kırk bir yıl yaşadı.",
   "duyulan": "Sibirya'da halkalanan küçük bir yarasa en az 41 yıl yaşadı.",
   "hata": 0,
-  "sure": 4.12,
-  "uygun": true
+  "sure": 4.3,
+  "uygun": true,
+  "tek_basina": true
  },
  "037": {
   "yazi": "Kış gelince böcekler azalıyor ve yarasalar mağaralara, eski binalara, çatı aralarına çekilip kış uykusuna yatıyor.",
@@ -281,8 +283,9 @@
   "yazi": "Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
   "duyulan": "Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
   "hata": 0,
-  "sure": 3.94,
-  "uygun": true
+  "sure": 4.1,
+  "uygun": true,
+  "tek_basina": true
  },
  "040": {
   "yazi": "Şimdi en önemli kısma gelelim.",
@@ -299,10 +302,10 @@
   "uygun": true
  },
  "042": {
-  "yazi": "Yarasaların çok azı kuduz taşır, ama hangisinin taşıdığını bakarak anlayamazsın.",
-  "duyulan": "Yarasaların çok azı kudus taşır ama hangisinin taşıdığını bakarak anlayamazsın.",
-  "hata": 1,
-  "sure": 4.94,
+  "yazi": "Yarasaların çok azı kuduz virüsü taşır, ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "duyulan": "yarasaların çok azı kuduz virüsü taşır ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "hata": 0,
+  "sure": 5.72,
   "uygun": true,
   "tek_basina": true
  },
@@ -406,11 +409,12 @@
   "uygun": true
  },
  "057": {
-  "yazi": "Bahçene bir yarasa kutusu asarak onlara güvenli bir barınak sağlayabilirsin.",
-  "duyulan": "Bahçene bir yara sakutusu asarak onlara güvenli bir barınak sağlayabilirsin.",
+  "yazi": "Bahçene yarasalar için özel bir kutu asarak onlara güvenli bir barınak sağlayabilirsin.",
+  "duyulan": "bahçene yara salar için özel bir kutu asarak onlara güvenli bir barınak sağlayabilirsin.",
   "hata": 0,
-  "sure": 4.73,
-  "uygun": true
+  "sure": 5.48,
+  "uygun": true,
+  "tek_basina": true
  },
  "058": {
   "yazi": "Böcek ilacını azaltmak da, yarasaların besin bulmasına yardım eder.",
@@ -442,10 +446,11 @@
  },
  "062": {
   "yazi": "Senin oralarda yarasayla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.",
-  "duyulan": "Senin oralarda Yarasa'yla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.",
+  "duyulan": "Senin oralarda Yarasa'yla ilgili hangi inanışlar anlatılıyor, yorumlarda yaz.",
   "hata": 0,
-  "sure": 4.54,
-  "uygun": true
+  "sure": 4.66,
+  "uygun": true,
+  "tek_basina": true
  },
  "063": {
   "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
