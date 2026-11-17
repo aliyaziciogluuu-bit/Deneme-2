@@ -39,12 +39,13 @@ def curl(*arg, cikti=None):
 def uret(klasor, liste, onay):
     adaylar = klasor / "adaylar"
     adaylar.mkdir(exist_ok=True)
-    print(f"{len(liste)} görsel × {ADAY} aday = {len(liste) * ADAY} istek, tahmini maliyet ≈ {len(liste) * ADAY * FIYAT:.2f} $")
+    adet = sum(g.get("aday", ADAY) for g in liste)
+    print(f"{len(liste)} görsel, {adet} aday, tahmini maliyet ≈ {adet * FIYAT:.2f} $")
     if not onay:
         raise SystemExit("Harcama yapılmadı. Onaylıyorsan aynı komutu --onay ile çalıştır.")
     for g in liste:
         istem = f"{g['istem']} {STIL}"
-        for n in range(1, ADAY + 1):
+        for n in range(1, g.get("aday", ADAY) + 1):  # hayvanın görünmediği sahnelerde "aday": 1 yeterli
             if (adaylar / f"{g['ad']}_{n}.jpg").exists():
                 continue
             girdi = {"prompt": istem, "aspect_ratio": g.get("oran", "16:9"), "output_format": "jpg",
