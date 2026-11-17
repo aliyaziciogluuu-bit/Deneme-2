@@ -1,0 +1,130 @@
+{
+ "not": "K=kukumav, P=peçeli baykuş, A=alaca baykuş, I=ishakkuşu. Kulak püskülü yalnızca ishakkuşunda olur; diğerlerinde püskül çıkarsa aday kullanılmaz.",
+ "gorseller": [
+  {
+   "ad": "gece_koy",
+   "istem": "Night in a Turkish village: old stone houses with clay-tile roofs under a full moon, warm light in one window; on the ridge of a roof sits a little owl (Athene noctua): small compact owl with a rounded flat-topped head and NO ear tufts, grey-brown plumage densely spotted with white on the head and back, pale underparts with brown streaks, bright lemon-yellow eyes with black pupils under pale whitish eyebrows, short tail, longish legs covered in pale feathers, realistic bird anatomy, seen from a slight distance, moonlit.",
+   "aday": 2
+  },
+  {
+   "ad": "buyukler",
+   "istem": "Night inside a simple Turkish village house: an elderly grandmother with a headscarf and an elderly grandfather sitting on floor cushions by an oil lamp exchange worried glances toward the dark window. Cosy, gentle mood.",
+   "aday": 1
+  },
+  {
+   "ad": "kovalama",
+   "istem": "Night, a Turkish village: a man leans out of a lit window waving a cloth to shoo away a little owl (Athene noctua): small compact owl with a rounded flat-topped head and NO ear tufts, grey-brown plumage densely spotted with white on the head and back, pale underparts with brown streaks, bright lemon-yellow eyes with black pupils under pale whitish eyebrows, short tail, longish legs covered in pale feathers, realistic bird anatomy sitting on a nearby stone garden wall; moonlight, light-hearted mood.",
+   "aday": 1
+  },
+  {
+   "ad": "bekci",
+   "istem": "Dusk over farm fields in rural Anatolia: a little owl (Athene noctua): small compact owl with a rounded flat-topped head and NO ear tufts, grey-brown plumage densely spotted with white on the head and back, pale underparts with brown streaks, bright lemon-yellow eyes with black pupils under pale whitish eyebrows, short tail, longish legs covered in pale feathers, realistic bird anatomy sits alert on a wooden fence post, watching over the fields, warm last light on the horizon.",
+   "aday": 2
+  },
+  {
+   "ad": "harabe",
+   "istem": "Twilight: a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy perched in the empty window opening of a ruined, abandoned stone house overgrown with ivy and weeds.",
+   "aday": 2
+  },
+  {
+   "ad": "sikke",
+   "istem": "Close-up of an ancient silver Greek coin from Athens lying on dark velvet cloth: the coin shows a little owl standing in profile with large frontal eyes beside a small olive sprig and a crescent moon, worn silver texture, museum lighting. The coin has no letters.",
+   "aday": 2
+  },
+  {
+   "ad": "kukumav_portre",
+   "istem": "Portrait of a little owl (Athene noctua): small compact owl with a rounded flat-topped head and NO ear tufts, grey-brown plumage densely spotted with white on the head and back, pale underparts with brown streaks, bright lemon-yellow eyes with black pupils under pale whitish eyebrows, short tail, longish legs covered in pale feathers, realistic bird anatomy perched on an old stone wall, looking straight at the viewer with intense yellow eyes, soft daylight, blurred green background.",
+   "aday": 2
+  },
+  {
+   "ad": "kukumav_dam",
+   "istem": "Sunny daytime in a Turkish village: a little owl (Athene noctua): small compact owl with a rounded flat-topped head and NO ear tufts, grey-brown plumage densely spotted with white on the head and back, pale underparts with brown streaks, bright lemon-yellow eyes with black pupils under pale whitish eyebrows, short tail, longish legs covered in pale feathers, realistic bird anatomy sits on the edge of a clay-tile roof next to a chimney, blue sky, a few sparrows far away.",
+   "aday": 2
+  },
+  {
+   "ad": "peceli_portre",
+   "istem": "Portrait of a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy perched on a wooden beam, facing the viewer, soft warm light, dark background, the heart-shaped face clearly visible.",
+   "aday": 2
+  },
+  {
+   "ad": "ambar",
+   "istem": "Inside an old wooden barn hayloft with stacked straw bales and wooden beams, dusty sunbeams; a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy sits on a beam near a gap in the wall.",
+   "aday": 2
+  },
+  {
+   "ad": "alaca",
+   "istem": "Night in an old oak woodland near a village: a tawny owl (Strix aluco): stocky medium-sized owl, large round head with NO ear tufts, round facial disc with big dark black-brown eyes, mottled reddish-brown plumage with dark streaks, realistic bird anatomy perched on a thick branch, calling with its beak slightly open and throat feathers puffed, moonlight through the leaves.",
+   "aday": 2
+  },
+  {
+   "ad": "ishak",
+   "istem": "Summer night in a garden with an old walnut tree: a Eurasian scops owl (Otus scops): tiny slender owl, grey-brown plumage with fine bark-like streaks, two small erect ear tufts, yellow eyes, realistic bird anatomy sits pressed against the tree trunk, perfectly camouflaged like a piece of bark; soft moonlight, a lit house window in the distance.",
+   "aday": 2
+  },
+  {
+   "ad": "ucus",
+   "istem": "Night: a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy glides silently low over a moonlit meadow with its broad rounded wings fully spread, seen from the side, stars in the sky.",
+   "aday": 2
+  },
+  {
+   "ad": "tuy",
+   "istem": "Naturalist scientific illustration on parchment: a single large owl flight feather, the leading edge lined with tiny comb-like serrations and the trailing edge with a soft hair-like fringe, shown with a magnified circular inset of the comb-like serrations. No labels.",
+   "aday": 2
+  },
+  {
+   "ad": "fare",
+   "istem": "Night in a grassy field: a small field mouse sits on its hind legs nibbling a seed, unaware, moonlight; the faint shadow of a large bird with spread wings falls on the grass.",
+   "aday": 1
+  },
+  {
+   "ad": "karanlik_av",
+   "istem": "Night: a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy swoops down from above onto a small mouse in the grass, wings raised high, legs and talons stretched forward, dramatic moonlight.",
+   "aday": 2
+  },
+  {
+   "ad": "bas_cevir",
+   "istem": "a little owl (Athene noctua): small compact owl with a rounded flat-topped head and NO ear tufts, grey-brown plumage densely spotted with white on the head and back, pale underparts with brown streaks, bright lemon-yellow eyes with black pupils under pale whitish eyebrows, short tail, longish legs covered in pale feathers, realistic bird anatomy perched on a branch, its body facing away from the viewer while its head is turned all the way back to look over its shoulder at the viewer, natural and realistic, soft daylight.",
+   "aday": 2
+  },
+  {
+   "ad": "goz",
+   "istem": "Extreme close-up of the face of a tawny owl (Strix aluco): stocky medium-sized owl, large round head with NO ear tufts, round facial disc with big dark black-brown eyes, mottled reddish-brown plumage with dark streaks, realistic bird anatomy: the large dark eyes and the round facial disc of fine feathers fill the frame, soft light.",
+   "aday": 2
+  },
+  {
+   "ad": "pelet",
+   "istem": "Naturalist still life on a wooden table: three grey owl pellets made of compressed fur, one carefully pulled apart revealing tiny rodent bones and skulls, a magnifying glass and tweezers beside them.",
+   "aday": 2
+  },
+  {
+   "ad": "yuva_kutusu",
+   "istem": "Dusk in an agricultural field in the Middle East: a large wooden owl nest box mounted on top of a tall pole with a big square entrance opening; a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy sits on the roof of the box; crops in the background.",
+   "aday": 2
+  },
+  {
+   "ad": "yol",
+   "istem": "Night: a country road at the edge of a field with car headlights approaching in the distance; a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy flies low across the road. Cautionary but not graphic.",
+   "aday": 1
+  },
+  {
+   "ad": "yavru_dal",
+   "istem": "Spring evening: a fluffy grey-white tawny owl chick covered in soft down, with big dark eyes and no ear tufts, sits on a low branch of a tree; the adult tawny owl watches from a higher branch, a tawny owl (Strix aluco): stocky medium-sized owl, large round head with NO ear tufts, round facial disc with big dark black-brown eyes, mottled reddish-brown plumage with dark streaks, realistic bird anatomy.",
+   "aday": 2
+  },
+  {
+   "ad": "yavru_yer",
+   "istem": "Spring: a fluffy grey-white downy owl chick with big dark eyes sits on fallen leaves at the foot of a tree near a garden, looking curious, natural light.",
+   "aday": 2
+  },
+  {
+   "ad": "kapanis",
+   "istem": "Dawn breaking over a peaceful Turkish village with tiled roofs and minaret in the distance, soft pink sky; a little owl (Athene noctua): small compact owl with a rounded flat-topped head and NO ear tufts, grey-brown plumage densely spotted with white on the head and back, pale underparts with brown streaks, bright lemon-yellow eyes with black pupils under pale whitish eyebrows, short tail, longish legs covered in pale feathers, realistic bird anatomy sits calmly on a chimney looking out over the village.",
+   "aday": 2
+  },
+  {
+   "ad": "kapak",
+   "istem": "Dramatic close-up of a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy on a dark night background, the bird positioned in the right half of the frame, face turned toward the viewer, moonlight rim light, mysterious but beautiful, empty dark space on the left side.",
+   "aday": 2
+  }
+ ]
+}

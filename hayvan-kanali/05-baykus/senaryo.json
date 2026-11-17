@@ -1,0 +1,306 @@
+{
+  "baslik": "Baykuş Uğursuz mu? (Köyün Gece Bekçisi)",
+  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları kullanılmadı. Türler: kukumav, peçeli baykuş, alaca baykuş, ishakkuşu.",
+  "aciklama": "Gece yarısı çatıdan boğuk bir ses geliyor ve evin büyükleri hemen söylüyor: \"Baykuş öttü, hayra alamet değil.\" Peki baykuş gerçekten uğursuz mu?\n\nBu videoda Türkiye'de evlerin çevresinde yaşayan baykuşları tanıyoruz: kukumav, peçeli baykuş, alaca baykuş ve sesini çoğu kişinin duyup pek azının gördüğü ishakkuşu. Baykuşun neden sessiz uçtuğunu, karanlıkta avını nasıl sesinden bulduğunu, başını neden tam tur çeviremediğini ve köyün en çalışkan fare avcısı olduğunu anlatıyoruz.\n\nYerde yavru baykuş bulursan ne yapmalısın, baykuşlar gündüz kör mü, baykuş neden uğursuz sayılır diye merak ediyorsan cevaplar videoda. Unutma: Türkiye'de baykuşlar koruma altında.",
+  "yorum_sorusu": "Senin oralarda baykuşla ilgili hangi inanışlar anlatılıyor? Geceleri evinin çevresinde baykuş sesi duyuyor musun? Yorumlarda konuşalım.",
+  "kaynaklar": [
+    "Payne, R.S. (1971). Peçeli baykuşun avını sesle bulması. Journal of Experimental Biology 54(3). doi:10.1242/jeb.54.3.535",
+    "de Kok-Mercado, F. ve ark. (2013). Baykuşun aşırı boyun dönüşüne uyum sağlayan atardamarları. Science 339(6119). doi:10.1126/science.339.6119.514",
+    "Rao, C. ve ark. (2017). Baykuş kanadındaki ön kenar dişleri ve ses bastırma. Bioinspiration & Biomimetics 12. doi:10.1088/1748-3190/aa7013",
+    "Johnson, M.D. & St. George, D. – Bağlardaki yuva kutularında peçeli baykuşların avladığı kemirgen sayısı. Vertebrate Pest Conference: escholarship.org/uc/item/4jj7r78x",
+    "Frontiers for Young Minds (2023). Tarımda biyolojik mücadele olarak peçeli baykuşlar (İsrail). doi:10.3389/frym.2023.1182137",
+    "Barn Owl Trust – Alaca ve peçeli baykuş yavruları: barnowltrust.org.uk/owl-facts-for-kids/tawny-barn-owl-owlets",
+    "4915 sayılı Kara Avcılığı Kanunu ve Merkez Av Komisyonu kararları – Tarım ve Orman Bakanlığı DKMP: tarimorman.gov.tr/DKMP",
+    "TDV İslâm Ansiklopedisi – Uğursuzluk maddesi: islamansiklopedisi.org.tr/ugursuzluk"
+  ],
+  "etiketler": [
+    "baykuş",
+    "baykuş uğursuz mu",
+    "baykuş neden uğursuz",
+    "kukumav",
+    "peçeli baykuş",
+    "ishakkuşu",
+    "alaca baykuş",
+    "baykuş başını nasıl çevirir",
+    "yavru baykuş bulursam",
+    "yaban hayatı",
+    "doğa",
+    "Avludaki Komşular"
+  ],
+  "kapak": {
+    "gorsel": "kapak",
+    "buyuk": [
+      "UĞURSUZ",
+      "MU?"
+    ],
+    "kucuk": "Köyün gece bekçisi",
+    "konum": "sol"
+  },
+  "ambiyans": {
+    "dosya": "../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "sahneler": [
+    {
+      "ad": "Çatıdaki ses",
+      "cumleler": [
+        {
+          "yazi": "Gece yarısı, köyde herkes uyurken çatının üstünden boğuk, uzun bir ses yükseliyor."
+        },
+        {
+          "yazi": "Evdeki büyükler hemen birbirine bakıyor: baykuş öttü, hayra alamet değil."
+        },
+        {
+          "yazi": "Kimi pencereden onu kovalıyor, kimi taş atıyor."
+        },
+        {
+          "yazi": "Peki baykuş gerçekten uğursuz mu?"
+        },
+        {
+          "yazi": "Yoksa yüzyıllardır yanlış tanıdığımız, köyün en çalışkan gece bekçisi mi?"
+        },
+        {
+          "yazi": "Bu videoda, evlerimizin çevresinde yaşayan baykuşları yakından tanıyacağız."
+        }
+      ]
+    },
+    {
+      "ad": "Uğursuzluk nereden geliyor?",
+      "cumleler": [
+        {
+          "yazi": "Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor."
+        },
+        {
+          "yazi": "Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir."
+        },
+        {
+          "yazi": "İnsanlar onu hep ıssız yerlerle, karanlıkla ve sessizlikle birlikte görmüş."
+        },
+        {
+          "yazi": "Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor."
+        },
+        {
+          "yazi": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi ve Atina'nın gümüş sikkelerinin üzerinde yer alıyordu.",
+          "ses": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi ve Atina'nın gümüş sikkelerinin üzerinde yer alıyordu."
+        },
+        {
+          "yazi": "Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti."
+        },
+        {
+          "yazi": "Baykuşun kendisi ne uğur getiriyor ne de uğursuzluk; sadece karnını doyurmaya çalışıyor."
+        }
+      ]
+    },
+    {
+      "ad": "Evinin çevresindeki baykuşlar",
+      "cumleler": [
+        {
+          "yazi": "Türkiye'de birçok baykuş türü yaşıyor, ama evlerin çevresinde en sık karşılaşılanlar birkaç tane."
+        },
+        {
+          "yazi": "Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri."
+        },
+        {
+          "yazi": "Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü."
+        },
+        {
+          "yazi": "Pek çok baykuşun aksine gündüz de ortaya çıkıyor; damlarda, direklerde ve taş duvarların üstünde oturuyor."
+        },
+        {
+          "yazi": "Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor."
+        },
+        {
+          "yazi": "Ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor."
+        },
+        {
+          "yazi": "Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş, çoğu zaman alaca baykuşa ait."
+        },
+        {
+          "yazi": "Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de ishakkuşu."
+        },
+        {
+          "yazi": "Bu minik baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor."
+        }
+      ]
+    },
+    {
+      "ad": "Sessiz uçuş",
+      "cumleler": [
+        {
+          "yazi": "Baykuşun en büyük sırlarından biri, neredeyse hiç ses çıkarmadan uçabilmesi."
+        },
+        {
+          "yazi": "Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var."
+        },
+        {
+          "yazi": "Bu dişler, kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor."
+        },
+        {
+          "yazi": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak."
+        },
+        {
+          "yazi": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor."
+        }
+      ]
+    },
+    {
+      "ad": "Kulakla avlanmak",
+      "cumleler": [
+        {
+          "yazi": "Baykuşlar karanlıkta iyi görür, ama gece avlananların asıl silahı kulakları."
+        },
+        {
+          "yazi": "Yüzünü çevreleyen tüy halkası, bir çanak anten gibi sesi toplayıp kulaklara yönlendiriyor."
+        },
+        {
+          "yazi": "Bazı baykuşlarda iki kulak deliği aynı hizada değil; biri diğerinden biraz daha yukarıda."
+        },
+        {
+          "yazi": "Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor."
+        },
+        {
+          "yazi": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş."
+        }
+      ]
+    },
+    {
+      "ad": "Başını nasıl çeviriyor?",
+      "cumleler": [
+        {
+          "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor."
+        },
+        {
+          "yazi": "Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş."
+        },
+        {
+          "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor."
+        },
+        {
+          "yazi": "Halk arasında başını tam bir tur döndürdüğü söylenir, ama bu doğru değil."
+        },
+        {
+          "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü."
+        },
+        {
+          "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var."
+        },
+        {
+          "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş."
+        },
+        {
+          "yazi": "Gündüz kör oldukları da bir efsane; baykuşlar gün ışığında da görebiliyor."
+        }
+      ]
+    },
+    {
+      "ad": "Köyün fare avcısı",
+      "cumleler": [
+        {
+          "yazi": "Peçeli baykuşun menüsünde en çok fareler ve tarla fareleri var; kukumav ve ishakkuşu böcekleri de severek yiyor."
+        },
+        {
+          "yazi": "Avlarını çoğu zaman bütün olarak yutuyorlar."
+        },
+        {
+          "yazi": "Sindiremedikleri kemikleri ve tüyleri de küçük topaklar halinde geri çıkarıyorlar."
+        },
+        {
+          "yazi": "Bilim insanları bu topakları inceleyerek, bir bölgede hangi küçük memelilerin yaşadığını öğreniyor."
+        },
+        {
+          "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor."
+        },
+        {
+          "yazi": "Bu yüzden İsrail başta olmak üzere birçok ülkede çiftçiler, fare zehrini azaltmak için tarlalarına baykuş yuva kutuları koyuyor."
+        },
+        {
+          "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı."
+        }
+      ]
+    },
+    {
+      "ad": "Asıl tehlike",
+      "cumleler": [
+        {
+          "yazi": "Ne yazık ki baykuşlar için en büyük tehlikelerden biri insan."
+        },
+        {
+          "yazi": "Fare zehri, zehirlenmiş fareyi yiyen baykuşu da öldürebiliyor."
+        },
+        {
+          "yazi": "Geceleri yol kenarlarında avlanırken arabaların çarpması da pek çok baykuşun ölümüne yol açıyor."
+        },
+        {
+          "yazi": "Uğursuz sayıldığı için taşlanan, vurulan baykuşlar da var."
+        },
+        {
+          "yazi": "Türkiye'de baykuşlar koruma altında; onları öldürmek, yakalamak ve yuvalarına zarar vermek yasak."
+        }
+      ]
+    },
+    {
+      "ad": "Yerde yavru baykuş bulursan",
+      "cumleler": [
+        {
+          "yazi": "İlkbahar sonunda ve yaz başında, yerde ya da alçak bir dalda tüylü bir yavru baykuş görebilirsin."
+        },
+        {
+          "yazi": "Bazı baykuş yavruları, uçmayı tam öğrenmeden yuvadan çıkıp çevredeki dallarda dolaşıyor."
+        },
+        {
+          "yazi": "Çoğu zaman yalnız değiller; anne ve babaları yakınlarda onları beslemeye devam ediyor."
+        },
+        {
+          "yazi": "Yavru sağlıklı görünüyorsa onu eve götürme."
+        },
+        {
+          "yazi": "Kedi ve köpeklerden uzaksa olduğu yerde bırak ve uzaklaş; tehlikedeyse onu yakındaki bir dala ya da çalıya koy."
+        },
+        {
+          "yazi": "Yaralıysa, çok zayıfsa ya da kalp yüzlü bir peçeli baykuş yavrusuysa, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver."
+        },
+        {
+          "yazi": "Ona yiyecek ya da su vermeye çalışma."
+        },
+        {
+          "yazi": "Baykuşu tutman gerekirse kalın eldiven giy; pençeleri çok keskin. Sonra ellerini iyice yıka."
+        }
+      ]
+    },
+    {
+      "ad": "Baykuşa nasıl yardım edersin?",
+      "cumleler": [
+        {
+          "yazi": "Bahçende ve tarlanda fare zehri kullanmamak, baykuşlara yapabileceğin en büyük iyiliklerden biri."
+        },
+        {
+          "yazi": "Yaşlı ağaçları, taş duvarları ve eski ambarları korumak da onlara yuva yapacak yer bırakıyor."
+        },
+        {
+          "yazi": "Uygun bir yerin varsa, baykuşlar için bir yuva kutusu da asabilirsin."
+        }
+      ]
+    },
+    {
+      "ad": "Kapanış",
+      "cumleler": [
+        {
+          "yazi": "Baykuş ne ölüm getirir, ne de kötü haber."
+        },
+        {
+          "yazi": "O, biz uyurken tarlaları farelerden koruyan, gecenin sessiz bekçisi."
+        },
+        {
+          "yazi": "Bir dahaki sefere çatından o boğuk ses yükseldiğinde korkma; sadece komşun iş başında."
+        },
+        {
+          "yazi": "Senin oralarda baykuşla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz."
+        },
+        {
+          "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
+        }
+      ]
+    }
+  ]
+}
