@@ -51,8 +51,14 @@ def uret(klasor, liste, onay):
             girdi = {"prompt": istem, "aspect_ratio": g.get("oran", "16:9"), "output_format": "jpg",
                      "safety_tolerance": 2, "raw": False, "seed": 4242 + 97 * n}
             for bekle in (10, 20, 40, 60, 90, 0):
-                t = curl("-X", "POST", f"{API}/models/{MODEL}/predictions", "-H", "Content-Type: application/json",
-                         "-H", "Prefer: wait=60", "-d", json.dumps({"input": girdi}))
+                try:
+                    t = curl("-X", "POST", f"{API}/models/{MODEL}/predictions", "-H", "Content-Type: application/json",
+                             "-H", "Prefer: wait=60", "-d", json.dumps({"input": girdi}))
+                except subprocess.CalledProcessError as hata:  # anlık ağ kopması: bekle, yeniden dene
+                    print(f"  {g['ad']} aday {n}: bağlantı hatası (curl {hata.returncode}), {bekle} sn sonra yeniden", flush=True)
+                    t = {}
+                    time.sleep(bekle or 5)
+                    continue
                 if "id" in t or not bekle:  # id yoksa istek kabul edilmedi (ör. hız sınırı); tahmin oluşmadığı için yeniden denemek güvenli
                     break
                 print(f"  {g['ad']} aday {n}: API yanıtı {str(t)[:160]} ; {bekle} sn sonra yeniden", flush=True)

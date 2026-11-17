@@ -1,0 +1,946 @@
+{
+ "not": "Her çekim sırayla 'n' cümleyi kaplar. a/b: [merkez_x, merkez_y, genişlik]. 'klip' varsa klipler/<ad>.mp4 oynar.",
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "balkon_aksam",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "balkon_aksam"
+  },
+  {
+   "n": 1,
+   "gorsel": "bagiran",
+   "a": [
+    0.3,
+    0.42,
+    0.55
+   ],
+   "b": [
+    0.3,
+    0.42,
+    0.45
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "bagiran",
+   "a": [
+    0.3,
+    0.4,
+    0.5
+   ],
+   "b": [
+    0.3,
+    0.4,
+    0.42
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "balkon_aksam",
+   "a": [
+    0.6,
+    0.3,
+    0.7
+   ],
+   "b": [
+    0.6,
+    0.3,
+    0.55
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "lamba_yarasa",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "lamba_yarasa"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Çıplak elle dokunma"
+  },
+  {
+   "n": 1,
+   "gorsel": "kapak",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "karart": 0.5,
+   "baslik": {
+    "buyuk": "YARASA",
+    "kucuk": "Gecenin sessiz avcısı"
+   }
+  },
+  {
+   "n": 1,
+   "gorsel": "kanat",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Uçabilen tek memeli"
+  },
+  {
+   "n": 1,
+   "gorsel": "anne_yavru",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "anne_yavru"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Kemirgen değil"
+  },
+  {
+   "n": 1,
+   "gorsel": "kanat",
+   "a": [
+    0.3,
+    0.42,
+    0.6
+   ],
+   "b": [
+    0.3,
+    0.42,
+    0.45
+   ],
+   "etiket": "Kanat: uzamış parmak kemikleri"
+  },
+  {
+   "n": 1,
+   "gorsel": "kanat",
+   "a": [
+    0.72,
+    0.4,
+    0.6
+   ],
+   "b": [
+    0.72,
+    0.4,
+    0.45
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "tarla",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Dünyada 1.400'ü aşkın tür"
+  },
+  {
+   "n": 1,
+   "gorsel": "kapanis",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Türkiye'de 35'ten fazla tür"
+  },
+  {
+   "n": 1,
+   "gorsel": "bagiran",
+   "a": [
+    0.3,
+    0.42,
+    0.6
+   ],
+   "b": [
+    0.3,
+    0.42,
+    0.5
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "balkon_aksam",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Efsane"
+  },
+  {
+   "n": 1,
+   "gorsel": "lamba_yarasa",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "ekolokasyon",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "ekolokasyon",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "ekolokasyon"
+  },
+  {
+   "n": 1,
+   "gorsel": "ekolokasyon",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Ekolokasyon: yankıyla yön bulma"
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_avi",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "goz",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Yarasalar görebilir"
+  },
+  {
+   "n": 1,
+   "gorsel": "goz",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yagmur_ormani",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Kan emen 3 tür: Meksika – Güney Amerika"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.4,
+    0.5,
+    0.85
+   ],
+   "b": [
+    0.6,
+    0.5,
+    0.85
+   ],
+   "etiket": "Türkiye'de kan emen yarasa yok"
+  },
+  {
+   "n": 1,
+   "gorsel": "meyve_yarasasi",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_avi",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "lamba_yarasa",
+   "a": [
+    0.55,
+    0.4,
+    0.75
+   ],
+   "b": [
+    0.55,
+    0.4,
+    0.6
+   ],
+   "etiket": "Sivrisinek · güve · tarım zararlıları"
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_avi",
+   "a": [
+    0.5,
+    0.5,
+    0.7
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.55
+   ],
+   "etiket": "Bir gecede ~0,5–2 g böcek"
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_avi",
+   "a": [
+    0.5,
+    0.55,
+    0.55
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.42
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "tarla",
+   "a": [
+    0.4,
+    0.5,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "meyve_yarasasi",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Mısır meyve yarasası (güney kıyıları)"
+  },
+  {
+   "n": 1,
+   "gorsel": "anne_yavru",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Yılda genellikle 1 yavru"
+  },
+  {
+   "n": 1,
+   "gorsel": "koloni",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Doğum kolonisi"
+  },
+  {
+   "n": 1,
+   "gorsel": "koloni",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.55,
+    0.6,
+    0.7
+   ],
+   "b": [
+    0.55,
+    0.6,
+    0.5
+   ],
+   "etiket": "Rekor: en az 41 yıl (Sibirya)"
+  },
+  {
+   "n": 1,
+   "gorsel": "kis_uykusu",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Kış uykusu"
+  },
+  {
+   "n": 1,
+   "gorsel": "kis_uykusu",
+   "a": [
+    0.5,
+    0.5,
+    0.75
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.6
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kis_uykusu",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Kışın mağarada rahatsız etme"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "goz",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Kuduz ve benzeri virüsler"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yerde",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Asla çıplak elle dokunma"
+  },
+  {
+   "n": 1,
+   "gorsel": "yerde",
+   "a": [
+    0.5,
+    0.65,
+    0.7
+   ],
+   "b": [
+    0.5,
+    0.65,
+    0.55
+   ],
+   "etiket": "Yerdeki yarasaya yaklaşma"
+  },
+  {
+   "n": 1,
+   "gorsel": "el_yikama",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Isırık/tırmalama: en az 15 dk sabunlu su"
+  },
+  {
+   "n": 1,
+   "gorsel": "el_yikama",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Sağlık kuruluşuna başvur"
+  },
+  {
+   "n": 1,
+   "gorsel": "el_yikama",
+   "a": [
+    0.45,
+    0.6,
+    0.7
+   ],
+   "b": [
+    0.45,
+    0.6,
+    0.55
+   ],
+   "etiket": "Aşıya doktor karar verir"
+  },
+  {
+   "n": 1,
+   "gorsel": "oda",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "oda",
+   "a": [
+    0.6,
+    0.45,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.45,
+    0.65
+   ],
+   "etiket": "Işıkları kapat · pencereyi aç · odadan çık"
+  },
+  {
+   "n": 1,
+   "gorsel": "oda",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "oda"
+  },
+  {
+   "n": 1,
+   "gorsel": "oda",
+   "a": [
+    0.25,
+    0.7,
+    0.6
+   ],
+   "b": [
+    0.25,
+    0.7,
+    0.45
+   ],
+   "etiket": "Uyuyan biri ya da çocuk varsa: sağlık kuruluşuna danış"
+  },
+  {
+   "n": 1,
+   "gorsel": "kutu",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Kalın eldiven + kutu + karton"
+  },
+  {
+   "n": 1,
+   "gorsel": "kutu",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "DKMP şube müdürlüğü"
+  },
+  {
+   "n": 1,
+   "gorsel": "koloni",
+   "a": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.65
+   ],
+   "etiket": "Yarasalar yasal koruma altında"
+  },
+  {
+   "n": 1,
+   "gorsel": "koloni",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kapanis",
+   "a": [
+    0.5,
+    0.35,
+    0.75
+   ],
+   "b": [
+    0.5,
+    0.35,
+    0.6
+   ],
+   "etiket": "Yarasa kutusu: güvenli barınak"
+  },
+  {
+   "n": 1,
+   "gorsel": "tarla",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Daha az böcek ilacı"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "lamba_yarasa",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kapanis",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "kapanis"
+  },
+  {
+   "n": 1,
+   "gorsel": "balkon_aksam",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Senin oralarda ne anlatılıyor? Yorumlarda yaz"
+  },
+  {
+   "n": 1,
+   "gorsel": "kapanis",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "karart": 0.15
+  }
+ ]
+}

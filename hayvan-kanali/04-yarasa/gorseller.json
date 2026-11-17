@@ -1,5 +1,5 @@
 {
- "not": "Y = Türkiye şehirlerinde yaygın küçük böcekçil yarasa (Kuhl cüce yarasası); vampir dişi ve korku havası yok. Meyve yarasası ayrı tarif edilir.",
+ "not": "Y = Türkiye şehirlerinde yaygın küçük böcekçil yarasa (Kuhl cüce yarasası); vampir dişi ve korku havası yok. Meyve yarasası ayrı tarif edilir. Hastane ve yarasa kutusu görselleri doğru çizilemediği (İngilizce tabela, kuş yuvası deliği) için kullanılmadı.",
  "Y": "a small insect-eating bat (Kuhl's pipistrelle): tiny furry brown body, small dark brown face with small black eyes, short rounded ears, thin dark wing membranes stretched between long finger bones, a small clawed thumb at the wing joint, friendly and natural, no fangs, not scary",
  "gorseller": [
   {
@@ -83,11 +83,6 @@
    "aday": 1
   },
   {
-   "ad": "saglik",
-   "istem": "The entrance of a Turkish state hospital emergency department in the evening, a person walking in; calm, no blood, no injuries visible.",
-   "aday": 1
-  },
-  {
    "ad": "oda",
    "istem": "A dark bedroom at night with the lights switched off and the window wide open to the night sky; a small insect-eating bat (Kuhl's pipistrelle): tiny furry brown body, small dark brown face with small black eyes, short rounded ears, thin dark wing membranes stretched between long finger bones, a small clawed thumb at the wing joint, friendly and natural, no fangs, not scary flies out through the open window. Calm.",
    "aday": 2
@@ -96,11 +91,6 @@
    "ad": "kutu",
    "istem": "Hands wearing thick leather gloves gently placing a small cardboard box over a small insect-eating bat (Kuhl's pipistrelle): tiny furry brown body, small dark brown face with small black eyes, short rounded ears, thin dark wing membranes stretched between long finger bones, a small clawed thumb at the wing joint, friendly and natural, no fangs, not scary resting on a curtain, with a piece of cardboard ready to slide underneath. Careful and calm.",
    "aday": 2
-  },
-  {
-   "ad": "yarasa_kutusu",
-   "istem": "A wooden bat box (bat house with a narrow slot at the bottom) mounted high on a tree trunk in a Turkish garden at dusk.",
-   "aday": 1
   },
   {
    "ad": "kapanis",

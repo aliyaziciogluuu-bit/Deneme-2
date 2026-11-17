@@ -1,0 +1,41 @@
+{
+ "not": "Yarasalar korkutucu değil, doğal gösterilir; vampir dişi yok.",
+ "klipler": [
+  {
+   "ad": "balkon_aksam",
+   "gorsel": "balkon_aksam",
+   "sure": 5,
+   "istem": "A small bat flits quickly across the twilight sky above the balcony lamp, wings flapping naturally, steam rising gently from the tea cups. Slow camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "lamba_yarasa",
+   "gorsel": "lamba_yarasa",
+   "sure": 5,
+   "istem": "The bat swoops and flutters around the glowing street lamp chasing a moth, wings flapping naturally, moths fluttering in the light. Static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "ekolokasyon",
+   "gorsel": "ekolokasyon",
+   "sure": 5,
+   "istem": "The bat flies forward with flapping wings as soft glowing sound-wave arcs pulse outward from its mouth toward the fluttering moth and faint echo arcs return. Smooth gentle motion. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "anne_yavru",
+   "gorsel": "anne_yavru",
+   "sure": 5,
+   "istem": "The mother bat hanging from the beam gently wraps her wing around the baby clinging to her chest; the baby moves slightly. Calm, tender, static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "oda",
+   "gorsel": "oda",
+   "sure": 5,
+   "istem": "In the dark bedroom the bat flies calmly out through the wide open window into the starry night sky and disappears; curtains move slightly in the breeze. Static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "kapanis",
+   "gorsel": "kapanis",
+   "sure": 5,
+   "istem": "Bats fly gracefully across the violet twilight sky over the village roofs, the crescent moon glowing, distant lights flickering on. Slow camera pull-back. Storybook watercolor style preserved."
+  }
+ ]
+}

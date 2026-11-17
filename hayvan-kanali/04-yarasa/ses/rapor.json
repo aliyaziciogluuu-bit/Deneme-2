@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Yaz akşamı balkonda oturuyorsun. Başının üstünden hızla bir gölge geçiyor.",
+  "duyulan": "yaz akşamı balkonda oturuyorsun, başının üstünden hızlı bir gölge geçiyor,",
+  "hata": 1,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Biri bağırıyor: yarasa, saçına yapışacak!",
+  "duyulan": "Biri bağırıyor, yarasa saçına yapışacak.",
+  "hata": 0,
+  "sure": 2.3,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Herkes başını eğiyor.",
+  "duyulan": "Herkes başını eğiyor.",
+  "hata": 0,
+  "sure": 1.16,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Oysa o yarasa ne saçına yapışmak istiyor, ne de sana yaklaşmak.",
+  "duyulan": "Oysa o yarasa ne saçına yapışmak istiyor, ne de sana yaklaşmak.",
+  "hata": 0,
+  "sure": 3.64,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Peşinde olduğu şey, lambanın çevresinde uçuşan sivrisinekler ve güveler.",
+  "duyulan": "Peşinde olduğu şey lambanın çevresinde uçuşan sivrisinetler ve güveler.",
+  "hata": 1,
+  "sure": 3.86,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ama yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak.",
+  "duyulan": "Ama yarasalarla ilgili bilmen gereken önemli bir gerçek de var. Onlara asla çıplak elle dokunmamak.",
+  "hata": 0,
+  "sure": 6.3,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Bu, gecenin sessiz avcısı yarasanın hikâyesi.",
+  "duyulan": "Bu, Gecenin Sessiz Avcısı Yarasa'nın Hikayesi.",
+  "hata": 0,
+  "sure": 3.58,
+  "uygun": true
+ }
+}
