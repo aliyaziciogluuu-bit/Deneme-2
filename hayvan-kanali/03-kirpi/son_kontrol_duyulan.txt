@@ -55,7 +55,7 @@
 054 fark=0 | Eldivenle, içine havlu serilmiş, kenarları yüksek bir kutuya al. || Eldivenle içine havlu serilmiş, kenarları yüksek bir kutuya al.
 055 fark=0 | Üşümüş görünüyorsa havluya sarılmış ılık bir su şişesi koy, ama ondan uzaklaşabileceği bir boşluk bırak. || Üşümüş görünüyorsa havluya sarılmış ılık bir su şişesi koy ama ondan uzaklaşabileceği bir boşluk bırak.
 056 fark=0 | Kutuyu sessiz bir yere koy ve ellerini iyice yıka. || Kutuyu sessiz bir yere koy ve ellerini iyice yıka.
-057 fark=0 | Sonra bir yaban hayatı kurtarma merkezine, bir veterinere ya da Doğa Koruma ve Milli Parklar birimine haber ver; Alo 174 hattını da arayabilirsin. || Sonra bir yaban hayatı kurtarma merkezine, bir veterinere ya da doğa koruma ve milli parklar birimine haber ver. Alo 174 hattını da arayabilirsin.
+057 fark=0 | Sonra bir yaban hayatı kurtarma merkezine, bir veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver. || Sonra bir yaban hayatı kurtarma merkezine, bir veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne haber ver.
 058 fark=0 | Kirpilerin en büyük tehlikelerinden biri arabalar; geceleri yolu geçerken araçların altında kalıyorlar. || Kirpilerin en büyük tehlikelerinden biri arabalar. Geceleri yolu geçerken araçların altında kalıyorlar.
 059 fark=0 | Bahçelerde de çim biçme ve kenar kesme makineleri, sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor. || Bahçelerde de çim biçme ve kenar kesme makineleri, sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor.
 060 fark=0 | Kirpiler bir gecede birkaç kilometreye kadar yol yürüyebiliyor. || Kirpiler bir gecede birkaç kilometreye kadar yol yürüyebiliyor.
