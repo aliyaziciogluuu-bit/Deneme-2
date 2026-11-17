@@ -1,0 +1,41 @@
+{
+ "not": "Ev kertenkelesinin bacakları var ama göz kapağı yok; istemlerde 'lidless eyes' korunur. Göz yalama görseli çizilemediği için bakisma görselinden klip olarak denenir.",
+ "klipler": [
+  {
+   "ad": "mutfak_lamba",
+   "gorsel": "mutfak_lamba",
+   "sure": 5,
+   "istem": "The small gecko on the kitchen wall next to the glowing lamp slowly turns its head and takes a couple of small steps upward on the wall; the lamp light glows softly, curtains barely move. Slow gentle camera push-in. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "lamba_av",
+   "gorsel": "lamba_av",
+   "sure": 5,
+   "istem": "Moths and small flies flutter around the glowing wall lamp; the gecko below the lamp creeps slowly upward toward them, watching. Slow camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "avlanma",
+   "gorsel": "avlanma",
+   "sure": 5,
+   "istem": "The gecko on the ledge freezes, focuses on the small moth, then suddenly lunges forward and snaps at it with its mouth; the moth flutters near the lamp light. Quick natural motion, static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "tavan",
+   "gorsel": "tavan",
+   "sure": 5,
+   "istem": "The gecko walks steadily upside down across the white ceiling, its sticky toes lifting and gripping one by one, near the hanging lamp. Static camera looking up. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "goz_yalama",
+   "gorsel": "bakisma",
+   "sure": 5,
+   "istem": "The gecko on the wall stays still, then sticks out its pink tongue, curls it upward and licks across the surface of its own big lidless eye, wiping the eye clean, then pulls the tongue back in. Close-up, static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "kapanis",
+   "gorsel": "kapanis",
+   "sure": 5,
+   "istem": "A calm summer night: moths circle the glowing garden lamp, jasmine flowers sway slightly in a light breeze, the gecko on the stone wall turns its head toward the light. Slow camera pull-back. Storybook watercolor style preserved."
+  }
+ ]
+}

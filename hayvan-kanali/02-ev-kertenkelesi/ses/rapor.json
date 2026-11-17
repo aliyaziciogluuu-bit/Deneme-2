@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Gece mutfağın ışığını yakıyorsun. Duvarda, lambanın hemen yanında, yarı saydam küçük bir kertenkele duruyor.",
+  "duyulan": "Gece mutfağın ışığını yakıyorsun, duvarda lambanın hemen yanında yarısaydam küçük bir kertenkele duruyor.",
+  "hata": 0,
+  "sure": 8.24,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sen ona bakıyorsun, o da sana.",
+  "duyulan": "Sen ona bakıyorsun, o da sana.",
+  "hata": 0,
+  "sure": 1.78,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Ve aklına ilk gelen soru şu: ya yemeğe düşerse?",
+  "duyulan": "ve aklına ilk gelen soru şu ya yemeğe düşerse?",
+  "hata": 0,
+  "sure": 3.58,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Zehirler mi? Isırır mı? Evden nasıl çıkar?",
+  "duyulan": "Zehirler mi? Isırır mı? Evden nasıl çıkar?",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bu küçük hayvan, kıyı kentlerimizde pek çok evin gizli kiracısı.",
+  "duyulan": "Bu küçük hayvan, kıyı kentlerimizde pek çok evin gizli kiracısı.",
+  "hata": 0,
+  "sure": 3.98,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ama onun hakkında yanlış bilinen pek çok şey var.",
+  "duyulan": "Ama onun hakkında yanlış bilinen pek çok şey var.",
+  "hata": 0,
+  "sure": 2.52,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Bu, duvarlarımızın gece bekçisi ev kertenkelesinin, yani Akdeniz gekosunun hikâyesi.",
+  "duyulan": "Bu, duvarlarımızın gece bekçisi Ev Kertenkelesi'nin yani Akdeniz Gekosu'nun hikayesi.",
+  "hata": 0,
+  "sure": 6.68,
+  "uygun": true
+ }
+}
