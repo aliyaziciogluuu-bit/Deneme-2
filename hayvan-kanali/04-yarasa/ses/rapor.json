@@ -104,8 +104,9 @@
   "yazi": "Peki yarasa saça yapışır mı?",
   "duyulan": "Peki yarasa saça yapışır mı?",
   "hata": 0,
-  "sure": 1.72,
-  "uygun": true
+  "sure": 2.28,
+  "uygun": true,
+  "tek_basina": true
  },
  "015": {
   "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane.",

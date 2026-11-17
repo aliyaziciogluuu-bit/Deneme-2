@@ -70,6 +70,12 @@ def sade(metin: str):
     kelimeler = " ".join(ESDEGER.get(k, k) for k in kelimeler).split()
     birlesik = []  # "adı ise" → "adıysa", "yılanın ise" → "yılanınsa" (konuşmada doğal kısaltma, okuma hatası değil)
     for k in kelimeler:
+        if k == "ile" and birlesik:  # "yarasa ile" → "yarasayla" (aynı söz, ayrı yazım)
+            onceki = birlesik[-1]
+            unluler = [h for h in onceki if h in "aeıioöuü"]
+            ek = "la" if (unluler and unluler[-1] in "aıou") else "le"
+            birlesik[-1] = onceki + ("y" + ek if onceki[-1] in "aeıioöuü" else ek)
+            continue
         if k == "ise" and birlesik:
             onceki = birlesik[-1]
             unluler = [h for h in onceki if h in "aeıioöuü"]
