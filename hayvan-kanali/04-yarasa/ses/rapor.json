@@ -1,10 +1,11 @@
 {
  "000": {
   "yazi": "Yaz akşamı balkonda oturuyorsun. Başının üstünden hızla bir gölge geçiyor.",
-  "duyulan": "yaz akşamı balkonda oturuyorsun, başının üstünden hızlı bir gölge geçiyor,",
-  "hata": 1,
-  "sure": 4.66,
-  "uygun": true
+  "duyulan": "Yaz akşamı balkonda oturuyorsun, başının üstünden hızla bir gölge geçiyor.",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true,
+  "tek_basina": true
  },
  "001": {
   "yazi": "Biri bağırıyor: yarasa, saçına yapışacak!",
@@ -29,10 +30,11 @@
  },
  "004": {
   "yazi": "Peşinde olduğu şey, lambanın çevresinde uçuşan sivrisinekler ve güveler.",
-  "duyulan": "Peşinde olduğu şey lambanın çevresinde uçuşan sivrisinetler ve güveler.",
-  "hata": 1,
-  "sure": 3.86,
-  "uygun": true
+  "duyulan": "Peşinde olduğu şey, lambanın çevresinde uçuşan sivrisinekler ve güveler.",
+  "hata": 0,
+  "sure": 5.26,
+  "uygun": true,
+  "tek_basina": true
  },
  "005": {
   "yazi": "Ama yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak.",
@@ -84,11 +86,12 @@
   "uygun": true
  },
  "012": {
-  "yazi": "Dünyada bin dört yüzü aşkın yarasa türü var.",
-  "duyulan": "Dünyada 1400'e aşkın yarasa türü var.",
-  "hata": 2,
-  "sure": 2.68,
-  "uygun": false
+  "yazi": "Dünyada bin dört yüzden fazla yarasa türü var.",
+  "duyulan": "Dünyada 1400'den fazla yarasa türü var.",
+  "hata": 0,
+  "sure": 2.84,
+  "uygun": true,
+  "tek_basina": true
  },
  "013": {
   "yazi": "Türkiye'de de otuz beşten fazla tür yaşıyor.",
@@ -108,8 +111,9 @@
   "yazi": "Hayır. Bu, kuşaktan kuşağa anlatılan bir efsane.",
   "duyulan": "Hayır, bu kuşaktan kuşağı anlatılan bir efsane.",
   "hata": 1,
-  "sure": 3.3,
-  "uygun": true
+  "sure": 3.82,
+  "uygun": true,
+  "tek_basina": true
  },
  "016": {
   "yazi": "Yarasalar karanlıkta bile önlerindeki engelleri çok iyi algılıyor.",
@@ -168,11 +172,12 @@
   "uygun": true
  },
  "024": {
-  "yazi": "Türkiye'de kan emen yarasa yok.",
-  "duyulan": "Türkiye'de kan hemen yarasa yok.",
-  "hata": 1,
-  "sure": 1.72,
-  "uygun": false
+  "yazi": "Türkiye'de kanla beslenen yarasa yok.",
+  "duyulan": "Türkiye'de kanla beslenen yarasa yok.",
+  "hata": 0,
+  "sure": 2.48,
+  "uygun": true,
+  "tek_basina": true
  },
  "025": {
   "yazi": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir; yalnızca bir tür meyve yer.",
@@ -297,8 +302,9 @@
   "yazi": "Yarasaların çok azı kuduz taşır, ama hangisinin taşıdığını bakarak anlayamazsın.",
   "duyulan": "Yarasaların çok azı kudus taşır ama hangisinin taşıdığını bakarak anlayamazsın.",
   "hata": 1,
-  "sure": 4.26,
-  "uygun": true
+  "sure": 4.94,
+  "uygun": true,
+  "tek_basina": true
  },
  "043": {
   "yazi": "Bu yüzden bir yarasaya asla çıplak elle dokunma.",
@@ -316,10 +322,11 @@
  },
  "045": {
   "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka.",
-  "duyulan": "Bir arasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.",
-  "hata": 1,
-  "sure": 6.54,
-  "uygun": true
+  "duyulan": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.",
+  "hata": 0,
+  "sure": 7.32,
+  "uygun": true,
+  "tek_basina": true
  },
  "046": {
   "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
@@ -410,6 +417,41 @@
   "duyulan": "Böcek ilacını azaltmak da yarasaların besin bulmasına yardım eder.",
   "hata": 0,
   "sure": 3.6,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Yarasa ne saçına yapışır, ne kan emer, ne de kördür.",
+  "duyulan": "Yarasa ne saçına yapışır, ne kan emer, ne de kördür.",
+  "hata": 0,
+  "sure": 4.02,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "O, gecenin sessiz ve çalışkan bir avcısı.",
+  "duyulan": "o gecenin sessiz ve çalışkan bir avcısı.",
+  "hata": 0,
+  "sure": 2.7,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Ona dokunmadan, uzaktan izlemek hem senin hem de onun için en güvenlisi.",
+  "duyulan": "Ona dokunmadan, uzaktan izlemek hem senin hem de onun için en güvenlisi.",
+  "hata": 0,
+  "sure": 5.12,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Senin oralarda yarasayla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.",
+  "duyulan": "Senin oralarda Yarasa'yla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.",
+  "hata": 0,
+  "sure": 4.54,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "hata": 0,
+  "sure": 6.62,
   "uygun": true
  }
 }
