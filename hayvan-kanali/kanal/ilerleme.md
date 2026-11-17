@@ -5,4 +5,4 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 
 | Tarih | Abone | İzlenme süresi (son 28 gün, saat) | Görüntüleme (son 28 gün) | En iyi video | Not |
 |---|---|---|---|---|---|
-| | | | | | Kanal henüz açılmadı |
+| 2026-11-17 | 0 | 0 | 0 | — | Kanal açıldı, telefonla doğrulandı; 1. video (sağır yılan) yayınlandı |
