@@ -1,0 +1,47 @@
+{
+ "not": "Baykuşların başı ve gövdesi biçim değiştirmemeli; ekstra bacak ya da kanat çıkarsa klip kullanılmaz.",
+ "klipler": [
+  {
+   "ad": "gece_koy",
+   "gorsel": "gece_koy",
+   "sure": 5,
+   "istem": "The owl on the moonlit roof slowly turns its head to the side and blinks, clouds drift slowly past the full moon, the window light flickers softly. Static camera. Storybook watercolor style preserved. Realistic owl anatomy, no extra limbs, the owl keeps the same shape."
+  },
+  {
+   "ad": "kukumav_dam",
+   "gorsel": "kukumav_dam",
+   "sure": 5,
+   "istem": "The little owl on the roof bobs its head up and down curiously, the way little owls do, small birds fly across the sky in the distance. Static camera. Storybook watercolor style preserved. Realistic owl anatomy, no extra limbs, the owl keeps the same shape."
+  },
+  {
+   "ad": "ucus",
+   "gorsel": "ucus",
+   "sure": 5,
+   "istem": "The barn owl glides silently over the moonlit meadow with slow, soft wingbeats, the grass sways gently. Camera follows slowly. Storybook watercolor style preserved. Realistic owl anatomy, no extra limbs, the owl keeps the same shape."
+  },
+  {
+   "ad": "karanlik_av",
+   "gorsel": "karanlik_av",
+   "sure": 5,
+   "istem": "The barn owl swoops down onto the grass with its wings raised and talons stretched forward, grass moving. Slow motion, static camera. Storybook watercolor style preserved. Realistic owl anatomy, no extra limbs, the owl keeps the same shape."
+  },
+  {
+   "ad": "bas_cevir",
+   "gorsel": "bas_cevir",
+   "sure": 5,
+   "istem": "The little owl slowly turns its head smoothly to look back over its shoulder, then blinks, leaves sway in the background. Static camera. Storybook watercolor style preserved. Realistic owl anatomy, no extra limbs, the owl keeps the same shape."
+  },
+  {
+   "ad": "alaca",
+   "gorsel": "alaca",
+   "sure": 5,
+   "istem": "The tawny owl on the branch calls into the night: its throat feathers puff out gently and its body leans slightly forward, leaves rustle in the moonlight. Static camera. Storybook watercolor style preserved. Realistic owl anatomy, no extra limbs, the owl keeps the same shape."
+  },
+  {
+   "ad": "kapanis",
+   "gorsel": "kapanis",
+   "sure": 5,
+   "istem": "The little owl on the chimney slowly turns its head toward the sunrise and ruffles its feathers, soft morning light spreads over the village. Static camera. Storybook watercolor style preserved. Realistic owl anatomy, no extra limbs, the owl keeps the same shape."
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "not": "K=kukumav, P=peçeli baykuş, A=alaca baykuş, I=ishakkuşu. Kulak püskülü yalnızca ishakkuşunda olur; diğerlerinde püskül çıkarsa aday kullanılmaz.",
+ "not": "K=kukumav, P=peçeli baykuş, A=alaca baykuş, I=ishakkuşu. Kulak püskülü yalnızca ishakkuşunda olur; diğerlerinde püskül çıkarsa aday kullanılmaz. 'fare' (baykuş yerine papağana benzer kuş) ve 'tuy' (tarak dişleri çizilemedi) adayları kullanılmadı. Alaca baykuşta sarı göz yanlıştır; koyu gözlü aday seçildi. Pelet görselinde sağ üstteki kafatası kadraj dışında tutulur.",
  "gorseller": [
   {
    "ad": "gece_koy",
@@ -65,16 +65,6 @@
    "ad": "ucus",
    "istem": "Night: a barn owl (Tyto alba): pale heart-shaped white facial disc, small black eyes, NO ear tufts, golden-buff and grey back finely speckled, white underparts, long legs, realistic bird anatomy glides silently low over a moonlit meadow with its broad rounded wings fully spread, seen from the side, stars in the sky.",
    "aday": 2
-  },
-  {
-   "ad": "tuy",
-   "istem": "Naturalist scientific illustration on parchment: a single large owl flight feather, the leading edge lined with tiny comb-like serrations and the trailing edge with a soft hair-like fringe, shown with a magnified circular inset of the comb-like serrations. No labels.",
-   "aday": 2
-  },
-  {
-   "ad": "fare",
-   "istem": "Night in a grassy field: a small field mouse sits on its hind legs nibbling a seed, unaware, moonlight; the faint shadow of a large bird with spread wings falls on the grass.",
-   "aday": 1
   },
   {
    "ad": "karanlik_av",
