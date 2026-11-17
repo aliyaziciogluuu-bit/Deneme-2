@@ -96,5 +96,257 @@
   "hata": 0,
   "sure": 4.86,
   "uygun": true
+ },
+ "014": {
+  "yazi": "Kirpiye yardım etmek istiyorsan en iyi şey, sığ bir kapta temiz su bırakmak.",
+  "duyulan": "kirpiğe yardım etmek istiyorsan en iyi şey sığ bir kapta temiz su bırakmak.",
+  "hata": 1,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Özellikle sıcak ve kurak günlerde su bulmakta zorlanabiliyor.",
+  "duyulan": "özellikle sıcak ve kurak günlerde su bulmakta zorlanabiliyor.",
+  "hata": 0,
+  "sure": 3.38,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Mama koymak istersen, et bazlı kedi ya da köpek maması uygun; balıklı olanlar değil.",
+  "duyulan": "mama koymak istersen, etbazlı kedi ya da köpek maması uygun. Balıklı olanlar değil.",
+  "hata": 0,
+  "sure": 5.32,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Ama unutma: kirpi evcil bir hayvan değil.",
+  "duyulan": "Ama unutma, kirpi evcil bir hayvan değil.",
+  "hata": 0,
+  "sure": 2.5,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Mama, yalnızca doğal besinin az olduğu dönemler için küçük bir destek.",
+  "duyulan": "Mama yalnızca doğal besinin az olduğu dönemler için küçük bir destek.",
+  "hata": 0,
+  "sure": 4.14,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Kapları sık sık yıka, suyu her gün tazele, kalan mamayı topla.",
+  "duyulan": "Kapları sık sık yıka, suyu her gün tazele, kalan mamayı topla.",
+  "hata": 0,
+  "sure": 4.24,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Kirpiler, böcekçil memeliler grubundan küçük gece hayvanları.",
+  "duyulan": "Kirpiler Böcekçil Memeliler Grubu'ndan Küçük Gece Hayvanları",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Türkiye'de üç kirpi türü yaşıyor.",
+  "duyulan": "Türkiye'de 3 kirpitürü yaşıyor.",
+  "hata": 0,
+  "sure": 1.88,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli akgöğüslü kirpi.",
+  "duyulan": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli, ak göğsü kirpi.",
+  "hata": 2,
+  "sure": 5.1,
+  "uygun": false
+ },
+ "023": {
+  "yazi": "Trakya'da da onun yakın akrabası Balkan kirpisi yaşıyor.",
+  "duyulan": "Trakya'da da onun yakın akrabası Balkan kirpisi yaşıyor.",
+  "hata": 0,
+  "sure": 3.2,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Güneydoğu Anadolu'da ve Iğdır çevresinde de iri kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor.",
+  "duyulan": "Güneydoğu Anadolu'da ve Iğdır çevresinde de iri kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor.",
+  "hata": 0,
+  "sure": 5.74,
+  "uygun": true
+ },
+ "025": {
+  "yazi": "Boyları genellikle yirmi ila otuz santimetre arasında.",
+  "duyulan": "Boyları genellikle 20 ila 30 cm arasında.",
+  "hata": 0,
+  "sure": 3.22,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Bir kirpinin sırtında beş ila yedi bin arasında diken var.",
+  "duyulan": "Bir kirpinin sırtında 5 ila 7 bin arasında diken var.",
+  "hata": 0,
+  "sure": 3.4,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış.",
+  "duyulan": "Bu dikenler aslında sertleşmiş kıllar. Saçımız ve tırnaklarımız gibi keratinden yapılmış.",
+  "hata": 0,
+  "sure": 5.14,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Zehirli değiller ve kirpi onları ok gibi fırlatamaz.",
+  "duyulan": "Zehirli değiller ve kirpi onları ok gibi fırlatamaz.",
+  "hata": 0,
+  "sure": 3.3,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.",
+  "duyulan": "Tehlike anında dikenli derisinin kenarındaki halka biçimli, güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.",
+  "hata": 0,
+  "sure": 7.84,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Ama bu savunma, bir arabaya karşı işe yaramıyor.",
+  "duyulan": "Ama bu savunma bir arabaya karşı işe yaramıyor.",
+  "hata": 0,
+  "sure": 2.64,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Kirpilerle ilgili en eski efsanelerden biri, sırtına meyve takıp yuvasına taşıdığı.",
+  "duyulan": "Kirpilerle ilgili en eski efsanelerden biri sırtına meyve takıp yuvasına taşıdı.",
+  "hata": 1,
+  "sure": 5.3,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
+  "duyulan": "Bu hikaye, yaklaşık 2000 yıl önce yaşamış Romalı yazar, yaşlı Plinyus'a kadar uzanıyor.",
+  "hata": 0,
+  "sure": 5.74,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor.",
+  "duyulan": "masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor.",
+  "hata": 0,
+  "sure": 4.28,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.",
+  "duyulan": "ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.",
+  "hata": 0,
+  "sure": 3.68,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor.",
+  "duyulan": "Kirpi aslında bir böcek avcısı, meyveyi ancak arada sırada yiyor.",
+  "hata": 0,
+  "sure": 4.18,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Menüsünde böcekler, tırtıllar, solucanlar, sümüklü böcekler ve salyangozlar var.",
+  "duyulan": "Menüsünde böcekler, tırtıllar, solucanlar, sümüklü böcekler ve salyangozlar var.",
+  "hata": 0,
+  "sure": 5.48,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Özellikle sert kabuklu böcekler, beslenmesinin önemli bir bölümünü oluşturuyor.",
+  "duyulan": "özellikle sert kabuklu böcekler beslenmesinin önemli bir bölümünü oluşturuyor.",
+  "hata": 0,
+  "sure": 4.44,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Fırsat bulursa yerde yuva yapan kuşların yumurtalarını ve leşleri de yiyebiliyor.",
+  "duyulan": "Fırsat bulursa, yerde yuva yapan kuşların yumurtalarını ve leşleri de yiyebiliyor.",
+  "hata": 0,
+  "sure": 4.7,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Bu yüzden bahçedeki bazı zararlıları da yiyerek doğal bir denge kuruyor.",
+  "duyulan": "Bu yüzden bahçedeki bazı zararları da yiyerek doğal bir denge kuruyor.",
+  "hata": 1,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, engerek zehrine karşı kısmi bir dirençleri olduğunu gösteriyor.",
+  "duyulan": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, en gerek zehrine karşı kısmi bir dirençleri olduğunu gösteriyor.",
+  "hata": 0,
+  "sure": 5.82,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Ama bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler.",
+  "duyulan": "Ama bu onu bir yılan avcısı yapmıyor. Asıl yiyeceği yine böcekler.",
+  "hata": 0,
+  "sure": 3.66,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Kirpilerin tuhaf bir davranışı daha var.",
+  "duyulan": "Kirpilerin tuhaf bir davranışı daha var.",
+  "hata": 0,
+  "sure": 2.38,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Yeni ve keskin bir koku ya da tatla karşılaştığında, ağzında köpüklü bir salya oluşturuyor.",
+  "duyulan": "yeni ve keskin bir koku ya da tatla karşılaştığında ağzında köpüklü bir sali oluşturuyor.",
+  "hata": 1,
+  "sure": 6.06,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor.",
+  "duyulan": "Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor.",
+  "hata": 0,
+  "sure": 3.72,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Türkçede buna kendini yağlama da deniyor; bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
+  "duyulan": "Türkçe de buna ''kendini yağlama'' da deniyor. Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
+  "hata": 0,
+  "sure": 7.12,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Özellikle soğuk bölgelerde, sonbahar sonunda kirpiler yaprak ve ot yığınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor.",
+  "duyulan": "Özellikle soğuk bölgelerde sonbahar sonunda kirpiler yaprak ve ot yağınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor.",
+  "hata": 1,
+  "sure": 8.72,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre, kalp atışı dakikada yüz doksandan yirmi civarına iniyor.",
+  "duyulan": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre kalp atışı dakikada 190'dan 20 civarına iniyor.",
+  "hata": 0,
+  "sure": 7.08,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Vücut sıcaklığı da otuz beş dereceden beş ila on dereceye kadar düşebiliyor.",
+  "duyulan": "Vücut sıcaklığı da 35 dereceden 5 ila 10 dereceye kadar düşebiliyor.",
+  "hata": 0,
+  "sure": 4.92,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Bu yüzden sonbaharda yaprak yığınlarını yakmadan ya da dağıtmadan önce, içinde bir kirpi olup olmadığına bakmak gerekiyor.",
+  "duyulan": "Bu yüzden sonbaharda yaprak yağınlarını yakmadan ya da dağıtmadan önce içinde bir kirpi olup olmadığına bakmak gerekiyor.",
+  "hata": 1,
+  "sure": 7.44,
+  "uygun": true
  }
 }
