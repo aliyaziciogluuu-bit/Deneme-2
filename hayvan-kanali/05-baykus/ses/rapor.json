@@ -1,0 +1,156 @@
+{
+ "000": {
+  "yazi": "Gece yarısı, köyde herkes uyurken çatının üstünden boğuk, uzun bir ses yükseliyor.",
+  "duyulan": "Gece yarısı köyde herkes uyurken çatının üstünden boğuk, uzun bir ses yükseliyor.",
+  "hata": 0,
+  "sure": 5.64,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Evdeki büyükler hemen birbirine bakıyor: baykuş öttü, hayra alamet değil.",
+  "duyulan": "Evdeki büyükler hemen birbirine bakıyor. Baykuş öttü. Hayra alamet değil.",
+  "hata": 0,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kimi pencereden onu kovalıyor, kimi taş atıyor.",
+  "duyulan": "Kimi pencereden onu kovalıyor, kimi taş atıyor.",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Peki baykuş gerçekten uğursuz mu?",
+  "duyulan": "Peki, Baykuş gerçekten uğursuz mu?",
+  "hata": 0,
+  "sure": 2.3,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yoksa yüzyıllardır yanlış tanıdığımız, köyün en çalışkan gece bekçisi mi?",
+  "duyulan": "yoksa yüzyıllardır yanlış tanıdığımız köyün en çalışkan gece bekçisi mi?",
+  "hata": 0,
+  "sure": 4.48,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bu videoda, evlerimizin çevresinde yaşayan baykuşları yakından tanıyacağız.",
+  "duyulan": "Bu videoda evlerimizin çevresinde yaşayan baykuşları yakından tanıyacağız.",
+  "hata": 0,
+  "sure": 4.14,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor.",
+  "duyulan": "Anadolu'da baykuşun ötmesi uzun zamandır kötü bir haberin işareti sayılıyor.",
+  "hata": 0,
+  "sure": 4.9,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.",
+  "duyulan": "Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.",
+  "hata": 0,
+  "sure": 7.14,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "İnsanlar onu hep ıssız yerlerle, karanlıkla ve sessizlikle birlikte görmüş.",
+  "duyulan": "İnsanlar onu hep ıssız yerlerle, karanlıkla ve sessizlikle birlikte görmüş.",
+  "hata": 0,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor.",
+  "duyulan": "Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor.",
+  "hata": 0,
+  "sure": 3.7,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi ve Atina'nın gümüş sikkelerinin üzerinde yer alıyordu.",
+  "duyulan": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi ve Atena'nın gümüş sikkelerinin üzerinde yer alıyordu.",
+  "hata": 1,
+  "sure": 7.3,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.",
+  "duyulan": "Yani aynı kuş bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.",
+  "hata": 0,
+  "sure": 4.78,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Baykuşun kendisi ne uğur getiriyor ne de uğursuzluk; sadece karnını doyurmaya çalışıyor.",
+  "duyulan": "Baykuş'un kendisi ne uğur getiriyor ne de uğursuzluk, sadece karnını doyurmaya çalışıyor.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Türkiye'de birçok baykuş türü yaşıyor, ama evlerin çevresinde en sık karşılaşılanlar birkaç tane.",
+  "duyulan": "Türkiye'de birçok baykuş türü yaşıyor ama evlerin çevresinde en sık karşılaşılanlar birkaç tane.",
+  "hata": 0,
+  "sure": 5.92,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri.",
+  "duyulan": "Kukumav, göllerde ve kasabalarda en sık görülen baykuşlardan biri.",
+  "hata": 1,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü.",
+  "duyulan": "bir güvercinden küçük, yuvarlak başlı, benekli ve kocaman sarı gözlü.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Pek çok baykuşun aksine gündüz de ortaya çıkıyor; damlarda, direklerde ve taş duvarların üstünde oturuyor.",
+  "duyulan": "Pek çok baykuşun aksine gündüzde ortaya çıkıyor, damlarda, direklerde ve taş duvarların üstünde oturuyor.",
+  "hata": 0,
+  "sure": 6.18,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor.",
+  "duyulan": "Peçeli baykuş kalp şeklindeki beyaz yüzüyle hemen tanınıyor.",
+  "hata": 0,
+  "sure": 3.42,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor.",
+  "duyulan": "ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor.",
+  "hata": 0,
+  "sure": 4.5,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş, çoğu zaman alaca baykuşa ait.",
+  "duyulan": "Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş çoğu zaman Alacabay kuşa ait.",
+  "hata": 0,
+  "sure": 5.62,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de ishakkuşu.",
+  "duyulan": "Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de İshak kuşu.",
+  "hata": 0,
+  "sure": 6.56,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Bu minik baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor.",
+  "duyulan": "Bu minit baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor.",
+  "hata": 1,
+  "sure": 6.86,
+  "uygun": true
+ }
+}
