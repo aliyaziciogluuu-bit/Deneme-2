@@ -360,7 +360,7 @@ def kapak(sahne: Sahne, yol: pathlib.Path):
     kare.paste(golge, (0, 0), golge)
     ciz = ImageDraw.Draw(kare)
     buyuk = ImageFont.truetype(YAZI_KALIN, 150)
-    while max(buyuk.getlength(s) for s in k["buyuk"]) > 640 and buyuk.size > 80:
+    while max(buyuk.getlength(s) for s in k["buyuk"]) > k.get("genislik", 580) and buyuk.size > 80:
         buyuk = ImageFont.truetype(YAZI_KALIN, buyuk.size - 6)
     kucuk = ImageFont.truetype(YAZI_KALIN, 58)
     renkler = [(255, 255, 255), (250, 204, 72)]
