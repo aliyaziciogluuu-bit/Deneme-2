@@ -47,5 +47,54 @@
   "hata": 0,
   "sure": 4.18,
   "uygun": true
+ },
+ "007": {
+  "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor.",
+  "duyulan": "Kirpiler sütte ki laktoz adlı şekeri sindiremiyor.",
+  "hata": 0,
+  "sure": 3.22,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Bu şekeri parçalayan enzim, bağırsaklarında yok denecek kadar az.",
+  "duyulan": "Bu şekeri parçalayan enzim, varsaklarında yok denecek kadar az.",
+  "hata": 1,
+  "sure": 3.84,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
+  "duyulan": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
+  "hata": 0,
+  "sure": 2.86,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "İshal, küçük bir hayvan için hızla susuz kalmak demek.",
+  "duyulan": "İsal, küçük bir hayvan için hızla susuz kalmak demek.",
+  "hata": 1,
+  "sure": 3.66,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
+  "duyulan": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
+  "hata": 0,
+  "sure": 4.52,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Laktozsuz süt de, bitki sütleri de bahçedeki bir kirpi için doğru seçim değil.",
+  "duyulan": "Laktoslu süt de, bitki sütleri de bahçedeki bir kirpi için doğru seçim değil.",
+  "hata": 1,
+  "sure": 5.04,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Ekmek de iyi bir seçim değil; karnını doyurur ama ona gereken besinleri vermez.",
+  "duyulan": "Ekmek de iyi bir seçim değil, karnını doyurur ama ona gereken besinleri vermez.",
+  "hata": 0,
+  "sure": 4.86,
+  "uygun": true
  }
 }
