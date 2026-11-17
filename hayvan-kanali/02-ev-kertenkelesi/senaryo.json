@@ -37,7 +37,7 @@
   },
   "ambiyans": {
     "dosya": "../sesler/gece_cirit.ogg",
-    "seviye": 0.09,
+    "seviye": 0.05,
     "kaynak": ""
   },
   "sahneler": [
@@ -212,7 +212,7 @@
           "yazi": "Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında ve dışkılarında Salmonella bakterisi taşıyabiliyor."
         },
         {
-          "yazi": "Yani asıl risk zehir değil, hijyen."
+          "yazi": "Yani asıl mesele zehir değil, temizlik."
         },
         {
           "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor."

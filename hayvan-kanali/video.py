@@ -438,7 +438,7 @@ def main():
         filtre = ("[1:a]aresample=48000,aformat=channel_layouts=mono,asplit=2[ses][yan];"
                   f"[2:a]aresample=48000,aformat=channel_layouts=mono,highpass=f=120,volume={amb.get('seviye', 0.07)},"
                   f"afade=t=in:d=2,afade=t=out:st={son:.2f}:d=3[amb0];"
-                  "[amb0][yan]sidechaincompress=threshold=0.003:ratio=20:attack=15:release=450:makeup=1[amb];"
+                  "[amb0][yan]sidechaincompress=threshold=0.003:ratio=20:attack=5:release=600:makeup=1[amb];"
                   "[ses][amb]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]")
     subprocess.run(
         ["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(gecici / "liste.txt"), *girdiler,

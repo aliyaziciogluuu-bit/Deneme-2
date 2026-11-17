@@ -33,6 +33,11 @@ SR = 24000
 DENEME = 4
 
 
+# Yabancı/Latince kelimelerin konuşma tanımada çıkan eşdeğer yazımları (okuma doğru, yalnızca yazım farklı)
+ESDEGER = {"geco": "geko", "gecko": "geko", "gecolar": "gekolar", "turkicus": "turcicus", "turkikus": "turcicus",
+           "hemidaktilus": "hemidactylus", "ortadoğu": "orta doğu", "ciyaklama": "cıyaklama", "koçi": "kotschy",
+           "kotschi": "kotschy", "anguis": "anguis", "kolkika": "colchica", "fracilis": "fragilis"}
+
 BIR = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
 ON = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
 
@@ -61,6 +66,7 @@ def sade(metin: str):
     metin = re.sub(r"[^a-zçğıöşü0-9 ]", " ", metin)
     kelimeler = re.sub(r"\s+", " ", metin).strip().split()
     kelimeler = [{"cm": "santimetre", "km": "kilometre", "m": "metre"}.get(k, k) for k in kelimeler]
+    kelimeler = " ".join(ESDEGER.get(k, k) for k in kelimeler).split()
     birlesik = []  # "adı ise" → "adıysa", "yılanın ise" → "yılanınsa" (konuşmada doğal kısaltma, okuma hatası değil)
     for k in kelimeler:
         if k == "ise" and birlesik:

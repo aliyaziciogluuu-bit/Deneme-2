@@ -22,10 +22,11 @@
  },
  "003": {
   "yazi": "Zehirler mi? Isırır mı? Evden nasıl çıkar?",
-  "duyulan": "Zehirler mi? Isırır mı? Evden nasıl çıkar?",
+  "duyulan": "Zehirler mi, ısırır mı, evden nasıl çıkar?",
   "hata": 0,
-  "sure": 2.98,
-  "uygun": true
+  "sure": 3.38,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
   "yazi": "Bu küçük hayvan, kıyı kentlerimizde pek çok evin gizli kiracısı.",
@@ -51,9 +52,9 @@
  "007": {
   "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
   "duyulan": "Bilim dünyasındaki adı Hemidactylus turkicus.",
-  "hata": 1,
+  "hata": 0,
   "sure": 3.2,
-  "uygun": false
+  "uygun": true
  },
  "008": {
   "yazi": "Adındaki turcicus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor.",
@@ -85,10 +86,11 @@
  },
  "012": {
   "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
-  "duyulan": "Anavatanı Akdeniz Çevresi ve Ortadoğu. Türkiye'de kıyı çevresinin büyük bölümünde bazı iç bölgelerde de görülüyor.",
-  "hata": 3,
-  "sure": 6.92,
-  "uygun": false
+  "duyulan": "Anavatanı Akdeniz Çevresi ve Ortadoğu. Türkiye'de Kıyı Şeridi'nin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
+  "hata": 0,
+  "sure": 7.3,
+  "uygun": true,
+  "tek_basina": true
  },
  "013": {
   "yazi": "Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor.",
@@ -106,17 +108,19 @@
  },
  "015": {
   "yazi": "Ev kertenkelesi bir gece hayvanı.",
-  "duyulan": "Ev Kertengelisi Bir Gece Hayvanı",
-  "hata": 1,
-  "sure": 2.22,
-  "uygun": false
+  "duyulan": "Ev Kertenkelesi Bir Gece Hayvanı",
+  "hata": 0,
+  "sure": 2.18,
+  "uygun": true,
+  "tek_basina": true
  },
  "016": {
   "yazi": "Gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor.",
-  "duyulan": "gündüzü duvar çatlaklarında, kiremit altlarında ya da pancur arkalarında saklanarak geçiriyor.",
-  "hata": 1,
-  "sure": 5.72,
-  "uygun": true
+  "duyulan": "gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor.",
+  "hata": 0,
+  "sure": 6.3,
+  "uygun": true,
+  "tek_basina": true
  },
  "017": {
   "yazi": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor.",
@@ -170,7 +174,7 @@
  "024": {
   "yazi": "Geko parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.",
   "duyulan": "Geco parmaklarının altında ince yapraklar gibi sıralanmış pedler var.",
-  "hata": 1,
+  "hata": 0,
   "sure": 4.16,
   "uygun": true
  },
@@ -206,8 +210,9 @@
   "yazi": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor.",
   "duyulan": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor.",
   "hata": 0,
-  "sure": 5.26,
-  "uygun": true
+  "sure": 6.96,
+  "uygun": true,
+  "tek_basina": true
  },
  "030": {
   "yazi": "Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok.",
@@ -268,8 +273,244 @@
  "038": {
   "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
   "duyulan": "yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir ciyaklama da çıkarabiliyor.",
-  "hata": 1,
+  "hata": 0,
   "sure": 5.56,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Gelelim en çok merak edilen soruya: yemeğe düşerse zehirler mi?",
+  "duyulan": "Gelelim en çok merak edilen soruya, yemeğe düşerse zehirler mi?",
+  "hata": 0,
+  "sure": 4.12,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Hayır. Ev kertenkelesinin zehri yok.",
+  "duyulan": "Hayır, ev kerten kelesinin zehri yok.",
+  "hata": 0,
+  "sure": 2.1,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz.",
+  "duyulan": "İnsana saldırmaz, yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz.",
+  "hata": 0,
+  "sure": 6.34,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "042": {
+  "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez.",
+  "duyulan": "Yemeğe düşen bir kertenkele yemeği zehirlemez.",
+  "hata": 0,
+  "sure": 2.38,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Ama burada bilmen gereken önemli bir gerçek var.",
+  "duyulan": "Ama burada bilmen gereken önemli bir gerçek var.",
+  "hata": 0,
+  "sure": 2.24,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında ve dışkılarında Salmonella bakterisi taşıyabiliyor.",
+  "duyulan": "Pek çok sürüngen gibi evkertenkeleleri de vücutlarında ve dışkılarında salmonella bakterisi taşıyabiliyor.",
+  "hata": 0,
+  "sure": 5.6,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Yani asıl mesele zehir değil, temizlik.",
+  "duyulan": "Yani asıl mesele zehir değil, temizlik.",
+  "hata": 0,
+  "sure": 2.9,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "046": {
+  "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor.",
+  "duyulan": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor.",
+  "hata": 0,
+  "sure": 8.16,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "047": {
+  "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi.",
+  "duyulan": "Ona dokunduysan ellerini yıka. 5 yaşından küçük çocukların, 65 yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi.",
+  "hata": 0,
+  "sure": 8.04,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Yiyecekleri açıkta bırakmamak da en basit önlem.",
+  "duyulan": "Yiyecekleri açıkta bırakmamak da en basit önlem.",
+  "hata": 0,
+  "sure": 2.4,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Ev kertenkelesi de tehlikede kuyruğunu koparabiliyor.",
+  "duyulan": "evkerten kelesi de tehlikede kuyruğunu koparabiliyor.",
+  "hata": 0,
+  "sure": 3.1,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Kopan kuyruk bir süre kıvranarak yırtıcının dikkatini dağıtıyor.",
+  "duyulan": "Kopan kuyruk bir süre kıvranarak yırtıcının dikkatini dağıtıyor.",
+  "hata": 0,
+  "sure": 3.34,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Yeni kuyruk zamanla çıkıyor, ama rengi ve deseni eskisinden farklı oluyor.",
+  "duyulan": "Yeni kuyruk zamanla çıkıyor ama rengi ve deseni eskisinden farklı oluyor.",
+  "hata": 0,
+  "sure": 4.46,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Dişiler bir seferde genellikle iki yumurta bırakıyor.",
+  "duyulan": "dişiler bir seferde genellikle iki yumurta bırakıyor.",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Yumurtaların kabuğu sert; dişi onları duvar çatlaklarına ve taş aralarına saklıyor.",
+  "duyulan": "Yumurtaların kabuğu sert, dişi onları duvar çatlaklarına ve taş aralarına saklıyor.",
+  "hata": 0,
+  "sure": 5.62,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Türkiye'de duvarlarda görebileceğin tek geko bu değil.",
+  "duyulan": "Türkiye'de duvarlarda görebileceğin tek GECO bu değil.",
+  "hata": 0,
+  "sure": 3.06,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Bir de kayalarda ve taş duvarlarda yaşayan, Kotschy gekosu grubundan daha ince yapılı gekolar var.",
+  "duyulan": "Bir de kayalarda ve taş duvarlarda yaşayan koçi gekosu grubundan daha ince yapılı gekolar var.",
+  "hata": 0,
+  "sure": 5.92,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Onların parmaklarında yapışkan pedler yok; ince, ortasından kıvrık parmaklarıyla pürüzlü yüzeylere tutunuyorlar.",
+  "duyulan": "Onların parmaklarında yapışkan pedler yok, ince, ortasından kıvrık parmaklarıyla pürüzlü yüzeylere tutunuyorlar.",
+  "hata": 0,
+  "sure": 7.18,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Onlar da zehirsiz ve onlar da birer böcek avcısı.",
+  "duyulan": "onlar da zehirsiz ve onlar da birer böcek avcısı.",
+  "hata": 0,
+  "sure": 3.34,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Peki evinde bir ev kertenkelesi görürsen ne yapmalısın?",
+  "duyulan": "Peki, evinde bir ev kertenkelesi görürsen ne yapmalısın?",
+  "hata": 0,
+  "sure": 3.54,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Önce şunu bil: onu sık görüyorsan, evinde ya da evinin çevresinde ona yiyecek olacak böcekler var demektir.",
+  "duyulan": "Önce şunu bil, onu sık görüyorsan evinde ya da evinin çevresinde ona yiyecek olacak böcekler var demektir.",
+  "hata": 0,
+  "sure": 7.06,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Onu ezmek ya da ilaçlamak yerine, dışarı çıkarmak çok daha kolay.",
+  "duyulan": "onu ezmek ya da ilaçlamak yerine, dışarı çıkarmak çok daha kolay.",
+  "hata": 0,
+  "sure": 3.8,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Üzerine bir bardak kapat, altına ince bir karton kaydır ve onu dışarıda bir duvarın dibine bırak.",
+  "duyulan": "Üzerine bir bardak kapat, altına ince bir karton kaydır ve onu dışarıda bir duvarın dibine bırak.",
+  "hata": 0,
+  "sure": 5.72,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Sonra ellerini sabunla yıka.",
+  "duyulan": "Sonra ellerini sabunla yıka.",
+  "hata": 0,
+  "sure": 1.56,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Onu kuyruğundan tutma; kuyruğu kopup elinde kalabilir.",
+  "duyulan": "Onu kuyruğundan tutma, kuyruğu kopup elinde kalabilir.",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "064": {
+  "yazi": "Evine girmesini istemiyorsan pencerelere sineklik tak, kapı altlarındaki boşlukları kapat.",
+  "duyulan": "Evine girmesini istemiyorsan, pencerelere sineklik tak, kapı altlarındaki boşlukları kapat.",
+  "hata": 0,
+  "sure": 5.32,
+  "uygun": true
+ },
+ "065": {
+  "yazi": "Dış lambalarda sarı ışıklı ampuller kullanmak, böcekleri ve dolayısıyla kertenkeleleri daha az çekebilir.",
+  "duyulan": "Dış lambalarda sarı ışıklı ampuller kullanmak, böcekleri ve dolayısıyla kertenkeleleri daha az çekebilir.",
+  "hata": 0,
+  "sure": 6.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "066": {
+  "yazi": "Balkonda ya da bahçede ona dokunmazsan, geceleri küçük sinekleri ve güveleri avlamaya devam eder.",
+  "duyulan": "Balkonda ya da bahçede ona dokunmazsan geceleri küçük sinekleri ve güveleri avlamaya devam eder.",
+  "hata": 0,
+  "sure": 5.36,
+  "uygun": true
+ },
+ "067": {
+  "yazi": "Ev kertenkelesi zehirli değil; hijyene dikkat edersen sana bir zararı da yok.",
+  "duyulan": "Ev kerten kelesi zehirli değil. Hijyene dikkat edersen sana bir zararı da yok.",
+  "hata": 0,
+  "sure": 4.84,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "068": {
+  "yazi": "Sadece ışığın yanında sessizce nöbet tutan küçük bir avcı.",
+  "duyulan": "Sadece ışığın yanında sessizce nöbet tutan küçük bir avcı.",
+  "hata": 0,
+  "sure": 3.72,
+  "uygun": true
+ },
+ "069": {
+  "yazi": "Bir dahaki sefere onu duvarda gördüğünde, belki ona biraz daha farklı bakarsın.",
+  "duyulan": "Bir dahaki sefere onu duvarda gördüğünde belki ona biraz daha farklı bakarsın.",
+  "hata": 0,
+  "sure": 5.57,
+  "uygun": true
+ },
+ "070": {
+  "yazi": "Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz.",
+  "duyulan": "Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz.",
+  "hata": 0,
+  "sure": 3.42,
+  "uygun": true
+ },
+ "071": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "duyulan": "Avludaki komşularda, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "hata": 0,
+  "sure": 6.78,
   "uygun": true
  }
 }
