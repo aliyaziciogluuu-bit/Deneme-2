@@ -344,5 +344,17 @@
     "ses_kazanc": 7.5
   },
   "dongu_sn": 96,
-  "gorsel_4k": "sahne_4k.png"
+  "gorsel_4k": "sahne_4k.png",
+  "shorts3": {
+    "bas": 1060,
+    "son": 1240,
+    "y": 300,
+    "y_son": 560,
+    "yakin": 1.6,
+    "tur": 2,
+    "ses_tohum": 5,
+    "baslik": "POV: the Christmas market below",
+    "alt": "seen from a warm window",
+    "ses_kazanc": 1.5
+  }
 }

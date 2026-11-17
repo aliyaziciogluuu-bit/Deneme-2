@@ -252,5 +252,18 @@
     "baslik": "POV: a snowy night above the village",
     "alt": "and the stove is warm",
     "ses_kazanc": 7.5
+  },
+  "gorsel_4k": "sahne_4k.png",
+  "shorts3": {
+    "bas": 700,
+    "son": 980,
+    "y": 600,
+    "y_son": 450,
+    "yakin": 1.6,
+    "tur": 2,
+    "ses_tohum": 5,
+    "baslik": "Cocoa & Snowfall",
+    "alt": "a quiet night in the mountains",
+    "ses_kazanc": 1.5
   }
 }

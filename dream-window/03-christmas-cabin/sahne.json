@@ -142,5 +142,17 @@
     "ses_kazanc": 7.5
   },
   "dongu_sn": 96,
-  "gorsel_4k": "sahne_4k.png"
+  "gorsel_4k": "sahne_4k.png",
+  "shorts3": {
+    "bas": 1040,
+    "son": 1400,
+    "y": 430,
+    "y_son": 480,
+    "yakin": 1.6,
+    "tur": 2,
+    "ses_tohum": 5,
+    "baslik": "POV: Christmas by the fire",
+    "alt": "the tree lights are on",
+    "ses_kazanc": 1.5
+  }
 }

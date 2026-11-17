@@ -8,6 +8,10 @@ Kullanım:  python shorts.py 03-christmas-cabin            # sahne.json'daki "sh
 Ayarlar sahne.json içindeki "shorts" bölümündedir:
   "bas", "son": kadraj merkezinin başlangıç ve dönüş noktası (kaynak görseldeki x pikseli)
   "baslik", "alt": üstte duran yazılar;  "tur": kaç görüntü döngüsü sürsün (2 = 48 sn)
+  "yakin": yakınlaştırma (1 = tam yükseklik, 1.5 = sahnenin üçte ikisi; eski Shorts'lardan farklı bir kadraj için)
+  "y", "y_son": kadraj merkezinin dikey konumu ve dönüş noktası (kaynak görseldeki y pikseli; yalnızca yakin > 1 iken)
+  "ses_tohum": sesin düzeni (aynı sahnenin diğer Shorts'larından farklı olsun diye 0'dan farklı bir sayı)
+Yakın planlarda net görüntü için:  python shorts.py <sahne> shorts3 --4k   (sahne 4K görselden çizilir)
 """
 import pathlib
 import subprocess
@@ -49,8 +53,13 @@ def main():
     sahne = uret.Sahne(klasor)
     a = sahne.ayar[anahtar]
     kare_sayisi = uret.DONGU * uret.FPS
-    gen = uret.Y * SG // SY                                   # 1080p karede dikey kadrajın genişliği
-    bas, son = (min(max(sahne.o(v)[0], gen // 2), uret.G - gen // 2) for v in (a["bas"], a["son"]))
+    z = float(a.get("yakin", 1.0))
+    yuk = uret.Y / z                                          # kadrajın yüksekliği (karedeki piksel)
+    gen = yuk * SG / SY                                       # dikey kadrajın genişliği
+    bas, son = (min(max(sahne.o(v)[0], gen / 2), uret.G - gen / 2) for v in (a["bas"], a["son"]))
+    y_bas = sahne.o(a["y"])[0] if "y" in a else uret.Y / 2
+    y_son = sahne.o(a["y_son"])[0] if "y_son" in a else y_bas
+    y_bas, y_son = (min(max(v, yuk / 2), uret.Y - yuk / 2) for v in (y_bas, y_son))
     renk, saydam = yazi_katmani(a["baslik"], a["alt"])
 
     gecici = klasor / f"_{anahtar}.mp4"
@@ -58,9 +67,10 @@ def main():
                            "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-pix_fmt", "yuv420p", str(gecici)], stdin=subprocess.PIPE)
     for n in range(kare_sayisi):
         kare = sahne.kare(n)
-        merkez = bas + (son - bas) * (1 - np.cos(2 * np.pi * n / kare_sayisi)) / 2      # git ve yumuşakça geri dön
-        x0 = merkez - gen / 2
-        m = np.float32([[SG / gen, 0, -x0 * SG / gen], [0, SY / uret.Y, 0]])            # piksel altı kaydırma: hareket titremez
+        yol = (1 - np.cos(2 * np.pi * n / kare_sayisi)) / 2                              # git ve yumuşakça geri dön
+        x0 = bas + (son - bas) * yol - gen / 2
+        y0 = y_bas + (y_son - y_bas) * yol - yuk / 2
+        m = np.float32([[SG / gen, 0, -x0 * SG / gen], [0, SY / yuk, -y0 * SY / yuk]])  # piksel altı kaydırma: hareket titremez
         dikey = cv2.warpAffine(kare, m, (SG, SY), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REPLICATE).astype(np.float32)
         dikey += 0.35 * (dikey - cv2.GaussianBlur(dikey, (0, 0), 2.0))                  # büyütmenin yumuşattığı ayrıntıyı biraz keskinleştir
         dikey = dikey * (1 - saydam) + renk * saydam
@@ -69,7 +79,8 @@ def main():
     assert ff.wait() == 0
 
     ses = klasor / f"_{anahtar}.m4a"
-    uret.ses_kur(klasor, ses, kare_sayisi / uret.FPS, giris=0.6, cikis=0.8, hedef=-16.0)   # Shorts telefonda izlenir: bütün Shorts aynı ve biraz daha yüksek
+    uret.ses_kur(klasor, ses, kare_sayisi / uret.FPS, giris=0.6, cikis=0.8, hedef=-16.0,
+                 tohum_ek=int(a.get("ses_tohum", 0)))   # Shorts telefonda izlenir: bütün Shorts aynı ve biraz daha yüksek
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(gecici), "-i", str(ses), "-c:v", "copy",
                     "-af", "alimiter=limit=0.89:level=disabled", "-c:a", "aac", "-b:a", "192k",
                     "-shortest", "-movflags", "+faststart", str(klasor / f"{anahtar}.mp4")], check=True)

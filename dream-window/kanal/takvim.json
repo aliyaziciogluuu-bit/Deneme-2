@@ -76,13 +76,48 @@
       "shorts2"
     ]
   },
+  "2026-11-30": {
+    "shorts": [
+      "03-christmas-cabin",
+      "shorts3"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Noel kulübesi (18 Kasım'da yayınlanan 3 saatlik 4K) videosunu seç."
+  },
   "2026-12-01": {
     "uzun": "07-christmas-eve",
     "not": "Noel arifesi Shorts'larının (15 ve 28 Kasım) İlgili videosunu yeni Noel arifesi 3 saatlik videoyla değiştir."
   },
+  "2026-12-02": {
+    "shorts": [
+      "07-christmas-eve",
+      "shorts3"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Noel arifesi (dün yayınlanan 3 saatlik) videosunu seç."
+  },
+  "2026-12-03": {
+    "shorts": [
+      "04-snowy-village",
+      "shorts3"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Karlı kasaba videosunu seç."
+  },
+  "2026-12-04": {
+    "shorts": [
+      "05-snowy-library",
+      "shorts3"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Kütüphane (3 saatlik) videosunu seç."
+  },
   "2026-12-05": {
     "uzun": "10-japanese-garden",
     "not": "Japon bahçesi Shorts'unun (20 Kasım) İlgili videosu olarak bugünkü videoyu bağla."
+  },
+  "2026-12-06": {
+    "shorts": [
+      "08-attic-bedroom",
+      "shorts3"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Çatı katı (25 Kasım'da yayınlanan 3 saatlik) videosunu seç."
   },
   "2026-12-07": {
     "shorts": [

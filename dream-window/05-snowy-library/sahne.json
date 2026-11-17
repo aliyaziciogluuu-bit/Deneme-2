@@ -156,5 +156,17 @@
     "ses_kazanc": 7.5
   },
   "dongu_sn": 96,
-  "gorsel_4k": "sahne_4k.png"
+  "gorsel_4k": "sahne_4k.png",
+  "shorts3": {
+    "bas": 880,
+    "son": 1150,
+    "y": 620,
+    "y_son": 330,
+    "yakin": 1.6,
+    "tur": 2,
+    "ses_tohum": 5,
+    "baslik": "POV: tea, a book & snowfall",
+    "alt": "the library is all yours",
+    "ses_kazanc": 1.5
+  }
 }
