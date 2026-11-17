@@ -1,0 +1,8 @@
+000 fark=0 | Bahçede bunu görürsen, önce gözlerine bak. || Bahçede bunu görürsen önce gözlerine bak.
+001 fark=0 | Halk arasında ona sağır yılan deniyor, ama o bir yılan değil. || Halk arasında ona sağır yılan deniyor ama o bir yılan değil.
+002 fark=0 | Bacaksız bir kertenkele. || BACAKSIZ BİR KERTENKELE
+003 fark=0 | Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz. || Yılanların göz kapağı yoktur. Gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.
+004 fark=0 | Sağır yılanın gerçek göz kapakları var. || Sağır yılanın gerçek göz kapakları var.
+005 fark=0 | Üstelik pek çok kertenkele gibi kuyruğunu koparabiliyor. || Üstelik pek çok kertenkele gibi kuyruğunu koparabiliyor.
+006 fark=0 | Zehri yok ve bahçendeki sümüklü böcekleri avlıyor. || Zehri yok ve bahçendeki sümüklü böcekleri avlıyor.
+007 fark=0 | Onu öldürme. Tam videosu kanalımızda. || Onu öldürme, tam videosu kanalımızda.

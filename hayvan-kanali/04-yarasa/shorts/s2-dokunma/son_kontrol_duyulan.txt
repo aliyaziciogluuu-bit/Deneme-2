@@ -1,0 +1,7 @@
+000 fark=0 | Bir yarasaya asla çıplak elle dokunma. || Bir yarasaya asla çıplak elle dokunma.
+001 fark=0 | Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığını bakarak anlayamazsın. || Yarasaların çok azı kuduz ya da benzeri virüsler taşır ama hangisinin taşıdığını bakarak anlayamazsın.
+002 fark=0 | Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka. || Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.
+003 fark=0 | Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle. || Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasa ile temas ettiğini söyle.
+004 fark=0 | Kuduz aşısı gerekip gerekmediğine doktor karar verir. || Kuduz aşısı gerekip gerekmediğine doktor karar verir.
+005 fark=0 | Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık. || Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.
+006 fark=0 | Odada uyuyan biri ya da küçük bir çocuk varsa, yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda. || Odada uyuyan biri ya da küçük bir çocuk varsa yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda.

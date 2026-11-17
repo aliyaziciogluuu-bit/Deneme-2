@@ -1,0 +1,6 @@
+000 fark=0 | Bahçende gördüğün bu parlak hayvan, bilinen en uzun ömürlü kertenkele türlerinden birinin yakın akrabası. || Bahçende gördüğün bu parlak hayvan, bilinen en uzun ömürlü kertenkele türlerinden birinin yakın akrabası.
+001 fark=0 | Ona sağır yılan diyoruz, ama aslında bacaksız bir kertenkele. || Ona sağır yılan diyoruz ama aslında bacaksız bir kertenkele.
+002 fark=0 | Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı. || Avrupa'daki akrabasının bakım altındaki bir bireyi 54 yıl yaşadı.
+003 fark=0 | Doğada ömrü çok daha kısa; çoğu birey on yılı göremiyor. || Doğada ömrü çok daha kısa. Çoğu birey 10 yılı göremiyor.
+004 fark=0 | Onu tehdit edenler arasında, yılan sanıp öldüren insanlar, arabalar ve çim biçme makineleri var. || Onu tehdit edenler arasında yılan sanıp öldüren insanlar, arabalar ve çim biçme makineleri var.
+005 fark=0 | Bir dahaki sefere onu görürsen, rahat bırak. Tam videosu kanalımızda. || Bir dahaki sefere onu görürsen rahat bırak. Tam videosu kanalımızda.

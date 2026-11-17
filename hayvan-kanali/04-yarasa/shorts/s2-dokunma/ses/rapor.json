@@ -3,8 +3,9 @@
   "yazi": "Bir yarasaya asla çıplak elle dokunma.",
   "duyulan": "Bir yarasaya asla çıplak elle dokunma.",
   "hata": 0,
-  "sure": 2.58,
-  "uygun": true
+  "sure": 2.5,
+  "uygun": true,
+  "tek_basina": true
  },
  "001": {
   "yazi": "Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığını bakarak anlayamazsın.",

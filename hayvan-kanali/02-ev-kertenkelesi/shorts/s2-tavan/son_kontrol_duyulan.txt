@@ -1,0 +1,7 @@
+000 fark=0 | Bu kertenkele tavanda baş aşağı nasıl yürüyor? || Bu kertenkele tavanda baş aşağı nasıl yürüyor?
+001 fark=0 | Cevap parmaklarında saklı. || Cevap, parmaklarında saklı.
+002 fark=1 | Parmaklarının altında, ince yapraklar gibi sıralanmış pedler var. || Parmaklarının altında ince yapraklar gibi sıralanmış pad'ler var.
+003 fark=0 | Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı. || Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kıl lakaplı.
+004 fark=0 | Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor. || Her kılın ucu da çok sayıda daha da küçük uca ayrılıyor.
+005 fark=0 | Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor. || Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.
+006 fark=0 | Milyonlarca uç bir araya gelince, bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda. || Milyonlarca uç bir araya gelince bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda.
