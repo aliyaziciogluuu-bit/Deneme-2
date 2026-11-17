@@ -1,0 +1,41 @@
+{
+ "not": "Görsel modeli kirpinin top olmasını çizemedi; büzülmüş kirpi görselinden klip olarak denenir. Kendini yağlama için yanlış görüntü kullanılmaz.",
+ "klipler": [
+  {
+   "ad": "bahce_gece",
+   "gorsel": "bahce_gece",
+   "sure": 5,
+   "istem": "The hedgehog in the flashlight beam sniffs the ground, its nose twitching, and takes a few small steps forward among the fallen leaves; leaves rustle slightly. Slow gentle camera push-in. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "su_kabi",
+   "gorsel": "su_kabi",
+   "sure": 5,
+   "istem": "The hedgehog drinks water from the shallow terracotta dish, small ripples spreading on the water surface; flowers sway gently in a night breeze. Static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "top",
+   "gorsel": "top",
+   "sure": 5,
+   "istem": "The hedgehog lowers its head and tucks its face and legs underneath, curling its whole body into a tight round spiky ball until no face or legs are visible, then stays still as a ball. Static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "bocek_av",
+   "gorsel": "bocek_av",
+   "sure": 5,
+   "istem": "The hedgehog sniffs, finds the black beetle in the grass and eats it, chewing; grass sways slightly. Static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "cit_delik",
+   "gorsel": "cit_delik",
+   "sure": 5,
+   "istem": "The hedgehog walks out through the small square hole at the base of the wooden fence into the garden, sniffing the ground as it goes. Static camera. Storybook watercolor style preserved."
+  },
+  {
+   "ad": "kapanis",
+   "gorsel": "kapanis",
+   "sure": 5,
+   "istem": "Under the full moon the hedgehog walks slowly across the lawn toward the shallow dish of water, flowers and grass swaying in a light breeze. Slow camera pull-back. Storybook watercolor style preserved."
+  }
+ ]
+}

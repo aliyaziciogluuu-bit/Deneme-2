@@ -1,0 +1,1034 @@
+{
+ "not": "Her çekim sırayla 'n' cümleyi kaplar. a/b: [merkez_x, merkez_y, genişlik]. 'klip' varsa klipler/<ad>.mp4 oynar.",
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "bahce_gece",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "bahce_gece"
+  },
+  {
+   "n": 1,
+   "gorsel": "bahce_gece",
+   "a": [
+    0.7,
+    0.5,
+    0.7
+   ],
+   "b": [
+    0.7,
+    0.5,
+    0.55
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "sut_kabi",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "hasta",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yavrular",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.4,
+    0.5,
+    0.85
+   ],
+   "b": [
+    0.6,
+    0.5,
+    0.85
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kapak",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "karart": 0.5,
+   "baslik": {
+    "buyuk": "KİRPİ",
+    "kucuk": "Bahçenin dikenli gece bekçisi"
+   }
+  },
+  {
+   "n": 1,
+   "gorsel": "sut_kabi",
+   "a": [
+    0.62,
+    0.62,
+    0.6
+   ],
+   "b": [
+    0.62,
+    0.62,
+    0.45
+   ],
+   "etiket": "Kirpiler laktozu sindiremez"
+  },
+  {
+   "n": 1,
+   "gorsel": "sut_kabi",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "hasta",
+   "a": [
+    0.5,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.6
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "hasta",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "İshal → susuz kalma"
+  },
+  {
+   "n": 1,
+   "gorsel": "yavrular",
+   "a": [
+    0.38,
+    0.65,
+    0.6
+   ],
+   "b": [
+    0.38,
+    0.65,
+    0.45
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "sut_kabi",
+   "a": [
+    0.4,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.8
+   ],
+   "etiket": "Laktozsuz ve bitki sütü de uygun değil"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.38,
+    0.5,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.5,
+    0.8
+   ],
+   "etiket": "Ekmek de uygun değil"
+  },
+  {
+   "n": 1,
+   "gorsel": "su_kabi",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "su_kabi",
+   "etiket": "En iyisi: sığ bir kapta temiz su"
+  },
+  {
+   "n": 1,
+   "gorsel": "su_kabi",
+   "a": [
+    0.45,
+    0.6,
+    0.7
+   ],
+   "b": [
+    0.45,
+    0.6,
+    0.55
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "mama",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Et bazlı kedi/köpek maması (balıklı değil)"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "mama",
+   "a": [
+    0.5,
+    0.6,
+    0.7
+   ],
+   "b": [
+    0.5,
+    0.6,
+    0.55
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "su_kabi",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "trakya",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Türkiye'de 3 kirpi türü"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.6,
+    0.55,
+    0.7
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.55
+   ],
+   "etiket": "Akgöğüslü kirpi (Anadolu)"
+  },
+  {
+   "n": 1,
+   "gorsel": "trakya",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Balkan kirpisi (Trakya)"
+  },
+  {
+   "n": 1,
+   "gorsel": "kulakli",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Uzun kulaklı kirpi (Güneydoğu, Iğdır)"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.42,
+    0.5,
+    0.85
+   ],
+   "b": [
+    0.58,
+    0.5,
+    0.85
+   ],
+   "etiket": "Boy: 20–30 cm"
+  },
+  {
+   "n": 1,
+   "gorsel": "dikenler",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "5.000–7.000 diken"
+  },
+  {
+   "n": 1,
+   "gorsel": "dikenler",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Keratin: saç ve tırnakla aynı madde"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.4,
+    0.45,
+    0.7
+   ],
+   "b": [
+    0.4,
+    0.45,
+    0.55
+   ],
+   "etiket": "Zehirsiz, fırlatılamaz"
+  },
+  {
+   "n": 1,
+   "gorsel": "top",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "top"
+  },
+  {
+   "n": 1,
+   "gorsel": "yol",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "elma",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Efsane"
+  },
+  {
+   "n": 1,
+   "gorsel": "plinius",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Yaşlı Plinius, MS 1. yüzyıl"
+  },
+  {
+   "n": 1,
+   "gorsel": "elma",
+   "a": [
+    0.45,
+    0.4,
+    0.7
+   ],
+   "b": [
+    0.45,
+    0.4,
+    0.55
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "elma",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Bilimsel kanıt yok"
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_av",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_av",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "bocek_av",
+   "etiket": "Böcek · tırtıl · solucan · salyangoz"
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_av",
+   "a": [
+    0.4,
+    0.6,
+    0.6
+   ],
+   "b": [
+    0.4,
+    0.6,
+    0.45
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.4,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "bahce_gece",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Engerek zehrine kısmi direnç"
+  },
+  {
+   "n": 1,
+   "gorsel": "bocek_av",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.72,
+    0.5,
+    0.7
+   ],
+   "b": [
+    0.72,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.8,
+    0.55,
+    0.5
+   ],
+   "b": [
+    0.8,
+    0.55,
+    0.38
+   ],
+   "etiket": "Köpüklü salya"
+  },
+  {
+   "n": 1,
+   "gorsel": "dikenler",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.7
+   ],
+   "etiket": "Köpüğü dikenlerine sürüyor"
+  },
+  {
+   "n": 1,
+   "gorsel": "dikenler",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Kendini yağlama: nedeni hâlâ bilinmiyor"
+  },
+  {
+   "n": 1,
+   "gorsel": "kis_uykusu",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kis_uykusu",
+   "a": [
+    0.5,
+    0.65,
+    0.7
+   ],
+   "b": [
+    0.5,
+    0.65,
+    0.55
+   ],
+   "etiket": "Kalp atışı: dakikada ~190 → ~20"
+  },
+  {
+   "n": 1,
+   "gorsel": "kis_uykusu",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Vücut sıcaklığı: 35 °C → 5–10 °C"
+  },
+  {
+   "n": 1,
+   "gorsel": "yaprak_yigini",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Yakmadan önce kontrol et"
+  },
+  {
+   "n": 1,
+   "gorsel": "bahce_gece",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gunduz",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gunduz",
+   "a": [
+    0.45,
+    0.55,
+    0.7
+   ],
+   "b": [
+    0.45,
+    0.55,
+    0.55
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "sut_kabi",
+   "a": [
+    0.4,
+    0.55,
+    0.65
+   ],
+   "b": [
+    0.4,
+    0.55,
+    0.5
+   ],
+   "etiket": "Süt verme, zorla yedirme"
+  },
+  {
+   "n": 1,
+   "gorsel": "kutu",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Eldiven + havlulu yüksek kutu"
+  },
+  {
+   "n": 1,
+   "gorsel": "kutu",
+   "a": [
+    0.5,
+    0.6,
+    0.7
+   ],
+   "b": [
+    0.5,
+    0.6,
+    0.55
+   ],
+   "etiket": "Üşümüşse havluya sarılı ılık su şişesi"
+  },
+  {
+   "n": 1,
+   "gorsel": "kutu",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Sonra ellerini yıka"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Kurtarma merkezi · veteriner · DKMP · Alo 174"
+  },
+  {
+   "n": 1,
+   "gorsel": "yol",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "En büyük tehlike: arabalar"
+  },
+  {
+   "n": 1,
+   "gorsel": "bahce_gece",
+   "a": [
+    0.4,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.8
+   ],
+   "etiket": "Çim makinesi · ilaç · file ağ"
+  },
+  {
+   "n": 1,
+   "gorsel": "trakya",
+   "a": [
+    0.4,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "cit_delik",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "cit_delik",
+   "etiket": "~13 cm'lik geçit"
+  },
+  {
+   "n": 1,
+   "gorsel": "yaprak_yigini",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Yaprak yığını = yuva"
+  },
+  {
+   "n": 1,
+   "gorsel": "havuz",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Havuza rampa"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Kirpi Türkiye'de koruma altında"
+  },
+  {
+   "n": 1,
+   "gorsel": "su_kabi",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kapanis",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kapanis",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "klip": "kapanis"
+  },
+  {
+   "n": 1,
+   "gorsel": "bahce_gece",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Senin oralarda ne anlatılıyor? Yorumlarda yaz"
+  },
+  {
+   "n": 1,
+   "gorsel": "kapanis",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "karart": 0.15
+  }
+ ]
+}
