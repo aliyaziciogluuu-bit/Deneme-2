@@ -13,16 +13,16 @@
   "cam": {
     "kutular": [
       [
-        1037,
+        1068,
         0,
         1337,
         685
       ],
       [
-        1396,
+        1400,
         0,
-        1672,
-        702
+        1620,
+        700
       ]
     ],
     "esik": 0.0,
@@ -36,45 +36,45 @@
       "genlik": 0.085
     },
     {
-      "x": 643,
-      "y": 351,
-      "sigma": 90,
+      "x": 650,
+      "y": 352,
+      "sigma": 70,
       "genlik": 0.1
     },
     {
       "x": 823,
       "y": 465,
-      "sigma": 90,
+      "sigma": 80,
       "genlik": 0.1
     },
     {
-      "x": 876,
-      "y": 655,
-      "sigma": 90,
+      "x": 390,
+      "y": 115,
+      "sigma": 50,
       "genlik": 0.1
     },
     {
-      "x": 221,
-      "y": 879,
-      "sigma": 90,
+      "x": 205,
+      "y": 300,
+      "sigma": 45,
       "genlik": 0.1
     },
     {
-      "x": 1233,
-      "y": 810,
-      "sigma": 90,
-      "genlik": 0.1
+      "x": 1127,
+      "y": 560,
+      "sigma": 60,
+      "genlik": 0.12
     },
     {
-      "x": 1476,
-      "y": 815,
-      "sigma": 81,
-      "genlik": 0.1
+      "x": 1478,
+      "y": 630,
+      "sigma": 60,
+      "genlik": 0.12
     },
     {
-      "x": 766,
-      "y": 734,
-      "sigma": 90,
+      "x": 1410,
+      "y": 385,
+      "sigma": 30,
       "genlik": 0.1
     }
   ],
@@ -125,19 +125,28 @@
     ]
   },
   "shorts": {
-    "bas": 223,
-    "son": 1534,
+    "bas": 1400,
+    "son": 1050,
     "tur": 2,
     "baslik": "Snowy Paris Apartment",
     "alt": "Snowfall & Crackling Fireplace",
-    "ses_kazanc": 7.5
+    "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 1534,
-    "son": 223,
+    "bas": 1050,
+    "son": 1400,
     "tur": 2,
-    "baslik": "POV: snowy paris apartment on a snowy night",
-    "alt": "sleep here tonight",
-    "ses_kazanc": 7.5
+    "baslik": "POV: snow over Paris from your window",
+    "alt": "the Eiffel Tower is sparkling",
+    "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      855,
+      540,
+      925,
+      640
+    ],
+    "genlik": 0.7
   }
 }

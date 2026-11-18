@@ -12,14 +12,62 @@
   "cam": {
     "kutular": [
       [
-        604,
+        680,
         0,
-        1672,
-        757
+        1595,
+        640
       ]
     ],
     "esik": 0.0,
-    "temizlik": 5
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          600,
+          300
+        ],
+        [
+          700,
+          295
+        ],
+        [
+          780,
+          310
+        ],
+        [
+          860,
+          345
+        ],
+        [
+          830,
+          420
+        ],
+        [
+          790,
+          470
+        ],
+        [
+          745,
+          505
+        ],
+        [
+          740,
+          565
+        ],
+        [
+          650,
+          565
+        ],
+        [
+          655,
+          500
+        ],
+        [
+          620,
+          400
+        ]
+      ]
+    ]
   },
   "isiklar": [
     {
@@ -29,39 +77,15 @@
       "genlik": 0.1
     },
     {
-      "x": 506,
-      "y": 653,
-      "sigma": 90,
-      "genlik": 0.1
-    },
-    {
-      "x": 474,
-      "y": 602,
-      "sigma": 90,
-      "genlik": 0.1
-    },
-    {
-      "x": 532,
+      "x": 530,
       "y": 422,
-      "sigma": 90,
+      "sigma": 80,
       "genlik": 0.1
     },
     {
-      "x": 548,
-      "y": 536,
-      "sigma": 90,
-      "genlik": 0.1
-    },
-    {
-      "x": 399,
-      "y": 594,
-      "sigma": 49,
-      "genlik": 0.1
-    },
-    {
-      "x": 223,
-      "y": 610,
-      "sigma": 31,
+      "x": 1620,
+      "y": 640,
+      "sigma": 100,
       "genlik": 0.1
     }
   ],
@@ -77,19 +101,28 @@
     ]
   },
   "shorts": {
-    "bas": 1138,
-    "son": 1372,
+    "bas": 1300,
+    "son": 900,
     "tur": 2,
     "baslik": "Rainy Tokyo Apartment",
-    "alt": "Gentle Rain at Night",
+    "alt": "Gentle Rain & City Lights",
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 1372,
-    "son": 1138,
+    "bas": 900,
+    "son": 1300,
     "tur": 2,
-    "baslik": "POV: rainy tokyo apartment on a rainy night",
-    "alt": "sleep here tonight",
+    "baslik": "POV: Tokyo in the rain from your window",
+    "alt": "the city never sleeps, you do",
     "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      515,
+      445,
+      585,
+      535
+    ],
+    "genlik": 0.7
   }
 }
