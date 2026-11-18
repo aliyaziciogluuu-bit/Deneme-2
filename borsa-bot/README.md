@@ -160,6 +160,41 @@ veriyor (%38,0). Açmak isterseniz `ayar.toml` dosyasının sonundaki `[portfoli
 piyasası fonunda değerlendirin (para piyasası fonları da risksiz değildir). Bu ayar yalnızca sonraki kararları
 etkiler.
 
+## Halka arz keşfi (sonuç: işe yarar bir kural çıkmadı)
+
+Soru: yeni halka arz olan bir hisseyi **piyasadan sonradan alan** biri için tekrarlanan, kazandıran bir kalıp
+var mı? Kurallar, yöntem ve geçme ölçütleri sonuçlar görülmeden önce yazılıp depoya işlendi (bkz.
+`bistbot/ipo.py` başındaki ön kayıt). Veri: resmî günlük bültenler, Haziran 2016 – Kasım 2026, **261 halka arz**.
+
+Sınanan 6 sinyal × 3 elde tutma süresi (5, 20, 60 seans) = 18 kural: tavan serisi bozulduğu gün alım; bozulduğu
+gün artıda / ekside kapatanlar; hiç tavan yapmayanlar; uzun seri yapanlar; zirveden %30 düşünce alım. Alım hep
+ertesi sabah açılıştan, masraflar düşülerek; kıyas, aynı günlerde bütün hisselerin eşit ağırlıklı getirisi.
+
+**Sonuç: keşif yok.** 2024 öncesi 173 halka arzda 18 kuralın hiçbiri önceden konan eşiği (t ≥ 3,0) geçemedi;
+en yükseği 2,4'te kaldı. Kural gereği ayrılan 2024–2026 verisi (88 halka arz) yalnızca bilgi için incelendi ve
+tablo daha da kötü çıktı. Kıyas, yeni halka arzlar dışarıda tutularak yeniden hesaplandığında sonuç değişmedi.
+
+Tavan serisi bozulduktan sonraki sabah alan biri için (bütün dönem):
+
+| Elde tutma | İşlem | Zarar eden | Faizin altında kalan | Ortanca net getiri | Ortalama net getiri |
+|---|---:|---:|---:|---:|---:|
+| 5 seans | 251 | %65 | %65 | −%4,9 | −%0,7 |
+| 20 seans | 251 | %59 | %62 | −%5,0 | +%4,5 |
+| 60 seans | 248 | %48 | %54 | +%1,0 | +%20,7 |
+
+- **Piyango gibi davranıyor.** Ortalama artı görünse de tipik (ortanca) sonuç zarar: 60 seanslık ortalama
+  anormal getirinin (%12,5) neredeyse tamamı en iyi 10 işlemden geliyor; onlar çıkarılınca %0,9 kalıyor.
+- **Son yıllarda daha kötü.** 2024'ten beri 20 seans tutanların %73'ü zarar etti; ortanca sonuç piyasanın
+  13 puan altında.
+- **Hiç tavan yapmayan halka arzlar ilk hafta düşmeye devam ediyor** (5 seansta piyasanın ortalama 3 puan
+  altında; 2024 sonrasında 5 puan). Bu bir "alma" bulgusudur, alım kuralı değil.
+- Tek zayıf ipucu: seri bozulduğu gün artıda kapatanlar sonraki 5 seansta piyasayı ortalama 6 puan geçti
+  (iki dönemde de). Eşiği geçemediği ve mutlak getiride işlemlerin yarısı zararda olduğu için **işlem kuralı
+  olarak sunulmuyor.**
+
+Bu çalışma halka arza **katılmayı** (dağıtımdan pay almayı) ölçmez; bültenlerde halka arz fiyatı ve kişi başına
+dağıtılan lot yoktur. Yeniden üretmek için: `python -m bistbot halka-arz`.
+
 ## Kurulum (telefondan yapılabilir)
 
 1. **Bot dosyalarını ana dala alın.** Bu klasör `main` dalına birleştirildiğinde zamanlanmış çalışma devreye girer.
@@ -332,6 +367,7 @@ python -m bistbot doktor              # veri kaynaklarına erişim testi
 python -m bistbot gunluk --deneme     # bugünün sinyalleri; hiçbir şey kaydetmez
 python -m bistbot veri                # 2015'ten bugüne veriyi indir (≈1 saat)
 python -m bistbot backtest            # geçmiş testi + sağlamlık raporu → web/data/backtest.json
+python -m bistbot halka-arz           # halka arz keşfi: ön kayıtlı 18 kuralı resmî bültenlerle sınar
 python -m bistbot emir --mod deneme   # günün fişini deneme kipinde işle (emir göndermez)
 ```
 
@@ -342,6 +378,7 @@ python -m bistbot emir --mod deneme   # günün fişini deneme kipinde işle (em
 | `bistbot/data/adjust.py` | Düzeltme katsayıları ve eksik sermaye olaylarının onarımı |
 | `bistbot/data/isyatirim.py`, `isystore.py`, `macro.py` | İş Yatırım ve TLREF verileri, önbellek |
 | `bistbot/data/dataset.py` | Hepsini tek veri nesnesinde birleştirir; mali tablolar gecikmeli devreye girer |
+| `bistbot/ipo.py` | Halka arz keşfi: ön kayıt, olay saptama, 18 kuralın sınanması |
 | `bistbot/signals.py` | Evren filtresi, özellikler, temel/teknik sütunlar, bileşik puan |
 | `bistbot/technical.py` | Teknik göstergeler: eğilim (nakde göre), RSI, MACD, ATR |
 | `bistbot/portfolio.py` | Seçim bandı, teknik onay kapısı, ağırlıklar, takvim, rejim filtresi |

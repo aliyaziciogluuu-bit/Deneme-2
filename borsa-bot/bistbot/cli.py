@@ -185,6 +185,24 @@ def cmd_backtest(args) -> int:
     return 0
 
 
+def cmd_halka_arz(args) -> int:
+    """Halka arz keşfi (bkz. ``ipo.py``): ön kayıtlı 18 kuralı sınar, sonucu yazar."""
+    from . import ipo
+
+    stores = open_stores(args.onbellek)
+    today = _istanbul_today()
+    if not args.esitleme_yok:
+        log.info("bültenler: %s", stores.bulletins.sync(dt.date(2015, 11, 30), today, today=today, progress=True))
+        stores.macro.sync_rf(dt.date(2015, 10, 1), today)
+    panel = load_panel(stores, dt.date(2015, 11, 30), today)
+    res = ipo.study(panel, stores.macro.load_rf(), load_config(args.ayar).cost)
+    print(ipo.format_study(res))
+    if args.cikti:
+        res["generated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+        write_json(args.cikti, res)
+    return 0
+
+
 def cmd_doktor(args) -> int:
     from .data import isyatirim as isy
     from .data.bulletin import bulletin_url
@@ -296,6 +314,11 @@ def build_parser() -> argparse.ArgumentParser:
     what.add_argument("--durum", action="store_true", help="bugünkü emir günlüğünü göster")
     e.add_argument("--fiyat", type=float, help="--yon-testi için hissenin şu anki fiyatı")
     e.set_defaults(func=cmd_emir)
+
+    h = sub.add_parser("halka-arz", help="halka arz keşfi: ön kayıtlı kuralları resmî bültenlerle sına")
+    h.add_argument("--esitleme-yok", action="store_true", help="veri indirme; yalnızca önbelleği kullan")
+    h.add_argument("--cikti", type=Path, help="sonucu JSON olarak da yaz")
+    h.set_defaults(func=cmd_halka_arz)
 
     k = sub.add_parser("doktor", help="veri kaynaklarına erişimi sına")
     k.set_defaults(func=cmd_doktor)
