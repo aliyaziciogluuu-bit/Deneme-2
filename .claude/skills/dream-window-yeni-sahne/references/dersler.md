@@ -46,6 +46,11 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
   - Aynı sahnenin iki Shorts'u farklı karelerle açılır (örneğin biri ateşle, diğeri pencereyle ya da `yakin` ile).
   - Sorumlu: yapımcı ve metin yazarı.
 
+- **18 Kasım, 22 Tokyo (metin editörü işaretledi, patron düzeltti):** Başlıkta "Lofi Chill" yazıyordu ama videoda müzik yok. Öyküde de "a pot of green tea" geçiyordu, oysa görselde tek bir fincan var.
+  - **Kural:** Başlık, etiket ve açıklama videoda olmayan bir şeyi vaat etmez. "Lofi", "music", "piano" gibi kelimeler müziksiz videoda kullanılmaz. Müzik bekleyen izleyici hemen çıkar ve izlenme süresi düşer.
+  - Öyküdeki nesnelerin türü ve sayısı (fincan mı, çaydanlık mı) `onizleme.jpg` açılarak görselle karşılaştırılır.
+  - Sorumlu: metin yazarı.
+
 - **18 Kasım, ilk fikir toplantısı (patron yakaladı):** İki fikir, Shorts açıklamasına ve yorumuna tıklanabilir bağlantı konabileceğini varsaydı.
   - **Kural:** YouTube bu yüzeylerde bağlantıları tıklanabilir göstermiyor. Shorts'tan uzun videoya tek köprü "İlgili video".
   - Bir yönlendirme fikri önermeden önce o yüzeyde bağlantının gerçekten çalışıp çalışmadığını doğrula.
