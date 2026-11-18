@@ -15,7 +15,7 @@ Bir keresinde kuzey ışıkları her 8,5 saniyede bir tekrar ediyordu ve bunu ku
 
 ## Ön kontrol (her seferinde)
 
-1. `df -h /`: en az 15 GB boş yer olmalı. Disk dolunca son birleştirme yarıda kesilir ve bozuk dosya kalır. Yer yoksa önce büyük, gereksiz dosyaları sil (eski `_gecici*` klasörleri, kullanılmayan önbellekler).
+1. `df -h /`: en az 5 GB boş yer olmalı (bir sahne yaklaşık 1,5 GB kullanır; 10 saatlik videolar için 10 GB). Disk dolunca son birleştirme yarıda kesilir ve bozuk dosya kalır. Yer yoksa önce büyük, gereksiz dosyaları sil (eski `_gecici*` klasörleri, kullanılmayan önbellekler).
 2. `pgrep -af "uret.py|shorts.py"`: başka ağır iş çalışıyorsa bekle. Bellek sınırı yaklaşık 8 GB. İki ağır iş birlikte çalışınca biri öldürülür.
 3. Sıradaki numarayı bul (`ls -d dream-window/[0-9][0-9]-*`). Klasör adı: `NN-ingilizce-kisa-ad` (örn. `21-snowy-observatory`).
 
