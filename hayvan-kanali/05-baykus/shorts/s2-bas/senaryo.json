@@ -1,0 +1,49 @@
+{
+  "dikey": true,
+  "baslik": "Baykuş Başını Tam Tur Çevirebilir mi? 🦉 #shorts",
+  "aciklama": "Baykuşun gözleri yuvasında dönmez; bu yüzden başını çevirir. Ama tam tur değil: en fazla 270 derece. Boynunda 14 omur var. Tam video kanalımızda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\nKaynak: de Kok-Mercado ve ark. (2013), Science 339(6119)\n\n#shorts #baykuş #bilim #doğa",
+  "etiketler": [
+    "baykuş",
+    "baykuş başını çevirir mi",
+    "bilim",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "BAŞINI",
+    "tam tur çevirir mi?"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Baykuş Uğursuz mu? (Köyün Gece Bekçisi)",
+  "sahneler": [
+    {
+      "ad": "Baykuş Başını Tam Tur Çevirebilir mi? 🦉 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Halk arasında baykuşun başını tam bir tur döndürdüğü söylenir, ama bu doğru değil."
+        },
+        {
+          "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor."
+        },
+        {
+          "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor."
+        },
+        {
+          "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü."
+        },
+        {
+          "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var."
+        },
+        {
+          "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

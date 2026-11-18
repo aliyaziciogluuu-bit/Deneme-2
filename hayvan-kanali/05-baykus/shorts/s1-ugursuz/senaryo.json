@@ -1,0 +1,53 @@
+{
+  "dikey": true,
+  "baslik": "Baykuş Gerçekten Uğursuz mu? 🦉 #shorts",
+  "aciklama": "Anadolu'da baykuşun ötmesi kötü haberin işareti sayılır; Antik Yunan'da ise bilgeliğin simgesiydi. Oysa baykuş, köyün en çalışkan fare avcılarından biri. Tam video kanalımızda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\nKaynak: Johnson & St. George – Vertebrate Pest Conference (peçeli baykuş ailelerinin avladığı kemirgenler)\n\n#shorts #baykuş #efsane #doğa #köy",
+  "etiketler": [
+    "baykuş",
+    "baykuş uğursuz mu",
+    "efsane",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "BAYKUŞ",
+    "uğursuz mu?"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Baykuş Uğursuz mu? (Köyün Gece Bekçisi)",
+  "sahneler": [
+    {
+      "ad": "Baykuş Gerçekten Uğursuz mu? 🦉 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor."
+        },
+        {
+          "yazi": "Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir."
+        },
+        {
+          "yazi": "Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor."
+        },
+        {
+          "yazi": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi; Atina'da basılan gümüş sikkelerde de yer alıyordu.",
+          "ses": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi; Atina'da basılan gümüş sikkelerde de yer alıyordu."
+        },
+        {
+          "yazi": "Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti."
+        },
+        {
+          "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor."
+        },
+        {
+          "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}
