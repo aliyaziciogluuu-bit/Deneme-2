@@ -1,6 +1,6 @@
 === Deutsch ===
 TITLE
-3 Stunden Verschneite Schlossbibliothek 🏰❄️ Schneefall & Kaminfeuer zum Lesen, Lernen & Einschlafen
+3 Stunden Verschneite Schlossbibliothek 🏰❄️ Schneefall & Kaminfeuer zum Lesen & Einschlafen
 TITLE_4K
 Verschneite Schlossbibliothek 4K 🏰❄️ 3 Stunden Schneefall & Kaminfeuer zum Lesen & Schlafen
 DESCRIPTION
@@ -27,7 +27,7 @@ Additional rain and fireplace recordings from Pixabay (Pixabay Content License).
 
 === Español ===
 TITLE
-3 Horas Biblioteca de Castillo Nevada 🏰❄️ Nevada y Chimenea Crepitante para Leer, Estudiar y Dormir
+3 Horas Biblioteca de Castillo Nevada 🏰❄️ Nevada y Chimenea para Leer, Estudiar y Dormir
 TITLE_4K
 Biblioteca de Castillo Nevada 4K 🏰❄️ 3 Horas de Nevada y Chimenea para Leer, Estudiar y Dormir
 DESCRIPTION
@@ -81,7 +81,7 @@ Additional rain and fireplace recordings from Pixabay (Pixabay Content License).
 
 === Français ===
 TITLE
-3 Heures Bibliothèque de Château Enneigée 🏰❄️ Neige & Feu de Cheminée pour Lire, Étudier et Dormir
+3 Heures Bibliothèque de Château Enneigée 🏰❄️ Neige & Feu de Cheminée pour Lire et Dormir
 TITLE_4K
 Bibliothèque de Château Enneigée 4K 🏰❄️ 3 Heures Neige & Feu de Cheminée pour Lire et Dormir
 DESCRIPTION
