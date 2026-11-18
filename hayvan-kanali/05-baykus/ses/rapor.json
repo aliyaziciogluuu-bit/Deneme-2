@@ -152,5 +152,215 @@
   "hata": 1,
   "sure": 6.86,
   "uygun": true
+ },
+ "022": {
+  "yazi": "Baykuşun en büyük sırlarından biri, neredeyse hiç ses çıkarmadan uçabilmesi.",
+  "duyulan": "Baykuş'un en büyük sırlarından biri neredeyse hiç ses çıkarmadan uçabilmesi.",
+  "hata": 0,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var.",
+  "duyulan": "Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var.",
+  "hata": 0,
+  "sure": 3.88,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Bu dişler, kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor.",
+  "duyulan": "Bu dişler kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor.",
+  "hata": 0,
+  "sure": 5.14,
+  "uygun": true
+ },
+ "025": {
+  "yazi": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak.",
+  "duyulan": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak.",
+  "hata": 0,
+  "sure": 4.26,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor.",
+  "duyulan": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor.",
+  "hata": 0,
+  "sure": 4.1,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Baykuşlar karanlıkta iyi görür, ama gece avlananların asıl silahı kulakları.",
+  "duyulan": "Baykuşlar karanlıkta iyi görür ama gece avlananların asıl silahı kulakları.",
+  "hata": 0,
+  "sure": 4.9,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Yüzünü çevreleyen tüy halkası, bir çanak anten gibi sesi toplayıp kulaklara yönlendiriyor.",
+  "duyulan": "Yüzünü çevreleyen tüy halkası bir çanak anten gibi sesi toplayıp kulaklara yönlendiriyor.",
+  "hata": 0,
+  "sure": 4.86,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Bazı baykuşlarda iki kulak deliği aynı hizada değil; biri diğerinden biraz daha yukarıda.",
+  "duyulan": "Bazı baykuşlarda iki kulak deliği aynı hizada değil, biri diğerinden biraz daha yukarıda.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor.",
+  "duyulan": "Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor.",
+  "hata": 0,
+  "sure": 7.22,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş.",
+  "duyulan": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş.",
+  "hata": 0,
+  "sure": 5.86,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor.",
+  "duyulan": "Baykuş'un gözleri o kadar büyük ki göz yuvalarının içinde dönemiyor.",
+  "hata": 0,
+  "sure": 4.3,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş.",
+  "duyulan": "Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş.",
+  "hata": 0,
+  "sure": 5.34,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.",
+  "duyulan": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Halk arasında başını tam bir tur döndürdüğü söylenir, ama bu doğru değil.",
+  "duyulan": "Halk arasında başını tam bir tur döndürdüğü söylenir ama bu doğru değil.",
+  "hata": 0,
+  "sure": 4.1,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü.",
+  "duyulan": "baykuş başını 270 dereceye kadar çevirebiliyor. Yani tam bir turun yaklaşık dörtte üçü.",
+  "hata": 0,
+  "sure": 6.08,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var.",
+  "duyulan": "Bizim boynumuzda 7 omur varken, baykuşun boynunda 14 omur var.",
+  "hata": 0,
+  "sure": 4.7,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş.",
+  "duyulan": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş.",
+  "hata": 0,
+  "sure": 4.58,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Gündüz kör oldukları da bir efsane; baykuşlar gün ışığında da görebiliyor.",
+  "duyulan": "Gündüz kör oldukları da bir efsane. Baykuşlar gün ışığında da görebiliyor.",
+  "hata": 0,
+  "sure": 3.98,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Peçeli baykuşun menüsünde en çok fareler ve tarla fareleri var; kukumav ve ishakkuşu böcekleri de severek yiyor.",
+  "duyulan": "Peçeli Baykuş'un menüsünde en çok fareler ve tarla fareleri var. Kukumav ve İshak kuşu böcekleri de severek yiyor.",
+  "hata": 0,
+  "sure": 7.22,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Avlarını çoğu zaman bütün olarak yutuyorlar.",
+  "duyulan": "avlarını çoğu zaman bütün olarak yükliyorlar.",
+  "hata": 1,
+  "sure": 2.42,
+  "uygun": false
+ },
+ "042": {
+  "yazi": "Sindiremedikleri kemikleri ve tüyleri de küçük topaklar halinde geri çıkarıyorlar.",
+  "duyulan": "sindiremedikleri kemikleri ve tüyleri de küçük topaklar halinde geri çıkarıyorlar.",
+  "hata": 0,
+  "sure": 4.74,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Bilim insanları bu topakları inceleyerek, bir bölgede hangi küçük memelilerin yaşadığını öğreniyor.",
+  "duyulan": "Bilim insanları bu topakları inceleyerek bir bölgede hangi küçük memelilerin yaşadığını öğreniyor.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor.",
+  "duyulan": "Bir peçeli baykuş ailesi bir yılda binlerce kemirgen yiyebiliyor.",
+  "hata": 0,
+  "sure": 4.32,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Bu yüzden İsrail başta olmak üzere birçok ülkede çiftçiler, fare zehrini azaltmak için tarlalarına baykuş yuva kutuları koyuyor.",
+  "duyulan": "Bu yüzden İsrail başta olmak üzere birçok ülkede çiftçiler fare zehrini azaltmak için tarlalarına baykuş yuva kutuları koyuyor.",
+  "hata": 0,
+  "sure": 7.92,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı.",
+  "duyulan": "Baykuş, köyün ücretsiz ve sessiz fare avcısı.",
+  "hata": 0,
+  "sure": 3.86,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Ne yazık ki baykuşlar için en büyük tehlikelerden biri insan.",
+  "duyulan": "ne yazık ki baykuşlar için en büyük tehlikelerden biri insan.",
+  "hata": 0,
+  "sure": 3.72,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Fare zehri, zehirlenmiş fareyi yiyen baykuşu da öldürebiliyor.",
+  "duyulan": "fare zehri, zehirlenmiş fareyi yiyen baykuşu da öldürebiliyor.",
+  "hata": 0,
+  "sure": 3.78,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Geceleri yol kenarlarında avlanırken arabaların çarpması da pek çok baykuşun ölümüne yol açıyor.",
+  "duyulan": "Geceleri yol kenarlarında avlanırken arabaların çarpması da pek çok baykuşun ölümüne yol açıyor.",
+  "hata": 0,
+  "sure": 5.42,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Uğursuz sayıldığı için taşlanan, vurulan baykuşlar da var.",
+  "duyulan": "uğursuz sayıldığı için taşlanan, vurulan baykuşlar da var.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Türkiye'de baykuşlar koruma altında; onları öldürmek, yakalamak ve yuvalarına zarar vermek yasak.",
+  "duyulan": "Türkiye'de baykuşlar koruma altında, onları öldürmek, yakalamak ve yuvalarına zarar vermek yasak.",
+  "hata": 0,
+  "sure": 5.9,
+  "uygun": true
  }
 }
