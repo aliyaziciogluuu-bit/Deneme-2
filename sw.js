@@ -3,6 +3,7 @@
 const CACHE = 'doviz-kasasi-v1';
 const SHELL = [
   './doviz-kasasi.html',
+  './vitrin.html',
   './manifest.webmanifest',
   './icon.svg',
   './icon-192.png',

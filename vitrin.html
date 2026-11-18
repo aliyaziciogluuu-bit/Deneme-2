@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vitrin Fiyat Ekranı</title>
+<meta name="description" content="Dükkân vitrini için tam ekran alış–satış fiyat panosu.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0d1512">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; background: #0d1512; color: #f3efe2; display: flex; flex-direction: column;
+    font: 16px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-variant-numeric: tabular-nums;
+    padding: calc(2vh + env(safe-area-inset-top)) 3vw calc(1.5vh + env(safe-area-inset-bottom));
+  }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px;
+           border-bottom: 3px solid #c8921f; padding-bottom: 1.2vh; }
+  h1 { margin: 0; color: #f4d27a; font: 600 clamp(24px, 5.2vw, 76px)/1.1 Georgia, "Times New Roman", serif; }
+  time { font-size: clamp(14px, 2.4vw, 34px); opacity: .85; }
+  main { flex: 1; display: flex; min-height: 0; }
+  table { width: 100%; border-collapse: collapse; align-self: stretch; }
+  th { color: #f4d27a; text-align: right; font-weight: 600; font-size: clamp(14px, 2.6vw, 36px);
+       padding: 1vh .6vw; border-bottom: 1px solid #2f3b34; }
+  th:first-child, td:first-child { text-align: left; }
+  td { text-align: right; font-weight: 650; font-size: clamp(18px, 4.6vw, 84px);
+       padding: clamp(4px, 1.1vh, 18px) .6vw; border-bottom: 1px solid #2f3b34; white-space: nowrap; }
+  td:first-child { font-weight: 600; font-size: clamp(16px, 3.6vw, 64px); }
+  td small { display: block; font-size: .42em; font-weight: 400; opacity: .7; }
+  tr.metal td:first-child { color: #f4d27a; }
+  td.flash { animation: flash 1.2s ease-out; }
+  @keyframes flash { from { background: rgba(244, 210, 122, .35); } to { background: transparent; } }
+  .empty { margin: auto; text-align: center; max-width: 640px; font-size: clamp(16px, 2.2vw, 26px); opacity: .9; }
+  footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding-top: 1vh;
+           font-size: clamp(11px, 1.3vw, 18px); opacity: .65; }
+  .ctl { position: fixed; right: 12px; bottom: 12px; display: flex; gap: 8px; opacity: .25; transition: opacity .2s; }
+  .ctl:hover, .ctl:focus-within, body.show-ctl .ctl { opacity: 1; }
+  button, input, select { font: inherit; color: inherit; }
+  button { min-height: 40px; padding: 8px 14px; border-radius: 8px; border: 1px solid #3a4a40; background: #18221d; cursor: pointer; font-weight: 600; }
+  button.primary { background: #f4d27a; border-color: #f4d27a; color: #0d1512; }
+  button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #f4d27a; outline-offset: 2px; }
+  dialog { border: 1px solid #3a4a40; border-radius: 12px; padding: 20px; background: #141d18; color: #f3efe2;
+           width: min(560px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; }
+  dialog::backdrop { background: rgba(0, 0, 0, .6); }
+  dialog h2 { margin: 0 0 4px; font: 600 20px/1.2 Georgia, "Times New Roman", serif; color: #f4d27a; }
+  dialog p { margin: 0 0 12px; opacity: .8; font-size: 14px; }
+  label { display: block; font-size: 12px; font-weight: 600; opacity: .8; margin-bottom: 4px; }
+  input[type=text], select { width: 100%; min-height: 42px; padding: 8px 10px; border-radius: 8px; border: 1px solid #3a4a40; background: #0d1512; font-size: 16px; }
+  .field { margin-bottom: 14px; }
+  .rows { display: grid; gap: 6px; margin-bottom: 14px; }
+  .row { display: grid; grid-template-columns: minmax(0, 1.4fr) 1fr 1fr; gap: 8px; align-items: center; }
+  .row.head { font-size: 12px; font-weight: 600; opacity: .8; }
+  .row label.pick { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 15px; font-weight: 500; opacity: 1; cursor: pointer; }
+  .row input[type=checkbox] { width: 20px; height: 20px; flex: none; }
+  .row input[type=text] { min-height: 36px; padding: 4px 8px; text-align: right; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+  .chips label { display: flex; align-items: center; gap: 6px; margin: 0; padding: 6px 12px; border: 1px solid #3a4a40; border-radius: 999px; font-size: 14px; opacity: 1; cursor: pointer; }
+  .tools { display: flex; justify-content: flex-end; gap: 8px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header><h1 id="shop">Yazıcıoğlu Çilek Döviz</h1><time id="clock"></time></header>
+<main>
+  <table id="table">
+    <thead><tr><th></th><th>Alış</th><th>Satış</th></tr></thead>
+    <tbody id="body"></tbody>
+  </table>
+  <div class="empty" id="empty" hidden></div>
+</main>
+<footer><span>Fiyatlar bilgi amaçlıdır; işlem anındaki fiyat geçerlidir.</span><span id="src"></span></footer>
+<div class="ctl">
+  <button type="button" id="btnFull">Tam ekran</button>
+  <button type="button" id="btnSet">Ayarlar</button>
+</div>
+
+<dialog id="dlg">
+  <form method="dialog" id="form" novalidate>
+    <h2>Vitrin ekranı ayarları</h2>
+    <p>Ayarlar yalnızca bu cihazda saklanır.</p>
+    <div class="field">
+      <label for="fName">Dükkân adı</label>
+      <input type="text" id="fName" maxlength="60" autocomplete="off">
+    </div>
+    <div class="field">
+      <label for="fSource">Fiyat kaynağı</label>
+      <select id="fSource">
+        <option value="kasa">Bu cihazdaki Döviz Kasası: kur tablom</option>
+        <option value="piyasa">Piyasa fiyatı + kendi farkım (ayrı TV ya da tablet için)</option>
+      </select>
+    </div>
+    <div id="kasaBox">
+      <p>Döviz Kasası’ndaki “Kur tablom” ve “Has altın fiyatım” gösterilir; orada fiyatı değiştirdiğinizde bu ekran kendiliğinden güncellenir.</p>
+      <label>Has fiyatımdan hesaplanacak ayarlar (gram)</label>
+      <div class="chips" id="karats"></div>
+    </div>
+    <div id="piyasaBox" hidden>
+      <p>Gösterilecekleri seçin. Fark, piyasa fiyatına eklenir: alışta genellikle eksi (ör. −20), satışta artı (ör. 30). Fiyatlar dakikada bir yenilenir.</p>
+      <div class="rows" id="rows"></div>
+    </div>
+    <div class="tools">
+      <button type="button" id="btnCancel">Vazgeç</button>
+      <button type="submit" class="primary">Kaydet</button>
+    </div>
+  </form>
+</dialog>
+
+<script>
+(function () {
+  'use strict';
+  var KASA_KEY = 'doviz-kasasi-v1', SET_KEY = 'vitrin-v1', PRICE_KEY = 'vitrin-fiyat';
+  // src: finans.truncgil.com anahtarı
+  var ASSETS = {
+    USD: { label: 'Dolar', name: 'USD' }, EUR: { label: 'Euro', name: 'EUR' }, GBP: { label: 'Sterlin', name: 'GBP' },
+    CHF: { label: 'İsviçre Frangı', name: 'CHF' }, SAR: { label: 'Suudi Riyali', name: 'SAR' }, AED: { label: 'BAE Dirhemi', name: 'AED' },
+    JPY: { label: 'Japon Yeni', name: 'JPY' }, CAD: { label: 'Kanada Doları', name: 'CAD' }, AUD: { label: 'Avustralya Doları', name: 'AUD' },
+    RUB: { label: 'Rus Rublesi', name: 'RUB' },
+    HAS: { label: 'Has Altın', name: 'gram', metal: true },
+    GA: { label: 'Gram Altın', name: '24 ayar', metal: true, src: 'GRA' },
+    B22: { label: '22 Ayar Bilezik', name: 'gram', metal: true, src: 'YIA' },
+    A21: { label: '21 Ayar Altın', name: 'gram', metal: true },
+    A18: { label: '18 Ayar Altın', name: 'gram', metal: true, src: '18AYARALTIN' },
+    A14: { label: '14 Ayar Altın', name: 'gram', metal: true, src: '14AYARALTIN' },
+    A8: { label: '8 Ayar Altın', name: 'gram', metal: true },
+    CEYREK: { label: 'Çeyrek Altın', metal: true, src: 'CEYREKALTIN' }, YARIM: { label: 'Yarım Altın', metal: true, src: 'YARIMALTIN' },
+    TAM: { label: 'Tam Altın', metal: true, src: 'TAMALTIN' }, CUMHURIYET: { label: 'Cumhuriyet Altını', metal: true, src: 'CUMHURIYETALTINI' },
+    RESAT: { label: 'Reşat Altını', metal: true, src: 'RESATALTIN' }, HAMIT: { label: 'Hamit Altını', metal: true, src: 'HAMITALTIN' },
+    GREMSE: { label: 'Gremse Altın', metal: true, src: 'GREMSEALTIN' }, IKIBUCUK: { label: 'Ata 2,5’luk', metal: true, src: 'IKIBUCUKALTIN' },
+    BESLI: { label: 'Ata 5’li', metal: true, src: 'BESLIALTIN' }, GUMUS: { label: 'Gram Gümüş', metal: true }
+  };
+  var CODES = Object.keys(ASSETS);
+  var MARKET_ROWS = ['USD', 'EUR', 'GBP', 'HAS', 'B22', 'A14', 'CEYREK', 'YARIM', 'TAM', 'CUMHURIYET', 'GREMSE', 'GUMUS'];
+  var KARATS = [8, 14, 18, 21, 22, 24], DEF_MIL = { 8: 333, 14: 585, 18: 750, 21: 875, 22: 916, 24: 1000 };
+  var $ = function (id) { return document.getElementById(id); };
+
+  function el(tag, attrs, children) {
+    var n = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) {
+      if (k === 'text') n.textContent = attrs[k]; else if (k === 'class') n.className = attrs[k]; else n.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) { n.appendChild(c); });
+    return n;
+  }
+  function parseNum(str) {
+    var t = String(str == null ? '' : str).replace(/[\s₺]/g, '').replace('−', '-');
+    if (!/^-?[0-9.,]+$/.test(t)) return NaN;
+    if (t.indexOf(',') >= 0) t = t.split('.').join('').replace(',', '.');
+    var n = Number(t);
+    return isFinite(n) ? n : NaN;
+  }
+  function fmt(n, metal) {
+    var d = metal || n >= 100 ? 2 : 4;
+    return n.toLocaleString('tr-TR', { minimumFractionDigits: d, maximumFractionDigits: d });
+  }
+  function pos(v) { v = Number(v); return v > 0 && isFinite(v) ? v : null; }
+  function read(key) { try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch (e) { return null; } }
+  function write(key, v) { try { localStorage.setItem(key, JSON.stringify(v)); } catch (e) { /* yoksay */ } }
+
+  // ---------- Ayarlar ----------
+  var set = { name: 'Yazıcıoğlu Çilek Döviz', source: 'kasa', karats: [], rows: {} };
+  function loadSet() {
+    var s = read(SET_KEY), kasa = read(KASA_KEY);
+    if (!s || typeof s !== 'object') {
+      // İlk açılış: bu cihazda Döviz Kasası verisi varsa onu, yoksa piyasa fiyatını kullan
+      set.source = kasa && kasa.myRates ? 'kasa' : 'piyasa';
+      MARKET_ROWS.forEach(function (c) { set.rows[c] = { on: ['USD', 'EUR', 'HAS', 'CEYREK'].indexOf(c) >= 0, b: 0, s: 0 }; });
+      return;
+    }
+    if (typeof s.name === 'string' && s.name.trim()) set.name = s.name.trim().slice(0, 60);
+    set.source = s.source === 'piyasa' ? 'piyasa' : 'kasa';
+    set.karats = (Array.isArray(s.karats) ? s.karats : []).filter(function (k) { return KARATS.indexOf(k) >= 0; });
+    MARKET_ROWS.forEach(function (c) {
+      var r = s.rows && s.rows[c];
+      set.rows[c] = { on: !!(r && r.on), b: r && isFinite(Number(r.b)) ? Number(r.b) : 0, s: r && isFinite(Number(r.s)) ? Number(r.s) : 0 };
+    });
+  }
+
+  // ---------- Piyasa fiyatı ----------
+  var market = { at: null, buy: {}, sell: {} };
+  function loadMarket() {
+    var m = read(PRICE_KEY);
+    if (m && m.buy && m.sell) market = { at: m.at || null, buy: m.buy, sell: m.sell };
+  }
+  function fetchMarket() {
+    return fetch('https://finans.truncgil.com/v4/today.json', { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function (d) {
+        var out = { at: new Date().toISOString(), buy: {}, sell: {} };
+        CODES.forEach(function (c) {
+          var o = d && d[ASSETS[c].src || c], b = o && pos(o.Buying), s = o && pos(o.Selling);
+          if (b) { out.buy[c] = b; out.sell[c] = s || b; }
+        });
+        if (!out.buy.USD) throw new Error('boş');
+        market = out;
+        write(PRICE_KEY, out);
+        render();
+      })
+      .catch(function () { render(); });
+  }
+
+  // ---------- Gösterilecek satırlar ----------
+  function rowsFromKasa() {
+    var k = read(KASA_KEY), rows = [];
+    if (!k || !k.myRates) return rows;
+    var price = function (c, side) {
+      var m = k.myRates[c] || {}, own = pos(m[side]);
+      if (own) return own;
+      var live = side === 'sell' ? market.sell[c] : market.buy[c];
+      if (live) return live;
+      return side === 'sell' ? pos((k.sell || {})[c]) || pos((k.rates || {})[c]) : pos((k.rates || {})[c]);
+    };
+    CODES.forEach(function (c) {
+      if (!k.myRates[c]) return;
+      var b = price(c, 'buy'), s = price(c, 'sell');
+      if (b || s) rows.push({ key: c, label: ASSETS[c].label, name: ASSETS[c].name, metal: !!ASSETS[c].metal, buy: b, sell: s });
+    });
+    // Has fiyatından ayar fiyatları: büronun kendi alış ve satış milyemiyle
+    var hb = price('HAS', 'buy'), hs = price('HAS', 'sell'), mil = (k.calc && k.calc.mil) || {};
+    set.karats.forEach(function (kt) {
+      var mb = pos((mil.buy || {})[kt]) || DEF_MIL[kt], ms = pos((mil.sell || {})[kt]) || DEF_MIL[kt];
+      if (!hb && !hs) return;
+      rows.push({ key: 'K' + kt, label: kt + ' Ayar', name: 'gram', metal: true, buy: hb ? hb * mb / 1000 : null, sell: hs ? hs * ms / 1000 : null });
+    });
+    return rows;
+  }
+  function rowsFromMarket() {
+    return MARKET_ROWS.filter(function (c) { return set.rows[c].on && market.buy[c]; }).map(function (c) {
+      var r = set.rows[c];
+      return { key: c, label: ASSETS[c].label, name: ASSETS[c].name, metal: !!ASSETS[c].metal,
+               buy: Math.max(market.buy[c] + r.b, 0) || null, sell: Math.max(market.sell[c] + r.s, 0) || null };
+    });
+  }
+
+  // ---------- Çizim ----------
+  var shown = {};
+  function render() {
+    var rows = set.source === 'kasa' ? rowsFromKasa() : rowsFromMarket(), body = $('body'), next = {};
+    $('shop').textContent = set.name;
+    document.title = set.name + ' — Fiyatlar';
+    body.textContent = '';
+    rows.forEach(function (r) {
+      var name = el('td', { text: r.label });
+      if (r.name) name.appendChild(el('small', { text: r.name }));
+      var cell = function (side) {
+        var v = r[side], text = v ? fmt(v, r.metal) : '—', key = r.key + side;
+        next[key] = text;
+        return el('td', { class: shown[key] !== undefined && shown[key] !== text ? 'flash' : '', text: text });
+      };
+      body.appendChild(el('tr', { class: r.metal ? 'metal' : '' }, [name, cell('buy'), cell('sell')]));
+    });
+    shown = next;
+    $('table').hidden = !rows.length;
+    $('empty').hidden = rows.length > 0;
+    $('empty').textContent = set.source === 'kasa'
+      ? 'Gösterilecek fiyat yok. Bu cihazda Döviz Kasası’nı açıp “Kur tablom”a alış–satış fiyatlarınızı yazın ya da Ayarlar’dan “Piyasa fiyatı + kendi farkım”ı seçin.'
+      : (market.at ? 'Gösterilecek satır seçilmemiş. Ayarlar’dan seçin.' : 'Piyasa fiyatı alınamadı. İnternet bağlantısını kontrol edin.');
+    var when = function (iso) { return new Date(iso).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }); };
+    $('src').textContent = set.source === 'kasa' ? 'Kaynak: Döviz Kasası kur tablosu'
+      : market.at ? 'Piyasa verisi: ' + when(market.at) : '';
+  }
+  function tick() {
+    $('clock').textContent = new Date().toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+  }
+
+  // ---------- Ayar penceresi ----------
+  function openSettings() {
+    $('fName').value = set.name;
+    $('fSource').value = set.source;
+    var box = $('rows');
+    box.textContent = '';
+    box.appendChild(el('div', { class: 'row head' }, [el('span', { text: 'Göster' }), el('span', { text: 'Alış farkı (₺)' }), el('span', { text: 'Satış farkı (₺)' })]));
+    MARKET_ROWS.forEach(function (c) {
+      var r = set.rows[c], chk = el('input', { type: 'checkbox', 'data-c': c });
+      chk.checked = r.on;
+      var num = function (key, v) {
+        var i = el('input', { type: 'text', inputmode: 'text', autocomplete: 'off', 'aria-label': ASSETS[c].label + (key === 'b' ? ' alış farkı' : ' satış farkı') });
+        i.setAttribute('data-' + key, c);
+        i.value = v ? String(v).replace('.', ',') : '';
+        i.placeholder = '0';
+        return i;
+      };
+      box.appendChild(el('div', { class: 'row' }, [el('label', { class: 'pick' }, [chk, document.createTextNode(ASSETS[c].label)]), num('b', r.b), num('s', r.s)]));
+    });
+    var ks = $('karats');
+    ks.textContent = '';
+    KARATS.forEach(function (k) {
+      var chk = el('input', { type: 'checkbox', 'data-k': String(k) });
+      chk.checked = set.karats.indexOf(k) >= 0;
+      ks.appendChild(el('label', {}, [chk, document.createTextNode(k + ' ayar')]));
+    });
+    syncSource();
+    var d = $('dlg');
+    if (d.showModal) d.showModal(); else d.setAttribute('open', '');
+  }
+  function syncSource() {
+    var kasa = $('fSource').value === 'kasa';
+    $('kasaBox').hidden = !kasa;
+    $('piyasaBox').hidden = kasa;
+  }
+  function saveSettings(ev) {
+    ev.preventDefault();
+    var name = $('fName').value.trim();
+    if (name) set.name = name.slice(0, 60);
+    set.source = $('fSource').value === 'piyasa' ? 'piyasa' : 'kasa';
+    Array.prototype.forEach.call(document.querySelectorAll('#rows input[data-c]'), function (chk) {
+      var c = chk.getAttribute('data-c');
+      var b = parseNum(document.querySelector('#rows input[data-b="' + c + '"]').value);
+      var s = parseNum(document.querySelector('#rows input[data-s="' + c + '"]').value);
+      set.rows[c] = { on: chk.checked, b: isFinite(b) ? b : 0, s: isFinite(s) ? s : 0 };
+    });
+    set.karats = Array.prototype.filter.call(document.querySelectorAll('#karats input'), function (i) { return i.checked; })
+      .map(function (i) { return Number(i.getAttribute('data-k')); });
+    write(SET_KEY, set);
+    $('dlg').close();
+    shown = {};
+    render();
+  }
+
+  // ---------- Başlangıç ----------
+  loadSet();
+  loadMarket();
+  render();
+  tick();
+  setInterval(tick, 15000);
+  fetchMarket();
+  setInterval(fetchMarket, 60000);
+  // Döviz Kasası başka bir sekmede fiyat değiştirince hemen yansısın; ayrıca her 5 saniyede yeniden oku
+  window.addEventListener('storage', function (e) { if (e.key === KASA_KEY || e.key === SET_KEY) { if (e.key === SET_KEY) loadSet(); render(); } });
+  setInterval(function () { if (set.source === 'kasa') render(); }, 5000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) { fetchMarket(); keepAwake(); } });
+
+  $('btnSet').addEventListener('click', openSettings);
+  $('fSource').addEventListener('change', syncSource);
+  $('form').addEventListener('submit', saveSettings);
+  $('btnCancel').addEventListener('click', function () { $('dlg').close(); });
+  $('btnFull').addEventListener('click', function () {
+    try {
+      if (document.fullscreenElement) document.exitFullscreen();
+      else if (document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(function () { /* desteklenmiyor */ });
+    } catch (e) { /* yoksay */ }
+  });
+  document.addEventListener('fullscreenchange', function () { $('btnFull').textContent = document.fullscreenElement ? 'Tam ekrandan çık' : 'Tam ekran'; });
+  // Dokunulunca düğmeler birkaç saniye belirir (TV'de fare yoksa)
+  var ctlTimer = null;
+  document.addEventListener('pointerdown', function () {
+    document.body.classList.add('show-ctl');
+    clearTimeout(ctlTimer);
+    ctlTimer = setTimeout(function () { document.body.classList.remove('show-ctl'); }, 5000);
+  });
+  // Ekran kapanmasın
+  var lock = null;
+  function keepAwake() {
+    if (lock || !navigator.wakeLock || !navigator.wakeLock.request) return;
+    navigator.wakeLock.request('screen').then(function (l) {
+      lock = l;
+      l.addEventListener('release', function () { lock = null; });
+    }, function () { /* izin yok */ });
+  }
+  keepAwake();
+})();
+</script>
+</body>
+</html>
