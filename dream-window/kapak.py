@@ -1,7 +1,7 @@
 """Her uzun video için 3 küçük resim seçeneği üretir (YouTube Studio > "Test et ve karşılaştır" için).
 
   A  kapak_3saat.jpg     – kanalın alışılmış stili: koyu kutu, altın "3 HOURS", büyük başlık (zaten var, dokunulmaz)
-  B  kapak_3saat_B.jpg   – sade: kutu yok, sol üstte büyük başlık, sıcak ve canlı renkler, köşede "3 HOURS" etiketi
+  B  kapak_3saat_B.jpg   – sade: kutu yok, sol üstte büyük başlık, sıcak ve canlı renkler, sol altta "3 HOURS" etiketi
   C  kapak_3saat_C.jpg   – yakın plan: pencere ve ateş arasına yakınlaşır, başlık altta ortada, ışıltılı alt yazı
 
 Kullanım:  python kapak.py 06-rainy-cafe [08-attic-bedroom ...]    (sahne verilmezse bütün sahneler)
@@ -70,9 +70,9 @@ def secenek_B(kaynak, baslik, alt):
         golgeli_yazi(im, (56, y), s, f1, KREM)
         y += int(f1.size * 1.08)
     golgeli_yazi(im, (58, y + 6), alt, ImageFont.truetype(YARI, 40), ALTIN, golge=8, cizgi=3)
-    rozet = ImageFont.truetype(KALIN, 44)                             # sağ altta "3 HOURS" etiketi
+    rozet = ImageFont.truetype(KALIN, 44)                             # sol altta "3 HOURS" etiketi (sağ altı YouTube'un süre yazısı kapatır)
     w = ciz.textlength("3 HOURS", font=rozet)
-    x0, y0 = G - w - 90, Y - 110
+    x0, y0 = 60, Y - 110
     ImageDraw.Draw(im).rounded_rectangle((x0 - 24, y0 - 14, x0 + w + 24, y0 + 62), radius=16, fill=(244, 206, 106, 240))
     ImageDraw.Draw(im).text((x0, y0), "3 HOURS", font=rozet, fill=(25, 18, 8))
     return im.convert("RGB")
