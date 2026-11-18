@@ -276,7 +276,12 @@
     .receipt .ctl { display: none; }
     .receipt .paper { max-width: none; border-radius: 0; }
   }
-  .recent .r .x { min-height: 28px; padding: 0 9px; margin-left: 10px; font-size: 16px; line-height: 1; color: var(--muted); }
+  .recent.sub { background: var(--surface-2); border-bottom: 1px solid var(--line); }
+  .recent .r { display: flex; align-items: center; justify-content: flex-end; gap: 6px; flex-wrap: wrap; }
+  .recent small.neg { color: var(--neg); }
+  #iList li, .recent.sub li { flex-wrap: wrap; }
+  #iList .l, .recent.sub .l { flex: 1 1 190px; }
+  .recent .r .x { min-height: 28px; padding: 0 9px; margin-left: 4px; font-size: 16px; line-height: 1; color: var(--muted); }
   .board {
     position: fixed; inset: 0; z-index: 50; overflow: auto; display: flex; flex-direction: column;
     background: #0d1512; color: #f3efe2;
@@ -709,6 +714,67 @@
     <div class="empty" id="personsEmpty">Cari kaydı yok.</div>
   </section>
 
+  <section class="card" data-view="cari">
+    <div class="head">
+      <h2>Toptancı has hesabı</h2>
+      <span class="hint">Borç–alacak has altın gramı üzerinden tutulur; işçilik ayrı izlenir. Kasayı etkilemez.</span>
+    </div>
+    <div class="body">
+      <form class="tx" id="wForm" novalidate>
+        <div class="f wide">
+          <span class="lbl">Hareket</span>
+          <div class="seg two">
+            <input type="radio" name="wdir" id="wIn" value="in" checked><label class="out" for="wIn">Mal aldım</label>
+            <input type="radio" name="wdir" id="wOut" value="out"><label class="in" for="wOut">Ödeme yaptım</label>
+          </div>
+        </div>
+        <div class="f wide">
+          <label for="wWho">Toptancı</label>
+          <input type="text" id="wWho" maxlength="60" list="wWhos" autocomplete="off" placeholder="Toptancı adı">
+          <datalist id="wWhos"></datalist>
+        </div>
+        <div class="f">
+          <label for="wDate">Tarih</label>
+          <input type="date" id="wDate">
+        </div>
+        <div class="f">
+          <label for="wKarat">Ayar</label>
+          <select id="wKarat"></select>
+        </div>
+        <div class="f">
+          <label for="wGram">Ağırlık (gr)</label>
+          <input type="text" id="wGram" inputmode="decimal" autocomplete="off" placeholder="0">
+        </div>
+        <div class="f" id="wMilF">
+          <label for="wMil">Milyem</label>
+          <input type="text" id="wMil" inputmode="decimal" autocomplete="off" placeholder="916">
+        </div>
+        <div class="f">
+          <label for="wLabor">İşçilik (₺)</label>
+          <input type="text" id="wLabor" inputmode="decimal" autocomplete="off" placeholder="0">
+        </div>
+        <div class="f rest">
+          <label for="wNote">Açıklama (isteğe bağlı)</label>
+          <input type="text" id="wNote" maxlength="100" placeholder="Örn. 12 bilezik, fatura no">
+        </div>
+        <div class="f full form-foot">
+          <div>
+            <div class="hint" id="wHint"></div>
+            <div class="msg err" id="wMsg" role="status"></div>
+          </div>
+          <button type="submit" class="primary">Hareketi kaydet</button>
+        </div>
+      </form>
+    </div>
+    <div class="count-sum" id="wSum" hidden>
+      <div><div class="k">Toplam has borcunuz</div><div class="v amt" id="wDebt">—</div></div>
+      <div><div class="k">TL karşılığı</div><div class="v amt" id="wDebtTL">—</div></div>
+      <div><div class="k">İşçilik borcunuz</div><div class="v amt" id="wLaborSum">—</div></div>
+    </div>
+    <div id="wList"></div>
+    <div class="empty" id="wEmpty">Toptancı kaydı yok.</div>
+  </section>
+
   <section class="card" data-view="kurlar">
     <div class="head">
       <h2>Kur tablom</h2>
@@ -786,6 +852,56 @@
       <button type="button" class="primary" id="btnCountApply">Sayımı kaydet</button>
       <button type="button" id="btnCountClear">Temizle</button>
       <span class="hint" id="cLast"></span>
+    </div>
+  </section>
+
+  <section class="card" data-view="kasa">
+    <div class="head">
+      <h2>Vitrin defteri</h2>
+      <span class="hint">Parça parça ürün listesi. Kasadaki gram stokundan bağımsızdır.</span>
+    </div>
+    <div class="body">
+      <form class="tx" id="iForm" novalidate>
+        <div class="f wide">
+          <label for="iName">Ürün</label>
+          <input type="text" id="iName" maxlength="60" list="iNames" autocomplete="off" placeholder="Örn. Bilezik">
+          <datalist id="iNames">
+            <option value="Bilezik"><option value="Yüzük"><option value="Alyans"><option value="Kolye"><option value="Küpe">
+            <option value="Bileklik"><option value="Zincir"><option value="Set"><option value="Künye"><option value="Madalyon">
+          </datalist>
+        </div>
+        <div class="f">
+          <label for="iKarat">Ayar</label>
+          <select id="iKarat"></select>
+        </div>
+        <div class="f">
+          <label for="iGramIn">Ağırlık (gr)</label>
+          <input type="text" id="iGramIn" inputmode="decimal" autocomplete="off" placeholder="0">
+        </div>
+        <div class="f">
+          <label for="iCost">Maliyet (₺, isteğe bağlı)</label>
+          <input type="text" id="iCost" inputmode="decimal" autocomplete="off" placeholder="0">
+        </div>
+        <div class="f">
+          <label for="iNote">Açıklama</label>
+          <input type="text" id="iNote" maxlength="100" placeholder="Örn. burma, 3 taşlı">
+        </div>
+        <div class="f full form-foot">
+          <div class="msg err" id="iMsg" role="status"></div>
+          <button type="submit" class="primary">Ürünü ekle</button>
+        </div>
+      </form>
+    </div>
+    <div class="count-sum">
+      <div><div class="k">Vitrindeki parça</div><div class="v" id="iCount">0</div></div>
+      <div><div class="k">Toplam ağırlık</div><div class="v amt" id="iGram">—</div></div>
+      <div><div class="k">Has karşılığı</div><div class="v amt" id="iPure">—</div></div>
+    </div>
+    <ul class="recent" id="iList"></ul>
+    <div class="empty" id="iEmpty">Vitrin defteri boş. Ürünleri ekleyin; en uzun süredir bekleyen en üstte görünür.</div>
+    <div class="foot">
+      <button type="button" class="small" id="iSold" hidden></button>
+      <span class="hint amt" id="iInfo"></span>
     </div>
   </section>
 
@@ -1010,7 +1126,7 @@
 
   var state = {
     tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
-    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null)
+    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: []
   };
   var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
   var editingId = null;
@@ -1072,8 +1188,31 @@
     state = {
       tx: tx, rates: rates, sell: sell, chg: chg, myRates: my, ratesUpdated: data.ratesUpdated || null,
       rateSrc: data.rateSrc === 'tr' || data.rateSrc === 'fb' ? data.rateSrc : null,
-      count: cleanCount(data.count), calc: cleanCalc(data.calc)
+      count: cleanCount(data.count), calc: cleanCalc(data.calc),
+      whole: cleanWhole(data.whole), items: cleanItems(data.items)
     };
+  }
+  var ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
+  // Toptancı has hesabı hareketleri
+  function cleanWhole(list) {
+    return (Array.isArray(list) ? list : []).filter(function (e) {
+      return e && typeof e.who === 'string' && e.who.trim() && ISO_DAY.test(e.date) && (e.dir === 'in' || e.dir === 'out') &&
+             Number(e.has) >= 0 && Number(e.tl) >= 0 && isFinite(Number(e.has) + Number(e.tl)) && Number(e.has) + Number(e.tl) > 0;
+    }).map(function (e, i) {
+      return { id: String(e.id || uid()), seq: Number(e.seq) || i + 1, date: e.date, who: e.who.trim().slice(0, 60), dir: e.dir,
+               has: Number(e.has), tl: Number(e.tl), note: String(e.note || '').slice(0, 120) };
+    });
+  }
+  // Vitrin defterindeki ürünler
+  function cleanItems(list) {
+    return (Array.isArray(list) ? list : []).filter(function (x) {
+      return x && typeof x.name === 'string' && x.name.trim() && ISO_DAY.test(x.date) && KARATS.indexOf(Number(x.karat)) >= 0 &&
+             Number(x.gram) > 0 && isFinite(Number(x.gram));
+    }).map(function (x, i) {
+      return { id: String(x.id || uid()), seq: Number(x.seq) || i + 1, date: x.date, name: x.name.trim().slice(0, 60),
+               karat: Number(x.karat), gram: Number(x.gram), cost: Number(x.cost) > 0 && isFinite(Number(x.cost)) ? Number(x.cost) : null,
+               note: String(x.note || '').slice(0, 120), sold: ISO_DAY.test(x.sold) ? x.sold : null };
+    });
   }
   // calc.mil: büronun ayar başına satış (sell) ve alış (buy) milyemi; calc.labor: ayar başına son işçilik;
   // calc.old: ziynette eski tarih indirimi (₺/adet); calc.hasAt: has fiyatının son yazıldığı an
@@ -1370,6 +1509,8 @@
     renderBackup();
     renderCari();
     renderConv();
+    renderWhole();
+    renderItems();
     renderHas();
     renderCalc();
     renderBoard();
@@ -2557,6 +2698,241 @@
     renderCalcList();
   }
 
+  // ---------- Toptancı has hesabı ----------
+  // Toptancılarla borç–alacak has altın gramı üzerinden tutulur; işçilik TL olarak ayrı izlenir.
+  // dir 'in': mal aldım (borcum artar), 'out': ödeme yaptım (borcum azalır). Kasayı etkilemez.
+  var wOpen = null;   // hareketleri açık olan toptancı
+  function wBalances() {
+    var who = {};
+    state.whole.forEach(function (e) {
+      var b = who[e.who] || (who[e.who] = { has: 0, tl: 0, n: 0 }), sign = e.dir === 'in' ? 1 : -1;
+      b.has += sign * e.has;
+      b.tl += sign * e.tl;
+      b.n++;
+    });
+    return who;
+  }
+  function wHasInput() {
+    var k = $('wKarat').value, gram = num('wGram');
+    if (!$('wGram').value.trim()) return 0;
+    if (!(gram > 0)) return NaN;
+    if (k === 'has') return gram;
+    var mil = num('wMil');
+    if (mil > 0 && mil <= 1.1) mil *= 1000;
+    return mil > 0 && mil <= 1100 ? gram * mil / 1000 : NaN;
+  }
+  function wSyncForm() {
+    var k = $('wKarat').value, has = wHasInput();
+    $('wMilF').hidden = k === 'has';
+    $('wHint').textContent = has > 0 ? 'Has karşılığı: ' + fmtNum(has, 2, 3) + ' gr'
+      : 'İşçiliği has olarak ödüyorsanız milyeme ekleyin (ör. 916 yerine 930).';
+  }
+  function renderWhole() {
+    var who = wBalances(), names = Object.keys(who).sort(function (a, b) { return a.localeCompare(b, 'tr'); });
+    var box = $('wList'), dl = $('wWhos'), debt = 0, labor = 0;
+    box.textContent = '';
+    dl.textContent = '';
+    names.forEach(function (name) {
+      var b = who[name], has = round4(b.has), tl = round2(b.tl);
+      dl.appendChild(el('option', { value: name }));
+      if (has > 0) debt += has;
+      if (tl > 0) labor += tl;
+      var bals = el('div', { class: 'bals' });
+      if (Math.abs(has) >= 0.0005) {
+        bals.appendChild(el('span', { class: 'bal ' + (has > 0 ? 'owed' : 'owes'),
+                                      text: fmtNum(Math.abs(has), 2, 3) + ' gr has ' + (has > 0 ? 'borç' : 'alacak') }));
+      }
+      if (Math.abs(tl) >= 0.005) {
+        bals.appendChild(el('span', { class: 'bal ' + (tl > 0 ? 'owed' : 'owes'),
+                                      text: fmtTL(Math.abs(tl)) + ' işçilik ' + (tl > 0 ? 'borcu' : 'alacağı') }));
+      }
+      if (!bals.children.length) bals.appendChild(el('span', { class: 'hint', text: 'Hesap kapalı' }));
+      var pick = el('button', { type: 'button', class: 'n', text: name, title: 'Bu toptancı için hareket gir' });
+      pick.addEventListener('click', function () { $('wWho').value = name; $('wGram').focus(); });
+      var hist = el('button', { type: 'button', class: 'small', 'aria-expanded': wOpen === name ? 'true' : 'false',
+                                text: wOpen === name ? 'Gizle' : 'Hareketler (' + b.n + ')' });
+      hist.addEventListener('click', function () { wOpen = wOpen === name ? null : name; renderWhole(); });
+      box.appendChild(el('div', { class: 'person' }, [pick, bals, hist]));
+      if (wOpen !== name) return;
+      var ul = el('ul', { class: 'recent sub' });
+      state.whole.filter(function (e) { return e.who === name; }).sort(function (a, b) {
+        return a.date < b.date ? 1 : a.date > b.date ? -1 : b.seq - a.seq;
+      }).forEach(function (e) {
+        var parts = [];
+        if (e.has > 0) parts.push(fmtNum(e.has, 2, 3) + ' gr has');
+        if (e.tl > 0) parts.push(fmtTL(e.tl) + ' işçilik');
+        var del = el('button', { type: 'button', class: 'small x', 'aria-label': 'Hareketi sil', text: '×' });
+        del.addEventListener('click', function () {
+          if (!confirm('Bu hareket silinsin mi?\n' + fmtDate(e.date) + ' · ' + parts.join(' + '))) return;
+          state.whole = state.whole.filter(function (x) { return x.id !== e.id; });
+          save();
+          renderWhole();
+        });
+        ul.appendChild(el('li', {}, [
+          el('div', { class: 'l' }, [
+            el('span', { class: 'badge ' + (e.dir === 'in' ? 'out' : 'in'), text: e.dir === 'in' ? 'Mal aldım' : 'Ödeme' }),
+            document.createTextNode(' ' + fmtDate(e.date)), el('small', { text: e.note })
+          ]),
+          el('div', { class: 'r' }, [el('b', { text: parts.join(' + ') }), del])
+        ]));
+      });
+      box.appendChild(ul);
+    });
+    $('wEmpty').hidden = names.length > 0;
+    $('wSum').hidden = !names.length;
+    var price = suggested('HAS', 'out');
+    $('wDebt').textContent = fmtNum(debt, 2, 3) + ' gr';
+    $('wDebtTL').textContent = price && debt > 0 ? '≈ ' + fmtTL(debt * price) : '—';
+    $('wLaborSum').textContent = fmtTL(labor);
+  }
+  function submitWhole(ev) {
+    ev.preventDefault();
+    var msg = function (t) { $('wMsg').textContent = t; };
+    var who = $('wWho').value.trim().replace(/\s+/g, ' '), date = $('wDate').value;
+    var has = wHasInput(), lRaw = $('wLabor').value.trim(), tl = lRaw ? parseNum(lRaw) : 0;
+    if (!who) return msg('Toptancının adını yazın.');
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return msg('Geçerli bir tarih seçin.');
+    if (isNaN(has)) return msg('Ağırlığı ve milyemi kontrol edin.');
+    if (!(tl >= 0)) return msg('İşçilik için geçerli bir sayı yazın.');
+    if (!(has > 0) && !(tl > 0)) return msg('Ağırlık ya da işçilik tutarı yazın.');
+    var same = Object.keys(wBalances()).filter(function (n) {
+      return n.toLocaleLowerCase('tr') === who.toLocaleLowerCase('tr');
+    })[0];
+    var k = $('wKarat').value, detail = has > 0 && k !== 'has' ? k + ' ayar ' + fmtNum(num('wGram'), 0, 3) + ' gr' : '';
+    state.whole.push({
+      id: uid(), seq: state.whole.reduce(function (m, e) { return Math.max(m, e.seq); }, 0) + 1, date: date,
+      who: same || who, dir: $('wOut').checked ? 'out' : 'in', has: has > 0 ? round4(has) : 0, tl: round2(tl),
+      note: [detail, $('wNote').value.trim()].filter(Boolean).join(' · ').slice(0, 120)
+    });
+    save();
+    $('wGram').value = '';
+    $('wLabor').value = '';
+    $('wNote').value = '';
+    msg('');
+    wOpen = same || who;
+    wSyncForm();
+    renderWhole();
+    toast('Toptancı hareketi kaydedildi.');
+  }
+
+  // ---------- Vitrin defteri (ürün stoku) ----------
+  // Parça parça ürün listesi. Kasadaki gram stokundan bağımsızdır: neyin vitrinde olduğunu gösterir.
+  var iShowSold = false;
+  function ageDays(iso) {
+    var p = iso.split('-'), t = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2])).getTime();
+    return Math.max(0, Math.floor((new Date(today() + 'T00:00:00').getTime() - t) / 864e5));
+  }
+  function renderItems() {
+    var live = state.items.filter(function (x) { return !x.sold; });
+    var sold = state.items.filter(function (x) { return x.sold; });
+    var gram = 0, pure = 0, byK = {};
+    live.forEach(function (x) {
+      gram += x.gram;
+      pure += x.gram * DEF_MIL[x.karat] / 1000;
+      var k = byK[x.karat] || (byK[x.karat] = { n: 0, g: 0 });
+      k.n++; k.g += x.gram;
+    });
+    var price = suggested('HAS', 'in');
+    $('iCount').textContent = String(live.length);
+    $('iGram').textContent = fmtNum(gram, 0, 2) + ' gr';
+    $('iPure').textContent = fmtNum(pure, 2, 2) + ' gr';
+    $('iInfo').textContent = live.length
+      ? KARATS.filter(function (k) { return byK[k]; }).map(function (k) {
+          return k + ' ayar: ' + byK[k].n + ' parça, ' + fmtNum(byK[k].g, 0, 2) + ' gr';
+        }).join(' · ') + (price ? ' · has değeri ≈ ' + fmtTL(pure * price) + ' (has alış fiyatınızla)' : '')
+      : '';
+    var ul = $('iList');
+    ul.textContent = '';
+    var row = function (x) {
+      var days = ageDays(x.sold || x.date);
+      var info = x.sold ? fmtDate(x.sold) + ' tarihinde satıldı'
+        : (days === 0 ? 'bugün eklendi' : days + ' gündür vitrinde') + (x.cost ? ' · maliyet ' + fmtTL(x.cost) : '');
+      var tools = el('div', { class: 'r' });
+      var btn = function (text, label, fn, cls) {
+        var b = el('button', { type: 'button', class: 'small' + (cls ? ' ' + cls : ''), 'aria-label': label, text: text });
+        b.addEventListener('click', fn);
+        tools.appendChild(b);
+      };
+      if (x.sold) {
+        btn('Geri al', 'Satışı geri al', function () { x.sold = null; save(); renderItems(); });
+      } else {
+        btn('Hesapla', 'Satış fiyatını hesapla', function () {
+          $('kSell').checked = true;
+          kSel = { coin: null, karat: x.karat };
+          kHasTouched = false;
+          kSync();
+          $('kGram').value = fmtInput(x.gram);
+          renderCalc();
+          setView('hesap');
+        });
+        btn('Satıldı', 'Satıldı olarak işaretle', function () { x.sold = today(); save(); renderItems(); toast('Satıldı olarak işaretlendi.'); });
+      }
+      btn('×', 'Ürünü sil', function () {
+        if (!confirm('Bu ürün defterden silinsin mi?\n' + x.name + ' · ' + x.karat + ' ayar · ' + fmtNum(x.gram, 0, 3) + ' gr')) return;
+        state.items = state.items.filter(function (y) { return y.id !== x.id; });
+        save();
+        renderItems();
+      }, 'x');
+      return el('li', {}, [
+        el('div', { class: 'l' }, [
+          el('b', { text: x.name }), document.createTextNode(' ' + x.karat + ' ayar · ' + fmtNum(x.gram, 0, 3) + ' gr'),
+          el('small', { class: !x.sold && days >= 90 ? 'neg' : '', text: [info, x.note].filter(Boolean).join(' · ') })
+        ]),
+        tools
+      ]);
+    };
+    // En eski ürün en üstte: uzun süredir satılmayanlar ilk bakışta görünsün
+    live.slice().sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : a.seq - b.seq; })
+      .slice(0, 300).forEach(function (x) { ul.appendChild(row(x)); });
+    if (iShowSold) {
+      sold.slice().sort(function (a, b) { return a.sold < b.sold ? 1 : -1; }).slice(0, 100).forEach(function (x) { ul.appendChild(row(x)); });
+    }
+    $('iEmpty').hidden = live.length > 0 || (iShowSold && sold.length > 0);
+    $('iSold').hidden = !sold.length;
+    $('iSold').textContent = iShowSold ? 'Satılanları gizle' : 'Satılanları göster (' + sold.length + ')';
+  }
+  function submitItem(ev) {
+    ev.preventDefault();
+    var msg = function (t) { $('iMsg').textContent = t; };
+    var name = $('iName').value.trim().replace(/\s+/g, ' '), gram = num('iGramIn');
+    var cRaw = $('iCost').value.trim(), cost = cRaw ? parseNum(cRaw) : 0;
+    if (!name) return msg('Ürünün adını yazın (ör. Bilezik).');
+    if (!(gram > 0)) return msg('Ağırlığı yazın.');
+    if (!(cost >= 0)) return msg('Maliyet için geçerli bir sayı yazın.');
+    state.items.push({
+      id: uid(), seq: state.items.reduce(function (m, x) { return Math.max(m, x.seq); }, 0) + 1, date: today(),
+      name: name.slice(0, 60), karat: Number($('iKarat').value), gram: round4(gram), cost: cost > 0 ? round2(cost) : null,
+      note: $('iNote').value.trim().slice(0, 120), sold: null
+    });
+    save();
+    $('iGramIn').value = '';
+    $('iCost').value = '';
+    $('iNote').value = '';
+    msg('');
+    renderItems();
+    toast('Ürün deftere eklendi.');
+    $('iGramIn').focus();
+  }
+  function initLedgers() {
+    KARATS.forEach(function (k) {
+      $('wKarat').appendChild(el('option', { value: String(k), text: k + ' ayar' }));
+      $('iKarat').appendChild(el('option', { value: String(k), text: k + ' ayar' }));
+    });
+    $('wKarat').appendChild(el('option', { value: 'has', text: 'Has (doğrudan gram)' }));
+    $('wKarat').value = $('iKarat').value = '22';
+    $('wMil').value = fmtInput(DEF_MIL[22]);
+    $('wDate').value = today();
+    $('wKarat').addEventListener('change', function () {
+      if (this.value !== 'has') $('wMil').value = fmtInput(DEF_MIL[Number(this.value)]);
+      wSyncForm();
+    });
+    ['wGram', 'wMil'].forEach(function (id) { $(id).addEventListener('input', wSyncForm); });
+    $('wForm').addEventListener('submit', submitWhole);
+    $('iForm').addEventListener('submit', submitItem);
+    $('iSold').addEventListener('click', function () { iShowSold = !iShowSold; renderItems(); });
+    wSyncForm();
+  }
+
   // ---------- Çevirici ve kur panosu ----------
   function renderConv() {
     var a = num('cvAmount'), f = $('cvFrom').value, t = $('cvTo').value, out = $('cvOut');
@@ -2931,6 +3307,7 @@
     $('monthDate').max = today().slice(0, 7);
     prefillRate();
     initCalc();
+    initLedgers();
     render();
 
     $('txForm').addEventListener('submit', submitForm);
