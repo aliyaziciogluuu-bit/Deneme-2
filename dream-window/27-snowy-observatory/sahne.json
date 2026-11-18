@@ -1,0 +1,267 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        1010,
+        0,
+        1590,
+        485
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          1000,
+          0
+        ],
+        [
+          1010,
+          0
+        ],
+        [
+          1085,
+          200
+        ],
+        [
+          1115,
+          330
+        ],
+        [
+          1122,
+          485
+        ],
+        [
+          1000,
+          485
+        ]
+      ],
+      [
+        [
+          1465,
+          0
+        ],
+        [
+          1600,
+          0
+        ],
+        [
+          1600,
+          485
+        ],
+        [
+          1585,
+          485
+        ],
+        [
+          1575,
+          300
+        ],
+        [
+          1555,
+          150
+        ],
+        [
+          1500,
+          45
+        ]
+      ],
+      [
+        [
+          865,
+          355
+        ],
+        [
+          1000,
+          300
+        ],
+        [
+          1170,
+          240
+        ],
+        [
+          1172,
+          265
+        ],
+        [
+          1000,
+          350
+        ],
+        [
+          880,
+          380
+        ]
+      ],
+      [
+        [
+          995,
+          370
+        ],
+        [
+          1035,
+          360
+        ],
+        [
+          1095,
+          485
+        ],
+        [
+          1060,
+          485
+        ],
+        [
+          1020,
+          430
+        ],
+        [
+          1000,
+          400
+        ]
+      ],
+      [
+        [
+          1425,
+          330
+        ],
+        [
+          1520,
+          320
+        ],
+        [
+          1590,
+          350
+        ],
+        [
+          1595,
+          420
+        ],
+        [
+          1430,
+          415
+        ]
+      ],
+      [
+        [
+          1580,
+          320
+        ],
+        [
+          1630,
+          330
+        ],
+        [
+          1640,
+          485
+        ],
+        [
+          1610,
+          485
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 390,
+      "y": 410,
+      "sigma": 45,
+      "genlik": 0.1
+    },
+    {
+      "x": 672,
+      "y": 478,
+      "sigma": 45,
+      "genlik": 0.1
+    },
+    {
+      "x": 1510,
+      "y": 405,
+      "sigma": 60,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Snowy Observatory",
+  "ates": {
+    "kutu": [
+      95,
+      500,
+      245,
+      695
+    ],
+    "ic": [
+      105,
+      515,
+      235,
+      688
+    ],
+    "taban": 690,
+    "tepe": 510,
+    "olcek": 0.7,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "../sesler/ates_somine_yumusak.mp3",
+      "../sesler/ates_somine_gur.mp3",
+      "ses_kaynak/ates.ogg"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "08-attic-bedroom",
+    "karisik": true,
+    "cubuk_koru": true,
+    "kutu": [
+      26,
+      432,
+      392,
+      763
+    ]
+  },
+  "shorts": {
+    "bas": 1350,
+    "son": 300,
+    "tur": 2,
+    "baslik": "Snowy Observatory",
+    "alt": "Snowfall & Crackling Stove",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 300,
+    "son": 1350,
+    "tur": 2,
+    "baslik": "POV: you're the night astronomer on a snowy peak",
+    "alt": "the Milky Way is out tonight",
+    "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      595,
+      510,
+      660,
+      598
+    ],
+    "genlik": 0.7
+  }
+}
