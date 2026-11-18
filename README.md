@@ -5,6 +5,8 @@
 `doviz-kasasi.html` — döviz, altın ve gümüş alış–satışlarını takip eden tek sayfalık uygulama:
 TL kasası, kendi alış–satış kur tablonuz, arbitraj, kupür bazında kasa sayımı, masraf ve
 net kâr, cari (borç–alacak) defteri, çevirici, müşteri kur panosu, gün sonu özeti ve aylık rapor.
+“Hesap” bölümü kuyum için satış fiyatını (ayar, gram, milyem, işçilik) ve bozdurma tutarını (hurda alış) hesaplar;
+birden çok parçayı listeleyip takasta net tutarı verir. Has fiyatı kur tablosundaki Gram Altın kurundan gelir.
 Veriler yalnızca kullanılan cihazın tarayıcısında saklanır. Resmî fiş ve yasal bildirimlerin
 yerini tutmaz.
 
