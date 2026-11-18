@@ -174,7 +174,11 @@ Kullanıcı, işin "farklı ajanlar ve yöneticiler birbirinin onayını alarak"
   - Sonra yalnızca RET veren denetçiye ve yöneticiye yeniden gönderir.
 - En fazla 2 tur. Hâlâ RET varsa teslim etme. Kullanıcıya durumu açıkça anlat ve kararı ona bırak.
 - Onay kayıtlarını `dream-window/kanal/onaylar/21-ad.md` dosyasına kısaca yaz: kim, hangi tur, karar, düzeltilenler.
-- Tur bitince `references/dersler.md` dosyasını güncelle: yeni hatalar, yeni kurallar, işe yarar öneriler.
+- Tur bitince `references/dersler.md` dosyasını güncelle: yeni hatalar, yeni kurallar, işe yarar ders önerileri.
+- **Öneri kutusu:** Ajanların "yeni fikir"lerini `dream-window/kanal/oneriler.md` dosyasındaki "Bekleyen" bölümüne ekle. Yönetici değerlendirsin.
+  - "Sun" kararı alan en iyi 1–3 fikri teslim raporunda kullanıcıya sade bir dille sun: ne, neden, maliyeti.
+  - Kullanıcının kararını dosyaya işle. Onaylanan fikri uygula ya da plana al. Reddedileni gerekçesiyle kaydet.
+  - Kullanıcıyı fikir yağmuruna boğma. Az ama değerli sun.
 - **Maliyet:** Her ajan kullanım hakkından yer. Küçük işlerde (tek bir başlık düzeltmesi, bir Shorts'un yeniden üretimi) bütün ofisi çalıştırma. Yalnızca ilgili denetçiyi çalıştır, patron onayı yeterli.
 
 ## 6) Teslim
