@@ -49,6 +49,7 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
 - **18 Kasım, 22 Tokyo (metin editörü işaretledi, patron düzeltti):** Başlıkta "Lofi Chill" yazıyordu ama videoda müzik yok. Öyküde de "a pot of green tea" geçiyordu, oysa görselde tek bir fincan var.
   - **Kural:** Başlık, etiket ve açıklama videoda olmayan bir şeyi vaat etmez. "Lofi", "music", "piano" gibi kelimeler müziksiz videoda kullanılmaz. Müzik bekleyen izleyici hemen çıkar ve izlenme süresi düşer.
   - Öyküdeki nesnelerin türü ve sayısı (fincan mı, çaydanlık mı) `onizleme.jpg` açılarak görselle karşılaştırılır.
+  - Öyküdeki hareket ve ses iddiaları (sallanan fener, geçen tren, uğuldayan rüzgâr) videoda ya da `sahne.json` > `ses` içinde gerçekten olmalı. Olmayanlar sabit bir betimlemeye çevrilir ("parlıyor", "duruyor"). Kalite kontrol 22'de yakaladı.
   - Sorumlu: metin yazarı.
 
 - **18 Kasım, ilk fikir toplantısı (patron yakaladı):** İki fikir, Shorts açıklamasına ve yorumuna tıklanabilir bağlantı konabileceğini varsaydı.
