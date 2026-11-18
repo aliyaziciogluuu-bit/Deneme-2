@@ -13,9 +13,9 @@
 012 fark=0 | Baykuşun kendisi ne uğur getiriyor ne de uğursuzluk; sadece karnını doyurmaya çalışıyor. || Baykuş'un kendisi ne uğur getiriyor ne de uğursuzluk. Sadece karnını doyurmaya çalışıyor.
 013 fark=0 | Türkiye'de birçok baykuş türü yaşıyor, ama evlerin çevresinde en sık karşılaşılanlar birkaç tane. || Türkiye'de birçok baykuş türü yaşıyor ama evlerin çevresinde en sık karşılaşılanlar birkaç tane.
 014 fark=0 | Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri. || Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri.
-015 fark=1 | Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü. || Bir güvercinden küçük, yuvarlak başlığı, benekli ve kocaman sarı gözlü.
-016 fark=0 | Pek çok baykuşun aksine gündüz de ortaya çıkıyor; damlarda, direklerde ve taş duvarların üstünde oturuyor. || Pek çok baykuşun aksine gündüz de ortaya çıkıyor, damlarda, direklerde ve taş duvarların üstünde oturuyor.
-017 fark=2 | Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor. || Peçeli vay kuş kalp şeklindeki beyaz yüzüyle hemen tanınıyor.
+015 fark=0 | Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü. || Bir güvercinden küçük, yuvarlak başlı, benekli ve kocaman sarıgözlü.
+016 fark=0 | Pek çok baykuşun aksine gündüz de ortaya çıkıyor; damlarda, direklerde ve taş duvarların üstünde oturuyor. || Pek çok baykuşun aksine gündüzde ortaya çıkıyor, damlarda, direklerde ve taş duvarların üstünde oturuyor.
+017 fark=0 | Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor. || Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor.
 018 fark=0 | Ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor. || ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor.
 019 fark=0 | Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş, çoğu zaman alaca baykuşa ait. || Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş çoğu zaman Alacabay kuşa ait.
 020 fark=0 | Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de ishakkuşu. || Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de İshak kuşu.
@@ -27,12 +27,12 @@
 026 fark=0 | Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor. || Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor.
 027 fark=0 | Baykuşlar karanlıkta iyi görür, ama gece avlananların asıl silahı kulakları. || Baykuşlar karanlıkta iyi görür ama gece avlananların asıl silahı kulakları.
 028 fark=0 | Yüzünü çevreleyen tüy halkası, bir çanak anten gibi sesi toplayıp kulaklara yönlendiriyor. || Yüzünü çevreleyen tüy halkası bir çanak anten gibi sesi toplayıp kulaklara yönlendiriyor.
-029 fark=1 | Bazı baykuşlarda iki kulak deliği aynı hizada değil; biri diğerinden biraz daha yukarıda. || Bazı baykuşlarda iki kulak dili aynı hizada değil, biri diğerinden biraz daha yukarıda.
+029 fark=0 | Bazı baykuşlarda iki kulak deliği aynı hizada değil; biri diğerinden biraz daha yukarıda. || Bazı baykuşlarda iki kulak deliği aynı hizada değil, biri diğerinden biraz daha yukarıda.
 030 fark=0 | Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor. || Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor.
 031 fark=0 | Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş. || Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş.
 032 fark=0 | Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor. || Baykuş'un gözleri o kadar büyük ki göz yuvalarının içinde dönemiyor.
 033 fark=0 | Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş. || Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş.
-034 fark=0 | Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor. || Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.
+034 fark=0 | Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor. || Bu yüzden etrafına bakmak için gözlerini değil başını çeviriyor.
 035 fark=0 | Halk arasında başını tam bir tur döndürdüğü söylenir, ama bu doğru değil. || Halk arasında başını tam bir tur döndürdüğü söylenir ama bu doğru değil.
 036 fark=0 | Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü. || Baykuş başını 270 dereceye kadar çevirebiliyor, yani tam bir turun yaklaşık dörtte üçü.
 037 fark=0 | Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var. || Bizim boynumuzda 7 omur varken, baykuşun boynunda 14 omur var.
@@ -57,7 +57,7 @@
 056 fark=0 | Kedi ve köpeklerden uzaksa olduğu yerde bırak ve uzaklaş; tehlikedeyse onu yakındaki bir dala ya da çalıya koy. || Kedi ve köpeklerden uzaksa, olduğu yerde bırak ve uzaklaş. Tehlikedeyse, onu yakındaki bir dala ya da çalıya koy.
 057 fark=0 | Yaralıysa, çok zayıfsa ya da kalp yüzlü bir peçeli baykuş yavrusuysa, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver. || Yaralıysa, çok zayıfsa ya da kalp yüzlü bir peçeli baykuş yavrusuysa bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne haber ver.
 058 fark=0 | Ona yiyecek ya da su vermeye çalışma. || Ona yiyecek ya da su vermeye çalışma.
-059 fark=0 | Baykuşu tutman gerekirse kalın eldiven giy; pençeleri çok keskin. Sonra ellerini iyice yıka. || Baykuşu tutman gerekirse kalın eldiven giy, pençeleri çok keskin, sonra ellerini iyice yıka.
+059 fark=0 | Baykuşu tutman gerekirse kalın eldiven giy; pençeleri çok keskin. Sonra ellerini iyice yıka. || Baykuşu tutman gerekirse kalın eldiven giy, pençeleri çok keskin. Sonra ellerini iyice yıka.
 060 fark=0 | Bahçende ve tarlanda fare zehri kullanmamak, baykuşlara yapabileceğin en büyük iyiliklerden biri. || Bahçende ve tarlanda fare zehri kullanmamak, baykuşlara yapabileceğin en büyük iyiliklerden biri.
 061 fark=0 | Yaşlı ağaçları, taş duvarları ve eski ambarları korumak da onlara yuva yapacak yer bırakıyor. || Yaşlı ağaçları, taş duvarları ve eski ambarları korumak da onlara yuva yapacak yer bırakıyor.
 062 fark=0 | Uygun bir yerin varsa, baykuşlar için bir yuva kutusu da asabilirsin. || Uygun bir yerin varsa, baykuşlar için bir yuva kutusu da asabilirsin.
