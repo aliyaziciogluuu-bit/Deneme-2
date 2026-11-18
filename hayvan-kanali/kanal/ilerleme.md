@@ -6,3 +6,4 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 | Tarih | Abone | İzlenme süresi (son 28 gün, saat) | Görüntüleme (son 28 gün) | En iyi video | Not |
 |---|---|---|---|---|---|
 | 2026-11-17 | 0 | 0 | 0 | — | Kanal açıldı, telefonla doğrulandı; 1. video (sağır yılan) yayınlandı |
+| 2026-11-18 | ? | 5,7 | 295 | Sağır yılan | İlk 23 saat: 6,2 B gösterim, TO %2,7 (dünkü %1,7'den yükseldi), ort. izleme 1:17 / 6:16 (≈%20); trafik %60 önerilen, %36 göz atma. Gösterimler 6. saatten sonra yatay. İzleyici tutma grafiği 20 Kasım'da gelecek. |
