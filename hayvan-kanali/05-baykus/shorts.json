@@ -1,0 +1,115 @@
+{
+ "shorts": [
+  {
+   "ad": "s1-ugursuz",
+   "baslik": "Baykuş Gerçekten Uğursuz mu? 🦉 #shorts",
+   "aciklama": "Anadolu'da baykuşun ötmesi kötü haberin işareti sayılır; Antik Yunan'da ise bilgeliğin simgesiydi. Oysa baykuş, köyün en çalışkan fare avcılarından biri. Tam video kanalımızda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\nKaynak: Johnson & St. George – Vertebrate Pest Conference (peçeli baykuş ailelerinin avladığı kemirgenler)\n\n#shorts #baykuş #efsane #doğa #köy",
+   "etiketler": [
+    "baykuş",
+    "baykuş uğursuz mu",
+    "efsane",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "BAYKUŞ",
+    "uğursuz mu?"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor.",
+     "gorsel": "gece_koy",
+     "klip": "gece_koy",
+     "kx": 0.8
+    },
+    {
+     "yazi": "Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.",
+     "gorsel": "harabe",
+     "x": 0.68
+    },
+    {
+     "yazi": "Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor.",
+     "gorsel": "sikke",
+     "x": 0.5
+    },
+    {
+     "yazi": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi ve Atina'nın gümüş sikkelerinin üzerinde yer alıyordu.",
+     "ses": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi ve Atina'nın gümüş sikkelerinin üzerinde yer alıyordu.",
+     "gorsel": "sikke",
+     "x": 0.52,
+     "w": 0.7,
+     "etiket": "Atina sikkesi, MÖ 5. yüzyıl"
+    },
+    {
+     "yazi": "Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.",
+     "gorsel": "kukumav_portre",
+     "x": 0.6
+    },
+    {
+     "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor.",
+     "gorsel": "karanlik_av",
+     "klip": "karanlik_av",
+     "kx": 0.55
+    },
+    {
+     "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "klip": "kapanis",
+     "kx": 0.72
+    }
+   ]
+  },
+  {
+   "ad": "s2-bas",
+   "baslik": "Baykuş Başını Tam Tur Çevirebilir mi? 🦉 #shorts",
+   "aciklama": "Baykuşun gözleri yuvasında dönmez; bu yüzden başını çevirir. Ama tam tur değil: en fazla 270 derece. Boynunda 14 omur var. Tam video kanalımızda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\nKaynak: de Kok-Mercado ve ark. (2013), Science 339(6119)\n\n#shorts #baykuş #bilim #doğa",
+   "etiketler": [
+    "baykuş",
+    "baykuş başını çevirir mi",
+    "bilim",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "BAŞINI",
+    "tam tur çevirir mi?"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Halk arasında baykuşun başını tam bir tur döndürdüğü söylenir, ama bu doğru değil.",
+     "gorsel": "bas_cevir",
+     "klip": "bas_cevir",
+     "kx": 0.58
+    },
+    {
+     "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor.",
+     "gorsel": "goz",
+     "x": 0.5
+    },
+    {
+     "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.",
+     "gorsel": "bas_cevir",
+     "x": 0.55
+    },
+    {
+     "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü.",
+     "gorsel": "kukumav_portre",
+     "x": 0.6,
+     "etiket": "En fazla 270 derece"
+    },
+    {
+     "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var.",
+     "gorsel": "bekci",
+     "x": 0.6,
+     "etiket": "İnsan: 7 omur, baykuş: 14 omur"
+    },
+    {
+     "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş. Tam videosu kanalımızda.",
+     "gorsel": "gece_koy",
+     "klip": "gece_koy",
+     "kx": 0.8
+    }
+   ]
+  }
+ ]
+}
