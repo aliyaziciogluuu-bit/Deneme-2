@@ -38,6 +38,14 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
   - **Kural:** Görsel numarasına güvenme. Görseli Read ile aç ve içeriğin istenen sahne olduğunu doğrula.
   - Sorumlu: yapımcı.
 
+- **18 Kasım, 21 Paris (patron ve kalite kontrol yakaladı):** Shorts ekran yazısı, Shorts'un kendi kadrajında görünmeyen bir şeyi vaat ediyordu.
+  - Birinci Shorts'ta "Crackling Fireplace" yazıyordu ama şömine kadraja hiç girmiyordu.
+  - İkinci Shorts'ta "the Eiffel Tower is sparkling" yazıyordu ama kule açılış karesinde yoktu.
+  - **Kural:** Shorts yazısındaki her öğe Shorts'un kendi kadrajında görünür. Yazıda adı geçen öğe tercihen açılış karesinde (`bas`) olur.
+  - Yapımcı `bas`/`son` noktalarını seçerken kaynak görselden kırpıp bakar. Metin yazarı da yazıyı bu kadraja göre yazar.
+  - Aynı sahnenin iki Shorts'u farklı karelerle açılır (örneğin biri ateşle, diğeri pencereyle ya da `yakin` ile).
+  - Sorumlu: yapımcı ve metin yazarı.
+
 - **18 Kasım, ilk fikir toplantısı (patron yakaladı):** İki fikir, Shorts açıklamasına ve yorumuna tıklanabilir bağlantı konabileceğini varsaydı.
   - **Kural:** YouTube bu yüzeylerde bağlantıları tıklanabilir göstermiyor. Shorts'tan uzun videoya tek köprü "İlgili video".
   - Bir yönlendirme fikri önermeden önce o yüzeyde bağlantının gerçekten çalışıp çalışmadığını doğrula.
@@ -64,7 +72,7 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
   - **Kural:** Sağ alt köşeye yazı ya da etiket koyma.
 - **Shorts sade bir kareyle açılıyordu** (koltuk, yorgan).
   - **Kural:** Shorts'un ilk saniyesi en etkileyici manzarayla başlar (`bas` noktası).
-- **Ses kaynağı satırları:** Kaynak satırı her zaman `sahne.json` > `ses` içinde gerçekten kullanılan dosyalara göre yazılır. Örneğin 21'de yalnızca Pixabay sesleri vardı, Wikimedia atfı gerekmedi. Klasörde duran ama kullanılmayan dosya atıf gerektirmez.
+- **Ses kaynağı satırları:** Kaynak satırı her zaman `sahne.json` > `ses` içinde gerçekten kullanılan dosyalara göre yazılır. Örneğin 21'de yalnızca Pixabay sesleri vardı, Wikimedia atfı gerekmedi. Klasörde duran ama kullanılmayan dosya atıf gerektirmez. Kaynak satırını yazmadan önce `sahne.json` > `ses` yollarını tek komutla listele; klasördeki dosyalara bakma.
 
 ## Kalite çıtası: "en iyisi" ne demek?
 

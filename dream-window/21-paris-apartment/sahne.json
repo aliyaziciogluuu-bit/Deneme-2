@@ -125,20 +125,23 @@
     ]
   },
   "shorts": {
-    "bas": 1400,
-    "son": 1050,
+    "bas": 280,
+    "son": 950,
     "tur": 2,
     "baslik": "Snowy Paris Apartment",
     "alt": "Snowfall & Crackling Fireplace",
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 1050,
-    "son": 1400,
+    "bas": 1502,
+    "son": 1150,
     "tur": 2,
     "baslik": "POV: snow over Paris from your window",
     "alt": "the Eiffel Tower is sparkling",
-    "ses_kazanc": 1.5
+    "ses_kazanc": 1.5,
+    "yakin": 1.5,
+    "y": 330,
+    "ses_tohum": 7
   },
   "buhar": {
     "kutu": [
