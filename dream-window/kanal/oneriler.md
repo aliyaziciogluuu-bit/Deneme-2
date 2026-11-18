@@ -35,12 +35,14 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **Y3 – Shorts kancalarını çeşitlendirme ve deneme (metin yazarı):** POV'un yanında soru, talimat ve rakam kalıpları denenecek, sonuçlar `ilerleme.md`'de izlenecek. Ekran yazısıyla uyum kuralı korunacak.
 - **P1 – Shorts sonuna "Full 3-hour version on the channel" yazısı (yapımcı):** Yalnızca İlgili video bağlı 2–3 Shorts'ta pilot. Sağ alt köşe kullanılmayacak.
 
-## Sunulan (kanal sahibinin kararı bekleniyor, 18 Kasım)
+## Sunulan (kanal sahibinin kararı bekleniyor)
 
-- **Y2 – "Christmas Sleep Windows 🎄" oynatma listesi (metin yazarı).** Yönetici puanı: etki 4, emek 2. Kanal sahibine düşen iş, tek seferlik yaklaşık 10 dakika.
-- **K3 – Haftada bir tutma verisi paylaşımı (kalite kontrol).** Yönetici puanı: etki 4, emek 2. Kanal sahibine düşen iş, haftada yaklaşık 15 dakika.
+_(şu an yok)_
 
 ## Onaylanan
+
+- **Y2 – "Christmas Sleep Windows 🎄" oynatma listesi (metin yazarı).** Kanal sahibi 18 Kasım'da onayladı. Liste metni `kanal/noel_listesi.md` dosyasında. Aralık'taki Noel videolarının günlük talimatlarına "listeye ekle" notu kondu.
+- **K3 – Haftalık tutma verisi (kalite kontrol).** Kanal sahibi 18 Kasım'da onayladı. Her çarşamba günlük talimatta hatırlatılıyor. Veri `ilerleme.md` dosyasındaki tutma tablosuna işlenir.
 
 - **Başlık ve küçük resimde "4K" etiketi.** Önerisi kanal sahibinden geldi (18 Kasım). Uygulandı.
 - **5 dilde başlık ve açıklama çevirisi.** Uygulandı. Etkisi birkaç hafta sonra Analytics > Coğrafya'da ölçülecek.

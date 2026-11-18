@@ -14,7 +14,7 @@
     "planli_shorts": true
   },
   "2026-11-19": {
-    "not": "Bugün ayrıca Analytics ekran görüntülerini Claude'a gönder.",
+    "not": "Bugün Analytics günü: Genel bakış (son 7 gün), En iyi içerik (son 7 gün), Kitle > 'İzleyicilerinizin YouTube'da olduğu zamanlar' ve en çok izlenen uzun videonun 'İzleyici tutma' grafiğinin ekran görüntülerini Claude'a gönder.",
     "planli_shorts": true
   },
   "2026-11-20": {
@@ -48,7 +48,7 @@
       "04-snowy-village",
       "shorts2"
     ],
-    "not": "Çatı katı 4K uzun videosu 17 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). 20:00'den sonra bu videoya şu yorumu yazıp sabitle: \"New 3-hour sleep ambience every week 🌙 Subscribe so you don't miss the next one.\" Çatı katı Shorts'unun (19 Kasım) İlgili videosu olarak bugünkü çatı katı videosunu bağla."
+    "not": "Çatı katı 4K uzun videosu 17 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). 20:00'den sonra bu videoya şu yorumu yazıp sabitle: \"New 3-hour sleep ambience every week 🌙 Subscribe so you don't miss the next one.\" Çatı katı Shorts'unun (19 Kasım) İlgili videosu olarak bugünkü çatı katı videosunu bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2026-11-26": {
     "shorts": [
@@ -83,14 +83,14 @@
   },
   "2026-12-01": {
     "uzun": "07-christmas-eve",
-    "not": "Noel arifesi Shorts'larının (15 ve 28 Kasım) İlgili videosunu yeni Noel arifesi 3 saatlik videoyla değiştir."
+    "not": "Noel arifesi Shorts'larının (15 ve 28 Kasım) İlgili videosunu yeni Noel arifesi 3 saatlik videoyla değiştir. Bu videoyu yüklerken/düzenlerken 'Christmas Sleep Windows 🎄' oynatma listesine ekle."
   },
   "2026-12-02": {
     "shorts": [
       "07-christmas-eve",
       "shorts3"
     ],
-    "not": "Bu Shorts'u yüklerken İlgili video olarak Noel arifesi (dün yayınlanan 3 saatlik) videosunu seç."
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Noel arifesi (dün yayınlanan 3 saatlik) videosunu seç. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2026-12-03": {
     "shorts": [
@@ -126,7 +126,7 @@
   },
   "2026-12-09": {
     "uzun": "09-lighthouse",
-    "not": "Deniz feneri Shorts'unun (21 Kasım) İlgili videosu olarak bugünkü videoyu bağla."
+    "not": "Deniz feneri Shorts'unun (21 Kasım) İlgili videosu olarak bugünkü videoyu bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2026-12-10": {
     "shorts": [
@@ -152,9 +152,12 @@
     ],
     "not": "Bu Shorts'u yüklerken İlgili video olarak Karlı orman kulübesi 3 saatlik videosunu seç (o video yayında)."
   },
+  "2026-12-16": {
+    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+  },
   "2026-12-19": {
     "uzun": "11-aurora-igloo",
-    "not": "Kuzey ışıkları Shorts'larının (17 ve 29 Kasım) İlgili videosu olarak bugünkü iglo videosunu bağla."
+    "not": "Kuzey ışıkları Shorts'larının (17 ve 29 Kasım) İlgili videosu olarak bugünkü iglo videosunu bağla. Bu videoyu yüklerken/düzenlerken 'Christmas Sleep Windows 🎄' oynatma listesine ekle."
   },
   "2026-12-20": {
     "shorts": [
@@ -163,7 +166,7 @@
     ]
   },
   "2026-12-23": {
-    "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et. Noel treni Shorts'unun (20 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+    "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et. Noel treni Shorts'unun (20 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra). Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2026-12-24": {
     "shorts": [
@@ -180,13 +183,14 @@
   },
   "2026-12-28": {
     "uzun": "14-new-year-loft",
-    "not": "Yılbaşı çatı katı Shorts'unun (26 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+    "not": "Yılbaşı çatı katı Shorts'unun (26 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra). Bu videoyu yüklerken/düzenlerken 'Christmas Sleep Windows 🎄' oynatma listesine ekle."
   },
   "2026-12-30": {
     "shorts": [
       "15-rainy-bookshop",
       "shorts"
-    ]
+    ],
+    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2026-12-31": {
     "shorts": [
@@ -220,7 +224,8 @@
     "shorts": [
       "18-rainy-greenhouse",
       "shorts"
-    ]
+    ],
+    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2027-01-07": {
     "shorts": [
@@ -254,7 +259,8 @@
     "shorts": [
       "20-lake-cabin",
       "shorts"
-    ]
+    ],
+    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2027-01-14": {
     "shorts": [
@@ -283,6 +289,9 @@
   "2027-01-19": {
     "uzun": "19-castle-library",
     "not": "Kale kütüphanesi Shorts'unun (17 Ocak) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
+  },
+  "2027-01-20": {
+    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
   },
   "2027-01-21": {
     "shorts": [
