@@ -1,0 +1,101 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "RAIN",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        1092,
+        0,
+        1672,
+        941
+      ],
+      [
+        310,
+        140,
+        1012,
+        716
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 242,
+      "y": 821,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 634,
+      "y": 47,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1019,
+      "y": 787,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 636,
+      "y": 92,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1031,
+      "y": 698,
+      "sigma": 70,
+      "genlik": 0.1
+    },
+    {
+      "x": 324,
+      "y": 874,
+      "sigma": 81,
+      "genlik": 0.1
+    },
+    {
+      "x": 173,
+      "y": 414,
+      "sigma": 85,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Rainforest Treehouse",
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ]
+  },
+  "shorts": {
+    "bas": 661,
+    "son": 1382,
+    "tur": 2,
+    "baslik": "Rainforest Treehouse",
+    "alt": "Gentle Rain at Night",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 1382,
+    "son": 661,
+    "tur": 2,
+    "baslik": "POV: rainforest treehouse on a rainy night",
+    "alt": "sleep here tonight",
+    "ses_kazanc": 1.5
+  }
+}

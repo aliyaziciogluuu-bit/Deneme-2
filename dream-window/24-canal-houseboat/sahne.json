@@ -1,0 +1,209 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "RAIN",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        1180,
+        0,
+        1610,
+        490
+      ],
+      [
+        993,
+        128,
+        1082,
+        372
+      ],
+      [
+        583,
+        235,
+        630,
+        312
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          1130,
+          515
+        ],
+        [
+          1170,
+          470
+        ],
+        [
+          1210,
+          438
+        ],
+        [
+          1290,
+          435
+        ],
+        [
+          1345,
+          450
+        ],
+        [
+          1345,
+          515
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 205,
+      "y": 258,
+      "sigma": 50,
+      "genlik": 0.1
+    },
+    {
+      "x": 735,
+      "y": 300,
+      "sigma": 55,
+      "genlik": 0.1
+    },
+    {
+      "x": 352,
+      "y": 408,
+      "sigma": 45,
+      "genlik": 0.1
+    },
+    {
+      "x": 1412,
+      "y": 740,
+      "sigma": 60,
+      "genlik": 0.12
+    },
+    {
+      "x": 1085,
+      "y": 33,
+      "sigma": 25,
+      "genlik": 0.07
+    },
+    {
+      "x": 1000,
+      "y": 100,
+      "sigma": 25,
+      "genlik": 0.07
+    },
+    {
+      "x": 930,
+      "y": 125,
+      "sigma": 25,
+      "genlik": 0.07
+    },
+    {
+      "x": 850,
+      "y": 152,
+      "sigma": 25,
+      "genlik": 0.07
+    },
+    {
+      "x": 760,
+      "y": 178,
+      "sigma": 25,
+      "genlik": 0.07
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Rainy Canal Houseboat",
+  "ates": {
+    "kutu": [
+      248,
+      509,
+      435,
+      699
+    ],
+    "ic": [
+      267,
+      539,
+      416,
+      684
+    ],
+    "taban": 678,
+    "tepe": 551,
+    "olcek": 0.6,
+    "kivilcim": 14
+  },
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ],
+    "ates": [
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_yumusak.mp3",
+      "../sesler/ates_gece.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "06-rainy-cafe",
+    "karisik": true,
+    "kutu": [
+      189,
+      442,
+      627,
+      765
+    ],
+    "cubuk_koru": true
+  },
+  "shorts": {
+    "bas": 1380,
+    "son": 950,
+    "tur": 2,
+    "baslik": "Rainy Canal Houseboat",
+    "alt": "Rain on the Window & Wood Stove",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 950,
+    "son": 1380,
+    "tur": 2,
+    "baslik": "POV: your houseboat on a rainy canal night",
+    "alt": "the lanterns glow on the water",
+    "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      1215,
+      655,
+      1300,
+      735
+    ],
+    "genlik": 0.7
+  },
+  "su": {
+    "kutu": [
+      1190,
+      330,
+      1605,
+      440
+    ],
+    "esik": 0.18
+  }
+}

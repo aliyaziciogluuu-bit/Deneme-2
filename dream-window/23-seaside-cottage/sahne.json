@@ -15,61 +15,105 @@
       [
         0,
         0,
-        921,
-        671
+        880,
+        590
       ]
     ],
     "esik": 0.0,
-    "temizlik": 5
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          0,
+          405
+        ],
+        [
+          100,
+          410
+        ],
+        [
+          310,
+          450
+        ],
+        [
+          305,
+          520
+        ],
+        [
+          130,
+          560
+        ],
+        [
+          130,
+          600
+        ],
+        [
+          0,
+          600
+        ]
+      ],
+      [
+        [
+          575,
+          520
+        ],
+        [
+          680,
+          520
+        ],
+        [
+          690,
+          595
+        ],
+        [
+          575,
+          595
+        ]
+      ],
+      [
+        [
+          725,
+          505
+        ],
+        [
+          865,
+          505
+        ],
+        [
+          865,
+          575
+        ],
+        [
+          725,
+          575
+        ]
+      ]
+    ]
   },
   "isiklar": [
     {
-      "x": 1285,
-      "y": 486,
-      "sigma": 340,
-      "genlik": 0.085
-    },
-    {
-      "x": 1564,
-      "y": 658,
-      "sigma": 90,
-      "genlik": 0.1
-    },
-    {
-      "x": 1623,
-      "y": 642,
-      "sigma": 75,
-      "genlik": 0.1
-    },
-    {
       "x": 988,
       "y": 105,
-      "sigma": 52,
+      "sigma": 70,
       "genlik": 0.1
     },
     {
-      "x": 1498,
-      "y": 624,
-      "sigma": 57,
-      "genlik": 0.1
+      "x": 1565,
+      "y": 655,
+      "sigma": 80,
+      "genlik": 0.12
     },
     {
-      "x": 1290,
-      "y": 226,
-      "sigma": 52,
-      "genlik": 0.1
+      "x": 740,
+      "y": 200,
+      "sigma": 45,
+      "genlik": 0.08
     },
     {
-      "x": 1608,
-      "y": 686,
-      "sigma": 34,
-      "genlik": 0.1
-    },
-    {
-      "x": 453,
-      "y": 773,
-      "sigma": 43,
-      "genlik": 0.1
+      "x": 293,
+      "y": 400,
+      "sigma": 25,
+      "genlik": 0.08
     }
   ],
   "dongu_sn": 96,
@@ -101,8 +145,8 @@
       "../sesler/yagmur_hafif.mp3"
     ],
     "ates": [
-      "../sesler/ates_somine_yumusak.mp3",
       "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3",
       "../sesler/ates_gece.mp3"
     ],
     "ates_katman": 3,
@@ -126,19 +170,28 @@
     ]
   },
   "shorts": {
-    "bas": 460,
-    "son": 1285,
+    "bas": 760,
+    "son": 1250,
     "tur": 2,
     "baslik": "Stormy Seaside Cottage",
-    "alt": "Rain & Crackling Fireplace",
+    "alt": "Storm Waves & Crackling Fireplace",
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 1285,
-    "son": 460,
+    "bas": 1250,
+    "son": 760,
     "tur": 2,
-    "baslik": "POV: stormy seaside cottage on a rainy night",
-    "alt": "sleep here tonight",
+    "baslik": "POV: a quiet cottage while the sea rages",
+    "alt": "the beam keeps sweeping past",
     "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      930,
+      590,
+      1010,
+      650
+    ],
+    "genlik": 0.7
   }
 }
