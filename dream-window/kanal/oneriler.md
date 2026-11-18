@@ -17,7 +17,7 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
    - **Risk:** kanal kuralları, özgünlük, yanıltıcılık
    Gerekçeli bir öneri yazar: "sun", "beklet" ya da "ele".
 3. **Sunum:** Patron en iyi 1–3 fikri kanal sahibine kısa ve anlaşılır bir dille sunar. Bu, teslimlerle birlikte ya da kullanıcı sorduğunda olur.
-4. **Karar:** Kanal sahibinin kararı "Onaylanan" ya da "Reddedilen" bölümüne yazılır. Reddedilen fikir gerekçesiyle kalır, aynı fikir tekrar önerilmez.
+4. **Karar:** Ofisin elemek istediği fikirler de kanal sahibine tek satırla gösterilir; kesin eleme kanal sahibinin onayıyla olur. Kanal sahibinin kararı "Onaylanan" ya da "Reddedilen" bölümüne yazılır. Reddedilen fikir gerekçesiyle kalır, aynı fikir tekrar önerilmez.
 
 ---
 
@@ -50,7 +50,7 @@ _(şu an yok)_
 
 ## Reddedilen
 
-- **P3 – Aynı görüntüden farklı ses varyantlarıyla ayrı videolar (yapımcı).** Ofis eledi.
+- **P3 – Aynı görüntüden farklı ses varyantlarıyla ayrı videolar (yapımcı).** Ofis eledi, kanal sahibi de 18 Kasım'da eledi.
   - Neden: YouTube'un yeniden kullanılmış / tekrarlayan içerik kuralı ve İş Ortağı incelemesi için çok yüksek risk. Kazancı küçük, kayıp bütün hedef olabilir.
-- **Y1 – Shorts açıklamasına ve yorumuna bağlantı (metin yazarı).** Ofis eledi.
+- **Y1 – Shorts açıklamasına ve yorumuna bağlantı (metin yazarı).** Ofis eledi, kanal sahibi de 18 Kasım'da eledi.
   - Neden: Shorts'taki bağlantılar tıklanamıyor. Tek köprü "İlgili video", o da zaten kullanılıyor. Yararlı kısmı Y3'e katıldı.

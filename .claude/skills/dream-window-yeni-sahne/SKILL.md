@@ -179,6 +179,7 @@ Kullanıcı, işin "farklı ajanlar ve yöneticiler birbirinin onayını alarak"
   - "Sun" kararı alan en iyi 1–3 fikri teslim raporunda kullanıcıya sade bir dille sun: ne, neden, maliyeti.
   - Kullanıcının kararını dosyaya işle. Onaylanan fikri uygula ya da plana al. Reddedileni gerekçesiyle kaydet.
   - Kullanıcıyı fikir yağmuruna boğma. Az ama değerli sun.
+  - Ofisin elemek istediği fikirleri de tek satırla ve gerekçesiyle göster. Kesin eleme kullanıcının onayıyla olur.
 - **Maliyet:** Her ajan kullanım hakkından yer. Küçük işlerde (tek bir başlık düzeltmesi, bir Shorts'un yeniden üretimi) bütün ofisi çalıştırma. Yalnızca ilgili denetçiyi çalıştır, patron onayı yeterli.
 
 ## 6) Teslim
