@@ -34,7 +34,8 @@
       "MU?"
     ],
     "kucuk": "Köyün gece bekçisi",
-    "konum": "sol"
+    "konum": "sol",
+    "genislik": 500
   },
   "ambiyans": {
     "dosya": "../sesler/gece_cirit.ogg",

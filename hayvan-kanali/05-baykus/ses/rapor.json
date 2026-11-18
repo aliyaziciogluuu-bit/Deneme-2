@@ -108,10 +108,11 @@
  },
  "015": {
   "yazi": "Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü.",
-  "duyulan": "bir güvercinden küçük, yuvarlak başlı, benekli ve kocaman sarı gözlü.",
+  "duyulan": "Bir güvercinden küçük, yuvarlak başlı, benekli ve kocaman sarı gözlü.",
   "hata": 0,
-  "sure": 4.62,
-  "uygun": true
+  "sure": 5.42,
+  "uygun": true,
+  "tek_basina": true
  },
  "016": {
   "yazi": "Pek çok baykuşun aksine gündüz de ortaya çıkıyor; damlarda, direklerde ve taş duvarların üstünde oturuyor.",
@@ -122,10 +123,11 @@
  },
  "017": {
   "yazi": "Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor.",
-  "duyulan": "Peçeli baykuş kalp şeklindeki beyaz yüzüyle hemen tanınıyor.",
+  "duyulan": "Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor.",
   "hata": 0,
-  "sure": 3.42,
-  "uygun": true
+  "sure": 4.32,
+  "uygun": true,
+  "tek_basina": true
  },
  "018": {
   "yazi": "Ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor.",
@@ -209,8 +211,9 @@
   "yazi": "Bazı baykuşlarda iki kulak deliği aynı hizada değil; biri diğerinden biraz daha yukarıda.",
   "duyulan": "Bazı baykuşlarda iki kulak deliği aynı hizada değil, biri diğerinden biraz daha yukarıda.",
   "hata": 0,
-  "sure": 5.38,
-  "uygun": true
+  "sure": 6.2,
+  "uygun": true,
+  "tek_basina": true
  },
  "030": {
   "yazi": "Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor.",

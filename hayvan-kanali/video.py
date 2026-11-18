@@ -409,6 +409,8 @@ def kapak(sahne: Sahne, yol: pathlib.Path):
     while max(buyuk.getlength(s) for s in k["buyuk"]) > k.get("genislik", 580) and buyuk.size > 80:
         buyuk = ImageFont.truetype(YAZI_KALIN, buyuk.size - 6)
     kucuk = ImageFont.truetype(YAZI_KALIN, 58)
+    while k.get("kucuk") and kucuk.getlength(k["kucuk"]) + 44 > k.get("genislik", 580) + 60 and kucuk.size > 40:
+        kucuk = ImageFont.truetype(YAZI_KALIN, kucuk.size - 2)  # alt etiket de hayvanın üstüne taşmasın
     renkler = [(255, 255, 255), (250, 204, 72)]
     y = 360 - (len(k["buyuk"]) * buyuk.size * 1.02 + (kucuk.size + 24 if k.get("kucuk") else 0)) / 2
     for i, satir in enumerate(k["buyuk"]):
