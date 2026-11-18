@@ -70,6 +70,12 @@ def main():
                     "   - Çocuklara özel değil · Herkese açık · Açıklamadaki öyküyü ve Sound credits satırlarını silme",
                     "   - Video öğeleri adımında BİTİŞ EKRANI ekle: Abone ol + En son yüklenen video (son 20 sn; telefonda yoksa bilgisayardan)",
                     "   - Yayından sonra şu yorumu yazıp sabitle: New 3-hour sleep ambience every week 🌙 Subscribe so you don't miss the next one.", ""]
+        ceviri = KOK / "kanal" / "ceviriler" / f"{k}.txt"
+        if ceviri.exists():                                            # başka dillerde başlık ve açıklama (aramada bulunmak için)
+            bagla(ceviri, hedef / f"{sira}_UZUN_{ad}_ceviriler.txt")
+            adimlar[-1:-1] = [f"   - Bilgisayardaysan (yayından sonra da olur): Studio > Altyazılar > videoyu seç > DİL EKLE ile",
+                              f"     Almanca, İspanyolca, Portekizce, Fransızca, Japonca ekle; her dilde 'Başlık ve açıklama' kısmına",
+                              f"     {sira}_UZUN_{ad}_ceviriler.txt içindeki o dilin TITLE (4K yüklediysen TITLE_4K) ve DESCRIPTION'ını yapıştır."]
         paket = sorted(d for d in (KOK / k).glob("paket_*4K") if (d / "BIRLESTIR.bat").exists())
         if paket:                                                      # 4K sürümü: parçalar tek zip içinde (sıkıştırmasız)
             zip_ad = f"{sira}_UZUN_{ad}_4K_paket.zip"
