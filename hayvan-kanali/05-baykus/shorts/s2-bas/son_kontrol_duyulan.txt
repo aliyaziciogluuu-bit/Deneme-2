@@ -1,0 +1,6 @@
+000 fark=0 | Halk arasında baykuşun başını tam bir tur döndürdüğü söylenir, ama bu doğru değil. || Halk arasında Baykuş'un başını tam bir tur döndürdüğü söylenir ama bu doğru değil.
+001 fark=0 | Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor. || Baykuş'un gözleri o kadar büyük ki göz yuvalarının içinde dönemiyor.
+002 fark=0 | Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor. || Bu yüzden etrafına bakmak için gözlerini değil başını çeviriyor.
+003 fark=0 | Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü. || Baykuş başını 270 dereceye kadar çevirebiliyor, yani tam bir turun yaklaşık dörtte üçü.
+004 fark=0 | Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var. || Bizim boynumuzda 7 omur varken, baykuşun boynunda 14 omur var.
+005 fark=1 | Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş. Tam videosu kanalımızda. || Damarları da başını çevirirken beynine giden kan akışı kesilmeyecek şekilde gelişmiş. Tam videosu kanalımızda.

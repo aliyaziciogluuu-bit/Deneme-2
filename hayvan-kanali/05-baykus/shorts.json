@@ -55,7 +55,7 @@
      "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda.",
      "gorsel": "kapanis",
      "klip": "kapanis",
-     "kx": 0.72
+     "kx": 0.43
     }
    ]
   },
@@ -84,7 +84,7 @@
     {
      "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor.",
      "gorsel": "goz",
-     "x": 0.5
+     "x": 0.66
     },
     {
      "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.",
@@ -93,14 +93,14 @@
     },
     {
      "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü.",
-     "gorsel": "kukumav_portre",
-     "x": 0.6,
+     "gorsel": "bekci",
+     "x": 0.36,
      "etiket": "En fazla 270 derece"
     },
     {
      "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var.",
-     "gorsel": "bekci",
-     "x": 0.6,
+     "gorsel": "harabe",
+     "x": 0.68,
      "etiket": "İnsan: 7 omur, baykuş: 14 omur"
     },
     {

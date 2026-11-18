@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Halk arasında baykuşun başını tam bir tur döndürdüğü söylenir, ama bu doğru değil.",
+  "duyulan": "halk arasında Baykuş'un başını tam bir tur döndürdüğü söylenir. Ama bu doğru değil.",
+  "hata": 0,
+  "sure": 5.34,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor.",
+  "duyulan": "Baykuş'un gözleri o kadar büyük ki göz yuvalarının içinde dönemiyor.",
+  "hata": 0,
+  "sure": 4.58,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.",
+  "duyulan": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.",
+  "hata": 0,
+  "sure": 3.54,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü.",
+  "duyulan": "Baykuş başını 270 dereceye kadar çevirebiliyor, yani tam bir turun yaklaşık dörtte üçü.",
+  "hata": 0,
+  "sure": 5.48,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var.",
+  "duyulan": "Bizim boynumuzda 7 omur varken Baykuş'un boynunda 14 omur var.",
+  "hata": 0,
+  "sure": 4.1,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş. Tam videosu kanalımızda.",
+  "duyulan": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 6.08,
+  "uygun": true
+ }
+}

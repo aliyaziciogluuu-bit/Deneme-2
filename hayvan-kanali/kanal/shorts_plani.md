@@ -18,6 +18,9 @@ Saat: Shorts'lar 12:00'de, uzun videolar 18:00'de. Böylece aynı gün çakışm
 | Cum 27 Kasım 18:00 | **Uzun video: Yarasa** | — | — |
 | Cmt 28 Kasım 12:00 | Yarasa Saça Yapışır mı? | 7-yarasa-saca-yapisir-mi | Yarasa |
 | Paz 29 Kasım 12:00 | Yarasaya Asla Çıplak Elle Dokunma! | 8-yarasaya-dokunma | Yarasa |
+| Sal 1 Aralık 18:00 | **Uzun video: Baykuş** (20 Kasım verisine bakıldıktan sonra planlanacak) | — | — |
+| Çar 2 Aralık 12:00 | Baykuş Gerçekten Uğursuz mu? | 9-baykus-ugursuz-mu | Baykuş |
+| Per 3 Aralık 12:00 | Baykuş Başını Tam Tur Çevirebilir mi? | 10-baykus-basini-cevirir-mi | Baykuş |
 
 ## Yükleme adımları (her Shorts için)
 1. YouTube Studio veya YouTube uygulamasından videoyu yükle. Dikey ve 60 saniyeden kısa olduğu için otomatik olarak Shorts olur.

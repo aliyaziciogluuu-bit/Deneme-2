@@ -1,0 +1,52 @@
+{
+ "000": {
+  "yazi": "Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor.",
+  "duyulan": "Anadolu'da baykuşun ötmesi uzun zamandır kötü bir haberin işareti sayılıyor.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.",
+  "duyulan": "Bu inanışın bir nedeni baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.",
+  "hata": 0,
+  "sure": 6.24,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor.",
+  "duyulan": "Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi; Atina'da basılan gümüş sikkelerde de yer alıyordu.",
+  "duyulan": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi. Atina'da basılan gümüş sikkelerde de yer alıyordu.",
+  "hata": 0,
+  "sure": 8.52,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "004": {
+  "yazi": "Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.",
+  "duyulan": "Yani aynı kuş bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.",
+  "hata": 0,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor.",
+  "duyulan": "bir peçeli baykuş ailesi bir yılda binlerce kemirgen yiyebiliyor.",
+  "hata": 0,
+  "sure": 4.3,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda.",
+  "duyulan": "Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 5.5,
+  "uygun": true
+ }
+}
