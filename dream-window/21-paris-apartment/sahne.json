@@ -1,0 +1,143 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        1037,
+        0,
+        1337,
+        685
+      ],
+      [
+        1396,
+        0,
+        1672,
+        702
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 223,
+      "y": 645,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 643,
+      "y": 351,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 823,
+      "y": 465,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 876,
+      "y": 655,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 221,
+      "y": 879,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1233,
+      "y": 810,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1476,
+      "y": 815,
+      "sigma": 81,
+      "genlik": 0.1
+    },
+    {
+      "x": 766,
+      "y": 734,
+      "sigma": 90,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Snowy Paris Apartment",
+  "ates": {
+    "kutu": [
+      120,
+      451,
+      327,
+      812
+    ],
+    "ic": [
+      141,
+      507,
+      306,
+      784
+    ],
+    "taban": 772,
+    "tepe": 531,
+    "olcek": 1.1,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "../sesler/ates_gece.mp3",
+      "../sesler/ates_somine_gur.mp3",
+      "../sesler/ates_somine_yumusak.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "05-snowy-library",
+    "karisik": true,
+    "kutu": [
+      51,
+      324,
+      496,
+      937
+    ]
+  },
+  "shorts": {
+    "bas": 223,
+    "son": 1534,
+    "tur": 2,
+    "baslik": "Snowy Paris Apartment",
+    "alt": "Snowfall & Crackling Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1534,
+    "son": 223,
+    "tur": 2,
+    "baslik": "POV: snowy paris apartment on a snowy night",
+    "alt": "sleep here tonight",
+    "ses_kazanc": 7.5
+  }
+}
