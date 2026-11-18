@@ -109,6 +109,7 @@
     display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px;
     padding: 12px 16px; border-top: 1px solid var(--line); background: var(--surface-2);
   }
+  section.card .foot[hidden] { display: none; }
   .tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 
   .table-wrap { overflow-x: auto; }
@@ -252,6 +253,29 @@
   .conv-out b { font-size: 18px; white-space: nowrap; }
   .conv-out .k-total { font-size: 17px; font-weight: 600; margin-top: 4px; }
   .conv-out .k-total b { font-size: 26px; }
+  .has-row { display: grid; grid-template-columns: 1fr 1fr auto; gap: 12px; align-items: end; }
+  .has-row .f { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .receipt { position: fixed; inset: 0; z-index: 60; overflow: auto; background: rgba(0, 0, 0, .55); padding: calc(16px + env(safe-area-inset-top)) 16px 24px; }
+  .receipt[hidden] { display: none; }
+  .receipt .paper { background: #fff; color: #111; max-width: 420px; margin: 0 auto; border-radius: 10px; padding: 22px 20px; font-variant-numeric: tabular-nums; }
+  .receipt h2 { margin: 0; font: 600 22px/1.2 Georgia, "Times New Roman", serif; text-align: center; }
+  .receipt .when, .receipt .cust { text-align: center; color: #555; font-size: 13px; margin: 2px 0 0; }
+  .receipt table { margin-top: 12px; }
+  .receipt td { padding: 8px 0; border-bottom: 1px dashed #bbb; white-space: normal; text-align: right; vertical-align: top; }
+  .receipt td:first-child { text-align: left; padding-right: 12px; }
+  .receipt td small { display: block; margin: 0; color: #666; }
+  .receipt .totals td { border-bottom: 0; padding: 3px 0; }
+  .receipt .totals .strong td { font-size: 18px; font-weight: 700; padding-top: 8px; }
+  .receipt .fine { color: #666; font-size: 12px; text-align: center; margin: 14px 0 0; }
+  .receipt .ctl { max-width: 420px; margin: 12px auto 0; display: grid; gap: 8px; }
+  .receipt .ctl .tools { justify-content: flex-end; }
+  @media print {
+    body > *:not(.receipt) { display: none !important; }
+    body { background: #fff; }
+    .receipt { position: static; background: none; padding: 0; }
+    .receipt .ctl { display: none; }
+    .receipt .paper { max-width: none; border-radius: 0; }
+  }
   .recent .r .x { min-height: 28px; padding: 0 9px; margin-left: 10px; font-size: 16px; line-height: 1; color: var(--muted); }
   .board {
     position: fixed; inset: 0; z-index: 50; overflow: auto; display: flex; flex-direction: column;
@@ -341,6 +365,8 @@
     .toast { bottom: calc(76px + env(safe-area-inset-bottom)); }
     .conv { grid-template-columns: 1fr 1fr; }
     .conv .f:first-child { grid-column: 1 / -1; }
+    .has-row { grid-template-columns: 1fr 1fr; }
+    .has-row button { grid-column: 1 / -1; }
     .daystats { grid-template-columns: repeat(2, 1fr); }
     .stats { grid-template-columns: 1fr; gap: 8px; }
     .count-sum { grid-template-columns: 1fr; }
@@ -511,8 +537,28 @@
 
   <section class="card" data-view="hesap">
     <div class="head">
+      <h2>Has altın fiyatım</h2>
+      <span class="hint" id="hasInfo"></span>
+    </div>
+    <div class="body">
+      <div class="has-row">
+        <div class="f">
+          <label for="hasBuy">Alış (₺/gr)</label>
+          <input type="text" id="hasBuy" inputmode="decimal" autocomplete="off" placeholder="—">
+        </div>
+        <div class="f">
+          <label for="hasSell">Satış (₺/gr)</label>
+          <input type="text" id="hasSell" inputmode="decimal" autocomplete="off" placeholder="—">
+        </div>
+        <button type="button" id="hasMarket">Piyasadan al</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" data-view="hesap">
+    <div class="head">
       <h2>Kuyum hesabı</h2>
-      <span class="hint">Has fiyatı, kur tablonuzdaki Gram Altın kurundan gelir; isterseniz değiştirin.</span>
+      <span class="hint">Gram hesabı has fiyatınızdan, ziynet hesabı kur tablonuzdan yapılır.</span>
     </div>
     <div class="body">
       <form class="tx" id="kForm" novalidate>
@@ -524,18 +570,22 @@
           </div>
         </div>
         <div class="f full">
-          <span class="lbl">Ayar</span>
+          <span class="lbl">Ayar (gram)</span>
           <div class="quick" id="kKarats"></div>
         </div>
+        <div class="f full">
+          <span class="lbl">Ziynet (adet)</span>
+          <div class="quick" id="kCoins"></div>
+        </div>
         <div class="f">
-          <label for="kGram">Ağırlık (gr)</label>
+          <label for="kGram" id="kGramLbl">Ağırlık (gr)</label>
           <input type="text" id="kGram" inputmode="decimal" autocomplete="off" placeholder="0">
         </div>
         <div class="f">
           <label for="kHas" id="kHasLbl">Has altın satış fiyatı (₺/gr)</label>
           <input type="text" id="kHas" inputmode="decimal" autocomplete="off" placeholder="Fiyat girin">
         </div>
-        <div class="f">
+        <div class="f" id="kMilF">
           <label for="kMil" id="kMilLbl">Satış milyemi</label>
           <input type="text" id="kMil" inputmode="decimal" autocomplete="off" placeholder="916">
         </div>
@@ -555,6 +605,10 @@
           <label for="kDeduct">Taş / kir düşümü (gr)</label>
           <input type="text" id="kDeduct" inputmode="decimal" autocomplete="off" placeholder="0">
         </div>
+        <div class="f" id="kOldF" hidden>
+          <label for="kOld">Eski tarih indirimi (₺/adet)</label>
+          <input type="text" id="kOld" inputmode="decimal" autocomplete="off" placeholder="0">
+        </div>
         <div class="f full">
           <div class="conv-out" id="kOut"></div>
         </div>
@@ -573,6 +627,7 @@
     <div class="head">
       <h2>Hesap listesi</h2>
       <div class="tools">
+        <button type="button" class="small" id="kReceipt">Fiş</button>
         <button type="button" class="small" id="kShare">Paylaş</button>
         <button type="button" class="small" id="kListClear">Listeyi temizle</button>
       </div>
@@ -583,6 +638,10 @@
       <div><div class="k">Satış toplamı</div><div class="v" id="kSumSell">—</div></div>
       <div><div class="k">Bozdurma toplamı</div><div class="v" id="kSumBuy">—</div></div>
       <div><div class="k" id="kNetLbl">Net</div><div class="v" id="kNet">—</div></div>
+    </div>
+    <div class="foot" id="kPostFoot" hidden>
+      <button type="button" class="primary" id="kPost">Kasaya işle</button>
+      <span class="hint" id="kPostHint"></span>
     </div>
   </section>
 
@@ -835,6 +894,25 @@
   <button type="button" class="close" id="boardClose">Kapat</button>
 </div>
 
+<div class="receipt" id="receipt" hidden>
+  <div class="paper">
+    <h2 id="rcShop"></h2>
+    <p class="when" id="rcTime"></p>
+    <p class="cust" id="rcCust" hidden></p>
+    <table><tbody id="rcBody"></tbody></table>
+    <table class="totals"><tbody id="rcTotals"></tbody></table>
+    <p class="fine">Bilgi amaçlı dökümdür; resmî fiş ya da fatura yerine geçmez.</p>
+  </div>
+  <div class="ctl">
+    <input type="text" id="rcName" maxlength="60" autocomplete="off" placeholder="Müşteri adı (isteğe bağlı)" aria-label="Müşteri adı">
+    <div class="tools">
+      <button type="button" id="rcClose">Kapat</button>
+      <button type="button" id="rcShare">Paylaş</button>
+      <button type="button" class="primary" id="rcPrint">Yazdır</button>
+    </div>
+  </div>
+</div>
+
 <div class="toast" id="toast" role="status" hidden>
   <span id="toastMsg"></span>
   <button type="button" id="toastUndo">Geri al</button>
@@ -860,11 +938,21 @@
     JPY: { name: 'Japon Yeni' }, CAD: { name: 'Kanada Doları' }, AUD: { name: 'Avustralya Doları' },
     RUB: { name: 'Rus Rublesi' },
     GA: { label: 'Gram Altın', name: '24 ayar', unit: 'gr', src: 'GRA', pure: 1 },
+    HAS: { label: 'Has Altın', name: '995', unit: 'gr', pure: 0.995 },
     B22: { label: '22 Ayar Bilezik', name: 'gram', unit: 'gr', src: 'YIA', pure: 0.916 },
-    CEYREK: { label: 'Çeyrek Altın', unit: 'adet', src: 'CEYREKALTIN', pure: 1.6065 },
-    YARIM: { label: 'Yarım Altın', unit: 'adet', src: 'YARIMALTIN', pure: 3.213 },
-    TAM: { label: 'Tam Altın', unit: 'adet', src: 'TAMALTIN', pure: 6.426 },
-    CUMHURIYET: { label: 'Cumhuriyet Altını', unit: 'adet', src: 'CUMHURIYETALTINI', pure: 6.6145 },
+    A21: { label: '21 Ayar Altın', name: 'gram', unit: 'gr', pure: 0.875 },
+    A18: { label: '18 Ayar Altın', name: 'gram', unit: 'gr', src: '18AYARALTIN', pure: 0.75 },
+    A14: { label: '14 Ayar Altın', name: 'gram', unit: 'gr', src: '14AYARALTIN', pure: 0.585 },
+    A8: { label: '8 Ayar Altın', name: 'gram', unit: 'gr', pure: 0.333 },
+    CEYREK: { label: 'Çeyrek Altın', chip: 'Çeyrek', unit: 'adet', src: 'CEYREKALTIN', pure: 1.6065 },
+    YARIM: { label: 'Yarım Altın', chip: 'Yarım', unit: 'adet', src: 'YARIMALTIN', pure: 3.213 },
+    TAM: { label: 'Tam Altın', chip: 'Tam', unit: 'adet', src: 'TAMALTIN', pure: 6.426 },
+    CUMHURIYET: { label: 'Cumhuriyet Altını', chip: 'Ata', unit: 'adet', src: 'CUMHURIYETALTINI', pure: 6.6145 },
+    RESAT: { label: 'Reşat Altını', chip: 'Reşat', unit: 'adet', src: 'RESATALTIN', pure: 6.6145 },
+    HAMIT: { label: 'Hamit Altını', chip: 'Hamit', unit: 'adet', src: 'HAMITALTIN', pure: 6.6145 },
+    GREMSE: { label: 'Gremse Altın', chip: 'Gremse', unit: 'adet', src: 'GREMSEALTIN', pure: 16.065 },
+    IKIBUCUK: { label: 'Ata 2,5’luk', chip: '2,5’luk', unit: 'adet', src: 'IKIBUCUKALTIN', pure: 16.536 },
+    BESLI: { label: 'Ata 5’li', chip: '5’li', unit: 'adet', src: 'BESLIALTIN', pure: 33.07 },
     GUMUS: { label: 'Gram Gümüş', unit: 'gr', src: 'GUMUS', silver: true }
   };
   var CODES = Object.keys(ASSETS);
@@ -890,6 +978,8 @@
   // alış milyemini ayar başına değiştirebilir; işçilik de ayar başına hatırlanır.
   var KARATS = [8, 14, 18, 21, 22, 24];
   var DEF_MIL = { 8: 333, 14: 585, 18: 750, 21: 875, 22: 916, 24: 1000 };
+  var KARAT_ASSET = { 8: 'A8', 14: 'A14', 18: 'A18', 21: 'A21', 22: 'B22', 24: 'GA' };   // kasadaki karşılığı
+  var COINS = ['CEYREK', 'YARIM', 'TAM', 'CUMHURIYET', 'RESAT', 'HAMIT', 'GREMSE', 'IKIBUCUK', 'BESLI'];
   var LABOR_UNITS = ['gr', 'total', 'mil'];
 
   var state = {
@@ -959,10 +1049,16 @@
       count: cleanCount(data.count), calc: cleanCalc(data.calc)
     };
   }
-  // calc.mil: büronun ayar başına satış (sell) ve alış (buy) milyemi; calc.labor: ayar başına son işçilik
+  // calc.mil: büronun ayar başına satış (sell) ve alış (buy) milyemi; calc.labor: ayar başına son işçilik;
+  // calc.old: ziynette eski tarih indirimi (₺/adet); calc.hasAt: has fiyatının son yazıldığı an
   function cleanCalc(c) {
-    var out = { mil: { sell: {}, buy: {} }, labor: {} };
+    var out = { mil: { sell: {}, buy: {} }, labor: {}, old: {}, hasAt: null };
     if (!c || typeof c !== 'object') return out;
+    COINS.forEach(function (k) {
+      var v = Number(c.old && c.old[k]);
+      if (v > 0 && isFinite(v)) out.old[k] = v;
+    });
+    if (typeof c.hasAt === 'string') out.hasAt = c.hasAt;
     KARATS.forEach(function (k) {
       ['sell', 'buy'].forEach(function (side) {
         var v = Number(c.mil && c.mil[side] && c.mil[side][k]);
@@ -1236,6 +1332,7 @@
     renderBackup();
     renderCari();
     renderConv();
+    renderHas();
     renderCalc();
     renderBoard();
     renderFilter();
@@ -1947,72 +2044,102 @@
     toast('Cari hareket kaydedildi.', before);
   }
 
-  // ---------- Kuyum hesabı (satış fiyatı ve bozdurma) ----------
-  var kKarat = 22, kHasTouched = false, kList = [];
+  // ---------- Kuyum hesabı (satış fiyatı, bozdurma, ziynet) ----------
+  // kSel.coin doluysa ziynet (adet), boşsa kSel.karat ayarında gram hesabı yapılır.
+  var kSel = { coin: null, karat: 22 }, kHasTouched = false, kList = [];
   function kMode() { return $('kBuy').checked ? 'buy' : 'sell'; }
+  function kSide(mode) { return mode === 'sell' ? 'out' : 'in'; }
+  function kCur() { return kSel.coin || KARAT_ASSET[kSel.karat]; }
   function kMilOf(mode, k) { return state.calc.mil[mode][k] || DEF_MIL[k]; }
   function round2(n) { return Math.round(n * 100) / 100; }
   function fmtMil(m) { return fmtNum(m / 1000, 3, 4); }
   // Milyem kutusu: "916" da "0,916" da kabul edilir
   function kMilInput() { var m = num('kMil'); return m > 0 && m <= 1.1 ? m * 1000 : m; }
-  // Has fiyatı: önce kur tablonuzdaki Gram Altın kuru, yoksa piyasa fiyatı
-  function kHasSuggested(mode) { return suggested('GA', mode === 'sell' ? 'out' : 'in'); }
-  function kHasSource(mode) {
-    var m = state.myRates.GA, side = mode === 'sell' ? 'sell' : 'buy';
-    if (kHasTouched) return 'Has fiyatı elle girildi.';
-    if (m && m[side]) return 'Has fiyatı: kur tablonuzdaki Gram Altın ' + (mode === 'sell' ? 'satış' : 'alış') + ' kurunuz.';
-    if (kHasSuggested(mode)) return 'Has fiyatı: piyasa ' + (mode === 'sell' ? 'satış' : 'alış') + ' fiyatı (kur tablonuzda Gram Altın kuru yok).';
-    return 'Has fiyatı yok: elle yazın ya da “Fiyatları güncelle”ye dokunun.';
+  // Önerilen fiyat: gramda has altın, ziynette o altının kendi kuru (önce kur tablonuz, yoksa piyasa)
+  function kPriceCode() { return kSel.coin || 'HAS'; }
+  function kPriceSuggested(mode) { return suggested(kPriceCode(), kSide(mode)); }
+  function kPriceSource(mode) {
+    var c = kPriceCode(), m = state.myRates[c], side = mode === 'sell' ? 'sell' : 'buy';
+    var what = (kSel.coin ? label(c) : 'Has altın').toLocaleLowerCase('tr'), word = mode === 'sell' ? 'satış' : 'alış';
+    if (kHasTouched) return 'Fiyat elle girildi.';
+    if (m && m[side]) return 'Fiyat: kendi ' + what + ' ' + word + ' kurunuz.';
+    if (kPriceSuggested(mode)) return 'Fiyat: piyasa ' + word + ' fiyatı (kendi ' + what + ' kurunuz yazılmamış).';
+    return 'Fiyat yok: elle yazın ya da “Fiyatları güncelle”ye dokunun.';
   }
-  // Ayar ya da hesap türü değişince milyem, işçilik ve etiketleri yerleştirir
+  // Seçim ya da hesap türü değişince alanları, etiketleri ve hatırlanan değerleri yerleştirir
   function kSync() {
-    var mode = kMode(), sell = mode === 'sell';
-    $('kHasLbl').textContent = 'Has altın ' + (sell ? 'satış' : 'alış') + ' fiyatı (₺/gr)';
+    var mode = kMode(), sell = mode === 'sell', coin = !!kSel.coin, word = sell ? 'satış' : 'alış';
+    $('kGramLbl').textContent = coin ? 'Adet' : 'Ağırlık (gr)';
+    $('kHasLbl').textContent = coin ? label(kSel.coin) + ' ' + word + ' fiyatı (₺/adet)' : 'Has altın ' + word + ' fiyatı (₺/gr)';
     $('kMilLbl').textContent = (sell ? 'Satış' : 'Alış') + ' milyemi';
-    $('kMil').value = fmtInput(kMilOf(mode, kKarat));
-    $('kLaborF').hidden = $('kUnitF').hidden = !sell;
-    $('kDeductF').hidden = sell;
-    var l = state.calc.labor[kKarat];
-    $('kLabor').value = l ? fmtInput(l.v) : '';
-    if (l) $('kUnit').value = l.unit;
+    $('kMilF').hidden = coin;
+    $('kLaborF').hidden = $('kUnitF').hidden = coin || !sell;
+    $('kDeductF').hidden = coin || sell;
+    $('kOldF').hidden = !coin;
+    if (coin) {
+      var old = state.calc.old[kSel.coin];
+      $('kOld').value = old ? fmtInput(old) : '';
+    } else {
+      $('kMil').value = fmtInput(kMilOf(mode, kSel.karat));
+      var l = state.calc.labor[kSel.karat];
+      $('kLabor').value = l ? fmtInput(l.v) : '';
+      if (l) $('kUnit').value = l.unit;
+    }
     Array.prototype.forEach.call($('kKarats').children, function (b) {
-      b.setAttribute('aria-pressed', Number(b.getAttribute('data-k')) === kKarat ? 'true' : 'false');
+      b.setAttribute('aria-pressed', !coin && Number(b.getAttribute('data-k')) === kSel.karat ? 'true' : 'false');
+    });
+    Array.prototype.forEach.call($('kCoins').children, function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-c') === kSel.coin ? 'true' : 'false');
     });
   }
-  // Girilenlerden hesabı çıkarır; eksik ya da hatalıysa { error } döner
+  // Girilenlerden hesabı çıkarır; eksik ya da hatalıysa { error } döner.
+  // qty: kasaya işlenecek miktar (gramda net ağırlık, ziynette adet).
   function kCompute() {
-    var mode = kMode(), gram = num('kGram'), has = num('kHas'), mil = kMilInput();
-    if (!(gram > 0)) return { error: 'Ağırlığı yazın.' };
-    if (!(has > 0)) return { error: 'Has altın fiyatını yazın.' };
+    var mode = kMode(), qty = num('kGram'), price = num('kHas');
+    var r = { mode: mode, cur: kCur(), price: price };
+    if (kSel.coin) {
+      if (!(qty > 0) || qty !== Math.floor(qty)) return { error: 'Adedi tam sayı olarak yazın.' };
+      if (!(price > 0)) return { error: 'Birim fiyatı yazın.' };
+      var oRaw = $('kOld').value.trim(), old = oRaw ? parseNum(oRaw) : 0;
+      if (!(old >= 0)) return { error: 'Eski tarih indirimi için geçerli bir sayı yazın.' };
+      if (old >= price) return { error: 'Eski tarih indirimi, birim fiyattan küçük olmalı.' };
+      r.coin = kSel.coin; r.qty = r.gram = qty; r.old = old;
+      r.total = round2(qty * (price - old));
+      return r;
+    }
+    var mil = kMilInput();
+    if (!(qty > 0)) return { error: 'Ağırlığı yazın.' };
+    if (!(price > 0)) return { error: 'Has altın fiyatını yazın.' };
     if (!(mil > 0 && mil <= 1100)) return { error: 'Geçerli bir milyem yazın (ör. 916).' };
-    var r = { mode: mode, karat: kKarat, gram: gram, has: has, mil: mil };
+    r.karat = kSel.karat; r.gram = qty; r.mil = mil;
     if (mode === 'sell') {
       var raw = $('kLabor').value.trim(), lv = raw ? parseNum(raw) : 0, unit = $('kUnit').value;
       if (!(lv >= 0)) return { error: 'İşçilik için geçerli bir sayı yazın.' };
-      r.gold = round2(gram * has * mil / 1000);
-      r.labor = round2(unit === 'gr' ? gram * lv : unit === 'mil' ? gram * has * lv / 1000 : lv);
-      r.laborText = !lv ? '' : unit === 'gr' ? fmtNum(gram, 0, 3) + ' gr × ' + fmtTL(lv)
+      r.gold = round2(qty * price * mil / 1000);
+      r.labor = round2(unit === 'gr' ? qty * lv : unit === 'mil' ? qty * price * lv / 1000 : lv);
+      r.laborText = !lv ? '' : unit === 'gr' ? fmtNum(qty, 0, 3) + ' gr × ' + fmtTL(lv)
         : unit === 'mil' ? fmtNum(lv, 0, 2) + ' milyem' : 'toplam';
-      r.pure = gram * mil / 1000;
+      r.qty = qty;
+      r.pure = qty * mil / 1000;
       r.total = round2(r.gold + r.labor);
     } else {
       var dRaw = $('kDeduct').value.trim(), ded = dRaw ? parseNum(dRaw) : 0;
-      if (!(ded >= 0)) return { error: 'Düşülecek ağırlık için geçerli bir sayı yazın.' };
-      if (ded >= gram) return { error: 'Düşülecek ağırlık, toplam ağırlıktan küçük olmalı.' };
+      if (!(ded >= 0)) return { error: 'Taş / kir düşümü için geçerli bir sayı yazın.' };
+      if (ded >= qty) return { error: 'Düşülecek ağırlık, toplam ağırlıktan küçük olmalı.' };
       r.deduct = ded;
-      r.net = gram - ded;
+      r.qty = r.net = round4(qty - ded);
       r.pure = r.net * mil / 1000;
-      r.total = round2(r.pure * has);
+      r.total = round2(r.pure * price);
     }
     return r;
   }
   function renderCalc() {
     var mode = kMode(), out = $('kOut');
     if (!kHasTouched && document.activeElement !== $('kHas')) {
-      var sug = kHasSuggested(mode);
+      var sug = kPriceSuggested(mode);
       $('kHas').value = sug ? fmtInput(sug) : '';
     }
-    $('kSrc').textContent = kHasSource(mode);
+    $('kSrc').textContent = kPriceSource(mode);
     out.textContent = '';
     var r = kCompute();
     var line = function (lead, bold, tail, cls) {
@@ -2020,75 +2147,98 @@
       if (tail) d.appendChild(el('span', { class: 'hint', text: ' ' + tail }));
       out.appendChild(d);
     };
+    var totalLbl = mode === 'sell' ? 'Müşteriden alınacak:' : 'Müşteriye ödenecek:';
     if (r.error) {
       if ($('kGram').value.trim()) out.appendChild(el('div', { class: 'msg err', text: r.error }));
-      else out.appendChild(el('div', { class: 'hint', text: mode === 'sell'
-        ? 'Ayarı seçip ağırlığı yazın; müşteriden alınacak tutar hesaplanır.'
-        : 'Ayarı seçip ağırlığı yazın; müşteriye ödenecek tutar hesaplanır.' }));
+      else out.appendChild(el('div', { class: 'hint', text: (kSel.coin ? 'Adedi yazın; ' : 'Ayarı seçip ağırlığı yazın; ') +
+        (mode === 'sell' ? 'müşteriden alınacak' : 'müşteriye ödenecek') + ' tutar hesaplanır.' }));
       return;
     }
-    if (mode === 'sell') {
-      line('Altın bedeli:', fmtTL(r.gold), fmtNum(r.gram, 0, 3) + ' gr × ' + fmtMil(r.mil) + ' × ' + fmtTL(r.has));
+    if (r.coin) {
+      line(label(r.coin) + ':', fmtTL(r.total), fmtNum(r.qty, 0) + ' adet × ' + fmtTL(r.price - r.old) +
+           (r.old > 0 ? ' (eski tarih indirimi ' + fmtTL(r.old) + ')' : ''));
+      line(totalLbl, fmtTL(r.total), '', 'k-total');
+    } else if (mode === 'sell') {
+      line('Altın bedeli:', fmtTL(r.gold), fmtNum(r.gram, 0, 3) + ' gr × ' + fmtMil(r.mil) + ' × ' + fmtTL(r.price));
       if (r.labor > 0) line('İşçilik:', fmtTL(r.labor), r.laborText === 'toplam' ? '' : r.laborText);
-      line('Müşteriden alınacak:', fmtTL(r.total), '', 'k-total');
+      line(totalLbl, fmtTL(r.total), '', 'k-total');
       line('Gram başına:', fmtTL(r.total / r.gram), '· has karşılığı ' + fmtNum(r.pure, 2, 3) + ' gr');
     } else {
       if (r.deduct > 0) line('Net ağırlık:', fmtNum(r.net, 0, 3) + ' gr', fmtNum(r.gram, 0, 3) + ' − ' + fmtNum(r.deduct, 0, 3));
       line('Has karşılığı:', fmtNum(r.pure, 2, 3) + ' gr', fmtNum(r.net, 0, 3) + ' gr × ' + fmtMil(r.mil));
-      line('Müşteriye ödenecek:', fmtTL(r.total), '', 'k-total');
-      line('Gram başına:', fmtTL(r.total / r.gram), '· has fiyatı ' + fmtTL(r.has));
+      line(totalLbl, fmtTL(r.total), '', 'k-total');
+      line('Gram başına:', fmtTL(r.total / r.gram), '· has fiyatı ' + fmtTL(r.price));
     }
   }
-  // Milyem ve işçilik bir kez yazılınca o ayar için hatırlanır
+  // Milyem, işçilik ve eski tarih indirimi bir kez yazılınca o ayar / ziynet için hatırlanır
   function kRemember() {
-    var mode = kMode(), mil = kMilInput(), changed = false;
-    if (mil > 0 && mil <= 1100 && mil !== kMilOf(mode, kKarat)) { state.calc.mil[mode][kKarat] = mil; changed = true; }
-    if (mode === 'sell') {
-      var raw = $('kLabor').value.trim(), lv = raw ? parseNum(raw) : 0, old = state.calc.labor[kKarat];
-      if (lv > 0) {
-        if (!old || old.v !== lv || old.unit !== $('kUnit').value) {
-          state.calc.labor[kKarat] = { v: lv, unit: $('kUnit').value }; changed = true;
-        }
-      } else if (!raw && old) { delete state.calc.labor[kKarat]; changed = true; }
+    var mode = kMode(), changed = false;
+    if (kSel.coin) {
+      var oRaw = $('kOld').value.trim(), old = oRaw ? parseNum(oRaw) : 0, was = state.calc.old[kSel.coin] || 0;
+      if (old >= 0 && old !== was) {
+        if (old > 0) state.calc.old[kSel.coin] = old; else delete state.calc.old[kSel.coin];
+        changed = true;
+      }
+    } else {
+      var k = kSel.karat, mil = kMilInput();
+      if (mil > 0 && mil <= 1100 && mil !== kMilOf(mode, k)) { state.calc.mil[mode][k] = mil; changed = true; }
+      if (mode === 'sell') {
+        var raw = $('kLabor').value.trim(), lv = raw ? parseNum(raw) : 0, prev = state.calc.labor[k];
+        if (lv > 0) {
+          if (!prev || prev.v !== lv || prev.unit !== $('kUnit').value) {
+            state.calc.labor[k] = { v: lv, unit: $('kUnit').value }; changed = true;
+          }
+        } else if (!raw && prev) { delete state.calc.labor[k]; changed = true; }
+      }
     }
     if (changed) save();
   }
   function kLineText(x) {
-    return x.karat + ' ayar · ' + fmtNum(x.gram, 0, 3) + ' gr';
+    return x.karat ? x.karat + ' ayar · ' + fmtNum(x.gram, 0, 3) + ' gr' : label(x.cur) + ' · ' + fmtNum(x.qty, 0) + ' adet';
+  }
+  function kSums() {
+    var s = { sell: 0, buy: 0, pending: 0 };
+    kList.forEach(function (x) { s[x.mode] += x.total; if (!x.done) s.pending++; });
+    s.net = round2(s.sell - s.buy);
+    return s;
   }
   function renderCalcList() {
-    var ul = $('kList'), sell = 0, buy = 0;
+    var ul = $('kList'), s = kSums();
     ul.textContent = '';
     kList.forEach(function (x, i) {
-      if (x.mode === 'sell') sell += x.total; else buy += x.total;
       var del = el('button', { type: 'button', class: 'small x', 'aria-label': 'Satırı kaldır', text: '×' });
       del.addEventListener('click', function () { kList.splice(i, 1); saveUI(); renderCalcList(); });
       ul.appendChild(el('li', {}, [
         el('div', { class: 'l' }, [
           el('span', { class: 'badge ' + (x.mode === 'sell' ? 'out' : 'in'), text: x.mode === 'sell' ? 'Satış' : 'Bozdurma' }),
-          document.createTextNode(' ' + kLineText(x)), el('small', { text: x.note })
+          document.createTextNode(' ' + kLineText(x)),
+          el('small', { text: x.note + (x.done ? ' · kasaya işlendi' : '') })
         ]),
         el('div', { class: 'r' }, [el('b', { text: fmtTL(x.total) }), del])
       ]));
     });
     $('kListEmpty').hidden = kList.length > 0;
     $('kTotals').hidden = !kList.length;
-    $('kSumSell').textContent = sell ? fmtTL(sell) : '—';
-    $('kSumBuy').textContent = buy ? fmtTL(buy) : '—';
-    var net = round2(sell - buy);
-    $('kNetLbl').textContent = net < 0 ? 'Müşteriye ödenecek' : 'Müşteriden alınacak';
-    $('kNet').textContent = fmtTL(Math.abs(net));
-    $('kNet').className = 'v ' + (net < 0 ? 'neg' : 'pos');
+    $('kSumSell').textContent = s.sell ? fmtTL(s.sell) : '—';
+    $('kSumBuy').textContent = s.buy ? fmtTL(s.buy) : '—';
+    $('kNetLbl').textContent = s.net < 0 ? 'Müşteriye ödenecek' : 'Müşteriden alınacak';
+    $('kNet').textContent = fmtTL(Math.abs(s.net));
+    $('kNet').className = 'v ' + (s.net < 0 ? 'neg' : 'pos');
+    $('kPostFoot').hidden = !kList.length;
+    $('kPost').disabled = !s.pending;
+    $('kPostHint').textContent = s.pending
+      ? 'Satış ve bozdurmayı bugünün tarihiyle kasaya işlem olarak yazar; stok ve kâr güncellenir.'
+      : 'Listedeki bütün satırlar kasaya işlendi.';
   }
   function kAddLine(ev) {
     ev.preventDefault();
     var r = kCompute();
     if (r.error) { renderCalc(); $('kGram').focus(); return; }
     kRemember();
-    var note = r.mode === 'sell'
-      ? fmtMil(r.mil) + ' × ' + fmtTL(r.has) + (r.labor > 0 ? ' + işçilik ' + fmtTL(r.labor) : '')
-      : (r.deduct > 0 ? 'net ' + fmtNum(r.net, 0, 3) + ' gr · ' : '') + fmtMil(r.mil) + ' × ' + fmtTL(r.has);
-    kList.push({ mode: r.mode, karat: r.karat, gram: r.gram, total: r.total, note: note });
+    var note = r.coin ? fmtTL(r.price - r.old) + ' / adet' + (r.old > 0 ? ' (eski tarih)' : '')
+      : r.mode === 'sell' ? fmtMil(r.mil) + ' × ' + fmtTL(r.price) + (r.labor > 0 ? ' + işçilik ' + fmtTL(r.labor) : '')
+      : (r.deduct > 0 ? 'net ' + fmtNum(r.net, 0, 3) + ' gr · ' : '') + fmtMil(r.mil) + ' × ' + fmtTL(r.price);
+    kList.push({ mode: r.mode, cur: r.cur, karat: r.karat || null, gram: r.gram, qty: r.qty, total: r.total, note: note, done: false });
     if (kList.length > 60) kList.shift();
     saveUI();
     $('kGram').value = '';
@@ -2097,36 +2247,148 @@
     renderCalcList();
     toast('Listeye eklendi.');
   }
-  function kShare() {
-    if (!kList.length) return alert('Liste boş.');
-    var sell = 0, buy = 0, lines = [$('bizName').textContent + ' — ' + fmtDate(today())];
+  // Listedeki işlenmemiş satırları bugünün tarihiyle kasaya alış/satış işlemi olarak yazar
+  function kPost() {
+    var pend = kList.filter(function (x) { return !x.done; });
+    if (!pend.length) return;
+    var seq = nextSeq(), day = today();
+    var next = state.tx.concat(pend.map(function (x, i) {
+      return {
+        id: uid(), seq: seq + i, date: day, type: x.mode === 'sell' ? 'out' : 'in', cur: x.cur,
+        amount: x.qty, rate: x.total / x.qty, note: ('Hesap: ' + x.note).slice(0, 120)
+      };
+    }));
+    var res = compute(next);
+    if (res.error) {
+      return alert('Kasaya işlenemedi: ' + res.error +
+                   '\nSatılan ürün kasada kayıtlı değilse önce Kasa bölümünden stok girin ya da ürünü alış olarak işleyin.');
+    }
+    var s = { sell: 0, buy: 0 };
+    pend.forEach(function (x) { s[x.mode] += x.total; });
+    if (!confirm(pend.length + ' satır kasaya işlenecek.' + (s.sell ? '\nSatış: ' + fmtTL(s.sell) : '') +
+                 (s.buy ? '\nBozdurma: ' + fmtTL(s.buy) : '') + '\nDevam edilsin mi?')) return;
+    var before = snapshot();
+    state.tx = next;
+    pend.forEach(function (x) {
+      x.done = true;
+      if (!(state.rates[x.cur] > 0)) state.rates[x.cur] = x.total / x.qty;
+    });
+    save();
+    saveUI();
+    render();
+    renderCalcList();
+    toast('Kasaya işlendi.', before, function () {
+      pend.forEach(function (x) { x.done = false; });
+      saveUI();
+      renderCalcList();
+    });
+  }
+  function kText(customer) {
+    var s = kSums(), lines = [$('bizName').textContent + ' — ' + fmtDate(today())];
+    if (customer) lines.push('Müşteri: ' + customer);
     kList.forEach(function (x) {
-      if (x.mode === 'sell') sell += x.total; else buy += x.total;
       lines.push((x.mode === 'sell' ? 'Satış: ' : 'Bozdurma: ') + kLineText(x).replace(' · ', ', ') + ' — ' + fmtTL(x.total));
     });
-    var net = round2(sell - buy);
-    if (kList.length > 1) lines.push((net < 0 ? 'Müşteriye ödenecek: ' : 'Müşteriden alınacak: ') + fmtTL(Math.abs(net)));
-    var text = lines.join('\n');
+    if (kList.length > 1) lines.push((s.net < 0 ? 'Müşteriye ödenecek: ' : 'Müşteriden alınacak: ') + fmtTL(Math.abs(s.net)));
+    return lines.join('\n');
+  }
+  function shareText(text) {
     if (navigator.share) {
       navigator.share({ text: text }).catch(function () { /* vazgeçildi */ });
     } else if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(function () { toast('Liste kopyalandı.'); }, function () { alert(text); });
+      navigator.clipboard.writeText(text).then(function () { toast('Kopyalandı.'); }, function () { alert(text); });
     } else {
       alert(text);
     }
   }
+  function kShare() {
+    if (!kList.length) return alert('Liste boş.');
+    shareText(kText(''));
+  }
+
+  // ---------- Müşteri fişi ----------
+  function renderReceipt() {
+    var s = kSums(), body = $('rcBody'), name = $('rcName').value.trim();
+    $('rcShop').textContent = $('bizName').textContent;
+    $('rcTime').textContent = new Date().toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+    $('rcCust').textContent = name ? 'Müşteri: ' + name : '';
+    $('rcCust').hidden = !name;
+    body.textContent = '';
+    kList.forEach(function (x) {
+      body.appendChild(el('tr', {}, [
+        el('td', {}, [el('b', { text: x.mode === 'sell' ? 'Satış' : 'Bozdurma' }), document.createTextNode(' ' + kLineText(x)),
+                      el('small', { text: x.note })]),
+        el('td', { text: fmtTL(x.total) })
+      ]));
+    });
+    var tot = $('rcTotals');
+    tot.textContent = '';
+    var row = function (k, v, strong) { tot.appendChild(el('tr', strong ? { class: 'strong' } : {}, [el('td', { text: k }), el('td', { text: v })])); };
+    if (s.sell && s.buy) { row('Satış toplamı', fmtTL(s.sell)); row('Bozdurma toplamı', fmtTL(s.buy)); }
+    row(s.net < 0 ? 'Müşteriye ödenecek' : 'Müşteriden alınacak', fmtTL(Math.abs(s.net)), true);
+  }
+  function openReceipt() {
+    if (!kList.length) return alert('Liste boş. Önce hesapları listeye ekleyin.');
+    $('receipt').hidden = false;
+    renderReceipt();
+  }
+
+  // ---------- Has altın fiyatım ----------
+  function renderHas() {
+    var m = state.myRates.HAS || {}, box = $('hasBuy').parentNode.parentNode;
+    if (!(box.contains(document.activeElement) && document.activeElement.tagName === 'INPUT')) {
+      $('hasBuy').value = m.buy ? fmtInput(m.buy) : '';
+      $('hasSell').value = m.sell ? fmtInput(m.sell) : '';
+    }
+    var parts = [];
+    if (state.rates.HAS > 0) {
+      parts.push('Piyasa ' + fmtRate(state.rates.HAS, 'HAS') + (state.sell.HAS > 0 ? ' / ' + fmtRate(state.sell.HAS, 'HAS') : ''));
+    }
+    if (state.calc.hasAt && (m.buy || m.sell)) {
+      var d = new Date(state.calc.hasAt), same = isoDate(d) === today();
+      parts.push('son güncellemeniz: ' + (same ? 'bugün ' : fmtDate(isoDate(d)) + ' ') +
+                 d.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }));
+    } else if (!m.buy && !m.sell) {
+      parts.push('kendi fiyatınızı yazın; yazmazsanız piyasa fiyatı kullanılır');
+    }
+    $('hasInfo').textContent = parts.join(' · ');
+    $('hasInfo').className = 'hint' + (m.buy && m.sell && m.sell < m.buy ? ' neg' : '');
+  }
+  function setHas(buy, sell) {
+    if (buy || sell) state.myRates.HAS = { buy: buy, sell: sell }; else delete state.myRates.HAS;
+    state.calc.hasAt = new Date().toISOString();
+    save();
+    render();
+    prefillRate();
+  }
+
   function initCalc() {
+    var pick = function (coin, karat) {
+      kRemember();
+      kSel = { coin: coin, karat: karat || kSel.karat };
+      kHasTouched = false;
+      $('kGram').value = '';
+      kSync();
+      renderCalc();
+    };
     KARATS.forEach(function (k) {
       var b = el('button', { type: 'button', 'data-k': String(k), 'aria-pressed': 'false', text: k + ' ayar' });
-      b.addEventListener('click', function () { kRemember(); kKarat = k; kSync(); renderCalc(); });
+      b.addEventListener('click', function () { pick(null, k); });
       $('kKarats').appendChild(b);
+    });
+    COINS.forEach(function (c) {
+      var b = el('button', { type: 'button', 'data-c': c, 'aria-pressed': 'false', text: ASSETS[c].chip || label(c) });
+      b.addEventListener('click', function () { pick(c); });
+      $('kCoins').appendChild(b);
     });
     ['kSell', 'kBuy'].forEach(function (id) {
       $(id).addEventListener('change', function () { kHasTouched = false; kSync(); renderCalc(); });
     });
     $('kHas').addEventListener('input', function () { kHasTouched = !!this.value.trim(); renderCalc(); });
-    ['kGram', 'kMil', 'kLabor', 'kDeduct'].forEach(function (id) { $(id).addEventListener('input', renderCalc); });
-    ['kMil', 'kLabor', 'kUnit'].forEach(function (id) { $(id).addEventListener('change', function () { kRemember(); renderCalc(); }); });
+    ['kGram', 'kMil', 'kLabor', 'kDeduct', 'kOld'].forEach(function (id) { $(id).addEventListener('input', renderCalc); });
+    ['kMil', 'kLabor', 'kUnit', 'kOld'].forEach(function (id) {
+      $(id).addEventListener('change', function () { kRemember(); renderCalc(); });
+    });
     $('kForm').addEventListener('submit', kAddLine);
     $('kClear').addEventListener('click', function () {
       kHasTouched = false;
@@ -2142,6 +2404,21 @@
       renderCalcList();
     });
     $('kShare').addEventListener('click', kShare);
+    $('kPost').addEventListener('click', kPost);
+    $('kReceipt').addEventListener('click', openReceipt);
+    $('rcName').addEventListener('input', renderReceipt);
+    $('rcClose').addEventListener('click', function () { $('receipt').hidden = true; });
+    $('rcPrint').addEventListener('click', function () { window.print(); });
+    $('rcShare').addEventListener('click', function () { shareText(kText($('rcName').value.trim())); });
+    ['hasBuy', 'hasSell'].forEach(function (id) {
+      $(id).addEventListener('change', function () {
+        setHas(posOrNull(parseNum($('hasBuy').value)), posOrNull(parseNum($('hasSell').value)));
+      });
+    });
+    $('hasMarket').addEventListener('click', function () {
+      if (!(state.rates.HAS > 0)) return alert('Piyasa fiyatı yok. Önce “Fiyatları güncelle”ye dokunun.');
+      setHas(state.rates.HAS, state.sell.HAS > 0 ? state.sell.HAS : state.rates.HAS);
+    });
     kSync();
     renderCalcList();
   }
@@ -2225,25 +2502,29 @@
   }
 
   // ---------- Geri al ----------
-  var toastTimer = null, undoData = null;
+  var toastTimer = null, undoData = null, undoHook = null;
   function snapshot() { return JSON.stringify({ tx: state.tx, count: state.count }); }
-  function toast(text, undo) {
+  // hook: geri alınınca işlem defteri dışında düzeltilmesi gereken şey (ör. hesap listesindeki işaret)
+  function toast(text, undo, hook) {
     undoData = undo || null;
+    undoHook = undo && hook ? hook : null;
     $('toastMsg').textContent = text;
     $('toastUndo').hidden = !undo;
     $('toast').hidden = false;
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(function () { $('toast').hidden = true; undoData = null; }, undo ? 8000 : 3500);
+    toastTimer = setTimeout(function () { $('toast').hidden = true; undoData = null; undoHook = null; }, undo ? 8000 : 3500);
   }
   function undoLast() {
     if (!undoData) return;
-    var prev = JSON.parse(undoData);
+    var prev = JSON.parse(undoData), hook = undoHook;
     undoData = null;
+    undoHook = null;
     state.tx = prev.tx;
     state.count = prev.count;
     save();
     resetForm();
     render();
+    if (hook) hook();
     toast('Geri alındı.');
   }
 
@@ -2269,6 +2550,13 @@
         }
       });
       if (!(out.rates.USD > 0)) throw new Error('Kur verisi boş');
+      // Kaynakta olmayan ayarlar (8 ve 21 ayar): gram altın fiyatından saflık oranıyla
+      PRICED.forEach(function (c) {
+        var a = ASSETS[c];
+        if (out.rates[c] || a.unit !== 'gr' || !a.pure || !(out.rates.GA > 0)) return;
+        out.rates[c] = round4(out.rates.GA * a.pure);
+        if (out.sell.GA > 0) out.sell[c] = round4(out.sell.GA * a.pure);
+      });
       return out;
     });
   }
@@ -2393,10 +2681,13 @@
       ui.snooze = typeof u.snooze === 'string' ? u.snooze : null;
       // Kuyum hesabı listesi: uygulama arka planda kapanırsa yarım kalan hesap kaybolmasın
       kList = (Array.isArray(u.calcList) ? u.calcList : []).filter(function (x) {
-        return x && (x.mode === 'sell' || x.mode === 'buy') && KARATS.indexOf(x.karat) >= 0 &&
-               x.gram > 0 && x.total >= 0 && isFinite(x.gram) && isFinite(x.total);
+        return x && (x.mode === 'sell' || x.mode === 'buy') && ASSETS[x.cur] && !isCash(x.cur) &&
+               x.qty > 0 && x.gram > 0 && x.total > 0 && isFinite(x.qty) && isFinite(x.gram) && isFinite(x.total);
       }).slice(-60).map(function (x) {
-        return { mode: x.mode, karat: x.karat, gram: Number(x.gram), total: Number(x.total), note: String(x.note || '').slice(0, 120) };
+        return {
+          mode: x.mode, cur: x.cur, karat: KARATS.indexOf(x.karat) >= 0 ? x.karat : null, gram: Number(x.gram),
+          qty: Number(x.qty), total: Number(x.total), note: String(x.note || '').slice(0, 120), done: !!x.done
+        };
       });
     } catch (e) { /* yoksay */ }
   }
