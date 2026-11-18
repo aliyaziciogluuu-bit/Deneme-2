@@ -13,6 +13,18 @@ Dream Window, yüzsüz ve anonim bir uyku/ortam kanalı. Kullanıcının hedefi 
 
 Bir keresinde kuzey ışıkları her 8,5 saniyede bir tekrar ediyordu ve bunu kullanıcı yakaladı. Kullanıcı "Lütfen böyle bir hata daha yapma, sana güveniyorum" dedi. O günden beri şu söz verildi: **her video gönderilmeden önce tekrar testinden geçer.** Bu skill'deki kontroller ve ofis onayı bu sözü tutmak için var. Hiçbirini kısaltma.
 
+## Dersler defteri
+
+Ofisin hafızası `references/dersler.md` dosyasında. İşe başlamadan önce oku; çalışanlara ve denetçilere de okutulur.
+
+Her onay turundan sonra patron deftere yeni dersleri ekler:
+- RET nedenleri
+- patronun kendi yakaladığı hatalar
+- kullanıcının fark ettiği sorunlar
+- çalışanların raporlarındaki işe yarar öneriler
+
+Aynı hata iki kez yaşanırsa yalnızca deftere yazmakla kalma. Kontrol listesini ya da betiği düzelt, o hata bir daha olamasın.
+
 ## Ön kontrol (her seferinde)
 
 1. `df -h /`: en az 5 GB boş yer olmalı (bir sahne yaklaşık 1,5 GB kullanır; 10 saatlik videolar için 10 GB). Disk dolunca son birleştirme yarıda kesilir ve bozuk dosya kalır. Yer yoksa önce büyük, gereksiz dosyaları sil (eski `_gecici*` klasörleri, kullanılmayan önbellekler).
@@ -162,6 +174,7 @@ Kullanıcı, işin "farklı ajanlar ve yöneticiler birbirinin onayını alarak"
   - Sonra yalnızca RET veren denetçiye ve yöneticiye yeniden gönderir.
 - En fazla 2 tur. Hâlâ RET varsa teslim etme. Kullanıcıya durumu açıkça anlat ve kararı ona bırak.
 - Onay kayıtlarını `dream-window/kanal/onaylar/21-ad.md` dosyasına kısaca yaz: kim, hangi tur, karar, düzeltilenler.
+- Tur bitince `references/dersler.md` dosyasını güncelle: yeni hatalar, yeni kurallar, işe yarar öneriler.
 - **Maliyet:** Her ajan kullanım hakkından yer. Küçük işlerde (tek bir başlık düzeltmesi, bir Shorts'un yeniden üretimi) bütün ofisi çalıştırma. Yalnızca ilgili denetçiyi çalıştır, patron onayı yeterli.
 
 ## 6) Teslim

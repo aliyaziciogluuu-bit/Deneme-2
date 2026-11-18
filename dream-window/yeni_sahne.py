@@ -292,16 +292,17 @@ def uret(g):
     # 3) küçük resim ve yükleme metinleri (öykü Claude tarafından eklenir)
     kar = ayar.get("yagis") == "kar"
     ates = "ates" in ayar
-    if not (klasor / "kapak_3saat.jpg").exists() or g.zorla:
-        alt = " & ".join(x for x in ["Snowfall" if kar else "Rain", "Fireplace" if ates else None] if x)
-        kapak(klasor, ["3 HOURS", ad.upper(), alt, "DEEP SLEEP  •  RELAXATION"], klasor / "kapak_3saat.jpg")
-    import json as _j                                                   # küçük resim seçenekleri B ve C (Test et ve karşılaştır)
+    import json as _j                                                   # küçük resim metinleri (metin yazarı yazdıysa onunki kullanılır)
     metin_yolu = KOK / "kanal" / "kapak_metinleri.json"
     metinler = _j.loads(metin_yolu.read_text(encoding="utf-8"))
     if g.klasor not in metinler:
         metinler[g.klasor] = [ad.upper(), " & ".join(x for x in ["Snowfall" if kar else "Rain", "Fireplace" if ates else None] if x)]
         metin_yolu.write_text(_j.dumps(metinler, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    calistir(PY, "kapak.py", g.klasor)
+    if not (klasor / "kapak_3saat.jpg").exists() or g.zorla:
+        alt = metinler[g.klasor][1]                                     # görselle tutarlı alt yazı (soba/kor/ateş yok) – dersler defteri
+        kapak(klasor, ["3 HOURS", ad.upper(), alt, "DEEP SLEEP  •  RELAXATION"], klasor / "kapak_3saat.jpg")
+    calistir(PY, "kapak.py", g.klasor)                                 # B ve C (Test et ve karşılaştır)
+    calistir(PY, "kapak4k.py", g.klasor)                               # 4K etiketli sürümler – dersler defteri (20, kalite kontrol RET)
     if not (klasor / "yukleme_3saat.txt").exists():
         sesler = " & ".join(x for x in ["Snowfall" if kar else "Rain Sounds", "Crackling Fireplace" if ates else None] if x)
         (klasor / "yukleme_3saat.txt").write_text(

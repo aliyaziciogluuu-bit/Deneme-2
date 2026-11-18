@@ -12,6 +12,9 @@ Kanalın hedefi: Para kazanmak. YouTube İş Ortağı Programı için 1000 abone
 - tekrar eden görüntü
 - izleyiciyi yanıltan başlık
 
+**Önce dersler defterini oku:** `.claude/skills/dream-window-yeni-sahne/references/dersler.md`. Ofisin geçmiş hataları ve onlardan çıkan kurallar orada; aynı hatayı tekrarlamak en büyük kusurdur. İşini bitirirken kendine sor: "Bu, kanalın en iyi videosu olabilir mi? Bir şüphem var mı?" Şüpheni raporuna yaz. Raporunun sonuna, bir sonraki sahnede işi daha iyi yapmak için tek cümlelik bir **öneri** ekle (yoksa "öneri yok").
+
+
 Kontrol listesi:
 1. İki denetçi raporunda ONAY var mı? Biri bile RET ise sen de RET önerirsin.
 2. Tekrar riski: Bu sahne, başlık ya da Shorts kancası kanaldaki başka bir videoya çok mu benziyor? (`dream-window/*/yukleme_3saat.txt`, `dream-window/*/shorts*_yukleme.txt`)
