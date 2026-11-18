@@ -193,5 +193,24 @@
       650
     ],
     "genlik": 0.7
-  }
+  },
+  "ek_klipler": [
+    {
+      "dosya": "deniz_klip.mp4",
+      "kutu": [
+        190,
+        190,
+        820,
+        580
+      ],
+      "model": "kwaivgi/kling-v2.5-turbo-pro",
+      "cozunurluk": "480p",
+      "tahmin": "qexm2pbk0xrmt0d1y0r92wf1z8",
+      "sure_sn": 201,
+      "maske_cam": true,
+      "karisik": true,
+      "parca_sn": 8.0,
+      "gecis_sn": 1.5
+    }
+  ]
 }

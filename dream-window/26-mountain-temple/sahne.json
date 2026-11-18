@@ -13,84 +13,142 @@
   "cam": {
     "kutular": [
       [
-        183,
+        188,
         0,
-        1097,
-        751
+        915,
+        600
       ]
     ],
     "esik": 0.0,
-    "temizlik": 5
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          380,
+          0
+        ],
+        [
+          915,
+          0
+        ],
+        [
+          915,
+          160
+        ]
+      ],
+      [
+        [
+          335,
+          480
+        ],
+        [
+          495,
+          480
+        ],
+        [
+          495,
+          600
+        ],
+        [
+          335,
+          600
+        ]
+      ],
+      [
+        [
+          483,
+          578
+        ],
+        [
+          548,
+          578
+        ],
+        [
+          548,
+          600
+        ],
+        [
+          483,
+          600
+        ]
+      ],
+      [
+        [
+          565,
+          510
+        ],
+        [
+          760,
+          510
+        ],
+        [
+          760,
+          600
+        ],
+        [
+          565,
+          600
+        ]
+      ]
+    ]
   },
   "isiklar": [
     {
-      "x": 1592,
-      "y": 367,
-      "sigma": 340,
-      "genlik": 0.085
-    },
-    {
-      "x": 1458,
-      "y": 604,
-      "sigma": 90,
+      "x": 278,
+      "y": 415,
+      "sigma": 45,
       "genlik": 0.1
     },
     {
-      "x": 1235,
+      "x": 685,
+      "y": 420,
+      "sigma": 40,
+      "genlik": 0.1
+    },
+    {
+      "x": 1233,
       "y": 352,
-      "sigma": 90,
+      "sigma": 55,
       "genlik": 0.1
     },
     {
-      "x": 1652,
-      "y": 395,
-      "sigma": 61,
+      "x": 514,
+      "y": 613,
+      "sigma": 50,
+      "genlik": 0.12
+    },
+    {
+      "x": 1585,
+      "y": 380,
+      "sigma": 40,
       "genlik": 0.1
     },
     {
-      "x": 1462,
-      "y": 650,
-      "sigma": 58,
-      "genlik": 0.1
-    },
-    {
-      "x": 1246,
-      "y": 635,
-      "sigma": 43,
-      "genlik": 0.1
-    },
-    {
-      "x": 1198,
-      "y": 596,
-      "sigma": 82,
-      "genlik": 0.1
-    },
-    {
-      "x": 1100,
-      "y": 386,
-      "sigma": 39,
-      "genlik": 0.1
+      "x": 490,
+      "y": 478,
+      "sigma": 20,
+      "genlik": 0.08
     }
   ],
   "dongu_sn": 96,
   "ad": "Snowy Mountain Temple",
   "ates": {
     "kutu": [
-      1537,
-      309,
-      1647,
-      418
+      1340,
+      555,
+      1570,
+      655
     ],
     "ic": [
-      1548,
-      326,
-      1636,
-      409
+      1365,
+      575,
+      1545,
+      652
     ],
-    "taban": 406,
-    "tepe": 333,
-    "olcek": 0.6,
-    "kivilcim": 14
+    "taban": 650,
+    "tepe": 580,
+    "olcek": 0.5,
+    "kivilcim": 10
   },
   "ses": {
     "ates": [
@@ -99,7 +157,7 @@
       "../sesler/ates_somine_yumusak.mp3"
     ],
     "ates_katman": 3,
-    "ates_duzey": 0.18,
+    "ates_duzey": 0.16,
     "ates_tavan": 0.17,
     "ates_govde": 3.3,
     "ates_denge": [
@@ -109,29 +167,38 @@
   },
   "ates_klip": {
     "dosya": "ates_klip.mp4",
-    "kaynak": "05-snowy-library",
+    "kaynak": "03-christmas-cabin",
     "karisik": true,
     "kutu": [
-      1500,
-      270,
-      1737,
-      455
+      1246,
+      520,
+      1663,
+      690
     ]
   },
   "shorts": {
     "bas": 640,
-    "son": 1592,
+    "son": 1450,
     "tur": 2,
     "baslik": "Snowy Mountain Temple",
-    "alt": "Snowfall & Crackling Fireplace",
-    "ses_kazanc": 7.5
+    "alt": "Snowfall & Crackling Fire",
+    "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 1592,
+    "bas": 1450,
     "son": 640,
     "tur": 2,
-    "baslik": "POV: snowy mountain temple on a snowy night",
-    "alt": "sleep here tonight",
-    "ses_kazanc": 7.5
+    "baslik": "POV: a mountain temple under the full moon",
+    "alt": "tea is steaming by the open window",
+    "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      680,
+      500,
+      760,
+      590
+    ],
+    "genlik": 0.5
   }
 }
