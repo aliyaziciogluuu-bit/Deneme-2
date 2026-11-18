@@ -38,6 +38,14 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
   - **Kural:** Görsel numarasına güvenme. Görseli Read ile aç ve içeriğin istenen sahne olduğunu doğrula.
   - Sorumlu: yapımcı.
 
+- **18 Kasım, ilk fikir toplantısı (patron yakaladı):** İki fikir, Shorts açıklamasına ve yorumuna tıklanabilir bağlantı konabileceğini varsaydı.
+  - **Kural:** YouTube bu yüzeylerde bağlantıları tıklanabilir göstermiyor. Shorts'tan uzun videoya tek köprü "İlgili video".
+  - Bir yönlendirme fikri önermeden önce o yüzeyde bağlantının gerçekten çalışıp çalışmadığını doğrula.
+  - Sorumlu: herkes.
+- **18 Kasım, fikir toplantısı:** Aynı görüntünün farklı ses karışımlarıyla ayrı videolar olarak yayınlanması önerildi.
+  - **Kural:** Bu yapılmaz. Yeniden kullanılmış içerik riski taşır ve İş Ortağı Programı başvurusunu tehlikeye atar.
+  - Sorumlu: herkes.
+
 ## Tekrarlayan teknik hatalar (dikkat listesi)
 
 - **Ateş kutusu yanlış yere oturuyor.** Bu dizide altı kez oldu:

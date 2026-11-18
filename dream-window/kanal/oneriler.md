@@ -23,11 +23,22 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 
 ## Bekleyen
 
-_(henüz yok)_
+- **P2 – Noel'e özel 8–10 saatlik "sleep marathon" (yapımcı):** etki 4, emek 4. Yönetici kararı BEKLET.
+  - Neden: Mevcut Noel videolarının görüntüsü yeniden kullanılırsa "yeniden kullanılmış içerik" riski doğar.
+  - Ocak'ta, özgün parçalarla bir "winter marathon" olarak yeniden değerlendirilecek.
+- **K1 – Uyku sonunda yumuşak iniş: son 20–30 dakikada ses kısılır (kalite kontrol):** etki 2–3. Yönetici kararı BEKLET.
+  - Önce K3'ten gelecek tutma verisine bakılacak.
 
-## Sunulan (kanal sahibinin kararı bekleniyor)
+## İç işler (patron uygular, kanal sahibine sunulmaz)
 
-_(henüz yok)_
+- **K2 – `onay.py`:** tek komutlu yayın öncesi otomatik kontrol (kalite kontrol). Etki 3.
+- **Y3 – Shorts kancalarını çeşitlendirme ve deneme (metin yazarı):** POV'un yanında soru, talimat ve rakam kalıpları denenecek, sonuçlar `ilerleme.md`'de izlenecek. Ekran yazısıyla uyum kuralı korunacak.
+- **P1 – Shorts sonuna "Full 3-hour version on the channel" yazısı (yapımcı):** Yalnızca İlgili video bağlı 2–3 Shorts'ta pilot. Sağ alt köşe kullanılmayacak.
+
+## Sunulan (kanal sahibinin kararı bekleniyor, 18 Kasım)
+
+- **Y2 – "Christmas Sleep Windows 🎄" oynatma listesi (metin yazarı).** Yönetici puanı: etki 4, emek 2. Kanal sahibine düşen iş, tek seferlik yaklaşık 10 dakika.
+- **K3 – Haftada bir tutma verisi paylaşımı (kalite kontrol).** Yönetici puanı: etki 4, emek 2. Kanal sahibine düşen iş, haftada yaklaşık 15 dakika.
 
 ## Onaylanan
 
@@ -37,4 +48,7 @@ _(henüz yok)_
 
 ## Reddedilen
 
-_(henüz yok)_
+- **P3 – Aynı görüntüden farklı ses varyantlarıyla ayrı videolar (yapımcı).** Ofis eledi.
+  - Neden: YouTube'un yeniden kullanılmış / tekrarlayan içerik kuralı ve İş Ortağı incelemesi için çok yüksek risk. Kazancı küçük, kayıp bütün hedef olabilir.
+- **Y1 – Shorts açıklamasına ve yorumuna bağlantı (metin yazarı).** Ofis eledi.
+  - Neden: Shorts'taki bağlantılar tıklanamıyor. Tek köprü "İlgili video", o da zaten kullanılıyor. Yararlı kısmı Y3'e katıldı.
