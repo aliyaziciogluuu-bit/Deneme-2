@@ -325,6 +325,8 @@
   .daystats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px; background: var(--line); border-bottom: 1px solid var(--line); }
   .daystats > div { padding: 12px 16px; min-width: 0; background: var(--surface); }
   .daystats .k, .count-sum .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .daystats .alt, .mini .alt { font-size: 13.5px; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .daystats .alt:empty, .mini .alt:empty { display: none; }
   .daystats .v, .count-sum .v { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 
   #anChart svg { display: block; width: 100%; height: auto; margin-top: 6px; }
@@ -441,7 +443,7 @@
   </div>
   <div class="mini" data-view="islem">
     <div><div class="k">TL kasası</div><div class="v amt" id="mTL">₺0,00</div></div>
-    <div><div class="k">Bugünkü kâr</div><div class="v amt" id="mToday">₺0,00</div></div>
+    <div><div class="k">Bugünkü kâr</div><div class="v amt" id="mToday">₺0,00</div><div class="alt amt" id="mTodayAlt"></div></div>
   </div>
 
   <div class="market" id="market" data-view="kurlar" aria-label="Piyasa fiyatları"></div>
@@ -929,7 +931,7 @@
       </div>
     </div>
     <div class="daystats">
-      <div><div class="k">Net kâr</div><div class="v amt" id="dNet">₺0,00</div></div>
+      <div><div class="k">Net kâr</div><div class="v amt" id="dNet">₺0,00</div><div class="alt amt" id="dNetAlt"></div></div>
       <div><div class="k">Alım-satım kârı</div><div class="v amt" id="dProfit">₺0,00</div></div>
       <div><div class="k">Masraf</div><div class="v amt" id="dExp">₺0,00</div></div>
       <div><div class="k">Alış toplamı</div><div class="v amt" id="dBuy">₺0,00</div></div>
@@ -1126,7 +1128,7 @@
 
   var state = {
     tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
-    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: []
+    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {}
   };
   var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
   var editingId = null;
@@ -1144,6 +1146,7 @@
     ensureTable();
   }
   function save() {
+    snapFx();
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* özel sekme vb. */ }
   }
   function ensureTable() {
@@ -1189,8 +1192,46 @@
       tx: tx, rates: rates, sell: sell, chg: chg, myRates: my, ratesUpdated: data.ratesUpdated || null,
       rateSrc: data.rateSrc === 'tr' || data.rateSrc === 'fb' ? data.rateSrc : null,
       count: cleanCount(data.count), calc: cleanCalc(data.calc),
-      whole: cleanWhole(data.whole), items: cleanItems(data.items)
+      whole: cleanWhole(data.whole), items: cleanItems(data.items), fx: cleanFx(data.fx)
     };
+  }
+  // fx: gün başına [dolar satış kuru, has altın satış fiyatı]; kârı dolar ve has olarak göstermek için
+  function cleanFx(m) {
+    var out = {};
+    if (!m || typeof m !== 'object') return out;
+    Object.keys(m).sort().slice(-800).forEach(function (d) {
+      var v = m[d];
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(d) || !Array.isArray(v)) return;
+      out[d] = [posOrNull(v[0]), posOrNull(v[1])];
+    });
+    return out;
+  }
+  // Her kayıtta bugünün dolar ve has satış kuru saklanır; böylece geçmiş günlerin kârı o günün kuruyla çevrilir
+  function snapFx() {
+    if (!state.myRates) return;
+    var u = suggested('USD', 'out'), h = suggested('HAS', 'out');
+    if (!u && !h) return;
+    state.fx[today()] = [u || null, h || null];
+    var days = Object.keys(state.fx);
+    if (days.length > 800) days.sort().slice(0, days.length - 800).forEach(function (d) { delete state.fx[d]; });
+  }
+  // nets: [{ date, net }] → kârın dolar ve has altın karşılığı (kur kaydı olmayan günlerde bugünkü kur)
+  function altProfit(nets) {
+    var cu = suggested('USD', 'out'), ch = suggested('HAS', 'out'), usd = 0, has = 0, okU = true, okH = true;
+    nets.forEach(function (x) {
+      if (Math.abs(x.net) < 0.005) return;
+      var f = state.fx[x.date] || [], u = f[0] || cu, h = f[1] || ch;
+      if (u > 0) usd += x.net / u; else okU = false;
+      if (h > 0) has += x.net / h; else okH = false;
+    });
+    return { usd: okU ? usd : null, has: okH ? has : null };
+  }
+  function altText(nets) {
+    var a = altProfit(nets), parts = [], neg = function (v) { return v < -0.005 ? '−' : ''; };
+    if (!nets.some(function (x) { return Math.abs(x.net) >= 0.005; })) return '';
+    if (a.usd != null) parts.push(neg(a.usd) + '$' + fmtNum(Math.abs(a.usd), 2));
+    if (a.has != null) parts.push(neg(a.has) + fmtNum(Math.abs(a.has), 2) + ' gr has');
+    return parts.length ? '≈ ' + parts.join(' · ') : '';
   }
   var ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
   // Toptancı has hesabı hareketleri
@@ -1492,7 +1533,10 @@
     var netToday = res.day.profit - res.day.expense;
     $('sToday').textContent = fmtSigned(netToday);
     $('sToday').className = 'value amt ' + signClass(netToday);
-    $('sTodaySub').textContent = res.day.count + ' işlem' + (res.day.expense > EPS ? ' · masraf ' + fmtTL(res.day.expense) : '');
+    var todayAlt = altText([{ date: today(), net: netToday }]);
+    $('sTodaySub').textContent = res.day.count + ' işlem' + (res.day.expense > EPS ? ' · masraf ' + fmtTL(res.day.expense) : '') +
+      (todayAlt ? ' · ' + todayAlt : '');
+    $('mTodayAlt').textContent = todayAlt;
     $('mTL').textContent = fmtTL(res.tl);
     $('mTL').className = 'v amt ' + signClass(Math.min(res.tl, 0));
     $('mToday').textContent = fmtSigned(netToday);
@@ -1607,10 +1651,13 @@
 
   // ---------- Gün sonu ----------
   var reportMode = 'day';   // 'day': gün sonu özeti, 'month': aylık rapor
-  function sumStats(z) {
+  var ALT_NOTE = ' Dolar ve has karşılığı, kârın o günkü satış kurunuza bölünmesiyle bulunur; kur kaydı olmayan eski günlerde bugünkü kur kullanılır.';
+  // nets: dönemdeki günlerin net kârı; dolar ve has karşılığı için
+  function sumStats(z, nets) {
     var net = z.profit - z.expense;
     $('dNet').textContent = fmtSigned(net);
     $('dNet').className = 'v amt ' + signClass(net);
+    $('dNetAlt').textContent = altText(nets || []);
     $('dProfit').textContent = fmtSigned(z.profit);
     $('dProfit').className = 'v amt ' + signClass(z.profit);
     $('dExp').textContent = fmtTL(z.expense);
@@ -1639,7 +1686,7 @@
 
     var day = $('dayDate').value || today();
     var res = compute(state.tx, day), rep = res.day;
-    sumStats(rep);
+    sumStats(rep, [{ date: day, net: rep.profit - rep.expense }]);
 
     var body = $('dayBody');
     body.textContent = '';
@@ -1668,18 +1715,19 @@
     });
 
     $('dayFoot').textContent = (rep.count ? '' : fmtDate(day) + ' tarihinde işlem yok. ') +
-      'Alım-satım kârı, satış kuru ile ortalama alış maliyeti arasındaki farktır; net kâr bundan masraflar düşülerek bulunur.';
+      'Alım-satım kârı, satış kuru ile ortalama alış maliyeti arasındaki farktır; net kâr bundan masraflar düşülerek bulunur.' + ALT_NOTE;
     $('dayNext').disabled = day >= today();
   }
   function renderMonth() {
     var ym = $('monthDate').value || today().slice(0, 7);
-    var res = compute(state.tx), sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 };
+    var res = compute(state.tx), sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 }, nets = [];
     var body = $('monthBody');
     body.textContent = '';
     var cell = function (lbl, text, cls) { return el('td', { 'data-label': lbl, class: cls == null ? 'amt' : cls, text: text }); };
     Object.keys(res.days).filter(function (d) { return d.slice(0, 7) === ym; }).sort().reverse().forEach(function (d) {
       var z = res.days[d], net = z.profit - z.expense;
       Object.keys(sum).forEach(function (k) { sum[k] += z[k]; });
+      nets.push({ date: d, net: net });
       var tr = el('tr', { class: 'link', tabindex: '0', title: 'Gün sonu özetini aç' }, [
         el('td', { class: 'span title cur', text: fmtDate(d) }),
         cell('Alış', fmtTL(z.buyTL)),
@@ -1697,8 +1745,8 @@
     if (!body.children.length) {
       body.appendChild(el('tr', {}, [el('td', { colspan: '7', class: 'span left', text: 'Bu ayda işlem yok.' })]));
     }
-    sumStats(sum);
-    $('dayFoot').textContent = 'Bir günün ayrıntısı için satırına dokunun. Net kâr, alım-satım kârından masraflar düşülerek bulunur.';
+    sumStats(sum, nets);
+    $('dayFoot').textContent = 'Bir günün ayrıntısı için satırına dokunun. Net kâr, alım-satım kârından masraflar düşülerek bulunur.' + ALT_NOTE;
     $('dayNext').disabled = ym >= today().slice(0, 7);
   }
   // Kâr analizi: seçilen dönemde varlık başına alış, satış, ortalama kurlar, makas ve kâr;
@@ -1714,13 +1762,15 @@
   }
   function renderAnalysis() {
     var res = compute(state.tx), from = analysisFrom($('anRange').value);
-    var sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 }, months = {};
+    var sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 }, months = {}, nets = [];
     Object.keys(res.days).forEach(function (d) {
       var z = res.days[d], ym = d.slice(0, 7);
       months[ym] = (months[ym] || 0) + z.profit - z.expense;
-      if (ym >= from) Object.keys(sum).forEach(function (k) { sum[k] += z[k]; });
+      if (ym < from) return;
+      Object.keys(sum).forEach(function (k) { sum[k] += z[k]; });
+      nets.push({ date: d, net: z.profit - z.expense });
     });
-    sumStats(sum);
+    sumStats(sum, nets);
 
     // Varlık tablosu
     var rows = Object.keys(res.stats).map(function (c) {
@@ -1790,7 +1840,7 @@
     $('anChart').appendChild(svg);
 
     $('dayFoot').textContent = 'Makas, dönemdeki ortalama satış kuru ile ortalama alış kuru arasındaki farktır. Kâr, satış kuru ile ' +
-      'ortalama alış maliyeti arasındaki farktan hesaplanır; cari ve sayım farkı hareketleri sayılmaz. Çubuklardaki “B” bin, “Mn” milyon liradır.';
+      'ortalama alış maliyeti arasındaki farktan hesaplanır; cari ve sayım farkı hareketleri sayılmaz. Çubuklardaki “B” bin, “Mn” milyon liradır.' + ALT_NOTE;
   }
   function setDay(iso) {
     $('dayDate').value = iso > today() ? today() : iso;
