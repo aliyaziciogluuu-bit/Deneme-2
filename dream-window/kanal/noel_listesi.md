@@ -1,5 +1,7 @@
 # "Christmas Sleep Windows 🎄" oynatma listesi (onaylanan öneri Y2)
 
+**Durum (18 Kasım):** Liste kanal sahibi tarafından YouTube uygulamasından oluşturuldu. İçinde Noel kulübesi 3 saatlik 4K ve 1 saatlik videolar var. Not: Studio uygulamasında liste oluşturulamıyor, normal YouTube uygulamasında Kaydet > Yeni oynatma listesi yolu kullanılıyor.
+
 ## Bir kerelik kurulum (yaklaşık 10 dakika, telefondan ya da bilgisayardan)
 
 **Telefondan (YouTube Studio uygulaması):**
