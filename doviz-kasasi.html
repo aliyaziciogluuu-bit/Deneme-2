@@ -2729,12 +2729,13 @@
   }
 
   // ---------- Gizlilik ve ana ekrana ekleme ----------
-  function setHidden(on) {
+  // keep: yalnızca görünümü uygula (açılışta tercihleri yeniden yazmaya gerek yok)
+  function setHidden(on, keep) {
     document.body.classList.toggle('hide-amt', on);
     $('btnHide').textContent = on ? 'Tutarları göster' : 'Tutarları gizle';
     $('btnHide').setAttribute('aria-pressed', on ? 'true' : 'false');
     ui.hide = on;
-    saveUI();
+    if (!keep) saveUI();
   }
   function initInstall() {
     var standalone = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
@@ -2787,7 +2788,7 @@
 
     load();
     loadUI();
-    setHidden(ui.hide);
+    setHidden(ui.hide, true);
     setView('islem');
     $('fDate').value = today();
     $('dayDate').value = today();
