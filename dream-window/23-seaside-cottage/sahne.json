@@ -178,12 +178,16 @@
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 1250,
-    "son": 760,
+    "bas": 610,
+    "son": 1250,
     "tur": 2,
     "baslik": "POV: a quiet cottage while the sea rages",
     "alt": "the beam keeps sweeping past",
-    "ses_kazanc": 1.5
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 380,
+    "y_son": 470,
+    "ses_tohum": 7
   },
   "buhar": {
     "kutu": [

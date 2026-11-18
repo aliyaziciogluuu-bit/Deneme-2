@@ -185,12 +185,16 @@
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 1450,
-    "son": 640,
+    "bas": 640,
+    "son": 1050,
     "tur": 2,
     "baslik": "POV: a mountain temple under the full moon",
     "alt": "tea is steaming by the open window",
-    "ses_kazanc": 1.5
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 336,
+    "y_son": 420,
+    "ses_tohum": 7
   },
   "buhar": {
     "kutu": [

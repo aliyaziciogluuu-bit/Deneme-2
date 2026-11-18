@@ -168,12 +168,16 @@
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 450,
-    "son": 1200,
+    "bas": 1350,
+    "son": 900,
     "tur": 2,
     "baslik": "POV: spring rain on the cherry blossoms",
     "alt": "the tea is still warm",
-    "ses_kazanc": 1.5
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 336,
+    "y_son": 600,
+    "ses_tohum": 7
   },
   "su": {
     "kutu": [

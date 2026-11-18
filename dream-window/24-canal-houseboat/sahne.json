@@ -173,20 +173,24 @@
     "cubuk_koru": true
   },
   "shorts": {
-    "bas": 1380,
-    "son": 950,
+    "bas": 330,
+    "son": 1000,
     "tur": 2,
     "baslik": "Rainy Canal Houseboat",
     "alt": "Rain on the Window & Wood Stove",
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 950,
-    "son": 1380,
+    "bas": 1430,
+    "son": 1100,
     "tur": 2,
     "baslik": "POV: your houseboat on a rainy canal night",
     "alt": "the lanterns glow on the water",
-    "ses_kazanc": 1.5
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 330,
+    "y_son": 450,
+    "ses_tohum": 7
   },
   "buhar": {
     "kutu": [

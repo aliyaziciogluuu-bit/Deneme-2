@@ -109,12 +109,16 @@
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 900,
-    "son": 1300,
+    "bas": 1410,
+    "son": 1000,
     "tur": 2,
     "baslik": "POV: Tokyo in the rain from your window",
     "alt": "the city never sleeps, you do",
-    "ses_kazanc": 1.5
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 340,
+    "y_son": 520,
+    "ses_tohum": 7
   },
   "buhar": {
     "kutu": [
