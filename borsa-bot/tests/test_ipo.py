@@ -142,3 +142,21 @@ def test_study_reports_no_discovery_when_nothing_clears_the_bar(panel):
     assert res["verdict"] == "kesif-yok" and res["candidate"] is None
     assert res["events"] == 1 and len(res["discovery"]) == 18
     assert "keşif yok" in ipo.format_study(res)
+
+
+def test_bonus_issue_inside_the_window_does_not_look_like_a_loss(panel):
+    """Bedelsiz bölünme günü ham fiyat yarıya iner; düzeltme katsayısıyla getiri değişmez."""
+    j = list(panel.symbols).index("HOT")
+    for field in ("open", "high", "low", "close"):          # 8. günden itibaren 1'e 1 bedelsiz
+        getattr(panel, field).iloc[7:, j] /= 2.0
+    panel.prev_close.iloc[8:, j] /= 2.0                     # bölünme günü "önceki kapanış" ham kalır (13,3)
+    panel.corp_action.iloc[7, j] = "BDSZ"
+    factor = pd.DataFrame({"HOT": [0.5] * 7 + [1.0] * 5}, index=DATES)
+    mkt, rf = ipo.market_returns(panel, min_sessions=60), pd.Series(0.2, index=DATES)
+
+    adj = ipo.trade(panel, mkt, rf, "HOT", signal=5, horizon=2, cost=CostConfig(), factor=factor)
+    assert adj["gross"] == pytest.approx(13.5 / 14.2 - 1.0)             # bölünmesiz durumla aynı
+    assert ipo.trade(panel, mkt, rf, "HOT", signal=5, horizon=2, cost=CostConfig()) is None   # katsayı yok: işlem sayılmaz
+    q = ipo.quotes(panel, "HOT", factor)
+    assert q.base[7] == pytest.approx(13.3 / 2.0)                       # bölünme günü baz fiyat düzeltilir
+    assert ipo.market_returns(panel).close_to_close[DATES[7]] == pytest.approx(0.0)   # kıyas o günü saymaz

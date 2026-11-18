@@ -174,16 +174,21 @@ ertesi sabah açılıştan, masraflar düşülerek; kıyas, aynı günlerde büt
 en yükseği 2,4'te kaldı. Kural gereği ayrılan 2024–2026 verisi (88 halka arz) yalnızca bilgi için incelendi ve
 tablo daha da kötü çıktı. Kıyas, yeni halka arzlar dışarıda tutularak yeniden hesaplandığında sonuç değişmedi.
 
+**Bir düzeltme (şeffaflık için).** İlk hesapta bültendeki "önceki kapanış" alanını bedelsiz/bedelli/temettüye göre
+düzeltilmiş sanmıştım; değilmiş. Getiriler İş Yatırım düzeltme katsayılarıyla yeniden hesaplandı. Halka arzdan
+sonraki ilk aylarda bu tür olaylar ender olduğu için 20 seanslık 251 işlemin yalnızca 1'i, 60 seanslık 248 işlemin
+9'u değişti; sonuç aynı kaldı. Aşağıdaki rakamlar düzeltilmiş hâlidir.
+
 Tavan serisi bozulduktan sonraki sabah alan biri için (bütün dönem):
 
 | Elde tutma | İşlem | Zarar eden | Faizin altında kalan | Ortanca net getiri | Ortalama net getiri |
 |---|---:|---:|---:|---:|---:|
 | 5 seans | 251 | %65 | %65 | −%4,9 | −%0,7 |
 | 20 seans | 251 | %59 | %62 | −%5,0 | +%4,5 |
-| 60 seans | 248 | %48 | %54 | +%1,0 | +%20,7 |
+| 60 seans | 248 | %48 | %54 | +%1,3 | +%20,9 |
 
 - **Piyango gibi davranıyor.** Ortalama artı görünse de tipik (ortanca) sonuç zarar: 60 seanslık ortalama
-  anormal getirinin (%12,5) neredeyse tamamı en iyi 10 işlemden geliyor; onlar çıkarılınca %0,9 kalıyor.
+  anormal getirinin (%12,2) neredeyse tamamı en iyi 10 işlemden geliyor; onlar çıkarılınca %0,7 kalıyor.
 - **Son yıllarda daha kötü.** 2024'ten beri 20 seans tutanların %73'ü zarar etti; ortanca sonuç piyasanın
   13 puan altında.
 - **Hiç tavan yapmayan halka arzlar ilk hafta düşmeye devam ediyor** (5 seansta piyasanın ortalama 3 puan

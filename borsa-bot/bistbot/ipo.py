@@ -54,10 +54,10 @@ Yöntem
 SONUÇ (18.11.2026, ön kayıttan sonra eklendi)
 ---------------------------------------------
 261 halka arz (keşif 173, doğrulama 88). Keşif örnekleminde hiçbir kural aday eşiğini geçemedi
-(en yüksek kümelenmiş t: B/5 için 2,36 ve A/60 için 2,30): sonuç "keşif yok". Doğrulama
+(en yüksek kümelenmiş t: B/5 için 2,35 ve A/60 için 2,25): sonuç "keşif yok". Doğrulama
 örneklemi kural gereği yalnızca bilgi için incelendi; orada ortanca anormal getiri hemen her
-kuralda eksi. Ortalamalar birkaç büyük kazanana dayanıyor (A/60: ortalama anormal getiri %12,5,
-en iyi 10 işlem çıkarılınca %0,9).
+kuralda eksi. Ortalamalar birkaç büyük kazanana dayanıyor (A/60: ortalama anormal getiri %12,2,
+en iyi 10 işlem çıkarılınca %0,7).
 
 Ön kayıttan sapmalar ve ek sınamalar:
 * Halka arz pazarları ilk gün verisine bakılarak Z, N, K ve G olarak belirlendi (ön kayıtta
@@ -66,6 +66,12 @@ en iyi 10 işlem çıkarılınca %0,9).
   yeniden hesaplandı (``market_returns(min_sessions=60)``); sonuç değişmedi.
 * İlk gün baz fiyat bültende olmadığından, ilk günü tek fiyattan geçen pay tavanda kilitli
   sayılır (tabanda kilitli bir ilk gün ayırt edilemez; çok enderdir).
+* DÜZELTME: ön kayıttaki "bültendeki önceki kapanış düzeltilmiş baz fiyattır" varsayımı
+  yanlıştı (2017'den beri bu alan hamdır). Getiriler ve tavan/taban baz fiyatı artık İş
+  Yatırım düzeltme katsayılarıyla hesaplanıyor (``quotes``); kıyas da özsermaye olayı
+  günlerini dışarıda tutuyor. Halka arzdan sonraki ilk 60 seansta özsermaye olayı ender
+  olduğundan etkisi küçük kaldı: 20 seanslık 251 işlemin 1'inde, 60 seanslık 248 işlemin
+  9'unda getiri 1 puandan fazla değişti; hiçbir kuralın sonucu değişmedi.
 """
 from __future__ import annotations
 
@@ -155,9 +161,10 @@ def market_returns(panel: MarketPanel, min_sessions: int = 0) -> Market:
     main = panel.market.isin(MAIN_MARKETS)
     if min_sessions > 0:
         main &= panel.listed.cumsum() > min_sessions
-    c2c = (panel.close / panel.prev_close - 1.0).where(main)
+    # Özsermaye olayı günlerinde ham "önceki kapanış" baz fiyat değildir: o günler dışarıda.
+    c2c = (panel.close / panel.prev_close - 1.0).where(main & (panel.corp_action == ""))
     o2c = (panel.close / panel.open - 1.0).where(main)
-    # Özsermaye olayı ya da veri hatasından gelen uç değerler ortalamayı bozmasın.
+    # Bayraksız kalmış olay ya da veri hatasından gelen uç değerler ortalamayı bozmasın.
     c2c = c2c.where(c2c.abs() < 0.25)
     o2c = o2c.where(o2c.abs() < 0.25)
     return Market(c2c.mean(axis=1).fillna(0.0), o2c.mean(axis=1).fillna(0.0))
@@ -171,47 +178,113 @@ def _locked_down(high: float, base: float, limit: float) -> bool:
     return np.isfinite(high) and np.isfinite(base) and high / base - 1.0 <= -(limit - LIMIT_SLACK)
 
 
-def event_row(panel: MarketPanel, sym: str, pos: int) -> dict:
+@dataclass
+class Quotes:
+    """Bir payın günlük dizileri: ham fiyatlar, düzeltilmiş kapanış ve o günün baz fiyatı.
+
+    Bültendeki "önceki kapanış" hamdır: bedelsiz, bedelli ve temettü günlerinde o günün baz
+    fiyatı değildir. ``adj`` (ham kapanış × düzeltme katsayısı, boş günlerde son değer taşınır)
+    getiriyi, ``base`` (özsermaye olayına göre düzeltilmiş önceki kapanış) tavan/taban
+    kilidini doğru hesaplamak içindir. Katsayı yoksa (``adjusted`` False) ham fiyat kullanılır
+    ve özsermaye olayı bayrağı taşıyan günler ``flagged`` ile işaretlenir.
+    """
+
+    open: np.ndarray
+    high: np.ndarray
+    low: np.ndarray
+    close: np.ndarray
+    base: np.ndarray
+    adj: np.ndarray
+    flagged: np.ndarray
+    adjusted: bool
+
+
+def quotes(panel: MarketPanel, sym: str, factor: pd.DataFrame | None = None) -> Quotes:
+    cl = panel.close[sym].to_numpy(dtype=float)
+    pc = panel.prev_close[sym].to_numpy(dtype=float)
+    flagged = (panel.corp_action[sym] != "").to_numpy()
+    f = None
+    if factor is not None and sym in factor.columns:
+        f = factor[sym].reindex(panel.dates).to_numpy(dtype=float)
+        if not np.isfinite(f).any():
+            f = None
+    if f is None:
+        adj, base = pd.Series(cl).ffill().to_numpy(), pc
+    else:
+        f = pd.Series(f).ffill().bfill().to_numpy()
+        adj = pd.Series(cl * f).ffill().to_numpy()
+        f_prev = np.concatenate([[f[0]], f[:-1]])
+        base = pc * f_prev / f
+    return Quotes(
+        open=panel.open[sym].to_numpy(dtype=float), high=panel.high[sym].to_numpy(dtype=float),
+        low=panel.low[sym].to_numpy(dtype=float), close=cl, base=base, adj=adj,
+        flagged=flagged, adjusted=f is not None,
+    )
+
+
+def sync_history(isy, panel: MarketPanel, symbols: list[str], today: dt.date, max_age_days: float = 10.0) -> dict:
+    """Düzeltme katsayıları için İş Yatırım fiyat geçmişini gerektiği kadar yeniler.
+
+    Yeniden indirilir: dosya yok ya da boş; dosyanın son gününden sonra bültende özsermaye
+    olayı bayrağı var (geriye dönük katsayılar değişir); dosya ``max_age_days`` günden eski.
+    """
+    import time
+
+    now, need = time.time(), []
+    for sym in symbols:
+        path = isy.path("history", sym)
+        hist = isy.load("history", sym) if path.exists() else None
+        if hist is None or hist.empty or (now - path.stat().st_mtime) / 86400.0 > max_age_days:
+            need.append(sym)
+        elif (panel.corp_action[sym][panel.dates > hist["date"].max()] != "").any():
+            need.append(sym)
+    return isy.sync("history", need, today, force=True, workers=2, progress_every=0)
+
+
+def load_factors(panel: MarketPanel, isy, symbols: list[str]) -> pd.DataFrame:
+    """İş Yatırım geçmişinden düzeltme katsayıları (tarih × sembol); verisi olmayan sütun boş."""
+    from .data.dataset import _symbol_factor
+
+    return pd.DataFrame({s: _symbol_factor(panel, s, isy.load("history", s))[0] for s in symbols})
+
+
+def event_row(panel: MarketPanel, sym: str, pos: int, factor: pd.DataFrame | None = None) -> dict:
     """Bir halka arzın tavan serisi (S), açılma günü (T) ve F sinyali günü."""
     dates = panel.dates
-    lo = panel.low[sym].to_numpy()
-    hi = panel.high[sym].to_numpy()
-    cl = panel.close[sym].to_numpy()
-    pc = panel.prev_close[sym].to_numpy()
+    q = quotes(panel, sym, factor)
+    lo, hi, cl = q.low, q.high, q.close
     n = len(dates)
     t = pos
     while t < n:
-        limit = price_limit(dates[t])
-        if np.isfinite(pc[t]):
-            locked = _locked_up(lo[t], pc[t], limit)
-        else:  # baz fiyat yok: tek fiyattan geçen gün kilitli sayılır
+        if np.isfinite(q.base[t]):
+            locked = _locked_up(lo[t], q.base[t], price_limit(dates[t]))
+        else:  # baz fiyat yok (ilk gün): tek fiyattan geçen gün kilitli sayılır
             locked = np.isfinite(lo[t]) and lo[t] == hi[t]
         if np.isfinite(lo[t]) and not locked:
             break
         t += 1
     if t >= n:
         return {"T": None}
-    up = bool(np.isfinite(pc[t]) and cl[t] >= pc[t])
-    # F: T'den sonraki DIP_WINDOW seans içinde zirve kapanışın %30 altına ilk iniş
-    peak, dip = np.nanmax(cl[pos:t + 1]), None
+    up = bool(np.isfinite(q.base[t]) and cl[t] >= q.base[t])
+    # F: T'den sonraki DIP_WINDOW seans içinde (düzeltilmiş) zirve kapanışın %30 altına ilk iniş
+    peak, dip = np.nanmax(q.adj[pos:t + 1]), None
     for k in range(t + 1, min(n, t + 1 + DIP_WINDOW)):
         if not np.isfinite(cl[k]):
             continue
-        if cl[k] <= (1.0 - DIP_DRAWDOWN) * peak:
+        if q.adj[k] <= (1.0 - DIP_DRAWDOWN) * peak:
             dip = k
             break
-        peak = max(peak, cl[k])
-    # Zirve, bedelsiz/bedelli sonrası ham fiyatla karşılaştırılamaz: araya özsermaye olayı
-    # girdiyse F sinyali üretilmez.
-    if dip is not None and (panel.corp_action[sym].iloc[pos:dip + 1] != "").any():
+        peak = max(peak, q.adj[k])
+    # Katsayı yoksa zirve, özsermaye olayı sonrası ham fiyatla karşılaştırılamaz.
+    if dip is not None and not q.adjusted and q.flagged[pos:dip + 1].any():
         dip = None
     return {"T": t, "S": t - pos, "t_up": up, "dip": dip}
 
 
-def events(panel: MarketPanel, listings: pd.DataFrame) -> pd.DataFrame:
+def events(panel: MarketPanel, listings: pd.DataFrame, factor: pd.DataFrame | None = None) -> pd.DataFrame:
     rows = []
     for r in listings.itertuples():
-        e = event_row(panel, r.symbol, r.pos)
+        e = event_row(panel, r.symbol, r.pos, factor)
         if e["T"] is None:
             continue
         rows.append({"symbol": r.symbol, "name": r.name, "first_day": r.first_day, "pos": r.pos,
@@ -223,34 +296,33 @@ def events(panel: MarketPanel, listings: pd.DataFrame) -> pd.DataFrame:
 # İşlem ve istatistik
 # ---------------------------------------------------------------------------------------------
 def trade(panel: MarketPanel, mkt: Market, rf: pd.Series, sym: str, signal: int, horizon: int,
-          cost: CostConfig) -> dict | None:
+          cost: CostConfig, factor: pd.DataFrame | None = None) -> dict | None:
     """Sinyal gününü izleyen seansın açılışında al, ``horizon`` seans sonra kapanışta sat.
 
     Dönen sözlük: brüt, piyasa, anormal, net ve nakit getirisi. İşlem yapılamadıysa (giriş günü
-    tavanda kilitli / işlem yok) ya da pencere veri sonunu aşıyorsa ``None``.
+    tavanda kilitli / işlem yok), pencere veri sonunu aşıyorsa ya da düzeltme katsayısı olmayan
+    bir payda pencereye özsermaye olayı giriyorsa ``None``.
     """
     dates = panel.dates
     n = len(dates)
     e = signal + 1
     if e >= n:
         return None
-    op = panel.open[sym].to_numpy()
-    lo = panel.low[sym].to_numpy()
-    hi = panel.high[sym].to_numpy()
-    cl = panel.close[sym].to_numpy()
-    pc = panel.prev_close[sym].to_numpy()
-    if not np.isfinite(op[e]) or _locked_up(lo[e], pc[e], price_limit(dates[e])):
+    q = quotes(panel, sym, factor)
+    if not np.isfinite(q.open[e]) or not np.isfinite(q.close[e]):
+        return None
+    if _locked_up(q.low[e], q.base[e], price_limit(dates[e])):
         return None
     x = e + horizon - 1
-    while x < n and (not np.isfinite(cl[x]) or _locked_down(hi[x], pc[x], price_limit(dates[x]))):
+    while x < n and (not np.isfinite(q.close[x]) or _locked_down(q.high[x], q.base[x], price_limit(dates[x]))):
         x += 1
     if x >= n:
         return None
-    gross = cl[e] / op[e] if np.isfinite(cl[e]) else 1.0
+    if not q.adjusted and q.flagged[e + 1:x + 1].any():
+        return None
+    gross = q.close[e] / q.open[e] * q.adj[x] / q.adj[e]
     market = 1.0 + mkt.open_to_close.iat[e]
     for k in range(e + 1, x + 1):
-        if np.isfinite(cl[k]) and np.isfinite(pc[k]):
-            gross *= cl[k] / pc[k]
         market *= 1.0 + mkt.close_to_close.iat[k]
     days = (dates[x] - dates[e]).days + 1
     rate = rf.asof(dates[e]) if len(rf) else np.nan
@@ -316,14 +388,15 @@ def summarize(trades: pd.DataFrame) -> dict:
 
 
 def run_family(panel: MarketPanel, mkt: Market, rf: pd.Series, ev: pd.DataFrame,
-               cost: CostConfig | None = None) -> tuple[pd.DataFrame, dict[tuple[str, int], pd.DataFrame]]:
+               cost: CostConfig | None = None, factor: pd.DataFrame | None = None,
+               ) -> tuple[pd.DataFrame, dict[tuple[str, int], pd.DataFrame]]:
     """Verilen olaylar için 18 denemenin özet tablosu ve işlem listeleri."""
     cost = cost or CostConfig()
     rows, book = [], {}
     for sig in SIGNALS:
         sub = signal_days(ev, sig)
         for h in HORIZONS:
-            tr = [trade(panel, mkt, rf, r.symbol, r.sig, h, cost) for r in sub.itertuples()]
+            tr = [trade(panel, mkt, rf, r.symbol, r.sig, h, cost, factor) for r in sub.itertuples()]
             tr = pd.DataFrame([t for t in tr if t is not None])
             book[(sig, h)] = tr
             rows.append({"signal": sig, "horizon": h, "events": int(len(sub)), **summarize(tr)})
@@ -346,19 +419,20 @@ def _records(tab: pd.DataFrame) -> list[dict]:
 
 
 def study(panel: MarketPanel, rf: pd.Series, cost: CostConfig | None = None,
-          first: str = FIRST_EVENT_DATE, seasoned_benchmark: int = 0) -> dict:
+          first: str = FIRST_EVENT_DATE, seasoned_benchmark: int = 0,
+          factor: pd.DataFrame | None = None) -> dict:
     """Ön kayıttaki dört adımı uygular ve sonucu döndürür.
 
     ``verdict``: ``"kesif-yok"`` (keşif örnekleminde aday çıkmadı), ``"gecti"`` ya da
     ``"gecemedi"`` (aday doğrulama örnekleminde sınandı).
     """
     cost = cost or CostConfig()
-    ev = events(panel, find_listings(panel, first))
+    ev = events(panel, find_listings(panel, first), factor)
     disc, hold = split(ev)
     mkt = market_returns(panel, seasoned_benchmark)
-    tab_d, _ = run_family(panel, mkt, rf, disc, cost)
-    tab_h, _ = run_family(panel, mkt, rf, hold, cost)
-    tab_a, book_a = run_family(panel, mkt, rf, ev, cost)
+    tab_d, _ = run_family(panel, mkt, rf, disc, cost, factor)
+    tab_h, _ = run_family(panel, mkt, rf, hold, cost, factor)
+    tab_a, book_a = run_family(panel, mkt, rf, ev, cost, factor)
 
     ok = (tab_d["n"] >= MIN_TRADES) & (tab_d["abn_t"] >= DISCOVERY_T) & (tab_d["net_mean"] > 0)
     cands = tab_d[ok].sort_values("abn_t", ascending=False)

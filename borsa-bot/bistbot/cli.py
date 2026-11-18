@@ -195,7 +195,11 @@ def cmd_halka_arz(args) -> int:
         log.info("bültenler: %s", stores.bulletins.sync(dt.date(2015, 11, 30), today, today=today, progress=True))
         stores.macro.sync_rf(dt.date(2015, 10, 1), today)
     panel = load_panel(stores, dt.date(2015, 11, 30), today)
-    res = ipo.study(panel, stores.macro.load_rf(), load_config(args.ayar).cost)
+    symbols = list(ipo.find_listings(panel)["symbol"])
+    if not args.esitleme_yok:
+        log.info("İş Yatırım geçmişi: %s", ipo.sync_history(stores.isy, panel, symbols, today))
+    factor = ipo.load_factors(panel, stores.isy, symbols)
+    res = ipo.study(panel, stores.macro.load_rf(), load_config(args.ayar).cost, factor=factor)
     print(ipo.format_study(res))
     if args.cikti:
         res["generated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
