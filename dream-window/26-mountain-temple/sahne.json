@@ -1,0 +1,137 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        183,
+        0,
+        1097,
+        751
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 1592,
+      "y": 367,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 1458,
+      "y": 604,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1235,
+      "y": 352,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 1652,
+      "y": 395,
+      "sigma": 61,
+      "genlik": 0.1
+    },
+    {
+      "x": 1462,
+      "y": 650,
+      "sigma": 58,
+      "genlik": 0.1
+    },
+    {
+      "x": 1246,
+      "y": 635,
+      "sigma": 43,
+      "genlik": 0.1
+    },
+    {
+      "x": 1198,
+      "y": 596,
+      "sigma": 82,
+      "genlik": 0.1
+    },
+    {
+      "x": 1100,
+      "y": 386,
+      "sigma": 39,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Snowy Mountain Temple",
+  "ates": {
+    "kutu": [
+      1537,
+      309,
+      1647,
+      418
+    ],
+    "ic": [
+      1548,
+      326,
+      1636,
+      409
+    ],
+    "taban": 406,
+    "tepe": 333,
+    "olcek": 0.6,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "../sesler/ates_gece.mp3",
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_yumusak.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "05-snowy-library",
+    "karisik": true,
+    "kutu": [
+      1500,
+      270,
+      1737,
+      455
+    ]
+  },
+  "shorts": {
+    "bas": 640,
+    "son": 1592,
+    "tur": 2,
+    "baslik": "Snowy Mountain Temple",
+    "alt": "Snowfall & Crackling Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1592,
+    "son": 640,
+    "tur": 2,
+    "baslik": "POV: snowy mountain temple on a snowy night",
+    "alt": "sleep here tonight",
+    "ses_kazanc": 7.5
+  }
+}
