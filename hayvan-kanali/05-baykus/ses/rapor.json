@@ -70,11 +70,12 @@
   "uygun": true
  },
  "010": {
-  "yazi": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi ve Atina'nın gümüş sikkelerinin üzerinde yer alıyordu.",
-  "duyulan": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi ve Atena'nın gümüş sikkelerinin üzerinde yer alıyordu.",
-  "hata": 1,
-  "sure": 7.3,
-  "uygun": true
+  "yazi": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi; Atina'da basılan gümüş sikkelerde de yer alıyordu.",
+  "duyulan": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi. Atina'da basılan gümüş sikkelerde de yer alıyordu.",
+  "hata": 0,
+  "sure": 8.06,
+  "uygun": true,
+  "tek_basina": true
  },
  "011": {
   "yazi": "Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.",
@@ -99,10 +100,11 @@
  },
  "014": {
   "yazi": "Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri.",
-  "duyulan": "Kukumav, göllerde ve kasabalarda en sık görülen baykuşlardan biri.",
-  "hata": 1,
-  "sure": 3.96,
-  "uygun": true
+  "duyulan": "Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true,
+  "tek_basina": true
  },
  "015": {
   "yazi": "Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü.",
@@ -148,10 +150,11 @@
  },
  "021": {
   "yazi": "Bu minik baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor.",
-  "duyulan": "Bu minit baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor.",
-  "hata": 1,
-  "sure": 6.86,
-  "uygun": true
+  "duyulan": "Bu minik baykuş ağaç kabuğuna o kadar iyi benziyor ki sesini her gece duyan çoğu kişi onu hiç görmüyor.",
+  "hata": 0,
+  "sure": 6.6,
+  "uygun": true,
+  "tek_basina": true
  },
  "022": {
   "yazi": "Baykuşun en büyük sırlarından biri, neredeyse hiç ses çıkarmadan uçabilmesi.",
@@ -288,10 +291,11 @@
  },
  "041": {
   "yazi": "Avlarını çoğu zaman bütün olarak yutuyorlar.",
-  "duyulan": "avlarını çoğu zaman bütün olarak yükliyorlar.",
-  "hata": 1,
-  "sure": 2.42,
-  "uygun": false
+  "duyulan": "avlarını çoğu zaman bütün olarak yutuyorlar.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true,
+  "tek_basina": true
  },
  "042": {
   "yazi": "Sindiremedikleri kemikleri ve tüyleri de küçük topaklar halinde geri çıkarıyorlar.",
@@ -361,6 +365,122 @@
   "duyulan": "Türkiye'de baykuşlar koruma altında, onları öldürmek, yakalamak ve yuvalarına zarar vermek yasak.",
   "hata": 0,
   "sure": 5.9,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "İlkbahar sonunda ve yaz başında, yerde ya da alçak bir dalda tüylü bir yavru baykuş görebilirsin.",
+  "duyulan": "İlkbahar sonunda ve yaz başında yerde ya da alçak bir dalda tüylü bir yavru baykuş görebilirsin.",
+  "hata": 0,
+  "sure": 6.4,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Bazı baykuş yavruları, uçmayı tam öğrenmeden yuvadan çıkıp çevredeki dallarda dolaşıyor.",
+  "duyulan": "Bazı baykuş yavruları uçmayı tam öğrenmeden yuvadan çıkıp çevredeki dallarda dolaşıyor.",
+  "hata": 0,
+  "sure": 5.28,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Çoğu zaman yalnız değiller; anne ve babaları yakınlarda onları beslemeye devam ediyor.",
+  "duyulan": "Çoğu zaman yalnız değiller, anne ve babaları yakınlarda, onları beslemeye devam ediyor.",
+  "hata": 0,
+  "sure": 5.48,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "055": {
+  "yazi": "Yavru sağlıklı görünüyorsa onu eve götürme.",
+  "duyulan": "Yavru sağlıklı görünüyorsa onu eve götürme.",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "056": {
+  "yazi": "Kedi ve köpeklerden uzaksa olduğu yerde bırak ve uzaklaş; tehlikedeyse onu yakındaki bir dala ya da çalıya koy.",
+  "duyulan": "Kedi ve köpeklerden uzaksa, olduğu yerde bırak ve uzaklaş. Tehlikedeyse, onu yakındaki bir dala ya da çalıya koy.",
+  "hata": 0,
+  "sure": 7.06,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Yaralıysa, çok zayıfsa ya da kalp yüzlü bir peçeli baykuş yavrusuysa, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver.",
+  "duyulan": "yaralıysa, çok zayıfsa, ya da kalp yüzlü bir peçeli baykuş yavrusuysa bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne haber ver.",
+  "hata": 0,
+  "sure": 9.0,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Ona yiyecek ya da su vermeye çalışma.",
+  "duyulan": "Ona yiyecek ya da su vermeye çalışma.",
+  "hata": 0,
+  "sure": 2.1,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Baykuşu tutman gerekirse kalın eldiven giy; pençeleri çok keskin. Sonra ellerini iyice yıka.",
+  "duyulan": "Baykuşu tutman gerekirse kalın eldiven giy, pençeleri çok keskin, sonra ellerini iyice yıka.",
+  "hata": 0,
+  "sure": 5.96,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Bahçende ve tarlanda fare zehri kullanmamak, baykuşlara yapabileceğin en büyük iyiliklerden biri.",
+  "duyulan": "Bahçende ve tarlanda fare zehri kullanmamak baykuşlara yapabileceğin en büyük iyiliklerden biri.",
+  "hata": 0,
+  "sure": 5.84,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Yaşlı ağaçları, taş duvarları ve eski ambarları korumak da onlara yuva yapacak yer bırakıyor.",
+  "duyulan": "Yaşlı ağaçları, taş duvarları ve eski ambarları korumak da onlara yuva yapacak yer bırakıyor.",
+  "hata": 0,
+  "sure": 5.64,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Uygun bir yerin varsa, baykuşlar için bir yuva kutusu da asabilirsin.",
+  "duyulan": "Uygun bir yerin varsa, baykuşlar için bir yuva kutusu da asabilirsin.",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "063": {
+  "yazi": "Baykuş ne ölüm getirir, ne de kötü haber.",
+  "duyulan": "Baykuş ne ölüm getirir, ne de kötü haber.",
+  "hata": 0,
+  "sure": 2.82,
+  "uygun": true
+ },
+ "064": {
+  "yazi": "O, biz uyurken tarlaları farelerden koruyan, gecenin sessiz bekçisi.",
+  "duyulan": "O, biz uyurken tarlaları farelerden koruyan gecenin sessiz bekçisi.",
+  "hata": 0,
+  "sure": 5.42,
+  "uygun": true
+ },
+ "065": {
+  "yazi": "Bir dahaki sefere çatından o boğuk ses yükseldiğinde korkma; sadece komşun iş başında.",
+  "duyulan": "Bir dahaki sefere çatından o boğuk ses yükseldiğinde korkma, sadece komşun iş başında.",
+  "hata": 0,
+  "sure": 5.7,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "066": {
+  "yazi": "Senin oralarda baykuşla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.",
+  "duyulan": "Senin oralarda Baykuş'la ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.",
+  "hata": 0,
+  "sure": 4.42,
+  "uygun": true
+ },
+ "067": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "hata": 0,
+  "sure": 6.74,
   "uygun": true
  }
 }
