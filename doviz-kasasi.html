@@ -322,6 +322,10 @@
   .daystats .k, .count-sum .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
   .daystats .v, .count-sum .v { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 
+  #anChart svg { display: block; width: 100%; height: auto; margin-top: 6px; }
+  #anChart text { font-size: 11px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+  #anChart .up { fill: var(--pos); } #anChart .down { fill: var(--neg); } #anChart .axis { stroke: var(--muted); stroke-width: 1; }
+
   /* Kasa sayımı */
   .count-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 8px 28px; }
   .count-row { display: grid; grid-template-columns: 78px minmax(0, 1fr) minmax(96px, auto); gap: 8px; align-items: center; font-variant-numeric: tabular-nums; }
@@ -792,7 +796,15 @@
         <span class="modeseg">
           <button type="button" class="small" id="modeDay" aria-pressed="true">Gün</button>
           <button type="button" class="small" id="modeMonth" aria-pressed="false">Ay</button>
+          <button type="button" class="small" id="modeAn" aria-pressed="false">Analiz</button>
         </span>
+        <select id="anRange" aria-label="Analiz dönemi" hidden>
+          <option value="m1">Bu ay</option>
+          <option value="m3">Son 3 ay</option>
+          <option value="m12" selected>Son 12 ay</option>
+          <option value="y">Bu yıl</option>
+          <option value="all">Tümü</option>
+        </select>
         <button type="button" class="small" id="dayPrev" aria-label="Önceki gün">‹</button>
         <input type="date" id="dayDate" aria-label="Özet tarihi">
         <input type="month" id="monthDate" aria-label="Rapor ayı" hidden>
@@ -823,6 +835,20 @@
         </thead>
         <tbody id="monthBody"></tbody>
       </table>
+    </div>
+    <div id="anWrap" hidden>
+      <div class="body">
+        <div class="lbl">Aylık net kâr (son 12 ay)</div>
+        <div id="anChart"></div>
+      </div>
+      <div class="table-wrap">
+        <table class="cards">
+          <thead>
+            <tr><th>Varlık</th><th>Alış</th><th>Satış</th><th>Ort. alış kuru</th><th>Ort. satış kuru</th><th>Makas</th><th>Kâr</th><th>Kârdaki pay</th></tr>
+          </thead>
+          <tbody id="anBody"></tbody>
+        </table>
+      </div>
     </div>
     <div class="foot hint" id="dayFoot"></div>
   </section>
@@ -1104,6 +1130,11 @@
   function compute(txs, day) {
     var acc = {}, tl = 0, tlEntries = 0, error = null;
     var days = {};   // gün başına alış, satış, kâr, masraf ve işlem sayısı
+    var stats = {};  // varlık × ay: alış/satış miktarı ve tutarı, kâr, işlem sayısı (kâr analizi için)
+    function statOf(c, date) {
+      var m = stats[c] || (stats[c] = {}), ym = date.slice(0, 7);
+      return m[ym] || (m[ym] = { buyQty: 0, buyTL: 0, sellQty: 0, sellTL: 0, profit: 0, n: 0 });
+    }
     var rep = day ? { open: null, close: null, assets: {}, tlIn: 0, tlOut: 0, buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 } : null;
     function dayOf(date) {
       return days[date] || (days[date] = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 });
@@ -1143,11 +1174,15 @@
         if (d) d[t.type === 'in' ? 'inn' : 'out'] += t.amount;
         return;
       }
+      var S = statOf(t.cur, t.date);
+      S.n++;
       if (t.type === 'in') {
         a.bal += t.amount;
         a.cost += total;
         tl -= total;
         D.buyTL += total;
+        S.buyQty += t.amount;
+        S.buyTL += total;
         if (d) d.inn += t.amount;
       } else {
         var avg = a.bal > EPS ? a.cost / a.bal : 0;
@@ -1159,6 +1194,9 @@
         if (Math.abs(a.bal) < EPS) { a.bal = 0; a.cost = 0; }
         D.sellTL += total;
         D.profit += profit;
+        S.sellQty += t.amount;
+        S.sellTL += total;
+        S.profit += profit;
         if (d) { d.out += t.amount; d.sold = true; d.profit += profit; }
       }
     });
@@ -1168,7 +1206,7 @@
       var z = days[day];
       if (z) Object.keys(z).forEach(function (k) { rep[k] = z[k]; });
     }
-    return { acc: acc, tl: tl, tlEntries: tlEntries, error: error, day: rep, days: days };
+    return { acc: acc, tl: tl, tlEntries: tlEntries, error: error, day: rep, days: days, stats: stats };
   }
 
   // ---------- Biçimlendirme ----------
@@ -1440,17 +1478,22 @@
     $('dCount').textContent = String(z.count);
   }
   function renderDay() {
-    var month = reportMode === 'month';
-    $('modeDay').setAttribute('aria-pressed', month ? 'false' : 'true');
+    var month = reportMode === 'month', an = reportMode === 'an';
+    $('modeDay').setAttribute('aria-pressed', month || an ? 'false' : 'true');
     $('modeMonth').setAttribute('aria-pressed', month ? 'true' : 'false');
-    $('dayDate').hidden = month;
+    $('modeAn').setAttribute('aria-pressed', an ? 'true' : 'false');
+    $('dayDate').hidden = month || an;
     $('monthDate').hidden = !month;
-    $('dayWrap').hidden = month;
+    $('anRange').hidden = !an;
+    ['dayPrev', 'dayNext', 'dayToday'].forEach(function (id) { $(id).hidden = an; });
+    $('dayWrap').hidden = month || an;
     $('monthWrap').hidden = !month;
-    $('dayTitle').textContent = month ? 'Aylık rapor' : 'Gün sonu özeti';
+    $('anWrap').hidden = !an;
+    $('dayTitle').textContent = an ? 'Kâr analizi' : month ? 'Aylık rapor' : 'Gün sonu özeti';
     $('dayToday').textContent = month ? 'Bu ay' : 'Bugün';
     $('dayPrev').setAttribute('aria-label', month ? 'Önceki ay' : 'Önceki gün');
     $('dayNext').setAttribute('aria-label', month ? 'Sonraki ay' : 'Sonraki gün');
+    if (an) return renderAnalysis();
     if (month) return renderMonth();
 
     var day = $('dayDate').value || today();
@@ -1516,6 +1559,97 @@
     sumStats(sum);
     $('dayFoot').textContent = 'Bir günün ayrıntısı için satırına dokunun. Net kâr, alım-satım kârından masraflar düşülerek bulunur.';
     $('dayNext').disabled = ym >= today().slice(0, 7);
+  }
+  // Kâr analizi: seçilen dönemde varlık başına alış, satış, ortalama kurlar, makas ve kâr;
+  // ayrıca son 12 ayın aylık net kârı.
+  var MONTHS_SHORT = ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'];
+  function analysisFrom(range) {
+    var cur = today().slice(0, 7);
+    if (range === 'm1') return cur;
+    if (range === 'm3') return shiftMonth(cur, -2);
+    if (range === 'm12') return shiftMonth(cur, -11);
+    if (range === 'y') return cur.slice(0, 4) + '-01';
+    return '';
+  }
+  function renderAnalysis() {
+    var res = compute(state.tx), from = analysisFrom($('anRange').value);
+    var sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 }, months = {};
+    Object.keys(res.days).forEach(function (d) {
+      var z = res.days[d], ym = d.slice(0, 7);
+      months[ym] = (months[ym] || 0) + z.profit - z.expense;
+      if (ym >= from) Object.keys(sum).forEach(function (k) { sum[k] += z[k]; });
+    });
+    sumStats(sum);
+
+    // Varlık tablosu
+    var rows = Object.keys(res.stats).map(function (c) {
+      var t = { c: c, buyQty: 0, buyTL: 0, sellQty: 0, sellTL: 0, profit: 0, n: 0 };
+      Object.keys(res.stats[c]).forEach(function (ym) {
+        if (ym < from) return;
+        var m = res.stats[c][ym];
+        Object.keys(m).forEach(function (k) { t[k] += m[k]; });
+      });
+      return t;
+    }).filter(function (t) { return t.n > 0; }).sort(function (a, b) { return b.profit - a.profit || byCode(a.c, b.c); });
+    var gain = rows.reduce(function (s, t) { return s + Math.max(t.profit, 0); }, 0);
+    var body = $('anBody');
+    body.textContent = '';
+    var cell = function (lbl, text, cls) { return el('td', { 'data-label': lbl, class: cls == null ? 'amt' : cls, text: text }); };
+    rows.forEach(function (t) {
+      var avgBuy = t.buyQty > EPS ? t.buyTL / t.buyQty : null, avgSell = t.sellQty > EPS ? t.sellTL / t.sellQty : null;
+      var spread = avgBuy != null && avgSell != null ? avgSell - avgBuy : null;
+      body.appendChild(el('tr', {}, [
+        assetCell(t.c, 'span title'),
+        cell('Alış', t.buyQty > EPS ? fmtAmt(t.buyQty, t.c) : '—'),
+        cell('Satış', t.sellQty > EPS ? fmtAmt(t.sellQty, t.c) : '—'),
+        cell('Ort. alış kuru', avgBuy != null ? fmtRate(avgBuy, t.c) : '—', ''),
+        cell('Ort. satış kuru', avgSell != null ? fmtRate(avgSell, t.c) : '—', ''),
+        cell('Makas', spread != null ? fmtRate(spread, t.c) + ' (' + fmtPct(spread / avgBuy * 100) + ')' : '—', spread != null ? signClass(spread) : ''),
+        cell('Kâr', t.sellQty > EPS ? fmtSigned(t.profit) : '—', 'amt ' + (t.sellQty > EPS ? signClass(t.profit) : '')),
+        cell('Kârdaki pay', t.profit > EPS && gain > EPS ? '%' + fmtNum(t.profit / gain * 100, 0) : '—', '')
+      ]));
+    });
+    if (!rows.length) {
+      body.appendChild(el('tr', {}, [el('td', { colspan: '8', class: 'span left', text: 'Bu dönemde alım-satım yok.' })]));
+    }
+
+    // Aylık net kâr çubukları (son 12 ay)
+    var NS = 'http://www.w3.org/2000/svg', W = 640, H = 200, left = 6, top = 18, bottom = 22;
+    var svg = document.createElementNS(NS, 'svg');
+    var mk = function (tag, attrs, text) {
+      var n = document.createElementNS(NS, tag);
+      Object.keys(attrs).forEach(function (k) { n.setAttribute(k, attrs[k]); });
+      if (text != null) n.textContent = text;
+      svg.appendChild(n);
+      return n;
+    };
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', 'Son 12 ayın aylık net kârı');
+    var list = [], cur = today().slice(0, 7), i;
+    for (i = 11; i >= 0; i--) list.push(shiftMonth(cur, -i));
+    var vals = list.map(function (ym) { return months[ym] || 0; });
+    var hi = Math.max.apply(null, vals.concat([0])), lo = Math.min.apply(null, vals.concat([0]));
+    var span = hi - lo || 1, slot = (W - 2 * left) / 12;
+    var y = function (v) { return top + (hi - v) / span * (H - top - bottom); };
+    var short = function (v) {
+      var a = Math.abs(v);
+      return (v < 0 ? '−' : '') + (a >= 1e6 ? fmtNum(a / 1e6, 1) + ' Mn' : a >= 1e4 ? fmtNum(a / 1e3, 0) + ' B' : fmtNum(a, 0));
+    };
+    list.forEach(function (ym, k) {
+      var v = vals[k], x = left + k * slot + slot * 0.18, w = slot * 0.64;
+      if (Math.abs(v) > EPS) {
+        mk('rect', { x: x, y: Math.min(y(v), y(0)), width: w, height: Math.max(Math.abs(y(v) - y(0)), 1.5), rx: 2, class: v < 0 ? 'down' : 'up' });
+        mk('text', { x: x + w / 2, y: v < 0 ? y(v) + 12 : y(v) - 4, 'text-anchor': 'middle' }, short(v));
+      }
+      mk('text', { x: x + w / 2, y: H - 6, 'text-anchor': 'middle' }, MONTHS_SHORT[Number(ym.slice(5)) - 1]);
+    });
+    mk('line', { x1: left, x2: W - left, y1: y(0), y2: y(0), class: 'axis' });
+    $('anChart').textContent = '';
+    $('anChart').appendChild(svg);
+
+    $('dayFoot').textContent = 'Makas, dönemdeki ortalama satış kuru ile ortalama alış kuru arasındaki farktır. Kâr, satış kuru ile ' +
+      'ortalama alış maliyeti arasındaki farktan hesaplanır; cari ve sayım farkı hareketleri sayılmaz. Çubuklardaki “B” bin, “Mn” milyon liradır.';
   }
   function setDay(iso) {
     $('dayDate').value = iso > today() ? today() : iso;
@@ -2850,6 +2984,8 @@
     });
     $('modeDay').addEventListener('click', function () { reportMode = 'day'; renderDay(); });
     $('modeMonth').addEventListener('click', function () { reportMode = 'month'; renderDay(); });
+    $('modeAn').addEventListener('click', function () { reportMode = 'an'; renderDay(); });
+    $('anRange').addEventListener('change', renderDay);
     $('monthDate').addEventListener('change', function () { setMonth(this.value || today().slice(0, 7)); });
     $('filterType').addEventListener('change', renderTx);
     $('btnRates').addEventListener('click', function () { updateRates(false); });
