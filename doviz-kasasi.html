@@ -867,7 +867,7 @@
   <section class="card" data-view="kasa">
     <div class="head">
       <h2>Vitrin defteri</h2>
-      <span class="hint">Parça parça ürün listesi. Kasadaki gram stokundan bağımsızdır.</span>
+      <span class="hint">Parça parça ürün listesi. “Sat” ile satış kasaya işlenir; stok ve kâr güncellenir.</span>
     </div>
     <div class="body">
       <form class="tx" id="iForm" novalidate>
@@ -894,6 +894,9 @@
         <div class="f">
           <label for="iNote">Açıklama</label>
           <input type="text" id="iNote" maxlength="100" placeholder="Örn. burma, 3 taşlı">
+        </div>
+        <div class="f full">
+          <label class="check" for="iPost"><input type="checkbox" id="iPost"> Alışı kasaya da işle (maliyet TL kasasından düşer, ürün stoğa girer)</label>
         </div>
         <div class="f full form-foot">
           <div class="msg err" id="iMsg" role="status"></div>
@@ -935,6 +938,7 @@
         <input type="month" id="monthDate" aria-label="Rapor ayı" hidden>
         <button type="button" class="small" id="dayNext" aria-label="Sonraki gün">›</button>
         <button type="button" class="small" id="dayToday">Bugün</button>
+        <button type="button" class="small" id="btnShareDay">Paylaş</button>
       </div>
     </div>
     <div class="daystats">
@@ -1259,7 +1263,9 @@
     }).map(function (x, i) {
       return { id: String(x.id || uid()), seq: Number(x.seq) || i + 1, date: x.date, name: x.name.trim().slice(0, 60),
                karat: Number(x.karat), gram: Number(x.gram), cost: Number(x.cost) > 0 && isFinite(Number(x.cost)) ? Number(x.cost) : null,
-               note: String(x.note || '').slice(0, 120), sold: ISO_DAY.test(x.sold) ? x.sold : null };
+               note: String(x.note || '').slice(0, 120), sold: ISO_DAY.test(x.sold) ? x.sold : null,
+               price: Number(x.price) > 0 && isFinite(Number(x.price)) ? Number(x.price) : null,     // satış tutarı
+               txIn: x.txIn ? String(x.txIn) : null, txOut: x.txOut ? String(x.txOut) : null };     // kasadaki alış / satış işlemi
     });
   }
   // calc.mil: büronun ayar başına satış (sell) ve alış (buy) milyemi; calc.labor: ayar başına son işçilik;
@@ -1848,6 +1854,39 @@
 
     $('dayFoot').textContent = 'Makas, dönemdeki ortalama satış kuru ile ortalama alış kuru arasındaki farktır. Kâr, satış kuru ile ' +
       'ortalama alış maliyeti arasındaki farktan hesaplanır; cari ve sayım farkı hareketleri sayılmaz. Çubuklardaki “B” bin, “Mn” milyon liradır.' + ALT_NOTE;
+  }
+  // Açık olan raporun (gün, ay ya da analiz) yazılı özeti; WhatsApp ya da e-postayla paylaşmak için
+  function reportText() {
+    var t = function (id) { return $(id).textContent.trim(); };
+    var lines = [], shop = $('bizName').textContent;
+    var sums = function () {
+      lines.push('Net kâr: ' + t('dNet') + (t('dNetAlt') ? ' (' + t('dNetAlt') + ')' : ''));
+      lines.push('Alım-satım kârı: ' + t('dProfit') + ' · Masraf: ' + t('dExp'));
+      lines.push('Alış: ' + t('dBuy') + ' · Satış: ' + t('dSell') + ' · İşlem: ' + t('dCount'));
+    };
+    if (reportMode === 'an') {
+      lines.push(shop + ' — Kâr analizi (' + $('anRange').options[$('anRange').selectedIndex].text + ')');
+      sums();
+      Array.prototype.slice.call($('anBody').rows, 0, 6).forEach(function (r) {
+        if (r.cells.length < 8) return;
+        var c = r.cells[0], name = c.childNodes[0] ? c.childNodes[0].textContent : c.textContent;
+        lines.push(name + ': kâr ' + r.cells[6].textContent + (r.cells[5].textContent !== '—' ? ', makas ' + r.cells[5].textContent : ''));
+      });
+    } else if (reportMode === 'month') {
+      var ym = $('monthDate').value || today().slice(0, 7);
+      lines.push(shop + ' — Aylık rapor ' + ym.slice(5) + '.' + ym.slice(0, 4));
+      sums();
+    } else {
+      var day = $('dayDate').value || today(), rep = compute(state.tx, day).day, bal = [];
+      lines.push(shop + ' — Gün sonu ' + fmtDate(day));
+      sums();
+      lines.push('TL kasası: ' + fmtTL(rep.close.tl));
+      Object.keys(rep.close.bal).sort(byCode).forEach(function (c) {
+        if (rep.close.bal[c] > EPS) bal.push(label(c) + ' ' + fmtAmt(rep.close.bal[c], c));
+      });
+      if (bal.length) lines.push('Stok: ' + bal.join(' · '));
+    }
+    return lines.join('\n');
   }
   function setDay(iso) {
     $('dayDate').value = iso > today() ? today() : iso;
@@ -2873,8 +2912,62 @@
   }
 
   // ---------- Vitrin defteri (ürün stoku) ----------
-  // Parça parça ürün listesi. Kasadaki gram stokundan bağımsızdır: neyin vitrinde olduğunu gösterir.
+  // Parça parça ürün listesi: neyin vitrinde olduğunu gösterir. Ürün eklerken alış, satarken satış
+  // kasaya işlenebilir (txIn / txOut o işlemin kimliğidir); işlenmezse defter kasadan bağımsız kalır.
   var iShowSold = false;
+  // Ürünün hesap bölümündeki ayarlarla (has satış fiyatı, satış milyemi, hatırlanan işçilik) tahmini satış fiyatı
+  function itemEstimate(x) {
+    var has = suggested('HAS', 'out');
+    if (!has) return null;
+    var l = state.calc.labor[x.karat];
+    var labor = !l ? 0 : l.unit === 'gr' ? x.gram * l.v : l.unit === 'mil' ? x.gram * has * l.v / 1000 : l.v;
+    return round2(x.gram * has * kMilOf('sell', x.karat) / 1000 + labor);
+  }
+  function sellItem(x) {
+    var cur = KARAT_ASSET[x.karat], est = itemEstimate(x);
+    var mark = function (price, txId) { x.sold = today(); x.price = price; x.txOut = txId; };
+    askNumber(x.name + ' satışı',
+      (est ? 'Hesaplanan satış fiyatı: ' + fmtTL(est) + '. ' : '') + 'Satış tutarını yazın; kasaya satış olarak işlenir. ' +
+      'Boş bırakırsanız ürün yalnızca defterde satıldı olarak işaretlenir.',
+      'Satış tutarı (₺)',
+      function (v) {
+        if (!$('dlgInput').value.trim() && !(v > 0)) {
+          mark(null, null); save(); renderItems();
+          toast('Satıldı olarak işaretlendi.');
+          return null;
+        }
+        if (!(v > 0)) return 'Geçerli bir tutar yazın.';
+        var tx = { id: uid(), seq: nextSeq(), date: today(), type: 'out', cur: cur, amount: x.gram, rate: v / x.gram,
+                   note: ('Vitrin: ' + x.name).slice(0, 120) };
+        var next = state.tx.concat([tx]);
+        if (compute(next).error) {
+          if (!confirm('Kasada yeterli ' + label(cur) + ' stoku yok; satış kasaya işlenemiyor.\nÜrün yalnızca defterde ' +
+                       fmtTL(v) + ' tutarla satıldı olarak işaretlensin mi?')) return null;
+          mark(round2(v), null); save(); renderItems();
+          toast('Satıldı olarak işaretlendi (kasaya işlenmedi).');
+          return null;
+        }
+        var before = snapshot();
+        state.tx = next;
+        if (!(state.rates[cur] > 0)) state.rates[cur] = tx.rate;
+        mark(round2(v), tx.id);
+        save();
+        render();
+        toast('Satış kasaya işlendi.', before, function () { x.sold = null; x.price = null; x.txOut = null; save(); renderItems(); });
+        return null;
+      });
+  }
+  // Satışı geri alır; kasaya işlenmişse o satış işlemini de siler
+  function unsellItem(x) {
+    if (x.txOut && state.tx.some(function (t) { return t.id === x.txOut; })) {
+      var next = state.tx.filter(function (t) { return t.id !== x.txOut; }), res = compute(next);
+      if (res.error) return alert('Satış geri alınamadı: ' + res.error);
+      state.tx = next;
+    }
+    x.sold = null; x.price = null; x.txOut = null;
+    save();
+    render();
+  }
   function ageDays(iso) {
     var p = iso.split('-'), t = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2])).getTime();
     return Math.max(0, Math.floor((new Date(today() + 'T00:00:00').getTime() - t) / 864e5));
@@ -2902,7 +2995,9 @@
     ul.textContent = '';
     var row = function (x) {
       var days = ageDays(x.sold || x.date);
-      var info = x.sold ? fmtDate(x.sold) + ' tarihinde satıldı'
+      var info = x.sold
+        ? 'satıldı: ' + fmtDate(x.sold) + (x.price ? ' · ' + fmtTL(x.price) : '') +
+          (x.price && x.cost ? ' · maliyete göre kâr ' + fmtSigned(x.price - x.cost) : '') + (x.txOut ? ' · kasaya işlendi' : '')
         : (days === 0 ? 'bugün eklendi' : days + ' gündür vitrinde') + (x.cost ? ' · maliyet ' + fmtTL(x.cost) : '');
       var tools = el('div', { class: 'r' });
       var btn = function (text, label, fn, cls) {
@@ -2911,7 +3006,7 @@
         tools.appendChild(b);
       };
       if (x.sold) {
-        btn('Geri al', 'Satışı geri al', function () { x.sold = null; save(); renderItems(); });
+        btn('Geri al', 'Satışı geri al', function () { unsellItem(x); });
       } else {
         btn('Hesapla', 'Satış fiyatını hesapla', function () {
           $('kSell').checked = true;
@@ -2922,10 +3017,11 @@
           renderCalc();
           setView('hesap');
         });
-        btn('Satıldı', 'Satıldı olarak işaretle', function () { x.sold = today(); save(); renderItems(); toast('Satıldı olarak işaretlendi.'); });
+        btn('Sat', 'Ürünü sat', function () { sellItem(x); });
       }
       btn('×', 'Ürünü sil', function () {
-        if (!confirm('Bu ürün defterden silinsin mi?\n' + x.name + ' · ' + x.karat + ' ayar · ' + fmtNum(x.gram, 0, 3) + ' gr')) return;
+        if (!confirm('Bu ürün defterden silinsin mi?\n' + x.name + ' · ' + x.karat + ' ayar · ' + fmtNum(x.gram, 0, 3) + ' gr' +
+                     (x.txIn || x.txOut ? '\nKasaya işlenmiş alış ya da satış işlemi silinmez.' : ''))) return;
         state.items = state.items.filter(function (y) { return y.id !== x.id; });
         save();
         renderItems();
@@ -2956,18 +3052,40 @@
     if (!name) return msg('Ürünün adını yazın (ör. Bilezik).');
     if (!(gram > 0)) return msg('Ağırlığı yazın.');
     if (!(cost >= 0)) return msg('Maliyet için geçerli bir sayı yazın.');
-    state.items.push({
+    var post = $('iPost').checked;
+    if (post && !(cost > 0)) return msg('Alışı kasaya işlemek için maliyeti yazın.');
+    var item = {
       id: uid(), seq: state.items.reduce(function (m, x) { return Math.max(m, x.seq); }, 0) + 1, date: today(),
       name: name.slice(0, 60), karat: Number($('iKarat').value), gram: round4(gram), cost: cost > 0 ? round2(cost) : null,
-      note: $('iNote').value.trim().slice(0, 120), sold: null
-    });
+      note: $('iNote').value.trim().slice(0, 120), sold: null, price: null, txIn: null, txOut: null
+    };
+    var before = null;
+    if (post) {
+      var cur = KARAT_ASSET[item.karat];
+      var tx = { id: uid(), seq: nextSeq(), date: today(), type: 'in', cur: cur, amount: item.gram, rate: item.cost / item.gram,
+                 note: ('Vitrin: ' + item.name).slice(0, 120) };
+      before = snapshot();
+      state.tx = state.tx.concat([tx]);
+      if (!(state.rates[cur] > 0)) state.rates[cur] = tx.rate;
+      item.txIn = tx.id;
+    }
+    state.items.push(item);
     save();
     $('iGramIn').value = '';
     $('iCost').value = '';
     $('iNote').value = '';
     msg('');
-    renderItems();
-    toast('Ürün deftere eklendi.');
+    if (post) {
+      render();
+      toast('Ürün eklendi, alış kasaya işlendi.', before, function () {
+        state.items = state.items.filter(function (y) { return y.id !== item.id; });
+        save();
+        renderItems();
+      });
+    } else {
+      renderItems();
+      toast('Ürün deftere eklendi.');
+    }
     $('iGramIn').focus();
   }
   function initLedgers() {
@@ -3419,6 +3537,7 @@
     $('modeDay').addEventListener('click', function () { reportMode = 'day'; renderDay(); });
     $('modeMonth').addEventListener('click', function () { reportMode = 'month'; renderDay(); });
     $('modeAn').addEventListener('click', function () { reportMode = 'an'; renderDay(); });
+    $('btnShareDay').addEventListener('click', function () { shareText(reportText()); });
     $('anRange').addEventListener('change', renderDay);
     $('monthDate').addEventListener('change', function () { setMonth(this.value || today().slice(0, 7)); });
     $('filterType').addEventListener('change', renderTx);

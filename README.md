@@ -11,11 +11,14 @@ Kuyum tarafı:
   tam, ata, reşat, hamit, gremse…) hesabı; birden çok parçayı listeleyip takasta net tutarı verir, tek dokunuşla kasaya
   işler, müşteriye döküm (fiş) çıkarır. Gram hesabı “Has altın fiyatım” kartına yazdığınız alış–satış fiyatından yapılır.
 - **Toptancı has hesabı** (Cari): toptancılarla borç–alacak has gramı üzerinden, işçilik ayrı.
-- **Vitrin defteri** (Kasa): parça parça ürün listesi, has karşılığı, en uzun süredir bekleyenler.
+- **Vitrin defteri** (Kasa): parça parça ürün listesi, has karşılığı, en uzun süredir bekleyenler. Ürün eklerken alış,
+  “Sat” ile satış kasaya işlenebilir.
 - **Kâr analizi** (Gün sonu → Analiz): varlık başına ortalama alış–satış kuru, makas ve kâr; aylık net kâr grafiği.
-  Net kâr TL’nin yanında dolar ve has altın olarak da gösterilir.
+  Net kâr TL’nin yanında dolar ve has altın olarak da gösterilir. Açık rapor “Paylaş” ile WhatsApp ya da e-postaya gönderilir.
 - **Vitrin ekranı** (`vitrin.html`): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda Döviz Kasası’nın kur
   tablosunu canlı gösterir; ayrı bir TV ya da tablette piyasa fiyatına kendi farkınızı ekleyerek çalışır.
+
+Tarayıcı sınamaları [`testler/`](testler/README.md) klasöründedir.
 Veriler yalnızca kullanılan cihazın tarayıcısında saklanır. Resmî fiş ve yasal bildirimlerin
 yerini tutmaz.
 
