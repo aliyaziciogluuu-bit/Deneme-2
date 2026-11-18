@@ -77,9 +77,19 @@ def main():
                 with zipfile.ZipFile(hedef / zip_ad, "w", zipfile.ZIP_STORED) as z:
                     for d in sorted(paket[-1].iterdir()):
                         z.write(d, f"{ad}_4K/{d.name}")
+            import kapak4k                                             # 4K yüklemede küçük resimlerde "4K" etiketi olsun
+            for son in ["", *[f"_{h}" for h in secenekler]]:
+                k4 = kapak.parent / f"{kapak.stem}{son}_4K.jpg"
+                if not k4.exists():
+                    kapak4k.etiketle(kapak.parent / f"{kapak.stem}{son}.jpg", k4)
+                bagla(k4, hedef / f"{sira}_UZUN_{ad}_kucuk_resim{son}_4K.jpg")
+            baslik4k = json.loads((KOK / "kanal" / "baslik_4k.json").read_text(encoding="utf-8")).get(k)
             adimlar[-1:-1] = [f"   - 4K SÜRÜM (yalnızca bilgisayardaysan): {zip_ad}",
                               "     Zip'i aç, ffmpeg.exe'yi açılan klasöre koy, BIRLESTIR.bat'a çift tıkla;",
-                              "     çıkan 4K videoyu yukarıdaki video yerine yükle (başlık, küçük resim aynı)."]
+                              "     çıkan 4K videoyu yukarıdaki video yerine yükle. 4K yüklüyorsan:",
+                              *([f"     · Başlık olarak bunu kullan: {baslik4k}"] if baslik4k else []),
+                              "     · Küçük resim olarak sonu _4K.jpg ile biten dosyaları kullan; etiketlere 4k ekle.",
+                              "     (1080p yüklüyorsan 4K başlığını ve _4K küçük resimleri KULLANMA.)"]
         sira += 1
     if "shorts" in gun:
         k, anahtar = gun["shorts"]; ad = AD[k]
