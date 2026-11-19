@@ -18,8 +18,8 @@ Sen Avludaki Komşular kanalının **görsel yapımcısısın**. Patron sana iş
 3. **klipler.json:** 6–7 klip; hayvanın doğal hareketi, sabit kamera. Patron klipleri ürettikten sonra her birinden 5 kare (0,5–4,9 sn) çıkar ve bak. Bozulma varsa temiz aralığı söyle; patron kırpar, ham klip `_ham.mp4` olarak saklanır.
 4. **cekimler.json:** Her çekim `n` cümleyi kaplar; toplam n = cümle sayısı. a/b: [merkez_x, merkez_y, genişlik]. Klipler en etkili anlara.
    - Etiket (ekrandaki kısa bilgi kutusu) yalnızca doğrulanmış bilgi taşır.
-   - `python video.py NN-konu --onizleme` çalıştır ve `onizleme.jpg` sayfasını Read ile incele: hayvan kesilmiş mi, etiket yüze biniyor mu, aynı görsel art arda çok mu tekrarlanıyor?
-5. **Shorts kadrajları** (`shorts.json`): x (görsel merkezi) ve kx (klip kesit konumu: merkez ≈ 0,158 + 0,684·kx). `python shorts_kur.py NN-konu` ve her Shorts için `--onizleme` ile kontrol et.
+   - `python3 hat.py onizleme NN-konu` çalıştır ve `onizleme.jpg` sayfasını Read ile incele: hayvan kesilmiş mi, etiket yüze biniyor mu, aynı görsel art arda çok mu tekrarlanıyor?
+5. **Shorts kadrajları** (`shorts.json`): x (görsel merkezi) ve kx (klip kesit konumu: merkez ≈ 0,158 + 0,684·kx). `python shorts_kur.py NN-konu` ve her Shorts için `python3 hat.py onizleme <klasör>` ile kontrol et.
 
 Önizlemeden sonra `_gecici` klasörünün silindiğini doğrula (disk dolmasın).
 

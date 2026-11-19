@@ -37,6 +37,7 @@ Bu belge şirketin anayasasıdır. Hedefler, göstergeler, organizasyon, çalı�
 | Shorts izlemeye devam oranı | %50,5 | %60 | Shorts uzmanı |
 | Ofis puanı (son tur) | 80–84 | 85+ | herkes |
 | Ofis puanı (ilk tur) | 66–68 | 80+ | çalışanlar |
+| İlk turda kapıdan geçme oranı | ölçülmeye başlandı | %80 | üretim müdürü |
 | Video başına maliyet | ~5,5–7 $ | ≤ 6 $ | patron |
 | Hazır video stoku | 1 (baykuş) | 4 | patron, kanal yöneticisi |
 
@@ -49,16 +50,31 @@ Bu belge şirketin anayasasıdır. Hedefler, göstergeler, organizasyon, çalı�
                     PATRON (genel müdür: ana Claude oturumu)
         iş dağıtır · para harcayan işleri yapar · son onay · kanal sahibine rapor
                                │
-                    KANAL YÖNETİCİSİ (strateji ve planlama)
+        KANAL YÖNETİCİSİ (strateji)        ÜRETİM MÜDÜRÜ (hat, pano, stok)
                                │
-   ÜRETİM                     DENETİM                  BÜYÜME
-   Senarist                   Bilgi kontrolcüsü        Paketleme uzmanı (tıklama)
-   Yapımcı                    Kalite kontrol           Shorts uzmanı (keşfedilme)
-                              Metin editörü            Veri analisti (ölçüm)
-                                                       Topluluk sorumlusu (sadakat)
+   ÜRETİM HATTI          GİRİŞ KALİTE KAPILARI        SON DENETİM          BÜYÜME
+   Senarist              Kaynak arşivcisi             Bilgi kontrolcüsü    Paketleme uzmanı
+   Yapımcı               Görsel denetçi               Kalite kontrol       Shorts uzmanı
+                         Seslendirme yönetmeni        Metin editörü        Veri analisti
+                                                                           Topluluk sorumlusu
 ```
 
 Ajan tanımları `.claude/agents/avlu-*.md`, iş akışı `.claude/skills/avludaki-komsular-yeni-video/SKILL.md`.
+
+
+### Fabrika düzeni (19 Kasım 2026)
+
+Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanlar al."
+
+- **12 istasyonlu üretim hattı**, her istasyonda bir kalite kapısı (ayrıntı: SKILL.md → "Fabrika hattı"). Durum panosu: `python3 pano.py` → `kanal/uretim_panosu.md`.
+- **Tek üretim hattı:** bütün video oluşturma ve testler `python3 hat.py` ile sırayla çalışır (disk ve işlemci çakışması olmaz).
+- **Yeni çalışanlar (19 Kasım):**
+  - Üretim müdürü: hattı akıtır, darboğaz ve stok.
+  - Kaynak arşivcisi: her kaynak açılır, arşivlenir; künye sayfadan.
+  - Görsel denetçi: ölçek, tür, anatomi ve klip bozulmaları hattın başında yakalanır.
+  - Seslendirme yönetmeni: okunuşlar seslendirmeden önce, dinleme listesi seslendirmeden sonra.
+  Neden: 19 Kasım'daki RET'lerin çoğu (dev karga ve kirpi ölçeği, kanat bozulması, çevrilmiş künye, yanlış okunuş alanı) en son denetimde yakalandı ve videoların yeniden oluşturulmasına yol açtı. Hatayı başta yakalamak hem zaman hem para kazandırır.
+- **Fabrika göstergesi: ilk turda kapıdan geçme oranı.** Her istasyonda ilk denemede KABUL/ONAY alan iş oranı; hedef %80. Puan tablosundaki "ilk tur" puanı bunun özetidir.
 
 ## 4. Çalışma ritmi
 

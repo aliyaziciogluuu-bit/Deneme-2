@@ -36,6 +36,33 @@ Ofisin hafızası `references/dersler.md` dosyasında. İşe başlamadan oku, aj
 3. Replicate kredisi: büyük harcamadan önce yeterli mi? Kredi bitince 402 hatası gelir.
 4. Sıradaki konu: `hayvan-kanali/kanal/fikirler.json`. Klasör adı `NN-konu` (ör. `06-karga`).
 
+## Fabrika hattı (19 Kasım 2026'dan beri)
+
+Kanal sahibinin isteği: "Şirketi büyütmeni ve geliştirmeni istiyorum, fabrika gibi işlesin, işinde profesyonel çalışanlar al."
+
+Her video aşağıdaki istasyonlardan **sırayla** geçer. Her istasyonun sonunda bir **kalite kapısı** vardır: kapıdan geçmeyen iş bir sonraki istasyona gitmez, hata hattın başında düzeltilir. Durumu her zaman `python3 pano.py` gösterir (`kanal/uretim_panosu.md`).
+
+| # | İstasyon | Yapan | Kalite kapısı (geçmeden ilerlenmez) |
+|---|---|---|---|
+| 1 | Senaryo | senarist | `metin_kontrol.py` 0 HATA |
+| 2 | Kaynak arşivi | **kaynak arşivcisi** (avlu-kaynak-arsivcisi) | her kaynak açılmış ve `kaynaklar/` altında, künye sayfadan, `kaynak_eslesme.md` tam |
+| 3 | Bilgi onayı | bilgi kontrolcüsü | KARAR: ONAY (görsele para ancak bundan sonra) |
+| 4 | Görsel | yapımcı istem yazar, patron üretir | **görsel denetçi** (avlu-gorsel-denetci): ölçek, tür, anatomi, nesne sayısı, yazı → KABUL |
+| 5 | Klip | yapımcı istem yazar, patron üretir | görsel denetçi: 0,3 sn kare taraması → KABUL / kırp / düşür |
+| 6 | Ses | **seslendirme yönetmeni** (avlu-seslendirme-yonetmeni) okunuşları hazırlar, patron seslendirir | yönetmen farkları sınıflandırır; HATA kalmaz, dinleme listesi çıkar |
+| 7 | Çekim planı | yapımcı; Shorts kadrajı Shorts uzmanı | n toplamı = cümle sayısı, her etiket kendi cümlesinde; bitiş w/y yazılı |
+| 8 | Video ve test | patron, **yalnızca `python3 hat.py uret ...`** | son kontrol 14/14 |
+| 9 | Shorts | patron, `hat.py uret` | son kontrol geçti, ilk-orta-son kare kontrolü |
+| 10 | Denetim | kalite kontrol + metin editörü (paralel) | ikisi de ONAY |
+| 11 | Puan | patron, `puan.py ekle` | en az 80 (kırmızı çizgi yok) |
+| 12 | Teslim | patron, `teslim.py` | kopyalar cmp ile doğrulandı |
+
+**Hat kuralları:**
+- **Tek üretim hattı:** `video.py`, önizleme, `--kapak` ve `son_kontrol.py` yalnızca `python3 hat.py uret|onizleme|kapak <klasör...>` ile çalışır. Hat kilitlidir: aynı anda tek iş, diğerleri sırasını bekler; her işten önce boş yer kontrol edilir, sonra `_gecici` silinir. (19 Kasım: iki oluşturma aynı anda çalıştı, disk doldu.)
+- **Yarım iş sınırı:** aynı anda en çok 2 video denetim istasyonunda (10).
+- **Hata başta düzeltilir:** son denetimde çıkan bir hata türü, giriş kapısındaki uzmanın kontrol listesine eklenir (görsel → görsel denetçi, künye → kaynak arşivcisi, okunuş → seslendirme yönetmeni).
+- **Üretim müdürü** (avlu-uretim-muduru) her gün ve her büyük işten sonra panoyu okuyup darboğazı, kırmızı videoları ve sıradaki işleri çıkarır. Haftalık yönetim raporunda pano tablosu yer alır.
+
 ## Adımlar ve komutlar (`hayvan-kanali/` içinde)
 
 | Adım | Kim | Komut ya da iş | Maliyet |
@@ -48,7 +75,7 @@ Ofisin hafızası `references/dersler.md` dosyasında. İşe başlamadan oku, aj
 | 6. Klipler | yapımcı yazar, patron üretir | `python klip.py NN --onay` (7 × 0,35 $), arka planda | var |
 | 7. Seslendirme | patron | `seslendir_bulut.py NN`, sonra farklar için `--cumle i j` | az |
 | 8. Çekim planı | yapımcı | `cekimler.json` ve `video.py NN --onizleme` | yok |
-| 9. Video | patron | `video.py NN` ve `son_kontrol.py NN` | yok |
+| 9. Video | patron | `python3 hat.py uret NN` (video + son kontrol, tek hat) | yok |
 | 10. Shorts | yapımcı kadraj, patron üretir | `shorts_kur.py NN`, sonra her Shorts için seslendir, video, son kontrol | az |
 | 1b. Metin denetimi | patron | `python metin_kontrol.py NN` (HATA varsa seslendirmeye geçilmez) | yok |
 | 10b. Küçük resim A/B/C | paketleme yazar, patron üretir | `python video.py NN --kapak` (senaryo.json > kapak, kapak_alternatifler) | yok |
@@ -73,17 +100,16 @@ Kullanıcı, Dream Window kanalındaki gibi işin "farklı ajanlar ve yöneticil
                          PATRON (ana Claude oturumu)
         iş dağıtır · para harcayan işleri yapar · son onay · kullanıcıya teslim
                                      │
-                       KANAL YÖNETİCİSİ (avlu-kanal-yoneticisi)
-          denetçi raporları · veriler · takvim · öneri kutusu · patrona öneri
+          KANAL YÖNETİCİSİ (strateji)          ÜRETİM MÜDÜRÜ (avlu-uretim-muduru)
+          denetçi raporları · takvim · öneri    pano · darboğaz · sıra · stok
                                      │
-   ÇALIŞANLAR                                          DENETÇİLER
-   SENARİST (avlu-senarist)        araştırma, senaryo  BİLGİ KONTROLCÜSÜ (avlu-bilgi-kontrol)
-   YAPIMCI (avlu-yapimci)          görsel, klip, çekim KALİTE KONTROL (avlu-kalite-kontrol)
-   SHORTS UZMANI (avlu-shorts-uzmani)  2 Shorts       METİN EDİTÖRÜ (avlu-metin-editoru)
-   PAKETLEME (avlu-paketleme)      başlık, küçük resim A/B/C
+   ÜRETİM HATTI                     GİRİŞ KALİTE KAPILARI          SON DENETİM
+   SENARİST (avlu-senarist)         KAYNAK ARŞİVCİSİ (künye)      BİLGİ KONTROLCÜSÜ
+   YAPIMCI (avlu-yapimci)           GÖRSEL DENETÇİ (görsel, klip)  KALİTE KONTROL
+   SHORTS UZMANI                    SESLENDİRME YÖNETMENİ (ses)    METİN EDİTÖRÜ
+   PAKETLEME (başlık, küçük resim)
                                      │
-                       VERİ ANALİSTİ (avlu-analist)
-          yayından sonra: izleyici tutma, tıklama oranı, Shorts verisi → dersler ve puan kalibrasyonu
+             BÜYÜME: VERİ ANALİSTİ (ölçüm) · TOPLULUK SORUMLUSU (yorumlar)
 ```
 
 **Akış:**

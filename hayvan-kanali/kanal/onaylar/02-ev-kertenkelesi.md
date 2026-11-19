@@ -24,3 +24,5 @@ Video 16–17 Kasım'da ofis öncesi dönemde üretildi ve 20 Kasım 18:00 için
 - Bilgi kontrolcüsü: RET (açıklamadaki kaynak listesi). Üç künyede Türkçeye çevrilmiş başlık vardı (Yıldız 2007, Bülbül 2020, Kotsakiozi 2018); Autumn 2002'ye başlıkta olmayan parantez eklenmişti.
 - Patron kararı: Autumn ve Kotsakiozi DOI'si birden çok bağımsız kayıtta tutarlı olduğu için özgün başlıkla bırakıldı. Yıldız ve Bülbül makale sayfası açılamadığı için listeden çıkarıldı (Türkiye dağılımı Reptile Database ve ADW kaynaklarıyla destekli). Anlatım metni değişmedi; video yeniden oluşturulmadı.
 - Ders: künye yazılırken makale sayfası açılamıyorsa künye yazılmaz, alan adı erişimi iş başında istenir.
+
+YAYINDA: kanal sahibi 19 Kasım'da yeni sürümü yükledi, 20 Kasım 18:00 planlı.

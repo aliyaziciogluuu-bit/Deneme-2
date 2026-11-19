@@ -18,3 +18,5 @@
   - Puanlama sistemi teslimden sonra kuruldu, bu yüzden 85 şartı bu videoya geriye dönük uygulanmadı.
   - Kalan küçük kusurlar: tür bölümü 3:34–4:28 ansiklopedik; seslendirme gerçek kulakla dinlenmedi; Athena/Atina aynı cümlede.
 - Kanal sahibi baykuş videosunu dinledi: "ses yapay durmuyor". Ses puanı 8'den 9'a çıktı (kalite kontrol, insan dinlemesi olmadığı için 8'de bırakmıştı). Tur 2 toplamı 84,0.
+
+TESLİM EDİLDİ: teslim.py ile teslim/05-baykus (19 Kasım), kanal sahibi 1 Aralık için yükleyecek.

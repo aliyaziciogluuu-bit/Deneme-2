@@ -331,5 +331,213 @@
   "sure": 4.56,
   "uygun": true,
   "tek_basina": true
+ },
+ "006": {
+  "yazi": "İshal, küçük bir hayvan için sıvı kaybı riski demek.",
+  "duyulan": "İsel, küçük bir hayvan için sıvı kaybı riski demek.",
+  "hata": 1,
+  "sure": 3.2,
+  "uygun": false,
+  "tek_basina": true
+ },
+ "008": {
+  "yazi": "Ekmek de iyi bir seçim değil; enerjisi düşük ve kirpiye pek bir yararı yok.",
+  "duyulan": "Ekmek de iyi bir seçim değil, enerjisi düşük ve kirpiye pek bir yararı yok.",
+  "hata": 0,
+  "sure": 4.86,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "009": {
+  "yazi": "Peki kirpiye gerçekten nasıl yardım edebilirsin?",
+  "duyulan": "Peki, kirpiye gerçekten nasıl yardım edebilirsin?",
+  "hata": 0,
+  "sure": 3.38,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "012": {
+  "yazi": "Mama koymak istersen, et bazlı konserve kedi ya da köpek maması uygun.",
+  "duyulan": "Mama koymak istersen et bazlı konserve kedi ya da köpek maması uygun.",
+  "hata": 0,
+  "sure": 4.34,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "016": {
+  "yazi": "Peki kirpi sırtında gerçekten elma taşıyor mu?",
+  "duyulan": "Peki kirpi sırtında gerçekten elma taşıyor mu?",
+  "hata": 0,
+  "sure": 3.26,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "023": {
+  "yazi": "Bunlardan biri, göğsü açık renkli akgöğüslü kirpi.",
+  "duyulan": "Bunlardan biri göğsü açık renkli, ak göğüslü kirpi.",
+  "hata": 0,
+  "sure": 3.86,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "024": {
+  "yazi": "Güneydoğu Anadolu'da iri kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor.",
+  "duyulan": "Güneydoğu Anadolu'da iri kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor.",
+  "hata": 0,
+  "sure": 4.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "028": {
+  "yazi": "Zehirli değiller; ucu kancalı da değiller.",
+  "duyulan": "Zehirli değiller, ucuk ancalı da değiller.",
+  "hata": 0,
+  "sure": 2.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "029": {
+  "yazi": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.",
+  "duyulan": "Tehlike anında dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.",
+  "hata": 0,
+  "sure": 8.86,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "033": {
+  "yazi": "Solucanlar ve böcekler besinin en önemli kısmını oluşturuyor.",
+  "duyulan": "Solucanlar ve böcekler besinin en önemli kısmını oluşturuyor.",
+  "hata": 0,
+  "sure": 4.08,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "035": {
+  "yazi": "Bu yüzden bahçıvanların dostu sayılıyor.",
+  "duyulan": "Bu yüzden bahçıvanların dostu sayılıyor.",
+  "hata": 0,
+  "sure": 2.66,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "036": {
+  "yazi": "Avrupa'daki akrabalarında yılan zehrine kısmi bir direnç görülüyor.",
+  "duyulan": "Avrupa'daki akrabalarında yılan zehrine kısmi bir direnç görülüyor.",
+  "hata": 0,
+  "sure": 4.48,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "037": {
+  "yazi": "Yine de bir ısırık onu ağır hasta edebilir.",
+  "duyulan": "yine de bir ısırık onu ağır hasta edebilir.",
+  "hata": 0,
+  "sure": 2.92,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "038": {
+  "yazi": "Bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler.",
+  "duyulan": "Bu onu bir yılan avcısı yapmıyor, asıl yiyeceği yine böcekler.",
+  "hata": 0,
+  "sure": 4.3,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "044": {
+  "yazi": "Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor.",
+  "duyulan": "Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor.",
+  "hata": 0,
+  "sure": 4.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "046": {
+  "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak.",
+  "duyulan": "Bu yüzden sonbaharda kuru yaprakları yakmadan, ya da dağıtmadan önce altında bir kirpi olup olmadığına bak.",
+  "hata": 0,
+  "sure": 7.28,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "047": {
+  "yazi": "Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş.",
+  "duyulan": "Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş.",
+  "hata": 0,
+  "sure": 5.12,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "049": {
+  "yazi": "Gündüz ortalıkta dolaşan bir kirpi, bir sorun yaşıyor olabilir.",
+  "duyulan": "Gündüz ortalıkta dolaşan bir kirpi bir sorun yaşıyor olabilir.",
+  "hata": 0,
+  "sure": 3.86,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "050": {
+  "yazi": "Yavruları varsa kısa süre dışarı çıkan, hızlı yürüyen ve sağlıklı görünen bir anne olabilir.",
+  "duyulan": "Yavruları varsa, kısa süre dışarı çıkan, hızlı yürüyen ve sağlıklı görünen bir anne olabilir.",
+  "hata": 0,
+  "sure": 6.16,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "051": {
+  "yazi": "Ama güneşte yatan, sendeleyen ya da yaralı bir kirpi yardım ister.",
+  "duyulan": "Ama güneşte yatan, sendeliyen ya da yaralı bir kirpi yardım ister.",
+  "hata": 0,
+  "sure": 4.8,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "052": {
+  "yazi": "Gündüz tek başına ince sesle bağıran ya da çevresinde sinekler dolaşan bir yavru görürsen beklemeden yardım iste.",
+  "duyulan": "Gündüz tek başına, ince sesle bağıran ya da çevresinde sinekler dolaşan bir yavru görürsen beklemeden yardım iste.",
+  "hata": 0,
+  "sure": 7.26,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "055": {
+  "yazi": "Üşümüş görünüyorsa havluya sarılmış, kaynamamış sıcak su dolu bir şişe koy; şişe soğursa suyu değiştir.",
+  "duyulan": "Üşümüş görünüyorsa, havluya sarılmış, kaynamamış sıcak su dolu bir şişe koy. Şişe soğursa suyu değiştir.",
+  "hata": 0,
+  "sure": 7.12,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "056": {
+  "yazi": "Kirpi ondan uzaklaşabilsin diye kutuda boşluk bırak.",
+  "duyulan": "Kirpi ondan uzaklaşabilsin diye kutuda boşluk bırak.",
+  "hata": 0,
+  "sure": 3.26,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "058": {
+  "yazi": "Sonra bir yaban hayatı kurtarma merkezine ya da bir veterinere haber ver.",
+  "duyulan": "Sonra bir yaban hayatı kurtarma merkezine ya da bir veterinere haber ver.",
+  "hata": 0,
+  "sure": 4.46,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "059": {
+  "yazi": "Bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne de ulaşabilirsin.",
+  "duyulan": "Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne de ulaşabilirsin.",
+  "hata": 0,
+  "sure": 4.42,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "063": {
+  "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan bir delik, onlar için bir geçit oluyor.",
+  "duyulan": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan bir delik onlar için bir geçit oluyor.",
+  "hata": 0,
+  "sure": 5.88,
+  "uygun": true,
+  "tek_basina": true
  }
 }

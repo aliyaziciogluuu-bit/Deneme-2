@@ -21,7 +21,7 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 | 02-ev-kertenkelesi | 1 | 2026-11-19 | 6.0 | 7.0 | 6.0 | 8.0 | 6.0 | 6.0 | 8.0 | 7.0 | 9.0 | **67.5** | RET |
 | 02-ev-kertenkelesi | 3 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 8.0 | 7.0 | 9.0 | **79.0** | DÜZELTME |
 | 02-ev-kertenkelesi | 4 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 8.0 | 8.0 | 9.0 | **80.0** | TESLİM |
-| 04 | 2 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 7.0 | 8.0 | 7.0 | 8.0 | **77.5** | DÜZELTME |
+| 04-yarasa | 2 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 7.0 | 8.0 | 7.0 | 8.0 | **77.5** | DÜZELTME |
 | 05-baykus | 1 | 2026-11-19 | 6.0 | 5.0 | 7.0 | 8.0 | 7.0 | 5.0 | 8.0 | 6.0 | 8.0 | **66.5** | RET (kırmızı çizgi: guvenlik) |
 | 05-baykus | 2 | 2026-11-19 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | 8.0 | 8.0 | **84.0** | TESLİM |
 
@@ -49,7 +49,7 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 
 Hedef: her ölçütte ilk turda 9. Bir ölçüt yerinde sayıyorsa dersler defterindeki "Puandan dersler" satırı sertleştirilir.
 
-| Ölçüt | 02-ev-kertenkelesi | 04 | 05-baykus |
+| Ölçüt | 02-ev-kertenkelesi | 04-yarasa | 05-baykus |
 |---|---|---|---|
 | Doğruluk ve kaynak | 6 → 8 | 8 | 6 → 9 |
 | Güvenlik ve çekinceler | 7 → 8 | 8 | 5 → 9 |
