@@ -11,7 +11,9 @@
    "ad": "lamba_yarasa",
    "gorsel": "lamba_yarasa",
    "sure": 5,
-   "istem": "The bat swoops and flutters around the glowing street lamp chasing a moth, wings flapping naturally, moths fluttering in the light. Static camera. Storybook watercolor style preserved."
+   "istem": "The bat swoops and flutters around the glowing street lamp chasing a moth, wings flapping naturally, moths fluttering in the light. Static camera. Storybook watercolor style preserved.",
+   "dusuruldu": true,
+   "duzenleme": "DÜŞÜRÜLDÜ (kalite kontrol, 19 Kasım): 0,3 sn aralıkla tarandı; uzak kanat her kanat çırpışta (0,3 / 1,2-1,7 / 2,0 / 2,7-3,0 / 3,9-4,2 sn) kulak gibi dik, koyu bir üçgen olarak duruyor; temiz aralıklar en çok 0,2 sn. Boomerang bile titrer. Ham klip lamba_yarasa_ham.mp4 olarak saklandı; çekim görselle kalıyor."
   },
   {
    "ad": "ekolokasyon",
@@ -23,13 +25,15 @@
    "ad": "anne_yavru",
    "gorsel": "anne_yavru",
    "sure": 5,
-   "istem": "The mother bat hanging from the beam gently wraps her wing around the baby clinging to her chest; the baby moves slightly. Calm, tender, static camera. Storybook watercolor style preserved."
+   "istem": "The mother bat hanging from the beam gently wraps her wing around the baby clinging to her chest; the baby moves slightly. Calm, tender, static camera. Storybook watercolor style preserved.",
+   "duzenleme": "Ham klipte (anne_yavru_ham.mp4) 2,7 sn sonrasında annenin yüzü kanadın arkasında kalıyor, kanat şekli kayıyor; yalnızca 0-2,45 sn alındı, ileri+geri oynatıldı (4,9 sn)."
   },
   {
    "ad": "oda",
    "gorsel": "oda",
    "sure": 5,
-   "istem": "In the dark bedroom the bat flies calmly out through the wide open window into the starry night sky and disappears; curtains move slightly in the breeze. Static camera. Storybook watercolor style preserved."
+   "istem": "In the dark bedroom the bat flies calmly out through the wide open window into the starry night sky and disappears; curtains move slightly in the breeze. Static camera. Storybook watercolor style preserved.",
+   "duzenleme": "Ham klipte (oda_ham.mp4) 0-1,2 sn kanatta gri köşeli yama, 1,5-2,7 sn dönerken kanat sarkıyor/şekil bozuluyor (kalite kontrol, 19 Kasım). Yalnızca 3,0-5,0 sn (yarasa pencereden yıldızlı göğe uzaklaşıyor) alındı, ileri+geri oynatıldı, 1,2 kat yavaşlatıldı (4,9 sn)."
   },
   {
    "ad": "kapanis",

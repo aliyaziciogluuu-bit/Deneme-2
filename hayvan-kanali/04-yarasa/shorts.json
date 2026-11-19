@@ -29,7 +29,8 @@
     {
      "yazi": "Böcek avcısı yarasalar, çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
      "gorsel": "ekolokasyon",
-     "x": 0.35
+     "x": 0.38,
+     "x2": 0.42
     },
     {
      "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu anlıyor.",
@@ -40,13 +41,14 @@
     {
      "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor.",
      "gorsel": "ekolokasyon",
-     "x": 0.7
+     "x": 0.5,
+     "x2": 0.4
     },
     {
      "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceğin peşinde. Tam videosu kanalımızda.",
      "gorsel": "lamba_yarasa",
-     "klip": "lamba_yarasa",
-     "kx": 0.65
+     "x": 0.55,
+     "aw": 1.0
     }
    ]
   },
@@ -67,48 +69,56 @@
    "cumleler": [
     {
      "yazi": "Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın.",
-     "gorsel": "goz",
-     "x": 0.5
+     "gorsel": "portre",
+     "x": 0.58,
+     "aw": 0.65,
+     "ay": 0.7
     },
     {
      "yazi": "Çoğu taşımaz, ama bu yüzden hiçbirine çıplak elle dokunma.",
      "gorsel": "yerde",
-     "x": 0.47,
-     "y": 0.62
+     "x": 0.54
     },
     {
      "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
      "gorsel": "el_yikama",
-     "x": 0.42
+     "x": 0.47,
+     "aw": 0.75,
+     "ay": 0.7
     },
     {
      "yazi": "Yıkamayı en az on beş dakika sürdür.",
      "gorsel": "el_yikama",
-     "x": 0.42,
-     "etiket": "En az 15 dakika"
+     "x": 0.47,
+     "etiket": "En az 15 dakika",
+     "aw": 0.75,
+     "ay": 0.7
     },
     {
      "yazi": "Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir.",
      "gorsel": "portre",
-     "x": 0.65
+     "x": 0.57,
+     "aw": 0.5,
+     "ay": 0.75,
+     "x2": 0.6
     },
     {
      "yazi": "Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut.",
      "gorsel": "yerde",
-     "x": 0.47,
-     "y": 0.62
+     "x": 0.54
     },
     {
      "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
      "gorsel": "oda",
      "klip": "oda",
-     "kx": 0.6
+     "kx": 0.62,
+     "kz": 1.4,
+     "ky": 0.3
     },
     {
      "yazi": "Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
      "gorsel": "oda",
-     "x": 0.55,
-     "w": 0.8
+     "x": 0.68
     }
    ]
   }
