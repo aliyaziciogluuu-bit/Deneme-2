@@ -61,66 +61,44 @@
         },
         {
           "yazi": "Ama onun hakkında yanlış bilinen pek çok şey var."
-        },
-        {
-          "yazi": "Bu, duvarlarımızın gece bekçisi ev kertenkelesinin, yani Akdeniz gekosunun hikâyesi."
         }
       ]
     },
     {
-      "ad": "Ev kertenkelesi kimdir?",
+      "ad": "Zehirli mi, yemeğe düşerse?",
       "cumleler": [
         {
-          "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
-          "ses": "Bilim dünyasındaki adı Hemidaktilus turkikus."
+          "yazi": "Gelelim en çok merak edilen soruya: yemeğe düşerse zehirler mi?"
         },
         {
-          "yazi": "Adındaki turcicus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor.",
-          "ses": "Adındaki turkikus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor."
+          "yazi": "Hayır. Ev kertenkelesinin zehri yok."
         },
         {
-          "yazi": "Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre."
+          "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz."
         },
         {
-          "yazi": "Derisi açık pembe ya da gri, hafif yarı saydam; sırtında küçük kabarcıklar var."
+          "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez."
         },
         {
-          "yazi": "Kuyruğunda koyu ve açık halkalar sıralanıyor."
+          "yazi": "Ama burada bilmen gereken önemli bir gerçek var."
         },
         {
-          "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor."
+          "yazi": "Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında ve dışkılarında Salmonella bakterisi taşıyabiliyor."
         },
         {
-          "yazi": "Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor."
+          "yazi": "Yani asıl mesele zehir değil, temizlik."
         },
         {
-          "yazi": "Gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda."
-        }
-      ]
-    },
-    {
-      "ad": "Gecenin avcısı",
-      "cumleler": [
-        {
-          "yazi": "Ev kertenkelesi bir gece hayvanı."
+          "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor."
         },
         {
-          "yazi": "Gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor."
+          "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi."
         },
         {
-          "yazi": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor."
+          "yazi": "Yiyecekleri açıkta bırakmamak da en basit önlem."
         },
         {
-          "yazi": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası."
-        },
-        {
-          "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun."
-        },
-        {
-          "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor."
-        },
-        {
-          "yazi": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir."
+          "yazi": "Ama bu küçük komşunun asıl şaşırtıcı yanı başka: tavanda baş aşağı yürüyebiliyor ve gözünü diliyle temizliyor."
         }
       ]
     },
@@ -171,6 +149,32 @@
       ]
     },
     {
+      "ad": "Gecenin avcısı",
+      "cumleler": [
+        {
+          "yazi": "Ev kertenkelesi bir gece hayvanı."
+        },
+        {
+          "yazi": "Gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor."
+        },
+        {
+          "yazi": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor."
+        },
+        {
+          "yazi": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası."
+        },
+        {
+          "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun."
+        },
+        {
+          "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor."
+        },
+        {
+          "yazi": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir."
+        }
+      ]
+    },
+    {
       "ad": "Duvardan gelen tıkırtı",
       "cumleler": [
         {
@@ -191,37 +195,33 @@
       ]
     },
     {
-      "ad": "Zehirli mi, yemeğe düşerse?",
+      "ad": "Ev kertenkelesi kimdir?",
       "cumleler": [
         {
-          "yazi": "Gelelim en çok merak edilen soruya: yemeğe düşerse zehirler mi?"
+          "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
+          "ses": "Bilim dünyasındaki adı Hemidaktilus turkikus."
         },
         {
-          "yazi": "Hayır. Ev kertenkelesinin zehri yok."
+          "yazi": "Adındaki turcicus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor.",
+          "ses": "Adındaki turkikus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor."
         },
         {
-          "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz."
+          "yazi": "Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre."
         },
         {
-          "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez."
+          "yazi": "Derisi açık pembe ya da gri, hafif yarı saydam; sırtında küçük kabarcıklar var."
         },
         {
-          "yazi": "Ama burada bilmen gereken önemli bir gerçek var."
+          "yazi": "Kuyruğunda koyu ve açık halkalar sıralanıyor."
         },
         {
-          "yazi": "Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında ve dışkılarında Salmonella bakterisi taşıyabiliyor."
+          "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor."
         },
         {
-          "yazi": "Yani asıl mesele zehir değil, temizlik."
+          "yazi": "Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor."
         },
         {
-          "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor."
-        },
-        {
-          "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi."
-        },
-        {
-          "yazi": "Yiyecekleri açıkta bırakmamak da en basit önlem."
+          "yazi": "Gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda."
         }
       ]
     },

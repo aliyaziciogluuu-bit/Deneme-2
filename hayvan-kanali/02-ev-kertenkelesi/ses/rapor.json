@@ -43,255 +43,20 @@
   "uygun": true
  },
  "006": {
-  "yazi": "Bu, duvarlarımızın gece bekçisi ev kertenkelesinin, yani Akdeniz gekosunun hikâyesi.",
-  "duyulan": "Bu, duvarlarımızın gece bekçisi Ev Kertenkelesi'nin yani Akdeniz Gekosu'nun hikayesi.",
-  "hata": 0,
-  "sure": 6.68,
-  "uygun": true
- },
- "007": {
-  "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
-  "duyulan": "Bilim dünyasındaki adı Hemidactylus turkicus.",
-  "hata": 0,
-  "sure": 3.2,
-  "uygun": true
- },
- "008": {
-  "yazi": "Adındaki turcicus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor.",
-  "duyulan": "Adındaki turkikus kelimesi Türk anlamına geliyor. İngilizce de bu yüzden ona Türk gekosu da deniyor.",
-  "hata": 0,
-  "sure": 5.56,
-  "uygun": true
- },
- "009": {
-  "yazi": "Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre.",
-  "duyulan": "Boyu kuyruğuyla birlikte genellikle 10 ila 13 cm.",
-  "hata": 0,
-  "sure": 3.68,
-  "uygun": true
- },
- "010": {
-  "yazi": "Derisi açık pembe ya da gri, hafif yarı saydam; sırtında küçük kabarcıklar var.",
-  "duyulan": "Derisi açık pembe ya da gri, hafif yarı saydam, sırtında küçük kabarcıklar var.",
-  "hata": 0,
-  "sure": 5.24,
-  "uygun": true
- },
- "011": {
-  "yazi": "Kuyruğunda koyu ve açık halkalar sıralanıyor.",
-  "duyulan": "Kuyruğunda koyu ve açık halkalar sıralanıyor.",
-  "hata": 0,
-  "sure": 2.7,
-  "uygun": true
- },
- "012": {
-  "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
-  "duyulan": "Anavatanı Akdeniz Çevresi ve Ortadoğu. Türkiye'de Kıyı Şeridi'nin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
-  "hata": 0,
-  "sure": 7.3,
-  "uygun": true,
-  "tek_basina": true
- },
- "013": {
-  "yazi": "Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor.",
-  "duyulan": "Özellikle Ege ve Akdeniz kıyılarında, evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor.",
-  "hata": 0,
-  "sure": 6.98,
-  "uygun": true
- },
- "014": {
-  "yazi": "Gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda.",
-  "duyulan": "gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda.",
-  "hata": 0,
-  "sure": 5.84,
-  "uygun": true
- },
- "015": {
-  "yazi": "Ev kertenkelesi bir gece hayvanı.",
-  "duyulan": "Ev Kertenkelesi Bir Gece Hayvanı",
-  "hata": 0,
-  "sure": 2.18,
-  "uygun": true,
-  "tek_basina": true
- },
- "016": {
-  "yazi": "Gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor.",
-  "duyulan": "gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor.",
-  "hata": 0,
-  "sure": 6.3,
-  "uygun": true,
-  "tek_basina": true
- },
- "017": {
-  "yazi": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor.",
-  "duyulan": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor.",
-  "hata": 0,
-  "sure": 3.56,
-  "uygun": true
- },
- "018": {
-  "yazi": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası.",
-  "duyulan": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası.",
-  "hata": 0,
-  "sure": 5.3,
-  "uygun": true
- },
- "019": {
-  "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
-  "duyulan": "Gözleri iri, göz bebekleri dikey, loş ışıkta görmeye çok uygun.",
-  "hata": 0,
-  "sure": 4.44,
-  "uygun": true
- },
- "020": {
-  "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
-  "duyulan": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
-  "hata": 0,
-  "sure": 4.66,
-  "uygun": true
- },
- "021": {
-  "yazi": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
-  "duyulan": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
-  "hata": 0,
-  "sure": 5.52,
-  "uygun": true
- },
- "022": {
-  "yazi": "Peki bu küçük hayvan kaygan bir camda, hatta tavanda baş aşağı nasıl yürüyor?",
-  "duyulan": "Peki bu küçük hayvan kaygan bir camda, hatta tavanda baş aşağı nasıl yürüyor?",
-  "hata": 0,
-  "sure": 5.1,
-  "uygun": true
- },
- "023": {
-  "yazi": "Cevap parmaklarında saklı.",
-  "duyulan": "Cevap, parmaklarında saklı.",
-  "hata": 0,
-  "sure": 1.72,
-  "uygun": true
- },
- "024": {
-  "yazi": "Geko parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.",
-  "duyulan": "Geco parmaklarının altında ince yapraklar gibi sıralanmış pedler var.",
-  "hata": 0,
-  "sure": 4.16,
-  "uygun": true
- },
- "025": {
-  "yazi": "Bu pedler, gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.",
-  "duyulan": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kıl lakaplı.",
-  "hata": 0,
-  "sure": 4.22,
-  "uygun": true
- },
- "026": {
-  "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.",
-  "duyulan": "her kılın ucu da çok sayıda daha da küçük uca ayrılıyor.",
-  "hata": 0,
-  "sure": 3.72,
-  "uygun": true
- },
- "027": {
-  "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
-  "duyulan": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
-  "hata": 0,
-  "sure": 5.72,
-  "uygun": true
- },
- "028": {
-  "yazi": "Tek tek çok zayıf olan bu çekim, milyonlarca uç bir araya gelince hayvanı tavanda tutmaya yetiyor.",
-  "duyulan": "Tek tek çok zayıf olan bu çekim, milyonlarca uç bir araya gelince hayvanı tavanda tutmaya yetiyor.",
-  "hata": 0,
-  "sure": 6.02,
-  "uygun": true
- },
- "029": {
-  "yazi": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor.",
-  "duyulan": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor.",
-  "hata": 0,
-  "sure": 6.96,
-  "uygun": true,
-  "tek_basina": true
- },
- "030": {
-  "yazi": "Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok.",
-  "duyulan": "Ev kertenkelesinin bir tuhaflığı daha var. Göz kapakları yok.",
-  "hata": 0,
-  "sure": 3.82,
-  "uygun": true
- },
- "031": {
-  "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
-  "duyulan": "Gözleri tıpkı yılanlarda olduğu gibi şeffaf bir pul lakaplı.",
-  "hata": 0,
-  "sure": 3.6,
-  "uygun": true
- },
- "032": {
-  "yazi": "Hatırlarsan sağır yılan göz kırpabiliyordu; bu kertenkele kırpamıyor.",
-  "duyulan": "Hatırlarsan sağır yılan göz kırpabiliyordu, bu kertenkele kırpamıyor.",
-  "hata": 0,
-  "sure": 3.86,
-  "uygun": true
- },
- "033": {
-  "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
-  "duyulan": "çoğu geko gibi gözünü temizlemenin başka bir yolunu bulmuş. Dilini çıkarıp gözünü yalıyor.",
-  "hata": 0,
-  "sure": 5.12,
-  "uygun": true
- },
- "034": {
-  "yazi": "Geceleri duvardan gelen kısa tıkırtılar duydun mu?",
-  "duyulan": "Geceleri duvardan gelen kısa tıkırtılar duydun mu?",
-  "hata": 0,
-  "sure": 3.04,
-  "uygun": true
- },
- "035": {
-  "yazi": "Kertenkelelerin çoğu sessizdir, ama gekolar ses çıkarabilen az sayıdaki kertenkele grubundan.",
-  "duyulan": "Kertenkelelerin çoğu sessizdir, ama Gekolar ses çıkarabilen az sayıdaki kertenkele grubundan.",
-  "hata": 0,
-  "sure": 6.32,
-  "uygun": true
- },
- "036": {
-  "yazi": "Erkek ev kertenkeleleri kısa tıkırtılarla sesleniyor.",
-  "duyulan": "Erkek evker tenkeleleri kısa tıkırtılarla sesleniyor.",
-  "hata": 0,
-  "sure": 3.5,
-  "uygun": true
- },
- "037": {
-  "yazi": "Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için.",
-  "duyulan": "Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için.",
-  "hata": 0,
-  "sure": 3.82,
-  "uygun": true
- },
- "038": {
-  "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
-  "duyulan": "yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir ciyaklama da çıkarabiliyor.",
-  "hata": 0,
-  "sure": 5.56,
-  "uygun": true
- },
- "039": {
   "yazi": "Gelelim en çok merak edilen soruya: yemeğe düşerse zehirler mi?",
   "duyulan": "Gelelim en çok merak edilen soruya, yemeğe düşerse zehirler mi?",
   "hata": 0,
   "sure": 4.12,
   "uygun": true
  },
- "040": {
+ "007": {
   "yazi": "Hayır. Ev kertenkelesinin zehri yok.",
   "duyulan": "Hayır, ev kerten kelesinin zehri yok.",
   "hata": 0,
   "sure": 2.1,
   "uygun": true
  },
- "041": {
+ "008": {
   "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz.",
   "duyulan": "İnsana saldırmaz, yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz.",
   "hata": 0,
@@ -299,28 +64,28 @@
   "uygun": true,
   "tek_basina": true
  },
- "042": {
+ "009": {
   "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez.",
   "duyulan": "Yemeğe düşen bir kertenkele yemeği zehirlemez.",
   "hata": 0,
   "sure": 2.38,
   "uygun": true
  },
- "043": {
+ "010": {
   "yazi": "Ama burada bilmen gereken önemli bir gerçek var.",
   "duyulan": "Ama burada bilmen gereken önemli bir gerçek var.",
   "hata": 0,
   "sure": 2.24,
   "uygun": true
  },
- "044": {
+ "011": {
   "yazi": "Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında ve dışkılarında Salmonella bakterisi taşıyabiliyor.",
   "duyulan": "Pek çok sürüngen gibi evkertenkeleleri de vücutlarında ve dışkılarında salmonella bakterisi taşıyabiliyor.",
   "hata": 0,
   "sure": 5.6,
   "uygun": true
  },
- "045": {
+ "012": {
   "yazi": "Yani asıl mesele zehir değil, temizlik.",
   "duyulan": "Yani asıl mesele zehir değil, temizlik.",
   "hata": 0,
@@ -328,7 +93,7 @@
   "uygun": true,
   "tek_basina": true
  },
- "046": {
+ "013": {
   "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor.",
   "duyulan": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor.",
   "hata": 0,
@@ -336,18 +101,246 @@
   "uygun": true,
   "tek_basina": true
  },
- "047": {
+ "014": {
   "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi.",
   "duyulan": "Ona dokunduysan ellerini yıka. 5 yaşından küçük çocukların, 65 yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi.",
   "hata": 0,
   "sure": 8.04,
   "uygun": true
  },
- "048": {
+ "015": {
   "yazi": "Yiyecekleri açıkta bırakmamak da en basit önlem.",
   "duyulan": "Yiyecekleri açıkta bırakmamak da en basit önlem.",
   "hata": 0,
   "sure": 2.4,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Peki bu küçük hayvan kaygan bir camda, hatta tavanda baş aşağı nasıl yürüyor?",
+  "duyulan": "Peki bu küçük hayvan kaygan bir camda, hatta tavanda baş aşağı nasıl yürüyor?",
+  "hata": 0,
+  "sure": 5.1,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Cevap parmaklarında saklı.",
+  "duyulan": "Cevap, parmaklarında saklı.",
+  "hata": 0,
+  "sure": 1.72,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Geko parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.",
+  "duyulan": "Geco parmaklarının altında ince yapraklar gibi sıralanmış pedler var.",
+  "hata": 0,
+  "sure": 4.16,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Bu pedler, gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.",
+  "duyulan": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kıl lakaplı.",
+  "hata": 0,
+  "sure": 4.22,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.",
+  "duyulan": "her kılın ucu da çok sayıda daha da küçük uca ayrılıyor.",
+  "hata": 0,
+  "sure": 3.72,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
+  "duyulan": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
+  "hata": 0,
+  "sure": 5.72,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Tek tek çok zayıf olan bu çekim, milyonlarca uç bir araya gelince hayvanı tavanda tutmaya yetiyor.",
+  "duyulan": "Tek tek çok zayıf olan bu çekim, milyonlarca uç bir araya gelince hayvanı tavanda tutmaya yetiyor.",
+  "hata": 0,
+  "sure": 6.02,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor.",
+  "duyulan": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor.",
+  "hata": 0,
+  "sure": 6.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "025": {
+  "yazi": "Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok.",
+  "duyulan": "Ev kertenkelesinin bir tuhaflığı daha var. Göz kapakları yok.",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
+  "duyulan": "Gözleri tıpkı yılanlarda olduğu gibi şeffaf bir pul lakaplı.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Hatırlarsan sağır yılan göz kırpabiliyordu; bu kertenkele kırpamıyor.",
+  "duyulan": "Hatırlarsan sağır yılan göz kırpabiliyordu, bu kertenkele kırpamıyor.",
+  "hata": 0,
+  "sure": 3.86,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
+  "duyulan": "çoğu geko gibi gözünü temizlemenin başka bir yolunu bulmuş. Dilini çıkarıp gözünü yalıyor.",
+  "hata": 0,
+  "sure": 5.12,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Ev kertenkelesi bir gece hayvanı.",
+  "duyulan": "Ev Kertenkelesi Bir Gece Hayvanı",
+  "hata": 0,
+  "sure": 2.18,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "030": {
+  "yazi": "Gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor.",
+  "duyulan": "gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor.",
+  "hata": 0,
+  "sure": 6.3,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "031": {
+  "yazi": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor.",
+  "duyulan": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor.",
+  "hata": 0,
+  "sure": 3.56,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası.",
+  "duyulan": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası.",
+  "hata": 0,
+  "sure": 5.3,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
+  "duyulan": "Gözleri iri, göz bebekleri dikey, loş ışıkta görmeye çok uygun.",
+  "hata": 0,
+  "sure": 4.44,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
+  "duyulan": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
+  "hata": 0,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+  "duyulan": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+  "hata": 0,
+  "sure": 5.52,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Geceleri duvardan gelen kısa tıkırtılar duydun mu?",
+  "duyulan": "Geceleri duvardan gelen kısa tıkırtılar duydun mu?",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Kertenkelelerin çoğu sessizdir, ama gekolar ses çıkarabilen az sayıdaki kertenkele grubundan.",
+  "duyulan": "Kertenkelelerin çoğu sessizdir, ama Gekolar ses çıkarabilen az sayıdaki kertenkele grubundan.",
+  "hata": 0,
+  "sure": 6.32,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Erkek ev kertenkeleleri kısa tıkırtılarla sesleniyor.",
+  "duyulan": "Erkek evker tenkeleleri kısa tıkırtılarla sesleniyor.",
+  "hata": 0,
+  "sure": 3.5,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için.",
+  "duyulan": "Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için.",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
+  "duyulan": "yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir ciyaklama da çıkarabiliyor.",
+  "hata": 0,
+  "sure": 5.56,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
+  "duyulan": "Bilim dünyasındaki adı Hemidactylus turkicus.",
+  "hata": 0,
+  "sure": 3.2,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Adındaki turcicus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor.",
+  "duyulan": "Adındaki turkikus kelimesi Türk anlamına geliyor. İngilizce de bu yüzden ona Türk gekosu da deniyor.",
+  "hata": 0,
+  "sure": 5.56,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre.",
+  "duyulan": "Boyu kuyruğuyla birlikte genellikle 10 ila 13 cm.",
+  "hata": 0,
+  "sure": 3.68,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Derisi açık pembe ya da gri, hafif yarı saydam; sırtında küçük kabarcıklar var.",
+  "duyulan": "Derisi açık pembe ya da gri, hafif yarı saydam, sırtında küçük kabarcıklar var.",
+  "hata": 0,
+  "sure": 5.24,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Kuyruğunda koyu ve açık halkalar sıralanıyor.",
+  "duyulan": "Kuyruğunda koyu ve açık halkalar sıralanıyor.",
+  "hata": 0,
+  "sure": 2.7,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
+  "duyulan": "Anavatanı Akdeniz Çevresi ve Ortadoğu. Türkiye'de Kıyı Şeridi'nin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
+  "hata": 0,
+  "sure": 7.3,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "047": {
+  "yazi": "Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor.",
+  "duyulan": "Özellikle Ege ve Akdeniz kıyılarında, evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor.",
+  "hata": 0,
+  "sure": 6.98,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda.",
+  "duyulan": "gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda.",
+  "hata": 0,
+  "sure": 5.84,
   "uygun": true
  },
  "049": {
@@ -512,5 +505,13 @@
   "hata": 0,
   "sure": 6.78,
   "uygun": true
+ },
+ "016": {
+  "yazi": "Ama bu küçük komşunun asıl şaşırtıcı yanı başka: tavanda baş aşağı yürüyebiliyor ve gözünü diliyle temizliyor.",
+  "duyulan": "Ama bu küçük komşunun asıl şaşırtıcı yanı başka. Tavanda baş aşağı yürüyebiliyor ve gözünü diliyle temizliyor.",
+  "hata": 0,
+  "sure": 7.84,
+  "uygun": true,
+  "tek_basina": true
  }
 }
