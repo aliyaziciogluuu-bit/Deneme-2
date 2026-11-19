@@ -23,6 +23,9 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 
 ## Bekleyen
 
+- **E2 – Deniz ve fırtına sahnelerine gerçek dalga sesi (metin editörü, 19 Kasım):** 09 ve 23'te görüntüde dalga var, seste yok. Kanal sahibi Pixabay'den bir "ocean waves / sea storm" kaydı indirirse sesler yeniden kurulur. Görüntü yeniden üretilmez, ses kısa bir işle değişir. Böylece "waves sounds" etiketleri dürüst olur.
+  - Değerlendirme: etki 3, emek 2, maliyet yok, risk yok.
+
 - **P2 – Noel'e özel 8–10 saatlik "sleep marathon" (yapımcı):** etki 4, emek 4. Yönetici kararı BEKLET.
   - Neden: Mevcut Noel videolarının görüntüsü yeniden kullanılırsa "yeniden kullanılmış içerik" riski doğar.
   - Ocak'ta, özgün parçalarla bir "winter marathon" olarak yeniden değerlendirilecek.
@@ -30,6 +33,9 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
   - Önce K3'ten gelecek tutma verisine bakılacak.
 
 ## İç işler (patron uygular, kanal sahibine sunulmaz)
+
+- **E1 – Vaat denetimi betiği (metin editörü, 19 Kasım):** Yükleme metnindeki kelimeleri (waves, wind, thunder, sounds, BGM, lofi, music, sweeps, drifts) `sahne.json` > `ses` ve hareket listesiyle otomatik karşılaştırıp uyarı veren betik. K2 `onay.py` içine katılacak.
+- **M1 – Doğrulanabilir öğe listesi (metin yazarı, 19 Kasım):** Her sahne için nesne, konum, hareket var/yok ve ses var/yok listesi. Yapımcı taslaktan sonra çıkarır, metin yazarı ona bakarak yazar.
 
 - **K2 – `onay.py`:** tek komutlu yayın öncesi otomatik kontrol (kalite kontrol). Etki 3.
 - **Y3 – Shorts kancalarını çeşitlendirme ve deneme (metin yazarı):** POV'un yanında soru, talimat ve rakam kalıpları denenecek, sonuçlar `ilerleme.md`'de izlenecek. Ekran yazısıyla uyum kuralı korunacak.

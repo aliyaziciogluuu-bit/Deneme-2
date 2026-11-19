@@ -52,6 +52,18 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
   - Öyküdeki hareket ve ses iddiaları (sallanan fener, geçen tren, uğuldayan rüzgâr) videoda ya da `sahne.json` > `ses` içinde gerçekten olmalı. Olmayanlar sabit bir betimlemeye çevrilir ("parlıyor", "duruyor"). Kalite kontrol 22'de yakaladı.
   - Sorumlu: metin yazarı.
 
+- **19 Kasım, 23 deniz kulübesi (iki denetçi RET):**
+  - Fener ışını "dönüyor" (sweeps) diye anlatıldı, oysa videoda sabit. Bu, Shorts ekran yazısında da vardı ve Shorts'un yeniden çizilmesi gerekti.
+  - Pusula ve harita öyküde yanlış yerdeydi.
+  - Öyküde 09 deniz feneri sahnesiyle aynı kalıplar vardı.
+  - Ses listesinde dalga sesi yokken "storm sounds" etiketleri kullanıldı.
+  - **Kural:**
+    - Metin yazarı her cümlenin fiilini `sahne.json`'daki hareket listesiyle (ateş, yağış, buhar, su, sallantı, ek klip) ve `onizleme.jpg` ile eşleştirir. "sweeps, drifts, swings, sways, boils, hums" gibi fiillere özellikle dikkat eder.
+    - Aynı temadaki eski sahnenin öyküsünü yan yana açıp kalıpları karşılaştırır.
+    - "sounds" kelimesi yalnızca ses listesinde gerçekten olan şeyler için kullanılır.
+  - 24–28'deki benzer hatalar bu ders sayesinde üretimden önce düzeltildi (25: "Jungle Sounds" → "Misty Jungle").
+  - Sorumlu: metin yazarı.
+
 - **18 Kasım, ilk fikir toplantısı (patron yakaladı):** İki fikir, Shorts açıklamasına ve yorumuna tıklanabilir bağlantı konabileceğini varsaydı.
   - **Kural:** YouTube bu yüzeylerde bağlantıları tıklanabilir göstermiyor. Shorts'tan uzun videoya tek köprü "İlgili video".
   - Bir yönlendirme fikri önermeden önce o yüzeyde bağlantının gerçekten çalışıp çalışmadığını doğrula.
