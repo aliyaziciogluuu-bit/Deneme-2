@@ -39,3 +39,9 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 ## Metin editörü Tur 4 (19 Kasım)
 - Karar: ONAY. Puan: kanca 8, anlatim 8, baslik 8, shorts 8 (Tur 3: 6, 7, 6, 7).
 - Patron uyguladı (editörün "9 için" önerileri): tekrar eden cümle 33 çıkarıldı; "üç kirpi türü" → "birkaç kirpi türü" (üçüncü tür için açılmış kaynak yok, iki tür adlandırılıyordu); diken bölümü "Peki bu dikenler tehlikeli mi?" sorusuyla açıldı (1:33–2:19 sorusuz aralık bölündü). 22 ve yeni 26 seslendirilecek.
+
+## Kalite kontrol Tur 2 (19 Kasım)
+- Karar: RET (yalnızca kadraj). Puan: ses 8, gorsel 7, teknik 9, shorts 6 (Tur 1: 7, 5, 8, 5).
+- Kapananlar: top klibi, ölçek (sut_kabi), cit_delik bacaksız gövde, 029 "halka", eski Shorts 6.
+- Kalanlar: s2 ilk çekimde ve s1'de iki karede altyazı burna değiyor; s2 elmalı sahnede yüz kesik; uzun video 5:08'de altyazı kirpinin yüzünde. → Shorts uzmanı (Tur 3).
+- TEKRARLANAN KUSUR: Shorts'ta altyazı/yazı yüze biniyor (baykuş, yarasa, karga, kirpi). Kural: altyazı ile burun/göz arasında en az 30 px; otomatik test önerisi (İ3) öncelikli.
