@@ -310,8 +310,9 @@
   "yazi": "Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş, çoğu zaman alaca baykuşa ait.",
   "duyulan": "Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş çoğu zaman Alacabay kuşa ait.",
   "hata": 0,
-  "sure": 5.62,
-  "uygun": true
+  "sure": 6.78,
+  "uygun": true,
+  "tek_basina": true
  },
  "046": {
   "yazi": "Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de ishakkuşu.",
@@ -481,9 +482,9 @@
  },
  "005": {
   "yazi": "Birazdan göreceğin bu kuş, başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor.",
-  "duyulan": "Birazdan göreceğin bu kuş, başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor.",
+  "duyulan": "Birazdan göreceğin bu kuş başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor.",
   "hata": 0,
-  "sure": 7.7,
+  "sure": 7.48,
   "uygun": true,
   "tek_basina": true
  },

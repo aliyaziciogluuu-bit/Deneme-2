@@ -2,8 +2,8 @@
 001 fark=0 | Evdeki büyükler hemen birbirine bakıyor: baykuş öttü, hayra alamet değil. || Evdeki büyükler hemen birbirine bakıyor. Baykuş öttü, hayra alamet değil.
 002 fark=0 | Kimi pencereden onu kovalıyor, kimi taş atıyor. || Kimi pencereden onu kovalıyor, kimi taş atıyor.
 003 fark=0 | Peki baykuş gerçekten uğursuz mu? || Peki Baykuş gerçekten uğursuz mu?
-004 fark=0 | Yoksa yüzyıllardır yanlış tanıdığımız, köyün en çalışkan gece bekçisi mi? || Yoksa yüzyıllardır yanlış tanıdığımız köyün en çalışkan gece bekçisi mi?
-005 fark=0 | Birazdan göreceğin bu gece kuşu, başını neredeyse arkasına kadar çevirebiliyor, neredeyse hiç ses çıkarmadan uçuyor ve köyün en çalışkan fare avcılarından biri. || Birazdan göreceğin bu gece kuşu, başını neredeyse arkasına kadar çevirebiliyor. Neredeyse hiç ses çıkarmadan uçuyor ve köyün en çalışkan fare avcılarından biri.
+004 fark=0 | Yoksa yüzyıllardır yanlış tanıdığımız, köyün en çalışkan gece bekçisi mi? || yoksa yüzyıllardır yanlış tanıdığımız köyün en çalışkan gece bekçisi mi?
+005 fark=1 | Birazdan göreceğin bu kuş, başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor. || Birazdan göreceğim bu kuş başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor.
 006 fark=0 | Önce cevabı verelim: baykuş uğursuz değil; tam tersine, köylünün en faydalı komşularından biri. || Önce cevabı verelim. Baykuş uğursuz değil. Tam tersine köylünün en faydalı komşularından biri.
 007 fark=0 | Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor. || Bir peçeli baykuş ailesi bir yılda binlerce kemirgen yiyebiliyor.
 008 fark=0 | Bu yüzden İsrail başta olmak üzere birçok ülkede çiftçiler, fare zehrini azaltmak için tarlalarına baykuş yuva kutuları koyuyor. || Bu yüzden İsrail başta olmak üzere birçok ülkede çiftçiler fare zehrini azaltmak için tarlalarına baykuş yuva kutuları koyuyor.
@@ -14,7 +14,7 @@
 013 fark=0 | Baykuş, köyün ücretsiz ve sessiz fare avcısı. || Baykuş, köyün ücretsiz ve sessiz fare avcısı.
 014 fark=0 | Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor. || Baykuş'un gözleri o kadar büyük ki göz yuvalarının içinde dönemiyor.
 015 fark=0 | Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş. || Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş.
-016 fark=0 | Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor. || Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor.
+016 fark=0 | Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor. || Bu yüzden etrafına bakmak için gözlerini değil başını çeviriyor.
 017 fark=0 | Halk arasında başını tam bir tur döndürdüğü söylenir, ama bu doğru değil. || Halk arasında başını tam bir tur döndürdüğü söylenir ama bu doğru değil.
 018 fark=0 | Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü. || Baykuş başını 270 dereceye kadar çevirebiliyor, yani tam bir turun yaklaşık dörtte üçü.
 019 fark=0 | Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var. || Bizim boynumuzda 7 omur varken, baykuşun boynunda 14 omur var.
@@ -39,11 +39,11 @@
 038 fark=0 | Baykuşun kendisi ne uğur getiriyor ne de uğursuzluk; sadece karnını doyurmaya çalışıyor. || Baykuş'un kendisi ne uğur getiriyor ne de uğursuzluk. Sadece karnını doyurmaya çalışıyor.
 039 fark=0 | Türkiye'de birçok baykuş türü yaşıyor, ama evlerin çevresinde en sık karşılaşılanlar birkaç tane. || Türkiye'de birçok baykuş türü yaşıyor ama evlerin çevresinde en sık karşılaşılanlar birkaç tane.
 040 fark=0 | Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri. || Kukumav, köylerde ve kasabalarda en sık görülen baykuşlardan biri.
-041 fark=0 | Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü. || Bir güvercinden küçük, yuvarlak başlı, benekli ve kocaman sarı gözlü.
-042 fark=0 | Pek çok baykuşun aksine gündüz de ortaya çıkıyor; damlarda, direklerde ve taş duvarların üstünde oturuyor. || Pek çok baykuşun aksine gündüz de ortaya çıkıyor, damlarda, direklerde ve taş duvarların üstünde oturuyor.
-043 fark=0 | Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor. || Peçeli Baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor.
+041 fark=0 | Bir güvercinden küçük; yuvarlak başlı, benekli ve kocaman sarı gözlü. || Bir güvercinden küçük, yuvarlak başlı, benekli ve kocaman sarıgözlü.
+042 fark=0 | Pek çok baykuşun aksine gündüz de ortaya çıkıyor; damlarda, direklerde ve taş duvarların üstünde oturuyor. || Pek çok baykuşun aksine gündüzde ortaya çıkıyor, damlarda, direklerde ve taş duvarların üstünde oturuyor.
+043 fark=0 | Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor. || Peçeli baykuş, kalp şeklindeki beyaz yüzüyle hemen tanınıyor.
 044 fark=0 | Ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor. || ambarlarda, samanlıklarda ve eski binaların çatı aralarında yuva yapabiliyor.
-045 fark=0 | Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş, çoğu zaman alaca baykuşa ait. || Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş çoğu zaman Alacabay kuşa ait.
+045 fark=3 | Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş, çoğu zaman alaca baykuşa ait. || Geceleri ağaçlık yerlerden gelen o derin, titrek ötüş çoğu zaman Alacabay kuşağı idi.
 046 fark=0 | Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de ishakkuşu. || Yazın bahçelerde bütün gece birkaç saniyede bir tekrarlanan kısa, yumuşak ıslığın sahibi de İshak kuşu.
 047 fark=0 | Bu minik baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor. || Bu minik baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor.
 048 fark=0 | Ne yazık ki baykuşlar için en büyük tehlikelerden biri insan. || Ne yazık ki baykuşlar için en büyük tehlikelerden biri insan.
@@ -64,6 +64,6 @@
 063 fark=0 | Uygun bir yerin varsa, baykuşlar için bir yuva kutusu da asabilirsin. || Uygun bir yerin varsa, baykuşlar için bir yuva kutusu da asabilirsin.
 064 fark=0 | Baykuş ne ölüm getirir, ne de kötü haber. || Baykuş ne ölüm getirir ne de kötü haber.
 065 fark=0 | O, biz uyurken tarlaları farelerden koruyan, gecenin sessiz bekçisi. || O, biz uyurken tarlaları farelerden koruyan, gecenin sessiz bekçisi.
-066 fark=0 | Bir dahaki sefere çatından o boğuk ses yükseldiğinde korkma; sadece komşun iş başında. || Bir dahaki sefere çatından o boğuk ses yükseldiğinde korkma. Sadece komşun işbaşında.
+066 fark=0 | Bir dahaki sefere çatından o boğuk ses yükseldiğinde korkma; sadece komşun iş başında. || Bir dahaki sefere çatından o boğuk ses yükseldiğinde korkma. Sadece komşun iş başında.
 067 fark=0 | Senin oralarda baykuşla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz. || Senin oralarda Baykuş'la ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.
-068 fark=0 | Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere. || Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.
+068 fark=0 | Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere. || Avludaki komşularda, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.
