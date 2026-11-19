@@ -32,12 +32,16 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **K1 – Uyku sonunda yumuşak iniş: son 20–30 dakikada ses kısılır (kalite kontrol):** etki 2–3. Yönetici kararı BEKLET.
   - Önce K3'ten gelecek tutma verisine bakılacak.
 
+- **Y4 – Uzun video başlık kalıbını çeşitlendirme (kanal yöneticisi, 19 Kasım):** 21–28'in sekiz başlığından altısı aynı kalıpta ("3 Hours [Sıfat] [Mekân] [emoji] [3 öğe] for Sleep"). Bir sahnede, örneğin 28'de, tek kancalı farklı bir başlık denenir ve Analytics'te tıklama oranı karşılaştırılır.
+  - Değerlendirme: etki 2–3, emek 1, maliyet yok.
+
 ## İç işler (patron uygular, kanal sahibine sunulmaz)
 
 - **E1 – Vaat denetimi betiği (metin editörü, 19 Kasım):** Yükleme metnindeki kelimeleri (waves, wind, thunder, sounds, BGM, lofi, music, sweeps, drifts) `sahne.json` > `ses` ve hareket listesiyle otomatik karşılaştırıp uyarı veren betik. K2 `onay.py` içine katılacak.
 - **M1 – Doğrulanabilir öğe listesi (metin yazarı, 19 Kasım):** Her sahne için nesne, konum, hareket var/yok ve ses var/yok listesi. Yapımcı taslaktan sonra çıkarır, metin yazarı ona bakarak yazar.
 
 - **K2 – `onay.py`:** tek komutlu yayın öncesi otomatik kontrol (kalite kontrol). Etki 3.
+  - Ek (kanal yöneticisi, 19 Kasım): Shorts için `bas` ve `son` kadrajlarının iki küçük kırpım karesini üretsin. Böylece yazıdaki öğenin iki uçta da görünüp görünmediğine bakılır.
 - **Y3 – Shorts kancalarını çeşitlendirme ve deneme (metin yazarı):** POV'un yanında soru, talimat ve rakam kalıpları denenecek, sonuçlar `ilerleme.md`'de izlenecek. Ekran yazısıyla uyum kuralı korunacak.
 - **P1 – Shorts sonuna "Full 3-hour version on the channel" yazısı (yapımcı):** Yalnızca İlgili video bağlı 2–3 Shorts'ta pilot. Sağ alt köşe kullanılmayacak.
 
