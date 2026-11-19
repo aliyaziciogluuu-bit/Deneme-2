@@ -11,3 +11,9 @@ Video 16–17 Kasım'da ofis öncesi dönemde üretildi ve 20 Kasım 18:00 için
 | 2 | Metin editörü | RET (kanca 6, anlatım 8, başlık 6, Shorts 6) | İlk 11 sn dolgu, soru üç kez soruluyor, vaat 1:14'te; 0:44–1:14 hijyen bloğu düşüş penceresinde; küçük resim alt yazısı başlığı tekrar ediyor; Shorts 3 ilk cümlesi soruyu tekrar ediyor; Ege/Akdeniz tekrarı |
 | – | Patron | düzeltme | Giriş: "Sen ona bakıyorsun", "gizli kiracı", "yanlış bilinen pek çok şey", "Gelelim en çok merak edilen soruya" çıktı; vaat cümlesi (003) ve "Önce yemek sorusu." eklendi; geç köprü yerine "Şimdi gelelim asıl şaşırtıcı kısma."; "Yiyecekleri açıkta bırakmamak" çıktı (güvenlik uyarıları korundu); Ege/Akdeniz tekrarı giderildi; küçük resim alt yazısı "Gözünü yalıyor!"; Shorts 3 "Yemeğe düşen bir kertenkele, yemeği zehirlemez." ile açılıyor. 69 cümle, 69/69 uygun |
 | 3 | Metin editörü | ONAY (kanca 8, anlatım 8, başlık 8, Shorts 7) | Cevap 0:28, vaat 0:17–0:26, dolgu gitti; küçük resim yazısı yeni vaat taşıyor (patron kontrol etti: yazı yüze değmiyor) |
+| 3 | Kalite kontrol | ONAY (ses 8, görsel 7, teknik 9) | 14/14, 0/713; goz_yalama klibinde göz kırpma yok (18 kare); kapanış klibinde 3,0–3,5 sn şekil bozulması; Shorts 3 son sahnede burun kadraj kenarında |
+| – | Patron | düzeltme | Kapanış klibi 0–2,9 sn'ye kırpıldı (ileri-geri); Shorts 3 son sahne kadrajı düzeltildi (aw/ay) |
+
+## Puan kartı
+- Tur 1: 67,5 (bilgi ve metin ilk puanları; kalite kontrol puanları Tur 3'ten) → RET
+- Tur 3: 79,0 → DÜZELTME aralığı. Bütün denetçiler ONAY verdi, kırmızı çizgi yok.

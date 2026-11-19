@@ -54,7 +54,42 @@
    ]
   },
   "02-ev-kertenkelesi": {
-   "turlar": [],
+   "turlar": [
+    {
+     "tur": 1,
+     "tarih": "2026-11-19",
+     "puan": {
+      "dogruluk": 6.0,
+      "guvenlik": 7.0,
+      "kanca": 6.0,
+      "anlatim": 8.0,
+      "baslik": 6.0,
+      "shorts": 6.0,
+      "ses": 8.0,
+      "gorsel": 7.0,
+      "teknik": 9.0
+     },
+     "toplam": 67.5,
+     "sonuc": "RET"
+    },
+    {
+     "tur": 3,
+     "tarih": "2026-11-19",
+     "puan": {
+      "dogruluk": 8.0,
+      "guvenlik": 8.0,
+      "kanca": 8.0,
+      "anlatim": 8.0,
+      "baslik": 8.0,
+      "shorts": 7.0,
+      "ses": 8.0,
+      "gorsel": 7.0,
+      "teknik": 9.0
+     },
+     "toplam": 79.0,
+     "sonuc": "DÜZELTME"
+    }
+   ],
    "kacirilan": [
     "Ofis öncesi bilgi kontrolü kaçırdı: Salmonella tür adıyla kanıtsız, ısırık cümlesi kaynaksız, 'zararı yok' abartısı, dağılım abartısı; Shorts 3'te risk grubu uyarısı düşmüştü (19 Kasım ofis kontrolünde yakalandı, video yayından önce düzeltildi)"
    ]
