@@ -71,6 +71,9 @@ Biçim: tarih ve video · ne oldu · kural · sorumlu.
 - **18 Kasım, 05 küçük resim:** "UĞURSUZ" yazısı baykuşun yüzüne değiyordu.
   - **Kural:** Küçük resimde yazı hayvanın yüzüne değmez. Gerekirse senaryo.json > kapak > "genislik" düşürülür.
 
+- **Ölçek kontrolü (karga, 19 Kasım):** İnsan ve hayvanın birlikte olduğu sahnede boy oranı kontrol edilir. Seçilen görselde kargalar insandan büyük çizilmişti; anatomi kontrolünden geçmiş, kalite kontrol fark etmemişti. İsteme gerçek boy ölçüsü yazılır ("karga insanın dizinin altında kalır") ve seçimde ilk bakılan şey ölçektir.
+- **Bilinmeyen türün yüz özelliği (ekin kargası, 19 Kasım):** Flux "çıplak açık renkli yüz derisi" istemini beyaz göğüs tüyü olarak çizdi. Bu tür ayırt edici özellikler için istem tek başına yetmeyebilir; iki denemeden sonra yanlış tür özelliği çizen aday yerine genel ama yanlış olmayan aday seçilir.
+
 ## Teknik ve iş akışı
 
 - **17 Kasım:** Dikey önizlemelerin klip önbelleği (her biri ~900 MB) silinmediği için disk doldu.

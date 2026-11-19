@@ -15,4 +15,5 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 19 Kas | 05 baykuş yeniden sıralama | – | – | ~0,2 $ | ~0,2 $ | |
 | 19 Kas | 02–04 ofis düzeltmeleri | – | – | ~1,0 $ | ~1,0 $ | geko, kirpi, yarasa yeniden seslendirmeler |
 | 19 Kas | 06 karga | ~2,64 $ + ~0,90 $ (7 görsel yeniden) | | | ~3,5 $ | klipler sırada (~2,45 $) |
-| | **Kasım toplamı** | | | | **~34 $** | aylık bütçe 60 $ |
+| 19 Kas | 06 karga düzeltmeleri | ~0,36 $ (tüp-taş 3 + maske 3 aday) | ~1,05 $ (3 klip) | ~0,02 $ | ~1,4 $ | dev karga ölçeği, iki solucan; Shorts açılış klipleri |
+| | **Kasım toplamı** | | | | **~36 $** | aylık bütçe 60 $ |
