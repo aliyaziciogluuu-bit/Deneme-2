@@ -98,3 +98,5 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
 - Sahnedeki her hareket doğal olmalı: ateş, kar, yağmur, buhar, su. Abartılı ya da yanlış yerde hareket, hiç hareket olmamasından kötüdür.
 - Her video kanaldaki diğerlerinden ayırt edilebilmeli: farklı mekân, farklı öykü, farklı kanca.
 - Bir şeyden emin değilsen raporunda açıkça yaz. Saklanan bir şüphe, sonradan kullanıcının yakaladığı bir hataya dönüşür.
+
+- **"Sahibi sobayı yakar, çaydanlık üstte" kalıbı yasak (24 tekne evi RET'i).** "Its owner lights the (little iron) stove, sets the kettle on top" ve "When the rain(s) come/arrive, its owner lights…" kanalın klişesi oldu (15, 18, 20, 24, 25'te geçti). Öykü yazmadan önce eski öykülerin ilk iki cümlesini `grep -h -A3 DESCRIPTION dream-window/*/yukleme_3saat.txt` ile karşılaştır; kimsenin bir şey yaktığını/hazırladığını anlatmak yerine sahnedeki sesi ve ışığı (yağmur, çıtırtı, yansıma, buhar) öznesi yap.
