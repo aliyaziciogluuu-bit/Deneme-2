@@ -1,9 +1,9 @@
 {
  "000": {
-  "yazi": "Bahçede gördüğün bir kirpinin önüne süt koyarsan, ona iyilik değil zarar verirsin.",
-  "duyulan": "Bahçede gördüğün bir kirpinin önüne süt koyarsan ona iyilik değil zarar verirsin.",
+  "yazi": "Bahçede gördüğün bir kirpinin önüne süt koyarsan, ona iyilik yapmak isterken zarar verebilirsin.",
+  "duyulan": "Bahçede gördüğün bir kirpinin önüne süt koyarsan, ona iyilik yapmak isterken zarar verebilirsin.",
   "hata": 0,
-  "sure": 5.2,
+  "sure": 6.04,
   "uygun": true,
   "tek_basina": true
  },

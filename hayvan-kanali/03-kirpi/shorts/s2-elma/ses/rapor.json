@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Hayır: kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
+  "duyulan": "Hayır, kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
+  "hata": 0,
+  "sure": 3.76,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
+  "duyulan": "Bu inanç, yaklaşık 2000 yıl önce yaşamış Romalı yazar, yaşlı Plinyos'un yazılarında da geçiyor.",
+  "hata": 0,
+  "sure": 5.28,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla karşımıza çıkıyor.",
+  "duyulan": "Masallarda ve çizimlerde kirpi hala sırtında elmalarla karşımıza çıkıyor.",
+  "hata": 0,
+  "sure": 4.34,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Dikenleri onu avcılardan korumaya yarıyor.",
+  "duyulan": "dikenleri onu avcılardan korumaya yarıyor.",
+  "hata": 0,
+  "sure": 2.38,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Kirpi aslında böcek avcısı; ana besini böcekler ve solucanlar. Tam videosu kanalımızda.",
+  "duyulan": "Kirpi aslında böcek avcısı. Ana besini böcekler ve solucanlar. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 5.9,
+  "uygun": true
+ }
+}
