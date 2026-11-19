@@ -1,12 +1,4 @@
 {
- "000": {
-  "yazi": "Sabah bahçeye çıkıyorsun; tahta perdenin üstündeki karga seni görür görmez bağırıyor.",
-  "duyulan": "Sabah bahçeye çıkıyorsun, tahta perdenin üstündeki karga seni görür görmez bağırıyor.",
-  "hata": 0,
-  "sure": 5.44,
-  "uygun": true,
-  "tek_basina": true
- },
  "001": {
   "yazi": "Peki karga seni gerçekten tanıyor mu?",
   "duyulan": "Peki karga seni gerçekten tanıyor mu?",

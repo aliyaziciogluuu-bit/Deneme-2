@@ -1,14 +1,14 @@
-[GEÇTİ] Cümle cümle ses doğrulaması 71/71 cümle doğrulandı
+[GEÇTİ] Cümle cümle ses doğrulaması 70/70 cümle doğrulandı
 [GEÇTİ] Görüntü biçimi 1920x1080 30 fps h264/aac
-[GEÇTİ] Video ve ses süresi tutarlı video 354.0 sn, ses 354.0 sn
-[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.7 LUFS, tepe -1.3 dBTP
+[GEÇTİ] Video ve ses süresi tutarlı video 349.9 sn, ses 349.9 sn
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.6 LUFS, tepe -1.3 dBTP
 [GEÇTİ] Siyah kare yok 
 [GEÇTİ] Donmuş görüntü yok (4 sn+) 
-[GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 71/71 cümle birebir, toplam 5/727 kelime farkı
-[GEÇTİ] Altyazı zamanlaması 111 altyazı, son 351.8 sn
+[GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 70/70 cümle birebir, toplam 5/715 kelime farkı
+[GEÇTİ] Altyazı zamanlaması 110 altyazı, son 347.7 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 73 karakter
 [GEÇTİ] Başlık uzunluğu 54 karakter
-[GEÇTİ] Açıklama uzunluğu ve karakterleri 4310 karakter
+[GEÇTİ] Açıklama uzunluğu ve karakterleri 4326 karakter
 [GEÇTİ] Etiketler (toplam ≤ 500) 16 etiket
 [GEÇTİ] Bölümler (YouTube kuralları) 12 bölüm, en kısa 13 sn
 [GEÇTİ] Kapak 1280x720, 181 KB

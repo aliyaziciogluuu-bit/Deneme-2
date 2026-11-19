@@ -557,5 +557,13 @@
   "sure": 1.96,
   "uygun": true,
   "tek_basina": true
+ },
+ "056": {
+  "yazi": "Kutuda boşluk bırak; kirpi şişeden uzaklaşabilsin.",
+  "duyulan": "Kutuda boşluk bırak, kirpi şişeden uzaklaşabilsin.",
+  "hata": 0,
+  "sure": 3.36,
+  "uygun": true,
+  "tek_basina": true
  }
 }

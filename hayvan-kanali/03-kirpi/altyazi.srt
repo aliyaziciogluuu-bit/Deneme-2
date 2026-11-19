@@ -299,101 +299,101 @@ Eldivenle, içine havlu serilmiş, kenarları yüksek bir kutuya al.
 su dolu bir şişe koy; şişe soğursa suyu değiştir.
 
 76
-00:04:25,800 --> 00:04:29,305
-Kirpi ondan uzaklaşabilsin diye kutuda boşluk bırak.
+00:04:25,800 --> 00:04:29,405
+Kutuda boşluk bırak; kirpi şişeden uzaklaşabilsin.
 
 77
-00:04:29,410 --> 00:04:32,475
+00:04:29,510 --> 00:04:32,575
 Kutuyu sessiz bir yere koy ve ellerini iyice yıka.
 
 78
-00:04:32,580 --> 00:04:37,285
+00:04:32,680 --> 00:04:37,385
 Sonra bir yaban hayatı kurtarma merkezine ya da bir veterinere haber ver.
 
 79
-00:04:37,390 --> 00:04:42,060
+00:04:37,490 --> 00:04:42,160
 Bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne de ulaşabilirsin.
 
 80
-00:04:42,660 --> 00:04:45,264
+00:04:42,760 --> 00:04:45,364
 Arabalar kirpiler için ciddi bir tehlike;
 
 81
-00:04:45,264 --> 00:04:49,065
+00:04:45,364 --> 00:04:49,165
 geceleri yolu geçerken araçların altında kalabiliyorlar.
 
 82
-00:04:49,170 --> 00:04:52,501
+00:04:49,270 --> 00:04:52,601
 Bahçelerde de çim biçme ve kenar kesme makineleri,
 
 83
-00:04:52,501 --> 00:04:57,275
+00:04:52,601 --> 00:04:57,375
 sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor.
 
 84
-00:04:57,380 --> 00:05:01,005
+00:04:57,480 --> 00:05:01,105
 Kirpiler bir gecede kilometrelerce yol yürüyebiliyor.
 
 85
-00:05:01,110 --> 00:05:03,815
+00:05:01,210 --> 00:05:03,915
 Bu yüzden bahçe duvarının ya da tahta perdenin
 
 86
-00:05:03,815 --> 00:05:07,235
+00:05:03,915 --> 00:05:07,335
 dibinde açılan bir delik, onlar için bir geçit oluyor.
 
 87
-00:05:07,340 --> 00:05:10,381
+00:05:07,440 --> 00:05:10,481
 Delik on üç santimetreye on üç santimetre olabilir;
 
 88
-00:05:10,381 --> 00:05:14,145
+00:05:10,481 --> 00:05:14,245
 bahçen kalabalık bir yola bakıyorsa deliği yola doğru açma.
 
 89
-00:05:14,250 --> 00:05:18,295
+00:05:14,350 --> 00:05:18,395
 Bahçenin bir köşesinde bırakılan yaprak yığını da onlara yuva oluyor.
 
 90
-00:05:18,400 --> 00:05:20,963
+00:05:18,500 --> 00:05:21,063
 Bahçede havuz varsa bir kenarına rampa koy;
 
 91
-00:05:20,963 --> 00:05:24,545
+00:05:21,063 --> 00:05:24,645
 kirpiler yüzebilir ama kaygan kenarlardan çıkamayabilir.
 
 92
-00:05:24,650 --> 00:05:29,835
+00:05:24,750 --> 00:05:29,935
 Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.
 
 93
-00:05:29,940 --> 00:05:34,110
+00:05:30,040 --> 00:05:34,210
 Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.
 
 94
-00:05:34,710 --> 00:05:37,935
+00:05:34,810 --> 00:05:38,035
 Bir kirpi ne süt ister, ne de ekmek.
 
 95
-00:05:38,040 --> 00:05:43,345
+00:05:38,140 --> 00:05:43,445
 Sadece biraz su, güvenli bir köşe ve geceleri dolaşabileceği bir bahçe.
 
 96
-00:05:43,450 --> 00:05:48,155
+00:05:43,550 --> 00:05:48,255
 Bir dahaki sefere bahçende onu gördüğünde, süt yerine bir kap su bırak.
 
 97
-00:05:48,260 --> 00:05:50,439
+00:05:48,360 --> 00:05:50,539
 Senin oralarda kirpiyle ilgili hangi
 
 98
-00:05:50,439 --> 00:05:52,985
+00:05:50,539 --> 00:05:53,085
 inanışlar anlatılıyor? Yorumlarda yaz.
 
 99
-00:05:53,090 --> 00:05:56,973
+00:05:53,190 --> 00:05:57,073
 Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
 
 100
-00:05:56,973 --> 00:06:00,760
+00:05:57,073 --> 00:06:00,860
 komşuları anlatmaya devam edeceğiz. Görüşmek üzere.
