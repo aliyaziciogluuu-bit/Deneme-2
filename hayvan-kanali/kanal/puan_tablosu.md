@@ -22,6 +22,7 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 | 02-ev-kertenkelesi | 3 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 8.0 | 7.0 | 9.0 | **79.0** | DÜZELTME |
 | 02-ev-kertenkelesi | 4 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 8.0 | 8.0 | 9.0 | **80.0** | TESLİM |
 | 04-yarasa | 2 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 7.0 | 8.0 | 7.0 | 8.0 | **77.5** | DÜZELTME |
+| 04-yarasa | 3 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | **80.5** | TESLİM |
 | 05-baykus | 1 | 2026-11-19 | 6.0 | 5.0 | 7.0 | 8.0 | 7.0 | 5.0 | 8.0 | 6.0 | 8.0 | **66.5** | RET (kırmızı çizgi: guvenlik) |
 | 05-baykus | 2 | 2026-11-19 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | 8.0 | 8.0 | **84.0** | TESLİM |
 
@@ -55,11 +56,11 @@ Hedef: her ölçütte ilk turda 9. Bir ölçüt yerinde sayıyorsa dersler defte
 | Güvenlik ve çekinceler | 7 → 8 | 8 | 5 → 9 |
 | Giriş ve izleyici tutma | 6 → 8 | 8 | 7 → 8 |
 | Anlatım ve Türkçe | 8 | 8 | 8 |
-| Başlık, küçük resim, açıklama | 6 → 8 | 7 | 7 → 8 |
-| Shorts kancası | 6 → 7 | 7 | 5 → 8 |
+| Başlık, küçük resim, açıklama | 6 → 8 | 7 → 8 | 7 → 8 |
+| Shorts kancası | 6 → 7 | 7 → 8 | 5 → 8 |
 | Seslendirme ve ses | 8 | 8 | 8 → 9 |
-| Görsel, anatomi, kadraj | 7 → 8 | 7 | 6 → 8 |
-| Testler ve teslim | 9 | 8 | 8 |
+| Görsel, anatomi, kadraj | 7 → 8 | 7 → 8 | 6 → 8 |
+| Testler ve teslim | 9 | 8 → 9 | 8 |
 
 ## Denetçilerin kaçırdığı hatalar
 

@@ -484,5 +484,29 @@
   "sure": 6.06,
   "uygun": true,
   "tek_basina": true
+ },
+ "000": {
+  "yazi": "Sabah bahçeye çıkıyorsun; tahta perdenin üstündeki karga seni görür görmez bağırıyor.",
+  "duyulan": "Sabah bahçeye çıkıyorsun, tahta perdenin üstündeki karga seni görür görmez bağırıyor.",
+  "hata": 0,
+  "sure": 5.44,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "032": {
+  "yazi": "Güney Kore'de yapılan bir deneyde, saksağan yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
+  "duyulan": "Güney Kore'de yapılan bir deneyde, Saksahan yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
+  "hata": 0,
+  "sure": 6.1,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "055": {
+  "yazi": "Kanada'daki bir yaban hayatı kurtarma derneğine göre, kargalar uçmayı öğrenirken bir süre yerde kalabiliyor.",
+  "duyulan": "Kanada'daki bir yaban hayatı kurtarma derneğine göre, kargalar uçmayı öğrenirken bir süre yerde kalabiliyor.",
+  "hata": 0,
+  "sure": 6.84,
+  "uygun": true,
+  "tek_basina": true
  }
 }
