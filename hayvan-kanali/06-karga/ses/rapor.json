@@ -486,5 +486,13 @@
   "sure": 3.86,
   "uygun": true,
   "tek_basina": true
+ },
+ "031": {
+  "yazi": "Güney Kore'de yapılan bir deneyde, yuvası olan saksağan çiftleri yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
+  "duyulan": "Güney Kore'de yapılan bir deneyde yuvası olan saksağın çiftleri yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
+  "hata": 0,
+  "sure": 7.28,
+  "uygun": true,
+  "tek_basina": true
  }
 }
