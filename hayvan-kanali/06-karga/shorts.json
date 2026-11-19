@@ -30,7 +30,7 @@
      "x": 0.63,
      "x2": 0.42,
      "aw": 0.6,
-     "ay": 0.3
+     "ay": 0.2
     },
     {
      "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.",
@@ -63,7 +63,7 @@
      "x": 0.62,
      "x2": 0.6,
      "aw": 0.5,
-     "ay": 0.3
+     "ay": 0.18
     }
    ]
   },
@@ -86,15 +86,15 @@
     {
      "yazi": "Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.",
      "gorsel": "tup_tas",
-     "x": 0.45,
+     "x": 0.43,
      "x2": 0.5,
-     "aw": 0.5,
-     "ay": 0.3
+     "aw": 0.6,
+     "ay": 0.15
     },
     {
      "yazi": "Dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşüktü, uzanamadılar.",
      "gorsel": "tup_tas",
-     "x": 0.55,
+     "x": 0.6,
      "aw": 0.7,
      "ay": 0.5
     },
@@ -110,20 +110,22 @@
      "gorsel": "ekin_portre",
      "x": 0.45,
      "aw": 0.8,
-     "ay": 0.3
+     "ay": 0.4
     },
     {
      "yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu.",
      "gorsel": "ekin_portre",
      "x": 0.35,
-     "x2": 0.55
+     "x2": 0.55,
+     "ay": 0.4,
+     "aw": 0.8
     },
     {
      "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda.",
      "gorsel": "tup_tas",
-     "x": 0.4,
-     "aw": 0.7,
-     "ay": 0.35
+     "x": 0.35,
+     "aw": 0.9,
+     "ay": 0.3
     }
    ]
   }
