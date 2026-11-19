@@ -40,3 +40,4 @@
 ## Bilgi kontrolü Tur 3 (19 Kasım, değişen cümleler)
 - Karar: ONAY. Puan: doğruluk 7, güvenlik 8 (Tur 2: 8, 9). Kırılma nedeni: silinen "küçük karga"nın açıklama/etiket/kaynakta kalan göndermeleri, Güney Kore tekil anlatımı, taş cümlesinde deney çekincesi eksik.
 - Patron uyguladı: Güney Kore "yuvası olan saksağan çiftleri"; taş cümlesi "Amerikan kargalarıyla yapılan maske deneyine bakılırsa tehdit eden kişi hatırlanabiliyor" ve bölümün ilk cümlesi yapıldı (çöp cümlesiyle yer değişti, çekimler de); açıklama, etiketler ve kaynak listesinden küçük karga çıkarıldı.
+- Bilgi kontrolü Tur 3b (19 Kasım): ONAY, doğruluk 8, güvenlik 9. Son iki not uygulandı: "Maske deneyi Türkiye'deki kargalarla yapılmadı; …" ve vaat "kargaya taş atmanın neden kötü fikir olabileceğini göreceksin" (çekinceli, küçük resimle bağlı).
