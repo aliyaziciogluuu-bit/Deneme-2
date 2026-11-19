@@ -80,6 +80,7 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 
 | Ne zaman | Ne yapılır | Kim |
 |---|---|---|
+| **Her gün 09:43: otomatik bekçi turu** (zamanlanmış görev; kanal sahibi 19 Kasım'da istedi) | `otomatik.py kontrol --hepsi --kaynak`, güvenli düzeltmeler, eski video ve eksik seslerin yenilenmesi, pano ve üretim müdürü raporu; kanal sahibine yalnızca yapması gerekenler | patron, üretim müdürü |
 | **Her video** | Üretim → otomatik metin denetimi → bilgi kontrolü → üretim → denetim ve puan → yönetici → teslim | bütün ofis |
 | **Yayın günü** (salı ve cuma, 18:00) | Sabit yorum, Shorts'lara "İlgili video" bağlantısı, ilk 2 saatte yorumlara cevap | kanal sahibi, topluluk sorumlusu hazırlar |
 | **Yayından 3 gün sonra** | İzleyici tutma, tıklama oranı ve Shorts verisinin ekran görüntüleri → analist → ders ve puan kalibrasyonu | kanal sahibi gönderir, analist okur |

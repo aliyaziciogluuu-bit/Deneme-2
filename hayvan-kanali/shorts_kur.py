@@ -19,6 +19,13 @@ import sys
 KOK = pathlib.Path(__file__).parent
 
 
+
+def yaz_degistiyse(yol, metin):
+    """İçerik aynıysa dosyaya dokunma: otomatik bekçi videonun eski kalıp kalmadığını dosya tarihinden anlar."""
+    if yol.exists() and yol.read_text(encoding="utf-8") == metin:
+        return
+    yol.write_text(metin, encoding="utf-8")
+
 def kur(video: str):
     ana = KOK / video
     tanim = json.loads((ana / "shorts.json").read_text(encoding="utf-8"))
@@ -37,7 +44,7 @@ def kur(video: str):
                    "ust_yazi": sh["ust_yazi"], "kaynaklar": [], "beyan": sh.get("beyan", "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır."),
                    "ambiyans": amb, "ana_video": ana_senaryo["baslik"],
                    "sahneler": [{"ad": sh["baslik"], "cumleler": [{k2: v for k2, v in c.items() if k2 in ("yazi", "ses")} for c in sh["cumleler"]]}]}
-        (k / "senaryo.json").write_text(json.dumps(senaryo, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        yaz_degistiyse(k / "senaryo.json", json.dumps(senaryo, ensure_ascii=False, indent=2) + "\n")
         cekimler = []
         for c in sh["cumleler"]:
             x = c.get("x", 0.5)
@@ -46,7 +53,7 @@ def kur(video: str):
                 if anahtar in c:
                     ck[anahtar] = c[anahtar]
             cekimler.append(ck)
-        (k / "cekimler.json").write_text(json.dumps({"cekimler": cekimler}, ensure_ascii=False, indent=1), encoding="utf-8")
+        yaz_degistiyse(k / "cekimler.json", json.dumps({"cekimler": cekimler}, ensure_ascii=False, indent=1))
         print("kuruldu:", k.relative_to(KOK), len(cekimler), "cümle")
 
 

@@ -31,6 +31,11 @@ def main():
     ad = sys.argv[1]
     klasor = KOK / ad
     kisa = ad.split("-", 1)[1]
+    import subprocess
+    bekci = subprocess.run([sys.executable, "otomatik.py", "kontrol", ad, "--teslim"], cwd=KOK, capture_output=True, text=True)
+    if bekci.returncode:
+        print(bekci.stdout)
+        raise SystemExit("TESLİM EDİLMEZ: otomatik bekçi HATA ya da yapılmamış iş buldu (yukarıda). Önce `python3 otomatik.py duzelt " + ad + "`.")
     hedef = KOK / "teslim" / ad
     if hedef.exists():
         shutil.rmtree(hedef)

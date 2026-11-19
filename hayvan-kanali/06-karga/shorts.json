@@ -59,7 +59,9 @@
      "x": 0.72,
      "x2": 0.68,
      "aw": 0.4,
-     "ay": 0.72
+     "ay": 0.72,
+     "w": 0.4,
+     "y": 0.72
     },
     {
      "yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.",
@@ -67,7 +69,9 @@
      "x": 0.45,
      "x2": 0.48,
      "aw": 0.5,
-     "ay": 0.3
+     "ay": 0.3,
+     "w": 0.5,
+     "y": 0.3
     },
     {
      "yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar. Tam videosu kanalımızda.",
@@ -112,7 +116,9 @@
      "gorsel": "tup_tas",
      "x": 0.65,
      "aw": 0.7,
-     "ay": 0.5
+     "ay": 0.5,
+     "w": 0.7,
+     "y": 0.5
     },
     {
      "yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.",
@@ -126,7 +132,9 @@
      "gorsel": "ekin_portre",
      "x": 0.45,
      "aw": 0.8,
-     "ay": 0.4
+     "ay": 0.4,
+     "w": 0.8,
+     "y": 0.4
     },
     {
      "yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu.",
@@ -134,7 +142,9 @@
      "x": 0.35,
      "x2": 0.55,
      "ay": 0.4,
-     "aw": 0.8
+     "aw": 0.8,
+     "w": 0.8,
+     "y": 0.4
     },
     {
      "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda.",

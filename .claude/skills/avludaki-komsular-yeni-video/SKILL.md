@@ -57,6 +57,15 @@ Her video aşağıdaki istasyonlardan **sırayla** geçer. Her istasyonun sonund
 | 11 | Puan | patron, `puan.py ekle` | en az 80 (kırmızı çizgi yok) |
 | 12 | Teslim | patron, `teslim.py` | kopyalar cmp ile doğrulandı |
 
+
+**Otomatik bekçi (`otomatik.py`, 19 Kasım):** Makinenin yakalayabileceği her hata insan denetimine gelmeden yakalanır.
+- `hat.py uret` her videodan önce `otomatik.py kontrol <video> --onkontrol` çalıştırır. HATA varsa o video oluşturulmaz.
+- `teslim.py` önce `otomatik.py kontrol <video> --teslim` çalıştırır; HATA ya da yapılmamış iş varsa teslim etmez.
+- `otomatik.py duzelt <video>`: uygun olmayan sesleri yeniden seslendirir, eski kalmış videoyu ve son kontrolü üretim hattında yeniler.
+- Kendiliğinden düzeltilenler: Shorts bitiş w/y, düşürülmüş klibe bağlı çekim, kalmış `_gecici`.
+- Yakalanan HATA'lar: metin HATA, yanlış okunuş alanı, çekim toplamı ≠ cümle sayısı, eksik görsel/klip, son kontrol KALDI, disk.
+- Her gün 09:43'te (İstanbul) zamanlanmış "Günlük otomatik bekçi turu" bütün videoları denetler, düzeltir, pano ve üretim müdürü raporuyla kanal sahibine kısa özet verir.
+
 **Hat kuralları:**
 - **Tek üretim hattı:** `video.py`, önizleme, `--kapak` ve `son_kontrol.py` yalnızca `python3 hat.py uret|onizleme|kapak <klasör...>` ile çalışır. Hat kilitlidir: aynı anda tek iş, diğerleri sırasını bekler; her işten önce boş yer kontrol edilir, sonra `_gecici` silinir. (19 Kasım: iki oluşturma aynı anda çalıştı, disk doldu.)
 - **Yarım iş sınırı:** aynı anda en çok 2 video denetim istasyonunda (10).

@@ -67,7 +67,18 @@ def main():
             print("Hat dolu, sıra bekleniyor…", flush=True)
             fcntl.flock(k, fcntl.LOCK_EX)
         try:
+            denetlenen = set()
             for d in klasorler:
+                ana = d.split("/")[0]
+                if is_ == "uret" and ana not in denetlenen:  # otomatik bekçi: oluşturmadan önce makinenin yakalayabileceği hatalar
+                    denetlenen.add(ana)
+                    ok = subprocess.run([sys.executable, "otomatik.py", "kontrol", ana, "--onkontrol"], cwd=KOK, capture_output=True, text=True)
+                    for l in ok.stdout.splitlines():
+                        if l.startswith("- HATA") or l.startswith("- DÜZELTİLDİ"):
+                            print(f"   bekçi ({ana}): {l[2:]}")
+                    if ok.returncode:
+                        print(f"== {ana}: DURDU, otomatik bekçi HATA buldu (yukarıda). Oluşturulmadı.")
+                        continue
                 if is_ == "onizleme":
                     kod, cikti = calistir(["video.py", d, "--onizleme"], d)
                     print(f"== {d} önizleme: {'tamam' if kod == 0 else 'HATA'} → {d}/onizleme.jpg")
