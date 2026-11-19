@@ -1,44 +1,44 @@
 {
  "000": {
-  "yazi": "Yarasa saça yapışır mı?",
-  "duyulan": "Yara sasaça yapışır mı?",
+  "yazi": "Yarasalar saça yapışmaz.",
+  "duyulan": "Yara salar saça yapışmaz.",
   "hata": 0,
-  "sure": 1.36,
+  "sure": 1.6,
   "uygun": true
  },
  "001": {
-  "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane.",
-  "duyulan": "Hayır, bu nesilden nesile anlatılan bir efsane.",
+  "yazi": "Bu, nesilden nesile anlatılan bir efsane.",
+  "duyulan": "Bu, nesilden nesile anlatılan bir efsane.",
   "hata": 0,
-  "sure": 3.54,
+  "sure": 2.62,
   "uygun": true
  },
  "002": {
   "yazi": "Böcek avcısı yarasalar, çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
-  "duyulan": "Böcek avcısı yara salar, çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
+  "duyulan": "Böcek avcısı yarasalar çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
   "hata": 0,
   "sure": 5.28,
   "uygun": true
  },
  "003": {
   "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu anlıyor.",
-  "duyulan": "Bu sesler, çevredeki nesnelere çarpıp geri dönüyor. Yarasa, yankıyı dinleyerek önündekinin ne olduğunu anlıyor.",
+  "duyulan": "Bu sesler, çevredeki nesnelere çarpıp geri dönüyor. Yarasa yankıyı dinleyerek önündekinin ne olduğunu anlıyor.",
   "hata": 0,
-  "sure": 7.04,
+  "sure": 6.44,
   "uygun": true
  },
  "004": {
   "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor.",
-  "duyulan": "Buna ekolokasyon yani yankıyla yön bulma deniyor.",
+  "duyulan": "Buna ekolokasyon, yani yankı ile yön bulma deniyor.",
   "hata": 0,
-  "sure": 3.48,
+  "sure": 3.58,
   "uygun": true
  },
  "005": {
   "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceğin peşinde. Tam videosu kanalımızda.",
   "duyulan": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceğin peşinde. Tam videosu kanalımızda.",
   "hata": 0,
-  "sure": 5.86,
+  "sure": 5.98,
   "uygun": true
  }
 }

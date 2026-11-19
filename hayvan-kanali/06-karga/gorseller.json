@@ -1,0 +1,130 @@
+{
+ "not": "Türler: leş kargası (Corvus cornix) gri gövde, siyah baş-kanat-kuyruk; ekin kargası yetişkininde gaga dibinde çıplak beyazımsı deri, mor-mavi parlak siyah tüy; küçük karga küçük, ense gri, göz beyazımsı/açık gri; saksağan siyah-beyaz, çok uzun kuyruk; Amerikan kargası (maske deneyi) tamamen siyah, gaga ve bacak dahil, gri ya da beyaz olmamalı; Yeni Kaledonya kargası tamamen siyah. Tüm kuşlarda iki bacak, dört parmak (üçü önde biri arkada), gaga tek parça. Maske yüzsüz, düz lastik, korkutucu değil ve gerçek kişiye benzemez; çocuk yüzü görünmez. Tüpte solucan SUYUN YÜZEYİNDE olmalı (dipte olan aday kullanılmaz). Ölü karga kansız ve rahatsız edici olmayan çizilmeli. Yazı, tabela, logo çıkan aday kullanılmaz; yama yapılmaz. Leş kargası görsellerinde karnın gri olması şart; tamamen siyah çıkarsa tür yanlıştır. Ekin kargası portresinde gaga dibindeki çıplak deri yoksa kullanılmaz.",
+ "gorseller": [
+  {
+   "ad": "cit_karga",
+   "istem": "Early morning in a Turkish garden: a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each perches on a wooden garden fence, beak wide open, calling loudly toward the viewer, dew on the grass, soft sunrise light.",
+   "aday": 2
+  },
+  {
+   "ad": "bagiran",
+   "istem": "Close-up portrait of a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each calling with its beak open, head slightly lowered, looking straight at the viewer with a sharp dark eye, blurred garden background.",
+   "aday": 2
+  },
+  {
+   "ad": "maske_biyolog",
+   "istem": "A university campus lawn with old trees: a researcher in a lab coat walks across the grass wearing a plain smooth pale rubber full-head mask with simple eye holes and no facial features, friendly and not scary, not resembling any real person, seen from a slight distance and from the side; on the branches above sit a few American crows (Corvus brachyrhynchos): entirely glossy black including beak, legs and feet, dark eyes, thick black beak, realistic bird anatomy, two legs each, no grey or white on the body.",
+   "aday": 2
+  },
+  {
+   "ad": "maske_bagiran",
+   "istem": "A campus park: a flock of about eight American crows (Corvus brachyrhynchos): entirely glossy black including beak, legs and feet, dark eyes, thick black beak, realistic bird anatomy, two legs each, no grey or white on the body on tree branches and the grass, all with beaks open, loudly scolding a person in a lab coat wearing a plain smooth pale rubber full-head mask with simple eye holes and no facial features, friendly and not scary, not resembling any real person who walks below, seen from behind and small in the frame.",
+   "aday": 2
+  },
+  {
+   "ad": "yillar",
+   "istem": "Calm autumn morning on the same campus, soft golden light: a person in a jacket wearing a plain smooth pale rubber full-head mask with simple eye holes and no facial features, friendly and not scary, not resembling any real person walks along a path, seen from behind and small, while a few American crows (Corvus brachyrhynchos): entirely glossy black including beak, legs and feet, dark eyes, thick black beak, realistic bird anatomy, two legs each, no grey or white on the body sit quietly on the grass and a branch, not bothered, peaceful mood.",
+   "aday": 1
+  },
+  {
+   "ad": "olu_karga",
+   "istem": "A grass lawn under trees: several American crows (Corvus brachyrhynchos): entirely glossy black including beak, legs and feet, dark eyes, thick black beak, realistic bird anatomy, two legs each, no grey or white on the body stand in a loose circle around one motionless crow lying on its side on the grass, no blood, gentle and respectful, realistic but not graphic, grey morning light; far in the background a small figure in a plain a plain smooth pale rubber full-head mask with simple eye holes and no facial features, friendly and not scary, not resembling any real person stands still.",
+   "aday": 2
+  },
+  {
+   "ad": "kiz_yemlik",
+   "istem": "A little girl seen from behind and from far away, standing in a sunny suburban garden and filling a wooden bird feeder on a post; a few black crows wait on the fence behind her. No face visible, warm friendly mood.",
+   "aday": 1
+  },
+  {
+   "ad": "hediyeler",
+   "istem": "Close-up on a weathered wooden fence post top: a small collection of tiny shiny objects, a round button, a small silver earring, a smooth pebble and a coloured glass bead, laid neatly in a row; beside them perches one American crow (Corvus brachyrhynchos): entirely glossy black including beak, legs and feet, dark eyes, thick black beak, realistic bird anatomy, two legs with no grey or white on the body, looking at the objects with its head tilted.",
+   "aday": 2
+  },
+  {
+   "ad": "lesk_portre",
+   "istem": "Portrait of a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each, standing on an old stone wall in daylight, side-on three-quarter view showing the grey body and black head clearly, blurred green background.",
+   "aday": 2
+  },
+  {
+   "ad": "ekin_portre",
+   "istem": "Portrait of a rook (Corvus frugilegus): adult with glossy black plumage with a purple-blue sheen, bare whitish-grey skin at the base of the long pointed grey-black beak, shaggy feathered thighs, dark eyes, realistic bird anatomy, two legs with four toes each, perched on a bare branch in a field, three-quarter view, the bare whitish skin at the base of the beak clearly visible, soft daylight.",
+   "aday": 2
+  },
+  {
+   "ad": "kucuk_portre",
+   "istem": "Portrait of a western jackdaw (Corvus monedula): small compact crow, black body with a pale silvery-grey nape and neck sides, short stubby black beak, pale whitish-grey eyes, realistic bird anatomy, two legs with four toes each, perched on a clay-tile roof edge next to a chimney, the grey nape and the pale whitish-grey eye clearly visible, soft daylight.",
+   "aday": 2
+  },
+  {
+   "ad": "saksagan_portre",
+   "istem": "Portrait of a Eurasian magpie (Pica pica): black and white bird with white belly and white shoulder patches, black head and chest, wings and very long tail with a blue-green gloss, long graduated tail, realistic bird anatomy, two legs with four toes each, perched on a fence rail in a meadow, side view showing the white belly and the full long tail, soft daylight.",
+   "aday": 2
+  },
+  {
+   "ad": "koreli_saksagan",
+   "istem": "Spring: a tall tree in a park with a magpie nest high up; a person seen small and from behind climbs a wooden ladder toward the nest while two magpies swoop at them: a Eurasian magpie (Pica pica): black and white bird with white belly and white shoulder patches, black head and chest, wings and very long tail with a blue-green gloss, long graduated tail, realistic bird anatomy, two legs with four toes each, no faces visible.",
+   "aday": 1
+  },
+  {
+   "ad": "beyin",
+   "istem": "A gentle naturalist diagram-like illustration: the head of a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each in profile with a softly glowing translucent outline of its brain inside the skull, calm warm colours, no labels, no letters, no arrows.",
+   "aday": 1
+  },
+  {
+   "ad": "nc_ada",
+   "istem": "A tropical island forest in the South Pacific with palms and ferns, soft humid light: a New Caledonian crow (Corvus moneduloides): entirely glossy black plumage, fairly straight stout black beak, dark eyes, realistic bird anatomy, two legs with four toes each stands on a branch holding a thin twig in its beak, looking at the viewer.",
+   "aday": 2
+  },
+  {
+   "ad": "nc_kanca",
+   "istem": "A bird research aviary with wooden perches: a New Caledonian crow (Corvus moneduloides): entirely glossy black plumage, fairly straight stout black beak, dark eyes, realistic bird anatomy, two legs with four toes each holds a bent piece of thin wire shaped like a hook in its beak, standing on a perch beside a clear narrow vertical tube in which a tiny basket with a small piece of meat sits at the bottom.",
+   "aday": 2
+  },
+  {
+   "ad": "tup_solucan",
+   "istem": "A bird laboratory table: a tall narrow clear glass tube holds a little water well below its rim, and a pink earthworm floats ON the surface of the water inside the tube, out of reach; beside it stands a rook (Corvus frugilegus): adult with glossy black plumage with a purple-blue sheen, bare whitish-grey skin at the base of the long pointed grey-black beak, shaggy feathered thighs, dark eyes, realistic bird anatomy, two legs with four toes each, looking down into the tube. A few small pebbles lie on the table. The worm is on the water surface, not at the bottom.",
+   "aday": 2
+  },
+  {
+   "ad": "tup_tas",
+   "istem": "A bird laboratory table: a rook (Corvus frugilegus): adult with glossy black plumage with a purple-blue sheen, bare whitish-grey skin at the base of the long pointed grey-black beak, shaggy feathered thighs, dark eyes, realistic bird anatomy, two legs with four toes each holds a small stone in its beak above the opening of a tall narrow clear glass tube, about to drop it in; the water level in the tube is now high and a pink earthworm floats ON the surface near the top of the tube, almost within reach.",
+   "aday": 2
+  },
+  {
+   "ad": "cop",
+   "istem": "A city street corner at morning: a closed lidded dark-green wheelie bin beside an overturned open bin with spilled rubbish bags and scraps; three hooded crows (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each look for food around them, apartment buildings in the background, no signs, no text, no logos.",
+   "aday": 2
+  },
+  {
+   "ad": "yavru",
+   "istem": "Early summer: a young hooded crow fledgling with soft short feathers, a short tail and a pale pink-grey beak base, hopping on a lawn, looking curious; on a branch of a tree nearby the adult a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each watches over it.",
+   "aday": 2
+  },
+  {
+   "ad": "yavru_semsiye",
+   "istem": "A garden path: a person seen from behind holds an open umbrella above their head as protection and slowly walks away from a lawn, while an adult a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each swoops low behind them, wings spread, calling; a fledgling crow sits on the grass far in the background. No faces.",
+   "aday": 1
+  },
+  {
+   "ad": "ugursuz",
+   "istem": "Dusk: an old wooden folk house in a quiet village yard with a big bare tree, a soft misty sky; on a branch sits a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each, calm and observing, warm lantern light in a window, mysterious but peaceful, not scary.",
+   "aday": 2
+  },
+  {
+   "ad": "tarla",
+   "istem": "Autumn plowed field in Anatolia: a mixed flock of rooks (Corvus frugilegus): adult with glossy black plumage with a purple-blue sheen, bare whitish-grey skin at the base of the long pointed grey-black beak, shaggy feathered thighs, dark eyes, realistic bird anatomy, two legs with four toes each and hooded crows (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each walking and pecking in the furrows, hills in the distance, wide landscape.",
+   "aday": 1
+  },
+  {
+   "ad": "kapanis",
+   "istem": "Calm dawn over a house garden: a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each sits on the garden fence looking straight at the viewer, head slightly tilted, pink morning sky, soft light, hopeful mood.",
+   "aday": 2
+  },
+  {
+   "ad": "kapak",
+   "istem": "Dramatic close-up portrait of a hooded crow (Corvus cornix): medium-large crow with a light ash-grey body and belly and a glossy black head, throat, wings and tail, stout black beak, dark brown eyes, realistic bird anatomy, two legs with four toes each, positioned in the right half of the frame, face turned toward the viewer with both dark eyes looking straight at the viewer, warm rim light on a deep teal-brown blurred background, empty dark space on the left side of the frame.",
+   "aday": 2
+  }
+ ]
+}

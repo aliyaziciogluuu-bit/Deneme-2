@@ -1,7 +1,7 @@
 {
-  "baslik": "Karga Yüzünü Tanıyor mu? (Maskeyle Yapılan Ünlü Deney)",
+  "baslik": "Karga Seni Tanıyor mu? Bir Maske, 17 Yıl ve Sönen Öfke",
   "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları kullanılmadı. Maske deneyleri Amerikan kargasıyla yapıldı; metin bunu açıkça söyler. Türkiye'deki türler: leş kargası, ekin kargası, küçük karga, saksağan. Yeni Kaledonya kargası Türkiye'de yaşamaz.",
-  "aciklama": "Sabah bahçeye çıkıyorsun ve çitin üstündeki karga seni görür görmez bağırmaya başlıyor. Peki karga seni gerçekten tanıyor mu?\n\nBu videoda bir biyoloğun maskeyle yaptığı ünlü deneyi, kargaların yüzü nasıl ayırt ettiğini, öfkenin kargalar arasında nasıl yayıldığını ve bu öfkenin yıllar sonra nasıl söndüğünü anlatıyoruz. Seattle'da bir kızın kargalardan aldığı hediyelere, ekin kargasının suyu taşla yükseltmesine ve Yeni Kaledonya kargasının tel bükerek yaptığı kancaya da bakıyoruz. Maske deneyleri Amerikan kargasıyla yapıldı; Türkiye'de görülen leş kargası, ekin kargası, küçük karga ve saksağan için bunu açıkça belirtiyoruz.\n\nKarga uğursuz mu, yerde yavru karga bulursan ne yapmalısın, yavrusunu koruyan karga sana alçalırsa ne olur, kargalar Türkiye'de koruma altında mı diye merak ediyorsan cevaplar videoda. Güncel av kararı için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "aciklama": "Karga seni gerçekten tanıyor mu? Bir biyologun maskeyle yaptığı deney, Amerikan kargalarının yüzü ayırt ettiğini gösteriyor; öfke yıllarca sürmüş, sonunda sönmüş görünüyor.\nBu deney Türkiye'deki kargalarla yapılmadı; leş kargası, ekin kargası, küçük karga ve saksağan için neyin bilindiğini de videoda ayırıyoruz.\n\nBu videoda bir biyoloğun maskeyle yaptığı ünlü deneyi, kargaların yüzü nasıl ayırt ettiğini, öfkenin kargalar arasında nasıl yayıldığını ve bu öfkenin yıllar sonra nasıl söndüğünü anlatıyoruz. Seattle'da bir kızın kargalardan aldığı hediyelere, ekin kargasının suyu taşla yükseltmesine ve Yeni Kaledonya kargasının tel bükerek yaptığı kancaya da bakıyoruz. Maske deneyleri Amerikan kargasıyla yapıldı; Türkiye'de görülen leş kargası, ekin kargası, küçük karga ve saksağan için bunu açıkça belirtiyoruz.\n\nKarga uğursuz mu, yerde yavru karga bulursan ne yapmalısın, yavrusunu koruyan karga sana alçalırsa ne olur, kargalar Türkiye'de koruma altında mı diye merak ediyorsan cevaplar videoda. Güncel av kararı için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
   "yorum_sorusu": "Senin oralarda karga ne anlama geliyor? Sana hiç bağıran ya da seni takip eden bir karga oldu mu? Yorumlarda konuşalım.",
   "kaynaklar": [
     "Marzluff, J.M., Walls, J., Cornell, H.N., Withey, J.C. & Craig, D.P. (2010). Lasting recognition of threatening people by wild American crows. Animal Behaviour. doi:10.1016/j.anbehav.2009.12.022",
@@ -44,7 +44,7 @@
       "SENİ",
       "TANIR MI?"
     ],
-    "kucuk": "Maskeli adam deneyi",
+    "kucuk": "Kargadan gelen hediyeler",
     "konum": "sol",
     "genislik": 500
   },
@@ -344,5 +344,27 @@
     "Karga Seni Tanır mı? (Bir Maske Yıllarca Hatırlandı)",
     "Karga Yüzünü Hatırlar mı? (Bir Biyolog ve Bir Maske)"
   ],
-  "baslik_notu": "Öneri; son karar paketleme uzmanında. Maske deneyleri Amerikan kargasıyla yapıldı ve öfke yıllar sonra söndü; bu yüzden 'Yıllarca Unutmuyor' ve kesin 'Seni Tanıyor!' kullanılmadı."
+  "baslik_notu": "Öneri; son karar paketleme uzmanında. Maske deneyleri Amerikan kargasıyla yapıldı ve öfke yıllar sonra söndü; bu yüzden 'Yıllarca Unutmuyor' ve kesin 'Seni Tanıyor!' kullanılmadı.",
+  "kapak_alternatifler": [
+    {
+      "buyuk": [
+        "KARGA",
+        "ALET YAPAR"
+      ],
+      "kucuk": "Taşla suyu yükseltti",
+      "konum": "sol",
+      "genislik": 500,
+      "gorsel": "kapak"
+    },
+    {
+      "buyuk": [
+        "KARGAYA",
+        "TAŞ ATMA!"
+      ],
+      "kucuk": "Tehdit diye hatırlayabilir",
+      "konum": "sol",
+      "genislik": 500,
+      "gorsel": "kapak"
+    }
+  ]
 }

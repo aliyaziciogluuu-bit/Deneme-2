@@ -1,0 +1,47 @@
+{
+ "not": "Kargaların gövdesi ve gagası biçim değiştirmemeli; ekstra bacak ya da kanat çıkarsa, gaga ikiye ayrılırsa klip kullanılmaz. Tüpte solucan yüzeyde kalmalı; taş bırakma anı net değilse klip kırpılır.",
+ "klipler": [
+  {
+   "ad": "cit_karga",
+   "gorsel": "cit_karga",
+   "sure": 5,
+   "istem": "The crow on the fence calls loudly, its beak opening and closing, its throat and chest feathers moving, its head bobbing forward with each call, the grass sways softly. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+  },
+  {
+   "ad": "maske_bagiran",
+   "gorsel": "maske_bagiran",
+   "sure": 5,
+   "istem": "The crows on the branches and grass call and bob their heads and flap their wings a little while the masked person keeps walking slowly away, leaves rustle. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+  },
+  {
+   "ad": "nc_kanca",
+   "gorsel": "nc_kanca",
+   "sure": 5,
+   "istem": "The black crow in the aviary turns its head slightly and moves the bent wire hook in its beak a little, then looks at the tube, calm movements. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+  },
+  {
+   "ad": "tup_tas",
+   "gorsel": "tup_tas",
+   "sure": 5,
+   "istem": "The rook lowers the stone in its beak and drops it into the tube, the water level rises slightly and the floating worm drifts upward on the surface. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+  },
+  {
+   "ad": "cop",
+   "gorsel": "cop",
+   "sure": 5,
+   "istem": "The hooded crows hop around the bins, one pecks at a scrap on the ground and another turns its head, a leaf of paper blows slightly. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+  },
+  {
+   "ad": "yavru",
+   "gorsel": "yavru",
+   "sure": 5,
+   "istem": "The fledgling hops once on the lawn and flutters its small wings while the adult crow on the branch turns its head to watch, grass sways. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+  },
+  {
+   "ad": "kapanis",
+   "gorsel": "kapanis",
+   "sure": 5,
+   "istem": "The crow on the fence tilts its head, blinks, and ruffles its feathers lightly as the pink morning light slowly brightens. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+  }
+ ]
+}

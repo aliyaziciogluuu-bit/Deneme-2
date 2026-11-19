@@ -11,8 +11,9 @@
   "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor.",
   "duyulan": "Kirpiler sütte ki laktoz adlı şekeri sindiremiyor.",
   "hata": 0,
-  "sure": 2.94,
-  "uygun": true
+  "sure": 3.32,
+  "uygun": true,
+  "tek_basina": true
  },
  "002": {
   "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
