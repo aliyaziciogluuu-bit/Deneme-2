@@ -333,11 +333,11 @@
   "tek_basina": true
  },
  "006": {
-  "yazi": "İshal, küçük bir hayvan için sıvı kaybı riski demek.",
-  "duyulan": "İsel, küçük bir hayvan için sıvı kaybı riski demek.",
-  "hata": 1,
-  "sure": 3.2,
-  "uygun": false,
+  "yazi": "Bu da küçük bir hayvan için sıvı kaybı riski demek.",
+  "duyulan": "Bu da küçük bir hayvan için sıvı kaybı riski demek.",
+  "hata": 0,
+  "sure": 2.88,
+  "uygun": true,
   "tek_basina": true
  },
  "008": {
@@ -545,7 +545,24 @@
   "duyulan": "Delik 13 cm'ye 13 cm olabilir. Bahçen kalabalık bir yola bakıyorsa, deliği yola doğru açma.",
   "hata": 1,
   "sure": 6.56,
-  "uygun": false,
+  "uygun": true,
+  "tek_basina": true,
+  "not": "ses tanıma 'santimetre'yi '13 cm' yazıyor; eşdeğer"
+ },
+ "067": {
+  "yazi": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.",
+  "duyulan": "Ve unutma, kirpi bir yaban hayvanı, onu yakalayıp evde beslemeye çalışma.",
+  "hata": 0,
+  "sure": 4.94,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "068": {
+  "yazi": "Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.",
+  "duyulan": "yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.",
+  "hata": 0,
+  "sure": 3.92,
+  "uygun": true,
   "tek_basina": true
  }
 }
