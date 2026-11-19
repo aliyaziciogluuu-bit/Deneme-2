@@ -20,3 +20,6 @@
 - Kalite kontrol: bekliyor. Kuyruk bitince yapılacak:
   - Ses 64 kbps ile küçültülecek; boyut ve LUFS yeniden ölçülecek.
   - shorts2 yeni yazıyla yeniden çizilecek ve tekrar testinden geçecek.
+
+**Tur 2 – yeniden çizilen shorts2 (19 Kasım):** Kalite kontrol ONAY. Fener ve fırtınalı denizle açılıyor, 24. sn'de şömine. Tekrar testi TAMAM, LUFS −16,3.
+- Ses: fırtına-dalga katmanı eklendi (E2, B düzeyi 0.17). 720p ses 56 kbps ile yeniden kurulacak (400 MiB sınırı), ardından kalite kontrol boyut ve LUFS ölçecek.

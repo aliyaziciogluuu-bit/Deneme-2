@@ -21,3 +21,8 @@
   - 27: Samanyolu
   - 28: kiraz çiçekleri; son kare çay
 - 24'te birinci Shorts soba alevleriyle, POV Shorts kanal manzarasıyla açılıyor.
+
+**Tur 2 – yeniden çizilen Shorts (19 Kasım):** Kalite kontrol ONAY.
+- shorts 1. sn şömine, 24. sn karlı pencere (dar şerit, iki öğeli yazı kuralına uygun).
+- shorts2 Eyfel ile açılıyor; 24. sn'de kule yok, kanca (karlı Paris) iki uçta da var.
+- Tekrar testleri TAMAM, LUFS −16,1.

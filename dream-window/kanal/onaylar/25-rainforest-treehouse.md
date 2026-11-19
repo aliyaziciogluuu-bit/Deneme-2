@@ -19,3 +19,5 @@
   - Takvim için 2 Şubat önerdi; yağmur ve kar videoları dönüşümlü gidiyor.
 
 **Patron kararı:** Uzun video, shorts ve 4K için ONAY. shorts2 yeniden üretimden sonra kalite kontrolden geçecek.
+
+**shorts2 yeniden çizim (19 Kasım):** Kalite kontrol ONAY. Fener ile açılıp yakın planda ormana gidiyor; shorts'un ters yolu değil. Tekrar testi TAMAM, LUFS −16,6. 25 tamamen onaylı.
