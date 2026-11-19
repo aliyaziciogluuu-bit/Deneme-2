@@ -486,5 +486,21 @@
   "sure": 8.14,
   "uygun": true,
   "tek_basina": true
+ },
+ "006": {
+  "yazi": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya taş atmanın neden kötü fikir olabileceğini göreceksin.",
+  "duyulan": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya taş atmanın neden kötü fikir olabileceğini göreceksin.",
+  "hata": 0,
+  "sure": 6.34,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "030": {
+  "yazi": "Maske deneyi Türkiye'deki kargalarla yapılmadı; akraba türlerde benzer bulgular var.",
+  "duyulan": "Maske deneyi Türkiye'deki kargalarla yapılmadı. Akraba türlerde benzer bulgular var.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true,
+  "tek_basina": true
  }
 }
