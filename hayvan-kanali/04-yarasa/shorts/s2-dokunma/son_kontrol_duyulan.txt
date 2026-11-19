@@ -5,4 +5,4 @@
 004 fark=0 | Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir. || Sonra bir sağlık kuruluşuna git, aşı gerekip gerekmediğine doktor karar verir.
 005 fark=1 | Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut. || Yerde ya da gündüz uçamayan bir arasaya yaklaşma, çocukları ve evcil hayvanları uzak tut.
 006 fark=0 | Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık. || Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.
-007 fark=0 | Odada uyuyan biri ya da çocuk varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda. || Odada uyuyan biri ya da çocuk varsa, yara sayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.
+007 fark=0 | Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda. || Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yara sayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.
