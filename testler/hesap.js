@@ -79,7 +79,7 @@ const SEED = {
     await p.click('#kAdd');
     // --- Ziynet: 3 çeyrek satış, kendi satış kuru 10100, eski tarih indirimi 50
     await p.click('label[for="kSell"]');
-    await p.click('#kCoins button[data-c="CEYREK"]');
+    await p.selectOption('#kCoin', 'CEYREK');
     assert.ok(await p.isHidden('#kMilF') && await p.isHidden('#kLaborF') && await p.isVisible('#kOldF'));
     assert.equal(await txt('kGramLbl'), 'Adet');
     assert.equal(await p.inputValue('#kHas'), '10100');
@@ -166,7 +166,7 @@ const SEED = {
     // --- Listeyi temizle; diğer bölümler çalışıyor; yeni varlıklar işlem formunda var
     await p.click('#kListClear');
     assert.equal(await p.locator('#kList li').count(), 0);
-    assert.ok(await p.isVisible('#kListEmpty') && await p.isHidden('#kTotals') && await p.isHidden('#kPostFoot'));
+    assert.ok(await p.isHidden('#kListCard'));                                  // boş liste yer kaplamaz
     await p.click('button[data-go="islem"]');
     assert.ok((await p.locator('#fCur option').allTextContents()).some((t) => t.includes('14 Ayar Altın')));
     await p.selectOption('#fCur', 'USD');

@@ -259,7 +259,16 @@
   .conv-out b { font-size: 18px; white-space: nowrap; }
   .conv-out .k-total { font-size: 17px; font-weight: 600; margin-top: 4px; }
   .conv-out .k-total b { font-size: 26px; }
-  .has-row { display: grid; grid-template-columns: 1fr 1fr auto; gap: 12px; align-items: end; }
+  .has-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: end; }
+  .has-row + .hint { margin-top: 8px; }
+  [data-fold][hidden] { display: none !important; }
+  .hint.lead { margin: 0 0 12px; }
+  .tools.lead { margin-bottom: 12px; }
+  .ic { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .top-tools button { display: inline-flex; align-items: center; gap: 8px; }
+  .top-tools button[hidden] { display: none; }
+  #btnHide[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  #balBody td.title { cursor: pointer; }
   .has-row .f { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
   .receipt { position: fixed; inset: 0; z-index: 60; overflow: auto; background: rgba(0, 0, 0, .55); padding: calc(16px + env(safe-area-inset-top)) 16px 24px; }
   .receipt[hidden] { display: none; }
@@ -382,8 +391,40 @@
     .toast { bottom: calc(76px + env(safe-area-inset-bottom)); }
     .conv { grid-template-columns: 1fr 1fr; }
     .conv .f:first-child { grid-column: 1 / -1; }
-    .has-row { grid-template-columns: 1fr 1fr; }
-    .has-row button { grid-column: 1 / -1; }
+    /* Sade görünüm: tek satır başlık, sıkı aralıklar, dokununca açılan satırlar */
+    .wrap { padding-top: calc(12px + env(safe-area-inset-top)); }
+    header.top { flex-wrap: nowrap; align-items: center; gap: 10px; padding-bottom: 10px; margin-bottom: 12px; border-bottom-width: 1px; }
+    header.top > div:first-child { min-width: 0; }
+    header.top h1 { font-size: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .eyebrow { display: none; }
+    .top-tools { flex: none; flex-wrap: nowrap; }
+    .top-tools button { min-height: 40px; }
+    #btnHide, #btnRates { width: 42px; padding: 0; justify-content: center; position: relative; }
+    #btnHide span, #btnRates span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    section.card { margin-bottom: 14px; }
+    section.card > .head { padding: 12px 16px; }
+    .mini, .banner { margin-bottom: 12px; }
+    .stats { margin-bottom: 14px; }
+    #balBody tr:not(.open) td:nth-child(3), #balBody tr:not(.open) td:nth-child(4), #balBody tr:not(.open) td:nth-child(6),
+    #balBody tr:not(.open) td:nth-child(7), #balBody tr:not(.open) td:nth-child(8) { display: none; }
+    #balBody tr { padding: 12px 16px; gap: 4px 16px; }
+    #balBody td.title::after { content: "Ayrıntı"; float: right; font-size: 12px; font-weight: 500; color: var(--muted); }
+    #balBody tr.open td.title::after { content: "Kapat"; }
+    #txBody tr {
+      grid-template-columns: auto 1fr auto; grid-template-areas: "tur varlik tutar" "tarih kur tl" "note note note" "act act act";
+      gap: 2px 8px; padding: 10px 16px; align-items: baseline; cursor: pointer;
+    }
+    #txBody td::before { display: none; }
+    #txBody td:nth-child(1) { grid-area: tarih; font-size: 13px; color: var(--muted); }
+    #txBody td:nth-child(2) { grid-area: tur; }
+    #txBody td:nth-child(3) { grid-area: varlik; }
+    #txBody td:nth-child(4) { grid-area: tutar; text-align: right; font-weight: 650; }
+    #txBody td:nth-child(5) { grid-area: kur; font-size: 13px; color: var(--muted); }
+    #txBody td:nth-child(5):not(.skip)::before { display: inline; content: "kur "; text-transform: none; letter-spacing: 0; font-size: 13px; font-weight: 400; }
+    #txBody td:nth-child(6) { grid-area: tl; text-align: right; font-size: 13px; color: var(--muted); }
+    #txBody td:nth-child(7) { grid-area: note; font-size: 13px; }
+    #txBody td:nth-child(8) { grid-area: act; display: none; padding-top: 6px; }
+    #txBody tr.open td:nth-child(8) { display: flex; }
     .daystats { grid-template-columns: repeat(2, 1fr); }
     .stats { grid-template-columns: 1fr; gap: 8px; }
     .count-sum { grid-template-columns: 1fr; }
@@ -427,8 +468,8 @@
     </div>
     <div class="top-tools">
       <button id="btnInstall" type="button" class="primary" hidden>Ana ekrana ekle</button>
-      <button id="btnHide" type="button" aria-pressed="false">Tutarları gizle</button>
-      <button id="btnRates" type="button">Fiyatları güncelle</button>
+      <button id="btnHide" type="button" aria-pressed="false" title="Tutarları gizle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"/><circle cx="12" cy="12" r="2.8"/></svg><span id="btnHideTxt">Tutarları gizle</span></button>
+      <button id="btnRates" type="button" title="Fiyatları güncelle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.4-5.7M20 4v5h-5"/></svg><span id="btnRatesTxt">Fiyatları güncelle</span></button>
     </div>
   </header>
 
@@ -555,7 +596,7 @@
   <section class="card" data-view="hesap">
     <div class="head">
       <h2>Has altın fiyatım</h2>
-      <span class="hint" id="hasInfo"></span>
+      <button type="button" class="small" id="hasMarket">Piyasadan al</button>
     </div>
     <div class="body">
       <div class="has-row">
@@ -567,15 +608,14 @@
           <label for="hasSell">Satış (₺/gr)</label>
           <input type="text" id="hasSell" inputmode="decimal" autocomplete="off" placeholder="—">
         </div>
-        <button type="button" id="hasMarket">Piyasadan al</button>
       </div>
+      <div class="hint" id="hasInfo"></div>
     </div>
   </section>
 
   <section class="card" data-view="hesap">
     <div class="head">
       <h2>Kuyum hesabı</h2>
-      <span class="hint">Gram hesabı has fiyatınızdan, ziynet hesabı kur tablonuzdan yapılır.</span>
     </div>
     <div class="body">
       <form class="tx" id="kForm" novalidate>
@@ -590,9 +630,9 @@
           <span class="lbl">Ayar (gram)</span>
           <div class="quick" id="kKarats"></div>
         </div>
-        <div class="f full">
-          <span class="lbl">Ziynet (adet)</span>
-          <div class="quick" id="kCoins"></div>
+        <div class="f wide">
+          <label for="kCoin">Ziynet (adet)</label>
+          <select id="kCoin"><option value="">Ziynet seç…</option></select>
         </div>
         <div class="f">
           <label for="kGram" id="kGramLbl">Ağırlık (gr)</label>
@@ -640,7 +680,7 @@
     </div>
   </section>
 
-  <section class="card" data-view="hesap">
+  <section class="card" data-view="hesap" id="kListCard" hidden>
     <div class="head">
       <h2>Hesap listesi</h2>
       <div class="tools">
@@ -670,9 +710,10 @@
   <section class="card" data-view="cari">
     <div class="head">
       <h2>Cari hareket</h2>
-      <span class="hint">Veresiye ve emanet kayıtları. TL karşılığı alınıp verilmez; kârı etkilemez.</span>
+      <button type="button" class="small" data-toggle="cari" data-label="＋ Hareket ekle"></button>
     </div>
-    <div class="body">
+    <div class="body" data-fold="cari">
+      <p class="hint lead">Veresiye ve emanet kayıtları. TL karşılığı alınıp verilmez; kârı etkilemez.</p>
       <form class="tx" id="cariForm" novalidate>
         <div class="f wide">
           <span class="lbl">Hareket</span>
@@ -716,7 +757,6 @@
   <section class="card" data-view="cari">
     <div class="head">
       <h2>Kişiler</h2>
-      <span class="hint">Yeşil: sizin alacağınız. Kırmızı: sizin borcunuz.</span>
     </div>
     <div id="persons"></div>
     <div class="empty" id="personsEmpty">Cari kaydı yok.</div>
@@ -725,9 +765,10 @@
   <section class="card" data-view="cari">
     <div class="head">
       <h2>Toptancı has hesabı</h2>
-      <span class="hint">Borç–alacak has altın gramı üzerinden tutulur; işçilik ayrı izlenir. Kasayı etkilemez.</span>
+      <button type="button" class="small" data-toggle="toptanci" data-label="＋ Hareket ekle"></button>
     </div>
-    <div class="body">
+    <div class="body" data-fold="toptanci">
+      <p class="hint lead">Borç–alacak has altın gramı üzerinden tutulur; işçilik ayrı izlenir. Kasayı etkilemez.</p>
       <form class="tx" id="wForm" novalidate>
         <div class="f wide">
           <span class="lbl">Hareket</span>
@@ -787,8 +828,7 @@
     <div class="head">
       <h2>Kur tablom</h2>
       <div class="tools">
-        <span class="hint">İşlem girerken kur buradan gelir.</span>
-        <button type="button" class="small" id="btnFillRates">Piyasadan doldur</button>
+          <button type="button" class="small" id="btnFillRates">Piyasadan doldur</button>
         <button type="button" class="small" id="btnBoard">Kur panosu</button>
         <a class="btnlink small" href="vitrin.html" target="_blank" rel="noopener" id="lnkVitrin">Vitrin ekranı</a>
       </div>
@@ -802,9 +842,10 @@
   <section class="card" data-view="kurlar">
     <div class="head">
       <h2>Çevirici</h2>
-      <span class="hint">Kendi alış–satış kurlarınızla hesaplar.</span>
+      <button type="button" class="small" data-toggle="cevirici" data-label="Aç"></button>
     </div>
-    <div class="body">
+    <div class="body" data-fold="cevirici">
+      <p class="hint lead">Kendi alış–satış kurlarınızla hesaplar.</p>
       <div class="conv">
         <div class="f">
           <label for="cvAmount">Tutar</label>
@@ -826,7 +867,6 @@
   <section class="card" data-view="kasa">
     <div class="head">
       <h2>Kasa bakiyeleri</h2>
-      <span class="hint">Stok, piyasa fiyatıyla değerlenir; fiyatı elle de değiştirebilirsiniz.</span>
     </div>
     <div class="table-wrap">
       <table class="cards">
@@ -844,20 +884,21 @@
   <section class="card" data-view="kasa">
     <div class="head">
       <h2>Kasa sayımı</h2>
-      <div class="tools">
+      <button type="button" class="small" data-toggle="sayim" data-label="Sayım yap"></button>
+    </div>
+    <div class="body" data-fold="sayim">
+      <div class="tools lead">
         <span class="hint">Kupür adetlerini girin; kayıtlı bakiyeyle karşılaştırılır.</span>
         <select id="countCur" aria-label="Sayılacak varlık"></select>
       </div>
-    </div>
-    <div class="body">
       <div class="count-grid" id="countGrid"></div>
     </div>
-    <div class="count-sum">
+    <div class="count-sum" data-fold="sayim">
       <div><div class="k">Sayılan</div><div class="v amt" id="cCounted">—</div></div>
       <div><div class="k">Kayıtlı bakiye</div><div class="v amt" id="cRecorded">—</div></div>
       <div><div class="k">Fark</div><div class="v amt" id="cDiff">—</div></div>
     </div>
-    <div class="foot">
+    <div class="foot" data-fold="sayim">
       <button type="button" class="primary" id="btnCountApply">Sayımı kaydet</button>
       <button type="button" id="btnCountClear">Temizle</button>
       <span class="hint" id="cLast"></span>
@@ -867,9 +908,10 @@
   <section class="card" data-view="kasa">
     <div class="head">
       <h2>Vitrin defteri</h2>
-      <span class="hint">Parça parça ürün listesi. “Sat” ile satış kasaya işlenir; stok ve kâr güncellenir.</span>
+      <button type="button" class="small" data-toggle="vitrin" data-label="＋ Ürün ekle"></button>
     </div>
-    <div class="body">
+    <div class="body" data-fold="vitrin">
+      <p class="hint lead">Parça parça ürün listesi. “Sat” ile satış kasaya işlenir; stok ve kâr güncellenir.</p>
       <form class="tx" id="iForm" novalidate>
         <div class="f wide">
           <label for="iName">Ürün</label>
@@ -1021,7 +1063,7 @@
     <div class="foot hint" id="backupInfo"></div>
   </section>
 
-  <footer>
+  <footer data-view="liste">
     <p>Veriler yalnızca bu cihazda saklanır. Düzenli olarak “Yedek al” ile dışa aktarmanız önerilir.</p>
     <p>Bu sayfa bir takip aracıdır; resmî fiş ve yasal bildirimlerin yerini tutmaz.</p>
     <p id="iosHint" hidden>iPhone’da ana ekrana eklemek için Safari’de Paylaş düğmesine, sonra “Ana Ekrana Ekle”ye dokunun.</p>
@@ -1143,6 +1185,7 @@
     tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
     count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {}
   };
+  var balOpen = {};                   // Kasa bakiyelerinde ayrıntısı açık varlıklar
   var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
   var editingId = null;
   var rateTouched = false, rate2Touched = false, amount2Touched = false;
@@ -1499,7 +1542,13 @@
 
     var balBody = $('balBody');
     balBody.textContent = '';
-    balBody.appendChild(el('tr', {}, [
+    // Telefonda satır yalnızca bakiye ve değeri gösterir; başlığa dokununca ayrıntı açılır
+    var balRow = function (c, cells) {
+      var tr = el('tr', balOpen[c] ? { class: 'open' } : {}, cells);
+      cells[0].addEventListener('click', function () { balOpen[c] = !balOpen[c]; tr.classList.toggle('open', balOpen[c]); });
+      balBody.appendChild(tr);
+    };
+    balRow(TL, [
       assetCell(TL, 'span title'),
       el('td', { 'data-label': 'Bakiye', class: 'amt ' + signClass(Math.min(res.tl, 0)), text: fmtTL(res.tl) }),
       el('td', { class: 'skip', text: '—' }),
@@ -1508,7 +1557,7 @@
       el('td', { 'data-label': 'Pay', text: share(res.tl) }),
       el('td', { class: 'skip', text: '—' }),
       fixCell(TL)
-    ]));
+    ]);
     rows.forEach(function (r) {
       var c = r.c, a = r.a;
       var input = el('input', {
@@ -1528,7 +1577,7 @@
       if (r.unreal != null && a.cost > EPS) {
         pl.appendChild(el('small', { class: signClass(r.unreal), text: fmtPct(r.unreal / a.cost * 100) }));
       }
-      balBody.appendChild(el('tr', {}, [
+      balRow(c, [
         assetCell(c, 'span title'),
         el('td', { 'data-label': 'Bakiye', class: 'amt', text: fmtAmt(a.bal, c) }),
         el('td', { 'data-label': 'Ort. maliyet', text: a.bal > EPS ? fmtRate(r.avg, c) : '—' }),
@@ -1537,7 +1586,7 @@
         el('td', { 'data-label': 'Pay', text: share(r.value) }),
         pl,
         fixCell(c)
-      ]));
+      ]);
     });
 
     $('sTotal').textContent = fmtTL(total) + (missing ? ' *' : '');
@@ -1973,7 +2022,7 @@
       del.addEventListener('click', function () { removeTx(t.id); });
       var cash = isCash(t.cur) || !!t.adj || !!t.cari;   // kur ve TL karşılığı gösterilmeyen satırlar
       var actions = t.arb || t.adj || t.cari ? [del] : [edit, document.createTextNode(' '), del];
-      body.appendChild(el('tr', {}, [
+      var tr = el('tr', {}, [
         el('td', { 'data-label': 'Tarih', text: fmtDate(t.date) }),
         el('td', { 'data-label': 'Tür', class: 'left' }, [el('span', { class: 'badge ' + t.type, text: typeLabel(t) })]),
         el('td', { 'data-label': 'Varlık', class: 'left cur' + (isMetal(t.cur) ? ' metal' : ''), text: label(t.cur) }),
@@ -1982,7 +2031,10 @@
         el('td', { 'data-label': 'TL karşılığı', class: 'amt' + (cash ? ' skip' : ''), text: cash ? '—' : fmtTL(t.amount * t.rate) }),
         el('td', { class: 'left note span', text: noteOf(t) }),
         el('td', { class: 'span actions' }, actions)
-      ]));
+      ]);
+      // Telefonda Düzenle / Sil düğmeleri satıra dokununca görünür
+      tr.addEventListener('click', function (e) { if (!(e.target.closest && e.target.closest('button'))) tr.classList.toggle('open'); });
+      body.appendChild(tr);
     });
     $('txEmpty').hidden = rows.length > 0;
     $('txEmpty').textContent = state.tx.length ? 'Filtreye uyan işlem yok.' : 'Kayıtlı işlem yok.';
@@ -2386,7 +2438,7 @@
       });
       if (!bals.children.length) bals.appendChild(el('span', { class: 'hint', text: 'Hesap kapalı' }));
       var pick = el('button', { type: 'button', class: 'n', text: name, title: 'Bu kişi için hareket gir' });
-      pick.addEventListener('click', function () { $('cPerson').value = name; $('cAmount').focus(); });
+      pick.addEventListener('click', function () { setFold('cari', true); $('cPerson').value = name; $('cAmount').focus(); });
       var hist = el('button', { type: 'button', class: 'small', text: 'Hareketler' });
       hist.addEventListener('click', function () {
         $('filterText').value = name;
@@ -2474,9 +2526,7 @@
     Array.prototype.forEach.call($('kKarats').children, function (b) {
       b.setAttribute('aria-pressed', !coin && Number(b.getAttribute('data-k')) === kSel.karat ? 'true' : 'false');
     });
-    Array.prototype.forEach.call($('kCoins').children, function (b) {
-      b.setAttribute('aria-pressed', b.getAttribute('data-c') === kSel.coin ? 'true' : 'false');
-    });
+    $('kCoin').value = kSel.coin || '';
   }
   // Girilenlerden hesabı çıkarır; eksik ya da hatalıysa { error } döner.
   // qty: kasaya işlenecek miktar (gramda net ağırlık, ziynette adet).
@@ -2603,6 +2653,7 @@
         el('div', { class: 'r' }, [el('b', { text: fmtTL(x.total) }), del])
       ]));
     });
+    $('kListCard').hidden = !kList.length;   // boş liste yer kaplamasın
     $('kListEmpty').hidden = kList.length > 0;
     $('kTotals').hidden = !kList.length;
     $('kSumSell').textContent = s.sell ? fmtTL(s.sell) : '—';
@@ -2762,11 +2813,8 @@
       b.addEventListener('click', function () { pick(null, k); });
       $('kKarats').appendChild(b);
     });
-    COINS.forEach(function (c) {
-      var b = el('button', { type: 'button', 'data-c': c, 'aria-pressed': 'false', text: ASSETS[c].chip || label(c) });
-      b.addEventListener('click', function () { pick(c); });
-      $('kCoins').appendChild(b);
-    });
+    COINS.forEach(function (c) { $('kCoin').appendChild(el('option', { value: c, text: label(c) })); });
+    $('kCoin').addEventListener('change', function () { pick(this.value || null); });
     ['kSell', 'kBuy'].forEach(function (id) {
       $(id).addEventListener('change', function () { kHasTouched = false; kSync(); renderCalc(); });
     });
@@ -2859,7 +2907,7 @@
       }
       if (!bals.children.length) bals.appendChild(el('span', { class: 'hint', text: 'Hesap kapalı' }));
       var pick = el('button', { type: 'button', class: 'n', text: name, title: 'Bu toptancı için hareket gir' });
-      pick.addEventListener('click', function () { $('wWho').value = name; $('wGram').focus(); });
+      pick.addEventListener('click', function () { setFold('toptanci', true); $('wWho').value = name; $('wGram').focus(); });
       var hist = el('button', { type: 'button', class: 'small', 'aria-expanded': wOpen === name ? 'true' : 'false',
                                 text: wOpen === name ? 'Gizle' : 'Hareketler (' + b.n + ')' });
       hist.addEventListener('click', function () { wOpen = wOpen === name ? null : name; renderWhole(); });
@@ -3292,7 +3340,7 @@
     refreshing = true;
     var btn = $('btnRates');
     btn.disabled = true;
-    btn.textContent = 'Güncelleniyor…';
+    $('btnRatesTxt').textContent = 'Güncelleniyor…';
     fromTruncgil().catch(fromFallback)
       .then(function (out) {
         Object.keys(out.rates).forEach(function (c) {
@@ -3305,7 +3353,7 @@
         save(); render(); prefillRate();
       })
       .catch(function () { if (!silent) renderRatesInfo(true); })
-      .then(function () { refreshing = false; btn.disabled = false; btn.textContent = 'Fiyatları güncelle'; });
+      .then(function () { refreshing = false; btn.disabled = false; $('btnRatesTxt').textContent = 'Fiyatları güncelle'; });
   }
   function refreshIfStale() {
     if (navigator.onLine === false || document.hidden) return;
@@ -3372,13 +3420,31 @@
   }
 
   // ---------- Sekmeler ve tercihler ----------
-  var ui = { hide: false, backupAt: null, snooze: null };
+  var ui = { hide: false, backupAt: null, snooze: null, fold: {} };
+  // Açılır bölümler: [data-fold="ad"] öğeleri, [data-toggle="ad"] düğmesiyle açılıp kapanır; durum hatırlanır
+  function setFold(key, open, keep) {
+    ui.fold[key] = !!open;
+    Array.prototype.forEach.call(document.querySelectorAll('[data-fold="' + key + '"]'), function (n) { n.hidden = !open; });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-toggle="' + key + '"]'), function (b) {
+      b.textContent = open ? 'Kapat' : b.getAttribute('data-label');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    if (!keep) saveUI();
+  }
+  function initFolds() {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-toggle]'), function (b) {
+      var key = b.getAttribute('data-toggle');
+      b.addEventListener('click', function () { setFold(key, !ui.fold[key]); });
+      setFold(key, !!ui.fold[key], true);
+    });
+  }
   function loadUI() {
     try {
       var u = JSON.parse(localStorage.getItem(UI_KEY) || '{}');
       ui.hide = !!u.hide;
       ui.backupAt = typeof u.backupAt === 'string' ? u.backupAt : null;
       ui.snooze = typeof u.snooze === 'string' ? u.snooze : null;
+      if (u.fold && typeof u.fold === 'object') Object.keys(u.fold).forEach(function (k) { ui.fold[k] = !!u.fold[k]; });
       // Kuyum hesabı listesi: uygulama arka planda kapanırsa yarım kalan hesap kaybolmasın
       kList = (Array.isArray(u.calcList) ? u.calcList : []).filter(function (x) {
         return x && (x.mode === 'sell' || x.mode === 'buy') && ASSETS[x.cur] && !isCash(x.cur) &&
@@ -3432,7 +3498,7 @@
   // keep: yalnızca görünümü uygula (açılışta tercihleri yeniden yazmaya gerek yok)
   function setHidden(on, keep) {
     document.body.classList.toggle('hide-amt', on);
-    $('btnHide').textContent = on ? 'Tutarları göster' : 'Tutarları gizle';
+    $('btnHideTxt').textContent = $('btnHide').title = on ? 'Tutarları göster' : 'Tutarları gizle';
     $('btnHide').setAttribute('aria-pressed', on ? 'true' : 'false');
     ui.hide = on;
     if (!keep) saveUI();
@@ -3488,6 +3554,7 @@
 
     load();
     loadUI();
+    initFolds();
     setHidden(ui.hide, true);
     setView('islem');
     $('fDate').value = today();
