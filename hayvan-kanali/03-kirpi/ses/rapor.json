@@ -81,10 +81,10 @@
   "tek_basina": true
  },
  "011": {
-  "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.",
-  "duyulan": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.",
+  "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir.",
+  "duyulan": "zaten aç ve zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir.",
   "hata": 0,
-  "sure": 5.64,
+  "sure": 5.22,
   "uygun": true,
   "tek_basina": true
  },
@@ -350,11 +350,12 @@
   "tek_basina": true
  },
  "047": {
-  "yazi": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre, kalp atışı dakikada yüz doksandan yirmi civarına iniyor.",
-  "duyulan": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre kalp atışı dakikada 190'dan 20 civarına iniyor.",
+  "yazi": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre, kalp atışı çok yavaşlıyor.",
+  "duyulan": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre kalp atışı çok yavaşlıyor.",
   "hata": 0,
-  "sure": 7.08,
-  "uygun": true
+  "sure": 5.24,
+  "uygun": true,
+  "tek_basina": true
  },
  "048": {
   "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.",

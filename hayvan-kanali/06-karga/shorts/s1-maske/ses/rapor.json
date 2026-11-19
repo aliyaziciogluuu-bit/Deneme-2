@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu.",
+  "duyulan": "Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu.",
+  "hata": 0,
+  "sure": 4.74,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.",
+  "duyulan": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.",
+  "hata": 0,
+  "sure": 4.34,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.",
+  "duyulan": "Sonra o maskeyle yürüdü, kargalar ona bağırdı. Başka maskelere pek bağırmadı.",
+  "hata": 0,
+  "sure": 4.68,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
+  "duyulan": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
+  "hata": 0,
+  "sure": 3.52,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor.",
+  "duyulan": "kargalar yine de maskeli herkese bağırdı. Araştırmacılar bunu yüz tanımı olarak yorumluyor.",
+  "hata": 1,
+  "sure": 5.58,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.",
+  "duyulan": "o gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.",
+  "hata": 0,
+  "sure": 3.81,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar. Tam videosu kanalımızda.",
+  "duyulan": "Bu kargalar Amerikan kargası. Türkiye'de yaşamıyorlar. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 4.72,
+  "uygun": true
+ }
+}

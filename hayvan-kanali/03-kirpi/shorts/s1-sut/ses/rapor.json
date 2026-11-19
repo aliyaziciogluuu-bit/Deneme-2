@@ -31,11 +31,12 @@
   "uygun": true
  },
  "004": {
-  "yazi": "Zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.",
-  "duyulan": "zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.",
+  "yazi": "Zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir.",
+  "duyulan": "Zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir.",
   "hata": 0,
-  "sure": 4.0,
-  "uygun": true
+  "sure": 4.68,
+  "uygun": true,
+  "tek_basina": true
  },
  "005": {
   "yazi": "Onun yerine sığ bir kapta temiz su bırak. Tam videosu kanalımızda.",

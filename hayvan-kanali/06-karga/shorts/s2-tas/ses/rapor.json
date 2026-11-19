@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.",
+  "duyulan": "Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.",
+  "hata": 0,
+  "sure": 5.4,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşüktü, uzanamadılar.",
+  "duyulan": "Dört esir Ekin kargasına suyun üstünde yüzen bir solucan verildi. Su düşüktü, uzanamadılar.",
+  "hata": 0,
+  "sure": 6.18,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.",
+  "duyulan": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.",
+  "hata": 0,
+  "sure": 3.38,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı.",
+  "duyulan": "Bir araştırma kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı.",
+  "hata": 0,
+  "sure": 6.76,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu.",
+  "duyulan": "aynı ağırlıktaki primat beyinlerine göre ortalama iki kat fazla sinir hücresi buldu.",
+  "hata": 0,
+  "sure": 5.04,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda.",
+  "duyulan": "Bilim insanları bunun tek başına zekanın kanıdı olmadığını da hatırlatıyor. Tam videosu kanalımızda.",
+  "hata": 1,
+  "sure": 5.64,
+  "uygun": true
+ }
+}
