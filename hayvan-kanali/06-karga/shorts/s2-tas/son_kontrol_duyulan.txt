@@ -1,0 +1,6 @@
+000 fark=0 | Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı. || Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.
+001 fark=0 | Dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşüktü, uzanamadılar. || Dört esir Ekin kargasına suyun üstünde yüzen bir solucan verildi. Su düşüktü, uzanamadılar.
+002 fark=0 | Tüpün içine taş attılar, su yükseldi ve solucanı aldılar. || Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.
+003 fark=0 | Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı. || Bir araştırma kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı.
+004 fark=0 | Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu. || Aynı ağırlıktaki primat beyinlerine göre ortalama iki kat fazla sinir hücresi buldu.
+005 fark=1 | Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda. || Bilim insanları bunun tek başına zekanın kanıdı olmadığını da hatırlatıyor. Tam videosu kanalımızda.

@@ -1,0 +1,7 @@
+000 fark=0 | Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu. || Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu.
+001 fark=0 | Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı. || Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.
+002 fark=0 | Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı. || Sonra o maskeyle yürüdü, kargalar ona bağırdı. Başka maskelere pek bağırmadı.
+003 fark=0 | Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı. || Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.
+004 fark=1 | Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor. || Kargalar yine de maskeli herkese bağırdı. Araştırmacılar bunu yüz tanımı olarak yorumluyor.
+005 fark=0 | O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı. || O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.
+006 fark=0 | Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar. Tam videosu kanalımızda. || Bu kargalar Amerikan kargası. Türkiye'de yaşamıyorlar. Tam videosu kanalımızda.

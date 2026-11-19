@@ -75,17 +75,17 @@ pencereyi aç,
 kapıyı kapatıp odadan çık.
 
 20
-00:00:32,170 --> 00:00:34,380
-Odada uyuyan biri ya da çocuk varsa,
+00:00:32,170 --> 00:00:34,101
+Odada uyuyan biri, çocuk ya da
 
 21
-00:00:34,380 --> 00:00:36,037
-yarasayı serbest bırakmadan
+00:00:34,101 --> 00:00:36,096
+temas olasılığı varsa, yarasayı
 
 22
-00:00:36,037 --> 00:00:37,817
-önce sağlık kuruluşuna danış.
+00:00:36,096 --> 00:00:39,185
+serbest bırakmadan önce sağlık kuruluşuna danış.
 
 23
-00:00:37,817 --> 00:00:39,540
+00:00:39,185 --> 00:00:40,980
 Tam videosu kanalımızda.
