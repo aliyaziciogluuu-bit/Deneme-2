@@ -1,6 +1,6 @@
 # Shorts Planı — Avludaki Komşular
 
-Durum (17 Kasım 2026): 8 Shorts YouTube'da planlandı.
+Durum (19 Kasım 2026): 8 Shorts YouTube'da planlı. Shorts 3 yenisiyle değiştirildi, Shorts 4 açıklaması güncellendi (kanal sahibi, 19 Kasım). Shorts 5–8 yeni sürümleriyle değiştirilecek. Baykuş ve Shorts 9–10 henüz planlanmadı.
 
 Kural: Bir Shorts, ancak ait olduğu uzun video yayına girdikten sonra paylaşılır. Böylece "İlgili video" bağlantısı izleyiciyi doğrudan uzun videoya götürür.
 Saat: Shorts'lar 12:00'de, uzun videolar 18:00'de. Böylece aynı gün çakışmazlar.

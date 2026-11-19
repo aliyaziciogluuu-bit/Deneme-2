@@ -26,3 +26,5 @@ Video 16–17 Kasım'da ofis öncesi dönemde üretildi ve 20 Kasım 18:00 için
 - Ders: künye yazılırken makale sayfası açılamıyorsa künye yazılmaz, alan adı erişimi iş başında istenir.
 
 YAYINDA: kanal sahibi 19 Kasım'da yeni sürümü yükledi, 20 Kasım 18:00 planlı.
+
+- Shorts 3 yeni sürümle değiştirildi, Shorts 4 kaynak satırı güncellendi (kanal sahibi, 19 Kasım).
