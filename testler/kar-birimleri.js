@@ -44,19 +44,19 @@ const SEED = {
     assert.ok((await txt('#sTodaySub')).includes('≈ $25,00 · 0,34 gr has'), await txt('#sTodaySub'));
     await p.click('button[data-go="gun"]');
     assert.equal(await txt('#dNet'), '+₺1.050,00');
-    assert.equal(await txt('#dNetAlt'), '≈ $25,00 · 0,34 gr has');
+    assert.equal(await txt('#dNetUsd'), '$25,00'); assert.equal(await txt('#dNetHas'), '0,34 gr');
     await p.screenshot({ path: OUT + '/' + name + '-kar.png' });
     // Dün: net 1200 TL; o günün kayıtlı kurlarıyla (40 ve 3000)
     await p.click('#dayPrev');
     assert.equal(await txt('#dNet'), '+₺1.200,00');
-    assert.equal(await txt('#dNetAlt'), '≈ $30,00 · 0,40 gr has');
-    // İşlem olmayan gün: karşılık yazılmaz
+    assert.equal(await txt('#dNetUsd'), '$30,00'); assert.equal(await txt('#dNetHas'), '0,40 gr');
+    // İşlem olmayan gün: sıfır yazılır
     await p.click('#dayPrev');
-    assert.equal(await txt('#dNetAlt'), '');
+    assert.equal(await txt('#dNetUsd'), '$0,00'); assert.equal(await txt('#dNetHas'), '0,00 gr');
     // Analiz, tüm dönem: 30 + 25 dolar; 0,40 + 0,3443 gr has
     await p.click('#modeAn'); await p.selectOption('#anRange', 'all');
     assert.equal(await txt('#dNet'), '+₺2.250,00');
-    assert.equal(await txt('#dNetAlt'), '≈ $55,00 · 0,74 gr has');
+    assert.equal(await txt('#dNetUsd'), '$55,00'); assert.equal(await txt('#dNetHas'), '0,74 gr');
     assert.ok((await txt('#dayFoot')).includes('Dolar ve has karşılığı'));
     // Has fiyatı değişince bugünün kuru kaydedilir; dünün karşılığı değişmez
     await p.click('button[data-go="hesap"]');
@@ -66,9 +66,9 @@ const SEED = {
     assert.deepEqual(st.fx[today], [42, 3500]);
     assert.equal(Object.keys(st.fx).length, 2);                                   // bozuk kayıtlar atıldı
     await p.click('button[data-go="gun"]'); await p.click('#modeDay'); await p.click('#dayToday');
-    assert.equal(await txt('#dNetAlt'), '≈ $25,00 · 0,30 gr has');                 // 1050 / 3500
+    assert.equal(await txt('#dNetUsd'), '$25,00'); assert.equal(await txt('#dNetHas'), '0,30 gr');                 // 1050 / 3500
     await p.click('#dayPrev');
-    assert.equal(await txt('#dNetAlt'), '≈ $30,00 · 0,40 gr has');
+    assert.equal(await txt('#dNetUsd'), '$30,00'); assert.equal(await txt('#dNetHas'), '0,40 gr');
     await ctx.close();
   }
   // Zarar eksiyle; kur hiç yoksa karşılık yazılmaz ve hata olmaz
@@ -82,6 +82,9 @@ const SEED = {
     { id: '2', seq: 2, date: iso(0), type: 'out', cur: 'TRY', amount: 100, rate: 1, note: 'Çay', exp: true }] });
   assert.equal(await bare.txt('#mToday'), '−₺100,00');
   assert.equal(await bare.txt('#mTodayAlt'), '');
+  await bare.p.click('button[data-go="gun"]');
+  assert.equal(await bare.txt('#dNetUsd'), '—');                                  // kur yok: çizgi
+  assert.equal(await bare.txt('#dNetHas'), '—');
   await bare.ctx.close();
   await b.close();
   assert.deepEqual(errors, []);
