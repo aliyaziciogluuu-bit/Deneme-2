@@ -20,10 +20,12 @@
      "yazi": "Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu.",
      "gorsel": "maske_bagiran",
      "klip": "maske_bagiran",
-     "kx": 0.64,
-     "aw": 0.8,
-     "ay": 0.8,
-     "x": 0.62
+     "kx": 0.57,
+     "aw": 0.7,
+     "ay": 0.67,
+     "x": 0.62,
+     "kz": 1.2,
+     "ky": 0.95
     },
     {
      "yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.",
@@ -38,8 +40,8 @@
      "gorsel": "maske_bagiran",
      "x": 0.6,
      "x2": 0.64,
-     "aw": 1.0,
-     "ay": 0.78
+     "aw": 0.7,
+     "ay": 0.67
     },
     {
      "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
@@ -93,12 +95,14 @@
      "yazi": "Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.",
      "gorsel": "tup_tas",
      "klip": "tup_tas",
-     "kx": 0.45
+     "kx": 0.5,
+     "kz": 1.15,
+     "ky": 0.05
     },
     {
      "yazi": "Dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşüktü, uzanamadılar.",
      "gorsel": "tup_tas",
-     "x": 0.58,
+     "x": 0.65,
      "aw": 0.7,
      "ay": 0.5
     },
@@ -129,7 +133,7 @@
      "gorsel": "tup_tas",
      "x": 0.4,
      "aw": 0.9,
-     "ay": 0.35
+     "ay": 0.25
     }
    ]
   }

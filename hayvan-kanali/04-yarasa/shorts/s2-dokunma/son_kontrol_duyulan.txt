@@ -1,8 +1,8 @@
-000 fark=0 | Bir yarasaya asla çıplak elle dokunma. || Bir yarasaya asla çıplak elle dokunma.
-001 fark=0 | Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın. || Çoğu yarasa kuduz ya da benzeri virüsler taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.
-002 fark=0 | Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka. || Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.
-003 fark=0 | Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle. || Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.
-004 fark=0 | Kuduz aşısı gerekip gerekmediğine doktor karar verir. || Kuduz aşısı gerekip gerekmediğine doktor karar verir.
-005 fark=0 | Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut. || Yerde ya da gündüz uçamayan bir yarasaya yaklaşma, çocukları ve evcil hayvanları uzak tut.
+000 fark=0 | Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın. || Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın.
+001 fark=0 | Çoğu taşımaz, ama bu yüzden hiçbirine çıplak elle dokunma. || Çoğu taşımaz ama bu yüzden hiçbirine çıplak elle dokunma.
+002 fark=0 | Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. || Isırık ya da tırmalama küçük olsa bile yarayı hemen bol sabun ve suyla yıka.
+003 fark=0 | Yıkamayı en az on beş dakika sürdür. || Yıkamayı en az 15 dakika sürdür.
+004 fark=0 | Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir. || Sonra bir sağlık kuruluşuna git, aşı gerekip gerekmediğine doktor karar verir.
+005 fark=1 | Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut. || Yerde ya da gündüz uçamayan bir arasaya yaklaşma, çocukları ve evcil hayvanları uzak tut.
 006 fark=0 | Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık. || Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.
-007 fark=0 | Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda. || Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda.
+007 fark=0 | Odada uyuyan biri ya da çocuk varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda. || Odada uyuyan biri ya da çocuk varsa, yara sayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.

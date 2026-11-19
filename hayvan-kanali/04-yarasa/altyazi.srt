@@ -55,329 +55,329 @@ Yarasa yankıyı dinleyerek önündekinin ne
 olduğunu ve ne kadar uzakta olduğunu anlıyor.
 
 15
-00:00:48,440 --> 00:00:52,290
+00:00:48,440 --> 00:00:52,285
 Buna ekolokasyon, yani yankıyla yön bulma deniyor.
 
 16
-00:00:52,890 --> 00:00:55,715
+00:00:52,390 --> 00:00:55,215
 Peki yarasa gerçekten kör mü?
 
 17
-00:00:55,820 --> 00:00:59,910
+00:00:55,320 --> 00:00:59,410
 Kör yarasa sözü de doğru değil; yarasaların gözleri var ve görebiliyorlar.
 
 18
-00:01:00,510 --> 00:01:03,795
+00:01:00,010 --> 00:01:03,295
 Yarasalar, gerçekten uçabilen tek memeliler.
 
 19
-00:01:03,900 --> 00:01:07,745
+00:01:03,400 --> 00:01:07,245
 Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar.
 
 20
-00:01:07,850 --> 00:01:11,535
+00:01:07,350 --> 00:01:11,035
 Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar.
 
 21
-00:01:11,640 --> 00:01:13,897
+00:01:11,140 --> 00:01:13,397
 Kanatları, uzamış parmak kemiklerinin
 
 22
-00:01:13,897 --> 00:01:16,765
+00:01:13,397 --> 00:01:16,265
 arasına gerilmiş ince bir deriden oluşuyor.
 
 23
-00:01:16,870 --> 00:01:21,160
+00:01:16,370 --> 00:01:20,660
 Yani bir yarasanın kanadı, aslında kocaman açılmış bir el.
 
 24
-00:01:21,760 --> 00:01:24,025
+00:01:21,260 --> 00:01:23,525
 Bir başka korku da kan emmeleri.
 
 25
-00:01:24,130 --> 00:01:27,377
+00:01:23,630 --> 00:01:26,877
 Dünyada kanla beslenen yalnızca üç yarasa türü var ve
 
 26
-00:01:27,377 --> 00:01:31,175
+00:01:26,877 --> 00:01:30,675
 hepsi Meksika'dan Güney Amerika'ya uzanan bölgede yaşıyor.
 
 27
-00:01:31,280 --> 00:01:34,005
+00:01:30,780 --> 00:01:33,505
 Türkiye'de kanla beslenen yarasa yok.
 
 28
-00:01:34,110 --> 00:01:36,595
+00:01:33,610 --> 00:01:36,095
 Türkiye'deki yarasaların neredeyse hepsi
 
 29
-00:01:36,595 --> 00:01:39,640
+00:01:36,095 --> 00:01:39,140
 böcekle beslenir; yalnızca bir tür meyve yer.
 
 30
-00:01:40,240 --> 00:01:46,245
+00:01:39,740 --> 00:01:45,745
 Güveler, küçük sinekler, böcekler ve bazı tarım zararlıları menülerinde.
 
 31
-00:01:46,350 --> 00:01:49,894
+00:01:45,850 --> 00:01:49,394
 Avrupa'da dışkıdan yapılan bir tahmine göre, küçük bir
 
 32
-00:01:49,894 --> 00:01:53,815
+00:01:49,394 --> 00:01:53,315
 yarasa bir gecede ortalama yarım gramdan az böcek yiyor.
 
 33
-00:01:53,920 --> 00:01:57,645
+00:01:53,420 --> 00:01:57,145
 Daha iri bir türde bu miktar, iki gramı biraz aşıyor.
 
 34
-00:01:57,750 --> 00:02:00,569
+00:01:57,250 --> 00:02:00,069
 Bu yüzden yarasalar, tarlalarda ve bahçelerde
 
 35
-00:02:00,569 --> 00:02:03,070
+00:02:00,069 --> 00:02:02,570
 ücretsiz çalışan birer böcek avcısı.
 
 36
-00:02:03,175 --> 00:02:05,964
+00:02:02,675 --> 00:02:05,464
 Güney kıyılarımızda yaşayan Mısır meyve yarasası da
 
 37
-00:02:05,964 --> 00:02:09,605
+00:02:05,464 --> 00:02:09,105
 meyvelerle besleniyor ve tohumların yayılmasına yardım ediyor.
 
 38
-00:02:10,205 --> 00:02:13,410
+00:02:09,705 --> 00:02:12,910
 Dünyada bin üç yüzden fazla yarasa türü var.
 
 39
-00:02:13,515 --> 00:02:16,740
+00:02:13,015 --> 00:02:16,240
 Türkiye'de otuzdan fazla yarasa türü yaşıyor.
 
 40
-00:02:16,845 --> 00:02:20,330
+00:02:16,345 --> 00:02:19,830
 Yarasaların çoğu yılda yalnızca bir yavru doğuruyor.
 
 41
-00:02:20,435 --> 00:02:22,703
+00:02:19,935 --> 00:02:22,203
 Dişiler yazın, yavrularını büyütmek için
 
 42
-00:02:22,703 --> 00:02:25,160
+00:02:22,203 --> 00:02:24,660
 kalabalık doğum kolonileri oluşturuyor.
 
 43
-00:02:25,265 --> 00:02:28,814
+00:02:24,765 --> 00:02:28,314
 Bu kadar yavaş çoğaldıkları için, bir koloninin zarar
 
 44
-00:02:28,814 --> 00:02:33,010
+00:02:28,314 --> 00:02:32,510
 görmesi o bölgedeki yarasaları uzun yıllar etkileyebiliyor.
 
 45
-00:02:33,115 --> 00:02:36,120
+00:02:32,615 --> 00:02:35,620
 Buna karşılık şaşırtıcı derecede uzun yaşıyorlar.
 
 46
-00:02:36,225 --> 00:02:40,775
+00:02:35,725 --> 00:02:40,275
 Sibirya'da halkalanan küçük bir yarasa, en az kırk bir yıl yaşadı.
 
 47
-00:02:41,375 --> 00:02:45,519
+00:02:40,875 --> 00:02:45,019
 Bazı böcekçil yarasalar, kış gelince böcekler azaldığında
 
 48
-00:02:45,519 --> 00:02:50,780
+00:02:45,019 --> 00:02:50,280
 mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyor.
 
 49
-00:02:50,885 --> 00:02:53,145
+00:02:50,385 --> 00:02:52,645
 Uyandırılırlarsa, kışı geçirmek için
 
 50
-00:02:53,145 --> 00:02:56,090
+00:02:52,645 --> 00:02:55,590
 biriktirdikleri yağ depolarını harcıyorlar.
 
 51
-00:02:56,195 --> 00:03:00,545
+00:02:55,695 --> 00:03:00,045
 Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli.
 
 52
-00:03:01,145 --> 00:03:02,810
+00:03:00,645 --> 00:03:02,310
 Peki asıl tehlike ne?
 
 53
-00:03:02,915 --> 00:03:05,149
+00:03:02,415 --> 00:03:04,649
 Yarasalar, dünyanın birçok yerinde kuduz
 
 54
-00:03:05,149 --> 00:03:07,740
+00:03:04,649 --> 00:03:07,240
 ve kuduza benzeyen virüsler taşıyabiliyor.
 
 55
-00:03:07,845 --> 00:03:09,771
+00:03:07,345 --> 00:03:09,271
 Çoğu yarasa bunları taşımaz,
 
 56
-00:03:09,771 --> 00:03:13,250
+00:03:09,271 --> 00:03:12,750
 ama hangisinin taşıdığını bakarak anlayamazsın.
 
 57
-00:03:13,355 --> 00:03:16,500
+00:03:12,855 --> 00:03:16,000
 Bu yüzden bir yarasaya asla çıplak elle dokunma.
 
 58
-00:03:16,605 --> 00:03:19,399
+00:03:16,105 --> 00:03:18,899
 Yerde duran ya da gündüz uçamayan bir yarasa
 
 59
-00:03:19,399 --> 00:03:22,310
+00:03:18,899 --> 00:03:21,810
 hasta ya da yaralı olabilir; ona yaklaşma.
 
 60
-00:03:22,415 --> 00:03:25,060
+00:03:21,915 --> 00:03:24,560
 Çocukları ve evcil hayvanları uzak tut.
 
 61
-00:03:25,165 --> 00:03:27,936
+00:03:24,665 --> 00:03:27,436
 Isırık ya da tırmalama küçük olsa bile,
 
 62
-00:03:27,936 --> 00:03:30,810
+00:03:27,436 --> 00:03:30,310
 yarayı hemen bol sabun ve suyla yıka.
 
 63
-00:03:30,915 --> 00:03:33,800
+00:03:30,415 --> 00:03:33,300
 Yıkamayı en az on beş dakika sürdür.
 
 64
-00:03:33,905 --> 00:03:36,507
+00:03:33,405 --> 00:03:36,007
 Sonra vakit kaybetmeden bir sağlık kuruluşuna
 
 65
-00:03:36,507 --> 00:03:38,950
+00:03:36,007 --> 00:03:38,450
 git ve yarasayla temas ettiğini söyle.
 
 66
-00:03:39,055 --> 00:03:41,959
+00:03:38,555 --> 00:03:41,459
 Kuduz aşısı gerekip gerekmediğine doktor karar verir;
 
 67
-00:03:41,959 --> 00:03:44,345
+00:03:41,459 --> 00:03:43,845
 kendi başına bir şey olmaz deyip geçme.
 
 68
-00:03:44,945 --> 00:03:47,950
+00:03:44,445 --> 00:03:47,450
 Peki evine bir yarasa girerse ne yapmalısın?
 
 69
-00:03:48,055 --> 00:03:53,200
+00:03:47,555 --> 00:03:52,700
 Önce sakin ol; yarasa genellikle sana saldırmaz, sadece çıkış yolu arıyor.
 
 70
-00:03:53,305 --> 00:03:56,319
+00:03:52,805 --> 00:03:55,819
 Odadaki ışıkları kapat, pencereleri ardına
 
 71
-00:03:56,319 --> 00:03:59,290
+00:03:55,819 --> 00:03:58,790
 kadar aç ve kapıyı kapatıp dışarı çık.
 
 72
-00:03:59,395 --> 00:04:02,360
+00:03:58,895 --> 00:04:01,860
 Çocukları ve evcil hayvanları odadan uzak tut.
 
 73
-00:04:02,465 --> 00:04:06,630
+00:04:01,965 --> 00:04:06,130
 Yarasa çoğu zaman kendi çıkış yolunu bulup dışarı uçar.
 
 74
-00:04:06,735 --> 00:04:09,418
+00:04:06,235 --> 00:04:08,918
 Odada uyuyan biri ya da küçük bir çocuk varsa,
 
 75
-00:04:09,418 --> 00:04:13,220
+00:04:08,918 --> 00:04:12,720
 yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış.
 
 76
-00:04:13,325 --> 00:04:16,670
+00:04:12,825 --> 00:04:16,170
 Yarasayla temas olasılığı varsa da aynısını yap.
 
 77
-00:04:16,775 --> 00:04:19,446
+00:04:16,275 --> 00:04:18,946
 Yarasa çıkmazsa ve bir yere konduysa,
 
 78
-00:04:19,446 --> 00:04:22,940
+00:04:18,946 --> 00:04:22,440
 üzerine bir kutu kapat, altına karton kaydır.
 
 79
-00:04:23,045 --> 00:04:25,815
+00:04:22,545 --> 00:04:25,315
 Akşam olunca dışarıda yüksek bir yere bırak;
 
 80
-00:04:25,815 --> 00:04:29,270
+00:04:25,315 --> 00:04:28,770
 bunu yalnızca bir yetişkin, kalın eldivenle yapsın.
 
 81
-00:04:29,375 --> 00:04:32,830
+00:04:28,875 --> 00:04:32,330
 Yarasa yaralıysa ya da emin değilsen, bölgendeki Doğa
 
 82
-00:04:32,830 --> 00:04:36,405
+00:04:32,330 --> 00:04:35,905
 Koruma ve Milli Parklar şube müdürlüğüne haber ver.
 
 83
-00:04:37,005 --> 00:04:40,135
+00:04:36,505 --> 00:04:39,635
 Yarasalar korunması gereken yaban hayvanları;
 
 84
-00:04:40,135 --> 00:04:45,110
+00:04:39,635 --> 00:04:44,610
 onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme.
 
 85
-00:04:45,215 --> 00:04:48,153
+00:04:44,715 --> 00:04:47,653
 Çatı arasında bir yarasa kolonisi varsa, onları kendi
 
 86
-00:04:48,153 --> 00:04:51,280
+00:04:47,653 --> 00:04:50,780
 başına çıkarmaya çalışma; yetkililerden yardım iste.
 
 87
-00:04:51,385 --> 00:04:54,178
+00:04:50,885 --> 00:04:53,678
 Yarasa kutusu asmak onlara yardımcı olabilir;
 
 88
-00:04:54,178 --> 00:04:58,270
+00:04:53,678 --> 00:04:57,770
 ama kutuyu doğru yapmak gerekir ve kutuya elle dokunmamalısın.
 
 89
-00:04:58,375 --> 00:05:02,225
+00:04:57,875 --> 00:05:01,725
 Böcek ilacını azaltmak da, yarasaların besin bulmasına yardım eder.
 
 90
-00:05:02,825 --> 00:05:07,650
+00:05:02,325 --> 00:05:07,150
 Türkiye'deki yarasalar ne saçına yapışır, ne kan emer, ne de kördür.
 
 91
-00:05:07,755 --> 00:05:10,700
+00:05:07,255 --> 00:05:10,200
 O, gecenin sessiz ve çalışkan bir avcısı.
 
 92
-00:05:10,805 --> 00:05:16,170
+00:05:10,305 --> 00:05:15,670
 Ona dokunmadan, uzaktan izlemek hem senin hem de onun için en güvenlisi.
 
 93
-00:05:16,275 --> 00:05:18,574
+00:05:15,775 --> 00:05:18,074
 Senin oralarda yarasayla ilgili hangi
 
 94
-00:05:18,574 --> 00:05:21,180
+00:05:18,074 --> 00:05:20,680
 inanışlar anlatılıyor? Yorumlarda yaz.
 
 95
-00:05:21,285 --> 00:05:24,750
+00:05:20,785 --> 00:05:24,250
 Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
 
 96
-00:05:24,750 --> 00:05:28,155
+00:05:24,250 --> 00:05:27,655
 komşuları anlatmaya devam edeceğiz. Görüşmek üzere.

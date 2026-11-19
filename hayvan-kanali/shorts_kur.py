@@ -42,7 +42,7 @@ def kur(video: str):
         for c in sh["cumleler"]:
             x = c.get("x", 0.5)
             ck = {"n": 1, "gorsel": c["gorsel"], "a": [x, c.get("ay", c.get("y", 0.5)), c.get("aw", 1.0)], "b": [c.get("x2", x), c.get("y", 0.5), c.get("w", 0.85)]}
-            for anahtar in ("klip", "kx", "etiket", "karart"):
+            for anahtar in ("klip", "kx", "kz", "ky", "etiket", "karart"):
                 if anahtar in c:
                     ck[anahtar] = c[anahtar]
             cekimler.append(ck)
