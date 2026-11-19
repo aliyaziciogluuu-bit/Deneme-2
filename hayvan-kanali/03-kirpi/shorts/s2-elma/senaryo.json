@@ -1,7 +1,7 @@
 {
   "dikey": true,
   "baslik": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
-  "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık iki bin yıl önce yaşamış Romalı yazar Plinius'un yazılarında geçiyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #efsane #doğa",
+  "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık iki bin yıl önce yaşamış Romalı yazar Plinius'un yazılarında geçiyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)\"\n\nKaynak: Wikipedia – Hedgehogs in culture\n\n#shorts #kirpi #efsane #doğa",
   "etiketler": [
     "kirpi",
     "kirpi elma",
@@ -19,13 +19,13 @@
     "seviye": 0.05,
     "kaynak": ""
   },
-  "ana_video": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Zarar Verebilirsin)",
+  "ana_video": "Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)",
   "sahneler": [
     {
       "ad": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
       "cumleler": [
         {
-          "yazi": "Kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok."
+          "yazi": "Hayır: kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok."
         },
         {
           "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
@@ -38,10 +38,7 @@
           "yazi": "Dikenleri onu avcılardan korumaya yarıyor."
         },
         {
-          "yazi": "Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar."
-        },
-        {
-          "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var. Tam videosu kanalımızda."
+          "yazi": "Kirpi aslında böcek avcısı; ana besini böcekler ve solucanlar. Tam videosu kanalımızda."
         }
       ]
     }

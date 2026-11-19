@@ -323,5 +323,13 @@
   "sure": 2.18,
   "uygun": true,
   "tek_basina": true
+ },
+ "005": {
+  "yazi": "Ekmek de yanlış; sırtında elma taşıdığı efsanenin aslı da şaşırtıcı.",
+  "duyulan": "Ekmek de yanlış, sırtında elma taşıdığı efsanenin aslı da şaşırtıcı.",
+  "hata": 0,
+  "sure": 4.56,
+  "uygun": true,
+  "tek_basina": true
  }
 }

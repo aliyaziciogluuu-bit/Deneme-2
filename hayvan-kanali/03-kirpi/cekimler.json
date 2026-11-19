@@ -18,76 +18,6 @@
   },
   {
    "n": 1,
-   "gorsel": "bahce_gece",
-   "a": [
-    0.7,
-    0.5,
-    0.7
-   ],
-   "b": [
-    0.7,
-    0.5,
-    0.55
-   ]
-  },
-  {
-   "n": 1,
-   "gorsel": "sut_kabi",
-   "a": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "b": [
-    0.5,
-    0.5,
-    0.82
-   ]
-  },
-  {
-   "n": 1,
-   "gorsel": "hasta",
-   "a": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "b": [
-    0.5,
-    0.5,
-    0.82
-   ]
-  },
-  {
-   "n": 1,
-   "gorsel": "yavrular",
-   "a": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "b": [
-    0.5,
-    0.5,
-    0.82
-   ]
-  },
-  {
-   "n": 1,
-   "gorsel": "portre",
-   "a": [
-    0.4,
-    0.5,
-    0.85
-   ],
-   "b": [
-    0.6,
-    0.5,
-    0.85
-   ]
-  },
-  {
-   "n": 1,
    "gorsel": "kapak",
    "a": [
     0.5,
@@ -109,6 +39,20 @@
    "n": 1,
    "gorsel": "sut_kabi",
    "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "sut_kabi",
+   "a": [
     0.62,
     0.62,
     0.6
@@ -119,20 +63,6 @@
     0.45
    ],
    "etiket": "Kirpiler laktozu sindiremez"
-  },
-  {
-   "n": 1,
-   "gorsel": "sut_kabi",
-   "a": [
-    0.5,
-    0.5,
-    0.82
-   ],
-   "b": [
-    0.5,
-    0.5,
-    1.0
-   ]
   },
   {
    "n": 1,
@@ -150,6 +80,20 @@
   },
   {
    "n": 1,
+   "gorsel": "elma",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ]
+  },
+  {
+   "n": 1,
    "gorsel": "hasta",
    "a": [
     0.5,
@@ -161,7 +105,7 @@
     0.5,
     1.0
    ],
-   "etiket": "İshal → susuz kalma"
+   "etiket": "İshal → sıvı kaybı"
   },
   {
    "n": 1,
@@ -179,21 +123,6 @@
   },
   {
    "n": 1,
-   "gorsel": "sut_kabi",
-   "a": [
-    0.4,
-    0.55,
-    0.8
-   ],
-   "b": [
-    0.6,
-    0.55,
-    0.8
-   ],
-   "etiket": "Laktozu alınmış süt ve bitki sütü de uygun değil"
-  },
-  {
-   "n": 1,
    "gorsel": "portre",
    "a": [
     0.38,
@@ -206,6 +135,20 @@
     0.8
    ],
    "etiket": "Ekmek de uygun değil"
+  },
+  {
+   "n": 1,
+   "gorsel": "sut_kabi",
+   "a": [
+    0.4,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.8
+   ]
   },
   {
    "n": 1,
@@ -250,7 +193,7 @@
     0.5,
     0.82
    ],
-   "etiket": "Et bazlı kedi/köpek maması (balıklı değil)"
+   "etiket": "Et bazlı kedi/köpek maması"
   },
   {
    "n": 1,
@@ -310,6 +253,79 @@
   },
   {
    "n": 1,
+   "gorsel": "elma",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Efsane"
+  },
+  {
+   "n": 1,
+   "gorsel": "plinius",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Yaşlı Plinius, MS 1. yüzyıl"
+  },
+  {
+   "n": 1,
+   "gorsel": "elma",
+   "a": [
+    0.45,
+    0.4,
+    0.7
+   ],
+   "b": [
+    0.45,
+    0.4,
+    0.55
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "elma",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Bilimsel kanıt yok"
+  },
+  {
+   "n": 1,
+   "gorsel": "portre",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "n": 1,
    "gorsel": "trakya",
    "a": [
     0.5,
@@ -336,22 +352,7 @@
     0.55,
     0.55
    ],
-   "etiket": "Akgöğüslü kirpi (Anadolu)"
-  },
-  {
-   "n": 1,
-   "gorsel": "trakya",
-   "a": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "b": [
-    0.5,
-    0.5,
-    0.82
-   ],
-   "etiket": "Balkan kirpisi (Trakya)"
+   "etiket": "Akgöğüslü kirpi"
   },
   {
    "n": 1,
@@ -426,7 +427,7 @@
     0.45,
     0.55
    ],
-   "etiket": "Zehirsiz, fırlatılamaz"
+   "etiket": "Zehirsiz, kancasız"
   },
   {
    "n": 1,
@@ -459,65 +460,6 @@
   },
   {
    "n": 1,
-   "gorsel": "elma",
-   "a": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "b": [
-    0.5,
-    0.5,
-    0.82
-   ],
-   "etiket": "Efsane"
-  },
-  {
-   "n": 1,
-   "gorsel": "plinius",
-   "a": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "b": [
-    0.5,
-    0.5,
-    0.82
-   ],
-   "etiket": "Yaşlı Plinius, MS 1. yüzyıl"
-  },
-  {
-   "n": 1,
-   "gorsel": "elma",
-   "a": [
-    0.45,
-    0.4,
-    0.7
-   ],
-   "b": [
-    0.45,
-    0.4,
-    0.55
-   ]
-  },
-  {
-   "n": 1,
-   "gorsel": "elma",
-   "a": [
-    0.5,
-    0.5,
-    0.82
-   ],
-   "b": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "etiket": "Bilimsel kanıt yok"
-  },
-  {
-   "n": 1,
    "gorsel": "bocek_av",
    "a": [
     0.5,
@@ -544,7 +486,7 @@
     0.82
    ],
    "klip": "bocek_av",
-   "etiket": "Böcek · tırtıl · solucan · salyangoz"
+   "etiket": "Tırtıl · sümüklü böcek · salyangoz"
   },
   {
    "n": 1,
@@ -558,7 +500,8 @@
     0.4,
     0.6,
     0.45
-   ]
+   ],
+   "etiket": "Besinin çoğu: solucan ve böcek"
   },
   {
    "n": 1,
@@ -586,7 +529,8 @@
     0.5,
     0.5,
     1.0
-   ]
+   ],
+   "etiket": "Bahçıvanın dostu"
   },
   {
    "n": 1,
@@ -602,6 +546,20 @@
     0.82
    ],
    "etiket": "Yılan zehrine kısmi direnç"
+  },
+  {
+   "n": 1,
+   "gorsel": "hasta",
+   "a": [
+    0.5,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.6
+   ]
   },
   {
    "n": 1,
@@ -703,7 +661,7 @@
     0.65,
     0.55
    ],
-   "etiket": "Kalp atışı çok yavaşlıyor"
+   "etiket": "Vücut işlevleri yavaşlıyor"
   },
   {
    "n": 1,
@@ -734,6 +692,21 @@
     0.82
    ],
    "etiket": "Yakmadan önce kontrol et"
+  },
+  {
+   "n": 1,
+   "gorsel": "yaprak_yigini",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "etiket": "Yığına dokunma"
   },
   {
    "n": 1,
@@ -775,7 +748,37 @@
     0.45,
     0.55,
     0.55
+   ],
+   "etiket": "Hızlı yürüyen, sağlıklı anne"
+  },
+  {
+   "n": 1,
+   "gorsel": "hasta",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
    ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yavrular",
+   "a": [
+    0.38,
+    0.65,
+    0.6
+   ],
+   "b": [
+    0.38,
+    0.65,
+    0.45
+   ],
+   "etiket": "Gündüz yavru: beklemeden yardım iste"
   },
   {
    "n": 1,
@@ -820,7 +823,22 @@
     0.6,
     0.55
    ],
-   "etiket": "Üşümüşse havluya sarılı ılık su şişesi"
+   "etiket": "Havluya sarılı sıcak şişe (kaynar değil)"
+  },
+  {
+   "n": 1,
+   "gorsel": "kutu",
+   "a": [
+    0.4,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.8
+   ],
+   "etiket": "Kutuda kaçacak boşluk"
   },
   {
    "n": 1,
@@ -839,6 +857,21 @@
   },
   {
    "n": 1,
+   "gorsel": "hasta",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "etiket": "Kurtarma merkezi ya da veteriner"
+  },
+  {
+   "n": 1,
    "gorsel": "portre",
    "a": [
     0.5,
@@ -850,7 +883,7 @@
     0.5,
     0.82
    ],
-   "etiket": "Kurtarma merkezi · veteriner · DKMP şube müdürlüğü"
+   "etiket": "Doğa Koruma ve Milli Parklar şube müdürlüğü"
   },
   {
    "n": 1,
@@ -894,6 +927,20 @@
     0.6,
     0.55,
     0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "cit_delik",
+   "a": [
+    0.5,
+    0.5,
+    0.82
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1.0
    ]
   },
   {
@@ -956,6 +1003,20 @@
     1.0
    ],
    "etiket": "Kirpi bir yaban hayvanı"
+  },
+  {
+   "n": 1,
+   "gorsel": "hasta",
+   "a": [
+    0.5,
+    0.55,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.6
+   ]
   },
   {
    "n": 1,
