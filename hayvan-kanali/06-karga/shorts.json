@@ -19,10 +19,11 @@
     {
      "yazi": "Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu.",
      "gorsel": "maske_bagiran",
-     "x": 0.49,
-     "x2": 0.55,
-     "aw": 0.5,
-     "ay": 0.5
+     "klip": "maske_bagiran",
+     "kx": 0.64,
+     "aw": 0.8,
+     "ay": 0.8,
+     "x": 0.62
     },
     {
      "yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.",
@@ -35,8 +36,10 @@
     {
      "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.",
      "gorsel": "maske_bagiran",
-     "x": 0.72,
-     "x2": 0.64
+     "x": 0.6,
+     "x2": 0.64,
+     "aw": 1.0,
+     "ay": 0.78
     },
     {
      "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
@@ -47,15 +50,18 @@
     {
      "yazi": "Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor.",
      "gorsel": "maske_bagiran",
-     "x": 0.2,
-     "x2": 0.45,
-     "aw": 0.7
+     "x": 0.72,
+     "x2": 0.68,
+     "aw": 0.4,
+     "ay": 0.72
     },
     {
      "yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.",
      "gorsel": "maske_bagiran",
-     "x": 0.88,
-     "x2": 0.8
+     "x": 0.45,
+     "x2": 0.48,
+     "aw": 0.5,
+     "ay": 0.3
     },
     {
      "yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar. Tam videosu kanalımızda.",
@@ -86,15 +92,13 @@
     {
      "yazi": "Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.",
      "gorsel": "tup_tas",
-     "x": 0.43,
-     "x2": 0.5,
-     "aw": 0.6,
-     "ay": 0.15
+     "klip": "tup_tas",
+     "kx": 0.45
     },
     {
      "yazi": "Dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşüktü, uzanamadılar.",
      "gorsel": "tup_tas",
-     "x": 0.6,
+     "x": 0.58,
      "aw": 0.7,
      "ay": 0.5
     },
@@ -102,7 +106,7 @@
      "yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.",
      "gorsel": "tup_tas",
      "x": 0.5,
-     "x2": 0.54,
+     "x2": 0.58,
      "y": 0.4
     },
     {
@@ -123,9 +127,9 @@
     {
      "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda.",
      "gorsel": "tup_tas",
-     "x": 0.35,
+     "x": 0.4,
      "aw": 0.9,
-     "ay": 0.3
+     "ay": 0.35
     }
    ]
   }
