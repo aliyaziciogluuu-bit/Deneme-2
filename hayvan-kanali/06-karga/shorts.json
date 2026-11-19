@@ -31,10 +31,11 @@
     {
      "yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.",
      "gorsel": "maske_biyolog",
-     "x": 0.63,
-     "x2": 0.42,
-     "aw": 0.6,
-     "ay": 0.2
+     "x": 0.44,
+     "x2": 0.48,
+     "aw": 1.0,
+     "w": 1.0,
+     "y": 0.5
     },
     {
      "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.",

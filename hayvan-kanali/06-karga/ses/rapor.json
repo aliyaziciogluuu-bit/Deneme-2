@@ -426,5 +426,13 @@
   "hata": 0,
   "sure": 6.04,
   "uygun": true
+ },
+ "000": {
+  "yazi": "Sabah bahçeye çıkıyorsun; çitin üstündeki karga seni görür görmez bağırıyor.",
+  "duyulan": "Sabah bahçeye çıkıyorsun, çetin üstündeki karga seni görür görmez bağırıyor.",
+  "hata": 1,
+  "sure": 4.64,
+  "uygun": false,
+  "tek_basina": true
  }
 }

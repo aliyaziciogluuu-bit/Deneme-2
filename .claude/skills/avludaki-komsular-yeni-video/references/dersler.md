@@ -72,6 +72,7 @@ Biçim: tarih ve video · ne oldu · kural · sorumlu.
   - **Kural:** Küçük resimde yazı hayvanın yüzüne değmez. Gerekirse senaryo.json > kapak > "genislik" düşürülür.
 
 - **Ölçek kontrolü (karga, 19 Kasım):** İnsan ve hayvanın birlikte olduğu sahnede boy oranı kontrol edilir. Seçilen görselde kargalar insandan büyük çizilmişti; anatomi kontrolünden geçmiş, kalite kontrol fark etmemişti. İsteme gerçek boy ölçüsü yazılır ("karga insanın dizinin altında kalır") ve seçimde ilk bakılan şey ölçektir.
+- **Shorts pan sonu (karga, 19 Kasım):** Shorts çekiminde `aw`/`ay` yalnızca başlangıcı belirler; bitiş `w` (varsayılan 0,85) ve `y` (varsayılan 0,5) ile hesaplanır. Bunlar yazılmazsa kamera sona doğru uzaklaşıp yüzü üst yazıya iter. Her Shorts çekiminde bitiş `w`/`y` de yazılır ve son kare ayrıca kontrol edilir. Kliplerde dikey konum için `kz`/`ky` kullanılır.
 - **Bilinmeyen türün yüz özelliği (ekin kargası, 19 Kasım):** Flux "çıplak açık renkli yüz derisi" istemini beyaz göğüs tüyü olarak çizdi. Bu tür ayırt edici özellikler için istem tek başına yetmeyebilir; iki denemeden sonra yanlış tür özelliği çizen aday yerine genel ama yanlış olmayan aday seçilir.
 
 ## Teknik ve iş akışı
