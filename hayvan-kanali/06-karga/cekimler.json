@@ -1,5 +1,5 @@
 {
- "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 73). a/b: [merkez_x, merkez_y, genişlik]. tup_solucan ve beyin görselleri kullanılmadı: 46. cümle (solucan yüzeyde) ekin_portre ile, 47. cümle tup_tas ile gösterilir. maske_bagiran görseli 19 Kasım'da doğru ölçekli yeni görselle değiştirildi (kişi x≈0,54, kargalar x≈0,65–0,78).",
+ "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 71). a/b: [merkez_x, merkez_y, genişlik]. tup_solucan ve beyin görselleri kullanılmadı: 46. cümle (solucan yüzeyde) ekin_portre ile, 47. cümle tup_tas ile gösterilir. maske_bagiran görseli 19 Kasım'da doğru ölçekli yeni görselle değiştirildi (kişi x≈0,54, kargalar x≈0,65–0,78).",
  "cekimler": [
   {
    "n": 1,
@@ -261,7 +261,7 @@
    "etiket": "Saksağan"
   },
   {
-   "n": 2,
+   "n": 1,
    "gorsel": "maske_biyolog",
    "a": [
     0.65,
@@ -276,7 +276,7 @@
    "etiket": "Maske deneyleri: Amerikan kargası"
   },
   {
-   "n": 1,
+   "n": 2,
    "gorsel": "koreli_saksagan",
    "a": [
     0.5,
@@ -408,7 +408,7 @@
    "klip": "cit_karga"
   },
   {
-   "n": 3,
+   "n": 1,
    "gorsel": "cop",
    "a": [
     0.5,

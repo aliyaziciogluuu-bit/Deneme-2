@@ -1,4 +1,4 @@
-# Kaynak eşleme – 06-karga (ikinci sürüm)
+# Kaynak eşleme – 06-karga (üçüncü sürüm, düzeltme turu; 71 cümle, numaralar yeni sıraya göre)
 
 Biçim: cümle no → kaynak → kaynakta geçen ifade → [açıldı / açılamadı, özetten].
 
@@ -19,7 +19,6 @@ Kaynaklar:
 - K12 = 2026-2027 Merkez Av Komisyonu Kararı, resmî PDF tarimorman.gov.tr/DKMP/…/8626.pdf [AÇILDI ama taranmış görüntü, metin okunamadı; kontrolcü resmî PDF'te gördü ve onayladı]
 - K13 = Yılmaz 2026, Gazi Türkiyat 38 (Tatar folklorunda karga) [açılamadı, özetten; künye patrondan]
 - K14 = en.wikipedia Hooded crow [AÇILDI]; K15 = en.wikipedia Rook (bird) [AÇILDI]; K16 = tr.wikipedia Küçük karga [AÇILDI]; K17 = tr.wikipedia Saksağan [AÇILDI]
-K18: Benmazouz, I. ve ark. (2021). Corvids in Urban Environments: A Systematic Global Literature Review. Animals 11(11): 3226. doi:10.3390/ani11113226 – kentlerde kolay yiyecek ve yuva yeri (bilgi kontrolcüsü doğruladı; ncbi.nlm.nih.gov/pmc/articles/PMC8614296) [özetten]
 - Kaynaklar listesinden çıkarılanlar: BTO karga rehberi ve Ankara Üniversitesi listesi (açılamadı); tür tarifleri artık K14–K17'ye dayanıyor. Ankara listesinin özetindeki Türkçe adlar (küçük karga, ekin kargası, leş kargası, saksağan) tr.wikipedia sayfa başlıklarıyla da örtüşüyor.
 
 ## Kanca ve maske deneyi
@@ -29,7 +28,7 @@ K18: Benmazouz, I. ve ark. (2021). Corvids in Urban Environments: A Systematic G
 4. Biyolog, tehdit edici maske, yedi karga → K4/ScienceBlog "wore a mask while trapping seven crows… in 2006"; K1 "trapped, banded and released". [özetten]
 5. O maskeyle yürüdü; kargalar bağırdı, başka maskelere pek bağırmadı → K1 "Few crows scolded trappers who wore no mask or a mask that had not been worn". [özetten]
 6. O gün orada olmayan kargalar bile katıldı → ScienceBlog "crows who weren't present at the time of capture still joined in". [özetten]
-7. Vaat → cümle 17–18 ve 23–25 ile karşılanıyor.
+7. Vaat (düzeltme turu): öfkenin yıllarca sürdüğü → cümle 17–18; kargaya taş atmama → cümle 54 (K1 çekincesi). Hediye vaadi çıkarıldı. [–]
 
 ## Maske deneyi
 8. Soru (boy/yaş/yürüyüş) → K1 "different sizes, ages, genders and walking gaits". [özetten]
@@ -62,9 +61,10 @@ K18: Benmazouz, I. ve ark. (2021). Corvids in Urban Environments: A Systematic G
 29. Yetişkin ekin kargası: gaga dibinde çıplak açık renkli deri → K15 "In adults, a bare area of whitish skin in front of the eye and around the base of the bill is distinctive"; tr.wikipedia Ekin kargası "tüysüz alan… diğer karga türlerinden ayırt edilmesini sağlayan belirgin bir özelliktir". "Yetişkin" kaydı yavruların yüzü tüylü olduğu için. [AÇILDI]
 30. Küçük karga küçük, ensesi gri, gözü açık renk → K16 "Gövdesi siyah, ensesi gri, gözleri beyazdır". [AÇILDI]
 31. Saksağan karga ailesinden; siyah beyaz, uzun kuyruk → K17 "Saksağan, kargagiller (Corvidae) familyasından uzun kuyruklu kuş türlerini kapsayan bir cins". Siyah beyaz renk: Avrupa saksağanı için genel bilgi; K17 sayfasında aranan "siyah" ifadesi bu cümleyi doğrudan vermedi (ZAYIF). [AÇILDI]
-32. Maske deneyleri Amerikan kargasıyla yapıldı → K1, K2 başlıkları "American crows". [özetten]
-33. Türkiye'deki kargalarla aynı deneyi yapan çalışma bulamadık; akraba türlerde benzer bulgular var → arama (bulunamama beyanı); akraba türler: cümle 34 (K5). [–]
-34. Güney Kore'de saksağanlar tırmanan insana saldırdı, tırmanmayana saldırmadı; yüzle tanıma → K5 "all the magpies showed aggression to the climbers, but not the non-climbers"; "learning to recognize the threatening humans by vision" (patron: deney Güney Kore'de). [özetten]
+(eski 32 çıkarıldı: Amerikan kargası çekincesi cümle 10 ve yeni 32'de var.)
+32. Bu deneyi Türkiye'deki kargalarla yapan bir çalışma bulamadık (yeni 32; eski 32 ile birleşti); akraba türlerde benzer bulgular var → arama (bulunamama beyanı); akraba türler: cümle 34 (K5). [–]
+33. Güney Kore'de saksağanlar yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı → K5 "all the magpies showed aggression to the climbers, but not the non-climbers"; "learning to recognize the threatening humans by vision" (patron: deney Güney Kore'de). [özetten]
+34. (eski 34'ün ikinci yarısı) Araştırmacılar bunu yüzle tanımaya bağlıyor → K5 "learning to recognize the threatening humans by vision"; "bağlıyor" çekincesi. [özetten]
 
 ## Beyin
 35. Soru. [–]
@@ -91,30 +91,28 @@ K18: Benmazouz, I. ve ark. (2021). Corvids in Urban Environments: A Systematic G
 52. Kargalar tehlike gördüğünde bağırıyor; maske deneyinde de böyle yaptılar → K1 "scolded and mobbed". [özetten]
 
 ## Kent ve çöp
-53. Kentlerde karga gibi kuşlar kolay yiyecek ve yuva yeri buluyor → K18 Springer "urban corvids generally benefit from the availability of easily accessible food and artificial nesting sites". [özetten; ZAYIF]
-54. Amerikan kargasında açık çöp, kompost, evcil hayvan maması çekiyor → K18 All About Birds "attracted by compost, garbage, or pet food". [özetten; ZAYIF]
-55. Çöpünü kapaklı kutuda tutmak işe yarayabilir → 54'ten çıkarım, "yarayabilir" çekincesi.
-56. Kovalama, taş atma; tehdit olarak hatırlayabilir → K1; "hatırlayabilir" çekincesi. [özetten]
+53. [DEĞİŞTİ] Açıkta kalan yiyecek hayvanları çekebilir; çöpünü kapaklı kutuda tutmak genel bir önlemdir. → Kaynak iddiası yok: bilgi cümlesi değil, çekinceli genel güvenlik tavsiyesi. Önceki çöp/kompost/kentte kolay yiyecek iddiası (K18, Benmazouz vd. 2021) kaynak listesinde olmadığı ve PMC/MDPI sayfaları bu oturumda açılamadığı (reCAPTCHA/403) için çıkarıldı; K18 kaynak listesine hiç yazılmadı. [–]
+54. Kovalama, taş atma; tehdit olarak hatırlayabilir → K1; "hatırlayabilir" çekincesi. [özetten]
 
 ## Yavru karga
-57. Soru. [–]
-58. Kanada'daki yaban hayatı kurtarma derneğine göre kargalar uçmayı öğrenirken bir süre yerde kalabiliyor → K10 "Young crows will spend approximately 1-2 weeks on the ground". Sayı metne yazılmadı. [özetten]
-59. Anne ve babası çoğu zaman yakındaki ağaçtan izliyor ve besliyor → K10 "almost always watching them from a nearby tree and feeding them". [özetten]
-60. Sağlıklı görünüyorsa eve götürme, bırak → K10 "if the bird appears healthy, it should be left alone". [özetten]
-61. Tehlike varsa yakındaki güvenli yere taşı → K10 "move it carefully to a safer spot nearby". [özetten]
-62. Yaralıysa, tüyleri tam çıkmamışsa, uzun süre beslenmiyorsa uzman yardımı → K10 "not fully feathered… injury… no signs of the parents within 4 hours" (dört saat yazılmadı). [özetten]
-63. Şube müdürlüğüne haber ver → kanal kuralı (tek kurum; telefon yok). [–]
-64. Hasta ya da ölü bir kuşa dokunma; dokunduysan ellerini sabunla yıka → K11 "The public should strictly avoid contact with sick or dead animals, including wild birds…" ve "washing their hands with soap and running water … especially important before and after contact with animals". [AÇILDI]
-65. Yavruya yaklaşırsan ebeveynleri alçalabilir; uzaklaşmak ve şemsiye öneriliyor → K10 "Parents may dive at people who get close… carrying an umbrella… extra distance". [özetten]
+55. Soru. [–]
+56. Kanada'daki yaban hayatı kurtarma derneğine göre kargalar uçmayı öğrenirken bir süre yerde kalabiliyor → K10 "Young crows will spend approximately 1-2 weeks on the ground". Sayı metne yazılmadı. [özetten]
+57. Anne ve babası çoğu zaman yakındaki ağaçtan izliyor ve besliyor → K10 "almost always watching them from a nearby tree and feeding them". [özetten]
+58. Sağlıklı görünüyorsa eve götürme, bırak → K10 "if the bird appears healthy, it should be left alone". [özetten]
+59. Tehlike varsa yakındaki güvenli yere taşı → K10 "move it carefully to a safer spot nearby". [özetten]
+60. Yaralıysa, tüyleri tam çıkmamışsa, uzun süre beslenmiyorsa uzman yardımı → K10 "not fully feathered… injury… no signs of the parents within 4 hours" (dört saat yazılmadı). [özetten]
+61. Şube müdürlüğüne haber ver → kanal kuralı (tek kurum; telefon yok). [–]
+62. Hasta ya da ölü bir kuşa dokunma; dokunduysan ellerini sabunla yıka → K11 "The public should strictly avoid contact with sick or dead animals, including wild birds…" ve "washing their hands with soap and running water … especially important before and after contact with animals". [AÇILDI]
+63. Yavruya yaklaşırsan ebeveynleri alçalabilir; uzaklaşmak ve şemsiye öneriliyor → K10 "Parents may dive at people who get close… carrying an umbrella… extra distance". [özetten]
 
 ## Yasal durum
-66. Soru. [–] (baykuşlar koruma altında: 05-baykus videosu)
-67. Leş kargası, ekin kargası, küçük karga, saksağan, alakarga av hayvanı sayılıyor → K12 (kontrolcü resmî PDF'te gördü); haber özeti "alakarga, küçük karga, ekin kargası, leş kargası, karabatak ve saksağan avı … 7 Mart 2027'ye kadar". [PDF taranmış; kontrolcü onayı]
-68. İzinli avcılar belirlenen tarih ve bölgelerde avlayabiliyor → K12; Lexpera metni "AVBİS'ten izin alan avcıların günlük limitler dahilinde". [kontrolcü onayı]
-69. Karar her av dönemi için yeniden yayımlanıyor, illere göre kurallar değişebiliyor → K12 başlığı "2026-2027 Av Dönemi…"; önceki dönem kararları 22 (2023-2024), 23 (2024-2025), 24 (2025-2026); il farkı: Bingöl/Denizli haberleri. [özetten]
-70. Şube müdürlüğüne danış → kanal kuralı. [–]
+64. Soru. [–] (baykuşlar koruma altında: 05-baykus videosu)
+65. Leş kargası, ekin kargası, küçük karga, saksağan, alakarga av hayvanı sayılıyor → K12 (kontrolcü resmî PDF'te gördü); haber özeti "alakarga, küçük karga, ekin kargası, leş kargası, karabatak ve saksağan avı … 7 Mart 2027'ye kadar". [PDF taranmış; kontrolcü onayı]
+66. İzinli avcılar belirlenen tarih ve bölgelerde avlayabiliyor → K12; Lexpera metni "AVBİS'ten izin alan avcıların günlük limitler dahilinde". [kontrolcü onayı]
+67. Karar her av dönemi için yeniden yayımlanıyor, illere göre kurallar değişebiliyor → K12 başlığı "2026-2027 Av Dönemi…"; önceki dönem kararları 22 (2023-2024), 23 (2024-2025), 24 (2025-2026); il farkı: Bingöl/Denizli haberleri. [özetten]
+68. Şube müdürlüğüne danış → kanal kuralı. [–]
 
 ## Kapanış
-71. Kargalar yüzü tanıyabiliyor ve sana nasıl davrandığını yıllarca hatırlayabilir → K1, K4; çekinceli; sınır cümle 10 ve 32–33'te. [özetten]
-72. Yorum sorusu. [–]
-73. Kanal kapanış kalıbı. [–]
+69. Kargalar yüzü tanıyabiliyor ve sana nasıl davrandığını yıllarca hatırlayabilir → K1, K4; çekinceli; sınır cümle 10 ve 32–33'te. [özetten]
+70. Yorum sorusu. [–]
+71. Kanal kapanış kalıbı. [–]

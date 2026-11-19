@@ -16,3 +16,8 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
   - Uluturk ve Coskun (2012) ile Özen (2005) künyeleri sayfadaki özgün başlıkla yazıldı; Hedgehog Street biyoloji satırının açıklaması sayfadaki içerikle sınırlandı.
 - Yeniden seslendirme: uzun 11, 47; Shorts 5 cümle 4. Uzun video ve Shorts 5 yeniden oluşturulacak.
 - Yeniden oluşturma (19 Kasım): uzun video 70/70, Shorts 5 6/6, bütün testler geçti.
+
+## Metin editörü Tur 3 (19 Kasım)
+- Karar: RET. Puan: kanca 6, anlatim 7, baslik 6, shorts 7.
+- Bulgular: ilk soru 0:24, cevap 0:33; 0:48–2:10 arası soru yok; cümle 004 "hayatını tehlikeye atabilir" Tur 2 yumuşatmasından kaçmış; 6 cümle 18 kelimeyi aşıyor; başlık parantezi ve küçük resim yeni vaat taşımıyor; Shorts 6 konudan sapıyor.
+- Patron kararı: yeniden sıralama (ses yeniden kullanılır), elma efsanesi öne, başlık "Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)" önerisi senaristte. Başlık değişirse kanal sahibi planlı videoyu yenisiyle değiştirecek.

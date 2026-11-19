@@ -1,6 +1,6 @@
 {
   "baslik": "Karga Seni Tanıyor mu? Bir Maske, 17 Yıl ve Sönen Öfke",
-  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları kullanılmadı. Maske deneyleri Amerikan kargasıyla yapıldı; metin bunu açıkça söyler. Türkiye'deki türler: leş kargası, ekin kargası, küçük karga, saksağan. Yeni Kaledonya kargası Türkiye'de yaşamaz.",
+  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları kullanılmadı. Maske deneyleri Amerikan kargasıyla yapıldı; metin bunu açıkça söyler. Türkiye'deki türler: leş kargası, ekin kargası, küçük karga, saksağan. Yeni Kaledonya kargası Türkiye'de yaşamaz. Düzeltme turu (19 Kasım): çöp/kompost iddiası çıkarıldı (kaynak açılamadı), genel güvenlik cümlesine çevrildi; Marzluff okunuşu 'Marzlaf', Betty 'Beti' ses alanlarında zaten var.",
   "aciklama": "Karga seni gerçekten tanıyor mu? Bir biyologun maskeyle yaptığı deney, Amerikan kargalarının yüzü ayırt ettiğini gösteriyor; öfke yıllarca sürmüş, sonunda sönmüş görünüyor.\nBu deney Türkiye'deki kargalarla yapılmadı; leş kargası, ekin kargası, küçük karga ve saksağan için neyin bilindiğini de videoda ayırıyoruz.\n\nBu videoda bir biyoloğun maskeyle yaptığı ünlü deneyi, kargaların yüzü nasıl ayırt ettiğini, öfkenin kargalar arasında nasıl yayıldığını ve bu öfkenin yıllar sonra nasıl söndüğünü anlatıyoruz. Seattle'da bir kızın kargalardan aldığı hediyelere, ekin kargasının suyu taşla yükseltmesine ve Yeni Kaledonya kargasının tel bükerek yaptığı kancaya da bakıyoruz. Maske deneyleri Amerikan kargasıyla yapıldı; Türkiye'de görülen leş kargası, ekin kargası, küçük karga ve saksağan için bunu açıkça belirtiyoruz.\n\nKarga uğursuz mu, yerde yavru karga bulursan ne yapmalısın, yavrusunu koruyan karga sana alçalırsa ne olur, kargalar Türkiye'de koruma altında mı diye merak ediyorsan cevaplar videoda. Güncel av kararı için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
   "yorum_sorusu": "Senin oralarda karga ne anlama geliyor? Sana hiç bağıran ya da seni takip eden bir karga oldu mu? Yorumlarda konuşalım.",
   "kaynaklar": [
@@ -36,15 +36,17 @@
     "karga uğursuz mu",
     "yaban hayatı",
     "doğa",
-    "Avludaki Komşular"
+    "Avludaki Komşular",
+    "karga zekası",
+    "zekâ"
   ],
   "kapak": {
     "gorsel": "kapak",
     "buyuk": [
-      "SENİ",
-      "TANIR MI?"
+      "KARGAYA",
+      "TAŞ ATMA!"
     ],
-    "kucuk": "Kargadan gelen hediyeler",
+    "kucuk": "Tehdit diye hatırlayabilir",
     "konum": "sol",
     "genislik": 500
   },
@@ -58,7 +60,7 @@
       "ad": "Çitteki karga",
       "cumleler": [
         {
-          "yazi": "Sabah bahçeye çıkıyorsun ve çitin üstündeki karga seni görür görmez bağırmaya başlıyor."
+          "yazi": "Sabah bahçeye çıkıyorsun; çitin üstündeki karga seni görür görmez bağırıyor."
         },
         {
           "yazi": "Peki karga seni gerçekten tanıyor mu?"
@@ -76,7 +78,7 @@
           "yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı."
         },
         {
-          "yazi": "Birazdan bu öfkenin yıllarca nasıl taşındığını ve bir kızın kargalardan aldığı hediyeleri göreceksin."
+          "yazi": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya neden taş atmaman gerektiğini göreceksin."
         }
       ]
     },
@@ -163,25 +165,25 @@
           "yazi": "Değil; Türkiye'de kargagillerden birkaç farklı tür yaşıyor."
         },
         {
-          "yazi": "Gövdesi gri, başı ve kanatları siyah olan karga da leş kargası olarak biliniyor."
+          "yazi": "Gövdesi gri, başı ve kanatları siyah karga leş kargası olarak biliniyor."
         },
         {
-          "yazi": "Yetişkin ekin kargasını, gaganın dibindeki çıplak, açık renkli deriden tanırsın."
+          "yazi": "Yetişkin ekin kargasını gaga dibindeki çıplak deriden tanırsın."
         },
         {
-          "yazi": "Küçük karga adı gibi küçük; ensesi gri, gözü açık renk."
+          "yazi": "Küçük karga adı gibi küçük; ensesi gri."
         },
         {
-          "yazi": "Saksağan da bu ailenin üyesi; siyah beyaz tüyleri ve uzun kuyruğuyla hemen belli oluyor."
+          "yazi": "Saksağan da bu ailenin üyesi; siyah beyaz tüyü ve uzun kuyruğuyla belli."
         },
         {
-          "yazi": "Maske deneyleri Amerikan kargasıyla yapıldı."
+          "yazi": "Bu deneyi Türkiye'deki kargalarla yapan bir çalışma bulamadık, ama akraba türlerde benzer bulgular var."
         },
         {
-          "yazi": "Türkiye'deki kargalarla aynı deneyi yapan bir çalışma bulamadık, ama akraba türlerde benzer bulgular var."
+          "yazi": "Güney Kore'de saksağanlar yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı."
         },
         {
-          "yazi": "Güney Kore'de yapılan bir deneyde saksağanlar yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı; araştırmacılar bunu yüzle tanımaya bağlıyor."
+          "yazi": "Araştırmacılar bunu yüzle tanımaya bağlıyor."
         }
       ]
     },
@@ -259,13 +261,8 @@
       "ad": "Kargalar neden insanın yanına geliyor?",
       "cumleler": [
         {
-          "yazi": "Kentlerde karga gibi kuşlar kolay yiyecek ve yuva yeri buluyor."
-        },
-        {
-          "yazi": "Amerikan kargasında görüldüğü gibi, açık çöp, kompost ve evcil hayvan maması onları çekebiliyor."
-        },
-        {
-          "yazi": "Çöpünü kapaklı kutuda tutmak işe yarayabilir."
+          "yazi": "Açıkta kalan yiyecek hayvanları çekebilir; çöpünü kapaklı kutuda tutmak genel bir önlemdir.",
+          "ses": "Kargayla iyi komşuluk"
         },
         {
           "yazi": "Kargayı kovalama ya da ona taş atma; maske deneyine bakılırsa seni tehdit olarak hatırlayabilir."
@@ -348,20 +345,20 @@
   "kapak_alternatifler": [
     {
       "buyuk": [
-        "KARGA",
-        "ALET YAPAR"
+        "SENİ",
+        "TANIR MI?"
       ],
-      "kucuk": "Taşla suyu yükseltti",
+      "kucuk": "Kargadan gelen hediyeler",
       "konum": "sol",
       "genislik": 500,
       "gorsel": "kapak"
     },
     {
       "buyuk": [
-        "KARGAYA",
-        "TAŞ ATMA!"
+        "KARGA",
+        "ALET YAPAR"
       ],
-      "kucuk": "Tehdit diye hatırlayabilir",
+      "kucuk": "Taşla suyu yükseltti",
       "konum": "sol",
       "genislik": 500,
       "gorsel": "kapak"
