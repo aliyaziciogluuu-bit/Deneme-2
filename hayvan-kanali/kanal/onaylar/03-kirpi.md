@@ -21,3 +21,8 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 - Karar: RET. Puan: kanca 6, anlatim 7, baslik 6, shorts 7.
 - Bulgular: ilk soru 0:24, cevap 0:33; 0:48–2:10 arası soru yok; cümle 004 "hayatını tehlikeye atabilir" Tur 2 yumuşatmasından kaçmış; 6 cümle 18 kelimeyi aşıyor; başlık parantezi ve küçük resim yeni vaat taşımıyor; Shorts 6 konudan sapıyor.
 - Patron kararı: yeniden sıralama (ses yeniden kullanılır), elma efsanesi öne, başlık "Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)" önerisi senaristte. Başlık değişirse kanal sahibi planlı videoyu yenisiyle değiştirecek.
+
+## Kalite kontrol Tur 1 (19 Kasım)
+- Karar: RET. Puan: ses 7, gorsel 5, teknik 8, shorts 5.
+- Bulgular: top.mp4 yüz deformasyonu (TEKRARLANAN KUSUR); sut_kabi ve fincan sahnesinde kirpi insana/fincana göre dev (TEKRARLANAN KUSUR, karga ölçek dersi); cit_delik başında bacaksız gövde; Shorts 5'te altyazı yüze biniyor; Shorts 6 kaynaklarından eski; cümle 029 "halka" → "halkı".
+- İş dağılımı: yapımcı klipleri kırpıp iki görselin istemini gerçek boyla yeniden yazıyor; patron görselleri üretecek; Shorts uzmanı kadrajları düzeltecek; 029 yeniden seslendirilecek.

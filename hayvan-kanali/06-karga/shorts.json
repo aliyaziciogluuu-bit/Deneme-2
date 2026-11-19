@@ -13,8 +13,8 @@
     "karga seni hatırlar mı"
    ],
    "ust_yazi": [
-    "KARGA YÜZÜ",
-    "tanır mı?"
+    "KARGA SENİ",
+    "hatırlar mı?"
    ],
    "cumleler": [
     {
@@ -39,10 +39,12 @@
     {
      "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.",
      "gorsel": "maske_bagiran",
-     "x": 0.6,
-     "x2": 0.64,
+     "x": 0.58,
+     "x2": 0.6,
      "aw": 0.7,
-     "ay": 0.67
+     "ay": 0.67,
+     "y": 0.67,
+     "w": 0.7
     },
     {
      "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
@@ -72,7 +74,9 @@
      "x": 0.62,
      "x2": 0.6,
      "aw": 0.5,
-     "ay": 0.18
+     "ay": 0.25,
+     "y": 0.25,
+     "w": 0.5
     }
    ]
   },
@@ -135,8 +139,11 @@
      "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda.",
      "gorsel": "tup_tas",
      "x": 0.4,
-     "aw": 0.9,
-     "ay": 0.25
+     "aw": 0.6,
+     "ay": 0.3,
+     "x2": 0.4,
+     "y": 0.3,
+     "w": 0.6
     }
    ]
   }
