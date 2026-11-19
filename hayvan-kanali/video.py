@@ -359,7 +359,8 @@ class Sahne:
         if a:
             if DIKEY:  # Shorts'ta altyazı ortanın biraz altında; alttaki düğme ve açıklama alanına girmez
                 kat = self.katman(("a", a["yazi"]), lambda: yazi_katmani(satirla(a["yazi"], self.f_alt, (G - 80) / 0.62), self.f_alt, kontur=6))
-                kare.paste(kat, ((G - kat.width) // 2, int(Y * 0.64) - kat.height // 2), kat)
+                # 0,69: yüzlere yer kalsın (dört videoda altyazı burna bindi); YouTube'un alt bilgi alanı ~0,80'den başlar
+                kare.paste(kat, ((G - kat.width) // 2, int(Y * self.senaryo.get("altyazi_y", 0.69)) - kat.height // 2), kat)
             else:
                 kat = self.katman(("a", a["yazi"]), lambda: yazi_katmani(satirla(a["yazi"], self.f_alt, G - 300), self.f_alt))
                 kare.paste(kat, ((G - kat.width) // 2, Y - 78 - kat.height), kat)
