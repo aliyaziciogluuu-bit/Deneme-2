@@ -134,7 +134,7 @@ def srt_yaz(liste, yol: pathlib.Path):
 
 def yukleme_yaz(senaryo, cumleler, yol: pathlib.Path):
     """YouTube'a yüklerken kopyalanacak başlık, açıklama, bölümler ve etiketler."""
-    bolumler = [(0 if i == 0 else int(c["bas"]), c["bolum"]) for i, c in enumerate(cumleler) if c["bolum"]]
+    bolumler = [(0 if i == 0 else round(c["bas"]), c["bolum"]) for i, c in enumerate(cumleler) if c["bolum"]]
     satirlar = ["BAŞLIK", senaryo["baslik"], "", "AÇIKLAMA", senaryo.get("aciklama", "")]
     if not senaryo.get("dikey"):  # Shorts'ta bölüm olmaz
         satirlar += ["", "Bölümler:"] + [f"{t // 60}:{t % 60:02d} {ad}" for t, ad in bolumler]

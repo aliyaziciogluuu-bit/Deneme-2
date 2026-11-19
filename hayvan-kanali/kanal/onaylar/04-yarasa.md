@@ -9,3 +9,11 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi ve 27 Kasım 18:00 için YouT
 | – | Patron | üretim | 64/64 cümle 0 fark; uzun video ve iki Shorts 14/14 ve testler geçti (0/708) |
 | 2 | Bilgi kontrolcüsü | ONAY (doğruluk 8, güvenlik 8) | 38/39 oranı makale gövde metninde doğrulandı; isteğe bağlı küçük notlar (cümle 56 "gereksiz yere yakalama", 39 "hızla", böcek miktarı "dışkıdan tahmin", etiket aralığı, Shorts 8'e kime başvur) |
 | 2 | Metin editörü | RET (kanca 6, anlatım 7, başlık 7, Shorts 7) | Soru 0:58'de ve cevaptan sonra; 0:30–1:20 arası tür sayıları ve uzun ekolokasyon (yılan kusurunun tekrarı); 7 uzun cümle, art arda tekrarlar; küçük resim alt yazısı başlıktaki 'Asıl tehlike'yi tekrar ediyor; Shorts 8 ilk cümlesi emir |
+
+## Metin editörü Tur 3 (19 Kasım)
+- Karar: ONAY (şartlı). Puan: kanca 8, anlatim 8, baslik 7, shorts 8.
+- Şartlar ve yapılanlar:
+  - Kaynak 9 (Albayrak ve ark. 2008) DOI'siz ve makale sayfası açılamıyordu (TÜBİTAK ve arşiv ağdan kapalı). Kural gereği listeden çıkarıldı; yerine açılıp okunan Vikipedi "Mısır meyve yarasası" sayfası yazıldı (Türkiye'de Akdeniz kıyıları, meyveyle beslenme, bitki üremesine katkı).
+  - Bölüm "0:26" → "0:27". video.py artık bölüm saatini aşağı yuvarlamak yerine en yakın saniyeye yuvarlıyor.
+  - Shorts 8 son cümlesine uzun videodaki "temas olasılığı" koşulu eklendi; yeniden seslendirilip yeniden oluşturulacak.
+- Not: "Tür başına ortalama 0,4–2,2 g" etiketi videoda yok (önceki kayıttaki not yanlıştı); etiketsiz cümleler kaynakla uyumlu.
