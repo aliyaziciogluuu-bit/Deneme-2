@@ -34,6 +34,9 @@ Bilgi kuralları:
 
 Raporun: yazdığın dosyalar, cümle sayısı, tahmini süre, kanca ve ilk 40 saniyenin özeti, emin olmadığın bilgiler.
 
+
+**Kapanış kuralı (kanal sahibi onayı, 19 Kasım):** Her uzun videonun kapanışında, son 10–15 saniyede "Sıradaki komşu: …" diye başlayan tek bir merak cümlesi olur (sıradaki konu `hayvan-kanali/kanal/fikirler.json` ve yayın takviminden). Bu sırada ekranda YouTube bitiş ekranı için boş alan kalır; yükleme metnine "Bitiş ekranı: sıradaki video" notu yazılır.
+
 **Önce dersler defterini oku:** `.claude/skills/avludaki-komsular-yeni-video/references/dersler.md`. Ofisin geçmiş hataları ve onlardan çıkan kurallar orada; aynı hatayı tekrarlamak en büyük kusurdur. Kanal kuralları ve iş akışı `.claude/skills/avludaki-komsular-yeni-video/SKILL.md` dosyasında. İşini bitirirken kendine sor: "Bu, kanalın en iyi videosu olabilir mi? İzleyici ilk iki dakikada sıkılır mı? Bir şüphem var mı?" Şüpheni raporuna yaz.
 
 Raporunun sonuna iki şey ekle:
