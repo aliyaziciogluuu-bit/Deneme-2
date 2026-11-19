@@ -32,7 +32,7 @@
       "YEMEĞE",
       "DÜŞERSE?"
     ],
-    "kucuk": "Zehirler mi?",
+    "kucuk": "Gözünü yalıyor!",
     "konum": "sol"
   },
   "ambiyans": {
@@ -48,19 +48,13 @@
           "yazi": "Gece mutfağın ışığını yakıyorsun. Duvarda, lambanın hemen yanında, yarı saydam küçük bir kertenkele duruyor."
         },
         {
-          "yazi": "Sen ona bakıyorsun, o da sana."
-        },
-        {
           "yazi": "Ve aklına ilk gelen soru şu: ya yemeğe düşerse?"
         },
         {
           "yazi": "Zehirler mi? Isırır mı? Evden nasıl çıkar?"
         },
         {
-          "yazi": "Bu küçük hayvan, kıyı kentlerimizde pek çok evin gizli kiracısı."
-        },
-        {
-          "yazi": "Ama onun hakkında yanlış bilinen pek çok şey var."
+          "yazi": "Cevaplar kısa; ama bu küçük misafirin asıl şaşırtıcı yanı başka: tavanda baş aşağı yürüyor ve gözünü diliyle temizliyor."
         }
       ]
     },
@@ -68,7 +62,7 @@
       "ad": "Zehirli mi, yemeğe düşerse?",
       "cumleler": [
         {
-          "yazi": "Gelelim en çok merak edilen soruya: yemeğe düşerse zehirler mi?"
+          "yazi": "Önce yemek sorusu."
         },
         {
           "yazi": "Hayır. Ev kertenkelesinin zehri yok."
@@ -95,10 +89,7 @@
           "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi."
         },
         {
-          "yazi": "Yiyecekleri açıkta bırakmamak da en basit önlem."
-        },
-        {
-          "yazi": "Ama bu küçük komşunun asıl şaşırtıcı yanı başka: tavanda baş aşağı yürüyebiliyor ve gözünü diliyle temizliyor."
+          "yazi": "Şimdi gelelim asıl şaşırtıcı kısma."
         }
       ]
     },
@@ -218,7 +209,7 @@
           "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de en çok Ege ve Akdeniz kıyılarında görülüyor, diğer kıyılarda ve bazı iç bölgelerde daha seyrek."
         },
         {
-          "yazi": "Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor."
+          "yazi": "Evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor."
         },
         {
           "yazi": "Gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda."

@@ -16,18 +16,18 @@
    ],
    "cumleler": [
     {
-     "yazi": "Duvardaki bu kertenkele yemeğe düşerse zehirler mi?",
+     "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez.",
      "gorsel": "mutfak_lamba",
      "klip": "mutfak_lamba",
      "kx": 0.75
     },
     {
-     "yazi": "Hayır. Ev kertenkelesinin zehri yok.",
+     "yazi": "Çünkü ev kertenkelesinin zehri yok.",
      "gorsel": "bakisma",
      "x": 0.5
     },
     {
-     "yazi": "Yemeğe düşen bir kertenkele, yemeğe zehir bulaştırmaz.",
+     "yazi": "Ama bilmen gereken önemli bir gerçek var.",
      "gorsel": "yemek",
      "x": 0.45
     },
