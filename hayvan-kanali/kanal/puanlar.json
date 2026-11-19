@@ -1,0 +1,19 @@
+{
+ "videolar": {
+  "01-sagir-yilan": {
+   "turlar": [],
+   "gercek": {
+    "to": 2.7,
+    "tutma30": 59.0,
+    "tutma80": 25.0,
+    "ortizleme": 20.2
+   }
+  },
+  "03-kirpi": {
+   "turlar": [],
+   "kacirilan": [
+    "Bilgi kontrolcüsü yanlış telefon numarası (Alo 174, gıda şikâyet hattı) önerdi, kabul edildi; yarasa kontrolünde yakalandı, video yeniden üretildi (ofis öncesi dönem)"
+   ]
+  }
+ }
+}

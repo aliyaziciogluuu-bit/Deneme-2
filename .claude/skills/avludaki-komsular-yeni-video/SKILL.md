@@ -107,6 +107,33 @@ Kullanıcı, Dream Window kanalındaki gibi işin "farklı ajanlar ve yöneticil
   - Kullanıcının kararını dosyaya işle. Kullanıcıyı fikir yağmuruna boğma.
 - **Maliyet:** Her ajan kullanım hakkından yer. Küçük işlerde (tek bir cümle, tek bir Shorts) bütün ofisi çalıştırma; yalnızca ilgili denetçiyi çalıştır.
 
+## Puanlama sistemi
+
+Kullanıcı ofiste videolar için bir puanlama sistemi istedi. Her video, ONAY/RET'e ek olarak 100 üzerinden bir puan kartı alır.
+
+| Ölçüt | Ağırlık | Puanlayan | Sorumlu çalışan |
+|---|---|---|---|
+| Doğruluk ve kaynak (`dogruluk`) | 20 | bilgi kontrolcüsü | senarist |
+| Güvenlik ve çekinceler (`guvenlik`) | 10 | bilgi kontrolcüsü | senarist |
+| Giriş ve izleyici tutma (`kanca`) | 20 | metin editörü | senarist |
+| Anlatım ve Türkçe (`anlatim`) | 10 | metin editörü | senarist |
+| Başlık, küçük resim, açıklama (`baslik`) | 10 | metin editörü | senarist |
+| Shorts kancası (`shorts`) | 5 | metin editörü | senarist |
+| Seslendirme ve ses (`ses`) | 10 | kalite kontrol | patron |
+| Görsel, anatomi, kadraj (`gorsel`) | 10 | kalite kontrol | yapımcı |
+| Testler ve teslim (`teknik`) | 5 | kalite kontrol | patron |
+
+Kurallar:
+- Her denetçi raporunda `PUAN:` bloğu yazar (0–10, gerekçeli). Yönetici toplar, patron `python puan.py ekle NN-konu --tur T --dogruluk .. ...` ile tabloya işler. Tablo: `hayvan-kanali/kanal/puan_tablosu.md`, veri: `kanal/puanlar.json`.
+- **Eşikler:** 85 ve üzeri teslim · 70–84 düzeltme turu · 70 altı RET.
+- **Kırmızı çizgi:** doğruluk ya da güvenlik 5 ve altıysa, ya da herhangi bir ölçüt 3 ve altıysa toplam ne olursa olsun RET.
+- **Teslim için iki şart birlikte aranır:** bütün denetçilerin ONAY'ı ve toplam puanın 85 ve üzeri olması.
+- **Gerçek veriyle karşılaştırma:** Yayından 3 gün sonra kullanıcının gönderdiği verilerle `python puan.py gercek NN-konu --to .. --tutma30 .. --tutma80 .. --ortizleme ..` çalıştırılır. Yönetici, puanların gerçek performansı tahmin edip etmediğini yorumlar. Tahmin etmiyorsa ölçüt ya da ağırlık düzeltilir.
+- **Karneler:**
+  - Çalışan karnesi: ilk tur puanları, yani çalışanın düzeltmeden önceki işi.
+  - Denetçi karnesi: onaydan sonra ortaya çıkan hatalar (`python puan.py kacirilan NN-konu "açıklama"`).
+- Kullanıcıya teslim raporunda puan kartı kısaca gösterilir: toplam, en zayıf ölçüt ve önceki videoyla karşılaştırma.
+
 ## Teslim
 
 1. Dosyaları `hayvan-kanali/teslim/uzun/` ve `teslim/shorts/` klasörlerine anlaşılır adlarla kopyala (ör. `6-karga-video.mp4`, `11-karga-...mp4`) ve kullanıcıya gönder.

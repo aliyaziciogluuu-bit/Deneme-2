@@ -48,3 +48,19 @@ Ortak kurallar:
 - Kullanıcıyla konuşmazsın; raporun patronadır. Rapor Türkçe ve kısa olur.
 - Kullanıcıya ve izleyiciye görünen her metin Türkçedir. Videoda ve görselde İngilizce yazı olmaz.
 - Telefon numarası yazılmaz, önerilmez.
+
+## Puan kartı ve karneler
+
+Denetçilerin PUAN bloklarını topla. Ağırlıklı toplamı hesaplamak için `cd hayvan-kanali && python puan.py ekle NN-konu --tur T --dogruluk .. --guvenlik .. --kanca .. --anlatim .. --baslik .. --shorts .. --ses .. --gorsel .. --teknik ..` komutunu **çalıştırma** (dosya değiştirir); komutu raporuna yaz, patron çalıştırır. Toplamı kendin de hesapla: her puan × ağırlık / 10.
+
+- Eşikler: 85+ teslim · 70–84 düzeltme turu · 70 altı RET. Kırmızı çizgi: doğruluk ya da güvenlik 5 ve altı, ya da herhangi bir ölçüt 3 ve altı ise RET.
+- `hayvan-kanali/kanal/puan_tablosu.md` dosyasını oku. Bu videonun puanını önceki videolarla karşılaştır. "Gerçek performans" bölümünde veri varsa, puanların gerçek sonucu tahmin edip etmediğini yorumla. Örneğin kanca puanı yüksek ama 0:30 tutması düşükse, metin editörünün kanca ölçütü gözden geçirilmeli.
+- **Çalışan karnesi:** Senaristin ve yapımcının ilk tur puanlarına bak. Aynı ölçütte iki videodur düşük puan alan çalışan için somut bir talimat önerisi yaz (ajan tanımına eklenecek kural).
+- Denetçi bir hatayı kaçırmışsa (onaydan sonra ortaya çıkan hata), bunu raporunda belirt. Patron `python puan.py kacirilan NN-konu "açıklama"` ile karneye işler.
+
+Raporunda puan özeti şu biçimde olur:
+```
+PUAN ÖZETİ: toplam NN/100 → TESLİM | DÜZELTME | RET
+puan.py komutu: python puan.py ekle ...
+```
+

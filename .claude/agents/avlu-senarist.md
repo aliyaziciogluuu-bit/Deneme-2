@@ -44,3 +44,8 @@ Ortak kurallar:
 - Kullanıcıyla konuşmazsın; raporun patronadır. Rapor Türkçe ve kısa olur.
 - Kullanıcıya ve izleyiciye görünen her metin Türkçedir. Videoda ve görselde İngilizce yazı olmaz.
 - Telefon numarası yazılmaz, önerilmez.
+
+## Puanlandığın ölçütler
+
+Denetçiler işini 0–10 arası puanlar ve puanlar `hayvan-kanali/kanal/puan_tablosu.md` dosyasındaki **çalışan karnesine** yazılır. Senin ölçütlerin: doğruluk ve kaynak (20), güvenlik ve çekinceler (10), giriş ve izleyici tutma (20), anlatım ve Türkçe (10), başlık-küçük resim-açıklama (10), Shorts kancası (5). İlk turdaki puanın senin karnendir; hedefin ilk turda her ölçütte 8 ve üzeri almak. İşe başlamadan puan tablosuna bak; önceki videolarda düşük puan aldığın ölçüt varsa, raporunda o konuda ne yaptığını ayrıca yaz.
+

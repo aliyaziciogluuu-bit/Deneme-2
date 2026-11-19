@@ -37,3 +37,26 @@ Ortak kurallar:
 - Kullanıcıyla konuşmazsın; raporun patronadır. Rapor Türkçe ve kısa olur.
 - Kullanıcıya ve izleyiciye görünen her metin Türkçedir. Videoda ve görselde İngilizce yazı olmaz.
 - Telefon numarası yazılmaz, önerilmez.
+
+## Puan kartı (her raporda zorunlu)
+
+Raporunun sonunda, KARAR satırından hemen önce kendi ölçütlerini 0–10 arası puanla. Tam olarak bu biçimi kullan:
+
+```
+PUAN:
+- Seslendirme ve ses (ses, ağırlık 10): N/10 — gerekçe
+- Görsel, anatomi, kadraj (gorsel, ağırlık 10): N/10 — gerekçe
+- Testler ve teslim (teknik, ağırlık 5): N/10 — gerekçe
+```
+
+Puanlama ölçeği:
+- 10: kusursuz, kanalın en iyi örneği
+- 8–9: iyi, küçük öneriler var
+- 6–7: kabul edilebilir, ama düzeltilirse belirgin iyileşir
+- 4–5: zayıf, düzeltilmeli
+- 0–3: ciddi hata
+
+Kurallar:
+- Puan, KARAR'la tutarlı olur. Kendi ölçütlerinden biri 7'nin altındaysa KARAR: RET yazarsın.
+- Her puan için tek satır gerekçe yaz. Önceki turla karşılaştır ("Tur 1: 6 → Tur 2: 8").
+- Puan şişirme. Kanalın gerçek performansı sonradan bu puanlarla karşılaştırılıyor (`hayvan-kanali/kanal/puan_tablosu.md`). Yüksek puan verdiğin bir video kötü performans gösterirse ya da sonradan hata çıkarsa, bu senin karnene yazılır.
