@@ -32,12 +32,12 @@ Durum: TAMAM = kaynakta ifade okundu · KISMEN = kaynak yaklaşık destekliyor �
 | 21 | TRW, ENW | TRW: "hiçbir tür kör değildir"; ENW: "no species is truly blind" | TAMAM |
 | 22-23 | ENW | "The three species of vampire bat strictly feed on animal blood". "Meksika'dan Güney Amerika'ya" dağılım ifadesi açılan sayfalarda bulunamadı; WHO: "In the Americas ... hematophagous (blood-feeding) bats" | KISMEN |
 | 24 | YOR18 (dolaylı) | Türkiye'de kan emen tür bildirilmemiş; açık "yok" cümlesi okunan kaynakta yok | KISMEN |
-| 25 | YOR18 / ALB | Türkiye 39 tür (YOR18); Mısır meyve yarasası meyve yer (ALB özeti: incir, nar, hurma, narenciye). "Neredeyse hepsi böcekçil / yalnızca bir tür meyve": 38 böcekçil bilgisi patron notundan, açık metinde göremedim | KISMEN |
+| 25 | YOR18 / TRW-Mısır meyve yarasası | Türkiye 39 tür (YOR18); Mısır meyve yarasası meyve yer (ALB özeti: incir, nar, hurma, narenciye). "Neredeyse hepsi böcekçil / yalnızca bir tür meyve": 38 böcekçil bilgisi patron notundan, açık metinde göremedim | KISMEN |
 | 26 | TRW | "Yarasaların çoğu böcekçildir" (dünya geneli); Türkiye için 25'e bakın | KISMEN |
 | 27 | ENW | "Bats consume insect pests, reducing the need for pesticides"; TRW: "yarasa kulakları güve kanatlarının çırpışmasına ... duyarlıdır" (güve). Küçük sinek: açılan kaynakta yok | KISMEN |
 | 28-29 | MOI (özet) | "On average, one Nyctalus noctula consumes 2.2 g (range 0.5-8.2 g) of insects per feeding night, the smallest European bats of genus Pipistrellus 0.4 g (0.1-1.3 g)". Patronun önerdiği "yarım gram / iki gram" yuvarlaması özetle tam örtüşmüyor, metin bu yüzden "yarım gramdan az" ve "iki gramı biraz aşıyor" | TAMAM (özetten) |
 | 30 | ENW | "Bats consume insect pests, reducing the need for pesticides" | TAMAM |
-| 31 | ALB (özet), TRW | ALB: Akdeniz bölgesinde Mısır meyve yarasası, meyvelerle beslenme; TRW: "Meyveyi yemek için ... tohumları yere tükürürler ... tohumlarının yayılmasına yardımcı olur" | TAMAM |
+| 31 | TRW-Mısır meyve yarasası (açıldı, 19 Kasım) | ALB: Akdeniz bölgesinde Mısır meyve yarasası, meyvelerle beslenme; TRW: "Meyveyi yemek için ... tohumları yere tükürürler ... tohumlarının yayılmasına yardımcı olur" | TAMAM |
 | 32 | TRW, ENW | TRW "Türlerin çoğunda anne tek yavru taşır ve doğurur"; ENW "In most bat species, females ... give birth to a single pup per litter". "Yılda" sözü: TRW doğumlar Mayıs-Haziran'da (yılda bir üreme mevsimi) | KISMEN |
 | 33-34 | TRW | "Dişiler ... aynı yere toplanır", koloniler; yavaş üreme için ENW "single pup". "Uzun yıllar etkileyebilir" yorum | KISMEN |
 | 35-36 | POD, ENW | ENW: "a Siberian bat (Myotis sibiricus) was recaptured in the wild after 41 years, making it the oldest known bat"; POD künye | TAMAM |

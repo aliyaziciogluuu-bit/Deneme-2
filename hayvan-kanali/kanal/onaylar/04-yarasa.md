@@ -28,3 +28,4 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi ve 27 Kasım 18:00 için YouT
 ## Kalite kontrol Tur 2 (19 Kasım)
 - Karar: ONAY. Puan: ses 8, gorsel 7, teknik 8, shorts 7. Kalan kusur: oda görselinde uzak kanat düz gri yama.
 - Puan kartı Tur 2: 77,5 → DÜZELTME (eşik 80). Patron kararı: oda görseli kanat istemiyle yeniden üretildi (3 aday, 0,18 $), oda klibi yeni görselden yeniden üretiliyor (0,35 $); metin editöründen şartlar sonrası başlık/Shorts puanı yeniden isteniyor.
+- Metin editörü yeniden değerlendirme (19 Kasım): ONAY. baslik 7 → 8, shorts 8. Not: kaynak_eslesme.md'deki ALB satırı Vikipedi'ye göre güncellenmeli.
