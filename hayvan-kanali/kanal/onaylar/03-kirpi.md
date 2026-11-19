@@ -51,3 +51,8 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 - Kalanlar (gerçek çözünürlükte ölçüldü): s1 2,2 ve 3,0 sn'de burun altyazıya biniyor (açılış klibi); s2 1,5 sn'de göz–altyazı 15 px (pan ortası); uzun video 5:08–5:09'da altyazı kirpinin yüzünde (cit_delik klibi).
 - Patron kararı ve uygulama: s1 açılış klibi kz 2,1; s2 açılış panında dikey konum sabit (y 0,65), yalnızca yatay kayma; uzun video 5:08'de klip yerine cit_delik görseli, yüz altyazının üstünde kalacak kadraj (a/b y 0,72). Kutu sahnesindeki 6–20 px temaslar ve şişe görseli küçük kusur olarak bırakıldı.
 - Not: Ofis kuralı en fazla 2 tur diyor; bu video 3. turda yalnızca kadraj yüzünden döndü. Kanal sahibine durum açıkça bildirildi.
+
+## Kalite kontrol Tur 4–6 ve patron kararı (19 Kasım)
+- Tur 4: s1 açılışında üst yazı göze biniyordu (kz 2,1) → kz 1,7. Tur 5: s1 2,4–2,8 sn burun–altyazı 20 px → kök çözüm: Shorts altyazısı %64 → %69 → %72 (video.py, alt bilgi alanı %80'in üstünde). Tur 6: kayma anlarında 3 kısa temas (toplam ~1,2 sn) → altyazı %72.
+- Patron ölçümü (gerçek çözünürlük, tam o anlar): s1 2,8 / 4,8 / 4,9 sn burun–altyazı ~110 px; s2 19,9 / 20,2 / 20,5 sn ~140 px. Tur 6 RET maddeleri kapandı → patron ONAY (kalite kontrolün kendi notu: "patron ihlalleri kapatıp ONAY'a çevirebilir").
+- Puan kartı Tur 4: aşağıda.
