@@ -38,6 +38,9 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **Y5 – (YAPILDI: kanal sahibi "Rain & Fireplace Sounds for Sleep" listesini zaten açmış; yeni yağmur sahneleri buna eklenecek) "Rain Around the World" oynatma listesi (kanal yöneticisi, 19 Kasım):** Yağmur sahneleri tek listede toplanır (06 kafe, 22 Tokyo, 24 kanal, 25 orman, 28 kiraz çiçeği). Tek bir sahneyi bulan izleyici art arda başkasını izler ve izlenme saati artar. Y2 Noel listesinin yağmur karşılığı.
   - Değerlendirme: etki 2–3, emek 1, maliyet yok.
 
+- **Y6 – "Japan at Night 🏯" oynatma listesi (kanal yöneticisi, 19 Kasım):** 10 Japon bahçesi, 22 Tokyo, 26 dağ tapınağı ve 28 kiraz çiçeği tek listede toplanır. Bir Japon sahnesini bulan izleyici ötekileri de izler.
+  - Değerlendirme: etki 2, emek 1, maliyet yok.
+
 ## İç işler (patron uygular, kanal sahibine sunulmaz)
 
 - **E1 – Vaat denetimi betiği (metin editörü, 19 Kasım):** Yükleme metnindeki kelimeleri (waves, wind, thunder, sounds, BGM, lofi, music, sweeps, drifts) `sahne.json` > `ses` ve hareket listesiyle otomatik karşılaştırıp uyarı veren betik. K2 `onay.py` içine katılacak.
