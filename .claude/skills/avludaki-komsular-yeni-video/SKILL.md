@@ -19,6 +19,10 @@ Kullanıcının istekleri:
 
 Bir keresinde bilgi kontrolcüsünün önerdiği yanlış telefon numarası (Alo 174) videoya girdi. Video yeniden üretildi ve kullanıcıya ilk dosyayı yüklememesi söylendi. O günden beri: **her bilgi bağımsız kontrolden geçer, kontrolcünün önerisi de doğrulanır, her video 14 testten ve ofis onayından geçmeden gönderilmez.**
 
+## Şirket el kitabı
+
+Kanal sahibi "büyük bir şirket gibi yönetin, birlikte büyüyelim" dedi (19 Kasım). Hedefler (OKR), haftalık göstergeler, organizasyon, çalışma ritmi (haftalık yönetim toplantısı, aylık strateji), yetki kuralları, bütçe, içerik stoku hedefi (4 hazır video) ve risk listesi `hayvan-kanali/kanal/sirket.md` dosyasında. Harcamalar `hayvan-kanali/kanal/butce.md` dosyasına video video yazılır. Yorumlar için topluluk sorumlusu (`avlu-topluluk`) çalışır.
+
 ## Dersler defteri
 
 Ofisin hafızası `references/dersler.md` dosyasında. İşe başlamadan oku, ajanlara da okut. Her onay turundan sonra yeni dersleri ekle. Aynı hata iki kez olursa betiği ya da kontrol listesini düzelt.

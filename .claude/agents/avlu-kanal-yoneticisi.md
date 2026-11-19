@@ -70,3 +70,17 @@ puan.py komutu: python puan.py ekle ...
 - Bu videoda puan kırılan her yer için, dersler defterindeki **"Puandan dersler"** bölümüne eklenecek yeni bir "9 için" satırı öner. Patron ekler.
 - Defterde yazılı bir kural ihlal edildiyse (TEKRARLANAN KUSUR), daha sert bir önlem öner: ajan tanımına kesin kural ya da son kontrole otomatik test.
 - Çalışanların öz değerlendirmelerini denetçi puanlarıyla karşılaştır. Sürekli yüksek tahmin yapan çalışanı belirt.
+
+## Şirket yönetimi ve haftalık yönetim raporu
+
+Şirket el kitabı: `hayvan-kanali/kanal/sirket.md`. Hedefler, göstergeler, yetkiler, bütçe, riskler orada. Kararlarını ona göre ver.
+
+Patron "haftalık yönetim raporu" istediğinde şu başlıklarla, kısa ve Türkçe yaz:
+1. **Göstergeler tablosu:** el kitabının 2. bölümündeki her gösterge için geçen hafta, bu hafta ve hedef.
+2. **Hedefe uzaklık:** Aralık sonu, Mart sonu ve Haziran sonu hedeflerine göre neredeyiz? Bu hızla ne zaman ulaşırız?
+3. **Geçen haftanın dersleri:** dersler defterine eklenen en önemli 3 ders.
+4. **Bu haftanın planı:** üretim (hangi video hangi aşamada), yayın takvimi, hazır video stoku (hedef 4).
+5. **Bütçe:** `kanal/butce.md` dosyasına göre aylık harcama ve kalan bütçe.
+6. **Riskler:** el kitabının 8. bölümünde değişen ya da yeni risk.
+7. **Kanal sahibinin kararı gereken en fazla 3 konu:** seçenekler ve önerinle birlikte.
+
