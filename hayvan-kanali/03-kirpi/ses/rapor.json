@@ -539,5 +539,13 @@
   "sure": 5.88,
   "uygun": true,
   "tek_basina": true
+ },
+ "064": {
+  "yazi": "Delik on üç santimetreye on üç santimetre olabilir; bahçen kalabalık bir yola bakıyorsa deliği yola doğru açma.",
+  "duyulan": "Delik 13 cm'ye 13 cm olabilir. Bahçen kalabalık bir yola bakıyorsa, deliği yola doğru açma.",
+  "hata": 1,
+  "sure": 6.56,
+  "uygun": false,
+  "tek_basina": true
  }
 }
