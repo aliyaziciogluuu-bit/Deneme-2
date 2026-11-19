@@ -4,31 +4,127 @@
    "ad": "s1-maske",
    "baslik": "Karga Yüzünü Tanır mı? 🐦‍⬛ #shorts",
    "aciklama": "Evet: bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu. Bir biyolog tehdit edici bir maske taktı, kargalar o maskeye bağırdı. Bu kargalar Türkiye'de yaşamıyor. Tam video kanalımızda: \"Karga Yüzünü Tanıyor mu? (Maskeyle Yapılan Ünlü Deney)\"\n\nKaynaklar: Marzluff, J.M., Walls, J., Cornell, H.N., Withey, J.C. & Craig, D.P. (2010). Lasting recognition of threatening people by wild American crows. Animal Behaviour. doi:10.1016/j.anbehav.2009.12.022\n\n#shorts #karga #deney #doğa",
-   "etiketler": ["karga", "karga yüz tanır mı", "maske deneyi", "shorts", "doğa"],
-   "ust_yazi": ["KARGA YÜZÜ", "tanır mı?"],
+   "etiketler": [
+    "karga",
+    "karga yüz tanır mı",
+    "maske deneyi",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "KARGA YÜZÜ",
+    "tanır mı?"
+   ],
    "cumleler": [
-    {"yazi": "Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu.", "gorsel": "?", "klip": "?"},
-    {"yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.", "gorsel": "?"},
-    {"yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.", "gorsel": "?"},
-    {"yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.", "gorsel": "?"},
-    {"yazi": "Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor.", "gorsel": "?"},
-    {"yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.", "gorsel": "?"},
-    {"yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar. Tam videosu kanalımızda.", "gorsel": "?"}
+    {
+     "yazi": "Evet, bilim insanlarının denediği Amerikan kargaları insan yüzünü tanıyordu.",
+     "gorsel": "maske_bagiran",
+     "x": 0.49,
+     "x2": 0.55,
+     "aw": 0.5,
+     "ay": 0.5
+    },
+    {
+     "yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.",
+     "gorsel": "maske_biyolog",
+     "x": 0.63,
+     "x2": 0.42,
+     "aw": 0.6,
+     "ay": 0.3
+    },
+    {
+     "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.",
+     "gorsel": "maske_bagiran",
+     "x": 0.72,
+     "x2": 0.64
+    },
+    {
+     "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
+     "gorsel": "maske_biyolog",
+     "x": 0.35,
+     "x2": 0.36
+    },
+    {
+     "yazi": "Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor.",
+     "gorsel": "maske_bagiran",
+     "x": 0.2,
+     "x2": 0.45,
+     "aw": 0.7
+    },
+    {
+     "yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.",
+     "gorsel": "maske_bagiran",
+     "x": 0.88,
+     "x2": 0.8
+    },
+    {
+     "yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar. Tam videosu kanalımızda.",
+     "gorsel": "maske_biyolog",
+     "x": 0.62,
+     "x2": 0.6,
+     "aw": 0.5,
+     "ay": 0.3
+    }
    ]
   },
   {
    "ad": "s2-tas",
    "baslik": "Karga Taşla Su Yükseltir mi? 🐦‍⬛ #shorts",
    "aciklama": "Evet: laboratuvardaki ekin kargaları tüpe taş atıp suyu yükseltti ve yüzen solucanı aldı. Karganın beyni küçük ama sinir hücresi sayısı şaşırtıcı. Tam video kanalımızda: \"Karga Yüzünü Tanıyor mu? (Maskeyle Yapılan Ünlü Deney)\"\n\nKaynaklar: Bird, C.D. & Emery, N.J. (2009). Rooks use stones to raise the water level to reach a floating worm. Current Biology. doi:10.1016/j.cub.2009.07.033; Olkowicz, S. ve ark. (2016). Birds have primate-like numbers of neurons in the forebrain. PNAS. doi:10.1073/pnas.1517131113\n\n#shorts #karga #zeka #doğa",
-   "etiketler": ["karga", "karga zekası", "ekin kargası", "shorts", "doğa"],
-   "ust_yazi": ["TAŞLA SU", "yükseltir mi?"],
+   "etiketler": [
+    "karga",
+    "karga zekası",
+    "ekin kargası",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "TAŞLA SU",
+    "yükseltir mi?"
+   ],
    "cumleler": [
-    {"yazi": "Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.", "gorsel": "?", "klip": "?"},
-    {"yazi": "Dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşüktü, uzanamadılar.", "gorsel": "?"},
-    {"yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.", "gorsel": "?", "klip": "?"},
-    {"yazi": "Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı.", "gorsel": "?"},
-    {"yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu.", "gorsel": "?"},
-    {"yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda.", "gorsel": "?"}
+    {
+     "yazi": "Evet, laboratuvardaki ekin kargaları taş atarak suyu yükseltip solucana ulaştı.",
+     "gorsel": "tup_tas",
+     "x": 0.45,
+     "x2": 0.5,
+     "aw": 0.5,
+     "ay": 0.3
+    },
+    {
+     "yazi": "Dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşüktü, uzanamadılar.",
+     "gorsel": "tup_tas",
+     "x": 0.55,
+     "aw": 0.7,
+     "ay": 0.5
+    },
+    {
+     "yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.",
+     "gorsel": "tup_tas",
+     "x": 0.5,
+     "x2": 0.54,
+     "y": 0.4
+    },
+    {
+     "yazi": "Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı.",
+     "gorsel": "ekin_portre",
+     "x": 0.45,
+     "aw": 0.8,
+     "ay": 0.3
+    },
+    {
+     "yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu.",
+     "gorsel": "ekin_portre",
+     "x": 0.35,
+     "x2": 0.55
+    },
+    {
+     "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor. Tam videosu kanalımızda.",
+     "gorsel": "tup_tas",
+     "x": 0.4,
+     "aw": 0.7,
+     "ay": 0.35
+    }
    ]
   }
  ]
