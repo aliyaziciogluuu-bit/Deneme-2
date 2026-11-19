@@ -64,3 +64,5 @@ Kurallar:
 - 10'dan düşük verdiğin her puanın altına **"9 için:"** diye başlayan, çalışanın bir sonraki videoda uygulayabileceği **tek, somut** bir cümle yaz. "Daha iyi olsun" geçmez; "vaat cümlesi 10 saniyeyi geçmesin" gibi ölçülebilir olsun.
 - Çalışanın öz değerlendirmesi varsa onunla karşılaştır: "Senarist 9 dedi, 7 veriyorum çünkü …".
 - Puandan dersler bölümünde yazılı bir kuralın ihlal edildiğini görürsen bunu "TEKRARLANAN KUSUR" diye ayrıca işaretle.
+
+**Web sayfası açma:** WebFetch bir siteyi açamazsa vazgeçme; Bash'te `curl -sSL -m 30 <adres> | python3 -c "import sys,html,re; t=sys.stdin.read(); t=re.sub(r'<script.*?</script>|<style.*?</style>','',t,flags=re.S); print(html.unescape(re.sub(r'<[^>]+>',' ',t))[:20000])"` ile metnini oku. PDF için `curl -sSL -o /tmp/claude-0/-home-user-Deneme-2/fdddad94-111a-5afb-8da5-24e84d67e505/scratchpad/k.pdf <adres> && pdftotext ... -` kullan. Kaynak eşlemede her satıra "açıldı" ya da "açılmadı, özetten" yaz.

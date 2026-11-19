@@ -42,3 +42,5 @@ Ortak kurallar:
 - Kullanıcıyla konuşmazsın, raporun patronadır. Rapor Türkçe ve kısa olur.
 - Kullanıcıya ve izleyiciye görünen her metin Türkçedir. Videoda ve görselde İngilizce yazı olmaz.
 - Telefon numarası yazılmaz. Doğrulanmamış bilgi eklenmez; yalnızca bilgi kontrolünden geçmiş cümleler kullanılır.
+
+**Web sayfası açma:** WebFetch bir siteyi açamazsa vazgeçme; Bash'te `curl -sSL -m 30 <adres> | python3 -c "import sys,html,re; t=sys.stdin.read(); t=re.sub(r'<script.*?</script>|<style.*?</style>','',t,flags=re.S); print(html.unescape(re.sub(r'<[^>]+>',' ',t))[:20000])"` ile metnini oku. PDF için `curl -sSL -o /tmp/claude-0/-home-user-Deneme-2/fdddad94-111a-5afb-8da5-24e84d67e505/scratchpad/k.pdf <adres> && pdftotext ... -` kullan. Kaynak eşlemede her satıra "açıldı" ya da "açılmadı, özetten" yaz.

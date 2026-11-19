@@ -31,6 +31,11 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **Y1 – (YAPILDI 19 Kasım: veri analisti görevi) Erken ayrılma karnesi (kanal yöneticisi, 19 Kasım):** Her videonun yayından 3 gün sonra 0:30, 1:20 ve 2:00'deki izleyici tutma yüzdeleri ilerleme.md'ye yazılır. Dersler veriye bağlı kalır, videolar karşılaştırılabilir.
   - Değerlendirme: iç iş olarak uygulanabilir.
 
+- **S1 – "Bunu sen de dene" cümlesi (senarist, 19 Kasım):** Her videoda izleyicinin uygulayabileceği tek bir eylem (ör. yavru karga için "bir saat uzaktan izle"). Yorumlarda deneyim paylaşımını artırır.
+- **S2 – "Bu deney nerede yapıldı?" kartı (senarist, 19 Kasım):** Başka ülkede yapılmış deneyler anlatılırken ekranda kısa bir etiket ("Bu deney Amerika'da, Amerikan kargasıyla yapıldı"). Türe özgü bilgiyi genellememe kuralını izleyiciye görünür kılar; kanalın dürüstlüğünü marka yapar.
+- **B1 – "Ne doğruladık, ne doğrulayamadık" notu (bilgi kontrolcüsü, 19 Kasım):** Açıklamanın sonuna iki satırlık şeffaflık notu. "Her bilgi kaynaklı" sözünü görünür kılar.
+- **B2 – "Yaralı yaban hayvanı bulursan ilk 5 adım" sabit yorum kartı (bilgi kontrolcüsü, 19 Kasım):** Kurum olarak yalnızca DKMP şube müdürlüğü, telefon yok. Güvenlik bilgisini tek yerde toplar.
+
 ## Onaylanan
 
 ## Reddedilen
