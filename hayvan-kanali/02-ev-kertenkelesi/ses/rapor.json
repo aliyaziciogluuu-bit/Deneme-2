@@ -95,10 +95,10 @@
   "tek_basina": true
  },
  "013": {
-  "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yememek, yüzeyi de sabunla iyice temizleyip gerekirse dezenfekte etmek en güvenlisi.",
-  "duyulan": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yememek, yüzeyi de sabunla iyice temizleyip gerekirse dezenfekte etmek en güvenlisi.",
+  "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yeme; yüzeyi de sabunla iyice temizle, gerekirse dezenfekte et.",
+  "duyulan": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yeme. Yüzeyi de sabunla iyice temizle. Gerekirse dezenfekte et.",
   "hata": 0,
-  "sure": 9.68,
+  "sure": 8.72,
   "uygun": true,
   "tek_basina": true
  },
@@ -282,10 +282,10 @@
   "uygun": true
  },
  "040": {
-  "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
-  "duyulan": "Yakalandığında ya da başka bir kertenkele ile çekiştiğinde ince bir ciyaklama da çıkarabiliyor.",
+  "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince, tiz bir ses de çıkarabiliyor.",
+  "duyulan": "Yakalandığında ya da başka bir kertenkele ile çekiştiğinde ince, tiz bir ses de çıkarabiliyor.",
   "hata": 0,
-  "sure": 5.8,
+  "sure": 6.44,
   "uygun": true,
   "tek_basina": true
  },
@@ -460,10 +460,10 @@
   "uygun": true
  },
  "065": {
-  "yazi": "Dış lambalarda sıcak tonlu, sarımsı ışık veren ampuller böcekleri daha az çekebilir; böcek azalınca onları avlayan kertenkele de daha az gelebilir.",
-  "duyulan": "Dış lambalarda, sıcak tonlu, sarımsı ışık veren ampuller, böcekleri daha az çekebilir. Böcek azalınca, onları avlayan kertenkele de daha az gelebilir.",
+  "yazi": "Dış lambalarda sarımsı ışıklı ampuller böcekleri daha az çekebilir; böcek azalınca onları avlayan kertenkele de daha az gelebilir.",
+  "duyulan": "Dış lambalarda sarımsı ışıklı ampuller böcekleri daha az çekebilir. Böcek azalınca onları avlayan kertenkele de daha az gelebilir.",
   "hata": 0,
-  "sure": 9.9,
+  "sure": 8.56,
   "uygun": true,
   "tek_basina": true
  },
