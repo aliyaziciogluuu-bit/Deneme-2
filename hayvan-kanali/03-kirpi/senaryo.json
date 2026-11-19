@@ -140,7 +140,7 @@
      "yazi": "Kirpiler, böcekçil memeliler grubundan küçük gece hayvanları."
     },
     {
-     "yazi": "Türkiye'de üç kirpi türü yaşıyor."
+     "yazi": "Türkiye'de birkaç kirpi türü yaşıyor."
     },
     {
      "yazi": "Bunlardan biri, göğsü açık renkli akgöğüslü kirpi.",
@@ -151,6 +151,9 @@
     },
     {
      "yazi": "Kirpilerin sırtı dikenlerle kaplı."
+    },
+    {
+     "yazi": "Peki bu dikenler tehlikeli mi?"
     }
    ]
   },
@@ -182,9 +185,6 @@
     },
     {
      "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var."
-    },
-    {
-     "yazi": "Solucanlar ve böcekler besinin en önemli kısmını oluşturuyor."
     },
     {
      "yazi": "Fırsat bulursa yerde yuva yapan kuşların yumurtalarını ve leşleri de yiyebiliyor."

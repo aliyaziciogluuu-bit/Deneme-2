@@ -16,3 +16,9 @@
 - Karar: RET. Puan: ses 7, gorsel 7, teknik 8, shorts 6.
 - Bulgular: s2-tas son 3 sn başlık karganın gözüne biniyor (TEKRARLANAN KUSUR); ölçek hatası yok, klipler temiz; ekin_portre ense yaması, kapanis kargası gri değil; kapak alt yazı bandı küçük.
 - Dinleme listesi: 000 (0:00), 016 (1:11 Marzluff), 033 (2:37), 034 (2:46), 057 (4:34), 061 (4:52), 064 (5:09).
+
+## Seslendirme yönetmeni (19 Kasım)
+- 000 "çitin" 5 denemede "çetin" duyuldu → "tahta perdenin üstündeki karga" diye yeniden yazıldı.
+- 032 "saksağanlar" videoda "saksı alanlar" duyuldu → tekil "saksağan" yapısı.
+- 055 "yaban hayatı" → "yavan" duyuldu (gerçek hata, kanal sahibinin listesinde yoktu) → yeniden seslendiriliyor.
+- Eşdeğer tablosu: "cm'ye" anahtarı hiç çalışmıyordu (kesme işareti siliniyor) → "cmye"; Marzluff ve Betty yazımları eklendi.

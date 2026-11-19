@@ -314,13 +314,6 @@
   "sure": 5.06,
   "uygun": true
  },
- "055": {
-  "yazi": "Kanada'daki bir yaban hayatı kurtarma derneğine göre, kargalar uçmayı öğrenirken bir süre yerde kalabiliyor.",
-  "duyulan": "Kanadadaki bir yavan hayatı kurtarma derneğine göre kargalar uçmayı öğrenirken bir süre yerde kalabiliyor.",
-  "hata": 1,
-  "sure": 5.9,
-  "uygun": true
- },
  "056": {
   "yazi": "Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor.",
   "duyulan": "Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor.",
@@ -427,14 +420,6 @@
   "sure": 6.04,
   "uygun": true
  },
- "000": {
-  "yazi": "Sabah bahçeye çıkıyorsun; çitin üstündeki karga seni görür görmez bağırıyor.",
-  "duyulan": "Sabah bahçeye çıkıyorsun, çetin üstündeki karga seni görür görmez bağırıyor.",
-  "hata": 1,
-  "sure": 4.64,
-  "uygun": false,
-  "tek_basina": true
- },
  "006": {
   "yazi": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya neden taş atmaman gerektiğini göreceksin.",
   "duyulan": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya neden taş atmaman gerektiğini göreceksin.",
@@ -483,15 +468,6 @@
   "sure": 6.1,
   "uygun": true,
   "tek_basina": true
- },
- "032": {
-  "yazi": "Güney Kore'de saksağanlar yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
-  "duyulan": "Güney Kore'de saksanlar, yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
-  "hata": 1,
-  "sure": 5.72,
-  "uygun": true,
-  "tek_basina": true,
-  "not": "saksağan → ses tanıma 'saksahan' yazıyor; eşdeğer yazım (19 Kasım)"
  },
  "033": {
   "yazi": "Araştırmacılar bunu yüzle tanımaya bağlıyor.",

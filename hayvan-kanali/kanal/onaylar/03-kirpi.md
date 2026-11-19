@@ -35,3 +35,7 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 ## Bilgi kontrolü Tur 4 (19 Kasım)
 - Karar: ONAY. Puan: doğruluk 9, güvenlik 9 (Tur 3: 7, 8).
 - Son düzeltmeler: cümle 25 "Kirpilerin sırtı dikenlerle kaplı." (Trakya cümlesi çıkınca "üçünün" göndermesi boşta kalmıştı); etiketler "Sırtı dikenlerle kaplı", "Besinin önemli kısmı: solucan ve böcek".
+
+## Metin editörü Tur 4 (19 Kasım)
+- Karar: ONAY. Puan: kanca 8, anlatim 8, baslik 8, shorts 8 (Tur 3: 6, 7, 6, 7).
+- Patron uyguladı (editörün "9 için" önerileri): tekrar eden cümle 33 çıkarıldı; "üç kirpi türü" → "birkaç kirpi türü" (üçüncü tür için açılmış kaynak yok, iki tür adlandırılıyordu); diken bölümü "Peki bu dikenler tehlikeli mi?" sorusuyla açıldı (1:33–2:19 sorusuz aralık bölündü). 22 ve yeni 26 seslendirilecek.
