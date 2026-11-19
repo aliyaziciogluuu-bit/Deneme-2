@@ -186,7 +186,7 @@
   },
   "shorts2": {
     "bas": 640,
-    "son": 1050,
+    "son": 800,
     "tur": 2,
     "baslik": "POV: a mountain temple under the full moon",
     "alt": "tea is steaming by the open window",
@@ -204,5 +204,6 @@
       590
     ],
     "genlik": 0.5
-  }
+  },
+  "gorsel_4k": "sahne_4k.png"
 }
