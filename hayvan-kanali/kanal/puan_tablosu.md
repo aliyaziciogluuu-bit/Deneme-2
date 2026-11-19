@@ -8,8 +8,8 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 - **Güvenlik ve çekinceler** (10 puan): bilgi kontrolcüsü puanlar · sorumlu: senarist
 - **Giriş ve izleyici tutma** (20 puan): metin editörü puanlar · sorumlu: senarist
 - **Anlatım ve Türkçe** (10 puan): metin editörü puanlar · sorumlu: senarist
-- **Başlık, küçük resim, açıklama** (10 puan): metin editörü puanlar · sorumlu: senarist
-- **Shorts kancası** (5 puan): metin editörü puanlar · sorumlu: senarist
+- **Başlık, küçük resim, açıklama** (10 puan): metin editörü puanlar · sorumlu: paketleme uzmanı
+- **Shorts kancası** (5 puan): metin editörü puanlar · sorumlu: Shorts uzmanı
 - **Seslendirme ve ses** (10 puan): kalite kontrol puanlar · sorumlu: patron
 - **Görsel, anatomi, kadraj** (10 puan): kalite kontrol puanlar · sorumlu: yapımcı
 - **Testler ve teslim** (5 puan): kalite kontrol puanlar · sorumlu: patron
@@ -38,7 +38,9 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 
 | Çalışan | Video sayısı | İlk tur ortalaması (kendi ölçütleri, 10 üzerinden) | İlk turda RET/DÜZELTME |
 |---|---|---|---|
-| senarist | 2 | 6.4 | 2 |
+| senarist | 2 | 6.6 | 2 |
+| paketleme uzmanı | 2 | 6.5 | 1 |
+| Shorts uzmanı | 2 | 5.5 | 2 |
 | yapımcı | 2 | 6.5 | 1 |
 | patron | 2 | 8.2 | 0 |
 

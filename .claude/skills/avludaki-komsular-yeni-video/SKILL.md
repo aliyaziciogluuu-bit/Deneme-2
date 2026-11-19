@@ -46,8 +46,11 @@ Ofisin hafızası `references/dersler.md` dosyasında. İşe başlamadan oku, aj
 | 8. Çekim planı | yapımcı | `cekimler.json` ve `video.py NN --onizleme` | yok |
 | 9. Video | patron | `video.py NN` ve `son_kontrol.py NN` | yok |
 | 10. Shorts | yapımcı kadraj, patron üretir | `shorts_kur.py NN`, sonra her Shorts için seslendir, video, son kontrol | az |
+| 1b. Metin denetimi | patron | `python metin_kontrol.py NN` (HATA varsa seslendirmeye geçilmez) | yok |
+| 10b. Küçük resim A/B/C | paketleme yazar, patron üretir | `python video.py NN --kapak` (senaryo.json > kapak, kapak_alternatifler) | yok |
 | 11. Ofis onayı | denetçiler, yönetici | aşağıda | yok |
-| 12. Teslim | patron | aşağıda | yok |
+| 12. Teslim | patron | `python teslim.py NN` (son kontrolü geçmemiş videoyu teslim etmez, kopyaları cmp ile doğrular, yükleme listesi yazar) | yok |
+| 13. Yayın sonrası | analist | kanal sahibinin ekran görüntüleri → dersler, `puan.py gercek` | yok |
 
 Bir videonun toplam maliyeti yaklaşık 5,5–7 $.
 
@@ -69,21 +72,33 @@ Kullanıcı, Dream Window kanalındaki gibi işin "farklı ajanlar ve yöneticil
                        KANAL YÖNETİCİSİ (avlu-kanal-yoneticisi)
           denetçi raporları · veriler · takvim · öneri kutusu · patrona öneri
                                      │
-      ┌──────────────┬───────────────┼───────────────┬──────────────────┐
-  SENARİST       YAPIMCI      BİLGİ KONTROLCÜSÜ  KALİTE KONTROL     METİN EDİTÖRÜ
-  (avlu-senarist)(avlu-yapimci)(avlu-bilgi-kontrol)(avlu-kalite-kontrol)(avlu-metin-editoru)
-  araştırma,     görsel, klip, her iddia, sayı,   14 test, kare,     kanca, tempo, Türkçe,
-  senaryo,       çekim planı,  güvenlik, kaynak   anatomi, ses,      başlık, açıklama,
-  Shorts metni   kadraj                           küçük resim        Shorts metni
+   ÇALIŞANLAR                                          DENETÇİLER
+   SENARİST (avlu-senarist)        araştırma, senaryo  BİLGİ KONTROLCÜSÜ (avlu-bilgi-kontrol)
+   YAPIMCI (avlu-yapimci)          görsel, klip, çekim KALİTE KONTROL (avlu-kalite-kontrol)
+   SHORTS UZMANI (avlu-shorts-uzmani)  2 Shorts       METİN EDİTÖRÜ (avlu-metin-editoru)
+   PAKETLEME (avlu-paketleme)      başlık, küçük resim A/B/C
+                                     │
+                       VERİ ANALİSTİ (avlu-analist)
+          yayından sonra: izleyici tutma, tıklama oranı, Shorts verisi → dersler ve puan kalibrasyonu
 ```
 
 **Akış:**
-1. Patron konuyu senariste verir. Senaryo gelince **bilgi kontrolcüsü** inceler. RET ise senarist düzeltir. Bilgi ONAY'ı gelmeden görsel üretimine para harcanmaz (görsel istemleri paralel hazırlanabilir).
-2. Yapımcı görsel ve klip istemlerini yazar. Patron üretir, yapımcı adayları ve klipleri inceler, patron seçer ve kırpar.
-3. Patron seslendirir. Yapımcı çekim planını ve kadrajları hazırlar. Patron videoyu ve Shorts'ları üretir, son kontrolü çalıştırır.
-4. **Kalite kontrol** ve **metin editörü** aynı anda inceler.
-5. İkisi bitince **kanal yöneticisi** bütün raporları okuyup patrona öneri sunar.
-6. Patron son kararı verir. Vermeden önce önizlemelere ve küçük resme kendisi de bakar.
+1. **Senaryo.** Patron konuyu senariste verir. Senarist `senaryo.json` ve `kaynak_eslesme.md` dosyalarını yazar.
+2. **Otomatik metin denetimi.** Patron `python metin_kontrol.py NN-konu` çalıştırır. HATA varsa senarist düzeltir. Bu ajan çalıştırmaz, para harcamaz, saniyeler sürer.
+3. **Bilgi kontrolü.** Bilgi kontrolcüsü inceler ve puanlar. RET ise senarist düzeltir. Bilgi ONAY'ı gelmeden görsele para harcanmaz.
+4. **Paralel işler:**
+   - Yapımcı görsel ve klip istemlerini yazar.
+   - Shorts uzmanı iki Shorts'un metnini ve üst yazısını hazırlar.
+   - Paketleme uzmanı başlık seçeneklerini ve A/B/C küçük resim yazılarını hazırlar.
+   Shorts metni ve senaryodaki değişiklikler için `metin_kontrol.py` yeniden çalıştırılır.
+5. **Üretim.**
+   - Patron görselleri ve klipleri üretir. Yapımcı adayları ve klipleri inceler, patron seçer ve kırpar.
+   - Patron seslendirir. Yapımcı çekim planını, Shorts uzmanı Shorts kadrajlarını hazırlar.
+   - Patron videoyu, Shorts'ları ve küçük resimleri üretir (`video.py`, `--kapak`), ardından son kontrolü çalıştırır.
+6. **Denetim.** Kalite kontrol ve metin editörü aynı anda inceler ve puanlar.
+7. **Yönetici.** Bütün raporları ve puanları okuyup patrona öneri sunar.
+8. **Karar ve teslim.** Patron son kararı verir (bütün denetçilerin ONAY'ı ve en az 80 puan), `python teslim.py NN-konu` ile teslim eder.
+9. **Yayından sonra.** Kanal sahibi Studio ekran görüntülerini gönderince veri analisti okur. Patron analistin komutlarıyla `puan.py gercek` ve `ilerleme.md` kayıtlarını işler, önerdiği dersleri deftere ekler.
 
 **Ajanlar nasıl çalıştırılır:**
 - `avlu-*` ajan türleri listede görünüyorsa adlarıyla çalıştır.
@@ -117,8 +132,8 @@ Kullanıcı ofiste videolar için bir puanlama sistemi istedi. Her video, ONAY/R
 | Güvenlik ve çekinceler (`guvenlik`) | 10 | bilgi kontrolcüsü | senarist |
 | Giriş ve izleyici tutma (`kanca`) | 20 | metin editörü | senarist |
 | Anlatım ve Türkçe (`anlatim`) | 10 | metin editörü | senarist |
-| Başlık, küçük resim, açıklama (`baslik`) | 10 | metin editörü | senarist |
-| Shorts kancası (`shorts`) | 5 | metin editörü | senarist |
+| Başlık, küçük resim, açıklama (`baslik`) | 10 | metin editörü | paketleme uzmanı |
+| Shorts kancası (`shorts`) | 5 | metin editörü | Shorts uzmanı |
 | Seslendirme ve ses (`ses`) | 10 | kalite kontrol | patron |
 | Görsel, anatomi, kadraj (`gorsel`) | 10 | kalite kontrol | yapımcı |
 | Testler ve teslim (`teknik`) | 5 | kalite kontrol | patron |
@@ -142,7 +157,7 @@ Kurallar:
 
 ## Teslim
 
-1. Dosyaları `hayvan-kanali/teslim/uzun/` ve `teslim/shorts/` klasörlerine anlaşılır adlarla kopyala (ör. `6-karga-video.mp4`, `11-karga-...mp4`) ve kullanıcıya gönder.
+1. `python teslim.py NN-konu` çalıştır. Dosyalar `hayvan-kanali/teslim/NN-konu/` klasörüne kopyalanır, doğrulanır ve `YUKLEME_LISTESI.txt` yazılır. Bu klasördeki dosyaları kullanıcıya gönder.
 2. Takvim önerisi:
    - Uzun videolar salı ve cuma 18:00.
    - Shorts'lar 12:00'de, uzun video yayına girdikten sonraki iki gün. Yüklerken "İlgili video" olarak uzun video bağlanır.

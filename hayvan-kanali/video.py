@@ -3,6 +3,8 @@
 Kullanım:
   python video.py 01-dans-vebasi              # video.mp4, altyazi.srt, kapak.jpg
   python video.py 01-dans-vebasi --onizleme   # sadece onizleme.jpg (her çekimden bir kare)
+  python video.py 01-dans-vebasi --kapak      # sadece küçük resimler: kapak.jpg ve varsa kapak_B.jpg, kapak_C.jpg
+                                              # (senaryo.json > "kapak_alternatifler": [{"buyuk": [..], "kucuk": ".."}, ...])
 
 Girdi (video klasöründe): senaryo.json, cekimler.json, gorseller/, ses/000.wav ...
 İsteğe bağlı: senaryo.json'da "ambiyans": {"dosya": "../sesler/bahce.ogg", "seviye": 0.07, "kaynak": "..."}
@@ -389,10 +391,10 @@ def onizleme(sahne: Sahne, yol: pathlib.Path):
     sayfa.save(yol, quality=85)
 
 
-def kapak(sahne: Sahne, yol: pathlib.Path):
+def kapak(sahne: Sahne, yol: pathlib.Path, k=None):
     """YouTube küçük resmi (1280x720), senaryo.json'daki "kapak" alanından:
     {"gorsel": "kapak", "buyuk": ["YILAN", "DEĞİL!"], "kucuk": "Sağır da değil", "konum": "sol"}"""
-    k = sahne.senaryo["kapak"]
+    k = k or sahne.senaryo["kapak"]
     g = Image.open(next((sahne.klasor / "gorseller").glob(k["gorsel"] + ".*"))).convert("RGB")
     olcek = max(1280 / g.width, 720 / g.height)
     g = g.resize((round(g.width * olcek), round(g.height * olcek)), Image.LANCZOS)
@@ -450,9 +452,23 @@ def ses_yuksekligi_duzelt(video: pathlib.Path, hedef=-14.0, tepe=-2.5):
         gecici.replace(video)
 
 
+def kapaklari_yaz(senaryo, klasor):
+    """A (kapak.jpg) ve "Test ve karşılaştır" için B, C seçenekleri (kapak_B.jpg, kapak_C.jpg)."""
+    import types
+    sahne = types.SimpleNamespace(senaryo=senaryo, klasor=klasor)
+    kapak(sahne, klasor / "kapak.jpg")
+    for harf, alt in zip("BC", senaryo.get("kapak_alternatifler", [])):
+        kapak(sahne, klasor / f"kapak_{harf}.jpg", {**senaryo["kapak"], **alt})
+
+
 def main():
     klasor = KOK / sys.argv[1]
-    bicim_ayarla(json.loads((klasor / "senaryo.json").read_text(encoding="utf-8")))
+    senaryo_ham = json.loads((klasor / "senaryo.json").read_text(encoding="utf-8"))
+    bicim_ayarla(senaryo_ham)
+    if "--kapak" in sys.argv:
+        kapaklari_yaz(senaryo_ham, klasor)
+        print("küçük resimler yazıldı:", ", ".join(p.name for p in sorted(klasor.glob("kapak*.jpg"))))
+        return
     if "--ses-duzelt" in sys.argv:  # yalnızca bitmiş videonun ses yüksekliğini düzelt
         ses_yuksekligi_duzelt(klasor / "video.mp4")
         return
@@ -468,7 +484,7 @@ def main():
     gecici = klasor / "_gecici"
     srt_yaz(sahne.alt, klasor / "altyazi.srt")
     if sahne.senaryo.get("kapak") and not DIKEY:
-        kapak(sahne, klasor / "kapak.jpg")
+        kapaklari_yaz(sahne.senaryo, klasor)
     yukleme_yaz(sahne.senaryo, sahne.cumleler, klasor / "yukleme.txt")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-", str(gecici / "ses.wav")],
                    input=sahne.kayit.tobytes(), check=True)

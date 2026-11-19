@@ -27,8 +27,8 @@ OLCUTLER = [  # (anahtar, ağırlık, denetçi, açıklama, sorumlu çalışan)
     ("guvenlik", 10, "bilgi kontrolcüsü", "Güvenlik ve çekinceler", "senarist"),
     ("kanca", 20, "metin editörü", "Giriş ve izleyici tutma", "senarist"),
     ("anlatim", 10, "metin editörü", "Anlatım ve Türkçe", "senarist"),
-    ("baslik", 10, "metin editörü", "Başlık, küçük resim, açıklama", "senarist"),
-    ("shorts", 5, "metin editörü", "Shorts kancası", "senarist"),
+    ("baslik", 10, "metin editörü", "Başlık, küçük resim, açıklama", "paketleme uzmanı"),
+    ("shorts", 5, "metin editörü", "Shorts kancası", "Shorts uzmanı"),
     ("ses", 10, "kalite kontrol", "Seslendirme ve ses", "patron"),
     ("gorsel", 10, "kalite kontrol", "Görsel, anatomi, kadraj", "yapımcı"),
     ("teknik", 5, "kalite kontrol", "Testler ve teslim", "patron"),
@@ -90,7 +90,7 @@ def tablo_yaz(veri):
     s += ["", "## Çalışan karnesi", "",
           "İlk turdaki puanlar çalışanın işinin ilk teslimdeki kalitesini gösterir (düzeltmeden önce).", "",
           "| Çalışan | Video sayısı | İlk tur ortalaması (kendi ölçütleri, 10 üzerinden) | İlk turda RET/DÜZELTME |", "|---|---|---|---|"]
-    for calisan in ("senarist", "yapımcı", "patron"):
+    for calisan in ("senarist", "paketleme uzmanı", "Shorts uzmanı", "yapımcı", "patron"):
         anahtarlar = [k for k, _, _, _, sor in OLCUTLER if sor == calisan]
         ilkler = [v["turlar"][0] for v in veri["videolar"].values() if v.get("turlar")]
         if not ilkler:
