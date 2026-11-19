@@ -22,11 +22,12 @@
   "uygun": true
  },
  "003": {
-  "yazi": "Ama pek çok sürüngen gibi, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor.",
-  "duyulan": "ama pek çok sürüngen gibi vücudunda ve dışkısında salmonella bakterisi taşıyabiliyor.",
+  "yazi": "Ama gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor.",
+  "duyulan": "ama gekolar dahil pek çok sürüngen vücudunda ve dışkısında salmonella bakterisi taşıyabiliyor.",
   "hata": 0,
-  "sure": 5.5,
-  "uygun": true
+  "sure": 6.4,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
   "yazi": "Yani asıl mesele zehir değil, temizlik.",
@@ -36,17 +37,19 @@
   "uygun": true
  },
  "005": {
-  "yazi": "Üzerine kertenkele düşen yiyeceği at, yüzeyi temizleyip dezenfekte et.",
-  "duyulan": "Üzerine kertenkele düşen yiyeceği at, yüzeyi temizleyip dezenfekte et.",
+  "yazi": "Üzerine kertenkele düşen yiyeceği yeme, yüzeyi de sabunla iyice temizle.",
+  "duyulan": "Üzerine kertenkele düşen yiyeceği yeme, yüzeyi de sabunla iyice temizle.",
   "hata": 0,
-  "sure": 4.2,
-  "uygun": true
+  "sure": 4.86,
+  "uygun": true,
+  "tek_basina": true
  },
  "006": {
-  "yazi": "Ona dokunduysan ellerini yıka. Tam videosu kanalımızda.",
-  "duyulan": "Ona dokunduysan ellerini yıka. Tam videosu kanalımızda.",
+  "yazi": "Ona dokunduysan ellerini yıka; küçük çocuklar ve bağışıklığı zayıf olanlar ona hiç dokunmasın. Tam videosu kanalımızda.",
+  "duyulan": "Ona dokunduysan ellerini yıka. Küçük çocuklar ve bağışıklığı zayıf olanlar ona hiç dokunmasın. Tam videosu kanalımızda.",
   "hata": 0,
-  "sure": 3.58,
-  "uygun": true
+  "sure": 8.18,
+  "uygun": true,
+  "tek_basina": true
  }
 }

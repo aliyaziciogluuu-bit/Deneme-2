@@ -57,10 +57,10 @@
   "uygun": true
  },
  "008": {
-  "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz.",
-  "duyulan": "İnsana saldırmaz, yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz.",
+  "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa kendini savunmak için ısırabilir.",
+  "duyulan": "İnsana saldırmaz, yakalanmaya çalışılırsa kendini savunmak için ısırabilir.",
   "hata": 0,
-  "sure": 6.34,
+  "sure": 5.04,
   "uygun": true,
   "tek_basina": true
  },
@@ -79,11 +79,12 @@
   "uygun": true
  },
  "011": {
-  "yazi": "Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında ve dışkılarında Salmonella bakterisi taşıyabiliyor.",
-  "duyulan": "Pek çok sürüngen gibi evkertenkeleleri de vücutlarında ve dışkılarında salmonella bakterisi taşıyabiliyor.",
+  "yazi": "Gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor.",
+  "duyulan": "Gekolar dahil pek çok sürüngen, vücudunda ve dışkısında salmonella bakterisi taşıyabiliyor.",
   "hata": 0,
-  "sure": 5.6,
-  "uygun": true
+  "sure": 6.32,
+  "uygun": true,
+  "tek_basina": true
  },
  "012": {
   "yazi": "Yani asıl mesele zehir değil, temizlik.",
@@ -94,10 +95,10 @@
   "tek_basina": true
  },
  "013": {
-  "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor.",
-  "duyulan": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor.",
+  "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yememek, yüzeyi de sabunla iyice temizleyip gerekirse dezenfekte etmek en güvenlisi.",
+  "duyulan": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yememek, yüzeyi de sabunla iyice temizleyip gerekirse dezenfekte etmek en güvenlisi.",
   "hata": 0,
-  "sure": 8.16,
+  "sure": 9.68,
   "uygun": true,
   "tek_basina": true
  },
@@ -245,10 +246,10 @@
   "uygun": true
  },
  "035": {
-  "yazi": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
-  "duyulan": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+  "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+  "duyulan": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
   "hata": 0,
-  "sure": 6.34,
+  "sure": 6.24,
   "uygun": true,
   "tek_basina": true
  },
@@ -282,9 +283,9 @@
  },
  "040": {
   "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
-  "duyulan": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
+  "duyulan": "Yakalandığında ya da başka bir kertenkele ile çekiştiğinde ince bir ciyaklama da çıkarabiliyor.",
   "hata": 0,
-  "sure": 5.66,
+  "sure": 5.8,
   "uygun": true,
   "tek_basina": true
  },
@@ -324,10 +325,10 @@
   "uygun": true
  },
  "046": {
-  "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
-  "duyulan": "Anavatanı Akdeniz Çevresi ve Ortadoğu. Türkiye'de Kıyı Şeridi'nin büyük bölümünde, bazı iç bölgelerde de görülüyor.",
+  "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de en çok Ege ve Akdeniz kıyılarında görülüyor, diğer kıyılarda ve bazı iç bölgelerde daha seyrek.",
+  "duyulan": "Anavatanı Akdeniz çevresi ve Orta Doğu. Türkiye'de en çok Ege ve Akdeniz kıyılarında görülüyor, diğer kıyılarda ve bazı iç bölgelerde daha seyrek.",
   "hata": 0,
-  "sure": 7.3,
+  "sure": 10.56,
   "uygun": true,
   "tek_basina": true
  },
@@ -395,11 +396,12 @@
   "uygun": true
  },
  "056": {
-  "yazi": "Onların parmaklarında yapışkan pedler yok; ince, ortasından kıvrık parmaklarıyla pürüzlü yüzeylere tutunuyorlar.",
-  "duyulan": "Onların parmaklarında yapışkan pedler yok, ince, ortasından kıvrık parmaklarıyla pürüzlü yüzeylere tutunuyorlar.",
+  "yazi": "Onların parmakları ince ve ev kertenkelesininkinden farklı; daha çok pürüzlü taş yüzeylerde yaşıyorlar.",
+  "duyulan": "Onların parmakları ince ve evkertenkelesininkinden farklı. Daha çok pürüzlü taş yüzeylerde yaşıyorlar.",
   "hata": 0,
-  "sure": 7.18,
-  "uygun": true
+  "sure": 6.94,
+  "uygun": true,
+  "tek_basina": true
  },
  "057": {
   "yazi": "Onlar da zehirsiz ve onlar da birer böcek avcısı.",
@@ -458,10 +460,10 @@
   "uygun": true
  },
  "065": {
-  "yazi": "Dış lambalarda sarı ışıklı ampuller kullanmak, böcekleri ve dolayısıyla kertenkeleleri daha az çekebilir.",
-  "duyulan": "Dış lambalarda sarı ışıklı ampuller kullanmak, böcekleri ve dolayısıyla kertenkeleleri daha az çekebilir.",
+  "yazi": "Dış lambalarda sıcak tonlu, sarımsı ışık veren ampuller böcekleri daha az çekebilir; böcek azalınca onları avlayan kertenkele de daha az gelebilir.",
+  "duyulan": "Dış lambalarda, sıcak tonlu, sarımsı ışık veren ampuller, böcekleri daha az çekebilir. Böcek azalınca, onları avlayan kertenkele de daha az gelebilir.",
   "hata": 0,
-  "sure": 6.96,
+  "sure": 9.9,
   "uygun": true,
   "tek_basina": true
  },
@@ -473,10 +475,10 @@
   "uygun": true
  },
  "067": {
-  "yazi": "Ev kertenkelesi zehirli değil; hijyene dikkat edersen sana bir zararı da yok.",
-  "duyulan": "Ev kerten kelesi zehirli değil. Hijyene dikkat edersen sana bir zararı da yok.",
+  "yazi": "Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor.",
+  "duyulan": "Ev kertenkelesi zehirli değil, temizliğe dikkat edersen ondan korkman gerekmiyor.",
   "hata": 0,
-  "sure": 4.84,
+  "sure": 5.42,
   "uygun": true,
   "tek_basina": true
  },

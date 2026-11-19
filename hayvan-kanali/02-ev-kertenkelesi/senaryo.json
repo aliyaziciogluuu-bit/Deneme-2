@@ -1,16 +1,16 @@
 {
   "baslik": "Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)",
   "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları bilerek kullanılmadı (ses modeli kısaltıyor).",
-  "aciklama": "Gece mutfağın ışığını yaktın, duvarda yarı saydam küçük bir kertenkele duruyor. Yemeğe düşerse zehirler mi? Kısa cevap: hayır, ev kertenkelesinin zehri yok. Ama bilmen gereken önemli bir gerçek var ve o gerçek zehirle değil, hijyenle ilgili.\n\nBu videoda ev kertenkelesinin (Akdeniz gekosu, Hemidactylus turcicus) neden lambaların yanında durduğunu, cam ve tavanda nasıl yürüdüğünü, neden gözünü yaladığını ve geceleri duvardan gelen tıkırtıların ne olduğunu anlatıyoruz. Zehirli mi, ısırır mı, yemeğe düşerse ne olur sorularının cevabını ve Salmonella konusunda alınacak basit önlemleri de konuşuyoruz.\n\nEvde ev kertenkelesi görürsem ne yapmalıyım, onu öldürmeden nasıl dışarı çıkarırım, evime girmesini nasıl önlerim diye merak ediyorsan, bardak-karton yönteminden sineklik ve sarı ampul önerisine kadar pratik bilgiler de videoda.",
+  "aciklama": "Gece mutfağın ışığını yaktın, duvarda yarı saydam küçük bir kertenkele duruyor. Yemeğe düşerse zehirler mi? Kısa cevap: hayır, ev kertenkelesinin zehri yok. Ama bilmen gereken önemli bir gerçek var ve o gerçek zehirle değil, hijyenle ilgili.\n\nBu videoda ev kertenkelesinin (Akdeniz gekosu, Hemidactylus turcicus) neden lambaların yanında durduğunu, cam ve tavanda nasıl yürüdüğünü, neden gözünü yaladığını ve geceleri duvardan gelen tıkırtıların ne olduğunu anlatıyoruz. Zehirli mi, ısırır mı, yemeğe düşerse ne olur sorularının cevabını ve Salmonella konusunda alınacak basit önlemleri de konuşuyoruz.\n\nEvde ev kertenkelesi görürsem ne yapmalıyım, onu öldürmeden nasıl dışarı çıkarırım, evime girmesini nasıl önlerim diye merak ediyorsan, bardak-karton yönteminden sineklik ve sıcak tonlu ampul önerisine kadar pratik bilgiler de videoda.",
   "yorum_sorusu": "Senin oralarda ona ne diyorlar? Evinin duvarında hiç gördün mü? Yorumlarda konuşalım.",
   "kaynaklar": [
     "Animal Diversity Web – Hemidactylus turcicus: animaldiversity.org/accounts/Hemidactylus_turcicus",
-    "The Reptile Database – Hemidactylus turcicus: reptile-database.reptarium.cz",
+    "The Reptile Database – Hemidactylus turcicus: reptile-database.reptarium.cz/species?genus=Hemidactylus&species=turcicus",
     "CDC – Reptiles and Amphibians (Salmonella): cdc.gov/healthy-pets/about/reptiles-and-amphibians.html",
-    "Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae. PNAS 99(19). doi:10.1073/pnas.192252799",
+    "Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae (Tokay gekosu üzerinde). PNAS 99(19). doi:10.1073/pnas.192252799",
     "Yıldız, M.Z. ve ark. (2007). Hemidactylus turcicus'un Anadolu'daki yeni kayıtları. North-Western Journal of Zoology 3(1)",
-    "Bülbül, U., Koç, H., Zaman, Ş. (2020). Hemidactylus turcicus'un Türkiye Karadeniz kıyısındaki yeni kayıtları. Russian Journal of Herpetology",
-    "Kotsakiozi, P. ve ark. (2018). Kotschy gekosu (Mediodactylus kotschyi) türler kompleksinin sistematiği. Molecular Phylogenetics and Evolution"
+    "Bülbül, U. ve ark. (2020). Hemidactylus turcicus'un Türkiye Karadeniz kıyısındaki yeni kayıtları. Russian Journal of Herpetology 27(5)",
+    "Kotsakiozi, P. ve ark. (2018). Kotschy gekosunda (Mediodactylus kotschyi) çok lokuslu filogeni ve gizli türler. Molecular Phylogenetics and Evolution 125"
   ],
   "etiketler": [
     "ev kertenkelesi",
@@ -74,7 +74,7 @@
           "yazi": "Hayır. Ev kertenkelesinin zehri yok."
         },
         {
-          "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa nadiren ısırır, küçük dişleri ciddi bir yara açmaz."
+          "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa kendini savunmak için ısırabilir."
         },
         {
           "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez."
@@ -83,13 +83,13 @@
           "yazi": "Ama burada bilmen gereken önemli bir gerçek var."
         },
         {
-          "yazi": "Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında ve dışkılarında Salmonella bakterisi taşıyabiliyor."
+          "yazi": "Gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor."
         },
         {
           "yazi": "Yani asıl mesele zehir değil, temizlik."
         },
         {
-          "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak, yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor."
+          "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yememek, yüzeyi de sabunla iyice temizleyip gerekirse dezenfekte etmek en güvenlisi."
         },
         {
           "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi."
@@ -170,7 +170,7 @@
           "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor."
         },
         {
-          "yazi": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir."
+          "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir."
         }
       ]
     },
@@ -215,7 +215,7 @@
           "yazi": "Kuyruğunda koyu ve açık halkalar sıralanıyor."
         },
         {
-          "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor."
+          "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de en çok Ege ve Akdeniz kıyılarında görülüyor, diğer kıyılarda ve bazı iç bölgelerde daha seyrek."
         },
         {
           "yazi": "Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor."
@@ -256,7 +256,7 @@
           "ses": "Bir de kayalarda ve taş duvarlarda yaşayan, Koçi gekosu grubundan daha ince yapılı gekolar var."
         },
         {
-          "yazi": "Onların parmaklarında yapışkan pedler yok; ince, ortasından kıvrık parmaklarıyla pürüzlü yüzeylere tutunuyorlar."
+          "yazi": "Onların parmakları ince ve ev kertenkelesininkinden farklı; daha çok pürüzlü taş yüzeylerde yaşıyorlar."
         },
         {
           "yazi": "Onlar da zehirsiz ve onlar da birer böcek avcısı."
@@ -288,7 +288,7 @@
           "yazi": "Evine girmesini istemiyorsan pencerelere sineklik tak, kapı altlarındaki boşlukları kapat."
         },
         {
-          "yazi": "Dış lambalarda sarı ışıklı ampuller kullanmak, böcekleri ve dolayısıyla kertenkeleleri daha az çekebilir."
+          "yazi": "Dış lambalarda sıcak tonlu, sarımsı ışık veren ampuller böcekleri daha az çekebilir; böcek azalınca onları avlayan kertenkele de daha az gelebilir."
         },
         {
           "yazi": "Balkonda ya da bahçede ona dokunmazsan, geceleri küçük sinekleri ve güveleri avlamaya devam eder."
@@ -299,7 +299,7 @@
       "ad": "Kapanış",
       "cumleler": [
         {
-          "yazi": "Ev kertenkelesi zehirli değil; hijyene dikkat edersen sana bir zararı da yok."
+          "yazi": "Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor."
         },
         {
           "yazi": "Sadece ışığın yanında sessizce nöbet tutan küçük bir avcı."

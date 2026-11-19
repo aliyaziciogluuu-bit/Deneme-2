@@ -43,3 +43,4 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 
 Onaydan sonra ortaya çıkan hatalar denetçinin karnesine yazılır.
 - 03-kirpi: Bilgi kontrolcüsü yanlış telefon numarası (Alo 174, gıda şikâyet hattı) önerdi, kabul edildi; yarasa kontrolünde yakalandı, video yeniden üretildi (ofis öncesi dönem)
+- 02-ev-kertenkelesi: Ofis öncesi bilgi kontrolü kaçırdı: Salmonella tür adıyla kanıtsız, ısırık cümlesi kaynaksız, 'zararı yok' abartısı, dağılım abartısı; Shorts 3'te risk grubu uyarısı düşmüştü (19 Kasım ofis kontrolünde yakalandı, video yayından önce düzeltildi)

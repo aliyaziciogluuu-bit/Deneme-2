@@ -1,7 +1,7 @@
 000 fark=0 | Duvardaki bu kertenkele yemeğe düşerse zehirler mi? || Duvardaki bu kertenkele yemeğe düşerse zehirler mi?
 001 fark=0 | Hayır. Ev kertenkelesinin zehri yok. || Hayır, ev kerten kelesinin zehri yok.
 002 fark=0 | Yemeğe düşen bir kertenkele, yemeğe zehir bulaştırmaz. || Yemeğe düşen bir kertenkele yemeğe zehir bulaştırmaz.
-003 fark=0 | Ama pek çok sürüngen gibi, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor. || Ama pek çok sürüngen gibi vücudunda ve dışkısında salmonella bakterisi taşıyabiliyor.
+003 fark=0 | Ama gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor. || Ama gekolar dahil pek çok sürüngen, vücudunda ve dışkısında salmonella bakterisi taşıyabiliyor.
 004 fark=0 | Yani asıl mesele zehir değil, temizlik. || Yani asıl mesele zehir değil, temizlik.
-005 fark=1 | Üzerine kertenkele düşen yiyeceği at, yüzeyi temizleyip dezenfekte et. || Üzerine kertenkele düşen yiyeceği at, yüzeyi temizleyip dezenfekt et.
-006 fark=0 | Ona dokunduysan ellerini yıka. Tam videosu kanalımızda. || Ona dokunduysan ellerini yıka. Tam videosu kanalımızda.
+005 fark=0 | Üzerine kertenkele düşen yiyeceği yeme, yüzeyi de sabunla iyice temizle. || Üzerine kertenkele düşen yiyeceği yeme, yüzeyi de sabunla iyice temizle.
+006 fark=0 | Ona dokunduysan ellerini yıka; küçük çocuklar ve bağışıklığı zayıf olanlar ona hiç dokunmasın. Tam videosu kanalımızda. || Ona dokunduysan ellerini yıka. Küçük çocuklar ve bağışıklığı zayıf olanlar ona hiç dokunmasın. Tam videosu kanalımızda.

@@ -35,385 +35,389 @@ Gelelim en çok merak edilen soruya: yemeğe düşerse zehirler mi?
 Hayır. Ev kertenkelesinin zehri yok.
 
 10
-00:00:33,700 --> 00:00:37,077
-İnsana saldırmaz; yakalanmaya çalışılırsa nadiren
+00:00:33,700 --> 00:00:36,492
+İnsana saldırmaz; yakalanmaya çalışılırsa
 
 11
-00:00:37,077 --> 00:00:40,285
-ısırır, küçük dişleri ciddi bir yara açmaz.
+00:00:36,492 --> 00:00:38,985
+kendini savunmak için ısırabilir.
 
 12
-00:00:40,390 --> 00:00:43,015
+00:00:39,090 --> 00:00:41,715
 Yemeğe düşen bir kertenkele, yemeği zehirlemez.
 
 13
-00:00:43,120 --> 00:00:45,605
+00:00:41,820 --> 00:00:44,305
 Ama burada bilmen gereken önemli bir gerçek var.
 
 14
-00:00:45,710 --> 00:00:48,616
-Pek çok sürüngen gibi ev kertenkeleleri de vücutlarında
+00:00:44,410 --> 00:00:47,500
+Gekolar dahil pek çok sürüngen, vücudunda ve
 
 15
-00:00:48,616 --> 00:00:51,555
-ve dışkılarında Salmonella bakterisi taşıyabiliyor.
+00:00:47,500 --> 00:00:50,975
+dışkısında Salmonella bakterisi taşıyabiliyor.
 
 16
-00:00:51,660 --> 00:00:54,805
+00:00:51,080 --> 00:00:54,225
 Yani asıl mesele zehir değil, temizlik.
 
 17
-00:00:54,910 --> 00:00:58,743
-Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği atmak,
+00:00:54,330 --> 00:00:58,819
+Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yememek,
 
 18
-00:00:58,743 --> 00:01:03,315
-yüzeyi önce sabunlu suyla temizleyip sonra dezenfekte etmek gerekiyor.
+00:00:58,819 --> 00:01:01,204
+yüzeyi de sabunla iyice temizleyip
 
 19
-00:01:03,420 --> 00:01:07,385
-Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş
+00:01:01,204 --> 00:01:04,255
+gerekirse dezenfekte etmek en güvenlisi.
 
 20
-00:01:07,385 --> 00:01:09,533
-yaş üstündekilerin ve bağışıklığı zayıf
+00:01:04,360 --> 00:01:08,325
+Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş
 
 21
-00:01:09,533 --> 00:01:11,705
-olanların hiç dokunmaması daha iyi.
+00:01:08,325 --> 00:01:10,473
+yaş üstündekilerin ve bağışıklığı zayıf
 
 22
-00:01:11,810 --> 00:01:14,455
-Yiyecekleri açıkta bırakmamak da en basit önlem.
+00:01:10,473 --> 00:01:12,645
+olanların hiç dokunmaması daha iyi.
 
 23
-00:01:14,560 --> 00:01:18,012
-Ama bu küçük komşunun asıl şaşırtıcı yanı başka:
+00:01:12,750 --> 00:01:15,395
+Yiyecekleri açıkta bırakmamak da en basit önlem.
 
 24
-00:01:18,012 --> 00:01:22,650
-tavanda baş aşağı yürüyebiliyor ve gözünü diliyle temizliyor.
+00:01:15,500 --> 00:01:18,952
+Ama bu küçük komşunun asıl şaşırtıcı yanı başka:
 
 25
-00:01:23,250 --> 00:01:25,800
-Peki bu küçük hayvan kaygan bir camda,
+00:01:18,952 --> 00:01:23,590
+tavanda baş aşağı yürüyebiliyor ve gözünü diliyle temizliyor.
 
 26
-00:01:25,800 --> 00:01:28,595
-hatta tavanda baş aşağı nasıl yürüyor?
+00:01:24,190 --> 00:01:26,740
+Peki bu küçük hayvan kaygan bir camda,
 
 27
-00:01:28,700 --> 00:01:30,665
-Cevap parmaklarında saklı.
+00:01:26,740 --> 00:01:29,535
+hatta tavanda baş aşağı nasıl yürüyor?
 
 28
-00:01:30,770 --> 00:01:35,175
-Geko parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.
+00:01:29,640 --> 00:01:31,605
+Cevap parmaklarında saklı.
 
 29
-00:01:35,280 --> 00:01:39,745
-Bu pedler, gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.
+00:01:31,710 --> 00:01:36,115
+Geko parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.
 
 30
-00:01:39,850 --> 00:01:43,815
-Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.
+00:01:36,220 --> 00:01:40,685
+Bu pedler, gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.
 
 31
-00:01:43,920 --> 00:01:46,184
-Bu uçlar yüzeye o kadar yaklaşıyor ki,
+00:01:40,790 --> 00:01:44,755
+Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.
 
 32
-00:01:46,184 --> 00:01:49,885
-moleküller arasındaki zayıf çekim kuvveti devreye giriyor.
+00:01:44,860 --> 00:01:47,124
+Bu uçlar yüzeye o kadar yaklaşıyor ki,
 
 33
-00:01:49,990 --> 00:01:52,907
-Tek tek çok zayıf olan bu çekim, milyonlarca uç
+00:01:47,124 --> 00:01:50,825
+moleküller arasındaki zayıf çekim kuvveti devreye giriyor.
 
 34
-00:01:52,907 --> 00:01:56,255
-bir araya gelince hayvanı tavanda tutmaya yetiyor.
+00:01:50,930 --> 00:01:53,847
+Tek tek çok zayıf olan bu çekim, milyonlarca uç
 
 35
-00:01:56,360 --> 00:01:59,635
-Mühendisler bu keşiften ilham alarak yapıştırıcı
+00:01:53,847 --> 00:01:57,195
+bir araya gelince hayvanı tavanda tutmaya yetiyor.
 
 36
-00:01:59,635 --> 00:02:03,570
-kullanmadan tutunan bantlar ve tutucular geliştiriyor.
+00:01:57,300 --> 00:02:00,575
+Mühendisler bu keşiften ilham alarak yapıştırıcı
 
 37
-00:02:04,170 --> 00:02:08,235
-Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok.
+00:02:00,575 --> 00:02:04,510
+kullanmadan tutunan bantlar ve tutucular geliştiriyor.
 
 38
-00:02:08,340 --> 00:02:12,185
-Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.
+00:02:05,110 --> 00:02:09,175
+Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok.
 
 39
-00:02:12,290 --> 00:02:16,395
-Hatırlarsan sağır yılan göz kırpabiliyordu; bu kertenkele kırpamıyor.
+00:02:09,280 --> 00:02:13,125
+Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.
 
 40
-00:02:16,500 --> 00:02:19,060
-Çoğu geko gibi, gözünü temizlemenin başka bir
+00:02:13,230 --> 00:02:17,335
+Hatırlarsan sağır yılan göz kırpabiliyordu; bu kertenkele kırpamıyor.
 
 41
-00:02:19,060 --> 00:02:21,870
-yolunu bulmuş: dilini çıkarıp gözünü yalıyor.
+00:02:17,440 --> 00:02:20,000
+Çoğu geko gibi, gözünü temizlemenin başka bir
 
 42
-00:02:22,470 --> 00:02:24,895
-Ev kertenkelesi bir gece hayvanı.
+00:02:20,000 --> 00:02:22,810
+yolunu bulmuş: dilini çıkarıp gözünü yalıyor.
 
 43
-00:02:25,000 --> 00:02:28,184
-Gündüzü duvar çatlaklarında, kiremit altlarında
+00:02:23,410 --> 00:02:25,835
+Ev kertenkelesi bir gece hayvanı.
 
 44
-00:02:28,184 --> 00:02:31,545
-ya da panjur arkalarında saklanarak geçiriyor.
+00:02:25,940 --> 00:02:29,124
+Gündüzü duvar çatlaklarında, kiremit altlarında
 
 45
-00:02:31,650 --> 00:02:35,455
-Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor.
+00:02:29,124 --> 00:02:32,485
+ya da panjur arkalarında saklanarak geçiriyor.
 
 46
-00:02:35,560 --> 00:02:38,244
-Çünkü lambanın etrafında dönen sinekler,
+00:02:32,590 --> 00:02:36,395
+Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor.
 
 47
-00:02:38,244 --> 00:02:41,105
-güveler ve küçük böcekler onun sofrası.
+00:02:36,500 --> 00:02:39,184
+Çünkü lambanın etrafında dönen sinekler,
 
 48
-00:02:41,210 --> 00:02:45,895
-Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.
+00:02:39,184 --> 00:02:42,045
+güveler ve küçük böcekler onun sofrası.
 
 49
-00:02:46,000 --> 00:02:50,905
-Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.
+00:02:42,150 --> 00:02:46,835
+Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.
 
 50
-00:02:51,010 --> 00:02:53,514
-Yani onu mutfak lambanın yanında görüyorsan,
+00:02:46,940 --> 00:02:51,845
+Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.
 
 51
-00:02:53,514 --> 00:02:56,780
-orada senin istemediğin misafirleri avlıyor demektir.
+00:02:51,950 --> 00:02:54,849
+Yani onu mutfak lambasının yanında görüyorsan,
 
 52
-00:02:57,380 --> 00:03:00,665
-Geceleri duvardan gelen kısa tıkırtılar duydun mu?
+00:02:54,849 --> 00:02:58,440
+orada senin istemediğin misafirleri avlıyor demektir.
 
 53
-00:03:00,770 --> 00:03:03,999
-Kertenkelelerin çoğu sessizdir, ama gekolar ses
+00:02:59,040 --> 00:03:02,325
+Geceleri duvardan gelen kısa tıkırtılar duydun mu?
 
 54
-00:03:03,999 --> 00:03:07,335
-çıkarabilen az sayıdaki kertenkele grubundan.
+00:03:02,430 --> 00:03:05,659
+Kertenkelelerin çoğu sessizdir, ama gekolar ses
 
 55
-00:03:07,440 --> 00:03:11,185
-Erkek ev kertenkeleleri kısa tıkırtılarla sesleniyor.
+00:03:05,659 --> 00:03:08,995
+çıkarabilen az sayıdaki kertenkele grubundan.
 
 56
-00:03:11,290 --> 00:03:15,355
-Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için.
+00:03:09,100 --> 00:03:12,845
+Erkek ev kertenkeleleri kısa tıkırtılarla sesleniyor.
 
 57
-00:03:15,460 --> 00:03:18,091
-Yakalandığında ya da başka bir kertenkeleyle
+00:03:12,950 --> 00:03:17,015
+Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için.
 
 58
-00:03:18,091 --> 00:03:21,270
-çekiştiğinde ince bir cıyaklama da çıkarabiliyor.
+00:03:17,120 --> 00:03:19,864
+Yakalandığında ya da başka bir kertenkeleyle
 
 59
-00:03:21,870 --> 00:03:25,315
-Bilim dünyasındaki adı Hemidactylus turcicus.
+00:03:19,864 --> 00:03:23,170
+çekiştiğinde ince bir cıyaklama da çıkarabiliyor.
 
 60
-00:03:25,420 --> 00:03:28,200
-Adındaki turcicus kelimesi Türk anlamına geliyor;
+00:03:23,770 --> 00:03:27,215
+Bilim dünyasındaki adı Hemidactylus turcicus.
 
 61
-00:03:28,200 --> 00:03:31,225
-İngilizcede bu yüzden ona Türk gekosu da deniyor.
+00:03:27,320 --> 00:03:30,100
+Adındaki turcicus kelimesi Türk anlamına geliyor;
 
 62
-00:03:31,330 --> 00:03:35,255
-Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre.
+00:03:30,100 --> 00:03:33,125
+İngilizcede bu yüzden ona Türk gekosu da deniyor.
 
 63
-00:03:35,360 --> 00:03:38,517
-Derisi açık pembe ya da gri, hafif yarı saydam;
+00:03:33,230 --> 00:03:37,155
+Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre.
 
 64
-00:03:38,517 --> 00:03:40,845
-sırtında küçük kabarcıklar var.
+00:03:37,260 --> 00:03:40,417
+Derisi açık pembe ya da gri, hafif yarı saydam;
 
 65
-00:03:40,950 --> 00:03:43,895
-Kuyruğunda koyu ve açık halkalar sıralanıyor.
+00:03:40,417 --> 00:03:42,745
+sırtında küçük kabarcıklar var.
 
 66
-00:03:44,000 --> 00:03:47,522
-Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de kıyı
+00:03:42,850 --> 00:03:45,795
+Kuyruğunda koyu ve açık halkalar sıralanıyor.
 
 67
-00:03:47,522 --> 00:03:51,545
-şeridinin büyük bölümünde, bazı iç bölgelerde de görülüyor.
+00:03:45,900 --> 00:03:51,144
+Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de en çok Ege ve Akdeniz
 
 68
-00:03:51,650 --> 00:03:55,201
-Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında,
+00:03:51,144 --> 00:03:56,705
+kıyılarında görülüyor, diğer kıyılarda ve bazı iç bölgelerde daha seyrek.
 
 69
-00:03:55,201 --> 00:03:58,875
-taş duvarlarda ve sokak lambalarının çevresinde yaşıyor.
+00:03:56,810 --> 00:04:00,361
+Özellikle Ege ve Akdeniz kıyılarında evlerin duvarlarında,
 
 70
-00:03:58,980 --> 00:04:01,680
-Gemilerle ve yüklerle taşınarak bugün Amerika'dan
+00:04:00,361 --> 00:04:04,035
+taş duvarlarda ve sokak lambalarının çevresinde yaşıyor.
 
 71
-00:04:01,680 --> 00:04:05,070
-Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda.
+00:04:04,140 --> 00:04:06,840
+Gemilerle ve yüklerle taşınarak bugün Amerika'dan
 
 72
-00:04:05,670 --> 00:04:09,015
-Ev kertenkelesi de tehlikede kuyruğunu koparabiliyor.
+00:04:06,840 --> 00:04:10,230
+Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda.
 
 73
-00:04:09,120 --> 00:04:12,705
-Kopan kuyruk bir süre kıvranarak yırtıcının dikkatini dağıtıyor.
+00:04:10,830 --> 00:04:14,175
+Ev kertenkelesi de tehlikede kuyruğunu koparabiliyor.
 
 74
-00:04:12,810 --> 00:04:17,515
-Yeni kuyruk zamanla çıkıyor, ama rengi ve deseni eskisinden farklı oluyor.
+00:04:14,280 --> 00:04:17,865
+Kopan kuyruk bir süre kıvranarak yırtıcının dikkatini dağıtıyor.
 
 75
-00:04:17,620 --> 00:04:20,845
-Dişiler bir seferde genellikle iki yumurta bırakıyor.
+00:04:17,970 --> 00:04:22,675
+Yeni kuyruk zamanla çıkıyor, ama rengi ve deseni eskisinden farklı oluyor.
 
 76
-00:04:20,950 --> 00:04:22,663
-Yumurtaların kabuğu sert;
+00:04:22,780 --> 00:04:26,005
+Dişiler bir seferde genellikle iki yumurta bırakıyor.
 
 77
-00:04:22,663 --> 00:04:26,820
-dişi onları duvar çatlaklarına ve taş aralarına saklıyor.
+00:04:26,110 --> 00:04:27,823
+Yumurtaların kabuğu sert;
 
 78
-00:04:27,420 --> 00:04:30,725
-Türkiye'de duvarlarda görebileceğin tek geko bu değil.
+00:04:27,823 --> 00:04:31,980
+dişi onları duvar çatlaklarına ve taş aralarına saklıyor.
 
 79
-00:04:30,830 --> 00:04:33,454
-Bir de kayalarda ve taş duvarlarda yaşayan,
+00:04:32,580 --> 00:04:35,885
+Türkiye'de duvarlarda görebileceğin tek geko bu değil.
 
 80
-00:04:33,454 --> 00:04:36,995
-Kotschy gekosu grubundan daha ince yapılı gekolar var.
+00:04:35,990 --> 00:04:38,614
+Bir de kayalarda ve taş duvarlarda yaşayan,
 
 81
-00:04:37,100 --> 00:04:39,817
-Onların parmaklarında yapışkan pedler yok;
+00:04:38,614 --> 00:04:42,155
+Kotschy gekosu grubundan daha ince yapılı gekolar var.
 
 82
-00:04:39,817 --> 00:04:44,525
-ince, ortasından kıvrık parmaklarıyla pürüzlü yüzeylere tutunuyorlar.
+00:04:42,260 --> 00:04:46,274
+Onların parmakları ince ve ev kertenkelesininkinden farklı;
 
 83
-00:04:44,630 --> 00:04:48,220
-Onlar da zehirsiz ve onlar da birer böcek avcısı.
+00:04:46,274 --> 00:04:49,445
+daha çok pürüzlü taş yüzeylerde yaşıyorlar.
 
 84
-00:04:48,820 --> 00:04:52,605
-Peki evinde bir ev kertenkelesi görürsen ne yapmalısın?
+00:04:49,550 --> 00:04:53,140
+Onlar da zehirsiz ve onlar da birer böcek avcısı.
 
 85
-00:04:52,710 --> 00:04:56,304
-Önce şunu bil: onu sık görüyorsan, evinde ya da evinin
+00:04:53,740 --> 00:04:57,525
+Peki evinde bir ev kertenkelesi görürsen ne yapmalısın?
 
 86
-00:04:56,304 --> 00:05:00,010
-çevresinde ona yiyecek olacak böcekler var demektir.
+00:04:57,630 --> 00:05:01,224
+Önce şunu bil: onu sık görüyorsan, evinde ya da evinin
 
 87
-00:05:00,115 --> 00:05:04,160
-Onu ezmek ya da ilaçlamak yerine, dışarı çıkarmak çok daha kolay.
+00:05:01,224 --> 00:05:04,930
+çevresinde ona yiyecek olacak böcekler var demektir.
 
 88
-00:05:04,265 --> 00:05:07,125
-Üzerine bir bardak kapat, altına ince bir karton
+00:05:05,035 --> 00:05:09,080
+Onu ezmek ya da ilaçlamak yerine, dışarı çıkarmak çok daha kolay.
 
 89
-00:05:07,125 --> 00:05:10,230
-kaydır ve onu dışarıda bir duvarın dibine bırak.
+00:05:09,185 --> 00:05:12,045
+Üzerine bir bardak kapat, altına ince bir karton
 
 90
-00:05:10,335 --> 00:05:12,140
-Sonra ellerini sabunla yıka.
+00:05:12,045 --> 00:05:15,150
+kaydır ve onu dışarıda bir duvarın dibine bırak.
 
 91
-00:05:12,245 --> 00:05:15,535
-Onu kuyruğundan tutma; kuyruğu kopup elinde kalabilir.
+00:05:15,255 --> 00:05:17,060
+Sonra ellerini sabunla yıka.
 
 92
-00:05:15,640 --> 00:05:18,868
-Evine girmesini istemiyorsan pencerelere sineklik tak,
+00:05:17,165 --> 00:05:20,455
+Onu kuyruğundan tutma; kuyruğu kopup elinde kalabilir.
 
 93
-00:05:18,868 --> 00:05:21,205
-kapı altlarındaki boşlukları kapat.
+00:05:20,560 --> 00:05:23,788
+Evine girmesini istemiyorsan pencerelere sineklik tak,
 
 94
-00:05:21,310 --> 00:05:24,389
-Dış lambalarda sarı ışıklı ampuller kullanmak,
+00:05:23,788 --> 00:05:26,125
+kapı altlarındaki boşlukları kapat.
 
 95
-00:05:24,389 --> 00:05:28,515
-böcekleri ve dolayısıyla kertenkeleleri daha az çekebilir.
+00:05:26,230 --> 00:05:31,926
+Dış lambalarda sıcak tonlu, sarımsı ışık veren ampuller böcekleri daha az çekebilir;
 
 96
-00:05:28,620 --> 00:05:30,798
-Balkonda ya da bahçede ona dokunmazsan,
+00:05:31,926 --> 00:05:36,375
+böcek azalınca onları avlayan kertenkele de daha az gelebilir.
 
 97
-00:05:30,798 --> 00:05:34,230
-geceleri küçük sinekleri ve güveleri avlamaya devam eder.
+00:05:36,480 --> 00:05:38,658
+Balkonda ya da bahçede ona dokunmazsan,
 
 98
-00:05:34,830 --> 00:05:36,741
-Ev kertenkelesi zehirli değil;
+00:05:38,658 --> 00:05:42,090
+geceleri küçük sinekleri ve güveleri avlamaya devam eder.
 
 99
-00:05:36,741 --> 00:05:39,915
-hijyene dikkat edersen sana bir zararı da yok.
+00:05:42,690 --> 00:05:44,723
+Ev kertenkelesi zehirli değil;
 
 100
-00:05:40,020 --> 00:05:43,985
-Sadece ışığın yanında sessizce nöbet tutan küçük bir avcı.
+00:05:44,723 --> 00:05:48,355
+temizliğe dikkat edersen ondan korkman gerekmiyor.
 
 101
-00:05:44,090 --> 00:05:47,015
-Bir dahaki sefere onu duvarda gördüğünde,
+00:05:48,460 --> 00:05:52,425
+Sadece ışığın yanında sessizce nöbet tutan küçük bir avcı.
 
 102
-00:05:47,015 --> 00:05:49,900
-belki ona biraz daha farklı bakarsın.
+00:05:52,530 --> 00:05:55,455
+Bir dahaki sefere onu duvarda gördüğünde,
 
 103
-00:05:50,005 --> 00:05:53,670
-Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz.
+00:05:55,455 --> 00:05:58,340
+belki ona biraz daha farklı bakarsın.
 
 104
-00:05:53,775 --> 00:05:57,323
-Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
+00:05:58,445 --> 00:06:02,110
+Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz.
 
 105
-00:05:57,323 --> 00:06:00,805
+00:06:02,215 --> 00:06:05,763
+Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
+
+106
+00:06:05,763 --> 00:06:09,245
 komşuları anlatmaya devam edeceğiz. Görüşmek üzere.
