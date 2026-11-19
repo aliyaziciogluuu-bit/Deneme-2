@@ -148,21 +148,6 @@
       0.5
     ]
   },
-  "ates_klip": {
-    "dosya": "ates_klip.mp4",
-    "kaynak": "03-christmas-cabin",
-    "karisik": true,
-    "kutu": [
-      12,
-      644,
-      447,
-      771
-    ],
-    "parlak_esik": [
-      0.38,
-      0.62
-    ]
-  },
   "shorts": {
     "bas": 1200,
     "son": 380,
@@ -201,5 +186,6 @@
     ],
     "genlik": 0.7
   },
-  "gorsel_4k": "sahne_4k.png"
+  "gorsel_4k": "sahne_4k.png",
+  "kapak_yazi": "sag_ust"
 }
