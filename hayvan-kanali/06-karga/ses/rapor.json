@@ -434,5 +434,13 @@
   "sure": 4.64,
   "uygun": false,
   "tek_basina": true
+ },
+ "006": {
+  "yazi": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya neden taş atmaman gerektiğini göreceksin.",
+  "duyulan": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya neden taş atmaman gerektiğini göreceksin.",
+  "hata": 0,
+  "sure": 6.06,
+  "uygun": true,
+  "tek_basina": true
  }
 }
