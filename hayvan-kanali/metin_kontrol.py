@@ -9,7 +9,8 @@ Denetimler (her biri dersler defterindeki bir olaydan doğdu):
   UYARI : 18 kelimeden uzun cümle · art arda aynı kelimeyle başlayan cümle (Ama… Ama…) · art arda iki cümlede aynı
           özel ad ya da içerik kelimesi · ilk soru 10 sn'den geç · ilk 90 sn'de ansiklopedi kalıbı (bilimsel ad,
           santimetre, metre) · Shorts ilk cümlesi soru · küçük resim alt yazısı başlıkta geçiyor · aynı cümlede
-          birbirine benzeyen iki özel ad (Athena/Atina)
+          birbirine benzeyen iki özel ad (Athena/Atina) · kaynak künyesinde DOI/bağlantı yok ya da yabancı makalenin
+          başlığı Türkçeye çevrilmiş (yarasa, baykuş: uydurma başlık)
 Süreler ses/rapor.json'dan alınır; yoksa saniyede 2,3 kelime varsayılır.
 """
 import json
@@ -84,6 +85,11 @@ def uzun_video(klasor, sen):
             onceki, i = c, i + 1
     if ilk_soru is None or ilk_soru > 10:
         ekle("UYARI", "uzun giriş", f"ilk soru {'yok' if ilk_soru is None else f'{ilk_soru:.0f}. saniyede'} (hedef ilk 10 sn)")
+    for j, kay in enumerate(sen.get("kaynaklar", [])):
+        if re.search(r"\(\d{4}\)", kay) and not re.search(r"(doi:|doi\.org|https?://|\b[\w-]+\.(org|gov|com|edu|tr|int|uk|cz)\b)", kay):
+            ekle("UYARI", f"kaynak {j + 1}", "makale künyesinde DOI ya da bağlantı yok; özgün başlıkla, DOI'yle yaz")
+        if re.search(r"\(\d{4}\)\. [^.]*[çğıöşüÇĞİÖŞÜ]", kay) and re.search(r"(Journal|Biology|PNAS|Science|Zoology|Gerontology|Bioinspiration|Evolution)", kay):
+            ekle("UYARI", f"kaynak {j + 1}", "yabancı dergi makalesinin başlığı Türkçe görünüyor; künyeye özgün başlık yazılır (uydurma çeviri olmasın)")
     k = sen.get("kapak", {})
     if k.get("kucuk") and k["kucuk"].lower().strip("!?.") in sen.get("baslik", "").lower():
         ekle("UYARI", "küçük resim", f"alt yazı \"{k['kucuk']}\" başlıkta geçiyor; yeni bir vaat taşımalı")

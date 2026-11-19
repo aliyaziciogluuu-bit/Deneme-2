@@ -216,3 +216,21 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
   - Her yeniden üretimden sonra son kontrol baştan çalıştırılır.
   - Teslim dosyaları `cmp` ile kaynakla karşılaştırılır.
   - Not: altyazı ve yükleme metni videodan önce yazılır, bu tasarım gereğidir. Zaman uyumu son kontrolde test edilir.
+
+## Yayın öncesi yeniden denetimden gelen dersler (19 Kasım)
+
+- **03 kirpi ve 04 yarasa (bilgi kontrolcüsü RET, ikisi de doğruluk 6):** Ofis öncesi videolarda aynı kusurlar tekrarlandı.
+  - Avrupa kirpisinin boy ve diken sayısı Türkiye türlerine genellendi.
+  - Dağılım abartıldı.
+  - "En büyük tehlike" ve "çok azı" gibi kaynaksız nitelemeler kullanıldı.
+  - Yasal koruma cümleleri doğrulanmamış eski bir künyeye dayanıyordu.
+  - Yabancı makalelerin başlıkları Türkçeye çevrilip künyeye uydurma başlık olarak yazıldı.
+  - Kapanışta genelleme vardı ("yarasa kan emmez"; oysa üç tür kan emer).
+  - **Kural:**
+    - Künye makale sayfasından kopyalanır: özgün başlık, yazarlar, yıl, dergi, cilt, DOI. Türkçe "kısa ad" yazılmaz; `metin_kontrol.py` artık bunu uyarıyor.
+    - Yabancı ülkede yapılmış bir çalışmanın sayısı, "Avrupa'daki akrabasında…" denmeden Türkiye türüne söylenmez.
+    - Hukuki cümle (koruma, yasak) ancak güncel resmî karar metni açılıp ilgili satır görülürse kesin yazılır. Görülmezse "korunması gereken yaban hayvanı" denir.
+  - Sorumlu: senarist, bilgi kontrolcüsü.
+- **04 yarasa (güvenlik):** Temas şüphesi varken "yarasayı dışarı bırak" adımı sağlık kuruluşuna danışmadan geliyordu.
+  - **Kural:** Bir güvenlik akışında sıra önemlidir. Sağlık kararı gerektiren durumda önce "danış", sonra "serbest bırak" gelir. Çocuk ve evcil hayvan uyarısı eklenir.
+  - Sorumlu: senarist, bilgi kontrolcüsü.
