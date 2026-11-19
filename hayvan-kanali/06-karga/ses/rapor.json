@@ -458,5 +458,13 @@
   "sure": 4.22,
   "uygun": true,
   "tek_basina": true
+ },
+ "029": {
+  "yazi": "Küçük karga adı gibi küçük; ensesi gri.",
+  "duyulan": "Küçük karga, adı gibi küçük, ensesi gri.",
+  "hata": 0,
+  "sure": 3.58,
+  "uygun": true,
+  "tek_basina": true
  }
 }
