@@ -1,320 +1,320 @@
 {
-  "baslik": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Zarar Verebilirsin)",
-  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları bilerek kullanılmadı.",
-  "aciklama": "Bahçende bir kirpi gördün ve önüne bir kap süt koydun. Çok iyi niyetli bir hareket, ama kirpiler sütü sindiremez. Süt ishale, ishal de sıvı kaybına yol açabilir; zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.\n\nBu videoda kirpiye neden süt ve ekmek verilmemesi gerektiğini, onun yerine nasıl yardım edebileceğini anlatıyoruz. Türkiye'de yaşayan üç kirpi türünü (akgöğüslü kirpi, Balkan kirpisi ve uzun kulaklı kirpi), dikenlerinin sırrını, sırtında elma taşıdığı efsanesinin nereden çıktığını, vücudunu köpüklü salyayla kaplama davranışını ve kış uykusunda vücudunda neler olduğunu keşfediyoruz.\n\nGündüz kirpi görürsem ne yapmalıyım, kirpiye ne verilir, bahçeme kirpi nasıl gelir, kirpiye nasıl yardım ederim diye merak ediyorsan, sığ su kabından bahçe çitindeki küçük geçide kadar pratik öneriler de videoda. Unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.",
-  "yorum_sorusu": "Senin oralarda kirpiyle ilgili hangi inanışlar anlatılıyor? Bahçende hiç kirpi gördün mü? Yorumlarda konuşalım.",
-  "kaynaklar": [
-    "Hedgehog Street (BHPS ve PTES) – Kirpi biyolojisi: dikenler, beslenme, yılan zehrine direnç: hedgehogstreet.org/about-hedgehogs/hedgehog-biology",
-    "Hedgehog Street (BHPS ve PTES) – Kirpinin tarihi ve efsaneleri: hedgehogstreet.org/about-hedgehogs/hedgehogs-history",
-    "Hedgehog Street (BHPS ve PTES) – Kış uykusu: hedgehogstreet.org/about-hedgehogs/hibernation",
-    "Hedgehog Street (BHPS ve PTES) – Kirpiye ne verilir: hedgehogstreet.org/help-hedgehogs/feed-hedgehogs",
-    "Hedgehog Street (BHPS ve PTES) – Bahçeni komşu bahçelere bağla (on üç santimetrelik geçit): hedgehogstreet.org/help-hedgehogs/link-your-garden",
-    "Uluturk ve Coskun (2012) – Diyarbakır kirpileri, Erinaceus concolor ve Hemiechinus auritus: dergipark.org.tr/tr/pub/ksudobil/issue/22831/243746",
-    "Özen (2005) – Türkiye'de Erinaceus concolor'un yayılışı: dergipark.org.tr/en/pub/dpufbed/article/408590",
-    "Wikipedia – European hedgehog (beslenme): en.wikipedia.org/wiki/European_hedgehog",
-    "Wikipedia – Hedgehog (dikenler, yılan zehri, kendini yağlama, trafik kazaları): en.wikipedia.org/wiki/Hedgehog",
-    "Wikipedia – Hedgehogs in culture (Plinius ve meyve inancı): en.wikipedia.org/wiki/Hedgehogs_in_culture"
+ "baslik": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Zarar Verebilirsin)",
+ "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları bilerek kullanılmadı.",
+ "aciklama": "Bahçende bir kirpi gördün ve önüne bir kap süt koydun. Çok iyi niyetli bir hareket, ama kirpiler sütü sindiremez. Süt ishale, ishal de sıvı kaybına yol açabilir; zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir.\n\nBu videoda kirpiye neden süt ve ekmek verilmemesi gerektiğini, onun yerine nasıl yardım edebileceğini anlatıyoruz. Türkiye'de yaşayan üç kirpi türünü (akgöğüslü kirpi, Balkan kirpisi ve uzun kulaklı kirpi), dikenlerinin sırrını, sırtında elma taşıdığı efsanesinin nereden çıktığını, vücudunu köpüklü salyayla kaplama davranışını ve kış uykusunda vücudunda neler olduğunu keşfediyoruz.\n\nGündüz kirpi görürsem ne yapmalıyım, kirpiye ne verilir, bahçeme kirpi nasıl gelir, kirpiye nasıl yardım ederim diye merak ediyorsan, sığ su kabından bahçe çitindeki küçük geçide kadar pratik öneriler de videoda. Unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.",
+ "yorum_sorusu": "Senin oralarda kirpiyle ilgili hangi inanışlar anlatılıyor? Bahçende hiç kirpi gördün mü? Yorumlarda konuşalım.",
+ "kaynaklar": [
+  "Hedgehog Street (BHPS ve PTES) – Kirpi biyolojisi: dikenler, keratin, topa dönme: hedgehogstreet.org/about-hedgehogs/hedgehog-biology",
+  "Hedgehog Street (BHPS ve PTES) – Kirpinin tarihi ve efsaneleri: hedgehogstreet.org/about-hedgehogs/hedgehogs-history",
+  "Hedgehog Street (BHPS ve PTES) – Kış uykusu: hedgehogstreet.org/about-hedgehogs/hibernation",
+  "Hedgehog Street (BHPS ve PTES) – Kirpiye ne verilir: hedgehogstreet.org/help-hedgehogs/feed-hedgehogs",
+  "Hedgehog Street (BHPS ve PTES) – Bahçeni komşu bahçelere bağla (on üç santimetrelik geçit): hedgehogstreet.org/help-hedgehogs/link-your-garden",
+  "Uluturk ve Coskun (2012) – Diyarbakır Yöresi Erinaceus concolor Martin, 1838 ve Hemiechinus auritus (Gmelin, 1770) Kirpileri Üzerine Karşılaştırmalı Morfolojik ve Karyolojik Bir Çalışma. KSÜ Doğa Bilimleri Dergisi 14(4): 46-52: dergipark.org.tr/tr/pub/ksudobil/issue/22831/243746",
+  "A. S. Özen (2005) – Türkiye Erinaceus concolor Martin, 1838 (Mammalia: Insectivora) Türünün Yayılışına ve Taksonomisine Katkılar. Dumlupınar Üniversitesi Fen Bilimleri Enstitüsü Dergisi 8: dergipark.org.tr/en/pub/dpufbed/article/408590",
+  "Wikipedia – European hedgehog (beslenme): en.wikipedia.org/wiki/European_hedgehog",
+  "Wikipedia – Hedgehog (dikenler, yılan zehri, köpüklü salya, trafik kazaları): en.wikipedia.org/wiki/Hedgehog",
+  "Wikipedia – Hedgehogs in culture (Plinius ve meyve inancı): en.wikipedia.org/wiki/Hedgehogs_in_culture"
+ ],
+ "etiketler": [
+  "kirpi",
+  "kirpiye süt verilir mi",
+  "kirpi ne yer",
+  "kirpi beslemek",
+  "bahçede kirpi",
+  "akgöğüslü kirpi",
+  "kulaklı kirpi",
+  "kirpi kış uykusu",
+  "yaban hayatı",
+  "doğa",
+  "bahçe",
+  "Avludaki Komşular"
+ ],
+ "kapak": {
+  "gorsel": "kapak",
+  "buyuk": [
+   "SÜT",
+   "VERME!"
   ],
-  "etiketler": [
-    "kirpi",
-    "kirpiye süt verilir mi",
-    "kirpi ne yer",
-    "kirpi beslemek",
-    "bahçede kirpi",
-    "akgöğüslü kirpi",
-    "kulaklı kirpi",
-    "kirpi kış uykusu",
-    "yaban hayatı",
-    "doğa",
-    "bahçe",
-    "Avludaki Komşular"
-  ],
-  "kapak": {
-    "gorsel": "kapak",
-    "buyuk": [
-      "SÜT",
-      "VERME!"
-    ],
-    "kucuk": "Kirpiyi hasta eder",
-    "konum": "sol"
-  },
-  "ambiyans": {
-    "dosya": "../sesler/gece_cirit.ogg",
-    "seviye": 0.05,
-    "kaynak": ""
-  },
-  "sahneler": [
+  "kucuk": "Kirpiyi hasta eder",
+  "konum": "sol"
+ },
+ "ambiyans": {
+  "dosya": "../sesler/gece_cirit.ogg",
+  "seviye": 0.05,
+  "kaynak": ""
+ },
+ "sahneler": [
+  {
+   "ad": "Bahçedeki dikenli misafir",
+   "cumleler": [
     {
-      "ad": "Bahçedeki dikenli misafir",
-      "cumleler": [
-        {
-          "yazi": "Gece bahçede bir hışırtı duyuyorsun. El fenerini tutunca, çalıların dibinde dikenli küçük bir top görüyorsun."
-        },
-        {
-          "yazi": "Bir kirpi."
-        },
-        {
-          "yazi": "İçin ısınıyor ve aklına ilk gelen şeyi yapıyorsun: bir kaba biraz süt koyup önüne bırakıyorsun."
-        },
-        {
-          "yazi": "Ama bu iyi niyetli hareket, onu hasta edebilir."
-        },
-        {
-          "yazi": "Hatta zayıf bir kirpiyse ya da bir yavruysa, hayatını tehlikeye atabilir."
-        },
-        {
-          "yazi": "Peki neden? Ve kirpiye gerçekten nasıl yardım edebilirsin?"
-        },
-        {
-          "yazi": "Bu, bahçelerimizin dikenli gece bekçisi kirpinin hikâyesi."
-        }
-      ]
+     "yazi": "Gece bahçede bir hışırtı duyuyorsun. El fenerini tutunca, çalıların dibinde dikenli küçük bir top görüyorsun."
     },
     {
-      "ad": "Süt neden zararlı?",
-      "cumleler": [
-        {
-          "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor."
-        },
-        {
-          "yazi": "Bu şekeri parçalayan enzim, bağırsaklarında yok denecek kadar az."
-        },
-        {
-          "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor."
-        },
-        {
-          "yazi": "İshal, küçük bir hayvan için hızla susuz kalmak demek."
-        },
-        {
-          "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir."
-        },
-        {
-          "yazi": "Laktozu alınmış süt ya da bitki sütleri de bahçedeki bir kirpi için doğru seçim değil."
-        },
-        {
-          "yazi": "Ekmek de iyi bir seçim değil; karnını doyurur ama ona gereken besinleri vermez."
-        }
-      ]
+     "yazi": "Bir kirpi."
     },
     {
-      "ad": "Ona ne verilmeli?",
-      "cumleler": [
-        {
-          "yazi": "Kirpiye yardım etmek istiyorsan en iyi şey, sığ bir kapta temiz su bırakmak."
-        },
-        {
-          "yazi": "Özellikle sıcak ve kurak günlerde su bulmakta zorlanabiliyor."
-        },
-        {
-          "yazi": "Mama koymak istersen, et bazlı kedi ya da köpek maması uygun; balıklı olanlar değil."
-        },
-        {
-          "yazi": "Ama unutma: kirpi evcil bir hayvan değil."
-        },
-        {
-          "yazi": "Mama, yalnızca doğal besinin az olduğu dönemler için küçük bir destek."
-        },
-        {
-          "yazi": "Kapları sık sık yıka, suyu her gün tazele, kalan mamayı topla."
-        }
-      ]
+     "yazi": "İçin ısınıyor ve aklına ilk gelen şeyi yapıyorsun: bir kaba biraz süt koyup önüne bırakıyorsun."
     },
     {
-      "ad": "Türkiye'nin kirpileri",
-      "cumleler": [
-        {
-          "yazi": "Kirpiler, böcekçil memeliler grubundan küçük gece hayvanları."
-        },
-        {
-          "yazi": "Türkiye'de üç kirpi türü yaşıyor."
-        },
-        {
-          "yazi": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli akgöğüslü kirpi.",
-          "ses": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli ak göğüslü kirpi."
-        },
-        {
-          "yazi": "Trakya'da da onun yakın akrabası Balkan kirpisi yaşıyor."
-        },
-        {
-          "yazi": "Güneydoğu Anadolu'da, iri kulaklarıyla dikkat çeken uzun kulaklı kirpi de yaşıyor."
-        },
-        {
-          "yazi": "Üçünün de sırtı dikenlerle kaplı."
-        }
-      ]
+     "yazi": "Ama bu iyi niyetli hareket, onu hasta edebilir."
     },
     {
-      "ad": "Dikenlerin sırrı",
-      "cumleler": [
-        {
-          "yazi": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış."
-        },
-        {
-          "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış."
-        },
-        {
-          "yazi": "Zehirli değiller ve kirpi onları ok gibi fırlatamaz."
-        },
-        {
-          "yazi": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor."
-        },
-        {
-          "yazi": "Ama bu savunma, bir arabaya karşı işe yaramıyor."
-        }
-      ]
+     "yazi": "Hatta zayıf bir kirpiyse ya da bir yavruysa, hayatını tehlikeye atabilir."
     },
     {
-      "ad": "Sırtında elma taşır mı?",
-      "cumleler": [
-        {
-          "yazi": "Kirpilerle ilgili çok eski bir inanış var: sırtına meyve takıp yuvasına taşıdığı."
-        },
-        {
-          "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
-          "ses": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'un yazılarında da geçiyor."
-        },
-        {
-          "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor."
-        },
-        {
-          "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok."
-        },
-        {
-          "yazi": "Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar."
-        }
-      ]
+     "yazi": "Peki neden? Ve kirpiye gerçekten nasıl yardım edebilirsin?"
     },
     {
-      "ad": "Kirpinin menüsü",
-      "cumleler": [
-        {
-          "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var."
-        },
-        {
-          "yazi": "Özellikle sert kabuklu böcekler, beslenmesinin önemli bir bölümünü oluşturuyor."
-        },
-        {
-          "yazi": "Fırsat bulursa yerde yuva yapan kuşların yumurtalarını ve leşleri de yiyebiliyor."
-        },
-        {
-          "yazi": "Bu yüzden bahçedeki bazı zararlıları da yiyerek doğal bir denge kuruyor."
-        },
-        {
-          "yazi": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, yılan zehrine karşı kısmi bir dirençleri olduğunu gösteriyor; ama bir ısırık yine de onu ağır hasta edebilir."
-        },
-        {
-          "yazi": "Ama bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler."
-        }
-      ]
-    },
-    {
-      "ad": "Köpükle yağlanan hayvan",
-      "cumleler": [
-        {
-          "yazi": "Kirpilerin tuhaf bir davranışı daha var."
-        },
-        {
-          "yazi": "Yeni ve keskin bir koku ya da tatla karşılaştığında, ağzında köpüklü bir salya oluşturuyor."
-        },
-        {
-          "yazi": "Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor."
-        },
-        {
-          "yazi": "Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor."
-        }
-      ]
-    },
-    {
-      "ad": "Kış uykusu",
-      "cumleler": [
-        {
-          "yazi": "Özellikle soğuk bölgelerde, sonbahar sonunda kirpiler yaprak ve ot yığınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor."
-        },
-        {
-          "yazi": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre, kalp atışı dakikada yüz doksandan yirmi civarına iniyor."
-        },
-        {
-          "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor."
-        },
-        {
-          "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak. Bir kirpi bulursan onu rahatsız etme; yaprakları dikkatle eski hâline getir ve uzaklaş."
-        }
-      ]
-    },
-    {
-      "ad": "Gündüz görürsen ne yapmalısın?",
-      "cumleler": [
-        {
-          "yazi": "Kirpi bir gece hayvanı."
-        },
-        {
-          "yazi": "Gündüz ortalıkta dolaşan bir kirpi, çoğu zaman bir sorun yaşıyor demektir."
-        },
-        {
-          "yazi": "Yaz aylarında kısa süre dışarı çıkan bir anne olabilir; ama güneşte öylece yatan, sendeleyen ya da yaralı bir kirpi yardıma ihtiyaç duyuyor."
-        },
-        {
-          "yazi": "Böyle bir durumda ona süt verme, zorla yedirip içirmeye çalışma."
-        },
-        {
-          "yazi": "Eldivenle, içine havlu serilmiş, kenarları yüksek bir kutuya al."
-        },
-        {
-          "yazi": "Üşümüş görünüyorsa havluya sarılmış ılık bir su şişesi koy, ama ondan uzaklaşabileceği bir boşluk bırak."
-        },
-        {
-          "yazi": "Kutuyu sessiz bir yere koy ve ellerini iyice yıka."
-        },
-        {
-          "yazi": "Sonra bir yaban hayatı kurtarma merkezine, bir veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver."
-        }
-      ]
-    },
-    {
-      "ad": "Bahçeni kirpi dostu yap",
-      "cumleler": [
-        {
-          "yazi": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar."
-        },
-        {
-          "yazi": "Bahçelerde de çim biçme ve kenar kesme makineleri, sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor."
-        },
-        {
-          "yazi": "Kirpiler bir gecede kilometrelerce yol yürüyebiliyor."
-        },
-        {
-          "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan on üç santimetreye on üç santimetrelik bir delik, onlar için bir geçit oluyor. Bahçen kalabalık bir yola bakıyorsa deliği yola doğru açma."
-        },
-        {
-          "yazi": "Bahçenin bir köşesinde bırakılan yaprak yığını da onlara yuva oluyor."
-        },
-        {
-          "yazi": "Bahçede havuz varsa bir kenarına rampa koy; kirpiler yüzebilir ama kaygan kenarlardan çıkamayabilir."
-        },
-        {
-          "yazi": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin."
-        }
-      ]
-    },
-    {
-      "ad": "Kapanış",
-      "cumleler": [
-        {
-          "yazi": "Bir kirpi ne süt ister, ne de ekmek."
-        },
-        {
-          "yazi": "Sadece biraz su, güvenli bir köşe ve geceleri dolaşabileceği bir bahçe."
-        },
-        {
-          "yazi": "Bir dahaki sefere bahçende onu gördüğünde, süt yerine bir kap su bırak."
-        },
-        {
-          "yazi": "Senin oralarda kirpiyle ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz."
-        },
-        {
-          "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
-        }
-      ]
+     "yazi": "Bu, bahçelerimizin dikenli gece bekçisi kirpinin hikâyesi."
     }
-  ]
+   ]
+  },
+  {
+   "ad": "Süt neden zararlı?",
+   "cumleler": [
+    {
+     "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor."
+    },
+    {
+     "yazi": "Bu şekeri parçalayan enzim, bağırsaklarında yok denecek kadar az."
+    },
+    {
+     "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor."
+    },
+    {
+     "yazi": "İshal, küçük bir hayvan için hızla susuz kalmak demek."
+    },
+    {
+     "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir."
+    },
+    {
+     "yazi": "Laktozu alınmış süt ya da bitki sütleri de bahçedeki bir kirpi için doğru seçim değil."
+    },
+    {
+     "yazi": "Ekmek de iyi bir seçim değil; karnını doyurur ama ona gereken besinleri vermez."
+    }
+   ]
+  },
+  {
+   "ad": "Ona ne verilmeli?",
+   "cumleler": [
+    {
+     "yazi": "Kirpiye yardım etmek istiyorsan en iyi şey, sığ bir kapta temiz su bırakmak."
+    },
+    {
+     "yazi": "Özellikle sıcak ve kurak günlerde su bulmakta zorlanabiliyor."
+    },
+    {
+     "yazi": "Mama koymak istersen, et bazlı kedi ya da köpek maması uygun; balıklı olanlar değil."
+    },
+    {
+     "yazi": "Ama unutma: kirpi evcil bir hayvan değil."
+    },
+    {
+     "yazi": "Mama, yalnızca doğal besinin az olduğu dönemler için küçük bir destek."
+    },
+    {
+     "yazi": "Kapları sık sık yıka, suyu her gün tazele, kalan mamayı topla."
+    }
+   ]
+  },
+  {
+   "ad": "Türkiye'nin kirpileri",
+   "cumleler": [
+    {
+     "yazi": "Kirpiler, böcekçil memeliler grubundan küçük gece hayvanları."
+    },
+    {
+     "yazi": "Türkiye'de üç kirpi türü yaşıyor."
+    },
+    {
+     "yazi": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli akgöğüslü kirpi.",
+     "ses": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli ak göğüslü kirpi."
+    },
+    {
+     "yazi": "Trakya'da da onun yakın akrabası Balkan kirpisi yaşıyor."
+    },
+    {
+     "yazi": "Güneydoğu Anadolu'da, iri kulaklarıyla dikkat çeken uzun kulaklı kirpi de yaşıyor."
+    },
+    {
+     "yazi": "Üçünün de sırtı dikenlerle kaplı."
+    }
+   ]
+  },
+  {
+   "ad": "Dikenlerin sırrı",
+   "cumleler": [
+    {
+     "yazi": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış."
+    },
+    {
+     "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış."
+    },
+    {
+     "yazi": "Zehirli değiller ve kirpi onları ok gibi fırlatamaz."
+    },
+    {
+     "yazi": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor."
+    },
+    {
+     "yazi": "Ama bu savunma, bir arabaya karşı işe yaramıyor."
+    }
+   ]
+  },
+  {
+   "ad": "Sırtında elma taşır mı?",
+   "cumleler": [
+    {
+     "yazi": "Kirpilerle ilgili çok eski bir inanış var: sırtına meyve takıp yuvasına taşıdığı."
+    },
+    {
+     "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
+     "ses": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'un yazılarında da geçiyor."
+    },
+    {
+     "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor."
+    },
+    {
+     "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok."
+    },
+    {
+     "yazi": "Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar."
+    }
+   ]
+  },
+  {
+   "ad": "Kirpinin menüsü",
+   "cumleler": [
+    {
+     "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var."
+    },
+    {
+     "yazi": "Özellikle sert kabuklu böcekler, beslenmesinin önemli bir bölümünü oluşturuyor."
+    },
+    {
+     "yazi": "Fırsat bulursa yerde yuva yapan kuşların yumurtalarını ve leşleri de yiyebiliyor."
+    },
+    {
+     "yazi": "Bu yüzden bahçedeki bazı zararlıları da yiyerek doğal bir denge kuruyor."
+    },
+    {
+     "yazi": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, yılan zehrine karşı kısmi bir dirençleri olduğunu gösteriyor; ama bir ısırık yine de onu ağır hasta edebilir."
+    },
+    {
+     "yazi": "Ama bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler."
+    }
+   ]
+  },
+  {
+   "ad": "Köpükle yağlanan hayvan",
+   "cumleler": [
+    {
+     "yazi": "Kirpilerin tuhaf bir davranışı daha var."
+    },
+    {
+     "yazi": "Yeni ve keskin bir koku ya da tatla karşılaştığında, ağzında köpüklü bir salya oluşturuyor."
+    },
+    {
+     "yazi": "Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor."
+    },
+    {
+     "yazi": "Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor."
+    }
+   ]
+  },
+  {
+   "ad": "Kış uykusu",
+   "cumleler": [
+    {
+     "yazi": "Özellikle soğuk bölgelerde, sonbahar sonunda kirpiler yaprak ve ot yığınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor."
+    },
+    {
+     "yazi": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre, kalp atışı çok yavaşlıyor."
+    },
+    {
+     "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor."
+    },
+    {
+     "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak. Bir kirpi bulursan onu rahatsız etme; yaprakları dikkatle eski hâline getir ve uzaklaş."
+    }
+   ]
+  },
+  {
+   "ad": "Gündüz görürsen ne yapmalısın?",
+   "cumleler": [
+    {
+     "yazi": "Kirpi bir gece hayvanı."
+    },
+    {
+     "yazi": "Gündüz ortalıkta dolaşan bir kirpi, çoğu zaman bir sorun yaşıyor demektir."
+    },
+    {
+     "yazi": "Yaz aylarında kısa süre dışarı çıkan bir anne olabilir; ama güneşte öylece yatan, sendeleyen ya da yaralı bir kirpi yardıma ihtiyaç duyuyor."
+    },
+    {
+     "yazi": "Böyle bir durumda ona süt verme, zorla yedirip içirmeye çalışma."
+    },
+    {
+     "yazi": "Eldivenle, içine havlu serilmiş, kenarları yüksek bir kutuya al."
+    },
+    {
+     "yazi": "Üşümüş görünüyorsa havluya sarılmış ılık bir su şişesi koy, ama ondan uzaklaşabileceği bir boşluk bırak."
+    },
+    {
+     "yazi": "Kutuyu sessiz bir yere koy ve ellerini iyice yıka."
+    },
+    {
+     "yazi": "Sonra bir yaban hayatı kurtarma merkezine, bir veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver."
+    }
+   ]
+  },
+  {
+   "ad": "Bahçeni kirpi dostu yap",
+   "cumleler": [
+    {
+     "yazi": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar."
+    },
+    {
+     "yazi": "Bahçelerde de çim biçme ve kenar kesme makineleri, sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor."
+    },
+    {
+     "yazi": "Kirpiler bir gecede kilometrelerce yol yürüyebiliyor."
+    },
+    {
+     "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan on üç santimetreye on üç santimetrelik bir delik, onlar için bir geçit oluyor. Bahçen kalabalık bir yola bakıyorsa deliği yola doğru açma."
+    },
+    {
+     "yazi": "Bahçenin bir köşesinde bırakılan yaprak yığını da onlara yuva oluyor."
+    },
+    {
+     "yazi": "Bahçede havuz varsa bir kenarına rampa koy; kirpiler yüzebilir ama kaygan kenarlardan çıkamayabilir."
+    },
+    {
+     "yazi": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin."
+    }
+   ]
+  },
+  {
+   "ad": "Kapanış",
+   "cumleler": [
+    {
+     "yazi": "Bir kirpi ne süt ister, ne de ekmek."
+    },
+    {
+     "yazi": "Sadece biraz su, güvenli bir köşe ve geceleri dolaşabileceği bir bahçe."
+    },
+    {
+     "yazi": "Bir dahaki sefere bahçende onu gördüğünde, süt yerine bir kap su bırak."
+    },
+    {
+     "yazi": "Senin oralarda kirpiyle ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz."
+    },
+    {
+     "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
+    }
+   ]
+  }
+ ]
 }
