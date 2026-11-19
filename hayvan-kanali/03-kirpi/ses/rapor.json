@@ -315,5 +315,13 @@
   "sure": 7.42,
   "uygun": true,
   "tek_basina": true
+ },
+ "002": {
+  "yazi": "Önüne bir kap süt koyarsan ne olur?",
+  "duyulan": "Önüne bir kap süt koyarsan ne olur?",
+  "hata": 0,
+  "sure": 2.18,
+  "uygun": true,
+  "tek_basina": true
  }
 }
