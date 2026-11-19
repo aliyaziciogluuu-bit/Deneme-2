@@ -1,6 +1,6 @@
 # Bütçe ve harcama kaydı – Avludaki Komşular
 
-Önerilen aylık bütçe: **60 $** (kanal sahibinin onayını bekliyor). Kaynak: Replicate (görsel: Flux 1.1 Pro Ultra 0,06 $/aday; klip: Kling 2.5 Turbo Pro 0,35 $/5 sn; seslendirme: Gemini TTS).
+Aylık bütçe: **60 $** (kanal sahibi 19 Kasım 2026'da onayladı). Kaynak: Replicate (görsel: Flux 1.1 Pro Ultra 0,06 $/aday; klip: Kling 2.5 Turbo Pro 0,35 $/5 sn; seslendirme: Gemini TTS).
 Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Replicate hesabındaki faturadadır.
 
 | Tarih | Video | Görsel | Klip | Seslendirme | Toplam (yaklaşık) | Not |

@@ -67,7 +67,7 @@ Ajan tanımları `.claude/agents/avlu-*.md`, iş akışı `.claude/skills/avluda
 | **Her video** | Üretim → otomatik metin denetimi → bilgi kontrolü → üretim → denetim ve puan → yönetici → teslim | bütün ofis |
 | **Yayın günü** (salı ve cuma, 18:00) | Sabit yorum, Shorts'lara "İlgili video" bağlantısı, ilk 2 saatte yorumlara cevap | kanal sahibi, topluluk sorumlusu hazırlar |
 | **Yayından 3 gün sonra** | İzleyici tutma, tıklama oranı ve Shorts verisinin ekran görüntüleri → analist → ders ve puan kalibrasyonu | kanal sahibi gönderir, analist okur |
-| **Her pazartesi: haftalık yönetim toplantısı** | Göstergeler tablosu, geçen haftanın dersleri, bu haftanın üretim ve yayın planı, bütçe durumu, öneri kutusundan en fazla 3 fikir | patron hazırlar, kanal sahibi karar verir |
+| **Her pazartesi 08:39: haftalık yönetim toplantısı** (zamanlanmış görev; kanal sahibi 19 Kasım'da istedi) | Göstergeler tablosu, geçen haftanın dersleri, bu haftanın üretim ve yayın planı, bütçe durumu, öneri kutusundan en fazla 3 fikir | patron hazırlar, kanal sahibi karar verir |
 | **Her ay başı: aylık strateji** | Hedeflere göre neredeyiz, konu sırası, yeni içerik biçimi denemeleri, şirket el kitabının güncellenmesi | patron, kanal yöneticisi, analist |
 
 ## 5. Yetki kuralları (kim neye karar verir?)
@@ -86,7 +86,7 @@ Ajan tanımları `.claude/agents/avlu-*.md`, iş akışı `.claude/skills/avluda
 
 - Video başına maliyet: yaklaşık 2,8 $ görsel (23–25 görsel), 2,1–2,5 $ klip (6–7 klip), 0,5–1 $ seslendirme. Toplam **≈ 5,5–7 $**.
 - Shorts: mevcut görsellerle yapıldığı için yalnızca seslendirme, birkaç kuruş.
-- **Önerilen aylık bütçe: 60 $** (haftada 2 video ≈ ayda 8–9 video ve yeniden seslendirmeler). Kanal sahibinin onayını bekliyor.
+- **Aylık bütçe: 60 $** (kanal sahibi 19 Kasım'da onayladı; haftada 2 video ≈ ayda 8–9 video ve yeniden seslendirmeler).
 - Harcamalar `kanal/butce.md` dosyasına video video yazılır.
 
 ## 7. İçerik stoku ve üretim planı
