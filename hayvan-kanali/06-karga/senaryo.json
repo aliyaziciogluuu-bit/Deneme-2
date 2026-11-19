@@ -4,15 +4,15 @@
   "aciklama": "Sabah bahçeye çıkıyorsun ve çitin üstündeki karga seni görür görmez bağırmaya başlıyor. Peki karga seni gerçekten tanıyor mu?\n\nBu videoda bir biyoloğun maskeyle yaptığı ünlü deneyi, kargaların yüzü nasıl ayırt ettiğini, öfkeyi birbirine nasıl öğrettiğini ve bu öfkenin yıllar sonra nasıl dindiğini anlatıyoruz. Seattle'da bir kızın kargalardan aldığı hediyelere, ekin kargasının suyu taşla yükseltmesine ve Yeni Kaledonya kargasının tel bükerek yaptığı kancaya da bakıyoruz. Maske deneyleri Amerikan kargasıyla yapıldı; Türkiye'de görülen leş kargası, ekin kargası, küçük karga ve saksağan için bunu açıkça belirtiyoruz.\n\nKarga uğursuz mu, yerde yavru karga bulursan ne yapmalısın, yavrusunu koruyan karga sana alçalırsa ne olur, kargalar Türkiye'de koruma altında mı diye merak ediyorsan cevaplar videoda. Güncel av kararı için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
   "yorum_sorusu": "Senin oralarda karga ne anlama geliyor? Sana hiç bağıran ya da seni takip eden bir karga oldu mu? Yorumlarda konuşalım.",
   "kaynaklar": [
-    "Marzluff, J.M. ve ark. (2010). Yaban Amerikan kargalarının tehdit edici insanları uzun süre tanıması. Animal Behaviour. doi:10.1016/j.anbehav.2009.12.022",
-    "Marzluff, J.M. ve ark. (2012). Kargaların insan yüzlerini algılamasının altındaki sinir devreleri (beyin görüntüleme). PNAS. doi:10.1073/pnas.1206109109",
-    "Swift, K.N. & Marzluff, J.M. (2015). Yaban Amerikan kargaları ölülerinin çevresine tehlikeyi öğrenmek için toplanıyor. Animal Behaviour 109",
+    "Marzluff, J.M., Walls, J., Cornell, H.N., Withey, J.C. & Craig, D.P. (2010). Lasting recognition of threatening people by wild American crows. Animal Behaviour. doi:10.1016/j.anbehav.2009.12.022",
+    "Marzluff, J.M., Miyaoka, R., Minoshima, S. & Cross, D.J. (2012). Brain imaging reveals neuronal circuitry underlying the crow's perception of human faces. PNAS. doi:10.1073/pnas.1206109109",
+    "Swift, K.N. & Marzluff, J.M. (2015). Wild American crows gather around their dead to learn about danger. Animal Behaviour 109: digital.lib.washington.edu/researchworks/handle/1773/33178",
     "Washington Üniversitesi Kentsel Ekoloji – Kargalar insanlara karşı on yedi yıla kadar kin tutabiliyor: urban.uw.edu/news/crows-hold-grudges-against-individual-humans-for-up-to-17-years",
     "Lee, W.Y. ve ark. (2011). Yaban kuşlar tek tek insanları tanıyor: saksağan deneyleri. Animal Cognition: link.springer.com/article/10.1007/s10071-011-0415-4",
     "Audubon – Seattle'da bir kız mahalledeki kargalarla arkadaş oluyor: audubon.org/magazine/seattle-girl-befriends-neighborhood-crows-making-bird-lovers-everywhere-jealous",
-    "Olkowicz, S. ve ark. (2016). Kuşların ön beyninde primatlara benzer sayıda sinir hücresi var. PNAS. doi:10.1073/pnas.1517131113",
-    "Weir, A.A.S., Chappell, J. & Kacelnik, A. (2002). Yeni Kaledonya kargalarında kanca şekillendirme. Science 297",
-    "Bird, C.D. & Emery, N.J. (2009). Ekin kargaları yüzen solucana ulaşmak için suyu taşlarla yükseltiyor. Current Biology. doi:10.1016/j.cub.2009.07.033",
+    "Olkowicz, S. ve ark. (2016). Birds have primate-like numbers of neurons in the forebrain. PNAS. doi:10.1073/pnas.1517131113",
+    "Weir, A.A.S., Chappell, J. & Kacelnik, A. (2002). Shaping of hooks in New Caledonian crows. Science 297(5583): doi:10.1126/science.1073433",
+    "Bird, C.D. & Emery, N.J. (2009). Rooks use stones to raise the water level to reach a floating worm. Current Biology. doi:10.1016/j.cub.2009.07.033",
     "Ankara Üniversitesi Açık Ders – Türkiye'nin Kuşları ve Sınıflandırma (kargagiller türkçe adları): acikders.ankara.edu.tr/mod/resource/view.php?id=5735",
     "British Trust for Ornithology – Karga türlerini ayırt etme rehberi: bto.org/sites/default/files/crow_id.pdf",
     "Wildlife Rescue – Karga SSS (yavru karga ve ebeveyn davranışı): wildliferescue.ca/wp-content/uploads/sites/11/2021/06/Crow-FAQ-2023.pdf",
@@ -124,7 +124,7 @@
           "yazi": "Kargaların bir huyu daha var: ölü bir karganın çevresine toplanıyorlar; bilim insanları bunun tehlikeyi öğrenmek için olabileceğini düşünüyor."
         },
         {
-          "yazi": "Deneyde ölü bir karganın yanında duran maskeli insana, kargalar sonraki günlerde de bağırdı."
+          "yazi": "Ölü bir karganın yanında duran maskeli kişiye, kargalar sonraki günlerde de bağırdı."
         },
         {
           "yazi": "Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi."
@@ -264,10 +264,10 @@
       "ad": "Yerde yavru karga bulursan",
       "cumleler": [
         {
-          "yazi": "Bahçede yerde sıçrayan, uçamayan bir yavru karga bulursan ne yapmalısın?"
+          "yazi": "Bahçende sıçrayarak ilerleyen, uçamayan bir yavru karga bulursan ne yapmalısın?"
         },
         {
-          "yazi": "Yavru kargalar uçmayı öğrenirken yaklaşık bir iki hafta yerde zaman geçirebiliyor."
+          "yazi": "Kargalar uçmayı öğrenirken yaklaşık bir iki hafta yerde zaman geçirebiliyor."
         },
         {
           "yazi": "Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor."
