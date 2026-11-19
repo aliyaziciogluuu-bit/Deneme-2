@@ -20,6 +20,7 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 02-ev-kertenkelesi | 1 | 2026-11-19 | 6.0 | 7.0 | 6.0 | 8.0 | 6.0 | 6.0 | 8.0 | 7.0 | 9.0 | **67.5** | RET |
 | 02-ev-kertenkelesi | 3 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 8.0 | 7.0 | 9.0 | **79.0** | DÜZELTME |
+| 02-ev-kertenkelesi | 4 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 8.0 | 8.0 | 9.0 | **80.0** | TESLİM |
 | 05-baykus | 1 | 2026-11-19 | 6.0 | 5.0 | 7.0 | 8.0 | 7.0 | 5.0 | 8.0 | 6.0 | 8.0 | **66.5** | RET (kırmızı çizgi: guvenlik) |
 | 05-baykus | 2 | 2026-11-19 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | 8.0 | 8.0 | **84.0** | TESLİM |
 
@@ -54,7 +55,7 @@ Hedef: her ölçütte ilk turda 9. Bir ölçüt yerinde sayıyorsa dersler defte
 | Başlık, küçük resim, açıklama | 6 → 8 | 7 → 8 |
 | Shorts kancası | 6 → 7 | 5 → 8 |
 | Seslendirme ve ses | 8 | 8 → 9 |
-| Görsel, anatomi, kadraj | 7 | 6 → 8 |
+| Görsel, anatomi, kadraj | 7 → 8 | 6 → 8 |
 | Testler ve teslim | 9 | 8 |
 
 ## Denetçilerin kaçırdığı hatalar

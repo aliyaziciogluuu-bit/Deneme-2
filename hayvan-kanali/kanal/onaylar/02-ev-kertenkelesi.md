@@ -17,3 +17,5 @@ Video 16–17 Kasım'da ofis öncesi dönemde üretildi ve 20 Kasım 18:00 için
 ## Puan kartı
 - Tur 1: 67,5 (bilgi ve metin ilk puanları; kalite kontrol puanları Tur 3'ten) → RET
 - Tur 3: 79,0 → DÜZELTME aralığı. Bütün denetçiler ONAY verdi, kırmızı çizgi yok.
+| 4 | Kalite kontrol | ONAY (ses 8, görsel 8, teknik 9) | Kapanış klibi temiz; Shorts 3 son sahnede burun kadrajda. Kalan küçük kusur: Shorts 3'te altyazı gekonun başına değiyor; goz_yalama klibi fotogerçekçi ve dil göze net değmiyor |
+| – | Patron | TESLİM | Toplam 80,0 (yeni eşik 80, kanal sahibinin kararı). Teslim dosyaları cmp ile doğrulandı |

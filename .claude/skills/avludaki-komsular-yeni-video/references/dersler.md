@@ -201,6 +201,8 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
   - Her klip 0,3 saniye aralıkla baştan sona taranır: şekil, eylem, fazla uzuv.
   - Klip anlatılan eylemi gerçekten göstermiyorsa o cümleye klip konmaz.
   - Shorts'ta etiketli ve yakın planlı her kare önizlemede kontrol edilir (gerekirse aw/ay kullanılır).
+  - Altyazı ve kapanış yazısı hayvanın yüzüne binmez (kalite kontrol, geko Tur 4).
+  - Klip, videonun suluboya çizgisini korur. Fotogerçekçi klip kullanılmaz (geko goz_yalama).
 
 ### Seslendirme ve ses (ses) – patron
 - Denetçi sesi dinleyemediği için puan 8'de kalıyor.
