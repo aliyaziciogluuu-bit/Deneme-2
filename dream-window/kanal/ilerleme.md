@@ -29,7 +29,7 @@ Her çarşamba kanal sahibi, en çok izlenen 2 uzun videonun ortalama izleme sü
 | 2026-11-19 | Kış kulübesi (04, 1 sa) | 709 | %7,0 | 7:17 | yazı altta, pencere ve aydınlık köy manzarası açık | En iyi tıklama |
 | 2026-11-19 | Kış kütüphanesi (05, 3 sa) | 633 | %4,6 | 10:28 | A tarzı | Aramadan gelen %13,7 |
 | 2026-11-19 | Yağmurlu kulübe (01, 1 sa) | 772 | %3,0 | 18:22 | yazı ortada, pencerenin önünde; sahne koyu | En uzun izlenen ama en az tıklanan. Gösterimler 2. günden sonra durdu. → B küçük resmi önerildi (01-rainy-cabin/kapak_B.jpg) |
-| 2026-11-19 | Noel kulübesi (03, 1 sa) | ? | ? | 7:52 | | veri bekleniyor |
+| 2026-11-19 | Noel kulübesi (03, 1 sa) | 913 | %6,5 | 7:52 | karlı pencere, ay ve şömine açık; yazı küçük | 6. günde gösterimler yeniden hızlandı |
 
 Ders: Pencere manzarası açık ve aydınlık, yazı manzaranın önünde olmayan küçük resim daha çok tıklanıyor.
 
