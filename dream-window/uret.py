@@ -605,6 +605,25 @@ def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float =
                 zemin[i:i + len(t)] *= (1 + d * (0.5 * np.sin(2 * np.pi * t / 41.3) + 0.3 * np.sin(2 * np.pi * t / 67.1 + 1) + 0.2 * np.sin(2 * np.pi * t / 113.7 + 2)))[:, None]
         zemin *= a.get("zemin_duzey", 0.075) / float(np.sqrt((zemin[::7] ** 2).mean()))
 
+    # dalga: zeminden ayrı, sürekli duyulan katman. Kayıttaki yağmur hışırtısı alçak geçiren süzgeçle atılır,
+    # geriye dalganın ve rüzgârın uğultusu kalır. Ani yükselme bastırması uygulanmaz (dalga kabarması doğal).
+    if a.get("dalga"):
+        dalga_dosyalar = [a["dalga"]] if isinstance(a["dalga"], str) else a["dalga"]
+        kayitlar = [kayit_coz(klasor / d, 1)[:, 0] for d in dalga_dosyalar]
+        kayitlar = [x[int(1.0 * SR):len(x) - int(1.0 * SR)] for x in kayitlar]
+        en_kisa = min(len(x) for x in kayitlar) / SR
+        sos_d = np.vstack([signal.butter(2, a.get("dalga_alt", 35), "highpass", fs=SR, output="sos"),
+                           signal.butter(4, a.get("dalga_ust", 700), "lowpass", fs=SR, output="sos")])
+        for kanal in (0, 1):                 # iki kanal ayrı uzatılır: dalga geniş ve iki yandan gelir
+            iz = uzat(kayitlar, n, rng, (min(20, en_kisa - 1), min(55, en_kisa - 1)), 4.0)
+            zi = np.zeros((sos_d.shape[0], 2))
+            for i in range(0, n, SR * 120):
+                iz[i:i + SR * 120], zi = signal.sosfilt(sos_d, iz[i:i + SR * 120], zi=zi)
+            iz *= a.get("dalga_duzey", 0.06) / float(np.sqrt((iz[::7] ** 2).mean()) + 1e-9)
+            zemin[:, kanal] += iz
+            del iz
+        del kayitlar
+
 
     # şömine: kısa kayıttan birkaç bağımsız katman üst üste biner; ateş daha dolu ve sık çıtırtılı duyulur
     # "ates" tek dosya ya da dosya listesi olabilir: birden fazla kayıt varsa uzat() parçaları hepsinden seçer (çıtırtı tekrar etmez)

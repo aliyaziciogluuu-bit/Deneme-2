@@ -141,9 +141,8 @@
     "zemin_bas": 20,
     "zemin_duzey": 0.08,
     "zemin_ek": [
-      "../sesler/firtina_dalga.mp3",
-      "../sesler/firtina_dalga.mp3",
-      "../sesler/yagmur_cam.mp3"
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
     ],
     "ates": [
       "ses_kaynak/ates.ogg",
@@ -157,7 +156,9 @@
     "ates_denge": [
       0.9,
       0.5
-    ]
+    ],
+    "dalga": "../sesler/firtina_dalga.mp3",
+    "dalga_duzey": 0.12
   },
   "ates_klip": {
     "dosya": "ates_klip.mp4",
