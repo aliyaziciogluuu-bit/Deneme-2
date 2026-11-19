@@ -23,3 +23,4 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi ve 27 Kasım 18:00 için YouT
 - Bulgular: oda ve lamba_yarasa kliplerinde kanat şekil bozulması, anne_yavru'da yüz kapanması; Shorts 8'de yüz/göz kenardan kesik, son kare zayıf (TEKRARLANAN KUSUR); Shorts 7'de güve üst yazıyla çakışıyor.
 - İş dağılımı: yapımcı klipleri 0,3 sn aralıkla tarayıp kırpacak; Shorts uzmanı iki Shorts'un kadrajını düzeltecek. Sonra yeniden oluşturma, son kontrol ve kalite kontrol Tur 2.
 - Kanal sahibi dinlemesi: Shorts 8, ~21–25 sn ("yarasaya yaklaşma").
+- Kanal sahibi dinlemesi (19 Kasım): Shorts 8, ~21–25 sn "yarasaya yaklaşma": "Evet net." Ses tanıma hatası; seslendirme doğru.

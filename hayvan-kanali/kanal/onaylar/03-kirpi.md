@@ -15,3 +15,4 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
   - Etiket "Kendini yağlama…" → "Köpüğün amacı hâlâ bilinmiyor".
   - Uluturk ve Coskun (2012) ile Özen (2005) künyeleri sayfadaki özgün başlıkla yazıldı; Hedgehog Street biyoloji satırının açıklaması sayfadaki içerikle sınırlandı.
 - Yeniden seslendirme: uzun 11, 47; Shorts 5 cümle 4. Uzun video ve Shorts 5 yeniden oluşturulacak.
+- Yeniden oluşturma (19 Kasım): uzun video 70/70, Shorts 5 6/6, bütün testler geçti.
