@@ -46,8 +46,8 @@
     {
      "yazi": "Küçük bir hayvanda ishal, hızla sıvı kaybına yol açabilir.",
      "gorsel": "gunduz",
-     "x": 0.46,
-     "x2": 0.46,
+     "x": 0.43,
+     "x2": 0.43,
      "aw": 0.5,
      "ay": 0.67,
      "y": 0.67,
@@ -91,8 +91,8 @@
     {
      "yazi": "Hayır: kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
      "gorsel": "elma",
-     "x": 0.45,
-     "x2": 0.45,
+     "x": 0.43,
+     "x2": 0.43,
      "aw": 0.6,
      "ay": 0.68,
      "y": 0.68,
@@ -107,8 +107,8 @@
     {
      "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla karşımıza çıkıyor.",
      "gorsel": "elma",
-     "x": 0.46,
-     "x2": 0.46,
+     "x": 0.44,
+     "x2": 0.44,
      "aw": 0.7,
      "ay": 0.65,
      "y": 0.65,
