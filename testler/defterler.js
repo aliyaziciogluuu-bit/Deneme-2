@@ -35,6 +35,8 @@ const SEED = {
     // ================= Toptancı has hesabı =================
     await p.click('button[data-go="cari"]');
     assert.ok(await p.isVisible('#wEmpty') && await p.isHidden('#wSum'));          // bozuk kayıtlar atıldı
+    assert.ok(await p.isHidden('#wForm'));                                        // form kapalı gelir
+    await p.click('[data-toggle="toptanci"]');
     await p.fill('#wWho', 'Altın Toptan');
     await p.fill('#wGram', '100');
     assert.equal(await p.inputValue('#wMil'), '916');
@@ -83,6 +85,7 @@ const SEED = {
     assert.equal(await txt('#iCount'), '1');                                        // yalnız geçerli tohum ürün
     assert.ok((await txt('#iList li:first-child')).includes('100 gündür vitrinde'));
     assert.ok(await p.locator('#iList li:first-child small.neg').count() === 1);    // 90 günü geçen işaretlenir
+    await p.click('[data-toggle="vitrin"]');
     await p.fill('#iName', 'Bilezik'); await p.selectOption('#iKarat', '22'); await p.fill('#iGramIn', '12,5'); await p.fill('#iCost', '35000');
     await p.click('#iForm button[type="submit"]');
     await p.fill('#iName', 'Yüzük'); await p.selectOption('#iKarat', '14'); await p.fill('#iGramIn', '3,2'); await p.fill('#iCost', '');

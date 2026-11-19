@@ -35,6 +35,7 @@ const SEED = {
       await p.click('#iForm button[type="submit"]');
     };
     await p.click('button[data-go="kasa"]');
+    await p.click('[data-toggle="vitrin"]');
     // --- Alışı kasaya işleyerek ürün ekleme
     await add('Bilezik', 22, '10', '', true);
     assert.equal(await txt('#iMsg'), 'Alışı kasaya işlemek için maliyeti yazın.');

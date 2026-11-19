@@ -16,3 +16,4 @@ for f in testler/*.js; do node "$f" || break; done
 | `kar-birimleri.js` | Kârın TL, dolar ve has olarak gösterimi |
 | `vitrin-ekrani.js` | Vitrin fiyat ekranı (`vitrin.html`) |
 | `vitrin-kasa-paylasim.js` | Vitrin defterinden alış/satışın kasaya işlenmesi, rapor paylaşımı |
+| `sade-gorunum.js` | Sade görünüm: tek satır başlık, açılır bölümler, dokununca açılan satırlar, sayfa uzunlukları |
