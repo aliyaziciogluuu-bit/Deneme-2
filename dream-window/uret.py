@@ -283,6 +283,7 @@ class Sahne:
         """sahne.json'da "ates_klip" varsa şöminenin içi gerçek ateş videosuyla değiştirilir (ates_klip.py üretir)."""
         self.klip = None
         k = self.ayar.get("ates_klip")
+        self.parlak_esik = tuple(k["parlak_esik"]) if k and k.get("parlak_esik") else None   # [alt, üst] yeşil kanal eşiği
         if k:
             self.klip, self.klip_kutu, self.klip_maske = self._klip_yukle(k, self.ayar["ates"]["ic"])
 
@@ -411,7 +412,13 @@ class Sahne:
         elif self.klip is not None:
             kx0, ky0, kx1, ky1 = self.klip_kutu
             b = kare[ky0:ky1, kx0:kx1]
-            kare[ky0:ky1, kx0:kx1] = b * (1 - self.klip_maske) + self.klip[n % len(self.klip)] * self.klip_maske
+            ks = self.klip[n % len(self.klip)]
+            mk = self.klip_maske
+            if self.parlak_esik:                                       # klibin tuğla/duvar zemini görünmesin: yalnızca parlak alev geçsin
+                lo, hi = self.parlak_esik
+                u = np.clip((ks[..., 1:2] - lo) / (hi - lo), 0, 1)
+                mk = mk * (u * u * (3 - 2 * u))
+            kare[ky0:ky1, kx0:kx1] = b * (1 - mk) + ks * mk
         else:
             x0, y0, x1, y1 = self.ates_kutu
             self._buk(kare, self.ates_kutu, self.ates_izgara, self.ates_dx(t) * self.ates_agirlik, self.ates_dy(t) * self.ates_agirlik)

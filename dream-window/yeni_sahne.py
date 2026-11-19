@@ -175,6 +175,8 @@ def kapak(klasor, satirlar, cikti):
     kenar = cv2.Canny(gri, 80, 160)
     sol, sag = kenar[400:, :640].mean(), kenar[400:, 640:].mean()
     kutu = (40, 400, 720, 690) if sol <= sag else (560, 400, 1240, 690)
+    if json.loads((klasor / "sahne.json").read_text(encoding="utf-8")).get("kapak_yazi") == "sol_ust":   # ateş sağ altta: yazı ateşi örtmesin
+        kutu = (40, 30, 720, 320)
     cx = (kutu[0] + kutu[2]) // 2
     kat = Image.new("RGBA", im.size, (0, 0, 0, 0))
     ImageDraw.Draw(kat).rounded_rectangle(kutu, radius=18, fill=(6, 10, 18, 190))
