@@ -97,3 +97,24 @@ Biçim: tarih ve video · ne oldu · kural · sorumlu.
 - **19 Kasım, Shorts 1 (göz kırpıyor):** 24 saatte 1.170 izlenme, %96'sı Shorts akışından. Ortalama izleme 0:18 / 0:28. İzleyicilerin %50,5'i kaydırmadan izledi.
   - **Kural:** Shorts'un ilk karesi ve ilk cümlesi kaydırmayı durduracak kadar güçlü olur. Hedef: %60 ve üzeri izlemeye devam oranı.
   - Sorumlu: senarist, yapımcı.
+
+## Ofis onay turlarından gelen dersler
+
+- **19 Kasım, 05 baykuş, Tur 1 (metin editörü RET):** Shorts'un ilk cümlesi uzun videodan olduğu gibi alınmıştı ("Anadolu'da baykuşun ötmesi…"). Başlığın sorusunu cevaplamıyordu, cevap en sondaydı.
+  - **Kural:** Shorts'un ilk cümlesi başlığın sorusunu doğrudan cevaplar ya da şaşırtıcı bir sayı verir. Uzun videodan kopyalanan ilk cümle Shorts kancası sayılmaz.
+  - Sorumlu: senarist, metin editörü.
+- **19 Kasım, 05 baykuş, Tur 1 (metin editörü RET):** Küçük resim alt yazısı başlıktaki parantezi aynen tekrar ediyordu.
+  - **Kural:** Küçük resim alt yazısı başlıkta olmayan yeni bir vaat taşır.
+  - Sorumlu: senarist.
+- **19 Kasım, 05 baykuş, Tur 1 (kalite kontrol RET):** Dikey Shorts'ta etiket kutusu sikkedeki baykuşun gözüne biniyordu.
+  - **Kural:** Etiketli ve yüz yakın planlı sahnelerde `aw`/`ay` ile başlangıç kadrajı aşağı alınır. Her etiketli kare önizlemede kontrol edilir.
+  - Sorumlu: yapımcı, kalite kontrol.
+- **19 Kasım, 05 baykuş (metin editörü önerisi):** Girişin vaat cümlesi 12 saniye ve 25 kelimeydi.
+  - **Kural:** Giriş vaadi tek kısa cümle olur, en fazla iki somut bilgi taşır.
+  - Sorumlu: senarist.
+- **19 Kasım, 05 baykuş (kanal yöneticisi RET şartı):** Video yeniden üretildi ama teslim klasöründe eski sürüm kalmıştı.
+  - **Kural:** Her yeniden üretimden sonra teslim dosyaları yeniden kopyalanır ve `cmp` ile kaynakla karşılaştırılır. Kullanıcıya gönderilmiş eski bir sürüm varsa açıkça "eskisini kullanma" denir.
+  - Sorumlu: patron.
+- **19 Kasım, 05 baykuş:** Değişmeyen bir cümle (045) yeni karışımda bozuk duyuldu ("alaca baykuşa ait" → "Alacabay kuşağı idi").
+  - **Kural:** Her yeniden üretimden sonra son kontrol baştan çalıştırılır. Önceki sonuca güvenilmez.
+  - Sorumlu: patron.

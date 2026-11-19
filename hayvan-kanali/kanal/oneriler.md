@@ -19,14 +19,17 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 ## Bekleyen
 
 - **P1 – Girişi yeniden kurgulama kuralı (patron, 19 Kasım):** Yılan videosunda izleyicilerin yarıdan fazlası 0:30–1:20 arasında ayrıldı. Sonraki videolarda başlığın cevabının ilk kanıtı en geç 0:40'ta verilir, ansiklopedi bilgileri sonraya alınır. Baykuş videosu yayından önce bu kurala göre yeniden sıralanacak.
-  - Değerlendirme: etki 5, emek 2, maliyet yok (yalnızca 1–2 cümle seslendirme), risk yok.
+  - Değerlendirme (yönetici, 19 Kasım): etki 5, emek 2, maliyet yok ya da çok az → **sun**. Geko, kirpi ve yarasaya da uygulanması önerildi.
 - **P2 – Alternatif küçük resimle A/B testi (patron, 17 Kasım):** YouTube'un "Test ve karşılaştır" özelliğiyle her videoya 2–3 küçük resim yüklenir. Tıklama oranı %2'nin altında kalırsa uygulanır; yılan videosunda şu an %2,7.
-  - Değerlendirme: etki 3, emek 2, maliyet yok.
+  - Değerlendirme (yönetici, 19 Kasım): etki 3, emek 2 → **beklet** (tıklama oranı %2,7, koşul oluşmadı).
 - **P3 – Gerçek hayvan sesi (patron, 18 Kasım):** Girişte ya da ilgili sahnede, Wikimedia Commons'taki kamu malı kayıtlardan hayvanın gerçek sesi (baykuş ötüşü, kirpi hırıltısı) kısa bir anlığına duyulur. Belgesel hissini ve inandırıcılığı artırır.
-  - Değerlendirme: etki 2–3, emek 2, maliyet yok, risk: lisans atfı doğru yazılmalı.
+  - Değerlendirme (yönetici, 19 Kasım): etki 2, emek 2 → **beklet** (önce izleyici tutma düzelmeli).
 
 - **E1 – Bitiş ekranı ve "sıradaki komşu" ipucu (metin editörü, 19 Kasım):** Her videonun son 10–15 saniyesinde bir sonraki videoyu öneren bitiş ekranı kullanılır. Kapanışta "Sıradaki komşu: …" diye bir merak cümlesi söylenir. İzleyici kanalda kalır, yeni videonun ilk izlenmeleri artar.
-  - Değerlendirme: yönetici puanlayacak.
+  - Değerlendirme (yönetici, 19 Kasım): etki 3, emek 1, maliyet yok → **sun**.
+
+- **Y1 – Erken ayrılma karnesi (kanal yöneticisi, 19 Kasım):** Her videonun yayından 3 gün sonra 0:30, 1:20 ve 2:00'deki izleyici tutma yüzdeleri ilerleme.md'ye yazılır. Dersler veriye bağlı kalır, videolar karşılaştırılabilir.
+  - Değerlendirme: iç iş olarak uygulanabilir.
 
 ## Onaylanan
 
