@@ -35,7 +35,7 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **Y4 – Uzun video başlık kalıbını çeşitlendirme (kanal yöneticisi, 19 Kasım):** 21–28'in sekiz başlığından altısı aynı kalıpta ("3 Hours [Sıfat] [Mekân] [emoji] [3 öğe] for Sleep"). Bir sahnede, örneğin 28'de, tek kancalı farklı bir başlık denenir ve Analytics'te tıklama oranı karşılaştırılır.
   - Değerlendirme: etki 2–3, emek 1, maliyet yok.
 
-- **Y5 – "Rain Around the World" oynatma listesi (kanal yöneticisi, 19 Kasım):** Yağmur sahneleri tek listede toplanır (06 kafe, 22 Tokyo, 24 kanal, 25 orman, 28 kiraz çiçeği). Tek bir sahneyi bulan izleyici art arda başkasını izler ve izlenme saati artar. Y2 Noel listesinin yağmur karşılığı.
+- **Y5 – (YAPILDI: kanal sahibi "Rain & Fireplace Sounds for Sleep" listesini zaten açmış; yeni yağmur sahneleri buna eklenecek) "Rain Around the World" oynatma listesi (kanal yöneticisi, 19 Kasım):** Yağmur sahneleri tek listede toplanır (06 kafe, 22 Tokyo, 24 kanal, 25 orman, 28 kiraz çiçeği). Tek bir sahneyi bulan izleyici art arda başkasını izler ve izlenme saati artar. Y2 Noel listesinin yağmur karşılığı.
   - Değerlendirme: etki 2–3, emek 1, maliyet yok.
 
 ## İç işler (patron uygular, kanal sahibine sunulmaz)
