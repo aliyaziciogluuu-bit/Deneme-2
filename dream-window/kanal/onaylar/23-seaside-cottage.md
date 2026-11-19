@@ -23,3 +23,5 @@
 
 **Tur 2 – yeniden çizilen shorts2 (19 Kasım):** Kalite kontrol ONAY. Fener ve fırtınalı denizle açılıyor, 24. sn'de şömine. Tekrar testi TAMAM, LUFS −16,3.
 - Ses: fırtına-dalga katmanı eklendi (E2, B düzeyi 0.17). 720p ses 56 kbps ile yeniden kurulacak (400 MiB sınırı), ardından kalite kontrol boyut ve LUFS ölçecek.
+
+**Ses yeniden kurulumu (19 Kasım, patron kontrolü):** Fırtına-dalga katmanı (B, 0.17) eklendi. 720p ses 48 kbps: 392,9 MiB (<400), −24,1 LUFS, tekrar testi TAMAM (96 sn). 4K ses −24,3 LUFS. 23 tamamen onaylı.
