@@ -78,7 +78,7 @@ def secenek_B(kaynak, baslik, alt):
     return im.convert("RGB")
 
 
-def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False):
+def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False, sag=False):
     ox, oy = odak_xy
     z = 1.18                                                          # hafif yakınlaş (ateş ve pencere kadrajda kalsın)
     w, h = G / z, Y / z
@@ -88,13 +88,14 @@ def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False):
     im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2)).convert("RGBA")
     if sol_ust:                                                       # ateş alt yarıda görünür kalsın: başlık sol üstte
         karart = Image.new("L", im.size, 0)
-        ImageDraw.Draw(karart).ellipse((-500, -420, 900, 380), fill=150)
+        ImageDraw.Draw(karart).ellipse((G - 900, -420, G + 500, 380) if sag else (-500, -420, 900, 380), fill=150)
         im = Image.composite(Image.new("RGBA", im.size, (0, 0, 0, 255)), im, karart.filter(ImageFilter.GaussianBlur(120)))
         ciz = ImageDraw.Draw(im)
         f1 = font_sigdir(ciz, baslik, KALIN, 80, 760)
-        golgeli_yazi(im, (56, 56), baslik, f1, BEYAZ)
+        hz, px = ("ra", G - 56) if sag else ("la", 56)
+        golgeli_yazi(im, (px, 56), baslik, f1, BEYAZ, hiza=hz)
         t = f"3 HOURS  ·  {alt.upper()}"
-        golgeli_yazi(im, (58, 56 + int(f1.size * 1.15)), t, font_sigdir(ciz, t, YARI, 34, 760), ALTIN, golge=6, cizgi=3)
+        golgeli_yazi(im, (px, 56 + int(f1.size * 1.15)), t, font_sigdir(ciz, t, YARI, 34, 760), ALTIN, golge=6, cizgi=3, hiza=hz)
         return im.convert("RGB")
     alt_karart = Image.new("L", im.size, 0)                           # alt bandı koyulaştır
     ImageDraw.Draw(alt_karart).rectangle((0, 470, G, Y), fill=190)
@@ -117,7 +118,7 @@ def main():
         kaynak = Image.open(klasor / ayar.get("gorsel_4k", ayar["gorsel"])).convert("RGB").resize((G, Y), Image.LANCZOS)
         gen = cv2.imread(str(klasor / ayar["gorsel"])).shape[1]
         secenek_B(kaynak, baslik, alt).save(klasor / "kapak_3saat_B.jpg", quality=92)
-        secenek_C(kaynak, baslik, alt, odak(ayar, gen), ayar.get("kapak_yazi") == "sol_ust").save(klasor / "kapak_3saat_C.jpg", quality=92)
+        secenek_C(kaynak, baslik, alt, odak(ayar, gen), ayar.get("kapak_yazi") in ("sol_ust", "sag_ust"), ayar.get("kapak_yazi") == "sag_ust").save(klasor / "kapak_3saat_C.jpg", quality=92)
         print(f"{ad}: B ve C hazır ({baslik} / {alt})")
 
 
