@@ -31,3 +31,7 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 - Karar: RET. Puan: doğruluk 7, güvenlik 8.
 - Bulgular: 4, 13, 29, 34, 36 kaynaksız ya da abartılı; Trakya cümlesinin açılmış kaynağı yok; ılık şişe tarifi kaynaktan zayıf; "yaprakları eski hâline getir" kaynakla gerilimli; gündüz yavru uyarısı eksik; cekimler.json eski sırada.
 - Patron: önerilen ifadeler senariste verildi; çekimler yeniden_sira.json ile patron tarafından yeniden kurulacak.
+
+## Bilgi kontrolü Tur 4 (19 Kasım)
+- Karar: ONAY. Puan: doğruluk 9, güvenlik 9 (Tur 3: 7, 8).
+- Son düzeltmeler: cümle 25 "Kirpilerin sırtı dikenlerle kaplı." (Trakya cümlesi çıkınca "üçünün" göndermesi boşta kalmıştı); etiketler "Sırtı dikenlerle kaplı", "Besinin önemli kısmı: solucan ve böcek".
