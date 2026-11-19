@@ -42,6 +42,9 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 
 ## Onaylanan
 
+- **E1 – Bitiş ekranı ve "sıradaki komşu" ipucu:** kanal sahibi 19 Kasım'da onayladı. Kırlangıçtan başlayarak her videonun kapanışında "Sıradaki komşu: …" cümlesi; kanal sahibi yüklerken YouTube bitiş ekranına sıradaki videoyu ekler.
+- **Görsel düzenleme denemesi (Flux Kontext):** kanal sahibi 19 Kasım'da onayladı; denendi, sonuç dersler defterinde.
+
 ## Reddedilen
 
 ## İç işler (patron uygular, kanal sahibine sunulmaz)

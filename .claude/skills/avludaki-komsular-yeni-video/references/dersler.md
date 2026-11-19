@@ -77,6 +77,7 @@ Biçim: tarih ve video · ne oldu · kural · sorumlu.
 - **Bekleme zincirleri (19 Kasım):** `pgrep -f "video.py"` ile bekleyen arka plan komutu kendi komut satırını da bulur ve sonsuza kadar bekler. Sıralama için bekleme döngüsü yazılmaz; işler `hat.py`'ye tek komutta sırayla verilir (kilit sırayı kendisi tutar).
 - **Silinen cümlenin gönderimleri (kirpi, 19 Kasım):** Bir cümle silinince sonraki "üçü de", "hepsi", "bu" gibi geri göndermeler ve etiketler ("3 tür") ayrıca taranır.
 - **Bilinmeyen türün yüz özelliği (ekin kargası, 19 Kasım):** Flux "çıplak açık renkli yüz derisi" istemini beyaz göğüs tüyü olarak çizdi. Bu tür ayırt edici özellikler için istem tek başına yetmeyebilir; iki denemeden sonra yanlış tür özelliği çizen aday yerine genel ama yanlış olmayan aday seçilir.
+- **Görsel düzenleme (Flux Kontext, 19 Kasım deneme):** Bozuk görseli baştan üretmek yerine düzenleme modeli (~0,04 $/düzenleme) yanlış bir özelliği SİLMEKTE başarılı (ekin kargasının yanlış beyaz ensesi tek denemede siyah oldu, poz ve stil korundu). Olağandışı bir tür özelliği EKLEMEKTE başarısız ("açık renkli çıplak yüz derisi" yine beyaz tüye dönüştü). Kural: yanlış nesne/leke/fazla uzuv/ikinci solucan gibi hatalarda önce düzenleme denenir; eksik tür özelliği için düzenlemeye para harcanmaz. Çıktı ~1400 px gelir, gorseller/'e 2752 px'e büyütülerek konur.
 
 ## Teknik ve iş akışı
 
