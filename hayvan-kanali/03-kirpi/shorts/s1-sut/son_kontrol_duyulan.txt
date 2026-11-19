@@ -1,5 +1,5 @@
 000 fark=0 | Bahçede gördüğün bir kirpinin önüne süt koyarsan, ona iyilik değil zarar verirsin. || Bahçede gördüğün bir kirpinin önüne süt koyarsan ona iyilik değil zarar verirsin.
-001 fark=1 | Kirpiler, sütteki laktoz adlı şekeri sindiremiyor. || Kirpiler sütdeki laktoz adlı şekeri sindiremiyor.
+001 fark=0 | Kirpiler, sütteki laktoz adlı şekeri sindiremiyor. || Kirpiler sütdeki laktoz adlı şekeri sindiremiyor.
 002 fark=0 | Süt içen bir kirpide kısa sürede ishal başlayabiliyor. || Süt içen bir kirpi de kısa sürede ishal başlayabiliyor.
 003 fark=0 | Küçük bir hayvanda ishal, hızla sıvı kaybına yol açabilir. || Küçük bir hayvanda ishal hızla sıvı kaybına yol açabilir.
 004 fark=0 | Zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir. || Zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.

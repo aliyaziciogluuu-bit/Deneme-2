@@ -11,37 +11,46 @@
    "ad": "maske_bagiran",
    "gorsel": "maske_bagiran",
    "sure": 5,
-   "istem": "The crows on the branches and grass call and bob their heads and flap their wings a little while the masked person keeps walking slowly away, leaves rustle. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+   "istem": "The crows on the branches and grass call and bob their heads and flap their wings a little while the masked person keeps walking slowly away, leaves rustle. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs.",
+   "duzenleme": "DÜŞÜRÜLDÜ: 1,2 sn sonrasında gökyüzünde kırmızı balon beliriyor, kargalar birbirine giriyor, maskeli figür bozuluyor. Ham klip saklandı; çekim görselle kalıyor.",
+   "dusuruldu": true
   },
   {
    "ad": "nc_kanca",
    "gorsel": "nc_kanca",
    "sure": 5,
-   "istem": "The black crow in the aviary turns its head slightly and moves the bent wire hook in its beak a little, then looks at the tube, calm movements. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+   "istem": "The black crow in the aviary turns its head slightly and moves the bent wire hook in its beak a little, then looks at the tube, calm movements. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs.",
+   "duzenleme": "Ham klipte (nc_kanca_ham.mp4) 4,2 sn sonrasında baş izleyiciye dönüp kanca yüzün önüne geliyor; 0-3,9 sn alındı, ileri+geri oynatıldı."
   },
   {
    "ad": "tup_tas",
    "gorsel": "tup_tas",
    "sure": 5,
-   "istem": "The rook lowers the stone in its beak and drops it into the tube, the water level rises slightly and the floating worm drifts upward on the surface. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+   "istem": "The rook lowers the stone in its beak and drops it into the tube, the water level rises slightly and the floating worm drifts upward on the surface. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs.",
+   "duzenleme": "DÜŞÜRÜLDÜ: tüpte iki solucan görünüyor, su yükselmiyor, eylemi göstermiyor. Çekim görselle kalıyor.",
+   "dusuruldu": true
   },
   {
    "ad": "cop",
    "gorsel": "cop",
    "sure": 5,
-   "istem": "The hooded crows hop around the bins, one pecks at a scrap on the ground and another turns its head, a leaf of paper blows slightly. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+   "istem": "The hooded crows hop around the bins, one pecks at a scrap on the ground and another turns its head, a leaf of paper blows slightly. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs.",
+   "duzenleme": "Ham klipte 3,9 sn sonrasında iki karga üst üste biniyor, gövdeler karışıyor; 0-3,6 sn alındı, ileri+geri oynatıldı."
   },
   {
    "ad": "yavru",
    "gorsel": "yavru",
    "sure": 5,
-   "istem": "The fledgling hops once on the lawn and flutters its small wings while the adult crow on the branch turns its head to watch, grass sways. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+   "istem": "The fledgling hops once on the lawn and flutters its small wings while the adult crow on the branch turns its head to watch, grass sways. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs.",
+   "duzenleme": "DÜŞÜRÜLDÜ: 0,9-4,5 sn arası ikinci baş ve fazladan kanat beliriyor. Çekim görselle kalıyor.",
+   "dusuruldu": true
   },
   {
    "ad": "kapanis",
    "gorsel": "kapanis",
    "sure": 5,
-   "istem": "The crow on the fence tilts its head, blinks, and ruffles its feathers lightly as the pink morning light slowly brightens. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs."
+   "istem": "The crow on the fence tilts its head, blinks, and ruffles its feathers lightly as the pink morning light slowly brightens. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, two legs, no extra limbs.",
+   "duzenleme": "Ham klipte 1,8-3,3 sn arası kanat sarkıp ikinci kanat gibi şekil oluşuyor, kuyruk çiftleniyor; 0-1,8 sn alındı, ileri+geri oynatıldı."
   }
  ]
 }

@@ -1,0 +1,457 @@
+{
+ "000": {
+  "yazi": "Sabah bahçeye çıkıyorsun ve çitin üstündeki karga seni görür görmez bağırmaya başlıyor.",
+  "duyulan": "Sabah bahçeye çıkıyorsun ve çetin üstündeki karga seni görür görmez bağırmaya başlıyor.",
+  "hata": 1,
+  "sure": 5.12,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Peki karga seni gerçekten tanıyor mu?",
+  "duyulan": "Peki karga seni gerçekten tanıyor mu?",
+  "hata": 0,
+  "sure": 2.06,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Evet; bilim insanlarının denediği kargalar tanıyordu.",
+  "duyulan": "Evet, bilim insanlarının denediği kargalar tanıyordu.",
+  "hata": 0,
+  "sure": 2.88,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı.",
+  "duyulan": "Amerika'da bir biyolog, tehdit edici bir maske takıp 7 karga yakalayıp bıraktı.",
+  "hata": 0,
+  "sure": 4.48,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı.",
+  "duyulan": "Sonra o maskeyle yürüdü, kargalar ona bağırdı, başka maskelere pek bağırmadı.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.",
+  "duyulan": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı.",
+  "hata": 0,
+  "sure": 3.44,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Birazdan bu öfkenin yıllarca nasıl taşındığını ve bir kızın kargalardan aldığı hediyeleri göreceksin.",
+  "duyulan": "...birazdan bu öfkenin yıllarca nasıl taşındığını ve bir kızın kargalardan aldığı hediyeleri göreceksin.",
+  "hata": 0,
+  "sure": 5.98,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Kargalar neye bakıyor: yüze mi, boya mı, yürüyüşe mi?",
+  "duyulan": "Kargalar neye bakıyor? Yüze mi, boya mı, yürüyüşe mi?",
+  "hata": 0,
+  "sure": 3.9,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "John Marzluff bu deneyi Washington Üniversitesi'nde iki bin altı yılında başlattı.",
+  "duyulan": "John Martzlaff bu deneyi Washington Üniversitesi'nde 2006 yılında başlattı.",
+  "hata": 1,
+  "sure": 4.26,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar.",
+  "duyulan": "Bu kargalar Amerikan kargası. Türkiye'de yaşamıyorlar.",
+  "hata": 0,
+  "sure": 3.0,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
+  "duyulan": "boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.",
+  "hata": 0,
+  "sure": 4.02,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor.",
+  "duyulan": "kargalar yine de maskeli herkese bağırdı. Araştırmacılar bunu yüz tanımı olarak yorumluyor.",
+  "hata": 1,
+  "sure": 5.86,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Başka bir deneyde kargaların beynine bile baktılar.",
+  "duyulan": "Başka bir deneyde kargaların beynine bile baktılar.",
+  "hata": 0,
+  "sure": 2.8,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Yakalayan maskeyi görünce korkuyla ilgili bölgeler çalıştı; besleyen maskede başka bir yol devreye girdi.",
+  "duyulan": "Yakalayan maskeyi görünce korkuyla ilgili bölgeler çalıştı. Besleyen maske de başka bir yol devreye girdi.",
+  "hata": 0,
+  "sure": 5.9,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Peki bu öfke ne kadar sürüyor?",
+  "duyulan": "Peki bu öfke ne kadar sürüyor?",
+  "hata": 0,
+  "sure": 1.84,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Araştırmacılar kargaların bu tehlikeyi birbirine ve yavrularına öğrettiğini düşünüyor.",
+  "duyulan": "Araştırmacılar kargaların bu tehlikeyi birbirine ve yavrularına öğrettiğini düşünüyor.",
+  "hata": 0,
+  "sure": 4.7,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Yaklaşık on yedi yıl sonra, iki bin yirmi üç eylülünde, Marzluff maskeyle yeniden yürüdü.",
+  "duyulan": "yaklaşık 17 yıl sonra 2023 Eylül'ünde Marslav Maske ile yeniden yürüdü.",
+  "hata": 1,
+  "sure": 5.36,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Bir yürüyüşte hiçbir karga ona bağırmadı; öfke yıllarca sürmüş, ama sonunda sönmüş görünüyor.",
+  "duyulan": "Bir yürüyüşte hiç bir karga ona bağırmadı. Öfke yıllarca sürmüş ama sonunda sönmüş görünüyor.",
+  "hata": 0,
+  "sure": 5.9,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Amerikan kargaları ölü bir karganın çevresine toplanıyor; bilim insanları bunun tehlikeyi öğrenmek için olabileceğini düşünüyor.",
+  "duyulan": "Amerikan kargaları, ölü bir karganın çevresine toplanıyor. Bilim insanları bunun tehlikeyi öğrenmek için olabileceğini düşünüyor.",
+  "hata": 0,
+  "sure": 7.12,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Ölü bir karganın yanında duran maskeli kişiye, kargalar sonraki günlerde de bağırdı.",
+  "duyulan": "Ölü bir karganın yanında duran maskeli kişiye, kargalar sonraki günlerde de bağırdı.",
+  "hata": 0,
+  "sure": 4.68,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi.",
+  "duyulan": "Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi.",
+  "hata": 0,
+  "sure": 3.9,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Kargalar yalnızca kızdığı kişiyi mi tanıyor, dostunu da mı?",
+  "duyulan": "Kargalar yalnızca kızdığı kişiyi mi tanıyor, dostunu da mı?",
+  "hata": 0,
+  "sure": 3.48,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Seattle'da sekiz yaşında bir kız, bahçesine gelen kargaları yıllarca besledi.",
+  "duyulan": "Seattle'da 8 yaşında bir kız, bahçesine gelen kargaları yıllarca besledi.",
+  "hata": 0,
+  "sure": 4.54,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Anlatılanlara göre kargalar ona düğme, taş ve küpe gibi küçük şeyler bıraktı.",
+  "duyulan": "Anlatılanlara göre kargalar ona düğme, taş ve küpe gibi küçük şeyler bıraktı.",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Marzluff, kargaların hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş.",
+  "duyulan": "Marzloz, kargaların hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş.",
+  "hata": 1,
+  "sure": 4.94,
+  "uygun": true
+ },
+ "025": {
+  "yazi": "Evinin çevresinde gördüğün kargaların hepsi aynı kuş mu?",
+  "duyulan": "evinin çevresinde gördüğün kargaların hepsi aynı kuş mu?",
+  "hata": 0,
+  "sure": 3.2,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Değil; Türkiye'de kargagillerden birkaç farklı tür yaşıyor.",
+  "duyulan": "değil, Türkiye'de kargagillerden birkaç farklı tür yaşıyor.",
+  "hata": 0,
+  "sure": 3.92,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Gövdesi gri, başı ve kanatları siyah olan karga da leş kargası olarak biliniyor.",
+  "duyulan": "Gövdesi gri, başı ve kanatları siyah olan karga da leş kargası olarak biliniyor.",
+  "hata": 0,
+  "sure": 4.74,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Yetişkin ekin kargasını, gaganın dibindeki çıplak, açık renkli deriden tanırsın.",
+  "duyulan": "Yetişkin ekin kargasını gaganın dibindeki çıplak, açık renkli deriden tanırsın.",
+  "hata": 0,
+  "sure": 4.58,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Küçük karga adı gibi küçük; ensesi gri, gözü açık renk.",
+  "duyulan": "Küçük karga, adı gibi küçük. Ensesi gri, gözü açık renk.",
+  "hata": 0,
+  "sure": 3.44,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Saksağan da bu ailenin üyesi; siyah beyaz tüyleri ve uzun kuyruğuyla hemen belli oluyor.",
+  "duyulan": "Saksağın da bu ailenin üyesi. Siyah beyaz tüyleri ve uzun kuyruğuyla hemen belli oluyor.",
+  "hata": 1,
+  "sure": 5.22,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Maske deneyleri Amerikan kargasıyla yapıldı.",
+  "duyulan": "Maske deneyleri Amerikan kargasıyla yapıldı.",
+  "hata": 0,
+  "sure": 2.36,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Türkiye'deki kargalarla aynı deneyi yapan bir çalışma bulamadık, ama akraba türlerde benzer bulgular var.",
+  "duyulan": "Türkiye'deki kargalarla aynı deneyi yapan bir çalışma bulamadık ama akraba türlerde benzer bulgular var.",
+  "hata": 0,
+  "sure": 5.72,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Güney Kore'de yapılan bir deneyde saksağanlar yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı; araştırmacılar bunu yüzle tanımaya bağlıyor.",
+  "duyulan": "Güney Kore'de yapılan bir deneyde saksanlar yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı. Araştırmacılar bunu yüzle tanımaya bağlıyor.",
+  "hata": 1,
+  "sure": 8.36,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Karganın beyni küçük; peki nasıl bu kadar akıllı davranıyor?",
+  "duyulan": "Kargının beyni küçük, peki nasıl bu kadar akıllı davranıyor?",
+  "hata": 1,
+  "sure": 3.92,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı.",
+  "duyulan": "Bir araştırma kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı.",
+  "hata": 0,
+  "sure": 7.02,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu.",
+  "duyulan": "aynı ağırlıktaki primat beyinlerine göre ortalama iki kat fazla sinir hücresi buldu.",
+  "hata": 0,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor.",
+  "duyulan": "Bilim insanları bunun tek başına zekanın kanıtı olmadığını da hatırlatıyor.",
+  "hata": 0,
+  "sure": 4.18,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Kargalar alet de kullanır mı?",
+  "duyulan": "Kargalar alet de kullanır mı?",
+  "hata": 0,
+  "sure": 1.92,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Alet ustalarından biri Yeni Kaledonya kargası.",
+  "duyulan": "alet ustalarından biri yeni kaledonya kargası.",
+  "hata": 0,
+  "sure": 3.14,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Güney Pasifik'teki Yeni Kaledonya adalarında yaşıyor; Türkiye'de yaşamıyor.",
+  "duyulan": "Güney Pasifik'teki yeni Kaledonya adalarında yaşıyor, Türkiye'de yaşamıyor.",
+  "hata": 0,
+  "sure": 4.28,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "İki bin iki yılında Betty adlı bir dişi karga, düz teli bükerek kanca yaptı.",
+  "duyulan": "2002 yılında Betya adlı bir dişi karga düz teli bükerek kanca yaptı.",
+  "hata": 1,
+  "sure": 5.16,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti.",
+  "duyulan": "o kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti.",
+  "hata": 0,
+  "sure": 4.28,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Sonraki çalışmalar, bu davranışın ne kadar kendiliğinden olduğunu tartışıyor.",
+  "duyulan": "Sonraki çalışmalar bu davranışın ne kadar kendiliğinden olduğunu tartışıyor.",
+  "hata": 0,
+  "sure": 4.04,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Türkiye'de de yaşayan ekin kargası laboratuvarda şaşırttı.",
+  "duyulan": "Türkiye'de de yaşayan ekin kargası laboratuvarda şaşırttı.",
+  "hata": 0,
+  "sure": 3.46,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Laboratuvarda dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşük olduğu için uzanamadılar.",
+  "duyulan": "Laboratuvarda 4 esir ekin kargasına suyun üstünde yüzen bir solucan verildi, su düşük olduğu için uzanamadılar.",
+  "hata": 0,
+  "sure": 6.9,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.",
+  "duyulan": "tüpün içine taş attılar, su yükseldi ve solucanı aldılar.",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Peki karga uğursuz mu?",
+  "duyulan": "Peki karga uğursuz mu?",
+  "hata": 0,
+  "sure": 1.56,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Bir araştırmaya göre Tatar kültüründe karga önce tanrının elçisi sayılmış, sonra uğursuzlukla da anılmış.",
+  "duyulan": "Bir araştırmaya göre, Tatar kültüründe karga, önce Tanrı'nın elçisi sayılmış, sonra uğursuzlukla da anılmış.",
+  "hata": 0,
+  "sure": 6.26,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Olumlu anlamı da sürmüş.",
+  "duyulan": "olumlu anlamı da sürmüş.",
+  "hata": 0,
+  "sure": 1.36,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Anlamı insanlar yüklemiş; kuş yalnızca kuş.",
+  "duyulan": "Anlamı insanlar yüklemiş. Kuş yalnızca kuş.",
+  "hata": 0,
+  "sure": 3.28,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Kargalar tehlike gördüğünde bağırıyor; maske deneyinde de böyle yaptılar.",
+  "duyulan": "Kargalar tehlike gördüğünde bağırıyor. Maske deneyinde de böyle yaptılar.",
+  "hata": 0,
+  "sure": 4.24,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Kentlerde karga gibi kuşlar kolay yiyecek ve yuva yeri buluyor.",
+  "duyulan": "Kentlerde karga gibi kuşlar kolay yiyecek ve yuva yeri buluyor.",
+  "hata": 0,
+  "sure": 4.26,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Amerikan kargasında görüldüğü gibi, açık çöp, kompost ve evcil hayvan maması onları çekebiliyor.",
+  "duyulan": "Amerikan kargasında görüldüğü gibi açık çöp, kompost ve evcil hayvan maması onları çekebiliyor.",
+  "hata": 0,
+  "sure": 6.2,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Çöpünü kapaklı kutuda tutmak işe yarayabilir.",
+  "duyulan": "Çöpünü kapaklı kutuda tutmak işe yarayabilir.",
+  "hata": 0,
+  "sure": 2.5,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Kargayı kovalama ya da ona taş atma; maske deneyine bakılırsa seni tehdit olarak hatırlayabilir.",
+  "duyulan": "Kargayı kovalama ya da ona taş atma. Maske deneyine bakılırsa seni tehdit olarak hatırlayabilir.",
+  "hata": 0,
+  "sure": 6.04,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Bahçende sıçrayarak ilerleyen, uçamayan bir yavru karga bulursan ne yapmalısın?",
+  "duyulan": "bahçende sıçrayarak ilerleyen, uçamayan bir yavru karga bulursan ne yapmalısın?",
+  "hata": 0,
+  "sure": 5.06,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Kanada'daki bir yaban hayatı kurtarma derneğine göre, kargalar uçmayı öğrenirken bir süre yerde kalabiliyor.",
+  "duyulan": "Kanadadaki bir yavan hayatı kurtarma derneğine göre kargalar uçmayı öğrenirken bir süre yerde kalabiliyor.",
+  "hata": 1,
+  "sure": 5.9,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor.",
+  "duyulan": "Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor.",
+  "hata": 0,
+  "sure": 4.14,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Yavru sağlıklı görünüyorsa eve götürme; olduğu yerde bırak.",
+  "duyulan": "Yavru sağlıklı görünüyorsa eve götürme. Olduğu yerde bırak.",
+  "hata": 0,
+  "sure": 3.64,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Kedi, köpek ya da yol gibi bir tehlike varsa onu yakındaki güvenli bir yere taşı.",
+  "duyulan": "Kedi, köpek ya da yol gibi bir tehlike varsa onu yakındaki güvenli bir yere taşı.",
+  "hata": 0,
+  "sure": 4.7,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Yaralıysa, tüyleri tam çıkmamışsa ya da uzun süre kimse onu beslemiyorsa uzman yardımı gerekir.",
+  "duyulan": "Yaralıysa, tüyleri tam çıkmamışsa ya da uzun süre kimse onu beslemiyorsa, uzman yardıma gerekir.",
+  "hata": 1,
+  "sure": 6.16,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Bunun için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver.",
+  "duyulan": "Bunun için bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne haber ver.",
+  "hata": 0,
+  "sure": 4.16,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Hasta ya da ölü bir kuşa dokunma; dokunduysan ellerini sabunla yıka.",
+  "duyulan": "Hasta ya da ölü bir kuşa dokunma. Dokunduysan ellerini sabunla yıka.",
+  "hata": 0,
+  "sure": 4.16,
+  "uygun": true
+ },
+ "064": {
+  "yazi": "Yavruya yaklaşırsan ebeveynleri üzerine alçalabilir; uzaklaşmak ve şemsiyeyle önünü kapatmak öneriliyor.",
+  "duyulan": "Yavruya yaklaşırsan ebeveynleri üzerine alçanabilir, uzaklaşmak ve şemsiye ile önünü kapatmak öneriliyor.",
+  "hata": 1,
+  "sure": 6.44,
+  "uygun": true
+ }
+}
