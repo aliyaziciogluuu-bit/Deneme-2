@@ -148,6 +148,27 @@
      "sonuc": "TESLİM"
     }
    ]
+  },
+  "06-karga": {
+   "turlar": [
+    {
+     "tur": 3,
+     "tarih": "2026-11-19",
+     "puan": {
+      "dogruluk": 8.0,
+      "guvenlik": 9.0,
+      "kanca": 9.0,
+      "anlatim": 9.0,
+      "baslik": 8.0,
+      "shorts": 8.0,
+      "ses": 7.0,
+      "gorsel": 8.0,
+      "teknik": 8.0
+     },
+     "toplam": 83.0,
+     "sonuc": "TESLİM"
+    }
+   ]
   }
  }
 }

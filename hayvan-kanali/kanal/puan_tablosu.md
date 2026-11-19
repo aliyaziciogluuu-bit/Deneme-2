@@ -25,6 +25,7 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 | 04-yarasa | 3 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | **80.5** | TESLİM |
 | 05-baykus | 1 | 2026-11-19 | 6.0 | 5.0 | 7.0 | 8.0 | 7.0 | 5.0 | 8.0 | 6.0 | 8.0 | **66.5** | RET (kırmızı çizgi: guvenlik) |
 | 05-baykus | 2 | 2026-11-19 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | 8.0 | 8.0 | **84.0** | TESLİM |
+| 06-karga | 3 | 2026-11-19 | 8.0 | 9.0 | 9.0 | 9.0 | 8.0 | 8.0 | 7.0 | 8.0 | 8.0 | **83.0** | TESLİM |
 
 ## Gerçek performans (yayından sonra)
 
@@ -40,27 +41,27 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 
 | Çalışan | Video sayısı | İlk tur ortalaması (kendi ölçütleri, 10 üzerinden) | İlk turda RET/DÜZELTME |
 |---|---|---|---|
-| senarist | 3 | 7.1 | 2 |
-| paketleme uzmanı | 3 | 6.7 | 1 |
-| Shorts uzmanı | 3 | 6.0 | 2 |
-| yapımcı | 3 | 6.7 | 1 |
-| patron | 3 | 8.2 | 0 |
+| senarist | 4 | 7.5 | 2 |
+| paketleme uzmanı | 4 | 7.0 | 1 |
+| Shorts uzmanı | 4 | 6.5 | 2 |
+| yapımcı | 4 | 7.0 | 1 |
+| patron | 4 | 8.0 | 0 |
 
 ## Ölçüt eğilimi (ilk tur → son tur, videolar tarih sırasıyla)
 
 Hedef: her ölçütte ilk turda 9. Bir ölçüt yerinde sayıyorsa dersler defterindeki "Puandan dersler" satırı sertleştirilir.
 
-| Ölçüt | 02-ev-kertenkelesi | 04-yarasa | 05-baykus |
-|---|---|---|---|
-| Doğruluk ve kaynak | 6 → 8 | 8 | 6 → 9 |
-| Güvenlik ve çekinceler | 7 → 8 | 8 | 5 → 9 |
-| Giriş ve izleyici tutma | 6 → 8 | 8 | 7 → 8 |
-| Anlatım ve Türkçe | 8 | 8 | 8 |
-| Başlık, küçük resim, açıklama | 6 → 8 | 7 → 8 | 7 → 8 |
-| Shorts kancası | 6 → 7 | 7 → 8 | 5 → 8 |
-| Seslendirme ve ses | 8 | 8 | 8 → 9 |
-| Görsel, anatomi, kadraj | 7 → 8 | 7 → 8 | 6 → 8 |
-| Testler ve teslim | 9 | 8 → 9 | 8 |
+| Ölçüt | 02-ev-kertenkelesi | 04-yarasa | 05-baykus | 06-karga |
+|---|---|---|---|---|
+| Doğruluk ve kaynak | 6 → 8 | 8 | 6 → 9 | 8 |
+| Güvenlik ve çekinceler | 7 → 8 | 8 | 5 → 9 | 9 |
+| Giriş ve izleyici tutma | 6 → 8 | 8 | 7 → 8 | 9 |
+| Anlatım ve Türkçe | 8 | 8 | 8 | 9 |
+| Başlık, küçük resim, açıklama | 6 → 8 | 7 → 8 | 7 → 8 | 8 |
+| Shorts kancası | 6 → 7 | 7 → 8 | 5 → 8 | 8 |
+| Seslendirme ve ses | 8 | 8 | 8 → 9 | 7 |
+| Görsel, anatomi, kadraj | 7 → 8 | 7 → 8 | 6 → 8 | 8 |
+| Testler ve teslim | 9 | 8 → 9 | 8 | 8 |
 
 ## Denetçilerin kaçırdığı hatalar
 
