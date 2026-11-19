@@ -24,11 +24,11 @@ Bölümler:
 🌿 Senin oralarda baykuşla ilgili hangi inanışlar anlatılıyor? Geceleri evinin çevresinde baykuş sesi duyuyor musun? Yorumlarda konuşalım.
 
 Kaynaklar:
-- Payne, R.S. (1971). Peçeli baykuşun avını sesle bulması. Journal of Experimental Biology 54(3). doi:10.1242/jeb.54.3.535
-- de Kok-Mercado, F. ve ark. (2013). Baykuşun aşırı boyun dönüşüne uyum sağlayan atardamarları. Science 339(6119). doi:10.1126/science.339.6119.514
-- Rao, C. ve ark. (2017). Baykuş kanadındaki ön kenar dişleri ve ses bastırma. Bioinspiration & Biomimetics 12. doi:10.1088/1748-3190/aa7013
+- Payne, R.S. (1971). Acoustic location of prey by barn owls (Tyto alba). Journal of Experimental Biology 54(3): 535–573. doi:10.1242/jeb.54.3.535
+- de Kok-Mercado, F., Habib, M., Phelps, T., Gregg, L., Gailloud, P. (2013). Adaptations of the owl's cervical & cephalic arteries in relation to extreme neck rotation. Science 339(6119): 514–515. doi:10.1126/science.339.6119.514
+- Rao, C., Ikeda, T., Nakata, T., Liu, H. (2017). Owl-inspired leading-edge serrations play a crucial role in aerodynamic force production and sound suppression. Bioinspiration & Biomimetics 12(4): 046008. doi:10.1088/1748-3190/aa7013
 - Johnson, M.D. & St. George, D. – Bağlardaki yuva kutularında peçeli baykuşların avladığı kemirgen sayısı. Vertebrate Pest Conference: escholarship.org/uc/item/4jj7r78x
-- Frontiers for Young Minds (2023). Tarımda biyolojik mücadele olarak peçeli baykuşlar (İsrail). doi:10.3389/frym.2023.1182137
+- Frontiers for Young Minds (2023). doi:10.3389/frym.2023.1182137 – İsrail'de peçeli baykuşların tarımda biyolojik mücadelede kullanımı (konu özeti)
 - Barn Owl Trust – Alaca ve peçeli baykuş yavruları: barnowltrust.org.uk/owl-facts-for-kids/tawny-barn-owl-owlets
 - 4915 sayılı Kara Avcılığı Kanunu ve Merkez Av Komisyonu kararları – Tarım ve Orman Bakanlığı DKMP: tarimorman.gov.tr/DKMP
 - TDV İslâm Ansiklopedisi – Uğursuzluk maddesi: islamansiklopedisi.org.tr/ugursuzluk
