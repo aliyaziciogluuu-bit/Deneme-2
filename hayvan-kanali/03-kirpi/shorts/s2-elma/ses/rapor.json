@@ -1,47 +1,45 @@
 {
  "000": {
-  "yazi": "Kirpiler sırtlarında elma taşır mı?",
-  "duyulan": "Kirpiler sırtlarında elma taşır mı?",
+  "yazi": "Kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
+  "duyulan": "Kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
   "hata": 0,
-  "sure": 1.9,
+  "sure": 3.72,
   "uygun": true
  },
  "001": {
-  "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
-  "duyulan": "Bu hikaye, yaklaşık 2000 yıl önce yaşamış Romalı yazar yaşlı Plinyos'a kadar uzanıyor.",
+  "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
+  "duyulan": "Bu inanç, yaklaşık 2000 yıl önce yaşamış Romalı yazar, yaşlı Plinyos'un yazılarında da geçiyor.",
   "hata": 0,
   "sure": 5.92,
-  "uygun": true,
-  "tek_basina": true
+  "uygun": true
  },
  "002": {
   "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla karşımıza çıkıyor.",
   "duyulan": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla karşımıza çıkıyor.",
   "hata": 0,
-  "sure": 4.32,
+  "sure": 4.48,
   "uygun": true
  },
  "003": {
-  "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.",
-  "duyulan": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.",
+  "yazi": "Dikenleri onu avcılardan korumaya yarıyor.",
+  "duyulan": "dikenleri onu avcılardan korumaya yarıyor.",
   "hata": 0,
-  "sure": 3.1,
-  "uygun": true
+  "sure": 2.72,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
-  "yazi": "Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor.",
-  "duyulan": "Kirpi aslında bir böcek avcısı, meyveyi ancak arada sırada yiyor.",
+  "yazi": "Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar.",
+  "duyulan": "Kirpi aslında bir böcek avcısı, doğal besininin ana kısmı böcekler ve solucanlar.",
   "hata": 0,
-  "sure": 4.44,
-  "uygun": true,
-  "tek_basina": true
+  "sure": 5.62,
+  "uygun": true
  },
  "005": {
-  "yazi": "Asıl menüsünde böcekler, tırtıllar, solucanlar ve salyangozlar var. Tam videosu kanalımızda.",
-  "duyulan": "Asıl menüsünde böcekler, tırtıllar, solucanlar ve salyangozlar var. Tam videosu kanalımızda.",
+  "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var. Tam videosu kanalımızda.",
+  "duyulan": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var. Tam videosu kanalımızda.",
   "hata": 0,
-  "sure": 7.04,
-  "uygun": true,
-  "tek_basina": true
+  "sure": 5.62,
+  "uygun": true
  }
 }

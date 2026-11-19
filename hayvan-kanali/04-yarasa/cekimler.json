@@ -194,7 +194,7 @@
     0.5,
     0.82
    ],
-   "etiket": "Dünyada 1.400'ü aşkın tür"
+   "etiket": "Dünyada 1.300'den fazla tür"
   },
   {
    "n": 1,
@@ -209,7 +209,7 @@
     0.5,
     0.82
    ],
-   "etiket": "Türkiye'de 35'ten fazla tür"
+   "etiket": "Türkiye'de 30'dan fazla tür"
   },
   {
    "n": 1,
@@ -412,7 +412,7 @@
     0.4,
     0.6
    ],
-   "etiket": "Sivrisinek · güve · tarım zararlıları"
+   "etiket": "Güve · sinek · tarım zararlıları"
   },
   {
    "n": 1,
@@ -427,7 +427,7 @@
     0.5,
     0.55
    ],
-   "etiket": "Bir gecede ~0,5–2 g böcek"
+   "etiket": "Bir gecede ~0,4–2,2 g böcek"
   },
   {
    "n": 1,
@@ -748,7 +748,7 @@
     0.45,
     0.65
    ],
-   "etiket": "Işıkları kapat · pencereyi aç · odadan çık"
+   "etiket": "Işıkları kapat · pencereyi aç · çocukları uzak tut"
   },
   {
    "n": 1,
@@ -793,7 +793,7 @@
     0.5,
     0.82
    ],
-   "etiket": "Kalın eldiven + kutu + karton"
+   "etiket": "Yetişkin: kalın eldiven + kutu + karton"
   },
   {
    "n": 1,
@@ -823,7 +823,7 @@
     0.5,
     0.65
    ],
-   "etiket": "Yarasalar yasal koruma altında"
+   "etiket": "Yarasalar korunmalı"
   },
   {
    "n": 1,
@@ -852,7 +852,7 @@
     0.35,
     0.6
    ],
-   "etiket": "Yarasa kutusu: güvenli barınak"
+   "etiket": "Yarasa kutusu: doğru yapılmalı"
   },
   {
    "n": 1,

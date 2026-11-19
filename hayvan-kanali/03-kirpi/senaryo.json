@@ -1,16 +1,19 @@
 {
-  "baslik": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Öldürebilirsin)",
+  "baslik": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Zarar Verebilirsin)",
   "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları bilerek kullanılmadı.",
-  "aciklama": "Bahçende bir kirpi gördün ve önüne bir kap süt koydun. Çok iyi niyetli bir hareket, ama kirpiler sütü sindiremez. Süt ishale, ishal de susuz kalmaya yol açar; zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.\n\nBu videoda kirpiye neden süt ve ekmek verilmemesi gerektiğini, onun yerine nasıl yardım edebileceğini anlatıyoruz. Türkiye'de yaşayan üç kirpi türünü (akgöğüslü kirpi, Balkan kirpisi ve uzun kulaklı kirpi), dikenlerinin sırrını, sırtında elma taşıdığı efsanesinin nereden çıktığını, kendini köpükle yağlama davranışını ve kış uykusunda vücudunda neler olduğunu keşfediyoruz.\n\nGündüz kirpi görürsem ne yapmalıyım, kirpiye ne verilir, bahçeme kirpi nasıl gelir, kirpiye nasıl yardım ederim diye merak ediyorsan, sığ su kabından bahçe çitindeki küçük geçide kadar pratik öneriler de videoda. Unutma: kirpi Türkiye'de koruma altındaki yaban hayvanlarından biri.",
+  "aciklama": "Bahçende bir kirpi gördün ve önüne bir kap süt koydun. Çok iyi niyetli bir hareket, ama kirpiler sütü sindiremez. Süt ishale, ishal de sıvı kaybına yol açabilir; zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.\n\nBu videoda kirpiye neden süt ve ekmek verilmemesi gerektiğini, onun yerine nasıl yardım edebileceğini anlatıyoruz. Türkiye'de yaşayan üç kirpi türünü (akgöğüslü kirpi, Balkan kirpisi ve uzun kulaklı kirpi), dikenlerinin sırrını, sırtında elma taşıdığı efsanesinin nereden çıktığını, vücudunu köpüklü salyayla kaplama davranışını ve kış uykusunda vücudunda neler olduğunu keşfediyoruz.\n\nGündüz kirpi görürsem ne yapmalıyım, kirpiye ne verilir, bahçeme kirpi nasıl gelir, kirpiye nasıl yardım ederim diye merak ediyorsan, sığ su kabından bahçe çitindeki küçük geçide kadar pratik öneriler de videoda. Unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.",
   "yorum_sorusu": "Senin oralarda kirpiyle ilgili hangi inanışlar anlatılıyor? Bahçende hiç kirpi gördün mü? Yorumlarda konuşalım.",
   "kaynaklar": [
-    "Hedgehog Street (BHPS ve PTES) – Kirpi efsaneleri ve doğru besleme: hedgehogstreet.org/mythbusters",
-    "British Hedgehog Preservation Society: britishhedgehogs.org.uk",
-    "Pro Igel e.V. – Kirpi bakımı ve beslenmesi: pro-igel.de",
-    "MSD Veterinary Manual – Overview of Hedgehogs: msdvetmanual.com",
-    "Orman ve Su İşleri Bakanlığınca Belirlenen Av ve Yaban Hayvanları Tür Listeleri Kararı (Resmî Gazete, 19.04.2014) – Ek-1 koruma altındaki türler",
-    "Turkish Journal of Zoology 22 (1998) – Hemiechinus auritus'un Türkiye'deki kayıtları: journals.tubitak.gov.tr/zoology/vol22/iss2/5",
-    "Wildlife Online – European hedgehog: beslenme, davranış ve halk inanışları: wildlifeonline.me.uk"
+    "Hedgehog Street (BHPS ve PTES) – Kirpi biyolojisi: dikenler, beslenme, yılan zehrine direnç: hedgehogstreet.org/about-hedgehogs/hedgehog-biology",
+    "Hedgehog Street (BHPS ve PTES) – Kirpinin tarihi ve efsaneleri: hedgehogstreet.org/about-hedgehogs/hedgehogs-history",
+    "Hedgehog Street (BHPS ve PTES) – Kış uykusu: hedgehogstreet.org/about-hedgehogs/hibernation",
+    "Hedgehog Street (BHPS ve PTES) – Kirpiye ne verilir: hedgehogstreet.org/help-hedgehogs/feed-hedgehogs",
+    "Hedgehog Street (BHPS ve PTES) – Bahçeni komşu bahçelere bağla (on üç santimetrelik geçit): hedgehogstreet.org/help-hedgehogs/link-your-garden",
+    "Uluturk ve Coskun (2012) – Diyarbakır kirpileri, Erinaceus concolor ve Hemiechinus auritus: dergipark.org.tr/tr/pub/ksudobil/issue/22831/243746",
+    "Özen (2005) – Türkiye'de Erinaceus concolor'un yayılışı: dergipark.org.tr/en/pub/dpufbed/article/408590",
+    "Wikipedia – European hedgehog (beslenme): en.wikipedia.org/wiki/European_hedgehog",
+    "Wikipedia – Hedgehog (dikenler, yılan zehri, kendini yağlama, trafik kazaları): en.wikipedia.org/wiki/Hedgehog",
+    "Wikipedia – Hedgehogs in culture (Plinius ve meyve inancı): en.wikipedia.org/wiki/Hedgehogs_in_culture"
   ],
   "etiketler": [
     "kirpi",
@@ -57,7 +60,7 @@
           "yazi": "Ama bu iyi niyetli hareket, onu hasta edebilir."
         },
         {
-          "yazi": "Hatta zayıf bir kirpiyse ya da bir yavruysa, öldürebilir."
+          "yazi": "Hatta zayıf bir kirpiyse ya da bir yavruysa, hayatını tehlikeye atabilir."
         },
         {
           "yazi": "Peki neden? Ve kirpiye gerçekten nasıl yardım edebilirsin?"
@@ -83,7 +86,7 @@
           "yazi": "İshal, küçük bir hayvan için hızla susuz kalmak demek."
         },
         {
-          "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir."
+          "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir."
         },
         {
           "yazi": "Laktozu alınmış süt ya da bitki sütleri de bahçedeki bir kirpi için doğru seçim değil."
@@ -126,17 +129,17 @@
           "yazi": "Türkiye'de üç kirpi türü yaşıyor."
         },
         {
-          "yazi": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli akgöğüslü kirpi.",
-          "ses": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli ak göğüslü kirpi."
+          "yazi": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli akgöğüslü kirpi.",
+          "ses": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli ak göğüslü kirpi."
         },
         {
           "yazi": "Trakya'da da onun yakın akrabası Balkan kirpisi yaşıyor."
         },
         {
-          "yazi": "Güneydoğu Anadolu'da ve Iğdır çevresinde de iri kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor."
+          "yazi": "Güneydoğu Anadolu'da, iri kulaklarıyla dikkat çeken uzun kulaklı kirpi de yaşıyor."
         },
         {
-          "yazi": "Boyları genellikle yirmi ila otuz santimetre arasında."
+          "yazi": "Üçünün de sırtı dikenlerle kaplı."
         }
       ]
     },
@@ -144,7 +147,7 @@
       "ad": "Dikenlerin sırrı",
       "cumleler": [
         {
-          "yazi": "Bir kirpinin sırtında beş ila yedi bin arasında diken var."
+          "yazi": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış."
         },
         {
           "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış."
@@ -164,11 +167,11 @@
       "ad": "Sırtında elma taşır mı?",
       "cumleler": [
         {
-          "yazi": "Kirpilerle ilgili en eski efsanelerden biri, sırtına meyve takıp yuvasına taşıdığı inancı."
+          "yazi": "Kirpilerle ilgili çok eski bir inanış var: sırtına meyve takıp yuvasına taşıdığı."
         },
         {
-          "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
-          "ses": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'a kadar uzanıyor."
+          "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
+          "ses": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'un yazılarında da geçiyor."
         },
         {
           "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor."
@@ -177,7 +180,7 @@
           "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok."
         },
         {
-          "yazi": "Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor."
+          "yazi": "Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar."
         }
       ]
     },
@@ -185,7 +188,7 @@
       "ad": "Kirpinin menüsü",
       "cumleler": [
         {
-          "yazi": "Menüsünde böcekler, tırtıllar, solucanlar, sümüklü böcekler ve salyangozlar var."
+          "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var."
         },
         {
           "yazi": "Özellikle sert kabuklu böcekler, beslenmesinin önemli bir bölümünü oluşturuyor."
@@ -197,7 +200,7 @@
           "yazi": "Bu yüzden bahçedeki bazı zararlıları da yiyerek doğal bir denge kuruyor."
         },
         {
-          "yazi": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, engerek zehrine karşı kısmi bir dirençleri olduğunu gösteriyor."
+          "yazi": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, yılan zehrine karşı kısmi bir dirençleri olduğunu gösteriyor; ama bir ısırık yine de onu ağır hasta edebilir."
         },
         {
           "yazi": "Ama bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler."
@@ -217,7 +220,7 @@
           "yazi": "Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor."
         },
         {
-          "yazi": "Türkçede buna kendini yağlama da deniyor; bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor."
+          "yazi": "Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor."
         }
       ]
     },
@@ -231,10 +234,10 @@
           "yazi": "Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre, kalp atışı dakikada yüz doksandan yirmi civarına iniyor."
         },
         {
-          "yazi": "Vücut sıcaklığı da otuz beş dereceden beş ila on dereceye kadar düşebiliyor."
+          "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor."
         },
         {
-          "yazi": "Bu yüzden sonbaharda yaprak yığınlarını yakmadan ya da dağıtmadan önce, içinde bir kirpi olup olmadığına bakmak gerekiyor."
+          "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak. Bir kirpi bulursan onu rahatsız etme; yaprakları dikkatle eski hâline getir ve uzaklaş."
         }
       ]
     },
@@ -271,16 +274,16 @@
       "ad": "Bahçeni kirpi dostu yap",
       "cumleler": [
         {
-          "yazi": "Kirpilerin en büyük tehlikelerinden biri arabalar; geceleri yolu geçerken araçların altında kalıyorlar."
+          "yazi": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar."
         },
         {
           "yazi": "Bahçelerde de çim biçme ve kenar kesme makineleri, sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor."
         },
         {
-          "yazi": "Kirpiler bir gecede birkaç kilometreye kadar yol yürüyebiliyor."
+          "yazi": "Kirpiler bir gecede kilometrelerce yol yürüyebiliyor."
         },
         {
-          "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan yaklaşık on üç santimetrelik bir delik, onlar için bir geçit oluyor."
+          "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan on üç santimetreye on üç santimetrelik bir delik, onlar için bir geçit oluyor. Bahçen kalabalık bir yola bakıyorsa deliği yola doğru açma."
         },
         {
           "yazi": "Bahçenin bir köşesinde bırakılan yaprak yığını da onlara yuva oluyor."
@@ -289,7 +292,7 @@
           "yazi": "Bahçede havuz varsa bir kenarına rampa koy; kirpiler yüzebilir ama kaygan kenarlardan çıkamayabilir."
         },
         {
-          "yazi": "Ve unutma: Türkiye'de kirpi koruma altında; onu yakalayıp evde beslemek ya da öldürmek yasak. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin."
+          "yazi": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin."
         }
       ]
     },

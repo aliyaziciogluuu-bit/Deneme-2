@@ -23,393 +23,393 @@ bir kaba biraz süt koyup önüne bırakıyorsun.
 Ama bu iyi niyetli hareket, onu hasta edebilir.
 
 7
-00:00:18,600 --> 00:00:22,265
-Hatta zayıf bir kirpiyse ya da bir yavruysa, öldürebilir.
+00:00:18,600 --> 00:00:23,805
+Hatta zayıf bir kirpiyse ya da bir yavruysa, hayatını tehlikeye atabilir.
 
 8
-00:00:22,370 --> 00:00:26,410
+00:00:23,910 --> 00:00:27,950
 Peki neden? Ve kirpiye gerçekten nasıl yardım edebilirsin?
 
 9
-00:00:26,515 --> 00:00:30,945
+00:00:28,055 --> 00:00:32,485
 Bu, bahçelerimizin dikenli gece bekçisi kirpinin hikâyesi.
 
 10
-00:00:31,545 --> 00:00:35,010
+00:00:33,085 --> 00:00:36,550
 Kirpiler, sütteki laktoz adlı şekeri sindiremiyor.
 
 11
-00:00:35,115 --> 00:00:40,080
+00:00:36,655 --> 00:00:41,620
 Bu şekeri parçalayan enzim, bağırsaklarında yok denecek kadar az.
 
 12
-00:00:40,185 --> 00:00:43,290
+00:00:41,725 --> 00:00:44,830
 Süt içen bir kirpide kısa sürede ishal başlayabiliyor.
 
 13
-00:00:43,395 --> 00:00:47,100
+00:00:44,935 --> 00:00:48,640
 İshal, küçük bir hayvan için hızla susuz kalmak demek.
 
 14
-00:00:47,205 --> 00:00:51,970
-Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.
+00:00:48,745 --> 00:00:51,420
+Zaten aç ve zayıf bir kirpi ya da bir
 
 15
-00:00:52,075 --> 00:00:54,931
-Laktozu alınmış süt ya da bitki sütleri de
+00:00:51,420 --> 00:00:54,630
+yavru için bu hayati tehlike yaratabilir.
 
 16
-00:00:54,931 --> 00:00:58,100
-bahçedeki bir kirpi için doğru seçim değil.
+00:00:54,735 --> 00:00:57,591
+Laktozu alınmış süt ya da bitki sütleri de
 
 17
-00:00:58,205 --> 00:01:00,324
-Ekmek de iyi bir seçim değil;
+00:00:57,591 --> 00:01:00,760
+bahçedeki bir kirpi için doğru seçim değil.
 
 18
-00:01:00,324 --> 00:01:04,155
-karnını doyurur ama ona gereken besinleri vermez.
+00:01:00,865 --> 00:01:02,984
+Ekmek de iyi bir seçim değil;
 
 19
-00:01:04,755 --> 00:01:07,668
-Kirpiye yardım etmek istiyorsan en iyi şey,
+00:01:02,984 --> 00:01:06,815
+karnını doyurur ama ona gereken besinleri vermez.
 
 20
-00:01:07,668 --> 00:01:10,080
-sığ bir kapta temiz su bırakmak.
+00:01:07,415 --> 00:01:10,328
+Kirpiye yardım etmek istiyorsan en iyi şey,
 
 21
-00:01:10,185 --> 00:01:13,810
-Özellikle sıcak ve kurak günlerde su bulmakta zorlanabiliyor.
+00:01:10,328 --> 00:01:12,740
+sığ bir kapta temiz su bırakmak.
 
 22
-00:01:13,915 --> 00:01:16,543
-Mama koymak istersen, et bazlı kedi ya da
+00:01:12,845 --> 00:01:16,470
+Özellikle sıcak ve kurak günlerde su bulmakta zorlanabiliyor.
 
 23
-00:01:16,543 --> 00:01:19,480
-köpek maması uygun; balıklı olanlar değil.
+00:01:16,575 --> 00:01:19,203
+Mama koymak istersen, et bazlı kedi ya da
 
 24
-00:01:19,585 --> 00:01:22,330
-Ama unutma: kirpi evcil bir hayvan değil.
+00:01:19,203 --> 00:01:22,140
+köpek maması uygun; balıklı olanlar değil.
 
 25
-00:01:22,435 --> 00:01:26,820
-Mama, yalnızca doğal besinin az olduğu dönemler için küçük bir destek.
+00:01:22,245 --> 00:01:24,990
+Ama unutma: kirpi evcil bir hayvan değil.
 
 26
-00:01:26,925 --> 00:01:31,415
-Kapları sık sık yıka, suyu her gün tazele, kalan mamayı topla.
+00:01:25,095 --> 00:01:29,480
+Mama, yalnızca doğal besinin az olduğu dönemler için küçük bir destek.
 
 27
-00:01:32,015 --> 00:01:36,080
-Kirpiler, böcekçil memeliler grubundan küçük gece hayvanları.
+00:01:29,585 --> 00:01:34,075
+Kapları sık sık yıka, suyu her gün tazele, kalan mamayı topla.
 
 28
-00:01:36,185 --> 00:01:38,310
-Türkiye'de üç kirpi türü yaşıyor.
+00:01:34,675 --> 00:01:38,740
+Kirpiler, böcekçil memeliler grubundan küçük gece hayvanları.
 
 29
-00:01:38,415 --> 00:01:41,540
-Anadolu'nun büyük bölümünde yaygın olan tür,
+00:01:38,845 --> 00:01:40,970
+Türkiye'de üç kirpi türü yaşıyor.
 
 30
-00:01:41,540 --> 00:01:44,200
-göğsü açık renkli akgöğüslü kirpi.
+00:01:41,075 --> 00:01:46,500
+Türkiye'nin kirpi türlerinden biri, göğsü açık renkli akgöğüslü kirpi.
 
 31
-00:01:44,305 --> 00:01:47,750
+00:01:46,605 --> 00:01:50,050
 Trakya'da da onun yakın akrabası Balkan kirpisi yaşıyor.
 
 32
-00:01:47,855 --> 00:01:50,500
-Güneydoğu Anadolu'da ve Iğdır çevresinde de iri
+00:01:50,155 --> 00:01:52,595
+Güneydoğu Anadolu'da, iri kulaklarıyla
 
 33
-00:01:50,500 --> 00:01:53,840
-kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor.
+00:01:52,595 --> 00:01:55,600
+dikkat çeken uzun kulaklı kirpi de yaşıyor.
 
 34
-00:01:53,945 --> 00:01:57,415
-Boyları genellikle yirmi ila otuz santimetre arasında.
+00:01:55,705 --> 00:01:58,335
+Üçünün de sırtı dikenlerle kaplı.
 
 35
-00:01:58,015 --> 00:02:01,660
-Bir kirpinin sırtında beş ila yedi bin arasında diken var.
+00:01:58,935 --> 00:02:04,160
+Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış.
 
 36
-00:02:01,765 --> 00:02:03,985
+00:02:04,265 --> 00:02:06,485
 Bu dikenler aslında sertleşmiş kıllar;
 
 37
-00:02:03,985 --> 00:02:07,150
+00:02:06,485 --> 00:02:09,650
 saçımız ve tırnaklarımız gibi keratinden yapılmış.
 
 38
-00:02:07,255 --> 00:02:10,800
+00:02:09,755 --> 00:02:13,300
 Zehirli değiller ve kirpi onları ok gibi fırlatamaz.
 
 39
-00:02:10,905 --> 00:02:14,708
+00:02:13,405 --> 00:02:17,208
 Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü
 
 40
-00:02:14,708 --> 00:02:18,990
+00:02:17,208 --> 00:02:21,490
 bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.
 
 41
-00:02:19,095 --> 00:02:21,985
+00:02:21,595 --> 00:02:24,485
 Ama bu savunma, bir arabaya karşı işe yaramıyor.
 
 42
-00:02:22,585 --> 00:02:25,601
-Kirpilerle ilgili en eski efsanelerden biri,
+00:02:25,085 --> 00:02:27,763
+Kirpilerle ilgili çok eski bir inanış var:
 
 43
-00:02:25,601 --> 00:02:28,930
-sırtına meyve takıp yuvasına taşıdığı inancı.
+00:02:27,763 --> 00:02:30,430
+sırtına meyve takıp yuvasına taşıdığı.
 
 44
-00:02:29,035 --> 00:02:31,872
-Bu hikâye yaklaşık iki bin yıl önce yaşamış
+00:02:30,535 --> 00:02:33,691
+Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı
 
 45
-00:02:31,872 --> 00:02:35,020
-Romalı yazar Yaşlı Plinius'a kadar uzanıyor.
+00:02:33,691 --> 00:02:36,840
+yazar Yaşlı Plinius'un yazılarında da geçiyor.
 
 46
-00:02:35,125 --> 00:02:39,650
+00:02:36,945 --> 00:02:41,470
 Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor.
 
 47
-00:02:39,755 --> 00:02:43,680
+00:02:41,575 --> 00:02:45,500
 Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.
 
 48
-00:02:43,785 --> 00:02:48,215
-Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor.
+00:02:45,605 --> 00:02:47,829
+Kirpi aslında bir böcek avcısı;
 
 49
-00:02:48,815 --> 00:02:51,728
-Menüsünde böcekler, tırtıllar, solucanlar,
+00:02:47,829 --> 00:02:51,595
+doğal besininin ana kısmı böcekler ve solucanlar.
 
 50
-00:02:51,728 --> 00:02:54,540
-sümüklü böcekler ve salyangozlar var.
+00:02:52,195 --> 00:02:57,340
+Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var.
 
 51
-00:02:54,645 --> 00:02:56,467
+00:02:57,445 --> 00:02:59,267
 Özellikle sert kabuklu böcekler,
 
 52
-00:02:56,467 --> 00:02:59,330
+00:02:59,267 --> 00:03:02,130
 beslenmesinin önemli bir bölümünü oluşturuyor.
 
 53
-00:02:59,435 --> 00:03:01,785
+00:03:02,235 --> 00:03:04,585
 Fırsat bulursa yerde yuva yapan kuşların
 
 54
-00:03:01,785 --> 00:03:04,380
+00:03:04,585 --> 00:03:07,180
 yumurtalarını ve leşleri de yiyebiliyor.
 
 55
-00:03:04,485 --> 00:03:09,250
+00:03:07,285 --> 00:03:12,050
 Bu yüzden bahçedeki bazı zararlıları da yiyerek doğal bir denge kuruyor.
 
 56
-00:03:09,355 --> 00:03:11,959
+00:03:12,155 --> 00:03:15,568
 Avrupa'daki akrabaları üzerinde yapılan çalışmalar,
 
 57
-00:03:11,959 --> 00:03:15,420
-engerek zehrine karşı kısmi bir dirençleri olduğunu gösteriyor.
+00:03:15,568 --> 00:03:19,650
+yılan zehrine karşı kısmi bir dirençleri olduğunu gösteriyor;
 
 58
-00:03:15,525 --> 00:03:19,435
-Ama bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler.
+00:03:19,650 --> 00:03:23,040
+ama bir ısırık yine de onu ağır hasta edebilir.
 
 59
-00:03:20,035 --> 00:03:22,660
-Kirpilerin tuhaf bir davranışı daha var.
+00:03:23,145 --> 00:03:27,055
+Ama bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler.
 
 60
-00:03:22,765 --> 00:03:26,324
-Yeni ve keskin bir koku ya da tatla karşılaştığında,
+00:03:27,655 --> 00:03:30,280
+Kirpilerin tuhaf bir davranışı daha var.
 
 61
-00:03:26,324 --> 00:03:29,170
-ağzında köpüklü bir salya oluşturuyor.
+00:03:30,385 --> 00:03:33,944
+Yeni ve keskin bir koku ya da tatla karşılaştığında,
 
 62
-00:03:29,275 --> 00:03:33,240
-Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor.
+00:03:33,944 --> 00:03:36,790
+ağzında köpüklü bir salya oluşturuyor.
 
 63
-00:03:33,345 --> 00:03:36,125
-Türkçede buna kendini yağlama da deniyor;
+00:03:36,895 --> 00:03:40,860
+Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor.
 
 64
-00:03:36,125 --> 00:03:40,715
-bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.
+00:03:40,965 --> 00:03:45,095
+Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.
 
 65
-00:03:41,315 --> 00:03:45,682
+00:03:45,695 --> 00:03:50,062
 Özellikle soğuk bölgelerde, sonbahar sonunda kirpiler yaprak ve ot
 
 66
-00:03:45,682 --> 00:03:50,360
+00:03:50,062 --> 00:03:54,740
 yığınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor.
 
 67
-00:03:50,465 --> 00:03:53,973
+00:03:54,845 --> 00:03:58,353
 Avrupa'daki akrabaları üzerinde yapılan ölçümlere göre,
 
 68
-00:03:53,973 --> 00:03:57,790
+00:03:58,353 --> 00:04:02,170
 kalp atışı dakikada yüz doksandan yirmi civarına iniyor.
 
 69
-00:03:57,895 --> 00:04:00,322
-Vücut sıcaklığı da otuz beş dereceden
+00:04:02,275 --> 00:04:06,520
+Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.
 
 70
-00:04:00,322 --> 00:04:03,060
-beş ila on dereceye kadar düşebiliyor.
+00:04:06,625 --> 00:04:11,269
+Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce,
 
 71
-00:04:03,165 --> 00:04:07,812
-Bu yüzden sonbaharda yaprak yığınlarını yakmadan ya da dağıtmadan önce,
+00:04:11,269 --> 00:04:16,459
+altında bir kirpi olup olmadığına bak. Bir kirpi bulursan onu rahatsız etme;
 
 72
-00:04:07,812 --> 00:04:11,335
-içinde bir kirpi olup olmadığına bakmak gerekiyor.
+00:04:16,459 --> 00:04:20,055
+yaprakları dikkatle eski hâline getir ve uzaklaş.
 
 73
-00:04:11,935 --> 00:04:13,540
+00:04:20,655 --> 00:04:22,260
 Kirpi bir gece hayvanı.
 
 74
-00:04:13,645 --> 00:04:18,050
+00:04:22,365 --> 00:04:26,770
 Gündüz ortalıkta dolaşan bir kirpi, çoğu zaman bir sorun yaşıyor demektir.
 
 75
-00:04:18,155 --> 00:04:21,439
+00:04:26,875 --> 00:04:30,159
 Yaz aylarında kısa süre dışarı çıkan bir anne olabilir;
 
 76
-00:04:21,439 --> 00:04:23,947
+00:04:30,159 --> 00:04:32,667
 ama güneşte öylece yatan, sendeleyen ya da
 
 77
-00:04:23,947 --> 00:04:26,640
+00:04:32,667 --> 00:04:35,360
 yaralı bir kirpi yardıma ihtiyaç duyuyor.
 
 78
-00:04:26,745 --> 00:04:30,730
+00:04:35,465 --> 00:04:39,450
 Böyle bir durumda ona süt verme, zorla yedirip içirmeye çalışma.
 
 79
-00:04:30,835 --> 00:04:34,820
+00:04:39,555 --> 00:04:43,540
 Eldivenle, içine havlu serilmiş, kenarları yüksek bir kutuya al.
 
 80
-00:04:34,925 --> 00:04:38,454
+00:04:43,645 --> 00:04:47,174
 Üşümüş görünüyorsa havluya sarılmış ılık bir su şişesi koy,
 
 81
-00:04:38,454 --> 00:04:41,330
+00:04:47,174 --> 00:04:50,050
 ama ondan uzaklaşabileceği bir boşluk bırak.
 
 82
-00:04:41,435 --> 00:04:44,500
+00:04:50,155 --> 00:04:53,220
 Kutuyu sessiz bir yere koy ve ellerini iyice yıka.
 
 83
-00:04:44,605 --> 00:04:48,598
+00:04:53,325 --> 00:04:57,318
 Sonra bir yaban hayatı kurtarma merkezine, bir veterinere ya da
 
 84
-00:04:48,598 --> 00:04:53,095
+00:04:57,318 --> 00:05:01,815
 bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver.
 
 85
-00:04:53,695 --> 00:04:57,038
-Kirpilerin en büyük tehlikelerinden biri arabalar;
+00:05:02,415 --> 00:05:05,019
+Arabalar kirpiler için ciddi bir tehlike;
 
 86
-00:04:57,038 --> 00:05:00,760
-geceleri yolu geçerken araçların altında kalıyorlar.
+00:05:05,019 --> 00:05:08,820
+geceleri yolu geçerken araçların altında kalabiliyorlar.
 
 87
-00:05:00,865 --> 00:05:04,196
+00:05:08,925 --> 00:05:12,256
 Bahçelerde de çim biçme ve kenar kesme makineleri,
 
 88
-00:05:04,196 --> 00:05:08,970
+00:05:12,256 --> 00:05:17,030
 sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor.
 
 89
-00:05:09,075 --> 00:05:12,820
-Kirpiler bir gecede birkaç kilometreye kadar yol yürüyebiliyor.
+00:05:17,135 --> 00:05:20,760
+Kirpiler bir gecede kilometrelerce yol yürüyebiliyor.
 
 90
-00:05:12,925 --> 00:05:16,736
-Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan
+00:05:20,865 --> 00:05:25,169
+Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan on üç
 
 91
-00:05:16,736 --> 00:05:21,230
-yaklaşık on üç santimetrelik bir delik, onlar için bir geçit oluyor.
+00:05:25,169 --> 00:05:29,795
+santimetreye on üç santimetrelik bir delik, onlar için bir geçit oluyor.
 
 92
-00:05:21,335 --> 00:05:25,380
-Bahçenin bir köşesinde bırakılan yaprak yığını da onlara yuva oluyor.
+00:05:29,795 --> 00:05:33,830
+Bahçen kalabalık bir yola bakıyorsa deliği yola doğru açma.
 
 93
-00:05:25,485 --> 00:05:28,048
-Bahçede havuz varsa bir kenarına rampa koy;
+00:05:33,935 --> 00:05:37,980
+Bahçenin bir köşesinde bırakılan yaprak yığını da onlara yuva oluyor.
 
 94
-00:05:28,048 --> 00:05:31,630
-kirpiler yüzebilir ama kaygan kenarlardan çıkamayabilir.
+00:05:38,085 --> 00:05:40,648
+Bahçede havuz varsa bir kenarına rampa koy;
 
 95
-00:05:31,735 --> 00:05:34,379
-Ve unutma: Türkiye'de kirpi koruma altında;
+00:05:40,648 --> 00:05:44,230
+kirpiler yüzebilir ama kaygan kenarlardan çıkamayabilir.
 
 96
-00:05:34,379 --> 00:05:37,393
-onu yakalayıp evde beslemek ya da öldürmek yasak.
+00:05:44,335 --> 00:05:48,777
+Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.
 
 97
-00:05:37,393 --> 00:05:41,825
+00:05:48,777 --> 00:05:53,165
 Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.
 
 98
-00:05:42,425 --> 00:05:45,650
+00:05:53,765 --> 00:05:56,990
 Bir kirpi ne süt ister, ne de ekmek.
 
 99
-00:05:45,755 --> 00:05:51,060
+00:05:57,095 --> 00:06:02,400
 Sadece biraz su, güvenli bir köşe ve geceleri dolaşabileceği bir bahçe.
 
 100
-00:05:51,165 --> 00:05:55,870
+00:06:02,505 --> 00:06:07,210
 Bir dahaki sefere bahçende onu gördüğünde, süt yerine bir kap su bırak.
 
 101
-00:05:55,975 --> 00:05:58,154
+00:06:07,315 --> 00:06:09,494
 Senin oralarda kirpiyle ilgili hangi
 
 102
-00:05:58,154 --> 00:06:00,700
+00:06:09,494 --> 00:06:12,040
 inanışlar anlatılıyor? Yorumlarda yaz.
 
 103
-00:06:00,805 --> 00:06:04,688
+00:06:12,145 --> 00:06:16,028
 Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
 
 104
-00:06:04,688 --> 00:06:08,475
+00:06:16,028 --> 00:06:19,815
 komşuları anlatmaya devam edeceğiz. Görüşmek üzere.

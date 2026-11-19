@@ -1,6 +1,6 @@
-000 fark=0 | Kirpiler sırtlarında elma taşır mı? || Kirpiler sırtlarında elma taşır mı?
-001 fark=0 | Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor. || Bu hikaye, yaklaşık 2000 yıl önce yaşamış Romalı yazar yaşlı Plinyos'a kadar uzanıyor.
+000 fark=0 | Kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok. || Kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.
+001 fark=0 | Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor. || Bu inanç, yaklaşık 2000 yıl önce yaşamış Romalı yazar, yaşlı Plinyos'un yazılarında da geçiyor.
 002 fark=0 | Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla karşımıza çıkıyor. || Masallarda ve çizimlerde kirpi hala sırtında elmalarla karşımıza çıkıyor.
-003 fark=0 | Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok. || Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.
-004 fark=0 | Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor. || Kirpi aslında bir böcek avcısı, meyveyi ancak arada sırada yiyor.
-005 fark=0 | Asıl menüsünde böcekler, tırtıllar, solucanlar ve salyangozlar var. Tam videosu kanalımızda. || Asıl menüsünde böcekler, tırtıllar, solucanlar ve salyangozlar var. Tam videosu kanalımızda.
+003 fark=0 | Dikenleri onu avcılardan korumaya yarıyor. || Dikenleri onu avcılardan korumaya yarıyor.
+004 fark=0 | Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar. || Kirpi aslında bir böcek avcısı, doğal besininin ana kısmı böcekler ve solucanlar.
+005 fark=0 | Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var. Tam videosu kanalımızda. || Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var. Tam videosu kanalımızda.

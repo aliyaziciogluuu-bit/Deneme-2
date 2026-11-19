@@ -16,12 +16,12 @@
    ],
    "cumleler": [
     {
-     "yazi": "Yarasa saça yapışır mı?",
+     "yazi": "Yarasalar saça yapışmaz.",
      "gorsel": "bagiran",
      "x": 0.3
     },
     {
-     "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane.",
+     "yazi": "Bu, nesilden nesile anlatılan bir efsane.",
      "gorsel": "balkon_aksam",
      "klip": "balkon_aksam",
      "kx": 0.4
@@ -53,7 +53,7 @@
   {
    "ad": "s2-dokunma",
    "baslik": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
-   "aciklama": "Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: WHO – Rabies; T.C. Sağlık Bakanlığı – Kuduz Profilaksi Rehberi\n\n#shorts #yarasa #kuduz #sağlık #doğa",
+   "aciklama": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: Dünya Sağlık Örgütü – Kuduz bilgi notu; ABD Hastalık Kontrol Merkezleri (CDC) – Kuduz\n\n#shorts #yarasa #kuduz #sağlık #doğa",
    "etiketler": [
     "yarasa",
     "yarasa kuduz",
@@ -72,7 +72,7 @@
      "y": 0.62
     },
     {
-     "yazi": "Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığını bakarak anlayamazsın.",
+     "yazi": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.",
      "gorsel": "goz",
      "x": 0.5
     },
@@ -93,13 +93,19 @@
      "x": 0.65
     },
     {
+     "yazi": "Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut.",
+     "gorsel": "yerde",
+     "x": 0.47,
+     "y": 0.62
+    },
+    {
      "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
      "gorsel": "oda",
      "klip": "oda",
      "kx": 0.6
     },
     {
-     "yazi": "Odada uyuyan biri ya da küçük bir çocuk varsa, yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+     "yazi": "Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda.",
      "gorsel": "oda",
      "x": 0.55,
      "w": 0.8

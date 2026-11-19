@@ -366,7 +366,7 @@
     0.5,
     0.82
    ],
-   "etiket": "Uzun kulaklı kirpi (Güneydoğu, Iğdır)"
+   "etiket": "Uzun kulaklı kirpi (Güneydoğu)"
   },
   {
    "n": 1,
@@ -381,7 +381,7 @@
     0.5,
     0.85
    ],
-   "etiket": "Boy: 20–30 cm"
+   "etiket": "Üçünün de sırtı dikenli"
   },
   {
    "n": 1,
@@ -396,7 +396,7 @@
     0.5,
     0.82
    ],
-   "etiket": "5.000–7.000 diken"
+   "etiket": "Avrupa kirpisi: 5.000–7.000 diken"
   },
   {
    "n": 1,
@@ -601,7 +601,7 @@
     0.5,
     0.82
    ],
-   "etiket": "Engerek zehrine kısmi direnç"
+   "etiket": "Yılan zehrine kısmi direnç"
   },
   {
    "n": 1,
@@ -718,7 +718,7 @@
     0.5,
     1.0
    ],
-   "etiket": "Vücut sıcaklığı: 35 °C → 5–10 °C"
+   "etiket": "Vücut sıcaklığı çevreye yaklaşıyor"
   },
   {
    "n": 1,
@@ -865,7 +865,7 @@
     0.5,
     1.0
    ],
-   "etiket": "En büyük tehlike: arabalar"
+   "etiket": "Arabalar ciddi tehlike"
   },
   {
    "n": 1,
@@ -910,7 +910,7 @@
     0.82
    ],
    "klip": "cit_delik",
-   "etiket": "~13 cm'lik geçit"
+   "etiket": "13 × 13 cm'lik geçit"
   },
   {
    "n": 1,
@@ -955,7 +955,7 @@
     0.5,
     1.0
    ],
-   "etiket": "Kirpi Türkiye'de koruma altında"
+   "etiket": "Kirpi bir yaban hayvanı"
   },
   {
    "n": 1,

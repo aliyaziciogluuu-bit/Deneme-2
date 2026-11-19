@@ -1,51 +1,59 @@
 1
-00:00:00,700 --> 00:00:02,845
-Kirpiler sırtlarında elma taşır mı?
+00:00:00,700 --> 00:00:02,767
+Kirpilerin sırtında elma taşıdığına
 
 2
-00:00:02,950 --> 00:00:05,015
-Bu hikâye yaklaşık iki bin yıl
-
-3
-00:00:05,015 --> 00:00:06,736
-önce yaşamış Romalı yazar
-
-4
-00:00:06,736 --> 00:00:09,115
-Yaşlı Plinius'a kadar uzanıyor.
-
-5
-00:00:09,220 --> 00:00:11,320
-Masallarda ve çizimlerde kirpi hâlâ
-
-6
-00:00:11,320 --> 00:00:13,785
-sırtında elmalarla karşımıza çıkıyor.
-
-7
-00:00:13,890 --> 00:00:15,543
-Ama kirpilerin meyve topladığına
-
-8
-00:00:15,543 --> 00:00:17,235
+00:00:02,767 --> 00:00:04,665
 dair bilimsel bir kanıt yok.
 
+3
+00:00:04,770 --> 00:00:06,639
+Bu inanç, yaklaşık iki bin yıl
+
+4
+00:00:06,639 --> 00:00:08,571
+önce yaşamış Romalı yazar Yaşlı
+
+5
+00:00:08,571 --> 00:00:10,935
+Plinius'un yazılarında da geçiyor.
+
+6
+00:00:11,040 --> 00:00:13,218
+Masallarda ve çizimlerde kirpi hâlâ
+
+7
+00:00:13,218 --> 00:00:15,765
+sırtında elmalarla karşımıza çıkıyor.
+
+8
+00:00:15,870 --> 00:00:17,462
+Dikenleri onu avcılardan
+
 9
-00:00:17,340 --> 00:00:19,491
-Kirpi aslında bir böcek avcısı;
+00:00:17,462 --> 00:00:18,835
+korumaya yarıyor.
 
 10
-00:00:19,491 --> 00:00:22,025
-meyveyi ancak arada sırada yiyor.
+00:00:18,940 --> 00:00:21,145
+Kirpi aslında bir böcek avcısı;
 
 11
-00:00:22,130 --> 00:00:24,868
-Asıl menüsünde böcekler, tırtıllar,
+00:00:21,145 --> 00:00:22,924
+doğal besininin ana kısmı
 
 12
-00:00:24,868 --> 00:00:27,293
-solucanlar ve salyangozlar var.
+00:00:22,924 --> 00:00:24,805
+böcekler ve solucanlar.
 
 13
-00:00:27,293 --> 00:00:29,420
+00:00:24,910 --> 00:00:26,248
+Menüsünde tırtıllar,
+
+14
+00:00:26,248 --> 00:00:28,924
+sümüklü böcekler ve salyangozlar da var.
+
+15
+00:00:28,924 --> 00:00:30,780
 Tam videosu kanalımızda.

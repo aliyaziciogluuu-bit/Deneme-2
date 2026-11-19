@@ -16,7 +16,7 @@
    ],
    "cumleler": [
     {
-     "yazi": "Bahçende kirpi görürsen, önüne sakın süt koyma.",
+     "yazi": "Bahçede gördüğün bir kirpinin önüne süt koyarsan, ona iyilik değil zarar verirsin.",
      "gorsel": "bahce_gece",
      "klip": "bahce_gece",
      "kx": 0.65
@@ -37,7 +37,7 @@
      "x": 0.45
     },
     {
-     "yazi": "Zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
+     "yazi": "Zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.",
      "gorsel": "yavrular",
      "x": 0.45
     },
@@ -52,7 +52,7 @@
   {
    "ad": "s2-elma",
    "baslik": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
-   "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık 2000 yıl önce Romalı yazar Plinius'a dayanıyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #efsane #doğa",
+   "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık iki bin yıl önce yaşamış Romalı yazar Plinius'un yazılarında geçiyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #efsane #doğa",
    "etiketler": [
     "kirpi",
     "kirpi elma",
@@ -65,13 +65,13 @@
    ],
    "cumleler": [
     {
-     "yazi": "Kirpiler sırtlarında elma taşır mı?",
+     "yazi": "Kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
      "gorsel": "elma",
      "x": 0.5
     },
     {
-     "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
-     "ses": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'a kadar uzanıyor.",
+     "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
+     "ses": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'un yazılarında da geçiyor.",
      "gorsel": "plinius",
      "x": 0.7
     },
@@ -81,18 +81,18 @@
      "x": 0.55
     },
     {
-     "yazi": "Ama kirpilerin meyve topladığına dair bilimsel bir kanıt yok.",
+     "yazi": "Dikenleri onu avcılardan korumaya yarıyor.",
      "gorsel": "portre",
      "x": 0.75
     },
     {
-     "yazi": "Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor.",
+     "yazi": "Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar.",
      "gorsel": "bocek_av",
      "klip": "bocek_av",
      "kx": 0.5
     },
     {
-     "yazi": "Asıl menüsünde böcekler, tırtıllar, solucanlar ve salyangozlar var. Tam videosu kanalımızda.",
+     "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var. Tam videosu kanalımızda.",
      "gorsel": "kapanis",
      "x": 0.3
     }

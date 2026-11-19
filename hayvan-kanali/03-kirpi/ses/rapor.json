@@ -29,11 +29,12 @@
   "tek_basina": true
  },
  "004": {
-  "yazi": "Hatta zayıf bir kirpiyse ya da bir yavruysa, öldürebilir.",
-  "duyulan": "hatta zayıf bir kirpi ise ya da bir yavru ise öldürebilir.",
+  "yazi": "Hatta zayıf bir kirpiyse ya da bir yavruysa, hayatını tehlikeye atabilir.",
+  "duyulan": "Hatta zayıf bir kirpiyse ya da bir yavruysa hayatını tehlikeye atabilir.",
   "hata": 0,
-  "sure": 3.42,
-  "uygun": true
+  "sure": 4.96,
+  "uygun": true,
+  "tek_basina": true
  },
  "005": {
   "yazi": "Peki neden? Ve kirpiye gerçekten nasıl yardım edebilirsin?",
@@ -80,11 +81,12 @@
   "tek_basina": true
  },
  "011": {
-  "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
-  "duyulan": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu ölümcül olabilir.",
+  "yazi": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.",
+  "duyulan": "Zaten aç ve zayıf bir kirpi ya da bir yavru için bu hayati tehlike yaratabilir.",
   "hata": 0,
-  "sure": 4.52,
-  "uygun": true
+  "sure": 5.64,
+  "uygun": true,
+  "tek_basina": true
  },
  "012": {
   "yazi": "Laktozu alınmış süt ya da bitki sütleri de bahçedeki bir kirpi için doğru seçim değil.",
@@ -160,10 +162,10 @@
   "uygun": true
  },
  "022": {
-  "yazi": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli akgöğüslü kirpi.",
-  "duyulan": "Anadolu'nun büyük bölümünde yaygın olan tür, göğsü açık renkli, ak göğüslü kirpi.",
+  "yazi": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli akgöğüslü kirpi.",
+  "duyulan": "Türkiye'nin kirpi türlerinden biri, göğsü açık renkli, ak göğüslü kirpi.",
   "hata": 0,
-  "sure": 5.54,
+  "sure": 5.18,
   "uygun": true,
   "tek_basina": true
  },
@@ -175,25 +177,28 @@
   "uygun": true
  },
  "024": {
-  "yazi": "Güneydoğu Anadolu'da ve Iğdır çevresinde de iri kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor.",
-  "duyulan": "Güneydoğu Anadolu'da ve Iğdır çevresinde de iri kulaklarıyla dikkat çeken uzun kulaklı kirpi görülüyor.",
+  "yazi": "Güneydoğu Anadolu'da, iri kulaklarıyla dikkat çeken uzun kulaklı kirpi de yaşıyor.",
+  "duyulan": "Güneydoğu Anadolu'da iri kulaklarıyla dikkat çeken uzun kulaklı kirpi de yaşıyor.",
   "hata": 0,
-  "sure": 5.74,
-  "uygun": true
+  "sure": 5.2,
+  "uygun": true,
+  "tek_basina": true
  },
  "025": {
-  "yazi": "Boyları genellikle yirmi ila otuz santimetre arasında.",
-  "duyulan": "Boyları genellikle 20 ila 30 cm arasında.",
+  "yazi": "Üçünün de sırtı dikenlerle kaplı.",
+  "duyulan": "Üçünün de sırtı dikenlerle kaplı.",
   "hata": 0,
-  "sure": 3.22,
-  "uygun": true
+  "sure": 2.38,
+  "uygun": true,
+  "tek_basina": true
  },
  "026": {
-  "yazi": "Bir kirpinin sırtında beş ila yedi bin arasında diken var.",
-  "duyulan": "Bir kirpinin sırtında 5 ila 7 bin arasında diken var.",
+  "yazi": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış.",
+  "duyulan": "Avrupa kirpisinde vücutta 5000 ile 7000 arasında diken sayılmış.",
   "hata": 0,
-  "sure": 3.4,
-  "uygun": true
+  "sure": 4.98,
+  "uygun": true,
+  "tek_basina": true
  },
  "027": {
   "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış.",
@@ -224,19 +229,20 @@
   "uygun": true
  },
  "031": {
-  "yazi": "Kirpilerle ilgili en eski efsanelerden biri, sırtına meyve takıp yuvasına taşıdığı inancı.",
-  "duyulan": "kirpilerle ilgili en eski efsanelerden biri, sırtına meyve takıp yuvasına taşıdığı inancı.",
+  "yazi": "Kirpilerle ilgili çok eski bir inanış var: sırtına meyve takıp yuvasına taşıdığı.",
+  "duyulan": "Kirpilerle ilgili çok eski bir inanış var, sırtına meyve takıp yuvasına taşıdığı.",
   "hata": 0,
-  "sure": 6.1,
+  "sure": 5.1,
   "uygun": true,
   "tek_basina": true
  },
  "032": {
-  "yazi": "Bu hikâye yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'a kadar uzanıyor.",
-  "duyulan": "Bu hikaye, yaklaşık 2000 yıl önce yaşamış Romalı yazar, yaşlı Plinyus'a kadar uzanıyor.",
+  "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
+  "duyulan": "Bu inanç yaklaşık 2000 yıl önce yaşamış Romalı yazar Yaşlı Plinyos'un yazılarında da geçiyor.",
   "hata": 0,
-  "sure": 5.74,
-  "uygun": true
+  "sure": 6.06,
+  "uygun": true,
+  "tek_basina": true
  },
  "033": {
   "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla resmediliyor.",
@@ -253,18 +259,20 @@
   "uygun": true
  },
  "035": {
-  "yazi": "Kirpi aslında bir böcek avcısı; meyveyi ancak arada sırada yiyor.",
-  "duyulan": "Kirpi aslında bir böcek avcısı, meyveyi ancak arada sırada yiyor.",
+  "yazi": "Kirpi aslında bir böcek avcısı; doğal besininin ana kısmı böcekler ve solucanlar.",
+  "duyulan": "Kirpi aslında bir böcek avcısı, doğal besininin ana kısmı böcekler ve solucanlar.",
   "hata": 0,
-  "sure": 4.18,
-  "uygun": true
+  "sure": 5.74,
+  "uygun": true,
+  "tek_basina": true
  },
  "036": {
-  "yazi": "Menüsünde böcekler, tırtıllar, solucanlar, sümüklü böcekler ve salyangozlar var.",
-  "duyulan": "Menüsünde böcekler, tırtıllar, solucanlar, sümüklü böcekler ve salyangozlar var.",
+  "yazi": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var.",
+  "duyulan": "Menüsünde tırtıllar, sümüklü böcekler ve salyangozlar da var.",
   "hata": 0,
-  "sure": 5.48,
-  "uygun": true
+  "sure": 4.9,
+  "uygun": true,
+  "tek_basina": true
  },
  "037": {
   "yazi": "Özellikle sert kabuklu böcekler, beslenmesinin önemli bir bölümünü oluşturuyor.",
@@ -289,11 +297,12 @@
   "tek_basina": true
  },
  "040": {
-  "yazi": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, engerek zehrine karşı kısmi bir dirençleri olduğunu gösteriyor.",
-  "duyulan": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, en gerek zehrine karşı kısmi bir dirençleri olduğunu gösteriyor.",
+  "yazi": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, yılan zehrine karşı kısmi bir dirençleri olduğunu gösteriyor; ama bir ısırık yine de onu ağır hasta edebilir.",
+  "duyulan": "Avrupa'daki akrabaları üzerinde yapılan çalışmalar, yılan zehrine karşı kısmi bir dirençleri olduğunu gösteriyor. Ama bir ısırık yine de onu ağır hasta edebilir.",
   "hata": 0,
-  "sure": 5.82,
-  "uygun": true
+  "sure": 10.64,
+  "uygun": true,
+  "tek_basina": true
  },
  "041": {
   "yazi": "Ama bu onu bir yılan avcısı yapmıyor; asıl yiyeceği yine böcekler.",
@@ -325,11 +334,12 @@
   "uygun": true
  },
  "045": {
-  "yazi": "Türkçede buna kendini yağlama da deniyor; bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
-  "duyulan": "Türkçe de buna ''kendini yağlama'' da deniyor. Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
+  "yazi": "Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
+  "duyulan": "Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
   "hata": 0,
-  "sure": 7.12,
-  "uygun": true
+  "sure": 3.88,
+  "uygun": true,
+  "tek_basina": true
  },
  "046": {
   "yazi": "Özellikle soğuk bölgelerde, sonbahar sonunda kirpiler yaprak ve ot yığınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor.",
@@ -347,17 +357,18 @@
   "uygun": true
  },
  "048": {
-  "yazi": "Vücut sıcaklığı da otuz beş dereceden beş ila on dereceye kadar düşebiliyor.",
-  "duyulan": "Vücut sıcaklığı da 35 dereceden 5 ila 10 dereceye kadar düşebiliyor.",
+  "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.",
+  "duyulan": "vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.",
   "hata": 0,
-  "sure": 4.92,
-  "uygun": true
+  "sure": 4.0,
+  "uygun": true,
+  "tek_basina": true
  },
  "049": {
-  "yazi": "Bu yüzden sonbaharda yaprak yığınlarını yakmadan ya da dağıtmadan önce, içinde bir kirpi olup olmadığına bakmak gerekiyor.",
-  "duyulan": "Bu yüzden sonbaharda yaprak yığınlarını yakmadan ya da dağıtmadan önce içinde bir kirpi olup olmadığına bakmak gerekiyor.",
+  "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak. Bir kirpi bulursan onu rahatsız etme; yaprakları dikkatle eski hâline getir ve uzaklaş.",
+  "duyulan": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce altında bir kirpi olup olmadığına bak. Bir kirpi bulursan onu rahatsız etme. Yaprakları dikkatle eski haline getir ve uzaklaş.",
   "hata": 0,
-  "sure": 7.92,
+  "sure": 13.18,
   "uygun": true,
   "tek_basina": true
  },
@@ -419,11 +430,12 @@
   "tek_basina": true
  },
  "058": {
-  "yazi": "Kirpilerin en büyük tehlikelerinden biri arabalar; geceleri yolu geçerken araçların altında kalıyorlar.",
-  "duyulan": "Kirpilerin en büyük tehlikelerinden biri arabalar. Geceleri yolu geçerken araçların altında kalıyorlar.",
+  "yazi": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar.",
+  "duyulan": "Arabalar kirpiler için ciddi bir tehlike, geceleri yolu geçerken araçların altında kalabiliyorlar.",
   "hata": 0,
-  "sure": 6.82,
-  "uygun": true
+  "sure": 6.16,
+  "uygun": true,
+  "tek_basina": true
  },
  "059": {
   "yazi": "Bahçelerde de çim biçme ve kenar kesme makineleri, sümüklü böcek ilaçları ve yerdeki file ağlar onları yaralayabiliyor.",
@@ -433,17 +445,18 @@
   "uygun": true
  },
  "060": {
-  "yazi": "Kirpiler bir gecede birkaç kilometreye kadar yol yürüyebiliyor.",
-  "duyulan": "Kirpiler bir gecede birkaç kilometreye kadar yol yürüyebiliyor.",
+  "yazi": "Kirpiler bir gecede kilometrelerce yol yürüyebiliyor.",
+  "duyulan": "Kirpiler bir gecede kilometrelerce yol yürüyebiliyor.",
   "hata": 0,
-  "sure": 3.5,
-  "uygun": true
+  "sure": 3.38,
+  "uygun": true,
+  "tek_basina": true
  },
  "061": {
-  "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan yaklaşık on üç santimetrelik bir delik, onlar için bir geçit oluyor.",
-  "duyulan": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan yaklaşık 13 santimetrelik bir delik onlar için bir geçit oluyor.",
+  "yazi": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan on üç santimetreye on üç santimetrelik bir delik, onlar için bir geçit oluyor. Bahçen kalabalık bir yola bakıyorsa deliği yola doğru açma.",
+  "duyulan": "Bu yüzden bahçe duvarının ya da tahta perdenin dibinde açılan 13 santimetreye 13 santimetrelik bir delik, onlar için bir geçit oluyor. Bahçen kalabalık bir yola bakıyorsa, deliği yola doğru açma.",
   "hata": 0,
-  "sure": 8.06,
+  "sure": 12.72,
   "uygun": true,
   "tek_basina": true
  },
@@ -462,11 +475,12 @@
   "uygun": true
  },
  "064": {
-  "yazi": "Ve unutma: Türkiye'de kirpi koruma altında; onu yakalayıp evde beslemek ya da öldürmek yasak. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.",
-  "duyulan": "Ve unutma, Türkiye'de kirpi koruma altında. Onu yakalayıp evde beslemek ya da öldürmek yasak. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.",
+  "yazi": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.",
+  "duyulan": "Ve unutma, kirpi bir yaban hayvanı. Onu yakalayıp evde beslemeye çalışma. Yaralı bir kirpiyi yalnızca yetkililere ulaştırmak için alabilirsin.",
   "hata": 0,
-  "sure": 9.84,
-  "uygun": true
+  "sure": 8.58,
+  "uygun": true,
+  "tek_basina": true
  },
  "065": {
   "yazi": "Bir kirpi ne süt ister, ne de ekmek.",

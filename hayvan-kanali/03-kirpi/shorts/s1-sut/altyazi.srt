@@ -1,47 +1,51 @@
 1
-00:00:00,700 --> 00:00:02,286
-Bahçende kirpi görürsen,
+00:00:00,700 --> 00:00:02,585
+Bahçede gördüğün bir kirpinin
 
 2
-00:00:02,286 --> 00:00:03,985
-önüne sakın süt koyma.
+00:00:02,585 --> 00:00:03,820
+önüne süt koyarsan,
 
 3
-00:00:04,090 --> 00:00:05,520
-Kirpiler, sütteki laktoz
+00:00:03,820 --> 00:00:06,145
+ona iyilik değil zarar verirsin.
 
 4
-00:00:05,520 --> 00:00:07,255
-adlı şekeri sindiremiyor.
+00:00:06,250 --> 00:00:07,690
+Kirpiler, sütteki laktoz
 
 5
-00:00:07,360 --> 00:00:08,775
-Süt içen bir kirpide kısa
+00:00:07,690 --> 00:00:09,435
+adlı şekeri sindiremiyor.
 
 6
-00:00:08,775 --> 00:00:10,605
-sürede ishal başlayabiliyor.
+00:00:09,540 --> 00:00:11,049
+Süt içen bir kirpide kısa
 
 7
-00:00:10,710 --> 00:00:12,499
-Küçük bir hayvanda ishal,
+00:00:11,049 --> 00:00:12,985
+sürede ishal başlayabiliyor.
 
 8
-00:00:12,499 --> 00:00:15,035
-hızla sıvı kaybına yol açabilir.
+00:00:13,090 --> 00:00:14,537
+Küçük bir hayvanda ishal,
 
 9
-00:00:15,140 --> 00:00:16,747
-Zayıf bir kirpi ya da bir
+00:00:14,537 --> 00:00:16,635
+hızla sıvı kaybına yol açabilir.
 
 10
-00:00:16,747 --> 00:00:18,985
-yavru için bu ölümcül olabilir.
+00:00:16,740 --> 00:00:18,619
+Zayıf bir kirpi ya da bir yavru
 
 11
-00:00:19,090 --> 00:00:21,752
-Onun yerine sığ bir kapta temiz su bırak.
+00:00:18,619 --> 00:00:20,985
+için bu hayati tehlike yaratabilir.
 
 12
-00:00:21,752 --> 00:00:23,560
+00:00:21,090 --> 00:00:24,004
+Onun yerine sığ bir kapta temiz su bırak.
+
+13
+00:00:24,004 --> 00:00:25,960
 Tam videosu kanalımızda.
