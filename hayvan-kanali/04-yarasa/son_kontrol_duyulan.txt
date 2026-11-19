@@ -12,7 +12,7 @@
 011 fark=0 | Peki yarasa gerçekten kör mü? || Peki, Yarasa gerçekten kör mü?
 012 fark=0 | Kör yarasa sözü de doğru değil; yarasaların gözleri var ve görebiliyorlar. || Kör yarasa sözü de doğru değil, yarasaların gözleri var ve görebiliyorlar.
 013 fark=0 | Yarasalar, gerçekten uçabilen tek memeliler. || Yarasa'lar, gerçekten uçabilen tekmemeliler.
-014 fark=0 | Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar. || Kuş değiller. Yavrularını doğuruyor ve sütle besliyorlar.
+014 fark=0 | Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar. || Kuş değiller, yavrularını doğuruyor ve sütle besliyorlar.
 015 fark=0 | Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar. || Fare de değiller, kemirgenlerle yakın akraba bile sayılmıyorlar.
 016 fark=0 | Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor. || Kanatları uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.
 017 fark=0 | Yani bir yarasanın kanadı, aslında kocaman açılmış bir el. || Yani bir yarasanın kanadı aslında kocaman açılmış bir el.
@@ -37,7 +37,7 @@
 036 fark=0 | Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli. || Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli.
 037 fark=0 | Peki asıl tehlike ne? || Peki asıl tehlike ne?
 038 fark=0 | Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. || Yarasalar dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.
-039 fark=0 | Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın. || Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.
+039 fark=0 | Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın. || Çoğu yarasa bunları taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.
 040 fark=0 | Bu yüzden bir yarasaya asla çıplak elle dokunma. || Bu yüzden bir yarasaya asla çıplak elle dokunma.
 041 fark=0 | Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir; ona yaklaşma. || Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir. Ona yaklaşma.
 042 fark=0 | Çocukları ve evcil hayvanları uzak tut. || Çocukları ve evcil hayvanları uzak tut.
@@ -46,7 +46,7 @@
 045 fark=0 | Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle. || Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.
 046 fark=0 | Kuduz aşısı gerekip gerekmediğine doktor karar verir; kendi başına bir şey olmaz deyip geçme. || Kuduz aşısı gerekip gerekmediğine doktor karar verir. Kendi başına bir şey olmaz deyip geçme.
 047 fark=0 | Peki evine bir yarasa girerse ne yapmalısın? || Peki, evine bir yarasa girerse ne yapmalısın?
-048 fark=0 | Önce sakin ol; yarasa genellikle sana saldırmaz, sadece çıkış yolu arıyor. || Önce sakin ol. Yarasa genellikle sana saldırmaz. Sadece çıkış yolu arıyor.
+048 fark=0 | Önce sakin ol; yarasa genellikle sana saldırmaz, sadece çıkış yolu arıyor. || Önce sakin ol, yarasa genellikle sana saldırmaz. Sadece çıkış yolu arıyor.
 049 fark=0 | Odadaki ışıkları kapat, pencereleri ardına kadar aç ve kapıyı kapatıp dışarı çık. || Odadaki ışıkları kapat, pencereleri ardına kadar aç ve kapıyı kapatıp dışarı çık.
 050 fark=0 | Çocukları ve evcil hayvanları odadan uzak tut. || Çocukları ve evcil hayvanları odadan uzak tut.
 051 fark=0 | Yarasa çoğu zaman kendi çıkış yolunu bulup dışarı uçar. || Yarasa çoğu zaman kendi çıkış yolunu bulup dışarı uçar.
@@ -54,10 +54,10 @@
 053 fark=0 | Yarasayla temas olasılığı varsa da aynısını yap. || Yarasayla temas olasılığı varsa da aynısını yap.
 054 fark=0 | Yarasa çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat, altına karton kaydır. || Yarasa çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat, altına karton kaydır.
 055 fark=0 | Akşam olunca dışarıda yüksek bir yere bırak; bunu yalnızca bir yetişkin, kalın eldivenle yapsın. || Akşam olunca dışarıda yüksek bir yere bırak, bunu yalnızca bir yetişkin kalın eldivenle yapsın.
-056 fark=0 | Yarasa yaralıysa ya da emin değilsen, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver. || Yarasa yaralıysa ya da emin değilsen, bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne haber ver.
-057 fark=0 | Yarasalar korunması gereken yaban hayvanları; onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme. || Yarasalar korunması gereken yaban hayvanları, onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme.
+056 fark=0 | Yarasa yaralıysa ya da emin değilsen, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver. || Yarasa yaralıysa ya da emin değilsen bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne haber ver.
+057 fark=0 | Yarasalar korunması gereken yaban hayvanları; onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme. || Yarasalar, korunması gereken yaban hayvanları. Onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme.
 058 fark=0 | Çatı arasında bir yarasa kolonisi varsa, onları kendi başına çıkarmaya çalışma; yetkililerden yardım iste. || Çatı arasında bir yarasa kolonisi varsa onları kendi başına çıkarmaya çalışma. Yetkililerden yardım iste.
-059 fark=0 | Yarasa kutusu asmak onlara yardımcı olabilir; ama kutuyu doğru yapmak gerekir ve kutuya elle dokunmamalısın. || Yarasa kutusu asmak onlara yardımcı olabilir, ama kutuyu doğru yapmak gerekir ve kutuya elle dokunmamalısın.
+059 fark=0 | Yarasa kutusu asmak onlara yardımcı olabilir; ama kutuyu doğru yapmak gerekir ve kutuya elle dokunmamalısın. || Yarasa kutusu asmak onlara yardımcı olabilir ama kutuyu doğru yapmak gerekir ve kutuya elle dokunmamalısın.
 060 fark=0 | Böcek ilacını azaltmak da, yarasaların besin bulmasına yardım eder. || Böcek ilacını azaltmak da yarasaların besin bulmasına yardım eder.
 061 fark=0 | Türkiye'deki yarasalar ne saçına yapışır, ne kan emer, ne de kördür. || Türkiye'deki yarasalar ne saçına yapışır, ne kan emer, ne de kördür.
 062 fark=0 | O, gecenin sessiz ve çalışkan bir avcısı. || O, gecenin sessiz ve çalışkan bir avcısı.
