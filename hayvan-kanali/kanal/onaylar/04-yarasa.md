@@ -17,3 +17,9 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi ve 27 Kasım 18:00 için YouT
   - Bölüm "0:26" → "0:27". video.py artık bölüm saatini aşağı yuvarlamak yerine en yakın saniyeye yuvarlıyor.
   - Shorts 8 son cümlesine uzun videodaki "temas olasılığı" koşulu eklendi; yeniden seslendirilip yeniden oluşturulacak.
 - Not: "Tür başına ortalama 0,4–2,2 g" etiketi videoda yok (önceki kayıttaki not yanlıştı); etiketsiz cümleler kaynakla uyumlu.
+
+## Kalite kontrol Tur 1 (19 Kasım)
+- Karar: RET. Puan: ses 8 (dinlenmedi), gorsel 6, teknik 8, shorts 5.
+- Bulgular: oda ve lamba_yarasa kliplerinde kanat şekil bozulması, anne_yavru'da yüz kapanması; Shorts 8'de yüz/göz kenardan kesik, son kare zayıf (TEKRARLANAN KUSUR); Shorts 7'de güve üst yazıyla çakışıyor.
+- İş dağılımı: yapımcı klipleri 0,3 sn aralıkla tarayıp kırpacak; Shorts uzmanı iki Shorts'un kadrajını düzeltecek. Sonra yeniden oluşturma, son kontrol ve kalite kontrol Tur 2.
+- Kanal sahibi dinlemesi: Shorts 8, ~21–25 sn ("yarasaya yaklaşma").

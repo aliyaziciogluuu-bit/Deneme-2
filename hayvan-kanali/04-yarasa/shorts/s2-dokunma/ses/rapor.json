@@ -49,10 +49,11 @@
   "uygun": true
  },
  "007": {
-  "yazi": "Odada uyuyan biri ya da çocuk varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
-  "duyulan": "Odada uyuyan biri ya da çocuk varsa, yara sayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+  "yazi": "Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+  "duyulan": "Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yara sayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
   "hata": 0,
-  "sure": 7.12,
-  "uygun": true
+  "sure": 8.56,
+  "uygun": true,
+  "tek_basina": true
  }
 }
