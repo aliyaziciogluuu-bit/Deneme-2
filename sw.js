@@ -27,8 +27,14 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
+  // 'no-cache': sunucuya her seferinde sorulur (değişmediyse içerik yeniden indirilmez). Böylece tarayıcının
+  // kısa süreli önbelleği yeni sürümü geciktirmez. Sayfanın kendi "no-store" istekleri olduğu gibi geçer.
+  // Sayfa açılışında (navigate) yönlendirme tarayıcıya bırakılır; aksi hâlde yönlendirilmiş yanıt reddedilir.
+  const fresh = req.cache === 'no-store' ? req : new Request(req.url, {
+    cache: 'no-cache', credentials: 'same-origin', redirect: req.mode === 'navigate' ? 'manual' : 'follow'
+  });
   event.respondWith(
-    fetch(req)
+    fetch(fresh)
       .then((res) => {
         if (res.ok) {
           const copy = res.clone();

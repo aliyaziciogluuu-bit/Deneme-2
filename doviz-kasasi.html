@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
+<!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
+<meta name="surum" content="2026-11-19.4">
 <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111512" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -472,6 +474,11 @@
       <button id="btnRates" type="button" title="Fiyatları güncelle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.4-5.7M20 4v5h-5"/></svg><span id="btnRatesTxt">Fiyatları güncelle</span></button>
     </div>
   </header>
+
+  <div class="banner" id="updBanner" hidden>
+    <span>Uygulamanın yeni sürümü hazır.</span>
+    <button type="button" class="small primary" id="btnUpdate">Yenile</button>
+  </div>
 
   <nav class="tabs" id="tabs" aria-label="Bölümler">
     <button type="button" data-go="islem"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg><span>İşlem</span></button>
@@ -3526,6 +3533,31 @@
     }
   }
 
+  // ---------- Yeni sürüm denetimi ----------
+  // Ana ekrana eklenen uygulama günlerce açık kalabilir. Sunucudaki sayfanın sürümü farklıysa
+  // "yeni sürüm hazır" uyarısı gösterilir; "Yenile" sayfayı yeniden yükler. Kayıtlara dokunmaz.
+  var BUILD = (document.querySelector('meta[name="surum"]') || {}).content || '', updAt = 0;
+  function checkUpdate() {
+    if (!BUILD || location.protocol === 'file:' || navigator.onLine === false || document.hidden) return;
+    if (Date.now() - updAt < 10 * 60 * 1000) return;
+    updAt = Date.now();
+    fetch(location.pathname, { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.text() : ''; })
+      .then(function (t) {
+        var m = /<meta name="surum" content="([^"]+)"/.exec(t);
+        if (m && m[1] !== BUILD) $('updBanner').hidden = false;
+      })
+      .catch(function () { /* çevrimdışı: sonra yeniden denenir */ });
+  }
+  function applyUpdate() {
+    var go = function () { location.reload(); };
+    if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
+      navigator.serviceWorker.getRegistration().then(function (r) { return r && r.update(); }).then(go, go);
+    } else {
+      go();
+    }
+  }
+
   // ---------- Başlangıç ----------
   function init() {
     var sel = $('fCur');
@@ -3648,6 +3680,10 @@
     });
     document.addEventListener('visibilitychange', refreshIfStale);
     window.addEventListener('online', refreshIfStale);
+    document.addEventListener('visibilitychange', checkUpdate);
+    window.addEventListener('online', checkUpdate);
+    $('btnUpdate').addEventListener('click', applyUpdate);
+    checkUpdate();
 
     initInstall();
     refreshIfStale();
