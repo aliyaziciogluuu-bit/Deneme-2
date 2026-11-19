@@ -62,7 +62,105 @@
           "yazi": "Yoksa yüzyıllardır yanlış tanıdığımız, köyün en çalışkan gece bekçisi mi?"
         },
         {
-          "yazi": "Bu videoda, evlerimizin çevresinde yaşayan baykuşları yakından tanıyacağız."
+          "yazi": "Birazdan göreceğin bu gece kuşu, başını neredeyse arkasına kadar çevirebiliyor, neredeyse hiç ses çıkarmadan uçuyor ve köyün en çalışkan fare avcılarından biri."
+        }
+      ]
+    },
+    {
+      "ad": "Köyün fare avcısı",
+      "cumleler": [
+        {
+          "yazi": "Önce cevabı verelim: baykuş uğursuz değil; tam tersine, köylünün en faydalı komşularından biri."
+        },
+        {
+          "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor."
+        },
+        {
+          "yazi": "Bu yüzden İsrail başta olmak üzere birçok ülkede çiftçiler, fare zehrini azaltmak için tarlalarına baykuş yuva kutuları koyuyor."
+        },
+        {
+          "yazi": "Peçeli baykuşun menüsünde en çok fareler ve tarla fareleri var; kukumav ve ishakkuşu böcekleri de severek yiyor."
+        },
+        {
+          "yazi": "Avlarını çoğu zaman bütün olarak yutuyorlar."
+        },
+        {
+          "yazi": "Sindiremedikleri kemikleri ve tüyleri de küçük topaklar halinde geri çıkarıyorlar."
+        },
+        {
+          "yazi": "Bilim insanları bu topakları inceleyerek, bir bölgede hangi küçük memelilerin yaşadığını öğreniyor."
+        },
+        {
+          "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı."
+        }
+      ]
+    },
+    {
+      "ad": "Başını nasıl çeviriyor?",
+      "cumleler": [
+        {
+          "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor."
+        },
+        {
+          "yazi": "Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş."
+        },
+        {
+          "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor."
+        },
+        {
+          "yazi": "Halk arasında başını tam bir tur döndürdüğü söylenir, ama bu doğru değil."
+        },
+        {
+          "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü."
+        },
+        {
+          "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var."
+        },
+        {
+          "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş."
+        },
+        {
+          "yazi": "Gündüz kör oldukları da bir efsane; baykuşlar gün ışığında da görebiliyor."
+        }
+      ]
+    },
+    {
+      "ad": "Sessiz uçuş",
+      "cumleler": [
+        {
+          "yazi": "Baykuşun en büyük sırlarından biri, neredeyse hiç ses çıkarmadan uçabilmesi."
+        },
+        {
+          "yazi": "Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var."
+        },
+        {
+          "yazi": "Bu dişler, kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor."
+        },
+        {
+          "yazi": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak."
+        },
+        {
+          "yazi": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor."
+        }
+      ]
+    },
+    {
+      "ad": "Kulakla avlanmak",
+      "cumleler": [
+        {
+          "yazi": "Baykuşlar karanlıkta iyi görür, ama gece avlananların asıl silahı kulakları."
+        },
+        {
+          "yazi": "Yüzünü çevreleyen tüy halkası, bir çanak anten gibi sesi toplayıp kulaklara yönlendiriyor."
+        },
+        {
+          "yazi": "Bazı baykuşlarda iki kulak deliği aynı hizada değil; biri diğerinden biraz daha yukarıda."
+        },
+        {
+          "yazi": "Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor."
+        },
+        {
+          "yazi": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş."
         }
       ]
     },
@@ -122,101 +220,6 @@
         },
         {
           "yazi": "Bu minik baykuş ağaç kabuğuna o kadar iyi benziyor ki, sesini her gece duyan çoğu kişi onu hiç görmüyor."
-        }
-      ]
-    },
-    {
-      "ad": "Sessiz uçuş",
-      "cumleler": [
-        {
-          "yazi": "Baykuşun en büyük sırlarından biri, neredeyse hiç ses çıkarmadan uçabilmesi."
-        },
-        {
-          "yazi": "Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var."
-        },
-        {
-          "yazi": "Bu dişler, kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor."
-        },
-        {
-          "yazi": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak."
-        },
-        {
-          "yazi": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor."
-        }
-      ]
-    },
-    {
-      "ad": "Kulakla avlanmak",
-      "cumleler": [
-        {
-          "yazi": "Baykuşlar karanlıkta iyi görür, ama gece avlananların asıl silahı kulakları."
-        },
-        {
-          "yazi": "Yüzünü çevreleyen tüy halkası, bir çanak anten gibi sesi toplayıp kulaklara yönlendiriyor."
-        },
-        {
-          "yazi": "Bazı baykuşlarda iki kulak deliği aynı hizada değil; biri diğerinden biraz daha yukarıda."
-        },
-        {
-          "yazi": "Ses iki kulağa çok küçük farklarla ulaşıyor ve baykuş avının yerini hem yatayda hem de dikeyde belirleyebiliyor."
-        },
-        {
-          "yazi": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş."
-        }
-      ]
-    },
-    {
-      "ad": "Başını nasıl çeviriyor?",
-      "cumleler": [
-        {
-          "yazi": "Baykuşun gözleri o kadar büyük ki, göz yuvalarının içinde dönemiyor."
-        },
-        {
-          "yazi": "Gözleri top gibi yuvarlak değil, boruya benzer bir biçimde ve yuvasına sıkıca oturmuş."
-        },
-        {
-          "yazi": "Bu yüzden etrafına bakmak için gözlerini değil, başını çeviriyor."
-        },
-        {
-          "yazi": "Halk arasında başını tam bir tur döndürdüğü söylenir, ama bu doğru değil."
-        },
-        {
-          "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü."
-        },
-        {
-          "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var."
-        },
-        {
-          "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş."
-        },
-        {
-          "yazi": "Gündüz kör oldukları da bir efsane; baykuşlar gün ışığında da görebiliyor."
-        }
-      ]
-    },
-    {
-      "ad": "Köyün fare avcısı",
-      "cumleler": [
-        {
-          "yazi": "Peçeli baykuşun menüsünde en çok fareler ve tarla fareleri var; kukumav ve ishakkuşu böcekleri de severek yiyor."
-        },
-        {
-          "yazi": "Avlarını çoğu zaman bütün olarak yutuyorlar."
-        },
-        {
-          "yazi": "Sindiremedikleri kemikleri ve tüyleri de küçük topaklar halinde geri çıkarıyorlar."
-        },
-        {
-          "yazi": "Bilim insanları bu topakları inceleyerek, bir bölgede hangi küçük memelilerin yaşadığını öğreniyor."
-        },
-        {
-          "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor."
-        },
-        {
-          "yazi": "Bu yüzden İsrail başta olmak üzere birçok ülkede çiftçiler, fare zehrini azaltmak için tarlalarına baykuş yuva kutuları koyuyor."
-        },
-        {
-          "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı."
         }
       ]
     },
