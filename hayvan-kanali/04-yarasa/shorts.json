@@ -47,7 +47,7 @@
     {
      "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceğin peşinde. Tam videosu kanalımızda.",
      "gorsel": "lamba_yarasa",
-     "x": 0.55,
+     "x": 0.7,
      "aw": 1.0
     }
    ]
@@ -110,10 +110,9 @@
     {
      "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
      "gorsel": "oda",
-     "klip": "oda",
-     "kx": 0.62,
-     "kz": 1.4,
-     "ky": 0.3
+     "x": 0.62,
+     "x2": 0.68,
+     "aw": 1.0
     },
     {
      "yazi": "Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
