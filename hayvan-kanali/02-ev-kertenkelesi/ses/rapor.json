@@ -248,8 +248,9 @@
   "yazi": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
   "duyulan": "Yani onu mutfak lambanın yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
   "hata": 0,
-  "sure": 5.52,
-  "uygun": true
+  "sure": 6.34,
+  "uygun": true,
+  "tek_basina": true
  },
  "036": {
   "yazi": "Geceleri duvardan gelen kısa tıkırtılar duydun mu?",
@@ -281,10 +282,11 @@
  },
  "040": {
   "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
-  "duyulan": "yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir ciyaklama da çıkarabiliyor.",
+  "duyulan": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince bir cıyaklama da çıkarabiliyor.",
   "hata": 0,
-  "sure": 5.56,
-  "uygun": true
+  "sure": 5.66,
+  "uygun": true,
+  "tek_basina": true
  },
  "041": {
   "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
