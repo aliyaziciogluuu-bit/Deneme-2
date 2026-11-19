@@ -6,7 +6,7 @@ Hedef (YouTube İş Ortağı Programı, tam seviye): **1.000 abone** ve son 12 a
 | Tarih | Abone | İzlenme süresi (son 28 gün, saat) | Görüntüleme (son 28 gün) | Not |
 |---|---|---|---|---|
 | 2026-11-14 | 1 | 24,9 (kanal 3 günlük) | 1.459 (%88 Shorts) | Noel kulübesi Shorts'u 1,1 B; yağmurlu kulübede ortalama ~17 dk izleme |
-| 2026-11-19 | ? | 44,2 | 2.479 | Son 48 saatte 300 görüntüleme. Uzun videolarda trafiğin %65'i "Önerilen videolar"dan geliyor; aramadan gelen çok az. |
+| 2026-11-19 | 6 | 44,2 | 2.479 | Son 48 saatte 300 görüntüleme. Uzun videolarda trafiğin %65'i "Önerilen videolar"dan geliyor; aramadan gelen çok az. Kış kulübesi (1 sa): 709 gösterim, küçük resim tıklama oranı %7,0 (iyi). Noel kulübesi Shorts'u izleyicileri: Özbekistan %11, Hindistan %6, Endonezya %5. |
 
 Hesap: kalan saat = 4.000 − son 12 aydaki toplam; aylık hız = son 28 gün saati. Tahmini süre = kalan / aylık hız.
 
