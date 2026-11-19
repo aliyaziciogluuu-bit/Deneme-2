@@ -118,3 +118,99 @@ Biçim: tarih ve video · ne oldu · kural · sorumlu.
 - **19 Kasım, 05 baykuş:** Değişmeyen bir cümle (045) yeni karışımda bozuk duyuldu ("alaca baykuşa ait" → "Alacabay kuşağı idi").
   - **Kural:** Her yeniden üretimden sonra son kontrol baştan çalıştırılır. Önceki sonuca güvenilmez.
   - Sorumlu: patron.
+
+## Puandan dersler: 8'den 9'a nasıl çıkılır? (her işten önce okunur)
+
+Kanal sahibinin isteği (19 Kasım): "Çalışanlar bu puanlamalardan dersler çıkarsın ve en iyisini yapsınlar."
+
+Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçüt ölçüt yazar. Çalışan işe başlamadan kendi ölçütlerinin satırını okur ve raporunda her madde için ne yaptığını tek tek yazar.
+
+### Giriş ve izleyici tutma (kanca) – senarist
+- **Puan kıranlar** (baykuş 7→8, geko 6→8):
+  - İlk 11 saniye yalnızca sahne kurdu.
+  - Soru üç kez soruldu.
+  - "Gelelim…" gibi genel geçişler kullanıldı.
+  - Vaat cümlesi uzundu (12 sn, 25 kelime) ve geç geldi (1:14).
+  - 0:30–1:20 arasına 28 saniyelik talimat bloğu kondu.
+  - Tür bölümü 54 saniye ansiklopedik kaldı.
+- **9 için:**
+  - Soru ilk 8 saniyede sorulur, bir kez.
+  - Vaat cümlesi en fazla 10 saniye sürer ve 0:25'ten önce gelir.
+  - Cevap en geç 0:30'da verilir.
+  - İlk 2 dakikada 20 saniyeden uzun talimat bloğu olmaz.
+  - Bilgi bölümleri bir soruyla açılır ve 40 saniyeyi geçmez.
+
+### Shorts kancası (shorts) – senarist, yapımcı
+- **Puan kıranlar:**
+  - İlk cümle soruyu tekrar etti ya da pasif bilgi verdi.
+  - Cevap sonda geldi.
+  - Art arda iki cümle "Ama" ile başladı.
+  - İlk kare sakin ve uzak plandı.
+- **9 için:**
+  - İlk cümle başlığın sorusunu cevaplar ya da şaşırtıcı bir sayı verir.
+  - İlk kare hareketli bir klip ya da yakın plan bir yüzdür.
+  - Aynı bağlaç art arda gelmez.
+  - Her etiketli kare önizlemede kontrol edilir.
+
+### Başlık, küçük resim, açıklama (baslik) – senarist
+- **Puan kıranlar:**
+  - Küçük resim alt yazısı başlığı aynen tekrar etti.
+  - Doğrulanamayan kaynak künyesi vardı.
+  - Başlıktaki parantez videonun asıl vaadini taşımıyordu.
+- **9 için:**
+  - Alt yazı başlıkta olmayan, videoda gerçekten gösterilen bir vaat taşır.
+  - Her kaynak bağlantısıyla yazılır ve açılarak doğrulanır.
+  - Başlık parantezi videonun en güçlü bölümünü anlatır.
+
+### Anlatım ve Türkçe (anlatim) – senarist
+- **Puan kıranlar:** Athena ve Atina aynı cümledeydi; "Ege ve Akdeniz" art arda iki cümlede geçti; vaat cümlesi çok uzundu.
+- **9 için:**
+  - Aynı ifade art arda iki cümlede tekrar edilmez.
+  - Cümleler en fazla 18 kelime olur.
+  - Benzer özel adlar ayrı cümlelerde kullanılır.
+
+### Doğruluk ve kaynak (dogruluk) – senarist
+- **Puan kıranlar** (baykuş ilk taslak 6, geko 6):
+  - Doğrulanmamış tür sayısı.
+  - Bir türün bilgisi bütün gruba genellendi (menü).
+  - Tür adıyla kanıtsız iddia (Salmonella).
+  - Kaynaksız nitelemeler ("nadiren ısırır", "ciddi yara açmaz").
+  - Dağılım abartısı ("kıyının büyük bölümü").
+  - Kaynak listesi boştu ya da künyeler hatalıydı.
+- **9 için:**
+  - Senarist her bilgi cümlesi için `kaynak_eslesme.md` dosyasına "cümle → kaynak bağlantısı" satırı yazar. Kaynağı olmayan cümle ya çıkarılır ya da çekinceli söylenir.
+  - Nitelemeler (nadiren, çoğu, en büyük) ancak kaynakta aynen geçiyorsa kullanılır.
+
+### Güvenlik ve çekinceler (guvenlik) – senarist
+- **Puan kıranlar:**
+  - Yavru baykuş tavsiyesi eksikti.
+  - Shorts'ta risk grubu uyarısı düşmüştü.
+  - Kapanışta "sana bir zararı yok" abartısı vardı.
+- **9 için:**
+  - Her güvenlik konusu üç parçayla anlatılır: ne yapmalı, ne yapmamalı, kime başvurmalı.
+  - Risk grubu ve temizlik uyarıları Shorts'a kelimesi kelimesine taşınır.
+  - Kapanışta güvenliği küçümseyen cümle olmaz.
+
+### Görsel, anatomi, kadraj (gorsel) – yapımcı
+- **Puan kıranlar:**
+  - Etiket yüze bindi.
+  - Kapanış klibinde yarım saniyelik şekil bozulması kaldı.
+  - Göz yalama klibinde dil göze değmiyordu.
+  - Shorts son sahnesinde hayvanın burnu kesildi.
+- **9 için:**
+  - Her klip 0,3 saniye aralıkla baştan sona taranır: şekil, eylem, fazla uzuv.
+  - Klip anlatılan eylemi gerçekten göstermiyorsa o cümleye klip konmaz.
+  - Shorts'ta etiketli ve yakın planlı her kare önizlemede kontrol edilir (gerekirse aw/ay kullanılır).
+
+### Seslendirme ve ses (ses) – patron
+- Denetçi sesi dinleyemediği için puan 8'de kalıyor.
+- **9 için:** kanal sahibinin dinleyip "doğal" demesi gerekir (baykuş: "ses yapay durmuyor" → 9). Patron haftada en az bir videoyu kanal sahibine dinletmeyi rica eder.
+
+### Testler ve teslim (teknik) – patron
+- **Puan kıranlar:**
+  - Teslim klasöründe eski sürüm kalmıştı.
+  - Değişmeyen bir cümle yeni karışımda bozuldu, son kontrol yeniden çalıştırıldı.
+- **9 için:**
+  - Her yeniden üretimden sonra son kontrol baştan çalıştırılır.
+  - Teslim dosyaları `cmp` ile kaynakla karşılaştırılır.
+  - Not: altyazı ve yükleme metni videodan önce yazılır, bu tasarım gereğidir. Zaman uyumu son kontrolde test edilir.

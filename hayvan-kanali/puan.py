@@ -10,7 +10,7 @@ Kullanım:
   Metin editörü     : kanca (20) giriş ve ilk iki dakikada izleyici tutma · anlatim (10) anlatım ve Türkçe
                       baslik (10) başlık, küçük resim yazısı, açıklama · shorts (5) Shorts kancası
   Kalite kontrol    : ses (10) seslendirme ve ses · gorsel (10) görsel, anatomi, kadraj · teknik (5) testler ve teslim
-Eşikler: 85+ teslim edilir · 70-84 düzeltme turu · 70 altı RET.
+Eşikler: 85+ çok iyi · 80-84 teslim · 70-79 düzeltme turu · 70 altı RET (kanal sahibinin kararı, 19 Kasım).
 Kırmızı çizgi: dogruluk ya da guvenlik 5 ve altıysa, ya da herhangi bir ölçüt 3 ve altıysa toplam ne olursa olsun RET.
 """
 import argparse
@@ -50,6 +50,8 @@ def hesapla(p):
     if kirmizi:
         sonuc = "RET (kırmızı çizgi: " + ", ".join(sorted(set(kirmizi))) + ")"
     elif toplam >= 85:
+        sonuc = "TESLİM (çok iyi)"
+    elif toplam >= 80:
         sonuc = "TESLİM"
     elif toplam >= 70:
         sonuc = "DÜZELTME"
@@ -61,7 +63,7 @@ def hesapla(p):
 def tablo_yaz(veri):
     s = ["# Ofis puan tablosu – Avludaki Komşular", "",
          "Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 100 üzerindendir. "
-         "**85+ teslim · 70–84 düzeltme turu · 70 altı RET.** "
+         "**85+ çok iyi · 80–84 teslim · 70–79 düzeltme turu · 70 altı RET.** "
          "Kırmızı çizgi: doğruluk ya da güvenlik 5 ve altı, ya da herhangi bir ölçüt 3 ve altı ise toplam ne olursa olsun RET.",
          "", "Ölçütler ve ağırlıklar:", ""]
     s += [f"- **{acik}** ({a} puan): {den} puanlar · sorumlu: {sor}" for k, a, den, acik, sor in OLCUTLER]
@@ -71,6 +73,7 @@ def tablo_yaz(veri):
     for ad, v in sorted(veri["videolar"].items()):
         for t in v.get("turlar", []):
             p = t["puan"]
+            t["toplam"], t["sonuc"] = hesapla(p)
             s.append(f"| {ad} | {t['tur']} | {t['tarih']} | " + " | ".join(str(p[k]) for k, *_ in OLCUTLER)
                      + f" | **{t['toplam']}** | {t['sonuc']} |")
     s += ["", "## Gerçek performans (yayından sonra)", "",
@@ -95,6 +98,19 @@ def tablo_yaz(veri):
         ort = sum(sum(t["puan"][k] for k in anahtarlar) / len(anahtarlar) for t in ilkler) / len(ilkler)
         kotu = sum(1 for t in ilkler if any(t["puan"][k] < 7 for k in anahtarlar))
         s.append(f"| {calisan} | {len(ilkler)} | {ort:.1f} | {kotu} |")
+    # Ölçüt eğilimi: çalışanların ilk turda ne kadar iyi iş teslim ettiği videodan videoya izlenir
+    s += ["", "## Ölçüt eğilimi (ilk tur → son tur, videolar tarih sırasıyla)", "",
+          "Hedef: her ölçütte ilk turda 9. Bir ölçüt yerinde sayıyorsa dersler defterindeki \"Puandan dersler\" satırı sertleştirilir.", "",
+          "| Ölçüt | " + " | ".join(ad for ad, v in sorted(veri["videolar"].items()) if v.get("turlar")) + " |",
+          "|---|" + "---|" * sum(1 for v in veri["videolar"].values() if v.get("turlar"))]
+    for k, _, _, acik, _ in OLCUTLER:
+        hucre = []
+        for ad, v in sorted(veri["videolar"].items()):
+            if not v.get("turlar"):
+                continue
+            ilk, son = v["turlar"][0]["puan"][k], v["turlar"][-1]["puan"][k]
+            hucre.append(f"{ilk:g} → {son:g}" if ilk != son else f"{ilk:g}")
+        s.append(f"| {acik} | " + " | ".join(hucre) + " |")
     kacan = [(ad, k) for ad, v in veri["videolar"].items() for k in v.get("kacirilan", [])]
     s += ["", "## Denetçilerin kaçırdığı hatalar", "",
           "Onaydan sonra ortaya çıkan hatalar denetçinin karnesine yazılır."]

@@ -27,6 +27,7 @@ Seslendirme kuralları (yapay ses ve ses tanıma için):
 - Benzer iki özel adı aynı cümlede art arda kullanma. Yansıma ses (hu-hu) yazma.
 
 Bilgi kuralları:
+- Her bilgi cümlesi için `hayvan-kanali/NN-konu/kaynak_eslesme.md` dosyasına "cümle no → kaynak bağlantısı → kaynakta geçen ifade" satırı yaz. Kaynağı olmayan cümleyi çıkar ya da çekinceli söyle. Bilgi kontrolcüsü bu dosyadan çalışır.
 - Her iddia için güvenilir kaynak bul ve `kaynaklar` listesine yaz. Açamadığın kaynağı yazma.
 - Doğrulayamadığın sayıyı yazma; "birçok", "pek çok" de.
 - Bir türe ait bilgiyi bütün gruba genelleme.
@@ -49,3 +50,16 @@ Ortak kurallar:
 
 Denetçiler işini 0–10 arası puanlar ve puanlar `hayvan-kanali/kanal/puan_tablosu.md` dosyasındaki **çalışan karnesine** yazılır. Senin ölçütlerin: doğruluk ve kaynak (20), güvenlik ve çekinceler (10), giriş ve izleyici tutma (20), anlatım ve Türkçe (10), başlık-küçük resim-açıklama (10), Shorts kancası (5). İlk turdaki puanın senin karnendir; hedefin ilk turda her ölçütte 8 ve üzeri almak. İşe başlamadan puan tablosuna bak; önceki videolarda düşük puan aldığın ölçüt varsa, raporunda o konuda ne yaptığını ayrıca yaz.
 
+## Puanlardan öğren ve en iyisini yap (her işte zorunlu)
+
+Kanal sahibinin isteği: "Çalışanlar bu puanlamalardan dersler çıkarsın ve en iyisini yapsınlar."
+
+1. İşe başlamadan dersler defterindeki **"Puandan dersler: 8'den 9'a nasıl çıkılır?"** bölümünde kendi ölçütlerinin satırlarını oku. `hayvan-kanali/kanal/puan_tablosu.md` dosyasında son videolarda nerede puan kırıldığına bak.
+2. Hedefin her ölçütte **ilk turda en az 9**. "Yeterince iyi" değil, kanalın en iyi işi.
+3. Raporunun sonuna **öz değerlendirme** ekle. Her ölçütün için:
+   ```
+   ÖZ DEĞERLENDİRME:
+   - <ölçüt>: tahmini N/10 — uyguladığım "9 için" maddeleri: … — hâlâ eksik bildiğim: …
+   ```
+   Tahminin denetçinin puanıyla karşılaştırılır. Kendini olduğundan yüksek görmek de bir kusurdur; dürüst ol.
+4. Aynı kusur iki videoda tekrar ederse patron onu ajan tanımına kesin kural olarak ekler.

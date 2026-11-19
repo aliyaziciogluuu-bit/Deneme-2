@@ -125,13 +125,19 @@ Kullanıcı ofiste videolar için bir puanlama sistemi istedi. Her video, ONAY/R
 
 Kurallar:
 - Her denetçi raporunda `PUAN:` bloğu yazar (0–10, gerekçeli). Yönetici toplar, patron `python puan.py ekle NN-konu --tur T --dogruluk .. ...` ile tabloya işler. Tablo: `hayvan-kanali/kanal/puan_tablosu.md`, veri: `kanal/puanlar.json`.
-- **Eşikler:** 85 ve üzeri teslim · 70–84 düzeltme turu · 70 altı RET.
+- **Eşikler:** 85 ve üzeri çok iyi · 80–84 teslim · 70–79 düzeltme turu · 70 altı RET. (İlk kurulumda teslim eşiği 85'ti. Ölçekte 8 "iyi" demek olduğu için bütün ölçütlerde 8 alan video 80 ediyordu ve geçemiyordu. Kanal sahibi 19 Kasım'da eşiği 80'e indirdi.)
 - **Kırmızı çizgi:** doğruluk ya da güvenlik 5 ve altıysa, ya da herhangi bir ölçüt 3 ve altıysa toplam ne olursa olsun RET.
-- **Teslim için iki şart birlikte aranır:** bütün denetçilerin ONAY'ı ve toplam puanın 85 ve üzeri olması.
+- **Teslim için iki şart birlikte aranır:** bütün denetçilerin ONAY'ı ve toplam puanın 80 ve üzeri olması.
 - **Gerçek veriyle karşılaştırma:** Yayından 3 gün sonra kullanıcının gönderdiği verilerle `python puan.py gercek NN-konu --to .. --tutma30 .. --tutma80 .. --ortizleme ..` çalıştırılır. Yönetici, puanların gerçek performansı tahmin edip etmediğini yorumlar. Tahmin etmiyorsa ölçüt ya da ağırlık düzeltilir.
 - **Karneler:**
   - Çalışan karnesi: ilk tur puanları, yani çalışanın düzeltmeden önceki işi.
   - Denetçi karnesi: onaydan sonra ortaya çıkan hatalar (`python puan.py kacirilan NN-konu "açıklama"`).
+- **Puanlardan ders (kanal sahibinin isteği, 19 Kasım: "Çalışanlar bu puanlamalardan dersler çıkarsın ve en iyisini yapsınlar"):**
+  - Denetçiler 10'dan düşük her puan için "9 için:" diye somut bir cümle yazar.
+  - Patron her video sonrası bu cümleleri dersler defterindeki **"Puandan dersler: 8'den 9'a nasıl çıkılır?"** bölümüne ölçüt ölçüt işler.
+  - Çalışanlar işe başlamadan o bölümü okur, raporlarında öz değerlendirme (tahmini puan ve uyguladıkları maddeler) yazar. Hedef her ölçütte ilk turda 9.
+  - Tablodaki "Ölçüt eğilimi" bölümü ilk tur puanlarının videodan videoya yükselip yükselmediğini gösterir. Yerinde sayan ölçütün kuralı sertleştirilir.
+  - Aynı kusur iki kez olursa ajan tanımına kesin kural ya da son kontrole otomatik test eklenir.
 - Kullanıcıya teslim raporunda puan kartı kısaca gösterilir: toplam, en zayıf ölçüt ve önceki videoyla karşılaştırma.
 
 ## Teslim

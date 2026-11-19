@@ -53,7 +53,7 @@ Ortak kurallar:
 
 Denetçilerin PUAN bloklarını topla. Ağırlıklı toplamı hesaplamak için `cd hayvan-kanali && python puan.py ekle NN-konu --tur T --dogruluk .. --guvenlik .. --kanca .. --anlatim .. --baslik .. --shorts .. --ses .. --gorsel .. --teknik ..` komutunu **çalıştırma** (dosya değiştirir); komutu raporuna yaz, patron çalıştırır. Toplamı kendin de hesapla: her puan × ağırlık / 10.
 
-- Eşikler: 85+ teslim · 70–84 düzeltme turu · 70 altı RET. Kırmızı çizgi: doğruluk ya da güvenlik 5 ve altı, ya da herhangi bir ölçüt 3 ve altı ise RET.
+- Eşikler: 85+ çok iyi · 80–84 teslim · 70–79 düzeltme turu · 70 altı RET (kanal sahibinin kararı, 19 Kasım: 8 = 'iyi' olduğu için bütün ölçütlerde 8 alan video teslim edilebilir). Kırmızı çizgi: doğruluk ya da güvenlik 5 ve altı, ya da herhangi bir ölçüt 3 ve altı ise RET.
 - `hayvan-kanali/kanal/puan_tablosu.md` dosyasını oku. Bu videonun puanını önceki videolarla karşılaştır. "Gerçek performans" bölümünde veri varsa, puanların gerçek sonucu tahmin edip etmediğini yorumla. Örneğin kanca puanı yüksek ama 0:30 tutması düşükse, metin editörünün kanca ölçütü gözden geçirilmeli.
 - **Çalışan karnesi:** Senaristin ve yapımcının ilk tur puanlarına bak. Aynı ölçütte iki videodur düşük puan alan çalışan için somut bir talimat önerisi yaz (ajan tanımına eklenecek kural).
 - Denetçi bir hatayı kaçırmışsa (onaydan sonra ortaya çıkan hata), bunu raporunda belirt. Patron `python puan.py kacirilan NN-konu "açıklama"` ile karneye işler.
@@ -64,3 +64,9 @@ PUAN ÖZETİ: toplam NN/100 → TESLİM | DÜZELTME | RET
 puan.py komutu: python puan.py ekle ...
 ```
 
+## Puandan dersler ve eğilim
+
+- Puan tablosundaki "Ölçüt eğilimi" bölümünü oku. İlk tur puanları videodan videoya yükseliyor mu? Hangi ölçüt yerinde sayıyor?
+- Bu videoda puan kırılan her yer için, dersler defterindeki **"Puandan dersler"** bölümüne eklenecek yeni bir "9 için" satırı öner. Patron ekler.
+- Defterde yazılı bir kural ihlal edildiyse (TEKRARLANAN KUSUR), daha sert bir önlem öner: ajan tanımına kesin kural ya da son kontrole otomatik test.
+- Çalışanların öz değerlendirmelerini denetçi puanlarıyla karşılaştır. Sürekli yüksek tahmin yapan çalışanı belirt.

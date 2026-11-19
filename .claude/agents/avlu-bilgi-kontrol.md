@@ -58,3 +58,9 @@ Kurallar:
 - Puan, KARAR'la tutarlı olur. Kendi ölçütlerinden biri 7'nin altındaysa KARAR: RET yazarsın.
 - Her puan için tek satır gerekçe yaz. Önceki turla karşılaştır ("Tur 1: 6 → Tur 2: 8").
 - Puan şişirme. Kanalın gerçek performansı sonradan bu puanlarla karşılaştırılıyor (`hayvan-kanali/kanal/puan_tablosu.md`). Yüksek puan verdiğin bir video kötü performans gösterirse ya da sonradan hata çıkarsa, bu senin karnene yazılır.
+
+## Puandan ders çıkarma
+
+- 10'dan düşük verdiğin her puanın altına **"9 için:"** diye başlayan, çalışanın bir sonraki videoda uygulayabileceği **tek, somut** bir cümle yaz. "Daha iyi olsun" geçmez; "vaat cümlesi 10 saniyeyi geçmesin" gibi ölçülebilir olsun.
+- Çalışanın öz değerlendirmesi varsa onunla karşılaştır: "Senarist 9 dedi, 7 veriyorum çünkü …".
+- Puandan dersler bölümünde yazılı bir kuralın ihlal edildiğini görürsen bunu "TEKRARLANAN KUSUR" diye ayrıca işaretle.

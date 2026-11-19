@@ -1,6 +1,6 @@
 # Ofis puan tablosu – Avludaki Komşular
 
-Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 100 üzerindendir. **85+ teslim · 70–84 düzeltme turu · 70 altı RET.** Kırmızı çizgi: doğruluk ya da güvenlik 5 ve altı, ya da herhangi bir ölçüt 3 ve altı ise toplam ne olursa olsun RET.
+Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 100 üzerindendir. **85+ çok iyi · 80–84 teslim · 70–79 düzeltme turu · 70 altı RET.** Kırmızı çizgi: doğruluk ya da güvenlik 5 ve altı, ya da herhangi bir ölçüt 3 ve altı ise toplam ne olursa olsun RET.
 
 Ölçütler ve ağırlıklar:
 
@@ -21,7 +21,7 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 | 02-ev-kertenkelesi | 1 | 2026-11-19 | 6.0 | 7.0 | 6.0 | 8.0 | 6.0 | 6.0 | 8.0 | 7.0 | 9.0 | **67.5** | RET |
 | 02-ev-kertenkelesi | 3 | 2026-11-19 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 7.0 | 8.0 | 7.0 | 9.0 | **79.0** | DÜZELTME |
 | 05-baykus | 1 | 2026-11-19 | 6.0 | 5.0 | 7.0 | 8.0 | 7.0 | 5.0 | 8.0 | 6.0 | 8.0 | **66.5** | RET (kırmızı çizgi: guvenlik) |
-| 05-baykus | 2 | 2026-11-19 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | 8.0 | 8.0 | **84.0** | DÜZELTME |
+| 05-baykus | 2 | 2026-11-19 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | 8.0 | 8.0 | **84.0** | TESLİM |
 
 ## Gerçek performans (yayından sonra)
 
@@ -40,6 +40,22 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 | senarist | 2 | 6.4 | 2 |
 | yapımcı | 2 | 6.5 | 1 |
 | patron | 2 | 8.2 | 0 |
+
+## Ölçüt eğilimi (ilk tur → son tur, videolar tarih sırasıyla)
+
+Hedef: her ölçütte ilk turda 9. Bir ölçüt yerinde sayıyorsa dersler defterindeki "Puandan dersler" satırı sertleştirilir.
+
+| Ölçüt | 02-ev-kertenkelesi | 05-baykus |
+|---|---|---|
+| Doğruluk ve kaynak | 6 → 8 | 6 → 9 |
+| Güvenlik ve çekinceler | 7 → 8 | 5 → 9 |
+| Giriş ve izleyici tutma | 6 → 8 | 7 → 8 |
+| Anlatım ve Türkçe | 8 | 8 |
+| Başlık, küçük resim, açıklama | 6 → 8 | 7 → 8 |
+| Shorts kancası | 6 → 7 | 5 → 8 |
+| Seslendirme ve ses | 8 | 8 → 9 |
+| Görsel, anatomi, kadraj | 7 | 6 → 8 |
+| Testler ve teslim | 9 | 8 |
 
 ## Denetçilerin kaçırdığı hatalar
 
