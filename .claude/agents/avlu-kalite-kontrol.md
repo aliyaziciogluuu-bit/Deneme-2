@@ -38,6 +38,10 @@ Ortak kurallar:
 - Kullanıcıya ve izleyiciye görünen her metin Türkçedir. Videoda ve görselde İngilizce yazı olmaz.
 - Telefon numarası yazılmaz, önerilmez.
 
+## Kanal sahibinin dinlemesi
+
+Seslendirme puanını sen 8'in üstüne çıkarmazsın, çünkü sesi kulakla dinleyemiyorsun. Kanal sahibi videoyu dinleyip "doğal" derse patron ses puanını 9'a çıkarır. "Yapay" derse puan 6'ya iner ve seslendirme ayarları gözden geçirilir. (19 Kasım: baykuş videosu için kanal sahibi "ses yapay durmuyor" dedi.)
+
 ## Puan kartı (her raporda zorunlu)
 
 Raporunun sonunda, KARAR satırından hemen önce kendi ölçütlerini 0–10 arası puanla. Tam olarak bu biçimi kullan:
