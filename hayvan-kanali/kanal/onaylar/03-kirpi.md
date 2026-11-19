@@ -45,3 +45,9 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 - Kapananlar: top klibi, ölçek (sut_kabi), cit_delik bacaksız gövde, 029 "halka", eski Shorts 6.
 - Kalanlar: s2 ilk çekimde ve s1'de iki karede altyazı burna değiyor; s2 elmalı sahnede yüz kesik; uzun video 5:08'de altyazı kirpinin yüzünde. → Shorts uzmanı (Tur 3).
 - TEKRARLANAN KUSUR: Shorts'ta altyazı/yazı yüze biniyor (baykuş, yarasa, karga, kirpi). Kural: altyazı ile burun/göz arasında en az 30 px; otomatik test önerisi (İ3) öncelikli.
+
+## Kalite kontrol Tur 3 (19 Kasım)
+- Karar: RET (kadraj, ölçülü). Puan: ses 8, gorsel 7, teknik 9, shorts 6.
+- Kalanlar (gerçek çözünürlükte ölçüldü): s1 2,2 ve 3,0 sn'de burun altyazıya biniyor (açılış klibi); s2 1,5 sn'de göz–altyazı 15 px (pan ortası); uzun video 5:08–5:09'da altyazı kirpinin yüzünde (cit_delik klibi).
+- Patron kararı ve uygulama: s1 açılış klibi kz 2,1; s2 açılış panında dikey konum sabit (y 0,65), yalnızca yatay kayma; uzun video 5:08'de klip yerine cit_delik görseli, yüz altyazının üstünde kalacak kadraj (a/b y 0,72). Kutu sahnesindeki 6–20 px temaslar ve şişe görseli küçük kusur olarak bırakıldı.
+- Not: Ofis kuralı en fazla 2 tur diyor; bu video 3. turda yalnızca kadraj yüzünden döndü. Kanal sahibine durum açıkça bildirildi.

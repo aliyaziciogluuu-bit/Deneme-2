@@ -947,18 +947,15 @@
    "gorsel": "cit_delik",
    "a": [
     0.5,
-    0.5,
-    1.0
+    0.72,
+    0.62
    ],
    "b": [
     0.5,
-    0.5,
-    0.82
+    0.72,
+    0.55
    ],
-   "klip": "cit_delik",
-   "etiket": "13 × 13 cm'lik geçit",
-   "kz": 1.8,
-   "ky": 1.0
+   "etiket": "13 × 13 cm'lik geçit"
   },
   {
    "n": 1,
