@@ -9,7 +9,7 @@ shorts.json biçimi: {"shorts": [{"ad": "s1-goz", "baslik": "...", "aciklama": "
                                   "ust_yazi": ["YILAN DEĞİL!", "Göz kırpıyor"],
                                   "cumleler": [{"yazi": "...", "gorsel": "portre", "x": 0.75, "klip": "goz", "kx": 0.4, "etiket": "..."}]}]}
 Kural: Shorts'larda yalnızca ana videoda bilgi kontrolünden geçmiş bilgiler kullanılır (yeni iddia eklenmez).
-"x" dikey kesitin yatay merkezi (0-1); kamera yavaşça yakınlaşır. "x2" verilirse kamera x'ten x2'ye kayar.
+"x" dikey kesitin yatay merkezi (0-1); kamera yavaşça yakınlaşır. "x2" verilirse kamera x'ten x2'ye kayar; "aw"/"ay" başlangıç kadrajının genişliği ve dikey merkezi (etiket ya da üst yazı hayvanın yüzüne biniyorsa).
 """
 import json
 import os
@@ -41,7 +41,7 @@ def kur(video: str):
         cekimler = []
         for c in sh["cumleler"]:
             x = c.get("x", 0.5)
-            ck = {"n": 1, "gorsel": c["gorsel"], "a": [x, c.get("y", 0.5), 1.0], "b": [c.get("x2", x), c.get("y", 0.5), c.get("w", 0.85)]}
+            ck = {"n": 1, "gorsel": c["gorsel"], "a": [x, c.get("ay", c.get("y", 0.5)), c.get("aw", 1.0)], "b": [c.get("x2", x), c.get("y", 0.5), c.get("w", 0.85)]}
             for anahtar in ("klip", "kx", "etiket", "karart"):
                 if anahtar in c:
                     ck[anahtar] = c[anahtar]

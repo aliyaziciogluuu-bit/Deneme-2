@@ -480,10 +480,10 @@
   "uygun": true
  },
  "005": {
-  "yazi": "Birazdan göreceğin bu gece kuşu, başını neredeyse arkasına kadar çevirebiliyor, neredeyse hiç ses çıkarmadan uçuyor ve köyün en çalışkan fare avcılarından biri.",
-  "duyulan": "Birazdan göreceğin bu gece kuşu, başını neredeyse arkasına kadar çevirebiliyor. Neredeyse hiç ses çıkarmadan uçuyor ve köyün en çalışkan fare avcılarından biri.",
+  "yazi": "Birazdan göreceğin bu kuş, başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor.",
+  "duyulan": "Birazdan göreceğin bu kuş, başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor.",
   "hata": 0,
-  "sure": 12.12,
+  "sure": 7.7,
   "uygun": true,
   "tek_basina": true
  },

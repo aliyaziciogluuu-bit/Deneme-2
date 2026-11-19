@@ -3,7 +3,7 @@
   {
    "ad": "s1-ugursuz",
    "baslik": "Baykuş Gerçekten Uğursuz mu? 🦉 #shorts",
-   "aciklama": "Anadolu'da baykuşun ötmesi kötü haberin işareti sayılır; Antik Yunan'da ise bilgeliğin simgesiydi. Oysa baykuş, köyün en çalışkan fare avcılarından biri. Tam video kanalımızda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\nKaynak: Johnson & St. George – Vertebrate Pest Conference (peçeli baykuş ailelerinin avladığı kemirgenler)\n\n#shorts #baykuş #efsane #doğa #köy",
+   "aciklama": "Anadolu'da baykuşun ötmesi kötü haberin işareti sayılır; Antik Yunan'da ise bilgeliğin simgesiydi. Oysa baykuş, köyün en çalışkan fare avcılarından biri. Tam video kanalımızda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\nKaynaklar: Johnson & St. George – Vertebrate Pest Conference (peçeli baykuş ailelerinin avladığı kemirgenler); TDV İslâm Ansiklopedisi – Uğursuzluk maddesi\n\n#shorts #baykuş #efsane #doğa #köy",
    "etiketler": [
     "baykuş",
     "baykuş uğursuz mu",
@@ -17,10 +17,25 @@
    ],
    "cumleler": [
     {
-     "yazi": "Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor.",
+     "yazi": "Baykuş uğursuz değil; tam tersine, köylünün en faydalı komşularından biri.",
      "gorsel": "gece_koy",
      "klip": "gece_koy",
      "kx": 0.8
+    },
+    {
+     "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor.",
+     "gorsel": "karanlik_av",
+     "klip": "karanlik_av",
+     "kx": 0.55
+    },
+    {
+     "yazi": "Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor.",
+     "gorsel": "kukumav_portre",
+     "x": 0.6,
+     "ay": 0.3,
+     "aw": 0.85,
+     "y": 0.3,
+     "w": 0.75
     },
     {
      "yazi": "Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.",
@@ -37,19 +52,11 @@
      "ses": "Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi; Atina'da basılan gümüş sikkelerde de yer alıyordu.",
      "gorsel": "sikke",
      "x": 0.52,
-     "w": 0.7,
-     "etiket": "Atina sikkesi, MÖ 5. yüzyıl"
-    },
-    {
-     "yazi": "Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.",
-     "gorsel": "kukumav_portre",
-     "x": 0.6
-    },
-    {
-     "yazi": "Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor.",
-     "gorsel": "karanlik_av",
-     "klip": "karanlik_av",
-     "kx": 0.55
+     "w": 0.75,
+     "etiket": "Atina sikkesi, MÖ 5. yüzyıl",
+     "ay": 0.32,
+     "aw": 0.85,
+     "y": 0.32
     },
     {
      "yazi": "Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda.",
@@ -95,13 +102,16 @@
      "yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; yani tam bir turun yaklaşık dörtte üçü.",
      "gorsel": "bekci",
      "x": 0.36,
-     "etiket": "En fazla 270 derece"
+     "etiket": "En fazla 270 derece",
+     "ay": 0.3,
+     "aw": 0.88,
+     "y": 0.3,
+     "w": 0.78
     },
     {
      "yazi": "Bizim boynumuzda yedi omur varken, baykuşun boynunda on dört omur var.",
-     "gorsel": "harabe",
-     "x": 0.68,
-     "etiket": "İnsan: 7 omur, baykuş: 14 omur"
+     "gorsel": "alaca",
+     "x": 0.62
     },
     {
      "yazi": "Damarları da başını çevirirken beyne giden kan akışı kesilmeyecek şekilde gelişmiş. Tam videosu kanalımızda.",

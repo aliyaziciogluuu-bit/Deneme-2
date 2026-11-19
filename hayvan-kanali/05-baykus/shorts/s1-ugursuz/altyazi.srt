@@ -1,75 +1,79 @@
 1
-00:00:00,700 --> 00:00:02,363
-Anadolu'da baykuşun ötmesi,
+00:00:00,700 --> 00:00:03,165
+Baykuş uğursuz değil; tam tersine,
 
 2
-00:00:02,363 --> 00:00:03,718
-uzun zamandır kötü bir
+00:00:03,165 --> 00:00:04,542
+köylünün en faydalı
 
 3
-00:00:03,718 --> 00:00:05,565
-haberin işareti sayılıyor.
+00:00:04,542 --> 00:00:06,165
+komşularından biri.
 
 4
-00:00:05,670 --> 00:00:07,750
-Bu inanışın bir nedeni, baykuşların
-
-5
-00:00:07,750 --> 00:00:09,949
-yıkık binalarda, terk edilmiş evlerde
-
-6
-00:00:09,949 --> 00:00:12,155
-ve harabelerde yaşaması olabilir.
-
-7
-00:00:12,260 --> 00:00:14,124
-Oysa başka kültürlerde baykuş
-
-8
-00:00:14,124 --> 00:00:16,105
-bambaşka bir anlam taşıyor.
-
-9
-00:00:16,210 --> 00:00:18,445
-Antik Yunan'da küçük bir baykuş,
-
-10
-00:00:18,445 --> 00:00:21,308
-bilgelik tanrıçası Athena'nın simgesiydi;
-
-11
-00:00:21,308 --> 00:00:22,844
-Atina'da basılan gümüş
-
-12
-00:00:22,844 --> 00:00:24,975
-sikkelerde de yer alıyordu.
-
-13
-00:00:25,080 --> 00:00:27,620
-Yani aynı kuş, bir yerde uğursuzluğun,
-
-14
-00:00:27,620 --> 00:00:30,205
-başka bir yerde bilgeliğin işareti.
-
-15
-00:00:30,310 --> 00:00:31,990
+00:00:06,270 --> 00:00:08,043
 Bir peçeli baykuş ailesi,
 
-16
-00:00:31,990 --> 00:00:33,199
+5
+00:00:08,043 --> 00:00:09,320
 bir yılda binlerce
 
-17
-00:00:33,199 --> 00:00:34,855
+6
+00:00:09,320 --> 00:00:11,055
 kemirgen yiyebiliyor.
 
+7
+00:00:11,160 --> 00:00:12,938
+Anadolu'da baykuşun ötmesi,
+
+8
+00:00:12,938 --> 00:00:14,387
+uzun zamandır kötü bir
+
+9
+00:00:14,387 --> 00:00:16,345
+haberin işareti sayılıyor.
+
+10
+00:00:16,450 --> 00:00:18,670
+Bu inanışın bir nedeni, baykuşların
+
+11
+00:00:18,670 --> 00:00:21,017
+yıkık binalarda, terk edilmiş evlerde
+
+12
+00:00:21,017 --> 00:00:23,355
+ve harabelerde yaşaması olabilir.
+
+13
+00:00:23,460 --> 00:00:25,190
+Oysa başka kültürlerde baykuş
+
+14
+00:00:25,190 --> 00:00:27,045
+bambaşka bir anlam taşıyor.
+
+15
+00:00:27,150 --> 00:00:29,238
+Antik Yunan'da küçük bir baykuş,
+
+16
+00:00:29,238 --> 00:00:31,913
+bilgelik tanrıçası Athena'nın simgesiydi;
+
+17
+00:00:31,913 --> 00:00:33,348
+Atina'da basılan gümüş
+
 18
-00:00:34,960 --> 00:00:38,547
-Baykuş, köyün ücretsiz ve sessiz fare avcısı.
+00:00:33,348 --> 00:00:35,355
+sikkelerde de yer alıyordu.
 
 19
-00:00:38,547 --> 00:00:40,710
+00:00:35,460 --> 00:00:39,203
+Baykuş, köyün ücretsiz ve sessiz fare avcısı.
+
+20
+00:00:39,203 --> 00:00:41,450
 Tam videosu kanalımızda.

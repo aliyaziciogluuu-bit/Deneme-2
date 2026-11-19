@@ -49,30 +49,29 @@
    "gorsel": "bekci",
    "a": [
     0.36,
-    0.5,
-    1.0
+    0.3,
+    0.88
    ],
    "b": [
     0.36,
-    0.5,
-    0.85
+    0.3,
+    0.78
    ],
    "etiket": "En fazla 270 derece"
   },
   {
    "n": 1,
-   "gorsel": "harabe",
+   "gorsel": "alaca",
    "a": [
-    0.68,
+    0.62,
     0.5,
     1.0
    ],
    "b": [
-    0.68,
+    0.62,
     0.5,
     0.85
-   ],
-   "etiket": "İnsan: 7 omur, baykuş: 14 omur"
+   ]
   },
   {
    "n": 1,

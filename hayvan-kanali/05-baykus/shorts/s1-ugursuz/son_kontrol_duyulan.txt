@@ -1,7 +1,7 @@
-000 fark=0 | Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor. || Anadolu'da baykuşun ötmesi uzun zamandır kötü bir haberin işareti sayılıyor.
-001 fark=0 | Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir. || Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.
-002 fark=0 | Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor. || Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor.
-003 fark=0 | Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi; Atina'da basılan gümüş sikkelerde de yer alıyordu. || Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi. Atina'da basılan gümüş sikkelerde de yer alıyordu.
-004 fark=0 | Yani aynı kuş, bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti. || Yani aynı kuş bir yerde uğursuzluğun, başka bir yerde bilgeliğin işareti.
-005 fark=0 | Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor. || Bir peçeli baykuş ailesi bir yılda binlerce kemirgen yiyebiliyor.
+000 fark=0 | Baykuş uğursuz değil; tam tersine, köylünün en faydalı komşularından biri. || Baykuş uğursuz değil, tam tersine köylünün en faydalı komşularından biri.
+001 fark=0 | Bir peçeli baykuş ailesi, bir yılda binlerce kemirgen yiyebiliyor. || Bir peçeli baykuş ailesi bir yılda binlerce kemirgen yiyebiliyor.
+002 fark=0 | Anadolu'da baykuşun ötmesi, uzun zamandır kötü bir haberin işareti sayılıyor. || Anadolu'da baykuşun ötmesi uzun zamandır kötü bir haberin işareti sayılıyor.
+003 fark=0 | Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir. || Bu inanışın bir nedeni, baykuşların yıkık binalarda, terk edilmiş evlerde ve harabelerde yaşaması olabilir.
+004 fark=0 | Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor. || Oysa başka kültürlerde baykuş bambaşka bir anlam taşıyor.
+005 fark=0 | Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Athena'nın simgesiydi; Atina'da basılan gümüş sikkelerde de yer alıyordu. || Antik Yunan'da küçük bir baykuş, bilgelik tanrıçası Atena'nın simgesiydi. Atina'da basılan gümüş sikkelerde de yer alıyordu.
 006 fark=0 | Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda. || Baykuş, köyün ücretsiz ve sessiz fare avcısı. Tam videosu kanalımızda.

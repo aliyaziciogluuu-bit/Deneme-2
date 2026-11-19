@@ -33,7 +33,7 @@
       "UĞURSUZ",
       "MU?"
     ],
-    "kucuk": "Köyün gece bekçisi",
+    "kucuk": "Köyün gizli işçisi",
     "konum": "sol",
     "genislik": 500
   },
@@ -62,7 +62,7 @@
           "yazi": "Yoksa yüzyıllardır yanlış tanıdığımız, köyün en çalışkan gece bekçisi mi?"
         },
         {
-          "yazi": "Birazdan göreceğin bu gece kuşu, başını neredeyse arkasına kadar çevirebiliyor, neredeyse hiç ses çıkarmadan uçuyor ve köyün en çalışkan fare avcılarından biri."
+          "yazi": "Birazdan göreceğin bu kuş, başını neredeyse arkasına kadar çevirebiliyor ve uçarken çoğu zaman hiç duyulmuyor."
         }
       ]
     },
