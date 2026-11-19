@@ -409,12 +409,16 @@
     "ses_kazanc": 1.5
   },
   "shorts2": {
-    "bas": 700,
-    "son": 1380,
+    "bas": 950,
+    "son": 1250,
     "tur": 2,
     "baslik": "POV: a treehouse in the middle of a downpour",
     "alt": "the whole jungle is listening to the rain",
-    "ses_kazanc": 1.5
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 336,
+    "y_son": 300,
+    "ses_tohum": 7
   },
   "buhar": {
     "kutu": [
@@ -424,5 +428,6 @@
       745
     ],
     "genlik": 0.7
-  }
+  },
+  "gorsel_4k": "sahne_4k.png"
 }
