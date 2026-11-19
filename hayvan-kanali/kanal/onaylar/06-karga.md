@@ -32,3 +32,7 @@
 - Karar: ONAY. Puan: ses 7 (dinlenmedi), gorsel 8, teknik 8, shorts 8.
 - Notlar: s2-tas son karede gaga ucu kesik → son çekim x +0,05 kaydırıldı. Kapanis kargası gri değil, cop klibinde anlık kanat çakışması (ret nedeni değil).
 - Dinleme listesi: 0:00 ilk cümle, 1:55 Marzluff, 2:45 Karganın, 4:45 yardımı, 5:01 alçalabilir.
+
+## Metin editörü Tur 3 (19 Kasım)
+- Karar: ONAY. Puan: kanca 9, anlatim 9, baslik 8, shorts 9. Vaat 0:24,6, tür bloğu 39,4 sn, cevap 0:07.
+- Açıklamadaki tür listesinden "küçük karga" çıkarıldı (patron).
