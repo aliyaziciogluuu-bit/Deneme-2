@@ -469,5 +469,29 @@
   "hata": 0,
   "sure": 6.04,
   "uygun": true
+ },
+ "003": {
+  "yazi": "Amerika'da bir biyolog, tehdit edici bir maskeyle yedi karga yakalayıp bıraktı.",
+  "duyulan": "Amerika'da bir biyolog, tehdit edici bir maskeyle 7 karga yakalayıp bıraktı.",
+  "hata": 0,
+  "sure": 5.0,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "005": {
+  "yazi": "O gün orada olmayanlar bile zamanla aynısını yaptı.",
+  "duyulan": "O gün orada olmayanlar bile zamanla aynısını yaptı.",
+  "hata": 0,
+  "sure": 3.36,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "006": {
+  "yazi": "Birazdan öfkenin yıllarca sürdüğünü, kargaya neden taş atmaman gerektiğini göreceksin.",
+  "duyulan": "Birazdan öfkenin yıllarca sürdüğünü, kargaya neden taş atmaman gerektiğini göreceksin.",
+  "hata": 0,
+  "sure": 5.68,
+  "uygun": true,
+  "tek_basina": true
  }
 }
