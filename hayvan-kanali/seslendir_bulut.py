@@ -37,7 +37,7 @@ DENEME = 4
 ESDEGER = {"geco": "geko", "gecko": "geko", "gecolar": "gekolar", "turkicus": "turcicus", "turkikus": "turcicus",
            "hemidaktilus": "hemidactylus", "ortadoğu": "orta doğu", "ciyaklama": "cıyaklama", "koçi": "kotschy",
            "kotschi": "kotschy", "anguis": "anguis", "kolkika": "colchica", "fracilis": "fragilis",
-           "plinyus": "plinius", "plinyos": "plinius", "plinyusa": "pliniusa", "plinyosa": "pliniusa", "plinyusun": "pliniusun", "sütdeki": "sütteki", "plinyosun": "pliniusun", "atena": "athena", "atenanın": "athenanın", "salia": "salya", "sendeliyen": "sendeleyen", "alakarga": "ala karga", "saksağın": "saksağan", "saksağını": "saksağanı"}
+           "plinyus": "plinius", "plinyos": "plinius", "plinyusa": "pliniusa", "plinyosa": "pliniusa", "plinyusun": "pliniusun", "sütdeki": "sütteki", "plinyosun": "pliniusun", "atena": "athena", "atenanın": "athenanın", "salia": "salya", "sendeliyen": "sendeleyen", "alakarga": "ala karga", "saksağın": "saksağan", "saksağını": "saksağanı", "saksahan": "saksağan", "saksahanlar": "saksağanlar"}
 
 BIR = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
 ON = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
