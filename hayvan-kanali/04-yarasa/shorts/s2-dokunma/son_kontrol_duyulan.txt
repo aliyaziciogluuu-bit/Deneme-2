@@ -1,7 +1,8 @@
 000 fark=0 | Bir yarasaya asla çıplak elle dokunma. || Bir yarasaya asla çıplak elle dokunma.
-001 fark=0 | Yarasaların çok azı kuduz ya da benzeri virüsler taşır, ama hangisinin taşıdığını bakarak anlayamazsın. || Yarasaların çok azı kuduz ya da benzeri virüsler taşır ama hangisinin taşıdığını bakarak anlayamazsın.
+001 fark=0 | Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın. || Çoğu yarasa kuduz ya da benzeri virüsler taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.
 002 fark=0 | Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka. || Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.
-003 fark=0 | Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle. || Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasa ile temas ettiğini söyle.
+003 fark=0 | Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle. || Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.
 004 fark=0 | Kuduz aşısı gerekip gerekmediğine doktor karar verir. || Kuduz aşısı gerekip gerekmediğine doktor karar verir.
-005 fark=0 | Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık. || Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.
-006 fark=0 | Odada uyuyan biri ya da küçük bir çocuk varsa, yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda. || Odada uyuyan biri ya da küçük bir çocuk varsa yine bir sağlık kuruluşuna danış. Tam videosu kanalımızda.
+005 fark=0 | Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut. || Yerde ya da gündüz uçamayan bir yarasaya yaklaşma, çocukları ve evcil hayvanları uzak tut.
+006 fark=0 | Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık. || Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.
+007 fark=0 | Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda. || Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda.

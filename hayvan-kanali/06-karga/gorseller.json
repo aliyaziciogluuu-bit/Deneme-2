@@ -1,5 +1,5 @@
 {
- "not": "Türler: leş kargası (Corvus cornix) gri gövde, siyah baş-kanat-kuyruk; ekin kargası yetişkininde gaga dibinde çıplak beyazımsı deri, mor-mavi parlak siyah tüy; küçük karga küçük, ense gri, göz beyazımsı/açık gri; saksağan siyah-beyaz, çok uzun kuyruk; Amerikan kargası (maske deneyi) tamamen siyah, gaga ve bacak dahil, gri ya da beyaz olmamalı; Yeni Kaledonya kargası tamamen siyah. Tüm kuşlarda iki bacak, dört parmak (üçü önde biri arkada), gaga tek parça. Maske yüzsüz, düz lastik, korkutucu değil ve gerçek kişiye benzemez; çocuk yüzü görünmez. Tüpte solucan SUYUN YÜZEYİNDE olmalı (dipte olan aday kullanılmaz). Ölü karga kansız ve rahatsız edici olmayan çizilmeli. Yazı, tabela, logo çıkan aday kullanılmaz; yama yapılmaz. Leş kargası görsellerinde karnın gri olması şart; tamamen siyah çıkarsa tür yanlıştır. Ekin kargası portresinde gaga dibindeki çıplak deri yoksa kullanılmaz.",
+ "not": "Türler: leş kargası (Corvus cornix) gri gövde, siyah baş-kanat-kuyruk; ekin kargası yetişkininde gaga dibinde çıplak beyazımsı deri, mor-mavi parlak siyah tüy; küçük karga küçük, ense gri, göz beyazımsı/açık gri; saksağan siyah-beyaz, çok uzun kuyruk; Amerikan kargası (maske deneyi) tamamen siyah, gaga ve bacak dahil, gri ya da beyaz olmamalı; Yeni Kaledonya kargası tamamen siyah. Tüm kuşlarda iki bacak, dört parmak (üçü önde biri arkada), gaga tek parça. Maske yüzsüz, düz lastik, korkutucu değil ve gerçek kişiye benzemez; çocuk yüzü görünmez. Tüpte solucan SUYUN YÜZEYİNDE olmalı (dipte olan aday kullanılmaz). Ölü karga kansız ve rahatsız edici olmayan çizilmeli. Yazı, tabela, logo çıkan aday kullanılmaz; yama yapılmaz. Leş kargası görsellerinde karnın gri olması şart; tamamen siyah çıkarsa tür yanlıştır. Ekin kargası portresinde gaga dibindeki çıplak deri yoksa kullanılmaz. tup_solucan (üç turda solucan yüzeyde çizilemedi) ve beyin (beyin gözün üstüne biniyordu) kullanılmadı; 46. cümle ekin_portre ile anlatılıyor. kucuk_portre'de göz iki turda sarı çıktı; üçüncü turda göz görünmeyecek açıdan (arkadan, gri ense öne çıkarak) üretildi.",
  "gorseller": [
   {
    "ad": "cit_karga",
@@ -53,7 +53,7 @@
   },
   {
    "ad": "kucuk_portre",
-   "istem": "Portrait of a western jackdaw (Corvus monedula): small compact crow, black body, a pale silvery-grey nape and neck sides, short stubby black beak, the iris of its eye pale silvery-white (NOT yellow, NOT orange), realistic bird anatomy, two legs with four toes each, perched on a clay-tile roof edge next to a chimney, three-quarter view showing the pale eye and grey nape, soft daylight.",
+   "istem": "A western jackdaw (Corvus monedula) seen from behind and slightly from the side, perched on a clay-tile roof edge next to a chimney: small compact black crow with a distinctive pale silvery-grey nape and neck sides clearly visible as the main subject, short stubby black beak in profile, the eye NOT visible (head turned away from the viewer), realistic bird anatomy, two legs with four toes each, soft daylight.",
    "aday": 2
   },
   {
@@ -67,11 +67,6 @@
    "aday": 1
   },
   {
-   "ad": "beyin",
-   "istem": "A gentle naturalist illustration: the head of a hooded crow (Corvus cornix) in profile, glossy black head and throat with a light grey neck, black beak; inside the skull, the area above and behind the eye, a softly glowing translucent outline of a small round brain, calm warm colours, no labels, no letters, no arrows.",
-   "aday": 1
-  },
-  {
    "ad": "nc_ada",
    "istem": "A tropical island forest in the South Pacific with palms and ferns, soft humid light: a New Caledonian crow (Corvus moneduloides): entirely glossy black plumage, fairly straight stout black beak, dark eyes, realistic bird anatomy, two legs with four toes each stands on a branch holding a thin twig in its beak, looking at the viewer.",
    "aday": 2
@@ -80,11 +75,6 @@
    "ad": "nc_kanca",
    "istem": "A bird research aviary with wooden perches: a New Caledonian crow (Corvus moneduloides): entirely glossy black plumage, fairly straight stout black beak, dark eyes, realistic bird anatomy, two legs with four toes each holds a bent piece of thin wire shaped like a hook in its beak, standing on a perch beside a clear narrow vertical tube in which a tiny basket with a small piece of meat sits at the bottom.",
    "aday": 2
-  },
-  {
-   "ad": "tup_solucan",
-   "istem": "A bird laboratory table: a tall narrow clear glass tube filled with water up to about three quarters; a single pink earthworm lies horizontally FLOATING ON the water surface at the top of the water inside the tube, clearly above the water line under the rim, not submerged, with air visible above it and the water level low enough that the beak cannot reach it; beside the tube stands one single rook (Corvus frugilegus): adult with glossy black plumage with a purple-blue sheen, bare whitish-grey skin at the base of the long beak, dark eyes, two legs with four toes each, looking at the worm. A few small pebbles lie on the table. Only one bird.",
-   "aday": 3
   },
   {
    "ad": "tup_tas",

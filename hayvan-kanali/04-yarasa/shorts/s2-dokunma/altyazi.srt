@@ -1,75 +1,95 @@
 1
-00:00:00,700 --> 00:00:03,445
+00:00:00,700 --> 00:00:03,385
 Bir yarasaya asla çıplak elle dokunma.
 
 2
-00:00:03,550 --> 00:00:05,429
-Yarasaların çok azı kuduz ya da
+00:00:03,490 --> 00:00:05,330
+Çoğu yarasa kuduz ya da benzeri
 
 3
-00:00:05,429 --> 00:00:06,822
-benzeri virüsler taşır,
+00:00:05,330 --> 00:00:07,230
+virüsler taşımaz, ama hangisinin
 
 4
-00:00:06,822 --> 00:00:08,337
-ama hangisinin taşıdığını
+00:00:07,230 --> 00:00:09,375
+taşıdığını bakarak anlayamazsın.
 
 5
-00:00:08,337 --> 00:00:09,855
-bakarak anlayamazsın.
-
-6
-00:00:09,960 --> 00:00:12,716
+00:00:09,480 --> 00:00:12,295
 Bir yarasa seni ısırır ya da tırmalarsa,
 
-7
-00:00:12,716 --> 00:00:15,197
+6
+00:00:12,295 --> 00:00:14,828
 yara küçük olsa bile hemen bol sabun
 
-8
-00:00:15,197 --> 00:00:17,785
+7
+00:00:14,828 --> 00:00:17,465
 ve suyla en az on beş dakika yıka.
 
-9
-00:00:17,890 --> 00:00:19,457
+8
+00:00:17,570 --> 00:00:19,025
 Sonra vakit kaybetmeden bir
 
-10
-00:00:19,457 --> 00:00:20,850
+9
+00:00:19,025 --> 00:00:20,319
 sağlık kuruluşuna git ve
 
-11
-00:00:20,850 --> 00:00:22,895
+10
+00:00:20,319 --> 00:00:22,235
 yarasayla temas ettiğini söyle.
 
-12
-00:00:23,000 --> 00:00:24,016
+11
+00:00:22,340 --> 00:00:23,517
 Kuduz aşısı gerekip
 
-13
-00:00:24,016 --> 00:00:26,025
+12
+00:00:23,517 --> 00:00:25,805
 gerekmediğine doktor karar verir.
 
+13
+00:00:25,910 --> 00:00:27,563
+Yerde ya da gündüz uçamayan
+
 14
-00:00:26,130 --> 00:00:28,664
-Eve yarasa girerse ışıkları kapat,
+00:00:27,563 --> 00:00:28,909
+bir yarasaya yaklaşma;
 
 15
-00:00:28,664 --> 00:00:29,632
-pencereyi aç,
+00:00:28,909 --> 00:00:30,011
+çocukları ve evcil
 
 16
-00:00:29,632 --> 00:00:31,815
-kapıyı kapatıp odadan çık.
+00:00:30,011 --> 00:00:31,480
+hayvanları uzak tut.
 
 17
-00:00:31,920 --> 00:00:33,951
-Odada uyuyan biri ya da küçük bir
+00:00:31,585 --> 00:00:33,765
+Eve yarasa girerse ışıkları kapat,
 
 18
-00:00:33,951 --> 00:00:36,783
-çocuk varsa, yine bir sağlık kuruluşuna danış.
+00:00:33,765 --> 00:00:34,598
+pencereyi aç,
 
 19
-00:00:36,783 --> 00:00:38,510
+00:00:34,598 --> 00:00:36,510
+kapıyı kapatıp odadan çık.
+
+20
+00:00:36,615 --> 00:00:38,825
+Odada uyuyan biri, küçük bir çocuk ya
+
+21
+00:00:38,825 --> 00:00:40,856
+da temas olasılığı varsa, yarasayı
+
+22
+00:00:40,856 --> 00:00:42,229
+serbest bırakmadan önce
+
+23
+00:00:42,229 --> 00:00:43,902
+bir sağlık kuruluşuna danış.
+
+24
+00:00:43,902 --> 00:00:45,585
 Tam videosu kanalımızda.
