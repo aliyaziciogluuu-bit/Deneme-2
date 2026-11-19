@@ -1,5 +1,5 @@
 {
-  "baslik": "Yarasa Saça Yapışır mı? (Asıl Tehlike ve Asıl Fayda)",
+  "baslik": "Yarasa Saça Yapışır mı? (Dokunmadan Önce Bunu Bil)",
   "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları ve sesli okunuşta karışabilecek ekli yapılar bilerek kullanılmadı. Sağlık bölümünde kesin tıbbi hüküm verilmez; aşı kararı doktora bırakılır.",
   "aciklama": "Yaz akşamı başının üstünden bir yarasa geçti ve biri bağırdı: \"Saçına yapışacak!\" Yapışmaz. Yarasaların çoğu karanlıkta yankıyla yön bulan, gece böcek avlayan memeliler; üstelik uçabilen tek memeli grubu. Ama yarasalarla ilgili gerçekten bilmen gereken bir şey var: onlara asla çıplak elle dokunmamak.\n\nBu videoda yarasaların neden saça yapışmadığını, kör olup olmadığını, kan emip emmediğini ve Türkiye'deki yarasaların neyle beslendiğini anlatıyoruz. Ekolokasyonun nasıl çalıştığını, yarasaların çoğunun yılda yalnızca bir yavru doğurduğunu ve bir yarasanın kırk yılı aşan rekor ömrünü de keşfediyoruz.\n\nEve yarasa girerse ne yapmalıyım, yarasa ısırırsa ne yapılır, yarasa kuduz taşır mı diye merak ediyorsan, ışığı kapatıp pencereyi açmaktan sağlık kuruluşuna başvurmaya kadar doğru adımlar da videoda. Unutma: yarasalar korunması gereken yaban hayvanları.",
   "yorum_sorusu": "Senin oralarda yarasayla ilgili hangi inanışlar anlatılıyor? Akşamları evinin çevresinde yarasa görüyor musun? Yorumlarda konuşalım.",
@@ -35,7 +35,7 @@
       "SAÇINA",
       "YAPIŞIR MI?"
     ],
-    "kucuk": "Asıl tehlike başka",
+    "kucuk": "Eline alma",
     "konum": "sol"
   },
   "ambiyans": {
@@ -48,13 +48,13 @@
       "ad": "Başının üstündeki gölge",
       "cumleler": [
         {
-          "yazi": "Yaz akşamı balkonda oturuyorsun. Başının üstünden hızla bir gölge geçiyor."
-        },
-        {
           "yazi": "Biri bağırıyor: yarasa, saçına yapışacak!"
         },
         {
-          "yazi": "Herkes başını eğiyor."
+          "yazi": "Peki yarasa saça yapışır mı?"
+        },
+        {
+          "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane."
         },
         {
           "yazi": "Oysa o yarasa ne saçına yapışmak istiyor, ne de sana yaklaşmak."
@@ -64,14 +64,42 @@
         },
         {
           "yazi": "Ama yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak."
-        },
-        {
-          "yazi": "Bu, gecenin sessiz avcısı yarasanın hikâyesi."
         }
       ]
     },
     {
-      "ad": "Yarasa kimdir?",
+      "ad": "Yankıyla yön bulmak",
+      "cumleler": [
+        {
+          "yazi": "Yarasalar karanlıkta bile önlerindeki engelleri çok iyi algılıyor."
+        },
+        {
+          "yazi": "Çoğu yarasa, ağzından ya da burnundan insan kulağının duyamayacağı kadar tiz sesler çıkarıyor."
+        },
+        {
+          "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor."
+        },
+        {
+          "yazi": "Yarasa yankıyı dinleyerek önündekinin ne olduğunu ve ne kadar uzakta olduğunu anlıyor."
+        },
+        {
+          "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor."
+        }
+      ]
+    },
+    {
+      "ad": "Yarasa kör mü?",
+      "cumleler": [
+        {
+          "yazi": "Peki yarasa gerçekten kör mü?"
+        },
+        {
+          "yazi": "Kör yarasa sözü de doğru değil; yarasaların gözleri var ve görebiliyorlar."
+        }
+      ]
+    },
+    {
+      "ad": "Uçabilen tek memeli",
       "cumleler": [
         {
           "yazi": "Yarasalar, gerçekten uçabilen tek memeliler."
@@ -87,41 +115,6 @@
         },
         {
           "yazi": "Yani bir yarasanın kanadı, aslında kocaman açılmış bir el."
-        },
-        {
-          "yazi": "Dünyada bin üç yüzden fazla yarasa türü var."
-        },
-        {
-          "yazi": "Türkiye'de otuzdan fazla yarasa türü yaşıyor."
-        }
-      ]
-    },
-    {
-      "ad": "Saça yapışır mı, kör mü?",
-      "cumleler": [
-        {
-          "yazi": "Peki yarasa saça yapışır mı?"
-        },
-        {
-          "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane."
-        },
-        {
-          "yazi": "Yarasalar karanlıkta bile önlerindeki engelleri çok iyi algılıyor."
-        },
-        {
-          "yazi": "Çoğu yarasa, ağzından ya da burnundan insan kulağının duyamayacağı kadar tiz sesler çıkarıyor."
-        },
-        {
-          "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu ve ne kadar uzakta olduğunu anlıyor."
-        },
-        {
-          "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor."
-        },
-        {
-          "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle çevrende uçuşan bir böceği yakalıyor."
-        },
-        {
-          "yazi": "Kör yarasa sözü de doğru değil; yarasaların gözleri var ve görebiliyorlar."
         }
       ]
     },
@@ -146,13 +139,10 @@
       "ad": "Gecenin böcek avcısı",
       "cumleler": [
         {
-          "yazi": "Türkiye'deki yarasaların büyük çoğunluğu böcek avcısı."
-        },
-        {
           "yazi": "Güveler, küçük sinekler, böcekler ve bazı tarım zararlıları menülerinde."
         },
         {
-          "yazi": "Avrupa'da yapılan bir araştırmaya göre, küçük bir yarasa bir gecede ortalama yarım gramdan az böcek yiyor."
+          "yazi": "Avrupa'da dışkıdan yapılan bir tahmine göre, küçük bir yarasa bir gecede ortalama yarım gramdan az böcek yiyor."
         },
         {
           "yazi": "Daha iri bir türde bu miktar, iki gramı biraz aşıyor."
@@ -168,6 +158,12 @@
     {
       "ad": "Bir yavru, kırk yıl",
       "cumleler": [
+        {
+          "yazi": "Dünyada bin üç yüzden fazla yarasa türü var."
+        },
+        {
+          "yazi": "Türkiye'de otuzdan fazla yarasa türü yaşıyor."
+        },
         {
           "yazi": "Yarasaların çoğu yılda yalnızca bir yavru doğuruyor."
         },
@@ -192,7 +188,7 @@
           "yazi": "Bazı böcekçil yarasalar, kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyor."
         },
         {
-          "yazi": "Bu sırada uyandırılırlarsa, kışı geçirmek için gereken yağ depolarını hızla harcıyorlar."
+          "yazi": "Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar."
         },
         {
           "yazi": "Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli."
@@ -203,22 +199,28 @@
       "ad": "Asıl tehlike: çıplak elle temas",
       "cumleler": [
         {
-          "yazi": "Şimdi en önemli kısma gelelim."
+          "yazi": "Peki asıl tehlike ne?"
         },
         {
           "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor."
         },
         {
-          "yazi": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın."
+          "yazi": "Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın."
         },
         {
           "yazi": "Bu yüzden bir yarasaya asla çıplak elle dokunma."
         },
         {
-          "yazi": "Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir; ona yaklaşma, çocukları ve evcil hayvanları uzak tut."
+          "yazi": "Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir; ona yaklaşma."
         },
         {
-          "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka."
+          "yazi": "Çocukları ve evcil hayvanları uzak tut."
+        },
+        {
+          "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka."
+        },
+        {
+          "yazi": "Yıkamayı en az on beş dakika sürdür."
         },
         {
           "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle."
@@ -238,19 +240,28 @@
           "yazi": "Önce sakin ol; yarasa genellikle sana saldırmaz, sadece çıkış yolu arıyor."
         },
         {
-          "yazi": "Odadaki ışıkları kapat, pencereleri ardına kadar aç, çocukları ve evcil hayvanları odadan uzak tut ve kapıyı kapatıp dışarı çık."
+          "yazi": "Odadaki ışıkları kapat, pencereleri ardına kadar aç ve kapıyı kapatıp dışarı çık."
+        },
+        {
+          "yazi": "Çocukları ve evcil hayvanları odadan uzak tut."
         },
         {
           "yazi": "Yarasa çoğu zaman kendi çıkış yolunu bulup dışarı uçar."
         },
         {
-          "yazi": "Odada uyuyan biri ya da küçük bir çocuk varsa, ya da yarasayla temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış."
+          "yazi": "Odada uyuyan biri ya da küçük bir çocuk varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış."
         },
         {
-          "yazi": "Çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat, altına karton kaydır ve akşam olunca dışarıda yüksek bir yere bırak; bunu yalnızca bir yetişkin, kalın eldivenle yapsın."
+          "yazi": "Yarasayla temas olasılığı varsa da aynısını yap."
         },
         {
-          "yazi": "Yaralı ya da yerde duran bir yarasa görürsen ya da emin değilsen, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver."
+          "yazi": "Yarasa çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat, altına karton kaydır."
+        },
+        {
+          "yazi": "Akşam olunca dışarıda yüksek bir yere bırak; bunu yalnızca bir yetişkin, kalın eldivenle yapsın."
+        },
+        {
+          "yazi": "Yarasa yaralıysa ya da emin değilsen, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver."
         }
       ]
     },
@@ -258,7 +269,7 @@
       "ad": "Yarasaları korumak",
       "cumleler": [
         {
-          "yazi": "Yarasalar korunması gereken yaban hayvanları; onları öldürme, yakalama ve barınaklarına zarar verme."
+          "yazi": "Yarasalar korunması gereken yaban hayvanları; onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme."
         },
         {
           "yazi": "Çatı arasında bir yarasa kolonisi varsa, onları kendi başına çıkarmaya çalışma; yetkililerden yardım iste."

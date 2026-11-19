@@ -1,25 +1,26 @@
 {
  "000": {
-  "yazi": "Yaz akşamı balkonda oturuyorsun. Başının üstünden hızla bir gölge geçiyor.",
-  "duyulan": "Yaz akşamı balkonda oturuyorsun, başının üstünden hızla bir gölge geçiyor.",
-  "hata": 0,
-  "sure": 4.82,
-  "uygun": true,
-  "tek_basina": true
- },
- "001": {
   "yazi": "Biri bağırıyor: yarasa, saçına yapışacak!",
   "duyulan": "Biri bağırıyor, yarasa saçına yapışacak.",
   "hata": 0,
   "sure": 2.3,
   "uygun": true
  },
- "002": {
-  "yazi": "Herkes başını eğiyor.",
-  "duyulan": "Herkes başını eğiyor.",
+ "001": {
+  "yazi": "Peki yarasa saça yapışır mı?",
+  "duyulan": "Peki yarasa saça yapışır mı?",
   "hata": 0,
-  "sure": 1.16,
-  "uygun": true
+  "sure": 2.28,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "002": {
+  "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane.",
+  "duyulan": "Hayır, bu nesilden nesile anlatılan bir efsane.",
+  "hata": 0,
+  "sure": 4.02,
+  "uygun": true,
+  "tek_basina": true
  },
  "003": {
   "yazi": "Oysa o yarasa ne saçına yapışmak istiyor, ne de sana yaklaşmak.",
@@ -44,87 +45,13 @@
   "uygun": true
  },
  "006": {
-  "yazi": "Bu, gecenin sessiz avcısı yarasanın hikâyesi.",
-  "duyulan": "Bu, Gecenin Sessiz Avcısı Yarasa'nın Hikayesi.",
-  "hata": 0,
-  "sure": 3.58,
-  "uygun": true
- },
- "007": {
-  "yazi": "Yarasalar, gerçekten uçabilen tek memeliler.",
-  "duyulan": "Yarasa'lar, gerçekten uçabilen tekmemeliler.",
-  "hata": 0,
-  "sure": 3.04,
-  "uygun": true
- },
- "008": {
-  "yazi": "Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar.",
-  "duyulan": "Kuş değiller, yavrularını doğuruyor ve sütle besliyorlar.",
-  "hata": 0,
-  "sure": 3.6,
-  "uygun": true
- },
- "009": {
-  "yazi": "Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar.",
-  "duyulan": "Fare de değiller, kemirgenlerle yakın akraba bile sayılmıyorlar.",
-  "hata": 0,
-  "sure": 3.44,
-  "uygun": true
- },
- "010": {
-  "yazi": "Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
-  "duyulan": "Kanatları uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
-  "hata": 0,
-  "sure": 4.88,
-  "uygun": true
- },
- "011": {
-  "yazi": "Yani bir yarasanın kanadı, aslında kocaman açılmış bir el.",
-  "duyulan": "Yani bir yarasanın kanadı aslında kocaman açılmış bir el.",
-  "hata": 0,
-  "sure": 4.04,
-  "uygun": true
- },
- "012": {
-  "yazi": "Dünyada bin üç yüzden fazla yarasa türü var.",
-  "duyulan": "Dünyada 1300'den fazla yarasa türü var.",
-  "hata": 0,
-  "sure": 2.96,
-  "uygun": true,
-  "tek_basina": true
- },
- "013": {
-  "yazi": "Türkiye'de otuzdan fazla yarasa türü yaşıyor.",
-  "duyulan": "Türkiye'de 30'dan fazla yarasa türü yaşıyor.",
-  "hata": 0,
-  "sure": 2.98,
-  "uygun": true,
-  "tek_basina": true
- },
- "014": {
-  "yazi": "Peki yarasa saça yapışır mı?",
-  "duyulan": "Peki yarasa saça yapışır mı?",
-  "hata": 0,
-  "sure": 2.28,
-  "uygun": true,
-  "tek_basina": true
- },
- "015": {
-  "yazi": "Hayır. Bu, nesilden nesile anlatılan bir efsane.",
-  "duyulan": "Hayır, bu nesilden nesile anlatılan bir efsane.",
-  "hata": 0,
-  "sure": 4.02,
-  "uygun": true,
-  "tek_basina": true
- },
- "016": {
   "yazi": "Yarasalar karanlıkta bile önlerindeki engelleri çok iyi algılıyor.",
   "duyulan": "Yarasalar karanlıkta bile önlerindeki engelleri çok iyi algılıyor.",
   "hata": 0,
   "sure": 4.18,
   "uygun": true
  },
- "017": {
+ "007": {
   "yazi": "Çoğu yarasa, ağzından ya da burnundan insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
   "duyulan": "Çoğu yarasa, ağzından ya da burnundan, insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
   "hata": 0,
@@ -132,49 +59,70 @@
   "uygun": true,
   "tek_basina": true
  },
- "018": {
-  "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu ve ne kadar uzakta olduğunu anlıyor.",
-  "duyulan": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor. Yarasa yankıyı dinleyerek önündekinin ne olduğunu ve ne kadar uzakta olduğunu anlıyor.",
-  "hata": 0,
-  "sure": 8.84,
-  "uygun": true
- },
- "019": {
+ "010": {
   "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor.",
   "duyulan": "Buna ekolokasyon, yani yankıyla yön bulma deniyor.",
   "hata": 0,
   "sure": 3.6,
   "uygun": true
  },
- "020": {
-  "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle çevrende uçuşan bir böceği yakalıyor.",
-  "duyulan": "başının yakınından geçen bir yarasa, büyük ihtimalle çevrende uçuşan bir böceği yakalıyor.",
-  "hata": 0,
-  "sure": 4.8,
-  "uygun": true
- },
- "021": {
+ "012": {
   "yazi": "Kör yarasa sözü de doğru değil; yarasaların gözleri var ve görebiliyorlar.",
   "duyulan": "Kör yarasa sözü de doğru değil, yarasaların gözleri var ve görebiliyorlar.",
   "hata": 0,
   "sure": 3.84,
   "uygun": true
  },
- "022": {
+ "013": {
+  "yazi": "Yarasalar, gerçekten uçabilen tek memeliler.",
+  "duyulan": "Yarasa'lar, gerçekten uçabilen tekmemeliler.",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar.",
+  "duyulan": "Kuş değiller, yavrularını doğuruyor ve sütle besliyorlar.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar.",
+  "duyulan": "Fare de değiller, kemirgenlerle yakın akraba bile sayılmıyorlar.",
+  "hata": 0,
+  "sure": 3.44,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
+  "duyulan": "Kanatları uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
+  "hata": 0,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Yani bir yarasanın kanadı, aslında kocaman açılmış bir el.",
+  "duyulan": "Yani bir yarasanın kanadı aslında kocaman açılmış bir el.",
+  "hata": 0,
+  "sure": 4.04,
+  "uygun": true
+ },
+ "018": {
   "yazi": "Bir başka korku da kan emmeleri.",
   "duyulan": "Bir başka korku da kan emmeleri.",
   "hata": 0,
   "sure": 2.02,
   "uygun": true
  },
- "023": {
+ "019": {
   "yazi": "Dünyada kanla beslenen yalnızca üç yarasa türü var ve hepsi Meksika'dan Güney Amerika'ya uzanan bölgede yaşıyor.",
   "duyulan": "Dünyada kanla beslenen yalnızca 3 yarasa türü var ve hepsi Meksika'dan Güney Amerika'ya uzanan bölgede yaşıyor.",
   "hata": 0,
   "sure": 6.8,
   "uygun": true
  },
- "024": {
+ "020": {
   "yazi": "Türkiye'de kanla beslenen yarasa yok.",
   "duyulan": "Türkiye'de kanla beslenen yarasa yok.",
   "hata": 0,
@@ -182,21 +130,14 @@
   "uygun": true,
   "tek_basina": true
  },
- "025": {
+ "021": {
   "yazi": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir; yalnızca bir tür meyve yer.",
   "duyulan": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir, yalnızca bir tür meyve yer.",
   "hata": 0,
   "sure": 5.28,
   "uygun": true
  },
- "026": {
-  "yazi": "Türkiye'deki yarasaların büyük çoğunluğu böcek avcısı.",
-  "duyulan": "Türkiye'deki yarasaların büyük çoğunluğu böcek avcısı.",
-  "hata": 0,
-  "sure": 3.02,
-  "uygun": true
- },
- "027": {
+ "022": {
   "yazi": "Güveler, küçük sinekler, böcekler ve bazı tarım zararlıları menülerinde.",
   "duyulan": "güveler, küçük sinekler, böcekler ve bazı tarım zararlıları menülerinde.",
   "hata": 0,
@@ -204,15 +145,7 @@
   "uygun": true,
   "tek_basina": true
  },
- "028": {
-  "yazi": "Avrupa'da yapılan bir araştırmaya göre, küçük bir yarasa bir gecede ortalama yarım gramdan az böcek yiyor.",
-  "duyulan": "Avrupa'da yapılan bir araştırmaya göre küçük bir yarasa bir gecede ortalama yarım gramdan az böcek yiyor.",
-  "hata": 0,
-  "sure": 7.26,
-  "uygun": true,
-  "tek_basina": true
- },
- "029": {
+ "024": {
   "yazi": "Daha iri bir türde bu miktar, iki gramı biraz aşıyor.",
   "duyulan": "Daha iri bir türde bu miktar 2 gramı biraz aşıyor.",
   "hata": 0,
@@ -220,35 +153,51 @@
   "uygun": true,
   "tek_basina": true
  },
- "030": {
+ "025": {
   "yazi": "Bu yüzden yarasalar, tarlalarda ve bahçelerde ücretsiz çalışan birer böcek avcısı.",
   "duyulan": "Bu yüzden yarasalar, tarlalarda ve bahçelerde ücretsiz çalışan birer böcek avcısı.",
   "hata": 0,
   "sure": 5.08,
   "uygun": true
  },
- "031": {
+ "026": {
   "yazi": "Güney kıyılarımızda yaşayan Mısır meyve yarasası da meyvelerle besleniyor ve tohumların yayılmasına yardım ediyor.",
   "duyulan": "Güney kıyılarımızda yaşayan mısır meyve yarasası da meyvelerle besleniyor ve tohumların yayılmasına yardım ediyor.",
   "hata": 0,
   "sure": 6.18,
   "uygun": true
  },
- "032": {
+ "027": {
+  "yazi": "Dünyada bin üç yüzden fazla yarasa türü var.",
+  "duyulan": "Dünyada 1300'den fazla yarasa türü var.",
+  "hata": 0,
+  "sure": 2.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "028": {
+  "yazi": "Türkiye'de otuzdan fazla yarasa türü yaşıyor.",
+  "duyulan": "Türkiye'de 30'dan fazla yarasa türü yaşıyor.",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "029": {
   "yazi": "Yarasaların çoğu yılda yalnızca bir yavru doğuruyor.",
   "duyulan": "Yarasaların çoğu yılda yalnızca bir yavru doğuruyor.",
   "hata": 0,
   "sure": 3.24,
   "uygun": true
  },
- "033": {
+ "030": {
   "yazi": "Dişiler yazın, yavrularını büyütmek için kalabalık doğum kolonileri oluşturuyor.",
   "duyulan": "dişiler yazın, yavrularını büyütmek için kalabalık doğum kolonileri oluşturuyor.",
   "hata": 0,
   "sure": 4.48,
   "uygun": true
  },
- "034": {
+ "031": {
   "yazi": "Bu kadar yavaş çoğaldıkları için, bir koloninin zarar görmesi o bölgedeki yarasaları uzun yıllar etkileyebiliyor.",
   "duyulan": "Bu kadar yavaş çoğaldıkları için bir koloninin zarar görmesi o bölgedeki yarasaları uzun yıllar etkileyebiliyor.",
   "hata": 0,
@@ -256,14 +205,14 @@
   "uygun": true,
   "tek_basina": true
  },
- "035": {
+ "032": {
   "yazi": "Buna karşılık şaşırtıcı derecede uzun yaşıyorlar.",
   "duyulan": "Buna karşılık şaşırtıcı derecede uzun yaşıyorlar.",
   "hata": 0,
   "sure": 2.76,
   "uygun": true
  },
- "036": {
+ "033": {
   "yazi": "Sibirya'da halkalanan küçük bir yarasa, en az kırk bir yıl yaşadı.",
   "duyulan": "Sibirya'da halkalanan küçük bir yarasa en az 41 yıl yaşadı.",
   "hata": 0,
@@ -271,7 +220,7 @@
   "uygun": true,
   "tek_basina": true
  },
- "037": {
+ "034": {
   "yazi": "Bazı böcekçil yarasalar, kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyor.",
   "duyulan": "Bazı böcekçil yarasalar kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyor.",
   "hata": 0,
@@ -279,14 +228,7 @@
   "uygun": true,
   "tek_basina": true
  },
- "038": {
-  "yazi": "Bu sırada uyandırılırlarsa, kışı geçirmek için gereken yağ depolarını hızla harcıyorlar.",
-  "duyulan": "Bu sırada uyandırılırlarsa, kışı geçirmek için gereken yağ depolarını hızla harcıyorlar.",
-  "hata": 0,
-  "sure": 5.18,
-  "uygun": true
- },
- "039": {
+ "036": {
   "yazi": "Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
   "duyulan": "Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
   "hata": 0,
@@ -294,85 +236,46 @@
   "uygun": true,
   "tek_basina": true
  },
- "040": {
-  "yazi": "Şimdi en önemli kısma gelelim.",
-  "duyulan": "Şimdi en önemli kısma gelelim.",
-  "hata": 0,
-  "sure": 1.64,
-  "uygun": true
- },
- "041": {
+ "038": {
   "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.",
   "duyulan": "Yarasalar dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.",
   "hata": 0,
   "sure": 4.58,
   "uygun": true
  },
- "042": {
-  "yazi": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.",
-  "duyulan": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.",
-  "hata": 0,
-  "sure": 7.14,
-  "uygun": true,
-  "tek_basina": true
- },
- "043": {
+ "040": {
   "yazi": "Bu yüzden bir yarasaya asla çıplak elle dokunma.",
   "duyulan": "Bu yüzden bir yarasaya asla çıplak elle dokunma.",
   "hata": 0,
   "sure": 2.9,
   "uygun": true
  },
- "044": {
-  "yazi": "Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir; ona yaklaşma, çocukları ve evcil hayvanları uzak tut.",
-  "duyulan": "Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir. Ona yaklaşma, çocukları ve evcil hayvanları uzak tut.",
-  "hata": 0,
-  "sure": 8.2,
-  "uygun": true,
-  "tek_basina": true
- },
  "045": {
-  "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka.",
-  "duyulan": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.",
-  "hata": 0,
-  "sure": 7.32,
-  "uygun": true,
-  "tek_basina": true
- },
- "046": {
   "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
   "duyulan": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve Yarasa'yla temas ettiğini söyle.",
   "hata": 0,
   "sure": 4.8,
   "uygun": true
  },
- "047": {
+ "046": {
   "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir; kendi başına bir şey olmaz deyip geçme.",
   "duyulan": "Kuduz aşısı gerekip gerekmediğine doktor karar verir, kendi başına bir şey olmaz deyip geçme.",
   "hata": 0,
   "sure": 5.04,
   "uygun": true
  },
- "048": {
+ "047": {
   "yazi": "Peki evine bir yarasa girerse ne yapmalısın?",
   "duyulan": "Peki, evine bir yarasa girerse ne yapmalısın?",
   "hata": 0,
   "sure": 2.76,
   "uygun": true
  },
- "049": {
+ "048": {
   "yazi": "Önce sakin ol; yarasa genellikle sana saldırmaz, sadece çıkış yolu arıyor.",
   "duyulan": "Önce sakin ol, yarasa genellikle sana saldırmaz. Sadece çıkış yolu arıyor.",
   "hata": 0,
   "sure": 4.9,
-  "uygun": true,
-  "tek_basina": true
- },
- "050": {
-  "yazi": "Odadaki ışıkları kapat, pencereleri ardına kadar aç, çocukları ve evcil hayvanları odadan uzak tut ve kapıyı kapatıp dışarı çık.",
-  "duyulan": "Odadaki ışıkları kapat, pencereleri ardına kadar aç. Çocukları ve evcil hayvanları odadan uzak tut ve kapıyı kapatıp dışarı çık.",
-  "hata": 0,
-  "sure": 9.5,
   "uygun": true,
   "tek_basina": true
  },
@@ -384,46 +287,14 @@
   "uygun": true,
   "tek_basina": true
  },
- "052": {
-  "yazi": "Odada uyuyan biri ya da küçük bir çocuk varsa, ya da yarasayla temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış.",
-  "duyulan": "Odada uyuyan biri ya da küçük bir çocuk varsa ya da yarasayla temas olasılığı varsa yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış.",
-  "hata": 0,
-  "sure": 10.06,
-  "uygun": true,
-  "tek_basina": true
- },
- "053": {
-  "yazi": "Çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat, altına karton kaydır ve akşam olunca dışarıda yüksek bir yere bırak; bunu yalnızca bir yetişkin, kalın eldivenle yapsın.",
-  "duyulan": "Çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat. Altına karton kaydır ve akşam olunca dışarıda yüksek bir yere bırak. Bunu yalnızca bir yetişkin, kalın eldivenle yapsın.",
-  "hata": 0,
-  "sure": 12.02,
-  "uygun": true,
-  "tek_basina": true
- },
- "054": {
-  "yazi": "Yaralı ya da yerde duran bir yarasa görürsen ya da emin değilsen, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver.",
-  "duyulan": "Yaralı ya da yerde duran bir yarasa görürsen ya da emin değilsen Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne haber ver.",
-  "hata": 0,
-  "sure": 8.34,
-  "uygun": true,
-  "tek_basina": true
- },
- "055": {
-  "yazi": "Yarasalar korunması gereken yaban hayvanları; onları öldürme, yakalama ve barınaklarına zarar verme.",
-  "duyulan": "Yarasalar, korunması gereken yaban hayvanları. Onları öldürme, yakalama ve barınaklarına zarar verme.",
-  "hata": 0,
-  "sure": 7.32,
-  "uygun": true,
-  "tek_basina": true
- },
- "056": {
+ "058": {
   "yazi": "Çatı arasında bir yarasa kolonisi varsa, onları kendi başına çıkarmaya çalışma; yetkililerden yardım iste.",
   "duyulan": "Çatı arasında bir yarasa kolonisi varsa, onları kendi başına çıkarmaya çalışma. Yetkililerden yardım iste.",
   "hata": 0,
   "sure": 5.82,
   "uygun": true
  },
- "057": {
+ "059": {
   "yazi": "Yarasa kutusu asmak onlara yardımcı olabilir; ama kutuyu doğru yapmak gerekir ve kutuya elle dokunmamalısın.",
   "duyulan": "Yarasa kutusu asmak onlara yardımcı olabilir ama kutuyu doğru yapmak gerekir ve kutuya elle dokunmamalısın.",
   "hata": 0,
@@ -431,14 +302,14 @@
   "uygun": true,
   "tek_basina": true
  },
- "058": {
+ "060": {
   "yazi": "Böcek ilacını azaltmak da, yarasaların besin bulmasına yardım eder.",
   "duyulan": "Böcek ilacını azaltmak da yarasaların besin bulmasına yardım eder.",
   "hata": 0,
   "sure": 3.6,
   "uygun": true
  },
- "059": {
+ "061": {
   "yazi": "Türkiye'deki yarasalar ne saçına yapışır, ne kan emer, ne de kördür.",
   "duyulan": "Türkiye'deki yarasalar ne saçına yapışır, ne kan emer, ne de kördür.",
   "hata": 0,
@@ -446,21 +317,21 @@
   "uygun": true,
   "tek_basina": true
  },
- "060": {
+ "062": {
   "yazi": "O, gecenin sessiz ve çalışkan bir avcısı.",
   "duyulan": "o gecenin sessiz ve çalışkan bir avcısı.",
   "hata": 0,
   "sure": 2.7,
   "uygun": true
  },
- "061": {
+ "063": {
   "yazi": "Ona dokunmadan, uzaktan izlemek hem senin hem de onun için en güvenlisi.",
   "duyulan": "Ona dokunmadan, uzaktan izlemek hem senin hem de onun için en güvenlisi.",
   "hata": 0,
   "sure": 5.12,
   "uygun": true
  },
- "062": {
+ "064": {
   "yazi": "Senin oralarda yarasayla ilgili hangi inanışlar anlatılıyor? Yorumlarda yaz.",
   "duyulan": "Senin oralarda Yarasa'yla ilgili hangi inanışlar anlatılıyor, yorumlarda yaz.",
   "hata": 0,
@@ -468,11 +339,163 @@
   "uygun": true,
   "tek_basina": true
  },
- "063": {
+ "065": {
   "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
   "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
   "hata": 0,
   "sure": 6.62,
   "uygun": true
+ },
+ "008": {
+  "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor.",
+  "duyulan": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor.",
+  "hata": 0,
+  "sure": 3.54,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "009": {
+  "yazi": "Yarasa yankıyı dinleyerek önündekinin ne olduğunu ve ne kadar uzakta olduğunu anlıyor.",
+  "duyulan": "Yarasa, yankıyı dinleyerek önündekinin ne olduğunu ve ne kadar uzakta olduğunu anlıyor.",
+  "hata": 0,
+  "sure": 5.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "011": {
+  "yazi": "Peki yarasa gerçekten kör mü?",
+  "duyulan": "Peki, Yarasa gerçekten kör mü?",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "023": {
+  "yazi": "Avrupa'da dışkıdan yapılan bir tahmine göre, küçük bir yarasa bir gecede ortalama yarım gramdan az böcek yiyor.",
+  "duyulan": "Avrupa'da dışkıdan yapılan bir tahmine göre küçük bir yarasa bir gecede ortalama yarım gramdan az böcek yiyor.",
+  "hata": 0,
+  "sure": 7.22,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "035": {
+  "yazi": "Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar.",
+  "duyulan": "uyandırılırlarsa kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar.",
+  "hata": 0,
+  "sure": 4.96,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "037": {
+  "yazi": "Peki asıl tehlike ne?",
+  "duyulan": "Peki asıl tehlike ne?",
+  "hata": 0,
+  "sure": 1.42,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "039": {
+  "yazi": "Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "duyulan": "Çoğu yarasa bunları taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "hata": 0,
+  "sure": 5.16,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "041": {
+  "yazi": "Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir; ona yaklaşma.",
+  "duyulan": "Yerde duran ya da gündüz uçamayan bir yarasa hasta ya da yaralı olabilir. Ona yaklaşma.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "042": {
+  "yazi": "Çocukları ve evcil hayvanları uzak tut.",
+  "duyulan": "çocukları ve evcil hayvanları uzak tut.",
+  "hata": 0,
+  "sure": 2.4,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "043": {
+  "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
+  "duyulan": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve su ile yıka.",
+  "hata": 0,
+  "sure": 5.4,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "044": {
+  "yazi": "Yıkamayı en az on beş dakika sürdür.",
+  "duyulan": "Yıkamayı en az 15 dakika sürdür.",
+  "hata": 0,
+  "sure": 2.64,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "049": {
+  "yazi": "Odadaki ışıkları kapat, pencereleri ardına kadar aç ve kapıyı kapatıp dışarı çık.",
+  "duyulan": "Odadaki ışıkları kapat, pencereleri ardına kadar aç ve kapıyı kapatıp dışarı çık.",
+  "hata": 0,
+  "sure": 5.74,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "050": {
+  "yazi": "Çocukları ve evcil hayvanları odadan uzak tut.",
+  "duyulan": "Çocukları ve evcil hayvanları odadan uzak tut.",
+  "hata": 0,
+  "sure": 2.72,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "052": {
+  "yazi": "Odada uyuyan biri ya da küçük bir çocuk varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış.",
+  "duyulan": "Odada uyuyan biri ya da küçük bir çocuk varsa yara sayı serbest bırakmadan önce bir sağlık kuruluşuna danış.",
+  "hata": 0,
+  "sure": 6.24,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "053": {
+  "yazi": "Yarasayla temas olasılığı varsa da aynısını yap.",
+  "duyulan": "Yarasa ile temas olasılığı varsa da aynısını yap.",
+  "hata": 0,
+  "sure": 3.1,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "054": {
+  "yazi": "Yarasa çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat, altına karton kaydır.",
+  "duyulan": "Yarasa çıkmazsa ve bir yere konduysa, üzerine bir kutu kapat, altına karton kaydır.",
+  "hata": 0,
+  "sure": 5.92,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "055": {
+  "yazi": "Akşam olunca dışarıda yüksek bir yere bırak; bunu yalnızca bir yetişkin, kalın eldivenle yapsın.",
+  "duyulan": "Akşam olunca dışarıda yüksek bir yere bırak, bunu yalnızca bir yetişkin kalın eldivenle yapsın.",
+  "hata": 0,
+  "sure": 5.98,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "056": {
+  "yazi": "Yarasa yaralıysa ya da emin değilsen, bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver.",
+  "duyulan": "Yarasa yaralıysa ya da emin değilsen bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne haber ver.",
+  "hata": 0,
+  "sure": 6.78,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "057": {
+  "yazi": "Yarasalar korunması gereken yaban hayvanları; onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme.",
+  "duyulan": "Yarasa'lar korunması gereken yaban hayvanları, onları öldürme, gereksiz yere yakalama ve barınaklarına zarar verme.",
+  "hata": 0,
+  "sure": 7.86,
+  "uygun": true,
+  "tek_basina": true
  }
 }

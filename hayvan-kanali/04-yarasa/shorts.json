@@ -66,29 +66,29 @@
    ],
    "cumleler": [
     {
-     "yazi": "Bir yarasaya asla çıplak elle dokunma.",
+     "yazi": "Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın.",
+     "gorsel": "goz",
+     "x": 0.5
+    },
+    {
+     "yazi": "Çoğu taşımaz, ama bu yüzden hiçbirine çıplak elle dokunma.",
      "gorsel": "yerde",
      "x": 0.47,
      "y": 0.62
     },
     {
-     "yazi": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.",
-     "gorsel": "goz",
-     "x": 0.5
+     "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
+     "gorsel": "el_yikama",
+     "x": 0.42
     },
     {
-     "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka.",
+     "yazi": "Yıkamayı en az on beş dakika sürdür.",
      "gorsel": "el_yikama",
      "x": 0.42,
      "etiket": "En az 15 dakika"
     },
     {
-     "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
-     "gorsel": "el_yikama",
-     "x": 0.6
-    },
-    {
-     "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir.",
+     "yazi": "Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir.",
      "gorsel": "portre",
      "x": 0.65
     },
@@ -105,7 +105,7 @@
      "kx": 0.6
     },
     {
-     "yazi": "Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+     "yazi": "Odada uyuyan biri ya da çocuk varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
      "gorsel": "oda",
      "x": 0.55,
      "w": 0.8

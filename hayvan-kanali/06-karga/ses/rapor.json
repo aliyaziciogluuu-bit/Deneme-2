@@ -453,5 +453,62 @@
   "hata": 1,
   "sure": 6.44,
   "uygun": true
+ },
+ "065": {
+  "yazi": "Kargalar baykuşlar gibi koruma altında mı?",
+  "duyulan": "Kargalar baykuşlar gibi koruma altında mı?",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
+ },
+ "066": {
+  "yazi": "Türkiye'de leş kargası, ekin kargası, küçük karga, saksağan ve alakarga av hayvanı sayılıyor.",
+  "duyulan": "Türkiye'de leş kargası, ekin kargası, küçük karga, saksağın ve ala karga av hayvanı sayılıyor.",
+  "hata": 0,
+  "sure": 7.32,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "067": {
+  "yazi": "Yani izinli avcılar, belirlenen tarihlerde ve bölgelerde bu kuşları avlayabiliyor.",
+  "duyulan": "Yani izinli avcılar belirlenen tarihlerde ve bölgelerde bu kuşları avlayabiliyor.",
+  "hata": 0,
+  "sure": 5.06,
+  "uygun": true
+ },
+ "068": {
+  "yazi": "Karar her av dönemi için yeniden yayımlanıyor ve illere göre kurallar değişebiliyor.",
+  "duyulan": "Karar her av dönemi için yeniden yayımlanıyor ve illere göre kurallar değişebiliyor.",
+  "hata": 0,
+  "sure": 4.52,
+  "uygun": true
+ },
+ "069": {
+  "yazi": "Güncel durumu bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğünden öğren.",
+  "duyulan": "Güncel durumu, bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'nden öğren.",
+  "hata": 0,
+  "sure": 4.4,
+  "uygun": true
+ },
+ "070": {
+  "yazi": "Kargalar yüzü tanıyabiliyor ve sana nasıl davrandığını yıllarca hatırlayabilir.",
+  "duyulan": "Kargalar yüzü tanıyabiliyor ve sana nasıl davrandığını yıllarca hatırlayabilir.",
+  "hata": 0,
+  "sure": 4.44,
+  "uygun": true
+ },
+ "071": {
+  "yazi": "Senin oralarda karga ne anlama geliyor, sana hiç bağıran bir karga oldu mu? Yorumlarda yaz.",
+  "duyulan": "Senin oralarda karga ne anlama geliyor? Sana hiç bağıran bir karga oldu mu? Yorumlarda yaz.",
+  "hata": 0,
+  "sure": 5.36,
+  "uygun": true
+ },
+ "072": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "duyulan": "Avludaki komşularda, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "hata": 0,
+  "sure": 6.04,
+  "uygun": true
  }
 }

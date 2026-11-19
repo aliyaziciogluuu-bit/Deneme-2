@@ -19,25 +19,25 @@
     "seviye": 0.05,
     "kaynak": ""
   },
-  "ana_video": "Yarasa Saça Yapışır mı? (Asıl Tehlike ve Asıl Fayda)",
+  "ana_video": "Yarasa Saça Yapışır mı? (Dokunmadan Önce Bunu Bil)",
   "sahneler": [
     {
       "ad": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
       "cumleler": [
         {
-          "yazi": "Bir yarasaya asla çıplak elle dokunma."
+          "yazi": "Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın."
         },
         {
-          "yazi": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın."
+          "yazi": "Çoğu taşımaz, ama bu yüzden hiçbirine çıplak elle dokunma."
         },
         {
-          "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka."
+          "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka."
         },
         {
-          "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle."
+          "yazi": "Yıkamayı en az on beş dakika sürdür."
         },
         {
-          "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir."
+          "yazi": "Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir."
         },
         {
           "yazi": "Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut."
@@ -46,7 +46,7 @@
           "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık."
         },
         {
-          "yazi": "Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda."
+          "yazi": "Odada uyuyan biri ya da çocuk varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda."
         }
       ]
     }

@@ -1,60 +1,58 @@
 {
  "000": {
-  "yazi": "Bir yarasaya asla çıplak elle dokunma.",
-  "duyulan": "Bir yarasaya asla çıplak elle dokunma.",
+  "yazi": "Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın.",
+  "duyulan": "bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın.",
   "hata": 0,
-  "sure": 2.44,
+  "sure": 4.46,
   "uygun": true
  },
  "001": {
-  "yazi": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.",
-  "duyulan": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "yazi": "Çoğu taşımaz, ama bu yüzden hiçbirine çıplak elle dokunma.",
+  "duyulan": "Çoğu taşımaz ama bu yüzden hiçbirine çıplak elle dokunma.",
   "hata": 0,
-  "sure": 5.64,
+  "sure": 3.38,
   "uygun": true
  },
  "002": {
-  "yazi": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az on beş dakika yıka.",
-  "duyulan": "Bir yarasa seni ısırır ya da tırmalarsa, yara küçük olsa bile hemen bol sabun ve suyla en az 15 dakika yıka.",
+  "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
+  "duyulan": "Isırık ya da tırmalama küçük olsa bile yarayı hemen bol sabun ve suyla yıka.",
   "hata": 0,
-  "sure": 7.74,
-  "uygun": true,
-  "tek_basina": true
+  "sure": 4.62,
+  "uygun": true
  },
  "003": {
-  "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
-  "duyulan": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+  "yazi": "Yıkamayı en az on beş dakika sürdür.",
+  "duyulan": "Yıkamayı en az 15 dakika sürdür.",
   "hata": 0,
-  "sure": 4.42,
+  "sure": 1.96,
   "uygun": true
  },
  "004": {
-  "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir.",
-  "duyulan": "kuduz aşısı gerekip gerekmediğine doktor karar verir.",
+  "yazi": "Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir.",
+  "duyulan": "Sonra bir sağlık kuruluşuna git, aşı gerekip gerekmediğine doktor karar verir.",
   "hata": 0,
-  "sure": 3.22,
-  "uygun": true,
-  "tek_basina": true
+  "sure": 4.08,
+  "uygun": true
  },
  "005": {
   "yazi": "Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut.",
-  "duyulan": "yerde ya da gündüz uçamayan bir yarasaya yaklaşma, çocukları ve evcil hayvanları uzak tut.",
-  "hata": 0,
-  "sure": 5.33,
+  "duyulan": "yerde ya da gündüz uçamayan bir arasaya yaklaşma, çocukları ve evcil hayvanları uzak tut.",
+  "hata": 1,
+  "sure": 5.14,
   "uygun": true
  },
  "006": {
   "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
   "duyulan": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
   "hata": 0,
-  "sure": 4.68,
+  "sure": 5.38,
   "uygun": true
  },
  "007": {
-  "yazi": "Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda.",
-  "duyulan": "Odada uyuyan biri, küçük bir çocuk ya da temas olasılığı varsa yarasayı serbest bırakmadan önce bir sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+  "yazi": "Odada uyuyan biri ya da çocuk varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+  "duyulan": "Odada uyuyan biri ya da çocuk varsa, yara sayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
   "hata": 0,
-  "sure": 8.72,
+  "sure": 7.12,
   "uygun": true
  }
 }
