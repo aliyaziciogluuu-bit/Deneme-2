@@ -15,11 +15,13 @@ AD = {"01-rainy-cabin": "yagmurlu_kulube", "03-christmas-cabin": "noel_kulubesi"
       "05-snowy-library": "kutuphane", "06-rainy-cafe": "yagmurlu_kafe", "07-christmas-eve": "noel_arifesi",
       "08-attic-bedroom": "cati_kati", "09-lighthouse": "deniz_feneri", "10-japanese-garden": "japon_bahcesi",
       "11-aurora-igloo": "kuzey_isiklari", "12-christmas-train": "noel_treni",
-      "13-forest-cabin": "orman_kulubesi", "14-new-year-loft": "yilbasi_cati_kati", "15-rainy-bookshop": "yagmurlu_kitapci", "16-mountain-chalet": "alp_dag_evi", "17-dining-car": "yemekli_vagon", "18-rainy-greenhouse": "yagmurlu_sera", "19-castle-library": "kale_kutuphanesi", "20-lake-cabin": "gol_kulubesi"}
+      "13-forest-cabin": "orman_kulubesi", "14-new-year-loft": "yilbasi_cati_kati", "15-rainy-bookshop": "yagmurlu_kitapci", "16-mountain-chalet": "alp_dag_evi", "17-dining-car": "yemekli_vagon", "18-rainy-greenhouse": "yagmurlu_sera", "19-castle-library": "kale_kutuphanesi", "20-lake-cabin": "gol_kulubesi",
+      "21-paris-apartment": "paris_dairesi", "22-tokyo-apartment": "tokyo_dairesi", "23-seaside-cottage": "deniz_kenari_kulube", "24-canal-houseboat": "kanal_teknesi", "25-rainforest-treehouse": "orman_agac_evi", "26-mountain-temple": "dag_tapinagi", "27-snowy-observatory": "karli_gozlemevi", "28-cherry-blossom-teahouse": "kiraz_cay_evi"}
 TR = {"yagmurlu_kulube": "Yağmurlu kulübe", "noel_kulubesi": "Noel kulübesi", "karli_kasaba": "Karlı kasaba", "kutuphane": "Kütüphane",
       "yagmurlu_kafe": "Yağmurlu kafe", "noel_arifesi": "Noel arifesi", "cati_kati": "Çatı katı", "deniz_feneri": "Deniz feneri",
       "japon_bahcesi": "Japon bahçesi", "kuzey_isiklari": "Kuzey ışıkları iglo", "noel_treni": "Noel treni",
-      "orman_kulubesi": "Karlı orman kulübesi", "yilbasi_cati_kati": "Yılbaşı çatı katı", "yagmurlu_kitapci": "Yağmurlu kitapçı", "alp_dag_evi": "Alp dağ evi", "yemekli_vagon": "Kış treni yemekli vagon", "yagmurlu_sera": "Yağmurlu sera", "kale_kutuphanesi": "Kale kütüphanesi", "gol_kulubesi": "Göl kenarı kulübe"}
+      "orman_kulubesi": "Karlı orman kulübesi", "yilbasi_cati_kati": "Yılbaşı çatı katı", "yagmurlu_kitapci": "Yağmurlu kitapçı", "alp_dag_evi": "Alp dağ evi", "yemekli_vagon": "Kış treni yemekli vagon", "yagmurlu_sera": "Yağmurlu sera", "kale_kutuphanesi": "Kale kütüphanesi", "gol_kulubesi": "Göl kenarı kulübe",
+      "paris_dairesi": "Karlı Paris dairesi", "tokyo_dairesi": "Yağmurlu Tokyo dairesi", "deniz_kenari_kulube": "Fırtınalı deniz kenarı kulübe", "kanal_teknesi": "Kanal teknesi", "orman_agac_evi": "Yağmur ormanı ağaç evi", "dag_tapinagi": "Karlı dağ tapınağı", "karli_gozlemevi": "Karlı gözlemevi", "kiraz_cay_evi": "Kiraz çiçekli çay evi"}
 
 # takvimde "uzun" olarak geçmeyen, doğrudan YouTube'da planlanan uzun videolar (yayın tarihi)
 YOUTUBEDA_PLANLI = {"05-snowy-library": "2026-11-15", "12-christmas-train": "2026-12-23", "06-rainy-cafe": "2026-11-21",
