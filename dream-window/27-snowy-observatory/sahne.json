@@ -249,14 +249,14 @@
   },
   "shorts2": {
     "bas": 1250,
-    "son": 900,
+    "son": 1100,
     "tur": 2,
     "baslik": "POV: you're the night astronomer on a snowy peak",
     "alt": "the Milky Way is out tonight",
     "ses_kazanc": 1.5,
     "yakin": 1.4,
     "y": 336,
-    "y_son": 500,
+    "y_son": 360,
     "ses_tohum": 7
   },
   "buhar": {
