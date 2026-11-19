@@ -57,7 +57,7 @@
  },
  "sahneler": [
   {
-   "ad": "Çitteki karga",
+   "ad": "Perdedeki karga",
    "cumleler": [
     {
      "yazi": "Sabah bahçeye çıkıyorsun; tahta perdenin üstündeki karga seni görür görmez bağırıyor."
@@ -69,16 +69,16 @@
      "yazi": "Evet; bilim insanlarının denediği kargalar tanıyordu."
     },
     {
-     "yazi": "Amerika'da bir biyolog, tehdit edici bir maske takıp yedi karga yakalayıp bıraktı."
+     "yazi": "Amerika'da bir biyolog, tehdit edici bir maskeyle yedi karga yakalayıp bıraktı."
     },
     {
      "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı."
     },
     {
-     "yazi": "O gün orada olmayan kargalar bile zamanla ona bağırmaya başladı."
+     "yazi": "O gün orada olmayanlar bile zamanla aynısını yaptı."
     },
     {
-     "yazi": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya neden taş atmaman gerektiğini göreceksin."
+     "yazi": "Birazdan öfkenin yıllarca sürdüğünü, kargaya neden taş atmaman gerektiğini göreceksin."
     }
    ]
   },
@@ -171,10 +171,7 @@
      "yazi": "Yetişkin ekin kargasını gaga dibindeki çıplak deriden tanırsın."
     },
     {
-     "yazi": "Küçük karga adı gibi küçük; ensesi gri."
-    },
-    {
-     "yazi": "Saksağan da bu ailenin üyesi; siyah beyaz tüyü ve uzun kuyruğuyla belli."
+     "yazi": "Saksağan da bu aileden; siyah beyaz tüyü ve uzun kuyruğuyla belli."
     },
     {
      "yazi": "Bu deneyi Türkiye'deki kargalarla yapan bir çalışma bulamadık, ama akraba türlerde benzer bulgular var."
@@ -258,7 +255,7 @@
    ]
   },
   {
-   "ad": "Kargayla iyi komşuluk",
+   "ad": "Kargaya taş atmak neden kötü fikir?",
    "cumleler": [
     {
      "yazi": "Açıkta kalan yiyecek hayvanları çekebilir; çöpünü kapaklı kutuda tutmak genel bir önlemdir."

@@ -22,3 +22,8 @@
 - 032 "saksağanlar" videoda "saksı alanlar" duyuldu → tekil "saksağan" yapısı.
 - 055 "yaban hayatı" → "yavan" duyuldu (gerçek hata, kanal sahibinin listesinde yoktu) → yeniden seslendiriliyor.
 - Eşdeğer tablosu: "cm'ye" anahtarı hiç çalışmıyordu (kesme işareti siliniyor) → "cmye"; Marzluff ve Betty yazımları eklendi.
+
+## Metin editörü Tur 2 (19 Kasım)
+- Karar: RET. Puan: kanca 8, anlatim 9, baslik 8, shorts 9.
+- Bulgular: vaat 0:25,7 (hedef 0:25 öncesi, TEKRARLANAN KUSUR), tür bloğu 43,5 sn (hedef 40), bölüm adı "Çitteki karga" metinle uyumsuz.
+- Patron uyguladı: 3 ve 5. cümleler kısaltıldı (5: "O gün orada olmayanlar bile zamanla aynısını yaptı."), vaat sadeleşti; küçük karga cümlesi çıktı, saksağan cümlesi kısaldı; bölüm adları "Perdedeki karga" ve "Kargaya taş atmak neden kötü fikir?". metin_kontrol sorusuz bölüm eşiği 45 → 40 sn.

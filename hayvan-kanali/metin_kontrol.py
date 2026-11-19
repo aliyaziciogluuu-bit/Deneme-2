@@ -78,9 +78,9 @@ def uzun_video(klasor, sen):
             if ilk_soru is None and soru:
                 ilk_soru = t
             if soru:
-                if t < 180 and t - son_soru_t > 45:
+                if t < 180 and t - son_soru_t > 40:
                     ekle("UYARI", f"uzun {son_soru_i:03d}–{i:03d} ({int(son_soru_t) // 60}:{int(son_soru_t) % 60:02d}–{int(t) // 60}:{int(t) % 60:02d})",
-                         f"{t - son_soru_t:.0f} sn boyunca soru yok (ilk 3 dakikada hedef: en çok 45 sn; yarasa, kirpi ve kargada izleyici kaybı riski)")
+                         f"{t - son_soru_t:.0f} sn boyunca soru yok (ilk 3 dakikada hedef: en çok 40 sn; yarasa, kirpi ve kargada izleyici kaybı riski)")
                 son_soru_t, son_soru_i = t, i
             if t < 90:
                 for d in ANSIKLOPEDI:
