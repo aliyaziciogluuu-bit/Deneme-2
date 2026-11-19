@@ -56,3 +56,7 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 - Tur 4: s1 açılışında üst yazı göze biniyordu (kz 2,1) → kz 1,7. Tur 5: s1 2,4–2,8 sn burun–altyazı 20 px → kök çözüm: Shorts altyazısı %64 → %69 → %72 (video.py, alt bilgi alanı %80'in üstünde). Tur 6: kayma anlarında 3 kısa temas (toplam ~1,2 sn) → altyazı %72.
 - Patron ölçümü (gerçek çözünürlük, tam o anlar): s1 2,8 / 4,8 / 4,9 sn burun–altyazı ~110 px; s2 19,9 / 20,2 / 20,5 sn ~140 px. Tur 6 RET maddeleri kapandı → patron ONAY (kalite kontrolün kendi notu: "patron ihlalleri kapatıp ONAY'a çevirebilir").
 - Puan kartı Tur 4: aşağıda.
+
+## Yönetici (19 Kasım)
+- ÖNERİ: ONAY. Takvim aynı: 24 Kasım 18:00, Shorts 25–26 Kasım 12:00. Küçük resim yazısı "Elma efsanesi" → "Dikenler tehlikeli mi?" (yapıldı, video yeniden oluşturuldu, bekçi temiz).
+TESLİM EDİLDİ: teslim.py ile teslim/03-kirpi (19 Kasım); eski teslim/uzun/3-kirpi ve Shorts 5–6 kopyaları silindi.

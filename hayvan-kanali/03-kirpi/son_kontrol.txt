@@ -11,4 +11,4 @@
 [GEÇTİ] Açıklama uzunluğu ve karakterleri 3668 karakter
 [GEÇTİ] Etiketler (toplam ≤ 500) 13 etiket
 [GEÇTİ] Bölümler (YouTube kuralları) 12 bölüm, en kısa 14 sn
-[GEÇTİ] Kapak 1280x720, 236 KB
+[GEÇTİ] Kapak 1280x720, 237 KB
