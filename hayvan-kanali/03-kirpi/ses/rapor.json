@@ -549,5 +549,21 @@
   "sure": 7.42,
   "uygun": true,
   "tek_basina": true
+ },
+ "022": {
+  "yazi": "Türkiye'de birkaç kirpi türü yaşıyor.",
+  "duyulan": "Türkiye'de birkaç kirpi türü yaşıyor.",
+  "hata": 0,
+  "sure": 2.08,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "026": {
+  "yazi": "Peki bu dikenler tehlikeli mi?",
+  "duyulan": "Peki bu dikenler tehlikeli mi?",
+  "hata": 0,
+  "sure": 1.96,
+  "uygun": true,
+  "tek_basina": true
  }
 }
