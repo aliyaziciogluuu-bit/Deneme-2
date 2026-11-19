@@ -36,3 +36,7 @@
 ## Metin editörü Tur 3 (19 Kasım)
 - Karar: ONAY. Puan: kanca 9, anlatim 9, baslik 8, shorts 9. Vaat 0:24,6, tür bloğu 39,4 sn, cevap 0:07.
 - Açıklamadaki tür listesinden "küçük karga" çıkarıldı (patron).
+
+## Bilgi kontrolü Tur 3 (19 Kasım, değişen cümleler)
+- Karar: ONAY. Puan: doğruluk 7, güvenlik 8 (Tur 2: 8, 9). Kırılma nedeni: silinen "küçük karga"nın açıklama/etiket/kaynakta kalan göndermeleri, Güney Kore tekil anlatımı, taş cümlesinde deney çekincesi eksik.
+- Patron uyguladı: Güney Kore "yuvası olan saksağan çiftleri"; taş cümlesi "Amerikan kargalarıyla yapılan maske deneyine bakılırsa tehdit eden kişi hatırlanabiliyor" ve bölümün ilk cümlesi yapıldı (çöp cümlesiyle yer değişti, çekimler de); açıklama, etiketler ve kaynak listesinden küçük karga çıkarıldı.

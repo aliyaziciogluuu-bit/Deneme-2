@@ -184,14 +184,6 @@
   "uygun": true,
   "tek_basina": true
  },
- "031": {
-  "yazi": "Güney Kore'de yapılan bir deneyde, saksağan yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
-  "duyulan": "Güney Kore'de yapılan bir deneyde, Saksahan yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı.",
-  "hata": 0,
-  "sure": 6.1,
-  "uygun": true,
-  "tek_basina": true
- },
  "032": {
   "yazi": "Araştırmacılar bunu yüzle tanımaya bağlıyor.",
   "duyulan": "Araştırmacılar bunu yüzle tanımaya bağlıyor.",
@@ -326,20 +318,13 @@
   "sure": 4.24,
   "uygun": true
  },
- "051": {
+ "052": {
   "yazi": "Açıkta kalan yiyecek hayvanları çekebilir; çöpünü kapaklı kutuda tutmak genel bir önlemdir.",
   "duyulan": "Açıkta kalan yiyecek hayvanları çekebilir. Çöpünü kapaklı kutuda tutmak genel bir önlemdir.",
   "hata": 0,
   "sure": 6.06,
   "uygun": true,
   "tek_basina": true
- },
- "052": {
-  "yazi": "Kargayı kovalama ya da ona taş atma; maske deneyine bakılırsa seni tehdit olarak hatırlayabilir.",
-  "duyulan": "Kargayı kovalama ya da ona taş atma. Maske deneyine bakılırsa seni tehdit olarak hatırlayabilir.",
-  "hata": 0,
-  "sure": 6.04,
-  "uygun": true
  },
  "053": {
   "yazi": "Bahçende sıçrayarak ilerleyen, uçamayan bir yavru karga bulursan ne yapmalısın?",

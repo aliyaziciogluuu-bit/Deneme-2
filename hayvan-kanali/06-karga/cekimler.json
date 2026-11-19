@@ -394,6 +394,21 @@
   },
   {
    "n": 1,
+   "gorsel": "maske_bagiran",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.7,
+    0.72,
+    0.55
+   ],
+   "etiket": "Maske deneyi: Amerikan kargası"
+  },
+  {
+   "n": 1,
    "gorsel": "cop",
    "a": [
     0.5,
@@ -406,20 +421,6 @@
     0.8
    ],
    "klip": "cop"
-  },
-  {
-   "n": 1,
-   "gorsel": "maske_bagiran",
-   "a": [
-    0.5,
-    0.5,
-    1.0
-   ],
-   "b": [
-    0.7,
-    0.72,
-    0.55
-   ]
   },
   {
    "n": 2,
