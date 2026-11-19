@@ -26,3 +26,8 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi (Alo 174 düzeltmesiyle) ve 2
 - Karar: RET. Puan: ses 7, gorsel 5, teknik 8, shorts 5.
 - Bulgular: top.mp4 yüz deformasyonu (TEKRARLANAN KUSUR); sut_kabi ve fincan sahnesinde kirpi insana/fincana göre dev (TEKRARLANAN KUSUR, karga ölçek dersi); cit_delik başında bacaksız gövde; Shorts 5'te altyazı yüze biniyor; Shorts 6 kaynaklarından eski; cümle 029 "halka" → "halkı".
 - İş dağılımı: yapımcı klipleri kırpıp iki görselin istemini gerçek boyla yeniden yazıyor; patron görselleri üretecek; Shorts uzmanı kadrajları düzeltecek; 029 yeniden seslendirilecek.
+
+## Bilgi kontrolü Tur 3 (19 Kasım, seslendirme öncesi)
+- Karar: RET. Puan: doğruluk 7, güvenlik 8.
+- Bulgular: 4, 13, 29, 34, 36 kaynaksız ya da abartılı; Trakya cümlesinin açılmış kaynağı yok; ılık şişe tarifi kaynaktan zayıf; "yaprakları eski hâline getir" kaynakla gerilimli; gündüz yavru uyarısı eksik; cekimler.json eski sırada.
+- Patron: önerilen ifadeler senariste verildi; çekimler yeniden_sira.json ile patron tarafından yeniden kurulacak.

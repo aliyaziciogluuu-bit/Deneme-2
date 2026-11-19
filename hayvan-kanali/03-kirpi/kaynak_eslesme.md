@@ -49,3 +49,21 @@ Güncelleme notu: hedgehogstreet.org sayfaları önceki turlarda 403 vermişti; 
 | 65 (havuz rampası) | helpful-garden-features | "Hedgehogs are excellent swimmers, just make sure there is a gently sloping edge for them to escape from" | açıldı |
 | 66, 67 (yaban hayvanı, yetkililere ulaştırmak) | güvenlik tavsiyesi; MAK Kararı (tarimorman.gov.tr) kirpi satırı bulunamadı, "koruma altında" denmedi | genel öneri | kaynak bulunamadı (hukuki iddia yok) |
 | 68–72 | özet ve kapanış | | iddia yok |
+
+## Güncelleme (Tur 4b, bilgi kontrolcüsü önerileri; yeni numaralar için senaryo.json sırasına bak)
+
+Açıldı (curl, HTTP 200): rspca.org.uk/adviceandwelfare/wildlife/hedgehogs/garden (başlık "Attracting Hedgehogs to Your Garden - RSPCA") ve hedgehogstreet.org/sick-or-injured-hedgehog/ (başlık "Found a sick or injured hedgehog? - Hedgehog Street").
+
+| Cümle (yeni metin) | Bağlantı | Kaynakta geçen ifade | Durum |
+|---|---|---|---|
+| "enzim yok denecek kadar az" | silindi | kaynak açılamadığı için | çıkarıldı |
+| "İshal ... sıvı kaybı riski demek." | RSPCA garden | "Never feed hedgehogs milk or bread – they're lactose intolerant, so milk and bread can disrupt their digestive system and cause diarrhoea." (sıvı kaybı kısmı kontrolcü özeti) | açıldı |
+| "et bazlı konserve kedi ya da köpek maması" | RSPCA garden | "Try tinned meaty cat or dog food" | açıldı |
+| "akgöğüslü kirpi" (Trakya/Balkan çıktı) | dergipark ksudobil 243746 | önceki satır | önceki tur açıldı |
+| "Zehirli değiller; ucu kancalı da değiller." | en.wikipedia.org/wiki/Hedgehog | "not poisonous or barbed" | önceki tur açıldı |
+| "Solucanlar ve böcekler besinin en önemli kısmını" | RSPCA garden | "Hedgehogs mostly eat caterpillars, beetles and earthworms" ("en önemli" kontrolcü önerisi; RSPCA "mostly") | açıldı, nitelik kısmen |
+| "bahçıvanların dostu" | RSPCA garden | "Hedgehogs are also a gardener's friend, as they eat beetles, caterpillars, worms..." | açıldı |
+| "yığına daha fazla dokunma" | hedgehogstreet.org/hibernation-faqs | "it's best not to add or remove any nesting materials" | açıldı |
+| "Yavruları varsa ... anne" | Hedgehog Street sick-or-injured | "Those hedgehogs will generally be moving quickly, appear well and only out for short periods of time." (anne yuva yaparken ya da yavrular uyurken beslenirken) | açıldı |
+| "ince sesle bağıran ... sinekler dolaşan yavru" | aynı | "they may be squeaking and there may be flies around them. These hoglets need rescuing as soon as possible" | açıldı |
+| "kaynamamış sıcak su dolu şişe ... suyu değiştir ... boşluk" | aynı | "Fill the bottle with hot tap water (not boiling)"; "change the water frequently and make sure there is room in the box for the hedgehog to get off the bottle" | açıldı |

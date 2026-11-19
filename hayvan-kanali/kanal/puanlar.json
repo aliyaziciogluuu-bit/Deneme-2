@@ -110,6 +110,27 @@
    "kacirilan": [
     "Ofis öncesi bilgi kontrolü kaçırdı: Salmonella tür adıyla kanıtsız, ısırık cümlesi kaynaksız, 'zararı yok' abartısı, dağılım abartısı; Shorts 3'te risk grubu uyarısı düşmüştü (19 Kasım ofis kontrolünde yakalandı, video yayından önce düzeltildi)"
    ]
+  },
+  "04": {
+   "turlar": [
+    {
+     "tur": 2,
+     "tarih": "2026-11-19",
+     "puan": {
+      "dogruluk": 8.0,
+      "guvenlik": 8.0,
+      "kanca": 8.0,
+      "anlatim": 8.0,
+      "baslik": 7.0,
+      "shorts": 7.0,
+      "ses": 8.0,
+      "gorsel": 7.0,
+      "teknik": 8.0
+     },
+     "toplam": 77.5,
+     "sonuc": "DÜZELTME"
+    }
+   ]
   }
  }
 }

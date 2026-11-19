@@ -110,14 +110,14 @@
     {
      "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
      "gorsel": "oda",
-     "x": 0.62,
-     "x2": 0.68,
+     "x": 0.5,
+     "x2": 0.52,
      "aw": 1.0
     },
     {
      "yazi": "Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
      "gorsel": "oda",
-     "x": 0.68
+     "x": 0.51
     }
    ]
   }

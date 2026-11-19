@@ -24,3 +24,7 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi ve 27 Kasım 18:00 için YouT
 - İş dağılımı: yapımcı klipleri 0,3 sn aralıkla tarayıp kırpacak; Shorts uzmanı iki Shorts'un kadrajını düzeltecek. Sonra yeniden oluşturma, son kontrol ve kalite kontrol Tur 2.
 - Kanal sahibi dinlemesi: Shorts 8, ~21–25 sn ("yarasaya yaklaşma").
 - Kanal sahibi dinlemesi (19 Kasım): Shorts 8, ~21–25 sn "yarasaya yaklaşma": "Evet net." Ses tanıma hatası; seslendirme doğru.
+
+## Kalite kontrol Tur 2 (19 Kasım)
+- Karar: ONAY. Puan: ses 8, gorsel 7, teknik 8, shorts 7. Kalan kusur: oda görselinde uzak kanat düz gri yama.
+- Puan kartı Tur 2: 77,5 → DÜZELTME (eşik 80). Patron kararı: oda görseli kanat istemiyle yeniden üretildi (3 aday, 0,18 $), oda klibi yeni görselden yeniden üretiliyor (0,35 $); metin editöründen şartlar sonrası başlık/Shorts puanı yeniden isteniyor.

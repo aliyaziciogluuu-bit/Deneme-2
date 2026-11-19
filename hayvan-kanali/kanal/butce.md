@@ -17,4 +17,5 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 19 Kas | 06 karga | ~2,64 $ + ~0,90 $ (7 görsel yeniden) | | | ~3,5 $ | klipler sırada (~2,45 $) |
 | 19 Kas | 06 karga düzeltmeleri | ~0,36 $ (tüp-taş 3 + maske 3 aday) | ~1,05 $ (3 klip) | ~0,02 $ | ~1,4 $ | dev karga ölçeği, iki solucan; Shorts açılış klipleri |
 | 19 Kas | 03 kirpi ölçek düzeltmesi | ~0,18 $ (süt kabı 3 aday) | – | ~0,03 $ | ~0,2 $ | dev kirpi ölçeği |
-| | **Kasım toplamı** | | | | **~36 $** | aylık bütçe 60 $ |
+| 19 Kas | 04 yarasa oda sahnesi | ~0,18 $ (3 aday) | ~0,35 $ (1 klip) | – | ~0,5 $ | gri kanat yaması |
+| | **Kasım toplamı** | | | | **~37 $** | aylık bütçe 60 $ |
