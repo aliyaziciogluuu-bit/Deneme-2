@@ -493,5 +493,13 @@
   "sure": 4.86,
   "uygun": true,
   "tek_basina": true
+ },
+ "000": {
+  "yazi": "Bahçeye çıkıyorsun; tahta perdedeki karga hemen bağırıyor.",
+  "duyulan": "Bahçeye çıkıyorsun, tahta perdedeki karga hemen bağırıyor.",
+  "hata": 0,
+  "sure": 3.86,
+  "uygun": true,
+  "tek_basina": true
  }
 }

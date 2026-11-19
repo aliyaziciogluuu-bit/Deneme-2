@@ -77,6 +77,8 @@ def uzun_video(klasor, sen):
             soru = c["yazi"].rstrip().endswith("?")
             if ilk_soru is None and soru:
                 ilk_soru = t
+            if t < 60 and c["yazi"].lstrip().lower().startswith(("birazdan", "bu videoda", "videonun sonunda")) and t > 25:
+                ekle("UYARI", yer, f"vaat cümlesi {t:.1f}. saniyede başlıyor (hedef 0:25'ten önce; karga ve kirpide iki tur kaçtı)")
             if soru:
                 if t < 180 and t - son_soru_t > 40:
                     ekle("UYARI", f"uzun {son_soru_i:03d}–{i:03d} ({int(son_soru_t) // 60}:{int(son_soru_t) % 60:02d}–{int(t) // 60}:{int(t) % 60:02d})",
