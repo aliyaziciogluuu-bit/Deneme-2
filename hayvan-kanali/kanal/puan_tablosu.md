@@ -18,6 +18,8 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 
 | Video | Tur | Tarih | Doğruluk | Güvenlik | Kanca | Anlatım | Başlık | Shorts | Ses | Görsel | Teknik | **Toplam** | Sonuç |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 05-baykus | 1 | 2026-11-19 | 6.0 | 5.0 | 7.0 | 8.0 | 7.0 | 5.0 | 8.0 | 6.0 | 8.0 | **66.5** | RET (kırmızı çizgi: guvenlik) |
+| 05-baykus | 2 | 2026-11-19 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | **83.0** | DÜZELTME |
 
 ## Gerçek performans (yayından sonra)
 
@@ -33,6 +35,9 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 
 | Çalışan | Video sayısı | İlk tur ortalaması (kendi ölçütleri, 10 üzerinden) | İlk turda RET/DÜZELTME |
 |---|---|---|---|
+| senarist | 1 | 6.3 | 1 |
+| yapımcı | 1 | 6.0 | 1 |
+| patron | 1 | 8.0 | 0 |
 
 ## Denetçilerin kaçırdığı hatalar
 

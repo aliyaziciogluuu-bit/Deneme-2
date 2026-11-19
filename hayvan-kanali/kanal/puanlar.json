@@ -14,6 +14,44 @@
    "kacirilan": [
     "Bilgi kontrolcüsü yanlış telefon numarası (Alo 174, gıda şikâyet hattı) önerdi, kabul edildi; yarasa kontrolünde yakalandı, video yeniden üretildi (ofis öncesi dönem)"
    ]
+  },
+  "05-baykus": {
+   "turlar": [
+    {
+     "tur": 1,
+     "tarih": "2026-11-19",
+     "puan": {
+      "dogruluk": 6.0,
+      "guvenlik": 5.0,
+      "kanca": 7.0,
+      "anlatim": 8.0,
+      "baslik": 7.0,
+      "shorts": 5.0,
+      "ses": 8.0,
+      "gorsel": 6.0,
+      "teknik": 8.0
+     },
+     "toplam": 66.5,
+     "sonuc": "RET (kırmızı çizgi: guvenlik)"
+    },
+    {
+     "tur": 2,
+     "tarih": "2026-11-19",
+     "puan": {
+      "dogruluk": 9.0,
+      "guvenlik": 9.0,
+      "kanca": 8.0,
+      "anlatim": 8.0,
+      "baslik": 8.0,
+      "shorts": 8.0,
+      "ses": 8.0,
+      "gorsel": 8.0,
+      "teknik": 8.0
+     },
+     "toplam": 83.0,
+     "sonuc": "DÜZELTME"
+    }
+   ]
   }
  }
 }

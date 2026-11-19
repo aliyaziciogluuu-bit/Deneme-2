@@ -11,3 +11,9 @@
 | 2 | Kalite kontrol | ONAY | 14/14, 0/787; s1 0/77; s2 1/72 (anlam aynı); etiketler yüze binmiyor; ses aralıkta |
 | 2 | Kanal yöneticisi | ÖNERİ: ONAY | Şartlar: teslim klasörü güncellenmeli (eski 18 Kasım sürümü duruyordu) ve sabit yorum eklenmeli. Takvim: 1 Ara Salı 18:00, Shorts 2 ve 3 Ara 12:00. Öneri kutusu: P1 ve E1 "sun", P2 ve P3 "beklet" |
 | – | Patron | ONAY | Teslim klasörü kopyalandı ve cmp ile doğrulandı (8 dosya aynı). Sabit yorum etkilesim.md'ye eklendi |
+
+## Puan kartı
+- Tur 1: 66,5/100 → RET (kırmızı çizgi: güvenlik 5). Bilgi puanları senaristin ilk taslağına verildi (doğruluk 6, güvenlik 5); düzeltmeler Tur 1'den önce uygulanmıştı.
+- Tur 2: 83,0/100 → DÜZELTME eşiğinde. Denetçilerin hepsi ONAY verdi.
+  - Puanlama sistemi teslimden sonra kuruldu, bu yüzden 85 şartı bu videoya geriye dönük uygulanmadı.
+  - Kalan küçük kusurlar: tür bölümü 3:34–4:28 ansiklopedik; seslendirme gerçek kulakla dinlenmedi; Athena/Atina aynı cümlede.
