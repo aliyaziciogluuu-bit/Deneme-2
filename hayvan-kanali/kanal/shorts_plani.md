@@ -21,6 +21,9 @@ Saat: Shorts'lar 12:00'de, uzun videolar 18:00'de. Böylece aynı gün çakışm
 | Sal 1 Aralık 18:00 | **Uzun video: Baykuş** (20 Kasım verisine bakıldıktan sonra planlanacak) | — | — |
 | Çar 2 Aralık 12:00 | Baykuş Gerçekten Uğursuz mu? | 9-baykus-ugursuz-mu | Baykuş |
 | Per 3 Aralık 12:00 | Baykuş Başını Tam Tur Çevirebilir mi? | 10-baykus-basini-cevirir-mi | Baykuş |
+| Cum 4 Aralık 18:00 | **Uzun video: Karga** | — | — |
+| Cmt 5 Aralık 12:00 | Karga Seni Hatırlar mı? | 11-karga-s1-maske | Karga |
+| Paz 6 Aralık 12:00 | Karga Taşla Su Yükseltir mi? | 12-karga-s2-tas | Karga |
 
 ## Yükleme adımları (her Shorts için)
 1. YouTube Studio veya YouTube uygulamasından videoyu yükle. Dikey ve 60 saniyeden kısa olduğu için otomatik olarak Shorts olur.

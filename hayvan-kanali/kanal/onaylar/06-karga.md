@@ -44,3 +44,7 @@
 
 ## Puan kartı (19 Kasım)
 - Tur 3: 83 → TESLİM (ses 7: kanal sahibi dinleyince yükselir). Yöneticiye gönderildi.
+
+## Yönetici (19 Kasım)
+- ÖNERİ: ONAY (şart: kanal sahibi 4 şüpheli kelimeyi dinlesin). Takvim: 4 Aralık 18:00 uzun video, 5–6 Aralık 12:00 Shorts. Sabit yorum etkilesim.md'ye eklendi.
+TESLİM EDİLDİ: teslim.py ile teslim/06-karga (19 Kasım).
