@@ -69,12 +69,19 @@ def uzun_video(klasor, sen):
     if (klasor / "ses" / "rapor.json").exists():
         rapor = json.loads((klasor / "ses" / "rapor.json").read_text(encoding="utf-8"))
     t, i, onceki, ilk_soru = 0.7, 0, None, None
+    son_soru_t, son_soru_i = 0.0, 0  # izleyiciyi tutan son soru ya da "Peki" anı
     for sh in sen["sahneler"]:
         for c in sh["cumleler"]:
             yer = f"uzun {i:03d} ({int(t) // 60}:{int(t) % 60:02d})"
             cumle_denetle(yer, c, onceki)
-            if ilk_soru is None and c["yazi"].rstrip().endswith("?"):
+            soru = c["yazi"].rstrip().endswith("?")
+            if ilk_soru is None and soru:
                 ilk_soru = t
+            if soru:
+                if t < 180 and t - son_soru_t > 45:
+                    ekle("UYARI", f"uzun {son_soru_i:03d}–{i:03d} ({int(son_soru_t) // 60}:{int(son_soru_t) % 60:02d}–{int(t) // 60}:{int(t) % 60:02d})",
+                         f"{t - son_soru_t:.0f} sn boyunca soru yok (ilk 3 dakikada hedef: en çok 45 sn; yarasa, kirpi ve kargada izleyici kaybı riski)")
+                son_soru_t, son_soru_i = t, i
             if t < 90:
                 for d in ANSIKLOPEDI:
                     if re.search(d, c["yazi"]):

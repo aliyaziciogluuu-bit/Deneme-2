@@ -36,6 +36,10 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **B1 – "Ne doğruladık, ne doğrulayamadık" notu (bilgi kontrolcüsü, 19 Kasım):** Açıklamanın sonuna iki satırlık şeffaflık notu. "Her bilgi kaynaklı" sözünü görünür kılar.
 - **B2 – "Yaralı yaban hayvanı bulursan ilk 5 adım" sabit yorum kartı (bilgi kontrolcüsü, 19 Kasım):** Kurum olarak yalnızca DKMP şube müdürlüğü, telefon yok. Güvenlik bilgisini tek yerde toplar.
 
+- **İ2 – hat.py'ye kuyruk (üretim müdürü, 19 Kasım):** `hat.py ekle <klasörler>` ile işler sıraya eklenir, `hat.py durum` bekleyenleri de gösterir. Kendiliğinden kilitlenen bekleme döngüleri ve aynı işin iki kopyası ortadan kalkar.
+- **İ3 – Shorts'ta otomatik yüz–yazı çakışma testi (üretim müdürü, 19 Kasım):** son kontrol, etiketli ve üst yazılı karelerde hayvanın yüzü ile yazı kutusunun çakışmasını ölçer. Dört videoda tekrarlayan kalite kontrol RET'ini kapıya gelmeden yakalar.
+- **İ4 – (YAPILDI 19 Kasım) metin_kontrol: ilk 3 dakikada 45 sn'den uzun sorusuz bölüm uyarısı.**
+
 ## Onaylanan
 
 ## Reddedilen
