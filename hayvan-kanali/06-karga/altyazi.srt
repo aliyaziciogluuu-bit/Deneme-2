@@ -1,439 +1,435 @@
 1
-00:00:00,700 --> 00:00:03,290
-Sabah bahçeye çıkıyorsun; tahta perdenin
+00:00:00,700 --> 00:00:04,805
+Bahçeye çıkıyorsun; tahta perdedeki karga hemen bağırıyor.
 
 2
-00:00:03,290 --> 00:00:06,385
-üstündeki karga seni görür görmez bağırıyor.
-
-3
-00:00:06,490 --> 00:00:08,795
+00:00:04,910 --> 00:00:07,215
 Peki karga seni gerçekten tanıyor mu?
 
-4
-00:00:08,900 --> 00:00:12,025
+3
+00:00:07,320 --> 00:00:10,445
 Evet; bilim insanlarının denediği kargalar tanıyordu.
 
-5
-00:00:12,130 --> 00:00:14,694
+4
+00:00:10,550 --> 00:00:13,114
 Amerika'da bir biyolog, tehdit edici bir
 
-6
-00:00:14,694 --> 00:00:17,375
+5
+00:00:13,114 --> 00:00:15,795
 maskeyle yedi karga yakalayıp bıraktı.
 
-7
-00:00:17,480 --> 00:00:18,939
+6
+00:00:15,900 --> 00:00:17,359
 Sonra o maskeyle yürüdü;
 
-8
-00:00:18,939 --> 00:00:22,345
+7
+00:00:17,359 --> 00:00:20,765
 kargalar ona bağırdı, başka maskelere pek bağırmadı.
 
-9
-00:00:22,450 --> 00:00:26,055
+8
+00:00:20,870 --> 00:00:24,475
 O gün orada olmayanlar bile zamanla aynısını yaptı.
 
-10
-00:00:26,160 --> 00:00:28,566
+9
+00:00:24,580 --> 00:00:26,986
 Birazdan öfkenin yıllarca sürdüğünü,
 
-11
-00:00:28,566 --> 00:00:32,090
+10
+00:00:26,986 --> 00:00:30,510
 kargaya neden taş atmaman gerektiğini göreceksin.
 
-12
-00:00:32,690 --> 00:00:36,835
+11
+00:00:31,110 --> 00:00:35,255
 Kargalar neye bakıyor: yüze mi, boya mı, yürüyüşe mi?
 
-13
-00:00:36,940 --> 00:00:38,728
+12
+00:00:35,360 --> 00:00:37,148
 John Marzluff bu deneyi Washington
 
-14
-00:00:38,728 --> 00:00:41,445
+13
+00:00:37,148 --> 00:00:39,865
 Üniversitesi'nde iki bin altı yılında başlattı.
 
-15
-00:00:41,550 --> 00:00:44,795
+14
+00:00:39,970 --> 00:00:43,215
 Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar.
 
-16
-00:00:44,900 --> 00:00:49,165
+15
+00:00:43,320 --> 00:00:47,585
 Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı.
 
-17
-00:00:49,270 --> 00:00:51,940
+16
+00:00:47,690 --> 00:00:50,360
 Kargalar yine de maskeli herkese bağırdı;
 
-18
-00:00:51,940 --> 00:00:55,375
+17
+00:00:50,360 --> 00:00:53,795
 araştırmacılar bunu yüz tanıma olarak yorumluyor.
 
-19
-00:00:55,480 --> 00:00:58,525
+18
+00:00:53,900 --> 00:00:56,945
 Başka bir deneyde kargaların beynine bile baktılar.
 
-20
-00:00:58,630 --> 00:01:01,977
+19
+00:00:57,050 --> 00:01:00,397
 Yakalayan maskeyi görünce korkuyla ilgili bölgeler çalıştı;
 
-21
-00:01:01,977 --> 00:01:04,775
+20
+00:01:00,397 --> 00:01:03,195
 besleyen maskede başka bir yol devreye girdi.
 
-22
-00:01:04,880 --> 00:01:06,965
+21
+00:01:03,300 --> 00:01:05,385
 Peki bu öfke ne kadar sürüyor?
 
-23
-00:01:07,070 --> 00:01:09,171
+22
+00:01:05,490 --> 00:01:07,591
 Araştırmacılar kargaların bu tehlikeyi
 
-24
-00:01:09,171 --> 00:01:12,015
+23
+00:01:07,591 --> 00:01:10,435
 birbirine ve yavrularına öğrettiğini düşünüyor.
 
-25
-00:01:12,120 --> 00:01:14,800
+24
+00:01:10,540 --> 00:01:13,220
 Yaklaşık on yedi yıl sonra, iki bin yirmi üç
 
-26
-00:01:14,800 --> 00:01:17,725
+25
+00:01:13,220 --> 00:01:16,145
 eylülünde, Marzluff maskeyle yeniden yürüdü.
 
-27
-00:01:17,830 --> 00:01:20,459
+26
+00:01:16,250 --> 00:01:18,879
 Bir yürüyüşte hiçbir karga ona bağırmadı;
 
-28
-00:01:20,459 --> 00:01:23,980
+27
+00:01:18,879 --> 00:01:22,400
 öfke yıllarca sürmüş, ama sonunda sönmüş görünüyor.
 
-29
-00:01:24,580 --> 00:01:27,776
+28
+00:01:23,000 --> 00:01:26,196
 Amerikan kargaları ölü bir karganın çevresine toplanıyor;
 
-30
-00:01:27,776 --> 00:01:31,945
+29
+00:01:26,196 --> 00:01:30,365
 bilim insanları bunun tehlikeyi öğrenmek için olabileceğini düşünüyor.
 
-31
-00:01:32,050 --> 00:01:34,644
+30
+00:01:30,470 --> 00:01:33,064
 Ölü bir karganın yanında duran maskeli kişiye,
 
-32
-00:01:34,644 --> 00:01:36,975
+31
+00:01:33,064 --> 00:01:35,395
 kargalar sonraki günlerde de bağırdı.
 
-33
-00:01:37,080 --> 00:01:41,230
+32
+00:01:35,500 --> 00:01:39,650
 Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi.
 
-34
-00:01:41,830 --> 00:01:45,555
+33
+00:01:40,250 --> 00:01:43,975
 Kargalar yalnızca kızdığı kişiyi mi tanıyor, dostunu da mı?
 
-35
-00:01:45,660 --> 00:01:47,631
+34
+00:01:44,080 --> 00:01:46,051
 Seattle'da sekiz yaşında bir kız,
 
-36
-00:01:47,631 --> 00:01:50,445
+35
+00:01:46,051 --> 00:01:48,865
 bahçesine gelen kargaları yıllarca besledi.
 
-37
-00:01:50,550 --> 00:01:52,960
+36
+00:01:48,970 --> 00:01:51,380
 Anlatılanlara göre kargalar ona düğme,
 
-38
-00:01:52,960 --> 00:01:55,615
+37
+00:01:51,380 --> 00:01:54,035
 taş ve küpe gibi küçük şeyler bıraktı.
 
-39
-00:01:55,720 --> 00:01:58,247
+38
+00:01:54,140 --> 00:01:56,667
 Marzluff, kargaların hediye getirmesinin her
 
-40
-00:01:58,247 --> 00:02:00,910
+39
+00:01:56,667 --> 00:01:59,330
 zaman olacağını söyleyemediğini belirtmiş.
 
-41
-00:02:01,510 --> 00:02:04,955
+40
+00:01:59,930 --> 00:02:03,375
 Evinin çevresinde gördüğün kargaların hepsi aynı kuş mu?
 
-42
-00:02:05,060 --> 00:02:09,225
+41
+00:02:03,480 --> 00:02:07,645
 Değil; Türkiye'de kargagillerden birkaç farklı tür yaşıyor.
 
-43
-00:02:09,330 --> 00:02:14,595
+42
+00:02:07,750 --> 00:02:13,015
 Gövdesi gri, başı ve kanatları siyah karga leş kargası olarak biliniyor.
 
-44
-00:02:14,700 --> 00:02:19,165
+43
+00:02:13,120 --> 00:02:17,585
 Yetişkin ekin kargasını gaga dibindeki çıplak deriden tanırsın.
 
-45
-00:02:19,270 --> 00:02:24,375
+44
+00:02:17,690 --> 00:02:22,795
 Saksağan da bu aileden; siyah beyaz tüyü ve uzun kuyruğuyla belli.
 
-46
-00:02:24,480 --> 00:02:27,530
+45
+00:02:22,900 --> 00:02:25,950
 Bu deneyi Türkiye'deki kargalarla yapan bir çalışma
 
-47
-00:02:27,530 --> 00:02:30,825
+46
+00:02:25,950 --> 00:02:29,245
 bulamadık, ama akraba türlerde benzer bulgular var.
 
-48
-00:02:30,930 --> 00:02:33,980
+47
+00:02:29,350 --> 00:02:32,400
 Güney Kore'de yapılan bir deneyde, saksağan yuvaya
 
-49
-00:02:33,980 --> 00:02:37,275
+48
+00:02:32,400 --> 00:02:35,695
 tırmanan insana saldırdı, tırmanmayana saldırmadı.
 
-50
-00:02:37,380 --> 00:02:40,270
+49
+00:02:35,800 --> 00:02:38,690
 Araştırmacılar bunu yüzle tanımaya bağlıyor.
 
-51
-00:02:40,870 --> 00:02:45,035
+50
+00:02:39,290 --> 00:02:43,455
 Karganın beyni küçük; peki nasıl bu kadar akıllı davranıyor?
 
-52
-00:02:45,140 --> 00:02:48,835
+51
+00:02:43,560 --> 00:02:47,255
 Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların
 
-53
-00:02:48,835 --> 00:02:52,405
+52
+00:02:47,255 --> 00:02:50,825
 ve papağanların ön beynindeki sinir hücrelerini saydı.
 
-54
-00:02:52,510 --> 00:02:54,892
+53
+00:02:50,930 --> 00:02:53,312
 Aynı ağırlıktaki primat beyinlerine göre,
 
-55
-00:02:54,892 --> 00:02:57,635
+54
+00:02:53,312 --> 00:02:56,055
 ortalama iki kat fazla sinir hücresi buldu.
 
-56
-00:02:57,740 --> 00:02:59,999
+55
+00:02:56,160 --> 00:02:58,419
 Bilim insanları bunun tek başına zekânın
 
-57
-00:02:59,999 --> 00:03:02,170
+56
+00:02:58,419 --> 00:03:00,590
 kanıtı olmadığını da hatırlatıyor.
 
-58
-00:03:02,770 --> 00:03:04,935
+57
+00:03:01,190 --> 00:03:03,355
 Kargalar alet de kullanır mı?
 
-59
-00:03:05,040 --> 00:03:08,425
+58
+00:03:03,460 --> 00:03:06,845
 Alet ustalarından biri Yeni Kaledonya kargası.
 
-60
-00:03:08,530 --> 00:03:11,595
+59
+00:03:06,950 --> 00:03:10,015
 Güney Pasifik'teki Yeni Kaledonya adalarında yaşıyor;
 
-61
-00:03:11,595 --> 00:03:13,055
+60
+00:03:10,015 --> 00:03:11,475
 Türkiye'de yaşamıyor.
 
-62
-00:03:13,160 --> 00:03:16,325
+61
+00:03:11,580 --> 00:03:14,745
 İki bin iki yılında Betty adlı bir dişi karga,
 
-63
-00:03:16,325 --> 00:03:18,565
+62
+00:03:14,745 --> 00:03:16,985
 düz teli bükerek kanca yaptı.
 
-64
-00:03:18,670 --> 00:03:23,195
+63
+00:03:17,090 --> 00:03:21,615
 O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti.
 
-65
-00:03:23,300 --> 00:03:25,214
+64
+00:03:21,720 --> 00:03:23,634
 Sonraki çalışmalar, bu davranışın ne
 
-66
-00:03:25,214 --> 00:03:27,585
+65
+00:03:23,634 --> 00:03:26,005
 kadar kendiliğinden olduğunu tartışıyor.
 
-67
-00:03:27,690 --> 00:03:31,395
+66
+00:03:26,110 --> 00:03:29,815
 Türkiye'de de yaşayan ekin kargası laboratuvarda şaşırttı.
 
-68
-00:03:31,500 --> 00:03:35,071
+67
+00:03:29,920 --> 00:03:33,491
 Laboratuvarda dört esir ekin kargasına, suyun üstünde yüzen
 
-69
-00:03:35,071 --> 00:03:38,645
+68
+00:03:33,491 --> 00:03:37,065
 bir solucan verildi; su düşük olduğu için uzanamadılar.
 
-70
-00:03:38,750 --> 00:03:42,960
+69
+00:03:37,170 --> 00:03:41,380
 Tüpün içine taş attılar, su yükseldi ve solucanı aldılar.
 
-71
-00:03:43,560 --> 00:03:45,365
+70
+00:03:41,980 --> 00:03:43,785
 Peki karga uğursuz mu?
 
-72
-00:03:45,470 --> 00:03:48,359
+71
+00:03:43,890 --> 00:03:46,779
 Bir araştırmaya göre Tatar kültüründe karga önce
 
-73
-00:03:48,359 --> 00:03:51,975
+72
+00:03:46,779 --> 00:03:50,395
 tanrının elçisi sayılmış, sonra uğursuzlukla da anılmış.
 
-74
-00:03:52,080 --> 00:03:53,685
+73
+00:03:50,500 --> 00:03:52,105
 Olumlu anlamı da sürmüş.
 
-75
-00:03:53,790 --> 00:03:57,315
+74
+00:03:52,210 --> 00:03:55,735
 Anlamı insanlar yüklemiş; kuş yalnızca kuş.
 
-76
-00:03:57,420 --> 00:04:01,910
+75
+00:03:55,840 --> 00:04:00,330
 Kargalar tehlike gördüğünde bağırıyor; maske deneyinde de böyle yaptılar.
 
-77
-00:04:02,510 --> 00:04:05,338
+76
+00:04:00,930 --> 00:04:03,758
 Açıkta kalan yiyecek hayvanları çekebilir;
 
-78
-00:04:05,338 --> 00:04:08,815
+77
+00:04:03,758 --> 00:04:07,235
 çöpünü kapaklı kutuda tutmak genel bir önlemdir.
 
-79
-00:04:08,920 --> 00:04:11,209
+78
+00:04:07,340 --> 00:04:09,629
 Kargayı kovalama ya da ona taş atma;
 
-80
-00:04:11,209 --> 00:04:15,210
+79
+00:04:09,629 --> 00:04:13,630
 maske deneyine bakılırsa seni tehdit olarak hatırlayabilir.
 
-81
-00:04:15,810 --> 00:04:17,756
+80
+00:04:14,230 --> 00:04:16,176
 Bahçende sıçrayarak ilerleyen,
 
-82
-00:04:17,756 --> 00:04:21,115
+81
+00:04:16,176 --> 00:04:19,535
 uçamayan bir yavru karga bulursan ne yapmalısın?
 
-83
-00:04:21,220 --> 00:04:24,608
+82
+00:04:19,640 --> 00:04:23,028
 Kanada'daki bir yaban hayatı kurtarma derneğine göre,
 
-84
-00:04:24,608 --> 00:04:28,305
+83
+00:04:23,028 --> 00:04:26,725
 kargalar uçmayı öğrenirken bir süre yerde kalabiliyor.
 
-85
-00:04:28,410 --> 00:04:32,795
+84
+00:04:26,830 --> 00:04:31,215
 Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor.
 
-86
-00:04:32,900 --> 00:04:36,785
+85
+00:04:31,320 --> 00:04:35,205
 Yavru sağlıklı görünüyorsa eve götürme; olduğu yerde bırak.
 
-87
-00:04:36,890 --> 00:04:39,122
+86
+00:04:35,310 --> 00:04:37,542
 Kedi, köpek ya da yol gibi bir tehlike
 
-88
-00:04:39,122 --> 00:04:41,835
+87
+00:04:37,542 --> 00:04:40,255
 varsa onu yakındaki güvenli bir yere taşı.
 
-89
-00:04:41,940 --> 00:04:44,823
+88
+00:04:40,360 --> 00:04:43,243
 Yaralıysa, tüyleri tam çıkmamışsa ya da uzun
 
-90
-00:04:44,823 --> 00:04:48,345
+89
+00:04:43,243 --> 00:04:46,765
 süre kimse onu beslemiyorsa uzman yardımı gerekir.
 
-91
-00:04:48,450 --> 00:04:50,395
+90
+00:04:46,870 --> 00:04:48,815
 Bunun için bölgendeki Doğa Koruma ve
 
-92
-00:04:50,395 --> 00:04:52,855
+91
+00:04:48,815 --> 00:04:51,275
 Milli Parklar şube müdürlüğüne haber ver.
 
-93
-00:04:52,960 --> 00:04:57,365
+92
+00:04:51,380 --> 00:04:55,785
 Hasta ya da ölü bir kuşa dokunma; dokunduysan ellerini sabunla yıka.
 
-94
-00:04:57,470 --> 00:05:00,721
+93
+00:04:55,890 --> 00:04:59,141
 Yavruya yaklaşırsan ebeveynleri üzerine alçalabilir;
 
-95
-00:05:00,721 --> 00:05:04,160
+94
+00:04:59,141 --> 00:05:02,580
 uzaklaşmak ve şemsiyeyle önünü kapatmak öneriliyor.
 
-96
-00:05:04,760 --> 00:05:07,585
+95
+00:05:03,180 --> 00:05:06,005
 Kargalar baykuşlar gibi koruma altında mı?
 
-97
-00:05:07,690 --> 00:05:11,668
+96
+00:05:06,110 --> 00:05:10,088
 Türkiye'de leş kargası, ekin kargası, küçük karga,
 
-98
-00:05:11,668 --> 00:05:15,255
+97
+00:05:10,088 --> 00:05:13,675
 saksağan ve alakarga av hayvanı sayılıyor.
 
-99
-00:05:15,360 --> 00:05:17,984
+98
+00:05:13,780 --> 00:05:16,404
 Yani izinli avcılar, belirlenen tarihlerde
 
-100
-00:05:17,984 --> 00:05:20,665
+99
+00:05:16,404 --> 00:05:19,085
 ve bölgelerde bu kuşları avlayabiliyor.
 
-101
-00:05:20,770 --> 00:05:23,221
+100
+00:05:19,190 --> 00:05:21,641
 Karar her av dönemi için yeniden yayımlanıyor
 
-102
-00:05:23,221 --> 00:05:25,535
+101
+00:05:21,641 --> 00:05:23,955
 ve illere göre kurallar değişebiliyor.
 
-103
-00:05:25,640 --> 00:05:27,840
+102
+00:05:24,060 --> 00:05:26,260
 Güncel durumu bölgendeki Doğa Koruma ve
 
-104
-00:05:27,840 --> 00:05:30,290
+103
+00:05:26,260 --> 00:05:28,710
 Milli Parklar şube müdürlüğünden öğren.
 
-105
-00:05:30,890 --> 00:05:33,224
+104
+00:05:29,310 --> 00:05:31,644
 Kargalar yüzü tanıyabiliyor ve sana nasıl
 
-106
-00:05:33,224 --> 00:05:35,575
+105
+00:05:31,644 --> 00:05:33,995
 davrandığını yıllarca hatırlayabilir.
 
-107
-00:05:35,680 --> 00:05:38,003
+106
+00:05:34,100 --> 00:05:36,423
 Senin oralarda karga ne anlama geliyor,
 
-108
-00:05:38,003 --> 00:05:41,285
+107
+00:05:36,423 --> 00:05:39,705
 sana hiç bağıran bir karga oldu mu? Yorumlarda yaz.
 
-109
-00:05:41,390 --> 00:05:44,551
+108
+00:05:39,810 --> 00:05:42,971
 Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
 
-110
-00:05:44,551 --> 00:05:47,680
+109
+00:05:42,971 --> 00:05:46,100
 komşuları anlatmaya devam edeceğiz. Görüşmek üzere.

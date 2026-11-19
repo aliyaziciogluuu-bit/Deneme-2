@@ -54,7 +54,7 @@
 053 fark=0 | Böyle bir durumda ona süt verme, zorla yedirip içirmeye çalışma. || Böyle bir durumda ona süt verme, zorla yedirip içirmeye çalışma.
 054 fark=0 | Eldivenle, içine havlu serilmiş, kenarları yüksek bir kutuya al. || Eldivenle içine havlu serilmiş, kenarları yüksek bir kutuya al.
 055 fark=0 | Üşümüş görünüyorsa havluya sarılmış, kaynamamış sıcak su dolu bir şişe koy; şişe soğursa suyu değiştir. || Üşümüş görünüyorsa, havluya sarılmış, kaynamamış sıcak su dolu bir şişe koy. Şişe soğursa suyu değiştir.
-056 fark=1 | Kirpi ondan uzaklaşabilsin diye kutuda boşluk bırak. || Çirpi ondan uzaklaşabilsin diye kutuda boşluk bırak.
+056 fark=0 | Kutuda boşluk bırak; kirpi şişeden uzaklaşabilsin. || Kutuda boşluk bırak, kirpi şişeden uzaklaşabilsin.
 057 fark=0 | Kutuyu sessiz bir yere koy ve ellerini iyice yıka. || Kutuyu sessiz bir yere koy ve ellerini iyice yıka.
 058 fark=0 | Sonra bir yaban hayatı kurtarma merkezine ya da bir veterinere haber ver. || Sonra bir yaban hayatı kurtarma merkezine ya da bir veterinere haber ver.
 059 fark=0 | Bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne de ulaşabilirsin. || Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne de ulaşabilirsin.
