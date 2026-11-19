@@ -328,7 +328,7 @@
   .rate-row input { min-height: 38px; padding: 6px 8px; }
 
   /* Gün sonu */
-  .daystats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px; background: var(--line); border-bottom: 1px solid var(--line); }
+  .daystats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border-bottom: 1px solid var(--line); }
   .daystats > div { padding: 12px 16px; min-width: 0; background: var(--surface); }
   .daystats .k, .count-sum .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
   .daystats .alt, .mini .alt { font-size: 13.5px; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
@@ -362,7 +362,7 @@
       grid-template-areas: "name del" "buy sell" "info info";
     }
     .rate-row .del { justify-self: end; }
-    .daystats { grid-template-columns: repeat(3, 1fr); }
+    .daystats { grid-template-columns: repeat(4, 1fr); }
   }
   /* Telefonda özet satırlara, tablolar kart listesine döner */
   @media (max-width: 640px) {
@@ -942,7 +942,9 @@
       </div>
     </div>
     <div class="daystats">
-      <div><div class="k">Net kâr</div><div class="v amt" id="dNet">₺0,00</div><div class="alt amt" id="dNetAlt"></div></div>
+      <div><div class="k">Net kâr (TL)</div><div class="v amt" id="dNet">₺0,00</div></div>
+      <div><div class="k">Net kâr (dolar)</div><div class="v amt" id="dNetUsd">—</div></div>
+      <div><div class="k">Net kâr (has altın)</div><div class="v amt" id="dNetHas">—</div></div>
       <div><div class="k">Alım-satım kârı</div><div class="v amt" id="dProfit">₺0,00</div></div>
       <div><div class="k">Masraf</div><div class="v amt" id="dExp">₺0,00</div></div>
       <div><div class="k">Alış toplamı</div><div class="v amt" id="dBuy">₺0,00</div></div>
@@ -1237,9 +1239,14 @@
     });
     return { usd: okU ? usd : null, has: okH ? has : null };
   }
-  function altText(nets) {
+  // always: kâr sıfırken de yaz (kur varsa); yoksa yalnızca kâr ya da zarar olduğunda
+  function altText(nets, always) {
     var a = altProfit(nets), parts = [], neg = function (v) { return v < -0.005 ? '−' : ''; };
-    if (!nets.some(function (x) { return Math.abs(x.net) >= 0.005; })) return '';
+    if (!nets.some(function (x) { return Math.abs(x.net) >= 0.005; })) {
+      if (!always) return '';
+      if (!suggested('USD', 'out')) a.usd = null;
+      if (!suggested('HAS', 'out')) a.has = null;
+    }
     if (a.usd != null) parts.push(neg(a.usd) + '$' + fmtNum(Math.abs(a.usd), 2));
     if (a.has != null) parts.push(neg(a.has) + fmtNum(Math.abs(a.has), 2) + ' gr has');
     return parts.length ? '≈ ' + parts.join(' · ') : '';
@@ -1546,7 +1553,7 @@
     var netToday = res.day.profit - res.day.expense;
     $('sToday').textContent = fmtSigned(netToday);
     $('sToday').className = 'value amt ' + signClass(netToday);
-    var todayAlt = altText([{ date: today(), net: netToday }]);
+    var todayAlt = altText([{ date: today(), net: netToday }], true);
     $('sTodaySub').textContent = res.day.count + ' işlem' + (res.day.expense > EPS ? ' · masraf ' + fmtTL(res.day.expense) : '') +
       (todayAlt ? ' · ' + todayAlt : '');
     $('mTodayAlt').textContent = todayAlt;
@@ -1670,7 +1677,14 @@
     var net = z.profit - z.expense;
     $('dNet').textContent = fmtSigned(net);
     $('dNet').className = 'v amt ' + signClass(net);
-    $('dNetAlt').textContent = altText(nets || []);
+    // Aynı kâr dolar ve has altın olarak (her zaman görünür; kur yoksa çizgi)
+    var alt = altProfit(nets || []), neg = function (v) { return v < -0.005 ? '−' : ''; };
+    $('dNetUsd').textContent = alt.usd == null ? '—' : neg(alt.usd) + '$' + fmtNum(Math.abs(alt.usd), 2);
+    $('dNetUsd').className = 'v amt ' + (alt.usd == null ? '' : signClass(alt.usd));
+    $('dNetUsd').title = alt.usd == null ? 'Dolar kuru yok: “Fiyatları güncelle”ye dokunun.' : '';
+    $('dNetHas').textContent = alt.has == null ? '—' : neg(alt.has) + fmtNum(Math.abs(alt.has), 2) + ' gr';
+    $('dNetHas').className = 'v amt ' + (alt.has == null ? '' : signClass(alt.has));
+    $('dNetHas').title = alt.has == null ? 'Has altın fiyatı yok: “Fiyatları güncelle”ye dokunun ya da Hesap bölümüne has fiyatınızı yazın.' : '';
     $('dProfit').textContent = fmtSigned(z.profit);
     $('dProfit').className = 'v amt ' + signClass(z.profit);
     $('dExp').textContent = fmtTL(z.expense);
@@ -1860,7 +1874,8 @@
     var t = function (id) { return $(id).textContent.trim(); };
     var lines = [], shop = $('bizName').textContent;
     var sums = function () {
-      lines.push('Net kâr: ' + t('dNet') + (t('dNetAlt') ? ' (' + t('dNetAlt') + ')' : ''));
+      var alt = [t('dNetUsd'), t('dNetHas') === '—' ? '—' : t('dNetHas') + ' has'].filter(function (v) { return v !== '—'; });
+      lines.push('Net kâr: ' + t('dNet') + (alt.length ? ' (≈ ' + alt.join(' · ') + ')' : ''));
       lines.push('Alım-satım kârı: ' + t('dProfit') + ' · Masraf: ' + t('dExp'));
       lines.push('Alış: ' + t('dBuy') + ' · Satış: ' + t('dSell') + ' · İşlem: ' + t('dCount'));
     };
