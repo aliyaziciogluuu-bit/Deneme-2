@@ -12,7 +12,8 @@
    "gorsel": "maske_bagiran",
    "sure": 5,
    "istem": "The masked person in the lab coat keeps walking slowly along the path. The small black crows on the grass hop a little, turn their heads toward the person and open their beaks to call; the crows in the sky glide. Nothing new appears. Static camera. Storybook watercolor style preserved. Realistic small crows, two legs each, no extra limbs, crows do not merge, the person keeps the same mask and clothes.",
-   "onceki_duzenleme": "DÜŞÜRÜLDÜ: 1,2 sn sonrasında gökyüzünde kırmızı balon beliriyor, kargalar birbirine giriyor, maskeli figür bozuluyor. Ham klip saklandı; çekim görselle kalıyor."
+   "onceki_duzenleme": "DÜŞÜRÜLDÜ: 1,2 sn sonrasında gökyüzünde kırmızı balon beliriyor, kargalar birbirine giriyor, maskeli figür bozuluyor. Ham klip saklandı; çekim görselle kalıyor.",
+   "duzenleme": "Tur 3 (19 Kasım): yeni doğru ölçekli görselden. Kişi kameraya doğru yürüyor, kargalar sekiyor ve uçuyor; ölçek doğru, birleşme yok. Kullanılabilir."
   },
   {
    "ad": "nc_kanca",
@@ -26,7 +27,8 @@
    "gorsel": "tup_tas",
    "sure": 5,
    "istem": "The crow slowly lowers its head and brings the small stone in its beak closer to the open top of the glass tube, then pauses. The worm and the water inside the tube stay still. Nothing new appears. Static camera. Storybook watercolor style preserved. Realistic bird anatomy, one bird, two legs, no extra limbs.",
-   "onceki_duzenleme": "DÜŞÜRÜLDÜ: tüpte iki solucan görünüyor, su yükselmiyor, eylemi göstermiyor. Çekim görselle kalıyor."
+   "onceki_duzenleme": "DÜŞÜRÜLDÜ: tüpte iki solucan görünüyor, su yükselmiyor, eylemi göstermiyor. Çekim görselle kalıyor.",
+   "duzenleme": "Tur 2 (19 Kasım): karga taşı tüpe doğru indiriyor, tek solucan, anatomi temiz. Kullanılabilir."
   },
   {
    "ad": "cop",

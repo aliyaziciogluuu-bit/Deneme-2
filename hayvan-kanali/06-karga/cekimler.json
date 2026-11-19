@@ -1,5 +1,5 @@
 {
- "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 73). a/b: [merkez_x, merkez_y, genişlik]. tup_solucan ve beyin görselleri kullanılmadı: 46. cümle (solucan yüzeyde) ekin_portre ile, 47. cümle tup_tas ile gösterilir. Klipler henüz üretilmedi; önizleme klipler gelince çalıştırılacak.",
+ "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 73). a/b: [merkez_x, merkez_y, genişlik]. tup_solucan ve beyin görselleri kullanılmadı: 46. cümle (solucan yüzeyde) ekin_portre ile, 47. cümle tup_tas ile gösterilir. maske_bagiran görseli 19 Kasım'da doğru ölçekli yeni görselle değiştirildi (kişi x≈0,54, kargalar x≈0,65–0,78).",
  "cekimler": [
   {
    "n": 1,
@@ -53,10 +53,11 @@
     1.0
    ],
    "b": [
-    0.6,
-    0.55,
-    0.8
-   ]
+    0.56,
+    0.62,
+    0.7
+   ],
+   "klip": "maske_bagiran"
   },
   {
    "n": 1,
@@ -95,9 +96,9 @@
     1.0
    ],
    "b": [
-    0.3,
-    0.55,
-    0.65
+    0.63,
+    0.68,
+    0.6
    ],
    "etiket": "Maske deneyi: Amerikan kargası"
   },
@@ -374,7 +375,8 @@
     0.55,
     0.45,
     0.85
-   ]
+   ],
+   "klip": "tup_tas"
   },
   {
    "n": 3,
@@ -430,8 +432,8 @@
    ],
    "b": [
     0.7,
-    0.55,
-    0.7
+    0.72,
+    0.55
    ]
   },
   {
