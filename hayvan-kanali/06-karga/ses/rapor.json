@@ -442,5 +442,21 @@
   "sure": 6.06,
   "uygun": true,
   "tek_basina": true
+ },
+ "027": {
+  "yazi": "Gövdesi gri, başı ve kanatları siyah karga leş kargası olarak biliniyor.",
+  "duyulan": "gövdesi gri, başı ve kanatları siyah karga, leş kargası olarak biliniyor.",
+  "hata": 0,
+  "sure": 5.02,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "028": {
+  "yazi": "Yetişkin ekin kargasını gaga dibindeki çıplak deriden tanırsın.",
+  "duyulan": "Yetişkin ekin kargasını gaga dibindeki çıplak deriden tanırsın.",
+  "hata": 0,
+  "sure": 4.22,
+  "uygun": true,
+  "tek_basina": true
  }
 }
