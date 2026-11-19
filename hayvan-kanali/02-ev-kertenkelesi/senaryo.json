@@ -1,310 +1,308 @@
 {
-  "baslik": "Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)",
-  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları bilerek kullanılmadı (ses modeli kısaltıyor).",
-  "aciklama": "Gece mutfağın ışığını yaktın, duvarda yarı saydam küçük bir kertenkele duruyor. Yemeğe düşerse zehirler mi? Kısa cevap: hayır, ev kertenkelesinin zehri yok. Ama bilmen gereken önemli bir gerçek var ve o gerçek zehirle değil, hijyenle ilgili.\n\nBu videoda ev kertenkelesinin (Akdeniz gekosu, Hemidactylus turcicus) neden lambaların yanında durduğunu, cam ve tavanda nasıl yürüdüğünü, neden gözünü yaladığını ve geceleri duvardan gelen tıkırtıların ne olduğunu anlatıyoruz. Zehirli mi, ısırır mı, yemeğe düşerse ne olur sorularının cevabını ve Salmonella konusunda alınacak basit önlemleri de konuşuyoruz.\n\nEvde ev kertenkelesi görürsem ne yapmalıyım, onu öldürmeden nasıl dışarı çıkarırım, evime girmesini nasıl önlerim diye merak ediyorsan, bardak-karton yönteminden sineklik ve sıcak tonlu ampul önerisine kadar pratik bilgiler de videoda.",
-  "yorum_sorusu": "Senin oralarda ona ne diyorlar? Evinin duvarında hiç gördün mü? Yorumlarda konuşalım.",
-  "kaynaklar": [
-    "Animal Diversity Web – Hemidactylus turcicus: animaldiversity.org/accounts/Hemidactylus_turcicus",
-    "The Reptile Database – Hemidactylus turcicus: reptile-database.reptarium.cz/species?genus=Hemidactylus&species=turcicus",
-    "CDC – Reptiles and Amphibians (Salmonella): cdc.gov/healthy-pets/about/reptiles-and-amphibians.html",
-    "Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae (Tokay gekosu üzerinde). PNAS 99(19). doi:10.1073/pnas.192252799",
-    "Yıldız, M.Z. ve ark. (2007). Hemidactylus turcicus'un Anadolu'daki yeni kayıtları. North-Western Journal of Zoology 3(1)",
-    "Bülbül, U. ve ark. (2020). Hemidactylus turcicus'un Türkiye Karadeniz kıyısındaki yeni kayıtları. Russian Journal of Herpetology 27(5)",
-    "Kotsakiozi, P. ve ark. (2018). Kotschy gekosunda (Mediodactylus kotschyi) çok lokuslu filogeni ve gizli türler. Molecular Phylogenetics and Evolution 125"
+ "baslik": "Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)",
+ "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları bilerek kullanılmadı (ses modeli kısaltıyor).",
+ "aciklama": "Gece mutfağın ışığını yaktın, duvarda yarı saydam küçük bir kertenkele duruyor. Yemeğe düşerse zehirler mi? Kısa cevap: hayır, ev kertenkelesinin zehri yok. Ama bilmen gereken önemli bir gerçek var ve o gerçek zehirle değil, hijyenle ilgili.\n\nBu videoda ev kertenkelesinin (Akdeniz gekosu, Hemidactylus turcicus) neden lambaların yanında durduğunu, cam ve tavanda nasıl yürüdüğünü, neden gözünü yaladığını ve geceleri duvardan gelen tıkırtıların ne olduğunu anlatıyoruz. Zehirli mi, ısırır mı, yemeğe düşerse ne olur sorularının cevabını ve Salmonella konusunda alınacak basit önlemleri de konuşuyoruz.\n\nEvde ev kertenkelesi görürsem ne yapmalıyım, onu öldürmeden nasıl dışarı çıkarırım, evime girmesini nasıl önlerim diye merak ediyorsan, bardak-karton yönteminden sineklik ve sıcak tonlu ampul önerisine kadar pratik bilgiler de videoda.",
+ "yorum_sorusu": "Senin oralarda ona ne diyorlar? Evinin duvarında hiç gördün mü? Yorumlarda konuşalım.",
+ "kaynaklar": [
+  "Animal Diversity Web – Hemidactylus turcicus: animaldiversity.org/accounts/Hemidactylus_turcicus",
+  "The Reptile Database – Hemidactylus turcicus: reptile-database.reptarium.cz/species?genus=Hemidactylus&species=turcicus",
+  "CDC – Reptiles and Amphibians (Salmonella): cdc.gov/healthy-pets/about/reptiles-and-amphibians.html",
+  "Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae. PNAS 99(19): 12252–12256. doi:10.1073/pnas.192252799",
+  "Kotsakiozi, P. ve ark. (2018). Multilocus phylogeny and coalescent species delimitation in Kotschy's gecko, Mediodactylus kotschyi: Hidden diversity and cryptic species. Molecular Phylogenetics and Evolution 125: 177–187. doi:10.1016/j.ympev.2018.03.022"
+ ],
+ "etiketler": [
+  "ev kertenkelesi",
+  "geko",
+  "Akdeniz gekosu",
+  "Hemidactylus turcicus",
+  "kertenkele zehirli mi",
+  "kertenkele yemeğe düşerse",
+  "duvardaki kertenkele",
+  "salmonella",
+  "evde kertenkele",
+  "sürüngenler",
+  "doğa",
+  "Avludaki Komşular"
+ ],
+ "kapak": {
+  "gorsel": "kapak",
+  "buyuk": [
+   "YEMEĞE",
+   "DÜŞERSE?"
   ],
-  "etiketler": [
-    "ev kertenkelesi",
-    "geko",
-    "Akdeniz gekosu",
-    "Hemidactylus turcicus",
-    "kertenkele zehirli mi",
-    "kertenkele yemeğe düşerse",
-    "duvardaki kertenkele",
-    "salmonella",
-    "evde kertenkele",
-    "sürüngenler",
-    "doğa",
-    "Avludaki Komşular"
-  ],
-  "kapak": {
-    "gorsel": "kapak",
-    "buyuk": [
-      "YEMEĞE",
-      "DÜŞERSE?"
-    ],
-    "kucuk": "Gözünü yalıyor!",
-    "konum": "sol"
-  },
-  "ambiyans": {
-    "dosya": "../sesler/gece_cirit.ogg",
-    "seviye": 0.05,
-    "kaynak": ""
-  },
-  "sahneler": [
+  "kucuk": "Gözünü yalıyor!",
+  "konum": "sol"
+ },
+ "ambiyans": {
+  "dosya": "../sesler/gece_cirit.ogg",
+  "seviye": 0.05,
+  "kaynak": ""
+ },
+ "sahneler": [
+  {
+   "ad": "Lambanın yanındaki misafir",
+   "cumleler": [
     {
-      "ad": "Lambanın yanındaki misafir",
-      "cumleler": [
-        {
-          "yazi": "Gece mutfağın ışığını yakıyorsun. Duvarda, lambanın hemen yanında, yarı saydam küçük bir kertenkele duruyor."
-        },
-        {
-          "yazi": "Ve aklına ilk gelen soru şu: ya yemeğe düşerse?"
-        },
-        {
-          "yazi": "Zehirler mi? Isırır mı? Evden nasıl çıkar?"
-        },
-        {
-          "yazi": "Cevaplar kısa; ama bu küçük misafirin asıl şaşırtıcı yanı başka: tavanda baş aşağı yürüyor ve gözünü diliyle temizliyor."
-        }
-      ]
+     "yazi": "Gece mutfağın ışığını yakıyorsun. Duvarda, lambanın hemen yanında, yarı saydam küçük bir kertenkele duruyor."
     },
     {
-      "ad": "Zehirli mi, yemeğe düşerse?",
-      "cumleler": [
-        {
-          "yazi": "Önce yemek sorusu."
-        },
-        {
-          "yazi": "Hayır. Ev kertenkelesinin zehri yok."
-        },
-        {
-          "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa kendini savunmak için ısırabilir."
-        },
-        {
-          "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez."
-        },
-        {
-          "yazi": "Ama burada bilmen gereken önemli bir gerçek var."
-        },
-        {
-          "yazi": "Gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor."
-        },
-        {
-          "yazi": "Yani asıl mesele zehir değil, temizlik."
-        },
-        {
-          "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yeme; yüzeyi de sabunla iyice temizle, gerekirse dezenfekte et."
-        },
-        {
-          "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi."
-        },
-        {
-          "yazi": "Şimdi gelelim asıl şaşırtıcı kısma."
-        }
-      ]
+     "yazi": "Ve aklına ilk gelen soru şu: ya yemeğe düşerse?"
     },
     {
-      "ad": "Tavanda nasıl yürüyor?",
-      "cumleler": [
-        {
-          "yazi": "Peki bu küçük hayvan kaygan bir camda, hatta tavanda baş aşağı nasıl yürüyor?"
-        },
-        {
-          "yazi": "Cevap parmaklarında saklı."
-        },
-        {
-          "yazi": "Geko parmaklarının altında, ince yapraklar gibi sıralanmış pedler var."
-        },
-        {
-          "yazi": "Bu pedler, gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı."
-        },
-        {
-          "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor."
-        },
-        {
-          "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor."
-        },
-        {
-          "yazi": "Tek tek çok zayıf olan bu çekim, milyonlarca uç bir araya gelince hayvanı tavanda tutmaya yetiyor."
-        },
-        {
-          "yazi": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor."
-        }
-      ]
+     "yazi": "Zehirler mi? Isırır mı? Evden nasıl çıkar?"
     },
     {
-      "ad": "Göz kırpamayan kertenkele",
-      "cumleler": [
-        {
-          "yazi": "Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok."
-        },
-        {
-          "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı."
-        },
-        {
-          "yazi": "Hatırlarsan sağır yılan göz kırpabiliyordu; bu kertenkele kırpamıyor."
-        },
-        {
-          "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor."
-        }
-      ]
-    },
-    {
-      "ad": "Gecenin avcısı",
-      "cumleler": [
-        {
-          "yazi": "Ev kertenkelesi bir gece hayvanı."
-        },
-        {
-          "yazi": "Gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor."
-        },
-        {
-          "yazi": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor."
-        },
-        {
-          "yazi": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası."
-        },
-        {
-          "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun."
-        },
-        {
-          "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor."
-        },
-        {
-          "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir."
-        }
-      ]
-    },
-    {
-      "ad": "Duvardan gelen tıkırtı",
-      "cumleler": [
-        {
-          "yazi": "Geceleri duvardan gelen kısa tıkırtılar duydun mu?"
-        },
-        {
-          "yazi": "Kertenkelelerin çoğu sessizdir, ama gekolar ses çıkarabilen az sayıdaki kertenkele grubundan."
-        },
-        {
-          "yazi": "Erkek ev kertenkeleleri kısa tıkırtılarla sesleniyor."
-        },
-        {
-          "yazi": "Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için."
-        },
-        {
-          "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince, tiz bir ses de çıkarabiliyor."
-        }
-      ]
-    },
-    {
-      "ad": "Ev kertenkelesi kimdir?",
-      "cumleler": [
-        {
-          "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
-          "ses": "Bilim dünyasındaki adı Hemidaktilus turkikus."
-        },
-        {
-          "yazi": "Adındaki turcicus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor.",
-          "ses": "Adındaki turkikus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor."
-        },
-        {
-          "yazi": "Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre."
-        },
-        {
-          "yazi": "Derisi açık pembe ya da gri, hafif yarı saydam; sırtında küçük kabarcıklar var."
-        },
-        {
-          "yazi": "Kuyruğunda koyu ve açık halkalar sıralanıyor."
-        },
-        {
-          "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de en çok Ege ve Akdeniz kıyılarında görülüyor, diğer kıyılarda ve bazı iç bölgelerde daha seyrek."
-        },
-        {
-          "yazi": "Evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor."
-        },
-        {
-          "yazi": "Gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda."
-        }
-      ]
-    },
-    {
-      "ad": "Kopan kuyruk, sert yumurta",
-      "cumleler": [
-        {
-          "yazi": "Ev kertenkelesi de tehlikede kuyruğunu koparabiliyor."
-        },
-        {
-          "yazi": "Kopan kuyruk bir süre kıvranarak yırtıcının dikkatini dağıtıyor."
-        },
-        {
-          "yazi": "Yeni kuyruk zamanla çıkıyor, ama rengi ve deseni eskisinden farklı oluyor."
-        },
-        {
-          "yazi": "Dişiler bir seferde genellikle iki yumurta bırakıyor."
-        },
-        {
-          "yazi": "Yumurtaların kabuğu sert; dişi onları duvar çatlaklarına ve taş aralarına saklıyor."
-        }
-      ]
-    },
-    {
-      "ad": "Akrabaları: ince parmaklı gekolar",
-      "cumleler": [
-        {
-          "yazi": "Türkiye'de duvarlarda görebileceğin tek geko bu değil."
-        },
-        {
-          "yazi": "Bir de kayalarda ve taş duvarlarda yaşayan, Kotschy gekosu grubundan daha ince yapılı gekolar var.",
-          "ses": "Bir de kayalarda ve taş duvarlarda yaşayan, Koçi gekosu grubundan daha ince yapılı gekolar var."
-        },
-        {
-          "yazi": "Onların parmakları ince ve ev kertenkelesininkinden farklı; daha çok pürüzlü taş yüzeylerde yaşıyorlar."
-        },
-        {
-          "yazi": "Onlar da zehirsiz ve onlar da birer böcek avcısı."
-        }
-      ]
-    },
-    {
-      "ad": "Evde görürsen ne yapmalısın?",
-      "cumleler": [
-        {
-          "yazi": "Peki evinde bir ev kertenkelesi görürsen ne yapmalısın?"
-        },
-        {
-          "yazi": "Önce şunu bil: onu sık görüyorsan, evinde ya da evinin çevresinde ona yiyecek olacak böcekler var demektir."
-        },
-        {
-          "yazi": "Onu ezmek ya da ilaçlamak yerine, dışarı çıkarmak çok daha kolay."
-        },
-        {
-          "yazi": "Üzerine bir bardak kapat, altına ince bir karton kaydır ve onu dışarıda bir duvarın dibine bırak."
-        },
-        {
-          "yazi": "Sonra ellerini sabunla yıka."
-        },
-        {
-          "yazi": "Onu kuyruğundan tutma; kuyruğu kopup elinde kalabilir."
-        },
-        {
-          "yazi": "Evine girmesini istemiyorsan pencerelere sineklik tak, kapı altlarındaki boşlukları kapat."
-        },
-        {
-          "yazi": "Dış lambalarda sarımsı ışıklı ampuller böcekleri daha az çekebilir; böcek azalınca onları avlayan kertenkele de daha az gelebilir."
-        },
-        {
-          "yazi": "Balkonda ya da bahçede ona dokunmazsan, geceleri küçük sinekleri ve güveleri avlamaya devam eder."
-        }
-      ]
-    },
-    {
-      "ad": "Kapanış",
-      "cumleler": [
-        {
-          "yazi": "Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor."
-        },
-        {
-          "yazi": "Sadece ışığın yanında sessizce nöbet tutan küçük bir avcı."
-        },
-        {
-          "yazi": "Bir dahaki sefere onu duvarda gördüğünde, belki ona biraz daha farklı bakarsın."
-        },
-        {
-          "yazi": "Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz."
-        },
-        {
-          "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
-        }
-      ]
+     "yazi": "Cevaplar kısa; ama bu küçük misafirin asıl şaşırtıcı yanı başka: tavanda baş aşağı yürüyor ve gözünü diliyle temizliyor."
     }
-  ]
+   ]
+  },
+  {
+   "ad": "Zehirli mi, yemeğe düşerse?",
+   "cumleler": [
+    {
+     "yazi": "Önce yemek sorusu."
+    },
+    {
+     "yazi": "Hayır. Ev kertenkelesinin zehri yok."
+    },
+    {
+     "yazi": "İnsana saldırmaz; yakalanmaya çalışılırsa kendini savunmak için ısırabilir."
+    },
+    {
+     "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez."
+    },
+    {
+     "yazi": "Ama burada bilmen gereken önemli bir gerçek var."
+    },
+    {
+     "yazi": "Gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor."
+    },
+    {
+     "yazi": "Yani asıl mesele zehir değil, temizlik."
+    },
+    {
+     "yazi": "Üzerine kertenkele düşen ya da dışkısı bulaşan yiyeceği yeme; yüzeyi de sabunla iyice temizle, gerekirse dezenfekte et."
+    },
+    {
+     "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi."
+    },
+    {
+     "yazi": "Şimdi gelelim asıl şaşırtıcı kısma."
+    }
+   ]
+  },
+  {
+   "ad": "Tavanda nasıl yürüyor?",
+   "cumleler": [
+    {
+     "yazi": "Peki bu küçük hayvan kaygan bir camda, hatta tavanda baş aşağı nasıl yürüyor?"
+    },
+    {
+     "yazi": "Cevap parmaklarında saklı."
+    },
+    {
+     "yazi": "Geko parmaklarının altında, ince yapraklar gibi sıralanmış pedler var."
+    },
+    {
+     "yazi": "Bu pedler, gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı."
+    },
+    {
+     "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor."
+    },
+    {
+     "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor."
+    },
+    {
+     "yazi": "Tek tek çok zayıf olan bu çekim, milyonlarca uç bir araya gelince hayvanı tavanda tutmaya yetiyor."
+    },
+    {
+     "yazi": "Mühendisler bu keşiften ilham alarak yapıştırıcı kullanmadan tutunan bantlar ve tutucular geliştiriyor."
+    }
+   ]
+  },
+  {
+   "ad": "Göz kırpamayan kertenkele",
+   "cumleler": [
+    {
+     "yazi": "Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok."
+    },
+    {
+     "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı."
+    },
+    {
+     "yazi": "Hatırlarsan sağır yılan göz kırpabiliyordu; bu kertenkele kırpamıyor."
+    },
+    {
+     "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor."
+    }
+   ]
+  },
+  {
+   "ad": "Gecenin avcısı",
+   "cumleler": [
+    {
+     "yazi": "Ev kertenkelesi bir gece hayvanı."
+    },
+    {
+     "yazi": "Gündüzü duvar çatlaklarında, kiremit altlarında ya da panjur arkalarında saklanarak geçiriyor."
+    },
+    {
+     "yazi": "Hava karardığında ortaya çıkıyor ve ışığın çevresine yöneliyor."
+    },
+    {
+     "yazi": "Çünkü lambanın etrafında dönen sinekler, güveler ve küçük böcekler onun sofrası."
+    },
+    {
+     "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun."
+    },
+    {
+     "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor."
+    },
+    {
+     "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir."
+    }
+   ]
+  },
+  {
+   "ad": "Duvardan gelen tıkırtı",
+   "cumleler": [
+    {
+     "yazi": "Geceleri duvardan gelen kısa tıkırtılar duydun mu?"
+    },
+    {
+     "yazi": "Kertenkelelerin çoğu sessizdir, ama gekolar ses çıkarabilen az sayıdaki kertenkele grubundan."
+    },
+    {
+     "yazi": "Erkek ev kertenkeleleri kısa tıkırtılarla sesleniyor."
+    },
+    {
+     "yazi": "Bu sesler bölgesini korumak ve dişilerle iletişim kurmak için."
+    },
+    {
+     "yazi": "Yakalandığında ya da başka bir kertenkeleyle çekiştiğinde ince, tiz bir ses de çıkarabiliyor."
+    }
+   ]
+  },
+  {
+   "ad": "Ev kertenkelesi kimdir?",
+   "cumleler": [
+    {
+     "yazi": "Bilim dünyasındaki adı Hemidactylus turcicus.",
+     "ses": "Bilim dünyasındaki adı Hemidaktilus turkikus."
+    },
+    {
+     "yazi": "Adındaki turcicus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor.",
+     "ses": "Adındaki turkikus kelimesi Türk anlamına geliyor; İngilizcede bu yüzden ona Türk gekosu da deniyor."
+    },
+    {
+     "yazi": "Boyu kuyruğuyla birlikte genellikle on ila on üç santimetre."
+    },
+    {
+     "yazi": "Derisi açık pembe ya da gri, hafif yarı saydam; sırtında küçük kabarcıklar var."
+    },
+    {
+     "yazi": "Kuyruğunda koyu ve açık halkalar sıralanıyor."
+    },
+    {
+     "yazi": "Anavatanı Akdeniz çevresi ve Orta Doğu; Türkiye'de en çok Ege ve Akdeniz kıyılarında görülüyor, diğer kıyılarda ve bazı iç bölgelerde daha seyrek."
+    },
+    {
+     "yazi": "Evlerin duvarlarında, taş duvarlarda ve sokak lambalarının çevresinde yaşıyor."
+    },
+    {
+     "yazi": "Gemilerle ve yüklerle taşınarak bugün Amerika'dan Afrika'ya kadar dünyanın pek çok yerine yayılmış durumda."
+    }
+   ]
+  },
+  {
+   "ad": "Kopan kuyruk, sert yumurta",
+   "cumleler": [
+    {
+     "yazi": "Ev kertenkelesi de tehlikede kuyruğunu koparabiliyor."
+    },
+    {
+     "yazi": "Kopan kuyruk bir süre kıvranarak yırtıcının dikkatini dağıtıyor."
+    },
+    {
+     "yazi": "Yeni kuyruk zamanla çıkıyor, ama rengi ve deseni eskisinden farklı oluyor."
+    },
+    {
+     "yazi": "Dişiler bir seferde genellikle iki yumurta bırakıyor."
+    },
+    {
+     "yazi": "Yumurtaların kabuğu sert; dişi onları duvar çatlaklarına ve taş aralarına saklıyor."
+    }
+   ]
+  },
+  {
+   "ad": "Akrabaları: ince parmaklı gekolar",
+   "cumleler": [
+    {
+     "yazi": "Türkiye'de duvarlarda görebileceğin tek geko bu değil."
+    },
+    {
+     "yazi": "Bir de kayalarda ve taş duvarlarda yaşayan, Kotschy gekosu grubundan daha ince yapılı gekolar var.",
+     "ses": "Bir de kayalarda ve taş duvarlarda yaşayan, Koçi gekosu grubundan daha ince yapılı gekolar var."
+    },
+    {
+     "yazi": "Onların parmakları ince ve ev kertenkelesininkinden farklı; daha çok pürüzlü taş yüzeylerde yaşıyorlar."
+    },
+    {
+     "yazi": "Onlar da zehirsiz ve onlar da birer böcek avcısı."
+    }
+   ]
+  },
+  {
+   "ad": "Evde görürsen ne yapmalısın?",
+   "cumleler": [
+    {
+     "yazi": "Peki evinde bir ev kertenkelesi görürsen ne yapmalısın?"
+    },
+    {
+     "yazi": "Önce şunu bil: onu sık görüyorsan, evinde ya da evinin çevresinde ona yiyecek olacak böcekler var demektir."
+    },
+    {
+     "yazi": "Onu ezmek ya da ilaçlamak yerine, dışarı çıkarmak çok daha kolay."
+    },
+    {
+     "yazi": "Üzerine bir bardak kapat, altına ince bir karton kaydır ve onu dışarıda bir duvarın dibine bırak."
+    },
+    {
+     "yazi": "Sonra ellerini sabunla yıka."
+    },
+    {
+     "yazi": "Onu kuyruğundan tutma; kuyruğu kopup elinde kalabilir."
+    },
+    {
+     "yazi": "Evine girmesini istemiyorsan pencerelere sineklik tak, kapı altlarındaki boşlukları kapat."
+    },
+    {
+     "yazi": "Dış lambalarda sarımsı ışıklı ampuller böcekleri daha az çekebilir; böcek azalınca onları avlayan kertenkele de daha az gelebilir."
+    },
+    {
+     "yazi": "Balkonda ya da bahçede ona dokunmazsan, geceleri küçük sinekleri ve güveleri avlamaya devam eder."
+    }
+   ]
+  },
+  {
+   "ad": "Kapanış",
+   "cumleler": [
+    {
+     "yazi": "Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor."
+    },
+    {
+     "yazi": "Sadece ışığın yanında sessizce nöbet tutan küçük bir avcı."
+    },
+    {
+     "yazi": "Bir dahaki sefere onu duvarda gördüğünde, belki ona biraz daha farklı bakarsın."
+    },
+    {
+     "yazi": "Peki senin oralarda bu hayvana ne diyorlar? Yorumlarda yaz."
+    },
+    {
+     "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
+    }
+   ]
+  }
+ ]
 }

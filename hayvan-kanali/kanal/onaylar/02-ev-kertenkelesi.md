@@ -19,3 +19,8 @@ Video 16–17 Kasım'da ofis öncesi dönemde üretildi ve 20 Kasım 18:00 için
 - Tur 3: 79,0 → DÜZELTME aralığı. Bütün denetçiler ONAY verdi, kırmızı çizgi yok.
 | 4 | Kalite kontrol | ONAY (ses 8, görsel 8, teknik 9) | Kapanış klibi temiz; Shorts 3 son sahnede burun kadrajda. Kalan küçük kusur: Shorts 3'te altyazı gekonun başına değiyor; goz_yalama klibi fotogerçekçi ve dil göze net değmiyor |
 | – | Patron | TESLİM | Toplam 80,0 (yeni eşik 80, kanal sahibinin kararı). Teslim dosyaları cmp ile doğrulandı |
+
+## Yayın öncesi künye denetimi (19 Kasım, yeniden yükleme günü)
+- Bilgi kontrolcüsü: RET (açıklamadaki kaynak listesi). Üç künyede Türkçeye çevrilmiş başlık vardı (Yıldız 2007, Bülbül 2020, Kotsakiozi 2018); Autumn 2002'ye başlıkta olmayan parantez eklenmişti.
+- Patron kararı: Autumn ve Kotsakiozi DOI'si birden çok bağımsız kayıtta tutarlı olduğu için özgün başlıkla bırakıldı. Yıldız ve Bülbül makale sayfası açılamadığı için listeden çıkarıldı (Türkiye dağılımı Reptile Database ve ADW kaynaklarıyla destekli). Anlatım metni değişmedi; video yeniden oluşturulmadı.
+- Ders: künye yazılırken makale sayfası açılamıyorsa künye yazılmaz, alan adı erişimi iş başında istenir.

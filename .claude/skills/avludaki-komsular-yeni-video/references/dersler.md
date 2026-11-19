@@ -228,6 +228,7 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
   - Kapanışta genelleme vardı ("yarasa kan emmez"; oysa üç tür kan emer).
   - **Kural:**
     - Künye makale sayfasından kopyalanır: özgün başlık, yazarlar, yıl, dergi, cilt, DOI. Türkçe "kısa ad" yazılmaz; `metin_kontrol.py` artık bunu uyarıyor.
+    - Makale sayfası açılamıyorsa künye yazılmaz. Gerekli alan adı için erişim iş başında istenir. Geko, 19 Kasım: iki künye bu yüzden yeniden yükleme günü listeden çıkarıldı.
     - Yabancı ülkede yapılmış bir çalışmanın sayısı, "Avrupa'daki akrabasında…" denmeden Türkiye türüne söylenmez.
     - Hukuki cümle (koruma, yasak) ancak güncel resmî karar metni açılıp ilgili satır görülürse kesin yazılır. Görülmezse "korunması gereken yaban hayvanı" denir.
   - Sorumlu: senarist, bilgi kontrolcüsü.

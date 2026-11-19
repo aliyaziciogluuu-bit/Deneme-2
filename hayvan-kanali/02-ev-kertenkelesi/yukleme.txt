@@ -27,10 +27,8 @@ Kaynaklar:
 - Animal Diversity Web – Hemidactylus turcicus: animaldiversity.org/accounts/Hemidactylus_turcicus
 - The Reptile Database – Hemidactylus turcicus: reptile-database.reptarium.cz/species?genus=Hemidactylus&species=turcicus
 - CDC – Reptiles and Amphibians (Salmonella): cdc.gov/healthy-pets/about/reptiles-and-amphibians.html
-- Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae (Tokay gekosu üzerinde). PNAS 99(19). doi:10.1073/pnas.192252799
-- Yıldız, M.Z. ve ark. (2007). Hemidactylus turcicus'un Anadolu'daki yeni kayıtları. North-Western Journal of Zoology 3(1)
-- Bülbül, U. ve ark. (2020). Hemidactylus turcicus'un Türkiye Karadeniz kıyısındaki yeni kayıtları. Russian Journal of Herpetology 27(5)
-- Kotsakiozi, P. ve ark. (2018). Kotschy gekosunda (Mediodactylus kotschyi) çok lokuslu filogeni ve gizli türler. Molecular Phylogenetics and Evolution 125
+- Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae. PNAS 99(19): 12252–12256. doi:10.1073/pnas.192252799
+- Kotsakiozi, P. ve ark. (2018). Multilocus phylogeny and coalescent species delimitation in Kotschy's gecko, Mediodactylus kotschyi: Hidden diversity and cryptic species. Molecular Phylogenetics and Evolution 125: 177–187. doi:10.1016/j.ympev.2018.03.022
 
 Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. Bilgiler yukarıdaki kaynaklardan derlenmiştir.
 
