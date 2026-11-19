@@ -66,7 +66,8 @@ def main():
         adimlar += [f"{sira}) UZUN VİDEO (saat 20:00): {TR[ad]} ({tur})",
                     f"   - Video: {sira}_UZUN_{ad}_video.mp4",
                     f"   - Başlık, açıklama, etiketler: {sira}_UZUN_{ad}_metin.txt",
-                    f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim.jpg (yükledikten sonra Studio'dan ekle)",
+                    (f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim_B.jpg (B: pencere açık, yazı köşede; yükledikten sonra Studio'dan ekle)" if "B" in secenekler
+                     else f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim.jpg (yükledikten sonra Studio'dan ekle)"),
                     *([f"   - Bilgisayardaysan: Küçük resim > 'Test et ve karşılaştır' ile _kucuk_resim, _B ve _C dosyalarının üçünü birden yükle;"
                        , "     YouTube en çok tıklananı kendisi seçer."] if secenekler else []),
                     "   - Çocuklara özel değil · Herkese açık · Açıklamadaki öyküyü ve Sound credits satırlarını silme",

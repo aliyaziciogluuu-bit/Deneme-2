@@ -23,23 +23,11 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 
 ## Bekleyen
 
-- **E2 – Deniz ve fırtına sahnelerine gerçek dalga sesi (metin editörü, 19 Kasım):** 09 ve 23'te görüntüde dalga var, seste yok. Kanal sahibi Pixabay'den bir "ocean waves / sea storm" kaydı indirirse sesler yeniden kurulur. Görüntü yeniden üretilmez, ses kısa bir işle değişir. Böylece "waves sounds" etiketleri dürüst olur.
-  - Değerlendirme: etki 3, emek 2, maliyet yok, risk yok.
-
 - **P2 – Noel'e özel 8–10 saatlik "sleep marathon" (yapımcı):** etki 4, emek 4. Yönetici kararı BEKLET.
   - Neden: Mevcut Noel videolarının görüntüsü yeniden kullanılırsa "yeniden kullanılmış içerik" riski doğar.
   - Ocak'ta, özgün parçalarla bir "winter marathon" olarak yeniden değerlendirilecek.
 - **K1 – Uyku sonunda yumuşak iniş: son 20–30 dakikada ses kısılır (kalite kontrol):** etki 2–3. Yönetici kararı BEKLET.
   - Önce K3'ten gelecek tutma verisine bakılacak.
-
-- **Y4 – Uzun video başlık kalıbını çeşitlendirme (kanal yöneticisi, 19 Kasım):** 21–28'in sekiz başlığından altısı aynı kalıpta ("3 Hours [Sıfat] [Mekân] [emoji] [3 öğe] for Sleep"). Bir sahnede, örneğin 28'de, tek kancalı farklı bir başlık denenir ve Analytics'te tıklama oranı karşılaştırılır.
-  - Değerlendirme: etki 2–3, emek 1, maliyet yok.
-
-- **Y5 – (YAPILDI: kanal sahibi "Rain & Fireplace Sounds for Sleep" listesini zaten açmış; yeni yağmur sahneleri buna eklenecek) "Rain Around the World" oynatma listesi (kanal yöneticisi, 19 Kasım):** Yağmur sahneleri tek listede toplanır (06 kafe, 22 Tokyo, 24 kanal, 25 orman, 28 kiraz çiçeği). Tek bir sahneyi bulan izleyici art arda başkasını izler ve izlenme saati artar. Y2 Noel listesinin yağmur karşılığı.
-  - Değerlendirme: etki 2–3, emek 1, maliyet yok.
-
-- **Y6 – "Japan at Night 🏯" oynatma listesi (kanal yöneticisi, 19 Kasım):** 10 Japon bahçesi, 22 Tokyo, 26 dağ tapınağı ve 28 kiraz çiçeği tek listede toplanır. Bir Japon sahnesini bulan izleyici ötekileri de izler.
-  - Değerlendirme: etki 2, emek 1, maliyet yok.
 
 ## İç işler (patron uygular, kanal sahibine sunulmaz)
 
@@ -64,6 +52,11 @@ _(şu an yok)_
 - **Başlık ve küçük resimde "4K" etiketi.** Önerisi kanal sahibinden geldi (18 Kasım). Uygulandı.
 - **5 dilde başlık ve açıklama çevirisi.** Uygulandı. Etkisi birkaç hafta sonra Analytics > Coğrafya'da ölçülecek.
 - **Çeşitli sahneler (21–28).** Önerisi kanal yöneticisinden geldi: Ocak'ta üç yağmur + soba videosu art arda geliyordu. Uygulandı.
+
+- **E2 – Deniz ve fırtına sahnelerine gerçek dalga sesi (metin editörü).** Uygulandı (19 Kasım): 09 ve 23'e ayrı dalga katmanı eklendi; kanal sahibi dinleyip "duyuluyor" dedi.
+- **Y4 – Uzun video başlık kalıbını çeşitlendirme (kanal yöneticisi).** Kanal sahibi 19 Kasım'da onayladı. 28 çay evinin başlığı tek kancalı yapıldı ("Spring Rain on the Cherry Blossoms 🌸 3 Hours in a Quiet Japanese Tea House with Irori Embers"). 13 Şubat'ta yayınlanacak; 27 Şubat'ta tıklama oranı öteki videolarla karşılaştırılacak. Eski başlık: "3 Hours Cherry Blossom Tea House 🌸🌧️ Spring Rain, Sakura & Irori Embers for Sleep & Study" (değişiklik 19 Kasım). Karşılaştırırken gösterimin nereden geldiğine de (arama / önerilen) bakılacak; yeni başlıkta "Sleep" yok. Sonuç zayıfsa yedek: "3 Hours Spring Rain on Cherry Blossoms 🌸 Quiet Japanese Tea House & Irori Embers for Sleep".
+- **Y5 – Yağmur oynatma listesi.** Kanal sahibi "Rain & Fireplace Sounds for Sleep" listesini zaten açmıştı. 22, 23, 24, 25 ve 28'in yayın günü talimatına "listeye ekle" notu kondu.
+- **Y6 – "Japan at Night 🏯" oynatma listesi (kanal yöneticisi).** Kanal sahibi 19 Kasım'da onayladı. Liste metni `kanal/japon_listesi.md` dosyasında. 5 Aralık'ta (Japon bahçesi) açılacak; 22, 26 ve 28'in yayın günlerine "listeye ekle" notu kondu.
 
 ## Reddedilen
 
