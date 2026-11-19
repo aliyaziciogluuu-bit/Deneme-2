@@ -33,3 +33,10 @@ Video 17 Kasım'da ofis öncesi dönemde üretildi ve 27 Kasım 18:00 için YouT
 ## Kalite kontrol Tur 3 (19 Kasım)
 - Karar: ONAY. Puan: gorsel 8, shorts 8, teknik 9, ses 8 (dinlenmedi). Gri kanat ve güve kusurları kapandı.
 - Puan kartı Tur 3: 80,5 → TESLİM eşiği geçildi. Yöneticiye gönderildi.
+
+## Yönetici (19 Kasım)
+- ÖNERİ: ONAY. Takvim aynı: 27 Kasım 18:00 uzun video, 28–29 Kasım 12:00 Shorts 7–8.
+- Şartlar: teslim klasörü yenilensin (yapıldı: teslim.py → teslim/04-yarasa, cmp doğrulandı; eski teslim/uzun/4-yarasa ve Shorts 7–8 kopyaları silindi) ve kanal sahibi en az 3:01–4:37 güvenlik bölümünü ve iki Shorts'u dinlesin.
+- Yayın sonrası: 0:30, 0:51, 1:20, 2:00, 2:57, 3:44 tutma değerleri; 0:51–2:57 sorusuz aralık izlenecek.
+- Not: yönetici sabit yorumun eksik olduğunu yazdı; sabit yorum kanal/etkilesim.md'de var ve yükleme listesine girdi.
+TESLİM EDİLDİ: teslim.py ile teslim/04-yarasa (19 Kasım); kanal sahibi eski planlıyı silip yenisini 27 Kasım 18:00'e yükleyecek.
