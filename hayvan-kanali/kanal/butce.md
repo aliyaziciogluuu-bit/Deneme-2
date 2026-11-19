@@ -13,4 +13,6 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 18 Kas | 05 baykuş + 2 Shorts | ~2,8 $ | ~2,5 $ | ~1,0 $ | ~6,3 $ | kredi bitti, kanal sahibi yükledi |
 | 19 Kas | 02 geko yeniden düzenleme | – | – | ~0,3 $ | ~0,3 $ | ofis düzeltmeleri |
 | 19 Kas | 05 baykuş yeniden sıralama | – | – | ~0,2 $ | ~0,2 $ | |
-| | **Kasım toplamı** | | | | **~29 $** | |
+| 19 Kas | 02–04 ofis düzeltmeleri | – | – | ~1,0 $ | ~1,0 $ | geko, kirpi, yarasa yeniden seslendirmeler |
+| 19 Kas | 06 karga | ~2,64 $ + ~0,90 $ (7 görsel yeniden) | | | ~3,5 $ | klipler sırada (~2,45 $) |
+| | **Kasım toplamı** | | | | **~34 $** | aylık bütçe 60 $ |
