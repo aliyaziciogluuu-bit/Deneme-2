@@ -7,3 +7,5 @@
 | 1 | Metin editörü | RET | (1) Shorts s1'in ilk cümlesi kanca değil, cevap en sonda. (2) Küçük resim alt yazısı başlığı tekrar ediyor. Öneriler: 005 uzun ve "neredeyse" iki kez geçiyor; s2'de omur sahnesinin görseli ilgisiz (harabe) |
 | 1 | Kalite kontrol | RET | Uzun video temiz (14/14, anatomi doğru, yazı yok). Shorts s1: sikke sahnesinde etiket sikkedeki baykuşun gözünü kapatıyor, üst yazı kulak püskülüne biniyor; s1 açılışı zayıf. s2: 270 etiketi başa yakın (isteğe bağlı) |
 | – | Patron | düzeltme | s1 yeniden kuruldu: açılış "Baykuş uğursuz değil…", ikinci cümle "binlerce kemirgen"; sikke ve kukumav kadrajları aşağı alındı (yeni aw/ay alanı); s2 omur sahnesi alaca baykuş, 270 etiketi baştan uzaklaştı; küçük resim alt yazısı "Köyün gizli işçisi"; uzun videonun vaat cümlesi kısaltıldı. s1 0/77, s2 1/72 (beyne→beynine, anlam aynı) |
+| 2 | Metin editörü | ONAY | s1 kancası güçlü, küçük resim alt yazısı yeni vaat taşıyor, ilk kanıt 0:37,8'de |
+| 2 | Kalite kontrol | ONAY | 14/14, 0/787; s1 0/77; s2 1/72 (anlam aynı); etiketler yüze binmiyor; ses aralıkta |

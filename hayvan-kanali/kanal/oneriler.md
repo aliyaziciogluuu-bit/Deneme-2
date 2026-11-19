@@ -25,6 +25,9 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **P3 – Gerçek hayvan sesi (patron, 18 Kasım):** Girişte ya da ilgili sahnede, Wikimedia Commons'taki kamu malı kayıtlardan hayvanın gerçek sesi (baykuş ötüşü, kirpi hırıltısı) kısa bir anlığına duyulur. Belgesel hissini ve inandırıcılığı artırır.
   - Değerlendirme: etki 2–3, emek 2, maliyet yok, risk: lisans atfı doğru yazılmalı.
 
+- **E1 – Bitiş ekranı ve "sıradaki komşu" ipucu (metin editörü, 19 Kasım):** Her videonun son 10–15 saniyesinde bir sonraki videoyu öneren bitiş ekranı kullanılır. Kapanışta "Sıradaki komşu: …" diye bir merak cümlesi söylenir. İzleyici kanalda kalır, yeni videonun ilk izlenmeleri artar.
+  - Değerlendirme: yönetici puanlayacak.
+
 ## Onaylanan
 
 ## Reddedilen
