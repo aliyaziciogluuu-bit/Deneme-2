@@ -35,3 +35,6 @@
 - Karar: ONAY. Puan: doğruluk 9, güvenlik 8 (Tur 1: 7, 6). Bütün Tur 1 maddeleri düzeldi.
 - Patron uyguladı (son küçük notlar): "en bilinen" → "iki tanıdık tür"; kuş gribi cümlesine "İngiltere'deki dernek"; çocuk cümlesine "bize göre"; küçük resim C alt yazısı "Eldivenle kartona koy".
 - İstasyon 3 (bilgi onayı) GEÇTİ → görsel/klip istemleri yazılabilir; ücretli üretim kanal sahibinin Pazartesi kararına bağlı.
+
+## Yapımcı istemleri (20 Kasım)
+- gorseller.json: 25 görsel, 55 aday (~3,30 $); klipler.json: 7 klip (~2,45 $). Toplam ~5,75 $ + seslendirme ~0,5 $. Ücretli üretim kanal sahibinin Pazartesi (23 Kasım) kararına bağlı.

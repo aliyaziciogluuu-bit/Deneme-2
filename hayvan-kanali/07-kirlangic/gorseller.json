@@ -1,0 +1,130 @@
+{
+ "not": "Türler: kır kırlangıcı (Hirundo rustica): ışıltılı lacivert sırt, YALNIZ alın ve gırtlakta kiremit kırmızısı tüy (yüzün tamamı kırmızı olmamalı), göğüste koyu mavi bant, krem karın, iki çok ince uzun kuyruk teli; kuyruk telleri dahil 17-19 cm, insan elinden küçük. Ev kırlangıcı (Delichon urbicum): lacivert-siyah sırt, bembeyaz karın ve sağrı, kısa çatal kuyruk, telsiz; yaklaşık 13-15 cm, bacakları beyaz tüylü. Tüm kuşlarda iki bacak, iki kanat, iki aynı biçimli kanat, tek gaga. Yuvalar: kır kırlangıcınınki üstü açık kâse biçimli çamur yuva (kiriş üstü, ahır içi); ev kırlangıcınınki saçak altında yarım kubbe, küçük yuvarlak girişli kapalı yuva (karıştırılırsa aday kullanılmaz). Halkalı kuş: bacakta tek, düz, gümüş halka; yazı, rakam, harita yok. Gilbert White genel bir figür, gerçek kişiye benzemez, yüzü görünmez, kâğıt boş. Kedi gerçek boyunda, kırlangıç kedi gövdesinden çok küçük. İnek omuz yüksekliğinde insan, kırlangıç eliyle kıyaslandığında avuçtan küçük. Yavru düşme sahnesinde kişinin yüzü gözlük ve maskeyle görünmez; yavruya sarılmaz, eldivenli el dokunmaz. Kartonda yazı/etiket olmamalı; havalandırma delikleri yuvarlak ve görünür; havlu içinde. Ev serçesi (erkek): gri tepe, kestane ense, siyah önlük. Yazı, tabela, logo çıkan aday kullanılmaz; yama yapılmaz. Kapakta kuş sağ yarıda, sol yarı boş. kirlangic_ucus, kirlangic_yuva, kirlangic_yavru adları shorts.json tarafından kullanılıyor.",
+ "gorseller": [
+  {
+   "ad": "nisan_sacak",
+   "istem": "April morning at an old stone village house in Turkey: under the wide wooden roof eave sits last year's old weathered mud nest, an open cup-shaped nest of mud pellets mixed with straw, open at the top like a small bowl about 12 cm across, plastered on a wooden rafter under the eave; one a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet has just landed on the rim of that nest, wings folded, looking around. The house wall, eave beams and bright spring sky show the real scale: the nest is as big as a small bowl and the swallow is smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "kirlangic_ucus",
+   "istem": "A single a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet flies low over a green spring meadow in side view, both wings spread symmetrically in the same shape, the long forked tail streamers clearly visible, blue sky, a few wildflowers. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "halkali_kus",
+   "istem": "Close-up of a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet perched on a thin wire, three-quarter view, its rust-red throat and blue back visible; around its left leg is one tiny plain silver metal ring band, like a small bracelet, with no engraving, no letters, no numbers. Soft blurred meadow background, no map, no text. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Wings folded, tiny legs, one ring only.",
+   "aday": 3
+  },
+  {
+   "ad": "afrika_kis",
+   "istem": "Southern African savanna at golden sunset in winter: five a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet rest on the bare branches of a flat-topped acacia tree, small dark birds with long tail streamers, far apart from each other, each separate; the tree is huge compared to them, warm dry grassland behind. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "goc_surusu",
+   "istem": "Wide view over the deep blue Mediterranean Sea in autumn: a loose flock of about twelve a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet migrates in the same direction over the water, each bird tiny and clearly separate, side views with long forked tails, a far hazy coastline with mountains on the horizon, no ships, no islands with buildings. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 3
+  },
+  {
+   "ad": "gilbert_white",
+   "istem": "An 18th-century English country parson and nature writer, a generic imaginary figure not resembling any real person, seen from behind and slightly from the side at a wooden writing desk beside a small-paned window, powdered wig and dark coat, holding a quill over a blank sheet, old books and a small stack of paper, soft candle and morning light; outside the window a few tiny swallows fly over a village pond. No face visible, no readable writing, the paper is blank.",
+   "aday": 2
+  },
+  {
+   "ad": "donus_akdeniz",
+   "istem": "Early spring on the Aegean coast of Turkey: white village houses, olive trees and a blue bay; about eight a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet arrive and fly low over the olive grove, each small and separate, one lands on a telephone wire, soft morning light. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "camur_birikinti",
+   "istem": "A dirt track in a Turkish village after rain: a a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet stands at the edge of a muddy puddle and holds one small ball of wet mud in its tiny beak, wings folded against its body, feet tiny on the mud, a few straw pieces nearby; stones and grass at the puddle's edge. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. The puddle is about as wide as a dinner plate.",
+   "aday": 2
+  },
+  {
+   "ad": "yuva_yapimi",
+   "istem": "Inside an old stone barn with wooden rafters: a half-built an open cup-shaped nest of mud pellets mixed with straw, open at the top like a small bowl about 12 cm across, plastered on a wooden rafter inside a stone barn; a a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet clings to the rim of the half-built nest and presses a small mud pellet from its beak onto the edge, wings folded, tail streamers pointing down, wet mud pellets visible on the nest edge, warm dusty light from a barn door. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand.",
+   "aday": 2
+  },
+  {
+   "ad": "kirlangic_yuva",
+   "istem": "Inside a stone barn, warm light from the door: a finished an open cup-shaped nest of mud pellets mixed with straw, open at the top like a small bowl about 12 cm across, plastered on a wooden rafter inside a stone barn; a a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet perches on the rim of the nest with wings folded, looking calmly to the side. The nest sits on a dark wooden rafter. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Nest is open at the top, bowl-shaped.",
+   "aday": 3
+  },
+  {
+   "ad": "eski_yuva",
+   "istem": "A weathered old an open cup-shaped nest of mud pellets mixed with straw, open at the top like a small bowl about 12 cm across, plastered on a wooden rafter inside a stone barn, dusty and darker with age, with a slightly cracked rim, plastered on a very old wooden rafter in a barn, soft light, empty with no bird, cobwebs and straw dust, calm mood.",
+   "aday": 1
+  },
+  {
+   "ad": "kulucka",
+   "istem": "Close view of an open mud cup nest on a barn rafter: a a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet sits low and still in the nest, incubating, only its head, rust-red throat, back and the thin tail streamers sticking up over the rim visible, eyes dark. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Wings folded, no extra birds.",
+   "aday": 2
+  },
+  {
+   "ad": "kirlangic_yavru",
+   "istem": "Inside a barn: an open cup-shaped mud nest on a rafter holds exactly four barn swallow nestlings with short stubby pinkish-brown bodies, tiny first feathers, short beaks wide open showing pale yellow gape edges, pointing up; an adult a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet hovers at the nest edge holding a small fly in its beak to feed them. Nestlings are tiny, the nest bowl is about 12 cm across. No eggs, no extra birds. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 3
+  },
+  {
+   "ad": "inek_tavuk",
+   "istem": "Interior of an old Turkish village barn in warm light: a brown cow standing in her stall and a few brown hens pecking on the straw floor, realistic sizes (the cow is as tall as a person's shoulder); high up on the dark wooden rafters two open cup-shaped mud nests with a a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet flying near them, tiny against the roof beams. No people, no signs. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "yuva_alti_pislik",
+   "istem": "The wall of a village house under the roof eave: a closed half-dome mud nest plastered against the wall right under the roof eave, with only a small round entrance hole at the top, about 15 cm wide with a house martin (Delichon urbicum): small compact songbird, glossy blue-black back and head, pure white belly and a clear white rump patch, short shallowly forked tail without long streamers, white underparts, tiny white-feathered legs, tiny black beak, dark eyes, short pointed wings clinging at its entrance hole; below the nest on the whitewashed wall and on the stone terrace floor are soft white and grey dropping streaks, a plain terrace with a small chair, no text. Scale: the house martin is only about 13-15 cm long, smaller than a human hand and clearly smaller than the barn swallow. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "eldivenli_temizlik",
+   "istem": "A person in yellow rubber gloves and a work apron, seen from behind and from the side without a face, kneels on a stone terrace and scrubs the floor with a brush and a bucket; high above, about two and a half metres up under the roof eave, an untouched mud nest of a house martin (Delichon urbicum): small compact songbird, glossy blue-black back and head, pure white belly and a clear white rump patch, short shallowly forked tail without long streamers, white underparts, tiny white-feathered legs, tiny black beak, dark eyes, short pointed wings remains in place with the bird looking down. The person's hands and the nest show the real scale: the nest is no bigger than a person's two hands together. Scale: the house martin is only about 13-15 cm long, smaller than a human hand and clearly smaller than the barn swallow.",
+   "aday": 2
+  },
+  {
+   "ad": "bocek_avi",
+   "istem": "A a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet catches a fly in mid-air over a summer wheat field, side view, beak open, wings spread in the same shape on both sides, long forked tail streamers, tiny flies and gnats in the golden air, soft sky. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "tur_yan_yana",
+   "istem": "On the same thin wire, side by side, two birds seen in side view: on the left a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet; on the right a house martin (Delichon urbicum): small compact songbird, glossy blue-black back and head, pure white belly and a clear white rump patch, short shallowly forked tail without long streamers, white underparts, tiny white-feathered legs, tiny black beak, dark eyes, short pointed wings. The barn swallow is visibly longer because of its tail streamers; the house martin is smaller and rounder with a white belly. Both about the same distance from the viewer, soft blurred green background. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Scale: the house martin is only about 13-15 cm long, smaller than a human hand and clearly smaller than the barn swallow. Wings folded, two legs each.",
+   "aday": 3
+  },
+  {
+   "ad": "ev_yuvasi",
+   "istem": "Close view under a roof eave of a whitewashed village house: a closed half-dome mud nest plastered against the wall right under the roof eave, with only a small round entrance hole at the top, about 15 cm wide; one a house martin (Delichon urbicum): small compact songbird, glossy blue-black back and head, pure white belly and a clear white rump patch, short shallowly forked tail without long streamers, white underparts, tiny white-feathered legs, tiny black beak, dark eyes, short pointed wings flies up to the entrance hole and clings to the mud rim with its tiny feet, wings fluttering, white rump patch showing. No text. Scale: the house martin is only about 13-15 cm long, smaller than a human hand and clearly smaller than the barn swallow. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "serce_yuva",
+   "istem": "Under the roof eave of a village house: a closed half-dome mud nest plastered against the wall right under the roof eave, with only a small round entrance hole at the top, about 15 cm wide; on its rim a male house sparrow (Passer domesticus): grey crown, chestnut-brown nape, black bib, brown streaked wings, stocky short conical beak, tries to push into the entrance hole, while a house martin (Delichon urbicum): small compact songbird, glossy blue-black back and head, pure white belly and a clear white rump patch, short shallowly forked tail without long streamers, white underparts, tiny white-feathered legs, tiny black beak, dark eyes, short pointed wings perches on the wall beside it watching, both birds about the same small size, each with two legs. Scale: the house martin is only about 13-15 cm long, smaller than a human hand and clearly smaller than the barn swallow. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "kedi_kirlangic",
+   "istem": "The dim floor of an open stone barn: a real-size tabby house cat (about 25 cm tall at the shoulder, four legs, two eyes, normal cat proportions) sits on the ground looking upward, and a a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet swoops low and close above its head with wings spread symmetrically; in the background an open cup nest on a rafter. The swallow is much smaller than the cat's body. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand. Realistic bird anatomy, both wings the same shape, no extra wings or legs.",
+   "aday": 2
+  },
+  {
+   "ad": "dusen_yavru",
+   "istem": "A stone courtyard: a young barn swallow fledgling sits on the ground, with a short tail, duller blue back, cream-buff chest, pale rust throat and a small pale yellow corner at its short beak, looking small and vulnerable; a person seen from behind and above, crouching nearby, wears yellow rubber gloves, protective goggles and a plain surgical face mask, so no face is visible, one gloved hand held out open near the bird without touching it. The fledgling is about 12 cm long, smaller than the gloved palm.",
+   "aday": 2
+  },
+  {
+   "ad": "karton_havlu",
+   "istem": "Close view of a sturdy brown cardboard box with several round ventilation holes punched in its sides, standing on a table, open at the top; inside lies a soft folded towel and a small young barn swallow fledgling with a short tail rests on it; a gloved hand holds the box edge. The box is about the size of a shoebox, the fledgling is about 12 cm long. No text on the box, no labels.",
+   "aday": 2
+  },
+  {
+   "ad": "kapanis",
+   "istem": "Warm golden dusk at an old village house: a a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet perches on the rim of an open cup mud nest under the wooden roof eave, wings folded, looking toward the viewer, soft light, hopeful calm mood, tiled roof and a few distant swallows as tiny dark shapes in the sky. Scale: the barn swallow is only about 17-19 cm long including its tail streamers, smaller than a human hand.",
+   "aday": 2
+  },
+  {
+   "ad": "kapak",
+   "istem": "Dramatic close portrait of a barn swallow (Hirundo rustica): small slender songbird, glossy steel-blue back, rust-red FEATHERS on the forehead and throat only (small patch, the rest of the head is blue-black), a dark blue band across the upper chest, cream-buff underparts, long forked tail with two very thin long outer tail streamers, tiny short black beak, dark brown eyes, long pointed wings, two tiny legs with small feet perched on a thin wire, turned in three-quarter view toward the camera with its rust-red throat and glossy blue back clearly visible, one tiny plain silver ring band around its leg without any engraving; the bird sits in the RIGHT half of the frame, warm rim light on a deep teal blurred background, large empty dark space on the left side.",
+   "aday": 3
+  }
+ ]
+}
