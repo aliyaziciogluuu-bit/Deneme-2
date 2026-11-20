@@ -213,7 +213,7 @@
      "yazi": "Türkiye'deki yaz göçmeni beş kırlangıç türü bir araştırmada incelenmiş: kum, kaya, kır, kızıl ve ev kırlangıcı."
     },
     {
-     "yazi": "Binalara yuva yapan en bilinen iki tür kır ve ev kırlangıcı."
+     "yazi": "Binalara yuva yapan iki tanıdık tür kır ve ev kırlangıcı."
     },
     {
      "yazi": "Kır kırlangıcının sırtı koyu mavi, kuyruğu uzun ve çatallı; alnı ve boğazı pas rengi."
@@ -262,7 +262,7 @@
      "yazi": "Yere inmiş ve havalanamayan yavruyu bir uzmana göstermeyi öneriyor."
     },
     {
-     "yazi": "Yavruya dokunmadan önce eldiven, gözlük ve maske tak; dernek kuş gribi nedeniyle bunu öneriyor."
+     "yazi": "Yavruya dokunmadan önce eldiven, gözlük ve maske tak; İngiltere'deki dernek bunu kuş gribi nedeniyle öneriyor."
     },
     {
      "yazi": "Sonra yavruyu havalandırma delikleri olan sağlam bir kartona koy; içine havlu ya da gazete ser."
@@ -279,7 +279,7 @@
      "yazi": "İşin bitince ellerini iyice yıka; yüzünden ve yiyeceklerden uzak tut."
     },
     {
-     "yazi": "Evcil hayvanları kuştan uzak tut; çocukların da dokunmaması daha iyi."
+     "yazi": "Evcil hayvanları kuştan uzak tut; bize göre çocukların da dokunmaması daha iyi."
     },
     {
      "yazi": "Hasta ya da ölü bir kuşa dokunmamak daha iyi; dokunmak zorunda kalırsan ellerini hemen iyice yıka."
@@ -344,7 +344,7 @@
     "YAVRU",
     "DÜŞTÜ"
    ],
-   "kucuk": "Kartona koy, uzmana göster",
+   "kucuk": "Eldivenle kartona koy",
    "konum": "sol",
    "genislik": 500,
    "gorsel": "kapak",

@@ -30,3 +30,8 @@
 
 ## Senarist Tur 3 (20 Kasım)
 - Bilgi kontrolü 16 madde + editör düzeni uygulandı; 64 cümle (~5:38), metin_kontrol 0/0; küçük resim B "AFRİKA'DA BULUNDU"; yavru güvenliği doğru sırada iki bölüm; iki kaynaksız güvenlik önerisi işaretli. Bilgi kontrolü Tur 2'ye gönderildi.
+
+## Bilgi kontrolü Tur 2 (20 Kasım)
+- Karar: ONAY. Puan: doğruluk 9, güvenlik 8 (Tur 1: 7, 6). Bütün Tur 1 maddeleri düzeldi.
+- Patron uyguladı (son küçük notlar): "en bilinen" → "iki tanıdık tür"; kuş gribi cümlesine "İngiltere'deki dernek"; çocuk cümlesine "bize göre"; küçük resim C alt yazısı "Eldivenle kartona koy".
+- İstasyon 3 (bilgi onayı) GEÇTİ → görsel/klip istemleri yazılabilir; ücretli üretim kanal sahibinin Pazartesi kararına bağlı.
