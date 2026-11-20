@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.10">
+<meta name="surum" content="2026-11-20.11">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -1363,6 +1363,8 @@
     <div class="foot">
       <button type="button" class="small" id="btnExport">Yedek al</button>
       <button type="button" class="small" id="btnImport">Yedek yükle</button>
+      <button type="button" class="small" id="btnSnaps">Otomatik kopyalar</button>
+      <button type="button" class="small" id="btnBkPass">Yedek parolası</button>
       <button type="button" class="small" id="btnCsv">CSV indir</button>
       <input type="file" id="fileImport" accept="application/json,.json,text/plain,.txt" hidden>
       <span class="hint" id="backupInfo"></span>
@@ -1438,6 +1440,17 @@
       <button type="button" id="wizBack">Geri</button>
       <button type="button" class="primary" id="wizNext">İleri</button>
     </div>
+  </div>
+</div>
+
+<div class="wiz" id="snaps" role="dialog" aria-modal="true" aria-labelledby="snapsTitle" hidden>
+  <div class="wiz-card">
+    <h2 id="snapsTitle">Otomatik kopyalar</h2>
+    <p class="hint">Uygulama her gün kayıtlarınızın bir kopyasını bu telefonda saklar (son 7 gün; yedek yüklemeden ve geri yüklemeden
+      önceki durum da saklanır). Telefon kaybolursa bunlar da gider; asıl güvence yedeği telefonun dışına göndermektir.</p>
+    <ul class="recent" id="snapList"></ul>
+    <div class="empty" id="snapEmpty">Henüz kopya yok.</div>
+    <div class="tools"><button type="button" id="snapsClose">Kapat</button></div>
   </div>
 </div>
 
@@ -1545,6 +1558,7 @@
     snapFx();
     try {
       localStorage.setItem(STORE_KEY, JSON.stringify(state));
+      snapSchedule();
     } catch (e) {
       if (!saveWarned) {
         saveWarned = true;
@@ -3341,7 +3355,20 @@
   }
   // Sayı soran küçük pencere. onOk hata metni döndürürse pencere açık kalır.
   var dlgHandler = null;
+  // Yazı (ya da parola) soran pencere: onOk ham metni alır
+  var dlgText = false;
+  function askText(title, text, lbl, secret, onOk) {
+    askNumber(title, text, lbl, onOk);
+    dlgText = true;
+    $('dlgInput').type = secret ? 'password' : 'text';
+    $('dlgInput').removeAttribute('inputmode');
+    $('dlgInput').setAttribute('autocomplete', secret ? 'new-password' : 'off');
+  }
   function askNumber(title, text, lbl, onOk) {
+    dlgText = false;
+    $('dlgInput').type = 'text';
+    $('dlgInput').setAttribute('inputmode', 'decimal');
+    $('dlgInput').setAttribute('autocomplete', 'off');
     var d = $('dlg');
     if (!d.showModal) {   // <dialog> desteklemeyen eski tarayıcı
       var raw = prompt(title + '\n' + text);
@@ -4425,6 +4452,159 @@
     if (!(Date.now() - last < STALE_MS)) updateRates(true);
   }
 
+  // ---------- Şifreli yedek ----------
+  // Parola cihazda saklanır ve her yedek onunla şifrelenir (AES-GCM; anahtar PBKDF2-SHA256, 600.000 tur).
+  // Yedek dosyası WhatsApp, Drive ya da e-postada dursa bile parolasız açılamaz. Parola unutulursa dosya açılamaz.
+  var KDF_ROUNDS = 600000, ENC_FORMAT = 'doviz-kasasi-sifreli';
+  function b64(buf) {
+    var bytes = new Uint8Array(buf), out = '', i;
+    for (i = 0; i < bytes.length; i += 0x8000) out += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    return btoa(out);
+  }
+  function unb64(str) {
+    var bin = atob(str), bytes = new Uint8Array(bin.length), i;
+    for (i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return bytes;
+  }
+  function cryptoOk() { return !!(window.crypto && crypto.subtle && window.TextEncoder); }
+  function deriveKey(pass, salt, rounds) {
+    return crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']).then(function (base) {
+      return crypto.subtle.deriveKey({ name: 'PBKDF2', salt: salt, iterations: rounds, hash: 'SHA-256' }, base,
+                                     { name: 'AES-GCM', length: 256 }, false, ['encrypt', 'decrypt']);
+    });
+  }
+  function encryptText(text, pass) {
+    var salt = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12));
+    return deriveKey(pass, salt, KDF_ROUNDS).then(function (key) {
+      return crypto.subtle.encrypt({ name: 'AES-GCM', iv: iv }, key, new TextEncoder().encode(text));
+    }).then(function (ct) {
+      return JSON.stringify({ format: ENC_FORMAT, v: 1, kdf: 'PBKDF2-SHA256', rounds: KDF_ROUNDS, salt: b64(salt), iv: b64(iv),
+                              data: b64(ct), note: 'Döviz Kasası şifreli yedeği. Açmak için uygulamada “Yedek yükle” ve parolanız gerekir.' });
+    });
+  }
+  function decryptText(env, pass) {
+    return deriveKey(pass, unb64(env.salt), Number(env.rounds) || KDF_ROUNDS).then(function (key) {
+      return crypto.subtle.decrypt({ name: 'AES-GCM', iv: unb64(env.iv) }, key, unb64(env.data));
+    }).then(function (pt) { return new TextDecoder().decode(pt); });
+  }
+  function setBackupPass() {
+    if (!cryptoOk()) return alert('Bu tarayıcı yedek şifrelemeyi desteklemiyor.');
+    askText(ui.bkPass ? 'Yedek parolasını değiştir' : 'Yedek parolası',
+      (ui.bkPass ? 'Şu an yedekleriniz şifreleniyor. Yeni parolayı yazın; boş bırakıp kaydederseniz şifreleme kapanır. '
+                 : 'Bundan sonraki yedekler bu parolayla şifrelenir; dosya parolasız açılamaz. ') +
+      'Parolayı bir kâğıda yazıp saklayın: unutursanız yedek açılamaz, kurtarmanın yolu yoktur.',
+      'Parola (en az 6 karakter)', true,
+      function (v) {
+        if (!v) {
+          if (ui.bkPass && !confirm('Yedek şifrelemesi kapatılsın mı? Yedekler yeniden açık metin olur.')) return null;
+          ui.bkPass = null; saveUI(); renderBackup(); toast('Yedek şifrelemesi kapalı.');
+          return null;
+        }
+        if (v.length < 6) return 'Parola en az 6 karakter olmalı.';
+        ui.bkPass = v; saveUI(); renderBackup();
+        toast('Yedekler artık şifreli. Parolanızı bir yere yazın.');
+        return null;
+      });
+  }
+
+  // ---------- Telefon içi otomatik kopyalar (IndexedDB) ----------
+  // Her gün için bir kopya (gün içinde güncellenir; son 7 gün) ve yedek yükleme / geri yükleme öncesi durum (son 3).
+  var SNAP_DB = 'doviz-kasasi-kopya', snapTimer = null;
+  function snapDb() {
+    return new Promise(function (ok, fail) {
+      if (!window.indexedDB) return fail(new Error('IndexedDB yok'));
+      var r = indexedDB.open(SNAP_DB, 1);
+      r.onupgradeneeded = function () { r.result.createObjectStore('snap', { keyPath: 'd' }); };
+      r.onsuccess = function () { ok(r.result); };
+      r.onerror = function () { fail(r.error); };
+    });
+  }
+  function snapAll() {
+    return snapDb().then(function (db) {
+      return new Promise(function (ok, fail) {
+        var q = db.transaction('snap').objectStore('snap').getAll();
+        q.onsuccess = function () { ok(q.result || []); };
+        q.onerror = function () { fail(q.error); };
+      });
+    });
+  }
+  function snapPut(rec) {
+    return snapDb().then(function (db) {
+      return new Promise(function (ok, fail) {
+        var t = db.transaction('snap', 'readwrite'), st = t.objectStore('snap');
+        st.put(rec);
+        t.oncomplete = function () { ok(); };
+        t.onerror = function () { fail(t.error); };
+      });
+    }).then(snapPrune);
+  }
+  function snapPrune() {
+    return snapAll().then(function (all) {
+      var days = all.filter(function (r) { return r.kind === 'gun'; }).sort(function (a, b) { return a.d < b.d ? 1 : -1; });
+      var pre = all.filter(function (r) { return r.kind !== 'gun'; }).sort(function (a, b) { return a.at < b.at ? 1 : -1; });
+      var drop = days.slice(7).concat(pre.slice(3));
+      if (!drop.length) return;
+      return snapDb().then(function (db) {
+        var t = db.transaction('snap', 'readwrite'), st = t.objectStore('snap');
+        drop.forEach(function (r) { st.delete(r.d); });
+      });
+    });
+  }
+  function snapSchedule() {
+    clearTimeout(snapTimer);
+    snapTimer = setTimeout(function () {
+      if (loadFailed) return;
+      snapPut({ d: today(), kind: 'gun', at: new Date().toISOString(), n: state.tx.length, data: JSON.stringify(state) })
+        .catch(function () { /* kopya alınamadı: uygulama çalışmaya devam eder */ });
+    }, 1500);
+  }
+  function snapBefore(why) {
+    return snapPut({ d: 'once-' + Date.now(), kind: 'once', why: why, at: new Date().toISOString(), n: state.tx.length,
+                     data: JSON.stringify(state) }).catch(function () {});
+  }
+  function openSnaps() {
+    $('snaps').hidden = false;
+    var ul = $('snapList');
+    ul.textContent = '';
+    snapAll().then(function (all) {
+      all.sort(function (a, b) { return a.at < b.at ? 1 : -1; }).forEach(function (r) {
+        var when = new Date(r.at), go = el('button', { type: 'button', class: 'small', text: 'Geri yükle' });
+        go.addEventListener('click', function () { restoreSnap(r); });
+        ul.appendChild(el('li', {}, [
+          el('div', { class: 'l' }, [
+            el('b', { text: r.kind === 'gun' ? fmtDate(r.d) + ' günü' : (r.why || 'Önceki durum') }),
+            el('small', { text: when.toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) +
+                                ' · ' + r.n + ' işlem' })
+          ]),
+          el('div', { class: 'r' }, [go])
+        ]));
+      });
+      $('snapEmpty').hidden = ul.children.length > 0;
+    }).catch(function () { $('snapEmpty').hidden = false; $('snapEmpty').textContent = 'Bu tarayıcıda kopya tutulamıyor.'; });
+  }
+  function restoreSnap(r) {
+    var data;
+    try { data = JSON.parse(r.data); } catch (e) { return alert('Kopya okunamadı.'); }
+    if (!confirm('Kayıtlar ' + (r.kind === 'gun' ? fmtDate(r.d) + ' günündeki' : 'bu') + ' duruma döndürülecek (' + r.n +
+                 ' işlem). Şu anki durum ayrıca saklanır. Devam edilsin mi?')) return;
+    var cur = JSON.stringify(state), backup = state;
+    try {
+      applyData(data);
+      var res = compute(state.tx);
+      if (res.error) throw new Error(res.error);
+    } catch (e) { state = backup; return alert('Kopya geri yüklenemedi: ' + e.message); }
+    var incoming = state;
+    state = backup;
+    snapBefore('Geri yükleme öncesi').then(function () {
+      state = incoming;
+      ensureTable(); save(); resetForm(); kSync(); render();
+      $('snaps').hidden = true;
+      toast('Kopya geri yüklendi.', snapshot(), function () {
+        applyData(JSON.parse(cur)); ensureTable(); save(); render();
+      });
+    });
+  }
+
   // ---------- Dışa / içe aktarma ----------
   function download(name, text, mime) {
     var a = el('a', { href: URL.createObjectURL(new Blob([text], { type: mime })), download: name });
@@ -4451,7 +4631,14 @@
   }
   // Yedeği telefonda paylaşım menüsüyle (WhatsApp, e-posta, Drive…) gönderir; desteklenmiyorsa dosya olarak indirir
   function backupNow() {
-    var base = 'doviz-kasasi-yedek-' + today(), text = JSON.stringify(state, null, 2);
+    if (ui.bkPass && cryptoOk()) {
+      toast('Yedek şifreleniyor…');
+      return encryptText(JSON.stringify(state), ui.bkPass).then(function (enc) { sendBackup('doviz-kasasi-yedek-sifreli-' + today(), enc); },
+        function () { alert('Yedek şifrelenemedi.'); });
+    }
+    sendBackup('doviz-kasasi-yedek-' + today(), JSON.stringify(state, null, 2));
+  }
+  function sendBackup(base, text) {
     var done = function () { ui.backupAt = new Date().toISOString(); ui.backupTx = state.tx.length; ui.snooze = null; saveUI(); renderBackup(); };
     var file = null;
     try {
@@ -4459,7 +4646,7 @@
         .forEach(function (f) { if (!file && navigator.canShare && navigator.canShare({ files: [f] })) file = f; });
     } catch (e) { /* dosya paylaşımı yok */ }
     if (file && navigator.share) {
-      navigator.share({ files: [file], title: 'Yazıcıoğlu Çilek Döviz yedeği' }).then(done, function (err) {
+      navigator.share({ files: [file], title: $('bizName').textContent + ' yedeği' }).then(done, function (err) {
         if (err && err.name === 'AbortError') return;   // kullanıcı vazgeçti
         download(base + '.json', text, 'application/json');
         // İndirmenin gerçekten olduğu doğrulanamıyor (özellikle ana ekran uygulamasında): kullanıcıya sor
@@ -4481,9 +4668,10 @@
     $('backupText').textContent = days === null
       ? 'Kayıtlarınız yalnızca bu cihazda duruyor ve henüz yedeklenmedi.'
       : 'Son yedekten beri ' + since + ' işlem girildi (son yedek: ' + (days ? days + ' gün önce' : 'bugün') + ').';
-    $('backupInfo').textContent = last
+    $('btnBkPass').textContent = ui.bkPass ? 'Yedek parolası ✓' : 'Yedek parolası';
+    $('backupInfo').textContent = (ui.bkPass ? 'Yedekler şifreli. ' : '') + (last
       ? 'Son yedek: ' + new Date(last).toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })
-      : 'Henüz yedek alınmadı.';
+      : 'Henüz yedek alınmadı.');
   }
 
   // ---------- Sekmeler ve tercihler ----------
@@ -4524,6 +4712,7 @@
       ui.big = !!u.big;
       ui.backupAt = typeof u.backupAt === 'string' ? u.backupAt : null;
       ui.backupTx = typeof u.backupTx === 'number' ? u.backupTx : null;
+      ui.bkPass = typeof u.bkPass === 'string' && u.bkPass.length >= 6 ? u.bkPass : null;
       ui.snooze = typeof u.snooze === 'string' ? u.snooze : null;
       if (u.fold && typeof u.fold === 'object') Object.keys(u.fold).forEach(function (k) { ui.fold[k] = !!u.fold[k]; });
       // Kuyum hesabı listesi: uygulama arka planda kapanırsa yarım kalan hesap kaybolmasın
@@ -4570,9 +4759,30 @@
   function importJson(file) {
     var reader = new FileReader();
     reader.onload = function () {
+      var parsed;
+      try { parsed = JSON.parse(reader.result); } catch (e) { return alert('Yedek yüklenemedi: dosya okunamadı.'); }
+      if (parsed && parsed.format === ENC_FORMAT) {
+        if (!cryptoOk()) return alert('Bu tarayıcı şifreli yedeği açamıyor.');
+        askText('Şifreli yedek', 'Bu yedek şifreli. Yedeği alırken belirlediğiniz parolayı yazın.', 'Yedek parolası', true, function (pass) {
+          if (!pass) return 'Parolayı yazın.';
+          return decryptText(parsed, pass).then(function (text) {
+            var obj;
+            try { obj = JSON.parse(text); } catch (e) { return 'Yedek içeriği okunamadı.'; }
+            setTimeout(function () { importData(obj); }, 0);
+            return null;
+          }, function () { return 'Parola yanlış ya da dosya bozuk.'; });
+        });
+        return;
+      }
+      importData(parsed);
+    };
+    reader.readAsText(file);
+  }
+  function importData(obj) {
+    (function () {
       var backup = state;
       try {
-        applyData(JSON.parse(reader.result));
+        applyData(obj);
         var res = compute(state.tx);
         if (res.error) throw new Error(res.error);
       } catch (e) {
@@ -4584,11 +4794,13 @@
       state = backup;
       if (backup.tx.length && !confirm('Mevcut ' + backup.tx.length + ' işlem, yedekteki ' +
           incoming.tx.length + ' işlemle değiştirilecek. Devam edilsin mi?')) return;
-      state = incoming;
-      ensureTable();
-      save(); resetForm(); kSync(); render();
-    };
-    reader.readAsText(file);
+      snapBefore('Yedek yükleme öncesi').then(function () {
+        state = incoming;
+        ensureTable();
+        save(); resetForm(); kSync(); render();
+        toast('Yedek yüklendi. Önceki durumunuz “Otomatik kopyalar”da saklandı.');
+      });
+    })();
   }
 
   // ---------- Gizlilik ve ana ekrana ekleme ----------
@@ -4740,7 +4952,12 @@
     $('dlgCancel').addEventListener('click', function () { $('dlg').close(); });
     $('dlgForm').addEventListener('submit', function (e) {
       e.preventDefault();
-      var err = dlgHandler ? dlgHandler(parseNum($('dlgInput').value)) : null;
+      var raw = $('dlgInput').value, err = dlgHandler ? dlgHandler(dlgText ? raw : parseNum(raw)) : null;
+      if (err && typeof err.then === 'function') {   // şifre çözme gibi zaman alan işler
+        $('dlgMsg').textContent = 'Lütfen bekleyin…';
+        err.then(function (e2) { if (e2) $('dlgMsg').textContent = e2; else $('dlg').close(); });
+        return;
+      }
       if (err) $('dlgMsg').textContent = err; else $('dlg').close();
     });
     $('toastUndo').addEventListener('click', undoLast);
@@ -4793,6 +5010,10 @@
     $('btnCsv').addEventListener('click', exportCsv);
     $('btnExport').addEventListener('click', backupNow);
     $('btnImport').addEventListener('click', function () { $('fileImport').click(); });
+    $('btnSnaps').addEventListener('click', openSnaps);
+    $('snapsClose').addEventListener('click', function () { $('snaps').hidden = true; });
+    $('btnBkPass').addEventListener('click', setBackupPass);
+    snapSchedule();   // açılışta günün kopyası
     $('fileImport').addEventListener('change', function () {
       if (this.files[0]) importJson(this.files[0]);
       this.value = '';

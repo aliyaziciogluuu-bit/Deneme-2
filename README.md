@@ -53,6 +53,10 @@ Güvenilirlik:
 - **Hesap dökümü:** müşteriye verilen döküm “BELGE DEĞİLDİR” ibaresiyle; resmî fiş ya da fatura yerine geçmez.
 - **Kayıp kaydı** (Kasa → bakiye satırı → Kayıp): sahte çıkan para, ayarı düşük çıkan mal; maliyeti kârdan düşer.
 - **Yedek:** son yedekten beri işlem varsa her gün (20 işlem birikirse hemen) hatırlatır; gün kapatılınca yedek göndermeyi önerir.
+- **Şifreli yedek** (Rapor → İşlemler → Yedek parolası): parola belirlenirse yedekler şifrelenir (AES-GCM, PBKDF2 600.000 tur);
+  dosya parolasız açılamaz. Parola yalnızca bu telefonda durur; unutulursa yedek açılamaz.
+- **Otomatik kopyalar** (Rapor → İşlemler): telefon içinde her günün bir kopyası (son 7 gün) ve yedek yükleme / geri yükleme
+  öncesi durum (son 3) saklanır; tek dokunuşla geri yüklenir, geri alınabilir.
 
 **Veri koruma:** kayıt okunamazsa uygulama hiçbir şeyi ezmez; ham kayıt saklanır, indirilebilir ve okunabilen işlemlerle
 devam edilebilir. Depolama dolup kayıt yapılamazsa uyarır. Tarayıcıdan verinin kalıcı tutulması istenir.
