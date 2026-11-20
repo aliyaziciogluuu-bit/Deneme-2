@@ -101,15 +101,23 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 
 ## 6. Bütçe
 
-- Video başına maliyet: yaklaşık 2,8 $ görsel (23–25 görsel), 2,1–2,5 $ klip (6–7 klip), 0,5–1 $ seslendirme. Toplam **≈ 5,5–7 $**.
+- Kasım'a kadar video başına maliyet: 2,8–4,9 $ görsel (23–25 görsel, 2–3 aday + yeniden üretimler), 2,1–2,5 $ klip (6–7 klip), 0,3–1 $ seslendirme. Toplam **≈ 5,5–7,5 $**.
+- **Aralık'tan itibaren tasarruflu üretim (kanal sahibi, 20 Kasım: "haftada 3 video 60 $'a"): video başına tavan 5 $, hedef ≈ 4,5 $.**
+  - Görsel: en çok 20 görsel. Hayvanın göründüğü sahnede 2 aday, hayvansız sahnede (insan, manzara, nesne) 1 aday (`"aday": 1`). ≈ 2 $.
+  - Zor tür özelliği (yuva biçimi, renk deseni, halka gibi) olan görsel önce TEK aday denenir; tutmazsa istem düzeltilir. İki turda tutmayan görsel düşürülür, cümle mevcut görsellerle anlatılır (üçüncü tur yok).
+  - Küçük hatalar yeniden üretim yerine düzenleme modeliyle düzeltilir (0,04 $).
+  - Klip: 4 klip (açılış, iki Shorts açılışı, kapanış) ≈ 1,4 $.
+  - Seslendirme ve düzeltme payı ≈ 0,6 $.
+  - Bir videoda 5 $ aşılacaksa patron durur, yeniden üretim yerine mevcut görselle devam eder.
 - Shorts: mevcut görsellerle yapıldığı için yalnızca seslendirme, birkaç kuruş.
-- **Aylık bütçe: 60 $** (kanal sahibi 19 Kasım'da onayladı; haftada 2 video ≈ ayda 8–9 video ve yeniden seslendirmeler).
+- **Aylık bütçe: 60 $** (kanal sahibi 19 Kasım'da onayladı; 20 Kasım'da haftada 3 video da bu bütçeyle istendi). Aralık: 14 yayın günü, 2'si hazır (karga, kırlangıç), 12 yeni video × ≈ 4,5 $ ≈ 54 $ + 6 $ yedek.
+- Ayın ortasında harcama planın önündeyse (15'inde 30 $'ı geçtiyse) patron kanal sahibine haber verir; gerekirse ayın kalanında haftada 2 videoya inilir.
 - Harcamalar `kanal/butce.md` dosyasına video video yazılır.
 
 ## 7. İçerik stoku ve üretim planı
 
 - **Hedef:** Her an en az **4 hazır video** (iki haftalık yayın) stokta olsun. Hastalık, kredi bitmesi, düzeltme turu gibi aksilikler yayın ritmini bozmasın.
-- Yayın ritmi (kanal sahibi, 20 Kasım): uzun video haftada 3 (salı, perşembe, cumartesi 18:00), Shorts her gün 12:00 (her videoya 3 Shorts). Haftada 3 video ayda ~13 video ve ~85 $ demek; Aralık bütçesi kanal sahibinin kararına bağlı.
+- Yayın ritmi (kanal sahibi, 20 Kasım): uzun video haftada 3 (salı, perşembe, cumartesi 18:00), Shorts her gün 12:00 (her videoya 3 Shorts). Aralık'ta 14 yayın günü; bütçe 60 $ (tasarruflu üretim, bölüm 6).
 - Sıradaki üretim: karga → kırlangıç → kara kurbağası → yılan ve süt efsanesi (konu sırası her ay analistin önerisiyle gözden geçirilir; mevsim ve arama ilgisi dikkate alınır).
 
 ## 8. Risk listesi

@@ -25,3 +25,8 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 20 Kas | 07 kırlangıç görsel 2.-3. tur | ~1,38 $ (23 aday, hepsi RET) + ~0,24 $ (4 aday) + ~0,08 $ (2 Kontext) | – | – | ~1,7 $ | 5 görsel yerine mevcut görseller |
 | 20 Kas | 07 kırlangıç klipleri | – | ~2,10 $ (6 klip) | – | ~2,1 $ | kuluçka klibi düşürüldü |
 | | **Kasım toplamı** | | | | **~44,4 $** | aylık bütçe 60 $ |
+
+## Aralık 2026 planı (kanal sahibi: haftada 3 video, 60 $)
+- 14 yayın günü (salı, perşembe, cumartesi): karga ve kırlangıç hazır, 12 yeni video.
+- Video başına tavan 5 $, hedef ≈ 4,5 $ (20 görsel, hayvansız sahnede 1 aday, 4 klip). 12 × 4,5 ≈ 54 $ + 6 $ yedek.
+- Ara kontrol: 15 Aralık'ta harcama 30 $'ı geçtiyse kanal sahibine haber.

@@ -79,9 +79,9 @@ Her video aşağıdaki istasyonlardan **sırayla** geçer. Her istasyonun sonund
 | 1. Araştırma ve senaryo | senarist | `senaryo.json`, `shorts.json` metinleri | yok |
 | 2. Bilgi kontrolü | bilgi kontrolcüsü | rapor; patron önerileri doğrular ve uygular | yok |
 | 3. Görsel istemleri | yapımcı | `gorseller.json` | yok |
-| 4. Görsel adayları | patron | `python gorsel.py NN --onay` (~2,8 $) | var |
+| 4. Görsel adayları | patron | `python gorsel.py NN --onay` (≈ 2 $: en çok 20 görsel, hayvansız sahnede `"aday": 1`) | var |
 | 5. Aday seçimi | yapımcı önerir, patron seçer | `python gorsel.py NN --sec ad=N ...` | yok |
-| 6. Klipler | yapımcı yazar, patron üretir | `python klip.py NN --onay` (7 × 0,35 $), arka planda | var |
+| 6. Klipler | yapımcı yazar, patron üretir | `python klip.py NN --onay` (4 × 0,35 $: açılış, iki Shorts açılışı, kapanış), arka planda | var |
 | 7. Seslendirme | patron | `seslendir_bulut.py NN`, sonra farklar için `--cumle i j` | az |
 | 8. Çekim planı | yapımcı | `cekimler.json` ve `video.py NN --onizleme` | yok |
 | 9. Video | patron | `python3 hat.py uret NN` (video + son kontrol, tek hat) | yok |
