@@ -28,3 +28,6 @@ Video 16–17 Kasım'da ofis öncesi dönemde üretildi ve 20 Kasım 18:00 için
 YAYINDA: kanal sahibi 19 Kasım'da yeni sürümü yükledi, 20 Kasım 18:00 planlı.
 
 - Shorts 3 yeni sürümle değiştirildi, Shorts 4 kaynak satırı güncellendi (kanal sahibi, 19 Kasım).
+
+## 20 Kasım: yeniden yayın
+- Planlı geko (20 Kas 18:00) 19 Kasım'da kendiliğinden yayına girmişti (1 izlenme: kanal sahibi). Kanal sahibi eskisini sildi, aynı son sürümü 20 Kasım 21:08'de yeniden yükledi, herkese açık. 21–22 Kasım geko Shorts'larında 'İlgili video' yeni geko ile değiştirilecek.

@@ -7,7 +7,7 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 
 | Tarih | 12:00 Shorts | 18:00 Uzun video | Durum |
 |---|---|---|---|
-| Cum 20 Kas | — | **Ev kertenkelesi (geko)** | yüklendi |
+| Cum 20 Kas | — | **Ev kertenkelesi (geko)** | 19 Kas erken açılmıştı; silinip 20 Kas 21:08 yeniden yayınlandı |
 | Cmt 21 Kas | Kertenkele Yemeğe Düşerse Zehirler mi? (geko s1) | — | yüklendi |
 | Paz 22 Kas | Kertenkele Tavanda Nasıl Yürüyor? (geko s2) | — | yüklendi |
 | Pzt 23 Kas | Göz Kapağı Olmayan Kertenkele! (geko s3) | — | teslim edildi 20 Kas, yüklenecek |
