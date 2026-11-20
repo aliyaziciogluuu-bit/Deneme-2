@@ -34,7 +34,7 @@ const SEED = {
       await p.setChecked('#iPost', post);
       await p.click('#iForm button[type="submit"]');
     };
-    await p.click('button[data-go="kasa"]');
+    await p.click('button[data-go="kasa"]'); await p.click('button[data-go="vitrin"]');
     await p.click('[data-toggle="vitrin"]');
     // --- Alışı kasaya işleyerek ürün ekleme
     await add('Bilezik', 22, '10', '', true);
@@ -82,7 +82,7 @@ const SEED = {
     assert.ok(shared.includes('Kâr analizi (Son 12 ay)') && shared.includes('22 Ayar Bilezik: kâr +₺1.000,00, makas 100,00 (+%3,57)'), shared);
     await p.click('#modeDay');
     // --- Satışı geri al: kasadaki satış da silinir
-    await p.click('button[data-go="kasa"]');
+    await p.click('button[data-go="kasa"]'); await p.click('button[data-go="vitrin"]');
     await p.click('#iList li:first-child button:has-text("Geri al")');
     st = await store();
     assert.equal(st.tx.length, 2); assert.equal(st.items[0].sold, null); assert.equal(st.items[0].txOut, null);
@@ -92,7 +92,7 @@ const SEED = {
     await p.click('button[data-go="gun"]'); await p.click('#btnShareDay');
     assert.ok((await p.evaluate(() => window.__shared)).includes('Stok: 22 Ayar Bilezik 10 gr'));
     // --- Kasada stoğu olmayan ürün: sorulur, yalnızca defterde işaretlenir
-    await p.click('button[data-go="kasa"]');
+    await p.click('button[data-go="kasa"]'); await p.click('button[data-go="vitrin"]');
     await add('Yüzük', 14, '3', '', false);
     assert.equal((await store()).tx.length, 2);
     await p.click('#iList li:nth-child(2) button:has-text("Sat")');

@@ -33,7 +33,7 @@ const SEED = {
     const store = () => p.evaluate(() => JSON.parse(localStorage.getItem('doviz-kasasi-v1')));
 
     // ================= Toptancı has hesabı =================
-    await p.click('button[data-go="cari"]');
+    await p.click('button[data-go="cari"]'); await p.click('button[data-go="toptanci"]');
     assert.ok(await p.isVisible('#wEmpty') && await p.isHidden('#wSum'));          // bozuk kayıtlar atıldı
     assert.ok(await p.isHidden('#wForm'));                                        // form kapalı gelir
     await p.click('[data-toggle="toptanci"]');
@@ -81,7 +81,7 @@ const SEED = {
     assert.equal(st.tx.length, 1);                                                  // kasa etkilenmez
 
     // ================= Vitrin defteri =================
-    await p.click('button[data-go="kasa"]');
+    await p.click('button[data-go="kasa"]'); await p.click('button[data-go="vitrin"]');
     assert.equal(await txt('#iCount'), '1');                                        // yalnız geçerli tohum ürün
     assert.ok((await txt('#iList li:first-child')).includes('100 gündür vitrinde'));
     assert.ok(await p.locator('#iList li:first-child small.neg').count() === 1);    // 90 günü geçen işaretlenir
@@ -104,7 +104,7 @@ const SEED = {
     assert.equal(await p.inputValue('#kMil'), '916');
     assert.ok((await txt('#kOut')).includes('₺34.922,50'));                         // 12,5 × 0,916 × 3050
     // Satıldı, göster, geri al, sil
-    await p.click('button[data-go="kasa"]');
+    await p.click('button[data-go="kasa"]'); await p.click('button[data-go="vitrin"]');
     await p.click('#iList li:nth-child(2) button:has-text("Sat")');
     assert.ok((await txt('#dlgText')).includes('Hesaplanan satış fiyatı: ₺34.922,50'));
     await p.click('#dlgForm button[type="submit"]');                              // tutar boş: yalnızca defterde işaretlenir
@@ -118,11 +118,11 @@ const SEED = {
     assert.equal(await txt('#iCount'), '2');
     // kalıcılık
     await p.reload();
-    await p.click('button[data-go="kasa"]');
+    await p.click('button[data-go="kasa"]'); await p.click('button[data-go="vitrin"]');
     assert.equal(await txt('#iCount'), '2');
     st = await store();
     assert.deepEqual(st.items.map((x) => [x.name, x.karat, x.gram, x.cost]), [['Bilezik', 22, 12.5, 35000], ['Yüzük', 14, 3.2, null]]);
-    await p.click('button[data-go="cari"]');
+    await p.click('button[data-go="cari"]'); await p.click('button[data-go="toptanci"]');
     assert.ok((await txt('#wList .person')).includes('50,00 gr has borç'));
     await ctx.close();
   }
