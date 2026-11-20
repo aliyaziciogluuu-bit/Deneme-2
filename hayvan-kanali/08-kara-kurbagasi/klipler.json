@@ -1,0 +1,29 @@
+{
+  "not": "Kurbağa: gözünü kırpabilir (göz kapağı var); ama dil çıkarma, sıçrayıp kadrajdan çıkma, fazladan bacak ya da ikinci kurbağa belirirse temiz aralığa kırpılır. Köpek klibinde köpek kurbağa görmez; dört bacak sabit. Her klipten 5 kare (0,5-4,9 sn) incelenir. Tasarruf: yalnızca 4 klip; Shorts s1 açılışı 'acilis' klibini, s1 ikinci cümle 's1_kurbaga_yakin'ı, s2 açılışı 's2_kopek_bahce'yi kullanır.",
+  "klipler": [
+    {
+      "ad": "acilis",
+      "gorsel": "tas_alti_kurbaga",
+      "sure": 5,
+      "istem": "The toad under the stone sits still, its throat pulses gently with breathing, it blinks once slowly and shifts its head a little, the hand holding the stone stays still. Camera static, gentle natural motion only, no new animals appear, the toad keeps four legs. Storybook watercolor style preserved. Realistic anatomy, no extra legs, nothing new appears."
+    },
+    {
+      "ad": "s1_kurbaga_yakin",
+      "gorsel": "kurbaga_yakin",
+      "sure": 5,
+      "istem": "The toad in the portrait sits still, its throat pulses gently with breathing, it blinks slowly once, the bumpy skin and the glands behind the eyes stay the same shape. Camera static, gentle natural motion only, no new animals appear, four legs only. Storybook watercolor style preserved. Realistic anatomy, no extra legs, nothing new appears."
+    },
+    {
+      "ad": "s2_kopek_bahce",
+      "gorsel": "kopek_bahce",
+      "sure": 5,
+      "istem": "The dog standing on the lawn sniffs the evening air, its nose twitches, an ear turns slightly, the tail sways gently, it stays in place with four legs; the lit window glows softly. Camera static, gentle natural motion only, no new animals or people appear. Storybook watercolor style preserved. Realistic anatomy, no extra legs, nothing new appears."
+    },
+    {
+      "ad": "kapanis",
+      "gorsel": "kapanis",
+      "sure": 5,
+      "istem": "The toad on the stone looks toward the viewer and its throat pulses gently, it blinks once slowly, a leaf sways slightly in the breeze, the toad stays on the stone with four legs. Camera static, gentle natural motion only, no new animals appear. Storybook watercolor style preserved. Realistic anatomy, no extra legs, nothing new appears."
+    }
+  ]
+}

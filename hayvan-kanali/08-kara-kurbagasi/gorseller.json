@@ -1,0 +1,107 @@
+{
+  "not": "Kara kurbağası (Bufo bufo / B. verrucosissimus): kahverengi-zeytin yumrulu KURU deri, bakır-altın iris ve YATAY oval göz bebeği, gözün hemen arkasında eğik şişkin böbrek biçimli parotoid bez, kısa bacaklar, yürüyerek ya da kısa sıçrayarak hareket, 8-15 cm, avuçtan küçük ya da avuç kadar. Pürüzsüz yeşil su kurbağasına (Pelophylax) benzemeyecek; sırtı yeşil benekli Bufotes yalnızca 'bufotes' görselinde. Dört bacak, ön ayakta dört, arka ayakta beş parmak, dişsiz. Ölçek: kurbağa elin avucu kadar, köpek başından çok küçük, araba çok uzakta. İnsan yüzü yok; köpek kurbağayı koklar, ağzına almaz; ezik hayvan yok. Yazı/tabela yok. 'once_test': kapak ve kurbaga_yakin önce tek adayla üretilir (parotoid bez ve yatay göz bebeği). Kapakta kurbağa sağ yarıda, sol yarı boş. tas_alti_kurbaga, kurbaga_yakin, bezler, el_yikama, cocuk_kurbaga, eldiven, kapanis, kopek_bahce, kopek_kurbaga, kopek_belirti, veteriner, aksam_bahce adları shorts.json tarafından kullanılıyor.",
+  "gorseller": [
+    {
+      "ad": "kapak",
+      "istem": "Close-up side profile of a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller, sitting on dark damp soil with moss, on the RIGHT half of the frame, head turned left in profile, the eye and the slanted swollen parotoid gland behind it sharply visible, the entire LEFT half of the image is soft empty dark green blurred background with no objects, empty space for a title. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1,
+      "once_test": true
+    },
+    {
+      "ad": "tas_alti_kurbaga",
+      "istem": "A garden stone lifted by a bare hand from the right edge of the frame (only a forearm and hand visible, no face), underneath in the damp soil sits a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller, bumpy and surprised in the shade, looking up. Scale: the toad is smaller than the hand lifting the stone, about palm size. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "kurbaga_yakin",
+      "istem": "Portrait of a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller in three-quarter front view on moist ground, centered, the bumpy dry skin, copper-gold eye with horizontal pupil and the two slanted swollen parotoid glands behind the eyes clearly visible, soft garden background. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1,
+      "once_test": true
+    },
+    {
+      "ad": "sigil_el",
+      "istem": "A single human hand, palm down, resting on a wooden garden table seen from above, a few small ordinary skin warts on one finger, a green leaf beside it, no face, no toad in the picture, calm soft light. Folk-belief mood, no text. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "bezler",
+      "istem": "a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller seen from slightly above and behind in dusk light on a garden path, head and shoulders in focus, the two slanted swollen kidney-shaped parotoid glands behind the eyes clearly visible and one copper-gold eye with horizontal pupil, bumpy dry skin, nothing else in the frame. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "el_yikama",
+      "istem": "Two bare hands washing with soap under running water from an outdoor garden tap, foam and drops, evening light, green garden behind, only hands and forearms visible, no face, no animal. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "cocuk_kurbaga",
+      "istem": "A small child seen from behind, crouching on a garden lawn at dusk, at a distance of two metres from a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller that sits still on the grass, the child's face is not visible, the child does not touch it. Scale: the toad is about the size of the child's palm, tiny compared to the child. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "eldiven",
+      "istem": "A hand in a thin blue disposable glove gently holding a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller low above wet grass, the toad rests on the open palm, bumpy skin and parotoid gland visible, only the gloved hand and wrist visible, no face. Scale: the toad is as big as the gloved palm, about 10 cm. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "kopek_bahce",
+      "istem": "A medium-sized friendly dog with four legs standing on a lawn in a garden at dusk, ears up, sniffing the cool evening air, house with a lit window behind, no other animals, no toad, no people. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "kopek_kurbaga",
+      "istem": "A medium-sized dog with four legs and mouth closed leans forward on the grass in a garden at dusk and gently sniffs with its nose a few centimetres from a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller, which sits still on the lawn in front of the dog; the dog's mouth is closed, the toad is not touched. Scale: the toad is much smaller than the dog's head, palm size. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "kopek_belirti",
+      "istem": "A worried dog with four legs sitting on a garden lawn at dusk, head lowered, a little saliva on its mouth, pale tired look, no toad, no people, soft light, no violence. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "veteriner",
+      "istem": "A dog with four legs standing calmly on a clean examination table in a veterinary room, a veterinarian's hands in white gloves checking its mouth, the vet's face is not visible (cropped at the shoulders, seen from behind), no text, no posters, no charts. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "aksam_bahce",
+      "istem": "Garden at dusk after rain, a house with a warm lit window in the background, in the foreground a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller sits on the wet grass; no dog, no people. Scale: the toad is palm size, small against the grass and a garden pot. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "kapanis",
+      "istem": "a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller sitting on a flat garden stone at golden dusk, looking toward the viewer, calm, a few ferns and small flowers, soft warm light, roomy composition with the toad in the lower middle. Scale: palm-sized. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "bufotes",
+      "istem": "A green toad (Bufotes viridis group): pale grey-white skin with distinct bright green blotches on the back, small flatter bumps, pale iris with a horizontal pupil, gently slanted parotoid glands, short legs, sits on dry stony soil of an Anatolian steppe at dusk. Scale: about 6-10 cm, smaller than a human palm. This is NOT the brown common toad and NOT a smooth water frog. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "isi_av",
+      "istem": "a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller sitting on damp grass at dusk, its sticky tongue not shown, mouth closed, looking at a small ant trail, a snail and an earthworm on the soil beside it, garden plants. Scale: the ants are tiny, the toad palm-sized. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "goc_yolu",
+      "istem": "Spring dusk in a damp woodland: several a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller individuals, about six, walking and hopping slowly one by one over the leaf litter in the same direction toward a pond glimmering in the distance, widely spaced, each separate and the same shape. Scale: each toad about 10 cm, small against the forest. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "golet_yumurta",
+      "istem": "A shallow spring pond with two long double-row strings of jelly toad eggs wrapped around underwater plant stems, tiny black tadpoles swimming in the clear water, reeds, a a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller resting at the pond edge half in the water. Scale: the egg strings are long, the tadpoles tiny, the toad palm-sized. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "yol_gecis",
+      "istem": "A quiet country road on a rainy spring night seen from the roadside, several a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller individuals, about five, crossing the wet asphalt one by one in the same direction, wet reflections, a faint glow of headlights very far away down the road, no car near, no people, nothing harmful happens. Scale: each toad about 10 cm, small against the road width. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "kova_gonullu",
+      "istem": "Roadside on a rainy night: gloved hands in thin blue disposable gloves carrying a plastic bucket with a few a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, a large swollen kidney-shaped parotoid gland slanting behind each eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller individuals inside, toward the dark wet grass beyond the verge, only hands and a rain jacket sleeve visible, no faces, no car. Scale: each toad about 10 cm, the bucket is ordinary size. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
+      "aday": 1
+    }
+  ]
+}
