@@ -1,0 +1,7 @@
+000 fark=0 | Kırlangıç yuvasını bozma: içinde yumurta ya da yavru olabilir. || Kırlangıç yuvasını bozma. İçinde yumurta ya da yavru olabilir.
+001 fark=0 | Bize göre yuvaya dokunmadan beklemek en güvenli seçenek. || Bize göre yuvaya dokunmadan beklemek en güvenli seçenek.
+002 fark=0 | Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. || Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık. Emin olmak için Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.
+003 fark=0 | Bir kırlangıç yuvasının kırk sekiz yıl kullanıldığı bildirilmiş. || Bir kırlangıç yuvasının 48 yıl kullanıldığı bildirilmiş.
+004 fark=0 | Kır kırlangıcında bir çift, yuvayı yaklaşık iki haftada yapıyor. || Kırkırlangıcında bir çift yuvayı yaklaşık iki haftada yapıyor.
+005 fark=0 | Eski yuvalar kuşlar için çok değerli sayılıyor. || Eski yuvalar kuşlar için çok değerli sayılıyor.
+006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

@@ -1,0 +1,6 @@
+000 fark=1 | Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de işaretlenen biri Güney Afrika'da bulundu. || Avrupa'daki kırk kırlangıçları kışı Afrika'da geçirebiliyor. İngiltere'de işaretlenen biri Güney Afrika'da bulundu.
+001 fark=0 | Kır kırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor. || Kırkırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan Yarımadası'nda geçiriyor.
+002 fark=0 | Kırlangıçgillerin göçmen türleri, yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor. || Kırlangıçgillerin göçmen türleri yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor.
+003 fark=0 | Türkiye'de yapılan bir araştırmaya göre kır ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor. || Türkiye'de yapılan bir araştırmaya göre, kır ve ev kırlangıcı Mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.
+004 fark=0 | İki yüz yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi. || 200 yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.
+005 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

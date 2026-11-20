@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de işaretlenen biri Güney Afrika'da bulundu.",
+  "duyulan": "Avrupa'daki kırk kırlangıçları kışı Afrika'da geçirebiliyor. İngiltere'de işaretlenen biri Güney Afrika'da bulundu.",
+  "hata": 1,
+  "sure": 7.16,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Kır kırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor.",
+  "duyulan": "Kırkırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor.",
+  "hata": 0,
+  "sure": 6.46,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kırlangıçgillerin göçmen türleri, yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor.",
+  "duyulan": "Kırlangıçgillerin göçmen türleri yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor.",
+  "hata": 0,
+  "sure": 6.98,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Türkiye'de yapılan bir araştırmaya göre kır ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
+  "duyulan": "Türkiye'de yapılan bir araştırmaya göre kır ve ev kırlangıcı Mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
+  "hata": 0,
+  "sure": 7.2,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "İki yüz yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.",
+  "duyulan": "200 yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.",
+  "hata": 0,
+  "sure": 5.42,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.22,
+  "uygun": true
+ }
+}

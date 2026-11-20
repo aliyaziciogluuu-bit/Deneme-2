@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Kırlangıç yuvasını bozma: içinde yumurta ya da yavru olabilir.",
+  "duyulan": "Kırlangıç yuvasını bozma. İçinde yumurta ya da yavru olabilir.",
+  "hata": 0,
+  "sure": 3.64,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bize göre yuvaya dokunmadan beklemek en güvenli seçenek.",
+  "duyulan": "Bize göre yuvaya dokunmadan beklemek en güvenli seçenek.",
+  "hata": 0,
+  "sure": 3.8,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "yuvaya dokunmanın yasal olup olmadığını doğrulayamadık. Emin olmak için Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.",
+  "hata": 0,
+  "sure": 7.8,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bir kırlangıç yuvasının kırk sekiz yıl kullanıldığı bildirilmiş.",
+  "duyulan": "Bir kırlangıç yuvasının 48 yıl kullanıldığı bildirilmiş.",
+  "hata": 0,
+  "sure": 3.76,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Kır kırlangıcında bir çift, yuvayı yaklaşık iki haftada yapıyor.",
+  "duyulan": "Kırkırlangıcında bir çift yuvayı yaklaşık iki haftada yapıyor.",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Eski yuvalar kuşlar için çok değerli sayılıyor.",
+  "duyulan": "eski yuvalar kuşlar için çok değerli sayılıyor.",
+  "hata": 0,
+  "sure": 2.78,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.28,
+  "uygun": true
+ }
+}
