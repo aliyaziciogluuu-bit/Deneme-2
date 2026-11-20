@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hecemece</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Hecemece: her gün yeni bir hece bulmacası. Hece fişlerinden altı kelimeyi kur, karneni arkadaşlarınla paylaş.">
+<meta property="og:title" content="Hecemece: günlük hece bulmacası">
+<meta property="og:description" content="Her gün 6 kelime. Hece fişlerini birleştir, gizli kelimeyi bul, notunu paylaş.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F6F8FC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1E2D29" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='8' width='56' height='48' rx='8' fill='%23fff' stroke='%231A2750' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='26' font-weight='700' text-anchor='middle' fill='%231A2750'%3EHE%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Patrick+Hand&display=swap">
+<style>
+/* Yerleşim: tek sütun. Üstte çizgili defter sayfası (ipuçları), altta sıranın üstünde hece fişleri.
+   Açık tema okul defteri, koyu tema kara tahta. */
+:root {
+  --kagit: #F6F8FC;      /* defter kâğıdı */
+  --murekkep: #1A2750;   /* dolma kalem laciverti */
+  --soluk: #5F6C96;      /* kurşun kalem */
+  --cizgi: #C5D4EC;      /* defter çizgisi */
+  --kirmizi: #D4364B;    /* kenar çizgisi, öğretmen kalemi */
+  --fosfor: #FFE45C;     /* fosforlu kalem */
+  --fis: #FFFFFF;        /* hece fişi */
+  --fis-golge: #AEBBD6;
+  --dogru: #1B8A52;
+  --sari: #E2B100;
+  --turuncu: #E57A22;
+  --mavi: #3B74DB;
+  --perde: rgba(16, 24, 52, .5);
+  --yazi: "Lexend", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --el: "Patrick Hand", "Segoe Print", "Comic Sans MS", cursive;
+  padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --kagit: #1E2D29; --murekkep: #EEF2E4; --soluk: #9DB2A7; --cizgi: #38504A; --kirmizi: #FF9393;
+    --fosfor: #5C5417; --fis: #2A403A; --fis-golge: #111C19; --dogru: #7FDCA4;
+    --sari: #F0CB4A; --turuncu: #F29A55; --mavi: #7FA8F5; --perde: rgba(5, 10, 8, .62);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --kagit: #1E2D29; --murekkep: #EEF2E4; --soluk: #9DB2A7; --cizgi: #38504A; --kirmizi: #FF9393;
+  --fosfor: #5C5417; --fis: #2A403A; --fis-golge: #111C19; --dogru: #7FDCA4;
+  --sari: #F0CB4A; --turuncu: #F29A55; --mavi: #7FA8F5; --perde: rgba(5, 10, 8, .62);
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font: 400 1rem/1.4 var(--yazi);
+  -webkit-tap-highlight-color: transparent;
+}
+[hidden] { display: none !important; }
+button { font: inherit; color: inherit; touch-action: manipulation; }
+:focus-visible { outline: 2.5px solid var(--mavi); outline-offset: 2px; }
+
+.app {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding-block: .75rem 1.5rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+
+/* Başlık */
+.ust { display: flex; align-items: center; justify-content: space-between; gap: .75rem; }
+.marka { min-width: 0; }
+.marka h1 { margin: 0; font: 700 1.55rem/1.1 var(--yazi); letter-spacing: -.01em; }
+.marka h1 i { font-style: normal; color: var(--kirmizi); font-weight: 500; margin: 0 .04em; }
+.gun { display: block; font-size: .8rem; color: var(--soluk); margin-top: .15rem; }
+.ust-sag { display: flex; align-items: center; gap: .5rem; }
+.sure { font: 500 1rem var(--yazi); font-variant-numeric: tabular-nums; color: var(--soluk); min-width: 2.6rem; text-align: right; }
+.ikon {
+  width: 2.5rem; height: 2.5rem; padding: 0; border-radius: 50%;
+  border: 1.5px solid var(--cizgi); background: transparent; cursor: pointer;
+  font: 600 1rem var(--yazi); display: grid; place-items: center;
+}
+.ikon svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+
+/* Defter sayfası: ipuçları */
+.sorular { list-style: none; margin: 0; padding: 0; position: relative; border-top: 1px solid var(--cizgi); }
+.sorular::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: 2.1rem; width: 1.5px;
+  background: var(--kirmizi); opacity: .6; pointer-events: none;
+}
+.soru {
+  display: grid; grid-template-columns: 2.1rem minmax(0, 1fr) auto; align-items: center; column-gap: .6rem;
+  width: 100%; min-height: 2.75rem; padding: .35rem 0; text-align: left;
+  border: 0; border-bottom: 1px solid var(--cizgi); background: none; cursor: pointer;
+}
+.soru .no { font: 1.15rem/1 var(--el); color: var(--soluk); text-align: center; }
+.soru .ipucu { font-size: .94rem; line-height: 1.35; }
+.soru[aria-current="true"] .ipucu span {
+  background: var(--fosfor); padding: .08em .25em; margin: 0 -.25em;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone; border-radius: 2px;
+}
+.adet { display: flex; gap: 3px; }
+.adet i { width: .6rem; height: .6rem; border: 1.5px solid var(--soluk); border-radius: 2px; }
+.soru.cozuldu { cursor: default; }
+.soru.cozuldu .ipucu { color: var(--soluk); }
+.cevap { font: 1.3rem/1 var(--el); white-space: nowrap; }
+.cevap b { font-weight: 400; color: var(--kirmizi); margin-left: .3rem; }
+.cevap.acildi { color: var(--kirmizi); }
+
+/* Kelime kurma yuvaları */
+.yuvalar { display: flex; align-items: center; justify-content: center; gap: .3rem; min-height: 3.5rem; }
+.yuva {
+  flex: 0 1 4.4rem; min-width: 0; height: 3.25rem;
+  border: 1.5px dashed var(--soluk); border-radius: 8px; display: grid;
+}
+.yuva.dolu { border-color: transparent; }
+.yuvalar .tire { font: 1.4rem/1 var(--el); color: var(--kirmizi); }
+.yuvalar.salla { animation: salla .4s; }
+.yuvalar.salla .fis { border-color: var(--kirmizi); color: var(--kirmizi); }
+.yuvalar.tamam .fis { background: var(--dogru); border-color: var(--dogru); color: var(--kagit); box-shadow: none; }
+@keyframes salla { 20%, 60% { transform: translateX(-7px); } 40%, 80% { transform: translateX(7px); } }
+
+/* Hece fişleri */
+.fisler { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .5rem; }
+.fis {
+  height: 3.25rem; padding: 0 .25rem; min-width: 0;
+  font: 600 1.1rem/1 var(--yazi); letter-spacing: .03em;
+  background: var(--fis); color: var(--murekkep);
+  border: 1.5px solid var(--murekkep); border-radius: 8px;
+  box-shadow: 0 3px 0 var(--fis-golge); cursor: pointer;
+  transition: transform .08s, box-shadow .08s;
+}
+.fis:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--fis-golge); }
+.fisler .fis[aria-pressed="true"] {
+  background: transparent; color: transparent; border: 1.5px dashed var(--cizgi); box-shadow: none;
+}
+.fis.kilitli { border-color: var(--mavi); color: var(--mavi); cursor: default; }
+
+/* Alt düğmeler */
+.dugmeler { display: flex; gap: .5rem; }
+.dugme {
+  flex: 1 1 0; min-width: 0; min-height: 2.75rem; padding: .4rem .6rem;
+  border: 1.5px solid var(--cizgi); border-radius: 8px; background: transparent;
+  font: 500 .92rem var(--yazi); cursor: pointer;
+}
+.dugme.ana { background: var(--murekkep); border-color: var(--murekkep); color: var(--kagit); font-weight: 600; }
+
+/* Sonuç */
+.sonuc { display: flex; flex-direction: column; align-items: center; gap: .8rem; padding-block: .75rem .25rem; text-align: center; }
+.damga {
+  font: 2.7rem/1 var(--el); color: var(--kirmizi);
+  border: 3px solid var(--kirmizi); border-radius: 50%; padding: .3rem 1.6rem .45rem;
+  transform: rotate(-7deg); margin-block: .4rem .5rem;
+}
+.kareler { display: flex; gap: .35rem; align-items: center; }
+.kareler i { width: 1.7rem; height: 1.7rem; border-radius: 4px; background: var(--murekkep); }
+.kareler i.k3 { background: var(--dogru); }
+.kareler i.k2 { background: var(--sari); }
+.kareler i.k1 { background: var(--turuncu); }
+.kareler i.ki { background: var(--mavi); }
+.kareler span { font: 1.3rem/1 var(--el); color: var(--soluk); }
+.sonuc-bilgi { margin: 0; font-size: .95rem; font-variant-numeric: tabular-nums; }
+.sonuc-bilgi b { font-weight: 600; }
+.sonuc .dugmeler { width: 100%; flex-wrap: wrap; }
+.sonuc .dugme { flex: 1 1 9rem; }
+.geri-sayim { margin: 0; font-size: .85rem; color: var(--soluk); font-variant-numeric: tabular-nums; }
+#paylasMetin {
+  width: 100%; min-height: 6.5rem; padding: .5rem; font: .9rem/1.4 var(--yazi);
+  background: var(--fis); color: var(--murekkep); border: 1.5px solid var(--cizgi); border-radius: 8px; resize: none;
+}
+
+/* Pencereler */
+dialog {
+  width: min(26rem, calc(100vw - 32px)); max-height: calc(100vh - 32px); padding: 1.25rem;
+  background: var(--kagit); color: var(--murekkep);
+  border: 1.5px solid var(--murekkep); border-radius: 10px;
+}
+dialog::backdrop { background: var(--perde); }
+dialog h2 { margin: 0 0 .75rem; font: 700 1.25rem/1.2 var(--yazi); text-wrap: balance; }
+dialog ol, dialog ul { margin: 0 0 1rem; padding-left: 1.2rem; display: flex; flex-direction: column; gap: .45rem; font-size: .94rem; }
+.ornek { display: flex; align-items: center; gap: .4rem; margin: 0 0 1rem; }
+.ornek .fis { width: 3.6rem; height: 2.8rem; cursor: default; }
+.ornek .cevap { margin-left: .5rem; }
+.renkler { list-style: none; padding: 0; }
+.renkler li { display: flex; align-items: center; gap: .6rem; }
+.renkler i { flex: none; width: 1.1rem; height: 1.1rem; border-radius: 3px; background: var(--murekkep); }
+.renkler i.k3 { background: var(--dogru); } .renkler i.k2 { background: var(--sari); }
+.renkler i.k1 { background: var(--turuncu); } .renkler i.ki { background: var(--mavi); }
+.karne { margin: 0 0 1rem; border-top: 1px solid var(--cizgi); }
+.karne div { display: flex; justify-content: space-between; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid var(--cizgi); }
+.karne dt { font-size: .94rem; }
+.karne dd { margin: 0; font: 1.3rem/1 var(--el); font-variant-numeric: tabular-nums; }
+dialog .dugme { width: 100%; }
+
+.bildirim {
+  position: fixed; left: 50%; bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  max-width: calc(100vw - 32px); padding: .6rem 1rem; border-radius: 8px;
+  background: var(--murekkep); color: var(--kagit); font-size: .9rem; text-align: center; z-index: 20;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .yuvalar.salla { animation: none; }
+  .fis { transition: none; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="ust">
+    <div class="marka">
+      <h1 aria-label="Hecemece">He<i>-</i>ce<i>-</i>me<i>-</i>ce</h1>
+      <span class="gun" id="gunEtiket"></span>
+    </div>
+    <div class="ust-sag">
+      <span class="sure" id="sure" aria-label="Süre">0:00</span>
+      <button class="ikon" id="btnNasil" type="button" aria-label="Nasıl oynanır">?</button>
+      <button class="ikon" id="btnKarne" type="button" aria-label="Karne">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div style="display:flex;flex-direction:column;gap:.9rem">
+      <ol class="sorular" id="sorular"></ol>
+
+      <div id="oyun" style="display:flex;flex-direction:column;gap:.9rem">
+        <div class="yuvalar" id="yuvalar" aria-label="Kurulan kelime"></div>
+        <div class="fisler" id="fisler" aria-label="Hece fişleri"></div>
+        <div class="dugmeler">
+          <button class="dugme" id="btnIpucu" type="button">İpucu</button>
+          <button class="dugme" id="btnKaristir" type="button">Karıştır</button>
+          <button class="dugme" id="btnSil" type="button">Sil</button>
+        </div>
+      </div>
+
+      <section class="sonuc" id="sonuc" hidden aria-live="polite">
+        <div class="damga" id="damga"></div>
+        <div class="kareler" id="kareler"></div>
+        <p class="sonuc-bilgi" id="sonucBilgi"></p>
+        <div class="dugmeler">
+          <button class="dugme ana" id="btnPaylas" type="button">Sonucu paylaş</button>
+          <button class="dugme" id="btnAlistirma" type="button">Alıştırma oyna</button>
+          <button class="dugme" id="btnGunluk" type="button" hidden>Günün sonucuna dön</button>
+        </div>
+        <textarea id="paylasMetin" readonly hidden aria-label="Paylaşılacak sonuç"></textarea>
+        <p class="geri-sayim">Yeni bulmaca <span id="geriSayim">--:--:--</span> sonra</p>
+      </section>
+    </div>
+  </main>
+</div>
+
+<dialog id="dlgNasil" aria-labelledby="nasilBaslik">
+  <h2 id="nasilBaslik">Nasıl oynanır?</h2>
+  <div class="ornek" aria-hidden="true">
+    <span class="fis" style="display:grid;place-items:center">PEY</span>
+    <span class="fis" style="display:grid;place-items:center">NİR</span>
+    <span class="cevap">pey-nir<b>✓</b></span>
+  </div>
+  <ol>
+    <li>Her gün 6 kelime var. Beşinin ipucu yazıyor, altıncısı gizli.</li>
+    <li>Bir ipucuna dokun, sonra hece fişlerini sırayla seç. Yuvalar dolunca kelime kendiliğinden kontrol edilir.</li>
+    <li>Gizli kelimeyi elde kalan hecelerden çıkar.</li>
+    <li>Takılırsan <b>İpucu</b> ilk heceyi yerine koyar. Bir daha basarsan cevabı açar.</li>
+  </ol>
+  <ul class="renkler">
+    <li><i class="k3"></i>İlk denemede bildin</li>
+    <li><i class="k2"></i>Bir kez yanıldın</li>
+    <li><i class="k1"></i>İki ya da daha çok yanıldın</li>
+    <li><i class="ki"></i>İpucu kullandın</li>
+    <li><i></i>Cevabı açtın</li>
+  </ul>
+  <button class="dugme ana" type="button" data-kapat>Başla</button>
+</dialog>
+
+<dialog id="dlgKarne" aria-labelledby="karneBaslik">
+  <h2 id="karneBaslik">Karne</h2>
+  <dl class="karne">
+    <div><dt>Çözülen bulmaca</dt><dd id="kOynanan">0</dd></div>
+    <div><dt>Gün serisi</dt><dd id="kSeri">0</dd></div>
+    <div><dt>En uzun seri</dt><dd id="kEnUzun">0</dd></div>
+    <div><dt>Pekiyi sayısı</dt><dd id="kPekiyi">0</dd></div>
+    <div><dt>En iyi süre</dt><dd id="kEnIyi">–</dd></div>
+  </dl>
+  <button class="dugme" type="button" data-kapat>Kapat</button>
+</dialog>
+
+<div class="bildirim" id="bildirim" role="status" hidden></div>
+
+<script>
+(() => {
+'use strict';
+document.documentElement.lang = 'tr';
+
+// Paylaşılan sonuca eklenecek adres. Boş bırakılırsa sayfanın kendi adresi kullanılır.
+const ADRES = '';
+const ANAHTAR = 'hecemece-v1';
+const SURUM = 1;
+const KELIME_SAYISI = 6;
+const BASLANGIC = Date.UTC(2026, 10, 20);   // 1 numaralı bulmacanın günü
+const AYLAR = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+
+// Kelime havuzu: kelime|ipucu. Heceler kendiliğinden ayrılır; tek heceli kelime konmaz.
+const HAVUZ = `
+kedi|Miyavlayan ev hayvanı
+köpek|Havlayan sadık dost
+aslan|Yeleli yırtıcı, ormanlar kralı
+kaplan|Çizgili büyük kedi
+zürafa|En uzun boyunlu hayvan
+tavşan|Uzun kulaklı, havuç seven hayvan
+kaplumbağa|Evini sırtında taşır
+kelebek|Tırtıldan çıkan renkli kanatlı böcek
+karınca|Çalışkanlığıyla bilinen küçük böcek
+arı|Bal yapan böcek
+örümcek|Ağ ören sekiz bacaklı canlı
+yılan|Bacaksız sürüngen
+timsah|Nehirde yaşayan iri dişli sürüngen
+penguen|Uçamayan kutup kuşu
+papağan|Konuşmayı taklit eden kuş
+baykuş|Gece avlanan iri gözlü kuş
+kartal|Yükseklerde süzülen yırtıcı kuş
+leylek|Bacalara yuva yapan göçmen kuş
+serçe|Küçük, kahverengi şehir kuşu
+güvercin|Barışın simgesi kuş
+horoz|Sabahları öten kümes hayvanı
+tavuk|Yumurtlayan kümes hayvanı
+ördek|Vak vak diyen su kuşu
+inek|Süt veren büyükbaş hayvan
+koyun|Yünü kırkılan küçükbaş hayvan
+keçi|Sakallı, kayalara tırmanan küçükbaş
+eşek|İnadıyla bilinen yük hayvanı
+deve|Çöl gemisi
+maymun|Muz seven, daldan dala atlayan hayvan
+sincap|Fındık biriktiren gür kuyruklu hayvan
+kirpi|Sırtı dikenli küçük hayvan
+tilki|Masalların kurnaz hayvanı
+ayı|Kış uykusuna yatan iri hayvan
+geyik|Çatal boynuzlu orman hayvanı
+balina|Denizlerin en büyük memelisi
+yunus|Zekâsıyla bilinen deniz memelisi
+ahtapot|Sekiz kollu deniz canlısı
+yengeç|Yan yan yürüyen kıskaçlı canlı
+kurbağa|Vıraklayan, zıplayan canlı
+salyangoz|Kabuğuyla ağır ağır ilerler
+çekirge|Zıplayan yeşil böcek
+sinek|Vızıldayan uçan böcek
+ceylan|İnce bacaklı, güzel gözlü hayvan
+zebra|Siyah beyaz çizgili, ata benzer
+kanguru|Yavrusunu kesesinde taşır
+fare|Peynir seven kemirgen
+yarasa|Baş aşağı uyuyan uçan memeli
+flamingo|Tek ayak üstünde duran pembe kuş
+karga|Gak diye öten siyah kuş
+hindi|Yılbaşı sofrasının kuşu
+tırtıl|Kelebeğin yavru hâli
+peynir|Sütten yapılan kahvaltılık
+zeytin|Yağı da çıkarılan kahvaltılık
+ekmek|Fırından çıkan temel besin
+simit|Susamlı halka
+börek|Yufkayla yapılan hamur işi
+çorba|Kaşıkla içilen sıcak yemek
+pilav|Pirinçten yapılan yemek
+makarna|Spagettisi, burgusu, kelebeği olur
+köfte|Kıymadan yoğrulan yemek
+kebap|Şişte ya da ocakta pişen et yemeği
+dolma|İçi doldurulmuş biber ya da yaprak
+mantı|Kayseri'nin yoğurtlu hamur yemeği
+baklava|Şerbetli, fıstıklı tatlı
+lokum|Çifte kavrulmuşu ünlü şekerleme
+helva|Tahinli ya da irmikli tatlı
+dondurma|Yazın külahta yenen soğuk tatlı
+çikolata|Kakaodan yapılan tatlı
+yoğurt|Mayalanmış süt
+ayran|Yoğurttan yapılan içecek
+limonata|Limondan yapılan serin içecek
+kahve|Fincanda içilir, falına bakılır
+elma|Yarısı ona benzer, yarısı da buna
+armut|Dibine düşen meyve
+kiraz|Kulağa küpe yapılan meyve
+çilek|Kırmızı, üstü çekirdekli meyve
+karpuz|Yazın kesilen iri, sulu meyve
+kavun|Karpuzun sarı arkadaşı
+portakal|Turuncu, sıkılıp suyu içilen meyve
+mandalina|Kolay soyulan kış meyvesi
+kayısı|Malatya'nın ünlü meyvesi
+şeftali|Tüylü kabuklu yaz meyvesi
+üzüm|Salkım salkım olur
+incir|Aydın'ın ünlü meyvesi
+ceviz|Kabuğu kırılan, içi beyne benzeyen yemiş
+fındık|Karadeniz'in ünlü kuruyemişi
+fıstık|Antep'in yeşil kuruyemişi
+domates|Salatanın kırmızısı
+biber|Acısı da tatlısı da olur
+patlıcan|Karnıyarığın ana malzemesi
+salatalık|Turşusu kurulan yeşil sebze
+havuç|Tavşanın sevdiği turuncu sebze
+patates|Kızartması çok sevilen sebze
+soğan|Doğrarken ağlatır
+sarımsak|Diş diş ayrılan keskin kokulu sebze
+ıspanak|Demir deposu yeşil yapraklı sebze
+kabak|Mücveri yapılan sebze
+lahana|Sarması yapılan kat kat sebze
+marul|Salatanın yeşil yaprağı
+mısır|Patlatılıp sinemada yenir
+pirinç|Pilavın ham maddesi
+mercimek|Çorbası meşhur bakliyat
+nohut|Humusun ana malzemesi
+fasulye|Pilavın yanına yakışan kuru bakliyat
+yumurta|Tavuğun verdiği kahvaltılık
+tereyağı|Sütün kaymağından yapılan yağ
+reçel|Meyveyle şekerin kaynatılmışı
+menemen|Domatesli, biberli yumurta yemeği
+lahmacun|İnce hamur üstü kıymalı lezzet
+gözleme|Sacda pişen içli yufka
+sucuk|Baharatlı kuru et ürünü
+turşu|Sirkeli suda bekletilen sebze
+şeker|Çayı tatlandırır
+sirke|Salataya ekşilik veren sıvı
+masa|Üstünde yemek yenir, ders çalışılır
+sandalye|Dört ayaklı oturak
+koltuk|Rahat, kollu oturma mobilyası
+yatak|Üstünde uyunur
+yastık|Baş altına konur
+yorgan|Kışın üstümüze örteriz
+battaniye|Yünlü, sıcak tutan örtü
+dolap|İçine eşya konan kapaklı mobilya
+halı|Yere serilen dokuma
+perde|Pencereyi örter
+ayna|Yüzümüze baktığımız cam
+lamba|Odayı aydınlatır
+avize|Tavandan sarkan süslü aydınlatma
+süpürge|Yerleri temizler
+tencere|İçinde yemek pişer
+tava|Yumurta kırılan sığ kap
+çaydanlık|Çayın demlendiği kap
+bardak|Su içilen kap
+tabak|Yemeğin konduğu kap
+kaşık|Çorba içme aracı
+çatal|Dişli sofra aracı
+bıçak|Keskin kesme aracı
+fincan|Kahvenin kabı
+sürahi|Sofrada su konan kulplu kap
+buzdolabı|Yiyecekleri soğuk tutar
+fırın|Kek ve böreğin piştiği yer
+çamaşır|Makinede yıkanan giysiler
+bulaşık|Yemekten sonra yıkanan kaplar
+ütü|Kırışık giysileri düzeltir
+makas|Kâğıt ve kumaş keser
+iğne|İpliğin geçtiği sivri araç
+anahtar|Kilidi açar
+kapı|Odaya girilen yer
+pencere|Işık ve hava giren açıklık
+merdiven|Basamak basamak çıkılır
+balkon|Evin dışa açılan çıkıntısı
+bahçe|Evin önündeki yeşil alan
+çatı|Evin üst örtüsü
+duvar|Odaları birbirinden ayırır
+tavan|Odanın üstü
+musluk|Suyu açıp kapatır
+havlu|Elimizi yüzümüzü kurular
+sabun|Köpürür, kir çıkarır
+tarak|Saçı düzeltir
+saat|Zamanı gösterir
+takvim|Günleri ve ayları gösterir
+televizyon|Kumandayla açılan ekran
+telefon|Uzaktakiyle konuşturur
+bilgisayar|Klavyesi ve ekranı olan makine
+kumanda|Kanal değiştirme aracı
+vazo|Çiçek konan kap
+çerçeve|Fotoğrafın konduğu kenarlık
+sehpa|Koltuğun önündeki alçak masa
+kilim|Düz dokuma yer yaygısı
+mutfak|Yemek pişirilen oda
+banyo|Yıkanılan oda
+terlik|Evde giyilen ayakkabı
+çekmece|Dolabın çekilerek açılan gözü
+kibrit|Çakınca yanar
+deniz|Tuzlu, dalgalı büyük su
+ırmak|Akarsu, nehir
+şelale|Yüksekten dökülen su
+orman|Ağaçlarla kaplı geniş alan
+ağaç|Gövdesi, dalları, yaprakları olur
+yaprak|Sonbaharda dökülür
+çiçek|Baharda açar, güzel kokar
+toprak|Tohumun ekildiği yer
+bulut|Gökyüzündeki pamuk yığını
+yağmur|Buluttan damla damla düşer
+şimşek|Gök gürültüsünden önce çakar
+fırtına|Şiddetli, yıkıcı rüzgâr
+gökkuşağı|Yağmurdan sonra çıkan yedi renk
+güneş|Gündüz bizi ısıtan yıldız
+yıldız|Gece gökte parlar
+gezegen|Güneş'in çevresinde dönen gök cismi
+dünya|Üzerinde yaşadığımız gezegen
+volkan|Lav püskürten dağ
+deprem|Yer sarsıntısı
+ada|Dört yanı suyla çevrili kara
+yarımada|Üç yanı suyla çevrili kara
+kumsal|Deniz kıyısındaki kumluk
+mağara|Dağın içindeki doğal oyuk
+tepe|Dağdan küçük yükselti
+ova|Geniş düzlük
+vadi|İki dağ arasındaki çukur alan
+buzul|Kutuplardaki dev buz kütlesi
+kırağı|Soğuk gecelerde yere düşen ince buz
+dolu|Buz taneleri hâlinde yağış
+ilkbahar|Kıştan sonra gelen mevsim
+sonbahar|Yaprakların döküldüğü mevsim
+papatya|Seviyor sevmiyor çiçeği
+lale|İstanbul'un simgesi çiçek
+menekşe|Mor renkli küçük çiçek
+karanfil|Yakaya takılan çiçek
+ayçiçeği|Yüzünü güneşe dönen çiçek
+kaktüs|Dikenli çöl bitkisi
+mantar|Şapkalı, yağmurdan sonra biter
+yosun|Nemli taşların yeşil örtüsü
+çimen|Parkların yeşil örtüsü
+öğretmen|Okulda ders verir
+doktor|Hastaları iyileştirir
+hemşire|Hastanede iğne yapar, hastaya bakar
+mühendis|Köprü, makine tasarlar
+avukat|Mahkemede savunma yapar
+yargıç|Mahkemede karar verir
+polis|Güvenliği sağlar
+asker|Vatanı korur
+pilot|Uçağı kullanır
+kaptan|Gemiyi yönetir
+şoför|Araç sürer
+aşçı|Yemek pişirir
+garson|Lokantada servis yapar
+fırıncı|Ekmek pişirir
+kasap|Et satar
+manav|Meyve sebze satar
+bakkal|Mahallenin küçük dükkânı
+berber|Saç sakal keser
+terzi|Elbise diker
+marangoz|Ahşaptan mobilya yapar
+çiftçi|Tarlayı eker biçer
+balıkçı|Ağ atar, olta sallar
+ressam|Tablo yapar
+heykeltıraş|Taşı yontup sanat eseri yapar
+yazar|Kitap kaleme alır
+şair|Şiir yazar
+gazeteci|Haber peşinde koşar
+oyuncu|Sahnede ya da filmde rol alır
+şarkıcı|Sahnede şarkı söyler
+müzisyen|Çalgı çalar
+dişçi|Dişleri tedavi eder
+eczacı|İlaç hazırlar ve satar
+veteriner|Hayvan doktoru
+mimar|Bina tasarlar
+postacı|Mektup dağıtır
+çoban|Sürüyü otlatır
+bahçıvan|Çiçeklere, ağaçlara bakar
+kuaför|Saç keser, boyar, şekil verir
+hakem|Maçı yönetir
+antrenör|Takımı çalıştırır
+astronot|Uzaya gider
+dalgıç|Su altına iner
+madenci|Yerin altından kömür çıkarır
+tamirci|Bozulanı onarır
+sekreter|Randevuları ayarlar
+kuyumcu|Altın alır satar
+okul|Öğrencilerin gittiği yer
+hastane|Hastaların tedavi edildiği yer
+eczane|İlaç alınan yer
+kütüphane|Kitap ödünç alınan yer
+müze|Tarihî eserlerin sergilendiği yer
+sinema|Dev perdede film izlenir
+tiyatro|Sahnede oyun izlenir
+stadyum|Maçların oynandığı yer
+market|Raflı, kasalı alışveriş yeri
+pazar|Tezgâhların kurulduğu alışveriş yeri
+lokanta|Yemek yenen işletme
+otel|Yolcuların konakladığı yer
+istasyon|Trenin durduğu yer
+liman|Gemilerin yanaştığı yer
+köprü|İki yakayı birleştirir
+cami|Minareli ibadet yeri
+kale|Surlarla çevrili savunma yapısı
+saray|Padişahların yaşadığı yapı
+şehir|Kalabalık yerleşim yeri
+kasaba|Köyden büyük, şehirden küçük
+mahalle|Sokaklardan oluşan semt parçası
+sokak|Evlerin sıralandığı dar yol
+cadde|Geniş, işlek yol
+meydan|Şehrin ortasındaki geniş açıklık
+fabrika|Seri üretim yapılan yer
+çiftlik|Hayvan beslenen, ekin ekilen yer
+değirmen|Buğdayın un olduğu yer
+banka|Para yatırılan kurum
+postane|Mektup ve kargo gönderilen yer
+karakol|Polisin görev yeri
+mahkeme|Davaların görüldüğü yer
+fakülte|Üniversitenin bölümü
+havuz|İçinde yüzülen yapay su birikintisi
+lunapark|Dönme dolaplı eğlence yeri
+tersane|Gemi yapılan yer
+kışla|Askerlerin kaldığı yer
+türbe|Önemli kişilerin anıt mezarı
+hamam|Göbek taşlı yıkanma yeri
+çarşı|Dükkânların sıralandığı yer
+garaj|Arabanın konduğu kapalı yer
+apartman|Çok katlı konut
+gökdelen|Bulutlara uzanan çok yüksek bina
+kulübe|Küçük, basit ev
+kulak|İşitme organı
+burun|Koku alma organı
+dudak|Ağzın iki kenarı
+yanak|Utanınca kızaran yer
+omuz|Kolun gövdeye bağlandığı yer
+dirsek|Kolun büküldüğü yer
+bilek|Saatin takıldığı yer
+parmak|Bir elde beş tane bulunur
+tırnak|Parmak ucundaki sert tabaka
+göğüs|Kalbin bulunduğu bölge
+mide|Yemeğin sindirildiği organ
+akciğer|Soluk alıp vermeyi sağlayan organ
+böbrek|Kanı süzen organ
+kemik|İskeleti oluşturur
+iskelet|Vücudun kemik çatısı
+bacak|Yürümeyi sağlayan uzuv
+topuk|Ayağın arka kısmı
+sakal|Erkeklerin çenesinde çıkar
+bıyık|Burnun altında çıkar
+kirpik|Göz kapağındaki kıllar
+ilaç|Hastalığı iyileştirir
+aşı|Hastalıktan koruyan iğne
+ateş|Hastayken yükselir, odun yanınca çıkar
+nezle|Burun akıtan soğuk algınlığı
+öksürük|Boğazı gıcıklayan hastalık belirtisi
+ameliyat|Cerrahın yaptığı işlem
+reçete|Doktorun yazdığı ilaç kâğıdı
+gözlük|Görmeyi düzelten camlı çerçeve
+gömlek|Yakalı, düğmeli üst giysi
+pantolon|İki paçalı alt giysi
+ceket|Takım elbisenin üst parçası
+kazak|Kışın giyilen örgü
+etek|Belden aşağı giyilir, paçası yoktur
+elbise|Tek parça giysi
+çorap|Ayakkabının içine giyilir
+ayakkabı|Dışarı çıkarken ayağa giyilir
+çizme|Yağmurda giyilen uzun konçlu ayakkabı
+şapka|Başa takılır, güneşten korur
+atkı|Boyna sarılır
+eldiven|Elleri sıcak tutar
+kemer|Pantolonu belde tutar
+kravat|Gömleğin yakasına bağlanır
+palto|Kışlık uzun üst giysi
+yağmurluk|Islanmamak için giyilir
+pijama|Yatarken giyilir
+önlük|Aşçının üstüne taktığı koruyucu
+düğme|İlikten geçer
+fermuar|Dişli giysi kapatıcısı
+yüzük|Parmağa takılan takı
+küpe|Kulağa takılan takı
+kolye|Boyna takılan takı
+bilezik|Bileğe takılan takı
+şemsiye|Yağmurda açılır
+cüzdan|Para ve kart taşınır
+çanta|Eşya taşımak için omza asılır
+mendil|Burun silinir
+kalem|Yazı yazma aracı
+silgi|Yanlışı yok eder
+defter|Çizgili ya da kareli olur
+kitap|Sayfaları çevrilerek okunur
+cetvel|Düz çizgi çizmeye yarar
+pergel|Çember çizer
+tahta|Öğretmenin yazı yazdığı yer
+tebeşir|Kara tahtaya yazar
+sınav|Bilgiyi ölçen yazılı
+ödev|Evde yapılan okul görevi
+karne|Dönem sonunda notları gösterir
+teneffüs|Ders arası
+sözlük|Kelimelerin anlamını verir
+harita|Ülkeleri kâğıt üstünde gösterir
+pusula|Kuzeyi gösterir
+mikroskop|Küçücük şeyleri büyütür
+teleskop|Yıldızlara bakılır
+mıknatıs|Demiri çeker
+deney|Laboratuvarda yapılan sınama
+sayı|Rakamlardan oluşur
+üçgen|Üç kenarlı şekil
+kare|Dört kenarı eşit şekil
+daire|Yuvarlak düzlem şekil
+alfabe|Harflerin tümü
+cümle|Kelimelerden oluşur, noktayla biter
+hece|Bir nefeste çıkan ses grubu
+nokta|Cümlenin sonuna konur
+virgül|Cümlede kısa duraklama işareti
+masal|Bir varmış bir yokmuş diye başlar
+şiir|Dizelerden oluşan yazı
+roman|Uzun soluklu edebî eser
+gazete|Günlük haber yayını
+dergi|Haftalık ya da aylık yayın
+mektup|Zarfla gönderilen yazı
+tarih|Geçmişi inceleyen bilim
+coğrafya|Yeryüzünü inceleyen bilim
+kimya|Maddeleri inceleyen bilim
+matematik|Sayılar ve işlemler bilimi
+resim|Boyayla yapılan sanat
+müzik|Notalarla yapılan sanat
+sıra|Sınıfta oturulan yer
+boya|Resme renk verir
+araba|Dört tekerlekli taşıt
+otobüs|Çok yolcu taşıyan kara taşıtı
+kamyon|Yük taşıyan büyük araç
+bisiklet|Pedalla giden iki tekerlekli
+motosiklet|Motorlu iki tekerlekli
+uçak|Havada yolcu taşır
+helikopter|Pervanesiyle havada asılı durur
+gemi|Denizde yolcu ve yük taşır
+vapur|İstanbul'da iki yakayı bağlar
+kayık|Kürekle giden küçük tekne
+yelkenli|Rüzgârla giden tekne
+denizaltı|Suyun altında giden gemi
+metro|Yer altında giden tren
+tramvay|Raylı şehir içi taşıt
+traktör|Tarlada çalışan araç
+ambulans|Hasta taşıyan sirenli araç
+taksi|Sarı renkli, ücretli yolcu arabası
+minibüs|Küçük otobüs, dolmuş
+roket|Uzaya fırlatılır
+kızak|Karda kayılır
+balon|Sıcak havayla yükselir
+tekerlek|Aracın dönen parçası
+direksiyon|Aracı yönlendirir
+benzin|Arabanın yakıtı
+bilet|Yolculuk için alınır
+bavul|Yolculukta eşya taşınır
+pasaport|Yurt dışına çıkış belgesi
+futbol|On bir kişiyle oynanan top oyunu
+basketbol|Potaya atış yapılan spor
+voleybol|Filenin üstünden top atılır
+tenis|Raketle oynanan spor
+yüzme|Havuzda yapılan spor
+güreş|Ata sporu
+satranç|Şah ve mat oyunu
+tavla|Zarla oynanan iki kişilik oyun
+madalya|Yarışta kazanana takılır
+kupa|Şampiyona verilir
+raket|Tenis topuna vurma aracı
+gitar|Altı telli çalgı
+piyano|Siyah beyaz tuşlu çalgı
+keman|Yayla çalınan dört telli çalgı
+davul|Tokmakla çalınan vurmalı çalgı
+zurna|Davulun yanındaki nefesli çalgı
+bağlama|Türk halk müziğinin telli sazı
+kaval|Çobanın üflediği çalgı
+şarkı|Sözlü müzik eseri
+türkü|Halk ezgisi
+konser|Canlı müzik dinletisi
+orkestra|Şefin yönettiği çalgı topluluğu
+uçurtma|Rüzgârda ipiyle uçurulur
+salıncak|Parkta sallanılır
+kaydırak|Parkta kayılır
+oyuncak|Çocukların oynadığı eşya
+bilmece|Cevabı bulunacak söz oyunu
+bulmaca|Karelere kelime yazılan oyun
+palyaço|Sirkin kırmızı burunlu güldürücüsü
+kukla|İple oynatılan bebek
+maske|Yüze takılır
+sevgi|Kalpten gelen güzel duygu
+mutluluk|Sevincin sürekli hâli
+üzüntü|Keder
+korku|Karanlıkta hissedilen duygu
+cesaret|Yiğitlik, korkusuzluk
+sabır|Beklemeyi bilmek
+umut|Geleceğe dair iyi beklenti
+rüya|Uykuda görülür
+arkadaş|Dost, yoldaş
+komşu|Yan evde oturan
+misafir|Eve gelen konuk
+aile|Anne, baba ve çocuklar
+kardeş|Aynı anne babanın çocukları
+dede|Babanın babası
+torun|Çocuğun çocuğu
+bebek|Yeni doğmuş çocuk
+düğün|Evlenme töreni
+bayram|Tatil ve kutlama günleri
+hediye|Doğum gününde verilir
+tatil|Okulların kapandığı dönem
+sabah|Günün ilk saatleri
+akşam|Güneşin battığı vakit
+gece|Karanlık vakit
+bugün|İçinde bulunduğumuz gün
+yarın|Bugünden sonraki gün
+hafta|Yedi gün
+cumartesi|Hafta sonunun ilk günü
+pazartesi|Haftanın ilk günü
+perşembe|Cumadan önceki gün
+haziran|Yazın ilk ayı
+ağustos|Yazın en sıcak ayı
+aralık|Yılın son ayı
+kırmızı|Bayrağımızın rengi
+sarı|Limonun rengi
+yeşil|Çimenin rengi
+mavi|Gökyüzünün rengi
+turuncu|Portakalın rengi
+beyaz|Karın rengi
+siyah|Kömürün rengi
+para|Alışverişte ödenir
+altın|Sarı, değerli maden
+gümüş|Beyaz, parlak değerli maden
+demir|Mıknatısın çektiği maden
+kömür|Yanan siyah maden
+bayrak|Ay yıldızlı olanı bizim
+vatan|Yurt
+millet|Ulus
+cumhuriyet|1923'te ilan edildi
+başkent|Ankara bunun örneği
+kelime|Harflerden oluşan anlamlı birim
+soru|Cevabı beklenir
+cevap|Sorunun karşılığı
+doğru|Yanlışın zıttı
+yalan|Gerçek olmayan söz
+şaka|Güldürmek için yapılır
+kahkaha|Sesli gülüş
+alkış|Beğenince el çırpma
+fotoğraf|Makineyle çekilen görüntü
+internet|Dünyayı saran bilgisayar ağı
+çekiç|Çivi çakar
+testere|Tahta keser
+tornavida|Vida sıkar
+çivi|Çekiçle çakılır
+kürek|Toprak ve kar atılır
+kazma|Toprağı kazar
+kova|Su taşınan kulplu kap
+hortum|Bahçe sulanır
+fener|Karanlıkta yol aydınlatır
+ampul|Lambanın ışık veren camı
+kablo|Elektriği taşır
+düdük|Hakemin çaldığı
+dürbün|Uzağı yakın gösterir
+kamera|Video çeker
+radyo|Sesli yayın dinlenir
+termos|Çayı sıcak tutar
+termometre|Sıcaklığı ölçer
+terazi|Ağırlık tartar
+sepet|Hasırdan örme taşıma kabı
+torba|Bez ya da naylon taşıma kabı
+kutu|İçine eşya konan kapaklı kap
+şişe|Suyun satıldığı kap
+kavanoz|Reçelin saklandığı cam kap
+`.trim().split('\n').map((satir) => { const [w, c] = satir.split('|'); return { w, c }; });
+
+/* ---------- Yardımcılar ---------- */
+const UNLU = 'aeıioöuüâîû';
+// Türkçe heceleme: iki ünlü arasındaki ünsüzlerin sonuncusu sonraki heceye geçer.
+function hecele(kelime) {
+  const h = [...kelime], cikti = [];
+  let su = '';
+  for (let i = 0; i < h.length; i++) {
+    su += h[i];
+    if (!UNLU.includes(h[i])) continue;
+    let j = i + 1;
+    while (j < h.length && !UNLU.includes(h[j])) j++;
+    if (j >= h.length) { su += h.slice(i + 1).join(''); cikti.push(su); su = ''; break; }
+    const kalan = Math.max(0, j - i - 2);
+    su += h.slice(i + 1, i + 1 + kalan).join('');
+    cikti.push(su); su = ''; i += kalan;
+  }
+  if (su) cikti.push(su);
+  return cikti;
+}
+const buyuk = (s) => s.replace(/i/g, 'İ').replace(/ı/g, 'I').toUpperCase();
+function rastgele(tohum) {
+  let a = tohum >>> 0;
+  return () => {
+    a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function karistir(dizi, rnd) {
+  const a = dizi.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function bugunNo() {
+  const d = new Date();
+  return Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - BASLANGIC) / 864e5) + 1;
+}
+const sureYaz = (ms) => { const s = Math.floor(ms / 1000); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+const $ = (id) => document.getElementById(id);
+
+/* ---------- Bulmaca üretimi ---------- */
+// Günlük bulmacada havuz her turda yeniden karılır; bir kelime tur bitmeden yinelenmez.
+function yeniOyun(tohum, gunluk) {
+  const sira = HAVUZ.map((_, i) => i);
+  let secim;
+  if (gunluk) {
+    const tur = Math.floor(HAVUZ.length / KELIME_SAYISI);
+    const g = tohum - 1, devir = Math.floor(g / tur), yer = ((g % tur) + tur) % tur;
+    secim = karistir(sira, rastgele(7919 + devir * 104729)).slice(yer * KELIME_SAYISI, (yer + 1) * KELIME_SAYISI);
+  } else {
+    secim = karistir(sira, rastgele(tohum)).slice(0, KELIME_SAYISI);
+  }
+  const rnd = rastgele(Math.imul(tohum, 2654435761) ^ 0x9E3779B9);
+  let kelimeler = secim.map((i) => ({ w: HAVUZ[i].w, c: HAVUZ[i].c, h: hecele(HAVUZ[i].w), gizli: false, cozuldu: false, hata: 0, ipucu: 0, acildi: false }));
+  // Gizli kelime en az üç heceli olsun; yoksa en uzunu.
+  const uzunlar = kelimeler.filter((k) => k.h.length >= 3);
+  const gizli = uzunlar.length ? uzunlar[Math.floor(rnd() * uzunlar.length)]
+    : kelimeler.reduce((a, b) => (b.w.length > a.w.length ? b : a));
+  gizli.gizli = true;
+  kelimeler = kelimeler.filter((k) => !k.gizli).concat(gizli);
+  let no = 0;
+  const fisler = karistir(kelimeler.flatMap((k) => k.h.map((h) => ({ id: ++no, h, yok: false }))), rnd);
+  return { surum: SURUM, gun: gunluk ? tohum : 0, gunluk, kelimeler, fisler, yuvalar: [], kilit: 0, aktif: 0, sure: 0, basladi: false, bitti: false, sayildi: false };
+}
+
+/* ---------- Kayıt ---------- */
+let depo = {};
+try { depo = JSON.parse(localStorage.getItem(ANAHTAR)) || {}; } catch (e) { depo = {}; }
+function kaydet() {
+  if (S.gunluk) depo.gunluk = S;
+  try { localStorage.setItem(ANAHTAR, JSON.stringify(depo)); } catch (e) { /* kayıt yoksa oyun yine çalışır */ }
+}
+
+let S = null;          // açık oyunun durumu
+let mesgul = false;    // doğru/yanlış canlandırması sürerken dokunuşlar beklesin
+
+function baslat() {
+  const gun = bugunNo();
+  const eski = depo.gunluk;
+  // Dünden yarım kalan oyun varsa bitirilebilsin; yoksa bugünün bulmacası açılır.
+  if (eski && eski.surum === SURUM && (eski.gun === gun || (eski.basladi && !eski.bitti))) S = eski;
+  else S = yeniOyun(gun, true);
+  mesgul = false;
+  kaydet();
+  ciz();
+  sureBaslat();
+}
+
+/* ---------- Oyun ---------- */
+const fisBul = (id) => S.fisler.find((f) => f.id === id);
+const aktifKelime = () => S.kelimeler[S.aktif];
+
+function aktifYap(i) {
+  const k = S.kelimeler[i];
+  if (!k || k.cozuldu) return;
+  S.aktif = i; S.yuvalar = []; S.kilit = 0;
+  if (k.ipucu >= 1) {
+    const f = S.fisler.find((x) => !x.yok && x.h === k.h[0]);
+    if (f) { S.yuvalar = [f.id]; S.kilit = 1; }
+  }
+}
+
+function fisTikla(id) {
+  if (mesgul || S.bitti) return;
+  const f = fisBul(id);
+  if (!f || f.yok) return;
+  const k = aktifKelime();
+  const yer = S.yuvalar.indexOf(id);
+  if (yer >= 0) {
+    if (yer < S.kilit) return;
+    S.yuvalar.splice(yer, 1);
+  } else {
+    if (S.yuvalar.length >= k.h.length) return;
+    S.yuvalar.push(id);
+  }
+  ilkHamle();
+  ciz();
+  if (S.yuvalar.length === k.h.length) kontrol();
+}
+
+function ilkHamle() {
+  if (!S.basladi) { S.basladi = true; sureBaslat(); }
+}
+
+function kontrol() {
+  const k = aktifKelime();
+  const secilen = S.yuvalar.map((id) => fisBul(id).h);
+  const anahtar = secilen.join('|');
+  let hedef = -1;
+  if (anahtar === k.h.join('|')) hedef = S.aktif;
+  else hedef = S.kelimeler.findIndex((x) => !x.cozuldu && x.h.join('|') === anahtar);
+
+  const yuvalar = $('yuvalar');
+  mesgul = true;
+  if (hedef >= 0) {
+    yuvalar.classList.add('tamam');
+    setTimeout(() => { mesgul = false; coz(hedef, false); }, 420);
+    return;
+  }
+  // Harfler tutuyor ama hece bölünüşü başka: hata sayılmaz.
+  const ayniHarfler = secilen.join('') === k.w;
+  if (!ayniHarfler) k.hata++;
+  else bildir('Kelime doğru, heceleri başka fişlerle kur');
+  yuvalar.classList.add('salla');
+  setTimeout(() => {
+    mesgul = false;
+    S.yuvalar = S.yuvalar.slice(0, S.kilit);
+    kaydet(); ciz();
+  }, 450);
+}
+
+function coz(i, acildi) {
+  const k = S.kelimeler[i];
+  let idler;
+  if (acildi) {
+    idler = [];
+    for (const h of k.h) {
+      const f = S.fisler.find((x) => !x.yok && !idler.includes(x.id) && x.h === h);
+      if (f) idler.push(f.id);
+    }
+  } else idler = S.yuvalar.slice();
+  idler.forEach((id) => { fisBul(id).yok = true; });
+  k.cozuldu = true; k.acildi = !!acildi;
+  S.yuvalar = []; S.kilit = 0;
+  const n = S.kelimeler.length;
+  let sonraki = -1;
+  for (let a = 1; a <= n; a++) { const j = (i + a) % n; if (!S.kelimeler[j].cozuldu) { sonraki = j; break; } }
+  if (sonraki < 0) bitir(); else aktifYap(sonraki);
+  kaydet(); ciz();
+}
+
+function ipucuVer() {
+  if (mesgul || S.bitti) return;
+  const k = aktifKelime();
+  ilkHamle();
+  if (k.ipucu === 0) { k.ipucu = 1; aktifYap(S.aktif); kaydet(); ciz(); }
+  else coz(S.aktif, true);
+}
+
+const puan = (k) => (k.acildi ? 0 : k.ipucu ? 1 : k.hata === 0 ? 3 : k.hata === 1 ? 2 : 1);
+const sinif = (k) => (k.acildi ? '' : k.ipucu ? 'ki' : 'k' + puan(k));
+const kareYaz = (k) => (k.acildi ? '⬛' : k.ipucu ? '🟦' : ['', '🟧', '🟨', '🟩'][puan(k)]);
+function notHesapla() {
+  const t = S.kelimeler.reduce((a, k) => a + puan(k), 0);
+  return t >= 17 ? 'Pekiyi' : t >= 13 ? 'İyi' : t >= 9 ? 'Orta' : 'Geçer';
+}
+
+function bitir() {
+  sureDurdur();
+  S.bitti = true;
+  if (S.gunluk && !S.sayildi) {
+    const k = depo.karne || (depo.karne = { oynanan: 0, seri: 0, enUzun: 0, pekiyi: 0, enIyi: 0, sonGun: 0 });
+    k.oynanan++;
+    k.seri = k.sonGun === S.gun - 1 ? k.seri + 1 : (k.sonGun === S.gun ? k.seri : 1);
+    k.enUzun = Math.max(k.enUzun, k.seri);
+    if (notHesapla() === 'Pekiyi') k.pekiyi++;
+    if (!k.enIyi || S.sure < k.enIyi) k.enIyi = S.sure;
+    k.sonGun = S.gun;
+    S.sayildi = true;
+  }
+}
+function guncelSeri() {
+  const k = depo.karne;
+  return k && k.sonGun >= bugunNo() - 1 ? k.seri : 0;
+}
+
+/* ---------- Süre ---------- */
+let tik = null, sonAn = 0, sayac = 0;
+function sureBaslat() {
+  if (tik || !S || S.bitti || !S.basladi || document.hidden) return;
+  sonAn = Date.now();
+  tik = setInterval(() => {
+    const simdi = Date.now();
+    S.sure += simdi - sonAn; sonAn = simdi;
+    $('sure').textContent = sureYaz(S.sure);
+    if (++sayac % 5 === 0) kaydet();
+  }, 1000);
+}
+function sureDurdur() {
+  if (!tik) return;
+  clearInterval(tik); tik = null;
+  S.sure += Date.now() - sonAn;
+}
+
+/* ---------- Çizim ---------- */
+function el(etiket, sinifAdi, metin) {
+  const e = document.createElement(etiket);
+  if (sinifAdi) e.className = sinifAdi;
+  if (metin != null) e.textContent = metin;
+  return e;
+}
+
+function ciz() {
+  const d = new Date(Date.UTC(1970, 0, 1) + BASLANGIC + (S.gun - 1) * 864e5);
+  $('gunEtiket').textContent = S.gunluk ? '#' + S.gun + ' · ' + d.getUTCDate() + ' ' + AYLAR[d.getUTCMonth()] : 'Alıştırma';
+  $('sure').textContent = sureYaz(S.sure);
+
+  // İpuçları
+  const liste = $('sorular');
+  liste.textContent = '';
+  S.kelimeler.forEach((k, i) => {
+    const li = el('li');
+    const b = el('button', 'soru' + (k.cozuldu ? ' cozuldu' : ''));
+    b.type = 'button'; b.dataset.i = i;
+    if (!S.bitti && i === S.aktif) b.setAttribute('aria-current', 'true');
+    b.append(el('span', 'no', k.gizli ? '★' : (i + 1) + '.'));
+    const ip = el('span', 'ipucu');
+    ip.append(el('span', '', k.gizli && !k.cozuldu ? 'Gizli kelime. Kalan hecelerden kur.' : (k.gizli ? 'Gizli kelime: ' : '') + k.c));
+    b.append(ip);
+    if (k.cozuldu) {
+      const c = el('span', 'cevap' + (k.acildi ? ' acildi' : ''), k.h.join('-'));
+      if (!k.acildi) c.append(el('b', '', '✓'));
+      b.append(c);
+    } else {
+      const a = el('span', 'adet');
+      a.setAttribute('aria-label', k.h.length + ' hece');
+      k.h.forEach(() => a.append(el('i')));
+      b.append(a);
+    }
+    li.append(b); liste.append(li);
+  });
+
+  $('oyun').hidden = S.bitti;
+  $('sonuc').hidden = !S.bitti;
+  if (S.bitti) { sonucCiz(); return; }
+
+  // Yuvalar
+  const k = aktifKelime();
+  const yuvalar = $('yuvalar');
+  yuvalar.className = 'yuvalar';
+  yuvalar.textContent = '';
+  k.h.forEach((_, j) => {
+    if (j) yuvalar.append(el('span', 'tire', '-'));
+    const y = el('div', 'yuva');
+    const id = S.yuvalar[j];
+    if (id) {
+      y.classList.add('dolu');
+      const f = el('button', 'fis' + (j < S.kilit ? ' kilitli' : ''), buyuk(fisBul(id).h));
+      f.type = 'button'; f.dataset.id = id;
+      if (j < S.kilit) f.setAttribute('aria-disabled', 'true');
+      y.append(f);
+    }
+    yuvalar.append(y);
+  });
+
+  // Fişler
+  const fisler = $('fisler');
+  fisler.textContent = '';
+  S.fisler.filter((f) => !f.yok).forEach((f) => {
+    const b = el('button', 'fis', buyuk(f.h));
+    b.type = 'button'; b.dataset.id = f.id;
+    b.setAttribute('aria-pressed', S.yuvalar.includes(f.id) ? 'true' : 'false');
+    fisler.append(b);
+  });
+
+  $('btnIpucu').textContent = k.ipucu ? 'Cevabı aç' : 'İpucu';
+}
+
+function sonucCiz() {
+  $('damga').textContent = notHesapla();
+  const kareler = $('kareler');
+  kareler.textContent = '';
+  S.kelimeler.forEach((k) => {
+    if (k.gizli) kareler.append(el('span', '', '+'));
+    kareler.append(el('i', sinif(k)));
+  });
+  const bilgi = $('sonucBilgi');
+  bilgi.textContent = '';
+  bilgi.append('Süre ', el('b', '', sureYaz(S.sure)));
+  if (S.gunluk) bilgi.append(' · Seri ', el('b', '', guncelSeri() + ' gün'));
+  $('btnPaylas').hidden = !S.gunluk;
+  $('btnAlistirma').textContent = S.gunluk ? 'Alıştırma oyna' : 'Bir tane daha';
+  $('btnGunluk').hidden = S.gunluk;
+  $('paylasMetin').hidden = true;
+  geriSayimCiz();
+}
+
+function geriSayimCiz() {
+  const s = new Date(), yarin = new Date(s.getFullYear(), s.getMonth(), s.getDate() + 1);
+  const kalan = Math.max(0, Math.floor((yarin - s) / 1000));
+  const iki = (n) => String(n).padStart(2, '0');
+  $('geriSayim').textContent = iki(Math.floor(kalan / 3600)) + ':' + iki(Math.floor(kalan / 60) % 60) + ':' + iki(kalan % 60);
+}
+setInterval(() => {
+  if (!S || !S.bitti) return;
+  if (S.gunluk && S.gun !== bugunNo()) { baslat(); return; }   // gece yarısı geçti, yeni bulmaca
+  geriSayimCiz();
+}, 1000);
+
+function karneCiz() {
+  const k = depo.karne || {};
+  $('kOynanan').textContent = k.oynanan || 0;
+  $('kSeri').textContent = guncelSeri();
+  $('kEnUzun').textContent = k.enUzun || 0;
+  $('kPekiyi').textContent = k.pekiyi || 0;
+  $('kEnIyi').textContent = k.enIyi ? sureYaz(k.enIyi) : '–';
+}
+
+/* ---------- Paylaşım ve bildirim ---------- */
+function paylasMetni() {
+  const kareler = S.kelimeler.map((k) => (k.gizli ? '+' : '') + kareYaz(k)).join('');
+  let adres = ADRES;
+  if (!adres && window.top === window.self && /^https?:$/.test(location.protocol)) adres = location.origin + location.pathname;
+  return ['Hecemece #' + S.gun + ' · ' + notHesapla(), kareler, '⏱ ' + sureYaz(S.sure) + '  🔥 ' + guncelSeri()]
+    .concat(adres ? [adres] : []).join('\n');
+}
+async function paylas() {
+  const metin = paylasMetni();
+  if (navigator.share && window.top === window.self && /Android|iPhone|iPad|Mobi/i.test(navigator.userAgent)) {
+    try { await navigator.share({ text: metin }); return; }
+    catch (e) { if (e && e.name === 'AbortError') return; }
+  }
+  try { await navigator.clipboard.writeText(metin); bildir('Sonuç kopyalandı, istediğin yere yapıştır'); }
+  catch (e) {
+    const t = $('paylasMetin');
+    t.hidden = false; t.value = metin; t.focus(); t.select();
+    bildir('Metni seçip kopyala');
+  }
+}
+let bildirimSayaci = null;
+function bildir(metin) {
+  const b = $('bildirim');
+  b.textContent = metin; b.hidden = false;
+  clearTimeout(bildirimSayaci);
+  bildirimSayaci = setTimeout(() => { b.hidden = true; }, 2600);
+}
+
+/* ---------- Olaylar ---------- */
+$('sorular').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-i]');
+  if (!b || mesgul || S.bitti) return;
+  aktifYap(+b.dataset.i); ciz();
+});
+$('fisler').addEventListener('click', (e) => { const b = e.target.closest('[data-id]'); if (b) fisTikla(+b.dataset.id); });
+$('yuvalar').addEventListener('click', (e) => { const b = e.target.closest('[data-id]'); if (b) fisTikla(+b.dataset.id); });
+$('btnIpucu').addEventListener('click', ipucuVer);
+$('btnKaristir').addEventListener('click', () => {
+  if (mesgul) return;
+  S.fisler = karistir(S.fisler, Math.random); kaydet(); ciz();
+});
+$('btnSil').addEventListener('click', () => {
+  if (mesgul) return;
+  S.yuvalar = S.yuvalar.slice(0, S.kilit); ciz();
+});
+$('btnPaylas').addEventListener('click', paylas);
+$('btnAlistirma').addEventListener('click', () => {
+  sureDurdur();
+  S = yeniOyun(Math.floor(Math.random() * 2147483646) + 1, false);
+  ciz(); window.scrollTo(0, 0);
+});
+$('btnGunluk').addEventListener('click', () => { sureDurdur(); baslat(); });
+$('btnNasil').addEventListener('click', () => $('dlgNasil').showModal());
+$('btnKarne').addEventListener('click', () => { karneCiz(); $('dlgKarne').showModal(); });
+document.querySelectorAll('dialog').forEach((d) => {
+  d.addEventListener('click', (e) => { if (e.target === d || e.target.closest('[data-kapat]')) d.close(); });
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Backspace' || !S || S.bitti || mesgul || document.querySelector('dialog[open]')) return;
+  if (S.yuvalar.length > S.kilit) { S.yuvalar.pop(); ciz(); }
+});
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) { sureDurdur(); if (S) kaydet(); return; }
+  // Sekmeye dönüldüğünde gün değiştiyse ve oyun yarım değilse yeni bulmaca açılır.
+  if (S && S.gunluk && S.gun !== bugunNo() && (S.bitti || !S.basladi)) baslat();
+  else sureBaslat();
+});
+
+window.Hecemece = { durum: () => S, havuz: HAVUZ, hecele, yeniOyun };
+
+baslat();
+if (!depo.nasil) {
+  depo.nasil = true; kaydet();
+  $('dlgNasil').showModal();
+}
+})();
+</script>
+</body>
+</html>

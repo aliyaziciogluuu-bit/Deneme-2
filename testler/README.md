@@ -29,6 +29,7 @@ for f in testler/*.js; do node "$f" || break; done
 | `paket2.js` | Hafta sonu makası, bekleyen müşteri alarmı ve WhatsApp mesajı, dökümde yorum/yol bağlantısı, kartı açılmış gram altın |
 | `paket3.js` | Makas uyarısı (kur tablosu, form), pozisyon sınırları, yıl sonu envanter listesi (paylaşım, CSV), vitrin ekranında yön okları |
 | `paket4.js` | Sepet (toplu işlem, geri al), sarrafiye stoku (yeni/eski tarihli), ayar dönüştürücü, hurda altın günlüğü, ana ekran kısayolları, tema ve renk |
+| `hecemece.js` | Hecemece (`hecemece/index.html`): günlük bulmacanın herkese aynı gelmesi, doğru/yanlış/ipucu/cevap akışı, not ve paylaşım metni, karne ve seri, yarım oyunun saklanması, alıştırma |
 
 Yayın notu: her yayında `doviz-kasasi.html` başındaki `surum` etiketinin değerini değiştirin; açık duran uygulama yeni
 sürümü bu değerle fark edip “Yenile” uyarısını gösterir.

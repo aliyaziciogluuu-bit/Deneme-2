@@ -108,3 +108,20 @@ emir listesini hazırlar. İsteğe bağlı olarak, Windows'ta Matriks IQ açıkk
 aracı kuruma kendisi gönderir. Kurulum, geçmiş testi sonuçları ve riskler için
 [`borsa-bot/README.md`](borsa-bot/README.md) dosyasına bakın. Panel: sayfa adresinizin sonuna
 `borsa-bot/web/` ekleyin.
+
+## Hecemece — günlük hece bulmacası
+
+`hecemece/` klasörü öteki iki araçtan bağımsız, tek dosyalık bir kelime oyunudur. Her gün herkese aynı 6 kelime gelir:
+beşinin ipucu yazar, altıncısı gizlidir ve elde kalan hecelerden çıkarılır. Oyuncu hece fişlerine dokunarak kelimeyi kurar;
+yuvalar dolunca kelime kendiliğinden kontrol edilir.
+
+- **Not ve paylaşım:** bulmaca bitince Pekiyi / İyi / Orta / Geçer notu verilir; “Sonucu paylaş” renkli kareleri, süreyi ve
+  gün serisini kelimeleri ele vermeden paylaşır.
+- **İpucu:** ilk basışta ilk heceyi yerine koyar, ikinci basışta cevabı açar; ikisi de notu düşürür.
+- **Karne:** çözülen bulmaca, gün serisi, en uzun seri, Pekiyi sayısı, en iyi süre. Yalnızca o cihazda saklanır.
+- **Alıştırma:** günün bulmacası bitince rastgele bulmacalarla devam edilir; karneyi etkilemez.
+- **Kelime havuzu:** `index.html` içindeki `HAVUZ` listesi (`kelime|ipucu`, 540 kelime, 90 günde bir tur). Heceler
+  kendiliğinden ayrılır; yeni kelime eklemek için satır eklemek yeter. Tek heceli kelime konmaz.
+- **Paylaşılan adres:** sonuca sayfanın kendi adresi eklenir; başka bir adres için dosyanın başındaki `ADRES` doldurulur.
+
+Açmak için sayfa adresinizin sonuna `hecemece/` ekleyin. Sınaması: `testler/hecemece.js`.
