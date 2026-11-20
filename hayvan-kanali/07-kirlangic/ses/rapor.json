@@ -240,10 +240,11 @@
  },
  "034": {
   "yazi": "Uluslararası bir kaynağa göre, kır kırlangıcının üreme bölgelerinde besininin yaklaşık yüzde yetmişi iri sinek.",
-  "duyulan": "Uluslararası bir kaynağa göre kırkırlangıcının üreme bölgelerinde besininin yaklaşık yüzde 70'i irisinek.",
+  "duyulan": "Uluslararası bir kaynağa göre kırkırlangıcının üreme bölgelerinde besininin yaklaşık yüzde 70'i iri sinek.",
   "hata": 0,
-  "sure": 6.84,
-  "uygun": true
+  "sure": 7.4,
+  "uygun": true,
+  "tek_basina": true
  },
  "035": {
   "yazi": "Bir Türkçe makale, yavrulara getirilen besinlerin tarım ilacı nedeniyle zehirli olma ihtimalini sorunlar arasında sayıyor.",
