@@ -143,3 +143,23 @@ Bugün açılan ve `kaynaklar/` altına kaydedilen sayfalar: en.wikipedia.org Jo
 | 7, 15 | Vaat ("öfkenin yıllarca sürdüğü") ve "Peki bu öfke ne kadar sürüyor?" | yok | 17-18'e bağlı | YOK (17-18 ile birlikte karar verilmeli) |
 
 Not: K1, K5, K7, K8, K9, K10, K13 de bu oturumda açılamadı ("özetten"); yukarıdaki tabloda ele alınmadı, ayrı karar gerekir.
+
+
+## Ağ izni sonrası (20 Kasım 2026): üç kaynak AÇILDI
+
+Ağ izni (urban.uw.edu, www.audubon.org, digital.lib.washington.edu) verildi; üç sayfa curl ile açıldı (200) ve `kaynaklar/` altına kaydedildi. Açılan sayfa dışında alıntı yok.
+- K4 = https://urban.uw.edu/news/crows-hold-grudges-against-individual-humans-for-up-to-17-years ("Crows hold grudges against individual humans for up to 17 years | Urban@UW"; yayın 8 Kasım 2024; "Reported by Eric Falls for Earth.com", yani yeniden yayımlanan haber), kaynaklar/urban-uw-17-yil.txt
+- K6 = https://www.audubon.org/magazine/seattle-girl-befriends-neighborhood-crows-making-bird-lovers-everywhere-jealous ("Seattle Girl Befriends Neighborhood Crows, Making Bird Lovers Everywhere Jealous | Audubon"), kaynaklar/audubon-seattle-girl.txt
+- K3 = https://digital.lib.washington.edu/researchworks/handle/1773/33178 ("Wild American crows use funerals to learn about danger"). DİKKAT: sayfa Animal Behaviour makalesi değil, Kaeli N. Swift'in 2015 UW yüksek lisans tezidir (Thesis (Master's)--University of Washington, 2015; danışman Marzluff). Künye tez olarak yazıldı; "Animal Behaviour 109: 187–197" sayfada geçmediği için künyeye girmedi. kaynaklar/uw-researchworks-swift-2015.txt
+
+| cümle no | cümle | kaynak | sayfadaki alıntı | durum |
+|---|---|---|---|---|
+| 4 | ... maskeyle yedi karga yakalayıp bıraktı. | K4 | "initiated the study by donning a fearsome mask and temporarily trapping seven crows. He identified them with leg rings before their safe release." | TAMAM (önceki KISMEN kalktı) |
+| 17 | Yaklaşık on yedi yıl sonra, iki bin yirmi üç eylülünde, Marzluff maskeyle yeniden yürüdü. | K4 | "By September 2023 — 17 years since the experiment began — not a single scolding crow was heard on one of Marzluff's masked walks." | TAMAM (başlıkta da "up to 17 years") |
+| 18 | Bir yürüyüşte hiçbir karga ona bağırmadı; öfke yıllarca sürmüş, ama sonunda sönmüş görünüyor. | K4 | "The climax of this fascinating study came in 2013 when the number of aggressive caws reached their peak, only to gradually decrease." + yukarıdaki 2023 alıntısı | TAMAM ("görünüyor" ve "bir yürüyüşte" çekinceleri korunmalı; sayfa tek yürüyüşü bildiriyor) |
+| 19 | Amerikan kargaları ölü bir karganın çevresine toplanıyor; bilim insanları bunun tehlikeyi öğrenmek için olabileceğini düşünüyor. | K3 | "wild American crows (Corvus brachyrhynchos) are using funeral gatherings as an opportunity to engage in social learning" ve başlık "Wild American crows use funerals to learn about danger" | TAMAM (tez özeti; "bilim insanları" = tez yazarı/danışman) |
+| 20 | Ölü bir karganın yanında duran maskeli kişiye, kargalar sonraki günlerde de bağırdı. | K3 | "Novel humans paired with a dead crow ... evoked mobbing"; "crows use proximity to ... dead conspecifics ... as a cue to learn and subsequently scold the associated human after only 1 training event, and that this association could last 6 weeks." | TAMAM, ama "sonraki günlerde" yerine sayfadaki süre "6 hafta"; "3 d" ifadesi kaçınma (yiyecekten uzak durma) için, bağırma için değil. Öneri (patron kararı): "sonraki haftalarda da" |
+| 21 | Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi. | K3 | "pairing with a dead pigeon did not [evoke mobbing and decreased foraging]" | TAMAM |
+| 23 | Seattle'da sekiz yaşında bir kız, bahçesine gelen kargaları yıllarca besledi. | K6 | "Seattle-native Gabi Mann ... she's only 8-years old." / "It all started two years ago, when Gabi began feeding local flocks of crows." | KISMEN: "sekiz yaşında" TAMAM; "yıllarca" yerine sayfada "two years" (iki yıl). Öneri: "iki yıldır besliyor" ya da "uzun süredir besledi" (videoda değişiklik patron kararı) |
+| 24 | Anlatılanlara göre kargalar ona düğme, taş ve küpe gibi küçük şeyler bıraktı. | K6 | "they leave her gifts—shiny baubles like polished sea-glass, and odder trinkets, like a rusty screw or tube of chapstick." | KISMEN/YOK ayrıntıda: düğme, taş, küpe sayfada geçmiyor. Öneri: "deniz camı, paslı vida, dudak kremi tüpü gibi küçük şeyler" (K21 Corvus sayfası da aynı üç nesneyi verir) ya da yalnızca "küçük şeyler" |
+| 25 | Marzluff, hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş. | K6 | "John Marzluff ... said in an interview with the BBC, "I can't say they always will [give presents], but I have seen an awful lot of things crows have brought people."" | TAMAM (önceki ZAYIF notu kalktı) |

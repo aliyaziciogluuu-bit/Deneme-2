@@ -54,3 +54,8 @@ TESLİM EDİLDİ: teslim.py ile teslim/06-karga (19 Kasım).
 - Kaynak arşivcisi: Audubon yerine Vikipedi "Corvus" konuldu; diğer ikisinin açık eşdeğeri bulunamadı, listeden çıkarıldı (senaryo.json, yukleme.txt, teslim/06-karga/karga-yukleme.txt). Cümle 17–21 (17 yıl, 2023 yürüyüşü, ölü karga) açılmış kaynaksız kaldı; başlık "17 Yıl" içeriyor.
 - Bilgi gerçek: bilgi kontrolcüsü Tur 3'te birden çok haber kaynağıyla (web araması) teyit etti. Sorun ağ izni.
 - Karar kanal sahibinde: (A) üç alan adına ağ izni → sayfalar açılıp kaynaklar geri eklenir; (B) bu üç bilgi için web araması teyidi kabul edilir; (C) 17 yıl ve ölü karga cümleleri çıkarılır, başlık değişir, video yeniden üretilir.
+
+## Kaynak arşivcisi, ağ izni sonrası (20 Kasım)
+- Üç alan adı açıldı (200): urban.uw.edu, www.audubon.org, digital.lib.washington.edu. Sayfalar kaynaklar/ altına kaydedildi; senaryo.json, yukleme.txt ve teslim/06-karga/karga-yukleme.txt'e sayfa başlığıyla geri eklendi (Vikipedi satırları kaldı).
+- Cümle 17, 18, 19, 21 ve 25 TAMAM, 20 TAMAM (süre 6 hafta). Cümle 23 ("yıllarca": sayfada iki yıl) ve 24 (düğme, taş, küpe geçmiyor) KISMEN: video yayında/teslimde, düzeltme kararı patronda.
+- Digital.lib sayfası Animal Behaviour makalesi değil, Swift 2015 yüksek lisans tezi; künye tez olarak yazıldı.
