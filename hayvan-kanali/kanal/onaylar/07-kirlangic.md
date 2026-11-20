@@ -9,3 +9,8 @@
 - Bulgular: vaat genel (3 madde); 0:46–1:38 kuru bölge; en şaşırtıcı bilgi (48 yıllık yuva) 2:13'te; göç ve tür bölümleri 40 sn'yi aşıyor; "Peki" 8, "sık sık" 4, "kaynaklara göre" 4 kez; 054–056 tür genellemesi; Shorts ilk cümleleri başlığı cevaplamıyor; küçük resim A ana başlıkla uyumsuz, B öneriliyor.
 - Fabrika kazancı: bu bulgular seslendirme ve görselden ÖNCE yakalandı (önceki videolarda yeniden üretim gerektiriyordu).
 - metin_kontrol'e tekrar eden kalıp uyarısı eklendi (aynı açılış >4, aynı çekince >3).
+
+## Kaynak arşivi (20 Kasım)
+- 9/9 kaynak açıldı ve kaynaklar/ altına arşivlendi; bütün alıntılar arşiv metninde birebir; künyeler sayfadan (Per 2016 yazar yazımı ve K2 başlığı düzeltildi).
+- Dayanaksız: 039 (yuvanın altını silmek). Kısmen: 009, 018, 030, 036, 051, 054, 062–063. Çelişki: tr/en Vikipedi kuluçka bilgisi.
+- Senarist Tur 2: editör ve arşivci bulguları birlikte verildi.
