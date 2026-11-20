@@ -38,3 +38,10 @@
 
 ## Yapımcı istemleri (20 Kasım)
 - gorseller.json: 25 görsel, 55 aday (~3,30 $); klipler.json: 7 klip (~2,45 $). Toplam ~5,75 $ + seslendirme ~0,5 $. Ücretli üretim kanal sahibinin Pazartesi (23 Kasım) kararına bağlı.
+
+## Son denetimler (20 Kasım)
+- Kalite kontrol (Tur 1): ONAY. Puan: ses 8, gorsel 7, teknik 4. Bulgular: kapak alt yazısı halka vaadi + başlığı tekrar; kapak_C = kapak.jpg kopyası; 4:30–4:42 altyazı yavruya biniyor; s2 ilk karede kuş kesik; s2 etiket üst yazıya yapışık. Hepsi düzeltildi.
+- Metin editörü (Tur 1): RET. Puan: kanca 8, anlatim 8, baslik 6, shorts 7. Gerekçeler: açıklamada üretim notu, RSPCA sayfa başlığı, kapak alt yazısı ve dosya karışıklığı, s1 tekrar, cümle 3/21/30. Hepsi düzeltildi.
+- Metin editörü (Tur 2): ONAY. Puan: kanca 8, anlatim 8, baslik 8, shorts 8.
+- Seslendirme yönetmeni: farkların çoğu ses tanıma yazımı; dinleme listesi: s1 sn 1–2 "kır kırlangıçları", uzun 0:00 "saçağa", 5:34 "siğil", 1:39 "ineğin".
+- Son kontrol: uzun 64/64 (1/723 kelime farkı), s1 6/6, s2 7/7 GEÇTİ.
