@@ -22,3 +22,8 @@
 ## Metin editörü ön denetim Tur 2 (20 Kasım)
 - Karar: ONAY (ön). Tahmini puan: kanca 8, anlatim 8, baslik 8, shorts 7 (Tur 1: 6, 7, 6, 5).
 - Öneriler (bilgi onayından sonra senariste birlikte verilecek): "Yuvanın sahipleri" bölümünü güvenlik bloğundan önceye taşı, 10–15 yıl tekrarını çıkar; 034–038 dağınık grubu topla; 036 kısalt; açıklama ilk satırı "yuvaya"; s2'den kuluçka cümlesini çıkar.
+
+## Bilgi kontrolü Tur 1 (20 Kasım)
+- Karar: RET. Puan: doğruluk 7, güvenlik 6. Bütün sayılar arşivle birebir.
+- Bulgular: küçük resim B ters yönde ("AFRİKA'DAN GELDİ" → kuş Afrika'ya gitti); vaatte "48 yıl" çekincesi düşmüş; birkaç cümlede tür adı düşmüş (genelleme); "başka ülkelerde ölçüm" kaynakta yok; yavru güvenliğinde eldiven tutmadan SONRA (TEKRARLANAN KUSUR, yarasa dersi), hasta kuşa dokunma çelişkisi, çocuk/evcil hayvan uyarısı ve pislik hijyeni yok; K9 bağlanmamış, iki makalenin sayfa aralığı doğrulanamadı.
+- Senarist Tur 3: bilgi kontrolü + editör önerileri birlikte.
