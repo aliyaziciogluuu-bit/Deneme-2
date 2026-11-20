@@ -23,6 +23,7 @@ for f in testler/*.js; do node "$f" || break; done
 | `iade.js` | Satış iadesi: kârın geri alınması, stok ve kasa, kısmi iade, silme/düzenleme koruması |
 | `veri-koruma.js` | Okunamayan kaydın ezilmemesi, ham kaydı indirme, okunabilenlerle devam, depolama dolu uyarısı |
 | `paket1.js` | Eski fiyat uyarısı, tek altın fiyatı, belge no, hesap dökümü, büyük tutar ve açıklayıcı bildirim, doğrudan kasaya işleme, kayıp kaydı, yedek |
+| `makas.js` | Alım-satım kârının makas kârı ve fiyat farkı olarak ayrılması (eski kayıtlar, düzenleme, iade, analiz) |
 
 Yayın notu: her yayında `doviz-kasasi.html` başındaki `surum` etiketinin değerini değiştirin; açık duran uygulama yeni
 sürümü bu değerle fark edip “Yenile” uyarısını gösterir.

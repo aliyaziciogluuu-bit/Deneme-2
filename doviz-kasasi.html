@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.8">
+<meta name="surum" content="2026-11-20.9">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -587,7 +587,10 @@
     #txBody tr, #balBody tr { padding: 12px 16px; }
     .stat:not(.main) { padding: 14px 16px; }
     .daystats > div, .count-sum > div { padding: 12px 16px; }
-    .hero > .v { font-size: 36px; }
+    .hero > .v { font-size: 34px; }
+    .hero { padding: 14px 18px 10px; margin-bottom: 12px; }
+    .hero-row { margin-top: 8px; padding-top: 8px; }
+    .hero .alt { min-height: 0; }
   }
 
   /* Yeni görünüm: ince ayarlar */
@@ -660,6 +663,9 @@
   .receipt .paper::after { content: "BELGE DEĞİLDİR"; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(-24deg);
                            font: 800 46px/1 system-ui, sans-serif; color: rgba(179, 64, 46, .08); white-space: nowrap; pointer-events: none; }
   td.actions { gap: 6px; }
+
+  .hero .split { font-size: 14.5px; font-weight: 600; color: var(--muted); min-height: 0; }
+  .hero .split:empty { display: none; }
 </style>
 </head>
 <body>
@@ -713,6 +719,7 @@
     <div class="k">Bugünkü kâr</div>
     <div class="v amt" id="mToday">₺0,00</div>
     <div class="alt amt" id="mTodayAlt"></div>
+    <div class="split amt" id="mSplit"></div>
     <div class="hero-row"><span>TL kasası</span><b class="v amt" id="mTL">₺0,00</b></div>
   </div>
 
@@ -1245,7 +1252,7 @@
       <div><div class="k">Net kâr (TL)</div><div class="v amt" id="dNet">₺0,00</div></div>
       <div><div class="k">Net kâr (dolar)</div><div class="v amt" id="dNetUsd">—</div></div>
       <div><div class="k">Net kâr (has altın)</div><div class="v amt" id="dNetHas">—</div></div>
-      <div><div class="k">Alım-satım kârı</div><div class="v amt" id="dProfit">₺0,00</div></div>
+      <div><div class="k">Alım-satım kârı</div><div class="v amt" id="dProfit">₺0,00</div><div class="alt amt" id="dProfitAlt"></div></div>
       <div><div class="k">Masraf</div><div class="v amt" id="dExp">₺0,00</div></div>
       <div><div class="k">Alış toplamı</div><div class="v amt" id="dBuy">₺0,00</div></div>
       <div><div class="k">Satış toplamı</div><div class="v amt" id="dSell">₺0,00</div></div>
@@ -1535,6 +1542,7 @@
       if (t.cari) o.cari = String(t.cari).slice(0, 60);   // cari hareket: kişi adı
       if (t.exp && isCash(t.cur) && t.type === 'out') o.exp = true;   // masraf: net kârdan düşülür
       if (t.doc) o.doc = String(t.doc).slice(0, 30);                    // resmî belge no (elle yazılır)
+      if (t.ref && t.type === 'out' && !isCash(t.cur) && posOrNull(t.ref)) o.ref = Number(t.ref);   // satış anındaki alış kurunuz
       if (t.loss && t.type === 'out' && !isCash(t.cur)) o.loss = true;   // kayıp: maliyeti kârdan düşer
       if (t.ret && t.type === 'in' && !isCash(t.cur)) {                 // iade: hangi satışın iadesi, satıştaki birim maliyet
         o.ret = String(t.ret);
@@ -1622,7 +1630,18 @@
                  'Gerekirse Rapor bölümünden kilidi açın.' : '';
   }
   // Kasa işlemlerini değiştirmeden önce: önce gün sonu kilidi, sonra stok denetimi
+  // Yeni satışlara o anki kendi alış kurunuz yazılır: makas kârı = satış kuru − bu kur (fark, fiyat değişiminden gelir)
+  function stampRefs(next) {
+    var known = {};
+    state.tx.forEach(function (t) { known[t.id] = true; });
+    next.forEach(function (t) {
+      if (known[t.id] || t.type !== 'out' || isCash(t.cur) || t.adj || t.cari || t.loss || t.ref > 0) return;
+      var r = suggested(t.cur, 'in');
+      if (r) t.ref = r;
+    });
+  }
   function validate(next) {
+    stampRefs(next);
     var e = lockError(next);
     return e ? { error: e, locked: true } : compute(next);
   }
@@ -1751,11 +1770,14 @@
     var stats = {};  // varlık × ay: alış/satış miktarı ve tutarı, kâr, işlem sayısı (kâr analizi için)
     function statOf(c, date) {
       var m = stats[c] || (stats[c] = {}), ym = date.slice(0, 7);
-      return m[ym] || (m[ym] = { buyQty: 0, buyTL: 0, sellQty: 0, sellTL: 0, profit: 0, n: 0 });
+      return m[ym] || (m[ym] = { buyQty: 0, buyTL: 0, sellQty: 0, sellTL: 0, profit: 0, n: 0, spread: 0 });
     }
-    var rep = day ? { open: null, close: null, assets: {}, tlIn: 0, tlOut: 0, buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 } : null;
+    var rep = day ? { open: null, close: null, assets: {}, tlIn: 0, tlOut: 0, buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0,
+                      spread: 0, hold: 0 } : null;
+    // Makas kârı için: varlık başına son alış kuru ve her satışın referans kuru
+    var lastBuy = {}, saleRef = {};
     function dayOf(date) {
-      return days[date] || (days[date] = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 });
+      return days[date] || (days[date] = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0, spread: 0, hold: 0 });
     }
     function snap() {
       var s = { tl: tl, bal: {} };
@@ -1810,7 +1832,9 @@
         a.realized -= back;
         tl -= total;
         D.profit -= back;
-        R.n++; R.sellQty -= t.amount; R.sellTL -= total; R.profit -= back;
+        var rm = t.amount * (t.rate - (saleRef[t.ret] || t.basis));   // iade edilen kısmın makas payı
+        D.spread -= rm; D.hold -= back - rm;
+        R.n++; R.sellQty -= t.amount; R.sellTL -= total; R.profit -= back; R.spread -= rm;
         if (d) { d.inn += t.amount; d.sold = true; d.profit -= back; }
         return;
       }
@@ -1823,6 +1847,7 @@
         D.buyTL += total;
         S.buyQty += t.amount;
         S.buyTL += total;
+        lastBuy[t.cur] = t.rate;
         if (d) d.inn += t.amount;
       } else {
         var avg = a.bal > EPS ? a.cost / a.bal : 0;
@@ -1834,9 +1859,14 @@
         if (Math.abs(a.bal) < EPS) { a.bal = 0; a.cost = 0; }
         D.sellTL += total;
         D.profit += profit;
+        // Makas: satış kuru − satış anındaki alış kurunuz (eski kayıtlarda son alış kuru). Kalanı fiyat farkı.
+        var ref = t.ref > 0 ? t.ref : (lastBuy[t.cur] || avg), spread = t.amount * (t.rate - ref);
+        saleRef[t.id] = ref;
+        D.spread += spread; D.hold += profit - spread;
         S.sellQty += t.amount;
         S.sellTL += total;
         S.profit += profit;
+        S.spread += spread;
         if (d) { d.out += t.amount; d.sold = true; d.profit += profit; }
       }
     });
@@ -2000,6 +2030,7 @@
     $('sToday').textContent = fmtSigned(netToday);
     $('sToday').className = 'value amt ' + signClass(netToday);
     var todayAlt = altText([{ date: today(), net: netToday }], true);
+    $('mSplit').textContent = splitText(res.day, 'Makastan ', ' · fiyat farkından ');
     $('sTodaySub').textContent = res.day.count + ' işlem' + (res.day.expense > EPS ? ' · masraf ' + fmtTL(res.day.expense) : '') +
       (todayAlt ? ' · ' + todayAlt : '');
     $('mTodayAlt').textContent = todayAlt;
@@ -2203,8 +2234,14 @@
 
   // ---------- Gün sonu ----------
   var reportMode = 'day';   // 'day': gün sonu özeti, 'month': aylık rapor
-  var ALT_NOTE = ' Dolar ve has karşılığı, kârın o günkü satış kurunuza bölünmesiyle bulunur; kur kaydı olmayan eski günlerde bugünkü kur kullanılır.';
+  var ALT_NOTE = ' Makas kârı: satış kuru ile satış anındaki kendi alış kurunuz arasındaki fark (eski kayıtlarda son alış kurunuz); ' +
+    'fiyat farkı: elinizdeki malın siz tutarken değer kazanması ya da kaybetmesi. Dolar ve has karşılığı, kârın o günkü satış kurunuza bölünmesiyle bulunur; kur kaydı olmayan eski günlerde bugünkü kur kullanılır.';
   // nets: dönemdeki günlerin net kârı; dolar ve has karşılığı için
+  // Alım-satım kârının makas ve fiyat farkı ayrımı (fiyat farkı yoksa boş)
+  function splitText(z, a, b) {
+    if (!z || !(Math.abs(z.hold || 0) >= 0.005)) return '';
+    return a + fmtSigned(z.spread || 0) + b + fmtSigned(z.hold || 0);
+  }
   function sumStats(z, nets) {
     var net = z.profit - z.expense;
     $('dNet').textContent = fmtSigned(net);
@@ -2218,6 +2255,7 @@
     $('dNetHas').className = 'v amt ' + (alt.has == null ? '' : signClass(alt.has));
     $('dNetHas').title = alt.has == null ? 'Has altın fiyatı yok: “Fiyatları güncelle”ye dokunun ya da Hesap bölümüne has fiyatınızı yazın.' : '';
     $('dProfit').textContent = fmtSigned(z.profit);
+    $('dProfitAlt').textContent = splitText(z, 'makas ', ' · fiyat farkı ');
     $('dProfit').className = 'v amt ' + signClass(z.profit);
     $('dExp').textContent = fmtTL(z.expense);
     $('dBuy').textContent = fmtTL(z.buyTL);
@@ -2281,7 +2319,7 @@
   }
   function renderMonth() {
     var ym = $('monthDate').value || today().slice(0, 7);
-    var res = compute(state.tx), sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 }, nets = [];
+    var res = compute(state.tx), sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0, spread: 0, hold: 0 }, nets = [];
     var body = $('monthBody');
     body.textContent = '';
     var cell = function (lbl, text, cls) { return el('td', { 'data-label': lbl, class: cls == null ? 'amt' : cls, text: text }); };
@@ -2323,7 +2361,7 @@
   }
   function renderAnalysis() {
     var res = compute(state.tx), from = analysisFrom($('anRange').value);
-    var sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0 }, months = {}, nets = [];
+    var sum = { buyTL: 0, sellTL: 0, profit: 0, expense: 0, count: 0, spread: 0, hold: 0 }, months = {}, nets = [];
     Object.keys(res.days).forEach(function (d) {
       var z = res.days[d], ym = d.slice(0, 7);
       months[ym] = (months[ym] || 0) + z.profit - z.expense;
@@ -2335,7 +2373,7 @@
 
     // Varlık tablosu
     var rows = Object.keys(res.stats).map(function (c) {
-      var t = { c: c, buyQty: 0, buyTL: 0, sellQty: 0, sellTL: 0, profit: 0, n: 0 };
+      var t = { c: c, buyQty: 0, buyTL: 0, sellQty: 0, sellTL: 0, profit: 0, n: 0, spread: 0 };
       Object.keys(res.stats[c]).forEach(function (ym) {
         if (ym < from) return;
         var m = res.stats[c][ym];
@@ -2357,7 +2395,11 @@
         cell('Ort. alış kuru', avgBuy != null ? fmtRate(avgBuy, t.c) : '—', ''),
         cell('Ort. satış kuru', avgSell != null ? fmtRate(avgSell, t.c) : '—', ''),
         cell('Makas', spread != null ? fmtRate(spread, t.c) + ' (' + fmtPct(spread / avgBuy * 100) + ')' : '—', spread != null ? signClass(spread) : ''),
-        cell('Kâr', t.sellQty > EPS ? fmtSigned(t.profit) : '—', 'amt ' + (t.sellQty > EPS ? signClass(t.profit) : '')),
+        (function () {
+          var td = cell('Kâr', t.sellQty > EPS ? fmtSigned(t.profit) : '—', 'amt ' + (t.sellQty > EPS ? signClass(t.profit) : ''));
+          if (t.sellQty > EPS && Math.abs(t.profit - t.spread) >= 0.005) td.appendChild(el('small', { text: 'makas ' + fmtSigned(t.spread) }));
+          return td;
+        })(),
         cell('Kârdaki pay', t.profit > EPS && gain > EPS ? '%' + fmtNum(t.profit / gain * 100, 0) : '—', '')
       ]));
     });
@@ -2410,7 +2452,7 @@
     var sums = function () {
       var alt = [t('dNetUsd'), t('dNetHas') === '—' ? '—' : t('dNetHas') + ' has'].filter(function (v) { return v !== '—'; });
       lines.push('Net kâr: ' + t('dNet') + (alt.length ? ' (≈ ' + alt.join(' · ') + ')' : ''));
-      lines.push('Alım-satım kârı: ' + t('dProfit') + ' · Masraf: ' + t('dExp'));
+      lines.push('Alım-satım kârı: ' + t('dProfit') + (t('dProfitAlt') ? ' (' + t('dProfitAlt') + ')' : '') + ' · Masraf: ' + t('dExp'));
       lines.push('Alış: ' + t('dBuy') + ' · Satış: ' + t('dSell') + ' · İşlem: ' + t('dCount'));
     };
     if (reportMode === 'an') {
@@ -2868,6 +2910,7 @@
     }
     if (cash && tx.type === 'out' && $('fExp').checked) tx.exp = true;
     if ($('fDoc').value.trim()) tx.doc = $('fDoc').value.trim().slice(0, 30);
+    if (old && old.ref && tx.type === 'out' && tx.cur === old.cur) tx.ref = old.ref;   // düzenlemede referans korunur
     var next = state.tx.filter(function (x) { return x.id !== tx.id; }).concat([tx]);
     var res = validate(next);
     if (res.locked && !old && tx.date === today()) {
@@ -3807,6 +3850,7 @@
         var tx = { id: uid(), seq: nextSeq(), date: today(), type: 'out', cur: cur, amount: x.gram, rate: v / x.gram,
                    note: ('Vitrin: ' + x.name).slice(0, 120) };
         var next = state.tx.concat([tx]);
+        stampRefs(next);
         if (lockError(next)) return lockError(next);
         if (compute(next).error) {
           if (!confirm('Kasada yeterli ' + label(cur) + ' stoku yok; satış kasaya işlenemiyor.\nÜrün yalnızca defterde ' +
