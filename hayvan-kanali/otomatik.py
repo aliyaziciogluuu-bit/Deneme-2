@@ -41,6 +41,7 @@ if not pathlib.Path(PYTHON).exists():
 class Denetim:
     def __init__(self, ad):
         self.ad, self.hata, self.uyari, self.duzeltilen, self.yapilacak = ad, [], [], [], []
+        self.teslim_edildi = False
 
     def satirlar(self):
         s = [f"### {self.ad}"]
@@ -132,14 +133,23 @@ def ses_denetle(d, klasor, n, yer):
 
 
 def kaynak_erisim(d, sen):
+    """Kaynak adresleri açılıyor mu? Önce www'li, sonra www'siz denenir (ağ izni çoğu sitede www'li adrese verilmiş)."""
     for kay in sen.get("kaynaklar", []):
-        m = re.search(r"((?:https?://)?(?:[\w-]+\.)+(?:org|gov|com|edu|tr|int|uk|cz|net)(?:/[^\s,;)]*)?)", kay)
+        m = re.search(r"((?:https?://)?(?:[\w-]+\.)+(?:org|gov|com|edu|tr|int|uk|cz|net)(?:/[^\s,;]*)?)", kay)
         if not m:
             continue
-        adres = m.group(1) if m.group(1).startswith("http") else "https://" + m.group(1)
-        kod = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-L", "-m", "15", adres], capture_output=True, text=True).stdout
+        adres = m.group(1).rstrip(".")
+        if adres.count("(") < adres.count(")"):  # künye parantezinin kapanışı adrese karışmasın
+            adres = adres[: adres.rfind(")")]
+        govde = re.sub(r"^https?://", "", adres)
+        adaylar = [f"https://{govde}"] if govde.startswith("www.") else [f"https://www.{govde}", f"https://{govde}"]
+        kod = ""
+        for a in adaylar:
+            kod = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-L", "-m", "15", a], capture_output=True, text=True).stdout
+            if kod.startswith("2"):
+                break
         if not kod.startswith("2"):
-            d.uyari.append(f"kaynak açılamıyor (HTTP {kod or 'yok'}): {adres} — açılamayan kaynak listede kalmaz")
+            d.uyari.append(f"kaynak açılamıyor (HTTP {kod or 'yok'}): {adaylar[0]} — açılamayan kaynak listede kalmaz")
 
 
 def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=False):
@@ -150,6 +160,14 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
         return d, []
     cl = cumleler(sen)
     n = len(cl)
+    onay_yol = KOK / "kanal" / "onaylar" / f"{klasor.name}.md"
+    onay = onay_yol.read_text(encoding="utf-8") if onay_yol.exists() else ""
+    if not onkontrol and ("YAYINDA" in onay or "TESLİM EDİLDİ" in onay):
+        d.teslim_edildi = True
+        if kaynak:
+            kaynak_erisim(d, sen)
+        d.uyari.append("teslim edildi ya da yayında: dosyalara dokunulmadı (yalnızca kaynak erişimi denendi)")
+        return d, []
     # 1. Metin denetimi
     m = subprocess.run([sys.executable, "metin_kontrol.py", klasor.name], cwd=KOK, capture_output=True, text=True)
     for l in m.stdout.splitlines():
