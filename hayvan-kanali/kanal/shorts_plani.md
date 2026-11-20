@@ -11,9 +11,9 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Cmt 21 Kas | Kertenkele Yemeğe Düşerse Zehirler mi? (geko s1) | — | yüklendi |
 | Paz 22 Kas | Kertenkele Tavanda Nasıl Yürüyor? (geko s2) | — | yüklendi |
 | Pzt 23 Kas | Göz Kapağı Olmayan Kertenkele! (geko s3) | — | teslim edildi 20 Kas, yüklenecek |
-| Sal 24 Kas | Yumurtlamayan Kertenkele! (yılan s3) | **Kirpi** (yeni sürüm) | eski planlı silinip yenisi yüklenecek |
+| Sal 24 Kas | Yumurtlamayan Kertenkele! (yılan s3) | **Kirpi** (yeni sürüm) | yeni sürüm planlandı 20 Kas |
 | Çar 25 Kas | Kirpiye Sakın Süt Verme! (kirpi s1) | — | eski planlı silinip yenisi |
-| Per 26 Kas | Kirpi Sırtında Elma Taşır mı? (kirpi s2) | **Yarasa** (27'den öne alındı) | eski planlı silinip yenisi 26'ya |
+| Per 26 Kas | Kirpi Sırtında Elma Taşır mı? (kirpi s2) | **Yarasa** (27'den öne alındı) | yeni sürüm planlandı 20 Kas |
 | Cum 27 Kas | Yarasa Saça Yapışır mı? (yarasa s1) | — | eski 28'deki silinip yenisi 27'ye |
 | Cmt 28 Kas | Yarasaya Asla Çıplak Elle Dokunma! (yarasa s2) | **Baykuş** (1 Ara'dan öne alındı) | eski 29'daki silinip yenisi 28'e |
 | Paz 29 Kas | Baykuş Gerçekten Uğursuz mu? (baykuş s1) | — | yüklenecek |
@@ -32,3 +32,6 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 2. Başlık, açıklama ve etiketleri ilgili `-yukleme.txt` dosyasından kopyala.
 3. **İlgili video:** tablodaki uzun video (yayına girince seçilir).
 4. Kitle: "Çocuklara özel değil". "Değiştirilmiş veya yapay içerik": Evet.
+
+- 20 Kasım: kirpi ve yarasa yeni sürümleri planlandı; geko, kirpi, yarasa ve Shorts'larında 'Değiştirilmiş veya yapay içerik: Evet' işaretlendi (kanal sahibi).
+- Karga yüklenmeyecek: cümle 22–23 kaynakla uyumlu hâle getirilip yeniden üretilecek (Replicate kredisi bekleniyor).
