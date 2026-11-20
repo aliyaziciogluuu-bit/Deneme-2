@@ -212,11 +212,12 @@
   "uygun": true
  },
  "030": {
-  "yazi": "Yuvanın altını temizlerken eldiven takmak akla yatkın bir önlem.",
-  "duyulan": "Yuvanın altını temizlerken eldiven takmak akla yatkın bir önlem.",
+  "yazi": "Bize göre yuvanın altını temizlerken eldiven takmak akla yatkın bir önlem.",
+  "duyulan": "Bize göre yuvanın altını temizlerken eldiven takmak akla yatkın bir önlem.",
   "hata": 0,
-  "sure": 4.18,
-  "uygun": true
+  "sure": 4.44,
+  "uygun": true,
+  "tek_basina": true
  },
  "031": {
   "yazi": "İngiltere'deki hayvan koruma derneği, kuş dışkısına ya da tüyüne dokunursan ellerini sabun ve suyla yıkamanı öneriyor.",
