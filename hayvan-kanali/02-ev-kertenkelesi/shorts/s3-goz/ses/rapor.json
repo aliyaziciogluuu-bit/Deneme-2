@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Ev kertenkelesinin göz kapakları yok.",
+  "duyulan": "ev kerten kelesinin göz kapakları yok.",
+  "hata": 0,
+  "sure": 2.14,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
+  "duyulan": "Gözleri, tıpkı yılanlarda olduğu gibi şeffaf bir pul lakaplı.",
+  "hata": 0,
+  "sure": 3.98,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
+  "duyulan": "Çoğu Gekko gibi gözünü temizlemenin başka bir yolunu bulmuş. Dilini çıkarıp gözünü yalıyor.",
+  "hata": 1,
+  "sure": 5.16,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
+  "duyulan": "gözleri iri, göz bebekleri dikey, loş ışıkta görmeye çok uygun.",
+  "hata": 0,
+  "sure": 4.5,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
+  "duyulan": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
+  "hata": 0,
+  "sure": 4.02,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+  "duyulan": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+  "hata": 0,
+  "sure": 5.84,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.38,
+  "uygun": true
+ }
+}
