@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Taşı kaldırıyorsun; altında yumru yumru bir hayvan var.",
+  "duyulan": "Taşı kaldırıyorsun, altında yumru yumru bir hayvan var.",
+  "hata": 0,
+  "sure": 3.36,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Kurbağaya dokunursan elinde siğil çıkar mı?",
+  "duyulan": "Kurbağa'ya dokunursan elinde siil çıkar mı?",
+  "hata": 1,
+  "sure": 2.68,
+  "uygun": false
+ },
+ "002": {
+  "yazi": "Çıkmaz: siğile insan papilloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.",
+  "duyulan": "Çıkmaz. Si ile insan papiloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.",
+  "hata": 1,
+  "sure": 5.3,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Asıl dikkat etmen gereken başka: gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri.",
+  "duyulan": "Asıl dikkat etmen gereken başka, gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri.",
+  "hata": 0,
+  "sure": 6.18,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Derisindeki o yumrular ne?",
+  "duyulan": "Derisindeki o yumrular ne?",
+  "hata": 0,
+  "sure": 1.5,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Siğil değiller: boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksiyondan olmuyorlar.",
+  "duyulan": "Sihil değiller, boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksiyondan olmuyorlar.",
+  "hata": 0,
+  "sure": 5.3,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Yumrular siğile benzediği için bu inanış yaygınlaşmış.",
+  "duyulan": "Yumrular siyle benzediği için bu inanış yaygınlaşmış.",
+  "hata": 1,
+  "sure": 3.2,
+  "uygun": true
+ }
+}
