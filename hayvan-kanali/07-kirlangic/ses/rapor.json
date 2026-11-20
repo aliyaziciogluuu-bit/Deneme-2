@@ -2,7 +2,7 @@
  "000": {
   "yazi": "Nisan geliyor; saçağa bakıyorsun, geçen yılki çamur yuva yerinde ve bir kuş ona konuyor.",
   "duyulan": "Nisan geliyor, saçığa bakıyorsun, geçen yılki çamur yuva yerinde ve bir kuş ona konuyor.",
-  "hata": 1,
+  "hata": 0,
   "sure": 6.16,
   "uygun": true
  },
@@ -136,7 +136,7 @@
  "019": {
   "yazi": "Bir kaynakta, geçmişte yuvaya zarar vermenin ineğin kanlı süt vermesine ya da tavukların yumurtlamayı bırakmasına yol açacağı düşünülmüş.",
   "duyulan": "bir kaynakta geçmişte yuvaya zarar vermenin ineyin kanlı süt vermesine ya da tavukların yumurtlamayı bırakmasına yol açacağı düşünülmüş.",
-  "hata": 1,
+  "hata": 0,
   "sure": 8.22,
   "uygun": true
  },
@@ -399,7 +399,7 @@
  "056": {
   "yazi": "Evcil hayvanları kuştan uzak tut; bize göre çocukların da dokunmaması daha iyi.",
   "duyulan": "Evcili hayvanları kuştan uzak tut. Bize göre çocukların da dokunmaması daha iyi.",
-  "hata": 1,
+  "hata": 0,
   "sure": 5.22,
   "uygun": true
  },
@@ -434,16 +434,17 @@
  "061": {
   "yazi": "Senin oralarda saçağa yuva yapan kırlangıç var mı, her yıl geri geliyor mu? Yorumlarda yaz.",
   "duyulan": "Senin oralarda saça, yuva yapan kırlangıç var mı? Her yıl geri geliyor mu? Yorumlarda yaz.",
-  "hata": 1,
+  "hata": 0,
   "sure": 5.58,
   "uygun": true
  },
  "062": {
   "yazi": "Sıradaki komşu: kara kurbağası; ona dokunmak gerçekten siğil çıkarır mı?",
-  "duyulan": "Sıradaki komşu kara kurbağası. Ona dokunmak gerçekten sihil çıkarır mı?",
-  "hata": 1,
-  "sure": 4.66,
-  "uygun": true
+  "duyulan": "Sıradaki komşu, kara kurbağası. Ona dokunmak gerçekten sihil çıkarır mı?",
+  "hata": 0,
+  "sure": 5.34,
+  "uygun": true,
+  "tek_basina": true
  },
  "063": {
   "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
