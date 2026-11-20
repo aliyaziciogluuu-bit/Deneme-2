@@ -21,6 +21,15 @@ Kuyum tarafı:
 - **Vitrin ekranı** (`vitrin.html`, Kasa → Kurlarım içinden açılır): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda Döviz Kasası’nın kur
   tablosunu canlı gösterir; ayrı bir TV ya da tablette piyasa fiyatına kendi farkınızı ekleyerek çalışır.
 
+Günlük işler için:
+
+- **Hızlı işlemler:** sık yapılan işlemi (ör. “100 USD sat”) formdaki “☆ Şablon” ile kaydedin; ana sayfada tek dokunuşla o anki
+  kurla girilir, “Geri al” ile geri alınır.
+- **Otomatik kur** (Kasa → Kurlarım): piyasa fiyatına eklenecek farkı bir kez yazın; fiyatlar güncellendikçe kurunuz değişir.
+- **Eski seri / yıpranmış döviz:** dövizi alırken işaretlenir; kurdan sizin farkınız düşülür, işleme “Eski seri” notu düşer.
+- **Borç hatırlatma** (Defter → Cari): size borcu olan müşteriye hazır WhatsApp mesajı.
+- **Gün sonu kapanışı** (Rapor): “Günü kapat” o günü ve öncesini kilitler; işlemler yanlışlıkla değişmez. Son kapanış geri açılabilir.
+
 Tarayıcı sınamaları [`testler/`](testler/README.md) klasöründedir.
 Veriler yalnızca kullanılan cihazın tarayıcısında saklanır. Resmî fiş ve yasal bildirimlerin
 yerini tutmaz.

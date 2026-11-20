@@ -18,6 +18,7 @@ for f in testler/*.js; do node "$f" || break; done
 | `vitrin-kasa-paylasim.js` | Vitrin defterinden alış/satışın kasaya işlenmesi, rapor paylaşımı |
 | `sade-gorunum.js` | Sade görünüm: tek satır başlık, açılır bölümler, dokununca açılan satırlar, sayfa uzunlukları |
 | `guncelleme.js` | Yeni sürümün ulaşması: “yeni sürüm hazır” uyarısı, önbelleğe rağmen güncel sayfa, çevrimdışı açılış |
+| `yeni-ozellikler.js` | Otomatik kur, eski seri farkı, borç hatırlatma, hızlı işlem şablonları, gün sonu kapanışı |
 
 Yayın notu: her yayında `doviz-kasasi.html` başındaki `surum` etiketinin değerini değiştirin; açık duran uygulama yeni
 sürümü bu değerle fark edip “Yenile” uyarısını gösterir.

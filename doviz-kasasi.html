@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.1">
+<meta name="surum" content="2026-11-20.2">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -604,6 +604,27 @@
     #filterText { flex: 1 1 100%; }
     section.card > .head .tools select { flex: 1 1 0; min-width: 0; }
   }
+
+  /* Yeni özellikler */
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .worn-f { flex-direction: row !important; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+  .worn-f input[type="text"] { width: 120px; min-height: 40px; }
+  .quick.tpl button { background: var(--surface); border: 1.5px solid var(--line); }
+  .quick.tpl button.tpl-in { color: var(--pos); }
+  .quick.tpl button.tpl-out { color: var(--neg); }
+  .quick.tpl button.editing { text-decoration: line-through; opacity: .8; }
+  .quick.tpl button.tpl-edit { background: none; border: 0; color: var(--muted); font-weight: 500; }
+  .closebar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 12px 18px; border-top: 1px solid var(--line); }
+  .closebar:empty, .closebar[hidden] { display: none; }
+  .lockinfo { font-weight: 600; }
+  .rate-row.auto-row { grid-template-columns: minmax(130px, 1.2fr) 1fr 1fr minmax(120px, 1.2fr); grid-template-areas: none; align-items: end; }
+  .rate-row.auto-row > * { grid-area: auto; }
+  .auto-row .name { align-self: center; }
+  .person .tools { display: flex; gap: 6px; }
+  @media (max-width: 820px) {
+    .rate-row.auto-row { grid-template-columns: 1fr 1fr; grid-template-areas: none; }
+    .auto-row .name, .auto-row .info { grid-column: 1 / -1; }
+  }
 </style>
 </head>
 <body>
@@ -678,6 +699,10 @@
     <div class="head"><h2 id="formTitle">Yeni işlem</h2></div>
     <div class="body">
       <form class="tx" id="txForm" novalidate>
+        <div class="f full" id="tplF" hidden>
+          <span class="lbl">Hızlı işlemler</span>
+          <div class="quick tpl" id="tplRow"></div>
+        </div>
         <div class="f full">
           <div class="seg">
             <input type="radio" name="type" id="tIn" value="in" checked><label class="in" for="tIn" id="lIn">Alış</label>
@@ -708,6 +733,11 @@
           <label for="fRate2">Satış kuru (₺)</label>
           <input type="text" id="fRate2" inputmode="decimal" autocomplete="off" placeholder="0,00">
         </div>
+        <div class="f full worn-f" id="wornField" hidden>
+          <label class="check" for="fWorn"><input type="checkbox" id="fWorn"> Eski seri / yıpranmış</label>
+          <label for="fWornD" class="sr">Eski seri farkı (₺)</label>
+          <input type="text" id="fWornD" inputmode="decimal" autocomplete="off" placeholder="fark ₺" hidden>
+        </div>
         <div class="f full" id="expField" hidden>
           <label class="check" for="fExp"><input type="checkbox" id="fExp"> Masraf olarak işle (günün net kârından düşülür)</label>
         </div>
@@ -732,6 +762,7 @@
             <div class="msg" id="fMsg" role="status"></div>
           </div>
           <div class="tools">
+            <button type="button" class="small" id="btnTpl" title="Bu işlemi hızlı işlem olarak kaydet">☆ Şablon</button>
             <button type="button" id="btnCancel" hidden>Vazgeç</button>
             <button type="submit" class="primary" id="btnSave">İşlemi kaydet</button>
           </div>
@@ -997,6 +1028,18 @@
 
   <section class="card" data-view="kurlar">
     <div class="head">
+      <h2>Otomatik kur</h2>
+      <button type="button" class="small" data-toggle="otokur" data-label="Ayarla"></button>
+    </div>
+    <div class="body" data-fold="otokur">
+      <p class="hint lead">Farkınızı bir kez yazın; fiyatlar her güncellendiğinde kurunuz kendiliğinden değişir.
+        Fark piyasa fiyatına eklenir: alışta genellikle eksi (ör. −0,10), satışta artı (ör. 0,20).</p>
+      <div id="autoRows"></div>
+    </div>
+  </section>
+
+  <section class="card" data-view="kurlar">
+    <div class="head">
       <h2>Çevirici</h2>
       <button type="button" class="small" data-toggle="cevirici" data-label="Aç"></button>
     </div>
@@ -1150,6 +1193,7 @@
       <div><div class="k">Satış toplamı</div><div class="v amt" id="dSell">₺0,00</div></div>
       <div><div class="k">İşlem sayısı</div><div class="v" id="dCount">0</div></div>
     </div>
+    <div class="closebar" id="closeBar"></div>
     <div class="table-wrap" id="dayWrap">
       <table class="cards">
         <thead>
@@ -1342,7 +1386,8 @@
 
   var state = {
     tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
-    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {}
+    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {},
+    auto: {}, worn: {}, tpl: [], closed: []
   };
   var balOpen = {};                   // Kasa bakiyelerinde ayrıntısı açık varlıklar
   var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
@@ -1407,8 +1452,68 @@
       tx: tx, rates: rates, sell: sell, chg: chg, myRates: my, ratesUpdated: data.ratesUpdated || null,
       rateSrc: data.rateSrc === 'tr' || data.rateSrc === 'fb' ? data.rateSrc : null,
       count: cleanCount(data.count), calc: cleanCalc(data.calc),
-      whole: cleanWhole(data.whole), items: cleanItems(data.items), fx: cleanFx(data.fx)
+      whole: cleanWhole(data.whole), items: cleanItems(data.items), fx: cleanFx(data.fx),
+      auto: cleanAuto(data.auto), worn: cleanWorn(data.worn), tpl: cleanTpl(data.tpl), closed: cleanClosed(data.closed)
     };
+  }
+  function finiteOr0(v) { v = Number(v); return isFinite(v) ? v : 0; }
+  // auto: otomatik kur — varlık başına piyasa alış ve satış fiyatına eklenecek fark (₺)
+  function cleanAuto(m) {
+    var out = {};
+    if (!m || typeof m !== 'object') return out;
+    PRICED.forEach(function (c) {
+      var a = m[c];
+      // kapalı olsa da yazılmış fark saklanır (yeniden açınca kaybolmasın)
+      if (a && typeof a === 'object' && (a.on || finiteOr0(a.b) || finiteOr0(a.s))) out[c] = { on: !!a.on, b: finiteOr0(a.b), s: finiteOr0(a.s) };
+    });
+    return out;
+  }
+  // worn: eski seri / yıpranmış döviz için alış kurundan düşülecek fark (₺/birim)
+  function cleanWorn(m) {
+    var out = {};
+    if (!m || typeof m !== 'object') return out;
+    PRICED.forEach(function (c) { var v = posOrNull(m[c]); if (v && !isMetal(c)) out[c] = v; });
+    return out;
+  }
+  // tpl: hızlı işlem şablonları
+  function cleanTpl(list) {
+    return (Array.isArray(list) ? list : []).filter(function (t) {
+      return t && (t.type === 'in' || t.type === 'out') && ASSETS[t.cur] && Number(t.amount) > 0 && isFinite(Number(t.amount));
+    }).slice(0, 12).map(function (t) {
+      return { id: String(t.id || uid()), type: t.type, cur: t.cur, amount: Number(t.amount), exp: !!(t.exp && isCash(t.cur) && t.type === 'out') };
+    });
+  }
+  // closed: kapatılan günler (gün sonu). Son kapatılan gün ve öncesindeki işlemler değiştirilemez.
+  function cleanClosed(list) {
+    var seen = {};
+    return (Array.isArray(list) ? list : []).filter(function (c) {
+      return c && /^\d{4}-\d{2}-\d{2}$/.test(c.d) && !seen[c.d] && (seen[c.d] = true);
+    }).map(function (c) { return { d: c.d, at: String(c.at || '') }; })
+      .sort(function (a, b) { return a.d < b.d ? -1 : a.d > b.d ? 1 : 0; });
+  }
+  function lockedThrough() { return state.closed.length ? state.closed[state.closed.length - 1].d : ''; }
+  function isLocked(date) { var l = lockedThrough(); return !!l && date <= l; }
+  // next listesi, kapatılmış bir günün işlemlerini ekliyor, siliyor ya da değiştiriyorsa açıklama döner
+  function lockError(next) {
+    var lim = lockedThrough();
+    if (!lim) return '';
+    var before = {}, after = {}, ids = {}, bad = '';
+    state.tx.forEach(function (t) { before[t.id] = t; ids[t.id] = true; });
+    next.forEach(function (t) { after[t.id] = t; ids[t.id] = true; });
+    Object.keys(ids).some(function (id) {
+      var a = before[id], b = after[id];
+      if (a && b && (a === b || JSON.stringify(a) === JSON.stringify(b))) return false;
+      var d = [a && a.date, b && b.date].filter(Boolean).sort()[0];
+      if (d && d <= lim) { bad = d; return true; }
+      return false;
+    });
+    return bad ? fmtDate(lim) + ' ve öncesi kapatıldı (gün sonu); bu günlerin işlemleri değiştirilemez. ' +
+                 'Gerekirse Rapor bölümünden kilidi açın.' : '';
+  }
+  // Kasa işlemlerini değiştirmeden önce: önce gün sonu kilidi, sonra stok denetimi
+  function validate(next) {
+    var e = lockError(next);
+    return e ? { error: e, locked: true } : compute(next);
   }
   // fx: gün başına [dolar satış kuru, has altın satış fiyatı]; kârı dolar ve has olarak göstermek için
   function cleanFx(m) {
@@ -1775,6 +1880,7 @@
 
     renderMarket();
     renderMyRates();
+    renderAuto();
     renderCount();
     renderDay();
     renderRecent();
@@ -1815,6 +1921,7 @@
                  (state.sell[c] > 0 ? ' / ' + fmtRate(state.sell[c], c) : ''));
     }
     if (m.buy && m.sell) parts.push('Makas ' + fmtRate(m.sell - m.buy, c));
+    if (state.auto[c] && state.auto[c].on) parts.push('otomatik');
     return parts.join(' · ');
   }
   function renderMyRates() {
@@ -1830,6 +1937,11 @@
         var input = el('input', { type: 'text', id: id, inputmode: 'decimal', autocomplete: 'off', placeholder: '—' });
         if (m[key]) input.value = fmtInput(m[key]);
         input.addEventListener('change', function () {
+          if (state.auto[c] && state.auto[c].on) {   // elle yazılan kur otomatiği kapatır (fark saklanır)
+            state.auto[c].on = false;
+            toast(label(c) + ' için otomatik kur kapatıldı.');
+            setTimeout(renderAuto, 0);
+          }
           m[key] = posOrNull(parseNum(input.value));
           input.value = m[key] ? fmtInput(m[key]) : '';
           save();
@@ -1842,7 +1954,8 @@
       var del = el('button', { type: 'button', class: 'small', 'aria-label': label(c) + ' satırını kaldır', text: 'Kaldır' });
       del.addEventListener('click', function () {
         delete state.myRates[c];
-        save(); renderMyRates(); prefillRate();
+        delete state.auto[c];
+        save(); render(); prefillRate();
       });
       box.appendChild(el('div', { class: 'rate-row' }, [
         assetCell(c, 'name', 'div'), field('buy', 'Alış kurum'), field('sell', 'Satış kurum'),
@@ -1858,6 +1971,75 @@
       if (!state.myRates[c]) sel.appendChild(el('option', { value: c, text: isMetal(c) ? label(c) : c + ' — ' + ASSETS[c].name }));
     });
     sel.hidden = sel.options.length < 2;
+  }
+  // Otomatik kur: piyasa fiyatı + büronun farkı. Fiyatlar güncellenince ve fark değişince uygulanır.
+  function autoPrice(c, side) {
+    var a = state.auto[c], m = side === 'buy' ? state.rates[c] : (state.sell[c] > 0 ? state.sell[c] : state.rates[c]);
+    if (!a || !a.on || !(m > 0)) return null;
+    var v = m + (side === 'buy' ? a.b : a.s);
+    return v > 0 ? (isMetal(c) ? Math.round(v * 100) / 100 : round4(v)) : null;
+  }
+  function applyAuto() {
+    var changed = false;
+    Object.keys(state.auto).forEach(function (c) {
+      if (!state.myRates[c]) return;
+      ['buy', 'sell'].forEach(function (side) {
+        var v = autoPrice(c, side);
+        if (v && state.myRates[c][side] !== v) { state.myRates[c][side] = v; changed = true; }
+      });
+    });
+    return changed;
+  }
+  function autoPreview(c) {
+    var a = state.auto[c], b = autoPrice(c, 'buy'), s2 = autoPrice(c, 'sell');
+    if (!a || !a.on) return 'Kapalı';
+    return b || s2 ? 'Şu an: ' + (b ? fmtRate(b, c) : '—') + ' / ' + (s2 ? fmtRate(s2, c) : '—') : 'Piyasa fiyatı yok';
+  }
+  var autoKeep = false;   // ayar kaydedilirken satırları yeniden kurma (dokunulan kutu yerinden oynamasın)
+  function renderAuto() {
+    var box = $('autoRows');
+    // Fark yazılırken ya da kaydedilirken satırları yeniden kurma; yalnızca önizlemeleri güncelle
+    if (autoKeep || (box.contains(document.activeElement) && document.activeElement.type === 'text')) {
+      Array.prototype.forEach.call(box.querySelectorAll('[data-prev]'), function (n) { n.textContent = autoPreview(n.getAttribute('data-prev')); });
+      return;
+    }
+    box.textContent = '';
+    Object.keys(state.myRates).sort(byCode).forEach(function (c) {
+      var a = state.auto[c] || { on: false, b: 0, s: 0 };
+      var chk = el('input', { type: 'checkbox', id: 'au-' + c });
+      chk.checked = !!a.on;
+      var numIn = function (key, text) {
+        var id = 'au-' + key + '-' + c;
+        var i = el('input', { type: 'text', id: id, inputmode: 'text', autocomplete: 'off', placeholder: '0' });
+        if (a[key]) i.value = (a[key] < 0 ? '−' : '') + fmtInput(Math.abs(a[key]));
+        i.addEventListener('change', function () { saveAuto(c); });
+        return el('div', { class: 'fld' }, [el('label', { for: id, text: text }), i]);
+      };
+      chk.addEventListener('change', function () { saveAuto(c); });
+      var preview = el('div', { class: 'info', 'data-prev': c, text: autoPreview(c) });
+      box.appendChild(el('div', { class: 'rate-row auto-row' }, [
+        el('label', { class: 'check name', for: 'au-' + c }, [chk, document.createTextNode(label(c))]),
+        numIn('b', 'Alış farkı (₺)'), numIn('s', 'Satış farkı (₺)'), preview
+      ]));
+    });
+    if (!box.children.length) box.appendChild(el('div', { class: 'empty', text: 'Önce kur tablonuza varlık ekleyin.' }));
+  }
+  // "−0,10", "-0,1", "0,20" gibi işaretli sayıları okur
+  function signedNum(str) {
+    var t = String(str || '').trim(), neg = /^[−-]/.test(t);
+    var v = parseNum(t.replace(/^[−+-]/, ''));
+    return neg ? -v : v;
+  }
+  function saveAuto(c) {
+    var on = $('au-' + c).checked;
+    var b = $('au-b-' + c).value.trim() ? signedNum($('au-b-' + c).value) : 0;
+    var s2 = $('au-s-' + c).value.trim() ? signedNum($('au-s-' + c).value) : 0;
+    if (!isFinite(b) || !isFinite(s2)) return toast('Fark için geçerli bir sayı yazın (ör. −0,10).');
+    if (on || b || s2) state.auto[c] = { on: on, b: b, s: s2 }; else delete state.auto[c];
+    applyAuto();
+    save();
+    autoKeep = true;
+    try { render(); prefillRate(); } finally { autoKeep = false; }
   }
   function fillFromMarket() {
     var codes = Object.keys(state.myRates).filter(function (c) { return state.rates[c] > 0; });
@@ -1910,6 +2092,7 @@
     $('anRange').hidden = !an;
     ['dayPrev', 'dayNext', 'dayToday'].forEach(function (id) { $(id).hidden = an; });
     $('dayWrap').hidden = month || an;
+    $('closeBar').hidden = month || an;
     $('monthWrap').hidden = !month;
     $('anWrap').hidden = !an;
     $('dayTitle').textContent = an ? 'Kâr analizi' : month ? 'Aylık rapor' : 'Gün sonu özeti';
@@ -1952,6 +2135,7 @@
     $('dayFoot').textContent = (rep.count ? '' : fmtDate(day) + ' tarihinde işlem yok. ') +
       'Alım-satım kârı, satış kuru ile ortalama alış maliyeti arasındaki farktır; net kâr bundan masraflar düşülerek bulunur.' + ALT_NOTE;
     $('dayNext').disabled = day >= today();
+    renderCloseBar(day, rep);
   }
   function renderMonth() {
     var ym = $('monthDate').value || today().slice(0, 7);
@@ -2111,6 +2295,38 @@
     }
     return lines.join('\n');
   }
+  // Gün sonu kapanışı: kapatılan gün ve öncesi kilitlenir; yalnızca son kapanış geri açılabilir
+  function renderCloseBar(day, rep) {
+    var bar = $('closeBar'), lim = lockedThrough();
+    bar.textContent = '';
+    if (day > today()) return;
+    if (lim && day <= lim) {
+      var last = day === lim;
+      bar.appendChild(el('span', { class: 'lockinfo', text: '🔒 ' + (last ? 'Bu gün kapatıldı.' : fmtDate(lim) + ' kapanışıyla kilitli.') }));
+      if (last) {
+        var open = el('button', { type: 'button', class: 'small', id: 'btnReopen', text: 'Kilidi aç' });
+        open.addEventListener('click', function () {
+          if (!confirm(fmtDate(lim) + ' kapanışı kaldırılsın mı? Bu günün işlemleri yeniden değiştirilebilir olur.')) return;
+          state.closed.pop();
+          save(); renderDay();
+          toast('Kilit açıldı.');
+        });
+        bar.appendChild(open);
+      }
+      return;
+    }
+    var close = el('button', { type: 'button', class: 'small primary', id: 'btnCloseDay', text: 'Günü kapat' });
+    close.addEventListener('click', function () {
+      var net = rep.profit - rep.expense;
+      if (!confirm(fmtDate(day) + ' kapatılsın mı?\nNet kâr: ' + fmtSigned(net) + '\nTL kasası: ' + fmtTL(rep.close.tl) +
+                   '\n\nBu gün ve önceki günlerin işlemleri kilitlenir; sonradan değiştirilemez (gerekirse kilit açılabilir).')) return;
+      state.closed.push({ d: day, at: new Date().toISOString() });
+      save(); render();
+      toast(fmtDate(day) + ' kapatıldı.');
+    });
+    bar.appendChild(close);
+    bar.appendChild(el('span', { class: 'hint', text: 'Kapatınca bu günün işlemleri yanlışlıkla değişmez.' }));
+  }
   function setDay(iso) {
     $('dayDate').value = iso > today() ? today() : iso;
     renderDay();
@@ -2239,7 +2455,75 @@
     $('lAmount2').textContent = 'Verilen ' + lowerFirst(amountLabel($('fCur2').value));
     Array.prototype.forEach.call(document.querySelectorAll('.arbf'), function (f) { f.hidden = !arb; });
     $('expField').hidden = !(cash && formType() === 'out');
+    var wornOk = !cash && !isMetal(c) && !arb && formType() === 'in';
+    $('wornField').hidden = !wornOk;
+    if (!wornOk) $('fWorn').checked = false;
+    $('fWornD').hidden = !$('fWorn').checked;
     renderQuick();
+    renderTpl();
+  }
+  // Hızlı işlem şablonları: dokununca o anki kurla işlem kaydedilir (geri alınabilir)
+  var tplEdit = false;
+  function tplText(t) {
+    if (isCash(t.cur)) return (t.exp ? 'Masraf ' : t.type === 'in' ? 'TL girişi ' : 'TL çıkışı ') + fmtTL(t.amount);
+    return fmtAmt(t.amount, t.cur) + (isMetal(t.cur) ? ' ' + label(t.cur) : ' ' + t.cur) + ' ' + (t.type === 'in' ? 'al' : 'sat');
+  }
+  function renderTpl() {
+    var row = $('tplRow');
+    row.textContent = '';
+    $('tplF').hidden = !state.tpl.length || !!editingId;
+    state.tpl.forEach(function (t) {
+      var b = el('button', { type: 'button', class: 'tpl-' + t.type + (tplEdit ? ' editing' : ''),
+                             'aria-label': (tplEdit ? 'Sil: ' : '') + tplText(t), text: (tplEdit ? '× ' : '') + tplText(t) });
+      b.addEventListener('click', function () {
+        if (tplEdit) {
+          state.tpl = state.tpl.filter(function (x) { return x.id !== t.id; });
+          if (!state.tpl.length) tplEdit = false;
+          save(); renderTpl();
+          return;
+        }
+        runTpl(t);
+      });
+      row.appendChild(b);
+    });
+    if (state.tpl.length) {
+      var ed = el('button', { type: 'button', class: 'tpl-edit', text: tplEdit ? 'Bitti' : 'Düzenle' });
+      ed.addEventListener('click', function () { tplEdit = !tplEdit; renderTpl(); });
+      row.appendChild(ed);
+    }
+  }
+  function runTpl(t) {
+    var rate = isCash(t.cur) ? 1 : suggested(t.cur, t.type);
+    if (!rate) {   // kur yoksa formu doldur, kullanıcı kuru yazsın
+      $('fCur').value = t.cur; (t.type === 'out' ? $('tOut') : $('tIn')).checked = true;
+      onTarget('cur'); $('fAmount').value = fmtInput(t.amount); updateTotal(); $('fRate').focus();
+      return setMsg('Bu varlık için kur yok; kuru yazıp kaydedin.', 'err');
+    }
+    var tx = { id: uid(), seq: nextSeq(), date: today(), type: t.type, cur: t.cur, amount: t.amount, rate: rate, note: '' };
+    if (t.exp) tx.exp = true;
+    var next = state.tx.concat([tx]), res = validate(next);
+    if (res.error) return setMsg(res.error, 'err');
+    var before = snapshot();
+    state.tx = next;
+    save();
+    render();
+    setMsg('');
+    toast(tplText(t) + (isCash(t.cur) ? '' : ' · ' + fmtRate(rate, t.cur)) + ' kaydedildi.', before);
+  }
+  function saveTpl() {
+    var c = $('fCur').value, amount = num('fAmount'), type = formType();
+    if (isArb()) return setMsg('Arbitraj şablon olarak kaydedilemez.', 'err');
+    if (!(amount > 0)) return setMsg('Şablon için önce tutarı yazın.', 'err');
+    var t = { id: uid(), type: type, cur: c, amount: amount, exp: isCash(c) && type === 'out' && $('fExp').checked };
+    if (state.tpl.some(function (x) { return x.type === t.type && x.cur === t.cur && x.amount === t.amount && x.exp === t.exp; })) {
+      return setMsg('Bu şablon zaten var.', 'err');
+    }
+    if (state.tpl.length >= 12) return setMsg('En fazla 12 şablon olabilir; önce birini silin.', 'err');
+    state.tpl.push(t);
+    save();
+    renderTpl();
+    setMsg('');
+    toast('“' + tplText(t) + '” hızlı işlemlere eklendi.');
   }
   // Kur tablosundaki varlıklar için tek dokunuşla seçim düğmeleri
   function renderQuick() {
@@ -2297,6 +2581,7 @@
     var arb = isArb();
     if (!rateTouched) {
       var c = $('fCur').value, r = isCash(c) ? null : suggested(c, arb ? 'in' : formType());
+      if (r && $('fWorn').checked && !$('wornField').hidden) r = Math.max(round4(r - (num('fWornD') || 0)), 0) || null;
       $('fRate').value = r ? fmtInput(r) : '';
     }
     if (arb) {
@@ -2317,6 +2602,7 @@
     $('fAmount2').value = '';
     $('fNote').value = '';
     $('fExp').checked = false;
+    $('fWorn').checked = false;
     $('formTitle').textContent = 'Yeni işlem';
     $('btnSave').textContent = 'İşlemi kaydet';
     $('btnCancel').hidden = true;
@@ -2362,9 +2648,12 @@
       id: old ? old.id : uid(), seq: old ? old.seq : maxSeq + 1, date: date, type: formType(),
       cur: cur, amount: amount, rate: rate, note: $('fNote').value.trim()
     };
+    if (!$('wornField').hidden && $('fWorn').checked && tx.note.indexOf('Eski seri') !== 0) {
+      tx.note = ('Eski seri' + (tx.note ? ' · ' + tx.note : '')).slice(0, 120);
+    }
     if (cash && tx.type === 'out' && $('fExp').checked) tx.exp = true;
     var next = state.tx.filter(function (x) { return x.id !== tx.id; }).concat([tx]);
-    var res = compute(next);
+    var res = validate(next);
     if (res.error) return setMsg(res.error, 'err');
 
     var before = snapshot();
@@ -2401,7 +2690,7 @@
       { id: uid(), seq: maxSeq + 1, date: date, type: 'in', cur: c, amount: a, rate: r, note: note, arb: gid },
       { id: uid(), seq: maxSeq + 2, date: date, type: 'out', cur: c2, amount: a2, rate: r2, note: note, arb: gid }
     ]);
-    var res = compute(next);
+    var res = validate(next);
     if (res.error) return setMsg(res.error, 'err');
     var before = snapshot();
     state.tx = next;
@@ -2424,7 +2713,8 @@
     var group = t.arb ? state.tx.filter(function (x) { return x.arb === t.arb; }) : [t];
     var ids = group.map(function (x) { return x.id; });
     var next = state.tx.filter(function (x) { return ids.indexOf(x.id) < 0; });
-    var res = compute(next);
+    var res = validate(next);
+    if (res.locked) return alert(res.error);
     if (res.error) {
       alert('Bu işlem silinemez: silinirse ' + res.error + '\nÖnce ilgili satış işlemini silin ya da düzenleyin.');
       return;
@@ -2512,7 +2802,7 @@
       id: uid(), seq: nextSeq(), date: today(), type: diff > 0 ? 'in' : 'out', cur: c,
       amount: Math.abs(diff), rate: unitCost(c), adj: true, note: note
     }]);
-    var res = compute(next);
+    var res = validate(next);
     if (res.error) throw new Error(res.error);
     state.tx = next;
     return true;
@@ -2600,13 +2890,23 @@
       if (!bals.children.length) bals.appendChild(el('span', { class: 'hint', text: 'Hesap kapalı' }));
       var pick = el('button', { type: 'button', class: 'n', text: name, title: 'Bu kişi için hareket gir' });
       pick.addEventListener('click', function () { setFold('cari', true); $('cPerson').value = name; $('cAmount').focus(); });
+      var due = Object.keys(people[name]).filter(function (c) { return round4(people[name][c]) > 0; });
+      var remind = null;
+      if (due.length) {
+        remind = el('button', { type: 'button', class: 'small', text: 'Hatırlat' });
+        remind.addEventListener('click', function () {
+          var what = due.sort(byCode).map(function (c) { return withName(round4(people[name][c]), c); });
+          shareText('Merhaba ' + name + ', ' + $('bizName').textContent + ' olarak kısa bir hatırlatma: hesabınızda ' +
+                    what.join(' ve ') + ' görünüyor. Uygun olduğunuzda bekleriz. İyi günler dileriz.');
+        });
+      }
       var hist = el('button', { type: 'button', class: 'small', text: 'Hareketler' });
       hist.addEventListener('click', function () {
         $('filterText').value = name;
         setView('liste');
         renderTx();
       });
-      box.appendChild(el('div', { class: 'person' }, [pick, bals, hist]));
+      box.appendChild(el('div', { class: 'person' }, [pick, bals, el('div', { class: 'tools' }, remind ? [remind, hist] : [hist])]));
     });
     $('personsEmpty').hidden = names.length > 0;
     $('cariOwes').textContent = fmtTL(owes);
@@ -2631,7 +2931,7 @@
       id: uid(), seq: nextSeq(), date: date, type: $('cIn').checked ? 'in' : 'out', cur: c,
       amount: amount, rate: unitCost(c), cari: same || person, note: $('cNote').value.trim()
     }]);
-    var res = compute(next);
+    var res = validate(next);
     if (res.error) return msg(res.error);
     var before = snapshot();
     state.tx = next;
@@ -2856,7 +3156,8 @@
         amount: x.qty, rate: x.total / x.qty, note: ('Hesap: ' + x.note).slice(0, 120)
       };
     }));
-    var res = compute(next);
+    var res = validate(next);
+    if (res.locked) return alert(res.error);
     if (res.error) {
       return alert('Kasaya işlenemedi: ' + res.error +
                    '\nSatılan ürün kasada kayıtlı değilse önce Kasa bölümünden stok girin ya da ürünü alış olarak işleyin.');
@@ -3164,6 +3465,7 @@
         var tx = { id: uid(), seq: nextSeq(), date: today(), type: 'out', cur: cur, amount: x.gram, rate: v / x.gram,
                    note: ('Vitrin: ' + x.name).slice(0, 120) };
         var next = state.tx.concat([tx]);
+        if (lockError(next)) return lockError(next);
         if (compute(next).error) {
           if (!confirm('Kasada yeterli ' + label(cur) + ' stoku yok; satış kasaya işlenemiyor.\nÜrün yalnızca defterde ' +
                        fmtTL(v) + ' tutarla satıldı olarak işaretlensin mi?')) return null;
@@ -3184,7 +3486,7 @@
   // Satışı geri alır; kasaya işlenmişse o satış işlemini de siler
   function unsellItem(x) {
     if (x.txOut && state.tx.some(function (t) { return t.id === x.txOut; })) {
-      var next = state.tx.filter(function (t) { return t.id !== x.txOut; }), res = compute(next);
+      var next = state.tx.filter(function (t) { return t.id !== x.txOut; }), res = validate(next);
       if (res.error) return alert('Satış geri alınamadı: ' + res.error);
       state.tx = next;
     }
@@ -3278,6 +3580,7 @@
     if (!(cost >= 0)) return msg('Maliyet için geçerli bir sayı yazın.');
     var post = $('iPost').checked;
     if (post && !(cost > 0)) return msg('Alışı kasaya işlemek için maliyeti yazın.');
+    if (post && isLocked(today())) return msg('Bugün kapatıldı (gün sonu); alış kasaya işlenemez. Kilidi Rapor’dan açabilirsiniz.');
     var item = {
       id: uid(), seq: state.items.reduce(function (m, x) { return Math.max(m, x.seq); }, 0) + 1, date: today(),
       name: name.slice(0, 60), karat: Number($('iKarat').value), gram: round4(gram), cost: cost > 0 ? round2(cost) : null,
@@ -3428,6 +3731,8 @@
     var prev = JSON.parse(undoData), hook = undoHook;
     undoData = null;
     undoHook = null;
+    var locked = lockError(prev.tx);
+    if (locked) { $('toast').hidden = true; return alert('Geri alınamadı: ' + locked); }
     state.tx = prev.tx;
     state.count = prev.count;
     save();
@@ -3511,6 +3816,7 @@
         state.chg = out.chg;
         state.rateSrc = out.src;
         state.ratesUpdated = new Date().toISOString();
+        applyAuto();
         save(); render(); prefillRate();
       })
       .catch(function () { if (!silent) renderRatesInfo(true); })
@@ -3827,6 +4133,20 @@
     $('modeDay').addEventListener('click', function () { reportMode = 'day'; renderDay(); });
     $('modeMonth').addEventListener('click', function () { reportMode = 'month'; renderDay(); });
     $('modeAn').addEventListener('click', function () { reportMode = 'an'; renderDay(); });
+    $('btnTpl').addEventListener('click', saveTpl);
+    $('fWorn').addEventListener('change', function () {
+      var c = $('fCur').value;
+      $('fWornD').hidden = !this.checked;
+      if (this.checked && state.worn[c]) $('fWornD').value = fmtInput(state.worn[c]);
+      if (this.checked && !state.worn[c]) { $('fWornD').value = ''; $('fWornD').focus(); }
+      rateTouched = false; prefillRate();
+    });
+    $('fWornD').addEventListener('input', function () { rateTouched = false; prefillRate(); });
+    $('fWornD').addEventListener('change', function () {
+      var c = $('fCur').value, v = posOrNull(num('fWornD'));
+      if (v) state.worn[c] = v; else delete state.worn[c];
+      save();
+    });
     $('dayBody').addEventListener('click', function (e) {
       var tr = e.target.closest ? e.target.closest('tr') : null;
       if (tr) tr.classList.toggle('open');
