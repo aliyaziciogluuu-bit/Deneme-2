@@ -131,16 +131,16 @@
      "yazi": "Ev kertenkelesinin göz kapakları yok.",
      "gorsel": "bakisma",
      "klip": "goz_yalama",
-     "kx": 0.35,
-     "kz": 1.2,
+     "kx": 0.44,
+     "kz": 1.1,
      "ky": 0.4
     },
     {
      "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
      "gorsel": "bakisma",
      "x": 0.5,
-     "aw": 0.6,
-     "ay": 0.4,
+     "aw": 0.8,
+     "ay": 0.45,
      "w": 0.75,
      "y": 0.38
     },
@@ -148,14 +148,14 @@
      "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
      "gorsel": "bakisma",
      "klip": "goz_yalama",
-     "kx": 0.35,
-     "kz": 1.2,
+     "kx": 0.44,
+     "kz": 1.1,
      "ky": 0.4
     },
     {
      "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
      "gorsel": "kapak",
-     "x": 0.67,
+     "x": 0.64,
      "aw": 0.6,
      "ay": 0.5,
      "x2": 0.62,

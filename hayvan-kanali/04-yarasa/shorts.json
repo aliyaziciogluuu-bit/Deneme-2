@@ -130,6 +130,81 @@
      "x": 0.51
     }
    ]
+  },
+  {
+   "ad": "s3-kanat",
+   "baslik": "Yarasanın Kanadı Aslında Bir El! 🦇 #shorts",
+   "aciklama": "Yarasanın kanadı, uzamış parmak kemiklerinin arasına gerilmiş ince bir deri: kocaman açılmış bir el. Yarasalar gerçekten uçabilen tek memeli; kuş ya da fare değil. Unutma: yarasalara asla çıplak elle dokunma. Tam video kanalımızda: \"Yarasa Saça Yapışır mı? (Dokunmadan Önce Bunu Bil)\"\n\n#shorts #yarasa #doğa #memeli #ilginçbilgiler",
+   "etiketler": [
+    "yarasa",
+    "yarasa kanadı",
+    "uçan memeli",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "KANADI",
+    "aslında bir el"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Yarasanın kanadı, aslında kocaman açılmış bir el.",
+     "gorsel": "ekolokasyon",
+     "klip": "ekolokasyon",
+     "kx": 0.3,
+     "kz": 1.2,
+     "ky": 0.5
+    },
+    {
+     "yazi": "Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
+     "gorsel": "kanat",
+     "x": 0.5,
+     "aw": 0.9,
+     "ay": 0.45,
+     "w": 0.8,
+     "y": 0.45
+    },
+    {
+     "yazi": "Yarasalar, gerçekten uçabilen tek memeliler.",
+     "gorsel": "portre",
+     "x": 0.55,
+     "aw": 0.7,
+     "ay": 0.6,
+     "w": 0.7,
+     "y": 0.6
+    },
+    {
+     "yazi": "Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar.",
+     "gorsel": "anne_yavru",
+     "klip": "anne_yavru",
+     "kx": 0.65,
+     "kz": 1.0,
+     "ky": 0.5
+    },
+    {
+     "yazi": "Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar.",
+     "gorsel": "lamba_yarasa",
+     "x": 0.68,
+     "aw": 0.6,
+     "ay": 0.55,
+     "w": 0.7,
+     "y": 0.5
+    },
+    {
+     "yazi": "Üstelik şaşırtıcı derecede uzun yaşıyorlar: Sibirya'da halkalanan küçük bir yarasa, en az kırk bir yıl yaşadı.",
+     "gorsel": "kapak",
+     "x": 0.72,
+     "aw": 0.85,
+     "ay": 0.55,
+     "w": 0.9,
+     "y": 0.52
+    },
+    {
+     "yazi": "Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.5
+    }
+   ]
   }
  ]
 }

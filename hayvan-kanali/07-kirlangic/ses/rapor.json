@@ -26,5 +26,124 @@
   "hata": 0,
   "sure": 6.66,
   "uygun": true
+ },
+ "004": {
+  "yazi": "Peki kırlangıç kışın nereye gidiyor?",
+  "duyulan": "Peki, kırlangıç kışın nereye gidiyor?",
+  "hata": 0,
+  "sure": 2.22,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "İngiltere'de yuvasında halkayla işaretlenen bir kırlangıç, bin dokuz yüz on iki yılının aralık ayında Güney Afrika'da bulundu.",
+  "duyulan": "İngiltere'de yuvasında halkayla işaretlenen bir kırlangıç, 1912 yılının Aralık ayında Güney Afrika'da bulundu.",
+  "hata": 0,
+  "sure": 6.7,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Kır kırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor.",
+  "duyulan": "Kırkırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor.",
+  "hata": 0,
+  "sure": 6.22,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "İki yüz yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.",
+  "duyulan": "200 yıldan fazla önce Gilbert White bile göç mü kış uykusu mu olduğundan emin değildi.",
+  "hata": 0,
+  "sure": 5.42,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Kırlangıçlar neden gidiyor?",
+  "duyulan": "Kırlangıçlar neden gidiyor?",
+  "hata": 0,
+  "sure": 1.78,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Kırlangıçgillerin göçmen türleri, yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor.",
+  "duyulan": "Kırlangıçgillerin göçmen türleri, yaz sonunda günler kısalıp böcekler azalınca yavruları ile birlikte göç ediyor.",
+  "hata": 0,
+  "sure": 6.64,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Peki Türkiye'ye ne zaman dönüyorlar?",
+  "duyulan": "Peki Türkiye'ye ne zaman dönüyorlar?",
+  "hata": 0,
+  "sure": 2.24,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Türkiye'de yapılan bir araştırmaya göre kır ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
+  "duyulan": "Türkiye'de yapılan bir araştırmaya göre, kır ve ev kırlangıcı Mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
+  "hata": 0,
+  "sure": 7.24,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Sonra Orta Anadolu'ya, ardından daha kuzeye yayılıyorlar; sonbaharda bu sıra tersine dönüyor.",
+  "duyulan": "Sonra Orta Anadolu'ya, ardından daha kuzeye yayılıyorlar. Sonbahar da bu sıra tersine dönüyor.",
+  "hata": 0,
+  "sure": 6.62,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Yuva neden bu kadar değerli?",
+  "duyulan": "Yuva neden bu kadar değerli?",
+  "hata": 0,
+  "sure": 2.0,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Bir kırlangıç yuvasının kırk sekiz yıl boyunca kullanıldığı bildirilmiş.",
+  "duyulan": "bir kırlangıç yuvasının 48 yıl boyunca kullanıldığı bildirilmiş.",
+  "hata": 0,
+  "sure": 3.78,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Kır kırlangıcında bir çift, yuvayı gagasında taşıdığı çamur topaklarıyla yaklaşık iki haftada yapıyor.",
+  "duyulan": "Kırkırlangıcında bir çift yuvayı gagasında taşıdığı çamur topaklarıyla yaklaşık iki haftada yapıyor.",
+  "hata": 0,
+  "sure": 6.02,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Bu yüzden eski yuvalar kuşlar için çok değerli sayılıyor.",
+  "duyulan": "Bu yüzden eski yuvalar kuşlar için çok değerli sayılıyor.",
+  "hata": 0,
+  "sure": 3.38,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Bir deneyde kuşların nereye yerleşeceği, eşin özelliklerinden çok boş yuva bulunmasıyla tahmin edilebilmiş.",
+  "duyulan": "Bir deneyde kuşların nereye yerleşeceği eşin özelliklerinden çok boş yuva bulunmasıyla tahmin edilebilmiş.",
+  "hata": 0,
+  "sure": 6.64,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Peki yuvayı bozarsan ne olur?",
+  "duyulan": "Peki yuvayı bozarsan ne olur?",
+  "hata": 0,
+  "sure": 1.8,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Bir kaynakta, geçmişte yuvaya zarar vermenin ineğin kanlı süt vermesine ya da tavukların yumurtlamayı bırakmasına yol açacağı düşünülmüş.",
+  "duyulan": "bir kaynakta geçmişte yuvaya zarar vermenin ineyin kanlı süt vermesine ya da tavukların yumurtlamayı bırakmasına yol açacağı düşünülmüş.",
+  "hata": 1,
+  "sure": 8.22,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Aynı kaynak bunu batıl inanç sayıyor ve kırlangıçlara hoşgörüyü pekiştirdiğini belirtiyor.",
+  "duyulan": "Aynı kaynak bunu batıl inanç sayıyor ve kırlangıçlara hoşgörüyü pekiştirdiğini belirtiyor.",
+  "hata": 0,
+  "sure": 5.58,
+  "uygun": true
  }
 }
