@@ -111,6 +111,7 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
   - Bir videoda 5 $ aşılacaksa patron durur, yeniden üretim yerine mevcut görselle devam eder.
 - Shorts: mevcut görsellerle yapıldığı için yalnızca seslendirme, birkaç kuruş.
 - **Aylık bütçe: 60 $** (kanal sahibi 19 Kasım'da onayladı; 20 Kasım'da haftada 3 video da bu bütçeyle istendi). Aralık: 14 yayın günü, 2'si hazır (karga, kırlangıç), 12 yeni video × ≈ 4,5 $ ≈ 54 $ + 6 $ yedek.
+- **Karar (20 Kasım, kanal sahibi kararı patrona bıraktı):** Aralık 60 $ tasarruflu düzenle başlar. Ölçüt izlenme: Aralık'ın ilk 4 videosu (kara kurbağası dahil) yayına girip 7 gün dolunca, ilk 30 sn tutma ve ortalama izleme süresi Kasım videolarının ortalamasıyla karşılaştırılır. Tutma 5 puandan fazla düşmüşse klipler 6'ya çıkar (≈ 70 $); kanal sahibine haber verilir. Düşmemişse 60 $ düzeni sürer.
 - Ayın ortasında harcama planın önündeyse (15'inde 30 $'ı geçtiyse) patron kanal sahibine haber verir; gerekirse ayın kalanında haftada 2 videoya inilir.
 - Harcamalar `kanal/butce.md` dosyasına video video yazılır.
 
