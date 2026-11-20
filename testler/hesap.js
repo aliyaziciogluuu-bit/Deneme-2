@@ -122,25 +122,27 @@ const SEED = {
     assert.ok(Math.abs(added[0].amount * added[0].rate - 28938) < 1e-6 && Math.abs(added[1].amount * added[1].rate - 7633.13) < 1e-6);
     assert.ok(await p.isDisabled('#kPost'));
     assert.ok((await txt('kList')).includes('kasaya işlendi'));
+    // --- Geri al (bildirim sekme değişince kapanır; bu yüzden hemen): işlemler silinir, satırlar yeniden işlenebilir
+    await p.click('#toastUndo');
+    assert.equal((await store()).tx.length, before.tx.length);
+    assert.ok(!(await txt('kList')).includes('kasaya işlendi'));
+    assert.ok(await p.isEnabled('#kPost'));
+    await p.click('#kPost');                                                     // yeniden işle
+    assert.equal((await store()).tx.length, before.tx.length + 3);
     await p.click('button[data-go="kasa"]');
     // TL: 500.000 − 270.000 − 98.000 + 28.938 − 7.633,13 + 30.150 = 183.454,87
     assert.equal(await txt('sTL'), '₺183.454,87');
     await p.click('button[data-go="gun"]');
     // Kâr: bilezik 10 × (2893,8 − 2700) = 1.938 + çeyrek 3 × (10.050 − 9.800) = 750
     assert.equal(await txt('dProfit'), '+₺2.688,00');
-    // --- Geri al: işlemler silinir, satırlar yeniden işlenebilir olur
-    await p.click('#toastUndo');
-    st = await store();
-    assert.equal(st.tx.length, before.tx.length);
+    assert.ok(await p.isHidden('#toast'));                                       // sekme değişince bildirim kapandı
     await p.click('button[data-go="hesap"]');
-    assert.ok(!(await txt('kList')).includes('kasaya işlendi'));
-    assert.ok(await p.isEnabled('#kPost'));
     // --- Kasada olmayan ürün satılamaz; hiçbir şey yazılmaz
     await p.click('label[for="kSell"]'); await p.click('#kKarats button[data-k="18"]');
     await p.fill('#kGram', '5'); await p.click('#kAdd');
     await p.click('#kPost');
     assert.ok(dialogs.some((d) => d.includes('Kasaya işlenemedi') && d.includes('18 Ayar Altın')), dialogs.join('|'));
-    assert.equal((await store()).tx.length, before.tx.length);
+    assert.equal((await store()).tx.length, before.tx.length + 3);
     await p.click('#kList li:last-child .x');
     // --- Hatalar ve esnek giriş
     await p.click('label[for="kBuy"]'); await p.click('#kKarats button[data-k="14"]');
@@ -173,7 +175,7 @@ const SEED = {
     await p.selectOption('#fCur', 'USD');
     await p.fill('#fAmount', '100'); await p.fill('#fRate', '40');
     await p.click('#btnSave');
-    assert.equal((await store()).tx.length, before.tx.length + 1);
+    assert.equal((await store()).tx.length, before.tx.length + 4);
     await ctx.close();
   };
   await run('telefon', { ...devices['iPhone 13'] }, OUT + '/tel');

@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.1">
+<meta name="surum" content="2026-11-20.8">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -401,8 +401,8 @@
     .eyebrow { display: none; }
     .top-tools { flex: none; flex-wrap: nowrap; }
     .top-tools button { min-height: 40px; }
-    #btnHide, #btnRates { width: 42px; padding: 0; justify-content: center; position: relative; }
-    #btnHide span, #btnRates span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    #btnHide, #btnRates, #btnBig { width: 42px; padding: 0; justify-content: center; position: relative; }
+    #btnHide span, #btnRates span, #btnBig span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     section.card { margin-bottom: 14px; }
     section.card > .head { padding: 12px 16px; }
     .mini, .banner { margin-bottom: 12px; }
@@ -569,7 +569,7 @@
     .wrap { padding-bottom: calc(104px + env(safe-area-inset-bottom)); }
     header.top { border-bottom: 0; margin-bottom: 10px; padding-bottom: 4px; }
     header.top h1 { font-size: 22px; }
-    #btnHide, #btnRates { width: 44px; height: 44px; border-radius: 50%; }
+    #btnHide, #btnRates, #btnBig { width: 44px; height: 44px; border-radius: 50%; }
     section.card { margin-bottom: 14px; }
     section.card > .head { padding: 14px 16px 2px; }
     section.card .body { padding: 10px 16px 16px; }
@@ -604,6 +604,62 @@
     #filterText { flex: 1 1 100%; }
     section.card > .head .tools select { flex: 1 1 0; min-width: 0; }
   }
+
+  /* Yeni özellikler */
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .worn-f { flex-direction: row !important; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+  .worn-f input[type="text"] { width: 120px; min-height: 40px; }
+  .quick.tpl button { background: var(--surface); border: 1.5px solid var(--line); }
+  .quick.tpl button.tpl-in { color: var(--pos); }
+  .quick.tpl button.tpl-out { color: var(--neg); }
+  .quick.tpl button.editing { text-decoration: line-through; opacity: .8; }
+  .quick.tpl button.tpl-edit { background: none; border: 0; color: var(--muted); font-weight: 500; }
+  .closebar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 12px 18px; border-top: 1px solid var(--line); }
+  .closebar:empty, .closebar[hidden] { display: none; }
+  .lockinfo { font-weight: 600; }
+  .rate-row.auto-row { grid-template-columns: minmax(130px, 1.2fr) 1fr 1fr minmax(120px, 1.2fr); grid-template-areas: none; align-items: end; }
+  .rate-row.auto-row > * { grid-area: auto; }
+  .auto-row .name { align-self: center; }
+  .person .tools { display: flex; gap: 6px; }
+  @media (max-width: 820px) {
+    .rate-row.auto-row { grid-template-columns: 1fr 1fr; grid-template-areas: none; }
+    .auto-row .name, .auto-row .info { grid-column: 1 / -1; }
+  }
+
+  /* Hızlı tutar ve büyük yazı */
+  .amtq-f { margin-top: -4px; }
+  .quick.amtq button { min-height: 34px; padding: 4px 12px; font-size: 14px; background: none; border: 1.5px solid var(--line); }
+  .quick.amtq button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .aa { font: 800 16px/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; letter-spacing: -.02em; }
+  #btnBig[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+  body.big .wrap, body.big .toast, body.big dialog, body.big .receipt { zoom: 1.16; }
+
+  /* Başparmakla kaydet: telefonda kaydet çubuğu, form göründükçe ekranın altında sabit kalır */
+  @media (max-width: 640px) {
+    section.card.tx-card { overflow: visible; }
+    #txForm .form-foot {
+      position: sticky; bottom: calc(70px + env(safe-area-inset-bottom)); z-index: 5;
+      margin: 4px -16px -16px; padding: 10px 16px; background: var(--surface);
+      border-top: 1px solid var(--line); border-radius: 0 0 20px 20px; box-shadow: 0 -6px 16px rgba(16, 20, 24, .06);
+    }
+    #txForm .form-foot .tools { flex-wrap: nowrap; }
+    #btnSave { min-height: 50px; padding: 10px 22px; font-size: 17px; }
+    body[data-view="islem"] .toast { bottom: calc(150px + env(safe-area-inset-bottom)); }   /* kaydet çubuğunun üstünde */
+  }
+
+  .banner.danger { border: 1.5px solid var(--neg); background: var(--neg-bg); color: var(--ink); }
+
+  /* Paket 1 */
+  .banner.warn { border: 1.5px solid var(--gold); }
+  #fTotal { font-size: 19px; font-weight: 750; color: var(--ink); letter-spacing: -.01em; }
+  .haslink { margin-top: 12px; font-size: 14.5px; }
+  .docwarn { font-weight: 600; color: var(--gold); }
+  .receipt .notdoc { text-align: center; font-weight: 800; letter-spacing: .12em; font-size: 12.5px; color: #b3402e; margin: 6px 0 0;
+                     border: 1.5px solid #b3402e; border-radius: 6px; padding: 4px; }
+  .receipt .paper { position: relative; overflow: hidden; }
+  .receipt .paper::after { content: "BELGE DEĞİLDİR"; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(-24deg);
+                           font: 800 46px/1 system-ui, sans-serif; color: rgba(179, 64, 46, .08); white-space: nowrap; pointer-events: none; }
+  td.actions { gap: 6px; }
 </style>
 </head>
 <body>
@@ -618,9 +674,21 @@
     <div class="top-tools">
       <button id="btnInstall" type="button" class="primary" hidden>Ana ekrana ekle</button>
       <button id="btnHide" type="button" aria-pressed="false" title="Tutarları gizle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"/><circle cx="12" cy="12" r="2.8"/></svg><span id="btnHideTxt">Tutarları gizle</span></button>
+      <button id="btnBig" type="button" aria-pressed="false" title="Büyük yazı"><b class="aa" aria-hidden="true">Aa</b><span id="btnBigTxt">Büyük yazı</span></button>
       <button id="btnRates" type="button" title="Fiyatları güncelle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.4-5.7M20 4v5h-5"/></svg><span id="btnRatesTxt">Fiyatları güncelle</span></button>
     </div>
   </header>
+
+  <div class="banner danger" id="rescueBanner" role="alert" hidden>
+    <span id="rescueWhy"></span>
+    <button type="button" class="small primary" id="btnRescueDl">Ham kaydı indir</button>
+    <button type="button" class="small" id="btnRescueGo">Okunabilenlerle devam et</button>
+  </div>
+
+  <div class="banner warn" id="staleBanner" role="status" hidden>
+    <span id="staleText"></span>
+    <button type="button" class="small primary" id="btnStaleRefresh">Şimdi güncelle</button>
+  </div>
 
   <div class="banner" id="updBanner" hidden>
     <span>Uygulamanın yeni sürümü hazır.</span>
@@ -674,10 +742,14 @@
     </div>
   </div>
 
-  <section class="card" data-view="islem">
+  <section class="card tx-card" data-view="islem">
     <div class="head"><h2 id="formTitle">Yeni işlem</h2></div>
     <div class="body">
       <form class="tx" id="txForm" novalidate>
+        <div class="f full" id="tplF" hidden>
+          <span class="lbl">Hızlı işlemler</span>
+          <div class="quick tpl" id="tplRow"></div>
+        </div>
         <div class="f full">
           <div class="seg">
             <input type="radio" name="type" id="tIn" value="in" checked><label class="in" for="tIn" id="lIn">Alış</label>
@@ -696,6 +768,9 @@
           <label for="fRate" id="lRate">Kur (₺)</label>
           <input type="text" id="fRate" inputmode="decimal" autocomplete="off" placeholder="0,00" required>
         </div>
+        <div class="f full amtq-f">
+          <div class="quick amtq" id="amtQuick" aria-label="Hızlı tutar"></div>
+        </div>
         <div class="f arbf arb-first" hidden>
           <label for="fCur2">Verilen varlık</label>
           <select id="fCur2"></select>
@@ -707,6 +782,11 @@
         <div class="f arbf" hidden>
           <label for="fRate2">Satış kuru (₺)</label>
           <input type="text" id="fRate2" inputmode="decimal" autocomplete="off" placeholder="0,00">
+        </div>
+        <div class="f full worn-f" id="wornField" hidden>
+          <label class="check" for="fWorn"><input type="checkbox" id="fWorn"> Eski seri / yıpranmış</label>
+          <label for="fWornD" class="sr">Eski seri farkı (₺)</label>
+          <input type="text" id="fWornD" inputmode="decimal" autocomplete="off" placeholder="fark ₺" hidden>
         </div>
         <div class="f full" id="expField" hidden>
           <label class="check" for="fExp"><input type="checkbox" id="fExp"> Masraf olarak işle (günün net kârından düşülür)</label>
@@ -722,6 +802,10 @@
           <label for="fCur" id="lCur">Varlık</label>
           <select id="fCur"></select>
         </div>
+        <div class="f" data-fold="txmore">
+          <label for="fDoc">Belge no (isteğe bağlı)</label>
+          <input type="text" id="fDoc" maxlength="30" autocomplete="off" placeholder="Kestiğiniz belgenin no’su">
+        </div>
         <div class="f full" data-fold="txmore">
           <label for="fNote">Açıklama (isteğe bağlı)</label>
           <input type="text" id="fNote" maxlength="120" placeholder="Örn. Müşteri adı, açılış bakiyesi, masraf…">
@@ -732,6 +816,7 @@
             <div class="msg" id="fMsg" role="status"></div>
           </div>
           <div class="tools">
+            <button type="button" class="small" id="btnTpl" title="Bu işlemi hızlı işlem olarak kaydet">☆ Şablon</button>
             <button type="button" id="btnCancel" hidden>Vazgeç</button>
             <button type="submit" class="primary" id="btnSave">İşlemi kaydet</button>
           </div>
@@ -766,6 +851,8 @@
         </div>
       </div>
       <div class="hint" id="hasInfo"></div>
+      <label class="check haslink" for="hasLinkChk"><input type="checkbox" id="hasLinkChk"> Gram altın kurlarımı (22, 18, 14 ayar…)
+        bu fiyattan, milyem ve işçiliğimle hesapla</label>
     </div>
   </section>
 
@@ -829,7 +916,8 @@
           <div class="hint" id="kSrc"></div>
           <div class="tools">
             <button type="button" id="kClear">Temizle</button>
-            <button type="submit" class="primary" id="kAdd">Listeye ekle</button>
+            <button type="submit" id="kAdd">Listeye ekle</button>
+            <button type="button" class="primary" id="kPostOne">Kasaya işle</button>
           </div>
         </div>
       </form>
@@ -840,7 +928,7 @@
     <div class="head">
       <h2>Hesap listesi</h2>
       <div class="tools">
-        <button type="button" class="small" id="kReceipt">Fiş</button>
+        <button type="button" class="small" id="kReceipt">Döküm</button>
         <button type="button" class="small" id="kShare">Paylaş</button>
         <button type="button" class="small" id="kListClear">Listeyi temizle</button>
       </div>
@@ -997,6 +1085,18 @@
 
   <section class="card" data-view="kurlar">
     <div class="head">
+      <h2>Otomatik kur</h2>
+      <button type="button" class="small" data-toggle="otokur" data-label="Ayarla"></button>
+    </div>
+    <div class="body" data-fold="otokur">
+      <p class="hint lead">Farkınızı bir kez yazın; fiyatlar her güncellendiğinde kurunuz kendiliğinden değişir.
+        Fark piyasa fiyatına eklenir: alışta genellikle eksi (ör. −0,10), satışta artı (ör. 0,20).</p>
+      <div id="autoRows"></div>
+    </div>
+  </section>
+
+  <section class="card" data-view="kurlar">
+    <div class="head">
       <h2>Çevirici</h2>
       <button type="button" class="small" data-toggle="cevirici" data-label="Aç"></button>
     </div>
@@ -1140,6 +1240,7 @@
         <button type="button" class="small" id="dayToday">Bugün</button>
       </div>
     </div>
+    <div class="closebar" id="closeBar"></div>
     <div class="daystats">
       <div><div class="k">Net kâr (TL)</div><div class="v amt" id="dNet">₺0,00</div></div>
       <div><div class="k">Net kâr (dolar)</div><div class="v amt" id="dNetUsd">—</div></div>
@@ -1255,6 +1356,7 @@
 <div class="receipt" id="receipt" hidden>
   <div class="paper">
     <h2 id="rcShop"></h2>
+    <p class="notdoc">HESAP DÖKÜMÜ · BELGE DEĞİLDİR</p>
     <p class="when" id="rcTime"></p>
     <p class="cust" id="rcCust" hidden></p>
     <table><tbody id="rcBody"></tbody></table>
@@ -1342,7 +1444,8 @@
 
   var state = {
     tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
-    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {}
+    count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {},
+    auto: {}, worn: {}, tpl: [], closed: [], hasLink: false
   };
   var balOpen = {};                   // Kasa bakiyelerinde ayrıntısı açık varlıklar
   var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
@@ -1353,16 +1456,58 @@
   var $ = function (id) { return document.getElementById(id); };
 
   // ---------- Saklama ----------
+  // Kayıt okunamazsa veri ASLA ezilmez: ham kayıt kurtarma anahtarına kopyalanır, kaydetme durdurulur ve
+  // kullanıcıya seçenek sunulur (ham kaydı indir ya da okunabilen işlemlerle devam et).
+  var loadFailed = null, saveWarned = false, RESCUE_KEY = 'doviz-kasasi-kurtarma';
   function load() {
-    try {
-      var raw = localStorage.getItem(STORE_KEY);
-      if (raw) applyData(JSON.parse(raw));
-    } catch (e) { /* bozuk ya da erişilemeyen kayıt: boş kasa ile devam */ }
+    var raw = null;
+    try { raw = localStorage.getItem(STORE_KEY); } catch (e) { raw = null; }
+    if (raw) {
+      try {
+        applyData(JSON.parse(raw));
+      } catch (e) {
+        loadFailed = { raw: raw, why: e && e.message ? e.message : 'okunamadı' };
+        try { if (!localStorage.getItem(RESCUE_KEY)) localStorage.setItem(RESCUE_KEY, raw); } catch (e2) { /* yer yok */ }
+      }
+    }
     ensureTable();
   }
   function save() {
+    if (loadFailed) return;   // bozuk kayıt çözülene kadar hiçbir şey yazılmaz
     snapFx();
-    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* özel sekme vb. */ }
+    try {
+      localStorage.setItem(STORE_KEY, JSON.stringify(state));
+    } catch (e) {
+      if (!saveWarned) {
+        saveWarned = true;
+        alert('Kayıt yapılamadı: telefonun depolama alanı dolu ya da tarayıcı kaydetmeye izin vermiyor.\n' +
+              'Hemen “Yedek al” ile yedek alın ve telefonda yer açın.');
+      }
+    }
+  }
+  function renderRescue() {
+    var box = $('rescueBanner');
+    box.hidden = !loadFailed;
+    if (loadFailed) $('rescueWhy').textContent = 'Kayıtlarınız okunamadı (' + loadFailed.why + '). Verileriniz silinmedi; ' +
+      'sorun çözülene kadar uygulama hiçbir şey kaydetmiyor. Önce ham kaydı indirip saklayın.';
+  }
+  function rescueDownload() {
+    if (!loadFailed) return;
+    download('doviz-kasasi-ham-kayit-' + today() + '.json', loadFailed.raw, 'application/json');
+  }
+  function rescueContinue() {
+    if (!loadFailed) return;
+    var data;
+    try { data = JSON.parse(loadFailed.raw); } catch (e) { return alert('Kayıt hiç okunamıyor. Ham kaydı indirip saklayın; destek alın.'); }
+    var skipped = { n: 0 };
+    try { applyData(data, skipped); } catch (e) { return alert('Kayıt okunamadı: ' + e.message); }
+    if (!confirm('Okunabilen kayıtlarla devam edilecek; ' + skipped.n + ' bozuk satır atlanacak.\n' +
+                 'Ham kaydın bir kopyası telefonda saklı kalır. Devam edilsin mi?')) { load(); return; }
+    loadFailed = null;
+    ensureTable();
+    save();
+    render();
+    toast(skipped.n + ' bozuk satır atlandı; kayıtlar yüklendi.');
   }
   function ensureTable() {
     if (state.myRates) return;
@@ -1370,12 +1515,15 @@
     DEFAULT_TABLE.forEach(function (c) { state.myRates[c] = { buy: null, sell: null }; });
   }
   function posOrNull(v) { v = Number(v); return v > 0 && isFinite(v) ? v : null; }
-  function applyData(data) {
+  // skipped verilirse bozuk işlem satırları hata yerine atlanır ve sayılır (kurtarma için)
+  function applyData(data, skipped) {
     if (!data || !Array.isArray(data.tx)) throw new Error('Geçersiz dosya');
     var tx = data.tx.map(function (t, i) {
+      t = t || {};
       var amount = Number(t.amount), rate = isCash(t.cur) ? 1 : Number(t.rate);
       if (!ASSETS[t.cur] || (t.type !== 'in' && t.type !== 'out') ||
           !/^\d{4}-\d{2}-\d{2}$/.test(t.date) || !(amount > 0) || !(rate > 0)) {
+        if (skipped) { skipped.n++; return null; }
         throw new Error('Geçersiz işlem kaydı (satır ' + (i + 1) + ')');
       }
       var o = {
@@ -1386,8 +1534,15 @@
       if (t.adj) o.adj = true;            // kasa sayımı farkı
       if (t.cari) o.cari = String(t.cari).slice(0, 60);   // cari hareket: kişi adı
       if (t.exp && isCash(t.cur) && t.type === 'out') o.exp = true;   // masraf: net kârdan düşülür
+      if (t.doc) o.doc = String(t.doc).slice(0, 30);                    // resmî belge no (elle yazılır)
+      if (t.loss && t.type === 'out' && !isCash(t.cur)) o.loss = true;   // kayıp: maliyeti kârdan düşer
+      if (t.ret && t.type === 'in' && !isCash(t.cur)) {                 // iade: hangi satışın iadesi, satıştaki birim maliyet
+        o.ret = String(t.ret);
+        o.basis = Number(t.basis) > 0 && isFinite(Number(t.basis)) ? Number(t.basis) : rate;
+      }
       return o;
     });
+    tx = tx.filter(Boolean);
     var rates = {}, sell = {}, chg = {}, my = null;
     PRICED.forEach(function (c) {
       var r = posOrNull((data.rates || {})[c]), s = posOrNull((data.sell || {})[c]);
@@ -1407,8 +1562,69 @@
       tx: tx, rates: rates, sell: sell, chg: chg, myRates: my, ratesUpdated: data.ratesUpdated || null,
       rateSrc: data.rateSrc === 'tr' || data.rateSrc === 'fb' ? data.rateSrc : null,
       count: cleanCount(data.count), calc: cleanCalc(data.calc),
-      whole: cleanWhole(data.whole), items: cleanItems(data.items), fx: cleanFx(data.fx)
+      whole: cleanWhole(data.whole), items: cleanItems(data.items), fx: cleanFx(data.fx),
+      auto: cleanAuto(data.auto), worn: cleanWorn(data.worn), tpl: cleanTpl(data.tpl), closed: cleanClosed(data.closed),
+      hasLink: !!data.hasLink
     };
+  }
+  function finiteOr0(v) { v = Number(v); return isFinite(v) ? v : 0; }
+  // auto: otomatik kur — varlık başına piyasa alış ve satış fiyatına eklenecek fark (₺)
+  function cleanAuto(m) {
+    var out = {};
+    if (!m || typeof m !== 'object') return out;
+    PRICED.forEach(function (c) {
+      var a = m[c];
+      // kapalı olsa da yazılmış fark saklanır (yeniden açınca kaybolmasın)
+      if (a && typeof a === 'object' && (a.on || finiteOr0(a.b) || finiteOr0(a.s))) out[c] = { on: !!a.on, b: finiteOr0(a.b), s: finiteOr0(a.s) };
+    });
+    return out;
+  }
+  // worn: eski seri / yıpranmış döviz için alış kurundan düşülecek fark (₺/birim)
+  function cleanWorn(m) {
+    var out = {};
+    if (!m || typeof m !== 'object') return out;
+    PRICED.forEach(function (c) { var v = posOrNull(m[c]); if (v && !isMetal(c)) out[c] = v; });
+    return out;
+  }
+  // tpl: hızlı işlem şablonları
+  function cleanTpl(list) {
+    return (Array.isArray(list) ? list : []).filter(function (t) {
+      return t && (t.type === 'in' || t.type === 'out') && ASSETS[t.cur] && Number(t.amount) > 0 && isFinite(Number(t.amount));
+    }).slice(0, 12).map(function (t) {
+      return { id: String(t.id || uid()), type: t.type, cur: t.cur, amount: Number(t.amount), exp: !!(t.exp && isCash(t.cur) && t.type === 'out') };
+    });
+  }
+  // closed: kapatılan günler (gün sonu). Son kapatılan gün ve öncesindeki işlemler değiştirilemez.
+  function cleanClosed(list) {
+    var seen = {};
+    return (Array.isArray(list) ? list : []).filter(function (c) {
+      return c && /^\d{4}-\d{2}-\d{2}$/.test(c.d) && !seen[c.d] && (seen[c.d] = true);
+    }).map(function (c) { return { d: c.d, at: String(c.at || '') }; })
+      .sort(function (a, b) { return a.d < b.d ? -1 : a.d > b.d ? 1 : 0; });
+  }
+  function lockedThrough() { return state.closed.length ? state.closed[state.closed.length - 1].d : ''; }
+  function isLocked(date) { var l = lockedThrough(); return !!l && date <= l; }
+  // next listesi, kapatılmış bir günün işlemlerini ekliyor, siliyor ya da değiştiriyorsa açıklama döner
+  function lockError(next) {
+    var lim = lockedThrough();
+    if (!lim) return '';
+    var before = {}, after = {}, ids = {}, bad = '';
+    state.tx.forEach(function (t) { before[t.id] = t; ids[t.id] = true; });
+    next.forEach(function (t) { after[t.id] = t; ids[t.id] = true; });
+    Object.keys(ids).some(function (id) {
+      var a = before[id], b = after[id];
+      if (a && b && (a === b || JSON.stringify(a) === JSON.stringify(b))) return false;
+      var d = [a && a.date, b && b.date].filter(Boolean).sort()[0];
+      if (d && d <= lim) { bad = d; return true; }
+      return false;
+    });
+    return bad ? fmtDate(lim) + ' ve öncesi kapatıldı (gün sonu); bu günlerin işlemleri değiştirilemez. ' +
+                 'Gerekirse Rapor bölümünden kilidi açın.' : '';
+  }
+  // Kasa işlemlerini değiştirmeden önce: önce gün sonu kilidi, sonra stok denetimi
+  function validate(next) {
+    var e = lockError(next);
+    return e ? { error: e, locked: true } : compute(next);
   }
   // fx: gün başına [dolar satış kuru, has altın satış fiyatı]; kârı dolar ve has olarak göstermek için
   function cleanFx(m) {
@@ -1576,6 +1792,28 @@
         if (d) d[t.type === 'in' ? 'inn' : 'out'] += t.amount;
         return;
       }
+      if (t.loss) {
+        // Kayıp (sahte para, ayarı düşük çıkan mal, eksik): stok ortalama maliyetle düşer, maliyeti masraf olur
+        var lc = a.bal > EPS ? a.cost / a.bal : t.rate;
+        a.bal -= t.amount;
+        a.cost -= t.amount * lc;
+        if (Math.abs(a.bal) < EPS) { a.bal = 0; a.cost = 0; }
+        D.expense += t.amount * lc;
+        if (d) d.out += t.amount;
+        return;
+      }
+      if (t.ret && t.type === 'in') {
+        // İade: mal satıştaki maliyetiyle geri girer, para müşteriye geri ödenir, satışın kârı geri alınır
+        var back = t.amount * (t.rate - t.basis), R = statOf(t.cur, t.date);
+        a.bal += t.amount;
+        a.cost += t.amount * t.basis;
+        a.realized -= back;
+        tl -= total;
+        D.profit -= back;
+        R.n++; R.sellQty -= t.amount; R.sellTL -= total; R.profit -= back;
+        if (d) { d.inn += t.amount; d.sold = true; d.profit -= back; }
+        return;
+      }
       var S = statOf(t.cur, t.date);
       S.n++;
       if (t.type === 'in') {
@@ -1647,7 +1885,7 @@
   // Giriş kutusuna yazılacak sayı: ondalık ayırıcı virgül
   function fmtInput(n) { return String(Number(Number(n).toFixed(6))).replace('.', ','); }
   function withName(n, c) { return fmtAmt(n, c) + (isCash(c) ? '' : ' ' + shortName(c)); }
-  function noteOf(t) { return [t.cari, t.note].filter(Boolean).join(' · '); }
+  function noteOf(t) { return [t.cari, t.note, t.doc ? 'Belge ' + t.doc : ''].filter(Boolean).join(' · '); }
   function fmtDate(iso) { var p = iso.split('-'); return p[2] + '.' + p[1] + '.' + p[0]; }
   function signClass(n) { return n > 0.005 ? 'pos' : n < -0.005 ? 'neg' : ''; }
   function isoDate(d) {
@@ -1775,6 +2013,8 @@
 
     renderMarket();
     renderMyRates();
+    renderAuto();
+    renderStale();
     renderCount();
     renderDay();
     renderRecent();
@@ -1815,6 +2055,8 @@
                  (state.sell[c] > 0 ? ' / ' + fmtRate(state.sell[c], c) : ''));
     }
     if (m.buy && m.sell) parts.push('Makas ' + fmtRate(m.sell - m.buy, c));
+    if (isLinked(c)) parts.push('has fiyatından');
+    else if (state.auto[c] && state.auto[c].on) parts.push('otomatik');
     return parts.join(' · ');
   }
   function renderMyRates() {
@@ -1830,6 +2072,16 @@
         var input = el('input', { type: 'text', id: id, inputmode: 'decimal', autocomplete: 'off', placeholder: '—' });
         if (m[key]) input.value = fmtInput(m[key]);
         input.addEventListener('change', function () {
+          if (isLinked(c)) {   // elle yazılan gram altın kuru has bağlantısını kapatır
+            state.hasLink = false;
+            toast('Gram altın kurları artık has fiyatından hesaplanmıyor.');
+            setTimeout(function () { render(); }, 0);
+          }
+          if (state.auto[c] && state.auto[c].on) {   // elle yazılan kur otomatiği kapatır (fark saklanır)
+            state.auto[c].on = false;
+            toast(label(c) + ' için otomatik kur kapatıldı.');
+            setTimeout(renderAuto, 0);
+          }
           m[key] = posOrNull(parseNum(input.value));
           input.value = m[key] ? fmtInput(m[key]) : '';
           save();
@@ -1842,7 +2094,8 @@
       var del = el('button', { type: 'button', class: 'small', 'aria-label': label(c) + ' satırını kaldır', text: 'Kaldır' });
       del.addEventListener('click', function () {
         delete state.myRates[c];
-        save(); renderMyRates(); prefillRate();
+        delete state.auto[c];
+        save(); render(); prefillRate();
       });
       box.appendChild(el('div', { class: 'rate-row' }, [
         assetCell(c, 'name', 'div'), field('buy', 'Alış kurum'), field('sell', 'Satış kurum'),
@@ -1858,6 +2111,77 @@
       if (!state.myRates[c]) sel.appendChild(el('option', { value: c, text: isMetal(c) ? label(c) : c + ' — ' + ASSETS[c].name }));
     });
     sel.hidden = sel.options.length < 2;
+  }
+  // Otomatik kur: piyasa fiyatı + büronun farkı. Fiyatlar güncellenince ve fark değişince uygulanır.
+  function autoPrice(c, side) {
+    var a = state.auto[c], m = side === 'buy' ? state.rates[c] : (state.sell[c] > 0 ? state.sell[c] : state.rates[c]);
+    if (!a || !a.on || !(m > 0)) return null;
+    var v = m + (side === 'buy' ? a.b : a.s);
+    return v > 0 ? (isMetal(c) ? Math.round(v * 100) / 100 : round4(v)) : null;
+  }
+  function applyAuto() {
+    var changed = false;
+    Object.keys(state.auto).forEach(function (c) {
+      if (!state.myRates[c] || isLinked(c)) return;   // has fiyatına bağlı satırlar otomatik kura uymaz
+      ['buy', 'sell'].forEach(function (side) {
+        var v = autoPrice(c, side);
+        if (v && state.myRates[c][side] !== v) { state.myRates[c][side] = v; changed = true; }
+      });
+    });
+    if (applyHasLink()) changed = true;
+    return changed;
+  }
+  function autoPreview(c) {
+    var a = state.auto[c], b = autoPrice(c, 'buy'), s2 = autoPrice(c, 'sell');
+    if (!a || !a.on) return 'Kapalı';
+    return b || s2 ? 'Şu an: ' + (b ? fmtRate(b, c) : '—') + ' / ' + (s2 ? fmtRate(s2, c) : '—') : 'Piyasa fiyatı yok';
+  }
+  var autoKeep = false;   // ayar kaydedilirken satırları yeniden kurma (dokunulan kutu yerinden oynamasın)
+  function renderAuto() {
+    var box = $('autoRows');
+    // Fark yazılırken ya da kaydedilirken satırları yeniden kurma; yalnızca önizlemeleri güncelle
+    if (autoKeep || (box.contains(document.activeElement) && document.activeElement.type === 'text')) {
+      Array.prototype.forEach.call(box.querySelectorAll('[data-prev]'), function (n) { n.textContent = autoPreview(n.getAttribute('data-prev')); });
+      return;
+    }
+    box.textContent = '';
+    Object.keys(state.myRates).sort(byCode).forEach(function (c) {
+      if (isLinked(c)) return;   // has fiyatından hesaplanıyor
+      var a = state.auto[c] || { on: false, b: 0, s: 0 };
+      var chk = el('input', { type: 'checkbox', id: 'au-' + c });
+      chk.checked = !!a.on;
+      var numIn = function (key, text) {
+        var id = 'au-' + key + '-' + c;
+        var i = el('input', { type: 'text', id: id, inputmode: 'text', autocomplete: 'off', placeholder: '0' });
+        if (a[key]) i.value = (a[key] < 0 ? '−' : '') + fmtInput(Math.abs(a[key]));
+        i.addEventListener('change', function () { saveAuto(c); });
+        return el('div', { class: 'fld' }, [el('label', { for: id, text: text }), i]);
+      };
+      chk.addEventListener('change', function () { saveAuto(c); });
+      var preview = el('div', { class: 'info', 'data-prev': c, text: autoPreview(c) });
+      box.appendChild(el('div', { class: 'rate-row auto-row' }, [
+        el('label', { class: 'check name', for: 'au-' + c }, [chk, document.createTextNode(label(c))]),
+        numIn('b', 'Alış farkı (₺)'), numIn('s', 'Satış farkı (₺)'), preview
+      ]));
+    });
+    if (!box.children.length) box.appendChild(el('div', { class: 'empty', text: 'Önce kur tablonuza varlık ekleyin.' }));
+  }
+  // "−0,10", "-0,1", "0,20" gibi işaretli sayıları okur
+  function signedNum(str) {
+    var t = String(str || '').trim(), neg = /^[−-]/.test(t);
+    var v = parseNum(t.replace(/^[−+-]/, ''));
+    return neg ? -v : v;
+  }
+  function saveAuto(c) {
+    var on = $('au-' + c).checked;
+    var b = $('au-b-' + c).value.trim() ? signedNum($('au-b-' + c).value) : 0;
+    var s2 = $('au-s-' + c).value.trim() ? signedNum($('au-s-' + c).value) : 0;
+    if (!isFinite(b) || !isFinite(s2)) return toast('Fark için geçerli bir sayı yazın (ör. −0,10).');
+    if (on || b || s2) state.auto[c] = { on: on, b: b, s: s2 }; else delete state.auto[c];
+    applyAuto();
+    save();
+    autoKeep = true;
+    try { render(); prefillRate(); } finally { autoKeep = false; }
   }
   function fillFromMarket() {
     var codes = Object.keys(state.myRates).filter(function (c) { return state.rates[c] > 0; });
@@ -1910,6 +2234,7 @@
     $('anRange').hidden = !an;
     ['dayPrev', 'dayNext', 'dayToday'].forEach(function (id) { $(id).hidden = an; });
     $('dayWrap').hidden = month || an;
+    $('closeBar').hidden = month || an;
     $('monthWrap').hidden = !month;
     $('anWrap').hidden = !an;
     $('dayTitle').textContent = an ? 'Kâr analizi' : month ? 'Aylık rapor' : 'Gün sonu özeti';
@@ -1952,6 +2277,7 @@
     $('dayFoot').textContent = (rep.count ? '' : fmtDate(day) + ' tarihinde işlem yok. ') +
       'Alım-satım kârı, satış kuru ile ortalama alış maliyeti arasındaki farktır; net kâr bundan masraflar düşülerek bulunur.' + ALT_NOTE;
     $('dayNext').disabled = day >= today();
+    renderCloseBar(day, rep);
   }
   function renderMonth() {
     var ym = $('monthDate').value || today().slice(0, 7);
@@ -2111,6 +2437,52 @@
     }
     return lines.join('\n');
   }
+  // Gün sonu kapanışı: kapatılan gün ve öncesi kilitlenir; yalnızca son kapanış geri açılabilir
+  function missingDocs(day) {
+    var usesDocs = state.tx.some(function (t) { return t.doc; });
+    if (!usesDocs) return [];
+    return state.tx.filter(function (t) { return t.date === day && !isCash(t.cur) && !t.adj && !t.cari && !t.loss && !t.doc; });
+  }
+  function renderCloseBar(day, rep) {
+    var bar = $('closeBar'), lim = lockedThrough();
+    bar.textContent = '';
+    var miss = missingDocs(day);
+    if (miss.length) {
+      var see = el('button', { type: 'button', class: 'small', text: 'Göster' });
+      see.addEventListener('click', function () { $('filterText').value = ''; $('filterDate').value = ''; setView('liste'); renderTx(); });
+      bar.appendChild(el('span', { class: 'docwarn', text: 'Belge no girilmemiş ' + miss.length + ' işlem var.' }));
+      bar.appendChild(see);
+      bar.appendChild(el('span', { class: 'brk' }));
+    }
+    if (day > today()) return;
+    if (lim && day <= lim) {
+      var last = day === lim;
+      bar.appendChild(el('span', { class: 'lockinfo', text: '🔒 ' + (last ? 'Bu gün kapatıldı.' : fmtDate(lim) + ' kapanışıyla kilitli.') }));
+      if (last) {
+        var open = el('button', { type: 'button', class: 'small', id: 'btnReopen', text: 'Kilidi aç' });
+        open.addEventListener('click', function () {
+          if (!confirm(fmtDate(lim) + ' kapanışı kaldırılsın mı? Bu günün işlemleri yeniden değiştirilebilir olur.')) return;
+          state.closed.pop();
+          save(); renderDay();
+          toast('Kilit açıldı.');
+        });
+        bar.appendChild(open);
+      }
+      return;
+    }
+    var close = el('button', { type: 'button', class: 'small primary', id: 'btnCloseDay', text: 'Günü kapat' });
+    close.addEventListener('click', function () {
+      var net = rep.profit - rep.expense;
+      if (!confirm(fmtDate(day) + ' kapatılsın mı?\nNet kâr: ' + fmtSigned(net) + '\nTL kasası: ' + fmtTL(rep.close.tl) +
+                   '\n\nBu gün ve önceki günlerin işlemleri kilitlenir; sonradan değiştirilemez (gerekirse kilit açılabilir).')) return;
+      state.closed.push({ d: day, at: new Date().toISOString() });
+      save(); render();
+      toast(fmtDate(day) + ' kapatıldı.');
+      if (confirm(fmtDate(day) + ' kapatıldı. Günün yedeğini şimdi gönderelim mi? (WhatsApp, e-posta ya da Drive)')) backupNow();
+    });
+    bar.appendChild(close);
+    bar.appendChild(el('span', { class: 'hint', text: 'Kapatınca bu günün işlemleri yanlışlıkla değişmez.' }));
+  }
   function setDay(iso) {
     $('dayDate').value = iso > today() ? today() : iso;
     renderDay();
@@ -2156,7 +2528,9 @@
   }
 
   function typeLabel(t) {
+    if (t.loss || (t.exp && t.note === 'Kayıp')) return 'Kayıp';
     if (t.adj) return 'Sayım farkı';
+    if (t.ret) return 'İade';
     if (t.cari) return t.type === 'out' ? 'Cari: verildi' : 'Cari: alındı';
     if (t.exp) return 'Masraf';
     if (t.arb) return t.type === 'in' ? 'Arbitraj alış' : 'Arbitraj satış';
@@ -2180,7 +2554,12 @@
       var del = el('button', { type: 'button', class: 'small danger', text: 'Sil' });
       del.addEventListener('click', function () { removeTx(t.id); });
       var cash = isCash(t.cur) || !!t.adj || !!t.cari;   // kur ve TL karşılığı gösterilmeyen satırlar
-      var actions = t.arb || t.adj || t.cari ? [del] : [edit, document.createTextNode(' '), del];
+      var actions = t.arb || t.adj || t.cari || t.ret || t.loss ? [del] : [edit, document.createTextNode(' '), del];
+      if (t.type === 'out' && !isCash(t.cur) && !t.arb && !t.adj && !t.cari) {
+        var back = el('button', { type: 'button', class: 'small', text: 'İade' });
+        back.addEventListener('click', function () { returnSale(t.id); });
+        actions = [back].concat(actions);
+      }
       var tr = el('tr', {}, [
         el('td', { 'data-label': 'Tarih', text: fmtDate(t.date) }),
         el('td', { 'data-label': 'Tür', class: 'left' }, [el('span', { class: 'badge ' + t.type, text: typeLabel(t) })]),
@@ -2239,7 +2618,122 @@
     $('lAmount2').textContent = 'Verilen ' + lowerFirst(amountLabel($('fCur2').value));
     Array.prototype.forEach.call(document.querySelectorAll('.arbf'), function (f) { f.hidden = !arb; });
     $('expField').hidden = !(cash && formType() === 'out');
+    var wornOk = !cash && !isMetal(c) && !arb && formType() === 'in';
+    $('wornField').hidden = !wornOk;
+    if (!wornOk) $('fWorn').checked = false;
+    $('fWornD').hidden = !$('fWorn').checked;
     renderQuick();
+    renderTpl();
+    renderAmtQuick();
+  }
+  // Zararına satış uyarısı: satış kuru elinizdeki malın ortalama maliyetinin altındaysa onay ister.
+  // exclude: düzenlenen işlemin kimliği (kendi etkisi maliyetten çıkarılır). true dönerse kayda devam edilir.
+  function lossOk(c, amount, rate, date, exclude) {
+    if (isCash(c) || !(amount > 0) || !(rate > 0)) return true;
+    var list = state.tx.filter(function (t) { return t.id !== exclude && (!date || t.date <= date); });
+    var a = compute(list).acc[c];
+    if (!a || !(a.bal > EPS)) return true;
+    var avg = a.cost / a.bal, loss = amount * (avg - rate);
+    if (!(loss > 0.005) || rate >= avg * 0.9995) return true;
+    return confirm(label(c) + ' satışı ortalama maliyetinizin altında.\nOrtalama maliyet: ' + fmtRate(avg, c) +
+                   '\nSatış kuru: ' + fmtRate(rate, c) + '\nTahmini zarar: ' + fmtTL(loss) + '\n\nYine de kaydedilsin mi?');
+  }
+  // Kayıttan sonra bildirimde: ne kaydedildi, müşteriyle ne kadar para el değiştirdi
+  function txSummary(t) {
+    if (isCash(t.cur)) return (t.exp ? 'Masraf ' : t.type === 'in' ? 'TL girişi ' : 'TL çıkışı ') + fmtTL(t.amount) + ' kaydedildi';
+    var total = fmtTL(t.amount * t.rate);
+    return withName(t.amount, t.cur) + (t.type === 'in' ? ' alındı · ' + total + ' ödendi' : ' satıldı · ' + total + ' alındı');
+  }
+  // Bir satışın kârı: kayıttan önceki ve sonraki gerçekleşen kâr farkı. Bildirimde gösterilir.
+  function saleNote(prevTx, res, c) {
+    if (isCash(c) || !res || !res.acc) return '';
+    var b = compute(prevTx).acc[c], after = res.acc[c];
+    var d = (after ? after.realized : 0) - (b ? b.realized : 0);
+    if (Math.abs(d) < 0.005) return '';
+    return ' · bu satıştan ' + (d > 0 ? '+\u2060' + fmtTL(d) + ' kâr' : fmtTL(d) + ' zarar');   // + ile tutar ayrılmasın
+  }
+  // Hızlı tutar düğmeleri: varlığa göre uygun tutarlar; dokununca tutar kutusuna yazılır
+  function quickAmounts(c) {
+    if (isCash(c)) return [1000, 5000, 10000, 50000];
+    if (isMetal(c)) return unit(c) === 'adet' ? [1, 2, 5, 10] : [1, 5, 10, 50];
+    return ASSETS[c] && c === 'JPY' ? [1000, 10000, 50000, 100000] : [100, 500, 1000, 5000];
+  }
+  function renderAmtQuick() {
+    var box = $('amtQuick'), c = $('fCur').value, cur = num('fAmount');
+    box.textContent = '';
+    quickAmounts(c).forEach(function (v) {
+      var b = el('button', { type: 'button', 'aria-pressed': cur === v ? 'true' : 'false',
+                             text: fmtNum(v, 0) + (isCash(c) ? ' ₺' : isMetal(c) ? ' ' + unit(c) : '') });
+      b.addEventListener('click', function () {
+        $('fAmount').value = fmtInput(v);
+        autoAmount2(); updateTotal(); renderAmtQuick();
+      });
+      box.appendChild(b);
+    });
+  }
+  // Hızlı işlem şablonları: dokununca o anki kurla işlem kaydedilir (geri alınabilir)
+  var tplEdit = false;
+  function tplText(t) {
+    if (isCash(t.cur)) return (t.exp ? 'Masraf ' : t.type === 'in' ? 'TL girişi ' : 'TL çıkışı ') + fmtTL(t.amount);
+    return fmtAmt(t.amount, t.cur) + (isMetal(t.cur) ? ' ' + label(t.cur) : ' ' + t.cur) + ' ' + (t.type === 'in' ? 'al' : 'sat');
+  }
+  function renderTpl() {
+    var row = $('tplRow');
+    row.textContent = '';
+    $('tplF').hidden = !state.tpl.length || !!editingId;
+    state.tpl.forEach(function (t) {
+      var b = el('button', { type: 'button', class: 'tpl-' + t.type + (tplEdit ? ' editing' : ''),
+                             'aria-label': (tplEdit ? 'Sil: ' : '') + tplText(t), text: (tplEdit ? '× ' : '') + tplText(t) });
+      b.addEventListener('click', function () {
+        if (tplEdit) {
+          state.tpl = state.tpl.filter(function (x) { return x.id !== t.id; });
+          if (!state.tpl.length) tplEdit = false;
+          save(); renderTpl();
+          return;
+        }
+        runTpl(t);
+      });
+      row.appendChild(b);
+    });
+    if (state.tpl.length) {
+      var ed = el('button', { type: 'button', class: 'tpl-edit', text: tplEdit ? 'Bitti' : 'Düzenle' });
+      ed.addEventListener('click', function () { tplEdit = !tplEdit; renderTpl(); });
+      row.appendChild(ed);
+    }
+  }
+  function runTpl(t) {
+    var rate = isCash(t.cur) ? 1 : suggested(t.cur, t.type);
+    if (!rate) {   // kur yoksa formu doldur, kullanıcı kuru yazsın
+      $('fCur').value = t.cur; (t.type === 'out' ? $('tOut') : $('tIn')).checked = true;
+      onTarget('cur'); $('fAmount').value = fmtInput(t.amount); updateTotal(); $('fRate').focus();
+      return setMsg('Bu varlık için kur yok; kuru yazıp kaydedin.', 'err');
+    }
+    if (t.type === 'out' && !lossOk(t.cur, t.amount, rate, today())) return;
+    var tx = { id: uid(), seq: nextSeq(), date: today(), type: t.type, cur: t.cur, amount: t.amount, rate: rate, note: '' };
+    if (t.exp) tx.exp = true;
+    var next = state.tx.concat([tx]), res = validate(next);
+    if (res.error) return setMsg(res.error, 'err');
+    var before = snapshot(), gain = t.type === 'out' ? saleNote(state.tx, res, t.cur) : '';
+    state.tx = next;
+    save();
+    render();
+    setMsg('');
+    toast(tplText(t) + (isCash(t.cur) ? '' : ' · ' + fmtRate(rate, t.cur)) + ' kaydedildi' + gain + '.', before);
+  }
+  function saveTpl() {
+    var c = $('fCur').value, amount = num('fAmount'), type = formType();
+    if (isArb()) return setMsg('Arbitraj şablon olarak kaydedilemez.', 'err');
+    if (!(amount > 0)) return setMsg('Şablon için önce tutarı yazın.', 'err');
+    var t = { id: uid(), type: type, cur: c, amount: amount, exp: isCash(c) && type === 'out' && $('fExp').checked };
+    if (state.tpl.some(function (x) { return x.type === t.type && x.cur === t.cur && x.amount === t.amount && x.exp === t.exp; })) {
+      return setMsg('Bu şablon zaten var.', 'err');
+    }
+    if (state.tpl.length >= 12) return setMsg('En fazla 12 şablon olabilir; önce birini silin.', 'err');
+    state.tpl.push(t);
+    save();
+    renderTpl();
+    setMsg('');
+    toast('“' + tplText(t) + '” hızlı işlemlere eklendi.');
   }
   // Kur tablosundaki varlıklar için tek dokunuşla seçim düğmeleri
   function renderQuick() {
@@ -2289,14 +2783,16 @@
       return;
     }
     var goesIn = isCash(c) ? formType() === 'in' : formType() === 'out';
-    $('fTotal').textContent = (goesIn ? 'TL kasasına girecek: ' : 'TL kasasından çıkacak: ') +
-      (a > 0 && r > 0 ? fmtTL(a * r) : '—');
+    var what = isCash(c) ? (goesIn ? 'TL kasasına girecek: ' : 'TL kasasından çıkacak: ')
+                         : (goesIn ? 'Müşteriden alın: ' : 'Müşteriye ödeyin: ');
+    $('fTotal').textContent = what + (a > 0 && r > 0 ? fmtTL(a * r) : '—');
   }
   function prefillRate() {
     updateLabels();
     var arb = isArb();
     if (!rateTouched) {
       var c = $('fCur').value, r = isCash(c) ? null : suggested(c, arb ? 'in' : formType());
+      if (r && $('fWorn').checked && !$('wornField').hidden) r = Math.max(round4(r - (num('fWornD') || 0)), 0) || null;
       $('fRate').value = r ? fmtInput(r) : '';
     }
     if (arb) {
@@ -2316,7 +2812,9 @@
     $('fAmount').value = '';
     $('fAmount2').value = '';
     $('fNote').value = '';
+    $('fDoc').value = '';
     $('fExp').checked = false;
+    $('fWorn').checked = false;
     $('formTitle').textContent = 'Yeni işlem';
     $('btnSave').textContent = 'İşlemi kaydet';
     $('btnCancel').hidden = true;
@@ -2325,6 +2823,7 @@
   function startEdit(id) {
     var t = state.tx.filter(function (x) { return x.id === id; })[0];
     if (!t) return;
+    if (hasReturns(id)) return alert('Bu satışın iadesi var; düzenlemek için önce iade kaydını silin.');
     editingId = id;
     rateTouched = true;
     showFold('txmore', true);   // düzenlerken tarih ve açıklama da görünsün (tercih değişmez)
@@ -2335,6 +2834,7 @@
     $('fAmount').value = fmtInput(t.amount);
     $('fRate').value = isCash(t.cur) ? '' : fmtInput(t.rate);
     $('fNote').value = t.note;
+    $('fDoc').value = t.doc || '';
     $('fExp').checked = !!t.exp;
     setView('islem');
     $('formTitle').textContent = 'İşlemi düzenle';
@@ -2355,6 +2855,7 @@
     if (!(amount > 0) || !isFinite(amount)) return setMsg('Miktar sıfırdan büyük olmalı.', 'err');
     if (!(rate > 0) || !isFinite(rate)) return setMsg('Kur sıfırdan büyük olmalı.', 'err');
     if (!cash && !rateLooksRight(cur, rate)) return;
+    if (!cash && formType() === 'out' && !lossOk(cur, amount, rate, date, editingId)) return;
 
     var maxSeq = state.tx.reduce(function (m, t) { return Math.max(m, t.seq); }, 0);
     var old = editingId && state.tx.filter(function (x) { return x.id === editingId; })[0];
@@ -2362,12 +2863,25 @@
       id: old ? old.id : uid(), seq: old ? old.seq : maxSeq + 1, date: date, type: formType(),
       cur: cur, amount: amount, rate: rate, note: $('fNote').value.trim()
     };
+    if (!$('wornField').hidden && $('fWorn').checked && tx.note.indexOf('Eski seri') !== 0) {
+      tx.note = ('Eski seri' + (tx.note ? ' · ' + tx.note : '')).slice(0, 120);
+    }
     if (cash && tx.type === 'out' && $('fExp').checked) tx.exp = true;
+    if ($('fDoc').value.trim()) tx.doc = $('fDoc').value.trim().slice(0, 30);
     var next = state.tx.filter(function (x) { return x.id !== tx.id; }).concat([tx]);
-    var res = compute(next);
+    var res = validate(next);
+    if (res.locked && !old && tx.date === today()) {
+      var tmr = shiftDay(today(), 1);
+      if (confirm('Bugün kapatıldı. Bu işlem yarının tarihiyle (' + fmtDate(tmr) + ') kaydedilsin mi?')) {
+        tx.date = tmr;
+        next = state.tx.concat([tx]);
+        res = validate(next);
+      }
+    }
     if (res.error) return setMsg(res.error, 'err');
 
     var before = snapshot();
+    var gain = !old && !cash && tx.type === 'out' ? saleNote(state.tx, res, cur) : '';
     state.tx = next;
     if (!cash && !(state.rates[cur] > 0)) state.rates[cur] = rate;
     save();
@@ -2375,7 +2889,7 @@
     resetForm();
     render();
     setMsg(res.tl < -0.005 ? 'TL kasası eksiye düştü: ' + fmtTL(res.tl) : '', 'err');
-    toast(wasEdit ? 'İşlem güncellendi.' : 'İşlem kaydedildi.', before);
+    toast(wasEdit ? 'İşlem güncellendi.' : txSummary(tx) + gain + '.', before);
   }
   // Yanlış yazılmış kura karşı: piyasa fiyatından çok uzaksa kaydetmeden önce sorar
   function rateLooksRight(c, rate) {
@@ -2394,6 +2908,7 @@
     if (!ok(a) || !ok(a2)) return setMsg('Alınan ve verilen miktar sıfırdan büyük olmalı.', 'err');
     if (!ok(r) || !ok(r2)) return setMsg('Alış ve satış kuru sıfırdan büyük olmalı.', 'err');
     if (!rateLooksRight(c, r) || !rateLooksRight(c2, r2)) return;
+    if (!lossOk(c2, a2, r2, date)) return;
 
     var maxSeq = state.tx.reduce(function (m, t) { return Math.max(m, t.seq); }, 0);
     var gid = uid(), note = $('fNote').value.trim();
@@ -2401,9 +2916,9 @@
       { id: uid(), seq: maxSeq + 1, date: date, type: 'in', cur: c, amount: a, rate: r, note: note, arb: gid },
       { id: uid(), seq: maxSeq + 2, date: date, type: 'out', cur: c2, amount: a2, rate: r2, note: note, arb: gid }
     ]);
-    var res = compute(next);
+    var res = validate(next);
     if (res.error) return setMsg(res.error, 'err');
-    var before = snapshot();
+    var before = snapshot(), gain = saleNote(state.tx, res, c2);
     state.tx = next;
     if (!(state.rates[c] > 0)) state.rates[c] = r;
     if (!(state.rates[c2] > 0)) state.rates[c2] = r2;
@@ -2411,20 +2926,55 @@
     resetForm();
     render();
     setMsg(res.tl < -0.005 ? 'TL kasası eksiye düştü: ' + fmtTL(res.tl) : '', 'err');
-    toast('Arbitraj kaydedildi.', before);
+    toast('Arbitraj kaydedildi' + gain + '.', before);
   }
   function describeTx(t) {
     return fmtDate(t.date) + ' · ' + typeLabel(t) + ' · ' + fmtAmt(t.amount, t.cur) +
            (isCash(t.cur) ? '' : ' ' + shortName(t.cur));
   }
+  function hasReturns(id) { return state.tx.some(function (x) { return x.ret === id; }); }
+  // Satış iadesi: müşteri malı geri getirir. Satış kurundan geri ödenir; mal satıştaki maliyetiyle stoğa döner,
+  // satışın kârı (iade edilen kısım kadar) geri alınır. Kısmi iade yapılabilir.
+  function returnSale(id) {
+    var t = state.tx.filter(function (x) { return x.id === id; })[0];
+    if (!t) return;
+    var done = state.tx.reduce(function (sum, x) { return x.ret === id ? sum + x.amount : sum; }, 0);
+    var left = round4(t.amount - done);
+    if (!(left > 0.00005)) return alert('Bu satışın tamamı zaten iade edildi.');
+    askNumber('İade: ' + describeTx(t),
+      'Müşteriye ' + fmtRate(t.rate, t.cur) + ' kurundan geri ödenir; satışın kârı geri alınır. ' +
+      (done > EPS ? 'Daha önce iade edilen: ' + fmtAmt(done, t.cur) + '. ' : '') + 'En fazla ' + fmtAmt(left, t.cur) + '.',
+      'İade miktarı (' + unit(t.cur) + ')',
+      function (v) {
+        if (!(v > 0) || v > left + EPS) return 'En fazla ' + fmtAmt(left, t.cur) + ' iade edilebilir.';
+        // Satışın birim maliyeti: satışa kadarki işlemlerle, satışlı ve satışsız gerçekleşen kâr farkından
+        var upto = state.tx.filter(function (x) { return x.date < t.date || (x.date === t.date && x.seq <= t.seq); });
+        var w = compute(upto).acc[t.cur], wo = compute(upto.filter(function (x) { return x.id !== t.id; })).acc[t.cur];
+        var profit = (w ? w.realized : 0) - (wo ? wo.realized : 0);
+        var r = { id: uid(), seq: nextSeq(), date: today(), type: 'in', cur: t.cur, amount: round4(v), rate: t.rate,
+                  basis: t.rate - profit / t.amount, ret: t.id, note: ('İade · ' + fmtDate(t.date) + ' satışı').slice(0, 120) };
+        var next = state.tx.concat([r]), res = validate(next);
+        if (res.error) return res.error;
+        var before = snapshot();
+        state.tx = next;
+        save();
+        render();
+        toast('İade kaydedildi · müşteriye ' + fmtTL(r.amount * r.rate) + ' ödenecek.', before);
+        return null;
+      });
+    $('dlgInput').value = fmtInput(left);   // varsayılan: kalanın tamamı
+    if ($('dlgInput').select) $('dlgInput').select();
+  }
   function removeTx(id) {
     var t = state.tx.filter(function (x) { return x.id === id; })[0];
     if (!t) return;
+    if (hasReturns(id)) return alert('Bu satışın iadesi var. Önce iade kaydını silin.');
     // Arbitrajın iki ayağı birlikte silinir
     var group = t.arb ? state.tx.filter(function (x) { return x.arb === t.arb; }) : [t];
     var ids = group.map(function (x) { return x.id; });
     var next = state.tx.filter(function (x) { return ids.indexOf(x.id) < 0; });
-    var res = compute(next);
+    var res = validate(next);
+    if (res.locked) return alert(res.error);
     if (res.error) {
       alert('Bu işlem silinemez: silinirse ' + res.error + '\nÖnce ilgili satış işlemini silin ya da düzenleyin.');
       return;
@@ -2512,7 +3062,7 @@
       id: uid(), seq: nextSeq(), date: today(), type: diff > 0 ? 'in' : 'out', cur: c,
       amount: Math.abs(diff), rate: unitCost(c), adj: true, note: note
     }]);
-    var res = compute(next);
+    var res = validate(next);
     if (res.error) throw new Error(res.error);
     state.tx = next;
     return true;
@@ -2520,7 +3070,30 @@
   function fixCell(c) {
     var b = el('button', { type: 'button', class: 'small', text: 'Düzelt', 'aria-label': label(c) + ' bakiyesini düzelt' });
     b.addEventListener('click', function () { fixBalance(c); });
-    return el('td', { class: 'span actions' }, [b]);
+    var l = el('button', { type: 'button', class: 'small danger', text: 'Kayıp', 'aria-label': label(c) + ' kaybı gir' });
+    l.addEventListener('click', function () { recordLoss(c); });
+    return el('td', { class: 'span actions' }, [b, l]);
+  }
+  // Kayıp: sahte çıkan para, ayarı düşük çıkan mal, kaybolan miktar. Maliyeti kadar günün kârından düşer.
+  function recordLoss(c) {
+    askNumber(label(c) + ' kaybı',
+      'Sahte çıkan para, ayarı düşük çıkan mal ya da kaybolan miktarı yazın. Kasadan düşer ve ' +
+      (isCash(c) ? 'tutarı' : 'ortalama maliyeti') + ' kadar günün kârından düşülür.',
+      'Kayıp miktarı (' + (isCash(c) ? '₺' : unit(c)) + ')',
+      function (v) {
+        if (!(v > 0)) return 'Geçerli bir miktar yazın.';
+        var tx = isCash(c)
+          ? { id: uid(), seq: nextSeq(), date: today(), type: 'out', cur: TL, amount: round2(v), rate: 1, exp: true, note: 'Kayıp' }
+          : { id: uid(), seq: nextSeq(), date: today(), type: 'out', cur: c, amount: round4(v), rate: unitCost(c), loss: true, note: 'Kayıp' };
+        var next = state.tx.concat([tx]), res = validate(next);
+        if (res.error) return res.error;
+        var before = snapshot();
+        state.tx = next;
+        save();
+        render();
+        toast(label(c) + ' kaybı kaydedildi · ' + fmtTL(tx.amount * tx.rate) + ' kârdan düşüldü.', before);
+        return null;
+      });
   }
   function fixBalance(c) {
     askNumber(label(c) + ' bakiyesini düzelt',
@@ -2600,13 +3173,23 @@
       if (!bals.children.length) bals.appendChild(el('span', { class: 'hint', text: 'Hesap kapalı' }));
       var pick = el('button', { type: 'button', class: 'n', text: name, title: 'Bu kişi için hareket gir' });
       pick.addEventListener('click', function () { setFold('cari', true); $('cPerson').value = name; $('cAmount').focus(); });
+      var due = Object.keys(people[name]).filter(function (c) { return round4(people[name][c]) > 0; });
+      var remind = null;
+      if (due.length) {
+        remind = el('button', { type: 'button', class: 'small', text: 'Hatırlat' });
+        remind.addEventListener('click', function () {
+          var what = due.sort(byCode).map(function (c) { return withName(round4(people[name][c]), c); });
+          shareText('Merhaba ' + name + ', ' + $('bizName').textContent + ' olarak kısa bir hatırlatma: hesabınızda ' +
+                    what.join(' ve ') + ' görünüyor. Uygun olduğunuzda bekleriz. İyi günler dileriz.');
+        });
+      }
       var hist = el('button', { type: 'button', class: 'small', text: 'Hareketler' });
       hist.addEventListener('click', function () {
         $('filterText').value = name;
         setView('liste');
         renderTx();
       });
-      box.appendChild(el('div', { class: 'person' }, [pick, bals, hist]));
+      box.appendChild(el('div', { class: 'person' }, [pick, bals, el('div', { class: 'tools' }, remind ? [remind, hist] : [hist])]));
     });
     $('personsEmpty').hidden = names.length > 0;
     $('cariOwes').textContent = fmtTL(owes);
@@ -2631,7 +3214,7 @@
       id: uid(), seq: nextSeq(), date: date, type: $('cIn').checked ? 'in' : 'out', cur: c,
       amount: amount, rate: unitCost(c), cari: same || person, note: $('cNote').value.trim()
     }]);
-    var res = compute(next);
+    var res = validate(next);
     if (res.error) return msg(res.error);
     var before = snapshot();
     state.tx = next;
@@ -2788,7 +3371,7 @@
         } else if (!raw && prev) { delete state.calc.labor[k]; changed = true; }
       }
     }
-    if (changed) save();
+    if (changed) { if (applyHasLink()) setTimeout(render, 0); save(); }
   }
   function kLineText(x) {
     return x.karat ? x.karat + ' ayar · ' + fmtNum(x.gram, 0, 3) + ' gr' : label(x.cur) + ' · ' + fmtNum(x.qty, 0) + ' adet';
@@ -2845,6 +3428,34 @@
     renderCalcList();
     toast('Listeye eklendi.');
   }
+  // Tek parça: hesabı listeye uğratmadan doğrudan kasaya işler (geri alınabilir; döküm için listeye de eklenir)
+  function kPostOne() {
+    var r = kCompute();
+    if (r.error) { renderCalc(); $('kGram').focus(); return; }
+    kRemember();
+    var note = r.coin ? fmtTL(r.price - r.old) + ' / adet' : r.mode === 'sell'
+      ? fmtMil(r.mil) + ' × ' + fmtTL(r.price) + (r.labor > 0 ? ' + işçilik ' + fmtTL(r.labor) : '')
+      : (r.deduct > 0 ? 'net ' + fmtNum(r.net, 0, 3) + ' gr · ' : '') + fmtMil(r.mil) + ' × ' + fmtTL(r.price);
+    var tx = { id: uid(), seq: nextSeq(), date: today(), type: r.mode === 'sell' ? 'out' : 'in', cur: r.cur,
+               amount: r.qty, rate: r.total / r.qty, note: ('Hesap: ' + note).slice(0, 120) };
+    var next = state.tx.concat([tx]), res = validate(next);
+    if (res.error) {
+      return alert(res.locked ? res.error : 'Kasaya işlenemedi: ' + res.error +
+                   '\nSatılan ürün kasada kayıtlı değilse önce Kasa bölümünden stok girin.');
+    }
+    var before = snapshot(), gain = tx.type === 'out' ? saleNote(state.tx, res, tx.cur) : '';
+    var line = { mode: r.mode, cur: r.cur, karat: r.karat || null, gram: r.gram, qty: r.qty, total: r.total, note: note, done: true };
+    state.tx = next;
+    if (!(state.rates[tx.cur] > 0)) state.rates[tx.cur] = tx.rate;
+    kList.push(line);
+    if (kList.length > 60) kList.shift();
+    save(); saveUI();
+    $('kGram').value = ''; $('kDeduct').value = '';
+    render(); renderCalcList();
+    toast(txSummary(tx) + gain + '.', before, function () {
+      kList = kList.filter(function (x) { return x !== line; }); saveUI(); renderCalcList();
+    });
+  }
   // Listedeki işlenmemiş satırları bugünün tarihiyle kasaya alış/satış işlemi olarak yazar
   function kPost() {
     var pend = kList.filter(function (x) { return !x.done; });
@@ -2856,7 +3467,8 @@
         amount: x.qty, rate: x.total / x.qty, note: ('Hesap: ' + x.note).slice(0, 120)
       };
     }));
-    var res = compute(next);
+    var res = validate(next);
+    if (res.locked) return alert(res.error);
     if (res.error) {
       return alert('Kasaya işlenemedi: ' + res.error +
                    '\nSatılan ürün kasada kayıtlı değilse önce Kasa bölümünden stok girin ya da ürünü alış olarak işleyin.');
@@ -2933,6 +3545,7 @@
 
   // ---------- Has altın fiyatım ----------
   function renderHas() {
+    $('hasLinkChk').checked = !!state.hasLink;
     var m = state.myRates.HAS || {}, box = $('hasBuy').parentNode.parentNode;
     if (!(box.contains(document.activeElement) && document.activeElement.tagName === 'INPUT')) {
       $('hasBuy').value = m.buy ? fmtInput(m.buy) : '';
@@ -2952,9 +3565,29 @@
     $('hasInfo').textContent = parts.join(' · ');
     $('hasInfo').className = 'hint' + (m.buy && m.sell && m.sell < m.buy ? ' neg' : '');
   }
+  // Tek altın fiyatı: bağlantı açıksa kur tablosundaki gram altın satırları has fiyatından hesaplanır.
+  // Alış = has alış × alış milyemi; satış = has satış × satış milyemi + gram başına işçilik (kuyum hesabıyla aynı).
+  var GRAM_GOLD = KARATS.map(function (k) { return KARAT_ASSET[k]; });
+  function isLinked(c) { return !!state.hasLink && GRAM_GOLD.indexOf(c) >= 0; }
+  function applyHasLink() {
+    if (!state.hasLink) return false;
+    var hb = suggested('HAS', 'in'), hs = suggested('HAS', 'out'), changed = false;
+    KARATS.forEach(function (k) {
+      var c = KARAT_ASSET[k], m = state.myRates[c];
+      if (!m) return;
+      var l = state.calc.labor[k];
+      var labor = !l || !hs ? 0 : l.unit === 'gr' ? l.v : l.unit === 'mil' ? hs * l.v / 1000 : 0;
+      var b = hb ? round2(hb * kMilOf('buy', k) / 1000) : null;
+      var s2 = hs ? round2(hs * kMilOf('sell', k) / 1000 + labor) : null;
+      if (b && m.buy !== b) { m.buy = b; changed = true; }
+      if (s2 && m.sell !== s2) { m.sell = s2; changed = true; }
+    });
+    return changed;
+  }
   function setHas(buy, sell) {
     if (buy || sell) state.myRates.HAS = { buy: buy, sell: sell }; else delete state.myRates.HAS;
     state.calc.hasAt = new Date().toISOString();
+    applyHasLink();
     save();
     render();
     prefillRate();
@@ -2985,6 +3618,7 @@
       $(id).addEventListener('change', function () { kRemember(); renderCalc(); });
     });
     $('kForm').addEventListener('submit', kAddLine);
+    $('kPostOne').addEventListener('click', kPostOne);
     $('kClear').addEventListener('click', function () {
       kHasTouched = false;
       $('kGram').value = '';
@@ -3009,6 +3643,15 @@
       $(id).addEventListener('change', function () {
         setHas(posOrNull(parseNum($('hasBuy').value)), posOrNull(parseNum($('hasSell').value)));
       });
+    });
+    $('hasLinkChk').addEventListener('change', function () {
+      state.hasLink = this.checked;
+      if (state.hasLink) {   // bağlı satırlar kur tablosunda yoksa ekle (22 ayar bilezik her zaman)
+        if (!state.myRates.B22) state.myRates.B22 = { buy: null, sell: null };
+        applyHasLink();
+      }
+      save(); render(); prefillRate();
+      toast(state.hasLink ? 'Gram altın kurları has fiyatınızdan hesaplanıyor.' : 'Has bağlantısı kapatıldı.');
     });
     $('hasMarket').addEventListener('click', function () {
       if (!(state.rates.HAS > 0)) return alert('Piyasa fiyatı yok. Önce “Fiyatları güncelle”ye dokunun.');
@@ -3164,6 +3807,7 @@
         var tx = { id: uid(), seq: nextSeq(), date: today(), type: 'out', cur: cur, amount: x.gram, rate: v / x.gram,
                    note: ('Vitrin: ' + x.name).slice(0, 120) };
         var next = state.tx.concat([tx]);
+        if (lockError(next)) return lockError(next);
         if (compute(next).error) {
           if (!confirm('Kasada yeterli ' + label(cur) + ' stoku yok; satış kasaya işlenemiyor.\nÜrün yalnızca defterde ' +
                        fmtTL(v) + ' tutarla satıldı olarak işaretlensin mi?')) return null;
@@ -3184,7 +3828,7 @@
   // Satışı geri alır; kasaya işlenmişse o satış işlemini de siler
   function unsellItem(x) {
     if (x.txOut && state.tx.some(function (t) { return t.id === x.txOut; })) {
-      var next = state.tx.filter(function (t) { return t.id !== x.txOut; }), res = compute(next);
+      var next = state.tx.filter(function (t) { return t.id !== x.txOut; }), res = validate(next);
       if (res.error) return alert('Satış geri alınamadı: ' + res.error);
       state.tx = next;
     }
@@ -3278,6 +3922,7 @@
     if (!(cost >= 0)) return msg('Maliyet için geçerli bir sayı yazın.');
     var post = $('iPost').checked;
     if (post && !(cost > 0)) return msg('Alışı kasaya işlemek için maliyeti yazın.');
+    if (post && isLocked(today())) return msg('Bugün kapatıldı (gün sonu); alış kasaya işlenemez. Kilidi Rapor’dan açabilirsiniz.');
     var item = {
       id: uid(), seq: state.items.reduce(function (m, x) { return Math.max(m, x.seq); }, 0) + 1, date: today(),
       name: name.slice(0, 60), karat: Number($('iKarat').value), gram: round4(gram), cost: cost > 0 ? round2(cost) : null,
@@ -3415,6 +4060,8 @@
   function snapshot() { return JSON.stringify({ tx: state.tx, count: state.count }); }
   // hook: geri alınınca işlem defteri dışında düzeltilmesi gereken şey (ör. hesap listesindeki işaret)
   function toast(text, undo, hook) {
+    // Kayıt, silme gibi geri alınabilir her değişiklikte kısa titreşim (destekleyen telefonlarda; iPhone desteklemez)
+    if (undo) { try { if (navigator.vibrate) navigator.vibrate(30); } catch (e) { /* yoksay */ } }
     undoData = undo || null;
     undoHook = undo && hook ? hook : null;
     $('toastMsg').textContent = text;
@@ -3428,6 +4075,8 @@
     var prev = JSON.parse(undoData), hook = undoHook;
     undoData = null;
     undoHook = null;
+    var locked = lockError(prev.tx);
+    if (locked) { $('toast').hidden = true; return alert('Geri alınamadı: ' + locked); }
     state.tx = prev.tx;
     state.count = prev.count;
     save();
@@ -3511,10 +4160,28 @@
         state.chg = out.chg;
         state.rateSrc = out.src;
         state.ratesUpdated = new Date().toISOString();
+        applyAuto();
         save(); render(); prefillRate();
       })
       .catch(function () { if (!silent) renderRatesInfo(true); })
       .then(function () { refreshing = false; btn.disabled = false; $('btnRatesTxt').textContent = 'Fiyatları güncelle'; });
+  }
+  // Eski fiyat uyarısı: kurlar piyasaya bağlıysa (otomatik kur) ve fiyatlar uzun süredir alınamıyorsa uyarır
+  var STALE_WARN_MS = 30 * 60 * 1000;
+  function usesMarket() {
+    return Object.keys(state.auto).some(function (c) { return state.auto[c].on && state.myRates[c]; }) ||
+           (!!state.hasLink && !!(state.auto.HAS && state.auto.HAS.on));
+  }
+  function renderStale() {
+    var box = $('staleBanner'), last = state.ratesUpdated ? new Date(state.ratesUpdated).getTime() : 0;
+    var old = usesMarket() && !(Date.now() - last < STALE_WARN_MS);
+    box.hidden = !old;
+    if (!old) return;
+    var mins = last ? Math.round((Date.now() - last) / 60000) : 0;
+    $('staleText').textContent = last
+      ? 'Fiyatlar ' + (mins >= 120 ? Math.floor(mins / 60) + ' saattir' : mins + ' dakikadır') + ' güncellenemedi (son: ' +
+        new Date(last).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }) + '). Otomatik kurlarınız eski fiyatla çalışıyor.'
+      : 'Fiyatlar henüz alınamadı; otomatik kurlarınız güncel değil.';
   }
   function refreshIfStale() {
     if (navigator.onLine === false || document.hidden) return;
@@ -3537,11 +4204,11 @@
   function csvNum(n, d) { return String(Number(n.toFixed(d))).replace('.', ','); }
   function exportCsv() {
     if (!state.tx.length) return alert('Dışa aktarılacak işlem yok.');
-    var lines = ['Tarih;Tür;Varlık;Miktar;Birim;Kur (TL);TL Karşılığı;Açıklama'];
+    var lines = ['Tarih;Tür;Varlık;Miktar;Birim;Kur (TL);TL Karşılığı;Belge no;Açıklama'];
     sorted(state.tx).forEach(function (t) {
       lines.push([
         fmtDate(t.date), typeLabel(t), label(t.cur), csvNum(t.amount, 4), unit(t.cur),
-        csvNum(t.rate, 4), csvNum(t.amount * t.rate, 2), csvCell(noteOf(t))
+        csvNum(t.rate, 4), csvNum(t.amount * t.rate, 2), csvCell(t.doc || ''), csvCell([t.cari, t.note].filter(Boolean).join(' · '))
       ].join(';'));
     });
     download('doviz-kasasi-' + today() + '.csv', '﻿' + lines.join('\r\n'), 'text/csv;charset=utf-8');
@@ -3549,7 +4216,7 @@
   // Yedeği telefonda paylaşım menüsüyle (WhatsApp, e-posta, Drive…) gönderir; desteklenmiyorsa dosya olarak indirir
   function backupNow() {
     var base = 'doviz-kasasi-yedek-' + today(), text = JSON.stringify(state, null, 2);
-    var done = function () { ui.backupAt = new Date().toISOString(); ui.snooze = null; saveUI(); renderBackup(); };
+    var done = function () { ui.backupAt = new Date().toISOString(); ui.backupTx = state.tx.length; ui.snooze = null; saveUI(); renderBackup(); };
     var file = null;
     try {
       [new File([text], base + '.json', { type: 'application/json' }), new File([text], base + '.txt', { type: 'text/plain' })]
@@ -3559,7 +4226,8 @@
       navigator.share({ files: [file], title: 'Yazıcıoğlu Çilek Döviz yedeği' }).then(done, function (err) {
         if (err && err.name === 'AbortError') return;   // kullanıcı vazgeçti
         download(base + '.json', text, 'application/json');
-        done();
+        // İndirmenin gerçekten olduğu doğrulanamıyor (özellikle ana ekran uygulamasında): kullanıcıya sor
+        if (confirm('Yedek dosyası indirildi mi? Dosyayı göremiyorsanız “İptal”e dokunun; yedek alınmamış sayılır.')) done();
       });
     } else {
       download(base + '.json', text, 'application/json');
@@ -3570,18 +4238,28 @@
     var now = Date.now(), last = ui.backupAt ? new Date(ui.backupAt).getTime() : 0;
     var days = last ? Math.floor((now - last) / 864e5) : null;
     var snoozed = ui.snooze && new Date(ui.snooze).getTime() > now;
-    var due = days === null ? state.tx.length >= 3 : days >= 7 && state.tx.length > 0;
+    // Son yedekten beri işlem girildiyse her gün; 20 işlem birikirse beklemeden hatırlat
+    var since = Math.max(state.tx.length - (ui.backupTx == null ? 0 : ui.backupTx), 0);
+    var due = days === null ? state.tx.length >= 3 : since > 0 && (days >= 1 || since >= 20);
     $('backupBanner').hidden = !due || snoozed;
     $('backupText').textContent = days === null
       ? 'Kayıtlarınız yalnızca bu cihazda duruyor ve henüz yedeklenmedi.'
-      : 'Son yedek ' + days + ' gün önce alındı.';
+      : 'Son yedekten beri ' + since + ' işlem girildi (son yedek: ' + (days ? days + ' gün önce' : 'bugün') + ').';
     $('backupInfo').textContent = last
       ? 'Son yedek: ' + new Date(last).toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })
       : 'Henüz yedek alınmadı.';
   }
 
   // ---------- Sekmeler ve tercihler ----------
-  var ui = { hide: false, backupAt: null, snooze: null, fold: {} };
+  var ui = { hide: false, big: false, backupAt: null, snooze: null, fold: {} };
+  // Büyük yazı modu: bütün uygulama yaklaşık %15 büyür (düzen ekrana göre yeniden akar)
+  function setBig(on, keep) {
+    document.body.classList.toggle('big', on);
+    $('btnBig').setAttribute('aria-pressed', on ? 'true' : 'false');
+    $('btnBigTxt').textContent = $('btnBig').title = on ? 'Normal yazı' : 'Büyük yazı';
+    ui.big = on;
+    if (!keep) saveUI();
+  }
   // Açılır bölümler: [data-fold="ad"] öğeleri, [data-toggle="ad"] düğmesiyle açılıp kapanır; durum hatırlanır
   // Yalnızca görünümü değiştirir (tercihi değiştirmeden geçici açmak için)
   function showFold(key, open) {
@@ -3607,7 +4285,9 @@
     try {
       var u = JSON.parse(localStorage.getItem(UI_KEY) || '{}');
       ui.hide = !!u.hide;
+      ui.big = !!u.big;
       ui.backupAt = typeof u.backupAt === 'string' ? u.backupAt : null;
+      ui.backupTx = typeof u.backupTx === 'number' ? u.backupTx : null;
       ui.snooze = typeof u.snooze === 'string' ? u.snooze : null;
       if (u.fold && typeof u.fold === 'object') Object.keys(u.fold).forEach(function (k) { ui.fold[k] = !!u.fold[k]; });
       // Kuyum hesabı listesi: uygulama arka planda kapanırsa yarım kalan hesap kaybolmasın
@@ -3631,6 +4311,8 @@
   var VIEW_NAMES = { kasa: 'Bakiyeler', kurlar: 'Kurlarım', vitrin: 'Vitrin', cari: 'Cari', toptanci: 'Toptancı', gun: 'Rapor', liste: 'İşlemler' };
   function setView(v) {
     var group = GROUPS.filter(function (g) { return g.indexOf(v) >= 0; })[0] || GROUPS[0];
+    document.body.setAttribute('data-view', v);
+    if (!$('toast').hidden) { $('toast').hidden = true; undoData = null; undoHook = null; }
     Array.prototype.forEach.call(document.querySelectorAll('[data-view]'), function (n) {
       n.classList.toggle('view-off', n.getAttribute('data-view') !== v);
     });
@@ -3757,9 +4439,16 @@
     $('cDate').value = today();
 
     load();
+    renderRescue();
+    $('btnRescueDl').addEventListener('click', rescueDownload);
+    $('btnRescueGo').addEventListener('click', function () { rescueContinue(); renderRescue(); });
+    // Tarayıcıdan verinin kalıcı tutulmasını iste (yer azalınca silinmesin); desteklenmiyorsa sessizce geç
+    try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(function () {}); } catch (e) { /* yoksay */ }
     loadUI();
     initFolds();
     setHidden(ui.hide, true);
+    setBig(ui.big, true);
+    $('btnBig').addEventListener('click', function () { setBig(!ui.big); });
     setView('islem');
     $('fDate').value = today();
     $('dayDate').value = today();
@@ -3779,7 +4468,7 @@
     });
     $('fCur2').addEventListener('change', function () { rate2Touched = amount2Touched = false; prefillRate(); });
     $('fRate').addEventListener('input', function () { rateTouched = true; autoAmount2(); updateTotal(); });
-    $('fAmount').addEventListener('input', function () { autoAmount2(); updateTotal(); });
+    $('fAmount').addEventListener('input', function () { autoAmount2(); updateTotal(); renderAmtQuick(); });
     $('fRate2').addEventListener('input', function () { rate2Touched = true; autoAmount2(); updateTotal(); });
     $('fAmount2').addEventListener('input', function () { amount2Touched = true; updateTotal(); });
     $('countCur').addEventListener('change', function () {
@@ -3827,6 +4516,20 @@
     $('modeDay').addEventListener('click', function () { reportMode = 'day'; renderDay(); });
     $('modeMonth').addEventListener('click', function () { reportMode = 'month'; renderDay(); });
     $('modeAn').addEventListener('click', function () { reportMode = 'an'; renderDay(); });
+    $('btnTpl').addEventListener('click', saveTpl);
+    $('fWorn').addEventListener('change', function () {
+      var c = $('fCur').value;
+      $('fWornD').hidden = !this.checked;
+      if (this.checked && state.worn[c]) $('fWornD').value = fmtInput(state.worn[c]);
+      if (this.checked && !state.worn[c]) { $('fWornD').value = ''; $('fWornD').focus(); }
+      rateTouched = false; prefillRate();
+    });
+    $('fWornD').addEventListener('input', function () { rateTouched = false; prefillRate(); });
+    $('fWornD').addEventListener('change', function () {
+      var c = $('fCur').value, v = posOrNull(num('fWornD'));
+      if (v) state.worn[c] = v; else delete state.worn[c];
+      save();
+    });
     $('dayBody').addEventListener('click', function (e) {
       var tr = e.target.closest ? e.target.closest('tr') : null;
       if (tr) tr.classList.toggle('open');
@@ -3861,6 +4564,9 @@
     document.addEventListener('visibilitychange', refreshIfStale);
     window.addEventListener('online', refreshIfStale);
     document.addEventListener('visibilitychange', checkUpdate);
+    // Uygulama açık dururken de fiyatlar tazelensin ve eski fiyat uyarısı güncel kalsın
+    setInterval(function () { refreshIfStale(); renderStale(); }, 60000);
+    $('btnStaleRefresh').addEventListener('click', function () { updateRates(false); });
     window.addEventListener('online', checkUpdate);
     $('btnUpdate').addEventListener('click', applyUpdate);
     checkUpdate();

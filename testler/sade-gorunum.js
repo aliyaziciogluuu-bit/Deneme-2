@@ -66,9 +66,9 @@ const SEED = { tx: [
   assert.ok(await p.isVisible('#sTotal') && await p.isHidden('#sTL'));          // telefonda yalnızca toplam kartı
   const usdRow = p.locator('#balBody tr', { hasText: 'USD' });
   assert.ok(await usdRow.locator('td[data-label="Bakiye"]').isVisible() && await usdRow.locator('td[data-label="TL değeri"]').isVisible());
-  assert.ok(await usdRow.locator('input.rate').isHidden() && await usdRow.locator('button').isHidden());
+  assert.ok(await usdRow.locator('input.rate').isHidden() && await usdRow.locator('button').first().isHidden());
   await usdRow.locator('td.title').click();
-  assert.ok(await usdRow.locator('input.rate').isVisible() && await usdRow.locator('button').isVisible());
+  assert.ok(await usdRow.locator('input.rate').isVisible() && await usdRow.locator('button').first().isVisible());
   // ayrıntı açıkken fiyat değişince (yeniden çizim) açık kalır
   await usdRow.locator('input.rate').fill('50,8'); await usdRow.locator('input.rate').dispatchEvent('change');
   assert.ok(await p.locator('#balBody tr', { hasText: 'USD' }).locator('input.rate').isVisible());

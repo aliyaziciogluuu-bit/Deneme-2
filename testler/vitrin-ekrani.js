@@ -79,6 +79,21 @@ const KASA = { tx: [], rates: { USD: 41, HAS: 2990, GBP: 52 }, sell: { USD: 41.5
   assert.ok((await p.textContent('#empty')).includes('Piyasa fiyatı alınamadı'));
   await ctx.close();
 
+  // --- Piyasa verisi eskiyse vitrinde kırmızı uyarı; güncelse yok
+  ({ ctx, p, rows } = await open('eski', null, false));
+  await p.evaluate(() => {
+    localStorage.setItem('vitrin-fiyat', JSON.stringify({ at: new Date(Date.now() - 3600e3).toISOString(), buy: { USD: 41 }, sell: { USD: 41.5 } }));
+    localStorage.setItem('vitrin-v1', JSON.stringify({ source: 'piyasa', rows: { USD: { on: true, b: 0, s: 0 } } }));
+  });
+  await p.reload();
+  await p.waitForSelector('#stale:not([hidden])');
+  assert.ok((await p.textContent('#stale')).includes('Fiyatlar güncel olmayabilir'));
+  await ctx.close();
+  ({ ctx, p, rows } = await open('taze', null, true));
+  await p.waitForFunction(() => document.querySelectorAll('#body tr').length > 0);
+  assert.ok(await p.isHidden('#stale'));
+  await ctx.close();
+
   // --- Uygulamadaki bağlantı
   ({ ctx, p } = await open('link', KASA, true));
   await p.goto('http://kasa.test/doviz-kasasi.html');
