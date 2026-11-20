@@ -91,12 +91,12 @@
     <div class="field">
       <label for="fSource">Fiyat kaynağı</label>
       <select id="fSource">
-        <option value="kasa">Bu cihazdaki Döviz Kasası: kur tablom</option>
+        <option value="kasa">Bu cihazdaki uygulama: kur tablom</option>
         <option value="piyasa">Piyasa fiyatı + kendi farkım (ayrı TV ya da tablet için)</option>
       </select>
     </div>
     <div id="kasaBox">
-      <p>Döviz Kasası’ndaki “Kur tablom” ve “Has altın fiyatım” gösterilir; orada fiyatı değiştirdiğinizde bu ekran kendiliğinden güncellenir.</p>
+      <p>Yazıcıoğlu Çilek Döviz uygulamasındaki “Kur tablom” ve “Has altın fiyatım” gösterilir; orada fiyatı değiştirdiğinizde bu ekran kendiliğinden güncellenir.</p>
       <label>Has fiyatımdan hesaplanacak ayarlar (gram)</label>
       <div class="chips" id="karats"></div>
     </div>
@@ -258,10 +258,10 @@
     $('table').hidden = !rows.length;
     $('empty').hidden = rows.length > 0;
     $('empty').textContent = set.source === 'kasa'
-      ? 'Gösterilecek fiyat yok. Bu cihazda Döviz Kasası’nı açıp “Kur tablom”a alış–satış fiyatlarınızı yazın ya da Ayarlar’dan “Piyasa fiyatı + kendi farkım”ı seçin.'
+      ? 'Gösterilecek fiyat yok. Bu cihazda Yazıcıoğlu Çilek Döviz uygulamasını açıp “Kur tablom”a alış–satış fiyatlarınızı yazın ya da Ayarlar’dan “Piyasa fiyatı + kendi farkım”ı seçin.'
       : (market.at ? 'Gösterilecek satır seçilmemiş. Ayarlar’dan seçin.' : 'Piyasa fiyatı alınamadı. İnternet bağlantısını kontrol edin.');
     var when = function (iso) { return new Date(iso).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }); };
-    $('src').textContent = set.source === 'kasa' ? 'Kaynak: Döviz Kasası kur tablosu'
+    $('src').textContent = set.source === 'kasa' ? 'Kaynak: uygulamadaki kur tablosu'
       : market.at ? 'Piyasa verisi: ' + when(market.at) : '';
     // Eski fiyat uyarısı: piyasa verisi (ya da Döviz Kasası'nda otomatik kurlar) 30 dakikadan eskiyse
     var k = set.source === 'kasa' ? read(KASA_KEY) : null, last = null;

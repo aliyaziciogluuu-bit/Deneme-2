@@ -46,7 +46,7 @@ const SEED = { tx: [
   await p.click('#btnExport');
   await p.waitForFunction(() => window.__file, null, { timeout: 20000 });
   const file = await p.evaluate(() => window.__file);
-  assert.ok(file.name.startsWith('doviz-kasasi-yedek-sifreli-'));
+  assert.ok(file.name.startsWith('cilek-doviz-yedek-sifreli-'));
   const env = JSON.parse(file.text);
   assert.equal(env.format, 'doviz-kasasi-sifreli'); assert.equal(env.rounds, 600000);
   assert.ok(!file.text.includes('Gizli müşteri') && !file.text.includes('"tx"'));   // içerik okunamaz

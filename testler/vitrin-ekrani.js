@@ -32,7 +32,7 @@ const KASA = { tx: [], rates: { USD: 41, HAS: 2990, GBP: 52 }, sell: { USD: 41.5
   let r = await rows();
   assert.deepEqual(r, ['DolarUSD41,200041,9000', 'SterlinGBP52,000053,0000', 'Has Altıngram2.950,003.050,00'], JSON.stringify(r));   // GBP: kendi kur yok → piyasa
   assert.equal(await p.textContent('#shop'), 'Yazıcıoğlu Çilek Döviz');
-  assert.ok((await p.textContent('#src')).includes('Döviz Kasası'));
+  assert.ok((await p.textContent('#src')).includes('uygulamadaki kur tablosu'));
   // Ayarlar: 22 ayarı has fiyatından hesapla, dükkân adını değiştir
   await p.click('#btnSet');
   assert.equal(await p.inputValue('#fSource'), 'kasa');

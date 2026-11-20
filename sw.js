@@ -1,4 +1,4 @@
-// Yazıcıoğlu Çilek Döviz (Döviz Kasası) — çevrimdışı açılabilmesi için uygulama dosyalarını önbelleğe alır.
+// Yazıcıoğlu Çilek Döviz — çevrimdışı açılabilmesi için uygulama dosyalarını önbelleğe alır.
 // Fiyat servisleri (başka alan adları) önbelleğe alınmaz.
 const CACHE = 'doviz-kasasi-v1';
 const SHELL = [

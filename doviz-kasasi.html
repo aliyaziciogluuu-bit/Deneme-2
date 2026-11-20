@@ -6,12 +6,12 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.12">
+<meta name="surum" content="2026-11-20.13">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Çilek Döviz">
+<meta name="apple-mobile-web-app-title" content="Yazıcıoğlu Çilek Döviz">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -726,7 +726,7 @@
 
   <header class="top">
     <div>
-      <div class="eyebrow">Döviz Kasası</div>
+      <div class="eyebrow">Döviz ve Altın</div>
       <h1 id="bizName">Yazıcıoğlu Çilek Döviz</h1>
       <p>Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.</p>
     </div>
@@ -1649,7 +1649,7 @@
   }
   function rescueDownload() {
     if (!loadFailed) return;
-    download('doviz-kasasi-ham-kayit-' + today() + '.json', loadFailed.raw, 'application/json');
+    download('cilek-doviz-ham-kayit-' + today() + '.json', loadFailed.raw, 'application/json');
   }
   function rescueContinue() {
     if (!loadFailed) return;
@@ -4716,7 +4716,7 @@
       return crypto.subtle.encrypt({ name: 'AES-GCM', iv: iv }, key, new TextEncoder().encode(text));
     }).then(function (ct) {
       return JSON.stringify({ format: ENC_FORMAT, v: 1, kdf: 'PBKDF2-SHA256', rounds: KDF_ROUNDS, salt: b64(salt), iv: b64(iv),
-                              data: b64(ct), note: 'Döviz Kasası şifreli yedeği. Açmak için uygulamada “Yedek yükle” ve parolanız gerekir.' });
+                              data: b64(ct), note: 'Yazıcıoğlu Çilek Döviz şifreli yedeği. Açmak için uygulamada “Yedek yükle” ve parolanız gerekir.' });
     });
   }
   function decryptText(env, pass) {
@@ -4864,16 +4864,16 @@
         csvNum(t.rate, 4), csvNum(t.amount * t.rate, 2), csvCell(t.doc || ''), csvCell([t.cari, t.note].filter(Boolean).join(' · '))
       ].join(';'));
     });
-    download('doviz-kasasi-' + today() + '.csv', '﻿' + lines.join('\r\n'), 'text/csv;charset=utf-8');
+    download('cilek-doviz-' + today() + '.csv', '﻿' + lines.join('\r\n'), 'text/csv;charset=utf-8');
   }
   // Yedeği telefonda paylaşım menüsüyle (WhatsApp, e-posta, Drive…) gönderir; desteklenmiyorsa dosya olarak indirir
   function backupNow() {
     if (ui.bkPass && cryptoOk()) {
       toast('Yedek şifreleniyor…');
-      return encryptText(JSON.stringify(state), ui.bkPass).then(function (enc) { sendBackup('doviz-kasasi-yedek-sifreli-' + today(), enc); },
+      return encryptText(JSON.stringify(state), ui.bkPass).then(function (enc) { sendBackup('cilek-doviz-yedek-sifreli-' + today(), enc); },
         function () { alert('Yedek şifrelenemedi.'); });
     }
-    sendBackup('doviz-kasasi-yedek-' + today(), JSON.stringify(state, null, 2));
+    sendBackup('cilek-doviz-yedek-' + today(), JSON.stringify(state, null, 2));
   }
   function sendBackup(base, text) {
     var done = function () { ui.backupAt = new Date().toISOString(); ui.backupTx = state.tx.length; ui.snooze = null; saveUI(); renderBackup(); };

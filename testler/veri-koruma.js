@@ -39,7 +39,7 @@ const MARKET = { USD: { Buying: 50, Selling: 50.2, Change: 0 } };
   assert.equal(await p.evaluate(() => localStorage.getItem('doviz-kasasi-v1')), BROKEN);
   // ham kayıt indirilebilir
   const [dl] = await Promise.all([p.waitForEvent('download'), p.click('#btnRescueDl')]);
-  assert.ok(dl.suggestedFilename().startsWith('doviz-kasasi-ham-kayit-'));
+  assert.ok(dl.suggestedFilename().startsWith('cilek-doviz-ham-kayit-'));
   assert.equal(require('fs').readFileSync(await dl.path(), 'utf8'), BROKEN);
   // okunabilenlerle devam: bozuk satır atlanır, kayıt düzelir, kurtarma kopyası durur
   await p.click('#btnRescueGo');
