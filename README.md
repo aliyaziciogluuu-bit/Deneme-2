@@ -16,12 +16,16 @@ Kuyum tarafı:
 - **Toptancı has hesabı** (Defter → Toptancı): toptancılarla borç–alacak has gramı üzerinden, işçilik ayrı.
 - **Vitrin defteri** (Kasa → Vitrin): parça parça ürün listesi, has karşılığı, en uzun süredir bekleyenler. Ürün eklerken alış,
   “Sat” ile satış kasaya işlenebilir.
+- **Envanter listesi** (Rapor → Envanter listesi): seçilen günün akşamı elde kalan döviz ve altın, miktarı, has karşılığı,
+  ortalama maliyeti ve toplamıyla; TL kasası ve vitrin defteri özeti. “31 Aralık” düğmesiyle yıl sonu; paylaşılır ya da CSV
+  olarak iner. Bilgi amaçlıdır.
 - **Kâr analizi** (Rapor → Analiz): varlık başına ortalama alış–satış kuru, makas ve kâr; aylık net kâr grafiği.
   Net kâr TL’nin yanında dolar ve has altın olarak da gösterilir. Açık rapor “Paylaş” ile WhatsApp ya da e-postaya gönderilir.
 - **Makas kârı ve fiyat farkı:** alım-satım kârı ikiye ayrılır: makas (satış kuru − satış anındaki kendi alış kurunuz) ve
   fiyat farkı (elinizdeki malın siz tutarken değer kazanması). Ana sayfada, raporda, analizde ve paylaşılan raporda görünür.
 - **Vitrin ekranı** (`vitrin.html`, Kasa → Kurlarım içinden açılır): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda uygulamanın kur
   tablosunu canlı gösterir; ayrı bir TV ya da tablette piyasa fiyatına kendi farkınızı ekleyerek çalışır.
+  Fiyatın yanında ▲ / ▼ oku, günün ilk fiyatına göre yükseldiğini ya da düştüğünü gösterir (Ayarlar’dan kapatılabilir).
 
 Günlük işler için:
 
@@ -32,6 +36,11 @@ Günlük işler için:
   otomatik kura ayrı alış–satış farkı uygulanır; pazartesi kendiliğinden hafta içi farkına döner.
 - **Eski seri / yıpranmış döviz:** dövizi alırken işaretlenir; kurdan sizin farkınız düşülür, işleme “Eski seri” notu düşer.
   Gram altında aynı kutu “Kartı açılmış / yıpranmış” olarak çıkar.
+- **Makas uyarısı:** kur tablonuzda satış kuru alıştan düşükse, ikisi aynıysa ya da kurunuz piyasanın aleyhineyse (alış piyasa
+  satışının üstünde, satış piyasa alışının altında) uygulamanın üstünde uyarı çıkar. İşlem formunda alışı satış kurunuzdan
+  yükseğe, satışı alış kurunuzdan aşağıya yazınca da uyarır. Piyasa karşılaştırması yalnızca fiyatlar son 24 saatte alındıysa yapılır.
+- **Sınırlar** (Kasa → Sınırlar): varlık başına en fazla miktar (ör. “en fazla 5.000 USD”) ve TL kasasının en az tutarı.
+  Aşılınca uyarı çıkar; sınırı aşacak işlemi kaydederken sorulur.
 - **Bekleyen müşteri** (Defter → Bekleyenler): “dolar 50’ye inerse haber verin” diyen müşteriyi ve hedef fiyatı yazın; kurunuz
   hedefe gelince uygulamanın üstünde uyarı çıkar, “Mesaj gönder” hazır WhatsApp mesajını açar.
 - **Yorum ve yol tarifi bağlantısı:** hesap dökümünde “Bağlantılar” ile Google yorum ve harita bağlantınızı bir kez yazın;

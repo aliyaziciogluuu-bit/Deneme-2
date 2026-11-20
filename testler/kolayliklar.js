@@ -96,6 +96,12 @@ const SEED = {
 
     // ================= Başparmakla kaydet (telefon) =================
     if (name === 'telefon') {
+      // Satış kuru 50,30 piyasa alışının altında kaldığı için makas uyarısı çıkmıştı; kur düzelince kalkar
+      assert.ok(await p.isVisible('#spreadBanner'));
+      await p.click('button[data-go="kasa"]'); await p.click('button[data-go="kurlar"]');
+      await p.fill('#mr-sell-USD', '50,6'); await p.dispatchEvent('#mr-sell-USD', 'change');
+      assert.ok(await p.isHidden('#spreadBanner'));
+      await p.click('button[data-go="islem"]');
       await p.evaluate(() => window.scrollTo(0, 0));
       const pos = await p.evaluate(() => {
         const r = document.getElementById('btnSave').getBoundingClientRect(), n = document.getElementById('tabs').getBoundingClientRect();

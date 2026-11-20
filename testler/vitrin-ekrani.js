@@ -47,7 +47,7 @@ const KASA = { tx: [], rates: { USD: 41, HAS: 2990, GBP: 52 }, sell: { USD: 41.5
   await p.evaluate(() => { const k = JSON.parse(localStorage.getItem('doviz-kasasi-v1')); k.myRates.USD.sell = 42.5;
     localStorage.setItem('doviz-kasasi-v1', JSON.stringify(k)); window.dispatchEvent(new StorageEvent('storage', { key: 'doviz-kasasi-v1' })); });
   r = await rows();
-  assert.equal(r[0], 'DolarUSD41,200042,5000');
+  assert.equal(r[0], 'DolarUSD41,2000▲42,5000');                                 // günün ilk fiyatından yüksek
   assert.equal(await p.locator('#body td.flash').count(), 1);
   // Ayarlar kalıcı
   await p.reload();
