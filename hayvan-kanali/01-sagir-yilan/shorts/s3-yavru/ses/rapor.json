@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Sağır yılan yumurtlamıyor, yavru doğuruyor.",
+  "duyulan": "Sağır yılan yumurtlamıyor, yavru doğuruyor.",
+  "hata": 0,
+  "sure": 2.74,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Yumurtalar annenin vücudunun içinde gelişiyor.",
+  "duyulan": "Yumurtalar, annenin vücudunun içinde gelişiyor.",
+  "hata": 0,
+  "sure": 2.86,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor.",
+  "duyulan": "yaz sonuna doğru da ince, parlak, yaklaşık 7 ila 10 cm boyunda yavrular dünyaya geliyor.",
+  "hata": 0,
+  "sure": 6.84,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.",
+  "duyulan": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.",
+  "hata": 0,
+  "sure": 3.1,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.",
+  "duyulan": "Sonbaharda genellikle Ekim ayında sahar yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.",
+  "hata": 1,
+  "sure": 7.94,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bazen aynı kış sığınağını birçok birey paylaşıyor.",
+  "duyulan": "Bazen aynı kış sığınağını birçok birey paylaşıyor.",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.48,
+  "uygun": true
+ }
+}

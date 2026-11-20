@@ -257,5 +257,124 @@
   "hata": 0,
   "sure": 8.04,
   "uygun": true
+ },
+ "037": {
+  "yazi": "Saçağındaki kırlangıç hangisi?",
+  "duyulan": "Saçağındaki kırlangıç hangisi?",
+  "hata": 0,
+  "sure": 1.94,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Türkiye'deki yaz göçmeni beş kırlangıç türü bir araştırmada incelenmiş: kum, kaya, kır, kızıl ve ev kırlangıcı.",
+  "duyulan": "Türkiye'deki yaz göçmeni 5 kırlangıç türü bir araştırmada incelenmiş. Kum, kaya, kır, kızıl ve ev kırlangıcı.",
+  "hata": 0,
+  "sure": 8.7,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Binalara yuva yapan iki tanıdık tür kır ve ev kırlangıcı.",
+  "duyulan": "Binalara yuva yapan iki tanıdık tür, kır ve ev kırlangıcı.",
+  "hata": 0,
+  "sure": 3.7,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Kır kırlangıcının sırtı koyu mavi, kuyruğu uzun ve çatallı; alnı ve boğazı pas rengi.",
+  "duyulan": "Kırkırlangıcının sırtı koyu mavi, kuyruğu uzun ve çatallı, alnı ve boğazı pas rengi.",
+  "hata": 0,
+  "sure": 5.5,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Yuvası üstü açık bir çanak gibi; ahırlarda, balkonlarda, eski harabelerde bulunabiliyor.",
+  "duyulan": "yuvası üstü açık bir çanak gibi ahırlarda, balkonlarda, eski harabelerde bulunabiliyor.",
+  "hata": 0,
+  "sure": 5.58,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Ev kırlangıcının başı ve sırtı mavi, kıç tarafı ve karnı beyaz.",
+  "duyulan": "Ev kırlangıcının başı ve sırtı mavi, kıç tarafı ve karnı beyaz.",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Yuvasını saçak altına, üstü kapalı bir kap gibi, çamurdan yapıyor.",
+  "duyulan": "yuvasını saçak altına üstü kapalı bir kap gibi çamurdan yapıyor.",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Yuvanın çevresinde kimler var?",
+  "duyulan": "yuvanın çevresinde kimler var?",
+  "hata": 0,
+  "sure": 1.82,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Kır kırlangıcında erkek, dişilerden önce gelip yuva yerini seçiyor.",
+  "duyulan": "Kırkırlangıcında erkek dişilerden önce gelip yuva yerini seçiyor.",
+  "hata": 0,
+  "sure": 4.08,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Ev serçeleri, ev kırlangıcı yuva yaparken sık sık yuvayı ele geçirmeye çalışıyor.",
+  "duyulan": "ev serçeleri, ev kırlangıcı yuva yaparken sık sık yuvayı ele geçirmeye çalışıyor.",
+  "hata": 0,
+  "sure": 5.06,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Kır kırlangıcı yavruları yuvadan çıktıktan sonra yaklaşık bir hafta anne babadan yem almaya devam ediyor.",
+  "duyulan": "Kırkırlangıcı yavruları yuvadan çıktıktan sonra yaklaşık bir hafta anne babadan yem almaya devam ediyor.",
+  "hata": 0,
+  "sure": 6.22,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Kır kırlangıçları yuvaya yaklaşan kediyi çoğu zaman çok yakından uçarak rahatsız ediyor.",
+  "duyulan": "Kırkırlangıçları yuvaya yaklaşan kediyi çoğu zaman çok yakından uçarak rahatsız ediyor.",
+  "hata": 0,
+  "sure": 5.14,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Peki yuvadan düşen yavru için ne yapmalısın?",
+  "duyulan": "Peki yuvadan düşen yavru için ne yapmalısın?",
+  "hata": 0,
+  "sure": 2.74,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "İngiltere'deki bir hayvan koruma derneği, kırlangıç yavrularının yuvayı erken terk edip yere çakılabildiğini yazıyor.",
+  "duyulan": "İngiltere'deki bir hayvan koruma derneği kırlangıç yavrularının yuvayı erken terk edip yere çakılabildiğini yazıyor.",
+  "hata": 0,
+  "sure": 6.38,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Yere inmiş ve havalanamayan yavruyu bir uzmana göstermeyi öneriyor.",
+  "duyulan": "Yere inmiş ve havalanamayan yavruyu bir uzmana göstermeyi öneriyor.",
+  "hata": 0,
+  "sure": 3.76,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Yavruya dokunmadan önce eldiven, gözlük ve maske tak; İngiltere'deki dernek bunu kuş gribi nedeniyle öneriyor.",
+  "duyulan": "Yavruya dokunmadan önce eldiven, gözlük ve maske tak. İngiltere'deki dernek bunu kuşgribi nedeniyle öneriyor.",
+  "hata": 0,
+  "sure": 6.98,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Sonra yavruyu havalandırma delikleri olan sağlam bir kartona koy; içine havlu ya da gazete ser.",
+  "duyulan": "Sonra yavruyu havalandırma delikleri olan sağlam bir kartona koy. İçine havlu ya da gazete ser.",
+  "hata": 0,
+  "sure": 5.6,
+  "uygun": true
  }
 }
