@@ -32,6 +32,8 @@ Günlük işler için:
 - **Zararına satış uyarısı:** satış kuru elinizdeki malın ortalama maliyetinin altındaysa kaydetmeden önce tahmini zararı gösterip sorar.
 - **Hızlı tutar düğmeleri:** tutar kutusunun altında varlığa göre 100 · 500 · 1.000 gibi düğmeler.
 - **Büyük yazı** (başlıktaki “Aa”): bütün uygulama büyür; tercih hatırlanır.
+- **Satış kârı bildirimi:** satışı kaydedince “bu satıştan +₺X kâr” yazar.
+- **Başparmakla kaydet:** telefonda “İşlemi kaydet” düğmesi ekranın altında sabit durur.
 - **Kayıt titreşimi:** kayıt ve silmede kısa titreşim (Android; iPhone desteklemez).
 
 Tarayıcı sınamaları [`testler/`](testler/README.md) klasöründedir.

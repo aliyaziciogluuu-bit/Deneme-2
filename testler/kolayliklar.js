@@ -1,4 +1,4 @@
-// Döviz Kasası: zararına satış uyarısı, hızlı tutar düğmeleri, büyük yazı modu, kayıt titreşimi.
+// Döviz Kasası: zararına satış uyarısı, satış kârı bildirimi, hızlı tutar düğmeleri, başparmakla kaydet, büyük yazı, titreşim.
 const { chromium, devices } = require('playwright');
 const assert = require('assert');
 const ROOT = require('path').resolve(__dirname, '..');
@@ -73,10 +73,12 @@ const SEED = {
     await p.fill('#fAmount', '100'); await p.fill('#fRate', '50,8');
     await p.click('#btnSave');
     assert.ok(!dialogs.some((d) => d.includes('ortalama maliyetinizin altında')), dialogs.join('|'));
+    assert.equal(await txt('#toastMsg'), 'İşlem kaydedildi · bu satıştan +\u2060₺30,00 kâr.');      // 100 × (50,80 − 50,50)
     assert.equal((await store()).tx.length, n0 + 2);
     // hızlı işlemde de çalışır (şablon kuru 50,60 > 50,50: uyarı yok; kur 50,30'a inince uyarı)
     await p.click('#tplRow button:has-text("100,00 USD sat")');
     assert.equal((await store()).tx.length, n0 + 3);
+    assert.ok((await txt('#toastMsg')).endsWith('kaydedildi · bu satıştan +\u2060₺10,00 kâr.'), await txt('#toastMsg'));
     await p.evaluate(() => { const k = JSON.parse(localStorage.getItem('doviz-kasasi-v1')); k.myRates.USD.sell = 50.3; localStorage.setItem('doviz-kasasi-v1', JSON.stringify(k)); });
     await p.reload();
     answer = false; dialogs.length = 0;
@@ -90,6 +92,21 @@ const SEED = {
     await p.fill('#fAmount', '10'); await p.fill('#fRate', '60');
     await p.click('#btnSave');
     assert.ok(!dialogs.some((d) => d.includes('ortalama maliyetinizin altında')));
+    assert.equal(await txt('#toastMsg'), 'İşlem kaydedildi.');                        // alışta kâr yazmaz
+
+    // ================= Başparmakla kaydet (telefon) =================
+    if (name === 'telefon') {
+      await p.evaluate(() => window.scrollTo(0, 0));
+      const pos = await p.evaluate(() => {
+        const r = document.getElementById('btnSave').getBoundingClientRect(), n = document.getElementById('tabs').getBoundingClientRect();
+        return { saveBottom: r.bottom, navTop: n.top, h: window.innerHeight };
+      });
+      assert.ok(pos.saveBottom <= pos.navTop + 1 && pos.saveBottom > pos.navTop - 90, 'kaydet düğmesi altta değil: ' + JSON.stringify(pos));
+      await p.fill('#fAmount', '5'); await p.click('#btnSave');                       // kaydırmadan dokunulabilir
+      assert.equal(await txt('#toastMsg'), 'İşlem kaydedildi.');
+      const ov = await p.evaluate(() => [document.getElementById('toast').getBoundingClientRect().bottom, document.getElementById('btnSave').getBoundingClientRect().top]);
+      assert.ok(ov[0] <= ov[1] + 1, 'bildirim kaydet düğmesinin üstüne biniyor: ' + ov.join(','));
+    }
 
     // ================= Büyük yazı modu =================
     const before = await p.evaluate(() => document.getElementById('mToday').getBoundingClientRect().height);

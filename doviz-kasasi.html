@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.4">
+<meta name="surum" content="2026-11-20.5">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -633,6 +633,19 @@
   .aa { font: 800 16px/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; letter-spacing: -.02em; }
   #btnBig[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
   body.big .wrap, body.big .toast, body.big dialog, body.big .receipt { zoom: 1.16; }
+
+  /* Başparmakla kaydet: telefonda kaydet çubuğu, form göründükçe ekranın altında sabit kalır */
+  @media (max-width: 640px) {
+    section.card.tx-card { overflow: visible; }
+    #txForm .form-foot {
+      position: sticky; bottom: calc(70px + env(safe-area-inset-bottom)); z-index: 5;
+      margin: 4px -16px -16px; padding: 10px 16px; background: var(--surface);
+      border-top: 1px solid var(--line); border-radius: 0 0 20px 20px; box-shadow: 0 -6px 16px rgba(16, 20, 24, .06);
+    }
+    #txForm .form-foot .tools { flex-wrap: nowrap; }
+    #btnSave { min-height: 50px; padding: 10px 22px; font-size: 17px; }
+    body[data-view="islem"] .toast { bottom: calc(150px + env(safe-area-inset-bottom)); }   /* kaydet çubuğunun üstünde */
+  }
 </style>
 </head>
 <body>
@@ -704,7 +717,7 @@
     </div>
   </div>
 
-  <section class="card" data-view="islem">
+  <section class="card tx-card" data-view="islem">
     <div class="head"><h2 id="formTitle">Yeni işlem</h2></div>
     <div class="body">
       <form class="tx" id="txForm" novalidate>
@@ -2487,6 +2500,14 @@
     return confirm(label(c) + ' satışı ortalama maliyetinizin altında.\nOrtalama maliyet: ' + fmtRate(avg, c) +
                    '\nSatış kuru: ' + fmtRate(rate, c) + '\nTahmini zarar: ' + fmtTL(loss) + '\n\nYine de kaydedilsin mi?');
   }
+  // Bir satışın kârı: kayıttan önceki ve sonraki gerçekleşen kâr farkı. Bildirimde gösterilir.
+  function saleNote(prevTx, res, c) {
+    if (isCash(c) || !res || !res.acc) return '';
+    var b = compute(prevTx).acc[c], after = res.acc[c];
+    var d = (after ? after.realized : 0) - (b ? b.realized : 0);
+    if (Math.abs(d) < 0.005) return '';
+    return ' · bu satıştan ' + (d > 0 ? '+\u2060' + fmtTL(d) + ' kâr' : fmtTL(d) + ' zarar');   // + ile tutar ayrılmasın
+  }
   // Hızlı tutar düğmeleri: varlığa göre uygun tutarlar; dokununca tutar kutusuna yazılır
   function quickAmounts(c) {
     if (isCash(c)) return [1000, 5000, 10000, 50000];
@@ -2548,12 +2569,12 @@
     if (t.exp) tx.exp = true;
     var next = state.tx.concat([tx]), res = validate(next);
     if (res.error) return setMsg(res.error, 'err');
-    var before = snapshot();
+    var before = snapshot(), gain = t.type === 'out' ? saleNote(state.tx, res, t.cur) : '';
     state.tx = next;
     save();
     render();
     setMsg('');
-    toast(tplText(t) + (isCash(t.cur) ? '' : ' · ' + fmtRate(rate, t.cur)) + ' kaydedildi.', before);
+    toast(tplText(t) + (isCash(t.cur) ? '' : ' · ' + fmtRate(rate, t.cur)) + ' kaydedildi' + gain + '.', before);
   }
   function saveTpl() {
     var c = $('fCur').value, amount = num('fAmount'), type = formType();
@@ -2703,6 +2724,7 @@
     if (res.error) return setMsg(res.error, 'err');
 
     var before = snapshot();
+    var gain = !old && !cash && tx.type === 'out' ? saleNote(state.tx, res, cur) : '';
     state.tx = next;
     if (!cash && !(state.rates[cur] > 0)) state.rates[cur] = rate;
     save();
@@ -2710,7 +2732,7 @@
     resetForm();
     render();
     setMsg(res.tl < -0.005 ? 'TL kasası eksiye düştü: ' + fmtTL(res.tl) : '', 'err');
-    toast(wasEdit ? 'İşlem güncellendi.' : 'İşlem kaydedildi.', before);
+    toast(wasEdit ? 'İşlem güncellendi.' : 'İşlem kaydedildi' + gain + '.', before);
   }
   // Yanlış yazılmış kura karşı: piyasa fiyatından çok uzaksa kaydetmeden önce sorar
   function rateLooksRight(c, rate) {
@@ -2739,7 +2761,7 @@
     ]);
     var res = validate(next);
     if (res.error) return setMsg(res.error, 'err');
-    var before = snapshot();
+    var before = snapshot(), gain = saleNote(state.tx, res, c2);
     state.tx = next;
     if (!(state.rates[c] > 0)) state.rates[c] = r;
     if (!(state.rates[c2] > 0)) state.rates[c2] = r2;
@@ -2747,7 +2769,7 @@
     resetForm();
     render();
     setMsg(res.tl < -0.005 ? 'TL kasası eksiye düştü: ' + fmtTL(res.tl) : '', 'err');
-    toast('Arbitraj kaydedildi.', before);
+    toast('Arbitraj kaydedildi' + gain + '.', before);
   }
   function describeTx(t) {
     return fmtDate(t.date) + ' · ' + typeLabel(t) + ' · ' + fmtAmt(t.amount, t.cur) +
@@ -3995,6 +4017,7 @@
   var VIEW_NAMES = { kasa: 'Bakiyeler', kurlar: 'Kurlarım', vitrin: 'Vitrin', cari: 'Cari', toptanci: 'Toptancı', gun: 'Rapor', liste: 'İşlemler' };
   function setView(v) {
     var group = GROUPS.filter(function (g) { return g.indexOf(v) >= 0; })[0] || GROUPS[0];
+    document.body.setAttribute('data-view', v);
     Array.prototype.forEach.call(document.querySelectorAll('[data-view]'), function (n) {
       n.classList.toggle('view-off', n.getAttribute('data-view') !== v);
     });
