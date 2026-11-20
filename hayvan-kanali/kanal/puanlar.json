@@ -187,6 +187,27 @@
      "sonuc": "TESLİM"
     }
    ]
+  },
+  "07-kirlangic": {
+   "turlar": [
+    {
+     "tur": 1,
+     "tarih": "2026-11-20",
+     "puan": {
+      "dogruluk": 9.0,
+      "guvenlik": 8.0,
+      "kanca": 8.0,
+      "anlatim": 8.0,
+      "baslik": 8.0,
+      "shorts": 8.0,
+      "ses": 8.0,
+      "gorsel": 8.0,
+      "teknik": 10.0
+     },
+     "toplam": 83.0,
+     "sonuc": "TESLİM"
+    }
+   ]
   }
  }
 }

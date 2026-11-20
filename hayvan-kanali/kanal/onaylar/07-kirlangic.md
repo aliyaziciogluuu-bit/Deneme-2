@@ -45,3 +45,4 @@
 - Metin editörü (Tur 2): ONAY. Puan: kanca 8, anlatim 8, baslik 8, shorts 8.
 - Seslendirme yönetmeni: farkların çoğu ses tanıma yazımı; dinleme listesi: s1 sn 1–2 "kır kırlangıçları", uzun 0:00 "saçağa", 5:34 "siğil", 1:39 "ineğin".
 - Son kontrol: uzun 64/64 (1/723 kelime farkı), s1 6/6, s2 7/7 GEÇTİ.
+- Kalite kontrol (Tur 2): ONAY. Puan: ses 8, gorsel 8, teknik 5/5. Kapak, kadraj ve etiket bulguları giderildi. Kalan (engel değil): kır kırlangıcında pas rengi göğse yayılıyor; "tarımın yoğunlaşması" cümlesinde deniz üstü sürü görseli.
