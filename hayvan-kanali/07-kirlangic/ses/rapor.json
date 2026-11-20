@@ -225,10 +225,11 @@
  },
  "032": {
   "yazi": "Kırlangıç sana ne veriyor?",
-  "duyulan": "Kırlangüt sana ne veriyor?",
-  "hata": 1,
-  "sure": 1.5,
-  "uygun": false
+  "duyulan": "Kırlangıç sana ne veriyor?",
+  "hata": 0,
+  "sure": 1.68,
+  "uygun": true,
+  "tek_basina": true
  },
  "033": {
   "yazi": "Uçarken sinek ve sivrisinek gibi küçük böcekleri yakalıyor.",

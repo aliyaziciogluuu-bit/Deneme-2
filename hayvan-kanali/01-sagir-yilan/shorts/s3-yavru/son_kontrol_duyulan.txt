@@ -1,0 +1,7 @@
+000 fark=0 | Sağır yılan yumurtlamıyor, yavru doğuruyor. || Sağır yılan yumurtlamıyor, yavru doğuruyor.
+001 fark=0 | Yumurtalar annenin vücudunun içinde gelişiyor. || Yumurtalar, annenin vücudunun içinde gelişiyor.
+002 fark=0 | Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor. || Yaz sonuna doğru da ince, parlak, yaklaşık 7 ila 10 cm boyunda yavrular dünyaya geliyor.
+003 fark=0 | Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor. || Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.
+004 fark=1 | Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor. || Sonbaharda genellikle Ekim ayında sahar yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.
+005 fark=0 | Bazen aynı kış sığınağını birçok birey paylaşıyor. || bazen aynı kış sığınağını birçok birey paylaşıyor.
+006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

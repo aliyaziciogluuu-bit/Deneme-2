@@ -1,0 +1,13 @@
+[GEÇTİ] Cümle cümle ses doğrulaması 7/7 cümle doğrulandı
+[GEÇTİ] Görüntü biçimi 1080x1920 30 fps h264/aac
+[GEÇTİ] Video ve ses süresi tutarlı video 33.2 sn, ses 33.2 sn
+[GEÇTİ] Shorts süresi (≤ 60 sn) 33.2 sn
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.8 LUFS, tepe -1.4 dBTP
+[GEÇTİ] Siyah kare yok 
+[GEÇTİ] Donmuş görüntü yok (4 sn+) 
+[GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 7/7 cümle birebir, toplam 1/59 kelime farkı
+[GEÇTİ] Altyazı zamanlaması 16 altyazı, son 31.0 sn
+[GEÇTİ] Altyazı uzunluğu en uzun 35 karakter
+[GEÇTİ] Başlık uzunluğu 35 karakter
+[GEÇTİ] Açıklama uzunluğu ve karakterleri 801 karakter
+[GEÇTİ] Etiketler (toplam ≤ 500) 5 etiket
