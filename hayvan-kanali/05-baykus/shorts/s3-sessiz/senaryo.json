@@ -1,0 +1,52 @@
+{
+  "dikey": true,
+  "baslik": "Baykuş Nasıl Sessiz Uçuyor? 🦉 #shorts",
+  "aciklama": "Baykuş neredeyse hiç ses çıkarmadan uçabiliyor: kanadın ön kenarındaki tüylerde tarak gibi ince dişler var, arka kenar saçaklı. Tam video kanalımızda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\n#shorts #baykuş #doğa #kuşlar #ilginçbilgiler",
+  "etiketler": [
+    "baykuş",
+    "baykuş sessiz uçuş",
+    "peçeli baykuş",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "SESSİZ UÇUŞ",
+    "Tüylerde gizli"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Baykuş Uğursuz mu? (Köyün Gece Bekçisi)",
+  "sahneler": [
+    {
+      "ad": "Baykuş Nasıl Sessiz Uçuyor? 🦉 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Baykuş, neredeyse hiç ses çıkarmadan uçabiliyor."
+        },
+        {
+          "yazi": "Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var."
+        },
+        {
+          "yazi": "Bu dişler, kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor."
+        },
+        {
+          "yazi": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak."
+        },
+        {
+          "yazi": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor."
+        },
+        {
+          "yazi": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş."
+        },
+        {
+          "yazi": "Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

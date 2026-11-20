@@ -19,4 +19,7 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 19 Kas | 03 kirpi ölçek düzeltmesi | ~0,18 $ (süt kabı 3 aday) | – | ~0,03 $ | ~0,2 $ | dev kirpi ölçeği |
 | 19 Kas | 04 yarasa oda sahnesi | ~0,18 $ (3 aday) | ~0,35 $ (1 klip) | – | ~0,5 $ | gri kanat yaması |
 | 19 Kas | 06 karga görsel düzenleme denemesi | ~0,08 $ (Flux Kontext, 2 düzenleme) | – | – | ~0,1 $ | ekin_portre beyaz ense silindi |
-| | **Kasım toplamı** | | | | **~37 $** | aylık bütçe 60 $ |
+| 20 Kas | 07 kırlangıç görselleri | ~3,30 $ (25 görsel, 55 aday) | – | – | ~3,3 $ | klipler sırada (~2,45 $) |
+| 20 Kas | 01 yılan s3 Shorts görsel düzeltmesi | ~0,04 $ (Kontext, RET) + ~0,12 $ (2 aday) | – | – | ~0,2 $ | yavrularda bacak vardı |
+| 20 Kas | 01–06 ek Shorts seslendirmeleri | – | – | ~0,1 $ | ~0,1 $ | her gün Shorts |
+| | **Kasım toplamı** | | | | **~40,6 $** | aylık bütçe 60 $ |

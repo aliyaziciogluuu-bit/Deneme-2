@@ -145,5 +145,82 @@
   "hata": 0,
   "sure": 5.58,
   "uygun": true
+ },
+ "021": {
+  "yazi": "Asıl neden ne, yuvanın içinde ne olabilir?",
+  "duyulan": "Asıl neden ne, yuvanın içinde neye olabilir?",
+  "hata": 1,
+  "sure": 2.94,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Yumurta ya da yavru olabilir.",
+  "duyulan": "yumurta ya da yavru olabilir.",
+  "hata": 0,
+  "sure": 1.6,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Kır kırlangıcında kuluçka genellikle iki ile üç hafta sürüyor; yavrular bundan sonra yaklaşık üç hafta daha yuvada büyüyor.",
+  "duyulan": "Kırkırlangıcında kuluçka genellikle ikiyle üç hafta sürüyor. Yavrular bundan sonra yaklaşık üç hafta daha yuvada büyüyor.",
+  "hata": 0,
+  "sure": 7.96,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Kır kırlangıcı normalde yılda iki kez yavru yetiştiriyor ve ilk yuvayı ikinci kuluçkada da kullanıyor.",
+  "duyulan": "Kırkırlangıcı normalde yılda iki kez yavru yetiştiriyor ve ilk yuvayı ikinci kuluçkada da kullanıyor.",
+  "hata": 0,
+  "sure": 5.98,
+  "uygun": true
+ },
+ "025": {
+  "yazi": "Yuvayı bozmak yerine ne yapabilirsin?",
+  "duyulan": "Yuvayı bozmak yerine ne yapabilirsin?",
+  "hata": 0,
+  "sure": 2.2,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Bize göre yuvaya dokunmadan beklemek en güvenli seçenek; kırlangıçlar yaz sonunda zaten göç ediyor.",
+  "duyulan": "Bize göre yuvaya dokunmadan beklemek en güvenli seçenek. Kırlangıçlar yaz sonunda zaten göç ediyor.",
+  "hata": 0,
+  "sure": 6.28,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık. Emin olmak için Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.",
+  "hata": 0,
+  "sure": 8.06,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Yuvanın altı pislenirse ne olur?",
+  "duyulan": "Yuvanın altı pislenirse ne olur?",
+  "hata": 0,
+  "sure": 1.78,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Ev kırlangıcı yuvalarının altında kuş pisliği sorun olabiliyor; bu yüzden yuvalar bazen yıkılıyor.",
+  "duyulan": "Ev kırlangıcı yuvalarının altında kuş pisliği sorun olabiliyor. Bu yüzden yuvalar bazen yıkılıyor.",
+  "hata": 0,
+  "sure": 5.64,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Yuvanın altını temizlerken eldiven takmak akla yatkın bir önlem.",
+  "duyulan": "Yuvanın altını temizlerken eldiven takmak akla yatkın bir önlem.",
+  "hata": 0,
+  "sure": 4.18,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "İngiltere'deki hayvan koruma derneği, kuş dışkısına ya da tüyüne dokunursan ellerini sabun ve suyla yıkamanı öneriyor.",
+  "duyulan": "İngiltere'deki Hayvan Koruma Derneği kuş dışkısına ya da tüyüne dokunursan ellerini sabun ve su ile yıkamanı öneriyor.",
+  "hata": 0,
+  "sure": 6.88,
+  "uygun": true
  }
 }

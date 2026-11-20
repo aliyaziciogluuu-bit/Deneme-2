@@ -157,6 +157,75 @@
      "w": 0.6
     }
    ]
+  },
+  {
+   "ad": "s3-kanca",
+   "baslik": "Karga Teli Büküp Kanca Yaptı! 🐦‍⬛ #shorts",
+   "aciklama": "İki bin iki yılında Betty adlı bir dişi Yeni Kaledonya kargası, düz teli bükerek kanca yaptı ve dar bir kabın dibindeki yemek sepetini yukarı çekti. Yeni Kaledonya kargası Güney Pasifik'te yaşıyor; Türkiye'de yaşamıyor. Tam video kanalımızda: \"Karga Seni Tanıyor mu? Bir Maske, 17 Yıl ve Sönen Öfke\"\n\n#shorts #karga #zeka #doğa #ilginçbilgiler",
+   "etiketler": [
+    "karga",
+    "Betty karga",
+    "Yeni Kaledonya kargası",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "TELİ BÜKTÜ",
+    "kanca yaptı"
+   ],
+   "cumleler": [
+    {
+     "yazi": "İki bin iki yılında Betty adlı bir dişi karga, düz teli bükerek kanca yaptı.",
+     "gorsel": "nc_kanca",
+     "klip": "nc_kanca",
+     "kx": 0.48,
+     "kz": 1.2,
+     "ky": 0.1
+    },
+    {
+     "yazi": "O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti.",
+     "gorsel": "nc_kanca",
+     "x": 0.5,
+     "x2": 0.5,
+     "aw": 0.8,
+     "ay": 0.32,
+     "w": 0.75,
+     "y": 0.32
+    },
+    {
+     "yazi": "Alet ustalarından biri Yeni Kaledonya kargası.",
+     "gorsel": "nc_ada",
+     "x": 0.5,
+     "aw": 0.5,
+     "ay": 0.4,
+     "w": 0.6,
+     "y": 0.4
+    },
+    {
+     "yazi": "Güney Pasifik'teki Yeni Kaledonya adalarında yaşıyor; Türkiye'de yaşamıyor.",
+     "gorsel": "nc_ada",
+     "x": 0.5,
+     "aw": 0.8,
+     "ay": 0.5,
+     "w": 0.9,
+     "y": 0.5
+    },
+    {
+     "yazi": "Sonraki çalışmalar, bu davranışın ne kadar kendiliğinden olduğunu tartışıyor.",
+     "gorsel": "nc_kanca",
+     "x": 0.5,
+     "x2": 0.5,
+     "aw": 0.8,
+     "ay": 0.32,
+     "w": 0.75,
+     "y": 0.32
+    },
+    {
+     "yazi": "Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.55
+    }
+   ]
   }
  ]
 }
