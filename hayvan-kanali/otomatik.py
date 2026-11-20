@@ -162,7 +162,8 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
     n = len(cl)
     onay_yol = KOK / "kanal" / "onaylar" / f"{klasor.name}.md"
     onay = onay_yol.read_text(encoding="utf-8") if onay_yol.exists() else ""
-    if not onkontrol and ("YAYINDA" in onay or "TESLİM EDİLDİ" in onay):
+    yayinda = "YAYINDA" in onay or "TESLİM EDİLDİ" in onay
+    if not onkontrol and yayinda:
         d.teslim_edildi = True
         if kaynak:
             kaynak_erisim(d, sen)
@@ -172,14 +173,18 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
     m = subprocess.run([sys.executable, "metin_kontrol.py", klasor.name], cwd=KOK, capture_output=True, text=True)
     for l in m.stdout.splitlines():
         if l.startswith("[HATA]"):
+            if yayinda and l[7:].startswith("uzun"):  # yayındaki uzun video yeniden üretilmiyor; yalnız yeni Shorts denetlenir
+                d.uyari.append("yayındaki uzun video (engel değil): " + l[7:])
+                continue
             d.hata.append("metin: " + l[7:])
     # 2. Okunuş alanları
-    ses_alani(d, "uzun", cl)
+    if not yayinda:
+        ses_alani(d, "uzun", cl)
     sh = oku(klasor / "shorts.json") or {}
     for s in sh.get("shorts", []):
         ses_alani(d, f"Shorts {s.get('ad')}", s.get("cumleler", []))
     # 3. Çekim planı
-    cek = oku(klasor / "cekimler.json")
+    cek = None if yayinda else oku(klasor / "cekimler.json")
     if cek:
         top = sum(x.get("n", 0) for x in cek["cekimler"])
         if top != n:
@@ -202,7 +207,7 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
             subprocess.run([sys.executable, "shorts_kur.py", klasor.name], cwd=KOK, capture_output=True)
     # 5. Ses
     yeniden_ses = {}
-    eksik = ses_denetle(d, klasor, n, "uzun")
+    eksik = [] if yayinda else ses_denetle(d, klasor, n, "uzun")
     if eksik:
         yeniden_ses[klasor.name] = eksik
     for sd in sorted((klasor / "shorts").glob("*/")) if (klasor / "shorts").exists() else []:
