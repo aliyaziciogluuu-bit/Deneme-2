@@ -1,4 +1,4 @@
-// Döviz Kasası: sade görünüm (tek satır başlık, açılır bölümler, dokununca açılan satırlar).
+// Döviz Kasası: sade görünüm (beş sekme ve alt sekmeler, tek satır başlık, açılır bölümler, dokununca açılan satırlar).
 const { chromium, devices } = require('playwright');
 const assert = require('assert');
 const ROOT = require('path').resolve(__dirname, '..');
@@ -45,7 +45,8 @@ const SEED = { tx: [
   assert.ok(await p.isHidden('footer'));
   // --- Cari: form kapalı gelir; düğmeyle ya da kişiye dokununca açılır
   await p.click('button[data-go="cari"]');
-  assert.ok(await p.isHidden('#cariForm') && await p.isHidden('#wForm'));
+  assert.ok(await p.isHidden('#cariForm'));
+  assert.deepEqual(await p.locator('#subtabs button').allTextContents(), ['Cari', 'Toptancı']);
   assert.equal((await p.textContent('[data-toggle="cari"]')).trim(), '＋ Hareket ekle');
   await p.click('#persons .person .n');                       // kişiye dokun
   assert.ok(await p.isVisible('#cariForm'));
@@ -53,11 +54,16 @@ const SEED = { tx: [
   assert.equal((await p.textContent('[data-toggle="cari"]')).trim(), 'Kapat');
   await p.click('[data-toggle="cari"]');
   assert.ok(await p.isHidden('#cariForm'));
+  await p.click('button[data-go="toptanci"]');                 // alt sekme
+  assert.ok(await p.isHidden('#wForm') && await p.isHidden('#persons'));
+  assert.equal(await p.getAttribute('#tabs button[data-go="cari"]', 'aria-current'), 'page');   // ana sekme seçili kalır
   await p.click('[data-toggle="toptanci"]');
   assert.ok(await p.isVisible('#wForm'));
   // --- Kasa: sayım ve ürün formu kapalı; bakiye satırı sade, dokununca ayrıntı
   await p.click('button[data-go="kasa"]');
+  assert.deepEqual(await p.locator('#subtabs button').allTextContents(), ['Bakiyeler', 'Kurlarım', 'Vitrin']);
   assert.ok(await p.isHidden('#countGrid') && await p.isHidden('#btnCountApply') && await p.isHidden('#iForm'));
+  assert.ok(await p.isVisible('#sTotal') && await p.isHidden('#sTL'));          // telefonda yalnızca toplam kartı
   const usdRow = p.locator('#balBody tr', { hasText: 'USD' });
   assert.ok(await usdRow.locator('td[data-label="Bakiye"]').isVisible() && await usdRow.locator('td[data-label="TL değeri"]').isVisible());
   assert.ok(await usdRow.locator('input.rate').isHidden() && await usdRow.locator('button').isHidden());
@@ -68,21 +74,29 @@ const SEED = { tx: [
   assert.ok(await p.locator('#balBody tr', { hasText: 'USD' }).locator('input.rate').isVisible());
   await p.click('[data-toggle="sayim"]');
   assert.ok(await p.isVisible('#countGrid') && await p.isVisible('#btnCountApply'));
-  // --- Kurlar: çevirici kapalı
+  // --- Vitrin alt sekmesi: ürün formu kapalı
+  await p.click('button[data-go="vitrin"]');
+  assert.ok(await p.isHidden('#iForm') && await p.isVisible('#iCount') && await p.isHidden('#balBody'));
+  // --- Kurlarım: çevirici kapalı
   await p.click('button[data-go="kurlar"]');
   assert.ok(await p.isHidden('#cvAmount'));
   await p.click('[data-toggle="cevirici"]');
   assert.ok(await p.isVisible('#cvAmount'));
-  // --- İşlemler: satır sade; dokununca Düzenle / Sil çıkar
+  // --- Rapor → İşlemler: satır sade; dokununca Düzenle / Sil çıkar
+  await p.click('button[data-go="gun"]');
+  assert.deepEqual(await p.locator('#subtabs button').allTextContents(), ['Rapor', 'İşlemler']);
   await p.click('button[data-go="liste"]');
   assert.ok(await p.isVisible('footer'));
   const row = p.locator('#txBody tr', { hasText: 'Ahmet Bey' });
   assert.ok(await row.locator('button').first().isHidden());
-  assert.ok((await row.boundingBox()).height < 90, 'işlem satırı yüksekliği');
+  const rowH = (await row.boundingBox()).height;
+  assert.ok(rowH < 110, 'işlem satırı yüksekliği ' + rowH);
   await row.locator('td').nth(2).click();
   assert.ok(await row.getByRole('button', { name: 'Düzenle' }).isVisible() && await row.getByRole('button', { name: 'Sil' }).isVisible());
-  await row.getByRole('button', { name: 'Düzenle' }).click();   // düzenleme formu açılır
+  await row.getByRole('button', { name: 'Düzenle' }).click();   // düzenleme formu açılır; tarih ve açıklama görünür
   assert.equal(await p.textContent('#formTitle'), 'İşlemi düzenle');
+  assert.ok(await p.isVisible('#fDate') && await p.isVisible('#fNote'));
+  assert.ok(await p.isHidden('#subtabs'));                      // ana sayfada alt sekme yok
   await p.click('#btnCancel');
   // --- Hesap: ziynet açılır listeden seçilir; boş liste kartı görünmez
   await p.click('button[data-go="hesap"]');
@@ -95,15 +109,21 @@ const SEED = { tx: [
   assert.ok(await p.isVisible('#kListCard'));
   // --- Açık / kapalı durumu hatırlanır
   await p.reload();
+  assert.ok(await p.isHidden('#fDate'));                        // yeni işlemde ek alanlar kapalı gelir
+  await p.click('[data-toggle="txmore"]');
+  assert.ok(await p.isVisible('#fDate') && await p.isVisible('#fCur'));
   await p.click('button[data-go="kasa"]');
-  assert.ok(await p.isVisible('#countGrid') && await p.isHidden('#iForm'));
+  assert.ok(await p.isVisible('#countGrid'));
   await p.click('button[data-go="cari"]');
-  assert.ok(await p.isHidden('#cariForm') && await p.isVisible('#wForm'));
+  assert.ok(await p.isHidden('#cariForm'));
+  await p.click('button[data-go="toptanci"]');
+  assert.ok(await p.isVisible('#wForm'));
   // --- Sayfalar kısa: telefonda en uzun sekme iki buçuk ekranı geçmez
-  for (const t of ['islem', 'hesap', 'kasa', 'cari', 'kurlar', 'gun', 'liste']) {
-    await p.click('button[data-go="' + t + '"]');
+  assert.equal(await p.locator('#tabs button').count(), 5);
+  for (const path of [['islem'], ['hesap'], ['kasa'], ['kasa', 'kurlar'], ['kasa', 'vitrin'], ['cari'], ['cari', 'toptanci'], ['gun'], ['gun', 'liste']]) {
+    for (const t of path) await p.click('button[data-go="' + t + '"]');
     const h = await p.evaluate(() => document.documentElement.scrollHeight);
-    assert.ok(h < 2100, t + ' sekmesi çok uzun: ' + h);
+    assert.ok(h < 1900, path.join(' → ') + ' çok uzun: ' + h);
   }
   await ctx.close();
 
@@ -113,7 +133,8 @@ const SEED = { tx: [
   assert.ok((await p.locator('#btnRates').boundingBox()).width > 120);
   await p.click('button[data-go="kasa"]');
   assert.ok(await p.locator('#balBody tr', { hasText: 'USD' }).locator('input.rate').isVisible());   // tabloda her şey açık
-  await p.click('button[data-go="liste"]');
+  assert.ok(await p.isVisible('#sTL'));                                              // masaüstünde dört özet kutusu
+  await p.click('button[data-go="gun"]'); await p.click('button[data-go="liste"]');
   assert.ok(await p.locator('#txBody tr', { hasText: 'Ahmet Bey' }).getByRole('button', { name: 'Düzenle' }).isVisible());
   await ctx.close();
 

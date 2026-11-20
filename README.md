@@ -5,17 +5,20 @@
 `doviz-kasasi.html` — döviz, altın ve gümüş alış–satışlarını takip eden tek sayfalık uygulama:
 TL kasası, kendi alış–satış kur tablonuz, arbitraj, kupür bazında kasa sayımı, masraf ve
 net kâr, cari (borç–alacak) defteri, çevirici, müşteri kur panosu, gün sonu özeti ve aylık rapor.
+Uygulamada beş ana sekme vardır: Ana sayfa (günün kârı ve yeni işlem), Hesap, Kasa (Bakiyeler · Kurlarım · Vitrin),
+Defter (Cari · Toptancı) ve Rapor (Rapor · İşlemler).
+
 Kuyum tarafı:
 
 - **Hesap:** satış fiyatı (ayar, gram, milyem, işçilik), bozdurma (hurda alış, taş/kir düşümü) ve ziynet (çeyrek, yarım,
   tam, ata, reşat, hamit, gremse…) hesabı; birden çok parçayı listeleyip takasta net tutarı verir, tek dokunuşla kasaya
   işler, müşteriye döküm (fiş) çıkarır. Gram hesabı “Has altın fiyatım” kartına yazdığınız alış–satış fiyatından yapılır.
-- **Toptancı has hesabı** (Cari): toptancılarla borç–alacak has gramı üzerinden, işçilik ayrı.
-- **Vitrin defteri** (Kasa): parça parça ürün listesi, has karşılığı, en uzun süredir bekleyenler. Ürün eklerken alış,
+- **Toptancı has hesabı** (Defter → Toptancı): toptancılarla borç–alacak has gramı üzerinden, işçilik ayrı.
+- **Vitrin defteri** (Kasa → Vitrin): parça parça ürün listesi, has karşılığı, en uzun süredir bekleyenler. Ürün eklerken alış,
   “Sat” ile satış kasaya işlenebilir.
-- **Kâr analizi** (Gün sonu → Analiz): varlık başına ortalama alış–satış kuru, makas ve kâr; aylık net kâr grafiği.
+- **Kâr analizi** (Rapor → Analiz): varlık başına ortalama alış–satış kuru, makas ve kâr; aylık net kâr grafiği.
   Net kâr TL’nin yanında dolar ve has altın olarak da gösterilir. Açık rapor “Paylaş” ile WhatsApp ya da e-postaya gönderilir.
-- **Vitrin ekranı** (`vitrin.html`): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda Döviz Kasası’nın kur
+- **Vitrin ekranı** (`vitrin.html`, Kasa → Kurlarım içinden açılır): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda Döviz Kasası’nın kur
   tablosunu canlı gösterir; ayrı bir TV ya da tablette piyasa fiyatına kendi farkınızı ekleyerek çalışır.
 
 Tarayıcı sınamaları [`testler/`](testler/README.md) klasöründedir.

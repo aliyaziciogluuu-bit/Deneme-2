@@ -82,7 +82,7 @@ const KASA = { tx: [], rates: { USD: 41, HAS: 2990, GBP: 52 }, sell: { USD: 41.5
   // --- Uygulamadaki bağlantı
   ({ ctx, p } = await open('link', KASA, true));
   await p.goto('http://kasa.test/doviz-kasasi.html');
-  await p.click('button[data-go="kurlar"]');
+  await p.click('button[data-go="kasa"]'); await p.click('button[data-go="kurlar"]');
   assert.equal(await p.getAttribute('#lnkVitrin', 'href'), 'vitrin.html');
   await ctx.close();
 

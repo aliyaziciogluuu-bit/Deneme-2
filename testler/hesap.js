@@ -169,6 +169,7 @@ const SEED = {
     assert.ok(await p.isHidden('#kListCard'));                                  // boş liste yer kaplamaz
     await p.click('button[data-go="islem"]');
     assert.ok((await p.locator('#fCur option').allTextContents()).some((t) => t.includes('14 Ayar Altın')));
+    await p.click('[data-toggle="txmore"]');                                 // başka varlık seçimi açılır bölümde
     await p.selectOption('#fCur', 'USD');
     await p.fill('#fAmount', '100'); await p.fill('#fRate', '40');
     await p.click('#btnSave');
