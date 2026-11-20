@@ -40,3 +40,11 @@ Sütunlar: Talep (25) · Rekabet azlığı (20) · Üretim kolaylığı (15) · 
 
 | Tarih | Ürün | Doğruluk | Görsel | Baskı | İlan | Kurallar | Toplam | Kritik hata | Sonuç |
 |---|---|---|---|---|---|---|---|---|---|
+| 20.11.2026 | Türk Alfabesi · Almanca (1. denetim) | 22 | 17 | 13 | 16 | 14 | **82** | 2: "Memory" tescilli marka; lisans metni çelişkili | Geçemedi · düzeltildi |
+| 20.11.2026 | Türk Alfabesi · İngilizce (1. denetim) | 21 | 15 | 8 | 16 | 15 | **75** | 3: Letter dosyasında sayfa 2 taşıyor; kartlarda resim yazıya değiyor; lisans çelişkili | Geçemedi · düzeltildi |
+
+**1. denetimden sonra yapılan düzeltmeler:** "Memory" yerine "Paare finden" / "Matching pairs"; lisans PDF ve ilanda aynı;
+Letter sayfa düzeni ve kart resim boyu; vazo yeniden çizildi (çiçekler küçüldü); kesme çizgileri koyulaştı; poster çevirileri büyüdü;
+"die Trauben" → "die Weintraube", "grill" → "barbecue", "jelly" → "jelly (dessert)"; Türkçe ve Almanca metin düzeltmeleri;
+yapay zekâ beyanı genişletildi (çizim, düzen ve metinler); zayıf etiketler değişti ("montessori cards" kaldırıldı);
+ilan fotoğraflarına "indir → yazdır → kes → oyna" şeridi ve "dijital ürün" ibaresi eklendi.

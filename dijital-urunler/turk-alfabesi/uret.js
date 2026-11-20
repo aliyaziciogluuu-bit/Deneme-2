@@ -21,23 +21,25 @@ const VURGU = ['#D9731A', '#2F6FB8', '#C9436A', '#3A8452', '#7A47AC', '#CF4F28']
 
 const GORSEL = {
   de: {
-    rozet: ['29 Bildkarten', 'Alphabet-Poster', 'PDF zum Ausdrucken'],
+    rozet: ['29 Bildkarten', 'Alphabet-Poster', 'Sofort-Download zum Ausdrucken'],
     tum: 'Alle 29 Buchstaben', tumAlt: 'Türkisches Wort, Bild und deutsche Übersetzung mit Artikel',
     ozel: 'Mit allen türkischen Sonderbuchstaben', ozelAlt: 'Ç, Ğ, I, İ, Ö, Ş und Ü – jeder Buchstabe mit eigener Karte',
     poster: 'Alphabet-Poster', posterAlt: 'A4, lässt sich auch in A3 drucken',
     icerik: 'Das ist enthalten',
-    icerikler: ['Deckblatt und Anleitung auf Türkisch und Deutsch', '29 Bildkarten auf 5 Seiten zum Ausschneiden', 'Alphabet-Poster für das Kinderzimmer', '4 Spielideen für zu Hause'],
+    icerikler: ['Deckblatt und Elternseite auf Türkisch und Deutsch', '29 Bildkarten auf 5 Seiten zum Ausschneiden', 'Die 8 türkischen Vokale auf einen Blick', 'Alphabet-Poster für das Kinderzimmer', '4 Spielideen für zu Hause'],
     not: 'Digitales Produkt: Sie erhalten eine PDF-Datei, es wird nichts verschickt.',
+    adimlar: ['Herunterladen', 'Ausdrucken', 'Ausschneiden', 'Spielen'],
     sayfa: 'Seiten',
   },
   en: {
-    rozet: ['29 picture cards', 'Alphabet poster', 'Printable PDF'],
+    rozet: ['29 picture cards', 'Alphabet poster', 'Digital download · print at home'],
     tum: 'All 29 letters', tumAlt: 'Turkish word, picture and English translation',
     ozel: 'Every special Turkish letter', ozelAlt: 'Ç, Ğ, I, İ, Ö, Ş and Ü – each letter on its own card',
     poster: 'Alphabet poster', posterAlt: 'A4 or US Letter, also prints well larger',
     icerik: 'What’s included',
-    icerikler: ['Cover and guide in Turkish and English', '29 picture cards on 5 pages, ready to cut', 'Alphabet poster for the nursery', '4 game ideas to play at home', 'Two files: A4 and US Letter'],
+    icerikler: ['Cover and parents’ page in Turkish and English', '29 picture cards on 5 pages, ready to cut', 'The 8 Turkish vowels at a glance', 'Alphabet poster for the nursery', '4 game ideas to play at home', 'Two files: A4 and US Letter'],
     not: 'Digital download: you receive PDF files, nothing is shipped.',
+    adimlar: ['Download', 'Print', 'Cut', 'Play'],
     sayfa: 'pages',
   },
 };
@@ -62,7 +64,7 @@ body{font-family:Andika,sans-serif;color:#3A2E39;-webkit-print-color-adjust:exac
 .kart{position:relative;width:100%;height:100%;background:var(--zemin);border-radius:6cqw;border:.9cqw solid rgba(58,46,57,.12);overflow:hidden}
 .kart .harf{position:absolute;left:7cqw;top:3.5cqh;font:700 21cqw/1.22 Fredoka,sans-serif;color:var(--vurgu);letter-spacing:-.02em}
 .kart .harf small{font-size:15cqw;margin-left:1cqw}
-.kart .resim{position:absolute;left:30cqw;top:5cqh;width:60cqw;height:60cqw}
+.kart .resim{position:absolute;left:calc(60cqw - min(30cqw,26cqh));top:5cqh;width:min(60cqw,52cqh);height:min(60cqw,52cqh)}
 .kart .resim svg{width:100%;height:100%;display:block}
 .kart .kelime{position:absolute;left:0;right:0;bottom:16cqh;text-align:center;font:700 13cqw/1 Andika,sans-serif;letter-spacing:.01em}
 .kart .kelime b{color:var(--vurgu)}
@@ -74,7 +76,7 @@ body{font-family:Andika,sans-serif;color:#3A2E39;-webkit-print-color-adjust:exac
 .kap.bilgi p.ikinci{color:#6E6370}
 .kap.bilgi .sesli{display:flex;flex-wrap:wrap;gap:1.6cqw;margin-top:auto}
 .kap.bilgi .sesli span{font:700 6.4cqw/1 Fredoka,sans-serif;background:#E4F3DF;color:#3A8452;border-radius:2cqw;padding:1.6cqw 2.4cqw}
-.kap.mini .ceviri{font-size:7cqw}
+.kap.mini .ceviri{font-size:8cqw}
 .kap.yirmidokuz>.kart{background:#fff;border-style:dashed;border-color:#D8D0D6;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .kap.yirmidokuz strong{font:700 34cqw/1 Fredoka,sans-serif;color:#3A8452}
 .kap.yirmidokuz span{font:700 10cqw/1.1 Andika,sans-serif;text-align:center}
@@ -124,7 +126,7 @@ ${fontCss()}${TEMEL_CSS}
 .kapak .ornek{display:grid;grid-template-columns:repeat(3,48mm);grid-auto-rows:48mm;gap:7mm;margin-top:16mm}
 .kapak .ornek>div:nth-child(odd){transform:rotate(-3deg)}.kapak .ornek>div:nth-child(even){transform:rotate(2.5deg)}
 .kapak .not{margin-top:14mm;font:700 12pt/1.3 Andika,sans-serif;color:#3A2E39;background:#fff;border-radius:20mm;padding:3mm 8mm;border:.4mm solid #E6DCCB}
-.rehber{padding:18mm 16mm}
+.rehber{padding:${kagit === 'Letter' ? '14mm 16mm' : '18mm 16mm'}}
 .rehber h1{margin:0 0 8mm;font:700 24pt/1.1 Fredoka,sans-serif}
 .rehber .iki{display:grid;grid-template-columns:1fr 1fr;gap:10mm}
 .rehber .dil{font:700 8.5pt/1 Andika,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#3A8452;border-bottom:.4mm solid #E4F3DF;padding-bottom:2mm}
@@ -133,10 +135,10 @@ ${fontCss()}${TEMEL_CSS}
 .rehber li{margin-bottom:2mm}
 .rehber h4{margin:3.5mm 0 1mm;font:700 10.5pt/1.2 Andika,sans-serif}
 .rehber p{margin:0;font-size:10pt;line-height:1.45}
-.rehber .kucuk{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:4mm;padding:0 14mm}
+.rehber .kucuk{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:4mm;padding:0 ${kagit === 'Letter' ? 28 : 14}mm}
 .rehber .kucuk>div{aspect-ratio:1}
 .kartlar{padding:12mm 12mm 14mm;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,1fr);border-collapse:collapse}
-.hucre{border:.3mm dashed #BDB3BB;margin:0 -.15mm -.15mm 0;padding:3mm}
+.hucre{border:.3mm dashed #9A8F99;margin:0 -.15mm -.15mm 0;padding:3mm}
 .poster{padding:12mm 11mm 12mm;display:flex;flex-direction:column}
 .poster h1{margin:0;font:700 26pt/1 Fredoka,sans-serif;text-align:center}
 .poster .alt{margin:2mm 0 6mm;text-align:center;font-size:11pt;color:#6E6370}
@@ -187,6 +189,8 @@ function gorselHtml(dil, tur, pdfSayfalari) {
   .baslikbant h1{font-size:46px}.baslikbant p{margin:10px 0 0;font-size:20px;color:#6E6370}
   </style></head><body>`;
   const kartBul = (b) => { const i = HARFLER.findIndex((x) => x.b === b); return kart(HARFLER[i], i, dil); };
+  const serit = (ust) => `<div style="position:absolute;left:0;right:0;top:${ust}px;display:flex;justify-content:center;align-items:center;gap:14px">
+    ${g.adimlar.map((x, i) => `${i ? '<span style="font:700 22px/1 Andika,sans-serif;color:#BDB3BB">→</span>' : ''}<span style="display:inline-flex;align-items:center;gap:10px;font:700 19px/1 Andika,sans-serif;background:#fff;border:2px solid #E6DCCB;border-radius:40px;padding:10px 18px 10px 10px"><span style="display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#3A8452;color:#fff;font-size:15px">${i + 1}</span>${kacis(x)}</span>`).join('')}</div>`;
 
   if (tur === 'kapak') {
     const yer = [['Ç', 575, 64, -7, 186], ['K', 790, 84, 6, 176], ['Ü', 600, 290, 5, 196], ['Ş', 815, 300, -6, 168], ['Ğ', 585, 528, -4, 172], ['Ö', 790, 510, 7, 182]];
@@ -200,12 +204,12 @@ function gorselHtml(dil, tur, pdfSayfalari) {
   if (tur === 'tum') {
     return ortak + `<div class="baslikbant"><h1>${kacis(g.tum)}</h1><p>${kacis(g.tumAlt)}</p></div>
       <div style="position:absolute;left:0;right:0;top:158px;display:grid;grid-template-columns:repeat(8,106px);grid-auto-rows:106px;gap:14px;justify-content:center">
-      ${HARFLER.map((x, i) => `<div class="golge">${kart(x, i, dil)}</div>`).join('')}</div></body></html>`;
+      ${HARFLER.map((x, i) => `<div class="golge">${kart(x, i, dil)}</div>`).join('')}</div>${serit(668)}</body></html>`;
   }
   if (tur === 'ozel') {
     return ortak + `<div class="baslikbant"><h1>${kacis(g.ozel)}</h1><p>${kacis(g.ozelAlt)}</p></div>
       <div style="position:absolute;left:60px;right:60px;top:186px;display:flex;flex-wrap:wrap;justify-content:center;gap:28px">
-      ${['Ç', 'Ğ', 'I', 'İ', 'Ö', 'Ş', 'Ü'].map((b) => `<div class="golge" style="width:180px;height:180px">${kartBul(b)}</div>`).join('')}</div></body></html>`;
+      ${['Ç', 'Ğ', 'I', 'İ', 'Ö', 'Ş', 'Ü'].map((b) => `<div class="golge" style="width:180px;height:180px">${kartBul(b)}</div>`).join('')}</div>${serit(640)}</body></html>`;
   }
   if (tur === 'poster') {
     return ortak.replace('background:#FFF8EC', 'background:#EFE7DC') + `

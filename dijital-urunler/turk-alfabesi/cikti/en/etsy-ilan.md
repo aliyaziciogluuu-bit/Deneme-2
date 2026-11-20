@@ -19,14 +19,14 @@ Made for Turkish families abroad, bilingual homes, Turkish weekend schools and a
 
 WHAT YOU GET
 • 1 PDF in A4 size and 1 PDF in US Letter size (8 pages each)
-• Cover and parents' guide in Turkish and English
+• Cover and parents' page in Turkish and English
 • 29 picture cards on 5 pages, with dashed cutting lines
-• Bonus card: the 8 Turkish vowels
+• Bonus: a vowel section with the 8 Turkish vowels and a "29 letters" fact card
 • Turkish alphabet poster (1 page, prints well larger too)
-• 4 simple game ideas: memory, letter hunt, word bridge and vowels
+• 4 simple game ideas: matching pairs, letter hunt, word bridge and vowels
 
 HOW IT WORKS
-1. Buy and download the files right away from your Etsy account (Purchases and reviews). Please download from a browser; the Etsy app cannot open digital files.
+1. Download the files right away from your Etsy account (Purchases and reviews). Please download from a browser; the Etsy app cannot open digital files.
 2. Print at home or at a print shop. Card stock (160–250 gsm) works best. Choose "Actual size" in the print settings.
 3. Cut along the dashed lines. Laminate the cards so they last longer.
 
@@ -38,13 +38,13 @@ PLEASE NOTE
 LICENSE
 For personal and single classroom use only. Please do not share, resell or redistribute the files.
 
-The illustrations were created for this shop with the help of AI tools.
+Designed with the help of an AI assistant: the illustrations, layout and texts were created with AI assistance.
 ```
 
 ## Etiketler (Tags), 13 adet
 
 ```
-turkish alphabet, turkish flashcards, learn turkish, turkish for kids, bilingual kids, turkish printable, alphabet poster, heritage language, turkish homeschool, turkish letters, language cards, türkçe alfabe, montessori cards
+turkish alphabet, turkish flashcards, learn turkish, turkish for kids, bilingual kids, turkish printable, alphabet poster, heritage language, turkish homeschool, turkish letters, turkish abc, türkçe alfabe, turkish school
 ```
 
 ## Diğer alanlar

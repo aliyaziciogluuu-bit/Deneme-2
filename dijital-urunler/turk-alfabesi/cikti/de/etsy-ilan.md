@@ -23,15 +23,15 @@ Every card shows one Turkish letter in upper and lower case, a friendly illustra
 
 WHAT YOU GET
 • 1 PDF in A4 size (8 pages)
-• Cover and parents' guide in Turkish and German
+• Cover and parents' page in Turkish and German
 • 29 picture cards on 5 pages, with dashed cutting lines
-• Bonus card: the 8 Turkish vowels
+• Bonus: a vowel section with the 8 Turkish vowels and a "29 letters" fact card
 • Turkish alphabet poster (1 page, prints well in A3 too)
-• 4 simple game ideas: memory, letter hunt, word bridge and vowels
+• 4 simple game ideas: matching pairs, letter hunt, word bridge and vowels
 
 HOW IT WORKS
 1. Download the file right away from your Etsy account (Purchases and reviews). Please use a browser; the Etsy app cannot open digital files.
-2. Print at home or at a print shop. Card stock (160–250 g) works best. Choose "Actual size" in the print settings.
+2. Print at home or at a print shop. Card stock (160–250 g/m²) works best. Choose "Actual size" in the print settings.
 3. Cut along the dashed lines. Laminate the cards so they last longer.
 
 PLEASE NOTE
@@ -40,9 +40,9 @@ PLEASE NOTE
 • Because this is a digital file, returns and refunds are not possible. If anything is wrong with your file, send me a message and I will fix it.
 
 LICENSE
-For personal and single classroom use only. Please do not share, resell or redistribute the file.
+For personal use and one daycare group or classroom. Please do not share, resell or redistribute the file.
 
-The illustrations were created for this shop with the help of AI tools.
+Designed with the help of an AI assistant: the illustrations, layout and texts were created with AI assistance.
 ```
 
 ### Tags
@@ -72,30 +72,30 @@ DAS IST ENTHALTEN
 • 1 PDF im A4-Format (8 Seiten)
 • Deckblatt und Elternseite auf Türkisch und Deutsch
 • 29 Bildkarten auf 5 Seiten mit gestrichelten Schnittlinien
-• Extra: die 8 türkischen Vokale auf einen Blick
+• Extra: die 8 türkischen Vokale auf einen Blick und eine Infokarte „29 Buchstaben“
 • Poster mit dem türkischen Alphabet (1 Seite, auch in A3 druckbar)
-• 4 einfache Spielideen: Memory, Buchstabenjagd, Wortbrücke und Vokale
+• 4 einfache Spielideen: Paare finden, Buchstabenjagd, Wortbrücke und Vokale
 
 SO GEHT’S
 1. Die Datei sofort nach dem Kauf in Ihrem Etsy-Konto unter „Käufe und Bewertungen“ herunterladen. Bitte im Browser öffnen; die Etsy-App kann keine digitalen Dateien öffnen.
-2. Zu Hause oder im Copyshop drucken, am besten auf dickerem Papier (160–250 g). Im Druckdialog „Tatsächliche Größe“ wählen.
+2. Zu Hause oder im Copyshop drucken, am besten auf dickerem Papier (160–250 g/m²). Im Druckdialog „Tatsächliche Größe“ wählen.
 3. Entlang der gestrichelten Linien ausschneiden. Laminiert halten die Karten viel länger.
 
 BITTE BEACHTEN
 • Dies ist ein digitaler Artikel. Es wird nichts verschickt.
 • Farben können je nach Bildschirm und Drucker leicht abweichen.
-• Digitale Dateien sind vom Umtausch ausgeschlossen. Wenn mit Ihrer Datei etwas nicht stimmt, schreiben Sie mir bitte, ich helfe gern.
+• Rückgabe und Umtausch sind bei digitalen Artikeln ausgeschlossen. Wenn mit Ihrer Datei etwas nicht stimmt, schreiben Sie mir bitte, ich helfe gern.
 
 LIZENZ
 Nur für den privaten Gebrauch und für eine Kita-Gruppe oder Klasse. Die Datei darf nicht weitergegeben oder weiterverkauft werden.
 
-Die Illustrationen wurden für diesen Shop mit Hilfe von KI-Werkzeugen erstellt.
+Gestaltet mit Hilfe eines KI-Assistenten: Illustrationen, Layout und Texte sind KI-gestützt entstanden.
 ```
 
 ### Tags
 
 ```
-türkisch lernen, bildkarten, türkisches alphabet, zweisprachig, türkisch kinder, alphabet poster, lernkarten, türkisch deutsch, türkçe alfabe, vorschule, druckvorlage, kita material, geschenk kinder
+türkisch lernen, bildkarten, türkisches alphabet, zweisprachig, türkisch kinder, alphabet poster, lernkarten, türkisch deutsch, türkçe alfabe, vorschule, druckvorlage, kita material, türkische buchstaben
 ```
 
 ---

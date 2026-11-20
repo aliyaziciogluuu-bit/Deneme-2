@@ -286,14 +286,16 @@ const RESIMLER = {
     <g fill="#fff" stroke="none" opacity=".7"><circle cx="94" cy="144" r="3.5"/><circle cx="78" cy="118" r="3.5"/><circle cx="110" cy="118" r="3.5"/><circle cx="62" cy="92" r="3.5"/><circle cx="94" cy="92" r="3.5"/><circle cx="126" cy="92" r="3.5"/><circle cx="48" cy="66" r="3.5"/><circle cx="80" cy="64" r="3.5"/><circle cx="112" cy="64" r="3.5"/><circle cx="142" cy="66" r="3.5"/></g>`,
 
   vazo: () => {
-    const lale = (x, y, renk) => `<path d="M${x - 15} ${y} Q${x - 15} ${y + 24} ${x} ${y + 24} Q${x + 15} ${y + 24} ${x + 15} ${y} L${x + 7} ${y + 9} L${x} ${y - 4} L${x - 7} ${y + 9} Z" fill="${renk}"/>`;
+    const lale = (x, y, renk) => `<path d="M${x - 10} ${y} Q${x - 10} ${y + 16} ${x} ${y + 16} Q${x + 10} ${y + 16} ${x + 10} ${y} L${x + 5} ${y + 6} L${x} ${y - 3} L${x - 5} ${y + 6} Z" fill="${renk}" stroke-width="4"/>`;
     return `
-    <path d="M78 104 Q74 80 70 70 M100 104 L100 60 M122 104 Q126 82 132 72" fill="none" stroke="${R.koyuYesil}" stroke-width="5"/>
-    <path d="M100 96 Q80 84 82 70 Q96 76 100 96 Z M100 92 Q118 80 120 66 Q104 72 100 92 Z" fill="${R.yesil}" stroke-width="4"/>
-    ${lale(70, 46, R.kirmizi)}${lale(100, 36, R.sari)}${lale(132, 48, R.pembe)}
-    <path d="M78 116 Q58 142 70 178 L130 178 Q142 142 122 116 L118 102 L82 102 Z" fill="${R.mavi}"/>
-    <path d="M70 140 Q100 150 130 140" fill="none" stroke="#fff" stroke-width="6"/>
-    <g fill="#fff" stroke="none"><circle cx="86" cy="160" r="4"/><circle cx="100" cy="164" r="4"/><circle cx="114" cy="160" r="4"/></g>`;
+    <path d="M88 62 Q84 50 80 42 M100 62 L100 34 M112 62 Q116 50 120 42" fill="none" stroke="${R.koyuYesil}" stroke-width="4"/>
+    ${lale(80, 28, R.kirmizi)}${lale(100, 20, R.sari)}${lale(120, 28, R.pembe)}
+    <path d="M82 60 L118 60 L116 80 Q156 100 152 140 Q148 176 124 184 L76 184 Q52 176 48 140 Q44 100 84 80 Z" fill="${R.mavi}"/>
+    <ellipse cx="100" cy="60" rx="20" ry="5" fill="#2F6FB8"/>
+    <path d="M52 124 Q100 140 148 124" fill="none" stroke="#fff" stroke-width="7"/>
+    <path d="M56 150 Q100 164 144 150" fill="none" stroke="${R.sari}" stroke-width="6"/>
+    <g fill="#fff" stroke="none"><circle cx="78" cy="104" r="5"/><circle cx="100" cy="98" r="5"/><circle cx="122" cy="104" r="5"/></g>
+    <path d="M66 100 Q60 116 62 132" fill="none" stroke="#fff" stroke-width="5" opacity=".55"/>`;
   },
 
   yildiz: () => `
