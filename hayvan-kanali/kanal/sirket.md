@@ -82,7 +82,7 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 |---|---|---|
 | **Her gün 09:43: otomatik bekçi turu** (zamanlanmış görev; kanal sahibi 19 Kasım'da istedi) | `otomatik.py kontrol --hepsi --kaynak`, güvenli düzeltmeler, eski video ve eksik seslerin yenilenmesi, pano ve üretim müdürü raporu; kanal sahibine yalnızca yapması gerekenler | patron, üretim müdürü |
 | **Her video** | Üretim → otomatik metin denetimi → bilgi kontrolü → üretim → denetim ve puan → yönetici → teslim | bütün ofis |
-| **Yayın günü** (salı ve cuma, 18:00) | Sabit yorum, Shorts'lara "İlgili video" bağlantısı, ilk 2 saatte yorumlara cevap | kanal sahibi, topluluk sorumlusu hazırlar |
+| **Yayın günü** (20 Kasım'dan beri: uzun video salı, perşembe, cumartesi 18:00; Shorts her gün 12:00) | Sabit yorum, Shorts'lara "İlgili video" bağlantısı, ilk 2 saatte yorumlara cevap | kanal sahibi, topluluk sorumlusu hazırlar |
 | **Yayından 3 gün sonra** | İzleyici tutma, tıklama oranı ve Shorts verisinin ekran görüntüleri → analist → ders ve puan kalibrasyonu | kanal sahibi gönderir, analist okur |
 | **Her pazartesi 08:39: haftalık yönetim toplantısı** (zamanlanmış görev; kanal sahibi 19 Kasım'da istedi) | Göstergeler tablosu, geçen haftanın dersleri, bu haftanın üretim ve yayın planı, bütçe durumu, öneri kutusundan en fazla 3 fikir | patron hazırlar, kanal sahibi karar verir |
 | **Her ay başı: aylık strateji** | Hedeflere göre neredeyiz, konu sırası, yeni içerik biçimi denemeleri, şirket el kitabının güncellenmesi | patron, kanal yöneticisi, analist |
@@ -109,7 +109,7 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 ## 7. İçerik stoku ve üretim planı
 
 - **Hedef:** Her an en az **4 hazır video** (iki haftalık yayın) stokta olsun. Hastalık, kredi bitmesi, düzeltme turu gibi aksilikler yayın ritmini bozmasın.
-- Yayın ritmi: uzun video salı ve cuma 18:00; her uzun videonun iki Shorts'u sonraki iki gün 12:00.
+- Yayın ritmi (kanal sahibi, 20 Kasım): uzun video haftada 3 (salı, perşembe, cumartesi 18:00), Shorts her gün 12:00 (her videoya 3 Shorts). Haftada 3 video ayda ~13 video ve ~85 $ demek; Aralık bütçesi kanal sahibinin kararına bağlı.
 - Sıradaki üretim: karga → kırlangıç → kara kurbağası → yılan ve süt efsanesi (konu sırası her ay analistin önerisiyle gözden geçirilir; mevsim ve arama ilgisi dikkate alınır).
 
 ## 8. Risk listesi

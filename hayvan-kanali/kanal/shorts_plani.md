@@ -1,38 +1,34 @@
-# Shorts Planı — Avludaki Komşular
+# Shorts ve yayın planı — Avludaki Komşular
 
-Durum (19 Kasım 2026): 8 Shorts YouTube'da planlı. Shorts 3 yenisiyle değiştirildi, Shorts 4 açıklaması güncellendi (kanal sahibi, 19 Kasım). Shorts 5–8 yeni sürümleriyle değiştirilecek. Baykuş ve Shorts 9–10 henüz planlanmadı.
+Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts yapalım."
+- **Uzun video: haftada 3 (salı, perşembe, cumartesi) 18:00.**
+- **Shorts: her gün 12:00.**
+- Kural: bir Shorts, ait olduğu uzun video yayına girdikten sonra paylaşılır; "İlgili video" o uzun videodur.
 
-Kural: Bir Shorts, ancak ait olduğu uzun video yayına girdikten sonra paylaşılır. Böylece "İlgili video" bağlantısı izleyiciyi doğrudan uzun videoya götürür.
-Saat: Shorts'lar 12:00'de, uzun videolar 18:00'de. Böylece aynı gün çakışmazlar.
-
-| Tarih | Paylaşılacak | Dosya | İlgili video |
+| Tarih | 12:00 Shorts | 18:00 Uzun video | Durum |
 |---|---|---|---|
-| Çar 18 Kasım 12:00 | Göz Kırpıyorsa Yılan Değildir! | 1-yilan-goz-kirpiyor | Sağır yılan (yayında) |
-| Per 19 Kasım 12:00 | 54 Yıl Yaşayan Kertenkele! | 2-yilan-54-yil | Sağır yılan |
-| Cum 20 Kasım 18:00 | **Uzun video: Ev kertenkelesi** | — | — |
-| Cmt 21 Kasım 12:00 | Kertenkele Yemeğe Düşerse Zehirler mi? | 3-geko-yemege-duserse | Ev kertenkelesi |
-| Paz 22 Kasım 12:00 | Kertenkele Tavanda Nasıl Yürüyor? | 4-geko-tavanda | Ev kertenkelesi |
-| Sal 24 Kasım 18:00 | **Uzun video: Kirpi** | — | — |
-| Çar 25 Kasım 12:00 | Kirpiye Sakın Süt Verme! | 5-kirpi-sut-verme | Kirpi |
-| Per 26 Kasım 12:00 | Kirpi Sırtında Elma Taşır mı? | 6-kirpi-elma | Kirpi |
-| Cum 27 Kasım 18:00 | **Uzun video: Yarasa** | — | — |
-| Cmt 28 Kasım 12:00 | Yarasa Saça Yapışır mı? | 7-yarasa-saca-yapisir-mi | Yarasa |
-| Paz 29 Kasım 12:00 | Yarasaya Asla Çıplak Elle Dokunma! | 8-yarasaya-dokunma | Yarasa |
-| Sal 1 Aralık 18:00 | **Uzun video: Baykuş** (20 Kasım verisine bakıldıktan sonra planlanacak) | — | — |
-| Çar 2 Aralık 12:00 | Baykuş Gerçekten Uğursuz mu? | 9-baykus-ugursuz-mu | Baykuş |
-| Per 3 Aralık 12:00 | Baykuş Başını Tam Tur Çevirebilir mi? | 10-baykus-basini-cevirir-mi | Baykuş |
-| Cum 4 Aralık 18:00 | **Uzun video: Karga** | — | — |
-| Cmt 5 Aralık 12:00 | Karga Seni Hatırlar mı? | 11-karga-s1-maske | Karga |
-| Paz 6 Aralık 12:00 | Karga Taşla Su Yükseltir mi? | 12-karga-s2-tas | Karga |
+| Cum 20 Kas | — | **Ev kertenkelesi (geko)** | yüklendi |
+| Cmt 21 Kas | Kertenkele Yemeğe Düşerse Zehirler mi? (geko s1) | — | yüklendi |
+| Paz 22 Kas | Kertenkele Tavanda Nasıl Yürüyor? (geko s2) | — | yüklendi |
+| Pzt 23 Kas | geko s3 (YENİ, hazırlanıyor) | — | yüklenecek |
+| Sal 24 Kas | yılan s3 (YENİ, hazırlanıyor) | **Kirpi** (yeni sürüm) | eski planlı silinip yenisi yüklenecek |
+| Çar 25 Kas | Kirpiye Sakın Süt Verme! (kirpi s1) | — | eski planlı silinip yenisi |
+| Per 26 Kas | Kirpi Sırtında Elma Taşır mı? (kirpi s2) | **Yarasa** (27'den öne alındı) | eski planlı silinip yenisi 26'ya |
+| Cum 27 Kas | Yarasa Saça Yapışır mı? (yarasa s1) | — | eski 28'deki silinip yenisi 27'ye |
+| Cmt 28 Kas | Yarasaya Asla Çıplak Elle Dokunma! (yarasa s2) | **Baykuş** (1 Ara'dan öne alındı) | eski 29'daki silinip yenisi 28'e |
+| Paz 29 Kas | Baykuş Gerçekten Uğursuz mu? (baykuş s1) | — | yüklenecek |
+| Pzt 30 Kas | Baykuş Başını Tam Tur Çevirebilir mi? (baykuş s2) | — | yüklenecek |
+| Sal 1 Ara | kirpi s3 (YENİ) | **Karga** (4 Ara'dan öne alındı) | yüklenecek |
+| Çar 2 Ara | Karga Seni Hatırlar mı? (karga s1) | — | yüklenecek |
+| Per 3 Ara | Karga Taşla Su Yükseltir mi? (karga s2) | **Kırlangıç** (üretimde) | — |
+| Cum 4 Ara | kırlangıç s1 | — | — |
+| Cmt 5 Ara | kırlangıç s2 | **Kara kurbağası** (planlanacak) | — |
+| Paz 6 Ara | yarasa s3 (YENİ) | — | — |
+| Pzt 7 Ara | baykuş s3 (YENİ) | — | — |
+| Sal 8 Ara | karga s3 (YENİ) | sıradaki video | — |
 
 ## Yükleme adımları (her Shorts için)
-1. YouTube Studio veya YouTube uygulamasından videoyu yükle. Dikey ve 60 saniyeden kısa olduğu için otomatik olarak Shorts olur.
+1. YouTube Studio veya YouTube uygulamasından videoyu yükle (dikey, 60 sn altı → Shorts).
 2. Başlık, açıklama ve etiketleri ilgili `-yukleme.txt` dosyasından kopyala.
-3. **İlgili video:** tablodaki uzun videoyu seç. En önemli adım budur; Shorts izleyicisini uzun videoya taşır.
-4. Altyazı dosyası yükleme: altyazılar zaten videonun üzerinde.
-5. Kitle: "Çocuklara özel değil". Değiştirilmiş içerik sorusunda uzun videolarda ne seçtiysen aynısını seç.
-6. Küçük resim seçmeye gerek yok.
-
-## Teknik kontrol (17 Kasım 2026)
-- Sekiz Shorts'un hepsi son kontrol testlerinden geçti: anlatım senaryoyla birebir, ses yüksekliği -16 ile -13 LUFS arasında, 1080x1920, 26–41 saniye.
-- Metinler bağımsız bilgi kontrolünden geçti. Düzeltmeler uygulandı: yarasa odası uyarısı (kapıyı kapat, uyuyan kişi ya da çocuk varsa sağlık kuruluşuna danış), "kuduz ya da benzeri virüsler", "böcek avcısı yarasalar", kirpi ishal ifadesi, sağır yılan tehditleri.
+3. **İlgili video:** tablodaki uzun video (yayına girince seçilir).
+4. Kitle: "Çocuklara özel değil". "Değiştirilmiş veya yapay içerik": Evet.
