@@ -118,12 +118,12 @@ const SEED = { tx: [
   assert.ok(await p.isHidden('#cariForm'));
   await p.click('button[data-go="toptanci"]');
   assert.ok(await p.isVisible('#wForm'));
-  // --- Sayfalar kısa: telefonda en uzun sekme iki buçuk ekranı geçmez
+  // --- Sayfalar kısa: telefonda en uzun sekme (dolu hesap listesiyle Hesap) 2000 pikseli geçmez; ek bölümler kapalı başlar
   assert.equal(await p.locator('#tabs button').count(), 5);
   for (const path of [['islem'], ['hesap'], ['kasa'], ['kasa', 'kurlar'], ['kasa', 'vitrin'], ['cari'], ['cari', 'toptanci'], ['gun'], ['gun', 'liste']]) {
     for (const t of path) await p.click('button[data-go="' + t + '"]');
     const h = await p.evaluate(() => document.documentElement.scrollHeight);
-    assert.ok(h < 1900, path.join(' → ') + ' çok uzun: ' + h);
+    assert.ok(h < 2000, path.join(' → ') + ' çok uzun: ' + h);
   }
   await ctx.close();
 

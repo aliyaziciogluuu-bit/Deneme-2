@@ -13,12 +13,17 @@ Kuyum tarafı:
 - **Hesap:** satış fiyatı (ayar, gram, milyem, işçilik), bozdurma (hurda alış, taş/kir düşümü) ve ziynet (çeyrek, yarım,
   tam, ata, reşat, hamit, gremse…) hesabı; birden çok parçayı listeleyip takasta net tutarı verir, tek dokunuşla kasaya
   işler, müşteriye döküm (fiş) çıkarır. Gram hesabı “Has altın fiyatım” kartına yazdığınız alış–satış fiyatından yapılır.
+- **Ayar dönüştürücü** (Hesap): bir ayardaki ağırlığın has karşılığı ve öteki ayarlardaki karşılığı (standart milyemle).
 - **Toptancı has hesabı** (Defter → Toptancı): toptancılarla borç–alacak has gramı üzerinden, işçilik ayrı.
 - **Vitrin defteri** (Kasa → Vitrin): parça parça ürün listesi, has karşılığı, en uzun süredir bekleyenler. Ürün eklerken alış,
   “Sat” ile satış kasaya işlenebilir.
 - **Envanter listesi** (Rapor → Envanter listesi): seçilen günün akşamı elde kalan döviz ve altın, miktarı, has karşılığı,
   ortalama maliyeti ve toplamıyla; TL kasası ve vitrin defteri özeti. “31 Aralık” düğmesiyle yıl sonu; paylaşılır ya da CSV
   olarak iner. Bilgi amaçlıdır.
+- **Hurda altın günlüğü** (Kasa → Vitrin): bugün / bu hafta / bu ay alınan 22, 21, 18, 14 ve 8 ayar altın (gram, has,
+  ödenen, has gramının ortalama fiyatı) ve elde bekleyen ayar altın; toptancıya giderken “Listeyi paylaş”.
+- **Sarrafiye stoku** (Kasa → Bakiyeler): çeyrek, yarım, tam… için yeni ve eski tarihli adetler. Ziynette işlem formundaki
+  kutu “Eski tarihli” olur (alışta da satışta da); indirim hesaptaki eski tarih indiriminden gelir.
 - **Kâr analizi** (Rapor → Analiz): varlık başına ortalama alış–satış kuru, makas ve kâr; aylık net kâr grafiği.
   Net kâr TL’nin yanında dolar ve has altın olarak da gösterilir. Açık rapor “Paylaş” ile WhatsApp ya da e-postaya gönderilir.
 - **Makas kârı ve fiyat farkı:** alım-satım kârı ikiye ayrılır: makas (satış kuru − satış anındaki kendi alış kurunuz) ve
@@ -29,6 +34,9 @@ Kuyum tarafı:
 
 Günlük işler için:
 
+- **Sepet (toplu işlem):** bir müşteriye dolar, euro ve çeyrek gibi birden çok varlık satıldığında (ya da alış-satış
+  karışık) satırlar “＋ Sepete ekle” ile toplanır, net tutar tek seferde görünür ve “Sepeti kaydet” hepsini birlikte yazar;
+  “Geri al” hepsini birden geri alır.
 - **Hızlı işlemler:** sık yapılan işlemi (ör. “100 USD sat”) formdaki “☆ Şablon” ile kaydedin; ana sayfada tek dokunuşla o anki
   kurla girilir, “Geri al” ile geri alınır.
 - **Otomatik kur** (Kasa → Kurlarım): piyasa fiyatına eklenecek farkı bir kez yazın; fiyatlar güncellendikçe kurunuz değişir.
@@ -50,6 +58,8 @@ Günlük işler için:
   isteğe bağlı olarak sayım farkı olarak işlenir) → günün özeti → kapat ve yedeği gönder.
 - **Zararına satış uyarısı:** satış kuru elinizdeki malın ortalama maliyetinin altındaysa kaydetmeden önce tahmini zararı gösterip sorar.
 - **Hızlı tutar düğmeleri:** tutar kutusunun altında varlığa göre 100 · 500 · 1.000 gibi düğmeler.
+- **Görünüm** (Rapor → İşlemler → Görünüm): tema Otomatik / Açık / Koyu ve renk (yeşil, lacivert, bordo, altın).
+- **Ana ekran kısayolları** (Android): uygulama simgesine basılı tutunca “Dolar al”, “Dolar sat”, “Altın hesabı”, “Kurlarım”.
 - **Büyük yazı** (başlıktaki “Aa”): bütün uygulama büyür; tercih hatırlanır.
 - **İade** (Rapor → İşlemler → satışın “İade” düğmesi): mal satıştaki maliyetiyle stoğa döner, para geri ödenir, satışın kârı
   geri alınır; kısmi iade yapılabilir.
