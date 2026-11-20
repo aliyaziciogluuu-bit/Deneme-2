@@ -92,6 +92,17 @@ def uzun_video(klasor, sen):
             sure = rapor.get(f"{i:03d}", {}).get("sure") or len(kelimeler(c["yazi"])) / HIZ
             t += sure + 0.35
             onceki, i = c, i + 1
+    # tekrar eden kalıplar (kırlangıç ön denetimi, 20 Kasım): aynı açılış 4'ten, aynı çekince 3'ten fazla olmasın
+    tum = [c["yazi"] for sh in sen["sahneler"] for c in sh["cumleler"]]
+    from collections import Counter
+    acilis = Counter(t.split()[0].lower().strip(",;:") for t in tum if t.split())
+    for k, v in acilis.items():
+        if v > 4 and k in ("peki", "ama", "ve", "bu", "yani", "ayrıca", "şimdi"):
+            ekle("UYARI", "uzun anlatım", f"{v} cümle \"{k}\" ile başlıyor (en çok 4; açılışları çeşitlendir)")
+    for kalip in ("sık sık", "kaynaklara göre", "kaynağa göre", "araştırmalara göre", "çalışmalara göre", "aslında"):
+        v = sum(t.lower().count(kalip) for t in tum)
+        if v > 3:
+            ekle("UYARI", "uzun anlatım", f"\"{kalip}\" {v} kez geçiyor (en çok 3; çekince kalıplarını çeşitlendir)")
     if ilk_soru is None or ilk_soru > 10:
         ekle("UYARI", "uzun giriş", f"ilk soru {'yok' if ilk_soru is None else f'{ilk_soru:.0f}. saniyede'} (hedef ilk 10 sn)")
     for j, kay in enumerate(sen.get("kaynaklar", [])):
