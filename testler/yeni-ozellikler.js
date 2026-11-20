@@ -50,7 +50,7 @@ const SEED = {
     await p.fill('#au-b-USD', '−0,10'); await p.fill('#au-s-USD', '0,20');
     await p.check('#au-USD');
     let st = await store();
-    assert.deepEqual(st.auto.USD, { on: true, b: -0.1, s: 0.2 });
+    assert.deepEqual(st.auto.USD, { on: true, b: -0.1, s: 0.2, wb: 0, ws: 0 });
     assert.deepEqual(st.myRates.USD, { buy: 49.9, sell: 50.4 });                       // 50 − 0,10 ve 50,2 + 0,20
     assert.ok((await txt('#autoRows')).includes('Şu an: 49,9000 / 50,4000'));
     assert.ok((await txt('#myRates')).includes('otomatik'));
@@ -65,7 +65,7 @@ const SEED = {
     // elle kur yazınca o varlığın otomatiği kapanır
     await p.fill('#mr-sell-USD', '52'); await p.dispatchEvent('#mr-sell-USD', 'change');
     st = await store();
-    assert.deepEqual(st.auto.USD, { on: false, b: -0.1, s: 0.2 }); assert.equal(st.myRates.USD.sell, 52);   // fark saklanır
+    assert.deepEqual(st.auto.USD, { on: false, b: -0.1, s: 0.2, wb: 0, ws: 0 }); assert.equal(st.myRates.USD.sell, 52);   // fark saklanır
     assert.ok(st.auto.HAS && st.auto.HAS.on);
     assert.ok(!(await p.isChecked('#au-USD')));
     // geçersiz fark kaydedilmez

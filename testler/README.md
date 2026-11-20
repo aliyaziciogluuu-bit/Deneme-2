@@ -26,6 +26,7 @@ for f in testler/*.js; do node "$f" || break; done
 | `makas.js` | Alım-satım kârının makas kârı ve fiyat farkı olarak ayrılması (eski kayıtlar, düzenleme, iade, analiz) |
 | `sihirbaz.js` | Gün sonu sihirbazı (sayım, özet, kapat ve yedek) ve müşteriye göster ekranı |
 | `yedek.js` | Şifreli yedek (al, yanlış ve doğru parolayla yükle), otomatik kopyalar, budama, geri yükleme ve geri alma |
+| `paket2.js` | Hafta sonu makası, bekleyen müşteri alarmı ve WhatsApp mesajı, dökümde yorum/yol bağlantısı, kartı açılmış gram altın |
 
 Yayın notu: her yayında `doviz-kasasi.html` başındaki `surum` etiketinin değerini değiştirin; açık duran uygulama yeni
 sürümü bu değerle fark edip “Yenile” uyarısını gösterir.

@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.11">
+<meta name="surum" content="2026-11-20.12">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -703,6 +703,22 @@
   .wiz-card .tools { justify-content: flex-end; margin-top: 14px; }
   .wiz-card .tools button[hidden] { display: none; }
   .wiz-card label.check { margin-top: 8px; }
+
+  /* Hafta sonu, alarmlar, bağlantılar */
+  .wk-set { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 8px; }
+  .wk-times { display: inline-flex; align-items: center; gap: 6px; }
+  .wk-times[hidden] { display: none; }
+  .wk-times input { width: auto; min-height: 40px; }
+  .rate-row.auto-row.wk { grid-template-columns: minmax(120px, 1fr) repeat(4, minmax(90px, 1fr)) minmax(110px, 1fr); }
+  @media (max-width: 820px) { .rate-row.auto-row.wk { grid-template-columns: 1fr 1fr; } }
+  .banner.good { border: 1.5px solid var(--pos); background: var(--pos-bg); }
+  #aList li.hit { background: var(--pos-bg); }
+  #aList li.done { opacity: .6; }
+  #aList li { flex-wrap: wrap; }
+  #aList .l { flex: 1 1 200px; }
+  .receipt .rc-links { text-align: center; font-size: 12px; color: #444; margin: 8px 0 0; overflow-wrap: anywhere; }
+  .receipt .rc-links span { display: block; }
+  .receipt .rc-links:empty { display: none; }
 </style>
 </head>
 <body>
@@ -726,6 +742,11 @@
     <span id="rescueWhy"></span>
     <button type="button" class="small primary" id="btnRescueDl">Ham kaydı indir</button>
     <button type="button" class="small" id="btnRescueGo">Okunabilenlerle devam et</button>
+  </div>
+
+  <div class="banner good" id="alertBanner" role="status" hidden>
+    <span id="alertText"></span>
+    <button type="button" class="small primary" id="btnAlertGo">Göster</button>
   </div>
 
   <div class="banner warn" id="staleBanner" role="status" hidden>
@@ -828,7 +849,7 @@
           <input type="text" id="fRate2" inputmode="decimal" autocomplete="off" placeholder="0,00">
         </div>
         <div class="f full worn-f" id="wornField" hidden>
-          <label class="check" for="fWorn"><input type="checkbox" id="fWorn"> Eski seri / yıpranmış</label>
+          <label class="check" for="fWorn"><input type="checkbox" id="fWorn"><span id="fWornLbl"> Eski seri / yıpranmış</span></label>
           <label for="fWornD" class="sr">Eski seri farkı (₺)</label>
           <input type="text" id="fWornD" inputmode="decimal" autocomplete="off" placeholder="fark ₺" hidden>
         </div>
@@ -1052,6 +1073,48 @@
     <div class="empty" id="personsEmpty">Cari kaydı yok.</div>
   </section>
 
+  <section class="card" data-view="alarm">
+    <div class="head">
+      <h2>Bekleyen müşteriler</h2>
+      <button type="button" class="small" data-toggle="alarm" data-label="＋ Müşteri ekle"></button>
+    </div>
+    <div class="body" data-fold="alarm">
+      <p class="hint lead">“Fiyat şuna gelince haber verin” diyen müşteriyi kaydedin; kurunuz o fiyata gelince uygulama haber verir
+        ve hazır mesaj çıkarır. Telefon isteğe bağlıdır; müşterinin iznini alın.</p>
+      <form class="tx" id="aForm" novalidate>
+        <div class="f wide">
+          <label for="aName">Müşteri</label>
+          <input type="text" id="aName" maxlength="60" autocomplete="off" placeholder="Ad soyad">
+        </div>
+        <div class="f">
+          <label for="aPhone">Telefon (isteğe bağlı)</label>
+          <input type="tel" id="aPhone" maxlength="16" autocomplete="off" placeholder="05xx…">
+        </div>
+        <div class="f">
+          <label for="aCur">Varlık</label>
+          <select id="aCur"></select>
+        </div>
+        <div class="f wide">
+          <span class="lbl">Müşteri</span>
+          <div class="seg two">
+            <input type="radio" name="aside" id="aBuy" value="buy" checked><label class="out" for="aBuy">Almak istiyor</label>
+            <input type="radio" name="aside" id="aSell" value="sell"><label class="in" for="aSell">Satmak istiyor</label>
+          </div>
+        </div>
+        <div class="f">
+          <label for="aTarget" id="aTargetLbl">Satış kurunuz en fazla (₺)</label>
+          <input type="text" id="aTarget" inputmode="decimal" autocomplete="off" placeholder="0">
+        </div>
+        <div class="f full form-foot">
+          <div><div class="hint" id="aNow"></div><div class="msg err" id="aMsg" role="status"></div></div>
+          <button type="submit" class="primary">Kaydet</button>
+        </div>
+      </form>
+    </div>
+    <ul class="recent" id="aList"></ul>
+    <div class="empty" id="aEmpty">Bekleyen müşteri yok.</div>
+  </section>
+
   <section class="card" data-view="toptanci">
     <div class="head">
       <h2>Toptancı has hesabı</h2>
@@ -1137,6 +1200,14 @@
     <div class="body" data-fold="otokur">
       <p class="hint lead">Farkınızı bir kez yazın; fiyatlar her güncellendiğinde kurunuz kendiliğinden değişir.
         Fark piyasa fiyatına eklenir: alışta genellikle eksi (ör. −0,10), satışta artı (ör. 0,20).</p>
+      <div class="wk-set">
+        <label class="check" for="wkOn"><input type="checkbox" id="wkOn"> Hafta sonu farkı kullan</label>
+        <span class="wk-times" id="wkTimes">
+          <label for="wkFri">Cuma</label><input type="time" id="wkFri" value="18:00">
+          <label for="wkMon">→ Pazartesi</label><input type="time" id="wkMon" value="09:30">
+        </span>
+        <span class="hint" id="wkNow"></span>
+      </div>
       <div id="autoRows"></div>
     </div>
   </section>
@@ -1410,10 +1481,12 @@
     <table><tbody id="rcBody"></tbody></table>
     <table class="totals"><tbody id="rcTotals"></tbody></table>
     <p class="fine">Bilgi amaçlı dökümdür; resmî fiş ya da fatura yerine geçmez.</p>
+    <p class="rc-links" id="rcLinks"></p>
   </div>
   <div class="ctl">
     <input type="text" id="rcName" maxlength="60" autocomplete="off" placeholder="Müşteri adı (isteğe bağlı)" aria-label="Müşteri adı">
     <div class="tools">
+      <button type="button" id="rcLinkSet">Bağlantılar</button>
       <button type="button" id="rcClose">Kapat</button>
       <button type="button" id="rcShare">Paylaş</button>
       <button type="button" class="primary" id="rcPrint">Yazdır</button>
@@ -1526,7 +1599,8 @@
   var state = {
     tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
     count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {},
-    auto: {}, worn: {}, tpl: [], closed: [], hasLink: false
+    auto: {}, worn: {}, tpl: [], closed: [], hasLink: false,
+    weekend: { on: false, fri: '18:00', mon: '09:30' }, alerts: [], links: { review: '', maps: '' }
   };
   var balOpen = {};                   // Kasa bakiyelerinde ayrıntısı açık varlıklar
   var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
@@ -1647,10 +1721,32 @@
       count: cleanCount(data.count), calc: cleanCalc(data.calc),
       whole: cleanWhole(data.whole), items: cleanItems(data.items), fx: cleanFx(data.fx),
       auto: cleanAuto(data.auto), worn: cleanWorn(data.worn), tpl: cleanTpl(data.tpl), closed: cleanClosed(data.closed),
-      hasLink: !!data.hasLink
+      hasLink: !!data.hasLink, weekend: cleanWeekend(data.weekend), alerts: cleanAlerts(data.alerts), links: cleanLinks(data.links)
     };
   }
   function finiteOr0(v) { v = Number(v); return isFinite(v) ? v : 0; }
+  var HHMM = /^([01]\d|2[0-3]):[0-5]\d$/;
+  // weekend: hafta sonu makası — cuma şu saatten pazartesi şu saate kadar otomatik kurda ikinci fark takımı
+  function cleanWeekend(w) {
+    w = w && typeof w === 'object' ? w : {};
+    return { on: !!w.on, fri: HHMM.test(w.fri) ? w.fri : '18:00', mon: HHMM.test(w.mon) ? w.mon : '09:30' };
+  }
+  // alerts: bekleyen müşteri alarmları (müşteri "fiyat şuna gelince haber verin" dedi)
+  function cleanAlerts(list) {
+    return (Array.isArray(list) ? list : []).filter(function (a) {
+      return a && typeof a.name === 'string' && a.name.trim() && ASSETS[a.cur] && !isCash(a.cur) &&
+             (a.side === 'buy' || a.side === 'sell') && Number(a.target) > 0 && isFinite(Number(a.target));
+    }).slice(0, 100).map(function (a) {
+      return { id: String(a.id || uid()), name: a.name.trim().slice(0, 60), phone: String(a.phone || '').replace(/[^\d+]/g, '').slice(0, 16),
+               cur: a.cur, side: a.side, target: Number(a.target), at: String(a.at || ''), done: !!a.done };
+    });
+  }
+  // links: müşteriye giden dökümün sonuna eklenen bağlantılar (Google yorum ve yol tarifi)
+  function cleanLinks(l) {
+    l = l && typeof l === 'object' ? l : {};
+    var ok = function (u) { u = String(u || '').trim(); return /^https:\/\/\S+$/i.test(u) ? u.slice(0, 300) : ''; };
+    return { review: ok(l.review), maps: ok(l.maps) };
+  }
   // auto: otomatik kur — varlık başına piyasa alış ve satış fiyatına eklenecek fark (₺)
   function cleanAuto(m) {
     var out = {};
@@ -1658,7 +1754,9 @@
     PRICED.forEach(function (c) {
       var a = m[c];
       // kapalı olsa da yazılmış fark saklanır (yeniden açınca kaybolmasın)
-      if (a && typeof a === 'object' && (a.on || finiteOr0(a.b) || finiteOr0(a.s))) out[c] = { on: !!a.on, b: finiteOr0(a.b), s: finiteOr0(a.s) };
+      if (a && typeof a === 'object' && (a.on || finiteOr0(a.b) || finiteOr0(a.s) || finiteOr0(a.wb) || finiteOr0(a.ws))) {
+        out[c] = { on: !!a.on, b: finiteOr0(a.b), s: finiteOr0(a.s), wb: finiteOr0(a.wb), ws: finiteOr0(a.ws) };
+      }
     });
     return out;
   }
@@ -1666,7 +1764,7 @@
   function cleanWorn(m) {
     var out = {};
     if (!m || typeof m !== 'object') return out;
-    PRICED.forEach(function (c) { var v = posOrNull(m[c]); if (v && !isMetal(c)) out[c] = v; });
+    PRICED.forEach(function (c) { var v = posOrNull(m[c]); if (v && (!isMetal(c) || c === 'GA')) out[c] = v; });
     return out;
   }
   // tpl: hızlı işlem şablonları
@@ -2120,6 +2218,7 @@
     renderMarket();
     renderMyRates();
     renderAuto();
+    renderAlerts();
     renderStale();
     renderCount();
     renderDay();
@@ -2194,6 +2293,7 @@
           info.textContent = rateInfo(c);
           info.className = 'info' + (m.buy && m.sell && m.sell < m.buy ? ' neg' : '');
           prefillRate();
+          renderAlerts();   // bekleyen müşterinin fiyatı gelmiş olabilir
         });
         return el('div', { class: 'fld ' + key }, [el('label', { for: id, text: text }), input]);
       };
@@ -2219,10 +2319,19 @@
     sel.hidden = sel.options.length < 2;
   }
   // Otomatik kur: piyasa fiyatı + büronun farkı. Fiyatlar güncellenince ve fark değişince uygulanır.
+  // Hafta sonu aralığında mıyız? (cuma belirlenen saatten pazartesi belirlenen saate kadar)
+  function inWeekend(now) {
+    var w = state.weekend;
+    if (!w || !w.on) return false;
+    now = now || new Date();
+    var day = now.getDay(), hm = String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0');
+    return day === 6 || day === 0 || (day === 5 && hm >= w.fri) || (day === 1 && hm < w.mon);
+  }
   function autoPrice(c, side) {
     var a = state.auto[c], m = side === 'buy' ? state.rates[c] : (state.sell[c] > 0 ? state.sell[c] : state.rates[c]);
     if (!a || !a.on || !(m > 0)) return null;
-    var v = m + (side === 'buy' ? a.b : a.s);
+    var wk = inWeekend() && (a.wb || a.ws);
+    var v = m + (side === 'buy' ? (wk ? a.wb : a.b) : (wk ? a.ws : a.s));
     return v > 0 ? (isMetal(c) ? Math.round(v * 100) / 100 : round4(v)) : null;
   }
   function applyAuto() {
@@ -2240,10 +2349,24 @@
   function autoPreview(c) {
     var a = state.auto[c], b = autoPrice(c, 'buy'), s2 = autoPrice(c, 'sell');
     if (!a || !a.on) return 'Kapalı';
+    if (inWeekend() && (a.wb || a.ws)) return (b || s2 ? 'Hafta sonu: ' + (b ? fmtRate(b, c) : '—') + ' / ' + (s2 ? fmtRate(s2, c) : '—') : 'Piyasa fiyatı yok');
     return b || s2 ? 'Şu an: ' + (b ? fmtRate(b, c) : '—') + ' / ' + (s2 ? fmtRate(s2, c) : '—') : 'Piyasa fiyatı yok';
   }
   var autoKeep = false;   // ayar kaydedilirken satırları yeniden kurma (dokunulan kutu yerinden oynamasın)
+  function renderWeekend() {
+    var w = state.weekend;
+    $('wkOn').checked = w.on;
+    $('wkTimes').hidden = !w.on;
+    if (document.activeElement !== $('wkFri')) $('wkFri').value = w.fri;
+    if (document.activeElement !== $('wkMon')) $('wkMon').value = w.mon;
+    $('wkNow').textContent = w.on ? (inWeekend() ? 'Şu an hafta sonu farkı geçerli.' : 'Şu an hafta içi farkı geçerli.') : '';
+  }
+  function saveWeekend() {
+    state.weekend = cleanWeekend({ on: $('wkOn').checked, fri: $('wkFri').value, mon: $('wkMon').value });
+    applyAuto(); save(); render(); prefillRate();
+  }
   function renderAuto() {
+    renderWeekend();
     var box = $('autoRows');
     // Fark yazılırken ya da kaydedilirken satırları yeniden kurma; yalnızca önizlemeleri güncelle
     if (autoKeep || (box.contains(document.activeElement) && document.activeElement.type === 'text')) {
@@ -2265,10 +2388,12 @@
       };
       chk.addEventListener('change', function () { saveAuto(c); });
       var preview = el('div', { class: 'info', 'data-prev': c, text: autoPreview(c) });
-      box.appendChild(el('div', { class: 'rate-row auto-row' }, [
+      var cells = [
         el('label', { class: 'check name', for: 'au-' + c }, [chk, document.createTextNode(label(c))]),
         numIn('b', 'Alış farkı (₺)'), numIn('s', 'Satış farkı (₺)'), preview
-      ]));
+      ];
+      if (state.weekend.on) cells.splice(3, 0, numIn('wb', 'H. sonu alış farkı'), numIn('ws', 'H. sonu satış farkı'));
+      box.appendChild(el('div', { class: 'rate-row auto-row' + (state.weekend.on ? ' wk' : '') }, cells));
     });
     if (!box.children.length) box.appendChild(el('div', { class: 'empty', text: 'Önce kur tablonuza varlık ekleyin.' }));
   }
@@ -2280,10 +2405,10 @@
   }
   function saveAuto(c) {
     var on = $('au-' + c).checked;
-    var b = $('au-b-' + c).value.trim() ? signedNum($('au-b-' + c).value) : 0;
-    var s2 = $('au-s-' + c).value.trim() ? signedNum($('au-s-' + c).value) : 0;
-    if (!isFinite(b) || !isFinite(s2)) return toast('Fark için geçerli bir sayı yazın (ör. −0,10).');
-    if (on || b || s2) state.auto[c] = { on: on, b: b, s: s2 }; else delete state.auto[c];
+    var rd = function (k) { var i = $('au-' + k + '-' + c); return i && i.value.trim() ? signedNum(i.value) : (i ? 0 : (state.auto[c] || {})[k] || 0); };
+    var b = rd('b'), s2 = rd('s'), wb = rd('wb'), ws = rd('ws');
+    if (![b, s2, wb, ws].every(isFinite)) return toast('Fark için geçerli bir sayı yazın (ör. −0,10).');
+    if (on || b || s2 || wb || ws) state.auto[c] = { on: on, b: b, s: s2, wb: wb, ws: ws }; else delete state.auto[c];
     applyAuto();
     save();
     autoKeep = true;
@@ -2834,7 +2959,8 @@
     $('lAmount2').textContent = 'Verilen ' + lowerFirst(amountLabel($('fCur2').value));
     Array.prototype.forEach.call(document.querySelectorAll('.arbf'), function (f) { f.hidden = !arb; });
     $('expField').hidden = !(cash && formType() === 'out');
-    var wornOk = !cash && !isMetal(c) && !arb && formType() === 'in';
+    var wornOk = !cash && (!isMetal(c) || c === 'GA') && !arb && formType() === 'in';
+    $('fWornLbl').textContent = c === 'GA' ? ' Kartı açılmış / yıpranmış' : ' Eski seri / yıpranmış';
     $('wornField').hidden = !wornOk;
     if (!wornOk) $('fWorn').checked = false;
     $('fWornD').hidden = !$('fWorn').checked;
@@ -3104,8 +3230,9 @@
       id: old ? old.id : uid(), seq: old ? old.seq : maxSeq + 1, date: date, type: formType(),
       cur: cur, amount: amount, rate: rate, note: $('fNote').value.trim()
     };
-    if (!$('wornField').hidden && $('fWorn').checked && tx.note.indexOf('Eski seri') !== 0) {
-      tx.note = ('Eski seri' + (tx.note ? ' · ' + tx.note : '')).slice(0, 120);
+    var wornTag = cur === 'GA' ? 'Kartı açılmış' : 'Eski seri';
+    if (!$('wornField').hidden && $('fWorn').checked && tx.note.indexOf(wornTag) !== 0) {
+      tx.note = (wornTag + (tx.note ? ' · ' + tx.note : '')).slice(0, 120);
     }
     if (cash && tx.type === 'out' && $('fExp').checked) tx.exp = true;
     if ($('fDoc').value.trim()) tx.doc = $('fDoc').value.trim().slice(0, 30);
@@ -3755,6 +3882,9 @@
       lines.push((x.mode === 'sell' ? 'Satış: ' : 'Bozdurma: ') + kLineText(x).replace(' · ', ', ') + ' — ' + fmtTL(x.total));
     });
     if (kList.length > 1) lines.push((s.net < 0 ? 'Müşteriye ödenecek: ' : 'Müşteriden alınacak: ') + fmtTL(Math.abs(s.net)));
+    lines.push('(Bilgi amaçlı hesap dökümüdür; belge değildir.)');
+    if (state.links.review) lines.push('Bizi değerlendirin: ' + state.links.review);
+    if (state.links.maps) lines.push('Yol tarifi: ' + state.links.maps);
     return lines.join('\n');
   }
   function shareText(text) {
@@ -3772,7 +3902,33 @@
   }
 
   // ---------- Müşteri fişi ----------
+  function setLinks() {
+    askText('Yorum bağlantısı', 'Google İşletme Profilinizdeki “Yorum iste” bağlantısını yapıştırın (https:// ile başlar). ' +
+      'Boş bırakırsanız kaldırılır.', 'Google yorum bağlantısı', false, function (v) {
+        var u = String(v || '').trim();
+        if (u && !/^https:\/\/\S+$/i.test(u)) return 'Bağlantı https:// ile başlamalı.';
+        state.links.review = u.slice(0, 300);
+        save();
+        setTimeout(function () {
+          askText('Yol tarifi bağlantısı', 'Google Haritalar’da dükkânınızın “Paylaş” bağlantısını yapıştırın. Boş bırakırsanız kaldırılır.',
+            'Haritalar bağlantısı', false, function (v2) {
+              var m = String(v2 || '').trim();
+              if (m && !/^https:\/\/\S+$/i.test(m)) return 'Bağlantı https:// ile başlamalı.';
+              state.links.maps = m.slice(0, 300); save(); renderReceipt();
+              toast('Bağlantılar kaydedildi.');
+              return null;
+            });
+          $('dlgInput').value = state.links.maps || '';
+        }, 0);
+        return null;
+      });
+    $('dlgInput').value = state.links.review || '';
+  }
   function renderReceipt() {
+    var lk = $('rcLinks');
+    lk.textContent = '';
+    if (state.links.review) lk.appendChild(el('span', { text: 'Bizi değerlendirin: ' + state.links.review }));
+    if (state.links.maps) lk.appendChild(el('span', { text: 'Yol tarifi: ' + state.links.maps }));
     var s = kSums(), body = $('rcBody'), name = $('rcName').value.trim();
     $('rcShop').textContent = $('bizName').textContent;
     $('rcTime').textContent = new Date().toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
@@ -3876,6 +4032,11 @@
     $('kPostOne').addEventListener('click', kPostOne);
     $('kShow').addEventListener('click', showFromCalc);
     $('wizNext').addEventListener('click', wizNext);
+    PRICED.forEach(function (c) { $('aCur').appendChild(el('option', { value: c, text: isMetal(c) ? label(c) : c + ' — ' + ASSETS[c].name })); });
+    $('aCur').value = 'GA';
+    $('aForm').addEventListener('submit', submitAlert);
+    ['aCur', 'aBuy', 'aSell'].forEach(function (id) { $(id).addEventListener('change', renderAlerts); });
+    $('btnAlertGo').addEventListener('click', function () { setView('alarm'); });
     $('wizBack').addEventListener('click', function () { wiz.step--; renderWiz(); });
     $('wizCancel').addEventListener('click', function () { $('wiz').hidden = true; wiz = null; });
     $('btnShow').addEventListener('click', showFromForm);
@@ -3901,6 +4062,7 @@
     $('rcClose').addEventListener('click', function () { $('receipt').hidden = true; });
     $('rcPrint').addEventListener('click', function () { window.print(); });
     $('rcShare').addEventListener('click', function () { shareText(kText($('rcName').value.trim())); });
+    $('rcLinkSet').addEventListener('click', setLinks);
     ['hasBuy', 'hasSell'].forEach(function (id) {
       $(id).addEventListener('change', function () {
         setHas(posOrNull(parseNum($('hasBuy').value)), posOrNull(parseNum($('hasSell').value)));
@@ -4238,6 +4400,81 @@
     $('iForm').addEventListener('submit', submitItem);
     $('iSold').addEventListener('click', function () { iShowSold = !iShowSold; renderItems(); });
     wSyncForm();
+  }
+
+  // ---------- Bekleyen müşteri alarmları ----------
+  // Müşteri almak istiyorsa sizin satış kurunuz hedefe inince, satmak istiyorsa alış kurunuz hedefe çıkınca tetiklenir.
+  function alertPrice(a) { return suggested(a.cur, a.side === 'buy' ? 'out' : 'in'); }
+  function alertHit(a) {
+    var p = alertPrice(a);
+    return !a.done && !!p && (a.side === 'buy' ? p <= a.target + EPS : p >= a.target - EPS);
+  }
+  function checkAlerts() {
+    var hits = state.alerts.filter(alertHit);
+    $('alertBanner').hidden = !hits.length;
+    if (hits.length) $('alertText').textContent = hits.length === 1
+      ? hits[0].name + ' için beklenen ' + label(hits[0].cur) + ' fiyatı geldi.'
+      : hits.length + ' müşterinin beklediği fiyat geldi.';
+    return hits;
+  }
+  function alertMessage(a) {
+    var p = alertPrice(a);
+    return 'Merhaba ' + a.name + ', ' + $('bizName').textContent + ' olarak haber vermek istedik: beklediğiniz ' + label(a.cur) +
+           ' fiyatı geldi. Şu an ' + (a.side === 'buy' ? 'satış' : 'alış') + ' fiyatımız ' + fmtRate(p, a.cur) +
+           ' ₺. Fiyatlar değişebilir; uğramadan önce teyit edebilirsiniz. İyi günler.';
+  }
+  function sendAlert(a) {
+    var text = alertMessage(a), digits = a.phone.replace(/\D/g, '');
+    if (digits.length >= 10) {
+      var num = digits.length === 10 ? '90' + digits : digits.charAt(0) === '0' ? '9' + digits : digits;
+      window.open('https://wa.me/' + num + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
+    } else {
+      shareText(text);
+    }
+  }
+  function renderAlerts() {
+    var ul = $('aList');
+    ul.textContent = '';
+    state.alerts.slice().sort(function (x, y) { return (alertHit(y) - alertHit(x)) || (x.done - y.done) || (x.at < y.at ? 1 : -1); })
+      .forEach(function (a) {
+        var p = alertPrice(a), hit = alertHit(a), tools = el('div', { class: 'r' });
+        var btn = function (text, fn, cls) { var b = el('button', { type: 'button', class: 'small' + (cls ? ' ' + cls : ''), text: text }); b.addEventListener('click', fn); tools.appendChild(b); };
+        if (hit) btn('Mesaj gönder', function () { sendAlert(a); }, 'primary');
+        if (!a.done) btn('Tamam', function () { a.done = true; save(); render(); });
+        btn('×', function () {
+          if (!confirm(a.name + ' alarmı silinsin mi?')) return;
+          state.alerts = state.alerts.filter(function (x) { return x.id !== a.id; }); save(); render();
+        }, 'x');
+        ul.appendChild(el('li', { class: hit ? 'hit' : a.done ? 'done' : '' }, [
+          el('div', { class: 'l' }, [
+            el('b', { text: a.name }),
+            document.createTextNode(' ' + label(a.cur) + (a.side === 'buy' ? ' almak istiyor' : ' satmak istiyor')),
+            el('small', { text: 'Hedef ' + (a.side === 'buy' ? '≤ ' : '≥ ') + fmtRate(a.target, a.cur) + ' · şu an ' +
+                                (p ? fmtRate(p, a.cur) : '—') + (hit ? ' · FİYAT GELDİ' : a.done ? ' · tamamlandı' : '') })
+          ]),
+          tools
+        ]));
+      });
+    $('aEmpty').hidden = state.alerts.length > 0;
+    var c = $('aCur').value, side = $('aSell').checked ? 'sell' : 'buy';
+    $('aTargetLbl').textContent = side === 'buy' ? 'Satış kurunuz en fazla (₺)' : 'Alış kurunuz en az (₺)';
+    var now = c ? suggested(c, side === 'buy' ? 'out' : 'in') : null;
+    $('aNow').textContent = now ? 'Şu anki ' + (side === 'buy' ? 'satış' : 'alış') + ' kurunuz: ' + fmtRate(now, c) : '';
+    checkAlerts();
+  }
+  function submitAlert(ev) {
+    ev.preventDefault();
+    var msg = function (t) { $('aMsg').textContent = t; };
+    var name = $('aName').value.trim().replace(/\s+/g, ' '), target = num('aTarget'), c = $('aCur').value;
+    if (!name) return msg('Müşterinin adını yazın.');
+    if (!(target > 0)) return msg('Hedef fiyatı yazın.');
+    state.alerts.push({ id: uid(), name: name.slice(0, 60), phone: $('aPhone').value.replace(/[^\d+]/g, '').slice(0, 16), cur: c,
+                        side: $('aSell').checked ? 'sell' : 'buy', target: target, at: new Date().toISOString(), done: false });
+    save();
+    $('aName').value = ''; $('aPhone').value = ''; $('aTarget').value = '';
+    msg('');
+    render();
+    toast(name + ' için alarm kaydedildi.');
   }
 
   // ---------- Çevirici ve kur panosu ----------
@@ -4732,8 +4969,9 @@
     try { localStorage.setItem(UI_KEY, JSON.stringify(ui)); } catch (e) { /* yoksay */ }
   }
   // Beş ana sekme; bazılarının alt sekmeleri var (ilk öğe ana sekmenin kendisidir)
-  var GROUPS = [['islem'], ['hesap'], ['kasa', 'kurlar', 'vitrin'], ['cari', 'toptanci'], ['gun', 'liste']];
-  var VIEW_NAMES = { kasa: 'Bakiyeler', kurlar: 'Kurlarım', vitrin: 'Vitrin', cari: 'Cari', toptanci: 'Toptancı', gun: 'Rapor', liste: 'İşlemler' };
+  var GROUPS = [['islem'], ['hesap'], ['kasa', 'kurlar', 'vitrin'], ['cari', 'toptanci', 'alarm'], ['gun', 'liste']];
+  var VIEW_NAMES = { kasa: 'Bakiyeler', kurlar: 'Kurlarım', vitrin: 'Vitrin', cari: 'Cari', toptanci: 'Toptancı', alarm: 'Bekleyenler',
+                     gun: 'Rapor', liste: 'İşlemler' };
   function setView(v) {
     var group = GROUPS.filter(function (g) { return g.indexOf(v) >= 0; })[0] || GROUPS[0];
     document.body.setAttribute('data-view', v);
@@ -5022,8 +5260,15 @@
     window.addEventListener('online', refreshIfStale);
     document.addEventListener('visibilitychange', checkUpdate);
     // Uygulama açık dururken de fiyatlar tazelensin ve eski fiyat uyarısı güncel kalsın
-    setInterval(function () { refreshIfStale(); renderStale(); }, 60000);
+    var wkWas = inWeekend();
+    setInterval(function () {
+      refreshIfStale(); renderStale();
+      var wk = inWeekend();
+      if (wk !== wkWas) { wkWas = wk; if (applyAuto()) { save(); render(); prefillRate(); } }
+      checkAlerts();
+    }, 60000);
     $('btnStaleRefresh').addEventListener('click', function () { updateRates(false); });
+    ['wkOn', 'wkFri', 'wkMon'].forEach(function (id) { $(id).addEventListener('change', saveWeekend); });
     window.addEventListener('online', checkUpdate);
     $('btnUpdate').addEventListener('click', applyUpdate);
     checkUpdate();

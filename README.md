@@ -6,7 +6,7 @@
 TL kasası, kendi alış–satış kur tablonuz, arbitraj, kupür bazında kasa sayımı, masraf ve
 net kâr, cari (borç–alacak) defteri, çevirici, müşteri kur panosu, gün sonu özeti ve aylık rapor.
 Uygulamada beş ana sekme vardır: Ana sayfa (günün kârı ve yeni işlem), Hesap, Kasa (Bakiyeler · Kurlarım · Vitrin),
-Defter (Cari · Toptancı) ve Rapor (Rapor · İşlemler).
+Defter (Cari · Toptancı · Bekleyenler) ve Rapor (Rapor · İşlemler).
 
 Kuyum tarafı:
 
@@ -28,7 +28,14 @@ Günlük işler için:
 - **Hızlı işlemler:** sık yapılan işlemi (ör. “100 USD sat”) formdaki “☆ Şablon” ile kaydedin; ana sayfada tek dokunuşla o anki
   kurla girilir, “Geri al” ile geri alınır.
 - **Otomatik kur** (Kasa → Kurlarım): piyasa fiyatına eklenecek farkı bir kez yazın; fiyatlar güncellendikçe kurunuz değişir.
+- **Hafta sonu makası** (Kasa → Kurlarım → Otomatik kur): cuma akşamından pazartesi sabahına kadar (saatleri siz seçersiniz)
+  otomatik kura ayrı alış–satış farkı uygulanır; pazartesi kendiliğinden hafta içi farkına döner.
 - **Eski seri / yıpranmış döviz:** dövizi alırken işaretlenir; kurdan sizin farkınız düşülür, işleme “Eski seri” notu düşer.
+  Gram altında aynı kutu “Kartı açılmış / yıpranmış” olarak çıkar.
+- **Bekleyen müşteri** (Defter → Bekleyenler): “dolar 50’ye inerse haber verin” diyen müşteriyi ve hedef fiyatı yazın; kurunuz
+  hedefe gelince uygulamanın üstünde uyarı çıkar, “Mesaj gönder” hazır WhatsApp mesajını açar.
+- **Yorum ve yol tarifi bağlantısı:** hesap dökümünde “Bağlantılar” ile Google yorum ve harita bağlantınızı bir kez yazın;
+  müşteriye gönderilen her dökümün altına eklenir.
 - **Borç hatırlatma** (Defter → Cari): size borcu olan müşteriye hazır WhatsApp mesajı.
 - **Gün sonu kapanışı** (Rapor): “Günü kapat” o günü ve öncesini kilitler; işlemler yanlışlıkla değişmez. Son kapanış geri açılabilir. “Günü kapat” üç adımlı bir sihirbazdır: kasa sayımı (bugün için; farklar
   isteğe bağlı olarak sayım farkı olarak işlenir) → günün özeti → kapat ve yedeği gönder.

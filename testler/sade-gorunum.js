@@ -46,7 +46,7 @@ const SEED = { tx: [
   // --- Cari: form kapalı gelir; düğmeyle ya da kişiye dokununca açılır
   await p.click('button[data-go="cari"]');
   assert.ok(await p.isHidden('#cariForm'));
-  assert.deepEqual(await p.locator('#subtabs button').allTextContents(), ['Cari', 'Toptancı']);
+  assert.deepEqual(await p.locator('#subtabs button').allTextContents(), ['Cari', 'Toptancı', 'Bekleyenler']);
   assert.equal((await p.textContent('[data-toggle="cari"]')).trim(), '＋ Hareket ekle');
   await p.click('#persons .person .n');                       // kişiye dokun
   assert.ok(await p.isVisible('#cariForm'));
