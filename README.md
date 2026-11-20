@@ -38,6 +38,18 @@ Günlük işler için:
 - **Başparmakla kaydet:** telefonda “İşlemi kaydet” düğmesi ekranın altında sabit durur.
 - **Kayıt titreşimi:** kayıt ve silmede kısa titreşim (Android; iPhone desteklemez).
 
+Güvenilirlik:
+
+- **Eski fiyat uyarısı:** otomatik kur kullanılırken fiyatlar 30 dakikadan uzun süre alınamazsa uygulamada ve TV vitrininde
+  uyarı çıkar; uygulama açık dururken fiyatlar dakikada bir tazelenir.
+- **Tek altın fiyatı** (Hesap → Has altın fiyatım): işaretlenirse kur tablosundaki gram altın kurları (22, 18, 14 ayar…) has
+  fiyatınızdan, milyem ve işçiliğinizden hesaplanır; kuyum hesabıyla aynı fiyat çıkar.
+- **Belge no:** işleme kestiğiniz resmî belgenin numarası yazılabilir; belge no kullanıyorsanız gün sonunda numarası eksik
+  işlemler gösterilir; CSV'de ayrı sütundur. Uygulama numara üretmez.
+- **Hesap dökümü:** müşteriye verilen döküm “BELGE DEĞİLDİR” ibaresiyle; resmî fiş ya da fatura yerine geçmez.
+- **Kayıp kaydı** (Kasa → bakiye satırı → Kayıp): sahte çıkan para, ayarı düşük çıkan mal; maliyeti kârdan düşer.
+- **Yedek:** son yedekten beri işlem varsa her gün (20 işlem birikirse hemen) hatırlatır; gün kapatılınca yedek göndermeyi önerir.
+
 **Veri koruma:** kayıt okunamazsa uygulama hiçbir şeyi ezmez; ham kayıt saklanır, indirilebilir ve okunabilen işlemlerle
 devam edilebilir. Depolama dolup kayıt yapılamazsa uyarır. Tarayıcıdan verinin kalıcı tutulması istenir.
 

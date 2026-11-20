@@ -33,6 +33,9 @@
   td.flash { animation: flash 1.2s ease-out; }
   @keyframes flash { from { background: rgba(244, 210, 122, .35); } to { background: transparent; } }
   .empty { margin: auto; text-align: center; max-width: 640px; font-size: clamp(16px, 2.2vw, 26px); opacity: .9; }
+  .stale { background: #b3402e; color: #fff; text-align: center; font-weight: 700; font-size: clamp(14px, 2.2vw, 30px);
+           padding: .6vh 1vw; border-radius: 8px; margin-top: 1vh; }
+  .stale[hidden] { display: none; }
   footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding-top: 1vh;
            font-size: clamp(11px, 1.3vw, 18px); opacity: .65; }
   .ctl { position: fixed; right: 12px; bottom: 12px; display: flex; gap: 8px; opacity: .25; transition: opacity .2s; }
@@ -70,6 +73,7 @@
   </table>
   <div class="empty" id="empty" hidden></div>
 </main>
+<div class="stale" id="stale" role="status" hidden></div>
 <footer><span>Fiyatlar bilgi amaçlıdır; işlem anındaki fiyat geçerlidir.</span><span id="src"></span></footer>
 <div class="ctl">
   <button type="button" id="btnFull">Tam ekran</button>
@@ -259,6 +263,14 @@
     var when = function (iso) { return new Date(iso).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }); };
     $('src').textContent = set.source === 'kasa' ? 'Kaynak: Döviz Kasası kur tablosu'
       : market.at ? 'Piyasa verisi: ' + when(market.at) : '';
+    // Eski fiyat uyarısı: piyasa verisi (ya da Döviz Kasası'nda otomatik kurlar) 30 dakikadan eskiyse
+    var k = set.source === 'kasa' ? read(KASA_KEY) : null, last = null;
+    if (set.source === 'piyasa') last = market.at;
+    else if (k && k.auto && Object.keys(k.auto).some(function (c) { return k.auto[c] && k.auto[c].on; })) last = k.ratesUpdated || '';
+    var stale = last !== null && rows.length > 0 && !(Date.now() - new Date(last || 0).getTime() < 30 * 60 * 1000);
+    $('stale').hidden = !stale;
+    $('stale').textContent = stale ? '⚠ Fiyatlar güncel olmayabilir' + (last ? ' (son güncelleme: ' + when(last) + ')' : '') +
+      '. Lütfen işlem öncesi fiyat sorunuz.' : '';
   }
   function tick() {
     $('clock').textContent = new Date().toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
@@ -326,6 +338,7 @@
   setInterval(tick, 15000);
   fetchMarket();
   setInterval(fetchMarket, 60000);
+  setInterval(render, 60000);
   // Döviz Kasası başka bir sekmede fiyat değiştirince hemen yansısın; ayrıca her 5 saniyede yeniden oku
   window.addEventListener('storage', function (e) { if (e.key === KASA_KEY || e.key === SET_KEY) { if (e.key === SET_KEY) loadSet(); render(); } });
   setInterval(function () { if (set.source === 'kasa') render(); }, 5000);

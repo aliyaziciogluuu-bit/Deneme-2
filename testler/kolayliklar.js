@@ -73,7 +73,7 @@ const SEED = {
     await p.fill('#fAmount', '100'); await p.fill('#fRate', '50,8');
     await p.click('#btnSave');
     assert.ok(!dialogs.some((d) => d.includes('ortalama maliyetinizin altında')), dialogs.join('|'));
-    assert.equal(await txt('#toastMsg'), 'İşlem kaydedildi · bu satıştan +\u2060₺30,00 kâr.');      // 100 × (50,80 − 50,50)
+    assert.equal(await txt('#toastMsg'), '100,00 USD satıldı · ₺5.080,00 alındı · bu satıştan +\u2060₺30,00 kâr.');      // 100 × (50,80 − 50,50)
     assert.equal((await store()).tx.length, n0 + 2);
     // hızlı işlemde de çalışır (şablon kuru 50,60 > 50,50: uyarı yok; kur 50,30'a inince uyarı)
     await p.click('#tplRow button:has-text("100,00 USD sat")');
@@ -92,7 +92,7 @@ const SEED = {
     await p.fill('#fAmount', '10'); await p.fill('#fRate', '60');
     await p.click('#btnSave');
     assert.ok(!dialogs.some((d) => d.includes('ortalama maliyetinizin altında')));
-    assert.equal(await txt('#toastMsg'), 'İşlem kaydedildi.');                        // alışta kâr yazmaz
+    assert.equal(await txt('#toastMsg'), '10,00 USD alındı · ₺600,00 ödendi.');                        // alışta kâr yazmaz
 
     // ================= Başparmakla kaydet (telefon) =================
     if (name === 'telefon') {
@@ -103,7 +103,7 @@ const SEED = {
       });
       assert.ok(pos.saveBottom <= pos.navTop + 1 && pos.saveBottom > pos.navTop - 90, 'kaydet düğmesi altta değil: ' + JSON.stringify(pos));
       await p.fill('#fAmount', '5'); await p.click('#btnSave');                       // kaydırmadan dokunulabilir
-      assert.equal(await txt('#toastMsg'), 'İşlem kaydedildi.');
+      assert.ok((await txt('#toastMsg')).startsWith('5,00 USD alındı'), await txt('#toastMsg'));
       const ov = await p.evaluate(() => [document.getElementById('toast').getBoundingClientRect().bottom, document.getElementById('btnSave').getBoundingClientRect().top]);
       assert.ok(ov[0] <= ov[1] + 1, 'bildirim kaydet düğmesinin üstüne biniyor: ' + ov.join(','));
     }
