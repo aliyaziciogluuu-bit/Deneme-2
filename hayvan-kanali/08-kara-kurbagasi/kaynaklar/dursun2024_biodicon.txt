@@ -1,0 +1,182 @@
+Adres: https://dergipark.org.tr/tr/pub/biodicon/issue/87167/1426045
+Açılma tarihi: 2026-11-20
+Sayfa başlığı: A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye
+    -
+    Biological Diversity and Conservation
+-----
+
+ A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye
+ -
+ Biological Diversity and Conservation
+ Skip to content 
+ Login
+ Admin Panel
+ User Panel
+ Coordinator of Scientific Publishing Panel
+ My Journals
+ My Research
+ My Followers
+ Profile
+ Logout
+ Research Article
+ A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye
+ Volume:
+ 17 
+ Number:
+ 3 
+ December 15, 2024 
+ Cantekin Dursun 
+ * 
+ Nagihan Demirci 
+ Yaren Akyüz 
+ Serkan Gül 
+ Nurhayat Özdemir 
+ Biological Diversity and Conservation
+ PDF
+ Download
+ Cite
+ Add To My Library 
+ Added to Library 
+ TR
+ EN
+ Türkiye'deki Bufo bufo (Linnaeus, 1758) ve B. verrucosissimus (Pallas, 1814) üzerine karşılaştırmalı bir hematolojik araştırma
+ Abstract
+ Bu çalışmada, bazı kan parametrelerini ilk kez karşılaştırılarak Bufo bufo ve B. verrucosissimus türlerinin sistematik durumuna katkı sağlanması hedeflenmiştir. Bu amaçla, 2022 yılı içerisinde B. verrucosissimus için Artvin Borçka Karagöl ve B. bufo için Trabzon Uzungöl mevkisinde saha çalışması yapılmıştır. Tür başına toplam 6 yetişkin birey (3 erkek, 3 dişi) yakalanmıştır. Her birey için atmaya devam eden kalp ventrikülünden 1 ml kan örneği alınmış ve yayma preparatlar hazırlanmıştır. Mikroskop altında, 9 farklı kan hücresi parametresine ait veriyi elde etmek için her yaymadan rastgele seçilen 40 eritrosit ölçülmüştür. Ayrıca Neubauer hemasitometresi kullanılarak eritrosit ve lökosit sayıları hesaplanmıştır. Kan hücresi parametrelerinin ölçüm sonuçlarına göre dişilerin erkeklerden daha büyük değerlere sahip olduğu belirlenmiştir. B. bufo türünün kanındaki ortalama eritrosit ve lökosit sayıları B. verrucosissimus türüne göre daha fazla olsa da eritrosit ve lökosit sayıları açısından türler arasında anlamlı bir farklılık tespit edilmemiştir. Dişiler için eritrositler B. verrucosissimus türünde B. bufo türüne göre daha büyük ve daha dar şekle sahiptir. Benzer şekilde, B. verrucosissimus türünde çekirdekler, eritrositlerde gözlendiği gibi daha büyük ve daha dar şekillidir. Öte yandan, erkekler için B. bufo türüne ait eritrositler daha büyük ve daha geniş şekilli fakat çekirdekleri daha büyük ve daha dar şekillidir. Cinsiyetler arasındaki farklılıklar göz önüne alındığında, bu karakterlerin diyagnostik olmadığı düşünülmüştür. Ayrıca PCA analizi türlerin morfouzaydaki örtüşen konumlarını göstermiş ve karakterlerin zayıf ayırt etme gücünü desteklemiştir. Bulgularımız temel kan parametreleri için referans kaynağı olarak gelecek çalışmalara katkı sağlayacaktır.
+ Keywords
+ kan hücreleri 
+ Siğilli Kurbağa 
+ Kafkas Siğilli Kurbağası 
+ eritrosit 
+ morfoloji 
+ Project Number
+ 1919B012111764
+ A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye
+ Abstract
+ In this study, it is aimed to contribute to the systematic situation of Bufo bufo and B. verrucosissimus by comparing some blood parameters for the first time. For that, fieldwork was done in Lake Borçka Karagöl, Artvin for B. verrucosissimus and Lake Uzungöl, Trabzon for B. bufo in 2022. A total of 6 adult individuals (3 males, 3 females) were captured per species. For each individual, 1 ml blood sample was acquired from spontaneously pulsating heart ventricle and blood smears were prepared. Under a microscope, 40 randomly chosen erythrocytes from each smear were measured to acquire 9 distinct blood cell parameters. Additionally, erythrocyte and leukocyte counts were calculated using Neubauer hemacytometer. It was found that female individuals had larger values for measurement of blood cell parameters. Mean erythrocyte and leucocyte numbers were higher in the blood of B. bufo than B. verrucosissimus but there was not a significant difference between species for erythrocyte and leukocyte counts. In females, erythrocytes were larger and narrower in B. verrucosissimus than B. bufo species. Alike, nuclei were larger and narrower as observed in B. verrucosissimus, similar to erythrocytes. However, B. bufo had larger and wider erythrocytes but larger and narrower nuclei in males. Given the differences between sexes, these characters thought as not diagnostic. In addition, PCA analysis showed overlapped position of species in morphospace and supported the weak discrimination power of the characters. Our findings will contribute to the future studies as a reference source for basic blood parameters.
+ Keywords
+ blood cell 
+ Common Toad 
+ Caucasian Toad 
+ erythrocyte 
+ morphology 
+ Supporting Institution
+ TÜBİTAK 2209-A
+ Project Number
+ 1919B012111764
+ References
+ [1] Johnstone, C. P., Lill, A., & Reina, R. D. (2017). Use of erythrocyte indicators of health and condition in vertebrate ecophysiology: a review and appraisal. Biological Reviews, 92(1), 150-168. https://doi.org/10.1111/brv.12219 
+ [2] Emiroğlu, Ö., Uyanoğlu, M., Başkurt, S., Köse, E., Tokatlı, C., & Çiçek, A. (2013). Erythrocyte deformations in Rutilus rutilus provided from Porsuk Dam Lake. Biological Diversity and Conservation, 6(1), 13-17. 
+ [3] Zhelev, Z., Popgeorgiev, G., Ivanov, I., & Boyadzhiev, P. (2017). Changes of erythrocyte-metric parameters in Pelophylax ridibundus (Amphibia: Anura: Ranidae) inhabiting water bodies with different types of anthropogenic pollution in Southern Bulgaria. Environmental Science and Pollution Research, 24, 17920-17934. https://doi.org/10.1007/s11356-017-9364-z 
+ [4] Gül, Ç., Tosunoğlu, M., & Erdoğan, D. (2011). Changes in the blood composition of some anurans. Acta Herpetologica, 6(2), 137-147. https://doi.org/10.13128/Acta_Herpetol-9137 
+ [5] Franco-Belussi, L., Provete, D. B., Leão, T. R., Siqueira, M. S., Valverde, B. S., Martins, B. O. & Fernandes, C. E. (2022). Hematological parameters of a Neotropical wild frog population, with a phylogenetic perspective on blood cell composition in Anura. Current Zoology, 68(3), 361-369. https://doi.org/10.1093/cz/zoab059 
+ [6] Allender, M. C., & Fry, M. M. (2008). Amphibian hematology. Veterinary Clinics of North America: Exotic Animal Practice, 11(3), 463-480. https://doi.org/10.1016/j.cvex.2008.03.006 
+ [7] Bain, P., & Harr, K. E. (2022). Hematology of amphibians. Schalm's Veterinary Hematology, 1228-1232. https://doi.org/10.1002/9781119500537.ch135 
+ [8] Arikan, H., Alpagut-Keskin, N., Çevik, İ. E., & Erişmiş, U. (2010). A study on the blood cells of the fire-bellied toad, Bombina bombina L (Anura: Bombinatoridae). Animal Biology, 60(1), 61-68. https://doi.org/10.1163/157075610X12610595764174 
+ [9] Recuero, E., Canestrelli, D., Vörös, J., Szabo, K., Poyarkov, N. A., Arntzen J. W., Isalovic J. C., Kidov, A. A., Cogalniceanu, D., Caputo F. P., Nascetti, G., & Solano, I.M. (2012). Multilocus species tree analyses resolve the radiation of the widespread Bufo bufo species group (Anura, Bufonidae). Molecular Phylogenetics and Evolution, 62, 71-86. https://doi.org/10.1016/j.ympev.2011.09.008 
+ [10] Özdemir, N., Dursun, C., Üzüm, N., Kutrup, B., & Gül, S. (2020). Taxonomic assessment and distribution of common toads (Bufo bufo and B. verrucosissimus) in Turkey based on morphological and molecular data. Amphibia-Reptilia, 41(3), 399-411. https://doi.org/10.1163/15685381-bja10009 
+ [11] Dursun, C., Sánchez-Montes, G., Özdemir, N., Gül, S., & Martínez-Solano, I. (2023). Genetic data to describe the hybrid zone between Bufo bufo (Linnaeus, 1758) and Bufo verrucosissimus (Pallas, 1814) in northeastern Türkiye. Amphibia-Reptilia, 44(4), 441-455. https://doi.org/10.1163/15685381-bja10152 
+ [12] Atatür, M. K., Arikan, H., & Çevik, İ. E. (1999). Erythrocyte sizes of some anurans from Turkey. Turkish Journal of Zoology, 23(2), 111-114. 
+ [13] Dönmez, F., Tosunoğlu, M., & Gül, Ç. (2009). Hematological values in hermaphrodite, Bufo bufo (Linnaeus, 1758). North-Western Journal of Zoology, 5(1), 97-103. 
+ [14] Arıkan, H. & Çiçek, K. (2010). Morphology of peripheral blood cells from various species of Turkish Herpetofauna. Acta Herpetologica, 5(2), 179-198. https://doi.org/10.1400/179147 
+ [15] Arikan, H., & Cicek, K. (2014). Haematology of amphibians and reptiles: a review. North-Western Journal of Zoology, 10(1), 190-209. 
+ [16] Tosunoğlu, M., & Taskavak, E. (2001). A serological investigation of the Bufo bufo (Anura, Bufonidae) populations in southern Marmara (Manyas, Bahkesir) and eastern Black Sea (Çamhhemşin, Rize) regions. Italian Journal of Zoology, 68(2), 165-168. https://doi.org/10.1080/11250000109356402 
+ [17] R Core Team. (2022). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. 
+ [18] Suljevic, D., Focak, M., Filipic, F., Hamzic, A., Zubcevic, N., & Alijagic, A. (2018). Haematopoiesis in the European common toad Bufo bufo (Linnaeus, 1758): new methodological insights to study general, seasonal, and sexual haematopoietic distribution and maturation pattern. Turkish Journal of Zoology, 42(2), 198-206. https://doi.org/10.3906/zoo-1706-18 
+ [19] Wei, J., Li, Y. Y., Wei, L., Ding, G. H., Fan, X. L., & Lin, Z. H. (2015). Evolution of erythrocyte morphology in amphibians (Amphibia: Anura). Zoologia (Curitiba), 32, 360-370. https://doi.org/10.1590/S1984-46702015000500005 
+ [20] Xiong, J., Gou, J., Li, G., & You, Z. (2022). Intraspecific variation in hematological parameters and erythrocyte size among three populations of Batrachuperus tibetanus (Caudata: Hynobiidae). Animal Biology, 72(2), 91-101. https://doi.org/10.1163/15707563-bja10070 
+ [21] Terzioğlu, S., Anşin, R., Kılınç, M., & Acar, C. (2007). Vascular plant diversity in Solaklı watershed in Northeastern Turkey. Phytologia Balcanica, 13(2), 213-222. 
+ [22] Kopar, İ., Sever, R. (2008). Karagöl (Borçka-Artvin). Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 11(1), 21-38. 
+ [23] Özgül, C. N., Kurtul, D., & Gül, Ç. (2020). Haematological and genotoxicological research on Pelophylax ridibundus and Bufotes variabilis living around the Çan (Çanakkale, Turkey). Turkish Journal of Bioscience and Collections, 4(2), 105-111. https://doi.org/10.26650/tjbc.20200011 
+ [24] Liu, C., Xia, C., Xie, Z., Jiao, Y., & She, Q. (2013). A Research of Peripheral Blood Cells Annually in Bufo bufo gargarizans. International Journal of Morphology, 31(4), 1282-1288. http://dx.doi.org/10.4067/S0717-95022013000400022 
+ [25] Xianguang, G., Yaoguang, Z., Zhijian, W., & Xianfang, Z. (2002). Study on blood cell of Bufo gargarizans. Sichuan Journal of Zoology, 21(4), 211-214. 
+ Show All References(25)
+ Details
+ Primary Language 
+ English 
+ Subjects 
+ Animal Systematics and Taxonomy 
+ Journal Section 
+ Research Article 
+ Authors 
+ Cantekin Dursun
+ * 
+ 0000-0001-7766-1470
+ Türkiye 
+ Nagihan Demirci
+ 0009-0008-7657-4760
+ Türkiye 
+ Yaren Akyüz
+ 0009-0009-3516-2310
+ Türkiye 
+ Serkan Gül
+ 0000-0002-0372-7462
+ Türkiye 
+ Nurhayat Özdemir
+ 0000-0002-3880-5846
+ Türkiye 
+ Early Pub Date 
+ September 13, 2024 
+ Publication Date 
+ December 15, 2024 
+ Submission Date 
+ January 26, 2024 
+ Acceptance Date 
+ April 9, 2024 
+ Published in Issue 
+ Year
+ 2024
+ Volume:
+ 17
+ Number:
+ 3
+ DOI 
+ https://doi.org/10.46309/biodicon.2024.1426045
+ IZ 
+ https://izlik.org/JA29DB32HC
+ Cite
+ RIS
+ / 
+ Bibtex
+ APA 
+ Dursun, C., Demirci, N., Akyüz, Y., Gül, S., & Özdemir, N. (2024). A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye. Biological Diversity and Conservation , 17 (3), 253-261. https://doi.org/10.46309/biodicon.2024.1426045
+ AMA 
+ 1.Dursun C, Demirci N, Akyüz Y, Gül S, Özdemir N. A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye. BioDiCon . 2024;17(3):253-261. doi:10.46309/biodicon.2024.1426045
+ Chicago 
+ Dursun, Cantekin, Nagihan Demirci, Yaren Akyüz, Serkan Gül, and Nurhayat Özdemir. 2024. “A Comparative Haematological Research on Bufo Bufo (Linnaeus, 1758) and B. Verrucosissimus (Pallas, 1814) in Türkiye”. Biological Diversity and Conservation 17 (3): 253-61. https://doi.org/10.46309/biodicon.2024.1426045.
+ EndNote 
+ Dursun C, Demirci N, Akyüz Y, Gül S, Özdemir N (December 15, 2024) A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye. Biological Diversity and Conservation 17 3 253–261.
+ IEEE 
+ [1]C. Dursun, N. Demirci, Y. Akyüz, S. Gül, and N. Özdemir, “A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye”, BioDiCon , vol. 17, no. 3, pp. 253–261, Dec. 2024, doi: 10.46309/biodicon.2024.1426045.
+ ISNAD 
+ Dursun, Cantekin - Demirci, Nagihan - Akyüz, Yaren - Gül, Serkan - Özdemir, Nurhayat. “A Comparative Haematological Research on Bufo Bufo (Linnaeus, 1758) and B. Verrucosissimus (Pallas, 1814) in Türkiye”. Biological Diversity and Conservation 17/3 (December 15, 2024): 253-261. https://doi.org/10.46309/biodicon.2024.1426045.
+ JAMA 
+ 1.Dursun C, Demirci N, Akyüz Y, Gül S, Özdemir N. A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye. BioDiCon . 2024;17:253–261.
+ MLA 
+ Dursun, Cantekin, et al. “A Comparative Haematological Research on Bufo Bufo (Linnaeus, 1758) and B. Verrucosissimus (Pallas, 1814) in Türkiye”. Biological Diversity and Conservation , vol. 17, no. 3, Dec. 2024, pp. 253-61, doi:10.46309/biodicon.2024.1426045.
+ Vancouver 
+ 1.Cantekin Dursun, Nagihan Demirci, Yaren Akyüz, Serkan Gül, Nurhayat Özdemir. A comparative haematological research on Bufo bufo (Linnaeus, 1758) and B. verrucosissimus (Pallas, 1814) in Türkiye. BioDiCon. 2024 Dec. 15;17(3):253-61. doi:10.46309/biodicon.2024.1426045
+ × 
+ Add To My Library 
+ Create Research 
+ Close 
+ Archive 
+ Volume:
+ 17
+ Number:
+ 3
+ ,
+ 15.12.2024
+ Article Statistics 
+ Total Article Views 
+ Total Article Downloads 
+ Total Favorites 
+ Article Files 
+ Full Text
+ Share 
+ ❖  Biological Diversity and Conservation  is an international, peer-reviewed, open-access journal that publishes high-quality scientific research in biodiversity, conservation biology, ecology, life sciences, environmental sciences, and related health sciences. ❖  The journal is committed to maintaining the highest standards of publication ethics and follows the principles and guidelines of the Committee on Publication Ethics ( COPE ). ❖  All articles are published under the Creative Commons Attribution 4.0 International ( CC BY 4.0 ) License. ❖  Only manuscripts written in clear and grammatically correct English are accepted. ❖   There is no article processing charge ( APC ). ❖  Indexes: Additional Web of Science Indexes: Zoological Record, TR Dizin, Medical Reads (RRS), CrossRef;10.46309/biodicon. ❖   Editorial Office Biological Diversity and Conservation (BioDiCon) Sazova Mahallesi, Ziraat Caddesi, No.277, F Blok, 26005 Tepebaşı-Eskişehir, Türkiye Email : info@biodicon.com ; biodicon@gmail.com  Editor-in-Chief : Prof.Dr. Ersin YÜCEL (https://orcid.org/0000-0001-8274-7578) Website : https://dergipark.org.tr/en/pub/biodicon ; http://www.biodicon.com ❖ Publication Start Date 2008  ❖ Publisher: ERSİN YÜCEL (Publisher ID: F2600000047; DergiPark ID: 2067) 
+ Feedback 
+ ×
+ Please select the unit you would like to give feedback to. 
+ Send Feedback to the Journal
+ Send Feedback to DergiPark
+ 

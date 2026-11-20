@@ -1,0 +1,97 @@
+{
+  "shorts": [
+    {
+      "ad": "s1-sigil",
+      "baslik": "Kurbağaya Dokunursan Siğil Olur mu? 🐸 #shorts",
+      "aciklama": "Kurbağaya dokunmak siğil çıkarmaz: siğile insan papilloma virüsü neden olur. Yine de kurbağanın bezlerindeki salgıyı gözüne ve ağzına değdirme, dokunduysan ellerini yıka. Tam video kanalımızda: \"Kurbağaya Dokunursan Siğil Olur mu? (Asıl Tehlike Başka)\"\n\nKaynak: Vikipedi – Wart: en.wikipedia.org/wiki/Wart\n\n#shorts #kurbağa #siğil #doğa",
+      "etiketler": [
+        "kurbağa",
+        "kurbağa siğil yapar mı",
+        "kara kurbağası",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "SİĞİL",
+        "YAPMAZ"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Kurbağaya dokunmak siğil çıkarmaz: siğile insan papilloma virüsü neden olur, kurbağa bu virüsü taşımaz.",
+          "ses": "Kurbağaya dokunmak siğil çıkarmaz: siğile insan papiloma virüsü neden olur, kurbağa bu virüsü taşımaz.",
+          "gorsel": "tas_alti_kurbaga"
+        },
+        {
+          "yazi": "Derisindeki yumrular siğil değil; boyları sabit, sağlıklı hayvanda bulunuyor ve enfeksiyondan olmuyor.",
+          "gorsel": "kurbaga_yakin"
+        },
+        {
+          "yazi": "Kara kurbağasının gözlerinin arkasındaki iki bez, saldırıya uğrayınca tadı kötü bir salgı çıkarıyor.",
+          "gorsel": "bezler"
+        },
+        {
+          "yazi": "Bize göre bu salgıyı gözüne ve ağzına değdirme; dokunduysan ellerini sabun ve suyla iyice yıka.",
+          "gorsel": "el_yikama"
+        },
+        {
+          "yazi": "Kurbağa derisindeki salmonella, tutan insanlara geçebiliyor; enfeksiyon küçük çocuklar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.",
+          "gorsel": "cocuk_kurbaga"
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kapanis"
+        }
+      ]
+    },
+    {
+      "ad": "s2-kopek",
+      "baslik": "Köpek Kurbağayı Ağzına Alırsa Ne Yapmalı? 🐶 #shorts",
+      "aciklama": "Köpeğin ya da kedinin kurbağayı ağzına aldıysa vakit kaybetmeden veterinere danış. Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık; hafife almıyoruz. Tam video kanalımızda: \"Kurbağaya Dokunursan Siğil Olur mu? (Asıl Tehlike Başka)\"\n\nKaynak: RSPCA – First Aid For Your Dog: rspca.org.uk/adviceandwelfare/pets/dogs/health/firstaid\n\n#shorts #köpek #kurbağa #doğa",
+      "etiketler": [
+        "köpek kurbağa zehirlenmesi",
+        "köpek kurbağa yedi",
+        "kara kurbağası",
+        "veteriner",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "KÖPEĞİN",
+        "AĞZINDAYSA"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Köpeğin kurbağayı ağzına aldıysa vakit kaybetmeden veterinere başvur.",
+          "gorsel": "kopek_bahce"
+        },
+        {
+          "yazi": "Bir kaynağa göre köpekler, Amerika'daki bir kurbağa türünü yalayınca ya da diş geçirince özellikle kolay zehirleniyor.",
+          "gorsel": "kopek_kurbaga"
+        },
+        {
+          "yazi": "Aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılma varsa hemen gitmek gerekiyor.",
+          "gorsel": "kopek_belirti"
+        },
+        {
+          "yazi": "Kara kurbağasının zehrinin etkileri iyi anlaşılmamış.",
+          "gorsel": "kurbaga_yakin"
+        },
+        {
+          "yazi": "Köpek ve kedide ne kadar ağır olduğunu gösteren bir kaynak bulamadık.",
+          "gorsel": "kopek_bahce"
+        },
+        {
+          "yazi": "Veterinere neyi ve ne kadar yediğini söyle.",
+          "gorsel": "veteriner"
+        },
+        {
+          "yazi": "Bize göre kurbağaların çıktığı akşamüstü saatlerde köpeğini ve kedini bahçede başıboş bırakma.",
+          "gorsel": "aksam_bahce"
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kapanis"
+        }
+      ]
+    }
+  ]
+}
