@@ -24,7 +24,9 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 20 Kas | 01–06 ek Shorts seslendirmeleri | – | – | ~0,1 $ | ~0,1 $ | her gün Shorts |
 | 20 Kas | 07 kırlangıç görsel 2.-3. tur | ~1,38 $ (23 aday, hepsi RET) + ~0,24 $ (4 aday) + ~0,08 $ (2 Kontext) | – | – | ~1,7 $ | 5 görsel yerine mevcut görseller |
 | 20 Kas | 07 kırlangıç klipleri | – | ~2,10 $ (6 klip) | – | ~2,1 $ | kuluçka klibi düşürüldü |
-| | **Kasım toplamı** | | | | **~44,4 $** | aylık bütçe 60 $ |
+| 20 Kas | 08 kara kurbağası deneme görselleri | ~0,24 $ (2 tur × 2 test görseli) | – | – | ~0,2 $ | pençe ve bez hatası ana seriden önce yakalandı |
+| 20 Kas | 08 kara kurbağası görselleri | ~1,80 $ (18 görsel, 30 aday) | – | ~0,2 $ | ~2,0 $ | tasarruflu düzen: hayvansız sahnede 1 aday |
+| | **Kasım toplamı** | | | | **~46,6 $** | aylık bütçe 60 $ |
 
 ## Aralık 2026 planı (kanal sahibi: haftada 3 video, 60 $)
 - 14 yayın günü (salı, perşembe, cumartesi): karga ve kırlangıç hazır, 12 yeni video.
