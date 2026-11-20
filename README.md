@@ -29,6 +29,10 @@ Günlük işler için:
 - **Eski seri / yıpranmış döviz:** dövizi alırken işaretlenir; kurdan sizin farkınız düşülür, işleme “Eski seri” notu düşer.
 - **Borç hatırlatma** (Defter → Cari): size borcu olan müşteriye hazır WhatsApp mesajı.
 - **Gün sonu kapanışı** (Rapor): “Günü kapat” o günü ve öncesini kilitler; işlemler yanlışlıkla değişmez. Son kapanış geri açılabilir.
+- **Zararına satış uyarısı:** satış kuru elinizdeki malın ortalama maliyetinin altındaysa kaydetmeden önce tahmini zararı gösterip sorar.
+- **Hızlı tutar düğmeleri:** tutar kutusunun altında varlığa göre 100 · 500 · 1.000 gibi düğmeler.
+- **Büyük yazı** (başlıktaki “Aa”): bütün uygulama büyür; tercih hatırlanır.
+- **Kayıt titreşimi:** kayıt ve silmede kısa titreşim (Android; iPhone desteklemez).
 
 Tarayıcı sınamaları [`testler/`](testler/README.md) klasöründedir.
 Veriler yalnızca kullanılan cihazın tarayıcısında saklanır. Resmî fiş ve yasal bildirimlerin

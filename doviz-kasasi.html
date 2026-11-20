@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.2">
+<meta name="surum" content="2026-11-20.4">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -401,8 +401,8 @@
     .eyebrow { display: none; }
     .top-tools { flex: none; flex-wrap: nowrap; }
     .top-tools button { min-height: 40px; }
-    #btnHide, #btnRates { width: 42px; padding: 0; justify-content: center; position: relative; }
-    #btnHide span, #btnRates span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    #btnHide, #btnRates, #btnBig { width: 42px; padding: 0; justify-content: center; position: relative; }
+    #btnHide span, #btnRates span, #btnBig span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     section.card { margin-bottom: 14px; }
     section.card > .head { padding: 12px 16px; }
     .mini, .banner { margin-bottom: 12px; }
@@ -569,7 +569,7 @@
     .wrap { padding-bottom: calc(104px + env(safe-area-inset-bottom)); }
     header.top { border-bottom: 0; margin-bottom: 10px; padding-bottom: 4px; }
     header.top h1 { font-size: 22px; }
-    #btnHide, #btnRates { width: 44px; height: 44px; border-radius: 50%; }
+    #btnHide, #btnRates, #btnBig { width: 44px; height: 44px; border-radius: 50%; }
     section.card { margin-bottom: 14px; }
     section.card > .head { padding: 14px 16px 2px; }
     section.card .body { padding: 10px 16px 16px; }
@@ -625,6 +625,14 @@
     .rate-row.auto-row { grid-template-columns: 1fr 1fr; grid-template-areas: none; }
     .auto-row .name, .auto-row .info { grid-column: 1 / -1; }
   }
+
+  /* Hızlı tutar ve büyük yazı */
+  .amtq-f { margin-top: -4px; }
+  .quick.amtq button { min-height: 34px; padding: 4px 12px; font-size: 14px; background: none; border: 1.5px solid var(--line); }
+  .quick.amtq button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .aa { font: 800 16px/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; letter-spacing: -.02em; }
+  #btnBig[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+  body.big .wrap, body.big .toast, body.big dialog, body.big .receipt { zoom: 1.16; }
 </style>
 </head>
 <body>
@@ -639,6 +647,7 @@
     <div class="top-tools">
       <button id="btnInstall" type="button" class="primary" hidden>Ana ekrana ekle</button>
       <button id="btnHide" type="button" aria-pressed="false" title="Tutarları gizle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"/><circle cx="12" cy="12" r="2.8"/></svg><span id="btnHideTxt">Tutarları gizle</span></button>
+      <button id="btnBig" type="button" aria-pressed="false" title="Büyük yazı"><b class="aa" aria-hidden="true">Aa</b><span id="btnBigTxt">Büyük yazı</span></button>
       <button id="btnRates" type="button" title="Fiyatları güncelle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.4-5.7M20 4v5h-5"/></svg><span id="btnRatesTxt">Fiyatları güncelle</span></button>
     </div>
   </header>
@@ -720,6 +729,9 @@
         <div class="f" id="rateField">
           <label for="fRate" id="lRate">Kur (₺)</label>
           <input type="text" id="fRate" inputmode="decimal" autocomplete="off" placeholder="0,00" required>
+        </div>
+        <div class="f full amtq-f">
+          <div class="quick amtq" id="amtQuick" aria-label="Hızlı tutar"></div>
         </div>
         <div class="f arbf arb-first" hidden>
           <label for="fCur2">Verilen varlık</label>
@@ -2461,6 +2473,38 @@
     $('fWornD').hidden = !$('fWorn').checked;
     renderQuick();
     renderTpl();
+    renderAmtQuick();
+  }
+  // Zararına satış uyarısı: satış kuru elinizdeki malın ortalama maliyetinin altındaysa onay ister.
+  // exclude: düzenlenen işlemin kimliği (kendi etkisi maliyetten çıkarılır). true dönerse kayda devam edilir.
+  function lossOk(c, amount, rate, date, exclude) {
+    if (isCash(c) || !(amount > 0) || !(rate > 0)) return true;
+    var list = state.tx.filter(function (t) { return t.id !== exclude && (!date || t.date <= date); });
+    var a = compute(list).acc[c];
+    if (!a || !(a.bal > EPS)) return true;
+    var avg = a.cost / a.bal, loss = amount * (avg - rate);
+    if (!(loss > 0.005) || rate >= avg * 0.9995) return true;
+    return confirm(label(c) + ' satışı ortalama maliyetinizin altında.\nOrtalama maliyet: ' + fmtRate(avg, c) +
+                   '\nSatış kuru: ' + fmtRate(rate, c) + '\nTahmini zarar: ' + fmtTL(loss) + '\n\nYine de kaydedilsin mi?');
+  }
+  // Hızlı tutar düğmeleri: varlığa göre uygun tutarlar; dokununca tutar kutusuna yazılır
+  function quickAmounts(c) {
+    if (isCash(c)) return [1000, 5000, 10000, 50000];
+    if (isMetal(c)) return unit(c) === 'adet' ? [1, 2, 5, 10] : [1, 5, 10, 50];
+    return ASSETS[c] && c === 'JPY' ? [1000, 10000, 50000, 100000] : [100, 500, 1000, 5000];
+  }
+  function renderAmtQuick() {
+    var box = $('amtQuick'), c = $('fCur').value, cur = num('fAmount');
+    box.textContent = '';
+    quickAmounts(c).forEach(function (v) {
+      var b = el('button', { type: 'button', 'aria-pressed': cur === v ? 'true' : 'false',
+                             text: fmtNum(v, 0) + (isCash(c) ? ' ₺' : isMetal(c) ? ' ' + unit(c) : '') });
+      b.addEventListener('click', function () {
+        $('fAmount').value = fmtInput(v);
+        autoAmount2(); updateTotal(); renderAmtQuick();
+      });
+      box.appendChild(b);
+    });
   }
   // Hızlı işlem şablonları: dokununca o anki kurla işlem kaydedilir (geri alınabilir)
   var tplEdit = false;
@@ -2499,6 +2543,7 @@
       onTarget('cur'); $('fAmount').value = fmtInput(t.amount); updateTotal(); $('fRate').focus();
       return setMsg('Bu varlık için kur yok; kuru yazıp kaydedin.', 'err');
     }
+    if (t.type === 'out' && !lossOk(t.cur, t.amount, rate, today())) return;
     var tx = { id: uid(), seq: nextSeq(), date: today(), type: t.type, cur: t.cur, amount: t.amount, rate: rate, note: '' };
     if (t.exp) tx.exp = true;
     var next = state.tx.concat([tx]), res = validate(next);
@@ -2641,6 +2686,7 @@
     if (!(amount > 0) || !isFinite(amount)) return setMsg('Miktar sıfırdan büyük olmalı.', 'err');
     if (!(rate > 0) || !isFinite(rate)) return setMsg('Kur sıfırdan büyük olmalı.', 'err');
     if (!cash && !rateLooksRight(cur, rate)) return;
+    if (!cash && formType() === 'out' && !lossOk(cur, amount, rate, date, editingId)) return;
 
     var maxSeq = state.tx.reduce(function (m, t) { return Math.max(m, t.seq); }, 0);
     var old = editingId && state.tx.filter(function (x) { return x.id === editingId; })[0];
@@ -2683,6 +2729,7 @@
     if (!ok(a) || !ok(a2)) return setMsg('Alınan ve verilen miktar sıfırdan büyük olmalı.', 'err');
     if (!ok(r) || !ok(r2)) return setMsg('Alış ve satış kuru sıfırdan büyük olmalı.', 'err');
     if (!rateLooksRight(c, r) || !rateLooksRight(c2, r2)) return;
+    if (!lossOk(c2, a2, r2, date)) return;
 
     var maxSeq = state.tx.reduce(function (m, t) { return Math.max(m, t.seq); }, 0);
     var gid = uid(), note = $('fNote').value.trim();
@@ -3718,6 +3765,8 @@
   function snapshot() { return JSON.stringify({ tx: state.tx, count: state.count }); }
   // hook: geri alınınca işlem defteri dışında düzeltilmesi gereken şey (ör. hesap listesindeki işaret)
   function toast(text, undo, hook) {
+    // Kayıt, silme gibi geri alınabilir her değişiklikte kısa titreşim (destekleyen telefonlarda; iPhone desteklemez)
+    if (undo) { try { if (navigator.vibrate) navigator.vibrate(30); } catch (e) { /* yoksay */ } }
     undoData = undo || null;
     undoHook = undo && hook ? hook : null;
     $('toastMsg').textContent = text;
@@ -3887,7 +3936,15 @@
   }
 
   // ---------- Sekmeler ve tercihler ----------
-  var ui = { hide: false, backupAt: null, snooze: null, fold: {} };
+  var ui = { hide: false, big: false, backupAt: null, snooze: null, fold: {} };
+  // Büyük yazı modu: bütün uygulama yaklaşık %15 büyür (düzen ekrana göre yeniden akar)
+  function setBig(on, keep) {
+    document.body.classList.toggle('big', on);
+    $('btnBig').setAttribute('aria-pressed', on ? 'true' : 'false');
+    $('btnBigTxt').textContent = $('btnBig').title = on ? 'Normal yazı' : 'Büyük yazı';
+    ui.big = on;
+    if (!keep) saveUI();
+  }
   // Açılır bölümler: [data-fold="ad"] öğeleri, [data-toggle="ad"] düğmesiyle açılıp kapanır; durum hatırlanır
   // Yalnızca görünümü değiştirir (tercihi değiştirmeden geçici açmak için)
   function showFold(key, open) {
@@ -3913,6 +3970,7 @@
     try {
       var u = JSON.parse(localStorage.getItem(UI_KEY) || '{}');
       ui.hide = !!u.hide;
+      ui.big = !!u.big;
       ui.backupAt = typeof u.backupAt === 'string' ? u.backupAt : null;
       ui.snooze = typeof u.snooze === 'string' ? u.snooze : null;
       if (u.fold && typeof u.fold === 'object') Object.keys(u.fold).forEach(function (k) { ui.fold[k] = !!u.fold[k]; });
@@ -4066,6 +4124,8 @@
     loadUI();
     initFolds();
     setHidden(ui.hide, true);
+    setBig(ui.big, true);
+    $('btnBig').addEventListener('click', function () { setBig(!ui.big); });
     setView('islem');
     $('fDate').value = today();
     $('dayDate').value = today();
@@ -4085,7 +4145,7 @@
     });
     $('fCur2').addEventListener('change', function () { rate2Touched = amount2Touched = false; prefillRate(); });
     $('fRate').addEventListener('input', function () { rateTouched = true; autoAmount2(); updateTotal(); });
-    $('fAmount').addEventListener('input', function () { autoAmount2(); updateTotal(); });
+    $('fAmount').addEventListener('input', function () { autoAmount2(); updateTotal(); renderAmtQuick(); });
     $('fRate2').addEventListener('input', function () { rate2Touched = true; autoAmount2(); updateTotal(); });
     $('fAmount2').addEventListener('input', function () { amount2Touched = true; updateTotal(); });
     $('countCur').addEventListener('change', function () {
