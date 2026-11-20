@@ -24,3 +24,4 @@ Her hafta yeni bir komşu. 🌿
 
 ## Kanal anahtar kelimeleri (20 Kasım; Studio → Ayarlar → Kanal → Temel bilgiler → Anahtar kelimeler)
 "avludaki komşular" "evin çevresindeki hayvanlar" "bahçedeki hayvanlar" "yanlış bilinen hayvanlar" "hayvan efsaneleri" "doğa belgeseli" "türkçe belgesel" "hayvan belgeseli" "sağır yılan" kertenkele geko kirpi yarasa baykuş karga kırlangıç "kara kurbağası" "köy hayvanları" "yaban hayatı" "hayvanlar hakkında bilgiler" "bahçede yılan" "ev kertenkelesi" "hayvanlarla ilgili bilinmeyenler" doğa hayvanlar
+Kısa sürüm (uzun sürüm kabul edilmedi): "avludaki komşular" "hayvan belgeseli" "doğa belgeseli" "bahçedeki hayvanlar" "hayvan efsaneleri" kertenkele kirpi yarasa baykuş karga kırlangıç yılan
