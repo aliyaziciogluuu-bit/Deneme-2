@@ -18,6 +18,8 @@ Kuyum tarafı:
   “Sat” ile satış kasaya işlenebilir.
 - **Kâr analizi** (Rapor → Analiz): varlık başına ortalama alış–satış kuru, makas ve kâr; aylık net kâr grafiği.
   Net kâr TL’nin yanında dolar ve has altın olarak da gösterilir. Açık rapor “Paylaş” ile WhatsApp ya da e-postaya gönderilir.
+- **Makas kârı ve fiyat farkı:** alım-satım kârı ikiye ayrılır: makas (satış kuru − satış anındaki kendi alış kurunuz) ve
+  fiyat farkı (elinizdeki malın siz tutarken değer kazanması). Ana sayfada, raporda, analizde ve paylaşılan raporda görünür.
 - **Vitrin ekranı** (`vitrin.html`, Kasa → Kurlarım içinden açılır): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda Döviz Kasası’nın kur
   tablosunu canlı gösterir; ayrı bir TV ya da tablette piyasa fiyatına kendi farkınızı ekleyerek çalışır.
 
@@ -28,7 +30,8 @@ Günlük işler için:
 - **Otomatik kur** (Kasa → Kurlarım): piyasa fiyatına eklenecek farkı bir kez yazın; fiyatlar güncellendikçe kurunuz değişir.
 - **Eski seri / yıpranmış döviz:** dövizi alırken işaretlenir; kurdan sizin farkınız düşülür, işleme “Eski seri” notu düşer.
 - **Borç hatırlatma** (Defter → Cari): size borcu olan müşteriye hazır WhatsApp mesajı.
-- **Gün sonu kapanışı** (Rapor): “Günü kapat” o günü ve öncesini kilitler; işlemler yanlışlıkla değişmez. Son kapanış geri açılabilir.
+- **Gün sonu kapanışı** (Rapor): “Günü kapat” o günü ve öncesini kilitler; işlemler yanlışlıkla değişmez. Son kapanış geri açılabilir. “Günü kapat” üç adımlı bir sihirbazdır: kasa sayımı (bugün için; farklar
+  isteğe bağlı olarak sayım farkı olarak işlenir) → günün özeti → kapat ve yedeği gönder.
 - **Zararına satış uyarısı:** satış kuru elinizdeki malın ortalama maliyetinin altındaysa kaydetmeden önce tahmini zararı gösterip sorar.
 - **Hızlı tutar düğmeleri:** tutar kutusunun altında varlığa göre 100 · 500 · 1.000 gibi düğmeler.
 - **Büyük yazı** (başlıktaki “Aa”): bütün uygulama büyür; tercih hatırlanır.
@@ -36,6 +39,7 @@ Günlük işler için:
   geri alınır; kısmi iade yapılabilir.
 - **Satış kârı bildirimi:** satışı kaydedince “bu satıştan +₺X kâr” yazar.
 - **Başparmakla kaydet:** telefonda “İşlemi kaydet” düğmesi ekranın altında sabit durur.
+- **Müşteriye göster:** işlem formunda “Müşteriye göster”, kuyum hesabında “Göster”: tutar tam ekranda iri yazıyla; dokununca kapanır.
 - **Kayıt titreşimi:** kayıt ve silmede kısa titreşim (Android; iPhone desteklemez).
 
 Güvenilirlik:
@@ -49,6 +53,10 @@ Güvenilirlik:
 - **Hesap dökümü:** müşteriye verilen döküm “BELGE DEĞİLDİR” ibaresiyle; resmî fiş ya da fatura yerine geçmez.
 - **Kayıp kaydı** (Kasa → bakiye satırı → Kayıp): sahte çıkan para, ayarı düşük çıkan mal; maliyeti kârdan düşer.
 - **Yedek:** son yedekten beri işlem varsa her gün (20 işlem birikirse hemen) hatırlatır; gün kapatılınca yedek göndermeyi önerir.
+- **Şifreli yedek** (Rapor → İşlemler → Yedek parolası): parola belirlenirse yedekler şifrelenir (AES-GCM, PBKDF2 600.000 tur);
+  dosya parolasız açılamaz. Parola yalnızca bu telefonda durur; unutulursa yedek açılamaz.
+- **Otomatik kopyalar** (Rapor → İşlemler): telefon içinde her günün bir kopyası (son 7 gün) ve yedek yükleme / geri yükleme
+  öncesi durum (son 3) saklanır; tek dokunuşla geri yüklenir, geri alınabilir.
 
 **Veri koruma:** kayıt okunamazsa uygulama hiçbir şeyi ezmez; ham kayıt saklanır, indirilebilir ve okunabilen işlemlerle
 devam edilebilir. Depolama dolup kayıt yapılamazsa uyarır. Tarayıcıdan verinin kalıcı tutulması istenir.

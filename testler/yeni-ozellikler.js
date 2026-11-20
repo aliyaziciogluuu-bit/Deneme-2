@@ -152,8 +152,12 @@ const SEED = {
     await p.click('button[data-go="gun"]');
     await p.click('#dayPrev');                                                            // dün
     assert.ok(await p.isVisible('#btnCloseDay'));
-    await p.click('#btnCloseDay');
-    assert.ok(dialogs.some((d) => d.startsWith(fmt(iso(1)) + ' kapatılsın mı?')), dialogs.join('|'));
+    await p.click('#btnCloseDay');                                                        // geçmiş gün: sayım adımı yok
+    assert.equal((await txt('#wizTitle')), fmt(iso(1)) + ' özeti');
+    await p.click('#wizNext');
+    assert.equal((await txt('#wizTitle')), fmt(iso(1)) + ' kapatılsın mı?');
+    await p.uncheck('#wzBackup');
+    await p.click('#wizNext');
     st = await store();
     assert.deepEqual(st.closed.map((c) => c.d), [iso(1)]);
     assert.ok((await txt('#closeBar')).includes('Bu gün kapatıldı.') && await p.isVisible('#btnReopen'));
@@ -187,6 +191,8 @@ const SEED = {
     // bugünü kapat → hızlı işlem ve vitrinden alış da engellenir
     await p.click('button[data-go="gun"]'); await p.click('#modeDay'); await p.click('#dayToday');
     await p.click('#btnCloseDay');
+    assert.equal((await txt('#wizTitle')), 'Kasayı sayın');                               // bugün: önce sayım
+    await p.click('#wizNext'); await p.click('#wizNext'); await p.uncheck('#wzBackup'); await p.click('#wizNext');
     await p.click('button[data-go="islem"]');
     await p.click('#tplRow button:has-text("100,00 USD sat")');
     assert.ok((await txt('#fMsg')).includes('ve öncesi kapatıldı'));
