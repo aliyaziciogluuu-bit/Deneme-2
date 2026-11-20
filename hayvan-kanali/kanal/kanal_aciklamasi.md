@@ -26,3 +26,7 @@ Haftada üç yeni komşu: salı, perşembe ve cumartesi 18:00. 🌿
 "avludaki komşular" "evin çevresindeki hayvanlar" "bahçedeki hayvanlar" "yanlış bilinen hayvanlar" "hayvan efsaneleri" "doğa belgeseli" "türkçe belgesel" "hayvan belgeseli" "sağır yılan" kertenkele geko kirpi yarasa baykuş karga kırlangıç "kara kurbağası" "köy hayvanları" "yaban hayatı" "hayvanlar hakkında bilgiler" "bahçede yılan" "ev kertenkelesi" "hayvanlarla ilgili bilinmeyenler" doğa hayvanlar
 Kısa sürüm (uzun sürüm kabul edilmedi): "avludaki komşular" "hayvan belgeseli" "doğa belgeseli" "bahçedeki hayvanlar" "hayvan efsaneleri" kertenkele kirpi yarasa baykuş karga kırlangıç yılan
 Kabul edilen biçim (telefon uygulaması tırnak tanımıyor): avludaki komşular, hayvan belgeseli, doğa belgeseli, bahçedeki hayvanlar, hayvan efsaneleri, kertenkele, kirpi, yarasa, baykuş, karga, kırlangıç, yılan
+
+## Kanal ayarları (20 Kasım, kanal sahibi bilgisayardan yaptı)
+- Kitle: çocuklara özel değil · Yükleme varsayılanları: imza açıklaması, görünürlük Gizli, kategori Evcil Hayvanlar ve Hayvanlar, dil Türkçe, yorum incelemesi · Düzen: fragman yılan, öne çıkan geko, bölümler (Popüler, Shorts, oynatma listesi) · Açıklama: 'Haftada üç yeni komşu' · Filigran yüklendi · Yılan bitiş ekranı → geko.
+- Kalan: geko altyazısı.
