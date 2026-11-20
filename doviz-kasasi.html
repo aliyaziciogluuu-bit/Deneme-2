@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.9">
+<meta name="surum" content="2026-11-20.10">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -666,6 +666,43 @@
 
   .hero .split { font-size: 14.5px; font-weight: 600; color: var(--muted); min-height: 0; }
   .hero .split:empty { display: none; }
+
+  /* Müşteriye göster */
+  .show { position: fixed; inset: 0; z-index: 70; display: flex; flex-direction: column; align-items: center; justify-content: center;
+          gap: 2vh; padding: 24px; background: #0b1f18; color: #fff; text-align: center; font-variant-numeric: tabular-nums; cursor: pointer; }
+  .show[hidden] { display: none; }
+  .show-shop { font-weight: 700; color: #f4d27a; font-size: clamp(16px, 4vw, 30px); }
+  .show-k { font-size: clamp(18px, 5vw, 40px); opacity: .85; }
+  .show-total { font-size: clamp(48px, 15vw, 150px); font-weight: 800; letter-spacing: -.03em; line-height: 1.05; overflow-wrap: anywhere; }
+  .show-calc { font-size: clamp(18px, 5.4vw, 44px); opacity: .9; }
+  .show button { margin-top: 3vh; background: rgba(255, 255, 255, .12); color: #fff; }
+  #btnShow { min-height: 28px; font-size: 14px; }
+
+  /* Gün sonu sihirbazı */
+  .wiz { position: fixed; inset: 0; z-index: 65; background: rgba(0, 0, 0, .5); display: flex; align-items: flex-end; justify-content: center; }
+  .wiz[hidden] { display: none; }
+  .wiz-card { background: var(--surface); color: var(--ink); width: min(520px, 100%); max-height: 92vh; overflow: auto;
+              border-radius: 22px 22px 0 0; padding: 18px 18px calc(18px + env(safe-area-inset-bottom)); font-variant-numeric: tabular-nums; }
+  @media (min-width: 641px) { .wiz { align-items: center; } .wiz-card { border-radius: 22px; } }
+  .wiz-steps { display: flex; gap: 6px; margin-bottom: 10px; }
+  .wiz-steps span { flex: 1; text-align: center; font-size: 13px; font-weight: 600; color: var(--muted); padding: 6px 4px;
+                    border-radius: 10px; background: var(--surface-2); }
+  .wiz-steps span.on { background: var(--accent); color: var(--accent-ink); }
+  .wiz-steps span.done { color: var(--accent); }
+  .wiz-steps span[hidden] { display: none; }
+  .wiz-card h2 { margin: 4px 0 10px; font: 700 20px/1.25 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wiz-count { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+  .wiz-count label { font-size: 15px; color: var(--ink); font-weight: 650; }
+  .wiz-count .hint:not(.wiz-diff) { text-align: right; }
+  .wiz-count input { grid-column: 1 / 2; }
+  .wiz-diff { font-weight: 650; }
+  .wiz-row { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 16px; }
+  .wiz-row b { font-size: 18px; }
+  .wiz-sub { margin: -4px 0 6px; }
+  .wiz-warn { margin: 10px 0 6px; padding: 10px 12px; border-radius: 12px; background: var(--neg-bg); font-weight: 600; font-size: 14.5px; }
+  .wiz-card .tools { justify-content: flex-end; margin-top: 14px; }
+  .wiz-card .tools button[hidden] { display: none; }
+  .wiz-card label.check { margin-top: 8px; }
 </style>
 </head>
 <body>
@@ -820,6 +857,7 @@
         <div class="f full form-foot">
           <div>
             <div class="hint" id="fTotal">TL karşılığı: —</div>
+            <button type="button" class="linkbtn" id="btnShow" hidden>Müşteriye göster</button>
             <div class="msg" id="fMsg" role="status"></div>
           </div>
           <div class="tools">
@@ -923,6 +961,7 @@
           <div class="hint" id="kSrc"></div>
           <div class="tools">
             <button type="button" id="kClear">Temizle</button>
+            <button type="button" id="kShow">Göster</button>
             <button type="submit" id="kAdd">Listeye ekle</button>
             <button type="button" class="primary" id="kPostOne">Kasaya işle</button>
           </div>
@@ -1376,6 +1415,28 @@
       <button type="button" id="rcClose">Kapat</button>
       <button type="button" id="rcShare">Paylaş</button>
       <button type="button" class="primary" id="rcPrint">Yazdır</button>
+    </div>
+  </div>
+</div>
+
+<div class="show" id="show" role="dialog" aria-modal="true" aria-label="Müşteriye göster" hidden>
+  <div class="show-shop" id="showShop"></div>
+  <div class="show-k" id="showK"></div>
+  <div class="show-total" id="showTotal"></div>
+  <div class="show-calc" id="showCalc"></div>
+  <button type="button" id="showClose">Kapat</button>
+</div>
+
+<div class="wiz" id="wiz" role="dialog" aria-modal="true" aria-labelledby="wizTitle" hidden>
+  <div class="wiz-card">
+    <div class="wiz-steps"><span data-s="1">1 · Sayım</span><span data-s="2">2 · Özet</span><span data-s="3">3 · Kapat</span></div>
+    <h2 id="wizTitle"></h2>
+    <div id="wizBody"></div>
+    <div class="msg err" id="wizMsg" role="status"></div>
+    <div class="tools">
+      <button type="button" id="wizCancel">Vazgeç</button>
+      <button type="button" id="wizBack">Geri</button>
+      <button type="button" class="primary" id="wizNext">İleri</button>
     </div>
   </div>
 </div>
@@ -2480,6 +2541,113 @@
     return lines.join('\n');
   }
   // Gün sonu kapanışı: kapatılan gün ve öncesi kilitlenir; yalnızca son kapanış geri açılabilir
+  // ---------- Gün sonu sihirbazı: 1 sayım (yalnızca bugün) → 2 özet → 3 kapat ve yedek ----------
+  var wiz = null;
+  function wizAssets() {
+    var res = compute(state.tx), list = [{ c: TL, bal: res.tl }];
+    Object.keys(res.acc).sort(byCode).forEach(function (c) { if (res.acc[c].bal > EPS) list.push({ c: c, bal: res.acc[c].bal }); });
+    return list;
+  }
+  function openWiz(day) {
+    wiz = { day: day, step: day === today() ? 1 : 2, counts: {}, post: true, backup: true };
+    $('wiz').hidden = false;
+    renderWiz();
+  }
+  function wizDiffs() {
+    var out = [];
+    if (wiz.day !== today()) return out;
+    wizAssets().forEach(function (x) {
+      var v = wiz.counts[x.c];
+      if (v == null || !isFinite(v)) return;
+      var d = round4(v - x.bal);
+      if (Math.abs(d) >= 0.005) out.push({ c: x.c, bal: x.bal, counted: v, diff: d });
+    });
+    return out;
+  }
+  function wizRow(k, v, cls) {
+    return el('div', { class: 'wiz-row' }, [el('span', { text: k }), el('b', { class: cls || '', text: v })]);
+  }
+  function renderWiz() {
+    var w = wiz, body = $('wizBody');
+    body.textContent = '';
+    $('wizMsg').textContent = '';
+    Array.prototype.forEach.call(document.querySelectorAll('#wiz .wiz-steps span'), function (sp) {
+      var n = Number(sp.getAttribute('data-s'));
+      sp.className = n === w.step ? 'on' : n < w.step ? 'done' : '';
+      sp.hidden = n === 1 && w.day !== today();
+    });
+    $('wizBack').hidden = w.step === 1 || (w.step === 2 && w.day !== today());
+    $('wizNext').textContent = w.step === 3 ? 'Günü kapat' : 'İleri';
+    $('wizNext').className = w.step === 3 ? 'primary danger-fill' : 'primary';
+    if (w.step === 1) {
+      $('wizTitle').textContent = 'Kasayı sayın';
+      body.appendChild(el('p', { class: 'hint', text: 'Kasadaki gerçek miktarı yazın. Boş bırakılan kayıtlı miktara eşit sayılır.' }));
+      wizAssets().forEach(function (x) {
+        var id = 'wz-' + x.c, input = el('input', { type: 'text', id: id, inputmode: 'decimal', autocomplete: 'off', placeholder: fmtInput(round4(x.bal)) });
+        if (w.counts[x.c] != null) input.value = fmtInput(w.counts[x.c]);
+        var diff = el('span', { class: 'hint wiz-diff' });
+        var upd = function () {
+          var raw = input.value.trim(), v = raw ? parseNum(raw) : null;
+          if (raw && !(v >= 0)) { diff.textContent = 'geçersiz'; delete w.counts[x.c]; return; }
+          if (v == null) delete w.counts[x.c]; else w.counts[x.c] = v;
+          var d = v == null ? 0 : round4(v - x.bal);
+          diff.textContent = Math.abs(d) < 0.005 ? '' : (d > 0 ? 'fazla ' : 'eksik ') + fmtAmt(Math.abs(d), x.c);
+          diff.className = 'hint wiz-diff ' + (d > 0 ? 'pos' : d < 0 ? 'neg' : '');
+        };
+        input.addEventListener('input', upd);
+        upd();
+        body.appendChild(el('div', { class: 'wiz-count' }, [
+          el('label', { for: id, text: label(x.c) }), el('span', { class: 'hint', text: 'kayıtlı ' + fmtAmt(x.bal, x.c) }), input, diff
+        ]));
+      });
+      return;
+    }
+    if (w.step === 2) {
+      var rep = compute(state.tx, w.day).day, net = rep.profit - rep.expense, diffs = wizDiffs(), miss = missingDocs(w.day);
+      $('wizTitle').textContent = fmtDate(w.day) + ' özeti';
+      body.appendChild(wizRow('Net kâr', fmtSigned(net), signClass(net)));
+      var alt = altText([{ date: w.day, net: net }], true);
+      if (alt) body.appendChild(el('div', { class: 'hint wiz-sub', text: alt }));
+      if (splitText(rep, 'x', 'y')) body.appendChild(el('div', { class: 'hint wiz-sub', text: splitText(rep, 'Makastan ', ' · fiyat farkından ') }));
+      body.appendChild(wizRow('Masraf', fmtTL(rep.expense)));
+      body.appendChild(wizRow('İşlem sayısı', String(rep.count)));
+      body.appendChild(wizRow('TL kasası', fmtTL(w.day === today() && w.counts[TL] != null ? w.counts[TL] : rep.close.tl)));
+      if (diffs.length) {
+        body.appendChild(el('div', { class: 'wiz-warn', text: 'Sayım farkı: ' + diffs.map(function (d) {
+          return label(d.c) + ' ' + (d.diff > 0 ? 'fazla ' : 'eksik ') + fmtAmt(Math.abs(d.diff), d.c);
+        }).join(' · ') }));
+        var chk = el('input', { type: 'checkbox', id: 'wzPost' });
+        chk.checked = w.post;
+        chk.addEventListener('change', function () { w.post = chk.checked; });
+        body.appendChild(el('label', { class: 'check', for: 'wzPost' }, [chk, document.createTextNode(' Farkları kasaya işle (kayıtlı miktar sayılanla eşitlenir)')]));
+      }
+      if (miss.length) body.appendChild(el('div', { class: 'wiz-warn', text: 'Belge no girilmemiş ' + miss.length + ' işlem var.' }));
+      return;
+    }
+    $('wizTitle').textContent = fmtDate(w.day) + ' kapatılsın mı?';
+    body.appendChild(el('p', { text: 'Bu gün ve önceki günlerin işlemleri kilitlenir; yanlışlıkla değişmez. Gerekirse Rapor’dan kilit açılabilir.' }));
+    var bk = el('input', { type: 'checkbox', id: 'wzBackup' });
+    bk.checked = w.backup;
+    bk.addEventListener('change', function () { w.backup = bk.checked; });
+    body.appendChild(el('label', { class: 'check', for: 'wzBackup' }, [bk, document.createTextNode(' Kapattıktan sonra yedeği gönder (WhatsApp, e-posta ya da Drive)')]));
+  }
+  function wizNext() {
+    var w = wiz;
+    if (w.step < 3) { w.step++; renderWiz(); return; }
+    var before = snapshot(), diffs = wizDiffs();
+    try {
+      if (w.post) diffs.forEach(function (d) { adjustTo(d.c, d.counted, 'Gün sonu sayımı'); });
+    } catch (e) { state.tx = JSON.parse(before).tx; $('wizMsg').textContent = 'Sayım farkı işlenemedi: ' + e.message; return; }
+    var ts = new Date().toISOString();
+    diffs.forEach(function (d) { state.count.last[d.c] = { at: ts, counted: d.counted, recorded: d.bal }; });
+    state.closed.push({ d: w.day, at: ts });
+    $('wiz').hidden = true;
+    var backup = w.backup;
+    wiz = null;
+    save(); render();
+    toast(fmtDate(state.closed[state.closed.length - 1].d) + ' kapatıldı.');
+    if (backup) backupNow();
+  }
   function missingDocs(day) {
     var usesDocs = state.tx.some(function (t) { return t.doc; });
     if (!usesDocs) return [];
@@ -2513,15 +2681,7 @@
       return;
     }
     var close = el('button', { type: 'button', class: 'small primary', id: 'btnCloseDay', text: 'Günü kapat' });
-    close.addEventListener('click', function () {
-      var net = rep.profit - rep.expense;
-      if (!confirm(fmtDate(day) + ' kapatılsın mı?\nNet kâr: ' + fmtSigned(net) + '\nTL kasası: ' + fmtTL(rep.close.tl) +
-                   '\n\nBu gün ve önceki günlerin işlemleri kilitlenir; sonradan değiştirilemez (gerekirse kilit açılabilir).')) return;
-      state.closed.push({ d: day, at: new Date().toISOString() });
-      save(); render();
-      toast(fmtDate(day) + ' kapatıldı.');
-      if (confirm(fmtDate(day) + ' kapatıldı. Günün yedeğini şimdi gönderelim mi? (WhatsApp, e-posta ya da Drive)')) backupNow();
-    });
+    close.addEventListener('click', function () { openWiz(day); });
     bar.appendChild(close);
     bar.appendChild(el('span', { class: 'hint', text: 'Kapatınca bu günün işlemleri yanlışlıkla değişmez.' }));
   }
@@ -2680,6 +2840,29 @@
     return confirm(label(c) + ' satışı ortalama maliyetinizin altında.\nOrtalama maliyet: ' + fmtRate(avg, c) +
                    '\nSatış kuru: ' + fmtRate(rate, c) + '\nTahmini zarar: ' + fmtTL(loss) + '\n\nYine de kaydedilsin mi?');
   }
+  // Müşteriye göster: tutarı tam ekranda iri yazıyla gösterir; dokununca kapanır
+  function showCustomer(k, total, calc) {
+    $('showShop').textContent = $('bizName').textContent;
+    $('showK').textContent = k;
+    $('showTotal').textContent = total;
+    $('showCalc').textContent = calc;
+    $('show').hidden = false;
+    $('showClose').focus();
+  }
+  function showFromForm() {
+    var c = $('fCur').value, a = num('fAmount'), r = num('fRate');
+    if (isCash(c) || isArb() || !(a > 0 && r > 0)) return;
+    showCustomer(formType() === 'in' ? 'Size ödenecek' : 'Ödenecek tutar', fmtTL(a * r),
+                 withName(a, c) + ' × ' + fmtRate(r, c));
+  }
+  function showFromCalc() {
+    var r = kCompute();
+    if (r.error) { renderCalc(); $('kGram').focus(); return; }
+    var what = r.coin ? fmtNum(r.qty, 0) + ' ' + label(r.coin) : r.karat + ' ayar · ' + fmtNum(r.mode === 'buy' ? r.net : r.gram, 0, 3) + ' gr';
+    var calc = r.coin ? what + ' × ' + fmtTL(r.price - r.old)
+      : r.mode === 'sell' ? what + (r.labor > 0 ? ' · işçilik dahil' : '') : what + ' · has ' + fmtNum(r.pure, 2, 3) + ' gr';
+    showCustomer(r.mode === 'sell' ? 'Ödenecek tutar' : 'Size ödenecek', fmtTL(r.total), calc);
+  }
   // Kayıttan sonra bildirimde: ne kaydedildi, müşteriyle ne kadar para el değiştirdi
   function txSummary(t) {
     if (isCash(t.cur)) return (t.exp ? 'Masraf ' : t.type === 'in' ? 'TL girişi ' : 'TL çıkışı ') + fmtTL(t.amount) + ' kaydedildi';
@@ -2822,8 +3005,10 @@
           : (diff > 0 ? 'TL kasasına girecek: ' : 'TL kasasından çıkacak: ') + fmtTL(Math.abs(diff)));
       }
       $('fTotal').textContent = parts.join(' · ') || 'Çapraz kur: —';
+      $('btnShow').hidden = true;
       return;
     }
+    $('btnShow').hidden = isCash(c) || !(a > 0 && r > 0);
     var goesIn = isCash(c) ? formType() === 'in' : formType() === 'out';
     var what = isCash(c) ? (goesIn ? 'TL kasasına girecek: ' : 'TL kasasından çıkacak: ')
                          : (goesIn ? 'Müşteriden alın: ' : 'Müşteriye ödeyin: ');
@@ -3662,6 +3847,13 @@
     });
     $('kForm').addEventListener('submit', kAddLine);
     $('kPostOne').addEventListener('click', kPostOne);
+    $('kShow').addEventListener('click', showFromCalc);
+    $('wizNext').addEventListener('click', wizNext);
+    $('wizBack').addEventListener('click', function () { wiz.step--; renderWiz(); });
+    $('wizCancel').addEventListener('click', function () { $('wiz').hidden = true; wiz = null; });
+    $('btnShow').addEventListener('click', showFromForm);
+    $('show').addEventListener('click', function () { $('show').hidden = true; });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !$('show').hidden) $('show').hidden = true; });
     $('kClear').addEventListener('click', function () {
       kHasTouched = false;
       $('kGram').value = '';

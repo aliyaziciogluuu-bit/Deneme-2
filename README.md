@@ -30,7 +30,8 @@ Günlük işler için:
 - **Otomatik kur** (Kasa → Kurlarım): piyasa fiyatına eklenecek farkı bir kez yazın; fiyatlar güncellendikçe kurunuz değişir.
 - **Eski seri / yıpranmış döviz:** dövizi alırken işaretlenir; kurdan sizin farkınız düşülür, işleme “Eski seri” notu düşer.
 - **Borç hatırlatma** (Defter → Cari): size borcu olan müşteriye hazır WhatsApp mesajı.
-- **Gün sonu kapanışı** (Rapor): “Günü kapat” o günü ve öncesini kilitler; işlemler yanlışlıkla değişmez. Son kapanış geri açılabilir.
+- **Gün sonu kapanışı** (Rapor): “Günü kapat” o günü ve öncesini kilitler; işlemler yanlışlıkla değişmez. Son kapanış geri açılabilir. “Günü kapat” üç adımlı bir sihirbazdır: kasa sayımı (bugün için; farklar
+  isteğe bağlı olarak sayım farkı olarak işlenir) → günün özeti → kapat ve yedeği gönder.
 - **Zararına satış uyarısı:** satış kuru elinizdeki malın ortalama maliyetinin altındaysa kaydetmeden önce tahmini zararı gösterip sorar.
 - **Hızlı tutar düğmeleri:** tutar kutusunun altında varlığa göre 100 · 500 · 1.000 gibi düğmeler.
 - **Büyük yazı** (başlıktaki “Aa”): bütün uygulama büyür; tercih hatırlanır.
@@ -38,6 +39,7 @@ Günlük işler için:
   geri alınır; kısmi iade yapılabilir.
 - **Satış kârı bildirimi:** satışı kaydedince “bu satıştan +₺X kâr” yazar.
 - **Başparmakla kaydet:** telefonda “İşlemi kaydet” düğmesi ekranın altında sabit durur.
+- **Müşteriye göster:** işlem formunda “Müşteriye göster”, kuyum hesabında “Göster”: tutar tam ekranda iri yazıyla; dokununca kapanır.
 - **Kayıt titreşimi:** kayıt ve silmede kısa titreşim (Android; iPhone desteklemez).
 
 Güvenilirlik:

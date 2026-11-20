@@ -162,7 +162,9 @@ const MARKET = { USD: { Buying: 50.4, Selling: 50.5, Change: 0 }, HAS: { Buying:
     assert.ok((await txt('#backupText')).startsWith('Son yedekten beri'), await txt('#backupText'));
     await p.click('button[data-go="gun"]');
     await p.click('#btnCloseDay');
-    assert.ok(dialogs.some((d) => d.includes('Günün yedeğini şimdi gönderelim mi?')), dialogs.join('|'));
+    await p.click('#wizNext'); await p.click('#wizNext');
+    assert.ok(await p.isChecked('#wzBackup'));                                       // yedek varsayılan olarak işaretli
+    await p.click('#wizNext');
     await p.waitForFunction(() => window.__shared === 1);
     await p.waitForFunction(() => JSON.parse(localStorage.getItem('doviz-kasasi-ui')).backupTx > 3);
     await p.click('button[data-go="islem"]');
