@@ -116,6 +116,85 @@
      "x": 0.62
     }
    ]
+  },
+  {
+   "ad": "s3-yavru",
+   "baslik": "Yumurtlamayan Kertenkele! 🐍 #shorts",
+   "aciklama": "Sağır yılan yumurtlamıyor, yavru doğuruyor: yumurtalar annenin vücudunun içinde gelişiyor, yavrular doğar doğmaz kendi başlarına yaşıyor. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)\"\n\n#shorts #sağıryılan #kertenkele #yavru #doğa",
+   "etiketler": [
+    "sağır yılan",
+    "kertenkele",
+    "yavru doğuran",
+    "shorts",
+    "doğa"
+   ],
+   "ust_yazi": [
+    "YUMURTA YOK!",
+    "Yavru doğuruyor"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Sağır yılan yumurtlamıyor, yavru doğuruyor.",
+     "gorsel": "orman",
+     "klip": "orman",
+     "kx": 0.65,
+     "kz": 1.5,
+     "ky": 1.0
+    },
+    {
+     "yazi": "Yumurtalar annenin vücudunun içinde gelişiyor.",
+     "gorsel": "yavrular",
+     "x": 0.72,
+     "aw": 0.6,
+     "ay": 0.7,
+     "w": 0.75,
+     "y": 0.66
+    },
+    {
+     "yazi": "Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor.",
+     "gorsel": "yavrular",
+     "x": 0.7,
+     "aw": 0.6,
+     "ay": 0.7,
+     "w": 0.75,
+     "y": 0.66
+    },
+    {
+     "yazi": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.",
+     "gorsel": "yavrular",
+     "x": 0.7,
+     "x2": 0.62,
+     "aw": 0.65,
+     "ay": 0.67,
+     "w": 0.8,
+     "y": 0.64
+    },
+    {
+     "yazi": "Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.",
+     "gorsel": "kis",
+     "x": 0.5,
+     "aw": 0.6,
+     "ay": 0.7,
+     "x2": 0.58,
+     "w": 0.8,
+     "y": 0.66
+    },
+    {
+     "yazi": "Bazen aynı kış sığınağını birçok birey paylaşıyor.",
+     "gorsel": "kis",
+     "x": 0.58,
+     "aw": 0.7,
+     "ay": 0.67,
+     "x2": 0.55,
+     "w": 0.85,
+     "y": 0.64
+    },
+    {
+     "yazi": "Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.62
+    }
+   ]
   }
  ]
 }

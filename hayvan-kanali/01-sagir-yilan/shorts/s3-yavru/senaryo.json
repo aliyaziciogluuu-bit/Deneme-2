@@ -1,0 +1,52 @@
+{
+  "dikey": true,
+  "baslik": "Yumurtlamayan Kertenkele! 🐍 #shorts",
+  "aciklama": "Sağır yılan yumurtlamıyor, yavru doğuruyor: yumurtalar annenin vücudunun içinde gelişiyor, yavrular doğar doğmaz kendi başlarına yaşıyor. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)\"\n\n#shorts #sağıryılan #kertenkele #yavru #doğa",
+  "etiketler": [
+    "sağır yılan",
+    "kertenkele",
+    "yavru doğuran",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "YUMURTA YOK!",
+    "Yavru doğuruyor"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/bahce_kuslar.ogg",
+    "seviye": 0.12,
+    "kaynak": "“Birdsong mild sunny day”, stephan, Wikimedia Commons (kamu malı)"
+  },
+  "ana_video": "Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)",
+  "sahneler": [
+    {
+      "ad": "Yumurtlamayan Kertenkele! 🐍 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Sağır yılan yumurtlamıyor, yavru doğuruyor."
+        },
+        {
+          "yazi": "Yumurtalar annenin vücudunun içinde gelişiyor."
+        },
+        {
+          "yazi": "Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor."
+        },
+        {
+          "yazi": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor."
+        },
+        {
+          "yazi": "Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor."
+        },
+        {
+          "yazi": "Bazen aynı kış sığınağını birçok birey paylaşıyor."
+        },
+        {
+          "yazi": "Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

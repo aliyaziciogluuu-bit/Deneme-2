@@ -110,6 +110,76 @@
      "x": 0.35
     }
    ]
+  },
+  {
+   "ad": "s3-goz",
+   "baslik": "Göz Kapağı Olmayan Kertenkele! 🦎 #shorts",
+   "aciklama": "Ev kertenkelesinin göz kapakları yok: gözleri şeffaf bir pulla kaplı ve gözünü diliyle yalayarak temizliyor. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)\"\n\n#shorts #evkertenkelesi #geko #kertenkele #doğa",
+   "etiketler": [
+    "ev kertenkelesi",
+    "geko",
+    "kertenkele",
+    "göz",
+    "shorts"
+   ],
+   "ust_yazi": [
+    "GÖZ KAPAĞI YOK!",
+    "Gözünü yalıyor"
+   ],
+   "cumleler": [
+    {
+     "yazi": "Ev kertenkelesinin göz kapakları yok.",
+     "gorsel": "bakisma",
+     "klip": "goz_yalama",
+     "kx": 0.35,
+     "kz": 1.2,
+     "ky": 0.4
+    },
+    {
+     "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
+     "gorsel": "bakisma",
+     "x": 0.5,
+     "aw": 0.6,
+     "ay": 0.4,
+     "w": 0.75,
+     "y": 0.38
+    },
+    {
+     "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
+     "gorsel": "bakisma",
+     "klip": "goz_yalama",
+     "kx": 0.35,
+     "kz": 1.2,
+     "ky": 0.4
+    },
+    {
+     "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
+     "gorsel": "kapak",
+     "x": 0.67,
+     "aw": 0.6,
+     "ay": 0.5,
+     "x2": 0.62,
+     "w": 0.75,
+     "y": 0.45
+    },
+    {
+     "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
+     "gorsel": "avlanma",
+     "klip": "avlanma",
+     "kx": 0.5
+    },
+    {
+     "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+     "gorsel": "mutfak_lamba",
+     "klip": "mutfak_lamba",
+     "kx": 0.75
+    },
+    {
+     "yazi": "Tam videosu kanalımızda.",
+     "gorsel": "kapanis",
+     "x": 0.62
+    }
+   ]
   }
  ]
 }

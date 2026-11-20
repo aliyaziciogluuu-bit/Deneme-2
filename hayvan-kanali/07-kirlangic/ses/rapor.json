@@ -1,0 +1,30 @@
+{
+ "000": {
+  "yazi": "Nisan geliyor; saçağa bakıyorsun, geçen yılki çamur yuva yerinde ve bir kuş ona konuyor.",
+  "duyulan": "Nisan geliyor, saçığa bakıyorsun, geçen yılki çamur yuva yerinde ve bir kuş ona konuyor.",
+  "hata": 1,
+  "sure": 6.16,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Kırlangıç gerçekten her yıl aynı yuvaya mı dönüyor?",
+  "duyulan": "Kırlangıç gerçekten her yıl aynı yuvaya mı dönüyor?",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Dünyadaki çalışmalara göre evet: aynı kuşlar sık sık yıllarca aynı yerde üreyebiliyor.",
+  "duyulan": "Dünyadaki çalışmalara göre evet, aynı kuşlar sık sık yıllarca aynı yerde üreyebiliyor.",
+  "hata": 0,
+  "sure": 5.32,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Halkalı bir kuşun İngiltere'den Güney Afrika'ya yolculuğunu ve kırk sekiz yıl kullanıldığı bildirilen bir yuvayı anlatacağım.",
+  "duyulan": "Halkalı bir kuşun İngiltere'den Güney Afrika'ya yolculuğunu ve 48 yıl kullanıldığı bildirilen bir yuvayı anlatacağım.",
+  "hata": 0,
+  "sure": 6.66,
+  "uygun": true
+ }
+}
