@@ -21,3 +21,6 @@ Her hafta yeni bir komşu. 🌿
 - Her bilgi kaynaklı; senaryo yayından önce bağımsız bir kontrolcüye denetletilir
 - Güvenlik bilgisi (zehirli türler, ısırık) asla basitleştirilmez
 - Görseller hayvanın gerçek anatomisine uygun olmalı (ör. sağır yılanda bacak yok); hatalı görsel kullanılmaz
+
+## Kanal anahtar kelimeleri (20 Kasım; Studio → Ayarlar → Kanal → Temel bilgiler → Anahtar kelimeler)
+"avludaki komşular" "evin çevresindeki hayvanlar" "bahçedeki hayvanlar" "yanlış bilinen hayvanlar" "hayvan efsaneleri" "doğa belgeseli" "türkçe belgesel" "hayvan belgeseli" "sağır yılan" kertenkele geko kirpi yarasa baykuş karga kırlangıç "kara kurbağası" "köy hayvanları" "yaban hayatı" "hayvanlar hakkında bilgiler" "bahçede yılan" "ev kertenkelesi" "hayvanlarla ilgili bilinmeyenler" doğa hayvanlar
