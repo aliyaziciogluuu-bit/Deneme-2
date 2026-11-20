@@ -14,3 +14,7 @@
 - 9/9 kaynak açıldı ve kaynaklar/ altına arşivlendi; bütün alıntılar arşiv metninde birebir; künyeler sayfadan (Per 2016 yazar yazımı ve K2 başlığı düzeltildi).
 - Dayanaksız: 039 (yuvanın altını silmek). Kısmen: 009, 018, 030, 036, 051, 054, 062–063. Çelişki: tr/en Vikipedi kuluçka bilgisi.
 - Senarist Tur 2: editör ve arşivci bulguları birlikte verildi.
+
+## Senarist Tur 2 (20 Kasım)
+- Editör ve arşivci maddeleri uygulandı; metin_kontrol 0/0. Soru 0:07, cevap 0:11, vaat 0:17 (tek cümle), halkalı kuş 0:26, en uzun sorusuz aralık ~23 sn, "Peki" 4. Başlık: "Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)"; ana küçük resim B.
+- Süre 56 cümle (~4:55) → patron: 3:00 sonrasına kaynaklı bölüm eklensin (hedef 62–66 cümle).
