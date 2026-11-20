@@ -1,6 +1,6 @@
 # Deneme-2
 
-## Yazıcıoğlu Çilek Döviz — Döviz Kasası
+## Yazıcıoğlu Çilek Döviz
 
 `doviz-kasasi.html` — döviz, altın ve gümüş alış–satışlarını takip eden tek sayfalık uygulama:
 TL kasası, kendi alış–satış kur tablonuz, arbitraj, kupür bazında kasa sayımı, masraf ve
@@ -20,7 +20,7 @@ Kuyum tarafı:
   Net kâr TL’nin yanında dolar ve has altın olarak da gösterilir. Açık rapor “Paylaş” ile WhatsApp ya da e-postaya gönderilir.
 - **Makas kârı ve fiyat farkı:** alım-satım kârı ikiye ayrılır: makas (satış kuru − satış anındaki kendi alış kurunuz) ve
   fiyat farkı (elinizdeki malın siz tutarken değer kazanması). Ana sayfada, raporda, analizde ve paylaşılan raporda görünür.
-- **Vitrin ekranı** (`vitrin.html`, Kasa → Kurlarım içinden açılır): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda Döviz Kasası’nın kur
+- **Vitrin ekranı** (`vitrin.html`, Kasa → Kurlarım içinden açılır): dükkândaki TV için tam ekran fiyat panosu. Aynı cihazda uygulamanın kur
   tablosunu canlı gösterir; ayrı bir TV ya da tablette piyasa fiyatına kendi farkınızı ekleyerek çalışır.
 
 Günlük işler için:
@@ -83,7 +83,7 @@ api.gold-api.com (yedek).
 
 ## BIST Bot — Borsa İstanbul için kurallı al-sat botu
 
-`borsa-bot/` klasörü Döviz Kasası'ndan bağımsız ikinci bir araçtır: her işlem günü kapanıştan sonra
+`borsa-bot/` klasörü Yazıcıoğlu Çilek Döviz uygulamasından bağımsız ikinci bir araçtır: her işlem günü kapanıştan sonra
 BIST 100 hisselerini temel + teknik analizle (hibrit) puanlar, bir kâğıt portföy tutar ve ertesi sabahın
 emir listesini hazırlar. İsteğe bağlı olarak, Windows'ta Matriks IQ açıkken emirleri Telegram onayınızla
 aracı kuruma kendisi gönderir. Kurulum, geçmiş testi sonuçları ve riskler için
