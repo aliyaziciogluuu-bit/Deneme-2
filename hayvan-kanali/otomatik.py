@@ -152,6 +152,29 @@ def kaynak_erisim(d, sen):
             d.uyari.append(f"kaynak açılamıyor (HTTP {kod or 'yok'}): {adaylar[0]} — açılamayan kaynak listede kalmaz")
 
 
+def kapak_denetle(d, klasor, sen):
+    """Kapak seçenekleri gerçekten farklı mı; alt yazı başlık parantezini tekrar ediyor mu (20 Kasım, kırlangıç dersi)."""
+    import hashlib
+    dosyalar = [klasor / f for f in ("kapak.jpg", "kapak_B.jpg", "kapak_C.jpg") if (klasor / f).exists()]
+    ozet = {}
+    for f in dosyalar:
+        h = hashlib.md5(f.read_bytes()).hexdigest()
+        if h in ozet:
+            d.hata.append(f"kapak: {f.name} ile {ozet[h]} birebir aynı dosya (A/B testine aynı resim gider); kapak_alternatifler ana kapağı içermemeli")
+        ozet[h] = f.name
+    kapak = sen.get("kapak") or {}
+    for alt in sen.get("kapak_alternatifler", []):
+        if alt.get("buyuk") == kapak.get("buyuk") and alt.get("kucuk") == kapak.get("kucuk"):
+            d.hata.append("kapak: kapak_alternatifler içinde ana kapağın aynısı var")
+    baslik = sen.get("baslik", "")
+    if "(" in baslik and kapak.get("kucuk"):
+        parantez = set(sade(baslik[baslik.index("("):]).split()) if isinstance(sade(baslik), str) else set(sade(baslik[baslik.index("("):]))
+        kucuk = set(sade(kapak["kucuk"]).split()) if isinstance(sade(kapak["kucuk"]), str) else set(sade(kapak["kucuk"]))
+        ortak = {k for k in parantez & kucuk if len(k) > 3}
+        if ortak:
+            d.uyari.append(f"kapak: alt yazı başlık parantezindeki sözcükleri tekrar ediyor ({', '.join(sorted(ortak))}); alt yazı yeni bir vaat taşımalı")
+
+
 def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=False):
     d = Denetim(klasor.name)
     sen = oku(klasor / "senaryo.json")
@@ -219,6 +242,7 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
             sc = oku(sd / "cekimler.json")
             if sc and dosya_denetle(d, sd, sc["cekimler"], f"Shorts {sd.name}"):
                 yaz(sd / "cekimler.json", sc)
+    kapak_denetle(d, klasor, sen)
     # 6. Güncellik ve son kontrol
     uretilecek = []
     if onkontrol:  # hat.py oluşturmadan önce: eksik ses oluşturmayı durdurur, eskilik sorulmaz

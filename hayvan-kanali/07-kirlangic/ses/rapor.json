@@ -21,11 +21,12 @@
   "uygun": true
  },
  "003": {
-  "yazi": "Halkalı bir kuşun İngiltere'den Güney Afrika'ya yolculuğunu ve kırk sekiz yıl kullanıldığı bildirilen bir yuvayı anlatacağım.",
-  "duyulan": "Halkalı bir kuşun İngiltere'den Güney Afrika'ya yolculuğunu ve 48 yıl kullanıldığı bildirilen bir yuvayı anlatacağım.",
+  "yazi": "Halkalı bir kuşun İngiltere'den Güney Afrika'ya yolculuğunu ve kırk sekiz yıl kullanıldığı bildirilen bir yuvayı anlatıyoruz.",
+  "duyulan": "Halkalı bir kuşun İngiltere'den Güney Afrika'ya yolculuğunu ve 48 yıl kullanıldığı bildirilen bir yuvayı anlatıyoruz.",
   "hata": 0,
-  "sure": 6.66,
-  "uygun": true
+  "sure": 7.3,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
   "yazi": "Peki kırlangıç kışın nereye gidiyor?",
@@ -147,11 +148,12 @@
   "uygun": true
  },
  "021": {
-  "yazi": "Asıl neden ne, yuvanın içinde ne olabilir?",
-  "duyulan": "Asıl neden ne, yuvanın içinde neye olabilir?",
-  "hata": 1,
-  "sure": 2.94,
-  "uygun": true
+  "yazi": "Yuvanın içinde ne olabilir?",
+  "duyulan": "Yuvanın içinde ne olabilir?",
+  "hata": 0,
+  "sure": 1.62,
+  "uygun": true,
+  "tek_basina": true
  },
  "022": {
   "yazi": "Yumurta ya da yavru olabilir.",
