@@ -29,10 +29,11 @@
  },
  "004": {
   "yazi": "İki yüz yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.",
-  "duyulan": "200 yıldan fazla önce Gilbert White bile göç mü, kış uykusum olduğundan emin değildi.",
-  "hata": 2,
-  "sure": 5.5,
-  "uygun": false
+  "duyulan": "200 yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.",
+  "hata": 0,
+  "sure": 5.88,
+  "uygun": true,
+  "tek_basina": true
  },
  "005": {
   "yazi": "Tam videosu kanalımızda.",

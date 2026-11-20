@@ -34,7 +34,7 @@ DENEME = 4
 
 
 # Yabancı/Latince kelimelerin konuşma tanımada çıkan eşdeğer yazımları (okuma doğru, yalnızca yazım farklı)
-ESDEGER = {"saçığa": "saçağa", "saça": "saçağa", "ineyin": "ineğin", "evcili": "evcil", "sihil": "siğil", "kırkırlangıcı": "kır kırlangıcı", "geco": "geko", "gecko": "geko", "gecolar": "gekolar", "turkicus": "turcicus", "turkikus": "turcicus",
+ESDEGER = {"saçığa": "saçağa", "saça": "saçağa", "ineyin": "ineğin", "evcili": "evcil", "sihil": "siğil", "kırkırlangıcı": "kır kırlangıcı", "hırlangıcının": "kırlangıcının", "hırlangıcı": "kırlangıcı", "geco": "geko", "gecko": "geko", "gecolar": "gekolar", "turkicus": "turcicus", "turkikus": "turcicus",
            "hemidaktilus": "hemidactylus", "ortadoğu": "orta doğu", "ciyaklama": "cıyaklama", "koçi": "kotschy",
            "kotschi": "kotschy", "anguis": "anguis", "kolkika": "colchica", "fracilis": "fragilis",
            "plinyus": "plinius", "plinyos": "plinius", "plinyusa": "pliniusa", "plinyosa": "pliniusa", "plinyusun": "pliniusun", "sütdeki": "sütteki", "plinyosun": "pliniusun", "atena": "athena", "atenanın": "athenanın", "salia": "salya", "sendeliyen": "sendeleyen", "alakarga": "ala karga", "saksağın": "saksağan", "saksağını": "saksağanı", "saksahan": "saksağan", "saksahanlar": "saksağanlar", "cmye": "santimetreye", "cm": "santimetre", "martzlaff": "marzluff", "marslav": "marzluff", "marzloff": "marzluff", "marzloz": "marzluff", "betya": "betty"}
@@ -61,6 +61,8 @@ def sayi_yazi(n: int) -> str:
 
 def sade(metin: str):
     metin = re.sub(r"(\d)[.,](\d{3})\b", r"\1\2", metin)
+    metin = re.sub(r"%\s*(\d+)", r"yüzde \1", metin)  # ses tanıma "yüzde yetmişi" → "%70'i" yazıyor (20 Kasım)
+    metin = re.sub(r"(\d+)['’]([a-zçğıöşü]+)", lambda m: " " + sayi_yazi(int(m.group(1))) + m.group(2) + " ", metin)  # 70'i → yetmişi
     metin = re.sub(r"\d+", lambda m: " " + sayi_yazi(int(m.group())) + " ", metin)
     metin = metin.replace("I", "ı").replace("İ", "i").lower()
     metin = re.sub(r"['’]", "", metin).translate(str.maketrans("âîû", "aiu"))

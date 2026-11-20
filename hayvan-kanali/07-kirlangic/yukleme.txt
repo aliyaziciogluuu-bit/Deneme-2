@@ -11,23 +11,22 @@ Yavru ya da hasta bir kuş bulursan bir uzmana ya da veterinere başvur; kararı
 
 Sıradaki komşu: kara kurbağası.
 
-Bitiş ekranı: sıradaki video.
 
 Bölümler:
 0:00 Saçaktaki yuva
 0:24 Kışın nereye gidiyor?
-0:46 Ne zaman gidip ne zaman dönüyor?
-1:13 Yuva neden bu kadar değerli?
-1:37 Yuvayı bozarsan ne olur?
-1:54 Yuvanın içinde ne var?
-2:15 Yuvaya dokunmadan önce
-2:33 Yuvanın altı pislenirse
+0:47 Ne zaman gidip ne zaman dönüyor?
+1:14 Yuva neden bu kadar değerli?
+1:38 Yuvayı bozarsan ne olur?
+1:55 Yuvanın içinde ne var?
+2:14 Yuvaya dokunmadan önce
+2:32 Yuvanın altı pislenirse
 2:53 Kırlangıç sana ne veriyor?
 3:23 Saçağındaki hangi kırlangıç?
 3:59 Yuvanın sahipleri
 4:24 Yuvadan yavru düşerse
-4:52 Yavruyu tuttuktan sonra
-5:23 Kapanış
+4:51 Yavruyu tuttuktan sonra
+5:22 Kapanış
 
 🌿 Senin oralarda saçağa yuva yapan kırlangıç var mı, her yıl geri geliyor mu? Yorumlarda yaz.
 
@@ -41,7 +40,7 @@ Kaynaklar:
 - Umurhan, B. & Karaardıç, H. (2020). KIR KIRLANGIÇLARI (Hirundo rustica) İLE UYGULAMALI ÇEVRE EĞİTİMİ. Doğanın Sesi 5: 37–47. dergipark.org.tr/tr/pub/dosder/article/830899
 - RSPCA – Found a Grounded Swift, Swallow or House Martin - What To Do: rspca.org.uk/adviceandwelfare/wildlife/birds/baby/swifts
 - RSPCA – Found a Baby Bird Out of a Nest?: rspca.org.uk/adviceandwelfare/wildlife/birds/baby
-- RSPCA – Sick or injured birds: rspca.org.uk/adviceandwelfare/wildlife/birds/injured
+- RSPCA – Found a Sick or Injured Bird: rspca.org.uk/adviceandwelfare/wildlife/birds/injured
 
 Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. Bilgiler yukarıdaki kaynaklardan derlenmiştir.
 
