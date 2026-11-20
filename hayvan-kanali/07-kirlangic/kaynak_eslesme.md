@@ -1,4 +1,4 @@
-# Kaynak eşleme – 07-kirlangic (düzeltme turu, 56 cümle, 0 tabanlı)
+# Kaynak eşleme – 07-kirlangic (düzeltme turu, 62 cümle, 0 tabanlı)
 
 Biçim: cümle no → kaynak → kaynakta geçen ifade → durum. Arşiv metinleri `kaynaklar/` altında; alıntılar oradaki dosyada boşluklar normalize edilerek birebir aranıp doğrulandı (aşağıda dosya adı).
 
@@ -87,9 +87,18 @@ Hepsi açıldı. Genel çekince: K1, K2, K8, K9 Türkiye'ye özgü değildir; il
 050. K8 → "don't touch or handle sick or dead birds. If you have to, thoroughly wash your hands" (arşiv metninde kesme işaretli yazım: don’t).
 051. K8 → "call a wildlife rehabilitator", "take it to a vet". Kurum olarak kanal kuralı gereği DKMP şube müdürlüğü.
 
+## Yuvanın sahipleri (3:00 sonrası ek bölüm)
+052. Soru.
+053. K1 → "The male barn swallow returns to the breeding grounds before the females and selects a nest site" (kır kırlangıcı; kaynaklar/barn_swallow_wiki.txt).
+054. K1 → "Survival, with suitable annual refurbishment, for 10–15 years is regular" (kırlangıç yuvaları, kültür bölümü).
+055. K2 → "House sparrows frequently attempt to take over the nest during construction" (ev kırlangıcı; kaynaklar/house_martin_wiki.txt).
+056. K1 → "The fledged young stay with, and are fed by, the parents for about a week after leaving the nest" (kır kırlangıcı).
+057. K1 → "Occasionally, first-year birds from the first brood will assist in feeding the second brood" (kır kırlangıcı).
+Not: "Yuvadaki sağlıklı yavru" durumu için kırlangıca özgü açık kaynak bulunamadı (RSPCA kırlangıç sayfası yalnızca yere inmiş yavruyu anlatır); eklenmedi.
+
 ## Kapanış
-052. Özet; 002, 015, 014'e dayanır. ("sık sık" yerine "dönebiliyor".)
-053. Yorum sorusu. 054. "Sıradaki komşu" (fikirler.json sıra 8). 055. Kanal kapanış kalıbı.
+058. Özet; 002, 015, 014'e dayanır. ("sık sık" yerine "dönebiliyor".)
+059. Yorum sorusu. 060. "Sıradaki komşu" (fikirler.json sıra 8). 061. Kanal kapanış kalıbı.
 
 ## Shorts
 - s1-yolculuk: 1→005 (+Güney Afrika'da bulundu; "kışı Afrika'da geçirebiliyor"), 2→006, 3→009, 4→011, 5→007 (ses alanı), 6 kanal kalıbı.
