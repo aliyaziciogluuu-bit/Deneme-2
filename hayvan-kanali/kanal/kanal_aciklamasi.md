@@ -9,7 +9,7 @@ Hepsi senin komşun, ama çoğunu yanlış tanıyoruz.
 
 Bu kanalda evinin çevresinde yaşayan hayvanları anlatıyoruz: hakkında anlatılan efsaneleri, bilimin söylediklerini ve onlarla karşılaştığında ne yapman gerektiğini. Korkutmak için değil, tanıtmak için. Her bölümün açıklamasında kaynaklar yer alır.
 
-Her hafta yeni bir komşu. 🌿
+Haftada üç yeni komşu: salı, perşembe ve cumartesi 18:00. 🌿
 
 ## Görsel kimlik
 - Çizim tarzı: elle boyanmış guaj/suluboya + ince mürekkep çizgi, yosun yeşili, toprak sarısı, kiremit tonları (gorsel.py STIL)
@@ -25,3 +25,4 @@ Her hafta yeni bir komşu. 🌿
 ## Kanal anahtar kelimeleri (20 Kasım; Studio → Ayarlar → Kanal → Temel bilgiler → Anahtar kelimeler)
 "avludaki komşular" "evin çevresindeki hayvanlar" "bahçedeki hayvanlar" "yanlış bilinen hayvanlar" "hayvan efsaneleri" "doğa belgeseli" "türkçe belgesel" "hayvan belgeseli" "sağır yılan" kertenkele geko kirpi yarasa baykuş karga kırlangıç "kara kurbağası" "köy hayvanları" "yaban hayatı" "hayvanlar hakkında bilgiler" "bahçede yılan" "ev kertenkelesi" "hayvanlarla ilgili bilinmeyenler" doğa hayvanlar
 Kısa sürüm (uzun sürüm kabul edilmedi): "avludaki komşular" "hayvan belgeseli" "doğa belgeseli" "bahçedeki hayvanlar" "hayvan efsaneleri" kertenkele kirpi yarasa baykuş karga kırlangıç yılan
+Kabul edilen biçim (telefon uygulaması tırnak tanımıyor): avludaki komşular, hayvan belgeseli, doğa belgeseli, bahçedeki hayvanlar, hayvan efsaneleri, kertenkele, kirpi, yarasa, baykuş, karga, kırlangıç, yılan
