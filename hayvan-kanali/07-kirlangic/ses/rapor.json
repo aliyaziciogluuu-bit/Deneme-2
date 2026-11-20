@@ -222,5 +222,40 @@
   "hata": 0,
   "sure": 6.88,
   "uygun": true
+ },
+ "032": {
+  "yazi": "Kırlangıç sana ne veriyor?",
+  "duyulan": "Kırlangüt sana ne veriyor?",
+  "hata": 1,
+  "sure": 1.5,
+  "uygun": false
+ },
+ "033": {
+  "yazi": "Uçarken sinek ve sivrisinek gibi küçük böcekleri yakalıyor.",
+  "duyulan": "Uçarken sinek ve sivrisinek gibi küçük böcekleri yakalıyor.",
+  "hata": 0,
+  "sure": 3.48,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Uluslararası bir kaynağa göre, kır kırlangıcının üreme bölgelerinde besininin yaklaşık yüzde yetmişi iri sinek.",
+  "duyulan": "Uluslararası bir kaynağa göre kırkırlangıcının üreme bölgelerinde besininin yaklaşık yüzde 70'i irisinek.",
+  "hata": 0,
+  "sure": 6.84,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Bir Türkçe makale, yavrulara getirilen besinlerin tarım ilacı nedeniyle zehirli olma ihtimalini sorunlar arasında sayıyor.",
+  "duyulan": "Bir Türkçe makale, yavrulara getirilen besinlerin tarım ilacı nedeniyle zehirli olma ihtimalini sorunlar arasında sayıyor.",
+  "hata": 0,
+  "sure": 7.24,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Avrupa ve Asya'nın bazı yerlerinde tarımın yoğunlaşması, böcek bolluğunu azaltarak kır kırlangıcı sayılarının düşmesine yol açmış.",
+  "duyulan": "Avrupa ve Asya'nın bazı yerlerinde tarımın yoğunlaşması, böcek bolluğunu azaltarak kırkırlangıcı sayılarının düşmesine yol açmış.",
+  "hata": 0,
+  "sure": 8.04,
+  "uygun": true
  }
 }

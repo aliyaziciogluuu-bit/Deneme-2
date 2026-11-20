@@ -106,6 +106,7 @@ def main():
     arg = sys.argv[2:]
     tanim = json.loads((klasor / "gorseller.json").read_text(encoding="utf-8"))["gorseller"]
     if "--sec" in arg:
+        (klasor / "gorseller").mkdir(exist_ok=True)
         for s in arg[arg.index("--sec") + 1:]:
             ad, n = s.split("=")
             Image.open(klasor / "adaylar" / f"{ad}_{n}.jpg").convert("RGB").save(klasor / "gorseller" / f"{ad}.jpg", quality=95)
