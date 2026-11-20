@@ -125,3 +125,11 @@ yuvalar dolunca kelime kendiliğinden kontrol edilir.
 - **Paylaşılan adres:** sonuca sayfanın kendi adresi eklenir; başka bir adres için dosyanın başındaki `ADRES` doldurulur.
 
 Açmak için sayfa adresinizin sonuna `hecemece/` ekleyin. Sınaması: `testler/hecemece.js`.
+
+## Dijital ürünler
+
+`dijital-urunler/` klasörü Etsy'de satılacak yazdırılabilir ürünleri ve onları üreten betikleri içerir.
+
+- **Türk Alfabesi kartları** (`dijital-urunler/turk-alfabesi/`): Türkçe–Almanca ve Türkçe–İngilizce resimli harf kartları,
+  alfabe posteri ve ebeveyn sayfası. PDF'ler, ilan fotoğrafları ve kopyalanmaya hazır Etsy ilan metinleri `cikti/` altındadır.
+

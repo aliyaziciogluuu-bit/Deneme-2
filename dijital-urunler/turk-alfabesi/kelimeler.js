@@ -1,0 +1,113 @@
+// Türk alfabesi: 29 harf, her harf için resimli bir kelime ve dillere göre karşılığı.
+// Ğ ile başlayan Türkçe kelime olmadığından "dağ" kullanılır; kartta ğ harfi renklendirilir.
+'use strict';
+
+const HARFLER = [
+  { b: 'A', k: 'a', kelime: 'arı', resim: 'ari', de: 'die Biene', en: 'bee' },
+  { b: 'B', k: 'b', kelime: 'balık', resim: 'balik', de: 'der Fisch', en: 'fish' },
+  { b: 'C', k: 'c', kelime: 'civciv', resim: 'civciv', de: 'das Küken', en: 'chick' },
+  { b: 'Ç', k: 'ç', kelime: 'çilek', resim: 'cilek', de: 'die Erdbeere', en: 'strawberry' },
+  { b: 'D', k: 'd', kelime: 'dondurma', resim: 'dondurma', de: 'das Eis', en: 'ice cream' },
+  { b: 'E', k: 'e', kelime: 'elma', resim: 'elma', de: 'der Apfel', en: 'apple' },
+  { b: 'F', k: 'f', kelime: 'fil', resim: 'fil', de: 'der Elefant', en: 'elephant' },
+  { b: 'G', k: 'g', kelime: 'gemi', resim: 'gemi', de: 'das Schiff', en: 'ship' },
+  { b: 'Ğ', k: 'ğ', kelime: 'dağ', resim: 'dag', de: 'der Berg', en: 'mountain' },
+  { b: 'H', k: 'h', kelime: 'horoz', resim: 'horoz', de: 'der Hahn', en: 'rooster' },
+  { b: 'I', k: 'ı', kelime: 'ızgara', resim: 'izgara', de: 'der Grill', en: 'grill' },
+  { b: 'İ', k: 'i', kelime: 'inek', resim: 'inek', de: 'die Kuh', en: 'cow' },
+  { b: 'J', k: 'j', kelime: 'jöle', resim: 'jole', de: 'der Wackelpudding', en: 'jelly' },
+  { b: 'K', k: 'k', kelime: 'kedi', resim: 'kedi', de: 'die Katze', en: 'cat' },
+  { b: 'L', k: 'l', kelime: 'limon', resim: 'limon', de: 'die Zitrone', en: 'lemon' },
+  { b: 'M', k: 'm', kelime: 'muz', resim: 'muz', de: 'die Banane', en: 'banana' },
+  { b: 'N', k: 'n', kelime: 'nar', resim: 'nar', de: 'der Granatapfel', en: 'pomegranate' },
+  { b: 'O', k: 'o', kelime: 'otobüs', resim: 'otobus', de: 'der Bus', en: 'bus' },
+  { b: 'Ö', k: 'ö', kelime: 'ördek', resim: 'ordek', de: 'die Ente', en: 'duck' },
+  { b: 'P', k: 'p', kelime: 'pasta', resim: 'pasta', de: 'die Torte', en: 'cake' },
+  { b: 'R', k: 'r', kelime: 'roket', resim: 'roket', de: 'die Rakete', en: 'rocket' },
+  { b: 'S', k: 's', kelime: 'saat', resim: 'saat', de: 'die Uhr', en: 'clock' },
+  { b: 'Ş', k: 'ş', kelime: 'şemsiye', resim: 'semsiye', de: 'der Regenschirm', en: 'umbrella' },
+  { b: 'T', k: 't', kelime: 'top', resim: 'top', de: 'der Ball', en: 'ball' },
+  { b: 'U', k: 'u', kelime: 'uçak', resim: 'ucak', de: 'das Flugzeug', en: 'plane' },
+  { b: 'Ü', k: 'ü', kelime: 'üzüm', resim: 'uzum', de: 'die Trauben', en: 'grapes' },
+  { b: 'V', k: 'v', kelime: 'vazo', resim: 'vazo', de: 'die Vase', en: 'vase' },
+  { b: 'Y', k: 'y', kelime: 'yıldız', resim: 'yildiz', de: 'der Stern', en: 'star' },
+  { b: 'Z', k: 'z', kelime: 'zürafa', resim: 'zurafa', de: 'die Giraffe', en: 'giraffe' },
+];
+
+// Kitapçık metinleri. Her sayfada Türkçe ve ikinci dil yan yana durur; ebeveyn hangisini rahat okuyorsa onu okur.
+const METIN = {
+  tr: {
+    baslik: 'Türk Alfabesi',
+    altBaslik: 'Resimli harf kartları',
+    kapakNot: '29 harf kartı · alfabe posteri · oyun önerileri',
+    rehberBaslik: 'Ebeveynler için',
+    kullanimBaslik: 'Nasıl kullanılır?',
+    kullanim: [
+      'Kart sayfalarını A4 kâğıda, mümkünse kalın kâğıda (160–250 g) yazdırın. Yazıcı ayarında “gerçek boyut” seçin.',
+      'Kesik çizgilerden kesin. Kartlar uzun süre dayansın diye lamine edebilirsiniz.',
+      'Posteri çocuğun odasına asın. Her gün bir harfi birlikte bulun.',
+    ],
+    oyunBaslik: 'Oyun önerileri',
+    oyunlar: [
+      ['Hafıza oyunu', 'Kart sayfalarını iki kez yazdırın. Kartları ters çevirip eşlerini bulun; bulunca kelimeyi Türkçe söyleyin.'],
+      ['Harf avı', 'Bir kart seçin. Evde o harfle başlayan bir şey bulun: K harfi için kaşık, kapı, kitap…'],
+      ['Kelime köprüsü', 'Siz kelimeyi ikinci dilde söyleyin, çocuk Türkçesini bulsun. Sonra yer değiştirin.'],
+      ['Sesli harfler', 'Türkçede 8 sesli harf var: a, e, ı, i, o, ö, u, ü. Bu kartları ayırıp birlikte sesleyin.'],
+    ],
+    bilgiBaslik: '29 harf',
+    bilgi: 'Türk alfabesinde 29 harf vardır. Ğ ile başlayan kelime yoktur; ğ hep kelimenin içinde ya da sonunda gelir.',
+    sesli: 'Sesli harfler',
+    posterBaslik: 'Türk Alfabesi',
+    alt: 'Kişisel kullanım içindir.',
+  },
+  de: {
+    baslik: 'Türkisches Alphabet',
+    altBaslik: 'Bildkarten Türkisch – Deutsch',
+    kapakNot: '29 Buchstabenkarten · Alphabet-Poster · Spielideen',
+    rehberBaslik: 'Für Eltern',
+    kullanimBaslik: 'So geht’s',
+    kullanim: [
+      'Die Kartenseiten auf A4 drucken, am besten auf dickerem Papier (160–250 g). Im Druckdialog „Tatsächliche Größe“ wählen.',
+      'Entlang der gestrichelten Linien ausschneiden. Laminiert halten die Karten viel länger.',
+      'Das Poster im Kinderzimmer aufhängen und jeden Tag gemeinsam einen Buchstaben suchen.',
+    ],
+    oyunBaslik: 'Spielideen',
+    oyunlar: [
+      ['Memory', 'Die Kartenseiten zweimal drucken. Karten verdeckt hinlegen und Paare suchen; bei jedem Paar das türkische Wort sagen.'],
+      ['Buchstabenjagd', 'Eine Karte ziehen und zu Hause etwas finden, das auf Türkisch mit diesem Buchstaben beginnt.'],
+      ['Wortbrücke', 'Sie sagen das deutsche Wort, das Kind sagt das türkische. Danach tauschen.'],
+      ['Vokale', 'Türkisch hat 8 Vokale: a, e, ı, i, o, ö, u, ü. Diese Karten heraussuchen und gemeinsam aussprechen.'],
+    ],
+    bilgiBaslik: '29 Buchstaben',
+    bilgi: 'Das türkische Alphabet hat 29 Buchstaben. Kein Wort beginnt mit Ğ; es steht immer in der Mitte oder am Ende.',
+    sesli: 'Vokale',
+    posterBaslik: 'Türkisches Alphabet',
+    alt: 'Nur für den privaten Gebrauch.',
+  },
+  en: {
+    baslik: 'Turkish Alphabet',
+    altBaslik: 'Picture cards Turkish – English',
+    kapakNot: '29 letter cards · alphabet poster · game ideas',
+    rehberBaslik: 'For parents',
+    kullanimBaslik: 'How to use',
+    kullanim: [
+      'Print the card pages on A4 or US Letter, ideally on card stock (160–250 gsm). Choose “Actual size” in the print dialog.',
+      'Cut along the dashed lines. Laminate the cards so they last longer.',
+      'Hang the poster in your child’s room and find one letter together every day.',
+    ],
+    oyunBaslik: 'Game ideas',
+    oyunlar: [
+      ['Memory', 'Print the card pages twice. Lay the cards face down and find the pairs; say the Turkish word for every pair.'],
+      ['Letter hunt', 'Pick a card and find something at home that starts with that letter in Turkish.'],
+      ['Word bridge', 'You say the English word, your child says the Turkish one. Then swap.'],
+      ['Vowels', 'Turkish has 8 vowels: a, e, ı, i, o, ö, u, ü. Pick out these cards and say them together.'],
+    ],
+    bilgiBaslik: '29 letters',
+    bilgi: 'The Turkish alphabet has 29 letters. No word starts with Ğ; it always comes in the middle or at the end.',
+    sesli: 'Vowels',
+    posterBaslik: 'Turkish Alphabet',
+    alt: 'For personal use only.',
+  },
+};
+
+module.exports = { HARFLER, METIN, SESLILER: ['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü'] };
