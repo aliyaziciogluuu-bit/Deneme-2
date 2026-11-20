@@ -1,8 +1,8 @@
 {
-  "baslik": "Kurbağaya Dokunursan Siğil Olur mu? (Asıl Tehlike Başka)",
+  "baslik": "Kurbağaya Dokunursan Siğil Olur mu? (Elini Yıkaman Gereken Asıl Neden)",
   "not": "Taslak. Siğil bilgisi Vikipedi (İngilizce) 'Wart', 'Toad', 'Parotoid gland' sayfalarına dayanır; erişilebilir tıbbi kurum sayfaları (NHS, CDC, AAD, Mayo) açılamadığı için kullanılmadı. Köpek zehirlenmesi bilgisi Amerika'daki bir türe aittir ve cümlede öyle yazıldı; kara kurbağası için şiddet verisi bulunamadı, 'bulamadık' denildi. Yasal iddia yazılmadı. Yaşam bilgileri Avrupa'daki Bufo bufo içindir; cümlede çekince var. Okunuşlar: papiloma, verukosisimus.",
-  "aciklama": "Kurbağaya dokunursan elinde siğil çıkar mı? Çıkmaz: siğile insan papilloma virüsü neden olur ve kurbağalar bu virüsü taşımaz. Asıl dikkat edilecek şeyler kurbağanın gözlerinin arkasındaki bezlerden çıkan salgı, evcil hayvanlar ve el temizliği.\nBu videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış; Türkiye'deki sonuçlarını doğrulayamadık. Kara kurbağasının köpek ve kedide ne kadar ağır zehirlenme yaptığını gösteren bir kaynak da bulamadık.\n\nBu videoda siğilin gerçekte nereden çıktığını, kurbağanın bezlerindeki salgıyı, köpeğin ya da kedinin kurbağayı ağzına alması durumunda ne yapılacağını, kurbağadan sonra el yıkamanın nedenini, Türkiye'deki kara kurbağası ve yeşilimsi benekli kurbağa gruplarının ayrımını, bahçedeki işini, bahar göçünü ve yoldaki tehlikeyi anlatıyoruz. Kara kurbağasının Türkiye'deki yasal durumunu doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.\n\nEvcil hayvanın bir kurbağayı ağzına aldıysa ya da elin gözüne, ağzına değdiyse karar vermek bize düşmez: önce veterinerine ya da doktoruna danış.\n\nSıradaki komşu: yılan; ahırdaki ineği gerçekten sağar mı?\n",
-  "yorum_sorusu": "Senin oralarda bu hayvana ne diyorlar, hiç yolda ya da bodrumda kurbağa buldun mu? Yorumlarda yaz.",
+  "aciklama": "Kurbağaya dokunursan elinde siğil çıkar mı? Çıkmaz: siğile insan papilloma virüsü neden olur ve kurbağalar bu virüsü taşımaz. Asıl dikkat edilecek şeyler kurbağanın gözlerinin arkasındaki bezlerden çıkan salgı, salmonella, evcil hayvanlar ve el temizliği.\nBu videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış; Türkiye'deki sonuçlarını doğrulayamadık. Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak da bulamadık.\n\nBu videoda siğilin gerçekte nereden çıktığını, kurbağanın bezlerindeki salgıyı, köpeğin kurbağayı ağzına alması durumunda ne yapılacağını, kurbağadan sonra el yıkamanın nedenini, Türkiye'deki kara kurbağası ve yeşilimsi benekli kurbağa gruplarının ayrımını, bahçedeki işini, bahar göçünü ve yoldaki tehlikeyi anlatıyoruz. Kara kurbağasının Türkiye'deki yasal durumunu doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.\n\nEvcil hayvanın kurbağayı ağzına aldıysa ya da elin gözüne ya da ağzına değdiyse karar vermek bize düşmez: önce veterinere ya da doktora danış.\n\nSıradaki komşu: yılan; ahırdaki ineği gerçekten sağar mı?\n",
+  "yorum_sorusu": "Senin oralarda bu hayvana ne diyorlar? Hiç yolda ya da bodrumda kurbağa buldun mu? Yorumlarda yaz.",
   "kaynaklar": [
     "Vikipedi – Common toad: en.wikipedia.org/wiki/Common_toad",
     "Vikipedi – Wart: en.wikipedia.org/wiki/Wart",
@@ -53,7 +53,7 @@
       "ad": "Taşın altındaki hayvan",
       "cumleler": [
         {
-          "yazi": "Bahçede nemli bir taşı kaldırıyorsun; altında yumru yumru, kahverengi bir hayvan oturuyor."
+          "yazi": "Taşı kaldırıyorsun; altında yumru yumru bir hayvan var."
         },
         {
           "yazi": "Kurbağaya dokunursan elinde siğil çıkar mı?"
@@ -63,16 +63,16 @@
           "ses": "Çıkmaz: siğile insan papiloma virüsü neden olur ve kurbağalar bu virüsü taşımaz."
         },
         {
-          "yazi": "Birazdan kurbağanın gözlerinin arkasındaki iki bezi ve bunun köpeğin için neden önemli olduğunu anlatacağız."
+          "yazi": "Asıl tehlike başka: gözlerinin arkasındaki iki bez ve köpeğinin ağzı."
         },
         {
-          "yazi": "Peki derisindeki o yumrular ne?"
+          "yazi": "Derisindeki o yumrular ne?"
         },
         {
           "yazi": "Siğil değiller: boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksiyondan olmuyorlar."
         },
         {
-          "yazi": "Bu benzerlik, kurbağaya dokununca siğil çıktığı yanılgısının nedeni olarak gösteriliyor."
+          "yazi": "Yumrular siğile benzediği için bu inanış yaygınlaşmış."
         }
       ]
     },
@@ -83,20 +83,16 @@
           "yazi": "Siğil gerçekte nereden çıkıyor?"
         },
         {
-          "yazi": "Siğil, kanser olmayan bir deri büyümesi; nedeni insan papilloma virüsü.",
-          "ses": "Siğil, kanser olmayan bir deri büyümesi; nedeni insan papiloma virüsü."
-        },
-        {
-          "yazi": "Genellikle ellerde ve ayaklarda görülüyor."
-        },
-        {
-          "yazi": "Virüsün deriye bir yara yoluyla girdiği düşünülüyor."
-        },
-        {
-          "yazi": "Tedavi edilmezse siğil türlerinin çoğu aylar ya da yıllar içinde geçiyor; elindeki siğil için doktoruna danış."
-        },
-        {
           "yazi": "İngiliz halk inanışına göre kurbağaya dokunmak siğil çıkarır; Alman inanışına göre dolunayda dokunmak siğili geçirir."
+        },
+        {
+          "yazi": "Siğil, kanser olmayan bir deri büyümesi."
+        },
+        {
+          "yazi": "Genellikle ellerde ve ayaklarda çıkıyor; virüsün deriye yaradan girdiği düşünülüyor."
+        },
+        {
+          "yazi": "Çoğu siğil türü aylar ya da yıllar içinde geçiyor; elindeki için doktoruna danış."
         }
       ]
     },
@@ -113,10 +109,13 @@
           "yazi": "Saldırıya uğrayınca bu bezler, bufotoksin içeren, tadı kötü bir salgı çıkarıyor."
         },
         {
-          "yazi": "Bir kaynağa göre kurbağa zehrinden insan zehirlenmesi nadir ama öldürücü olabiliyor."
+          "yazi": "İnsanlar için de tehlikeli mi?"
         },
         {
-          "yazi": "Örnekler arasında kurbağa çorbası içmek, eti ya da yumurtayı yemek ve canlı kurbağa yutmak var."
+          "yazi": "Bir kaynağa göre kurbağa zehrini yemek ya da içmek yüzünden insan zehirlenmesi nadir ama öldürücü olabiliyor."
+        },
+        {
+          "yazi": "Örnek olarak çorba, et ya da yumurta tüketimi ve canlı hayvan yutmak sayılıyor."
         },
         {
           "yazi": "Aynı kaynak, hafif belirtiler arasında gözde, ağız zarında ya da açık yarada yanma ve karıncalanmayı sayıyor."
@@ -133,19 +132,16 @@
           "yazi": "Peki köpeğin kurbağayı yalarsa ya da ısırırsa ne olur?"
         },
         {
-          "yazi": "Bir kaynağa göre köpekler, Amerika'daki bir kurbağa türünü yalayınca ya da ısırınca özellikle kolay zehirleniyor."
+          "yazi": "Köpekler, Orta ve Güney Amerika kökenli büyük bir kurbağa türünü yalayınca ya da ısırınca özellikle kolay zehirleniyor."
         },
         {
-          "yazi": "Aynı kaynak, aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılmada hemen veterinere gitmeyi öneriyor."
+          "yazi": "Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık."
         },
         {
-          "yazi": "Başka bir kaynak, kara kurbağasının zehrinin etkilerinin iyi anlaşılmadığını söylüyor."
+          "yazi": "Aynı kaynak, aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılmada acil veteriner yardımı öneriyor."
         },
         {
-          "yazi": "Kara kurbağası köpekte ne kadar ağır zehirlenme yapıyor?"
-        },
-        {
-          "yazi": "Bunu gösteren bir kaynak bulamadık; hafife de almıyoruz."
+          "yazi": "Ne yapmalısın?"
         },
         {
           "yazi": "İngiltere'deki hayvan koruma derneği, evcil hayvanın zararlı bir şeye maruz kaldığını düşünürsen hemen veterinere başvurmanı söylüyor."
@@ -154,7 +150,7 @@
           "yazi": "Veterinere neyi ve ne kadar yediğini bildirmeni de istiyor."
         },
         {
-          "yazi": "Bize göre kurbağaların çıktığı akşamüstü saatlerde köpeğini ve kedini bahçede başıboş bırakma."
+          "yazi": "Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma."
         }
       ]
     },
@@ -165,13 +161,13 @@
           "yazi": "Peki kurbağayı tuttuktan sonra neden ellerini yıkamalısın?"
         },
         {
-          "yazi": "Kurbağa ve sürüngenlerin derisindeki salmonella bakterisi, onları tutan insanlara geçebiliyor."
+          "yazi": "Kurbağalar ve sürüngenler salmonella taşıyabiliyor; bu bakteri onlara dokunan insanlara geçebiliyor."
         },
         {
           "yazi": "Salmonella enfeksiyonu bebekler, küçük çocuklar, yaşlılar ve bağışıklığı zayıf olanlar için ciddi olabiliyor."
         },
         {
-          "yazi": "Bize göre dokunduysan ellerini sabun ve suyla iyice yıka; bebekleri ve küçük çocukları kurbağadan uzak tut."
+          "yazi": "Dokunduysan ellerini sabun ve suyla iyice yıka; bebekleri ve küçük çocukları kurbağadan uzak tut."
         },
         {
           "yazi": "İngiltere'deki dernek, çıplak elle dokunmamanı da öneriyor; çünkü kurbağalar derimizdeki kimyasallara çok duyarlı."
@@ -188,21 +184,14 @@
           "yazi": "Bahçendeki kurbağa hangisi?"
         },
         {
-          "yazi": "Türkiye'deki kara kurbağaları için iki tür adı kullanılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası."
+          "yazi": "Türkiye'de iki kara kurbağası türü anılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası."
         },
         {
           "yazi": "Bilim dilinde bunlar Bufo bufo ve Bufo verrucosissimus; ikisinin birbiriyle ilişkisi hâlâ net değil.",
           "ses": "Bilim dilinde bunlar Bufo bufo ve Bufo verukosisimus; ikisinin birbiriyle ilişkisi hâlâ net değil."
         },
         {
-          "yazi": "Sırtı yeşilimsi benekli kara kurbağaları da yaşıyor; bunlar Bufotes cinsinden."
-        },
-        {
-          "yazi": "Bu grubun adı yakın zamanda değişti; eski kaynaklarda Bufotes variabilis yazıyor."
-        },
-        {
-          "yazi": "İki bin on dokuz yılındaki bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar Bufotes sitibundus.",
-          "ses": "İki bin on dokuz yılındaki bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar Bufotes sitibundus."
+          "yazi": "Sırtı yeşilimsi benekli olanlar Bufotes cinsinden; bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar Bufotes sitibundus."
         },
         {
           "yazi": "Videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış; Türkiye'deki sonuçları ayrıca doğrulayamadık."
@@ -216,21 +205,24 @@
           "yazi": "Bu hayvan bahçende ne iş yapıyor?"
         },
         {
-          "yazi": "Gündüz taşın, kökün ya da bir oyuğun altında saklanıyor; akşamüstü çıkıp avlanıyor."
+          "yazi": "Gündüz taşın, kökün ya da bir oyuğun altında saklanıyor; akşam karanlığında çıkıp avlanıyor."
         },
         {
           "yazi": "Yiyecekleri arasında karınca, tırtıl, sinek, örümcek, solucan ve sümüklüböcek var."
         },
         {
-          "yazi": "Dişi yok; avını bütün yutuyor."
+          "yazi": "Dişleri yok; avını bütün yutuyor."
         },
         {
           "yazi": "İngiltere'deki dernek, kurbağaların ve kara kurbağalarının çok sayıda böcek yediğini yazıyor; kara kurbağaları özellikle karıncayı tercih ediyor."
+        },
+        {
+          "yazi": "Kışın toprakta bir oyuğa, bazen de bodruma giriyorlar; çoğu zaman başka kurbağalarla birlikte."
         }
       ]
     },
     {
-      "ad": "Bahar göçü ve yoldaki tehlike",
+      "ad": "Bahar göçü",
       "cumleler": [
         {
           "yazi": "Peki baharda bu hayvanlar neden yola çıkıyor?"
@@ -239,19 +231,35 @@
           "yazi": "Kara kurbağaları baharda uyanıp topluca üreme göletine yürüyor; bir kilometreden fazla yol gidebiliyorlar."
         },
         {
-          "yazi": "Avrupa'da işaretlenen erkeklerin yüzde seksenden fazlası, doğdukları gölete geri dönmüş."
+          "yazi": "Avrupa'daki bir araştırmada, küçükken işaretlenip sonradan üremeye dönen erkeklerin büyük çoğunluğu doğdukları gölette yakalanmış."
+        }
+      ]
+    },
+    {
+      "ad": "Gölette ne oluyor?",
+      "cumleler": [
+        {
+          "yazi": "Peki gölete varınca ne oluyor?"
         },
         {
           "yazi": "Dişi suya iki sıralı uzun bir yumurta ipi bırakıyor; içinde bin beş yüz ile altı bin yumurta olabiliyor."
         },
         {
           "yazi": "İribaşlar yaklaşık on günde çıkıyor; on iki haftalık olunca bir buçuk santimlik minik kurbağa oluyorlar."
+        }
+      ]
+    },
+    {
+      "ad": "Yoldaki tehlike",
+      "cumleler": [
+        {
+          "yazi": "Bu yolculuk onlara neye mal oluyor?"
         },
         {
-          "yazi": "Bu yolculuk tehlikeli: Avrupa'da kara kurbağası, yolda ölüm oranı en yüksek amfibi."
+          "yazi": "Bir kaynağa göre Avrupa'da kara kurbağası, yolda ölüm oranı en yüksek amfibilerden biri."
         },
         {
-          "yazi": "Hollanda'da, saatte on araç geçen sakin bir köy yolunda dişilerin yüzde otuzunun öldüğü tahmin edilmiş."
+          "yazi": "Hollanda'da tek bir sakin köy yolunda yapılan bir tahmine göre dişilerin yüzde otuzu ölmüş."
         },
         {
           "yazi": "Bazı ülkelerde yolun altına kurbağa tüneli yapılmış; bazı yerlerde gönüllüler onları kovayla karşıya taşıyor."
@@ -260,7 +268,7 @@
           "yazi": "Bize göre yağmurlu akşamlarda yolda yavaşla; kurbağayı elle taşımak zorundaysan tek kullanımlık eldiven tak."
         },
         {
-          "yazi": "Kışın toprakta bir oyuğa, bazen de bodruma giriyorlar; çoğu zaman başka kurbağalarla birlikte."
+          "yazi": "Taşıdıktan sonra ellerini sabun ve suyla yıka."
         },
         {
           "yazi": "Yaralı ya da hasta kurbağa bulursan veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış."
@@ -280,7 +288,7 @@
           "yazi": "Bunun hukuken ne anlama geldiğini doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış."
         },
         {
-          "yazi": "Kara kurbağası bazı yerlerde azalıyor; yaşam alanı kaybı, göletlerin kurutulması ve yol ölümleri tehdit ediyor."
+          "yazi": "Avrupa'da kara kurbağası bazı yerlerde azalıyor; yaşam alanı kaybı, göletlerin kurutulması ve yol ölümleri tehdit ediyor."
         }
       ]
     },
@@ -291,7 +299,7 @@
           "yazi": "Kurbağa siğil çıkarmaz; asıl dikkat edeceğin şeyler bezlerindeki salgı, salmonella ve evcil hayvanın güvenliği."
         },
         {
-          "yazi": "Senin oralarda bu hayvana ne diyorlar, hiç yolda ya da bodrumda kurbağa buldun mu? Yorumlarda yaz."
+          "yazi": "Senin oralarda bu hayvana ne diyorlar?"
         },
         {
           "yazi": "Sıradaki komşu: yılan; ahırdaki ineği gerçekten sağar mı?"
@@ -303,18 +311,18 @@
     }
   ],
   "baslik_secenekleri": [
-    "Kurbağaya Dokunursan Siğil Olur mu? (Asıl Tehlike Başka)",
-    "Kara Kurbağası Zehirli mi? (Köpeğin Ağzına Alırsa Ne Olur?)",
+    "Kurbağaya Dokunursan Siğil Olur mu? (Elini Yıkaman Gereken Asıl Neden)",
+    "Kurbağa Siğil Yapar mı? (Gözünün Arkasındaki Bez Ne İşe Yarıyor?)",
     "Kurbağaya Dokununca Ne Yapmalı? (Siğil Değil, Bunu Yap)"
   ],
-  "baslik_notu": "Öneri; son karar paketleme uzmanında. Soru 0:06'da, cevap 0:09'da, vaat 0:14'te. Parantezin ('Asıl Tehlike Başka') kanıtı: bezlerdeki salgı 1:00, köpek bölümü 1:39. Dürüstlük notu: kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığı doğrulanamadı; başlıktaki 'tehlike' kelimesi bezlerdeki salgı, evcil hayvanın ağzına alması ve salmonella için kullanıldı, ağır zehirlenme vaadi değildir.",
+  "baslik_notu": "Öneri; son karar paketleme uzmanında. Tur 2 başlığı: parantez (el yıkama nedeni) bez salgısı, salmonella ve el yıkama bölümleriyle karşılanıyor. Zamanlar için metin_kontrol çıktısına bakın (soru ≈0:05, cevap ≈0:08, vaat ≈0:13, bezler ≈0:50). Dürüstlük notu: kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığı doğrulanamadı; videoda 'bulamadık' deniyor.",
   "kapak_alternatifler": [
     {
       "buyuk": [
-        "KÖPEĞİN",
-        "YALARSA?"
+        "KÖPEĞİNİ",
+        "UZAK TUT"
       ],
-      "kucuk": "Önce veterinere danış",
+      "kucuk": "Akşam başıboş bırakma",
       "konum": "sol",
       "genislik": 500,
       "gorsel": "kapak",
