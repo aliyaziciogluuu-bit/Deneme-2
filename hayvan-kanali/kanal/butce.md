@@ -22,4 +22,6 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 20 Kas | 07 kırlangıç görselleri | ~3,30 $ (25 görsel, 55 aday) | – | – | ~3,3 $ | klipler sırada (~2,45 $) |
 | 20 Kas | 01 yılan s3 Shorts görsel düzeltmesi | ~0,04 $ (Kontext, RET) + ~0,12 $ (2 aday) | – | – | ~0,2 $ | yavrularda bacak vardı |
 | 20 Kas | 01–06 ek Shorts seslendirmeleri | – | – | ~0,1 $ | ~0,1 $ | her gün Shorts |
-| | **Kasım toplamı** | | | | **~40,6 $** | aylık bütçe 60 $ |
+| 20 Kas | 07 kırlangıç görsel 2.-3. tur | ~1,38 $ (23 aday, hepsi RET) + ~0,24 $ (4 aday) + ~0,08 $ (2 Kontext) | – | – | ~1,7 $ | 5 görsel yerine mevcut görseller |
+| 20 Kas | 07 kırlangıç klipleri | – | ~2,10 $ (6 klip) | – | ~2,1 $ | kuluçka klibi düşürüldü |
+| | **Kasım toplamı** | | | | **~44,4 $** | aylık bütçe 60 $ |

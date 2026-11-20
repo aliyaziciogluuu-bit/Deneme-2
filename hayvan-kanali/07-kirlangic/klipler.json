@@ -1,47 +1,52 @@
 {
- "not": "Kırlangıç kanatlı küçük bir kuş: kanat biçimi bozulur, dik koyu bir ikinci kanat ya da fazladan uzuv çıkarsa klip kullanılmaz; kırpılır. Tüm kliplerde konmuş kuş (göç hariç); uçuş kliplerinde sürü birleşirse temiz aralık kırpılır. Halkalı kuşta halka aynı bacakta kalmalı. Yavru sayısı dört kalmalı. Her klipten 5 kare (0,5-4,9 sn) incelenir. Shorts: s1 halkali_kus ya da goc_surusu, s2 camur_tasima/yavru_besleme klipleri.",
- "klipler": [
-  {
-   "ad": "acilis",
-   "gorsel": "nisan_sacak",
-   "sure": 5,
-   "istem": "The barn swallow sitting on the rim of the old mud nest under the eave keeps its wings folded, turns its head slowly left and right, its throat feathers and tail streamers move a little in the breeze, it does not take off. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
-  },
-  {
-   "ad": "goc_surusu",
-   "gorsel": "goc_surusu",
-   "sure": 5,
-   "istem": "The loose flock of small swallows glides slowly over the sea in the same direction, wings beating gently and symmetrically, each bird stays small and separate and keeps the same shape, the waves move softly, the coastline stays still, no new birds appear and no birds merge. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
-  },
-  {
-   "ad": "camur_tasima",
-   "gorsel": "yuva_yapimi",
-   "sure": 5,
-   "istem": "The swallow on the rim of the half-built nest presses the mud pellet onto the edge with small quick movements of its beak and head, wings stay folded, tail streamers hang down, dust floats in the barn light. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
-  },
-  {
-   "ad": "yavru_besleme",
-   "gorsel": "kirlangic_yavru",
-   "sure": 5,
-   "istem": "The four nestlings stretch their necks up and their wide yellow-edged beaks open and close, bobbing a little; the adult swallow at the edge leans in once to put the fly in one beak and stays at the rim with folded wings. The number of nestlings stays four. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
-  },
-  {
-   "ad": "halkali_kus",
-   "gorsel": "halkali_kus",
-   "sure": 5,
-   "istem": "The swallow perched on the wire ruffles its feathers a little, turns its head slowly toward the viewer, the tiny silver ring on its leg stays on the same leg, wings stay folded, it does not take off, the blurred meadow moves softly. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
-  },
-  {
-   "ad": "kulucka",
-   "gorsel": "kulucka",
-   "sure": 5,
-   "istem": "The swallow incubating in the nest slowly turns its head and settles a little lower, its throat feathers breathe gently, tail streamers stay over the rim, wings stay folded, a few dust motes drift in the light. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
-  },
-  {
-   "ad": "kapanis",
-   "gorsel": "kapanis",
-   "sure": 5,
-   "istem": "The swallow on the nest rim at golden dusk looks toward the viewer and tilts its head slightly, feathers lightly moving in the breeze, wings folded, it stays on the nest; in the sky a few tiny distant swallows glide and stay tiny. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
-  }
- ]
+  "not": "Kırlangıç kanatlı küçük bir kuş: kanat biçimi bozulur, dik koyu bir ikinci kanat ya da fazladan uzuv çıkarsa klip kullanılmaz; kırpılır. Tüm kliplerde konmuş kuş (göç hariç); uçuş kliplerinde sürü birleşirse temiz aralık kırpılır. Halkalı kuşta halka aynı bacakta kalmalı. Yavru sayısı dört kalmalı. Her klipten 5 kare (0,5-4,9 sn) incelenir. Shorts: s1 halkali_kus ya da goc_surusu, s2 camur_tasima/yavru_besleme klipleri.",
+  "klipler": [
+    {
+      "ad": "acilis",
+      "gorsel": "kirlangic_yuva",
+      "sure": 5,
+      "istem": "The barn swallow perched on the rim of the open mud nest keeps its wings folded, turns its head slowly left and right, its throat feathers breathe gently, the two thin tail streamers stay still. Camera static, gentle natural motion only, no new animals appear.",
+      "not": "20 Kas: nisan_sacak görseli düşürüldü; açılış kirlangic_yuva görselinden."
+    },
+    {
+      "ad": "goc_surusu",
+      "gorsel": "goc_surusu",
+      "sure": 5,
+      "istem": "The loose flock of small swallows glides slowly over the sea in the same direction, wings beating gently and symmetrically, each bird stays small and separate and keeps the same shape, the waves move softly, the coastline stays still, no new birds appear and no birds merge. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
+    },
+    {
+      "ad": "camur_tasima",
+      "gorsel": "yuva_yapimi",
+      "sure": 5,
+      "istem": "The swallow on the rim of the half-built nest presses the mud pellet onto the edge with small quick movements of its beak and head, wings stay folded, tail streamers hang down, dust floats in the barn light. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
+    },
+    {
+      "ad": "yavru_besleme",
+      "gorsel": "kirlangic_yavru",
+      "sure": 5,
+      "istem": "The four nestlings stretch their necks up and their wide yellow-edged beaks open and close, bobbing a little; the adult swallow at the edge leans in once to put the fly in one beak and stays at the rim with folded wings. The number of nestlings stays four. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
+    },
+    {
+      "ad": "afrika_kis",
+      "gorsel": "afrika_kis",
+      "sure": 5,
+      "istem": "The barn swallows perched on the branches in the warm African evening stay in place, a few preen their feathers or turn their heads slowly, wings folded, tail streamers still. Camera static, gentle natural motion only, the number of birds stays the same.",
+      "not": "20 Kas: halkali_kus görseli düşürüldü; yerine Afrika'da kışlayan kırlangıçlar."
+    },
+    {
+      "ad": "kapanis",
+      "gorsel": "kapanis",
+      "sure": 5,
+      "istem": "The swallow on the nest rim at golden dusk looks toward the viewer and tilts its head slightly, feathers lightly moving in the breeze, wings folded, it stays on the nest; in the sky a few tiny distant swallows glide and stay tiny. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears."
+    }
+  ],
+  "dusurulen": [
+    {
+      "ad": "kulucka",
+      "gorsel": "kulucka",
+      "sure": 5,
+      "istem": "The swallow incubating in the nest slowly turns its head and settles a little lower, its throat feathers breathe gently, tail streamers stay over the rim, wings stay folded, a few dust motes drift in the light. Static camera. Storybook watercolor style preserved. Both wings stay the same shape, no upright dark wing, no extra wings, no extra legs, two legs only, nothing new appears.",
+      "dusuruldu": "20 Kas: kulucka görseli iki turda denetimden geçmedi; klip üretilmez."
+    }
+  ]
 }
