@@ -152,8 +152,10 @@ const SEED = {
     const last = st.tx[st.tx.length - 1];
     assert.deepEqual([last.cur, last.rate, last.note], ['GA', 5940, 'Kartı açılmış']);
     assert.equal(st.worn.GA, 40);
-    // Çeyrekte görünmez
+    // Çeyrekte "Eski tarihli" olarak çıkar (alışta da satışta da); 22 ayarda çıkmaz
     await p.selectOption('#fCur', 'CEYREK'); await p.dispatchEvent('#fCur', 'change');
+    assert.equal(await txt('#fWornLbl'), 'Eski tarihli');
+    await p.selectOption('#fCur', 'B22'); await p.dispatchEvent('#fCur', 'change');
     assert.ok(await p.isHidden('#wornField'));
     await ctx.close();
   }

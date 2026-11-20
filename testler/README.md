@@ -28,6 +28,7 @@ for f in testler/*.js; do node "$f" || break; done
 | `yedek.js` | Şifreli yedek (al, yanlış ve doğru parolayla yükle), otomatik kopyalar, budama, geri yükleme ve geri alma |
 | `paket2.js` | Hafta sonu makası, bekleyen müşteri alarmı ve WhatsApp mesajı, dökümde yorum/yol bağlantısı, kartı açılmış gram altın |
 | `paket3.js` | Makas uyarısı (kur tablosu, form), pozisyon sınırları, yıl sonu envanter listesi (paylaşım, CSV), vitrin ekranında yön okları |
+| `paket4.js` | Sepet (toplu işlem, geri al), sarrafiye stoku (yeni/eski tarihli), ayar dönüştürücü, hurda altın günlüğü, ana ekran kısayolları, tema ve renk |
 
 Yayın notu: her yayında `doviz-kasasi.html` başındaki `surum` etiketinin değerini değiştirin; açık duran uygulama yeni
 sürümü bu değerle fark edip “Yenile” uyarısını gösterir.
