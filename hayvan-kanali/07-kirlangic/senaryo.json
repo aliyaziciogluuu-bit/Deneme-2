@@ -1,0 +1,339 @@
+{
+ "baslik": "Kırlangıç Her Yıl Aynı Eve mi Dönüyor? (Kışı Nerede Geçiriyor?)",
+ "not": "Taslak. Dünyadaki kır kırlangıcı bilgileri (aynı yere dönüş, kuluçka süresi, menü) Türkiye'ye özgü ölçüm değildir; metin bunu çekinceyle söyler. Yuvayla ilgili yasal iddia yazılmadı (doğrulanamadı); yalnızca etik/güvenlik tavsiyesi ve şube müdürlüğüne yönlendirme var. Yavru önerisi İngiltere'deki RSPCA sayfasına dayanır ve metinde öyle belirtilir. 'Yuvanın altını silmek' cümlesi kaynaksız bir etik/güvenlik önerisidir. Gilbert White okunuşu 'Gilbırt Vayt'.",
+ "aciklama": "Saçağındaki kırlangıç her yıl aynı eve mi dönüyor? Dünyadaki çalışmalara göre kır kırlangıcında aynı kuşlar sık sık yıllarca aynı yerde üreyebiliyor. Üstelik İngiltere'de halkayla işaretlenen bir kuş Güney Afrika'da bulunmuş.\nBu videodaki dünya bilgilerinin bir kısmı başka ülkelerdeki çalışmalardan geliyor; Türkiye'ye özgü olmayanları açıkça belirtiyoruz.\n\nBu videoda kırlangıcın kışı nerede geçirdiğini, Türkiye'ye hangi sırayla döndüğünü, yuvanın neden bu kadar değerli olduğunu, geçmişteki yuva inanışını, yuvanın altı pislenirse ne yapılabileceğini, kır kırlangıcı ile ev kırlangıcının farkını ve yuvadan yavru düşerse ne yapılacağını anlatıyoruz. Yuvayla ilgili yasal kuralları doğrulayamadığımız için hukuki bir iddiada bulunmuyoruz; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.\n\nYavru ya da yaralı bir kuş bulursan bir uzmana ya da veterinere başvur; kararı biz veremeyiz.\n\nSıradaki komşu: kara kurbağası.\n\nBitiş ekranı: sıradaki video.",
+ "yorum_sorusu": "Senin oralarda saçağa yuva yapan kırlangıç var mı, her yıl geri geliyor mu? Yorumlarda yaz.",
+ "kaynaklar": [
+  "Vikipedi – Barn swallow: en.wikipedia.org/wiki/Barn_swallow",
+  "Vikipedi – Common house martin: en.wikipedia.org/wiki/Common_house_martin",
+  "Vikipedi – Kırlangıç: tr.wikipedia.org/wiki/Kırlangıç",
+  "Vikipedi – Kır kırlangıcı: tr.wikipedia.org/wiki/Kır_kırlangıcı",
+  "Vikipedi – Ev kırlangıcı: tr.wikipedia.org/wiki/Ev_kırlangıcı",
+  "Per, E., Erciyas-Yavuz, K. & Yavuz, N. (2016). The Distribution, Migration Phenology and Spatial and Temporal Status of Hirundinidae Species in Turkey. Trakya University Journal of Natural Sciences 17(1): 7–15. dergipark.org.tr/tr/pub/trkjnat/article/267844",
+  "Umurhan, B. & Karaardıç, H. (2020). KIR KIRLANGIÇLARI (Hirundo rustica) İLE UYGULAMALI ÇEVRE EĞİTİMİ. Doğanın Sesi 5: 37–47. dergipark.org.tr/tr/pub/dosder/article/830899",
+  "RSPCA – Found a Grounded Swift, Swallow or House Martin - What To Do: rspca.org.uk/adviceandwelfare/wildlife/birds/baby/swifts",
+  "RSPCA – Found a Baby Bird Out of a Nest?: rspca.org.uk/adviceandwelfare/wildlife/birds/baby"
+ ],
+ "etiketler": [
+  "kırlangıç",
+  "kırlangıç her yıl aynı yuvaya döner mi",
+  "kırlangıç yuvası",
+  "kırlangıç yuvasını bozmak",
+  "kırlangıç göç",
+  "kırlangıç kışın nereye gider",
+  "kır kırlangıcı",
+  "ev kırlangıcı",
+  "kırlangıç yavrusu düştü",
+  "saçak altı yuva",
+  "yaban hayatı",
+  "doğa",
+  "Avludaki Komşular"
+ ],
+ "kapak": {
+  "gorsel": "kapak",
+  "buyuk": [
+   "YUVAYI",
+   "BOZMA!"
+  ],
+  "kucuk": "İçinde yavru olabilir",
+  "konum": "sol",
+  "genislik": 500
+ },
+ "ambiyans": {
+  "dosya": "../sesler/bahce_kuslar.ogg",
+  "seviye": 0.12,
+  "kaynak": ""
+ },
+ "sahneler": [
+  {
+   "ad": "Saçaktaki yuva",
+   "cumleler": [
+    {
+     "yazi": "Nisan geliyor; saçağa bakıyorsun, geçen yılki çamur yuva yerinde ve bir kuş ona konuyor."
+    },
+    {
+     "yazi": "Kırlangıç gerçekten her yıl aynı eve mi dönüyor?"
+    },
+    {
+     "yazi": "Dünyadaki çalışmalara göre evet: aynı kuşlar sık sık yıllarca aynı yerde üreyebiliyor."
+    },
+    {
+     "yazi": "Birazdan kışı nerede geçirdiğini, yuvanın neden değerli olduğunu ve yavru düşerse ne yapacağını göreceksin."
+    }
+   ]
+  },
+  {
+   "ad": "Kışın nereye gidiyor?",
+   "cumleler": [
+    {
+     "yazi": "Peki kırlangıç kışın nereye gidiyor?"
+    },
+    {
+     "yazi": "İngiliz doğa gözlemcisi Gilbert White, bin yedi yüz seksen dokuz yılında yayımlanan kitabında bu konuda emin değildi.",
+     "ses": "İngiliz doğa gözlemcisi Gilbırt Vayt, bin yedi yüz seksen dokuz yılında yayımlanan kitabında bu konuda emin değildi."
+    },
+    {
+     "yazi": "Kırlangıç göç mü ediyor, yoksa kış uykusuna mı yatıyor?"
+    },
+    {
+     "yazi": "Bugün biliyoruz: göç ediyor."
+    },
+    {
+     "yazi": "İngiltere'de yuvasında halkayla işaretlenen bir kırlangıç, bin dokuz yüz on iki yılının aralık ayında Güney Afrika'da bulundu."
+    },
+    {
+     "yazi": "Avrupa'da ürüyen kır kırlangıçları kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor."
+    },
+    {
+     "yazi": "Güney Afrika'da kışlayan bazı kuşların yıllık yolculuğu, on bir bin altı yüz altmış kilometreye kadar kaydedilmiş."
+    },
+    {
+     "yazi": "Türkiye'nin güneyinden İsrail'e kadar ürüyen bir alt tür kısmen yerleşik; bazıları Doğu Afrika'da kışlıyor."
+    },
+    {
+     "yazi": "Peki bu kuşlar neden gidiyor?"
+    },
+    {
+     "yazi": "Yaz sonunda günler kısalıp böcekler azalınca, yavrular ve yetişkinler göç ediyor."
+    },
+    {
+     "yazi": "Gündüz uçarak yol alıyorlar; fırtınalar, göç sırasında binlercesinin ölümüne yol açabiliyor."
+    },
+    {
+     "yazi": "Peki Türkiye'ye ne zaman dönüyorlar?"
+    },
+    {
+     "yazi": "Bir araştırmaya göre kır kırlangıcı ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor."
+    },
+    {
+     "yazi": "Sonra Orta Anadolu'ya, ardından daha kuzeye yayılıyorlar; sonbaharda bu sıra tersine dönüyor."
+    },
+    {
+     "yazi": "Araştırmacılar bunu enleme göre değişen böcek bolluğuyla ilişkilendiriyor."
+    }
+   ]
+  },
+  {
+   "ad": "Yuva neden bu kadar değerli?",
+   "cumleler": [
+    {
+     "yazi": "Peki yuva neden bu kadar değerli?"
+    },
+    {
+     "yazi": "Kır kırlangıcı yuvayı gagasında taşıdığı çamur topaklarıyla yapıyor."
+    },
+    {
+     "yazi": "İçini ot ve tüy gibi yumuşak şeylerle döşüyor."
+    },
+    {
+     "yazi": "Kaynaklara göre bir çift, yuvayı yaklaşık iki haftada tamamlıyor."
+    },
+    {
+     "yazi": "Bu yüzden eski yuvalar kuşlar için çok değerli sayılıyor."
+    },
+    {
+     "yazi": "Erkek kuş dişilerden önce gelip yuva yerini seçiyor."
+    },
+    {
+     "yazi": "Bir deneyde kuşların nereye yerleşeceği, eşin özelliklerinden çok boş yuva bulunmasıyla tahmin edilebilmiş."
+    },
+    {
+     "yazi": "Her yıl onarılan kırlangıç yuvalarının on, on beş yıl kullanılması olağan sayılıyor."
+    },
+    {
+     "yazi": "Bir yuvanın kırk sekiz yıl boyunca kullanıldığı bile bildirilmiş."
+    }
+   ]
+  },
+  {
+   "ad": "Yuvayı bozarsan ne olur?",
+   "cumleler": [
+    {
+     "yazi": "Peki yuvayı bozarsan ne olur?"
+    },
+    {
+     "yazi": "Kaynağa göre geçmişte yuvaya zarar vermenin ineğin kanlı süt vermesine ya da tavukların yumurtlamayı bırakmasına yol açacağı düşünülmüş."
+    },
+    {
+     "yazi": "Kaynak buna batıl inanç diyor; yine de insanların kırlangıçlara hoşgörüsünü artırmış."
+    },
+    {
+     "yazi": "Asıl neden daha sade: yuvanın içinde yumurta ya da yavru olabilir."
+    },
+    {
+     "yazi": "Kuluçka on dört ile on dokuz gün, yavruların yuvada kalışı on sekiz ile yirmi üç gün sürüyor."
+    },
+    {
+     "yazi": "Kaynaklara göre kırlangıç normalde yılda iki kez yavru yetiştiriyor ve ilk yuvayı ikinci kuluçkada da kullanıyor."
+    },
+    {
+     "yazi": "Yani yuvanın içi, iki kuluçka boyunca dolu olabilir."
+    },
+    {
+     "yazi": "Yuvayla ilgili yasal kuralları doğrulayamadık; bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danışabilirsin."
+    },
+    {
+     "yazi": "Yuva sahipleri sonbaharda zaten göç ediyor; yuvaya dokunmadan beklemek en az zarar veren yol."
+    }
+   ]
+  },
+  {
+   "ad": "Yuvanın altı pislenirse",
+   "cumleler": [
+    {
+     "yazi": "Peki yuvanın altı pislenirse ne yapacaksın?"
+    },
+    {
+     "yazi": "Ev kırlangıcı yuvalarının altında kuş pisliği sorun olabiliyor; bu yüzden yuvalar bazen yıkılıyor."
+    },
+    {
+     "yazi": "Yuvaya dokunmadan altını sık sık silmek, kuşlara zarar vermeyen bir çözüm olabilir."
+    },
+    {
+     "yazi": "Karşılığında kırlangıçlar, uçarken sinek ve sivrisinek gibi küçük böcekleri yakalıyor."
+    },
+    {
+     "yazi": "Kaynaklara göre kır kırlangıcının üreme bölgelerindeki menüsünün yaklaşık yüzde yetmişini iri sinekler oluşturuyor."
+    },
+    {
+     "yazi": "Bunun Türkiye'de ölçülüp ölçülmediğini bulamadık."
+    },
+    {
+     "yazi": "Bir Türkçe makale, yavrulara getirilen böceklerin tarım ilacı nedeniyle zehirli olma ihtimalini sorunlar arasında sayıyor."
+    },
+    {
+     "yazi": "Avrupa ve Asya'nın bazı yerlerinde tarımın yoğunlaşması, böcek yiyeceğini azaltarak kırlangıç sayısını düşürmüş."
+    }
+   ]
+  },
+  {
+   "ad": "Saçağındaki hangi kırlangıç?",
+   "cumleler": [
+    {
+     "yazi": "Peki saçağındaki kırlangıç hangisi?"
+    },
+    {
+     "yazi": "Bir araştırma, Türkiye'deki yaz göçmeni beş kırlangıç türünü incelemiş: kum, kaya, kır, kızıl ve ev kırlangıcı."
+    },
+    {
+     "yazi": "Binalara yuva yapan iki tanıdık tür kır kırlangıcı ve ev kırlangıcı."
+    },
+    {
+     "yazi": "Kır kırlangıcının sırtı koyu mavi, kuyruğu uzun ve çatallı; alnı ve boğazı pas rengi."
+    },
+    {
+     "yazi": "Yuvası üstü açık bir çanak gibi; ahırlarda, balkonlarda, eski harabelerde bulunabiliyor."
+    },
+    {
+     "yazi": "Türkiye'de kır kırlangıçları çoğunlukla kırsal yerleşimlerde, ama şehir ve beldelerde de üreyebiliyor."
+    },
+    {
+     "yazi": "Ev kırlangıcının başı ve sırtı mavi, kıç tarafı ve karnı bembeyaz."
+    },
+    {
+     "yazi": "Yuvasını saçak altına, üstü kapalı bir kap gibi, çamurdan yapıyor."
+    },
+    {
+     "yazi": "Serçeler yuva yapılırken sık sık araya girip yuvayı ele geçirmeye çalışıyor."
+    },
+    {
+     "yazi": "Kırlangıçlar yuvaya yaklaşan kedi gibi tehditlere çok yakından uçarak karşı koyuyor."
+    },
+    {
+     "yazi": "Suyu da uçarken içiyor: alçaktan süzülüp gagasıyla yüzeyden alıyor."
+    }
+   ]
+  },
+  {
+   "ad": "Yuvadan yavru düşerse",
+   "cumleler": [
+    {
+     "yazi": "Peki yuvadan bir yavru yere düşerse ne yapmalısın?"
+    },
+    {
+     "yazi": "İngiltere'deki bir hayvan koruma derneğine göre, kırlangıç yavruları yuvayı erken terk edip yere çakılabiliyor."
+    },
+    {
+     "yazi": "Yere inen yavru, oradan tekrar havalanamayabiliyor."
+    },
+    {
+     "yazi": "Dernek, böyle bir kuşu bir uzmana göstermeyi öneriyor."
+    },
+    {
+     "yazi": "Yavruyu havalandırma delikleri olan sağlam bir kartona koy; içine havlu ya da gazete ser."
+    },
+    {
+     "yazi": "Kedi ve köpeğini yavrudan uzak tut."
+    },
+    {
+     "yazi": "Kuş gribi nedeniyle tutarken eldiven, gözlük ve maske takman, sonra ellerini yıkaman öneriliyor."
+    },
+    {
+     "yazi": "Hasta ya da ölü bir kuşa mümkünse hiç dokunma."
+    },
+    {
+     "yazi": "Kime başvuracaksın? Bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne ya da bir veterinere."
+    }
+   ]
+  },
+  {
+   "ad": "Kapanış",
+   "cumleler": [
+    {
+     "yazi": "Kırlangıç sık sık aynı yuvaya dönebiliyor; yuva onun için iki haftalık emek ve yıllarca süren bir ev."
+    },
+    {
+     "yazi": "Senin oralarda saçağa yuva yapan kırlangıç var mı, her yıl geri geliyor mu? Yorumlarda yaz."
+    },
+    {
+     "yazi": "Sıradaki komşu: kara kurbağası; ona dokunmak gerçekten siğil çıkarır mı?"
+    },
+    {
+     "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
+    }
+   ]
+  }
+ ],
+ "baslik_secenekleri": [
+  "Kırlangıç Her Yıl Aynı Eve mi Dönüyor? (Kışı Nerede Geçiriyor?)",
+  "Saçaktaki Kırlangıç Yuvası: Her Yıl Aynı Kuş mu Dönüyor? (Halkalı Kuşun Yolculuğu)",
+  "Kırlangıç Yuvasına Dokunmadan Önce (Kışın Nereye Gidiyorlar?)"
+ ],
+ "baslik_notu": "Öneri; son karar paketleme uzmanında. '(… Bunu Bil)' kalıbı kullanılmadı. 'Her yıl aynı eve dönüyor mu' sorusunun cevabı 0:17'de, 'kışı nerede geçiriyor' parantezinin ilk kanıtı (halkalı kuş) 0:50 civarında verilir. Kesin 'Evet, aynı kuş döner' denmedi; dünya çalışmalarına dayanır.",
+ "kapak_alternatifler": [
+  {
+   "buyuk": [
+    "YUVAYI",
+    "BOZMA!"
+   ],
+   "kucuk": "İçinde yavru olabilir",
+   "konum": "sol",
+   "genislik": 500,
+   "gorsel": "kapak",
+   "etiket": "A"
+  },
+  {
+   "buyuk": [
+    "AFRİKA'DAN",
+    "GELDİ"
+   ],
+   "kucuk": "Halkalı kuşun yolculuğu",
+   "konum": "sol",
+   "genislik": 500,
+   "gorsel": "kapak",
+   "etiket": "B"
+  },
+  {
+   "buyuk": [
+    "YAVRU",
+    "DÜŞTÜ"
+   ],
+   "kucuk": "Kartona koy, uzmana göster",
+   "konum": "sol",
+   "genislik": 500,
+   "gorsel": "kapak",
+   "etiket": "C"
+  }
+ ],
+ "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video (kara kurbağası). Son 10-15 saniyede ekranda boş alan kalır."
+}
