@@ -9,7 +9,7 @@ gelmeyen rakam "bilinmiyor" yazılır.
 |---|---|---|
 | Etsy mağazası | Açılmadı | Açık |
 | Yayındaki ilan | 0 | 10 |
-| Yayına hazır ürün | Kalite kontrolde (2) | |
+| Yayına hazır ürün | 2 (kalite: 87 ve 85) | |
 | Satış | 0 | |
 | Gelir | 0 | |
 | Gider | 0 | |
@@ -19,11 +19,12 @@ gelmeyen rakam "bilinmiyor" yazılır.
 - Şirket sistemi kuruldu: görev dağılımı, ürün yolculuğu, Fikir / Kalite / Performans puanları.
 - İlk ürün üretildi: Türk Alfabesi resimli harf kartları (Türkçe–Almanca, Türkçe–İngilizce).
 - 8 yeni fikir puanlandı (bkz. `puan-tablosu.md`).
+- İki ürün bağımsız kalite denetiminden geçti: 1. denetimde 82 ve 75 (kritik hatalar vardı), düzeltmeden sonra 87 ve 85.
+- Başlık yazı tipinde Türkçe harfler eksikti; yazı tipi değiştirildi.
 
 **Patron'dan beklenenler**
 1. Türk Alfabesi PDF'inden bir sayfa yazdırıp tasarımı onaylamak (seri üretim kapısı).
 2. Etsy mağazasını açmak.
 
 **Genel Müdür'ün sıradaki işi**
-- Kalite kontrol sonucuna göre ürünü düzeltmek ve yeniden denetletmek.
 - Patron tasarımı onaylayınca en yüksek puanlı fikri üretime almak.

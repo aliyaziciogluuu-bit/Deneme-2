@@ -53,7 +53,7 @@ function fontCss() {
   const yuz = (aile, agirlik, dosya) => [['latin', LATIN], ['latin-ext', EXT]].map(([k, r]) =>
     `@font-face{font-family:"${aile}";font-weight:${agirlik};font-style:normal;src:url(data:font/woff2;base64,${f(dosya.replace('*', k))}) format("woff2");unicode-range:${r}}`).join('');
   return yuz('Andika', 400, 'andika-*-400-normal.woff2') + yuz('Andika', 700, 'andika-*-700-normal.woff2') +
-    yuz('Fredoka', 600, 'fredoka-*-600-normal.woff2') + yuz('Fredoka', 700, 'fredoka-*-700-normal.woff2');
+    yuz('Baloo2', 600, 'baloo-2-*-600-normal.woff2') + yuz('Baloo2', 700, 'baloo-2-*-700-normal.woff2');
 }
 
 const TEMEL_CSS = `
@@ -62,7 +62,7 @@ html,body{margin:0;padding:0}
 body{font-family:Andika,sans-serif;color:#3A2E39;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .kap{width:100%;height:100%;container-type:size}
 .kart{position:relative;width:100%;height:100%;background:var(--zemin);border-radius:6cqw;border:.9cqw solid rgba(58,46,57,.12);overflow:hidden}
-.kart .harf{position:absolute;left:7cqw;top:3.5cqh;font:700 21cqw/1.22 Fredoka,sans-serif;color:var(--vurgu);letter-spacing:-.02em}
+.kart .harf{position:absolute;left:7cqw;top:3.5cqh;font:700 21cqw/1.22 Baloo2,sans-serif;color:var(--vurgu);letter-spacing:-.02em}
 .kart .harf small{font-size:15cqw;margin-left:1cqw}
 .kart .resim{position:absolute;left:calc(60cqw - min(30cqw,26cqh));top:5cqh;width:min(60cqw,52cqh);height:min(60cqw,52cqh)}
 .kart .resim svg{width:100%;height:100%;display:block}
@@ -71,14 +71,14 @@ body{font-family:Andika,sans-serif;color:#3A2E39;-webkit-print-color-adjust:exac
 .kart .ceviri{position:absolute;left:4cqw;right:4cqw;bottom:6cqh;text-align:center;font:400 6.4cqw/1 Andika,sans-serif;color:#6E6370;white-space:nowrap}
 .kap.bilgi>.kart{background:#fff;border-style:dashed;border-color:#D8D0D6}
 .kap.bilgi .ic{position:absolute;inset:7cqw;display:flex;flex-direction:column;gap:2.6cqw}
-.kap.bilgi h3{margin:0;font:700 11cqw/1 Fredoka,sans-serif;color:#3A8452}
+.kap.bilgi h3{margin:0;font:700 11cqw/1 Baloo2,sans-serif;color:#3A8452}
 .kap.bilgi p{margin:0;font-size:4.3cqw;line-height:1.3}
 .kap.bilgi p.ikinci{color:#6E6370}
 .kap.bilgi .sesli{display:flex;flex-wrap:wrap;gap:1.6cqw;margin-top:auto}
-.kap.bilgi .sesli span{font:700 6.4cqw/1 Fredoka,sans-serif;background:#E4F3DF;color:#3A8452;border-radius:2cqw;padding:1.6cqw 2.4cqw}
+.kap.bilgi .sesli span{font:700 6.4cqw/1 Baloo2,sans-serif;background:#E4F3DF;color:#3A8452;border-radius:2cqw;padding:1.6cqw 2.4cqw}
 .kap.mini .ceviri{font-size:8cqw}
 .kap.yirmidokuz>.kart{background:#fff;border-style:dashed;border-color:#D8D0D6;display:flex;flex-direction:column;align-items:center;justify-content:center}
-.kap.yirmidokuz strong{font:700 34cqw/1 Fredoka,sans-serif;color:#3A8452}
+.kap.yirmidokuz strong{font:700 34cqw/1 Baloo2,sans-serif;color:#3A8452}
 .kap.yirmidokuz span{font:700 10cqw/1.1 Andika,sans-serif;text-align:center}
 `;
 
@@ -101,9 +101,18 @@ function bilgiKarti(dil) {
 }
 
 /* ---------- PDF ---------- */
+// Türkçe sütun ürüne göre küçük farklar taşır: kâğıt boyu, ikinci dilin adı, lisans.
+function trMetin(dil) {
+  const t = JSON.parse(JSON.stringify(METIN.tr));
+  const ikinci = { de: 'Almanca', en: 'İngilizce' }[dil];
+  if (dil === 'en') t.kullanim[0] = t.kullanim[0].replace('A4 kâğıda', 'A4 ya da US Letter kâğıda');
+  t.oyunlar = t.oyunlar.map(([a, b]) => [a, b.replace('ikinci dilde', ikinci)]);
+  if (dil === 'de') t.alt = 'Kişisel kullanım ve tek bir kreş grubu ya da sınıf içindir.';
+  return t;
+}
 function pdfHtml(dil, kagit) {
   const { w, h } = KAGIT[kagit];
-  const t = METIN.tr, d = METIN[dil];
+  const t = trMetin(dil), d = METIN[dil];
   const kartlar = HARFLER.map((x, i) => kart(x, i, dil)).concat(bilgiKarti(dil));
   const kartSayfalari = [];
   for (let s = 0; s < kartlar.length; s += 6) kartSayfalari.push(kartlar.slice(s, s + 6));
@@ -113,34 +122,34 @@ function pdfHtml(dil, kagit) {
       <h2>${kacis(m.oyunBaslik)}</h2>${m.oyunlar.map(([a, b]) => `<h4>${kacis(a)}</h4><p>${kacis(b)}</p>`).join('')}</div>`;
   const dilAdi = { tr: 'Türkçe', de: 'Deutsch', en: 'English' };
 
-  return `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>
+  return `<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>${kacis(t.baslik)} · ${kacis(d.baslik)}</title><style>
 ${fontCss()}${TEMEL_CSS}
 @page{size:${w}mm ${h}mm;margin:0}
 .sayfa{width:${w}mm;height:${h}mm;position:relative;overflow:hidden;page-break-after:always;break-after:page}
 .sayfa:last-child{page-break-after:auto;break-after:auto}
 .altbilgi{position:absolute;left:0;right:0;bottom:6mm;text-align:center;font-size:7.5pt;color:#9A8F99}
 .kapak{background:#FFF8EC;display:flex;flex-direction:column;align-items:center;padding:26mm 18mm 0}
-.kapak h1{margin:0;font:700 40pt/1.05 Fredoka,sans-serif;text-align:center}
+.kapak h1{margin:0;font:700 40pt/1.05 Baloo2,sans-serif;text-align:center}
 .kapak .ust{font:700 13pt/1.2 Andika,sans-serif;color:#3A8452;margin-bottom:5mm;letter-spacing:.06em;text-transform:uppercase}
 .kapak .alt{margin:4mm 0 0;font:400 16pt/1.3 Andika,sans-serif;color:#6E6370;text-align:center}
 .kapak .ornek{display:grid;grid-template-columns:repeat(3,48mm);grid-auto-rows:48mm;gap:7mm;margin-top:16mm}
 .kapak .ornek>div:nth-child(odd){transform:rotate(-3deg)}.kapak .ornek>div:nth-child(even){transform:rotate(2.5deg)}
 .kapak .not{margin-top:14mm;font:700 12pt/1.3 Andika,sans-serif;color:#3A2E39;background:#fff;border-radius:20mm;padding:3mm 8mm;border:.4mm solid #E6DCCB}
 .rehber{padding:${kagit === 'Letter' ? '14mm 16mm' : '18mm 16mm'}}
-.rehber h1{margin:0 0 8mm;font:700 24pt/1.1 Fredoka,sans-serif}
+.rehber h1{margin:0 0 8mm;font:700 24pt/1.1 Baloo2,sans-serif}
 .rehber .iki{display:grid;grid-template-columns:1fr 1fr;gap:10mm}
 .rehber .dil{font:700 8.5pt/1 Andika,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#3A8452;border-bottom:.4mm solid #E4F3DF;padding-bottom:2mm}
-.rehber h2{font:700 14pt/1.2 Fredoka,sans-serif;margin:6mm 0 2.5mm;color:#C9436A}
+.rehber h2{font:700 14pt/1.2 Baloo2,sans-serif;margin:6mm 0 2.5mm;color:#C9436A}
 .rehber ol{margin:0;padding-left:5mm;font-size:10pt;line-height:1.45}
 .rehber li{margin-bottom:2mm}
 .rehber h4{margin:3.5mm 0 1mm;font:700 10.5pt/1.2 Andika,sans-serif}
 .rehber p{margin:0;font-size:10pt;line-height:1.45}
-.rehber .kucuk{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:4mm;padding:0 ${kagit === 'Letter' ? 28 : 14}mm}
+.rehber .kucuk{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:4mm;padding:0 ${kagit === 'Letter' ? 34 : 14}mm}
 .rehber .kucuk>div{aspect-ratio:1}
 .kartlar{padding:12mm 12mm 14mm;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,1fr);border-collapse:collapse}
 .hucre{border:.3mm dashed #9A8F99;margin:0 -.15mm -.15mm 0;padding:3mm}
 .poster{padding:12mm 11mm 12mm;display:flex;flex-direction:column}
-.poster h1{margin:0;font:700 26pt/1 Fredoka,sans-serif;text-align:center}
+.poster h1{margin:0;font:700 26pt/1 Baloo2,sans-serif;text-align:center}
 .poster .alt{margin:2mm 0 6mm;text-align:center;font-size:11pt;color:#6E6370}
 .poster .izgara{flex:1;display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(6,1fr);gap:2.6mm}
 </style></head><body>
@@ -178,7 +187,7 @@ function gorselHtml(dil, tur, pdfSayfalari) {
   const g = GORSEL[dil], t = METIN.tr, d = METIN[dil];
   const ortak = `<!doctype html><html><head><meta charset="utf-8"><style>${fontCss()}${TEMEL_CSS}
   body{width:1000px;height:750px;overflow:hidden;position:relative;background:#FFF8EC}
-  h1{font:700 64px/1.02 Fredoka,sans-serif;margin:0}
+  h1{font:700 64px/1.02 Baloo2,sans-serif;margin:0}
   .ust{font:700 16px/1 Andika,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#3A8452}
   .alt{font:400 24px/1.3 Andika,sans-serif;color:#6E6370;margin:0}
   .rozetler{display:flex;flex-direction:column;gap:12px}
@@ -246,7 +255,7 @@ function gorselHtml(dil, tur, pdfSayfalari) {
     for (const k of u.kagitlar) {
       const sayfa = await tarayici.newPage();
       await sayfa.setContent(pdfHtml(u.dil, k), { waitUntil: 'load' });
-      await sayfa.evaluate(() => document.fonts.ready);
+      await sayfa.evaluate(async () => { const ornek = 'ĞğŞşİıÇçÖöÜüAa'; await Promise.all(['700 40px Baloo2', '600 40px Baloo2', '400 16px Andika', '700 16px Andika'].map((f) => document.fonts.load(f, ornek))); await document.fonts.ready; });
       const yol = path.join(dizin, `${u.ad}-${k === 'A4' ? 'A4' : 'US-Letter'}.pdf`);
       await sayfa.pdf({ path: yol, preferCSSPageSize: true, printBackground: true });
       if (!sayfaResimleri) {
@@ -265,7 +274,7 @@ function gorselHtml(dil, tur, pdfSayfalari) {
     const gorsel = await tarayici.newPage({ viewport: { width: 1000, height: 750 }, deviceScaleFactor: 2 });
     for (const [no, tur] of [[1, 'kapak'], [2, 'tum'], [3, 'ozel'], [4, 'poster'], [5, 'icerik']]) {
       await gorsel.setContent(gorselHtml(u.dil, tur, sayfaResimleri), { waitUntil: 'load' });
-      await gorsel.evaluate(() => document.fonts.ready);
+      await gorsel.evaluate(async () => { const ornek = 'ĞğŞşİıÇçÖöÜüAa'; await Promise.all(['700 40px Baloo2', '600 40px Baloo2', '400 16px Andika', '700 16px Andika'].map((f) => document.fonts.load(f, ornek))); await document.fonts.ready; });
       const yol = path.join(dizin, `etsy-${no}-${tur}.png`);
       await gorsel.screenshot({ path: yol });
       console.log('PNG', path.relative(KOK, yol));

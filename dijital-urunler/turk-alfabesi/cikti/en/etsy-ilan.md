@@ -32,19 +32,19 @@ HOW IT WORKS
 
 PLEASE NOTE
 • This is a digital download. No physical item will be shipped.
-• Colours may look slightly different depending on your screen and printer.
+• Colors may look slightly different depending on your screen and printer.
 • Because this is a digital file, returns and refunds are not possible. If anything is wrong with your file, send me a message and I will fix it.
 
 LICENSE
 For personal and single classroom use only. Please do not share, resell or redistribute the files.
 
-Designed with the help of an AI assistant: the illustrations, layout and texts were created with AI assistance.
+The illustrations were drawn by an AI assistant as vector code (no image generator). The texts and layout were also written with AI assistance.
 ```
 
 ## Etiketler (Tags), 13 adet
 
 ```
-turkish alphabet, turkish flashcards, learn turkish, turkish for kids, bilingual kids, turkish printable, alphabet poster, heritage language, turkish homeschool, turkish letters, turkish abc, türkçe alfabe, turkish school
+turkish alphabet, turkish flashcards, learn turkish, turkish for kids, bilingual kids, turkish printable, alphabet poster, heritage language, turkish homeschool, turkish letters, turkish abc, türkçe alfabe, turkish preschool
 ```
 
 ## Diğer alanlar

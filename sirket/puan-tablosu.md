@@ -4,8 +4,8 @@
 
 | Ürün | Aşama | Fikir | Kalite | Performans | Not |
 |---|---|---|---|---|---|
-| Türk Alfabesi kartları · Türkçe–Almanca | Kalite kontrolde | 84 | bekleniyor | – | `dijital-urunler/turk-alfabesi/cikti/de/` |
-| Türk Alfabesi kartları · Türkçe–İngilizce | Kalite kontrolde | 80 | bekleniyor | – | `dijital-urunler/turk-alfabesi/cikti/en/` |
+| Türk Alfabesi kartları · Türkçe–Almanca | **Yayına hazır** | 84 | **87** | – | `dijital-urunler/turk-alfabesi/cikti/de/` |
+| Türk Alfabesi kartları · Türkçe–İngilizce | **Yayına hazır** | 80 | **85** | – | `dijital-urunler/turk-alfabesi/cikti/en/` |
 
 ## Fikirler
 
@@ -48,3 +48,13 @@ Letter sayfa düzeni ve kart resim boyu; vazo yeniden çizildi (çiçekler küç
 "die Trauben" → "die Weintraube", "grill" → "barbecue", "jelly" → "jelly (dessert)"; Türkçe ve Almanca metin düzeltmeleri;
 yapay zekâ beyanı genişletildi (çizim, düzen ve metinler); zayıf etiketler değişti ("montessori cards" kaldırıldı);
 ilan fotoğraflarına "indir → yazdır → kes → oyna" şeridi ve "dijital ürün" ibaresi eklendi.
+
+| 20.11.2026 | Türk Alfabesi · Almanca (2. denetim) | 23 | 16 | 14 | 17 | 17 | **87** | yok | **Geçti** |
+| 20.11.2026 | Türk Alfabesi · İngilizce (2. denetim) | 22 | 16 | 13 | 17 | 17 | **85** | yok | **Geçti** |
+
+**2. denetimden sonra yapılan zorunlu düzeltmeler:** başlık yazı tipinde (Fredoka) Ğ, Ş, İ harfleri yoktu ve yedek yazı tipiyle
+basılıyordu; yazı tipi Türkçe harflerin hepsini içeren Baloo 2 ile değiştirildi ve PDF'lerde yedek yazı tipi kalmadığı doğrulandı.
+Yapay zekâ beyanı netleştirildi (çizimler yapay zekâ tarafından vektör kod olarak çizildi). İngilizce üründe Türkçe sütun
+"A4 ya da US Letter" diyor; "Kelime köprüsü" ikinci dilin adını söylüyor; Letter sayfa 2'nin alt boşluğu artırıldı;
+"Colours" → "Colors"; "turkish school" → "turkish preschool"; PDF'lere başlık bilgisi eklendi.
+Bunlar puanı düşürmeyen düzeltmeler olduğu için yeniden tam denetim yapılmadı; Genel Müdür yazı tipini ve sayfaları kendisi kontrol etti.

@@ -31,4 +31,4 @@ NODE_PATH=$(npm root -g) node uret.js
 Yeni bir dil eklemek için `kelimeler.js` içinde her harfe o dilin karşılığını, `METIN` içine o dilin metinlerini,
 `uret.js` içinde `URUNLER` ve `GORSEL` listelerine o dili ekleyin.
 
-Yazı tipleri (Andika, Fredoka) SIL Open Font License ile dağıtılır; ticari PDF'lere gömülebilir (`fontlar/`).
+Yazı tipleri (Andika, Baloo 2) SIL Open Font License ile dağıtılır; ticari PDF'lere gömülebilir (`fontlar/`).

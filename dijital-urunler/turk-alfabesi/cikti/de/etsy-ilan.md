@@ -42,7 +42,7 @@ PLEASE NOTE
 LICENSE
 For personal use and one daycare group or classroom. Please do not share, resell or redistribute the file.
 
-Designed with the help of an AI assistant: the illustrations, layout and texts were created with AI assistance.
+The illustrations were drawn by an AI assistant as vector code (no image generator). The texts and layout were also written with AI assistance.
 ```
 
 ### Tags
@@ -89,7 +89,7 @@ BITTE BEACHTEN
 LIZENZ
 Nur für den privaten Gebrauch und für eine Kita-Gruppe oder Klasse. Die Datei darf nicht weitergegeben oder weiterverkauft werden.
 
-Gestaltet mit Hilfe eines KI-Assistenten: Illustrationen, Layout und Texte sind KI-gestützt entstanden.
+Die Illustrationen hat ein KI-Assistent als Vektorcode gezeichnet (kein Bildgenerator). Auch Texte und Layout sind KI-gestützt entstanden.
 ```
 
 ### Tags
