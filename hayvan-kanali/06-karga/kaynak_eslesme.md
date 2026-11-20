@@ -116,3 +116,30 @@ Kaynaklar:
 69. Kargalar yüzü tanıyabiliyor ve sana nasıl davrandığını yıllarca hatırlayabilir → K1, K4; çekinceli; sınır cümle 10 ve 32–33'te. [özetten]
 70. Yorum sorusu. [–]
 71. Kanal kapanış kalıbı. [–]
+
+
+## Düzeltme turu, 20 Kasım 2026 (açılamayan üç kaynağın yerine açık kaynak araması)
+
+Bugün açılan ve `kaynaklar/` altına kaydedilen sayfalar: en.wikipedia.org John Marzluff (K19), Observational learning (K20), Corvus (K21). K3, K4 ve K6 açılamadı (curl kod 000, proxy reddi), listeden ve kaynak olarak çıkarıldı. K2 (PMC3465369) bugün reCAPTCHA verdi; önceki "AÇILDI" notu bugünkü oturumda yinelenemedi.
+
+- K19 = https://en.wikipedia.org/wiki/John_Marzluff ("John Marzluff - Wikipedia"), kaynaklar/vikipedi-john-marzluff.txt
+- K20 = https://en.wikipedia.org/wiki/Observational_learning ("Observational learning - Wikipedia"), kaynaklar/vikipedi-observational-learning.txt
+- K21 = https://en.wikipedia.org/wiki/Corvus ("Corvus - Wikipedia"), kaynaklar/vikipedi-corvus.txt
+
+| cümle no | cümle | kaynak | sayfadaki alıntı | durum |
+|---|---|---|---|---|
+| 6 | O gün orada olmayanlar bile zamanla aynısını yaptı. | K19 | "After the people wearing the mask left, even crows that did not witness the tagging scolded the mask, showing an example of cultural transmission in crows." | TAMAM (önceki dayanak K4/ScienceBlog açılamamıştı) |
+| 16 | Araştırmacılar kargaların bu tehlikeyi birbirine ve yavrularına öğrettiğini düşünüyor. | K19, K20 | K19: "He and his fellow researchers found that this transmission was both from one generation to the next and from peer to peer." K20: "Children of captured crow parents were conditioned to scold the dangerous mask, which demonstrates vertical social learning (learning from parents)." | TAMAM ("düşünüyor" çekincesi korunuyor) |
+| 4 | ... tehdit edici maskeyle yedi karga yakalayıp bıraktı. | K20 | "...trapped, banded, and released 7–15 birds at five different study places around Seattle, WA." | KISMEN: "yedi karga" sayısı sayfada yok (5 alanda 7–15 kuş). Öneri: sayı yerine "bir grup karga" (videoda değişiklik patronun kararı) |
+| 17 | Yaklaşık on yedi yıl sonra, iki bin yirmi üç eylülünde, Marzluff maskeyle yeniden yürüdü. | yok | Açık kaynakta "17" ya da "2023" geçmiyor (K19, K20, K21 tarandı). | YOK |
+| 18 | Bir yürüyüşte hiçbir karga ona bağırmadı; öfke yıllarca sürmüş, ama sonunda sönmüş görünüyor. | yok | Yok. (K20'deki "5-year period" yalnızca yayılma süresi, öfkenin sönmesi değil.) | YOK |
+| 19 | Amerikan kargaları ölü bir karganın çevresine toplanıyor; ... tehlikeyi öğrenmek için olabileceğini düşünüyor. | yok | Yok. K21'de yalnızca "Crows have been shown to ... transmit information about 'bad' humans by squawking." (başka konu) | YOK |
+| 20 | Ölü bir karganın yanında duran maskeli kişiye, kargalar sonraki günlerde de bağırdı. | yok | Yok | YOK |
+| 21 | Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi. | yok | Yok | YOK |
+| 23 | Seattle'da sekiz yaşında bir kız, bahçesine gelen kargaları yıllarca besledi. | K21 | "Gabi leaves out treats for the crows in. her yard: sandwich crumbs, chicken nuggets, peanuts." ve "a young girl from Seattle, Washington named Gabi Mann" | KISMEN: "sekiz yaşında" ve "yıllarca" sayfada yok. Öneri: "Seattle'da genç bir kız, bahçesine gelen kargaları besledi." |
+| 24 | Anlatılanlara göre kargalar ona düğme, taş ve küpe gibi küçük şeyler bıraktı. | K21 | "In gratitude, the crows bring her bric-a-brac gifts: a chapstick tube, a rusty screw, as well as more glittery objects, such as polished sea glass." | KISMEN: düğme, taş, küpe geçmiyor. Öneri: "dudak kremi tüpü, paslı vida, cilalı deniz camı" ya da "küçük şeyler" |
+| 25 | Marzluff, hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş. | yok | Yok (Audubon'daki söz açılamadı) | YOK |
+| 69 | ... sana nasıl davrandığını yıllarca hatırlayabilir | yok | "yıllarca" için açık dayanak yok (K19: "identify and remember people's faces" yalnızca hatırlamayı veriyor) | KISMEN: "yıllarca" çıkar ya da "hatırlayabilir" |
+| 7, 15 | Vaat ("öfkenin yıllarca sürdüğü") ve "Peki bu öfke ne kadar sürüyor?" | yok | 17-18'e bağlı | YOK (17-18 ile birlikte karar verilmeli) |
+
+Not: K1, K5, K7, K8, K9, K10, K13 de bu oturumda açılamadı ("özetten"); yukarıdaki tabloda ele alınmadı, ayrı karar gerekir.

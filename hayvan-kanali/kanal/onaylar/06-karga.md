@@ -48,3 +48,9 @@
 ## Yönetici (19 Kasım)
 - ÖNERİ: ONAY (şart: kanal sahibi 4 şüpheli kelimeyi dinlesin). Takvim: 4 Aralık 18:00 uzun video, 5–6 Aralık 12:00 Shorts. Sabit yorum etkilesim.md'ye eklendi.
 TESLİM EDİLDİ: teslim.py ile teslim/06-karga (19 Kasım).
+
+## Günlük bekçi turu (20 Kasım): kaynak erişimi
+- Bekçi: urban.uw.edu ("17 yıl" haberi), www.audubon.org (Seattle'daki kız), digital.lib.washington.edu (ölü karga çalışması) bu ortamdan açılmıyor (proxy reddi).
+- Kaynak arşivcisi: Audubon yerine Vikipedi "Corvus" konuldu; diğer ikisinin açık eşdeğeri bulunamadı, listeden çıkarıldı (senaryo.json, yukleme.txt, teslim/06-karga/karga-yukleme.txt). Cümle 17–21 (17 yıl, 2023 yürüyüşü, ölü karga) açılmış kaynaksız kaldı; başlık "17 Yıl" içeriyor.
+- Bilgi gerçek: bilgi kontrolcüsü Tur 3'te birden çok haber kaynağıyla (web araması) teyit etti. Sorun ağ izni.
+- Karar kanal sahibinde: (A) üç alan adına ağ izni → sayfalar açılıp kaynaklar geri eklenir; (B) bu üç bilgi için web araması teyidi kabul edilir; (C) 17 yıl ve ölü karga cümleleri çıkarılır, başlık değişir, video yeniden üretilir.
