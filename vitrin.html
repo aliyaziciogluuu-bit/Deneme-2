@@ -31,6 +31,11 @@
   td small { display: block; font-size: .42em; font-weight: 400; opacity: .7; }
   tr.metal td:first-child { color: #f4d27a; }
   td.flash { animation: flash 1.2s ease-out; }
+  .dir { display: inline-block; font-size: .5em; margin-right: .35em; vertical-align: .25em; }
+  .dir.up { color: #5fd38a; }
+  .dir.down { color: #ff7d6b; }
+  .check { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 500; opacity: 1; cursor: pointer; }
+  .check input { width: 20px; height: 20px; }
   @keyframes flash { from { background: rgba(244, 210, 122, .35); } to { background: transparent; } }
   .empty { margin: auto; text-align: center; max-width: 640px; font-size: clamp(16px, 2.2vw, 26px); opacity: .9; }
   .stale { background: #b3402e; color: #fff; text-align: center; font-weight: 700; font-size: clamp(14px, 2.2vw, 30px);
@@ -74,7 +79,7 @@
   <div class="empty" id="empty" hidden></div>
 </main>
 <div class="stale" id="stale" role="status" hidden></div>
-<footer><span>Fiyatlar bilgi amaçlıdır; işlem anındaki fiyat geçerlidir.</span><span id="src"></span></footer>
+<footer><span>Fiyatlar bilgi amaçlıdır; işlem anındaki fiyat geçerlidir.<span id="legend"></span></span><span id="src"></span></footer>
 <div class="ctl">
   <button type="button" id="btnFull">Tam ekran</button>
   <button type="button" id="btnSet">Ayarlar</button>
@@ -95,6 +100,9 @@
         <option value="piyasa">Piyasa fiyatı + kendi farkım (ayrı TV ya da tablet için)</option>
       </select>
     </div>
+    <div class="field">
+      <label class="check" for="fArrows"><input type="checkbox" id="fArrows"> Yön okları (▲ ▼): fiyat günün ilk fiyatına göre yükseldi mi, düştü mü</label>
+    </div>
     <div id="kasaBox">
       <p>Yazıcıoğlu Çilek Döviz uygulamasındaki “Kur tablom” ve “Has altın fiyatım” gösterilir; orada fiyatı değiştirdiğinizde bu ekran kendiliğinden güncellenir.</p>
       <label>Has fiyatımdan hesaplanacak ayarlar (gram)</label>
@@ -114,7 +122,7 @@
 <script>
 (function () {
   'use strict';
-  var KASA_KEY = 'doviz-kasasi-v1', SET_KEY = 'vitrin-v1', PRICE_KEY = 'vitrin-fiyat';
+  var KASA_KEY = 'doviz-kasasi-v1', SET_KEY = 'vitrin-v1', PRICE_KEY = 'vitrin-fiyat', OPEN_KEY = 'vitrin-acilis';
   // src: finans.truncgil.com anahtarı
   var ASSETS = {
     USD: { label: 'Dolar', name: 'USD' }, EUR: { label: 'Euro', name: 'EUR' }, GBP: { label: 'Sterlin', name: 'GBP' },
@@ -163,7 +171,7 @@
   function write(key, v) { try { localStorage.setItem(key, JSON.stringify(v)); } catch (e) { /* yoksay */ } }
 
   // ---------- Ayarlar ----------
-  var set = { name: 'Yazıcıoğlu Çilek Döviz', source: 'kasa', karats: [], rows: {} };
+  var set = { name: 'Yazıcıoğlu Çilek Döviz', source: 'kasa', karats: [], rows: {}, arrows: true };
   function loadSet() {
     var s = read(SET_KEY), kasa = read(KASA_KEY);
     if (!s || typeof s !== 'object') {
@@ -174,6 +182,7 @@
     }
     if (typeof s.name === 'string' && s.name.trim()) set.name = s.name.trim().slice(0, 60);
     set.source = s.source === 'piyasa' ? 'piyasa' : 'kasa';
+    set.arrows = s.arrows !== false;
     set.karats = (Array.isArray(s.karats) ? s.karats : []).filter(function (k) { return KARATS.indexOf(k) >= 0; });
     MARKET_ROWS.forEach(function (c) {
       var r = s.rows && s.rows[c];
@@ -237,10 +246,27 @@
     });
   }
 
+  // ---------- Yön okları ----------
+  // Her satırın günün ilk gördüğü fiyatı saklanır; fiyat ondan yüksekse ▲, düşükse ▼ gösterilir. Gün değişince sıfırlanır.
+  function localDay() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
+  function openings() {
+    var o = read(OPEN_KEY);
+    return o && o.d === localDay() && o.v && typeof o.v === 'object' ? o : { d: localDay(), v: {} };
+  }
+  function arrow(open, key, v) {
+    if (!v) return null;
+    if (!(open.v[key] > 0)) { open.v[key] = v; return null; }
+    var base = open.v[key];
+    if (Math.abs(v - base) <= base * 1e-6) return null;
+    return v > base ? el('span', { class: 'dir up', title: 'Günün ilk fiyatından yüksek', text: '▲' })
+                    : el('span', { class: 'dir down', title: 'Günün ilk fiyatından düşük', text: '▼' });
+  }
+
   // ---------- Çizim ----------
   var shown = {};
   function render() {
     var rows = set.source === 'kasa' ? rowsFromKasa() : rowsFromMarket(), body = $('body'), next = {};
+    var open = openings(), arrows = 0;
     $('shop').textContent = set.name;
     document.title = set.name + ' — Fiyatlar';
     body.textContent = '';
@@ -250,11 +276,17 @@
       var cell = function (side) {
         var v = r[side], text = v ? fmt(v, r.metal) : '—', key = r.key + side;
         next[key] = text;
-        return el('td', { class: shown[key] !== undefined && shown[key] !== text ? 'flash' : '', text: text });
+        var td = el('td', { class: shown[key] !== undefined && shown[key] !== text ? 'flash' : '' });
+        var a = arrow(open, key, v);
+        if (a && set.arrows) { td.appendChild(a); arrows++; }
+        td.appendChild(document.createTextNode(text));
+        return td;
       };
       body.appendChild(el('tr', { class: r.metal ? 'metal' : '' }, [name, cell('buy'), cell('sell')]));
     });
     shown = next;
+    write(OPEN_KEY, open);
+    $('legend').textContent = arrows ? ' ▲ ▼ günün ilk fiyatına göre.' : '';
     $('table').hidden = !rows.length;
     $('empty').hidden = rows.length > 0;
     $('empty').textContent = set.source === 'kasa'
@@ -280,6 +312,7 @@
   function openSettings() {
     $('fName').value = set.name;
     $('fSource').value = set.source;
+    $('fArrows').checked = set.arrows;
     var box = $('rows');
     box.textContent = '';
     box.appendChild(el('div', { class: 'row head' }, [el('span', { text: 'Göster' }), el('span', { text: 'Alış farkı (₺)' }), el('span', { text: 'Satış farkı (₺)' })]));
@@ -316,6 +349,7 @@
     var name = $('fName').value.trim();
     if (name) set.name = name.slice(0, 60);
     set.source = $('fSource').value === 'piyasa' ? 'piyasa' : 'kasa';
+    set.arrows = $('fArrows').checked;
     Array.prototype.forEach.call(document.querySelectorAll('#rows input[data-c]'), function (chk) {
       var c = chk.getAttribute('data-c');
       var b = parseNum(document.querySelector('#rows input[data-b="' + c + '"]').value);
@@ -325,6 +359,7 @@
     set.karats = Array.prototype.filter.call(document.querySelectorAll('#karats input'), function (i) { return i.checked; })
       .map(function (i) { return Number(i.getAttribute('data-k')); });
     write(SET_KEY, set);
+    write(OPEN_KEY, null);   // fark ya da satırlar değişti: oklar yeni fiyatlardan başlasın (ayar değişikliği fiyat hareketi değildir)
     $('dlg').close();
     shown = {};
     render();

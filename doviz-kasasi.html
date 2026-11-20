@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.13">
+<meta name="surum" content="2026-11-20.14">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -718,6 +718,19 @@
   #aList .l { flex: 1 1 200px; }
   .receipt .rc-links { text-align: center; font-size: 12px; color: #444; margin: 8px 0 0; overflow-wrap: anywhere; }
   .receipt .rc-links span { display: block; }
+
+  /* Makas uyarısı, sınırlar, envanter */
+  .rate-warn { margin: -4px 0 0; padding: 8px 12px; border-radius: 12px; background: var(--neg-bg); color: var(--ink);
+               font-weight: 600; font-size: 14.5px; }
+  .rate-warn[hidden] { display: none; }
+  #limList li.over { background: var(--neg-bg); }
+  #limList .l { flex: 1 1 200px; }
+  td small.lim { display: block; font-weight: 500; }
+  .inv-tools { flex-wrap: wrap; align-items: center; gap: 8px; }
+  .inv-tools input[type=date] { width: auto; min-height: 40px; }
+  .inv-sum { display: grid; gap: 4px; margin: 10px 0 4px; font-size: 15px; }
+  .inv-sum div { display: flex; justify-content: space-between; gap: 12px; }
+  .inv-sum b { font-variant-numeric: tabular-nums; }
   .receipt .rc-links:empty { display: none; }
 </style>
 </head>
@@ -747,6 +760,16 @@
   <div class="banner good" id="alertBanner" role="status" hidden>
     <span id="alertText"></span>
     <button type="button" class="small primary" id="btnAlertGo">Göster</button>
+  </div>
+
+  <div class="banner warn" id="spreadBanner" role="status" hidden>
+    <span id="spreadText"></span>
+    <button type="button" class="small primary" id="btnSpreadGo">Kurlarım</button>
+  </div>
+
+  <div class="banner warn" id="limitBanner" role="status" hidden>
+    <span id="limitText"></span>
+    <button type="button" class="small primary" id="btnLimitGo">Sınırlar</button>
   </div>
 
   <div class="banner warn" id="staleBanner" role="status" hidden>
@@ -833,6 +856,7 @@
           <label for="fRate" id="lRate">Kur (₺)</label>
           <input type="text" id="fRate" inputmode="decimal" autocomplete="off" placeholder="0,00" required>
         </div>
+        <p class="f full rate-warn" id="fRateWarn" role="status" hidden></p>
         <div class="f full amtq-f">
           <div class="quick amtq" id="amtQuick" aria-label="Hızlı tutar"></div>
         </div>
@@ -1278,6 +1302,36 @@
     </div>
   </section>
 
+  <section class="card" data-view="kasa">
+    <div class="head">
+      <h2>Sınırlar</h2>
+      <button type="button" class="small" data-toggle="sinir" data-label="Ayarla"></button>
+    </div>
+    <div class="body" data-fold="sinir">
+      <p class="hint lead">Elinizde bir varlıktan çok fazla birikmesin ya da TL kasası azalmasın diye sınır koyun. Sınır aşılınca
+        uygulamanın üstünde uyarı çıkar; sınırı aşacak işlemi kaydederken sorulur.</p>
+      <form class="tx" id="limForm" novalidate>
+        <div class="f">
+          <label for="limCur">Varlık</label>
+          <select id="limCur"></select>
+        </div>
+        <div class="f">
+          <label for="limMax" id="limMaxLbl">En fazla</label>
+          <input type="text" id="limMax" inputmode="decimal" autocomplete="off" placeholder="0">
+        </div>
+        <div class="f">
+          <label for="limTL">TL kasası en az (₺)</label>
+          <input type="text" id="limTL" inputmode="decimal" autocomplete="off" placeholder="sınır yok">
+        </div>
+        <div class="f full form-foot">
+          <div class="msg err" id="limMsg" role="status"></div>
+          <button type="submit" class="primary">Sınırı kaydet</button>
+        </div>
+      </form>
+    </div>
+    <ul class="recent" id="limList"></ul>
+  </section>
+
   <section class="card" data-view="vitrin">
     <div class="head">
       <h2>Vitrin defteri</h2>
@@ -1399,6 +1453,34 @@
       </div>
     </div>
     <div class="foot hint" id="dayFoot"></div>
+  </section>
+
+  <section class="card" data-view="gun">
+    <div class="head">
+      <h2>Envanter listesi</h2>
+      <button type="button" class="small" data-toggle="envanter" data-label="Aç"></button>
+    </div>
+    <div class="body" data-fold="envanter">
+      <p class="hint lead">Seçtiğiniz günün akşamı elinizde kalan döviz ve altın, ortalama maliyetiyle. Yıl sonu için 31 Aralık’ı
+        seçip mali müşavirinize gönderebilirsiniz.</p>
+      <div class="tools lead inv-tools">
+        <label for="invDate">Tarih</label>
+        <input type="date" id="invDate">
+        <button type="button" class="small" id="invYear"></button>
+        <button type="button" class="small" id="invShare">Paylaş</button>
+        <button type="button" class="small" id="invCsv">CSV indir</button>
+      </div>
+      <div class="table-wrap">
+        <table class="cards inv">
+          <thead>
+            <tr><th class="left">Varlık</th><th>Miktar</th><th>Has (gr)</th><th>Ort. maliyet (₺)</th><th>Toplam maliyet</th></tr>
+          </thead>
+          <tbody id="invBody"></tbody>
+        </table>
+      </div>
+      <div class="inv-sum" id="invSum"></div>
+      <p class="hint" id="invNote"></p>
+    </div>
   </section>
 
   <section class="card" data-view="liste">
@@ -1600,7 +1682,8 @@
     tx: [], rates: {}, sell: {}, chg: {}, myRates: null, ratesUpdated: null, rateSrc: null,
     count: { cur: TL, qty: {}, last: {} }, calc: cleanCalc(null), whole: [], items: [], fx: {},
     auto: {}, worn: {}, tpl: [], closed: [], hasLink: false,
-    weekend: { on: false, fri: '18:00', mon: '09:30' }, alerts: [], links: { review: '', maps: '' }
+    weekend: { on: false, fri: '18:00', mon: '09:30' }, alerts: [], links: { review: '', maps: '' },
+    limits: { max: {}, minTL: null }
   };
   var balOpen = {};                   // Kasa bakiyelerinde ayrıntısı açık varlıklar
   var lastRes = { tl: 0, acc: {} };   // son hesaplanan bakiyeler (kasa sayımı bunlarla karşılaştırır)
@@ -1721,7 +1804,8 @@
       count: cleanCount(data.count), calc: cleanCalc(data.calc),
       whole: cleanWhole(data.whole), items: cleanItems(data.items), fx: cleanFx(data.fx),
       auto: cleanAuto(data.auto), worn: cleanWorn(data.worn), tpl: cleanTpl(data.tpl), closed: cleanClosed(data.closed),
-      hasLink: !!data.hasLink, weekend: cleanWeekend(data.weekend), alerts: cleanAlerts(data.alerts), links: cleanLinks(data.links)
+      hasLink: !!data.hasLink, weekend: cleanWeekend(data.weekend), alerts: cleanAlerts(data.alerts), links: cleanLinks(data.links),
+      limits: cleanLimits(data.limits)
     };
   }
   function finiteOr0(v) { v = Number(v); return isFinite(v) ? v : 0; }
@@ -1740,6 +1824,13 @@
       return { id: String(a.id || uid()), name: a.name.trim().slice(0, 60), phone: String(a.phone || '').replace(/[^\d+]/g, '').slice(0, 16),
                cur: a.cur, side: a.side, target: Number(a.target), at: String(a.at || ''), done: !!a.done };
     });
+  }
+  // limits: pozisyon sınırları — varlık başına en fazla miktar (max) ve TL kasasının en az tutarı (minTL)
+  function cleanLimits(l) {
+    l = l && typeof l === 'object' ? l : {};
+    var max = {};
+    PRICED.forEach(function (c) { var v = posOrNull((l.max || {})[c]); if (v) max[c] = v; });
+    return { max: max, minTL: posOrNull(l.minTL) };
   }
   // links: müşteriye giden dökümün sonuna eklenen bağlantılar (Google yorum ve yol tarifi)
   function cleanLinks(l) {
@@ -2179,7 +2270,7 @@
       }
       balRow(c, [
         assetCell(c, 'span title'),
-        el('td', { 'data-label': 'Bakiye', class: 'amt', text: fmtAmt(a.bal, c) }),
+        balCell(c, a.bal),
         el('td', { 'data-label': 'Ort. maliyet', text: a.bal > EPS ? fmtRate(r.avg, c) : '—' }),
         el('td', { 'data-label': 'Piyasa fiyatı (₺)' }, [input]),
         el('td', { 'data-label': 'TL değeri', class: 'amt', text: r.value == null ? '—' : fmtTL(r.value) }),
@@ -2219,6 +2310,9 @@
     renderMyRates();
     renderAuto();
     renderAlerts();
+    renderSpread();
+    renderLimits();
+    renderInventory();
     renderStale();
     renderCount();
     renderDay();
@@ -2236,6 +2330,148 @@
     renderRatesInfo();
   }
 
+  // ---------- Pozisyon sınırları ----------
+  function limitIssues(res) {
+    var out = [], L = state.limits;
+    Object.keys(L.max).sort(byCode).forEach(function (c) {
+      var bal = res.acc[c] ? res.acc[c].bal : 0;
+      if (bal > L.max[c] + EPS) out.push({ key: c, text: label(c) + ' sınırı aşıldı: ' + fmtAmt(bal, c) + ' (en fazla ' + fmtAmt(L.max[c], c) + ')' });
+    });
+    if (L.minTL && res.tl < L.minTL - 0.005) out.push({ key: TL, text: 'TL kasası sınırın altında: ' + fmtTL(res.tl) + ' (en az ' + fmtTL(L.minTL) + ')' });
+    return out;
+  }
+  // Kaydedilecek işlem bir sınırı aşıyor ya da aşılmış sınırı daha da kötüleştiriyorsa sorar
+  function limitOk(res) {
+    var worse = limitIssues(res).filter(function (x) {
+      if (x.key === TL) return res.tl < lastRes.tl - 0.005;
+      var was = lastRes.acc[x.key] ? lastRes.acc[x.key].bal : 0;
+      return res.acc[x.key].bal > was + EPS;
+    });
+    if (!worse.length) return true;
+    return confirm('Bu işlemle sınırınız aşılıyor:\n' + worse.map(function (x) { return '• ' + x.text; }).join('\n') + '\n\nYine de kaydedilsin mi?');
+  }
+  function renderLimits() {
+    var L = state.limits, issues = limitIssues(lastRes);
+    $('limitBanner').hidden = !issues.length;
+    if (issues.length) $('limitText').textContent = issues.length === 1 ? issues[0].text + '.'
+      : issues.length + ' sınır aşıldı: ' + issues.map(function (x) { return x.key === TL ? 'TL kasası' : label(x.key); }).join(', ') + '.';
+    var c = $('limCur').value;
+    $('limMaxLbl').textContent = c ? 'En fazla (' + (isMetal(c) ? unit(c) : shortName(c)) + ')' : 'En fazla';
+    if (document.activeElement !== $('limTL')) $('limTL').value = L.minTL ? fmtInput(L.minTL) : '';
+    var ul = $('limList');
+    ul.textContent = '';
+    var item = function (key, main, sub, over, onDel) {
+      var del = el('button', { type: 'button', class: 'small x', 'aria-label': main + ' sınırını kaldır', text: '×' });
+      del.addEventListener('click', onDel);
+      ul.appendChild(el('li', { class: over ? 'over' : '' }, [
+        el('div', { class: 'l' }, [el('b', { text: main }), el('small', { text: sub })]), el('div', { class: 'r' }, [del])
+      ]));
+    };
+    Object.keys(L.max).sort(byCode).forEach(function (k) {
+      var bal = lastRes.acc[k] ? lastRes.acc[k].bal : 0, over = bal > L.max[k] + EPS;
+      item(k, label(k) + ' en fazla ' + fmtAmt(L.max[k], k),
+           'Şu an ' + fmtAmt(bal, k) + ' · %' + fmtNum(bal / L.max[k] * 100, 0) + (over ? ' · SINIR AŞILDI' : ''), over,
+           function () { delete L.max[k]; save(); render(); });
+    });
+    if (L.minTL) {
+      var low = lastRes.tl < L.minTL - 0.005;
+      item(TL, 'TL kasası en az ' + fmtTL(L.minTL), 'Şu an ' + fmtTL(lastRes.tl) + (low ? ' · SINIRIN ALTINDA' : ''), low,
+           function () { L.minTL = null; save(); render(); });
+    }
+  }
+  function submitLimit(ev) {
+    ev.preventDefault();
+    var c = $('limCur').value, v = num('limMax'), t = $('limTL').value.trim() ? num('limTL') : null;
+    if (t !== null && !(t > 0)) return ($('limMsg').textContent = 'TL sınırı sıfırdan büyük olmalı.');
+    if ($('limMax').value.trim() && !(v > 0)) return ($('limMsg').textContent = 'Sınır miktarı sıfırdan büyük olmalı.');
+    if (!(v > 0) && t === state.limits.minTL) return ($('limMsg').textContent = 'Sınır miktarını yazın.');
+    if (v > 0) state.limits.max[c] = v;
+    state.limits.minTL = t;
+    $('limMax').value = '';
+    $('limMsg').textContent = '';
+    save(); render();
+    toast('Sınır kaydedildi.');
+  }
+
+  // ---------- Envanter listesi ----------
+  function hasOf(c) { return c === 'HAS' ? 1 : ASSETS[c].silver ? 0 : ASSETS[c].pure || 0; }
+  function inventory(d) {
+    var res = compute(state.tx.filter(function (t) { return t.date <= d; }));
+    var rows = Object.keys(res.acc).sort(byCode).filter(function (c) { return res.acc[c].bal > EPS; }).map(function (c) {
+      var a = res.acc[c];
+      return { c: c, qty: a.bal, cost: a.cost, avg: a.cost / a.bal, has: hasOf(c) ? a.bal * hasOf(c) : 0 };
+    });
+    var items = state.items.filter(function (x) { return x.date <= d && !(x.sold && x.sold <= d); });
+    var sum = function (list, f) { return list.reduce(function (s, x) { return s + f(x); }, 0); };
+    return {
+      d: d, tl: res.tl, rows: rows, cost: sum(rows, function (r) { return r.cost; }), has: sum(rows, function (r) { return r.has; }),
+      items: items, iGram: sum(items, function (x) { return x.gram; }), iHas: sum(items, function (x) { return x.gram * DEF_MIL[x.karat] / 1000; }),
+      iCost: sum(items, function (x) { return x.cost || 0; }), iInKasa: items.filter(function (x) { return x.txIn; }).length
+    };
+  }
+  function invDay() { var d = $('invDate').value; return ISO_DAY.test(d) ? d : today(); }
+  function lastYearEnd() { return (new Date().getFullYear() - 1) + '-12-31'; }
+  function renderInventory() {
+    if (!$('invDate').value) $('invDate').value = new Date().getMonth() < 3 ? lastYearEnd() : today();
+    $('invYear').textContent = '31 Aralık ' + (new Date().getFullYear() - 1);
+    var v = inventory(invDay()), body = $('invBody');
+    body.textContent = '';
+    v.rows.forEach(function (r) {
+      body.appendChild(el('tr', {}, [
+        assetCell(r.c, 'span title'),
+        el('td', { 'data-label': 'Miktar', class: 'amt', text: fmtAmt(r.qty, r.c) }),
+        el('td', { 'data-label': 'Has (gr)', text: r.has ? fmtNum(r.has, 2, 2) : '—' }),
+        el('td', { 'data-label': 'Ort. maliyet (₺)', text: fmtRate(r.avg, r.c) }),
+        el('td', { 'data-label': 'Toplam maliyet', class: 'amt', text: fmtTL(r.cost) })
+      ]));
+    });
+    if (!v.rows.length) body.appendChild(el('tr', {}, [el('td', { colspan: '5', class: 'empty', text: 'Bu tarihte stokta döviz ya da altın yok.' })]));
+    var box = $('invSum'), line = function (k, val) { box.appendChild(el('div', {}, [el('span', { text: k }), el('b', { text: val })])); };
+    box.textContent = '';
+    line('Stok maliyeti toplamı', fmtTL(v.cost));
+    if (v.has > EPS) line('Altın stoku (has karşılığı)', fmtNum(v.has, 2, 2) + ' gr');
+    line('TL kasası', fmtTL(v.tl));
+    line('Genel toplam (TL + stok maliyeti)', fmtTL(v.tl + v.cost));
+    $('invNote').textContent = invItemsText(v) + 'Ortalama maliyet yöntemiyle hesaplanmıştır. Cari (emanet, alacak) ve toptancı has hesabı ' +
+      'ayrıca değerlendirilmelidir. Bilgi amaçlıdır; resmî envanter kaydı yerine geçmez.';
+  }
+  function invItemsText(v) {
+    if (!v.items.length) return '';
+    return 'Vitrin defteri: ' + v.items.length + ' parça · ' + fmtNum(v.iGram, 0, 2) + ' gr (has ' + fmtNum(v.iHas, 2, 2) + ' gr)' +
+      (v.iCost > EPS ? ' · kayıtlı maliyet ' + fmtTL(v.iCost) : '') + '.' +
+      (v.iInKasa ? ' Bunlardan ' + v.iInKasa + ' parça kasaya alış olarak işlendiği için yukarıdaki stokta da görünür.' : '') + ' ';
+  }
+  function inventoryText() {
+    var v = inventory(invDay()), out = [$('bizName').textContent + ' — Envanter listesi', fmtDate(v.d) + ' akşamı itibarıyla', ''];
+    v.rows.forEach(function (r) {
+      out.push(label(r.c) + ': ' + fmtAmt(r.qty, r.c) + (r.has ? ' (has ' + fmtNum(r.has, 2, 2) + ' gr)' : '') +
+               ' · ort. maliyet ' + fmtRate(r.avg, r.c) + ' · toplam ' + fmtTL(r.cost));
+    });
+    if (!v.rows.length) out.push('Stokta döviz ya da altın yok.');
+    out.push('', 'Stok maliyeti toplamı: ' + fmtTL(v.cost));
+    if (v.has > EPS) out.push('Altın stoku (has karşılığı): ' + fmtNum(v.has, 2, 2) + ' gr');
+    out.push('TL kasası: ' + fmtTL(v.tl), 'Genel toplam (TL + stok maliyeti): ' + fmtTL(v.tl + v.cost));
+    if (v.items.length) out.push('', invItemsText(v).trim());
+    out.push('', '(Ortalama maliyet yöntemi. Bilgi amaçlıdır; resmî envanter kaydı yerine geçmez.)');
+    return out.join('\n');
+  }
+  function inventoryCsv() {
+    var v = inventory(invDay());
+    var lines = ['Envanter;' + fmtDate(v.d), 'Varlık;Miktar;Birim;Has (gr);Ortalama maliyet (TL);Toplam maliyet (TL)'];
+    v.rows.forEach(function (r) {
+      lines.push([csvCell(label(r.c)), csvNum(r.qty, 4), unit(r.c), r.has ? csvNum(r.has, 3) : '', csvNum(r.avg, 4), csvNum(r.cost, 2)].join(';'));
+    });
+    lines.push([csvCell('TL kasası'), csvNum(v.tl, 2), 'TL', '', '', csvNum(v.tl, 2)].join(';'));
+    lines.push([csvCell('Stok maliyeti toplamı'), '', '', csvNum(v.has, 3), '', csvNum(v.cost, 2)].join(';'));
+    lines.push([csvCell('Genel toplam'), '', '', '', '', csvNum(v.tl + v.cost, 2)].join(';'));
+    download('cilek-doviz-envanter-' + v.d + '.csv', '\ufeff' + lines.join('\r\n'), 'text/csv;charset=utf-8');
+  }
+
+  function balCell(c, bal) {
+    var td = el('td', { 'data-label': 'Bakiye', class: 'amt', text: fmtAmt(bal, c) }), max = state.limits.max[c];
+    if (max) td.appendChild(el('small', { class: 'lim' + (bal > max + EPS ? ' neg' : ''), text: 'sınır ' + fmtAmt(max, c) }));
+    return td;
+  }
   function renderMarket() {
     var box = $('market');
     box.textContent = '';
@@ -2262,7 +2498,46 @@
     if (m.buy && m.sell) parts.push('Makas ' + fmtRate(m.sell - m.buy, c));
     if (isLinked(c)) parts.push('has fiyatından');
     else if (state.auto[c] && state.auto[c].on) parts.push('otomatik');
+    var issue = spreadIssue(c);
+    if (issue) parts.push('⚠ ' + issue.charAt(0).toUpperCase() + issue.slice(1));
     return parts.join(' · ');
+  }
+  // Makas uyarısı: kur tablonuzda ters makas ya da piyasanın aleyhine kur (yanlış yazılmış kurla zararına işlemi önler).
+  // Piyasayla karşılaştırma yalnızca fiyatlar son 24 saatte alındıysa yapılır.
+  function marketFresh() {
+    return !!state.ratesUpdated && Date.now() - new Date(state.ratesUpdated).getTime() < 24 * 3600 * 1000;
+  }
+  function spreadIssue(c) {
+    var m = state.myRates && state.myRates[c];
+    if (!m) return '';
+    var fresh = marketFresh(), mb = fresh ? state.rates[c] : null, ms = fresh ? (state.sell[c] > 0 ? state.sell[c] : mb) : null;
+    if (m.buy && m.sell && m.sell < m.buy - EPS) return 'satış kurunuz alış kurunuzdan düşük';
+    if (m.buy && m.sell && Math.abs(m.sell - m.buy) <= EPS) return 'alış ve satış kurunuz aynı (makas yok)';
+    if (m.buy && ms > 0 && m.buy > ms + EPS) return 'alış kurunuz piyasa satış fiyatının (' + fmtRate(ms, c) + ') üstünde';
+    if (m.sell && mb > 0 && m.sell < mb - EPS) return 'satış kurunuz piyasa alış fiyatının (' + fmtRate(mb, c) + ') altında';
+    return '';
+  }
+  function renderSpread() {
+    var bad = Object.keys(state.myRates || {}).sort(byCode).filter(function (c) { return spreadIssue(c); });
+    $('spreadBanner').hidden = !bad.length;
+    if (bad.length) $('spreadText').textContent = bad.length === 1
+      ? 'Kur tablonuzu kontrol edin: ' + label(bad[0]) + ' — ' + spreadIssue(bad[0]) + '.'
+      : 'Kur tablonuzda ' + bad.length + ' kur hatalı görünüyor: ' + bad.map(label).join(', ') + '.';
+  }
+  // İşlem formunda: alışı satış kurunuzdan yükseğe, satışı alış kurunuzdan aşağıya yazınca uyarır (kaydı engellemez)
+  function rateWarnText() {
+    var c = $('fCur').value, r = num('fRate');
+    if (isCash(c) || isArb() || !(r > 0)) return '';
+    var m = (state.myRates && state.myRates[c]) || {}, fresh = marketFresh();
+    var mb = fresh ? state.rates[c] : null, ms = fresh ? (state.sell[c] > 0 ? state.sell[c] : mb) : null;
+    if (formType() === 'in') {
+      if (m.sell && r > m.sell + EPS) return 'Dikkat: bu alış kuru satış kurunuzdan (' + fmtRate(m.sell, c) + ') yüksek.';
+      if (ms > 0 && r > ms + EPS) return 'Dikkat: bu alış kuru piyasa satış fiyatından (' + fmtRate(ms, c) + ') yüksek.';
+    } else {
+      if (m.buy && r < m.buy - EPS) return 'Dikkat: bu satış kuru alış kurunuzdan (' + fmtRate(m.buy, c) + ') düşük.';
+      if (mb > 0 && r < mb - EPS) return 'Dikkat: bu satış kuru piyasa alış fiyatından (' + fmtRate(mb, c) + ') düşük.';
+    }
+    return '';
   }
   function renderMyRates() {
     var box = $('myRates');
@@ -2271,7 +2546,7 @@
     box.textContent = '';
     Object.keys(state.myRates).sort(byCode).forEach(function (c) {
       var m = state.myRates[c];
-      var info = el('div', { class: 'info' + (m.buy && m.sell && m.sell < m.buy ? ' neg' : ''), text: rateInfo(c) });
+      var info = el('div', { class: 'info' + (spreadIssue(c) ? ' neg' : ''), text: rateInfo(c) });
       var field = function (key, text) {
         var id = 'mr-' + key + '-' + c;
         var input = el('input', { type: 'text', id: id, inputmode: 'decimal', autocomplete: 'off', placeholder: '—' });
@@ -2291,9 +2566,10 @@
           input.value = m[key] ? fmtInput(m[key]) : '';
           save();
           info.textContent = rateInfo(c);
-          info.className = 'info' + (m.buy && m.sell && m.sell < m.buy ? ' neg' : '');
+          info.className = 'info' + (spreadIssue(c) ? ' neg' : '');
           prefillRate();
           renderAlerts();   // bekleyen müşterinin fiyatı gelmiş olabilir
+          renderSpread();
         });
         return el('div', { class: 'fld ' + key }, [el('label', { for: id, text: text }), input]);
       };
@@ -3136,6 +3412,9 @@
   }
   function updateTotal() {
     var c = $('fCur').value, a = num('fAmount'), r = isCash(c) ? 1 : num('fRate');
+    var warn = rateWarnText();
+    $('fRateWarn').textContent = warn;
+    $('fRateWarn').hidden = !warn;
     if (isArb()) {
       var c2 = $('fCur2').value, a2 = num('fAmount2'), r2 = num('fRate2'), parts = [];
       if (r > 0 && r2 > 0) parts.push('Çapraz kur: 1 ' + shortName(c) + ' = ' + fmtNum(r / r2, 4) + ' ' + shortName(c2));
@@ -3248,6 +3527,7 @@
       }
     }
     if (res.error) return setMsg(res.error, 'err');
+    if (!limitOk(res)) return;
 
     var before = snapshot();
     var gain = !old && !cash && tx.type === 'out' ? saleNote(state.tx, res, cur) : '';
@@ -3287,6 +3567,7 @@
     ]);
     var res = validate(next);
     if (res.error) return setMsg(res.error, 'err');
+    if (!limitOk(res)) return;
     var before = snapshot(), gain = saleNote(state.tx, res, c2);
     state.tx = next;
     if (!(state.rates[c] > 0)) state.rates[c] = r;
@@ -4037,6 +4318,16 @@
     $('aForm').addEventListener('submit', submitAlert);
     ['aCur', 'aBuy', 'aSell'].forEach(function (id) { $(id).addEventListener('change', renderAlerts); });
     $('btnAlertGo').addEventListener('click', function () { setView('alarm'); });
+    $('btnSpreadGo').addEventListener('click', function () { setView('kurlar'); });
+    $('btnLimitGo').addEventListener('click', function () { setView('kasa'); showFold('sinir', true); $('limList').scrollIntoView({ block: 'center' }); });
+    PRICED.forEach(function (c) { $('limCur').appendChild(el('option', { value: c, text: isMetal(c) ? label(c) : c + ' — ' + ASSETS[c].name })); });
+    $('limCur').value = 'USD';
+    $('limCur').addEventListener('change', renderLimits);
+    $('limForm').addEventListener('submit', submitLimit);
+    $('invDate').addEventListener('change', renderInventory);
+    $('invYear').addEventListener('click', function () { $('invDate').value = lastYearEnd(); renderInventory(); });
+    $('invShare').addEventListener('click', function () { shareText(inventoryText()); });
+    $('invCsv').addEventListener('click', inventoryCsv);
     $('wizBack').addEventListener('click', function () { wiz.step--; renderWiz(); });
     $('wizCancel').addEventListener('click', function () { $('wiz').hidden = true; wiz = null; });
     $('btnShow').addEventListener('click', showFromForm);
