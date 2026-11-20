@@ -18,3 +18,7 @@
 ## Senarist Tur 2 (20 Kasım)
 - Editör ve arşivci maddeleri uygulandı; metin_kontrol 0/0. Soru 0:07, cevap 0:11, vaat 0:17 (tek cümle), halkalı kuş 0:26, en uzun sorusuz aralık ~23 sn, "Peki" 4. Başlık: "Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)"; ana küçük resim B.
 - Süre 56 cümle (~4:55) → patron: 3:00 sonrasına kaynaklı bölüm eklensin (hedef 62–66 cümle).
+
+## Metin editörü ön denetim Tur 2 (20 Kasım)
+- Karar: ONAY (ön). Tahmini puan: kanca 8, anlatim 8, baslik 8, shorts 7 (Tur 1: 6, 7, 6, 5).
+- Öneriler (bilgi onayından sonra senariste birlikte verilecek): "Yuvanın sahipleri" bölümünü güvenlik bloğundan önceye taşı, 10–15 yıl tekrarını çıkar; 034–038 dağınık grubu topla; 036 kısalt; açıklama ilk satırı "yuvaya"; s2'den kuluçka cümlesini çıkar.
