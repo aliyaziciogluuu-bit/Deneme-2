@@ -20,9 +20,9 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Pzt 30 Kas | Baykuş Başını Tam Tur Çevirebilir mi? (baykuş s2) | — | yüklenecek |
 | Sal 1 Ara | kirpi s3 (YENİ) | **Karga** (4 Ara'dan öne alındı) | yüklenecek |
 | Çar 2 Ara | Karga Seni Hatırlar mı? (karga s1) | — | yüklenecek |
-| Per 3 Ara | Karga Taşla Su Yükseltir mi? (karga s2) | **Kırlangıç** (üretimde) | — |
-| Cum 4 Ara | kırlangıç s1 | — | — |
-| Cmt 5 Ara | kırlangıç s2 | **Kara kurbağası** (planlanacak) | — |
+| Per 3 Ara | Karga Taşla Su Yükseltir mi? (karga s2) | **Kırlangıç** | teslim edildi 20 Kas |
+| Cum 4 Ara | Kırlangıç Kışı Nerede Geçiriyor? (kırlangıç s1) | — | teslim edildi |
+| Cmt 5 Ara | Kırlangıç Yuvasını Bozarsan Ne Olur? (kırlangıç s2) | **Kara kurbağası** (planlanacak) | Shorts teslim edildi |
 | Paz 6 Ara | yarasa s3 (YENİ) | — | — |
 | Pzt 7 Ara | baykuş s3 (YENİ) | — | — |
 | Sal 8 Ara | karga s3 (YENİ) | sıradaki video | — |
