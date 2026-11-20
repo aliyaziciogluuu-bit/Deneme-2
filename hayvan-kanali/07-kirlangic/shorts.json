@@ -3,7 +3,7 @@
   {
    "ad": "s1-yolculuk",
    "baslik": "Kırlangıç Kışı Nerede Geçiriyor? 🐦 #shorts",
-   "aciklama": "Kır kırlangıcı kışı Afrika'da geçirebiliyor: İngiltere'de yuvasında işaretlenen bir kuş, bin dokuz yüz on iki yılında Güney Afrika'da bulundu. Tam video kanalımızda: \"Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)\"\n\nKaynak: Vikipedi – Barn swallow: en.wikipedia.org/wiki/Barn_swallow\n\n#shorts #kırlangıç #göç #doğa",
+   "aciklama": "Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de yuvasında işaretlenen bir kuş, bin dokuz yüz on iki yılında Güney Afrika'da bulundu. Tam video kanalımızda: \"Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)\"\n\nKaynak: Vikipedi – Barn swallow: en.wikipedia.org/wiki/Barn_swallow\n\n#shorts #kırlangıç #göç #doğa",
    "etiketler": [
     "kırlangıç",
     "kırlangıç kışın nereye gider",
@@ -12,12 +12,12 @@
     "doğa"
    ],
    "ust_yazi": [
-    "KIŞ",
-    "AFRİKA'DA"
+    "AFRİKA'DA",
+    "BULUNDU"
    ],
    "cumleler": [
     {
-     "yazi": "Kır kırlangıcı kışı Afrika'da geçirebiliyor: İngiltere'de işaretlenen biri Güney Afrika'da bulundu.",
+     "yazi": "Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de işaretlenen biri Güney Afrika'da bulundu.",
      "gorsel": "kirlangic_ucus"
     },
     {
@@ -25,11 +25,11 @@
      "gorsel": "kirlangic_ucus"
     },
     {
-     "yazi": "Yaz sonunda günler kısalıp böcekler azalınca, yavrular ve yetişkinler göç ediyor.",
+     "yazi": "Kırlangıçgillerin göçmen türleri, yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor.",
      "gorsel": "kirlangic_ucus"
     },
     {
-     "yazi": "Bir araştırmaya göre kır kırlangıcı ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
+     "yazi": "Türkiye'de yapılan bir araştırmaya göre kır ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
      "gorsel": "kirlangic_yuva"
     },
     {
@@ -64,28 +64,24 @@
      "gorsel": "kirlangic_yavru"
     },
     {
-     "yazi": "Bir yuva kırk sekiz yıl kullanılmış.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Bir çift yuvayı yaklaşık iki haftada yapıyor.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Eski yuvalar kuşlar için çok değerli sayılıyor.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Yazılı kaynaklar kuluçka süresini iki ile üç hafta arasında veriyor.",
-     "gorsel": "kirlangic_yavru"
-    },
-    {
-     "yazi": "Yuvaya dokunmadan beklemek en güvenli seçenek gibi görünüyor.",
+     "yazi": "Bize göre yuvaya dokunmadan beklemek en güvenli seçenek.",
      "gorsel": "kirlangic_yuva"
     },
     {
      "yazi": "Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
      "gorsel": "kirlangic_yavru"
+    },
+    {
+     "yazi": "Bir kırlangıç yuvasının kırk sekiz yıl kullanıldığı bildirilmiş.",
+     "gorsel": "kirlangic_yuva"
+    },
+    {
+     "yazi": "Kır kırlangıcında bir çift, yuvayı yaklaşık iki haftada yapıyor.",
+     "gorsel": "kirlangic_yuva"
+    },
+    {
+     "yazi": "Eski yuvalar kuşlar için çok değerli sayılıyor.",
+     "gorsel": "kirlangic_yuva"
     },
     {
      "yazi": "Tam videosu kanalımızda.",

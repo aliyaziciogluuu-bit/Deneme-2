@@ -27,3 +27,6 @@
 - Karar: RET. Puan: doğruluk 7, güvenlik 6. Bütün sayılar arşivle birebir.
 - Bulgular: küçük resim B ters yönde ("AFRİKA'DAN GELDİ" → kuş Afrika'ya gitti); vaatte "48 yıl" çekincesi düşmüş; birkaç cümlede tür adı düşmüş (genelleme); "başka ülkelerde ölçüm" kaynakta yok; yavru güvenliğinde eldiven tutmadan SONRA (TEKRARLANAN KUSUR, yarasa dersi), hasta kuşa dokunma çelişkisi, çocuk/evcil hayvan uyarısı ve pislik hijyeni yok; K9 bağlanmamış, iki makalenin sayfa aralığı doğrulanamadı.
 - Senarist Tur 3: bilgi kontrolü + editör önerileri birlikte.
+
+## Senarist Tur 3 (20 Kasım)
+- Bilgi kontrolü 16 madde + editör düzeni uygulandı; 64 cümle (~5:38), metin_kontrol 0/0; küçük resim B "AFRİKA'DA BULUNDU"; yavru güvenliği doğru sırada iki bölüm; iki kaynaksız güvenlik önerisi işaretli. Bilgi kontrolü Tur 2'ye gönderildi.
