@@ -376,5 +376,75 @@
   "hata": 0,
   "sure": 5.6,
   "uygun": true
+ },
+ "054": {
+  "yazi": "Yavruyu tuttuktan sonra neye dikkat etmelisin?",
+  "duyulan": "Yavruyu tuttuktan sonra neye dikkat etmelisin?",
+  "hata": 0,
+  "sure": 2.76,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "İşin bitince ellerini iyice yıka; yüzünden ve yiyeceklerden uzak tut.",
+  "duyulan": "İşin bitince ellerini iyice yıka, yüzünden ve yiyeceklerden uzak tut.",
+  "hata": 0,
+  "sure": 4.74,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Evcil hayvanları kuştan uzak tut; bize göre çocukların da dokunmaması daha iyi.",
+  "duyulan": "Evcili hayvanları kuştan uzak tut. Bize göre çocukların da dokunmaması daha iyi.",
+  "hata": 1,
+  "sure": 5.22,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Hasta ya da ölü bir kuşa dokunmamak daha iyi; dokunmak zorunda kalırsan ellerini hemen iyice yıka.",
+  "duyulan": "Hasta ya da ölü bir kuşa dokunmamak daha iyi. Dokunmak zorunda kalırsan ellerini hemen iyice yıka.",
+  "hata": 0,
+  "sure": 6.08,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Yavrunun durumundan emin değilsen önce bir uzmana ya da veterinere danış.",
+  "duyulan": "Yavrunun durumundan emin değilsen, önce bir uzmana ya da veterinere danış.",
+  "hata": 0,
+  "sure": 4.08,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Başvuracağın yer bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğü ya da bir veteriner.",
+  "duyulan": "Başvuracağın yer, bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü ya da bir veteriner.",
+  "hata": 0,
+  "sure": 5.48,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Kırlangıç aynı yuvaya dönebiliyor; yuva onun için iki haftalık emek ve yıllarca süren bir ev.",
+  "duyulan": "Kırlangıç aynı yuvaya dönebiliyor, yuva onun için iki haftalık emek ve yıllarca süren bir ev.",
+  "hata": 0,
+  "sure": 5.74,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Senin oralarda saçağa yuva yapan kırlangıç var mı, her yıl geri geliyor mu? Yorumlarda yaz.",
+  "duyulan": "Senin oralarda saça, yuva yapan kırlangıç var mı? Her yıl geri geliyor mu? Yorumlarda yaz.",
+  "hata": 1,
+  "sure": 5.58,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Sıradaki komşu: kara kurbağası; ona dokunmak gerçekten siğil çıkarır mı?",
+  "duyulan": "Sıradaki komşu kara kurbağası. Ona dokunmak gerçekten sihil çıkarır mı?",
+  "hata": 1,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "duyulan": "Avludaki komşularda, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "hata": 0,
+  "sure": 6.68,
+  "uygun": true
  }
 }

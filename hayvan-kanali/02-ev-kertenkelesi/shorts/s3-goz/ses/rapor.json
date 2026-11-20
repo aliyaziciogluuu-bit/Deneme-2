@@ -1,10 +1,11 @@
 {
  "000": {
   "yazi": "Ev kertenkelesinin göz kapakları yok.",
-  "duyulan": "ev kerten kelesinin göz kapakları yok.",
+  "duyulan": "ev kertenkelesinin göz kapakları yok.",
   "hata": 0,
-  "sure": 2.14,
-  "uygun": true
+  "sure": 2.36,
+  "uygun": true,
+  "tek_basina": true
  },
  "001": {
   "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",

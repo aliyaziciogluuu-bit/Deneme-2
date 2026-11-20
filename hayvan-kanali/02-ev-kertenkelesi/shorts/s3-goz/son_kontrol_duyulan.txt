@@ -1,4 +1,4 @@
-000 fark=2 | Ev kertenkelesinin göz kapakları yok. || Ev kerten kilisinin göz kapakları yok.
+000 fark=0 | Ev kertenkelesinin göz kapakları yok. || Ev Kertenkelesi'nin göz kapakları yok.
 001 fark=0 | Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı. || Gözleri tıpkı yılanlarda olduğu gibi şeffaf bir pul lakaplı.
 002 fark=1 | Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor. || Çoğu Gekko gibi gözünü temizlemenin başka bir yolunu bulmuş. Dilini çıkarıp gözünü yalıyor.
 003 fark=0 | Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun. || Gözleri iri, göz bebekleri dikey, loş ışıkta görmeye çok uygun.
