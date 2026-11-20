@@ -1,93 +1,179 @@
 {
- "shorts": [
-  {
-   "ad": "s1-yolculuk",
-   "baslik": "Kırlangıç Kışı Nerede Geçiriyor? 🐦 #shorts",
-   "aciklama": "Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de yuvasında işaretlenen bir kuş, bin dokuz yüz on iki yılında Güney Afrika'da bulundu. Tam video kanalımızda: \"Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)\"\n\nKaynak: Vikipedi – Barn swallow: en.wikipedia.org/wiki/Barn_swallow\n\n#shorts #kırlangıç #göç #doğa",
-   "etiketler": [
-    "kırlangıç",
-    "kırlangıç kışın nereye gider",
-    "kırlangıç göçü",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "AFRİKA'DA",
-    "BULUNDU"
-   ],
-   "cumleler": [
+  "shorts": [
     {
-     "yazi": "Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de işaretlenen biri Güney Afrika'da bulundu.",
-     "gorsel": "kirlangic_ucus"
+      "ad": "s1-yolculuk",
+      "baslik": "Kırlangıç Kışı Nerede Geçiriyor? 🐦 #shorts",
+      "aciklama": "Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de yuvasında işaretlenen bir kuş, bin dokuz yüz on iki yılında Güney Afrika'da bulundu. Tam video kanalımızda: \"Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)\"\n\nKaynak: Vikipedi – Barn swallow: en.wikipedia.org/wiki/Barn_swallow\n\n#shorts #kırlangıç #göç #doğa",
+      "etiketler": [
+        "kırlangıç",
+        "kırlangıç kışın nereye gider",
+        "kırlangıç göçü",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "AFRİKA'DA",
+        "BULUNDU"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Avrupa'daki kır kırlangıçları kışı Afrika'da geçirebiliyor: İngiltere'de işaretlenen biri Güney Afrika'da bulundu.",
+          "gorsel": "afrika_kis",
+          "klip": "afrika_kis",
+          "kx": 0.7,
+          "kz": 1.7,
+          "ky": 0.4,
+          "x": 0.72,
+          "aw": 0.6,
+          "ay": 0.45,
+          "w": 0.6,
+          "y": 0.45
+        },
+        {
+          "yazi": "Kır kırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor.",
+          "gorsel": "kirlangic_ucus",
+          "x": 0.4,
+          "x2": 0.45,
+          "aw": 0.6,
+          "ay": 0.42,
+          "w": 0.75,
+          "y": 0.42
+        },
+        {
+          "yazi": "Kırlangıçgillerin göçmen türleri, yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor.",
+          "gorsel": "goc_surusu",
+          "x": 0.55,
+          "x2": 0.65,
+          "aw": 0.6,
+          "ay": 0.55,
+          "w": 0.7,
+          "y": 0.55
+        },
+        {
+          "yazi": "Türkiye'de yapılan bir araştırmaya göre kır ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
+          "gorsel": "donus_akdeniz",
+          "x": 0.41,
+          "x2": 0.44,
+          "aw": 0.6,
+          "ay": 0.45,
+          "w": 0.7,
+          "y": 0.45
+        },
+        {
+          "yazi": "İki yüz yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.",
+          "ses": "İki yüz yıldan fazla önce Gilbırt Vayt bile göç mü, kış uykusu mu olduğundan emin değildi.",
+          "gorsel": "gilbert_white",
+          "x": 0.68,
+          "x2": 0.66,
+          "aw": 0.7,
+          "ay": 0.45,
+          "w": 0.85,
+          "y": 0.5
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kirlangic_yuva",
+          "klip": "acilis",
+          "kx": 0.65,
+          "x": 0.62,
+          "aw": 0.6,
+          "ay": 0.4,
+          "w": 0.6,
+          "y": 0.4
+        }
+      ]
     },
     {
-     "yazi": "Kır kırlangıcının Avrupa alt türü kışı Afrika'da, Arabistan'da ya da Hindistan yarımadasında geçiriyor.",
-     "gorsel": "kirlangic_ucus"
-    },
-    {
-     "yazi": "Kırlangıçgillerin göçmen türleri, yaz sonunda günler kısalıp böcekler azalınca yavrularıyla birlikte göç ediyor.",
-     "gorsel": "kirlangic_ucus"
-    },
-    {
-     "yazi": "Türkiye'de yapılan bir araştırmaya göre kır ve ev kırlangıcı, mart sonuna kadar önce Akdeniz ve Ege kıyılarında görülüyor.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "İki yüz yıldan fazla önce Gilbert White bile göç mü, kış uykusu mu olduğundan emin değildi.",
-     "ses": "İki yüz yıldan fazla önce Gilbırt Vayt bile göç mü, kış uykusu mu olduğundan emin değildi.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "kirlangic_yuva"
+      "ad": "s2-yuva",
+      "baslik": "Kırlangıç Yuvasını Bozarsan Ne Olur? 🐦 #shorts",
+      "aciklama": "Yuvanın içinde yumurta ya da yavru olabilir. Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Tam video kanalımızda: \"Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)\"\n\nKaynak: Vikipedi – Barn swallow: en.wikipedia.org/wiki/Barn_swallow\n\n#shorts #kırlangıç #yuva #doğa",
+      "etiketler": [
+        "kırlangıç",
+        "kırlangıç yuvası",
+        "kırlangıç yuvasını bozmak",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "YUVAYI",
+        "BOZMA!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Kırlangıç yuvasını bozma: içinde yumurta ya da yavru olabilir.",
+          "gorsel": "kirlangic_yavru",
+          "klip": "yavru_besleme",
+          "kx": 0.47,
+          "x": 0.47,
+          "aw": 0.8,
+          "ay": 0.55,
+          "w": 0.8,
+          "y": 0.55
+        },
+        {
+          "yazi": "Bize göre yuvaya dokunmadan beklemek en güvenli seçenek.",
+          "gorsel": "kirlangic_yuva",
+          "x": 0.62,
+          "x2": 0.6,
+          "aw": 0.6,
+          "ay": 0.4,
+          "w": 0.6,
+          "y": 0.4
+        },
+        {
+          "yazi": "Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+          "gorsel": "kirlangic_yavru",
+          "x": 0.57,
+          "x2": 0.57,
+          "aw": 0.8,
+          "ay": 0.59,
+          "w": 0.7,
+          "y": 0.58
+        },
+        {
+          "yazi": "Bir kırlangıç yuvasının kırk sekiz yıl kullanıldığı bildirilmiş.",
+          "gorsel": "eski_yuva",
+          "x": 0.55,
+          "x2": 0.52,
+          "aw": 0.8,
+          "ay": 0.55,
+          "w": 0.9,
+          "y": 0.55,
+          "etiket": "Bildirilen en uzun kullanım: 48 yıl"
+        },
+        {
+          "yazi": "Kır kırlangıcında bir çift, yuvayı yaklaşık iki haftada yapıyor.",
+          "gorsel": "yuva_yapimi",
+          "klip": "camur_tasima",
+          "kx": 0.7,
+          "x": 0.64,
+          "aw": 0.6,
+          "ay": 0.4,
+          "w": 0.6,
+          "y": 0.4
+        },
+        {
+          "yazi": "Eski yuvalar kuşlar için çok değerli sayılıyor.",
+          "gorsel": "kirlangic_yuva",
+          "x": 0.55,
+          "x2": 0.58,
+          "aw": 0.9,
+          "ay": 0.5,
+          "w": 0.8,
+          "y": 0.45
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "klip": "kapanis",
+          "kx": 0.72,
+          "x": 0.65,
+          "aw": 0.6,
+          "ay": 0.43,
+          "w": 0.6,
+          "y": 0.43
+        }
+      ]
     }
-   ]
-  },
-  {
-   "ad": "s2-yuva",
-   "baslik": "Kırlangıç Yuvasını Bozarsan Ne Olur? 🐦 #shorts",
-   "aciklama": "Yuvanın içinde yumurta ya da yavru olabilir. Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Tam video kanalımızda: \"Kırlangıç Her Yıl Aynı Yuvaya mı Dönüyor? (Halkalı Bir Kuş Afrika'da Bulundu)\"\n\nKaynak: Vikipedi – Barn swallow: en.wikipedia.org/wiki/Barn_swallow\n\n#shorts #kırlangıç #yuva #doğa",
-   "etiketler": [
-    "kırlangıç",
-    "kırlangıç yuvası",
-    "kırlangıç yuvasını bozmak",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "YUVAYI",
-    "BOZMA!"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Kırlangıç yuvasını bozma: içinde yumurta ya da yavru olabilir.",
-     "gorsel": "kirlangic_yavru"
-    },
-    {
-     "yazi": "Bize göre yuvaya dokunmadan beklemek en güvenli seçenek.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Yuvaya dokunmanın yasal olup olmadığını doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
-     "gorsel": "kirlangic_yavru"
-    },
-    {
-     "yazi": "Bir kırlangıç yuvasının kırk sekiz yıl kullanıldığı bildirilmiş.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Kır kırlangıcında bir çift, yuvayı yaklaşık iki haftada yapıyor.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Eski yuvalar kuşlar için çok değerli sayılıyor.",
-     "gorsel": "kirlangic_yuva"
-    },
-    {
-     "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "kirlangic_yuva"
-    }
-   ]
-  }
- ]
+  ]
 }

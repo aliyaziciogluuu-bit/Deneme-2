@@ -142,13 +142,44 @@ def kirp(ses: np.ndarray) -> np.ndarray:
 
 
 def sessiz_nokta(ses: np.ndarray, t0: float, t1: float) -> float:
-    """t0-t1 aralığında enerjisi en düşük 30 ms'lik pencerenin ortası (kesim noktası)."""
+    """t0-t1 aralığındaki EN UZUN sessizliğin ortası (kesim noktası).
+
+    20 Kasım dersi: eskiden "enerjisi en düşük 30 ms" seçiliyordu; "sinek" gibi kelimelerde k/t/p'den önceki
+    kısa dil kapanması (50-80 ms sessizlik) da en sessiz yer olabiliyor, kesim oraya düşünce son ünsüz bir sonraki
+    cümleye kayıyordu (kırlangıç cümle 34: "iri sinek" → "irisine"). Cümle arası duraklama çok daha uzun olduğundan
+    en uzun sessiz bölümün ortası güvenli kesim noktasıdır.
+    """
     if t1 - t0 < 0.06:
         return (t0 + t1) / 2
     a, b = int(t0 * SR), int(t1 * SR)
-    p = int(SR * 0.03)
-    enerji = [np.sum(ses[i:i + p] ** 2) for i in range(a, max(b - p, a + 1), int(SR * 0.005))]
-    return (a + int(np.argmin(enerji)) * int(SR * 0.005) + p / 2) / SR
+    adim, p = int(SR * 0.005), int(SR * 0.02)
+    bas = list(range(a, max(b - p, a + 1), adim))
+    enerji = np.array([np.sqrt(np.mean(ses[i:i + p] ** 2)) if i + p <= len(ses) else 0.0 for i in bas])
+    tepe = float(np.max(np.abs(ses[max(a - SR, 0):min(b + SR, len(ses))]))) or 1.0
+    esik = max(float(enerji.min()) * 3, tepe * 0.02)
+    sessiz = enerji <= esik
+    en_iyi, bu, bas_i = (0, 0), 0, 0
+    for j, s in enumerate(sessiz):
+        if s:
+            if bu == 0:
+                bas_i = j
+            bu += 1
+            if bu > en_iyi[1]:
+                en_iyi = (bas_i, bu)
+        else:
+            bu = 0
+    if en_iyi[1] == 0:
+        return (a + int(np.argmin(enerji)) * adim + p / 2) / SR
+    orta = bas[en_iyi[0]] + (en_iyi[1] * adim) // 2 + p // 2
+    return orta / SR
+
+
+def sonu_kesik(ses: np.ndarray) -> bool:
+    """Cümlenin son 30 ms'i hâlâ sesliyse (tepe değerin %8'inden yüksek) kelime yarıda kesilmiştir."""
+    n = int(SR * 0.03)
+    if len(ses) < 4 * n:
+        return False
+    return float(np.sqrt(np.mean(ses[-n:] ** 2))) > 0.08 * float(np.max(np.abs(ses)))
 
 
 def bol(ses: np.ndarray, kelimeler, cumleler):
@@ -220,7 +251,9 @@ def main():
                 kayit.unlink()
                 duy = dinle(on16(p))
                 h = min(fark(duy, ok), fark(duy, yz))
-                r = {"duyulan": duy, "hata": h, "sure": round(len(p) / SR, 2), "uygun": h <= sinir, "tek_basina": True}
+                r = {"duyulan": duy, "hata": h, "sure": round(len(p) / SR, 2), "uygun": h <= sinir and not sonu_kesik(p), "tek_basina": True}
+                if sonu_kesik(p):
+                    r["not"] = "sonu kesik (son ses yarıda)"
                 print(f"cümle {ad} deneme {deneme}: fark {h} | {duy}", flush=True)
                 if en_iyi is None or h < en_iyi[1]["hata"]:
                     en_iyi = (p, r)
@@ -260,7 +293,8 @@ def main():
                 duy = dinle(on16(p))
                 h = min(fark(duy, ok), fark(duy, yz))
                 sinir = 0 if len(sade(yz)) <= 6 else 1  # kısa cümlede hiç, uzun cümlede en fazla 1 kelime farkı
-                sonuc.append({"duyulan": duy, "hata": h, "sure": round(len(p) / SR, 2), "uygun": h <= sinir})
+                sonuc.append({"duyulan": duy, "hata": h, "sure": round(len(p) / SR, 2), "uygun": h <= sinir and not sonu_kesik(p),
+                              **({"not": "sonu kesik (son ses yarıda)"} if sonu_kesik(p) else {})})
             toplam = sum(r["hata"] for r in sonuc)
             print(f"sahne {s_i} deneme {deneme}: toplam kelime farkı {toplam}, "
                   f"uygun {sum(r['uygun'] for r in sonuc)}/{len(sonuc)}", flush=True)
