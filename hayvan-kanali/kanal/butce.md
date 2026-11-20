@@ -32,3 +32,8 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 - 14 yayın günü (salı, perşembe, cumartesi): karga ve kırlangıç hazır, 12 yeni video.
 - Video başına tavan 5 $, hedef ≈ 4,5 $ (20 görsel, hayvansız sahnede 1 aday, 4 klip). 12 × 4,5 ≈ 54 $ + 6 $ yedek.
 - Ara kontrol: 15 Aralık'ta harcama 30 $'ı geçtiyse kanal sahibine haber.
+
+## Tanıtım (ücretli reklam, üretim bütçesinden ayrı)
+| Tarih | Video | Tutar | Süre | Not |
+|---|---|---|---|---|
+| 20 Kas | 02 geko (yeniden yüklenen) | 950 TL (≈ 20 $, yaklaşık kur) | 3 gün | Kanal sahibi kararı. Sonuç: reklam bitince Analytics (trafik kaynakları, tutma, abone) ile ölçülecek |
