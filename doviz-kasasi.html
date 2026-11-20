@@ -6,7 +6,7 @@
 <title>Yazıcıoğlu Çilek Döviz</title>
 <meta name="description" content="Döviz ve altın alış–satışlarınızı, kasanızı ve günlük kârınızı takip edin.">
 <!-- Her yayında bu değeri değiştirin: açık duran uygulama yeni sürümü bununla fark eder. -->
-<meta name="surum" content="2026-11-20.5">
+<meta name="surum" content="2026-11-20.7">
 <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1012" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
@@ -646,6 +646,8 @@
     #btnSave { min-height: 50px; padding: 10px 22px; font-size: 17px; }
     body[data-view="islem"] .toast { bottom: calc(150px + env(safe-area-inset-bottom)); }   /* kaydet çubuğunun üstünde */
   }
+
+  .banner.danger { border: 1.5px solid var(--neg); background: var(--neg-bg); color: var(--ink); }
 </style>
 </head>
 <body>
@@ -664,6 +666,12 @@
       <button id="btnRates" type="button" title="Fiyatları güncelle"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.4-5.7M20 4v5h-5"/></svg><span id="btnRatesTxt">Fiyatları güncelle</span></button>
     </div>
   </header>
+
+  <div class="banner danger" id="rescueBanner" role="alert" hidden>
+    <span id="rescueWhy"></span>
+    <button type="button" class="small primary" id="btnRescueDl">Ham kaydı indir</button>
+    <button type="button" class="small" id="btnRescueGo">Okunabilenlerle devam et</button>
+  </div>
 
   <div class="banner" id="updBanner" hidden>
     <span>Uygulamanın yeni sürümü hazır.</span>
@@ -1423,16 +1431,58 @@
   var $ = function (id) { return document.getElementById(id); };
 
   // ---------- Saklama ----------
+  // Kayıt okunamazsa veri ASLA ezilmez: ham kayıt kurtarma anahtarına kopyalanır, kaydetme durdurulur ve
+  // kullanıcıya seçenek sunulur (ham kaydı indir ya da okunabilen işlemlerle devam et).
+  var loadFailed = null, saveWarned = false, RESCUE_KEY = 'doviz-kasasi-kurtarma';
   function load() {
-    try {
-      var raw = localStorage.getItem(STORE_KEY);
-      if (raw) applyData(JSON.parse(raw));
-    } catch (e) { /* bozuk ya da erişilemeyen kayıt: boş kasa ile devam */ }
+    var raw = null;
+    try { raw = localStorage.getItem(STORE_KEY); } catch (e) { raw = null; }
+    if (raw) {
+      try {
+        applyData(JSON.parse(raw));
+      } catch (e) {
+        loadFailed = { raw: raw, why: e && e.message ? e.message : 'okunamadı' };
+        try { if (!localStorage.getItem(RESCUE_KEY)) localStorage.setItem(RESCUE_KEY, raw); } catch (e2) { /* yer yok */ }
+      }
+    }
     ensureTable();
   }
   function save() {
+    if (loadFailed) return;   // bozuk kayıt çözülene kadar hiçbir şey yazılmaz
     snapFx();
-    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* özel sekme vb. */ }
+    try {
+      localStorage.setItem(STORE_KEY, JSON.stringify(state));
+    } catch (e) {
+      if (!saveWarned) {
+        saveWarned = true;
+        alert('Kayıt yapılamadı: telefonun depolama alanı dolu ya da tarayıcı kaydetmeye izin vermiyor.\n' +
+              'Hemen “Yedek al” ile yedek alın ve telefonda yer açın.');
+      }
+    }
+  }
+  function renderRescue() {
+    var box = $('rescueBanner');
+    box.hidden = !loadFailed;
+    if (loadFailed) $('rescueWhy').textContent = 'Kayıtlarınız okunamadı (' + loadFailed.why + '). Verileriniz silinmedi; ' +
+      'sorun çözülene kadar uygulama hiçbir şey kaydetmiyor. Önce ham kaydı indirip saklayın.';
+  }
+  function rescueDownload() {
+    if (!loadFailed) return;
+    download('doviz-kasasi-ham-kayit-' + today() + '.json', loadFailed.raw, 'application/json');
+  }
+  function rescueContinue() {
+    if (!loadFailed) return;
+    var data;
+    try { data = JSON.parse(loadFailed.raw); } catch (e) { return alert('Kayıt hiç okunamıyor. Ham kaydı indirip saklayın; destek alın.'); }
+    var skipped = { n: 0 };
+    try { applyData(data, skipped); } catch (e) { return alert('Kayıt okunamadı: ' + e.message); }
+    if (!confirm('Okunabilen kayıtlarla devam edilecek; ' + skipped.n + ' bozuk satır atlanacak.\n' +
+                 'Ham kaydın bir kopyası telefonda saklı kalır. Devam edilsin mi?')) { load(); return; }
+    loadFailed = null;
+    ensureTable();
+    save();
+    render();
+    toast(skipped.n + ' bozuk satır atlandı; kayıtlar yüklendi.');
   }
   function ensureTable() {
     if (state.myRates) return;
@@ -1440,12 +1490,15 @@
     DEFAULT_TABLE.forEach(function (c) { state.myRates[c] = { buy: null, sell: null }; });
   }
   function posOrNull(v) { v = Number(v); return v > 0 && isFinite(v) ? v : null; }
-  function applyData(data) {
+  // skipped verilirse bozuk işlem satırları hata yerine atlanır ve sayılır (kurtarma için)
+  function applyData(data, skipped) {
     if (!data || !Array.isArray(data.tx)) throw new Error('Geçersiz dosya');
     var tx = data.tx.map(function (t, i) {
+      t = t || {};
       var amount = Number(t.amount), rate = isCash(t.cur) ? 1 : Number(t.rate);
       if (!ASSETS[t.cur] || (t.type !== 'in' && t.type !== 'out') ||
           !/^\d{4}-\d{2}-\d{2}$/.test(t.date) || !(amount > 0) || !(rate > 0)) {
+        if (skipped) { skipped.n++; return null; }
         throw new Error('Geçersiz işlem kaydı (satır ' + (i + 1) + ')');
       }
       var o = {
@@ -1456,8 +1509,13 @@
       if (t.adj) o.adj = true;            // kasa sayımı farkı
       if (t.cari) o.cari = String(t.cari).slice(0, 60);   // cari hareket: kişi adı
       if (t.exp && isCash(t.cur) && t.type === 'out') o.exp = true;   // masraf: net kârdan düşülür
+      if (t.ret && t.type === 'in' && !isCash(t.cur)) {                 // iade: hangi satışın iadesi, satıştaki birim maliyet
+        o.ret = String(t.ret);
+        o.basis = Number(t.basis) > 0 && isFinite(Number(t.basis)) ? Number(t.basis) : rate;
+      }
       return o;
     });
+    tx = tx.filter(Boolean);
     var rates = {}, sell = {}, chg = {}, my = null;
     PRICED.forEach(function (c) {
       var r = posOrNull((data.rates || {})[c]), s = posOrNull((data.sell || {})[c]);
@@ -1704,6 +1762,18 @@
         a.cost += sign * t.amount * unitCost;
         if (Math.abs(a.bal) < EPS) { a.bal = 0; a.cost = 0; }
         if (d) d[t.type === 'in' ? 'inn' : 'out'] += t.amount;
+        return;
+      }
+      if (t.ret && t.type === 'in') {
+        // İade: mal satıştaki maliyetiyle geri girer, para müşteriye geri ödenir, satışın kârı geri alınır
+        var back = t.amount * (t.rate - t.basis), R = statOf(t.cur, t.date);
+        a.bal += t.amount;
+        a.cost += t.amount * t.basis;
+        a.realized -= back;
+        tl -= total;
+        D.profit -= back;
+        R.n++; R.sellQty -= t.amount; R.sellTL -= total; R.profit -= back;
+        if (d) { d.inn += t.amount; d.sold = true; d.profit -= back; }
         return;
       }
       var S = statOf(t.cur, t.date);
@@ -2398,6 +2468,7 @@
 
   function typeLabel(t) {
     if (t.adj) return 'Sayım farkı';
+    if (t.ret) return 'İade';
     if (t.cari) return t.type === 'out' ? 'Cari: verildi' : 'Cari: alındı';
     if (t.exp) return 'Masraf';
     if (t.arb) return t.type === 'in' ? 'Arbitraj alış' : 'Arbitraj satış';
@@ -2421,7 +2492,12 @@
       var del = el('button', { type: 'button', class: 'small danger', text: 'Sil' });
       del.addEventListener('click', function () { removeTx(t.id); });
       var cash = isCash(t.cur) || !!t.adj || !!t.cari;   // kur ve TL karşılığı gösterilmeyen satırlar
-      var actions = t.arb || t.adj || t.cari ? [del] : [edit, document.createTextNode(' '), del];
+      var actions = t.arb || t.adj || t.cari || t.ret ? [del] : [edit, document.createTextNode(' '), del];
+      if (t.type === 'out' && !isCash(t.cur) && !t.arb && !t.adj && !t.cari) {
+        var back = el('button', { type: 'button', class: 'small', text: 'İade' });
+        back.addEventListener('click', function () { returnSale(t.id); });
+        actions = [back].concat(actions);
+      }
       var tr = el('tr', {}, [
         el('td', { 'data-label': 'Tarih', text: fmtDate(t.date) }),
         el('td', { 'data-label': 'Tür', class: 'left' }, [el('span', { class: 'badge ' + t.type, text: typeLabel(t) })]),
@@ -2677,6 +2753,7 @@
   function startEdit(id) {
     var t = state.tx.filter(function (x) { return x.id === id; })[0];
     if (!t) return;
+    if (hasReturns(id)) return alert('Bu satışın iadesi var; düzenlemek için önce iade kaydını silin.');
     editingId = id;
     rateTouched = true;
     showFold('txmore', true);   // düzenlerken tarih ve açıklama da görünsün (tercih değişmez)
@@ -2775,9 +2852,43 @@
     return fmtDate(t.date) + ' · ' + typeLabel(t) + ' · ' + fmtAmt(t.amount, t.cur) +
            (isCash(t.cur) ? '' : ' ' + shortName(t.cur));
   }
+  function hasReturns(id) { return state.tx.some(function (x) { return x.ret === id; }); }
+  // Satış iadesi: müşteri malı geri getirir. Satış kurundan geri ödenir; mal satıştaki maliyetiyle stoğa döner,
+  // satışın kârı (iade edilen kısım kadar) geri alınır. Kısmi iade yapılabilir.
+  function returnSale(id) {
+    var t = state.tx.filter(function (x) { return x.id === id; })[0];
+    if (!t) return;
+    var done = state.tx.reduce(function (sum, x) { return x.ret === id ? sum + x.amount : sum; }, 0);
+    var left = round4(t.amount - done);
+    if (!(left > 0.00005)) return alert('Bu satışın tamamı zaten iade edildi.');
+    askNumber('İade: ' + describeTx(t),
+      'Müşteriye ' + fmtRate(t.rate, t.cur) + ' kurundan geri ödenir; satışın kârı geri alınır. ' +
+      (done > EPS ? 'Daha önce iade edilen: ' + fmtAmt(done, t.cur) + '. ' : '') + 'En fazla ' + fmtAmt(left, t.cur) + '.',
+      'İade miktarı (' + unit(t.cur) + ')',
+      function (v) {
+        if (!(v > 0) || v > left + EPS) return 'En fazla ' + fmtAmt(left, t.cur) + ' iade edilebilir.';
+        // Satışın birim maliyeti: satışa kadarki işlemlerle, satışlı ve satışsız gerçekleşen kâr farkından
+        var upto = state.tx.filter(function (x) { return x.date < t.date || (x.date === t.date && x.seq <= t.seq); });
+        var w = compute(upto).acc[t.cur], wo = compute(upto.filter(function (x) { return x.id !== t.id; })).acc[t.cur];
+        var profit = (w ? w.realized : 0) - (wo ? wo.realized : 0);
+        var r = { id: uid(), seq: nextSeq(), date: today(), type: 'in', cur: t.cur, amount: round4(v), rate: t.rate,
+                  basis: t.rate - profit / t.amount, ret: t.id, note: ('İade · ' + fmtDate(t.date) + ' satışı').slice(0, 120) };
+        var next = state.tx.concat([r]), res = validate(next);
+        if (res.error) return res.error;
+        var before = snapshot();
+        state.tx = next;
+        save();
+        render();
+        toast('İade kaydedildi · müşteriye ' + fmtTL(r.amount * r.rate) + ' ödenecek.', before);
+        return null;
+      });
+    $('dlgInput').value = fmtInput(left);   // varsayılan: kalanın tamamı
+    if ($('dlgInput').select) $('dlgInput').select();
+  }
   function removeTx(id) {
     var t = state.tx.filter(function (x) { return x.id === id; })[0];
     if (!t) return;
+    if (hasReturns(id)) return alert('Bu satışın iadesi var. Önce iade kaydını silin.');
     // Arbitrajın iki ayağı birlikte silinir
     var group = t.arb ? state.tx.filter(function (x) { return x.arb === t.arb; }) : [t];
     var ids = group.map(function (x) { return x.id; });
@@ -4144,6 +4255,11 @@
     $('cDate').value = today();
 
     load();
+    renderRescue();
+    $('btnRescueDl').addEventListener('click', rescueDownload);
+    $('btnRescueGo').addEventListener('click', function () { rescueContinue(); renderRescue(); });
+    // Tarayıcıdan verinin kalıcı tutulmasını iste (yer azalınca silinmesin); desteklenmiyorsa sessizce geç
+    try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(function () {}); } catch (e) { /* yoksay */ }
     loadUI();
     initFolds();
     setHidden(ui.hide, true);

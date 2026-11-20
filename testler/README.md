@@ -20,6 +20,8 @@ for f in testler/*.js; do node "$f" || break; done
 | `guncelleme.js` | Yeni sürümün ulaşması: “yeni sürüm hazır” uyarısı, önbelleğe rağmen güncel sayfa, çevrimdışı açılış |
 | `yeni-ozellikler.js` | Otomatik kur, eski seri farkı, borç hatırlatma, hızlı işlem şablonları, gün sonu kapanışı |
 | `kolayliklar.js` | Zararına satış uyarısı, satış kârı bildirimi, hızlı tutar, başparmakla kaydet, büyük yazı, titreşim |
+| `iade.js` | Satış iadesi: kârın geri alınması, stok ve kasa, kısmi iade, silme/düzenleme koruması |
+| `veri-koruma.js` | Okunamayan kaydın ezilmemesi, ham kaydı indirme, okunabilenlerle devam, depolama dolu uyarısı |
 
 Yayın notu: her yayında `doviz-kasasi.html` başındaki `surum` etiketinin değerini değiştirin; açık duran uygulama yeni
 sürümü bu değerle fark edip “Yenile” uyarısını gösterir.

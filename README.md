@@ -32,9 +32,14 @@ Günlük işler için:
 - **Zararına satış uyarısı:** satış kuru elinizdeki malın ortalama maliyetinin altındaysa kaydetmeden önce tahmini zararı gösterip sorar.
 - **Hızlı tutar düğmeleri:** tutar kutusunun altında varlığa göre 100 · 500 · 1.000 gibi düğmeler.
 - **Büyük yazı** (başlıktaki “Aa”): bütün uygulama büyür; tercih hatırlanır.
+- **İade** (Rapor → İşlemler → satışın “İade” düğmesi): mal satıştaki maliyetiyle stoğa döner, para geri ödenir, satışın kârı
+  geri alınır; kısmi iade yapılabilir.
 - **Satış kârı bildirimi:** satışı kaydedince “bu satıştan +₺X kâr” yazar.
 - **Başparmakla kaydet:** telefonda “İşlemi kaydet” düğmesi ekranın altında sabit durur.
 - **Kayıt titreşimi:** kayıt ve silmede kısa titreşim (Android; iPhone desteklemez).
+
+**Veri koruma:** kayıt okunamazsa uygulama hiçbir şeyi ezmez; ham kayıt saklanır, indirilebilir ve okunabilen işlemlerle
+devam edilebilir. Depolama dolup kayıt yapılamazsa uyarır. Tarayıcıdan verinin kalıcı tutulması istenir.
 
 Tarayıcı sınamaları [`testler/`](testler/README.md) klasöründedir.
 Veriler yalnızca kullanılan cihazın tarayıcısında saklanır. Resmî fiş ve yasal bildirimlerin
