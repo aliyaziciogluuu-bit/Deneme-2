@@ -222,3 +222,11 @@ Not: K1–K10 ve K13–K14 Vikipedi/RSPCA sayfalarıdır; K2/K7/K8 Vikipedi'nin 
 ## Shorts
 - s1-sigil: 0-1→02 (K2, K14), 2→13 ve 14 (K1, Bufo bufo), 3→19 (bize göre) + 18 (K5) + 31 (el yıkama) + 11 (doktora danış), 4→29 ve 30 (risk grubu korundu: küçük çocuklar, bağışıklığı zayıf olanlar), 5→32 ve 33 (RSPCA: çıplak elle dokunma, eldiven), 6 kanal kalıbı. Yumrular cümlesi Shorts'tan çıkarıldı. CDC kaynağı açılamadığı için eklenmedi.
 - s2-kopek: 0→25 (K10), 1→21 (K6; tür adı 'Orta ve Güney Amerika kökenli büyük bir kurbağa türü'), 2→22 (doğrulayamadık), 3→23, 4→26, 5→27 (bize göre), 6 kanal kalıbı. 'Etkileri iyi anlaşılmamış' cümlesi çıkarıldı.
+
+
+## Ek kaynak (20 Kasım, Tur 2 sonrası): CDC
+- Salmonella cümleleri (uzun video "Kurbağadan sonra ellerini yıka" bölümü: taşıyabilir / risk grubu / sabun ve suyla el yıkama) ve Shorts s1 cümle 4 → kaynaklar/cdc_reptiles_amphibians.txt
+  - "Reptiles and amphibians often carry Salmonella bacteria in their digestive tracts. Even healthy reptiles and amphibians can carry the bacteria."
+  - "Children under 5, adults over 65, and people with weakened immune systems are more likely to get sick from these germs."
+  - "Wash your hands with soap and running water"
+- Not: köpek bölümünde cümle sırası değişti: "Bir kaynağa göre köpekler…" → "Aynı kaynak, aşırı salya…" → "…bulamadık; hafife de almıyoruz." (Cane toad kaynağı ilk iki cümleyi destekler.)

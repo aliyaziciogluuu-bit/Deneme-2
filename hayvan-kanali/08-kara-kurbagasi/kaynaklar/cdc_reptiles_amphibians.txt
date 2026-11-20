@@ -1,0 +1,8 @@
+Adres: https://www.cdc.gov/healthy-pets/about/reptiles-and-amphibians.html
+Açılma tarihi: 2026-11-20 (bilgi kontrolcüsü açtı; sayfa tarihi Jan. 13, 2026; metin onun raporundan aynen, atlamalar [...])
+Sayfa başlığı: Reptiles and Amphibians | Healthy Pets, Healthy People | CDC
+-----
+
+Reptiles and amphibians are more likely than other pets to carry harmful germs that can make people sick. Children under 5, adults over 65, and people with weakened immune systems are more likely to get sick from these germs. Wash your hands after handling reptiles and amphibians, their food, or items in their environment. [...] Reptiles and amphibians often carry Salmonella bacteria in their digestive tracts. Even healthy reptiles and amphibians can carry the bacteria. People can get sick from Salmonella bacteria through contact with reptiles, amphibians, or their environments, including water from their tanks or aquariums. [...] Wash your hands with soap and running water: After feeding your pet or handling pet food After handling your pet's poop or equipment [...] Before eating and drinking [...] Children younger than 5 years old should not handle or touch reptiles or amphibians or their environments because they are at a higher risk for serious illness and hospitalization caused by Salmonella infection.
+
+Kapsam notu: sayfa evcil sürüngen ve amfibiler içindir; yaban kara kurbağasındaki taşıma oranını vermez. Senaryoda "taşıyabiliyor" ve "bize göre" çekinceleriyle kullanılır.

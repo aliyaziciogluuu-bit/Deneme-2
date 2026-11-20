@@ -12,6 +12,7 @@
     "Vikipedi – Cane toad: en.wikipedia.org/wiki/Cane_toad",
     "Vikipedi – Salmonella: en.wikipedia.org/wiki/Salmonella",
     "Vikipedi – Salmonellosis: en.wikipedia.org/wiki/Salmonellosis",
+    "CDC – Reptiles and Amphibians | Healthy Pets, Healthy People | CDC: cdc.gov/healthy-pets/about/reptiles-and-amphibians.html",
     "Vikipedi – Bufotes: en.wikipedia.org/wiki/Bufotes",
     "Vikipedi – Siğil: tr.wikipedia.org/wiki/Siğil",
     "RSPCA – Frogs and Toads | UK Wildlife: rspca.org.uk/adviceandwelfare/wildlife/amphibians",
@@ -63,7 +64,7 @@
           "ses": "Çıkmaz: siğile insan papiloma virüsü neden olur ve kurbağalar bu virüsü taşımaz."
         },
         {
-          "yazi": "Asıl tehlike başka: gözlerinin arkasındaki iki bez ve köpeğinin ağzı."
+          "yazi": "Asıl dikkat etmen gereken başka: gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri."
         },
         {
           "yazi": "Derisindeki o yumrular ne?"
@@ -132,13 +133,13 @@
           "yazi": "Peki köpeğin kurbağayı yalarsa ya da ısırırsa ne olur?"
         },
         {
-          "yazi": "Köpekler, Orta ve Güney Amerika kökenli büyük bir kurbağa türünü yalayınca ya da ısırınca özellikle kolay zehirleniyor."
-        },
-        {
-          "yazi": "Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık."
+          "yazi": "Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor."
         },
         {
           "yazi": "Aynı kaynak, aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılmada acil veteriner yardımı öneriyor."
+        },
+        {
+          "yazi": "Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık; hafife de almıyoruz."
         },
         {
           "yazi": "Ne yapmalısın?"
@@ -239,7 +240,7 @@
       "ad": "Gölette ne oluyor?",
       "cumleler": [
         {
-          "yazi": "Peki gölete varınca ne oluyor?"
+          "yazi": "Gölete varınca ne oluyor?"
         },
         {
           "yazi": "Dişi suya iki sıralı uzun bir yumurta ipi bırakıyor; içinde bin beş yüz ile altı bin yumurta olabiliyor."
@@ -322,7 +323,7 @@
         "KÖPEĞİNİ",
         "UZAK TUT"
       ],
-      "kucuk": "Akşam başıboş bırakma",
+      "kucuk": "Bize göre akşam başıboş bırakma",
       "konum": "sol",
       "genislik": 500,
       "gorsel": "kapak",

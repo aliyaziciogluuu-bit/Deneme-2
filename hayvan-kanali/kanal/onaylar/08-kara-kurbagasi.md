@@ -12,3 +12,11 @@
 - TEKRARLANAN KUSUR: bir türe ait bilginin gruba genellenmesi.
 
 ## Senarist Tur 2 (gönderildi): 26 maddelik birleşik düzeltme listesi.
+
+## Metin editörü ön denetim (Tur 2, 20 Kasım)
+- Karar: ONAY (ön). Tahmini puan: kanca 8, anlatim 8, baslik 8, shorts 8 (Tur 1: 6, 8, 7, 6).
+- Uygulandı: vaat başlıkla uyumlu ("bez, köpeğinin ağzı ve elindeki bakteri"), "Peki" tekrarı, "aynı kaynak" göndermesi.
+
+## Bilgi kontrol (Tur 2, 20 Kasım)
+- Karar: ONAY. Puan: doğruluk 8, güvenlik 8 (Tur 1: 6, 8).
+- Uygulandı: köpek bölümü sırası (kaynak → aynı kaynak → bulamadık; hafife de almıyoruz), "Bir kaynağa göre" atfı, vaat cümlesi "asıl dikkat etmen gereken", kapak B "Bize göre akşam başıboş bırakma", CDC kaynağı arşivlendi (kaynaklar/cdc_reptiles_amphibians.txt) ve kaynak listesine eklendi.
