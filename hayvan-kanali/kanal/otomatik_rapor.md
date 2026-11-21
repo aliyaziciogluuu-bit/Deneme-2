@@ -1,7 +1,7 @@
-# Otomatik bekçi raporu – 20.11.2026 12:08
+# Otomatik bekçi raporu – 21.11.2026 06:46
 
-Boş disk: 13.4 GB
+Boş disk: 13.1 GB
 
-### 07-kirlangic
-- Temiz.
+### 06-karga
+- UYARI: teslim edildi ya da yayında: dosyalara dokunulmadı (yalnızca kaynak erişimi denendi)
 

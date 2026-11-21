@@ -1,364 +1,363 @@
 {
- "baslik": "Karga Seni Tanıyor mu? Bir Maske, 17 Yıl ve Sönen Öfke",
- "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları kullanılmadı. Maske deneyleri Amerikan kargasıyla yapıldı; metin bunu açıkça söyler. Türkiye'deki türler: leş kargası, ekin kargası, küçük karga, saksağan. Yeni Kaledonya kargası Türkiye'de yaşamaz. Düzeltme turu (19 Kasım): çöp/kompost iddiası çıkarıldı (kaynak açılamadı), genel güvenlik cümlesine çevrildi; Marzluff okunuşu 'Marzlaf', Betty 'Beti' ses alanlarında zaten var.",
- "aciklama": "Karga seni gerçekten tanıyor mu? Bir biyologun maskeyle yaptığı deney, Amerikan kargalarının yüzü ayırt ettiğini gösteriyor; öfke yıllarca sürmüş, sonunda sönmüş görünüyor.\nBu deney Türkiye'deki kargalarla yapılmadı; leş kargası, ekin kargası ve saksağan için neyin bilindiğini de videoda ayırıyoruz.\n\nBu videoda bir biyoloğun maskeyle yaptığı ünlü deneyi, kargaların yüzü nasıl ayırt ettiğini, öfkenin kargalar arasında nasıl yayıldığını ve bu öfkenin yıllar sonra nasıl söndüğünü anlatıyoruz. Seattle'da bir kızın kargalardan aldığı hediyelere, ekin kargasının suyu taşla yükseltmesine ve Yeni Kaledonya kargasının tel bükerek yaptığı kancaya da bakıyoruz. Maske deneyleri Amerikan kargasıyla yapıldı; Türkiye'de görülen leş kargası, ekin kargası ve saksağan için bunu açıkça belirtiyoruz.\n\nKarga uğursuz mu, yerde yavru karga bulursan ne yapmalısın, yavrusunu koruyan karga sana alçalırsa ne olur, kargalar Türkiye'de koruma altında mı diye merak ediyorsan cevaplar videoda. Güncel av kararı için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
- "yorum_sorusu": "Senin oralarda karga ne anlama geliyor? Sana hiç bağıran ya da seni takip eden bir karga oldu mu? Yorumlarda konuşalım.",
- "kaynaklar": [
-  "Marzluff, J.M., Walls, J., Cornell, H.N., Withey, J.C. & Craig, D.P. (2010). Lasting recognition of threatening people by wild American crows. Animal Behaviour. doi:10.1016/j.anbehav.2009.12.022",
-  "Marzluff, J.M., Miyaoka, R., Minoshima, S. & Cross, D.J. (2012). Brain imaging reveals neuronal circuitry underlying the crow's perception of human faces. PNAS. doi:10.1073/pnas.1206109109",
-  "Lee, W.Y., Lee, S.-I., Choe, J.C. & Jablonski, P.G. (2011). Wild birds recognize individual humans: Experiments on magpies, Pica pica. Animal Cognition 14(6): 817–825. doi:10.1007/s10071-011-0415-4",
-  "Washington Üniversitesi Kentsel Ekoloji – Crows hold grudges against individual humans for up to 17 years: urban.uw.edu/news/crows-hold-grudges-against-individual-humans-for-up-to-17-years",
-  "Swift, K.N. (2015). Wild American crows use funerals to learn about danger. Yüksek lisans tezi, University of Washington. http://hdl.handle.net/1773/33178",
-  "Audubon – Seattle Girl Befriends Neighborhood Crows, Making Bird Lovers Everywhere Jealous: audubon.org/magazine/seattle-girl-befriends-neighborhood-crows-making-bird-lovers-everywhere-jealous",
-  "Vikipedi – Corvus: en.wikipedia.org/wiki/Corvus",
-  "Vikipedi – John Marzluff: en.wikipedia.org/wiki/John_Marzluff",
-  "Vikipedi – Observational learning: en.wikipedia.org/wiki/Observational_learning",
-  "Olkowicz, S. ve ark. (2016). Birds have primate-like numbers of neurons in the forebrain. PNAS. doi:10.1073/pnas.1517131113",
-  "Weir, A.A.S., Chappell, J. & Kacelnik, A. (2002). Shaping of hooks in New Caledonian crows. Science 297(5583): 981. doi:10.1126/science.1073433",
-  "Bird, C.D. & Emery, N.J. (2009). Rooks use stones to raise the water level to reach a floating worm. Current Biology. doi:10.1016/j.cub.2009.07.033",
-  "Wildlife Rescue – Crow FAQ 2023: wildliferescue.ca/wp-content/uploads/sites/11/2021/06/Crow-FAQ-2023.pdf",
-  "Dünya Sağlık Örgütü – Influenza (avian and other zoonotic) bilgi notu: who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
-  "2026-2027 Av Dönemi Merkez Av Komisyonu Kararı (resmî PDF): tarimorman.gov.tr/DKMP/Belgeler/AV%20YÖNETİMİ%20DAİRESİ/8626.pdf",
-  "Yılmaz, G. (2026). Mitolojiden Geleneğe: Tatar Folklorunda Karga. Gazi Türkiyat 38: 131–145. doi:10.65007/gaziturkiyat.1859705",
-  "Vikipedi – Hooded crow: en.wikipedia.org/wiki/Hooded_crow",
-  "Vikipedi – Rook (bird): en.wikipedia.org/wiki/Rook_(bird)",
-  "Vikipedi – Saksağan: tr.wikipedia.org/wiki/Saksağan"
- ],
- "etiketler": [
-  "karga",
-  "karga insanı tanır mı",
-  "karga yüz tanıma",
-  "kargalar kin tutar mı",
-  "karga zekâsı",
-  "leş kargası",
-  "ekin kargası",
-  "saksağan",
-  "yavru karga bulursam",
-  "karga uğursuz mu",
-  "yaban hayatı",
-  "doğa",
-  "Avludaki Komşular",
-  "karga zekası",
-  "zekâ"
- ],
- "kapak": {
-  "gorsel": "kapak",
-  "buyuk": [
-   "KARGAYA",
-   "TAŞ ATMA!"
+  "baslik": "Karga Seni Tanıyor mu? Bir Maske, 17 Yıl ve Sönen Öfke",
+  "not": "Her cümlede 'yazi' altyazıda görünür; 'ses' varsa seslendirmeye o okunur. '-ise' kalıpları kullanılmadı. Maske deneyleri Amerikan kargasıyla yapıldı; metin bunu açıkça söyler. Türkiye'deki türler: leş kargası, ekin kargası, küçük karga, saksağan. Yeni Kaledonya kargası Türkiye'de yaşamaz. Düzeltme turu (19 Kasım): çöp/kompost iddiası çıkarıldı (kaynak açılamadı), genel güvenlik cümlesine çevrildi; Marzluff okunuşu 'Marzlaf', Betty 'Beti' ses alanlarında zaten var.",
+  "aciklama": "Karga seni gerçekten tanıyor mu? Bir biyologun maskeyle yaptığı deney, Amerikan kargalarının yüzü ayırt ettiğini gösteriyor; öfke yıllarca sürmüş, sonunda sönmüş görünüyor.\nBu deney Türkiye'deki kargalarla yapılmadı; leş kargası, ekin kargası ve saksağan için neyin bilindiğini de videoda ayırıyoruz.\n\nBu videoda bir biyoloğun maskeyle yaptığı ünlü deneyi, kargaların yüzü nasıl ayırt ettiğini, öfkenin kargalar arasında nasıl yayıldığını ve bu öfkenin yıllar sonra nasıl söndüğünü anlatıyoruz. Seattle'da bir kızın kargalardan aldığı hediyelere, ekin kargasının suyu taşla yükseltmesine ve Yeni Kaledonya kargasının tel bükerek yaptığı kancaya da bakıyoruz. Maske deneyleri Amerikan kargasıyla yapıldı; Türkiye'de görülen leş kargası, ekin kargası ve saksağan için bunu açıkça belirtiyoruz.\n\nKarga uğursuz mu, yerde yavru karga bulursan ne yapmalısın, yavrusunu koruyan karga sana alçalırsa ne olur, kargalar Türkiye'de koruma altında mı diye merak ediyorsan cevaplar videoda. Güncel av kararı için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "yorum_sorusu": "Senin oralarda karga ne anlama geliyor? Sana hiç bağıran ya da seni takip eden bir karga oldu mu? Yorumlarda konuşalım.",
+  "kaynaklar": [
+    "Marzluff, J.M., Walls, J., Cornell, H.N., Withey, J.C. & Craig, D.P. (2010). Lasting recognition of threatening people by wild American crows. Animal Behaviour. doi:10.1016/j.anbehav.2009.12.022",
+    "Marzluff, J.M., Miyaoka, R., Minoshima, S. & Cross, D.J. (2012). Brain imaging reveals neuronal circuitry underlying the crow's perception of human faces. PNAS. doi:10.1073/pnas.1206109109",
+    "Lee, W.Y., Lee, S.-I., Choe, J.C. & Jablonski, P.G. (2011). Wild birds recognize individual humans: Experiments on magpies, Pica pica. Animal Cognition 14(6): 817–825. doi:10.1007/s10071-011-0415-4",
+    "Washington Üniversitesi Kentsel Ekoloji – Crows hold grudges against individual humans for up to 17 years: urban.uw.edu/news/crows-hold-grudges-against-individual-humans-for-up-to-17-years",
+    "Swift, K.N. (2015). Wild American crows use funerals to learn about danger. Yüksek lisans tezi, University of Washington. digital.lib.washington.edu/researchworks/handle/1773/33178",
+    "Audubon – Seattle Girl Befriends Neighborhood Crows, Making Bird Lovers Everywhere Jealous: audubon.org/magazine/seattle-girl-befriends-neighborhood-crows-making-bird-lovers-everywhere-jealous",
+    "Vikipedi – Corvus: en.wikipedia.org/wiki/Corvus",
+    "Vikipedi – John Marzluff: en.wikipedia.org/wiki/John_Marzluff",
+    "Vikipedi – Observational learning: en.wikipedia.org/wiki/Observational_learning",
+    "Olkowicz, S. ve ark. (2016). Birds have primate-like numbers of neurons in the forebrain. PNAS. doi:10.1073/pnas.1517131113",
+    "Weir, A.A.S., Chappell, J. & Kacelnik, A. (2002). Shaping of hooks in New Caledonian crows. Science 297(5583): 981. doi:10.1126/science.1073433",
+    "Bird, C.D. & Emery, N.J. (2009). Rooks use stones to raise the water level to reach a floating worm. Current Biology. doi:10.1016/j.cub.2009.07.033",
+    "Wildlife Rescue – Crow FAQ 2023: wildliferescue.ca/wp-content/uploads/sites/11/2021/06/Crow-FAQ-2023.pdf",
+    "Dünya Sağlık Örgütü – Influenza (avian and other zoonotic) bilgi notu: who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
+    "2026-2027 Av Dönemi Merkez Av Komisyonu Kararı (resmî PDF): tarimorman.gov.tr/DKMP/Belgeler/AV%20YÖNETİMİ%20DAİRESİ/8626.pdf",
+    "Yılmaz, G. (2026). Mitolojiden Geleneğe: Tatar Folklorunda Karga. Gazi Türkiyat 38: 131–145. doi:10.65007/gaziturkiyat.1859705",
+    "Vikipedi – Hooded crow: en.wikipedia.org/wiki/Hooded_crow",
+    "Vikipedi – Rook (bird): en.wikipedia.org/wiki/Rook_(bird)",
+    "Vikipedi – Saksağan: tr.wikipedia.org/wiki/Saksağan"
   ],
-  "kucuk": "Tehdit diye hatırlayabilir",
-  "konum": "sol",
-  "genislik": 500
- },
- "ambiyans": {
-  "dosya": "../sesler/bahce_kuslar.ogg",
-  "seviye": 0.12,
-  "kaynak": ""
- },
- "sahneler": [
-  {
-   "ad": "Perdedeki karga",
-   "cumleler": [
-    {
-     "yazi": "Bahçeye çıkıyorsun; tahta perdedeki karga hemen bağırıyor."
-    },
-    {
-     "yazi": "Peki karga seni gerçekten tanıyor mu?"
-    },
-    {
-     "yazi": "Evet; bilim insanlarının denediği kargalar tanıyordu."
-    },
-    {
-     "yazi": "Amerika'da bir biyolog, tehdit edici bir maskeyle yedi karga yakalayıp bıraktı."
-    },
-    {
-     "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı."
-    },
-    {
-     "yazi": "O gün orada olmayanlar bile zamanla aynısını yaptı."
-    },
-    {
-     "yazi": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya taş atmanın neden kötü fikir olabileceğini göreceksin."
-    }
-   ]
+  "etiketler": [
+    "karga",
+    "karga insanı tanır mı",
+    "karga yüz tanıma",
+    "kargalar kin tutar mı",
+    "karga zekâsı",
+    "leş kargası",
+    "ekin kargası",
+    "saksağan",
+    "yavru karga bulursam",
+    "karga uğursuz mu",
+    "yaban hayatı",
+    "doğa",
+    "Avludaki Komşular",
+    "karga zekası",
+    "zekâ"
+  ],
+  "kapak": {
+    "gorsel": "kapak",
+    "buyuk": [
+      "KARGAYA",
+      "TAŞ ATMA!"
+    ],
+    "kucuk": "Tehdit diye hatırlayabilir",
+    "konum": "sol",
+    "genislik": 500
   },
-  {
-   "ad": "Kargalar neye bakıyor?",
-   "cumleler": [
-    {
-     "yazi": "Kargalar neye bakıyor: yüze mi, boya mı, yürüyüşe mi?"
-    },
-    {
-     "yazi": "John Marzluff bu deneyi Washington Üniversitesi'nde iki bin altı yılında başlattı.",
-     "ses": "Con Marzlaf bu deneyi Vaşington Üniversitesi'nde iki bin altı yılında başlattı."
-    },
-    {
-     "yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar."
-    },
-    {
-     "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı."
-    },
-    {
-     "yazi": "Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor."
-    },
-    {
-     "yazi": "Başka bir deneyde kargaların beynine bile baktılar."
-    },
-    {
-     "yazi": "Yakalayan maskeyi görünce korkuyla ilgili bölgeler çalıştı; besleyen maskede başka bir yol devreye girdi."
-    },
-    {
-     "yazi": "Peki bu öfke ne kadar sürüyor?"
-    },
-    {
-     "yazi": "Araştırmacılar kargaların bu tehlikeyi birbirine ve yavrularına öğrettiğini düşünüyor."
-    },
-    {
-     "yazi": "Yaklaşık on yedi yıl sonra, iki bin yirmi üç eylülünde, Marzluff maskeyle yeniden yürüdü.",
-     "ses": "Yaklaşık on yedi yıl sonra, iki bin yirmi üç eylülünde, Marzlaf maskeyle yeniden yürüdü."
-    },
-    {
-     "yazi": "Bir yürüyüşte hiçbir karga ona bağırmadı; öfke yıllarca sürmüş, ama sonunda sönmüş görünüyor."
-    }
-   ]
+  "ambiyans": {
+    "dosya": "../sesler/bahce_kuslar.ogg",
+    "seviye": 0.12,
+    "kaynak": ""
   },
-  {
-   "ad": "Ölü karganın çevresinde",
-   "cumleler": [
+  "sahneler": [
     {
-     "yazi": "Amerikan kargaları ölü bir karganın çevresine toplanıyor; bilim insanları bunun tehlikeyi öğrenmek için olabileceğini düşünüyor."
+      "ad": "Perdedeki karga",
+      "cumleler": [
+        {
+          "yazi": "Bahçeye çıkıyorsun; tahta perdedeki karga hemen bağırıyor."
+        },
+        {
+          "yazi": "Peki karga seni gerçekten tanıyor mu?"
+        },
+        {
+          "yazi": "Evet; bilim insanlarının denediği kargalar tanıyordu."
+        },
+        {
+          "yazi": "Amerika'da bir biyolog, tehdit edici bir maskeyle yedi karga yakalayıp bıraktı."
+        },
+        {
+          "yazi": "Sonra o maskeyle yürüdü; kargalar ona bağırdı, başka maskelere pek bağırmadı."
+        },
+        {
+          "yazi": "O gün orada olmayanlar bile zamanla aynısını yaptı."
+        },
+        {
+          "yazi": "Birazdan öfkenin yıllarca sürdüğünü ve kargaya taş atmanın neden kötü fikir olabileceğini göreceksin."
+        }
+      ]
     },
     {
-     "yazi": "Ölü bir karganın yanında duran maskeli kişiye, kargalar sonraki günlerde de bağırdı."
+      "ad": "Kargalar neye bakıyor?",
+      "cumleler": [
+        {
+          "yazi": "Kargalar neye bakıyor: yüze mi, boya mı, yürüyüşe mi?"
+        },
+        {
+          "yazi": "John Marzluff bu deneyi Washington Üniversitesi'nde iki bin altı yılında başlattı.",
+          "ses": "Con Marzlaf bu deneyi Vaşington Üniversitesi'nde iki bin altı yılında başlattı."
+        },
+        {
+          "yazi": "Bu kargalar Amerikan kargası; Türkiye'de yaşamıyorlar."
+        },
+        {
+          "yazi": "Boyu, yaşı ve yürüyüşü farklı insanlar aynı maskeyi taktı."
+        },
+        {
+          "yazi": "Kargalar yine de maskeli herkese bağırdı; araştırmacılar bunu yüz tanıma olarak yorumluyor."
+        },
+        {
+          "yazi": "Başka bir deneyde kargaların beynine bile baktılar."
+        },
+        {
+          "yazi": "Yakalayan maskeyi görünce korkuyla ilgili bölgeler çalıştı; besleyen maskede başka bir yol devreye girdi."
+        },
+        {
+          "yazi": "Peki bu öfke ne kadar sürüyor?"
+        },
+        {
+          "yazi": "Araştırmacılar kargaların bu tehlikeyi birbirine ve yavrularına öğrettiğini düşünüyor."
+        },
+        {
+          "yazi": "Yaklaşık on yedi yıl sonra, iki bin yirmi üç eylülünde, Marzluff maskeyle yeniden yürüdü.",
+          "ses": "Yaklaşık on yedi yıl sonra, iki bin yirmi üç eylülünde, Marzlaf maskeyle yeniden yürüdü."
+        },
+        {
+          "yazi": "Bir yürüyüşte hiçbir karga ona bağırmadı; öfke yıllarca sürmüş, ama sonunda sönmüş görünüyor."
+        }
+      ]
     },
     {
-     "yazi": "Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi."
+      "ad": "Ölü karganın çevresinde",
+      "cumleler": [
+        {
+          "yazi": "Amerikan kargaları ölü bir karganın çevresine toplanıyor; bilim insanları bunun tehlikeyi öğrenmek için olabileceğini düşünüyor."
+        },
+        {
+          "yazi": "Ölü bir karganın yanında duran maskeli kişiye, kargalar sonraki günlerde de bağırdı."
+        },
+        {
+          "yazi": "Ölü güvercinin yanındaki insana kargalar aynı şekilde tepki vermedi."
+        }
+      ]
+    },
+    {
+      "ad": "Kargalar dost da oluyor mu?",
+      "cumleler": [
+        {
+          "yazi": "Kargalar yalnızca kızdığı kişiyi mi tanıyor, dostunu da mı?"
+        },
+        {
+          "yazi": "Seattle'da sekiz yaşında bir kız, bahçesine gelen kargaları iki yıldır besliyordu."
+        },
+        {
+          "yazi": "Anlatılanlara göre kargalar ona deniz camı, paslı vida gibi küçük şeyler bıraktı."
+        },
+        {
+          "yazi": "Marzluff, kargaların hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş.",
+          "ses": "Marzlaf, kargaların hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş."
+        }
+      ]
+    },
+    {
+      "ad": "Evinin çevresindeki kargalar",
+      "cumleler": [
+        {
+          "yazi": "Evinin çevresinde gördüğün kargaların hepsi aynı kuş mu?"
+        },
+        {
+          "yazi": "Değil; Türkiye'de kargagillerden birkaç farklı tür yaşıyor."
+        },
+        {
+          "yazi": "Gövdesi gri, başı ve kanatları siyah karga leş kargası olarak biliniyor."
+        },
+        {
+          "yazi": "Yetişkin ekin kargasını gaga dibindeki çıplak deriden tanırsın."
+        },
+        {
+          "yazi": "Saksağan da bu aileden; siyah beyaz tüyü ve uzun kuyruğuyla belli."
+        },
+        {
+          "yazi": "Maske deneyi Türkiye'deki kargalarla yapılmadı; akraba türlerde benzer bulgular var."
+        },
+        {
+          "yazi": "Güney Kore'de yapılan bir deneyde, yuvası olan saksağan çiftleri yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı."
+        },
+        {
+          "yazi": "Araştırmacılar bunu yüzle tanımaya bağlıyor."
+        }
+      ]
+    },
+    {
+      "ad": "Küçük beyin, büyük zekâ",
+      "cumleler": [
+        {
+          "yazi": "Karganın beyni küçük; peki nasıl bu kadar akıllı davranıyor?"
+        },
+        {
+          "yazi": "Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı."
+        },
+        {
+          "yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu."
+        },
+        {
+          "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor."
+        }
+      ]
+    },
+    {
+      "ad": "Alet kullanan kargalar",
+      "cumleler": [
+        {
+          "yazi": "Kargalar alet de kullanır mı?"
+        },
+        {
+          "yazi": "Alet ustalarından biri Yeni Kaledonya kargası."
+        },
+        {
+          "yazi": "Güney Pasifik'teki Yeni Kaledonya adalarında yaşıyor; Türkiye'de yaşamıyor."
+        },
+        {
+          "yazi": "İki bin iki yılında Betty adlı bir dişi karga, düz teli bükerek kanca yaptı.",
+          "ses": "İki bin iki yılında Beti adlı bir dişi karga, düz teli bükerek kanca yaptı."
+        },
+        {
+          "yazi": "O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti."
+        },
+        {
+          "yazi": "Sonraki çalışmalar, bu davranışın ne kadar kendiliğinden olduğunu tartışıyor."
+        },
+        {
+          "yazi": "Türkiye'de de yaşayan ekin kargası laboratuvarda şaşırttı."
+        },
+        {
+          "yazi": "Laboratuvarda dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşük olduğu için uzanamadılar."
+        },
+        {
+          "yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar."
+        }
+      ]
+    },
+    {
+      "ad": "Karga uğursuz mu?",
+      "cumleler": [
+        {
+          "yazi": "Peki karga uğursuz mu?"
+        },
+        {
+          "yazi": "Bir araştırmaya göre Tatar kültüründe karga önce tanrının elçisi sayılmış, sonra uğursuzlukla da anılmış."
+        },
+        {
+          "yazi": "Olumlu anlamı da sürmüş."
+        },
+        {
+          "yazi": "Anlamı insanlar yüklemiş; kuş yalnızca kuş."
+        },
+        {
+          "yazi": "Kargalar tehlike gördüğünde bağırıyor; maske deneyinde de böyle yaptılar."
+        }
+      ]
+    },
+    {
+      "ad": "Kargaya taş atmak neden kötü fikir?",
+      "cumleler": [
+        {
+          "yazi": "Kargayı kovalama ya da ona taş atma; Amerikan kargalarıyla yapılan maske deneyine bakılırsa tehdit eden kişi hatırlanabiliyor."
+        },
+        {
+          "yazi": "Açıkta kalan yiyecek hayvanları çekebilir; çöpünü kapaklı kutuda tutmak genel bir önlemdir."
+        }
+      ]
+    },
+    {
+      "ad": "Yerde yavru karga bulursan",
+      "cumleler": [
+        {
+          "yazi": "Bahçende sıçrayarak ilerleyen, uçamayan bir yavru karga bulursan ne yapmalısın?"
+        },
+        {
+          "yazi": "Kanada'daki bir yaban hayatı kurtarma derneğine göre, kargalar uçmayı öğrenirken bir süre yerde kalabiliyor."
+        },
+        {
+          "yazi": "Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor."
+        },
+        {
+          "yazi": "Yavru sağlıklı görünüyorsa eve götürme; olduğu yerde bırak."
+        },
+        {
+          "yazi": "Kedi, köpek ya da yol gibi bir tehlike varsa onu yakındaki güvenli bir yere taşı."
+        },
+        {
+          "yazi": "Yaralıysa, tüyleri tam çıkmamışsa ya da uzun süre kimse onu beslemiyorsa uzman yardımı gerekir."
+        },
+        {
+          "yazi": "Bunun için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver."
+        },
+        {
+          "yazi": "Hasta ya da ölü bir kuşa dokunma; dokunduysan ellerini sabunla yıka."
+        },
+        {
+          "yazi": "Yavruya yaklaşırsan ebeveynleri üzerine alçalabilir; uzaklaşmak ve şemsiyeyle önünü kapatmak öneriliyor."
+        }
+      ]
+    },
+    {
+      "ad": "Kargalar koruma altında mı?",
+      "cumleler": [
+        {
+          "yazi": "Kargalar baykuşlar gibi koruma altında mı?"
+        },
+        {
+          "yazi": "Türkiye'de leş kargası, ekin kargası, küçük karga, saksağan ve alakarga av hayvanı sayılıyor."
+        },
+        {
+          "yazi": "Yani izinli avcılar, belirlenen tarihlerde ve bölgelerde bu kuşları avlayabiliyor."
+        },
+        {
+          "yazi": "Karar her av dönemi için yeniden yayımlanıyor ve illere göre kurallar değişebiliyor."
+        },
+        {
+          "yazi": "Güncel durumu bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğünden öğren."
+        }
+      ]
+    },
+    {
+      "ad": "Kapanış",
+      "cumleler": [
+        {
+          "yazi": "Kargalar yüzü tanıyabiliyor ve sana nasıl davrandığını yıllarca hatırlayabilir."
+        },
+        {
+          "yazi": "Senin oralarda karga ne anlama geliyor, sana hiç bağıran bir karga oldu mu? Yorumlarda yaz."
+        },
+        {
+          "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "ad": "Kargalar dost da oluyor mu?",
-   "cumleler": [
+  ],
+  "baslik_secenekleri": [
+    "Karga Yüzünü Tanıyor mu? (Maskeyle Yapılan Ünlü Deney)",
+    "Karga Seni Tanır mı? (Bir Maske Yıllarca Hatırlandı)",
+    "Karga Yüzünü Hatırlar mı? (Bir Biyolog ve Bir Maske)"
+  ],
+  "baslik_notu": "Öneri; son karar paketleme uzmanında. Maske deneyleri Amerikan kargasıyla yapıldı ve öfke yıllar sonra söndü; bu yüzden 'Yıllarca Unutmuyor' ve kesin 'Seni Tanıyor!' kullanılmadı.",
+  "kapak_alternatifler": [
     {
-     "yazi": "Kargalar yalnızca kızdığı kişiyi mi tanıyor, dostunu da mı?"
+      "buyuk": [
+        "SENİ",
+        "TANIR MI?"
+      ],
+      "kucuk": "Kargadan gelen hediyeler",
+      "konum": "sol",
+      "genislik": 500,
+      "gorsel": "kapak"
     },
     {
-     "yazi": "Seattle'da sekiz yaşında bir kız, bahçesine gelen kargaları yıllarca besledi.",
-     "ses": "Siyetıl'da sekiz yaşında bir kız, bahçesine gelen kargaları yıllarca besledi."
-    },
-    {
-     "yazi": "Anlatılanlara göre kargalar ona düğme, taş ve küpe gibi küçük şeyler bıraktı."
-    },
-    {
-     "yazi": "Marzluff, kargaların hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş.",
-     "ses": "Marzlaf, kargaların hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş."
+      "buyuk": [
+        "KARGA",
+        "ALET YAPAR"
+      ],
+      "kucuk": "Taşla suyu yükseltti",
+      "konum": "sol",
+      "genislik": 500,
+      "gorsel": "kapak"
     }
-   ]
-  },
-  {
-   "ad": "Evinin çevresindeki kargalar",
-   "cumleler": [
-    {
-     "yazi": "Evinin çevresinde gördüğün kargaların hepsi aynı kuş mu?"
-    },
-    {
-     "yazi": "Değil; Türkiye'de kargagillerden birkaç farklı tür yaşıyor."
-    },
-    {
-     "yazi": "Gövdesi gri, başı ve kanatları siyah karga leş kargası olarak biliniyor."
-    },
-    {
-     "yazi": "Yetişkin ekin kargasını gaga dibindeki çıplak deriden tanırsın."
-    },
-    {
-     "yazi": "Saksağan da bu aileden; siyah beyaz tüyü ve uzun kuyruğuyla belli."
-    },
-    {
-     "yazi": "Maske deneyi Türkiye'deki kargalarla yapılmadı; akraba türlerde benzer bulgular var."
-    },
-    {
-     "yazi": "Güney Kore'de yapılan bir deneyde, yuvası olan saksağan çiftleri yuvaya tırmanan insana saldırdı, tırmanmayana saldırmadı."
-    },
-    {
-     "yazi": "Araştırmacılar bunu yüzle tanımaya bağlıyor."
-    }
-   ]
-  },
-  {
-   "ad": "Küçük beyin, büyük zekâ",
-   "cumleler": [
-    {
-     "yazi": "Karganın beyni küçük; peki nasıl bu kadar akıllı davranıyor?"
-    },
-    {
-     "yazi": "Bir araştırma, kargagillerin de içinde olduğu ötücü kuşların ve papağanların ön beynindeki sinir hücrelerini saydı."
-    },
-    {
-     "yazi": "Aynı ağırlıktaki primat beyinlerine göre, ortalama iki kat fazla sinir hücresi buldu."
-    },
-    {
-     "yazi": "Bilim insanları bunun tek başına zekânın kanıtı olmadığını da hatırlatıyor."
-    }
-   ]
-  },
-  {
-   "ad": "Alet kullanan kargalar",
-   "cumleler": [
-    {
-     "yazi": "Kargalar alet de kullanır mı?"
-    },
-    {
-     "yazi": "Alet ustalarından biri Yeni Kaledonya kargası."
-    },
-    {
-     "yazi": "Güney Pasifik'teki Yeni Kaledonya adalarında yaşıyor; Türkiye'de yaşamıyor."
-    },
-    {
-     "yazi": "İki bin iki yılında Betty adlı bir dişi karga, düz teli bükerek kanca yaptı.",
-     "ses": "İki bin iki yılında Beti adlı bir dişi karga, düz teli bükerek kanca yaptı."
-    },
-    {
-     "yazi": "O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti."
-    },
-    {
-     "yazi": "Sonraki çalışmalar, bu davranışın ne kadar kendiliğinden olduğunu tartışıyor."
-    },
-    {
-     "yazi": "Türkiye'de de yaşayan ekin kargası laboratuvarda şaşırttı."
-    },
-    {
-     "yazi": "Laboratuvarda dört esir ekin kargasına, suyun üstünde yüzen bir solucan verildi; su düşük olduğu için uzanamadılar."
-    },
-    {
-     "yazi": "Tüpün içine taş attılar, su yükseldi ve solucanı aldılar."
-    }
-   ]
-  },
-  {
-   "ad": "Karga uğursuz mu?",
-   "cumleler": [
-    {
-     "yazi": "Peki karga uğursuz mu?"
-    },
-    {
-     "yazi": "Bir araştırmaya göre Tatar kültüründe karga önce tanrının elçisi sayılmış, sonra uğursuzlukla da anılmış."
-    },
-    {
-     "yazi": "Olumlu anlamı da sürmüş."
-    },
-    {
-     "yazi": "Anlamı insanlar yüklemiş; kuş yalnızca kuş."
-    },
-    {
-     "yazi": "Kargalar tehlike gördüğünde bağırıyor; maske deneyinde de böyle yaptılar."
-    }
-   ]
-  },
-  {
-   "ad": "Kargaya taş atmak neden kötü fikir?",
-   "cumleler": [
-    {
-     "yazi": "Kargayı kovalama ya da ona taş atma; Amerikan kargalarıyla yapılan maske deneyine bakılırsa tehdit eden kişi hatırlanabiliyor."
-    },
-    {
-     "yazi": "Açıkta kalan yiyecek hayvanları çekebilir; çöpünü kapaklı kutuda tutmak genel bir önlemdir."
-    }
-   ]
-  },
-  {
-   "ad": "Yerde yavru karga bulursan",
-   "cumleler": [
-    {
-     "yazi": "Bahçende sıçrayarak ilerleyen, uçamayan bir yavru karga bulursan ne yapmalısın?"
-    },
-    {
-     "yazi": "Kanada'daki bir yaban hayatı kurtarma derneğine göre, kargalar uçmayı öğrenirken bir süre yerde kalabiliyor."
-    },
-    {
-     "yazi": "Anne ve babası çoğu zaman yakındaki bir ağaçtan onu izliyor ve besliyor."
-    },
-    {
-     "yazi": "Yavru sağlıklı görünüyorsa eve götürme; olduğu yerde bırak."
-    },
-    {
-     "yazi": "Kedi, köpek ya da yol gibi bir tehlike varsa onu yakındaki güvenli bir yere taşı."
-    },
-    {
-     "yazi": "Yaralıysa, tüyleri tam çıkmamışsa ya da uzun süre kimse onu beslemiyorsa uzman yardımı gerekir."
-    },
-    {
-     "yazi": "Bunun için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne haber ver."
-    },
-    {
-     "yazi": "Hasta ya da ölü bir kuşa dokunma; dokunduysan ellerini sabunla yıka."
-    },
-    {
-     "yazi": "Yavruya yaklaşırsan ebeveynleri üzerine alçalabilir; uzaklaşmak ve şemsiyeyle önünü kapatmak öneriliyor."
-    }
-   ]
-  },
-  {
-   "ad": "Kargalar koruma altında mı?",
-   "cumleler": [
-    {
-     "yazi": "Kargalar baykuşlar gibi koruma altında mı?"
-    },
-    {
-     "yazi": "Türkiye'de leş kargası, ekin kargası, küçük karga, saksağan ve alakarga av hayvanı sayılıyor."
-    },
-    {
-     "yazi": "Yani izinli avcılar, belirlenen tarihlerde ve bölgelerde bu kuşları avlayabiliyor."
-    },
-    {
-     "yazi": "Karar her av dönemi için yeniden yayımlanıyor ve illere göre kurallar değişebiliyor."
-    },
-    {
-     "yazi": "Güncel durumu bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğünden öğren."
-    }
-   ]
-  },
-  {
-   "ad": "Kapanış",
-   "cumleler": [
-    {
-     "yazi": "Kargalar yüzü tanıyabiliyor ve sana nasıl davrandığını yıllarca hatırlayabilir."
-    },
-    {
-     "yazi": "Senin oralarda karga ne anlama geliyor, sana hiç bağıran bir karga oldu mu? Yorumlarda yaz."
-    },
-    {
-     "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere."
-    }
-   ]
-  }
- ],
- "baslik_secenekleri": [
-  "Karga Yüzünü Tanıyor mu? (Maskeyle Yapılan Ünlü Deney)",
-  "Karga Seni Tanır mı? (Bir Maske Yıllarca Hatırlandı)",
-  "Karga Yüzünü Hatırlar mı? (Bir Biyolog ve Bir Maske)"
- ],
- "baslik_notu": "Öneri; son karar paketleme uzmanında. Maske deneyleri Amerikan kargasıyla yapıldı ve öfke yıllar sonra söndü; bu yüzden 'Yıllarca Unutmuyor' ve kesin 'Seni Tanıyor!' kullanılmadı.",
- "kapak_alternatifler": [
-  {
-   "buyuk": [
-    "SENİ",
-    "TANIR MI?"
-   ],
-   "kucuk": "Kargadan gelen hediyeler",
-   "konum": "sol",
-   "genislik": 500,
-   "gorsel": "kapak"
-  },
-  {
-   "buyuk": [
-    "KARGA",
-    "ALET YAPAR"
-   ],
-   "kucuk": "Taşla suyu yükseltti",
-   "konum": "sol",
-   "genislik": 500,
-   "gorsel": "kapak"
-  }
- ]
+  ]
 }

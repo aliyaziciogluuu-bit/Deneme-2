@@ -46,7 +46,7 @@
 - Tur 3: 83 → TESLİM (ses 7: kanal sahibi dinleyince yükselir). Yöneticiye gönderildi.
 
 ## Yönetici (19 Kasım)
-- ÖNERİ: ONAY (şart: kanal sahibi 4 şüpheli kelimeyi dinlesin). Takvim: 4 Aralık 18:00 uzun video, 5–6 Aralık 12:00 Shorts. Sabit yorum etkilesim.md'ye eklendi.
+- ÖNERİ: ONAY (şart: kanal sahibi 4 şüpheli kelimeyi dinlesin). Takvim: 1 Aralık 18:00 uzun video, 5–6 Aralık 12:00 Shorts. Sabit yorum etkilesim.md'ye eklendi.
 TESLİM EDİLDİ: teslim.py ile teslim/06-karga (19 Kasım).
 
 ## Günlük bekçi turu (20 Kasım): kaynak erişimi
@@ -59,3 +59,6 @@ TESLİM EDİLDİ: teslim.py ile teslim/06-karga (19 Kasım).
 - Üç alan adı açıldı (200): urban.uw.edu, www.audubon.org, digital.lib.washington.edu. Sayfalar kaynaklar/ altına kaydedildi; senaryo.json, yukleme.txt ve teslim/06-karga/karga-yukleme.txt'e sayfa başlığıyla geri eklendi (Vikipedi satırları kaldı).
 - Cümle 17, 18, 19, 21 ve 25 TAMAM, 20 TAMAM (süre 6 hafta). Cümle 23 ("yıllarca": sayfada iki yıl) ve 24 (düğme, taş, küpe geçmiyor) KISMEN: video yayında/teslimde, düzeltme kararı patronda.
 - Digital.lib sayfası Animal Behaviour makalesi değil, Swift 2015 yüksek lisans tezi; künye tez olarak yazıldı.
+
+## 21 Kasım: kaynak uyumu
+- Cümle 22 'yıllarca' → 'iki yıldır besliyordu', cümle 23 'düğme, taş ve küpe' → 'deniz camı, paslı vida gibi' (Audubon sayfasıyla uyumlu). Yeniden seslendirme ve video Replicate kredisi gelince. Tez künyesi adresi digital.lib.washington.edu olarak düzeltildi. Karga YÜKLENMEYECEK, düzeltilmiş sürüm gönderilecek.
