@@ -13,8 +13,9 @@ Başlarken: Chrome'da yeni sekmede `https://studio.youtube.com` aç; kanal "Avlu
 3. **Shorts ilgili video:** Bu uzun videoya ait Shorts'ları Studio → İçerik → Shorts'ta bul (başlıkları
    `shorts*-yukleme.txt` dosyalarında). Her birinde Ayrıntılar → **İlgili video** = bu uzun video → Kaydet.
    Görünürlüğe ve plana dokunma.
-4. **Önceki videonun bitiş ekranı:** Bir önceki uzun videonun bitiş ekranında "İzleyici için en iyisi" varsa,
-   video öğesini **bu yeni videoya** çevir (önceki video "Sıradaki komşu" olarak bunu vaat ediyor).
+4. **Önceki videonun bitiş ekranı:** yayın zincirinde bir önceki uzun videonun bitiş ekranındaki video öğesini
+   **bu yeni videoya** çevir. Zincir (yayın sırası): sağır yılan → geko → kirpi → yarasa → baykuş → karga → kırlangıç →
+   kara kurbağası. Ayrıca kartı en iyi tutulan videoya ya da yeni videoya güncelle.
 5. Özet yaz: ne yapıldı, ne kaldı.
 
 ## Görev 2 – Haftalık veri toplama (her pazartesi)
@@ -62,7 +63,7 @@ Kanal sahibi bu görevi istediğinde aşağıdaki maddeleri **sormadan uygulayab
   "Otomatik bölümlere izin ver" açık, "Yerleştirmeye izin ver" açık, yorumlar açık (uygunsuz olanlar incelemeye).
 - Özelleştirme → Düzen: abone olmayanlar için kanal fragmanı = son 28 günde en çok izlenen uzun video; aboneler için
   öne çıkan video = en yeni uzun video; bölümler: Popüler videolar, Shorts, "Evin Çevresindeki Hayvanlar" listesi.
-- Marka → video filigranı yüklü mü (klasörde `filigran.png` varsa yükle, "Videonun sonunda").
+- Marka → video filigranı yüklü mü (yoksa klasördeki `filigran.png`); görüntüleme süresi "Tüm video" (kanal sahibi kararı, 22 Kasım).
 
 **Her uzun video (yayındaki ve planlı):**
 - "Evin Çevresindeki Hayvanlar" oynatma listesinde.
