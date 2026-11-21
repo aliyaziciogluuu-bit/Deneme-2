@@ -58,8 +58,8 @@
         },
         {
           "sahne": 1,
-          "yazi": "Ama Pilâtre de Rozier, bu şerefin mahkûmlara verilmesine karşı çıktı.",
-          "okunus": "Ama Pilatr dö Rozye, bu şerefin mahkûmlara verilmesine karşı çıktı."
+          "yazi": "Ama Pilâtre de Rozier bu şerefin mahkûmlara verilmesine karşı çıktı.",
+          "okunus": "Ama Pilatr dö Rozye bu şerefin mahkûmlara verilmesine karşı çıktı."
         },
         {
           "sahne": 2,
@@ -83,13 +83,13 @@
         },
         {
           "sahne": 4,
-          "yazi": "Yarın tarihte ne olduğunu kaçırmamak için takip et.",
-          "okunus": "Yarın tarihte ne olduğunu kaçırmamak için takip et."
+          "yazi": "Yarın tarihte bugün ne olduğunu kaçırmamak için takip et.",
+          "okunus": "Yarın tarihte bugün ne olduğunu kaçırmamak için takip et."
         }
       ],
       "youtube": {
         "baslik": "İnsanlık İlk Kez Bugün Serbestçe Uçtu! 🎈 21 Kasım 1783 #tarihtebugün",
-        "aciklama": "21 Kasım 1783'te Pilâtre de Rozier ve Markiz d'Arlandes, Paris'te sıcak hava balonuyla insanlık tarihinin ilk serbest uçuşunu yaptı. Kral XVI. Louis ilk uçuşa iki mahkûmun binmesini istemişti...\n\nHer gün tarihte bugün ne olduğunu 1 dakikada anlatıyoruz.\n\nKaynaklar: Vikipedi (Pilâtre de Rozier, Montgolfier kardeşler, 21 Kasım).\nGörseller: Wikimedia Commons, kamu malı ve CC0 (Bibliothèque nationale de France, ABD Kongre Kütüphanesi, Paris Musées, Smithsonian Ulusal Hava ve Uzay Müzesi).\nMüzik: \"Baroque Heaven\" – younoise (Freesound, CC0).\nSeslendirme ve kurgu yapay zekâ yardımıyla yapılmıştır.",
+        "aciklama": "21 Kasım 1783'te Pilâtre de Rozier ve Markiz d'Arlandes, Paris'te sıcak hava balonuyla insanlık tarihinin ilk serbest uçuşunu yaptı. Kral XVI. Louis ilk uçuşa iki mahkûmun binmesini istemişti...\n\nHer gün tarihte bugün ne olduğunu 1 dakikada anlatıyoruz.\n\nKaynaklar:\nhttps://en.wikipedia.org/wiki/Jean-François_Pilâtre_de_Rozier\nhttps://en.wikipedia.org/wiki/Montgolfier_brothers\nhttps://tr.wikipedia.org/wiki/21_Kasım\nGörseller: Wikimedia Commons, kamu malı ve CC0 (Bibliothèque nationale de France, ABD Kongre Kütüphanesi, Paris Musées, Smithsonian Ulusal Hava ve Uzay Müzesi).\nMüzik: \"Baroque Heaven\" – younoise (Freesound, CC0).\nSeslendirme ve kurgu yapay zekâ yardımıyla yapılmıştır.",
         "etiketler": [
           "tarihte bugün",
           "21 kasım",
@@ -115,12 +115,12 @@
         {
           "sahne": 0,
           "yazi": "In Paris, a hot air balloon rose from the garden of the Château de la Muette.",
-          "okunus": "In Paris, a hot air balloon rose from the garden of the Shatoh de la Mwet."
+          "okunus": "In Paris, a hot air balloon rose from the garden of the Shah-toh duh la Mwet."
         },
         {
           "sahne": 1,
           "yazi": "On board: science teacher Pilâtre de Rozier and army officer the Marquis d'Arlandes.",
-          "okunus": "On board: science teacher Pee-lahtr de Rozee-ay, and army officer the Markee Dar-lahnd."
+          "okunus": "On board: science teacher Pee-lot-ruh duh Roh-zee-ay, and army officer the Markee Dar-lahnd."
         },
         {
           "sahne": 1,
@@ -130,7 +130,7 @@
         {
           "sahne": 1,
           "yazi": "But Pilâtre de Rozier argued that this honor should not go to prisoners.",
-          "okunus": "But Pee-lahtr de Rozee-ay argued that this honor should not go to prisoners."
+          "okunus": "But Pee-lot-ruh duh Roh-zee-ay argued that this honor should not go to prisoners."
         },
         {
           "sahne": 2,
@@ -159,8 +159,8 @@
         }
       ],
       "youtube": {
-        "baslik": "The Day Humans First Flew 🎈 November 21, 1783 #onthisday",
-        "aciklama": "On November 21, 1783, Pilâtre de Rozier and the Marquis d'Arlandes made the first free human flight in a hot air balloon over Paris. King Louis XVI had wanted two condemned prisoners to go first...\n\nOne minute of history, every day.\n\nSources: Wikipedia (Pilâtre de Rozier, Montgolfier brothers).\nImages: Wikimedia Commons, public domain and CC0 (Bibliothèque nationale de France, US Library of Congress, Paris Musées, Smithsonian National Air and Space Museum).\nMusic: \"Baroque Heaven\" by younoise (Freesound, CC0).\nVoice-over and editing made with the help of AI.",
+        "baslik": "The Day Humans First Flew Freely 🎈 November 21, 1783 #onthisday",
+        "aciklama": "On November 21, 1783, Pilâtre de Rozier and the Marquis d'Arlandes made the first free human flight in a hot air balloon over Paris. King Louis XVI had wanted two condemned prisoners to go first...\n\nOne minute of history, every day.\n\nSources:\nhttps://en.wikipedia.org/wiki/Jean-François_Pilâtre_de_Rozier\nhttps://en.wikipedia.org/wiki/Montgolfier_brothers\nImages: Wikimedia Commons, public domain and CC0 (Bibliothèque nationale de France, US Library of Congress, Paris Musées, Smithsonian National Air and Space Museum).\nMusic: \"Baroque Heaven\" by younoise (Freesound, CC0).\nVoice-over and editing made with the help of AI.",
         "etiketler": [
           "on this day",
           "history",

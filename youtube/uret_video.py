@@ -35,7 +35,8 @@ FPS = 30
 GECIS = 0.4                # sahne geçişi (sn)
 DURAK = 0.28               # cümleler arası sessizlik (sn)
 ON_BOSLUK = 0.25           # videonun başındaki sessizlik
-KUTU = (60, 300, 960, 1060)  # ön plan görselinin kutusu: x, y, genişlik, yükseklik
+KUTU = (60, 280, 960, 960)   # ön plan görselinin kutusu: x, y, genişlik, yükseklik
+# Altyazı, Shorts'ta kanal adı ve başlığın çıktığı alt şeridin (yaklaşık son %20) üstünde durur.
 IZINLI_LISANS = ('public domain', 'cc0', 'pd', 'cc by', 'cc-by', 'no restrictions')
 
 
@@ -107,7 +108,7 @@ def gorsel(dosya_adi):
     ad = KOK / 'gorseller' / (hashlib.md5(dosya_adi.encode('utf-8')).hexdigest() + '.jpg')
     if ad.exists() and ad.stat().st_size > 0:
         lisans_dosyasi = ad.with_suffix('.lisans')
-        return ad, (lisans_dosyasi.read_text(encoding='utf-8').strip() if lisans_dosyasi.exists() else 'kayıtlı')
+        return ad, (lisans_dosyasi.read_text(encoding='utf-8').splitlines()[0].strip() if lisans_dosyasi.exists() else 'kayıtlı')
     adres = bilgi.get('thumburl') or bilgi['url']
     # Küçük görseller thumb.wikimedia.org'dan da verilir; aynı dosya upload.wikimedia.org altında da durur.
     adres = adres.replace('://thumb.wikimedia.org/', '://upload.wikimedia.org/')
@@ -164,7 +165,7 @@ def altyazi(dil_verisi, zamanlar, toplam, hedef):
         'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
         'Style: Ust,Baloo 2 ExtraBold,74,&H0040D8FF,&H000000FF,&H00101010,&H80000000,0,0,0,0,100,100,4,0,1,5,0,8,60,60,92,1',
         'Style: Tarih,Baloo 2 ExtraBold,58,&H00FFFFFF,&H000000FF,&H00101010,&H80000000,0,0,0,0,100,100,2,0,1,4,0,8,60,60,182,1',
-        'Style: Yazi,Baloo 2 ExtraBold,70,&H00FFFFFF,&H000000FF,&H00101010,&HA0000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,250,1',
+        'Style: Yazi,Baloo 2 ExtraBold,68,&H00FFFFFF,&H000000FF,&H00101010,&HA0000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,430,1',
         '', '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text',
         f'Dialogue: 0,{ass_zaman(0)},{ass_zaman(toplam)},Ust,,0,0,0,,{ust}',
         f'Dialogue: 0,{ass_zaman(0)},{ass_zaman(toplam)},Tarih,,0,0,0,,{tarih}',

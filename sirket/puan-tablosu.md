@@ -73,6 +73,12 @@ Bunlar puanı düşürmeyen düzeltmeler olduğu için yeniden tam denetim yapı
 | 21.11.2026 | 1783 ilk balon uçuşu (1. doğrulama) | TR | 26 | 10 | 12 | 13 | 8 | 8 | **77** | 2: "ilk kez gökyüzüne çıktı" (bağlı uçuş daha önce yapılmıştı); hayvanlar başka balonla uçmuştu | Geçemedi · düzeltildi |
 | 21.11.2026 | 1783 ilk balon uçuşu (1. doğrulama) | EN | 28 | 11 | 12 | 12 | 8 | 8 | **79** | 1: hayvanlar başka balonla uçmuştu | Geçemedi · düzeltildi |
 
+| 21.11.2026 | 1783 ilk balon uçuşu (son kontrol, bitmiş video) | TR | 34 | 12 | 14 | 12 | 9 | 9 | **90** | yok | **Geçti** |
+| 21.11.2026 | 1783 ilk balon uçuşu (son kontrol, bitmiş video) | EN | 34 | 12 | 14 | 11 | 8 | 9 | **88** | yok | **Geçti** |
+
+**Son kontrolden sonra:** altyazı Shorts'un alt şeridinden yukarı alındı (bütün videolar için); İngilizce başlık "First Flew Freely";
+İngilizce isim okunuşları iyileştirildi; açıklamalara kaynak bağlantıları eklendi; lisans kaydındaki hata düzeltildi.
+
 **Düzeltmeler:** "ilk serbest uçuş"; "başka bir balonla"; yükseklik kaynaklarda çeliştiği için "yüzlerce metre"; görsel
 kaynaklarına Smithsonian eklendi; görseller anlatılan sahneye göre yeniden sıralandı; İngilizce yazım tek tipe (ABD) getirildi.
 
