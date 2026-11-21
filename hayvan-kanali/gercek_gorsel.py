@@ -76,8 +76,11 @@ def ara(klasor, ad, sorgu, video=False, adet=8, baslik_suzgec=None):
         uzanti = ".webm" if video else ".jpg"
         dosya = hedef / f"{ad}_{n}{uzanti}"
         kaynak = ii["url"]  # upload.wikimedia.org (thumb.wikimedia.org ağ izninde yok)
-        r = subprocess.run(["curl", "-s", "-L", "-m", "180", "-A", UA, "-o", str(dosya), "-w", "%{http_code}", kaynak], capture_output=True, text=True)
-        time.sleep(8)  # upload.wikimedia.org hızlı indirmede 429 veriyor
+        for bekle in (8, 45, 120, 240):  # upload.wikimedia.org hızlı indirmede 429 veriyor: yavaşla ve yeniden dene
+            r = subprocess.run(["curl", "-s", "-L", "-m", "180", "-A", UA, "-o", str(dosya), "-w", "%{http_code}", kaynak], capture_output=True, text=True)
+            time.sleep(bekle)
+            if r.stdout.strip() != "429":
+                break
         if r.returncode or r.stdout.strip() != "200":
             print(f"  indirilemedi ({r.stdout.strip() or r.returncode}): {p['title'][:60]}")
             dosya.unlink(missing_ok=True)
