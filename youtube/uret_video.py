@@ -240,7 +240,9 @@ def uret(senaryo_yolu, dil):
     ilk = {}
     for i, c in enumerate(dv['cumleler']):
         ilk.setdefault(c['sahne'], zamanlar[i][0])
-    sahne_sirasi = sorted(ilk)
+    sahne_sirasi = list(ilk)
+    if sahne_sirasi != sorted(sahne_sirasi):
+        raise SystemExit('Cümlelerin sahne numaraları sırayla artmalı (0, 0, 1, 2, …)')
     sinirlar = [0.0] + [ilk[s] - DURAK / 2 for s in sahne_sirasi[1:]] + [toplam]
     sureler = [sinirlar[i + 1] - sinirlar[i] for i in range(len(sahne_sirasi))]
 

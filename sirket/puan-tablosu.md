@@ -65,3 +65,14 @@ Yapay zekâ beyanı netleştirildi (çizimler yapay zekâ tarafından vektör ko
 "A4 ya da US Letter" diyor; "Kelime köprüsü" ikinci dilin adını söylüyor; Letter sayfa 2'nin alt boşluğu artırıldı;
 "Colours" → "Colors"; "turkish school" → "turkish preschool"; PDF'lere başlık bilgisi eklendi.
 Bunlar puanı düşürmeyen düzeltmeler olduğu için yeniden tam denetim yapılmadı; Genel Müdür yazı tipini ve sayfaları kendisi kontrol etti.
+
+## Video doğrulamaları (Medya)
+
+| Tarih | Senaryo | Dil | Doğruluk | Kanca | Görsel | Ses/altyazı | Başlık | Kurallar | Toplam | Kritik hata | Sonuç |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 21.11.2026 | 1783 ilk balon uçuşu (1. doğrulama) | TR | 26 | 10 | 12 | 13 | 8 | 8 | **77** | 2: "ilk kez gökyüzüne çıktı" (bağlı uçuş daha önce yapılmıştı); hayvanlar başka balonla uçmuştu | Geçemedi · düzeltildi |
+| 21.11.2026 | 1783 ilk balon uçuşu (1. doğrulama) | EN | 28 | 11 | 12 | 12 | 8 | 8 | **79** | 1: hayvanlar başka balonla uçmuştu | Geçemedi · düzeltildi |
+
+**Düzeltmeler:** "ilk serbest uçuş"; "başka bir balonla"; yükseklik kaynaklarda çeliştiği için "yüzlerce metre"; görsel
+kaynaklarına Smithsonian eklendi; görseller anlatılan sahneye göre yeniden sıralandı; İngilizce yazım tek tipe (ABD) getirildi.
+
