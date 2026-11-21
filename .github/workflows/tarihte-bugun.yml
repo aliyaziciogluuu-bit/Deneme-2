@@ -62,6 +62,15 @@ jobs:
           YT_REFRESH_TOKEN_EN: ${{ secrets.YT_REFRESH_TOKEN_EN }}
           YT_REFRESH_TOKEN_TR: ${{ secrets.YT_REFRESH_TOKEN_TR }}
         run: python youtube/yukle.py youtube/cikti/*.mp4
+      - name: Yeni görselleri depoya kaydet
+        if: always() && steps.senaryo.outputs.dosya != ''
+        run: |
+          git config user.name "tarihte-bugun-bot"
+          git config user.email "tarihte-bugun-bot@users.noreply.github.com"
+          git add youtube/gorseller/ 2>/dev/null || true
+          git commit -q -m "Tarihte Bugün: görseller kaydedildi" || exit 0
+          git pull --rebase -q origin "${GITHUB_REF_NAME}"
+          git push -q origin "HEAD:${GITHUB_REF_NAME}"
       - uses: actions/upload-artifact@v4
         if: steps.senaryo.outputs.dosya != ''
         with:

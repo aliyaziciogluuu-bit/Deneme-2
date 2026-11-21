@@ -26,7 +26,10 @@ from pathlib import Path
 KOK = Path(__file__).resolve().parent
 ONBELLEK = Path(os.environ.get('YT_ONBELLEK', KOK / '.onbellek'))
 FONT_DIZIN = KOK / 'fontlar'
-UA = 'tarihte-bugun-shorts/0.1 (egitim amacli)'
+# Wikimedia'nın kuralı: otomatik programlar kendini tanıtmalı ve bir iletişim adresi vermeli.
+# İletişim adresi olarak deponun adresi kullanılır (Patron izni, 21.11.2026).
+DEPO = 'https://github.com/' + os.environ.get('GITHUB_REPOSITORY', 'aliyaziciogluuu-bit/Deneme-2')
+UA = f'TarihteBugunShorts/0.2 ({DEPO}; gunluk tarih videolari) Python-urllib/{sys.version_info.major}.{sys.version_info.minor}'
 G, Y = 1080, 1920          # video boyutu
 FPS = 30
 GECIS = 0.4                # sahne geçişi (sn)
@@ -100,11 +103,16 @@ def gorsel(dosya_adi):
     lisans = bilgi.get('extmetadata', {}).get('LicenseShortName', {}).get('value', '')
     if not any(k in lisans.lower() for k in IZINLI_LISANS):
         raise SystemExit(f'Lisans uygun değil ({lisans}): {dosya_adi}')
-    ad = ONBELLEK / 'gorseller' / (hashlib.md5(dosya_adi.encode('utf-8')).hexdigest() + '.jpg')
+    # Görseller depoda saklanır (kamu malı / CC0); aynı görsel için Wikimedia'ya bir daha gidilmez.
+    ad = KOK / 'gorseller' / (hashlib.md5(dosya_adi.encode('utf-8')).hexdigest() + '.jpg')
+    if ad.exists() and ad.stat().st_size > 0:
+        lisans_dosyasi = ad.with_suffix('.lisans')
+        return ad, (lisans_dosyasi.read_text(encoding='utf-8').strip() if lisans_dosyasi.exists() else 'kayıtlı')
     adres = bilgi.get('thumburl') or bilgi['url']
     # Küçük görseller thumb.wikimedia.org'dan da verilir; aynı dosya upload.wikimedia.org altında da durur.
     adres = adres.replace('://thumb.wikimedia.org/', '://upload.wikimedia.org/')
     yol = indir(adres, ad)
+    ad.with_suffix('.lisans').write_text(lisans + '\n' + dosya_adi + '\n', encoding='utf-8')
     return yol, lisans
 
 
