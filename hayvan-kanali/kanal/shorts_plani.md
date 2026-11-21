@@ -38,3 +38,4 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 
 - 21 Kasım: baykuş (28 Kas 18:00) ve Shorts'ları (29, 30 Kas 12:00) bilgisayardaki yükleme asistanıyla yüklendi ve planlandı (ilk otomatik yükleme). Yayından sonra yapılacak: iki Shorts'ta 'İlgili video' = baykuş, sabit yorum.
 - 22 Kasım stüdyo asistanı taraması: iki yarasa Shorts'unda yapay içerik boş; geko'da bitiş ekranı yok; yılan/kirpi/yarasa yalnızca otomatik altyazı; geko kategorisi "Eğitim", yılan "Kişiler ve Bloglar"; kirpi ve yarasa Shorts başlıklarına elle "#kertenkele" vb. eklenmiş (dosyalarda yok). Düzeltme talimatı verildi.
+- 22 Kasım: stüdyo asistanı 5 düzeltmeyi uyguladı ve doğruladı (yarasa Shorts yapay içerik Evet; geko bitiş ekranı 5:42–5:56; yılan/kirpi/yarasa Türkçe altyazı yayınlandı; geko ve yılan kategorisi Evcil ve Yabani Hayvanlar; kirpi/yarasa Shorts başlıkları dosyalarla birebir). Kalan: 6 Shorts ilgili video (24, 26, 28 Kasım yayınlarından sonra).
