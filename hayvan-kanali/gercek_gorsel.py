@@ -7,6 +7,7 @@ Kural: önce gerçek görüntü aranır; uygun aday yoksa gorsel.py ile yapay ze
 Kullanım (hayvan-kanali/ içinde):
   python3 gercek_gorsel.py 08-kara-kurbagasi ara portre "Bufo bufo portrait"      # fotoğraf adayları
   python3 gercek_gorsel.py 08-kara-kurbagasi ara goc "Bufo bufo migration" --video  # video adayları
+  python3 gercek_gorsel.py 08-kara-kurbagasi ara yol "toad road crossing" --baslik toad   # başlıkta geçmesi gereken söz
   python3 gercek_gorsel.py 08-kara-kurbagasi sec portre 3                            # 3. adayı gorseller/portre.jpg yap
   python3 gercek_gorsel.py 08-kara-kurbagasi kunye                                   # açıklama için atıf listesi
 
@@ -48,7 +49,7 @@ def temiz(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html or "")).strip()
 
 
-def ara(klasor, ad, sorgu, video=False, adet=8):
+def ara(klasor, ad, sorgu, video=False, adet=8, baslik_suzgec=None):
     tur = "filetype:video" if video else "filetype:bitmap"
     d = istek({"action": "query", "generator": "search", "gsrnamespace": 6, "gsrsearch": f"{sorgu} {tur}",
                "gsrlimit": 30, "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
@@ -57,7 +58,11 @@ def ara(klasor, ad, sorgu, video=False, adet=8):
     hedef = klasor / "gercek_adaylar"
     hedef.mkdir(exist_ok=True)
     adaylar, elenen = [], 0
+    tur_adi = baslik_suzgec or (" ".join(sorgu.split()[:2]) if re.match(r"^[A-Z][a-z]+ [a-z]+", sorgu) else "")
     for p in sayfalar:
+        if tur_adi and tur_adi.lower().replace(" ", "") not in p["title"].lower().replace(" ", "").replace("_", "").replace("-", ""):
+            elenen += 1  # başka tür (ör. "Bufo bufo" aramasında Bufo alvarius) gelmesin
+            continue
         ii = (p.get("imageinfo") or [{}])[0]
         m = ii.get("extmetadata", {})
         lisans = temiz(m.get("LicenseShortName", {}).get("value", ""))
@@ -72,7 +77,7 @@ def ara(klasor, ad, sorgu, video=False, adet=8):
         dosya = hedef / f"{ad}_{n}{uzanti}"
         kaynak = ii["url"]  # upload.wikimedia.org (thumb.wikimedia.org ağ izninde yok)
         r = subprocess.run(["curl", "-s", "-L", "-m", "180", "-A", UA, "-o", str(dosya), "-w", "%{http_code}", kaynak], capture_output=True, text=True)
-        time.sleep(1)
+        time.sleep(8)  # upload.wikimedia.org hızlı indirmede 429 veriyor
         if r.returncode or r.stdout.strip() != "200":
             print(f"  indirilemedi ({r.stdout.strip() or r.returncode}): {p['title'][:60]}")
             dosya.unlink(missing_ok=True)
@@ -153,7 +158,8 @@ def main():
         raise SystemExit(__doc__)
     klasor, komut = KOK / sys.argv[1], sys.argv[2]
     if komut == "ara" and len(sys.argv) >= 5:
-        ara(klasor, sys.argv[3], sys.argv[4], video="--video" in sys.argv)
+        suzgec = sys.argv[sys.argv.index("--baslik") + 1] if "--baslik" in sys.argv else None
+        ara(klasor, sys.argv[3], sys.argv[4], video="--video" in sys.argv, baslik_suzgec=suzgec)
     elif komut == "sec" and len(sys.argv) >= 5:
         sec(klasor, sys.argv[3], sys.argv[4])
     elif komut == "kunye":

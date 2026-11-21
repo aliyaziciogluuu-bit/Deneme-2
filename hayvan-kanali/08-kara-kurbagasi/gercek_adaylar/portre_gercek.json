@@ -1,0 +1,46 @@
+{
+ "sorgu": "Bufo bufo",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "portre_gercek_1.jpg",
+   "baslik": "File:Bufo bufo couple during migration(2005).jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_couple_during_migration(2005).jpg",
+   "yazar": "Janekpfeifer at de.wikipedia",
+   "lisans": "CC BY-SA 3.0",
+   "boyut": "2048x1536",
+   "aciklama": "Common Toads (Bufo bufo ssp. spinosus) during migration in the Portuguese national park of Peneda-Gerês."
+  },
+  {
+   "n": 2,
+   "dosya": "portre_gercek_2.jpg",
+   "baslik": "File:Bufo-alvarius-coloradokröte.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bufo-alvarius-coloradokr%C3%B6te.jpg",
+   "yazar": "Holger Krisp",
+   "lisans": "CC BY 3.0",
+   "boyut": "4752x3168",
+   "aciklama": "Colorado River Toad|, Incilius alvarius, Syn.: Bufo alvarius, Family: Bufonidae"
+  },
+  {
+   "n": 3,
+   "dosya": "portre_gercek_3.jpg",
+   "baslik": "File:Bufo bufo 2009 G3.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_2009_G3.jpg",
+   "yazar": "George Chernilevsky",
+   "lisans": "Public domain",
+   "boyut": "2400x1800",
+   "aciklama": "The common toad or european toad (Bufo bufo). Ukraine. Example of an excellent camouflage to a background"
+  },
+  {
+   "n": 4,
+   "dosya": "portre_gercek_4.jpg",
+   "baslik": "File:Bufo-bufo-erdkroete-maennlich-front.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bufo-bufo-erdkroete-maennlich-front.jpg",
+   "yazar": "Holger Krisp",
+   "lisans": "CC BY 3.0",
+   "boyut": "3256x2240",
+   "aciklama": "Front of Common toad or European toad (male), Bufo bufo, Family: Bufonidae, Location: Southern Germany, Beiningen"
+  }
+ ]
+}
