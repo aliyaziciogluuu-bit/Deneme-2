@@ -25,3 +25,7 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 ## 21 Kasım 13:23 – Gerçek zamanlı (son 48 saat): 2.217 görüntüleme
 - Geko uzun ≈ 1.200 (son ~16 saat, çoğu reklam) · "54 Yıl Yaşayan Kertenkele" Shorts 644 (hepsi 48 saat önceki ilk patlamada, sonra ≈ 0) · Yılan uzun 209 (düzenli, organik) · Geko Shorts 1 "Kertenkele Yemeğe Düşerse" 111 (bugün 12:00 yayın, ilk ~1,5 saat) · "Göz Kırpıyorsa" Shorts 16 (sönmüş).
 - Örüntü: Shorts ilk günde patlıyor, 1–2 günde sönüyor (izlemeye devam %47) → her gün yeni Shorts şart; ilk saniye güçlendirilmeli. Uzun videolar düşük ama süreklilik gösteriyor.
+
+## 21 Kasım 13:26 – Geko erişim
+- Küçük resim gösterimleri 2,7 B, hepsi yayından sonraki ilk ~3 saatte, sonra düz (YouTube organik göstermeyi bıraktı). Küçük resim tıklama oranı %1,3 (yılan ilk gün %1,7 → %2,7). Organik izlenme ≈ 2.700 × %1,3 ≈ 35–40 (önerilenler 40 ile uyumlu). Reklam izlenmeleri gösterim/tıklama oranına girmiyor.
+- Teşhis: geko'nun organik sorunu küçük resim/başlık tıklaması (izleyen kalıyor: ort. 2:13). Önlem: "Test ve karşılaştır" için B (portre, "ZEHİRLİ Mİ? / Mutfaktaki gizli komşu") ve C (tavan, "TAVANDA NASIL DURUR? / Gözünü diliyle yalıyor") üretildi (ücretsiz, mevcut görseller). Not: A'daki turuncu benekli kertenkele leopar gekoya benziyor, videodaki soluk ev kertenkelesine değil.
