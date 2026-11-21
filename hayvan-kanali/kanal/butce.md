@@ -36,4 +36,4 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 ## Tanıtım (ücretli reklam, üretim bütçesinden ayrı)
 | Tarih | Video | Tutar | Süre | Not |
 |---|---|---|---|---|
-| 20 Kas | 02 geko (yeniden yüklenen) | 950 TL (≈ 20 $, yaklaşık kur) | 3 gün | Kanal sahibi kararı. Sonuç: reklam bitince Analytics (trafik kaynakları, tutma, abone) ile ölçülecek |
+| 20 Kas | 02 geko (yeniden yüklenen) | 950 TL (≈ 20 $, yaklaşık kur) | 3 gün (bitiş 23 Kas) | Kanal sahibi kararı. 21 Kas: ilk 13 saatte 862 reklam görüntülemesi, ort. izleme 2:13. Hedefleme: Türkiye, Türkçe, ilgi alanları seçildi; 21 Kas "Bilinmiyor" yaş grubu çıkarıldı (çocuk içerikleri yanında gösterim). Sonuç reklam bitince ölçülecek |
