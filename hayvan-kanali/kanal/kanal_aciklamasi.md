@@ -30,3 +30,7 @@ Kabul edilen biçim (telefon uygulaması tırnak tanımıyor): avludaki komşula
 ## Kanal ayarları (20 Kasım, kanal sahibi bilgisayardan yaptı)
 - Kitle: çocuklara özel değil · Yükleme varsayılanları: imza açıklaması, görünürlük Gizli, kategori Evcil Hayvanlar ve Hayvanlar, dil Türkçe, yorum incelemesi · Düzen: fragman yılan, öne çıkan geko, bölümler (Popüler, Shorts, oynatma listesi) · Açıklama: 'Haftada üç yeni komşu' · Filigran yüklendi · Yılan bitiş ekranı → geko.
 - Kalan: geko altyazısı.
+
+## 22 Kasım – Görev 6 (izlenme ayarları, stüdyo asistanı)
+- Fragman: geko. Ana sayfaya 'Evin Çevresindeki Hayvanlar' bölümü. Bitiş ekranları ~15 sn (baykuş 6:12, yarasa 5:15, kirpi 5:49, yılan 6:02 + abone ol). Kartlar: baykuş/yarasa/kirpi/yılan → geko (videonun ortası), geko → yılan. Filigran 'Tüm video'.
+- Kanal ayarları, yükleme varsayılanları, kitle, yapay içerik, altyazı, oynatma listesi, yerleştirme, abone bildirimi: hepsi tamam.
