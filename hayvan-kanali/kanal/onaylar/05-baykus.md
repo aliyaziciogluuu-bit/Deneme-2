@@ -20,3 +20,6 @@
 - Kanal sahibi baykuş videosunu dinledi: "ses yapay durmuyor". Ses puanı 8'den 9'a çıktı (kalite kontrol, insan dinlemesi olmadığı için 8'de bırakmıştı). Tur 2 toplamı 84,0.
 
 TESLİM EDİLDİ: teslim.py ile teslim/05-baykus (19 Kasım), kanal sahibi 1 Aralık için yükleyecek.
+
+## 21 Kasım: yükleme
+- Bilgisayardaki yükleme asistanı (Claude + Chrome) yükledi: uzun video 28 Kas 18:00, Shorts 29 ve 30 Kas 12:00, hepsi planlı. Küçük resim A, oynatma listesi, altyazı, bitiş ekranı, yapay içerik Evet, açıklamalar dosyayla birebir. Kalan: Shorts ilgili video ve sabit yorum (yayından sonra).

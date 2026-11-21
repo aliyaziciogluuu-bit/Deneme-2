@@ -35,3 +35,5 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 
 - 20 Kasım: kirpi ve yarasa yeni sürümleri planlandı; geko, kirpi, yarasa ve Shorts'larında 'Değiştirilmiş veya yapay içerik: Evet' işaretlendi (kanal sahibi).
 - Karga yüklenmeyecek: cümle 22–23 kaynakla uyumlu hâle getirilip yeniden üretilecek (Replicate kredisi bekleniyor).
+
+- 21 Kasım: baykuş (28 Kas 18:00) ve Shorts'ları (29, 30 Kas 12:00) bilgisayardaki yükleme asistanıyla yüklendi ve planlandı (ilk otomatik yükleme). Yayından sonra yapılacak: iki Shorts'ta 'İlgili video' = baykuş, sabit yorum.

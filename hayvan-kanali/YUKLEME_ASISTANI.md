@@ -30,6 +30,12 @@ Her Shorts için: yükle → başlık, açıklama, etiketler `shorts*-yukleme.tx
 yapay içerik: Evet → **İlgili video:** ait olduğu uzun video (planlıysa listede görünmeyebilir; görünmezse boş bırak ve
 kanal sahibine "uzun video yayına girince ilgili videoyu seç" diye not düş) → Görünürlük: **Planla**, listedeki tarih, 12:00.
 
+## Bilinen durumlar (21 Kasım, ilk yükleme)
+- Planlı (henüz yayında olmayan) uzun video Shorts'un "İlgili video" listesinde çıkmaz: boş bırak, özette not et.
+- Bitiş ekranında önerilecek video henüz kanalda yoksa "İzleyici için en iyisi" seç.
+- "Ücretli tanıtım" kutusu işaretlenmez (kanalda ücretli tanıtım yok).
+- Sabit yorum ancak video yayına girince yazılabilir; özette not et.
+
 ## Bitirince
 1. Studio → İçerik listesinin ekran görüntüsünü al: her yüklenen video **saat simgesi** ve doğru tarih göstermeli.
 2. Kanal sahibine kısa özet yaz: ne yüklendi, hangi tarihe planlandı, eksik kalan (ör. ilgili video, altyazı) ne.
