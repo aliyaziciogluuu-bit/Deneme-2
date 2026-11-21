@@ -24,6 +24,8 @@ Sütunlar: Talep (25) · Rekabet azlığı (20) · Üretim kolaylığı (15) · 
 | 6 | Türk Alfabesi · Türkçe–Fransızca | 11 | 19 | 14 | 11 | 8 | 9 | **72** | Bekleme · Fransızca metin denetimi gerekir |
 | 7 | Ramazan ve bayram etkinlik paketi (Türkçe–Almanca) | 19 | 12 | 10 | 10 | 9 | 9 | **69** | Bekleme · Ramazan Şubat 2027 başında; olacaksa Ocak ortasına kadar yayında olmalı |
 | 8 | Türk motifli duvar posterleri (çini, kilim, nazar) | 16 | 6 | 11 | 11 | 12 | 9 | **65** | Bekleme · rakip çok |
+| 9 | YouTube: çocuklar için Türkçe kanalı (Türkçe–Almanca, mağazanın vitrini) | 14 | 13 | 13 | 6 | 14 | 6 | **66** | Bekleme · Patron kararı bekleniyor |
+| 10 | YouTube: genel bilgi/tarih Shorts kanalı (reklam geliri) | 18 | 5 | 7 | 5 | 14 | 5 | **54** | Reddedildi · Patron kararı bekleniyor |
 
 ### Gerekçeler
 
@@ -35,6 +37,11 @@ Sütunlar: Talep (25) · Rekabet azlığı (20) · Üretim kolaylığı (15) · 
 - **Ramazan paketi (69):** talep mevsimsel ve yüksek; İngilizce Ramazan ürünlerinde rakip çok. Dini içerikte hata kabul edilmez,
   denetim yükü fazla.
 - **Duvar posterleri (65):** Etsy'de İstanbul merkezli satıcılar dahil çok rakip var.
+- **YouTube çocuk kanalı (66):** 29 çizim hazır, kısa "bugünün harfi" videoları kolay üretilir ve Etsy mağazasına müşteri getirebilir.
+  Ama çocuklara yönelik videolarda reklam geliri düşük; yorumlar ve bazı bağlantı özellikleri kapanır. Ücretsiz Türkçe yapay ses orta kalitede.
+  Mağaza açılmadan anlamı yok.
+- **YouTube genel Shorts kanalı (54):** yapay zekâ videolarıyla dolu, en kalabalık alan. Görsel servisinde kredi yok, her sahneyi elle
+  çizmek gerekir. Para kazanma eşiği yüksek (1.000 abone ve izlenme şartı), gelir aylar sonra gelir.
 
 ## Kalite denetimleri
 
