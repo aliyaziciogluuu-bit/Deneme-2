@@ -1,4 +1,7 @@
-# Şirket Sistemi: dijital ürün işi
+# Şirket Sistemi
+
+Şirketin iki iş kolu var: **dijital ürünler** (bu belge) ve **medya** (`sirket/MEDYA.md`: çok dilli
+"Tarihte Bugün" video kanalları). Ortak kurallar (Patron'un yetkisi, bağımsız denetim, ölçüm, para onayı) ikisinde de geçerlidir.
 
 Bu belge dijital ürün işinin nasıl yürütüleceğini belirler. Claude her oturumda bu kurallara göre çalışır.
 Kurallar ancak Patron'un isteğiyle değişir.

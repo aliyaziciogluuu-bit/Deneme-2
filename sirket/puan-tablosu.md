@@ -25,7 +25,7 @@ Sütunlar: Talep (25) · Rekabet azlığı (20) · Üretim kolaylığı (15) · 
 | 7 | Ramazan ve bayram etkinlik paketi (Türkçe–Almanca) | 19 | 12 | 10 | 10 | 9 | 9 | **69** | Bekleme · Ramazan Şubat 2027 başında; olacaksa Ocak ortasına kadar yayında olmalı |
 | 8 | Türk motifli duvar posterleri (çini, kilim, nazar) | 16 | 6 | 11 | 11 | 12 | 9 | **65** | Bekleme · rakip çok |
 | 9 | YouTube: çocuklar için Türkçe kanalı (Türkçe–Almanca, mağazanın vitrini) | 14 | 13 | 13 | 6 | 14 | 6 | **66** | Bekleme · Patron kararı bekleniyor |
-| 10 | YouTube: genel bilgi/tarih Shorts kanalı (reklam geliri) | 18 | 5 | 7 | 5 | 14 | 5 | **54** | Reddedildi · Patron kararı bekleniyor |
+| 10 | YouTube: genel bilgi/tarih Shorts kanalı (reklam geliri) | 18 | 5 | 7 | 5 | 14 | 5 | **54** | **Patron kararıyla açıldı (21.11.2026)** · çok dilli "Tarihte Bugün" ağı, bkz. `MEDYA.md` |
 
 ### Gerekçeler
 

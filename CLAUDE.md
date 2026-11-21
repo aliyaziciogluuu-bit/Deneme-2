@@ -5,6 +5,7 @@ Kullanıcı Türkçe konuşur ve teknik değildir. Yanıtlar sade Türkçe olsun
 Depoda iki tür iş var:
 - **Uygulamalar:** `doviz-kasasi.html` (Yazıcıoğlu Çilek Döviz), `borsa-bot/`, `hecemece/`. Sınamalar `testler/` ve `borsa-bot/tests/`.
 - **Dijital ürün şirketi:** `dijital-urunler/` ve `sirket/`.
+- **Medya (YouTube "Tarihte Bugün" ağı):** `youtube/` ve `sirket/MEDYA.md`. Senaryolar yayından önce bağımsız doğrulamadan geçer.
 
 ## Dijital ürün işi
 
