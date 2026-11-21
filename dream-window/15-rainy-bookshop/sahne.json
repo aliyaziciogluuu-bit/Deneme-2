@@ -1,0 +1,137 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "RAIN",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        893,
+        0,
+        1672,
+        699
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 262,
+      "y": 640,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 808,
+      "y": 328,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 558,
+      "y": 467,
+      "sigma": 79,
+      "genlik": 0.1
+    },
+    {
+      "x": 718,
+      "y": 605,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 741,
+      "y": 631,
+      "sigma": 54,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Rainy Night Bookshop",
+  "ates": {
+    "kutu": [
+      163,
+      516,
+      362,
+      746
+    ],
+    "ic": [
+      183,
+      552,
+      342,
+      728
+    ],
+    "taban": 721,
+    "tepe": 567,
+    "olcek": 0.7,
+    "kivilcim": 14
+  },
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ],
+    "ates": [
+      "../sesler/ates_somine_yumusak.mp3",
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "shorts": {
+    "bas": 262,
+    "son": 1282,
+    "tur": 2,
+    "baslik": "Rainy Night Bookshop",
+    "alt": "Rain & Crackling Wood Stove",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 1282,
+    "son": 262,
+    "tur": 2,
+    "baslik": "POV: you're locked in a bookshop",
+    "alt": "and it's raining all night",
+    "ses_kazanc": 1.5
+  },
+  "buhar": {
+    "kutu": [
+      680,
+      500,
+      760,
+      610
+    ],
+    "genlik": 0.7
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "08-attic-bedroom",
+    "karisik": true,
+    "cubuk_koru": true,
+    "kutu": [
+      71,
+      435,
+      557,
+      826
+    ]
+  },
+  "gorsel_4k": "sahne_4k.png"
+}

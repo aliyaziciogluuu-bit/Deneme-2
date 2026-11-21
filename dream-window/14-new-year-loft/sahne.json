@@ -1,0 +1,163 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "CHRISTMAS",
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        890,
+        0,
+        1672,
+        814
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 88,
+      "y": 592,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 619,
+      "y": 409,
+      "sigma": 52,
+      "genlik": 0.1
+    },
+    {
+      "x": 469,
+      "y": 860,
+      "sigma": 48,
+      "genlik": 0.1
+    },
+    {
+      "x": 266,
+      "y": 277,
+      "sigma": 36,
+      "genlik": 0.1
+    },
+    {
+      "x": 208,
+      "y": 286,
+      "sigma": 33,
+      "genlik": 0.1
+    },
+    {
+      "x": 471,
+      "y": 817,
+      "sigma": 30,
+      "genlik": 0.1
+    },
+    {
+      "x": 27,
+      "y": 263,
+      "sigma": 36,
+      "genlik": 0.1
+    },
+    {
+      "x": 5,
+      "y": 250,
+      "sigma": 30,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "New Year's Eve Loft",
+  "ates": {
+    "kutu": [
+      0,
+      466,
+      201,
+      701
+    ],
+    "ic": [
+      0,
+      503,
+      177,
+      682
+    ],
+    "taban": 675,
+    "tepe": 518,
+    "olcek": 0.71,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "../sesler/ates_gece.mp3",
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "07-christmas-eve",
+    "karisik": true,
+    "kutu": [
+      -39,
+      383,
+      416,
+      782
+    ]
+  },
+  "shorts": {
+    "bas": 100,
+    "son": 1281,
+    "tur": 2,
+    "baslik": "New Year's Eve Loft",
+    "alt": "Snowfall, Fireworks & Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1281,
+    "son": 100,
+    "tur": 2,
+    "baslik": "POV: the last night of the year",
+    "alt": "snow, fireworks and a warm fire",
+    "ses_kazanc": 7.5
+  },
+  "pirilti": [
+    {
+      "kutu": [
+        150,
+        0,
+        800,
+        170
+      ],
+      "genlik": 0.35,
+      "esik": 0.7,
+      "sicak": 0.1
+    },
+    {
+      "kutu": [
+        1210,
+        270,
+        1410,
+        400
+      ],
+      "genlik": 0.25,
+      "esik": 0.55,
+      "sicak": 0.05
+    }
+  ],
+  "gorsel_4k": "sahne_4k.png"
+}

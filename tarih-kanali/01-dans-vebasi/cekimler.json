@@ -1,0 +1,63 @@
+{
+  "not": "Her çekim sırayla 'n' cümleyi kaplar. a ve b: kameranın başlangıç ve bitiş görüşü [merkez_x, merkez_y, genişlik], görselin oranı olarak (0-1). kip 'sigdir': görsel kırpılmadan, bulanık zemin üzerinde gösterilir.",
+  "cekimler": [
+    {"n": 1, "gorsel": "strasbourg_braun", "a": [0.5, 0.5, 1.0], "b": [0.56, 0.6, 0.55], "etiket": "Strazburg, Temmuz 1518"},
+    {"n": 1, "gorsel": "hondius", "a": [0.5, 0.5, 0.78], "b": [0.5, 0.52, 0.64]},
+    {"n": 1, "gorsel": "hondius", "a": [0.36, 0.55, 0.55], "b": [0.64, 0.55, 0.55]},
+    {"n": 1, "gorsel": "brueghel_dancers", "a": [0.35, 0.6, 0.62], "b": [0.65, 0.6, 0.62]},
+    {"n": 1, "gorsel": "brueghel_dancers", "a": [0.72, 0.58, 0.44], "b": [0.72, 0.58, 0.37]},
+    {"n": 1, "gorsel": "wedding_dance", "a": [0.5, 0.5, 1.0], "b": [0.5, 0.52, 0.9], "karart": 0.5, "baslik": {"buyuk": "DANS VEBASI", "kucuk": "Strazburg, 1518"}},
+
+    {"n": 1, "gorsel": "strasbourg_1493", "a": [0.36, 0.66, 0.6], "b": [0.62, 0.66, 0.6], "etiket": "Strazburg, 1493 tarihli gravür"},
+    {"n": 1, "gorsel": "strasbourg_1493", "a": [0.57, 0.62, 0.55], "b": [0.57, 0.6, 0.42]},
+    {"n": 1, "gorsel": "strasbourg_braun", "a": [0.4, 0.45, 0.45], "b": [0.6, 0.55, 0.45]},
+    {"n": 1, "gorsel": "physician", "a": [0.55, 0.36, 0.92], "b": [0.6, 0.36, 0.72], "etiket": "Hans Holbein, “Ölüm Dansı” (1538)"},
+    {"n": 1, "gorsel": "physician", "a": [0.58, 0.33, 0.56], "b": [0.56, 0.3, 0.44]},
+
+    {"n": 1, "gorsel": "hondius", "a": [0.3, 0.52, 0.6], "b": [0.42, 0.5, 0.5]},
+    {"n": 1, "gorsel": "hondius", "a": [0.7, 0.55, 0.55], "b": [0.6, 0.6, 0.5]},
+    {"n": 1, "gorsel": "hondius", "a": [0.45, 0.8, 0.6], "b": [0.55, 0.84, 0.5]},
+    {"n": 1, "gorsel": "paracelsus", "kip": "sigdir", "a": [0.5, 0.5, 1.0], "b": [0.5, 0.48, 0.9], "etiket": "Paracelsus (1493–1541)"},
+
+    {"n": 1, "gorsel": "brueghel_dancers", "a": [0.5, 0.5, 1.0], "b": [0.5, 0.55, 0.85]},
+    {"n": 1, "gorsel": "brueghel_dancers", "a": [0.27, 0.6, 0.5], "b": [0.5, 0.6, 0.5]},
+    {"n": 1, "gorsel": "wedding_dance", "a": [0.5, 0.3, 0.6], "b": [0.5, 0.45, 0.95]},
+    {"n": 1, "gorsel": "hondius", "a": [0.5, 0.47, 0.46], "b": [0.55, 0.47, 0.39]},
+
+    {"n": 1, "gorsel": "physician", "a": [0.38, 0.38, 0.75], "b": [0.34, 0.4, 0.6]},
+    {"n": 1, "gorsel": "physician", "a": [0.46, 0.37, 0.66], "b": [0.5, 0.35, 0.54], "etiket": "Teşhis: “aşırı ısınmış kan”"},
+    {"n": 1, "gorsel": "peasant_dance", "a": [0.5, 0.5, 1.0], "b": [0.6, 0.5, 0.75], "etiket": "Tedavi: daha çok dans"},
+    {"n": 1, "gorsel": "strasbourg_braun", "a": [0.55, 0.6, 0.5], "b": [0.5, 0.5, 0.38]},
+    {"n": 1, "gorsel": "pipers", "a": [0.5, 0.55, 0.95], "b": [0.5, 0.3, 0.8]},
+    {"n": 1, "gorsel": "peasant_dance", "a": [0.72, 0.5, 0.5], "b": [0.78, 0.48, 0.42]},
+
+    {"n": 1, "gorsel": "wedding_dance", "a": [0.3, 0.6, 0.55], "b": [0.7, 0.6, 0.55]},
+    {"n": 1, "gorsel": "physician", "a": [0.56, 0.3, 0.46], "b": [0.56, 0.26, 0.35]},
+    {"n": 1, "gorsel": "strasbourg_1493", "a": [0.5, 0.66, 0.8], "b": [0.45, 0.68, 0.65]},
+    {"n": 1, "gorsel": "hondius", "a": [0.6, 0.25, 0.7], "b": [0.7, 0.24, 0.5]},
+
+    {"n": 1, "gorsel": "brant_ban", "a": [0.5, 0.25, 0.95], "b": [0.5, 0.45, 0.85], "etiket": "Dans yasağı belgesi, Strazburg, 1518"},
+    {"n": 1, "gorsel": "plague2", "kip": "sigdir", "a": [0.5, 0.5, 1.0], "b": [0.5, 0.5, 0.88]},
+    {"n": 1, "gorsel": "hondius", "a": [0.5, 0.3, 0.9], "b": [0.65, 0.25, 0.6]},
+    {"n": 1, "gorsel": "brueghel_dancers", "a": [0.55, 0.55, 0.6], "b": [0.7, 0.25, 0.5]},
+    {"n": 1, "gorsel": "strasbourg_1493", "a": [0.55, 0.66, 0.55], "b": [0.5, 0.66, 0.8]},
+
+    {"n": 1, "gorsel": "wedding_dance", "a": [0.5, 0.62, 0.5], "b": [0.5, 0.62, 0.42]},
+    {"n": 1, "gorsel": "ergot", "kip": "sigdir", "a": [0.5, 0.5, 1.0], "b": [0.5, 0.5, 0.9], "etiket": "1. teori: Çavdar mahmuzu"},
+    {"n": 1, "gorsel": "ergot", "kip": "sigdir", "a": [0.5, 0.45, 0.8], "b": [0.5, 0.4, 0.6]},
+    {"n": 1, "gorsel": "peasant_dance", "a": [0.6, 0.5, 0.8], "b": [0.72, 0.5, 0.6]},
+    {"n": 1, "gorsel": "hondius", "a": [0.36, 0.54, 0.58], "b": [0.28, 0.52, 0.46]},
+
+    {"n": 1, "gorsel": "wedding_dance", "a": [0.5, 0.5, 1.0], "b": [0.5, 0.5, 0.85], "etiket": "2. teori: Kitlesel psikolojik rahatsızlık"},
+    {"n": 1, "gorsel": "wedding_dance", "a": [0.35, 0.42, 0.45], "b": [0.6, 0.42, 0.45]},
+    {"n": 1, "gorsel": "physician", "a": [0.6, 0.4, 0.85], "b": [0.64, 0.36, 0.6]},
+    {"n": 1, "gorsel": "brueghel_dancers", "a": [0.24, 0.6, 0.44], "b": [0.74, 0.6, 0.44]},
+    {"n": 1, "gorsel": "hondius", "a": [0.5, 0.5, 0.5], "b": [0.5, 0.5, 0.7]},
+
+    {"n": 1, "gorsel": "plague2", "kip": "sigdir", "a": [0.5, 0.52, 0.85], "b": [0.5, 0.52, 1.0]},
+    {"n": 1, "gorsel": "brant_ban", "a": [0.6, 0.7, 0.6], "b": [0.72, 0.77, 0.45]},
+    {"n": 1, "gorsel": "strasbourg_braun", "a": [0.5, 0.5, 0.6], "b": [0.5, 0.5, 1.0]},
+    {"n": 1, "gorsel": "brueghel_dancers", "a": [0.5, 0.58, 0.7], "b": [0.5, 0.5, 1.0]},
+    {"n": 2, "gorsel": "wedding_dance", "a": [0.5, 0.5, 0.9], "b": [0.5, 0.5, 1.0], "karart": 0.55, "baslik": {"buyuk": "Sizce sebep neydi?", "kucuk": "Görseller: Wikimedia Commons, kamu malı eserler"}}
+  ]
+}

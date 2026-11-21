@@ -1,0 +1,96 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "SNOW",
+      "TRAIN",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        78,
+        0,
+        915,
+        678
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 400,
+      "y": 435,
+      "sigma": 90,
+      "genlik": 0.08
+    },
+    {
+      "x": 523,
+      "y": 750,
+      "sigma": 45,
+      "genlik": 0.1
+    },
+    {
+      "x": 1132,
+      "y": 410,
+      "sigma": 50,
+      "genlik": 0.08
+    },
+    {
+      "x": 1585,
+      "y": 35,
+      "sigma": 50,
+      "genlik": 0.06
+    },
+    {
+      "x": 1576,
+      "y": 148,
+      "sigma": 40,
+      "genlik": 0.06
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Winter Dining Car",
+  "ses": {
+    "zemin": "ses_kaynak/eski_tren.mp3",
+    "alt_kesim": 35,
+    "duzey_dengele": true,
+    "ani_esik": 1.6,
+    "zemin_duzey": 0.08
+  },
+  "shorts": {
+    "bas": 420,
+    "son": 1250,
+    "tur": 2,
+    "baslik": "Winter Dining Car",
+    "alt": "Snowy Forest & Train Sounds",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1250,
+    "son": 420,
+    "tur": 2,
+    "baslik": "POV: tea on a night train",
+    "alt": "through a snowy forest",
+    "ses_kazanc": 7.5
+  },
+  "sallanti": {
+    "genlik": 1.2,
+    "olcek": 1.012
+  },
+  "buhar": {
+    "kutu": [
+      1040,
+      540,
+      1160,
+      720
+    ],
+    "genlik": 0.7
+  },
+  "gorsel_4k": "sahne_4k.png"
+}
