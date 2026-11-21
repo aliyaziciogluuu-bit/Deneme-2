@@ -50,6 +50,37 @@ Her birine kısa, sıcak, bilgili bir cevap **taslağı** yaz; **kanal sahibi on
 yorumu gizlemek ya da silmek için de önce sor. Tıbbi/veteriner sorularda "bölgendeki veteriner / Doğa Koruma ve Milli
 Parklar şube müdürlüğü" yönlendirmesi yap; telefon numarası yazma.
 
+## Görev 6 – İzlenmeyi artıracak ayarlar ("izlenme ayarlarını yap")
+Kanal sahibi bu görevi istediğinde aşağıdaki maddeleri **sormadan uygulayabilirsin** (bu liste onun onayıdır).
+Önce her maddenin mevcut durumunu kontrol et; doğruysa dokunma. Listede olmayan hiçbir ayarı değiştirme.
+
+**Kanal (Ayarlar ve Özelleştirme):**
+- Kitle: "Hayır, bu kanal çocuklara özel değil".
+- Ülke: Türkiye. Kanal anahtar kelimeleri dolu mu (boşsa: avludaki komşular, hayvan belgeseli, doğa belgeseli,
+  bahçedeki hayvanlar, hayvan efsaneleri, kertenkele, kirpi, yarasa, baykuş, karga, kırlangıç, yılan).
+- Yükleme varsayılanları: görünürlük Gizli, kategori Evcil ve Yabani Hayvanlar, dil Türkçe, açıklamada kanal imzası,
+  "Otomatik bölümlere izin ver" açık, "Yerleştirmeye izin ver" açık, yorumlar açık (uygunsuz olanlar incelemeye).
+- Özelleştirme → Düzen: abone olmayanlar için kanal fragmanı = son 28 günde en çok izlenen uzun video; aboneler için
+  öne çıkan video = en yeni uzun video; bölümler: Popüler videolar, Shorts, "Evin Çevresindeki Hayvanlar" listesi.
+- Marka → video filigranı yüklü mü (klasörde `filigran.png` varsa yükle, "Videonun sonunda").
+
+**Her uzun video (yayındaki ve planlı):**
+- "Evin Çevresindeki Hayvanlar" oynatma listesinde.
+- Kitle çocuklara özel değil; "Değiştirilmiş veya yapay içerik" Evet.
+- Türkçe altyazı var (klasörde `*-altyazi.srt` varsa).
+- **Bitiş ekranı:** bir video öğesi (kanalın başka bir uzun videosu; tercihen "Sıradaki komşu" olarak anılan video,
+  yoksa "İzleyici için en iyisi") + **abone ol** öğesi; son 10–15 saniyede.
+- **Kart:** videonun ortasına yakın bir yerde kanalın en çok izlenen başka bir uzun videosuna kart (bir tane yeter).
+- "Abone akışında yayınla ve abonelere bildir" açık (Daha fazla göster altında, varsa).
+- Yerleştirmeye izin açık.
+
+**Her Shorts:**
+- İlgili video = ait olduğu uzun video (yayındaysa).
+- Kitle çocuklara özel değil; yapay içerik Evet.
+
+**Yapma:** başlık, açıklama, etiket, küçük resim, görünürlük ve plan tarihlerini bu görevde değiştirme; reklam/tanıtım
+açma; video silme. Bitince değiştirdiğin her şeyi madde madde özetle (video adı → ne değişti).
+
 ## Kurallar
 - Silme, gizleme, yayınlama, plan tarihini değiştirme, ödeme, reklam/tanıtım, kanal ayarı: **önce kanal sahibine sor.**
 - Planlı bir videonun görünürlük ekranını açıp kaydetme (plan iptal olup video hemen yayına girebilir).
