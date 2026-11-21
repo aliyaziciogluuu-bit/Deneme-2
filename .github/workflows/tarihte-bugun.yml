@@ -1,8 +1,11 @@
 name: Tarihte Bugün video
 
-# Senaryodan Türkçe ve İngilizce dikey videoları üretir.
-# Şimdilik videolar depoya (youtube/cikti/) ve iş çıktısına konur; YouTube'a yükleme adımı izinler alınınca eklenecek.
+# Her gün o günün senaryosundan (youtube/senaryolar/YYYY-AA-GG.json) her dil için dikey video üretir ve YouTube'a yükler.
+# YouTube izinleri (Secrets) tanımlı değilse yükleme atlanır; videolar iş çıktısı olarak indirilebilir.
+# Saat UTC'dir: 12:41 UTC = 15:41 İstanbul = 07:41 New York.
 on:
+  schedule:
+    - cron: "41 12 * * *"
   workflow_dispatch:
     inputs:
       senaryo:
@@ -10,7 +13,7 @@ on:
         required: false
   push:
     branches: [ccr-423c6542-t0poxq]
-    paths: ["youtube/senaryolar/**", "youtube/uret_video.py", ".github/workflows/tarihte-bugun.yml"]
+    paths: ["youtube/senaryolar/**", "youtube/uret_video.py"]
 
 permissions:
   contents: write
@@ -38,16 +41,37 @@ jobs:
         with:
           path: youtube/.onbellek/sesler
           key: piper-sesler-v1
-      - name: Videoları üret
+      - name: Senaryoyu seç
+        id: senaryo
         run: |
           SENARYO="${{ github.event.inputs.senaryo }}"
+          if [ -z "$SENARYO" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            SENARYO="youtube/senaryolar/$(date -u +%F).json"
+            if [ ! -f "$SENARYO" ]; then echo "::warning::Bugün için doğrulanmış senaryo yok ($SENARYO); video üretilmedi."; exit 0; fi
+          fi
           if [ -z "$SENARYO" ]; then SENARYO=$(ls youtube/senaryolar/*.json | sort | tail -1); fi
-          python youtube/uret_video.py "$SENARYO"
+          echo "dosya=$SENARYO" >> "$GITHUB_OUTPUT"
+      - name: Videoları üret
+        if: steps.senaryo.outputs.dosya != ''
+        run: python youtube/uret_video.py "${{ steps.senaryo.outputs.dosya }}"
+      - name: YouTube'a yükle
+        if: steps.senaryo.outputs.dosya != '' && github.event_name == 'schedule'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_EN: ${{ secrets.YT_REFRESH_TOKEN_EN }}
+          YT_REFRESH_TOKEN_TR: ${{ secrets.YT_REFRESH_TOKEN_TR }}
+        run: python youtube/yukle.py youtube/cikti/*.mp4
       - uses: actions/upload-artifact@v4
+        if: steps.senaryo.outputs.dosya != ''
         with:
           name: videolar
           path: youtube/cikti/
-      - name: Videoları depoya kaydet
+          retention-days: 14
+      # Elle ya da senaryo değişince yapılan denemelerde videolar inceleme için depoya da yazılır.
+      # Günlük yayınlarda yazılmaz; depo şişmesin.
+      - name: Deneme videolarını depoya kaydet
+        if: steps.senaryo.outputs.dosya != '' && github.event_name != 'schedule'
         run: |
           git config user.name "tarihte-bugun-bot"
           git config user.email "tarihte-bugun-bot@users.noreply.github.com"
