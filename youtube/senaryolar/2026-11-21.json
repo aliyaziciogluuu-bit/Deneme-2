@@ -1,0 +1,64 @@
+{
+  "tarih": "2026-11-21",
+  "olay_yili": 1783,
+  "muzik": { "freesound_id": 670499, "ad": "Baroque Heaven", "sahibi": "younoise", "lisans": "CC0", "onizleme": "https://cdn.freesound.org/previews/670/670499_2346185-hq.mp3" },
+  "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Pil%C3%A2tre_de_Rozier",
+    "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+    "https://tr.wikipedia.org/wiki/21_Kas%C4%B1m"
+  ],
+  "sahneler": [
+    { "gorsel": "File:Experience de la Machine Aërostatique de M. Montgolfier au Chat. de la Muette, le 21 9bre 1783. - estampe - btv1b550015646.jpg" },
+    { "gorsel": "File:Pilatre de Rozier.jpg" },
+    { "gorsel": "File:1783 balloonj.jpg" },
+    { "gorsel": "File:Experience aerostatique faite Versailles le 19 sept. 1783 LCCN2002736265.tiff" },
+    { "gorsel": "File:Expérimentation de la machine aérostatique de M. Montgolfier au château de la Muette. 21 novembre 1783, G.38829.jpg" },
+    { "gorsel": "File:First human flight Montgolfier balloon - Nov. 21. 1783.jpg" }
+  ],
+  "diller": {
+    "tr": {
+      "ses": "tr_TR-dfki-medium",
+      "ust_baslik": "TARİHTE BUGÜN",
+      "tarih_yazisi": "21 KASIM 1783",
+      "cumleler": [
+        { "sahne": 0, "yazi": "21 Kasım 1783. İnsanlık bugün ilk kez gökyüzüne çıktı.", "okunus": "Yirmi bir Kasım, bin yedi yüz seksen üç. İnsanlık bugün ilk kez gökyüzüne çıktı." },
+        { "sahne": 0, "yazi": "Paris'te, Muette Şatosu'nun bahçesinden bir sıcak hava balonu havalandı.", "okunus": "Pariste, Müet Şatosunun bahçesinden bir sıcak hava balonu havalandı." },
+        { "sahne": 1, "yazi": "İçinde iki kişi vardı: fizik öğretmeni Pilâtre de Rozier ve subay Markiz d'Arlandes.", "okunus": "İçinde iki kişi vardı: fizik öğretmeni Pilatr dö Rozye ve subay Markiz Darland." },
+        { "sahne": 2, "yazi": "Kral XVI. Louis, ilk uçuşa ölüm cezası almış iki mahkûmun binmesini istemişti.", "okunus": "Kral On Altıncı Lui, ilk uçuşa ölüm cezası almış iki mahkûmun binmesini istemişti." },
+        { "sahne": 2, "yazi": "Ama Pilâtre de Rozier, bu şerefin mahkûmlara verilmesine karşı çıktı.", "okunus": "Ama Pilatr dö Rozye, bu şerefin mahkûmlara verilmesine karşı çıktı." },
+        { "sahne": 3, "yazi": "İki ay önce balon bir koyun, bir ördek ve bir horozla denenmişti. Üçü de sağ salim indi.", "okunus": "İki ay önce balon bir koyun, bir ördek ve bir horozla denenmişti. Üçü de sağ salim indi." },
+        { "sahne": 4, "yazi": "Balon Paris'in yaklaşık 900 metre üstüne çıktı.", "okunus": "Balon Parisin yaklaşık dokuz yüz metre üstüne çıktı." },
+        { "sahne": 4, "yazi": "25 dakikada 9 kilometre yol aldı ve şehrin dışındaki bir tepeye indi.", "okunus": "Yirmi beş dakikada dokuz kilometre yol aldı ve şehrin dışındaki bir tepeye indi." },
+        { "sahne": 5, "yazi": "Uçağın icadından 120 yıl önce, insan ilk kez kuş gibi uçmuştu.", "okunus": "Uçağın icadından yüz yirmi yıl önce, insan ilk kez kuş gibi uçmuştu." },
+        { "sahne": 5, "yazi": "Yarın tarihte ne oldu? Kaçırmamak için takip et.", "okunus": "Yarın tarihte ne oldu? Kaçırmamak için takip et." }
+      ],
+      "youtube": {
+        "baslik": "İnsanlık İlk Kez Bugün Uçtu! 🎈 21 Kasım 1783 #tarihtebugün",
+        "aciklama": "21 Kasım 1783'te Pilâtre de Rozier ve Markiz d'Arlandes, Paris'te sıcak hava balonuyla insanlık tarihinin ilk uçuşunu yaptı. Kral XVI. Louis ilk uçuşa iki mahkûmun binmesini istemişti...\n\nHer gün tarihte bugün ne olduğunu 1 dakikada anlatıyoruz.\n\nKaynaklar: Vikipedi (Pilâtre de Rozier, Montgolfier kardeşler, 21 Kasım).\nGörseller: Wikimedia Commons, kamu malı (Bibliothèque nationale de France, ABD Kongre Kütüphanesi, Paris Musées).\nMüzik: \"Baroque Heaven\" – younoise (Freesound, CC0).\nSeslendirme ve kurgu yapay zekâ yardımıyla yapılmıştır.",
+        "etiketler": ["tarihte bugün", "21 kasım", "sıcak hava balonu", "ilk uçuş", "montgolfier", "tarih", "ilginç bilgiler", "shorts"]
+      }
+    },
+    "en": {
+      "ses": "en_US-ryan-high",
+      "ust_baslik": "ON THIS DAY",
+      "tarih_yazisi": "NOVEMBER 21, 1783",
+      "cumleler": [
+        { "sahne": 0, "yazi": "November 21, 1783. Today, humans flew for the very first time.", "okunus": "November twenty first, seventeen eighty three. Today, humans flew for the very first time." },
+        { "sahne": 0, "yazi": "In Paris, a hot air balloon rose from the garden of the Château de la Muette.", "okunus": "In Paris, a hot air balloon rose from the garden of the Shatoh de la Mwet." },
+        { "sahne": 1, "yazi": "On board: science teacher Pilâtre de Rozier and army officer the Marquis d'Arlandes.", "okunus": "On board: science teacher Pee-lahtr de Rozee-ay, and army officer the Markee Dar-lahnd." },
+        { "sahne": 2, "yazi": "King Louis XVI wanted two condemned prisoners to make the first flight.", "okunus": "King Louis the Sixteenth wanted two condemned prisoners to make the first flight." },
+        { "sahne": 2, "yazi": "But Pilâtre de Rozier argued that this honour should not go to prisoners.", "okunus": "But Pee-lahtr de Rozee-ay argued that this honor should not go to prisoners." },
+        { "sahne": 3, "yazi": "Two months earlier, the balloon was tested with a sheep, a duck and a rooster. All three landed safely.", "okunus": "Two months earlier, the balloon was tested with a sheep, a duck and a rooster. All three landed safely." },
+        { "sahne": 4, "yazi": "The balloon climbed about 900 metres above Paris.", "okunus": "The balloon climbed about nine hundred meters above Paris." },
+        { "sahne": 4, "yazi": "In 25 minutes it travelled 9 kilometres, then landed on a hill outside the city.", "okunus": "In twenty five minutes it traveled nine kilometers, then landed on a hill outside the city." },
+        { "sahne": 5, "yazi": "120 years before the airplane, people flew like birds.", "okunus": "A hundred and twenty years before the airplane, people flew like birds." },
+        { "sahne": 5, "yazi": "What happened tomorrow in history? Follow so you don't miss it.", "okunus": "What happened tomorrow in history? Follow so you don't miss it." }
+      ],
+      "youtube": {
+        "baslik": "The Day Humans First Flew 🎈 November 21, 1783 #onthisday",
+        "aciklama": "On November 21, 1783, Pilâtre de Rozier and the Marquis d'Arlandes made the first ever human flight in a hot air balloon over Paris. King Louis XVI had wanted two condemned prisoners to go first...\n\nOne minute of history, every day.\n\nSources: Wikipedia (Pilâtre de Rozier, Montgolfier brothers).\nImages: Wikimedia Commons, public domain (Bibliothèque nationale de France, US Library of Congress, Paris Musées).\nMusic: \"Baroque Heaven\" by younoise (Freesound, CC0).\nVoice-over and editing made with the help of AI.",
+        "etiketler": ["on this day", "history", "november 21", "hot air balloon", "first flight", "montgolfier", "history facts", "shorts"]
+      }
+    }
+  }
+}

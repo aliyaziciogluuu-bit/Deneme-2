@@ -1,0 +1,57 @@
+name: Tarihte Bugün video
+
+# Senaryodan Türkçe ve İngilizce dikey videoları üretir.
+# Şimdilik videolar depoya (youtube/cikti/) ve iş çıktısına konur; YouTube'a yükleme adımı izinler alınınca eklenecek.
+on:
+  workflow_dispatch:
+    inputs:
+      senaryo:
+        description: "Senaryo dosyası (boş: en yenisi)"
+        required: false
+  push:
+    branches: [ccr-423c6542-t0poxq]
+    paths: ["youtube/senaryolar/**", "youtube/uret_video.py", ".github/workflows/tarihte-bugun.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tarihte-bugun
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Araçlar
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q piper-tts
+      - name: Ses modelleri önbelleği
+        uses: actions/cache@v4
+        with:
+          path: youtube/.onbellek/sesler
+          key: piper-sesler-v1
+      - name: Videoları üret
+        run: |
+          SENARYO="${{ github.event.inputs.senaryo }}"
+          if [ -z "$SENARYO" ]; then SENARYO=$(ls youtube/senaryolar/*.json | sort | tail -1); fi
+          python youtube/uret_video.py "$SENARYO"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: videolar
+          path: youtube/cikti/
+      - name: Videoları depoya kaydet
+        run: |
+          git config user.name "tarihte-bugun-bot"
+          git config user.email "tarihte-bugun-bot@users.noreply.github.com"
+          git add -f youtube/cikti/
+          git commit -m "Tarihte Bugün: video üretildi" || exit 0
+          git pull --rebase -q origin "${GITHUB_REF_NAME}"
+          git push -q origin "HEAD:${GITHUB_REF_NAME}"
