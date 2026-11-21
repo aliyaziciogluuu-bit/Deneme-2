@@ -8,6 +8,7 @@ Kullanım (hayvan-kanali/ içinde):
   python3 gercek_gorsel.py 08-kara-kurbagasi ara portre "Bufo bufo portrait"      # fotoğraf adayları
   python3 gercek_gorsel.py 08-kara-kurbagasi ara goc "Bufo bufo migration" --video  # video adayları
   python3 gercek_gorsel.py 08-kara-kurbagasi ara yol "toad road crossing" --baslik toad   # başlıkta geçmesi gereken söz
+  python3 gercek_gorsel.py 08-kara-kurbagasi inat portre "Bufo bufo" --turkiye  # iNaturalist (tür doğrulanmış), Türkiye'den
   python3 gercek_gorsel.py 08-kara-kurbagasi sec portre 3                            # 3. adayı gorseller/portre.jpg yap
   python3 gercek_gorsel.py 08-kara-kurbagasi kunye                                   # açıklama için atıf listesi
 
@@ -106,6 +107,66 @@ def ara(klasor, ad, sorgu, video=False, adet=8, baslik_suzgec=None):
         print(f"  {a['n']}. {a['baslik'][:70]} | {a['lisans']} | {a['yazar'][:40]} | {a['boyut']}")
 
 
+INAT = "https://api.inaturalist.org/v1/observations"
+TURKIYE = 7183  # iNaturalist yer kimliği
+
+
+def inat(klasor, ad, tur, turkiye=False, adet=8):
+    """iNaturalist: türü topluluk tarafından doğrulanmış (research grade) gözlemlerin serbest lisanslı fotoğrafları."""
+    # Ad benzerliğiyle başka canlı gelmesin ("Bufo" → Bassaniodes bufo örümceği): önce tam adla tür kimliğini bul.
+    tx = subprocess.run(["curl", "-s", "-m", "30", "-A", UA, "https://api.inaturalist.org/v1/taxa?" + urllib.parse.urlencode({"q": tur, "per_page": 30})],
+                        capture_output=True, text=True)
+    eslesen = [x for x in json.loads(tx.stdout).get("results", []) if x.get("name", "").lower() == tur.lower()]
+    if not eslesen:
+        raise SystemExit(f"iNaturalist'te tam adı '{tur}' olan takson yok; bilimsel adı kontrol et.")
+    print(f"  takson: {eslesen[0]['name']} ({eslesen[0].get('rank')}, kimlik {eslesen[0]['id']})")
+    params = {"taxon_id": eslesen[0]["id"], "photos": "true", "photo_license": "cc0,cc-by,cc-by-sa", "quality_grade": "research",
+              "per_page": 40, "order_by": "votes"}
+    if turkiye:
+        params["place_id"] = TURKIYE
+    url = INAT + "?" + urllib.parse.urlencode(params)
+    r = subprocess.run(["curl", "-s", "-m", "30", "-A", UA, url], capture_output=True, text=True)
+    sonuc = json.loads(r.stdout).get("results", [])
+    hedef = klasor / "gercek_adaylar"
+    hedef.mkdir(exist_ok=True)
+    adaylar = []
+    for g in sonuc:
+        for foto in g.get("photos", [])[:1]:  # gözlem başına bir fotoğraf (çeşitlilik)
+            lisans = (foto.get("license_code") or "").upper()
+            if lisans not in ("CC0", "CC-BY", "CC-BY-SA"):
+                continue
+            n = len(adaylar) + 1
+            dosya = hedef / f"{ad}_{n}.jpg"
+            kaynak = foto["url"].replace("/square.", "/original.")
+            k = subprocess.run(["curl", "-s", "-L", "-m", "120", "-A", UA, "-o", str(dosya), "-w", "%{http_code}", kaynak], capture_output=True, text=True)
+            time.sleep(1)
+            if k.stdout.strip() != "200":
+                dosya.unlink(missing_ok=True)
+                continue
+            try:
+                im = Image.open(dosya).convert("RGB")
+            except Exception:
+                dosya.unlink(missing_ok=True)
+                continue
+            if max(im.size) < 1400:
+                dosya.unlink(missing_ok=True)
+                continue
+            im.save(dosya, quality=93)
+            yer = g.get("place_guess") or ""
+            adaylar.append({"n": n, "dosya": dosya.name, "baslik": f"iNaturalist gözlem {g['id']} ({g.get('taxon', {}).get('name', tur)})",
+                            "sayfa": f"https://www.inaturalist.org/observations/{g['id']}",
+                            "yazar": foto.get("attribution", "").replace("(c) ", "© "), "lisans": lisans.replace("-", " ").replace("CC ", "CC "),
+                            "boyut": f"{im.size[0]}x{im.size[1]}", "aciklama": yer[:120]})
+        if len(adaylar) >= adet:
+            break
+    (hedef / f"{ad}.json").write_text(json.dumps({"sorgu": f"iNaturalist: {tur}" + (" (Türkiye)" if turkiye else ""), "video": False, "adaylar": adaylar}, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{ad}: iNaturalist'ten {len(adaylar)} aday → {hedef}")
+    if adaylar:
+        sayfa_yap(hedef, ad, adaylar)
+    for a in adaylar:
+        print(f"  {a['n']}. {a['baslik']} | {a['lisans']} | {a['yazar'][:50]} | {a['boyut']} | {a['aciklama'][:40]}")
+
+
 def sayfa_yap(hedef, ad, adaylar):
     w, h = 640, 400
     sayfa = Image.new("RGB", (w * 4, h * ((len(adaylar) + 3) // 4)), "black")
@@ -150,10 +211,10 @@ def kunye(klasor):
         print("Gerçek görüntü kullanılmadı.")
         return
     kayit = json.loads(kayit_yol.read_text(encoding="utf-8"))
-    print("Gerçek görüntüler (Wikimedia Commons):")
+    print("Gerçek görüntüler (Wikimedia Commons / iNaturalist):")
     for ad, a in kayit.items():
         dosya = a["baslik"].replace("File:", "").replace("Dosya:", "")
-        print(f"- {dosya} – {a['yazar']} – {a['lisans']} – {a['sayfa'].replace('https://', '')}")
+        print(f"- {dosya} – {a['yazar']} – {a['lisans']} – {a['sayfa'].replace('https://', '').replace('www.', '')}")
 
 
 def main():
@@ -163,6 +224,8 @@ def main():
     if komut == "ara" and len(sys.argv) >= 5:
         suzgec = sys.argv[sys.argv.index("--baslik") + 1] if "--baslik" in sys.argv else None
         ara(klasor, sys.argv[3], sys.argv[4], video="--video" in sys.argv, baslik_suzgec=suzgec)
+    elif komut == "inat" and len(sys.argv) >= 5:
+        inat(klasor, sys.argv[3], sys.argv[4], turkiye="--turkiye" in sys.argv)
     elif komut == "sec" and len(sys.argv) >= 5:
         sec(klasor, sys.argv[3], sys.argv[4])
     elif komut == "kunye":

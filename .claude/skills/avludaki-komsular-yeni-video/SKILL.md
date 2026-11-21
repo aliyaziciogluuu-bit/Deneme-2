@@ -79,6 +79,7 @@ Her video aşağıdaki istasyonlardan **sırayla** geçer. Her istasyonun sonund
 | 1. Araştırma ve senaryo | senarist | `senaryo.json`, `shorts.json` metinleri | yok |
 | 2. Bilgi kontrolü | bilgi kontrolcüsü | rapor; patron önerileri doğrular ve uygular | yok |
 | 3. Görsel istemleri | yapımcı | `gorseller.json` | yok |
+| 3b. Gerçek görüntü (önce) | patron | `python3 gercek_gorsel.py NN inat <ad> "<bilimsel ad>" --turkiye` (iNaturalist, tür doğrulanmış, ücretsiz); yoksa `ara` (Wikimedia Commons). Gerçek fotoğraf bulunamayan sahne için yapay zekâ görseli üretilir. Ölü/ezik hayvan, çıplak elle tutma gibi kanal kurallarına aykırı kareler seçilmez; atıf `kunye` ile açıklamaya eklenir | yok |
 | 4. Görsel adayları | patron | `python gorsel.py NN --onay` (≈ 2 $: en çok 20 görsel, hayvansız sahnede `"aday": 1`) | var |
 | 5. Aday seçimi | yapımcı önerir, patron seçer | `python gorsel.py NN --sec ad=N ...` | yok |
 | 6. Klipler | yapımcı yazar, patron üretir | `python klip.py NN --onay` (4 × 0,35 $: açılış, iki Shorts açılışı, kapanış), arka planda | var |

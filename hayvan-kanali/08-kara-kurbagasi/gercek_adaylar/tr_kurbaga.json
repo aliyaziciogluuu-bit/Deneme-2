@@ -1,0 +1,86 @@
+{
+ "sorgu": "iNaturalist: Bufo (Türkiye)",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "tr_kurbaga_1.jpg",
+   "baslik": "iNaturalist gözlem 243219690 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/243219690",
+   "yazar": "© Umut Nuri Erdoğan, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1532",
+   "aciklama": "Kazım Karabekir Paşa, 34450 Sarıyer/İstanbul, Türkiye"
+  },
+  {
+   "n": 2,
+   "dosya": "tr_kurbaga_2.jpg",
+   "baslik": "iNaturalist gözlem 199114094 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/199114094",
+   "yazar": "© Wouter Beukema, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Çamlıhemşin/Rize, Turkije"
+  },
+  {
+   "n": 3,
+   "dosya": "tr_kurbaga_3.jpg",
+   "baslik": "iNaturalist gözlem 199114108 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/199114108",
+   "yazar": "© Wouter Beukema, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1532",
+   "aciklama": "Trabzon, TR"
+  },
+  {
+   "n": 4,
+   "dosya": "tr_kurbaga_4.jpg",
+   "baslik": "iNaturalist gözlem 199114129 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/199114129",
+   "yazar": "© Wouter Beukema, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1532x2048",
+   "aciklama": "Maçka/Trabzon, Turkije"
+  },
+  {
+   "n": 5,
+   "dosya": "tr_kurbaga_5.jpg",
+   "baslik": "iNaturalist gözlem 222498559 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/222498559",
+   "yazar": "© Umut Nuri Erdoğan, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1696",
+   "aciklama": "Oruç, 37772 Sümenler/Pınarbaşı/Kastamonu, Türkiye"
+  },
+  {
+   "n": 6,
+   "dosya": "tr_kurbaga_6.jpg",
+   "baslik": "iNaturalist gözlem 410527886 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/410527886",
+   "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Demirköy/Kırklareli, Türkiye"
+  },
+  {
+   "n": 7,
+   "dosya": "tr_kurbaga_7.jpg",
+   "baslik": "iNaturalist gözlem 180894595 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/180894595",
+   "yazar": "© AnimalObserverDeniz321, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Armutlu, TR-YL, TR"
+  },
+  {
+   "n": 8,
+   "dosya": "tr_kurbaga_8.jpg",
+   "baslik": "iNaturalist gözlem 338950920 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/338950920",
+   "yazar": "© Umut Nuri Erdoğan, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1536x2048",
+   "aciklama": "43302 Elmaağacı/Tavşanlı/Kütahya, Türkiye"
+  }
+ ]
+}
