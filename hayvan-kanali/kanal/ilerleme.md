@@ -14,3 +14,10 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - İzleyici etkileşimi: %47,1 izlemeye devam etti, %52,9 kaydırıp geçti (hedef %60+).
 - En popüler Shorts: "Göz Kırpıyorsa Yılan Değildir…" ≈ 1.100 görüntüleme; "54 Yıl Yaşayan Kertenkele!" ≈ 1.100 görüntüleme.
 - Uzun video: yılan 690 görüntüleme (3 gün); geko 20 Kasım 21:08 yeniden yayınlandı, tanıtım (950 TL, 3 gün) politika kontrolünde.
+
+## 21 Kasım 10:54 – Geko (yeniden yayın 20 Kas 21:08; tanıtım 950 TL / 3 gün, gece onaylandı)
+- ~13 saatte 906 görüntüleme, 21,9 saat izlenme, aktif izlenme 518, ortalama izleme 2:13 / 5:57 (≈ %37; yılan organik 1:16, %20).
+- Trafik: YouTube reklamcılığı 862 (%95), YouTube önerileri 40, kanal sayfası 2, diğer 2.
+- "Bu videoyu öneren içerikler": yaprak sarma/içli köfte tercih, şarkı bulmaca, çocuk içerikleri (100 BOTONES) → reklam geniş kitleye gidiyor; yaş "Tüm yaşlar".
+- Cihaz (izlenme süresi): telefon %53,7, bilgisayar %20, TV %17,1, tablet %8,1.
+- Tutma grafiği ve benzersiz izleyici henüz yok (2 gün).
