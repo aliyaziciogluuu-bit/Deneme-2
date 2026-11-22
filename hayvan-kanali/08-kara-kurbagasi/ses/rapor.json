@@ -246,10 +246,10 @@
   "uygun": true
  },
  "035": {
-  "yazi": "Türkiye'de iki kara kurbağası türü anılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası.",
-  "duyulan": "Türkiye'de iki kara kurbağası türü anılıyor, siyilli kurbağa ve kafkas siyilli kurbağası.",
+  "yazi": "Türkiye'de iki kara kurbağası türü anılıyor; ikisinin de Türkçe adında siğil kelimesi geçiyor.",
+  "duyulan": "Türkiye'de iki kara kurbağası türü anılıyor. İkisinin de Türkçe adında sihil kelimesi geçiyor.",
   "hata": 0,
-  "sure": 6.12,
+  "sure": 6.34,
   "uygun": true,
   "tek_basina": true
  },
@@ -416,11 +416,12 @@
   "uygun": true
  },
  "059": {
-  "yazi": "Kütahya'da yapılan bir araştırma, siğilli kurbağayı Bern Sözleşmesi'nin korunan türler listesinde gösteriyor.",
-  "duyulan": "Kütahya'da yapılan bir araştırma, sihirli kurbağayı Bern Sözleşmesi'nin korunan türler listesinde gösteriyor.",
-  "hata": 1,
-  "sure": 6.36,
-  "uygun": true
+  "yazi": "Kütahya'da yapılan bir araştırma, kara kurbağasını Bern Sözleşmesi'nin korunan türler listesinde gösteriyor.",
+  "duyulan": "Kütahya'da yapılan bir araştırma, karakurbağasını bern sözleşmesinin korunan türler listesinde gösteriyor.",
+  "hata": 0,
+  "sure": 6.44,
+  "uygun": true,
+  "tek_basina": true
  },
  "060": {
   "yazi": "Bunun hukuken ne anlama geldiğini doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
