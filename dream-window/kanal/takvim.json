@@ -59,47 +59,32 @@
     "planli_shorts": true
   },
   "2026-12-01": {
-    "uzun": "07-christmas-eve",
-    "not": "Noel arifesi Shorts'larının (15 ve 28 Kasım) İlgili videosunu yeni Noel arifesi 3 saatlik videoyla değiştir. Bu videoyu yüklerken/düzenlerken 'Christmas Sleep Windows 🎄' oynatma listesine ekle."
+    "not": "Noel arifesi uzun videosu bilgisayardaki Claude tarafından YouTube'da planlandı, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). Noel arifesi Shorts'larının (15 ve 28 Kasım) İlgili videosunu yeni Noel arifesi 3 saatlik videoyla değiştir. Bu videoyu yüklerken/düzenlerken 'Christmas Sleep Windows 🎄' oynatma listesine ekle.",
+    "planli_uzun": "07-christmas-eve"
   },
   "2026-12-02": {
-    "shorts": [
-      "07-christmas-eve",
-      "shorts3"
-    ],
-    "not": "Bu Shorts'u yüklerken İlgili video olarak Noel arifesi (dün yayınlanan 3 saatlik) videosunu seç. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel arifesi (dün yayınlanan 3 saatlik) videosunu olmalı; boşsa bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "planli_shorts": true
   },
   "2026-12-03": {
-    "shorts": [
-      "04-snowy-village",
-      "shorts3"
-    ],
-    "not": "Bu Shorts'u yüklerken İlgili video olarak Karlı kasaba videosunu seç."
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Karlı kasaba videosunu olmalı; boşsa bağla.",
+    "planli_shorts": true
   },
   "2026-12-04": {
-    "shorts": [
-      "05-snowy-library",
-      "shorts3"
-    ],
-    "not": "Bu Shorts'u yüklerken İlgili video olarak Kütüphane (3 saatlik) videosunu seç."
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Kütüphane (3 saatlik) videosunu olmalı; boşsa bağla.",
+    "planli_shorts": true
   },
   "2026-12-05": {
-    "uzun": "10-japanese-garden",
-    "not": "Japon bahçesi Shorts'unun (20 Kasım) İlgili videosu olarak bugünkü videoyu bağla. Bugün 'Japan at Night 🏯' oynatma listesini aç (onaylanan öneri Y6): başlık ve açıklama Claude'daki kanal/japon_listesi.md dosyasında; Claude'dan iste. İlk video olarak bugünkü Japon bahçesini ekle."
+    "not": "Japon bahçesi uzun videosu bilgisayardaki Claude tarafından YouTube'da planlandı, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). Japon bahçesi Shorts'unun (20 Kasım) İlgili videosu olarak bugünkü videoyu bağla. 'Japan at Night 🏯' oynatma listesi bilgisayardaki Claude tarafından yükleme sırasında açılmış olmalı: YouTube'da listenin var olduğunu ve Japon bahçesinin içinde olduğunu kontrol et; yoksa Claude'dan liste metnini iste.",
+    "planli_uzun": "10-japanese-garden"
   },
   "2026-12-06": {
-    "shorts": [
-      "08-attic-bedroom",
-      "shorts3"
-    ],
-    "not": "Bu Shorts'u yüklerken İlgili video olarak Çatı katı (25 Kasım'da yayınlanan 3 saatlik) videosunu seç. Küçük resim testi (B / yazısız D, 22 Kasım'da başlatıldı): Studio'da yayındaki uzun videoların 'Test et ve karşılaştır' sonuçlarının ekran görüntüsünü Claude'a gönder; hangisi kazandıysa bundan sonraki videolarda o tarz ana küçük resim olur."
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Çatı katı (25 Kasım'da yayınlanan 3 saatlik) videosunu olmalı; boşsa bağla. Küçük resim testi (B / yazısız D, 22 Kasım'da başlatıldı): Studio'da yayındaki uzun videoların 'Test et ve karşılaştır' sonuçlarının ekran görüntüsünü Claude'a gönder; hangisi kazandıysa bundan sonraki videolarda o tarz ana küçük resim olur.",
+    "planli_shorts": true
   },
   "2026-12-07": {
-    "shorts": [
-      "10-japanese-garden",
-      "shorts2"
-    ],
-    "not": "Bu Shorts'u yüklerken İlgili video olarak Japon bahçesi 3 saatlik videosunu seç (o video yayında)."
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Japon bahçesi 3 saatlik videosunu olmalı; boşsa bağla.",
+    "planli_shorts": true
   },
   "2026-12-09": {
     "uzun": "09-lighthouse",
