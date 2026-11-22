@@ -112,3 +112,7 @@ Biçim: tarih ve sahne · ne oldu · bundan sonraki kural · sorumlu.
 ## Eğik pencere kenarı ve Shorts yakınlaştırması (29, Kasım 2026)
 
 Kuzey ışığı klibinin çokgeninin üst kenarını yatay çizgi olarak (y=34) vermiştik, ama görseldeki camın üst kenarı eğikti (solda y≈105, sağda y≈35). Yeşil ışık pencerenin üstündeki tahta kirişe taştı. Tam karede zor seçiliyordu, Shorts'ta yakınlaştırınca açıkça göründü. Ders: `ek_klipler` çokgenlerini çizmeden önce görselin o bölgesini ızgarayla büyütüp camın ve dağ sırtının gerçek çizgisini oku. Çokgeni görselin üstüne çizip kontrol et. Shorts karelerinde kenarları ayrıca yakından incele.
+
+## Uzun seste parça geçişleri (29, Kasım 2026)
+
+8 saatlik ses 3 parça hâlinde üretilip çapraz geçişle birleşiyor. Kalite kontrol, geçiş noktalarında (9600 ve 19200 sn) 10 sn'lik RMS'de 6–8 dB'lik bir çukur ölçtü. Kopma değildi ve doğal dalgalanmanın içinde kalıyordu. Doğrusal (`tri`) geçiş, birbirinden bağımsız iki gürültüde ortada gücü düşürür. Bu yüzden `qsin`'e (eşit güç) geçildi. 8 saatlik paketlerde geçiş noktalarında RMS'i ölç; 5 dB'den büyük çukur varsa geçişi incele.

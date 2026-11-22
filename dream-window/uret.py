@@ -770,7 +770,7 @@ def main():
             if not yol.exists():
                 ses_kur(klasor, yol, parca_sure, giris=1.5 if i == 0 else 0.01, cikis=8 if i == adet - 1 else 0.01, tohum_ek=i + 1)
             yollar.append(yol)
-        filtre = "".join(f"[{'a' + str(i - 1) if i > 1 else '0'}][{i}]acrossfade=d={gecis}:c1=tri:c2=tri[a{i}];" for i in range(1, adet))
+        filtre = "".join(f"[{'a' + str(i - 1) if i > 1 else '0'}][{i}]acrossfade=d={gecis}:c1=qsin:c2=qsin[a{i}];" for i in range(1, adet))
         subprocess.run(["ffmpeg", "-v", "error", "-y", *sum([["-i", str(y)] for y in yollar], []), "-filter_complex", filtre.rstrip(";"),
                         "-map", f"[a{adet - 1}]", "-t", str(toplam), "-c:a", "aac", "-b:a", f"{SES_KBPS}k", str(gecici / "ses.m4a")], check=True)
         for y in yollar:
