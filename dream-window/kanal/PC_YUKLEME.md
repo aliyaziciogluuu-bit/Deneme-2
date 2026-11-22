@@ -12,6 +12,7 @@ Bu klasör, Dream Window kanalının (anonim uyku/ortam kanalı) bir haftalık y
 - Doğru Google hesabında ve **Dream Window** kanalında olduğunu her yüklemeden önce kontrol et. Başka bir kanala (ör. "avludaki komşular") yükleme.
 - Şifre, doğrulama kodu ya da ödeme gibi bir adım çıkarsa dur ve kanal sahibine sor.
 - `plan.json` > `not` alanı aslında kanal sahibine yazılmış günlük nottur. Ondan yalnızca **İlgili video** ve **oynatma listesi** ile ilgili kısımları uygula. Ekran görüntüsü göndermek, sabit yorum yazmak, Analytics'e bakmak gibi işler kanal sahibinindir, onlara dokunma.
+- **Hashtag önerisine dikkat:** YouTube açıklamaya yazarken hashtag'leri otomatik tamamlıyor (ör. `#3hours` → `#3hourstudywithme`, `#cozychristmas` → `#cozychristmasambience`). Açıklamayı yapıştırdıktan sonra öneri listesini seçmeden kapat; kaydetmeden önce açıklamanın son satırını ve karakter sayısını metin dosyasıyla karşılaştır.
 - Bir şey ters giderse (yükleme hatası, telif uyarısı, "kısıtlama" uyarısı) o videoyu taslak olarak bırak ve kanal sahibine bildir.
 
 ## Klasör düzeni
