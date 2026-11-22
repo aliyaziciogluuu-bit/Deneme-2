@@ -1,0 +1,162 @@
+{
+  "gorsel": "sahne.png",
+  "acilis_yazi": {
+    "baslik": "Dream Window",
+    "alt": [
+      "CHRISTMAS",
+      "SNOW",
+      "FIREPLACE",
+      "RELAXATION",
+      "SLEEP"
+    ]
+  },
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        704,
+        29,
+        1672,
+        560
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 276,
+      "y": 512,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 792,
+      "y": 668,
+      "sigma": 72,
+      "genlik": 0.1
+    },
+    {
+      "x": 65,
+      "y": 624,
+      "sigma": 76,
+      "genlik": 0.1
+    },
+    {
+      "x": 110,
+      "y": 617,
+      "sigma": 58,
+      "genlik": 0.1
+    },
+    {
+      "x": 485,
+      "y": 552,
+      "sigma": 54,
+      "genlik": 0.1
+    },
+    {
+      "x": 110,
+      "y": 158,
+      "sigma": 58,
+      "genlik": 0.1
+    },
+    {
+      "x": 36,
+      "y": 162,
+      "sigma": 67,
+      "genlik": 0.1
+    },
+    {
+      "x": 415,
+      "y": 191,
+      "sigma": 55,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Christmas Fjord Cabin",
+  "pirilti": [
+    {
+      "kutu": [
+        520,
+        215,
+        687,
+        532
+      ],
+      "genlik": 0.3,
+      "esik": 0.7,
+      "sicak": 0.1
+    },
+    {
+      "kutu": [
+        1253,
+        363,
+        1372,
+        445
+      ],
+      "genlik": 0.3,
+      "esik": 0.7,
+      "sicak": 0.1
+    }
+  ],
+  "ates": {
+    "kutu": [
+      164,
+      386,
+      388,
+      621
+    ],
+    "ic": [
+      186,
+      423,
+      366,
+      602
+    ],
+    "taban": 595,
+    "tepe": 438,
+    "olcek": 0.71,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "../sesler/ates_gece.mp3",
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "03-christmas-cabin",
+    "karisik": true,
+    "kutu": [
+      72,
+      303,
+      478,
+      703
+    ]
+  },
+  "shorts": {
+    "bas": 276,
+    "son": 1188,
+    "tur": 2,
+    "baslik": "Christmas Fjord Cabin",
+    "alt": "Snowfall & Crackling Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1188,
+    "son": 276,
+    "tur": 2,
+    "baslik": "POV: christmas fjord cabin on a snowy night",
+    "alt": "sleep here tonight",
+    "ses_kazanc": 7.5
+  }
+}
