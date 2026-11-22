@@ -334,5 +334,26 @@
   "hata": 0,
   "sure": 7.72,
   "uygun": true
+ },
+ "048": {
+  "yazi": "Gölete varınca ne oluyor?",
+  "duyulan": "Gölete varınca ne oluyor?",
+  "hata": 0,
+  "sure": 1.4,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Dişi suya iki sıralı uzun bir yumurta ipi bırakıyor; içinde bin beş yüz ile altı bin yumurta olabiliyor.",
+  "duyulan": "Dişi suya iki sıralı uzun bir yumurta ipi bırakıyor. İçinde 1500 ile 6000 yumurta olabiliyor.",
+  "hata": 0,
+  "sure": 6.94,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "İribaşlar yaklaşık on günde çıkıyor; on iki haftalık olunca bir buçuk santimlik minik kurbağa oluyorlar.",
+  "duyulan": "İribaşlar yaklaşık 10 günde çıkıyor, 12 haftalık olunca 1,5 centimlik minik kurbağa oluyorlar.",
+  "hata": 2,
+  "sure": 6.9,
+  "uygun": false
  }
 }
