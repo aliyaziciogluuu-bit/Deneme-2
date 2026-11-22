@@ -54,8 +54,9 @@ def planlandi(bas, bit):
             continue
         if g.pop("shorts", None):
             g["planli_shorts"] = True
-            # "Bu Shorts'u yüklerken İlgili video olarak ... seç" cümlesi yüklemede yapıldı, artık gereksiz
-            n = re.sub(r"Bu Shorts'u yüklerken İlgili video olarak .*?seç(?: \([^)]*\))?\.\s*", "", g.get("not", "")).strip()
+            # "Bu Shorts'u yüklerken İlgili video olarak X'i seç" → yüklemede yapıldı; planlı uzun video seçilemediyse diye kontrol notuna çevir
+            n = re.sub(r"Bu Shorts'u yüklerken İlgili video olarak (.*?) seç(?: \([^)]*\))?\.\s*",
+                       lambda m: f"Kontrol: bugünkü Shorts'un İlgili videosu {m.group(1)} olmalı; boşsa bağla. ", g.get("not", "")).strip()
             if n:
                 g["not"] = n
             else:
@@ -116,15 +117,16 @@ def main():
         raise SystemExit("Bu aralıkta yüklenecek bir şey yok.")
     (hedef / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=2), encoding="utf-8")
     shutil.copy(KOK / "kanal" / "PC_YUKLEME.md", hedef / "PC_YUKLEME.md")
-    # zip parçaları (sıkıştırmasız; her parça 380 MiB'ı aşmasın, bir günün dosyaları bölünmesin)
-    dosyalar = [p for p in sorted(hedef.rglob("*")) if p.is_file()]
+    for liste in ("japon_listesi.md", "noel_listesi.md"):                # oynatma listesi gerekirse bilgisayardaki Claude oluşturabilsin
+        shutil.copy(KOK / "kanal" / liste, hedef / liste)
+    # zip parçaları (sıkıştırmasız; her parça 380 MiB'ı aşmasın; dosyalar tarih sırasıyla, plan ve talimat ilk parçada)
+    dosyalar = sorted((p for p in hedef.rglob("*") if p.is_file()), key=lambda p: (p.parent != hedef, str(p.relative_to(hedef))))
     gruplar, simdiki, boy = [], [], 0
-    for gunk in sorted({p.relative_to(hedef).parts[0] for p in dosyalar}):
-        parca = [p for p in dosyalar if p.relative_to(hedef).parts[0] == gunk]
-        b = sum(p.stat().st_size for p in parca)
+    for p in dosyalar:
+        b = p.stat().st_size
         if simdiki and boy + b > PARCA:
             gruplar.append(simdiki); simdiki, boy = [], 0
-        simdiki += parca; boy += b
+        simdiki.append(p); boy += b
     gruplar.append(simdiki)
     ad = f"DreamWindow_{bas}_{bit}"
     for i, g in enumerate(gruplar, 1):

@@ -26,7 +26,7 @@ Bu klasör, Dream Window kanalının (anonim uyku/ortam kanalı) bir haftalık y
 1. Studio > **Oluştur > Video yükle** > `<tarih>/<n>_SHORTS_<ad>.mp4`.
 2. Başlık: metin dosyasındaki `TITLE`. Açıklama: `DESCRIPTION` bölümünün tamamı.
 3. Kitle: Çocuklara özel değil.
-4. **İlgili video:** `plan.json` > `ilgili_video`. "henüz yok" yazıyorsa boş bırak. Bir uzun video adı yazıyorsa kanaldaki o uzun videoyu seç.
+4. **İlgili video:** `plan.json` > `ilgili_video`. "henüz yok" yazıyorsa boş bırak. Bir uzun video adı yazıyorsa kanaldaki o uzun videoyu seç. O video henüz planlı olduğu için listede çıkmıyorsa boş bırak ve bitiş tablosunda "İlgili video bağlanamadı" yaz.
 5. Görünürlük > **Planla** > tarih ve **19:30**.
 6. Kaydettikten sonra İçerik listesinde videonun "Planlandı" durumunda ve doğru tarihte göründüğünü kontrol et.
 
@@ -42,7 +42,7 @@ Bu klasör, Dream Window kanalının (anonim uyku/ortam kanalı) bir haftalık y
 4. **Video öğeleri > Bitiş ekranı:** son 20 saniyeye "Abone ol" + "En son yüklenen video".
 5. Görünürlük > **Planla** > tarih ve **20:00**.
 6. Kaydettikten sonra **Altyazılar > Dil ekle**: Almanca, İspanyolca, Portekizce, Fransızca, Japonca. Her dilde "Başlık ve açıklama"ya `_ceviriler.txt` içindeki o dilin `TITLE` (4K yüklediysen `TITLE_4K`) ve `DESCRIPTION` bölümünü yapıştır.
-7. `plan.json` > `not` alanında bir **oynatma listesi** adı geçiyorsa videoyu o listeye ekle (liste yoksa oluşturma, kanal sahibine sor).
+7. `plan.json` > `not` alanında bir **oynatma listesi** adı geçiyorsa videoyu o listeye ekle. Liste henüz yoksa ve klasörde o listenin metin dosyası varsa (`japon_listesi.md`, `noel_listesi.md`), listeyi oradaki başlık ve açıklamayla **Herkese açık** ve **Manuel sıralama** ile oluştur. Metin dosyası yoksa oluşturma, kanal sahibine sor.
 
 Yayından sonra yapılacak işleri (sabit yorum, Shorts'a İlgili video bağlama) **şimdi yapamazsın**; video yayınlanmadan bu ayarlar görünmez. Onları kanal sahibi o gün yapar ya da yayın günü senden ister.
 
