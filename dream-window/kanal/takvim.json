@@ -29,56 +29,34 @@
     "planli_shorts": true
   },
   "2026-11-23": {
-    "shorts": [
-      "03-christmas-cabin",
-      "shorts2"
-    ],
-    "not": "Yağmurlu kulübe (1 saat) küçük resmi 19 Kasım'da B ile değiştirildi: Studio > İçerikler > video > Erişim'deki 'Küçük resim tıklama oranı' kartının ekran görüntüsünü Claude'a gönder (önceki oran %3,0)."
+    "not": "Yağmurlu kulübe (1 saat) küçük resmi 19 Kasım'da B ile değiştirildi: Studio > İçerikler > video > Erişim'deki 'Küçük resim tıklama oranı' kartının ekran görüntüsünü Claude'a gönder (önceki oran %3,0).",
+    "planli_shorts": true
   },
   "2026-11-24": {
-    "shorts": [
-      "05-snowy-library",
-      "shorts2"
-    ]
+    "planli_shorts": true,
+    "not": "Bugünkü Shorts planlanırken Topluluk Kuralları kontrolü bitmemişti: 19:30'dan önce Studio > İçerik'te 'Kısıtlamalar' sütununda 'Yok' yazdığını kontrol et."
   },
   "2026-11-25": {
-    "shorts": [
-      "04-snowy-village",
-      "shorts2"
-    ],
-    "not": "Çatı katı 4K uzun videosu 17 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). 20:00'den sonra bu videoya şu yorumu yazıp sabitle: \"New 3-hour sleep ambience every week 🌙 Subscribe so you don't miss the next one.\" Çatı katı Shorts'unun (19 Kasım) İlgili videosu olarak bugünkü çatı katı videosunu bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Çatı katı 4K uzun videosu 17 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). 20:00'den sonra bu videoya şu yorumu yazıp sabitle: \"New 3-hour sleep ambience every week 🌙 Subscribe so you don't miss the next one.\" Çatı katı Shorts'unun (19 Kasım) İlgili videosu olarak bugünkü çatı katı videosunu bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "planli_shorts": true
   },
   "2026-11-26": {
-    "shorts": [
-      "08-attic-bedroom",
-      "shorts2"
-    ]
+    "planli_shorts": true,
+    "not": "Bugünkü Shorts'un İlgili videosu boş (Çatı katı dün yayınlandığı için yüklemede seçilemedi): 19:30'dan önce Studio'da Shorts'u aç, İlgili video olarak Çatı katı 3 saatlik videosunu bağla."
   },
   "2026-11-27": {
-    "shorts": [
-      "06-rainy-cafe",
-      "shorts2"
-    ]
+    "planli_shorts": true
   },
   "2026-11-28": {
-    "shorts": [
-      "07-christmas-eve",
-      "shorts2"
-    ],
-    "not": "Yağmurlu kafe (4K) 21 Kasım'da B küçük resmi ve 4K başlığıyla yayınlandı: Studio > İçerikler > kafe videosu > Analytics > Erişim'deki 'Gösterimler' ve 'Küçük resim tıklama oranı' ekran görüntüsünü Claude'a gönder."
+    "not": "Yağmurlu kafe (4K) 21 Kasım'da B küçük resmi ve 4K başlığıyla yayınlandı: Studio > İçerikler > kafe videosu > Analytics > Erişim'deki 'Gösterimler' ve 'Küçük resim tıklama oranı' ekran görüntüsünü Claude'a gönder.",
+    "planli_shorts": true
   },
   "2026-11-29": {
-    "shorts": [
-      "11-aurora-igloo",
-      "shorts2"
-    ]
+    "planli_shorts": true
   },
   "2026-11-30": {
-    "shorts": [
-      "03-christmas-cabin",
-      "shorts3"
-    ],
-    "not": "Bu Shorts'u yüklerken İlgili video olarak Noel kulübesi (18 Kasım'da yayınlanan 3 saatlik 4K) videosunu seç."
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel kulübesi (18 Kasım'da yayınlanan 3 saatlik 4K) videosunu olmalı; boşsa bağla.",
+    "planli_shorts": true
   },
   "2026-12-01": {
     "uzun": "07-christmas-eve",
