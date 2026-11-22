@@ -20,3 +20,8 @@
 ## Bilgi kontrol (Tur 2, 20 Kasım)
 - Karar: ONAY. Puan: doğruluk 8, güvenlik 8 (Tur 1: 6, 8).
 - Uygulandı: köpek bölümü sırası (kaynak → aynı kaynak → bulamadık; hafife de almıyoruz), "Bir kaynağa göre" atfı, vaat cümlesi "asıl dikkat etmen gereken", kapak B "Bize göre akşam başıboş bırakma", CDC kaynağı arşivlendi (kaynaklar/cdc_reptiles_amphibians.txt) ve kaynak listesine eklendi.
+
+## Son denetimler (22 Kasım)
+- Son kontrol: 66/66 GEÇTİ; s1-sigil 7/7, s2-kopek 7/7.
+- Metin editörü (Tur 1): RET (fotoğraf atıfları eksik — editör eski dosyayı okudu; atıflar aynı sırada video.py ile otomatik eklendi). Puan: kanca 8, anlatim 9, baslik 6, shorts 8.
+- Metin editörü (Tur 2): ONAY. Puan: kanca 8, anlatim 9, baslik 9, shorts 8.
