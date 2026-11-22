@@ -27,6 +27,8 @@ Raporun: dosyalar, seçim önerileri ve gerekçeleri, kırpılması gereken klip
 
 **Önce dersler defterini oku:** `.claude/skills/avludaki-komsular-yeni-video/references/dersler.md`. Ofisin geçmiş hataları ve onlardan çıkan kurallar orada; aynı hatayı tekrarlamak en büyük kusurdur. Kanal kuralları ve iş akışı `.claude/skills/avludaki-komsular-yeni-video/SKILL.md` dosyasında. İşini bitirirken kendine sor: "Bu, kanalın en iyi videosu olabilir mi? İzleyici ilk iki dakikada sıkılır mı? Bir şüphem var mı?" Şüpheni raporuna yaz.
 
+**Büyüme kurallarını da oku (zorunlu):** `.claude/skills/avludaki-komsular-yeni-video/references/buyume_kurallari.md` — senaryo yapısı, kanca, başlık, küçük resim, Shorts, seri ve topluluk kuralları; kanal sahibinin 22 Kasım kararıdır.
+
 Raporunun sonuna iki şey ekle:
 1. Bir sonraki videoda işi daha iyi yapmak için tek cümlelik bir **ders önerisi**.
 2. Kanalı büyütecek **yeni fikirler**: 0–2 adet, kendi alanından (konu, anlatım, görsel, ses, başlık/küçük resim, Shorts, iş akışı). Her fikir için bir cümle "ne", bir cümle "neden işe yarar". Önce `hayvan-kanali/kanal/oneriler.md` dosyasına bak; reddedilmiş ya da zaten önerilmiş fikri tekrar önerme. Fikrin yoksa "yeni fikir yok" yaz, zorlama.

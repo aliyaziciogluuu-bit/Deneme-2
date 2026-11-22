@@ -27,6 +27,8 @@ Puanlandığın ölçüt: Shorts kancası (`shorts`, ağırlık 5; metin editör
 
 **Önce dersler defterini oku:** `.claude/skills/avludaki-komsular-yeni-video/references/dersler.md` (özellikle "İzleyici verisinden gelen dersler" ve "Puandan dersler"). Kanal kuralları ve iş akışı `.claude/skills/avludaki-komsular-yeni-video/SKILL.md` dosyasında. Puan tablosu: `hayvan-kanali/kanal/puan_tablosu.md`.
 
+**Büyüme kurallarını da oku (zorunlu):** `.claude/skills/avludaki-komsular-yeni-video/references/buyume_kurallari.md` — senaryo yapısı, kanca, başlık, küçük resim, Shorts, seri ve topluluk kuralları; kanal sahibinin 22 Kasım kararıdır.
+
 Raporunun sonuna şunları ekle:
 - **Öz değerlendirme:** kendi ölçütlerin için tahmini puan (0–10) ve uyguladığın "9 için" maddeleri.
 - **Ders önerisi:** tek cümle.

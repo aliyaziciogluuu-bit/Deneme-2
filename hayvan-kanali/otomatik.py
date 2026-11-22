@@ -225,6 +225,13 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
     sh = oku(klasor / "shorts.json") or {}
     for s in sh.get("shorts", []):
         ses_alani(d, f"Shorts {s.get('ad')}", s.get("cumleler", []))
+        ilk = (s.get("cumleler") or [{}])[0].get("yazi", "").strip()
+        if ilk.endswith("?"):  # büyüme kuralı 5: Shorts ilk cümlesi iddia olur (soru %18, iddia %51 izlemeye devam)
+            d.hata.append(f"Shorts {s.get('ad')}: ilk cümle soru ('{ilk[:50]}'); şaşırtıcı bir iddiayla aç (buyume_kurallari.md 5)")
+    if not yayinda and cl:
+        son = " ".join(c.get("yazi", "") for c in cl[-3:]).lower()
+        if "abone ol" in son:  # büyüme kuralı 1: kapanış sıradaki videoyu bir soruyla açar
+            d.uyari.append("uzun: kapanışta 'abone ol' var; sıradaki videoyu bir soruyla duyur (buyume_kurallari.md 1)")
     # 3. Çekim planı
     cek = None if yayinda else oku(klasor / "cekimler.json")
     if cek:

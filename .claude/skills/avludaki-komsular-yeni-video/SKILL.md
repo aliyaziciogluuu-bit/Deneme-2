@@ -5,7 +5,7 @@ description: Avludaki Komşular (evin çevresindeki yanlış tanınan hayvanlar�
 
 # Avludaki Komşular – yeni video üretimi
 
-Avludaki Komşular, evlerin, bahçelerin ve köylerin çevresinde yaşayıp yanlış tanınan hayvanları anlatan, yüzsüz bir Türkçe belgesel kanalı. Görseller yapay zekâ çizimi, anlatım yapay zekâ sesi. Kod `hayvan-kanali/` klasöründe, Türkçe adlı Python betikleri olarak duruyor. Kullanıcının hedefi kanaldan para kazanmak (1.000 abone ve 4.000 saat).
+Avludaki Komşular, evlerin, bahçelerin ve köylerin çevresinde yaşayıp yanlış tanınan hayvanları anlatan, yüzsüz bir Türkçe belgesel kanalı. Görseller yapay zekâ çizimi, anlatım yapay zekâ sesi. Kod `hayvan-kanali/` klasöründe, Türkçe adlı Python betikleri olarak duruyor. Kullanıcının hedefi kanaldan para kazanmak (1.000 abone ve 8.000 saat; 1 Şubat 2027 sonrası başvurular için yeni şart, ikincil kaynaklı).
 
 **Kullanıcıyla iletişim:** Kullanıcı Türkçe konuşuyor ve teknik değil. Her zaman Türkçe, kısa ve net yaz. Komut açıklamaları da Türkçe olur ("İngilizce yazma"). Kullanıcının adını, e-postasını ve telefonunu hiçbir dış servise gönderme, tekrar etme.
 
@@ -26,6 +26,10 @@ Kanal sahibi "büyük bir şirket gibi yönetin, birlikte büyüyelim" dedi (19 
 ## Dersler defteri
 
 Ofisin hafızası `references/dersler.md` dosyasında. İşe başlamadan oku, ajanlara da okut. Her onay turundan sonra yeni dersleri ekle. Aynı hata iki kez olursa betiği ya da kontrol listesini düzelt.
+
+## Büyüme kuralları (zorunlu, 22 Kasım)
+
+Kanal sahibi büyük kanalların analizindeki bütün önerileri onayladı ve haftada 2 uzun videoya geçildi. Senaryo yapısı (ana cevap 2.–4. dakikada, kimlik kartı bloğu yok), kanca, başlık, küçük resim, Shorts (uzun videodan türetilir, ilk cümle iddia), seri ve oynatma listeleri, açıklama, topluluk ve takvim kuralları `references/buyume_kurallari.md` dosyasında. Senarist, paketleme, Shorts uzmanı, metin editörü ve yönetici işe başlamadan okur; metin editörü RET gerekçesi olarak kullanır.
 
 ## Ön kontrol (her seferinde)
 
@@ -199,7 +203,7 @@ Kurallar:
 
 1. `python teslim.py NN-konu` çalıştır. Dosyalar `hayvan-kanali/teslim/NN-konu/` klasörüne kopyalanır, doğrulanır ve `YUKLEME_LISTESI.txt` yazılır. Bu klasördeki dosyaları kullanıcıya gönder.
 2. Takvim önerisi:
-   - Uzun videolar salı ve cuma 18:00.
+   - Uzun videolar haftada 2: salı ve cumartesi 18:00.
    - Shorts'lar 12:00'de, uzun video yayına girdikten sonraki iki gün. Yüklerken "İlgili video" olarak uzun video bağlanır.
    - Takvime yazmadan önce kullanıcıdan onay al. Onaylayınca `kanal/fikirler.json` ve `kanal/shorts_plani.md` güncellenir.
 3. Kullanıcıya Türkçe, kısa rapor:

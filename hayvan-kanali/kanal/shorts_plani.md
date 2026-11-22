@@ -26,8 +26,13 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Paz 6 Ara | Kurbağaya Dokunursan Siğil Olur mu? (kara kurbağası s1-sigil) | — | planlandı 22 Kas (yükleme asistanı) |
 | Pzt 7 Ara | Köpek Kurbağayı Ağzına Alırsa Ne Yapmalı? (kara kurbağası s2-kopek) | — | planlandı 22 Kas (yükleme asistanı) |
 | Sal 8 Ara | karga s3 (YENİ) | **sıradaki video: yılan – ahırdaki ineği sağar mı?** (kara kurbağası kapanışı bunu duyuruyor; değişirse kapanış ve bitiş ekranı da değişir) | — |
-| Çar 9 Ara | yarasa s3 (YENİ, 6 Ara'dan kaydırıldı) | — | hazır |
-| Per 10 Ara | baykuş s3 (YENİ, 7 Ara'dan kaydırıldı) | sıradaki video | hazır |
+| Çar 9 Ara | yılan–inek s1 | — | uzun videodan 1 gün sonra |
+| Per 10 Ara | yılan–inek s2 | — | |
+| Cum 11 Ara | yarasa s3 (YENİ, 6 Ara'dan kaydırıldı) | — | hazır |
+| Cmt 12 Ara | baykuş s3 (YENİ, 7 Ara'dan kaydırıldı) | **uzun video (10. konu)** | hazır |
+| Paz 13 Ara | 10. konu s1 | — | |
+| Pzt 14 Ara | 10. konu s2 | — | |
+| Sal 15 Ara | yılan–inek s3 | **uzun video (11. konu)** | |
 
 ## Yükleme adımları (her Shorts için)
 1. YouTube Studio veya YouTube uygulamasından videoyu yükle (dikey, 60 sn altı → Shorts).
@@ -43,3 +48,5 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 - 22 Kasım: stüdyo asistanı 5 düzeltmeyi uyguladı ve doğruladı (yarasa Shorts yapay içerik Evet; geko bitiş ekranı 5:42–5:56; yılan/kirpi/yarasa Türkçe altyazı yayınlandı; geko ve yılan kategorisi Evcil ve Yabani Hayvanlar; kirpi/yarasa Shorts başlıkları dosyalarla birebir). Kalan: 6 Shorts ilgili video (24, 26, 28 Kasım yayınlarından sonra).
 
 - 22 Kasım: kara kurbağası (5 Ara 18:00) ve Shorts'ları (6, 7 Ara 12:00) yükleme asistanıyla planlandı. Küçük resim testi A/B/C kuruldu; bitiş ekranı 5:54–6:08 'İzleyici için en iyisi' + abone. Yayından sonra: iki Shorts'ta İlgili video, sabit yorum, kırlangıç bitiş ekranı → kara kurbağası.
+
+- 22 Kasım kanal sahibi kararı: uzun video haftada 2 (salı, cumartesi 18:00). Her uzun videodan 3 Shorts (uzun videonun en güçlü 20–40 saniyesi; ilk cümle iddia). Haftada 6 Shorts uzun videolardan, 7. gün en iyi tutan Shorts formatının yeni örneği ya da boş.

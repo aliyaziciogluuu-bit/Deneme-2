@@ -88,3 +88,27 @@ açma; video silme. Bitince değiştirdiğin her şeyi madde madde özetle (vide
 - Bir adım 2–3 denemede olmazsa dur, ne denediğini anlat ve sor.
 - Telefon numarası, e-posta, şifre yazma/isteme; yorumcuların kişisel bilgisini dosyalara yazma.
 - Bittiğinde kısa özet: ne yapıldı, ne kaldı, varsa ekran görüntüsü dosya adları.
+
+## Görev 7 – Büyüme düzenlemesi (kanal sahibi onayı: 22 Kasım, "önerdiklerinin hepsini yap")
+Bu görevdeki maddeler kanal sahibinin onayıdır; sormadan uygula. Planlı videolarda yalnızca **Ayrıntılar** ve **Video öğeleri**
+ekranlarında çalış, görünürlük ekranını açma.
+1. **Ücretli tanıtımı durdur:** Studio → İçerik → geko videosu → Tanıt (ya da YouTube'da tanıtım sayfası) → kampanyayı **Duraklat**
+   (yoksa Sonlandır). Yeni tanıtım açma. Harcanan son tutarı özette yaz.
+2. **Oynatma listeleri:** aşağıdaki listeleri oluştur (yoksa), görünürlük Herkese açık, açıklamaya "Yanlış Tanınan Komşular serisi" yaz;
+   videoları ekle (planlı videolar da eklenebilir; eklenemiyorsa özette not et). "Evin Çevresindeki Hayvanlar" listesi kalır.
+   - **Yılan Sanılanlar:** sağır yılan
+   - **Zehirli Sanılanlar:** ev kertenkelesi (geko), kara kurbağası, sağır yılan
+   - **Gece Gelen Komşular:** yarasa, baykuş, geko, kirpi
+   - **Uğursuz Sanılanlar:** baykuş, karga, yarasa
+   - **Kuşlar ve Yuvalar:** kırlangıç, karga, baykuş
+3. **Bitiş ekranları (yayındaki ve planlı uzun videolar):** mevcut video öğesi ve abone ol kalır; yanına **oynatma listesi öğesi**
+   ekle: sağır yılan → Yılan Sanılanlar; geko ve kara kurbağası → Zehirli Sanılanlar; kirpi ve yarasa → Gece Gelen Komşular;
+   baykuş → Uğursuz Sanılanlar; karga ve kırlangıç → Kuşlar ve Yuvalar.
+4. **Başlık testleri** (Ayrıntılar → Başlık → "Test et" / Test ve karşılaştır; başlık testi yoksa yalnızca B başlığını yaz):
+   - Sağır yılan: A = mevcut başlık · B = `Sağır Yılan Zehirli mi? (Bacaklarına Ne Oldu?)` · C = `Sağır Yılanı Sakın Öldürme! (Bacaklarına Ne Oldu?)`
+   - Geko: A = mevcut başlık · B = `Ev Kertenkelesi Zehirli mi? (Yemeğe Düşerse Ne Olur?)` · C = `Duvardaki Kertenkeleyi Sakın Öldürme! (Sinekleri O Avlıyor)`
+     (geko'da süren küçük resim testine dokunma; aynı anda başlık testi açılamıyorsa başlık testini atla ve özette yaz).
+   - Yarasa (planlı): başlığı `Yarasa Saça Yapışır mı? (Karanlıkta Nasıl Görüyor?)` yap. Açıklamaya dokunma.
+5. **Topluluk gönderileri:** `topluluk_gonderileri.md` dosyasındaki gönderileri **dosyadaki tarihlerde** Topluluk sekmesinden paylaş
+   (Studio → Oluştur → Gönderi oluştur; tarih ileriyse "Planla"). Metni birebir kopyala, anket seçeneklerini aynen yaz.
+6. Özet: madde madde ne yapıldı, ne yapılamadı, ekran görüntüsü dosya adları.

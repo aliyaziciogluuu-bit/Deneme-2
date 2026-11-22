@@ -22,7 +22,7 @@ Bu belge şirketin anayasasıdır. Hedefler, göstergeler, organizasyon, çalı�
 
 | Dönem | Hedef |
 |---|---|
-| **Aralık 2026 sonu** | 100 abone · 250 saat · 10 uzun video yayında |
+| **Aralık 2026 sonu** | 100 abone · 250 saat · ortalama izleme %25 · 15 uzun video yayında |
 | **Mart 2027 sonu** | 500 abone · 3.000 saat (erken aşama) |
 | **Haziran 2027 sonu** | 1.000 abone · 4.000 saat (para kazanma) |
 
@@ -118,7 +118,7 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 ## 7. İçerik stoku ve üretim planı
 
 - **Hedef:** Her an en az **4 hazır video** (iki haftalık yayın) stokta olsun. Hastalık, kredi bitmesi, düzeltme turu gibi aksilikler yayın ritmini bozmasın.
-- Yayın ritmi (kanal sahibi, 20 Kasım): uzun video haftada 3 (salı, perşembe, cumartesi 18:00), Shorts her gün 12:00 (her videoya 3 Shorts). Aralık'ta 14 yayın günü; bütçe 60 $ (tasarruflu üretim, bölüm 6).
+- Yayın ritmi (kanal sahibi, 22 Kasım; 20 Kasım kararının yerine): **uzun video haftada 2 (salı ve cumartesi 18:00)**, Shorts her gün 12:00 (her uzun videodan 3 Shorts, uzun videonun en güçlü bölümlerinden). Gerekçe: büyük kanallar analizi (`reports/Büyük hayvan kanalları analizi.md`) — darboğaz tutma; boşalan zaman senaryo ve paketlemeye. İzleme oranı sürekli %25'i geçerse haftada 3'e dönüş önerilir. Kurallar: `.claude/skills/avludaki-komsular-yeni-video/references/buyume_kurallari.md`.
 - Sıradaki üretim: karga → kırlangıç → kara kurbağası → yılan ve süt efsanesi (konu sırası her ay analistin önerisiyle gözden geçirilir; mevsim ve arama ilgisi dikkate alınır).
 
 ## 8. Risk listesi
@@ -144,3 +144,8 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
    - İzleyicinin sorduğu hayvanlar (yorumlardan konu).
    - Uzun derleme videolar ("Evin çevresindeki 5 zararsız hayvan").
 4. **1.000+ abone:** para kazanma, sonra bütçe artışıyla haftada üç video.
+
+## Karar (22 Kasım): haftada 2 uzun video, bütçe kalitede
+- Aralık: kara kurbağasından sonra 7 yeni uzun video (8, 12, 15, 19, 22, 26, 29 Aralık) × ≈ 5 $ ≈ 35 $. Aylık 60 $ bütçeden artan ≈ 20 $ kaliteye gider: video başı tavan 5 $ → 7 $ (daha çok görsel adayı, 4 → 6 klip, gerçek fotoğraf önceliği sürer), küçük resim için ayrı görsel turu.
+- Para kazanma hedefi: 1.000 abone + 8.000 saat (1 Şubat 2027 sonrası başvurular; ikincil kaynaklı, doğrulanmadı), takvim 12–24 ay.
+- Ücretli tanıtım yok (izlenmeleri şarta sayılmıyor; 638 TL → 0 abone).
