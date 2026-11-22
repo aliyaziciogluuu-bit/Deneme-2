@@ -1,10 +1,11 @@
 {
  "000": {
   "yazi": "Hayır, kurbağa siğil yapmaz.",
-  "duyulan": "Hayır, kurbağa sihir yapmaz.",
-  "hata": 1,
-  "sure": 1.9,
-  "uygun": false
+  "duyulan": "Hayır, kurbağa sihil yapmaz.",
+  "hata": 0,
+  "sure": 1.74,
+  "uygun": true,
+  "tek_basina": true
  },
  "001": {
   "yazi": "Siğile insan papilloma virüsü neden olur; kurbağalar bu virüsü taşımaz.",

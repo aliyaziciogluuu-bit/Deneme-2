@@ -1,0 +1,7 @@
+000 fark=0 | Köpeğin kurbağayı ağzına aldıysa vakit kaybetmeden veterinere başvur. || Köpeğin kurbağayı ağzına aldıysa, vakit kaybetmeden veterinere başvur.
+001 fark=0 | Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor. || Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.
+002 fark=0 | Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık; hafife de almıyoruz. || Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık. Hafife de almıyoruz.
+003 fark=0 | Aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılma varsa hemen veterinere git. || Aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılma varsa hemen veterinere git.
+004 fark=1 | Veterinere neyi ve ne kadar yediğini söyle. || Veterinerin neyi ve ne kadar yediğini söyle.
+005 fark=0 | Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma. || Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma.
+006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

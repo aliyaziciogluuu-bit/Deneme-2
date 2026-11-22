@@ -249,8 +249,9 @@
   "yazi": "Türkiye'de iki kara kurbağası türü anılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası.",
   "duyulan": "Türkiye'de iki kara kurbağası türü anılıyor, Sihirli Kurbağa ve Kafkas Sihirli Kurbağası.",
   "hata": 2,
-  "sure": 5.64,
-  "uygun": false
+  "sure": 6.04,
+  "uygun": false,
+  "tek_basina": true
  },
  "036": {
   "yazi": "Bilim dilinde bunlar Bufo bufo ve Bufo verrucosissimus; ikisinin birbiriyle ilişkisi hâlâ net değil.",
@@ -352,10 +353,11 @@
  },
  "050": {
   "yazi": "İribaşlar yaklaşık on günde çıkıyor; on iki haftalık olunca bir buçuk santimlik minik kurbağa oluyorlar.",
-  "duyulan": "İribaşlar yaklaşık 10 günde çıkıyor, 12 haftalık olunca 1,5 centimlik minik kurbağa oluyorlar.",
-  "hata": 2,
-  "sure": 6.9,
-  "uygun": false
+  "duyulan": "İribaşlar yaklaşık 10 günde çıkıyor. 12 haftalık olunca 1,5 santimlik minik kurbağa oluyorlar.",
+  "hata": 1,
+  "sure": 7.18,
+  "uygun": false,
+  "tek_basina": true
  },
  "051": {
   "yazi": "Bu yolculuk onlara neye mal oluyor?",

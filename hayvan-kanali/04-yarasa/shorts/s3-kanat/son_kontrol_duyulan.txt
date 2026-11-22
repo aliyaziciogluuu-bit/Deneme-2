@@ -1,4 +1,4 @@
-000 fark=1 | Yarasanın kanadı, aslında kocaman açılmış bir el. || Yarasa'nın kanadı aslında kocaman açılmış bir ev.
+000 fark=0 | Yarasanın kanadı, aslında kocaman açılmış bir el. || Yarasa'nın kanadı aslında kocaman açılmış bir el.
 001 fark=0 | Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor. || Kanatları uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.
 002 fark=0 | Yarasalar, gerçekten uçabilen tek memeliler. || Yarasalar gerçekten uçabilen tek memeliler.
 003 fark=0 | Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar. || Kuş değiller. Yavrularını doğuruyor ve sütle besliyorlar.
