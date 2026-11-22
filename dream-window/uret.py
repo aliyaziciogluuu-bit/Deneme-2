@@ -222,6 +222,11 @@ class Sahne:
         for m in k.get("haric", []):                                   # kapak çerçevesi, kulp gibi önde kalanlar
             ix0, iy0, ix1, iy1 = self.o(*m)
             maske[iy0:iy1, ix0:ix1] = 0
+        if k.get("cokgenler"):                                         # düzensiz alan (örn. dağ silüetinin üstündeki gökyüzü)
+            maske = np.zeros((Y, G), np.uint8)
+            for cokgen in k["cokgenler"]:
+                cv2.fillPoly(maske, [np.array([self.o(*p) for p in cokgen], np.int32)], 1)
+            maske = maske.astype(np.float32)
         maske = cv2.GaussianBlur(maske, (0, 0), k.get("yumusaklik", 7) * K)
         if k.get("maske_cam"):                                         # pencere çerçevesi önde kalsın
             maske *= self.cam
@@ -232,6 +237,12 @@ class Sahne:
             cubuk = cv2.GaussianBlur(cv2.dilate(cubuk, np.ones((3, 3), np.uint8)), (0, 0), 1.2 * K)
             maske = maske * (1 - np.clip(cubuk * 1.4, 0, 1))
         maske = maske[ky0:ky1, kx0:kx1, None]
+        if k.get("ekran"):                                             # klibin yalnızca yeşil ışığı alınır; "ekran" karışımıyla görselin üstüne eklenir
+            gs = k.get("renk", [0.3, 1.0, 0.12])                       # B, G, R
+            for i, f in enumerate(kareler):
+                yes = np.clip((f[..., 1] - 0.5 * (f[..., 0] + f[..., 2]) - k.get("esik", 0.05)) * k.get("kazanc", 1.6), 0, 1)
+                kareler[i] = (yes[..., None] * np.array(gs, np.float32)).astype(np.float32)
+            return self._zaman_buk(kareler, np.ones(3, np.float32), None), kutu, maske * k.get("guc", 0.9)
         orta = np.mean(kareler[::max(len(kareler) // 20, 1)], axis=0)
         m = maske[..., 0] > 0.5                                        # renkleri orijinal görsele eşitle
         oran = ((self.temiz[ky0:ky1, kx0:kx1][m].mean(axis=0) + 1e-3) / (orta[m].mean(axis=0) + 1e-3)).astype(np.float32)
@@ -437,8 +448,11 @@ class Sahne:
                 yama += np.array([0.15, 0.55, 1.0], np.float32) * guc * np.array([[0.3, 0.6, 0.3], [0.6, 1.0, 0.6], [0.3, 0.6, 0.3]], np.float32)[..., None]
 
         # ek gerçek video klipleri (örn. pencereden görünen deniz)
-        for klip, (ex0, ey0, ex1, ey1), maske in self.ek_klipler:
-            kare[ey0:ey1, ex0:ex1] = kare[ey0:ey1, ex0:ex1] * (1 - maske) + klip[n % len(klip)] * maske
+        for (klip, (ex0, ey0, ex1, ey1), maske), kk in zip(self.ek_klipler, self.ayar.get("ek_klipler", [])):
+            if kk.get("ekran"):
+                kare[ey0:ey1, ex0:ex1] = 1 - (1 - kare[ey0:ey1, ex0:ex1]) * (1 - klip[n % len(klip)] * maske)
+            else:
+                kare[ey0:ey1, ex0:ex1] = kare[ey0:ey1, ex0:ex1] * (1 - maske) + klip[n % len(klip)] * maske
 
         # akan su ve buhar
         if self.su_kutu:
