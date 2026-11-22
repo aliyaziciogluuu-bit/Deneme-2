@@ -119,7 +119,7 @@
           "yazi": "Örnek olarak çorba, et ya da yumurta tüketimi ve canlı hayvan yutmak sayılıyor."
         },
         {
-          "yazi": "Aynı kaynak, hafif belirtiler arasında gözde, ağız zarında ya da açık yarada yanma ve karıncalanmayı sayıyor."
+          "yazi": "Aynı kaynak, hafif belirtiler arasında gözde, ağızda ya da açık yarada yanma ve karıncalanmayı sayıyor."
         },
         {
           "yazi": "Bize göre hayvanı sıkma; gözüne, ağzına ya da yarana değdirme; yanma sürerse doktora danış."
@@ -185,7 +185,8 @@
           "yazi": "Bahçendeki kurbağa hangisi?"
         },
         {
-          "yazi": "Türkiye'de iki kara kurbağası türü anılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası."
+          "yazi": "Türkiye'de iki kara kurbağası türü anılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası.",
+          "ses": "Türkiye'de iki kara kurbağası türü anılıyor: siyilli kurbağa ve Kafkas siyilli kurbağası."
         },
         {
           "yazi": "Bilim dilinde bunlar Bufo bufo ve Bufo verrucosissimus; ikisinin birbiriyle ilişkisi hâlâ net değil.",
