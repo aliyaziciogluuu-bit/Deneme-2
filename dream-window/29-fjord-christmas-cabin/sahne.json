@@ -197,23 +197,31 @@
       303,
       478,
       703
+    ],
+    "parlak_esik": [
+      0.5,
+      0.8
     ]
   },
   "shorts": {
-    "bas": 276,
-    "son": 1188,
+    "bas": 1250,
+    "son": 300,
     "tur": 2,
     "baslik": "Christmas Fjord Cabin",
-    "alt": "Snowfall & Crackling Fireplace",
+    "alt": "Northern Lights & Crackling Fireplace",
     "ses_kazanc": 7.5
   },
   "shorts2": {
-    "bas": 1188,
-    "son": 276,
+    "bas": 1080,
+    "son": 1300,
     "tur": 2,
-    "baslik": "POV: christmas fjord cabin on a snowy night",
-    "alt": "sleep here tonight",
-    "ses_kazanc": 7.5
+    "baslik": "POV: Christmas night by a quiet fjord",
+    "alt": "the northern lights are out tonight",
+    "ses_kazanc": 7.5,
+    "yakin": 1.4,
+    "y": 400,
+    "y_son": 336,
+    "ses_tohum": 7
   },
   "buhar": {
     "kutu": [
@@ -246,7 +254,7 @@
       "ekran": true,
       "zaman_bukme": true,
       "yumusaklik": 3,
-      "guc": 0.85,
+      "guc": 0.6,
       "cokgenler": [
         [
           [
@@ -320,9 +328,14 @@
             215
           ]
         ]
-      ]
+      ],
+      "doldur": 25,
+      "kazanc": 1.2,
+      "esik": 0.1
     }
   ],
   "sure_dakika": 480,
-  "not": "8 saatlik video: uret.py --dakika 480 (tur=300). Kuzey isigi: 11'in aurora_klip.mp4 dosyasi ekran karisimi, zaman_bukme, dongu 96 sn."
+  "not": "8 saatlik video: uret.py --dakika 480 (tur=300). Kuzey isigi: 11'in aurora_klip.mp4 dosyasi ekran karisimi, zaman_bukme, dongu 96 sn.",
+  "sure_etiket": "8 HOURS",
+  "kapak_yazi": "sol_ust"
 }

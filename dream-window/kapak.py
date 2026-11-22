@@ -52,7 +52,7 @@ def odak(ayar, gen):
     return min(max(x, 0.3), 0.7), min(max(y, 0.35), 0.6)
 
 
-def secenek_B(kaynak, baslik, alt):
+def secenek_B(kaynak, baslik, alt, sure="3 HOURS"):
     im = kaynak.copy()
     im = ImageEnhance.Color(im).enhance(1.18)
     im = ImageEnhance.Contrast(im).enhance(1.08)
@@ -72,14 +72,14 @@ def secenek_B(kaynak, baslik, alt):
         y += int(f1.size * 1.08)
     golgeli_yazi(im, (58, y + 6), alt, ImageFont.truetype(YARI, 40), ALTIN, golge=8, cizgi=3)
     rozet = ImageFont.truetype(KALIN, 44)                             # sol altta "3 HOURS" etiketi (sağ altı YouTube'un süre yazısı kapatır)
-    w = ciz.textlength("3 HOURS", font=rozet)
+    w = ciz.textlength(sure, font=rozet)
     x0, y0 = 60, Y - 110
     ImageDraw.Draw(im).rounded_rectangle((x0 - 24, y0 - 14, x0 + w + 24, y0 + 62), radius=16, fill=(244, 206, 106, 240))
-    ImageDraw.Draw(im).text((x0, y0), "3 HOURS", font=rozet, fill=(25, 18, 8))
+    ImageDraw.Draw(im).text((x0, y0), sure, font=rozet, fill=(25, 18, 8))
     return im.convert("RGB")
 
 
-def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False, sag=False):
+def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False, sag=False, sure="3 HOURS"):
     ox, oy = odak_xy
     z = 1.18                                                          # hafif yakınlaş (ateş ve pencere kadrajda kalsın)
     w, h = G / z, Y / z
@@ -95,7 +95,7 @@ def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False, sag=False):
         f1 = font_sigdir(ciz, baslik, KALIN, 80, 760)
         hz, px = ("ra", G - 56) if sag else ("la", 56)
         golgeli_yazi(im, (px, 56), baslik, f1, BEYAZ, hiza=hz)
-        t = f"3 HOURS  ·  {alt.upper()}"
+        t = f"{sure}  ·  {alt.upper()}"
         golgeli_yazi(im, (px, 56 + int(f1.size * 1.15)), t, font_sigdir(ciz, t, YARI, 34, 760), ALTIN, golge=6, cizgi=3, hiza=hz)
         return im.convert("RGB")
     alt_karart = Image.new("L", im.size, 0)                           # alt bandı koyulaştır
@@ -104,7 +104,7 @@ def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False, sag=False):
     ciz = ImageDraw.Draw(im)
     f1 = font_sigdir(ciz, baslik, KALIN, 98, G - 140)
     golgeli_yazi(im, (G // 2, 560), baslik, f1, BEYAZ, hiza="mm")
-    golgeli_yazi(im, (G // 2, 645), f"3 HOURS  ·  {alt.upper()}", font_sigdir(ciz, f"3 HOURS  ·  {alt.upper()}", YARI, 36, G - 160),
+    golgeli_yazi(im, (G // 2, 645), f"{sure}  ·  {alt.upper()}", font_sigdir(ciz, f"{sure}  ·  {alt.upper()}", YARI, 36, G - 160),
                  ALTIN, golge=6, cizgi=3, hiza="mm")
     return im.convert("RGB")
 
@@ -128,8 +128,9 @@ def main():
         baslik, alt = metinler.get(ad, [ayar.get("ad", ad).upper(), "Deep Sleep & Relaxation"])
         kaynak = Image.open(klasor / ayar.get("gorsel_4k", ayar["gorsel"])).convert("RGB").resize((G, Y), Image.LANCZOS)
         gen = cv2.imread(str(klasor / ayar["gorsel"])).shape[1]
-        secenek_B(kaynak, baslik, alt).save(klasor / "kapak_3saat_B.jpg", quality=92)
-        secenek_C(kaynak, baslik, alt, odak(ayar, gen), ayar.get("kapak_yazi") in ("sol_ust", "sag_ust"), ayar.get("kapak_yazi") == "sag_ust").save(klasor / "kapak_3saat_C.jpg", quality=92)
+        sure = ayar.get("sure_etiket", "3 HOURS")                      # 8 saatlik videoda "8 HOURS"
+        secenek_B(kaynak, baslik, alt, sure).save(klasor / "kapak_3saat_B.jpg", quality=92)
+        secenek_C(kaynak, baslik, alt, odak(ayar, gen), ayar.get("kapak_yazi") in ("sol_ust", "sag_ust"), ayar.get("kapak_yazi") == "sag_ust", sure).save(klasor / "kapak_3saat_C.jpg", quality=92)
         secenek_D(kaynak).save(klasor / "kapak_3saat_D.jpg", quality=92)
         print(f"{ad}: B, C ve D hazır ({baslik} / {alt})")
 
