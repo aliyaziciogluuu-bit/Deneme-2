@@ -1,0 +1,589 @@
+{
+  "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 66). a/b: [merkez_x, merkez_y, genişlik]. Kapak videoda kullanılmadı. Düşürülen görseller yerine: bezler→gercek_portre, gercek_rize, kurbaga_yakin; eldiven→kova_gonullu, el_yikama; veteriner→kopek_belirti; sigil_el→el_yikama, kurbaga_yakin; golet_yumurta→gercek_goc_cifti, goc_yolu. Etiketler sol üst köşededir; hayvanın başı o bölgeden uzak tutuldu. kova_gonullu'da kovanın alt kısmındaki harf benzeri izler kadraj dışında bırakıldı (en küçük genişlik 0,75).",
+  "cekimler": [
+    {
+      "n": 1,
+      "gorsel": "tas_alti_kurbaga",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.58,
+        0.45,
+        0.75
+      ],
+      "klip": "acilis"
+    },
+    {
+      "n": 3,
+      "gorsel": "gercek_rize",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.4,
+        0.4,
+        0.7
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kurbaga_yakin",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.58,
+        0.45,
+        0.8
+      ],
+      "klip": "s1_kurbaga_yakin"
+    },
+    {
+      "n": 2,
+      "gorsel": "gercek_kirklareli",
+      "a": [
+        0.4,
+        0.578,
+        1.0
+      ],
+      "b": [
+        0.4,
+        0.58,
+        0.7
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "cocuk_kurbaga",
+      "a": [
+        0.35,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.4,
+        0.6,
+        0.9
+      ]
+    },
+    {
+      "n": 3,
+      "gorsel": "el_yikama",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.45,
+        0.6,
+        0.8
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "gercek_portre",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.5,
+        0.42,
+        0.7
+      ],
+      "etiket": "Kara kurbağası"
+    },
+    {
+      "n": 2,
+      "gorsel": "gercek_rize",
+      "a": [
+        0.39,
+        0.35,
+        0.7
+      ],
+      "b": [
+        0.39,
+        0.35,
+        0.66
+      ],
+      "etiket": "Gözün arkasındaki bez"
+    },
+    {
+      "n": 1,
+      "gorsel": "kurbaga_yakin",
+      "a": [
+        0.55,
+        0.5,
+        0.9
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "gercek_portre",
+      "a": [
+        0.5,
+        0.45,
+        0.8
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "gercek_kirklareli",
+      "a": [
+        0.4,
+        0.578,
+        0.7
+      ],
+      "b": [
+        0.4,
+        0.578,
+        1.0
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kopek_bahce",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.4,
+        0.55,
+        0.8
+      ],
+      "klip": "s2_kopek_bahce"
+    },
+    {
+      "n": 1,
+      "gorsel": "kopek_kurbaga",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.58,
+        0.65,
+        0.7
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kopek_belirti",
+      "a": [
+        0.35,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.4,
+        0.55,
+        0.75
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kurbaga_yakin",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.58,
+        0.45,
+        0.8
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kopek_bahce",
+      "a": [
+        0.4,
+        0.55,
+        0.8
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "kopek_belirti",
+      "a": [
+        0.4,
+        0.55,
+        0.75
+      ],
+      "b": [
+        0.35,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "aksam_bahce",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.52,
+        0.55,
+        0.9
+      ]
+    },
+    {
+      "n": 3,
+      "gorsel": "cocuk_kurbaga",
+      "a": [
+        0.4,
+        0.6,
+        0.9
+      ],
+      "b": [
+        0.35,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "el_yikama",
+      "a": [
+        0.45,
+        0.6,
+        0.8
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "kova_gonullu",
+      "a": [
+        0.5,
+        0.55,
+        0.85
+      ],
+      "b": [
+        0.5,
+        0.56,
+        0.75
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "gercek_rize",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.5,
+        0.5,
+        0.9
+      ],
+      "etiket": "Rize, Türkiye"
+    },
+    {
+      "n": 1,
+      "gorsel": "gercek_kirklareli",
+      "a": [
+        0.4,
+        0.578,
+        1.0
+      ],
+      "b": [
+        0.4,
+        0.58,
+        0.7
+      ],
+      "etiket": "Kırklareli, Türkiye"
+    },
+    {
+      "n": 1,
+      "gorsel": "bufotes",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.45,
+        0.5,
+        0.8
+      ],
+      "etiket": "Yeşil benekli kara kurbağası"
+    },
+    {
+      "n": 1,
+      "gorsel": "gercek_portre",
+      "a": [
+        0.5,
+        0.42,
+        0.7
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "aksam_bahce",
+      "a": [
+        0.52,
+        0.55,
+        0.9
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 3,
+      "gorsel": "isi_av",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.6,
+        0.5,
+        0.92
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "tas_alti_kurbaga",
+      "a": [
+        0.58,
+        0.45,
+        0.75
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "goc_yolu",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.5,
+        0.62,
+        0.85
+      ]
+    },
+    {
+      "n": 3,
+      "gorsel": "gercek_goc_cifti",
+      "a": [
+        0.45,
+        0.45,
+        0.9
+      ],
+      "b": [
+        0.48,
+        0.46,
+        0.95
+      ],
+      "etiket": "Erkek, dişinin sırtında"
+    },
+    {
+      "n": 1,
+      "gorsel": "goc_yolu",
+      "a": [
+        0.5,
+        0.62,
+        0.85
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 3,
+      "gorsel": "yol_gecis",
+      "a": [
+        0.3,
+        0.55,
+        0.7
+      ],
+      "b": [
+        0.65,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "kova_gonullu",
+      "a": [
+        0.5,
+        0.56,
+        0.75
+      ],
+      "b": [
+        0.5,
+        0.55,
+        0.85
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "el_yikama",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.45,
+        0.6,
+        0.8
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kurbaga_yakin",
+      "a": [
+        0.58,
+        0.45,
+        0.8
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "gercek_kirklareli",
+      "a": [
+        0.4,
+        0.58,
+        0.7
+      ],
+      "b": [
+        0.4,
+        0.578,
+        1.0
+      ]
+    },
+    {
+      "n": 2,
+      "gorsel": "gercek_rize",
+      "a": [
+        0.5,
+        0.5,
+        0.9
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "yol_gecis",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.52,
+        0.5,
+        0.85
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kapanis",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.55,
+        0.5,
+        0.85
+      ],
+      "klip": "kapanis"
+    },
+    {
+      "n": 2,
+      "gorsel": "gercek_portre",
+      "a": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "b": [
+        0.5,
+        0.42,
+        0.7
+      ]
+    },
+    {
+      "n": 1,
+      "gorsel": "kapanis",
+      "a": [
+        0.55,
+        0.5,
+        0.85
+      ],
+      "b": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    }
+  ]
+}

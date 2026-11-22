@@ -18,32 +18,73 @@
       "cumleler": [
         {
           "yazi": "Hayır, kurbağa siğil yapmaz.",
-          "gorsel": "tas_alti_kurbaga"
+          "gorsel": "tas_alti_kurbaga",
+          "klip": "acilis",
+          "kx": 0.59,
+          "x": 0.56,
+          "aw": 0.85,
+          "ay": 0.55,
+          "w": 0.8,
+          "y": 0.5
         },
         {
           "yazi": "Siğile insan papilloma virüsü neden olur; kurbağalar bu virüsü taşımaz.",
           "ses": "Siğile insan papiloma virüsü neden olur; kurbağalar bu virüsü taşımaz.",
-          "gorsel": "kurbaga_yakin"
+          "gorsel": "kurbaga_yakin",
+          "klip": "s1_kurbaga_yakin",
+          "kx": 0.57,
+          "x": 0.55,
+          "aw": 0.65,
+          "ay": 0.49,
+          "w": 0.6,
+          "y": 0.47
         },
         {
           "yazi": "Kara kurbağasının gözlerinin arkasındaki iki bez, saldırıya uğrayınca tadı kötü bir salgı çıkarıyor.",
-          "gorsel": "bezler"
+          "gorsel": "gercek_portre",
+          "x": 0.5,
+          "aw": 0.85,
+          "ay": 0.52,
+          "w": 0.8,
+          "y": 0.5
         },
         {
           "yazi": "Bize göre bu salgıyı gözüne ve ağzına değdirme; dokunduysan ellerini sabun ve suyla yıka, kuşkun varsa doktora danış.",
-          "gorsel": "el_yikama"
+          "gorsel": "el_yikama",
+          "x": 0.42,
+          "aw": 0.7,
+          "ay": 0.6,
+          "w": 0.65,
+          "y": 0.6
         },
         {
           "yazi": "Kurbağalar salmonella taşıyabiliyor; enfeksiyon küçük çocuklar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.",
-          "gorsel": "cocuk_kurbaga"
+          "gorsel": "cocuk_kurbaga",
+          "x": 0.35,
+          "x2": 0.34,
+          "aw": 0.55,
+          "ay": 0.72,
+          "w": 0.5,
+          "y": 0.72
         },
         {
           "yazi": "Çıplak elle dokunma; zorunluysa tek kullanımlık eldiven tak.",
-          "gorsel": "eldiven"
+          "gorsel": "kova_gonullu",
+          "x": 0.48,
+          "x2": 0.5,
+          "aw": 0.85,
+          "ay": 0.45,
+          "w": 0.8,
+          "y": 0.45
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "kapanis"
+          "gorsel": "kapanis",
+          "x": 0.525,
+          "aw": 0.8,
+          "ay": 0.5,
+          "w": 0.75,
+          "y": 0.48
         }
       ]
     },
@@ -65,31 +106,70 @@
       "cumleler": [
         {
           "yazi": "Köpeğin kurbağayı ağzına aldıysa vakit kaybetmeden veterinere başvur.",
-          "gorsel": "kopek_bahce"
+          "gorsel": "kopek_bahce",
+          "klip": "s2_kopek_bahce",
+          "kx": 0.21,
+          "x": 0.3,
+          "aw": 1.0,
+          "ay": 0.5,
+          "w": 0.9,
+          "y": 0.5
         },
         {
           "yazi": "Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.",
-          "gorsel": "kopek_kurbaga"
+          "gorsel": "kopek_kurbaga",
+          "x": 0.58,
+          "x2": 0.58,
+          "aw": 0.75,
+          "ay": 0.625,
+          "w": 0.72,
+          "y": 0.62
         },
         {
           "yazi": "Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık; hafife de almıyoruz.",
-          "gorsel": "kurbaga_yakin"
+          "gorsel": "kurbaga_yakin",
+          "x": 0.55,
+          "aw": 0.65,
+          "ay": 0.49,
+          "w": 0.6,
+          "y": 0.47
         },
         {
           "yazi": "Aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılma varsa hemen veterinere git.",
-          "gorsel": "kopek_belirti"
+          "gorsel": "kopek_belirti",
+          "x": 0.32,
+          "aw": 0.8,
+          "ay": 0.51,
+          "w": 0.75,
+          "y": 0.5
         },
         {
           "yazi": "Veterinere neyi ve ne kadar yediğini söyle.",
-          "gorsel": "veteriner"
+          "gorsel": "kopek_belirti",
+          "x": 0.28,
+          "x2": 0.3,
+          "aw": 1.0,
+          "ay": 0.5,
+          "w": 0.9,
+          "y": 0.5
         },
         {
           "yazi": "Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma.",
-          "gorsel": "aksam_bahce"
+          "gorsel": "aksam_bahce",
+          "x": 0.51,
+          "aw": 0.95,
+          "ay": 0.52,
+          "w": 0.9,
+          "y": 0.5
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "kapanis"
+          "gorsel": "kapanis",
+          "x": 0.525,
+          "aw": 0.8,
+          "ay": 0.5,
+          "w": 0.75,
+          "y": 0.48
         }
       ]
     }

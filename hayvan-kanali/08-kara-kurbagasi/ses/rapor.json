@@ -355,5 +355,82 @@
   "hata": 2,
   "sure": 6.9,
   "uygun": false
+ },
+ "051": {
+  "yazi": "Bu yolculuk onlara neye mal oluyor?",
+  "duyulan": "Bu yolculuk onlara neye mal oluyor?",
+  "hata": 0,
+  "sure": 2.24,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Bir kaynağa göre Avrupa'da kara kurbağası, yolda ölüm oranı en yüksek amfibilerden biri.",
+  "duyulan": "Bir kaynağa göre Avrupa'da kara kurbağası, yolda ölüm oranı en yüksek anfibilerden biri.",
+  "hata": 1,
+  "sure": 5.84,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Hollanda'da tek bir sakin köy yolunda yapılan bir tahmine göre dişilerin yüzde otuzu ölmüş.",
+  "duyulan": "Hollanda'da tek bir sakin köy yolunda yapılan bir tahmine göre dişilerin %30'u ölmüş.",
+  "hata": 0,
+  "sure": 5.72,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Bazı ülkelerde yolun altına kurbağa tüneli yapılmış; bazı yerlerde gönüllüler onları kovayla karşıya taşıyor.",
+  "duyulan": "Bazı ülkelerde yolun altına kurbağa tüneli yapılmış bazı yerlerde gönüllüler onları kovayla karşıya taşıyor.",
+  "hata": 0,
+  "sure": 6.78,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Bize göre yağmurlu akşamlarda yolda yavaşla; kurbağayı elle taşımak zorundaysan tek kullanımlık eldiven tak.",
+  "duyulan": "Bize göre, yağmurlu akşamlarda yolda yavaşla, kurbağayı elle taşımak zorundaysan tek kullanımlık eldiven tak.",
+  "hata": 0,
+  "sure": 7.24,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Taşıdıktan sonra ellerini sabun ve suyla yıka.",
+  "duyulan": "Taşıdıktan sonra ellerini sabun ve suyla yıka.",
+  "hata": 0,
+  "sure": 2.66,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Yaralı ya da hasta kurbağa bulursan veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Yaralı ya da hasta kurbağı bulursan veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.",
+  "hata": 1,
+  "sure": 7.38,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Kara kurbağası Türkiye'de yasal olarak korunuyor mu?",
+  "duyulan": "Kara kurbağası Türkiye'de yasal olarak korunuyor mu?",
+  "hata": 0,
+  "sure": 3.18,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Kütahya'da yapılan bir araştırma, siğilli kurbağayı Bern Sözleşmesi'nin korunan türler listesinde gösteriyor.",
+  "duyulan": "Kütahya'da yapılan bir araştırma, sihirli kurbağayı Bern Sözleşmesi'nin korunan türler listesinde gösteriyor.",
+  "hata": 1,
+  "sure": 6.36,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Bunun hukuken ne anlama geldiğini doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Bunun hukuken ne anlama geldiğini doğrulayamadık. Emin olmak için Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne danış.",
+  "hata": 0,
+  "sure": 7.98,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Avrupa'da kara kurbağası bazı yerlerde azalıyor; yaşam alanı kaybı, göletlerin kurutulması ve yol ölümleri tehdit ediyor.",
+  "duyulan": "Avrupa'da kara kurbağası bazı yerlerde azalıyor. Yaşam alanı kaybı, göletlerin kurutulması ve yol ölümleri tehdit ediyor.",
+  "hata": 0,
+  "sure": 8.06,
+  "uygun": true
  }
 }
