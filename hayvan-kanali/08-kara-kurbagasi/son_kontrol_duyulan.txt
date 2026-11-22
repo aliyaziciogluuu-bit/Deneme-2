@@ -1,6 +1,6 @@
 000 fark=0 | Taşı kaldırıyorsun; altında yumru yumru bir hayvan var. || Taşı kaldırıyorsun, altında yumru yumru bir hayvan var.
-001 fark=0 | Kurbağaya dokunursan elinde siğil çıkar mı? || Kurbağa'ya dokunursan elinde sil çıkar mı?
-002 fark=0 | Çıkmaz: siğile insan papilloma virüsü neden olur ve kurbağalar bu virüsü taşımaz. || Çıkmaz. Sihile insan papiloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.
+001 fark=0 | Kurbağaya dokunursan elinde siğil çıkar mı? || Kurbağa'ya dokunursan elinde sihil çıkar mı?
+002 fark=0 | Çıkmaz: siğil, insan papilloma virüsünden kaynaklanır ve kurbağalar bu virüsü taşımaz. || Çıkmaz. Sihil, insan papilloma virüsünden kaynaklanır ve kurbağalar bu virüsü taşımaz.
 003 fark=0 | Asıl dikkat etmen gereken başka: gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri. || Asıl dikkat etmen gereken başka, gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri.
 004 fark=0 | Derisindeki o yumrular ne? || Derisindeki o yumrular ne?
 005 fark=0 | Siğil değiller: boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksiyondan olmuyorlar. || Sihil değiller, boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksiyondan olmuyorlar.
@@ -8,7 +8,7 @@
 007 fark=0 | Siğil gerçekte nereden çıkıyor? || Sihil gerçekte nereden çıkıyor?
 008 fark=0 | İngiliz halk inanışına göre kurbağaya dokunmak siğil çıkarır; Alman inanışına göre dolunayda dokunmak siğili geçirir. || İngiliz halk inanışına göre kurbağa'ya dokunmak sihil çıkarır. Alman inanışına göre Dolunay'da dokunmak sihili geçirir.
 009 fark=0 | Siğil, kanser olmayan bir deri büyümesi. || Sihil, kanser olmayan bir deri büyümesi.
-010 fark=0 | Genellikle ellerde ve ayaklarda çıkıyor; virüsün deriye yaradan girdiği düşünülüyor. || Genellikle ellerde ve ayaklarda çıkıyor, virüsün deriye yaradan girdiği düşünülüyor.
+010 fark=0 | Genellikle ellerde ve ayaklarda çıkıyor; virüsün deriye yaradan girdiği düşünülüyor. || Genellikle ellerde ve ayaklarda çıkıyor. Virüsün deriye yaradan girdiği düşünülüyor.
 011 fark=0 | Çoğu siğil türü aylar ya da yıllar içinde geçiyor; elindeki siğil için doktoruna danış. || Çoğu sihil türü aylar ya da yıllar içinde geçiyor. Elindeki sihil için doktoruna danış.
 012 fark=0 | O bezlerin içinde ne var? || O bezlerin içinde ne var?
 013 fark=0 | Kara kurbağasının gözlerinin hemen arkasında, eğik duran iki şişkin bez var. || Kara kurbağasının gözlerinin hemen arkasında eğik duran iki şişkin bez var.
@@ -17,8 +17,8 @@
 016 fark=0 | Bir kaynağa göre kurbağa zehrini yemek ya da içmek yüzünden insan zehirlenmesi nadir ama öldürücü olabiliyor. || Bir kaynağa göre kurbağa zehrini yemek ya da içmek yüzünden insan zehirlenmesi nadir ama öldürücü olabiliyor.
 017 fark=0 | Örnek olarak çorba, et ya da yumurta tüketimi ve canlı hayvan yutmak sayılıyor. || Örnek olarak çorba, et ya da yumurta tüketimi ve canlı hayvan yutmak sayılıyor.
 018 fark=0 | Aynı kaynak, hafif belirtiler arasında gözde, ağızda ya da açık yarada yanma ve karıncalanmayı sayıyor. || Aynı kaynak, hafif belirtiler arasında gözde, ağızda ya da açık yarada yanma ve karıncalanmayı sayıyor.
-019 fark=0 | Bize göre hayvanı sıkma; gözüne, ağzına ya da yarana değdirme; yanma sürerse doktora danış. || Bize göre hayvanı sıkma, gözüne ağzına ya da yarana değdirme. Yanma sürerse doktora danış.
-020 fark=1 | Peki köpeğin kurbağayı yalarsa ya da ısırırsa ne olur? || Peki, köpeğin kurbağı yalarsa ya da ısırırsa ne olur?
+019 fark=0 | Bize göre hayvanı sıkma; gözüne, ağzına ya da yarana değdirme; yanma sürerse doktora danış. || Bize göre hayvanı sıkma, gözüne, ağzına ya da yarana değdirme. Yanma sürerse doktora danış.
+020 fark=1 | Peki köpeğin kurbağayı yalarsa ya da ısırırsa ne olur? || Peki köpeğin kurbağı yalarsa ya da ısırırsa ne olur?
 021 fark=0 | Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor. || Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.
 022 fark=0 | Aynı kaynak, aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılmada acil veteriner yardımı öneriyor. || Aynı kaynak, aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılmada acil veteriner yardımı öneriyor.
 023 fark=0 | Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık; hafife de almıyoruz. || Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık, hafife de almıyoruz.
@@ -42,7 +42,7 @@
 041 fark=0 | Yiyecekleri arasında karınca, tırtıl, sinek, örümcek, solucan ve sümüklüböcek var. || Yiyecekleri arasında karınca, tırtıl, sinek, örümcek, solucan ve sümüklü böcek var.
 042 fark=0 | Dişleri yok; avını bütün yutuyor. || Dişleri yok, avını bütün yutuyor.
 043 fark=0 | İngiltere'deki dernek, kurbağaların ve kara kurbağalarının çok sayıda böcek yediğini yazıyor; kara kurbağaları özellikle karıncayı tercih ediyor. || İngiltere'deki dernek kurbağaların ve kara kurbağalarının çok sayıda böcek yediğini yazıyor. Kara kurbağaları özellikle karıncayı tercih ediyor.
-044 fark=1 | Kışın toprakta bir oyuğa, bazen de bodruma giriyorlar; çoğu zaman başka kurbağalarla birlikte. || Kışın toprakta bir oyuağa bazen de bodruma giriyorlar, çoğu zaman başka kurbağalarla birlikte.
+044 fark=1 | Kışın toprakta bir oyuğa, bazen de bodruma giriyorlar; çoğu zaman başka kurbağalarla birlikte. || Kışın, toprakta bir oyuağa bazen de bodruma giriyorlar, çoğu zaman başka kurbağalarla birlikte.
 045 fark=0 | Peki baharda bu hayvanlar neden yola çıkıyor? || Peki baharda bu hayvanlar neden yola çıkıyor?
 046 fark=0 | Kara kurbağaları baharda uyanıp topluca üreme göletine yürüyor; bir kilometreden fazla yol gidebiliyorlar. || Karakurbağaları baharda uyanıp topluca üreme göletine yürüyor. Bir kilometreden fazla yol gidebiliyorlar.
 047 fark=0 | Avrupa'daki bir araştırmada, küçükken işaretlenip sonradan üremeye dönen erkeklerin büyük çoğunluğu doğdukları gölette yakalanmış. || Avrupa'daki bir araştırmada, küçükken işaretlenip sonradan üremeye dönen erkeklerin büyük çoğunluğu doğdukları gölette yakalanmış.
@@ -57,10 +57,10 @@
 056 fark=0 | Taşıdıktan sonra ellerini sabun ve suyla yıka. || Taşıdıktan sonra ellerini sabun ve suyla yıka,
 057 fark=1 | Yaralı ya da hasta kurbağa bulursan veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. || Yaralı ya da hasta kurbağı bulursan veterinere ya da bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.
 058 fark=0 | Kara kurbağası Türkiye'de yasal olarak korunuyor mu? || Kara kurbağası Türkiye'de yasal olarak korunuyor mu?
-059 fark=1 | Kütahya'da yapılan bir araştırma, kara kurbağasını Bern Sözleşmesi'nin korunan türler listesinde gösteriyor. || Kütahya'da yapılan bir araştırma, Karakorbağası'nı Berne Sözleşmesi'nin korunan türler listesinde gösteriyor.
+059 fark=0 | Kütahya'da yapılan bir araştırma, kara kurbağasını Bern Sözleşmesi'nin korunan türler listesinde gösteriyor. || Kütahya'da yapılan bir araştırma, Karakorbağ'sını Berne Sözleşmesi'nin korunan türler listesinde gösteriyor.
 060 fark=0 | Bunun hukuken ne anlama geldiğini doğrulayamadık; emin olmak için bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. || Bunun hukuken ne anlama geldiğini doğrulayamadık. Emin olmak için Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.
 061 fark=0 | Avrupa'da kara kurbağası bazı yerlerde azalıyor; yaşam alanı kaybı, göletlerin kurutulması ve yol ölümleri tehdit ediyor. || Avrupa'da kara kurbağası bazı yerlerde azalıyor. Yaşam alanı kaybı, göletlerin kurutulması ve yol ölümleri tehdit ediyor.
 062 fark=1 | Kurbağa siğil çıkarmaz; asıl dikkat edeceğin şeyler bezlerindeki salgı, salmonella ve evcil hayvanın güvenliği. || Kurbağa sihir çıkarmaz. Asıl dikkat edeceğin şeyler bezlerindeki salgı, salmonella ve evcil hayvanın güvenliği.
 063 fark=0 | Senin oralarda bu hayvana ne diyorlar? || Senin oralarda bu hayvana ne diyorlar?
 064 fark=0 | Sıradaki komşu: yılan; ahırdaki ineği gerçekten sağar mı? || Sıradaki komşu yılan, ahırdaki ineği gerçekten sağar mı?
-065 fark=0 | Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere. || Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.
+065 fark=0 | Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere. || Avludaki komşularda, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.
