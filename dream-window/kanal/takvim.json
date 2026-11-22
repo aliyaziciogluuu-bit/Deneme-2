@@ -55,7 +55,7 @@
     "planli_shorts": true
   },
   "2026-11-30": {
-    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel kulübesi (18 Kasım'da yayınlanan 3 saatlik 4K) videosunu olmalı; boşsa bağla.",
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel kulübesi (18 Kasım'da yayınlanan 3 saatlik 4K) videosu olmalı; boşsa bağla.",
     "planli_shorts": true
   },
   "2026-12-01": {
@@ -63,15 +63,15 @@
     "planli_uzun": "07-christmas-eve"
   },
   "2026-12-02": {
-    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel arifesi (dün yayınlanan 3 saatlik) videosunu olmalı; boşsa bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel arifesi (dün yayınlanan 3 saatlik) videosu olmalı; boşsa bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
     "planli_shorts": true
   },
   "2026-12-03": {
-    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Karlı kasaba videosunu olmalı; boşsa bağla.",
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Karlı kasaba videosu olmalı; boşsa bağla.",
     "planli_shorts": true
   },
   "2026-12-04": {
-    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Kütüphane (3 saatlik) videosunu olmalı; boşsa bağla.",
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Kütüphane (3 saatlik) videosu olmalı; boşsa bağla.",
     "planli_shorts": true
   },
   "2026-12-05": {
@@ -79,11 +79,11 @@
     "planli_uzun": "10-japanese-garden"
   },
   "2026-12-06": {
-    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Çatı katı (25 Kasım'da yayınlanan 3 saatlik) videosunu olmalı; boşsa bağla. Küçük resim testi (B / yazısız D, 22 Kasım'da başlatıldı): Studio'da yayındaki uzun videoların 'Test et ve karşılaştır' sonuçlarının ekran görüntüsünü Claude'a gönder; hangisi kazandıysa bundan sonraki videolarda o tarz ana küçük resim olur.",
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Çatı katı (25 Kasım'da yayınlanan 3 saatlik) videosu olmalı; boşsa bağla. Küçük resim testi (B / yazısız D, 22 Kasım'da başlatıldı): Studio'da yayındaki uzun videoların 'Test et ve karşılaştır' sonuçlarının ekran görüntüsünü Claude'a gönder; hangisi kazandıysa bundan sonraki videolarda o tarz ana küçük resim olur.",
     "planli_shorts": true
   },
   "2026-12-07": {
-    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Japon bahçesi 3 saatlik videosunu olmalı; boşsa bağla.",
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Japon bahçesi 3 saatlik videosu olmalı; boşsa bağla.",
     "planli_shorts": true
   },
   "2026-12-09": {

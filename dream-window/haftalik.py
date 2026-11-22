@@ -56,7 +56,7 @@ def planlandi(bas, bit):
             g["planli_shorts"] = True
             # "Bu Shorts'u yüklerken İlgili video olarak X'i seç" → yüklemede yapıldı; planlı uzun video seçilemediyse diye kontrol notuna çevir
             n = re.sub(r"Bu Shorts'u yüklerken İlgili video olarak (.*?) seç(?: \([^)]*\))?\.\s*",
-                       lambda m: f"Kontrol: bugünkü Shorts'un İlgili videosu {m.group(1)} olmalı; boşsa bağla. ", g.get("not", "")).strip()
+                       lambda m: f"Kontrol: bugünkü Shorts'un İlgili videosu {re.sub(r'videosunu$', 'videosu', m.group(1))} olmalı; boşsa bağla. ", g.get("not", "")).strip()
             if n:
                 g["not"] = n
             else:
