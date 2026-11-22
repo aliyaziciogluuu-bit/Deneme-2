@@ -22,9 +22,9 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Çar 2 Ara | Karga Seni Hatırlar mı? (karga s1) | — | yüklenecek |
 | Per 3 Ara | Karga Taşla Su Yükseltir mi? (karga s2) | **Kırlangıç** | teslim edildi 20 Kas |
 | Cum 4 Ara | Kırlangıç Kışı Nerede Geçiriyor? (kırlangıç s1) | — | teslim edildi |
-| Cmt 5 Ara | Kırlangıç Yuvasını Bozarsan Ne Olur? (kırlangıç s2) | **Kara kurbağası** (planlanacak) | Shorts teslim edildi |
-| Paz 6 Ara | Kurbağaya Dokunursan Siğil Olur mu? (kara kurbağası s1-sigil) | — | yönetici önerisi: uzun videodan 1 gün sonra (9 Ara'dan öne alındı) |
-| Pzt 7 Ara | Köpek Kurbağayı Ağzına Alırsa Ne Yapmalı? (kara kurbağası s2-kopek) | — | 10 Ara'dan öne alındı |
+| Cmt 5 Ara | Kırlangıç Yuvasını Bozarsan Ne Olur? (kırlangıç s2) | **Kara kurbağası** (5 Ara 18:00 planlandı, 22 Kas) | Shorts teslim edildi |
+| Paz 6 Ara | Kurbağaya Dokunursan Siğil Olur mu? (kara kurbağası s1-sigil) | — | planlandı 22 Kas (yükleme asistanı) |
+| Pzt 7 Ara | Köpek Kurbağayı Ağzına Alırsa Ne Yapmalı? (kara kurbağası s2-kopek) | — | planlandı 22 Kas (yükleme asistanı) |
 | Sal 8 Ara | karga s3 (YENİ) | **sıradaki video: yılan – ahırdaki ineği sağar mı?** (kara kurbağası kapanışı bunu duyuruyor; değişirse kapanış ve bitiş ekranı da değişir) | — |
 | Çar 9 Ara | yarasa s3 (YENİ, 6 Ara'dan kaydırıldı) | — | hazır |
 | Per 10 Ara | baykuş s3 (YENİ, 7 Ara'dan kaydırıldı) | sıradaki video | hazır |
@@ -41,3 +41,5 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 - 21 Kasım: baykuş (28 Kas 18:00) ve Shorts'ları (29, 30 Kas 12:00) bilgisayardaki yükleme asistanıyla yüklendi ve planlandı (ilk otomatik yükleme). Yayından sonra yapılacak: iki Shorts'ta 'İlgili video' = baykuş, sabit yorum.
 - 22 Kasım stüdyo asistanı taraması: iki yarasa Shorts'unda yapay içerik boş; geko'da bitiş ekranı yok; yılan/kirpi/yarasa yalnızca otomatik altyazı; geko kategorisi "Eğitim", yılan "Kişiler ve Bloglar"; kirpi ve yarasa Shorts başlıklarına elle "#kertenkele" vb. eklenmiş (dosyalarda yok). Düzeltme talimatı verildi.
 - 22 Kasım: stüdyo asistanı 5 düzeltmeyi uyguladı ve doğruladı (yarasa Shorts yapay içerik Evet; geko bitiş ekranı 5:42–5:56; yılan/kirpi/yarasa Türkçe altyazı yayınlandı; geko ve yılan kategorisi Evcil ve Yabani Hayvanlar; kirpi/yarasa Shorts başlıkları dosyalarla birebir). Kalan: 6 Shorts ilgili video (24, 26, 28 Kasım yayınlarından sonra).
+
+- 22 Kasım: kara kurbağası (5 Ara 18:00) ve Shorts'ları (6, 7 Ara 12:00) yükleme asistanıyla planlandı. Küçük resim testi A/B/C kuruldu; bitiş ekranı 5:54–6:08 'İzleyici için en iyisi' + abone. Yayından sonra: iki Shorts'ta İlgili video, sabit yorum, kırlangıç bitiş ekranı → kara kurbağası.
