@@ -241,6 +241,9 @@ class Sahne:
             gs = k.get("renk", [0.3, 1.0, 0.12])                       # B, G, R
             for i, f in enumerate(kareler):
                 yes = np.clip((f[..., 1] - 0.5 * (f[..., 0] + f[..., 2]) - k.get("esik", 0.05)) * k.get("kazanc", 1.6), 0, 1)
+                if k.get("doldur"):                                    # kupol çubuklarının bıraktığı boşlukları kapat, kenarları yumuşat
+                    d = int(k["doldur"] * K) | 1
+                    yes = cv2.GaussianBlur(cv2.dilate(yes, np.ones((d, d), np.uint8)), (0, 0), d * 0.45)
                 kareler[i] = (yes[..., None] * np.array(gs, np.float32)).astype(np.float32)
             return self._zaman_buk(kareler, np.ones(3, np.float32), None), kutu, maske * k.get("guc", 0.9)
         orta = np.mean(kareler[::max(len(kareler) // 20, 1)], axis=0)
