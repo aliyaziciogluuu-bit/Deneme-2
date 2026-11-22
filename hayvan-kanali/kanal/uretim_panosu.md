@@ -1,6 +1,6 @@
 # Üretim panosu – Avludaki Komşular
 
-Güncelleme: 21.11.2026 06:46 (`python3 pano.py`)
+Güncelleme: 22.11.2026 06:45 (`python3 pano.py`)
 
 | Video | Bekleyen istasyon | Ayrıntı |
 |---|---|---|
