@@ -38,3 +38,10 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Kitle: kadın %51,8; yaş 35-44 %24,2, 25-34 ve 45-54 %20,7, 55-64 %17,4; cihaz telefon %47,5, TV %24,5 (birlikte izleme 1,62), bilgisayar %16,9, tablet %10,4; Türkiye %28,9 (geri kalan konum bilinmiyor olabilir); altyazısız izleme %26,3.
 - Maliyet: ≈ 0,14 TL / görüntüleme, ≈ 4 TL / izlenme saati. Abone sayısı henüz bilinmiyor.
 - 22 Kasım: geko'dan kazanılan abone: 1 (≈ 572 TL harcama, ≈ 4.100 reklam görüntülemesi). Sonuç: tanıtım abone getirmiyor (≈ 570 TL/abone); öneri: durdur, yenileme.
+
+## 22 Kasım 23:45 – Haftalık veri (stüdyo asistanı, kanal/analiz_2026-11-22.md)
+- Kanal: 8 abone, 6.802 görüntüleme, 123,5 saat (107 saati reklamdan), tıklama oranı %3,2.
+- Sağır yılan (organik): tıklama oranı %4,2 (7,6 B gösterim, %72 göz atma) → paketleme iyi. Tutma zayıf: ort. %18. Düşüşler: 0:11–0:15 %85→%71 ("Oysa o hayvan bir yılan değil. Sağır da değil." — cevap çok erken verilince merak bitiyor); 0:24–1:00 %65→%27 (bilimsel ad, boy, renk, dağılım, yükseklik: ansiklopedi bloğu). Ders zaten uygulanıyor (03 sonrası videolarda ilk 2 dakikada ansiklopedi yok); veriyle doğrulandı.
+- Geko: tutma %49,7 ama izlemenin %98'i reklam; organik görüntüleme 54, tıklama oranı %1,2. 0:03–0:10 düşüşü reklam atlamaları.
+- Shorts izlemeye devam: Göz Kırpıyorsa %51 (en iyi, 4 abone) · 54 Yıl %43 · Yemeğe Düşerse %39 · Tavanda %18 (soruyla açılıyor: "…nasıl yürüyor?"). Örüntü: şaşırtıcı iddiayla açılanlar tutuyor, soruyla açılan kaydırılıyor.
+- Tanıtım: 638,75 TL harcandı, tanıtımdan abone 0, hâlâ etkin → durdurma önerisi tekrarlandı.

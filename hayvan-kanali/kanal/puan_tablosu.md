@@ -36,7 +36,7 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 
 | Video | Son puan | Kanca puanı | Tıklama oranı % | Tutma 0:30 % | Tutma 1:20 % | Ort. izleme % |
 |---|---|---|---|---|---|---|
-| 01-sagir-yilan | – | – | 2.7 | 59.0 | 25.0 | 20.2 |
+| 01-sagir-yilan | – | – | 4.2 | 50.7 | 7.0 | 18.1 |
 
 ## Çalışan karnesi
 
