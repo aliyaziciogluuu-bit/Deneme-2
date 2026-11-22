@@ -127,10 +127,11 @@
  },
  "018": {
   "yazi": "Aynı kaynak, hafif belirtiler arasında gözde, ağız zarında ya da açık yarada yanma ve karıncalanmayı sayıyor.",
-  "duyulan": "Aynı kaynak, hafif belirtiler arasında gözde, ağızlarında ya da açık yarada yanma ve karıncalanmayı sayıyor.",
+  "duyulan": "Aynı kaynak hafif belirtiler arasında gözde, ağızlarında ya da açık yarada yanma ve karıncalanmayı sayıyor.",
   "hata": 2,
-  "sure": 6.68,
-  "uygun": false
+  "sure": 7.74,
+  "uygun": false,
+  "tek_basina": true
  },
  "019": {
   "yazi": "Bize göre hayvanı sıkma; gözüne, ağzına ya da yarana değdirme; yanma sürerse doktora danış.",
