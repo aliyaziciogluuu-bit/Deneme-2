@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "İki bin iki yılında Betty adlı bir dişi karga, düz teli bükerek kanca yaptı.",
+  "duyulan": "2002 yılında Beti adlı bir dişi karga, düz teli bükerek kanca yaptı.",
+  "hata": 1,
+  "sure": 4.68,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti.",
+  "duyulan": "o kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti.",
+  "hata": 0,
+  "sure": 3.9,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Alet ustalarından biri Yeni Kaledonya kargası.",
+  "duyulan": "Alet Ustalarından Biri Yeni Kaledonya Kargası",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Güney Pasifik'teki Yeni Kaledonya adalarında yaşıyor; Türkiye'de yaşamıyor.",
+  "duyulan": "Güney Pasifik'teki yeni Kaladonya adalarında yaşıyor, Türkiye'de yaşamıyor.",
+  "hata": 1,
+  "sure": 4.32,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Sonraki çalışmalar, bu davranışın ne kadar kendiliğinden olduğunu tartışıyor.",
+  "duyulan": "Sonraki çalışmalar bu davranışın ne kadar kendiliğinden olduğunu tartışıyor.",
+  "hata": 0,
+  "sure": 4.16,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.38,
+  "uygun": true
+ }
+}

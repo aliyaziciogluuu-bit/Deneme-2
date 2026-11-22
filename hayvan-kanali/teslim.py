@@ -66,9 +66,20 @@ def main():
                "3. Küçük resim: A dosyası. B ve C varsa \"Test ve karşılaştır\" ile üçünü birlikte yükle.",
                "4. Kitle: çocuklara özel değil. Oynatma listesi: Evin Çevresindeki Hayvanlar.",
                "5. Video öğeleri → Altyazı → Dosya yükle → Zamanlamayla → altyazı dosyası.",
-               "6. Görünürlük → Planla (tarih ve saat teslim raporunda).",
-               "7. Shorts'lar: ayrı yüklenir, uzun video yayına girdikten sonraki günlerde 12:00'ye planlanır; İlgili video = bu video.",
-               "8. Video yayına girince sabit yorum:", f"   {yorum}", "", "Dosyalar:"]
+               ]
+    # Yayın tarihleri senaryo.json "yayin" alanından: {"uzun": "1 Aralık Salı 18:00", "shorts": {"s1-maske": "2 Aralık 12:00", ...}}
+    # (22 Kasım: tarihsiz liste, elle yazılmış tarihlerin üzerine yazılıyordu.)
+    yayin = sen.get("yayin") or {}
+    adimlar.append(f"6. Görünürlük → Planla: **{yayin['uzun']}** (İstanbul saati). \"Değiştirilmiş veya yapay içerik\": Evet."
+                   if yayin.get("uzun") else "6. Görünürlük → Planla (TARİH YOK: senaryo.json \"yayin\" alanına yaz ve teslim.py'yi yeniden çalıştır).")
+    adimlar.append("6b. Bitiş ekranı: bir video öğesi + abone ol öğesi, son 10–15 saniyede.")
+    adimlar.append("7. Shorts'lar ayrı yüklenir; \"Değiştirilmiş veya yapay içerik\": Evet; İlgili video = bu video (yayına girince seçilir).")
+    for _, h in liste:
+        if h.name.startswith("shorts") and h.suffix == ".mp4":
+            sad = "-".join(h.stem.split("-")[1:])
+            tarih = (yayin.get("shorts") or {}).get(sad)
+            adimlar.append(f"   - {h.name} → **{tarih}**" if tarih else f"   - {h.name} → TARİH YOK")
+    adimlar += ["8. Video yayına girince sabit yorum:", f"   {yorum}", "", "Dosyalar:"]
     adimlar += [f"- {h.name}" for _, h in liste]
     (hedef / "YUKLEME_LISTESI.txt").write_text("\n".join(adimlar) + "\n", encoding="utf-8")
     print(f"{len(liste)} dosya kopyalandı ve doğrulandı → {hedef.relative_to(KOK)}")

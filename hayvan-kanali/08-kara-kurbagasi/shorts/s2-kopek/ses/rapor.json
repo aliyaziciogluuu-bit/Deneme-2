@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Köpeğin kurbağayı ağzına aldıysa vakit kaybetmeden veterinere başvur.",
+  "duyulan": "Köpeğin kurbağayı ağzına aldıysa, vakit kaybetmeden veterinere başvur.",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.",
+  "duyulan": "Bir kaynağa göre köpekler Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.",
+  "hata": 0,
+  "sure": 6.26,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık; hafife de almıyoruz.",
+  "duyulan": "Kara kurbasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık. Hafife de almıyoruz.",
+  "hata": 1,
+  "sure": 5.64,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılma varsa hemen veterinere git.",
+  "duyulan": "Aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılma varsa hemen veterinere git.",
+  "hata": 0,
+  "sure": 6.76,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Veterinere neyi ve ne kadar yediğini söyle.",
+  "duyulan": "Veterinerin neyi ve ne kadar yediğini söyle.",
+  "hata": 1,
+  "sure": 2.38,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma.",
+  "duyulan": "Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma.",
+  "hata": 0,
+  "sure": 4.2,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.32,
+  "uygun": true
+ }
+}

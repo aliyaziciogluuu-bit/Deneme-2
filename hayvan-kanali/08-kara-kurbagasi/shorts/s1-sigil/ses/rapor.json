@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Hayır, kurbağa siğil yapmaz.",
+  "duyulan": "Hayır, kurbağa sihir yapmaz.",
+  "hata": 1,
+  "sure": 1.9,
+  "uygun": false
+ },
+ "001": {
+  "yazi": "Siğile insan papilloma virüsü neden olur; kurbağalar bu virüsü taşımaz.",
+  "duyulan": "Si ile insan papiloma virüsü neden olur. Kurbağalar bu virüsü taşımaz.",
+  "hata": 1,
+  "sure": 4.67,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kara kurbağasının gözlerinin arkasındaki iki bez, saldırıya uğrayınca tadı kötü bir salgı çıkarıyor.",
+  "duyulan": "Kara kurbağasının gözlerinin arkasındaki iki bez, saldırıya uğrayınca tadı kötü bir salgı çıkarıyor.",
+  "hata": 0,
+  "sure": 5.81,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bize göre bu salgıyı gözüne ve ağzına değdirme; dokunduysan ellerini sabun ve suyla yıka, kuşkun varsa doktora danış.",
+  "duyulan": "Bize göre bu salgıyı gözüne ve ağzına değdirme. Dokunduysan ellerini sabun ve suyla yıka, kuşkun varsa doktora danış.",
+  "hata": 0,
+  "sure": 7.39,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Kurbağalar salmonella taşıyabiliyor; enfeksiyon küçük çocuklar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.",
+  "duyulan": "Kurbağalar salmonella taşıyabiliyor. Enfeksiyon küçük çocuklar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.",
+  "hata": 0,
+  "sure": 6.07,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Çıplak elle dokunma; zorunluysa tek kullanımlık eldiven tak.",
+  "duyulan": "Çıplak elle dokunma, zorunluysa tek kullanımlık eldiven tak.",
+  "hata": 0,
+  "sure": 3.48,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.2,
+  "uygun": true
+ }
+}

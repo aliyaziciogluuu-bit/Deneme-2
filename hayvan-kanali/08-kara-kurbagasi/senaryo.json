@@ -341,5 +341,12 @@
       "etiket": "C"
     }
   ],
-  "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video (yılan ve süt efsanesi). Son 10-15 saniyede ekranda boş alan kalır."
+  "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video (yılan ve süt efsanesi). Son 10-15 saniyede ekranda boş alan kalır.",
+  "yayin": {
+    "uzun": "5 Aralık Cumartesi 18:00",
+    "shorts": {
+      "s1-sigil": "9 Aralık 12:00",
+      "s2-kopek": "10 Aralık 12:00"
+    }
+  }
 }

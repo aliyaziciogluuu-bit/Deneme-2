@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Baykuş, neredeyse hiç ses çıkarmadan uçabiliyor.",
+  "duyulan": "Baykuş neredeyse hiç ses çıkarmadan uçabiliyor.",
+  "hata": 0,
+  "sure": 3.24,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var.",
+  "duyulan": "Kanıdın ön kenarındaki tüylerde tarak gibi ince dişler var.",
+  "hata": 1,
+  "sure": 4.14,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bu dişler, kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor.",
+  "duyulan": "Bu dişler kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor.",
+  "hata": 0,
+  "sure": 5.44,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak.",
+  "duyulan": "Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak.",
+  "hata": 0,
+  "sure": 4.32,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor.",
+  "duyulan": "Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor.",
+  "hata": 0,
+  "sure": 4.06,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş.",
+  "duyulan": "Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş.",
+  "hata": 0,
+  "sure": 6.42,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.4,
+  "uygun": true
+ }
+}

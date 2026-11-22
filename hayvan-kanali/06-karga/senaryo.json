@@ -359,5 +359,13 @@
       "genislik": 500,
       "gorsel": "kapak"
     }
-  ]
+  ],
+  "yayin": {
+    "uzun": "1 Aralık Salı 18:00",
+    "shorts": {
+      "s1-maske": "2 Aralık 12:00",
+      "s2-tas": "3 Aralık 12:00",
+      "s3-kanca": "8 Aralık 12:00"
+    }
+  }
 }

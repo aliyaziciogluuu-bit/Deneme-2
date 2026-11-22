@@ -432,5 +432,33 @@
   "hata": 0,
   "sure": 8.06,
   "uygun": true
+ },
+ "062": {
+  "yazi": "Kurbağa siğil çıkarmaz; asıl dikkat edeceğin şeyler bezlerindeki salgı, salmonella ve evcil hayvanın güvenliği.",
+  "duyulan": "Kurbağa sihil çıkarmaz. Asıl dikkat edeceğin şeyler bezlerindeki salgı, salmonella ve evcil hayvanın güvenliği.",
+  "hata": 0,
+  "sure": 7.42,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Senin oralarda bu hayvana ne diyorlar?",
+  "duyulan": "Senin oralarda bu hayvana ne diyorlar?",
+  "hata": 0,
+  "sure": 1.98,
+  "uygun": true
+ },
+ "064": {
+  "yazi": "Sıradaki komşu: yılan; ahırdaki ineği gerçekten sağar mı?",
+  "duyulan": "Sıradaki komşu yılan, ahırdaki ineği gerçekten sağar mı?",
+  "hata": 0,
+  "sure": 3.72,
+  "uygun": true
+ },
+ "065": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "duyulan": "Avludaki komşularda, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. Görüşmek üzere.",
+  "hata": 0,
+  "sure": 6.38,
+  "uygun": true
  }
 }

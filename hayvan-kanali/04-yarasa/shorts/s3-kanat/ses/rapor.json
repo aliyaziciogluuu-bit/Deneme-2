@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Yarasanın kanadı, aslında kocaman açılmış bir el.",
+  "duyulan": "Yarasa'nın kanadı aslında kocaman açılmış bir el.",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
+  "duyulan": "Kanatları uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
+  "hata": 0,
+  "sure": 4.36,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Yarasalar, gerçekten uçabilen tek memeliler.",
+  "duyulan": "yarasalar gerçekten uçabilen tek memeliler.",
+  "hata": 0,
+  "sure": 2.66,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar.",
+  "duyulan": "Kuş değiller, yavrularını doğuruyor ve sütle besliyorlar.",
+  "hata": 0,
+  "sure": 3.5,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar.",
+  "duyulan": "Fare de değiller, kemirgenlerle yakın akraba bile sayılmıyorlar.",
+  "hata": 0,
+  "sure": 3.54,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Üstelik şaşırtıcı derecede uzun yaşıyorlar: Sibirya'da halkalanan küçük bir yarasa, en az kırk bir yıl yaşadı.",
+  "duyulan": "Üstelik şaşırtıcı derecede uzun yaşıyorlar. Sibirya'da halkalanan küçük bir yarasa en az 41 yıl yaşadı.",
+  "hata": 0,
+  "sure": 6.8,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.26,
+  "uygun": true
+ }
+}

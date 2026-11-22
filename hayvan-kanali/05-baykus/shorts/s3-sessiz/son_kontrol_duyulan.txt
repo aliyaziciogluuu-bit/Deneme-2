@@ -1,0 +1,7 @@
+000 fark=0 | Baykuş, neredeyse hiç ses çıkarmadan uçabiliyor. || Baykuş neredeyse hiç ses çıkarmadan uçabiliyor.
+001 fark=1 | Kanadın ön kenarındaki tüylerde tarak gibi ince dişler var. || Kanıdın ön kenarındaki tüylerde tarak gibi ince dişler var.
+002 fark=0 | Bu dişler, kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor. || Bu dişler kanadın üzerinden geçen havayı küçük parçalara bölerek uğultuyu azaltıyor.
+003 fark=0 | Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak. || Tüylerin arka kenarı saçaklı, yüzeyi de kadife gibi yumuşak.
+004 fark=0 | Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor. || Bu sayede fare, baykuşun yaklaştığını çoğu zaman duyamıyor.
+005 fark=0 | Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş. || Deneyler, peçeli baykuşun zifiri karanlıkta yalnızca sesini duyarak fareyi yakalayabildiğini göstermiş.
+006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

@@ -1,0 +1,6 @@
+000 fark=1 | İki bin iki yılında Betty adlı bir dişi karga, düz teli bükerek kanca yaptı. || 2002 yılında Beti adlı bir dişi karga, düz teli bükerek kanca yaptı.
+001 fark=0 | O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti. || O kancayla dar bir kabın dibindeki küçük yemek sepetini yukarı çekti.
+002 fark=0 | Alet ustalarından biri Yeni Kaledonya kargası. || alet ustalarından biri yeni kaledonya kargası.
+003 fark=1 | Güney Pasifik'teki Yeni Kaledonya adalarında yaşıyor; Türkiye'de yaşamıyor. || Güney Pasifik'teki yeni Kaladonya adalarında yaşıyor, Türkiye'de yaşamıyor.
+004 fark=0 | Sonraki çalışmalar, bu davranışın ne kadar kendiliğinden olduğunu tartışıyor. || Sonraki çalışmalar bu davranışın ne kadar kendiliğinden olduğunu tartışıyor.
+005 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

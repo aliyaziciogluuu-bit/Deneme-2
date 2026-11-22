@@ -62,3 +62,4 @@ TESLİM EDİLDİ: teslim.py ile teslim/06-karga (19 Kasım).
 
 ## 21 Kasım: kaynak uyumu
 - Cümle 22 'yıllarca' → 'iki yıldır besliyordu', cümle 23 'düğme, taş ve küpe' → 'deniz camı, paslı vida gibi' (Audubon sayfasıyla uyumlu). Yeniden seslendirme ve video Replicate kredisi gelince. Tez künyesi adresi digital.lib.washington.edu olarak düzeltildi. Karga YÜKLENMEYECEK, düzeltilmiş sürüm gönderilecek.
+- 22 Kasım: karga cümle 22–23 düzeltildi, yeniden oluşturuldu, 70/70 GEÇTİ; teslim/06-karga güncellendi (s3-kanca Shorts eklendi, 8 Aralık). teslim.py artık tarihleri senaryo.json 'yayin' alanından yazıyor.

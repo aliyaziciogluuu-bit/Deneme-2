@@ -1,0 +1,7 @@
+000 fark=0 | Kirpi, ağzında köpük yapıp bu köpüğü dikenlerine sürüyor. || Kirpi ağzında köpük yapıp bu köpüğü dikenlerine sürüyor.
+001 fark=1 | Yeni ve keskin bir koku ya da tatla karşılaştığında, ağzında köpüklü bir salya oluşturuyor. || Yeni ve keskin bir koku ya da tatla karşılaştığında ağzında köpüklü bir sali oluşturuyor.
+002 fark=1 | Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor. || Sonra dilini kıvırarak bu köpüğü dikenlerin üzerine sürüyor.
+003 fark=0 | Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor. || Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.
+004 fark=1 | Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış. || Bu dikenler aslında sertleşmiş kıllar, saçımız ve tırnaklarımız gibi keretinden yapılmış.
+005 fark=0 | Zehirli değiller; ucu kancalı da değiller. || Zehirli değiller, ucu kancalı da değiller.
+006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

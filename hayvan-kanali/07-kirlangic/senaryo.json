@@ -340,5 +340,12 @@
       "etiket": "C"
     }
   ],
-  "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video (kara kurbağası). Son 10-15 saniyede ekranda boş alan kalır."
+  "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video (kara kurbağası). Son 10-15 saniyede ekranda boş alan kalır.",
+  "yayin": {
+    "uzun": "3 Aralık Perşembe 18:00",
+    "shorts": {
+      "s1-yolculuk": "4 Aralık 12:00",
+      "s2-yuva": "5 Aralık 12:00"
+    }
+  }
 }
