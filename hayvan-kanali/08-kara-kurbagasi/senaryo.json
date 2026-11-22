@@ -93,7 +93,7 @@
           "yazi": "Genellikle ellerde ve ayaklarda çıkıyor; virüsün deriye yaradan girdiği düşünülüyor."
         },
         {
-          "yazi": "Çoğu siğil türü aylar ya da yıllar içinde geçiyor; elindeki için doktoruna danış."
+          "yazi": "Çoğu siğil türü aylar ya da yıllar içinde geçiyor; elindeki siğil için doktoruna danış."
         }
       ]
     },
@@ -331,10 +331,10 @@
     },
     {
       "buyuk": [
-        "ELLERİNİ",
-        "YIKA!"
+        "TAŞIN",
+        "ALTINDA"
       ],
-      "kucuk": "Kurbağadan sonra",
+      "kucuk": "Bahçendeki komşu",
       "konum": "sol",
       "genislik": 500,
       "gorsel": "kapak",

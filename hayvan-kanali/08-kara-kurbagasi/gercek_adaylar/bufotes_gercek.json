@@ -1,0 +1,86 @@
+{
+ "sorgu": "iNaturalist: Bufotes viridis (Türkiye)",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "bufotes_gercek_1.jpg",
+   "baslik": "iNaturalist gözlem 102090452 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/102090452",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Diyarbakır, Turkey"
+  },
+  {
+   "n": 2,
+   "dosya": "bufotes_gercek_2.jpg",
+   "baslik": "iNaturalist gözlem 106982362 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/106982362",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Diyarbakır, Turkey"
+  },
+  {
+   "n": 3,
+   "dosya": "bufotes_gercek_3.jpg",
+   "baslik": "iNaturalist gözlem 100163437 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/100163437",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Diyarbakır, Turkey"
+  },
+  {
+   "n": 4,
+   "dosya": "bufotes_gercek_4.jpg",
+   "baslik": "iNaturalist gözlem 118686634 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/118686634",
+   "yazar": "no rights reserved",
+   "lisans": "CC0",
+   "boyut": "1536x2048",
+   "aciklama": "Cirali Sk., Kemer, Antalya, TR"
+  },
+  {
+   "n": 5,
+   "dosya": "bufotes_gercek_5.jpg",
+   "baslik": "iNaturalist gözlem 102540132 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/102540132",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Diyarbakır, Turkey"
+  },
+  {
+   "n": 6,
+   "dosya": "bufotes_gercek_6.jpg",
+   "baslik": "iNaturalist gözlem 99891571 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/99891571",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Diyarbakır, Turkey"
+  },
+  {
+   "n": 7,
+   "dosya": "bufotes_gercek_7.jpg",
+   "baslik": "iNaturalist gözlem 100163438 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/100163438",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Diyarbakır, Turkey"
+  },
+  {
+   "n": 8,
+   "dosya": "bufotes_gercek_8.jpg",
+   "baslik": "iNaturalist gözlem 51203698 (Bufotes viridis sitibundus)",
+   "sayfa": "https://www.inaturalist.org/observations/51203698",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1512",
+   "aciklama": "Samandağ, Hatay, Turkey"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
-  "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 66). a/b: [merkez_x, merkez_y, genişlik]. Kapak videoda kullanılmadı. Düşürülen görseller yerine: bezler→gercek_portre, gercek_rize, kurbaga_yakin; eldiven→kova_gonullu, el_yikama; veteriner→kopek_belirti; sigil_el→el_yikama, kurbaga_yakin; golet_yumurta→gercek_goc_cifti, goc_yolu. Etiketler sol üst köşededir; hayvanın başı o bölgeden uzak tutuldu. kova_gonullu'da kovanın alt kısmındaki harf benzeri izler kadraj dışında bırakıldı (en küçük genişlik 0,75).",
+  "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 66). a/b: [merkez_x, merkez_y, genişlik]. Kapak videoda kullanılmadı. Düşürülen görseller yerine: bezler→gercek_portre, gercek_rize, kurbaga_yakin; eldiven→el_yikama; veteriner→kopek_belirti; sigil_el→el_yikama, kurbaga_yakin; golet_yumurta→gercek_goc_cifti, goc_yolu. Etiketler sol üst köşededir; hayvanın başı o bölgeden uzak tutuldu. kova_gonullu kalite kontrol uyarısıyla uzun videodan çıkarıldı (kovada yazı benzeri izler); yerine tas_alti_kurbaga ve goc_yolu. Çizim bufotes yerine gerçek fotoğraf bufotes_gercek (iNaturalist, Diyarbakır).",
   "cekimler": [
     {
       "n": 1,
@@ -288,16 +288,16 @@
     },
     {
       "n": 2,
-      "gorsel": "kova_gonullu",
+      "gorsel": "tas_alti_kurbaga",
       "a": [
-        0.5,
         0.55,
+        0.5,
         0.85
       ],
       "b": [
         0.5,
-        0.56,
-        0.75
+        0.5,
+        1.0
       ]
     },
     {
@@ -332,16 +332,16 @@
     },
     {
       "n": 1,
-      "gorsel": "bufotes",
+      "gorsel": "bufotes_gercek",
       "a": [
         0.5,
-        0.5,
+        0.55,
         1.0
       ],
       "b": [
-        0.45,
         0.5,
-        0.8
+        0.55,
+        0.85
       ],
       "etiket": "Yeşil benekli kara kurbağası"
     },
@@ -460,16 +460,16 @@
     },
     {
       "n": 2,
-      "gorsel": "kova_gonullu",
+      "gorsel": "goc_yolu",
       "a": [
-        0.5,
-        0.56,
-        0.75
+        0.45,
+        0.55,
+        0.8
       ],
       "b": [
-        0.5,
         0.55,
-        0.85
+        0.5,
+        0.95
       ]
     },
     {

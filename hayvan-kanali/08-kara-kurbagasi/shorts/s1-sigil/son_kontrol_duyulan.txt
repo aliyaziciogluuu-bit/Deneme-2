@@ -1,5 +1,5 @@
 000 fark=0 | Hayır, kurbağa siğil yapmaz. || Hayır kurbağa sihil yapmaz.
-001 fark=1 | Siğile insan papilloma virüsü neden olur; kurbağalar bu virüsü taşımaz. || Si ile insan papiloma virüsü neden olur. Kurbağalar bu virüsü taşımaz.
+001 fark=1 | Siğil, insan papilloma virüsünden kaynaklanır; kurbağalar bu virüsü taşımaz. || Sihil, insan papiloma virüsünden kaynaklanır. Kurbalar bu virüsü taşımaz.
 002 fark=0 | Kara kurbağasının gözlerinin arkasındaki iki bez, saldırıya uğrayınca tadı kötü bir salgı çıkarıyor. || Kara kurbağasının gözlerinin arkasındaki iki bez saldırıya uğrayınca tadı kötü bir salgı çıkarıyor.
 003 fark=0 | Bize göre bu salgıyı gözüne ve ağzına değdirme; dokunduysan ellerini sabun ve suyla yıka, kuşkun varsa doktora danış. || Bize göre bu salgıyı gözüne ve ağzına değdirme. Dokunduysan ellerini sabun ve suyla yıka, kuşkun varsa doktora danış.
 004 fark=0 | Kurbağalar salmonella taşıyabiliyor; enfeksiyon küçük çocuklar ve bağışıklığı zayıf olanlar için ciddi olabiliyor. || Kurbağalar salmonella taşıyabiliyor, enfeksiyon küçük çocuklar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.
