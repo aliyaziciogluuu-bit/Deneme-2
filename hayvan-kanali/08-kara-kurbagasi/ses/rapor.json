@@ -126,11 +126,11 @@
   "uygun": true
  },
  "018": {
-  "yazi": "Aynı kaynak, hafif belirtiler arasında gözde, ağız zarında ya da açık yarada yanma ve karıncalanmayı sayıyor.",
-  "duyulan": "Aynı kaynak hafif belirtiler arasında gözde, ağızlarında ya da açık yarada yanma ve karıncalanmayı sayıyor.",
-  "hata": 2,
-  "sure": 7.74,
-  "uygun": false,
+  "yazi": "Aynı kaynak, hafif belirtiler arasında gözde, ağızda ya da açık yarada yanma ve karıncalanmayı sayıyor.",
+  "duyulan": "Aynı kaynak, hafif belirtiler arasında gözde, ağızda ya da açık yarada yanma ve karıncalanmayı sayıyor.",
+  "hata": 0,
+  "sure": 7.28,
+  "uygun": true,
   "tek_basina": true
  },
  "019": {
@@ -247,31 +247,31 @@
  },
  "035": {
   "yazi": "Türkiye'de iki kara kurbağası türü anılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası.",
-  "duyulan": "Türkiye'de iki kara kurbağası türü anılıyor, Sihirli Kurbağa ve Kafkas Sihirli Kurbağası.",
-  "hata": 2,
-  "sure": 6.04,
-  "uygun": false,
+  "duyulan": "Türkiye'de iki kara kurbağası türü anılıyor, siyilli kurbağa ve kafkas siyilli kurbağası.",
+  "hata": 0,
+  "sure": 6.12,
+  "uygun": true,
   "tek_basina": true
  },
  "036": {
   "yazi": "Bilim dilinde bunlar Bufo bufo ve Bufo verrucosissimus; ikisinin birbiriyle ilişkisi hâlâ net değil.",
-  "duyulan": "Bilim dilinde bunlar Bufo-Bufo ve Bufo-Vericosisimus. İkisinin birbiriyle ilişkisi hâlâ net değil.",
+  "duyulan": "Bilim dilinde bunlar Bufo-Bufo ve Bufo-Verucosissimus. İkisinin birbiriyle ilişkisi hâlâ net değil.",
   "hata": 1,
-  "sure": 6.22,
+  "sure": 6.3,
   "uygun": true
  },
  "037": {
   "yazi": "Sırtı yeşilimsi benekli olanlar Bufotes cinsinden; bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar Bufotes sitibundus.",
-  "duyulan": "Sırtı yeşilimsi benekli olanlar bufotes cinsinden. Bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar bufotes stibundus.",
-  "hata": 1,
-  "sure": 7.2,
+  "duyulan": "Sırtı yeşilimsi benekli olanlar bufotes cinsinden. Bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar bufotes sitibundus.",
+  "hata": 0,
+  "sure": 7.3,
   "uygun": true
  },
  "038": {
   "yazi": "Videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış; Türkiye'deki sonuçları ayrıca doğrulayamadık.",
-  "duyulan": "Videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış. Türkiye'deki sonuçları ayrıca doğurlayamadık.",
-  "hata": 1,
-  "sure": 6.28,
+  "duyulan": "Videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış. Türkiye'deki sonuçları ayrıca doğrulayamadık.",
+  "hata": 0,
+  "sure": 6.54,
   "uygun": true
  },
  "039": {
@@ -354,9 +354,9 @@
  "050": {
   "yazi": "İribaşlar yaklaşık on günde çıkıyor; on iki haftalık olunca bir buçuk santimlik minik kurbağa oluyorlar.",
   "duyulan": "İribaşlar yaklaşık 10 günde çıkıyor. 12 haftalık olunca 1,5 santimlik minik kurbağa oluyorlar.",
-  "hata": 1,
+  "hata": 0,
   "sure": 7.18,
-  "uygun": false,
+  "uygun": true,
   "tek_basina": true
  },
  "051": {
