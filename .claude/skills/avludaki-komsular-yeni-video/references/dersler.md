@@ -263,3 +263,4 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
 - (22 Kasım) Shorts açıklamasında yalnızca o Shorts'ta kullanılan gerçek fotoğraflar listelenir ve beyan buna göre seçilir (video.py otomatik yapıyor; bekçi beyan_denetle ile denetliyor).
 - (22 Kasım, yönetici) Küçük resim yazısı videonun çekincesini taşır: kaynak bulunamayan iddia ("köpeğe ağır") kapağa konmaz; kapak yazısı videonun cevapladığı bir soru olsun.
 - (22 Kasım) Shorts'lar uzun videodan 1 ve 2 gün sonra planlanır; senaryo.json "yayin" alanı yazılırken takvimdeki boş günler değil bu kural esas alınır.
+- (22 Kasım, kanca cümlesi) Duraklamadan sonra gelen "siğil" (ör. "Çıkmaz: siğil…", "Çıkmaz. Çünkü siğil…") üç denemede de large-v3'te "sihil/sihir" duyuldu; okunuşa "siyil" yazmak da değiştirmedi. Durak olmadan cümle içinde gelince ("elindeki siğil için", "Kurbağa siğil çıkarmaz") temiz. Kanca cümlesinde "siğil"i duraktan hemen sonra koyma; kanal sahibine dinlet.

@@ -14,11 +14,12 @@
   "uygun": true
  },
  "002": {
-  "yazi": "Çıkmaz: siğile insan papilloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.",
-  "duyulan": "Çıkmaz. Siyle insan papiloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.",
-  "hata": 1,
-  "sure": 4.66,
-  "uygun": true
+  "yazi": "Çıkmaz: siğil, insan papilloma virüsünden kaynaklanır ve kurbağalar bu virüsü taşımaz.",
+  "duyulan": "Çıkmaz. Sihil, insan papilloma virüsünden kaynaklanır ve kurbağalar bu virüsü taşımaz.",
+  "hata": 0,
+  "sure": 5.8,
+  "uygun": true,
+  "tek_basina": true
  },
  "003": {
   "yazi": "Asıl dikkat etmen gereken başka: gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri.",
