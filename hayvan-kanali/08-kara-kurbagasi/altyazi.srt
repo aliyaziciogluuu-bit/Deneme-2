@@ -7,437 +7,437 @@ Taşı kaldırıyorsun; altında yumru yumru bir hayvan var.
 Kurbağaya dokunursan elinde siğil çıkar mı?
 
 3
-00:00:06,920 --> 00:00:09,075
-Çıkmaz: siğile insan papilloma virüsü
+00:00:06,920 --> 00:00:09,718
+Çıkmaz: siğil, insan papilloma virüsünden
 
 4
-00:00:09,075 --> 00:00:11,825
-neden olur ve kurbağalar bu virüsü taşımaz.
+00:00:09,718 --> 00:00:12,965
+kaynaklanır ve kurbağalar bu virüsü taşımaz.
 
 5
-00:00:11,930 --> 00:00:13,944
+00:00:13,070 --> 00:00:15,084
 Asıl dikkat etmen gereken başka:
 
 6
-00:00:13,944 --> 00:00:18,155
+00:00:15,084 --> 00:00:19,295
 gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri.
 
 7
-00:00:18,260 --> 00:00:19,925
+00:00:19,400 --> 00:00:21,065
 Derisindeki o yumrular ne?
 
 8
-00:00:20,030 --> 00:00:22,765
+00:00:21,170 --> 00:00:23,905
 Siğil değiller: boyları sabit, sağlıklı hayvanda
 
 9
-00:00:22,765 --> 00:00:25,575
+00:00:23,905 --> 00:00:26,715
 bulunuyorlar ve bir enfeksiyondan olmuyorlar.
 
 10
-00:00:25,680 --> 00:00:28,790
+00:00:26,820 --> 00:00:29,930
 Yumrular siğile benzediği için bu inanış yaygınlaşmış.
 
 11
-00:00:29,390 --> 00:00:31,635
+00:00:30,530 --> 00:00:32,775
 Siğil gerçekte nereden çıkıyor?
 
 12
-00:00:31,740 --> 00:00:35,744
+00:00:32,880 --> 00:00:36,884
 İngiliz halk inanışına göre kurbağaya dokunmak siğil çıkarır;
 
 13
-00:00:35,744 --> 00:00:39,600
+00:00:36,884 --> 00:00:40,740
 Alman inanışına göre dolunayda dokunmak siğili geçirir.
 
 14
-00:00:39,705 --> 00:00:42,410
+00:00:40,845 --> 00:00:43,550
 Siğil, kanser olmayan bir deri büyümesi.
 
 15
-00:00:42,515 --> 00:00:44,934
+00:00:43,655 --> 00:00:46,074
 Genellikle ellerde ve ayaklarda çıkıyor;
 
 16
-00:00:44,934 --> 00:00:47,780
+00:00:46,074 --> 00:00:48,920
 virüsün deriye yaradan girdiği düşünülüyor.
 
 17
-00:00:47,885 --> 00:00:51,176
+00:00:49,025 --> 00:00:52,316
 Çoğu siğil türü aylar ya da yıllar içinde geçiyor;
 
 18
-00:00:51,176 --> 00:00:53,795
+00:00:52,316 --> 00:00:54,935
 elindeki siğil için doktoruna danış.
 
 19
-00:00:54,395 --> 00:00:56,060
+00:00:55,535 --> 00:00:57,200
 O bezlerin içinde ne var?
 
 20
-00:00:56,165 --> 00:00:58,997
+00:00:57,305 --> 00:01:00,137
 Kara kurbağasının gözlerinin hemen arkasında,
 
 21
-00:00:58,997 --> 00:01:01,130
+00:01:00,137 --> 00:01:02,270
 eğik duran iki şişkin bez var.
 
 22
-00:01:01,235 --> 00:01:03,157
+00:01:02,375 --> 00:01:04,297
 Saldırıya uğrayınca bu bezler,
 
 23
-00:01:03,157 --> 00:01:06,540
+00:01:04,297 --> 00:01:07,680
 bufotoksin içeren, tadı kötü bir salgı çıkarıyor.
 
 24
-00:01:06,645 --> 00:01:08,330
+00:01:07,785 --> 00:01:09,470
 İnsanlar için de tehlikeli mi?
 
 25
-00:01:08,435 --> 00:01:11,629
+00:01:09,575 --> 00:01:12,769
 Bir kaynağa göre kurbağa zehrini yemek ya da içmek
 
 26
-00:01:11,629 --> 00:01:15,580
+00:01:12,769 --> 00:01:16,720
 yüzünden insan zehirlenmesi nadir ama öldürücü olabiliyor.
 
 27
-00:01:15,685 --> 00:01:18,205
+00:01:16,825 --> 00:01:19,345
 Örnek olarak çorba, et ya da yumurta
 
 28
-00:01:18,205 --> 00:01:21,390
+00:01:19,345 --> 00:01:22,530
 tüketimi ve canlı hayvan yutmak sayılıyor.
 
 29
-00:01:21,495 --> 00:01:24,707
+00:01:22,635 --> 00:01:25,847
 Aynı kaynak, hafif belirtiler arasında gözde,
 
 30
-00:01:24,707 --> 00:01:29,020
+00:01:25,847 --> 00:01:30,160
 ağızda ya da açık yarada yanma ve karıncalanmayı sayıyor.
 
 31
-00:01:29,125 --> 00:01:32,175
+00:01:30,265 --> 00:01:33,315
 Bize göre hayvanı sıkma; gözüne, ağzına ya da
 
 32
-00:01:32,175 --> 00:01:35,475
+00:01:33,315 --> 00:01:36,615
 yarana değdirme; yanma sürerse doktora danış.
 
 33
-00:01:36,075 --> 00:01:39,960
+00:01:37,215 --> 00:01:41,100
 Peki köpeğin kurbağayı yalarsa ya da ısırırsa ne olur?
 
 34
-00:01:40,065 --> 00:01:43,162
+00:01:41,205 --> 00:01:44,302
 Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir
 
 35
-00:01:43,162 --> 00:01:46,670
+00:01:44,302 --> 00:01:47,810
 kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.
 
 36
-00:01:46,775 --> 00:01:50,786
+00:01:47,915 --> 00:01:51,926
 Aynı kaynak, aşırı salya, kıpkırmızı diş eti, baş sallama,
 
 37
-00:01:50,786 --> 00:01:55,180
+00:01:51,926 --> 00:01:56,320
 dengesizlik ya da kasılmada acil veteriner yardımı öneriyor.
 
 38
-00:01:55,285 --> 00:01:57,925
+00:01:56,425 --> 00:01:59,065
 Kara kurbağasının köpekte ne kadar ağır zehirlenme
 
 39
-00:01:57,925 --> 00:02:01,390
+00:01:59,065 --> 00:02:02,530
 yaptığını gösteren bir kaynak bulamadık; hafife de almıyoruz.
 
 40
-00:02:01,495 --> 00:02:02,480
+00:02:02,635 --> 00:02:03,620
 Ne yapmalısın?
 
 41
-00:02:02,585 --> 00:02:06,107
+00:02:03,725 --> 00:02:07,247
 İngiltere'deki hayvan koruma derneği, evcil hayvanın zararlı bir
 
 42
-00:02:06,107 --> 00:02:10,150
+00:02:07,247 --> 00:02:11,290
 şeye maruz kaldığını düşünürsen hemen veterinere başvurmanı söylüyor.
 
 43
-00:02:10,255 --> 00:02:13,600
+00:02:11,395 --> 00:02:14,740
 Veterinere neyi ve ne kadar yediğini bildirmeni de istiyor.
 
 44
-00:02:13,705 --> 00:02:16,023
+00:02:14,845 --> 00:02:17,163
 Bize göre kurbağaların çıktığı akşam
 
 45
-00:02:16,023 --> 00:02:19,235
+00:02:17,163 --> 00:02:20,375
 karanlığında köpeğini bahçede başıboş bırakma.
 
 46
-00:02:19,835 --> 00:02:23,340
+00:02:20,975 --> 00:02:24,480
 Peki kurbağayı tuttuktan sonra neden ellerini yıkamalısın?
 
 47
-00:02:23,445 --> 00:02:26,454
+00:02:24,585 --> 00:02:27,594
 Kurbağalar ve sürüngenler salmonella taşıyabiliyor;
 
 48
-00:02:26,454 --> 00:02:29,530
+00:02:27,594 --> 00:02:30,670
 bu bakteri onlara dokunan insanlara geçebiliyor.
 
 49
-00:02:29,635 --> 00:02:32,764
+00:02:30,775 --> 00:02:33,904
 Salmonella enfeksiyonu bebekler, küçük çocuklar,
 
 50
-00:02:32,764 --> 00:02:36,920
+00:02:33,904 --> 00:02:38,060
 yaşlılar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.
 
 51
-00:02:37,025 --> 00:02:40,002
+00:02:38,165 --> 00:02:41,142
 Dokunduysan ellerini sabun ve suyla iyice yıka;
 
 52
-00:02:40,002 --> 00:02:43,350
+00:02:41,142 --> 00:02:44,490
 bebekleri ve küçük çocukları kurbağadan uzak tut.
 
 53
-00:02:43,455 --> 00:02:46,859
+00:02:44,595 --> 00:02:47,999
 İngiltere'deki dernek, çıplak elle dokunmamanı da öneriyor;
 
 54
-00:02:46,859 --> 00:02:50,220
+00:02:47,999 --> 00:02:51,360
 çünkü kurbağalar derimizdeki kimyasallara çok duyarlı.
 
 55
-00:02:50,325 --> 00:02:55,255
+00:02:51,465 --> 00:02:56,395
 Mecbur kalırsan tek kullanımlık eldiven tak ve eldiveni önce suyla durula.
 
 56
-00:02:55,855 --> 00:02:57,740
+00:02:56,995 --> 00:02:58,880
 Bahçendeki kurbağa hangisi?
 
 57
-00:02:57,845 --> 00:03:00,845
+00:02:58,985 --> 00:03:01,985
 Türkiye'de iki kara kurbağası türü anılıyor;
 
 58
-00:03:00,845 --> 00:03:04,430
+00:03:01,985 --> 00:03:05,570
 ikisinin de Türkçe adında siğil kelimesi geçiyor.
 
 59
-00:03:04,535 --> 00:03:08,035
+00:03:05,675 --> 00:03:09,175
 Bilim dilinde bunlar Bufo bufo ve Bufo verrucosissimus;
 
 60
-00:03:08,035 --> 00:03:11,080
+00:03:09,175 --> 00:03:12,220
 ikisinin birbiriyle ilişkisi hâlâ net değil.
 
 61
-00:03:11,185 --> 00:03:14,252
+00:03:12,325 --> 00:03:15,392
 Sırtı yeşilimsi benekli olanlar Bufotes cinsinden;
 
 62
-00:03:14,252 --> 00:03:18,730
+00:03:15,392 --> 00:03:19,870
 bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar Bufotes sitibundus.
 
 63
-00:03:18,835 --> 00:03:22,105
+00:03:19,975 --> 00:03:23,245
 Videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası
 
 64
-00:03:22,105 --> 00:03:25,625
+00:03:23,245 --> 00:03:26,765
 için yazılmış; Türkiye'deki sonuçları ayrıca doğrulayamadık.
 
 65
-00:03:26,225 --> 00:03:28,630
+00:03:27,365 --> 00:03:29,770
 Bu hayvan bahçende ne iş yapıyor?
 
 66
-00:03:28,735 --> 00:03:32,632
+00:03:29,875 --> 00:03:33,772
 Gündüz taşın, kökün ya da bir oyuğun altında saklanıyor;
 
 67
-00:03:32,632 --> 00:03:35,313
+00:03:33,772 --> 00:03:36,453
 akşam karanlığında çıkıp avlanıyor.
 
 68
-00:03:35,418 --> 00:03:38,259
+00:03:36,558 --> 00:03:39,399
 Yiyecekleri arasında karınca, tırtıl,
 
 69
-00:03:38,259 --> 00:03:41,883
+00:03:39,399 --> 00:03:43,023
 sinek, örümcek, solucan ve sümüklüböcek var.
 
 70
-00:03:41,988 --> 00:03:44,513
+00:03:43,128 --> 00:03:45,653
 Dişleri yok; avını bütün yutuyor.
 
 71
-00:03:44,618 --> 00:03:48,805
+00:03:45,758 --> 00:03:49,945
 İngiltere'deki dernek, kurbağaların ve kara kurbağalarının çok sayıda
 
 72
-00:03:48,805 --> 00:03:50,200
+00:03:49,945 --> 00:03:51,340
 böcek yediğini yazıyor;
 
 73
-00:03:50,200 --> 00:03:53,540
+00:03:51,340 --> 00:03:54,680
 kara kurbağaları özellikle karıncayı tercih ediyor.
 
 74
-00:03:53,645 --> 00:03:57,199
+00:03:54,785 --> 00:03:58,339
 Kışın toprakta bir oyuğa, bazen de bodruma giriyorlar;
 
 75
-00:03:57,199 --> 00:04:00,015
+00:03:58,339 --> 00:04:01,155
 çoğu zaman başka kurbağalarla birlikte.
 
 76
-00:04:00,615 --> 00:04:03,520
+00:04:01,755 --> 00:04:04,660
 Peki baharda bu hayvanlar neden yola çıkıyor?
 
 77
-00:04:03,625 --> 00:04:07,297
+00:04:04,765 --> 00:04:08,437
 Kara kurbağaları baharda uyanıp topluca üreme göletine yürüyor;
 
 78
-00:04:07,297 --> 00:04:09,990
+00:04:08,437 --> 00:04:11,130
 bir kilometreden fazla yol gidebiliyorlar.
 
 79
-00:04:10,095 --> 00:04:14,045
+00:04:11,235 --> 00:04:15,185
 Avrupa'daki bir araştırmada, küçükken işaretlenip sonradan üremeye
 
 80
-00:04:14,045 --> 00:04:18,065
+00:04:15,185 --> 00:04:19,205
 dönen erkeklerin büyük çoğunluğu doğdukları gölette yakalanmış.
 
 81
-00:04:18,665 --> 00:04:20,310
+00:04:19,805 --> 00:04:21,450
 Gölete varınca ne oluyor?
 
 82
-00:04:20,415 --> 00:04:23,919
+00:04:21,555 --> 00:04:25,059
 Dişi suya iki sıralı uzun bir yumurta ipi bırakıyor;
 
 83
-00:04:23,919 --> 00:04:27,600
+00:04:25,059 --> 00:04:28,740
 içinde bin beş yüz ile altı bin yumurta olabiliyor.
 
 84
-00:04:27,705 --> 00:04:30,215
+00:04:28,845 --> 00:04:31,355
 İribaşlar yaklaşık on günde çıkıyor;
 
 85
-00:04:30,215 --> 00:04:35,135
+00:04:31,355 --> 00:04:36,275
 on iki haftalık olunca bir buçuk santimlik minik kurbağa oluyorlar.
 
 86
-00:04:35,735 --> 00:04:38,220
+00:04:36,875 --> 00:04:39,360
 Bu yolculuk onlara neye mal oluyor?
 
 87
-00:04:38,325 --> 00:04:41,144
+00:04:39,465 --> 00:04:42,284
 Bir kaynağa göre Avrupa'da kara kurbağası,
 
 88
-00:04:41,144 --> 00:04:44,410
+00:04:42,284 --> 00:04:45,550
 yolda ölüm oranı en yüksek amfibilerden biri.
 
 89
-00:04:44,515 --> 00:04:47,375
+00:04:45,655 --> 00:04:48,515
 Hollanda'da tek bir sakin köy yolunda yapılan
 
 90
-00:04:47,375 --> 00:04:50,480
+00:04:48,515 --> 00:04:51,620
 bir tahmine göre dişilerin yüzde otuzu ölmüş.
 
 91
-00:04:50,585 --> 00:04:53,850
+00:04:51,725 --> 00:04:54,990
 Bazı ülkelerde yolun altına kurbağa tüneli yapılmış;
 
 92
-00:04:53,850 --> 00:04:57,610
+00:04:54,990 --> 00:04:58,750
 bazı yerlerde gönüllüler onları kovayla karşıya taşıyor.
 
 93
-00:04:57,715 --> 00:05:00,692
+00:04:58,855 --> 00:05:01,832
 Bize göre yağmurlu akşamlarda yolda yavaşla;
 
 94
-00:05:00,692 --> 00:05:05,200
+00:05:01,832 --> 00:05:06,340
 kurbağayı elle taşımak zorundaysan tek kullanımlık eldiven tak.
 
 95
-00:05:05,305 --> 00:05:08,210
+00:05:06,445 --> 00:05:09,350
 Taşıdıktan sonra ellerini sabun ve suyla yıka.
 
 96
-00:05:08,315 --> 00:05:11,652
+00:05:09,455 --> 00:05:12,792
 Yaralı ya da hasta kurbağa bulursan veterinere ya da
 
 97
-00:05:11,652 --> 00:05:15,945
+00:05:12,792 --> 00:05:17,085
 bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.
 
 98
-00:05:16,545 --> 00:05:19,970
+00:05:17,685 --> 00:05:21,110
 Kara kurbağası Türkiye'de yasal olarak korunuyor mu?
 
 99
-00:05:20,075 --> 00:05:23,385
+00:05:21,215 --> 00:05:24,525
 Kütahya'da yapılan bir araştırma, kara kurbağasını Bern
 
 100
-00:05:23,385 --> 00:05:26,760
+00:05:24,525 --> 00:05:27,900
 Sözleşmesi'nin korunan türler listesinde gösteriyor.
 
 101
-00:05:26,865 --> 00:05:29,944
+00:05:28,005 --> 00:05:31,084
 Bunun hukuken ne anlama geldiğini doğrulayamadık;
 
 102
-00:05:29,944 --> 00:05:32,332
+00:05:31,084 --> 00:05:33,472
 emin olmak için bölgendeki Doğa Koruma
 
 103
-00:05:32,332 --> 00:05:35,090
+00:05:33,472 --> 00:05:36,230
 ve Milli Parklar şube müdürlüğüne danış.
 
 104
-00:05:35,195 --> 00:05:38,419
+00:05:36,335 --> 00:05:39,559
 Avrupa'da kara kurbağası bazı yerlerde azalıyor;
 
 105
-00:05:38,419 --> 00:05:43,505
+00:05:39,559 --> 00:05:44,645
 yaşam alanı kaybı, göletlerin kurutulması ve yol ölümleri tehdit ediyor.
 
 106
-00:05:44,105 --> 00:05:47,545
+00:05:45,245 --> 00:05:48,685
 Kurbağa siğil çıkarmaz; asıl dikkat edeceğin şeyler
 
 107
-00:05:47,545 --> 00:05:51,770
+00:05:48,685 --> 00:05:52,910
 bezlerindeki salgı, salmonella ve evcil hayvanın güvenliği.
 
 108
-00:05:51,875 --> 00:05:54,100
+00:05:53,015 --> 00:05:55,240
 Senin oralarda bu hayvana ne diyorlar?
 
 109
-00:05:54,205 --> 00:05:58,170
+00:05:55,345 --> 00:05:59,310
 Sıradaki komşu: yılan; ahırdaki ineği gerçekten sağar mı?
 
 110
-00:05:58,275 --> 00:06:01,614
+00:05:59,415 --> 00:06:02,754
 Avludaki Komşular'da, evinin çevresindeki yanlış tanınan
 
 111
-00:06:01,614 --> 00:06:04,905
+00:06:02,754 --> 00:06:06,045
 komşuları anlatmaya devam edeceğiz. Görüşmek üzere.
