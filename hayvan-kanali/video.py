@@ -132,6 +132,17 @@ def srt_yaz(liste, yol: pathlib.Path):
                    encoding="utf-8")
 
 
+def gercek_kunye(klasor: pathlib.Path):
+    """<video>/gercek_kaynaklar.json (gercek_gorsel.py yazar) → açıklama satırları. Shorts klasöründen de üst videoyu bulur."""
+    for k in (klasor, klasor.parent.parent):
+        p = k / "gercek_kaynaklar.json"
+        if p.exists():
+            kayit = json.loads(p.read_text(encoding="utf-8"))
+            return [f"- {a['baslik'].replace('File:', '')} – {a['yazar']} – {a['lisans']} – {a['sayfa'].replace('https://', '').replace('www.', '')}"
+                    for a in kayit.values()]
+    return []
+
+
 def yukleme_yaz(senaryo, cumleler, yol: pathlib.Path):
     """YouTube'a yüklerken kopyalanacak başlık, açıklama, bölümler ve etiketler."""
     bolumler = [(0 if i == 0 else round(c["bas"]), c["bolum"]) for i, c in enumerate(cumleler) if c["bolum"]]
@@ -142,8 +153,14 @@ def yukleme_yaz(senaryo, cumleler, yol: pathlib.Path):
         satirlar += ["", "🌿 " + senaryo["yorum_sorusu"]]
     if senaryo.get("kaynaklar"):  # Shorts'ta kaynak açıklamanın içinde
         satirlar += ["", "Kaynaklar:"] + [f"- {k}" for k in senaryo["kaynaklar"]]
-    satirlar += ["", senaryo.get("beyan", "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. "
-                                          "Bilgiler yukarıdaki kaynaklardan derlenmiştir.")]
+    gercek = gercek_kunye(yol.parent)
+    if gercek:  # gerçek fotoğraf atıfları (CC BY / BY-SA lisansı gereği yazar + lisans + adres)
+        satirlar += ["", "Gerçek fotoğraflar:"] + gercek
+    varsayilan = ("Gerçek fotoğraflar yukarıda yazarlarıyla belirtilmiştir; diğer görseller yapay zekâ ile üretilmiş çizimlerdir; "
+                  "seslendirme yapay zekâ ile yapılmıştır. Bilgiler yukarıdaki kaynaklardan derlenmiştir.") if gercek else (
+                  "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. "
+                  "Bilgiler yukarıdaki kaynaklardan derlenmiştir.")
+    satirlar += ["", senaryo.get("beyan", varsayilan)]
     if senaryo.get("ambiyans", {}).get("kaynak"):
         satirlar += ["Doğa sesi: " + senaryo["ambiyans"]["kaynak"]]
     imza = (KOK / "kanal" / "imza.txt")
