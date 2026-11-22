@@ -77,11 +77,12 @@
   "uygun": true
  },
  "011": {
-  "yazi": "Çoğu siğil türü aylar ya da yıllar içinde geçiyor; elindeki için doktoruna danış.",
-  "duyulan": "çoğu sihil türü aylar ya da yıllar içinde geçiyor. Elindeki için doktoruna danış.",
+  "yazi": "Çoğu siğil türü aylar ya da yıllar içinde geçiyor; elindeki siğil için doktoruna danış.",
+  "duyulan": "Çoğu sihil türü aylar ya da yıllar içinde geçiyor. Elindeki sihil için doktoruna danış.",
   "hata": 0,
-  "sure": 5.42,
-  "uygun": true
+  "sure": 5.66,
+  "uygun": true,
+  "tek_basina": true
  },
  "012": {
   "yazi": "O bezlerin içinde ne var?",
