@@ -252,3 +252,5 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
   - Sorumlu: senarist, bilgi kontrolcüsü.
 
 - **Arka plan işi yarıda kalıyor (22 Kasım):** 'nohup … &' ile başlatılan işler, oturum boşta kalınca ya da ortam yeniden başlayınca durdu (seslendirme 12/66'da, klip 1/4'te). Uzun işler artık aracın kendi 'arka planda çalıştır' seçeneğiyle başlatılıyor; bitince bildirim geliyor. Betikler kaldığı yerden devam ettiği için (var olan ses ve klipleri atlıyor) para kaybı olmadı.
+
+- **'Siğilli kurbağa' → 'sihirli kurbağa' duyuluyor (22 Kasım):** Gemini seslendirmesi ve hem medium hem large-v3 ses tanıma 'siğilli/siyilli' yazımlarının hepsini 'sihirli' duydu. 'Siğil' tek başına da 'sihil/sil' duyuluyor, ama bağlam içinde doğru anlaşılıyor. Kural: anlamı değiştirebilecek ses benzerliği olan ifadeyi (siğilli→sihirli) metinden çıkar; okunuş alanı bu tür benzerliği çözmüyor.
