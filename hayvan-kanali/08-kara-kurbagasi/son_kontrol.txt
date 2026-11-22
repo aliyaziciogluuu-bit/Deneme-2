@@ -8,7 +8,7 @@
 [GEÇTİ] Altyazı zamanlaması 111 altyazı, son 364.9 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 74 karakter
 [GEÇTİ] Başlık uzunluğu 70 karakter
-[GEÇTİ] Açıklama uzunluğu ve karakterleri 4113 karakter
+[GEÇTİ] Açıklama uzunluğu ve karakterleri 4251 karakter
 [GEÇTİ] Etiketler (toplam ≤ 500) 12 etiket
 [GEÇTİ] Bölümler (YouTube kuralları) 12 bölüm, en kısa 17 sn
 [GEÇTİ] Kapak 1280x720, 177 KB

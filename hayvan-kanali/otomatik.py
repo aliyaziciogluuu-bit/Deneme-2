@@ -111,7 +111,12 @@ def guncellik(d, klasor, yer):
         d.yapilacak.append(f"{yer}: video yok → üretim hattı")
         return "uret"
     kaynaklar = [klasor / "senaryo.json", klasor / "cekimler.json"]
-    kaynaklar += list((klasor / "ses").glob("*.wav")) + list((klasor / "gorseller").glob("*.jpg")) + list((klasor / "klipler").glob("*.mp4"))
+    gorsel = list((klasor / "gorseller").glob("*.jpg")) + list((klasor / "klipler").glob("*.mp4"))
+    cek = oku(klasor / "cekimler.json")
+    if cek:  # Shorts'un gorseller/ klasörü ana videoya bağlı: yalnızca bu videonun kullandığı dosyalar sayılır
+        ad = {x for c in cek.get("cekimler", []) for x in (c.get("gorsel"), c.get("klip")) if x}
+        gorsel = [g for g in gorsel if g.stem in ad]
+    kaynaklar += list((klasor / "ses").glob("*.wav")) + gorsel
     en_yeni = max((p.stat().st_mtime for p in kaynaklar if p.exists()), default=0)
     if en_yeni > video.stat().st_mtime + 1:
         d.yapilacak.append(f"{yer}: video, kaynaklarından eski ({time.strftime('%d.%m %H:%M', time.localtime(video.stat().st_mtime))}) → yeniden üretilmeli")
