@@ -230,3 +230,15 @@ Not: K1–K10 ve K13–K14 Vikipedi/RSPCA sayfalarıdır; K2/K7/K8 Vikipedi'nin 
   - "Children under 5, adults over 65, and people with weakened immune systems are more likely to get sick from these germs."
   - "Wash your hands with soap and running water"
 - Not: köpek bölümünde cümle sırası değişti: "Bir kaynağa göre köpekler…" → "Aynı kaynak, aşırı salya…" → "…bulamadık; hafife de almıyoruz." (Cane toad kaynağı ilk iki cümleyi destekler.)
+
+## Son güncellemeler (22 Kasım, seslendirme sonrası)
+| Cümle | Yeni metin | Kaynak | Alıntı |
+|---|---|---|---|
+| 3 | Asıl dikkat etmen gereken başka: gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri. | vaat cümlesi; bölümler: Vikipedi Parotoid gland / Cane toad / CDC | (vaat; içerik ilgili bölümlerde kaynaklı) |
+| 18 | …gözde, ağızda ya da açık yarada yanma ve karıncalanmayı sayıyor. | Vikipedi Bufotoxin (kaynaklar/en_bufotoxin.txt) | "burning ... eyes, mouth ... open wounds" (ağız zarı → ağız sadeleştirildi) |
+| 21–23 | köpek bölümü sırası: kaynak → aynı kaynak (belirtiler) → bulamadık; hafife de almıyoruz | Vikipedi Cane toad (kaynaklar/en_cane_toad.txt) | "native to South and mainland Central America"; belirtiler ve acil veteriner |
+| 35 | Türkiye'de iki kara kurbağası türü anılıyor; ikisinin de Türkçe adında siğil kelimesi geçiyor. | Dursun ve ark. 2024 (kaynaklar/dursun2024_biodicon.txt) | anahtar sözcükler: "Siğilli Kurbağa", "Kafkas Siğilli Kurbağası" |
+| 59 | Kütahya'da yapılan bir araştırma, kara kurbağasını Bern Sözleşmesi'nin korunan türler listesinde gösteriyor. | Erişmiş 2017 (kaynaklar/erismis2017_kutahya.txt) | Tablo 1: Bufo bufo – Bern Ek III |
+| 29–31 | salmonella cümleleri | CDC (kaynaklar/cdc_reptiles_amphibians.txt) | "often carry Salmonella bacteria in their digestive tracts…" |
+
+Gerçek fotoğraf atıfları gercek_kaynaklar.json'dan video.py tarafından yükleme metnine otomatik yazılır.
