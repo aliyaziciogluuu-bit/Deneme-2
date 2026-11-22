@@ -104,7 +104,7 @@ def main():
         k, anahtar = gun["shorts"]; ad = AD[k]
         bagla(KOK / k / f"{anahtar}.mp4", hedef / f"{sira}_SHORTS_{ad}.mp4")
         bagla(KOK / k / f"{anahtar}_yukleme.txt", hedef / f"{sira}_SHORTS_{ad}_metin.txt")
-        ilgili = [t for t, g in sorted(takvim.items()) if g.get("uzun") == k and t <= tarih] \
+        ilgili = [t for t, g in sorted(takvim.items()) if k in (g.get("uzun"), g.get("planli_uzun")) and t <= tarih] \
             + [t for t in [YOUTUBEDA_PLANLI.get(k)] if t and t <= tarih]
         ilgili_metin = (f"{TR[ad]} uzun videosu" if ilgili or k in ("01-rainy-cabin", "03-christmas-cabin", "04-snowy-village")
                         else "henüz yok (uzun sürüm yayınlanınca bağla)")
