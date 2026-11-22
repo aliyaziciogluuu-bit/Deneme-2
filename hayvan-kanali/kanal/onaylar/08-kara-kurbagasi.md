@@ -31,3 +31,4 @@
 - Kalite kontrol (Tur 3, 22 Kasım): ONAY. Puan: ses 8, gorsel 8, teknik 5/5 (Tur 1: 7, 5, 3). Zayıf noktalar (engel değil): yol karesi, çizgi film köpek, kapak B başlıkla az örtüşüyor.
 - Puan (22 Kasım): 83/100 → TESLİM.
 - Yönetici (22 Kasım): ONAY. Uygulandı: kapak B "KÖPEK ISIRIRSA? / Ne yapman gerektiği" (eski B kaynaksız ağırlık vaat ediyordu); Shorts 6 ve 7 Aralık 12:00'ye alındı (yarasa s3 → 9 Ara, baykuş s3 → 10 Ara); sabit yorum etkilesim.md'ye eklendi; küçük resim sırası A, tıklama oranı 48 saatte %2 altındaysa C. 8 Aralık videosu kapanışta duyurulan yılan–inek olmalı.
+- **TESLİM EDİLDİ** (22 Kasım): teslim/08-kara-kurbagasi. Puan 83/100. Kanca cümlesi yönetici onayından sonra 'Çıkmaz: siğil, …' yapıldı ('siğile' eki); son kontrol 66/66 GEÇTİ. Kanal sahibine dinleme listesi (DINLEME_LISTESI.txt) verildi.
