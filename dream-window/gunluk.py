@@ -7,6 +7,7 @@ Kullanım:  python gunluk.py 2026-11-15
 import json
 import os
 import pathlib
+import shutil
 import sys
 import zipfile
 
@@ -52,7 +53,9 @@ def main():
     if not any(k in gun for k in ("uzun", "shorts", "not")):
         raise SystemExit(f"{tarih} için plan yok (bugünkü yüklemeler önceden planlandı)")
     hedef = KOK / "bugun" / tarih
-    hedef.mkdir(parents=True, exist_ok=True)
+    if hedef.exists():                                                 # eski çalıştırmadan kalan dosyalar bugüne karışmasın
+        shutil.rmtree(hedef)
+    hedef.mkdir(parents=True)
     adimlar, sira = [f"DREAM WINDOW – {tarih} YÜKLEME TALİMATI", ""], 1
     if "uzun" in gun:
         k = gun["uzun"]; ad = AD[k]
