@@ -82,5 +82,257 @@
   "hata": 0,
   "sure": 5.42,
   "uygun": true
+ },
+ "012": {
+  "yazi": "O bezlerin içinde ne var?",
+  "duyulan": "O bezlerin içinde ne var?",
+  "hata": 0,
+  "sure": 1.42,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Kara kurbağasının gözlerinin hemen arkasında, eğik duran iki şişkin bez var.",
+  "duyulan": "Kara kurbağasının gözlerinin hemen arkasında eğik duran iki şişkin bez var.",
+  "hata": 0,
+  "sure": 4.72,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Saldırıya uğrayınca bu bezler, bufotoksin içeren, tadı kötü bir salgı çıkarıyor.",
+  "duyulan": "Saldırıya uğrayınca bu bezler bu fotoksin içeren tadı kötü bir salgı çıkarıyor.",
+  "hata": 0,
+  "sure": 5.06,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "İnsanlar için de tehlikeli mi?",
+  "duyulan": "İnsanlar için de tehlikeli mi?",
+  "hata": 0,
+  "sure": 1.44,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Bir kaynağa göre kurbağa zehrini yemek ya da içmek yüzünden insan zehirlenmesi nadir ama öldürücü olabiliyor.",
+  "duyulan": "Bir kaynağa göre kurbağa zehrini yemek ya da içmek yüzünden insan zehirlenmesi nadir ama öldürücü olabiliyor.",
+  "hata": 0,
+  "sure": 6.9,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Örnek olarak çorba, et ya da yumurta tüketimi ve canlı hayvan yutmak sayılıyor.",
+  "duyulan": "Örnek olarak çorba, et ya da yumurta tüketimi ve canlı hayvan yutmak sayılıyor.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Aynı kaynak, hafif belirtiler arasında gözde, ağız zarında ya da açık yarada yanma ve karıncalanmayı sayıyor.",
+  "duyulan": "Aynı kaynak, hafif belirtiler arasında gözde, ağızlarında ya da açık yarada yanma ve karıncalanmayı sayıyor.",
+  "hata": 2,
+  "sure": 6.68,
+  "uygun": false
+ },
+ "019": {
+  "yazi": "Bize göre hayvanı sıkma; gözüne, ağzına ya da yarana değdirme; yanma sürerse doktora danış.",
+  "duyulan": "Bize göre hayvanı sıkma, gözüne, ağzına ya da yarana değdirme. Yanma sürerse doktora danış.",
+  "hata": 0,
+  "sure": 6.1,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Peki köpeğin kurbağayı yalarsa ya da ısırırsa ne olur?",
+  "duyulan": "Peki, köpeğin kurbağı yalarsa ya da ısırırsa ne olur?",
+  "hata": 1,
+  "sure": 3.64,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.",
+  "duyulan": "Bir kaynağa göre köpekler, Güney Amerika kökenli iri bir kurbağayı yalayınca ya da diş geçirince kolay zehirleniyor.",
+  "hata": 0,
+  "sure": 6.36,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Aynı kaynak, aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılmada acil veteriner yardımı öneriyor.",
+  "duyulan": "Aynı kaynak aşırı salya, kıpkırmızı diş eti, baş sallama, dengesizlik ya da kasılmada acil veteriner yardımı öneriyor.",
+  "hata": 0,
+  "sure": 8.16,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık; hafife de almıyoruz.",
+  "duyulan": "Kara kurbağasının köpekte ne kadar ağır zehirlenme yaptığını gösteren bir kaynak bulamadık, hafife de almıyoruz.",
+  "hata": 0,
+  "sure": 5.86,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Ne yapmalısın?",
+  "duyulan": "Ne yapmalısın?",
+  "hata": 0,
+  "sure": 0.74,
+  "uygun": true
+ },
+ "025": {
+  "yazi": "İngiltere'deki hayvan koruma derneği, evcil hayvanın zararlı bir şeye maruz kaldığını düşünürsen hemen veterinere başvurmanı söylüyor.",
+  "duyulan": "İngiltere'deki Hayvan Koruma Derneği, evcil hayvanın zararlı bir şeye maruz kaldığını düşünürsen hemen veterinere başvurmanı söylüyor.",
+  "hata": 0,
+  "sure": 7.32,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Veterinere neyi ve ne kadar yediğini bildirmeni de istiyor.",
+  "duyulan": "Veterinere neyi ve ne kadar yediğini bildirmeni de istiyor.",
+  "hata": 0,
+  "sure": 3.1,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma.",
+  "duyulan": "Bize göre kurbağaların çıktığı akşam karanlığında köpeğini bahçede başıboş bırakma.",
+  "hata": 0,
+  "sure": 5.28,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Peki kurbağayı tuttuktan sonra neden ellerini yıkamalısın?",
+  "duyulan": "Peki kurbağayı tuttuktan sonra neden ellerini yıkamalısın?",
+  "hata": 0,
+  "sure": 3.26,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Kurbağalar ve sürüngenler salmonella taşıyabiliyor; bu bakteri onlara dokunan insanlara geçebiliyor.",
+  "duyulan": "Kurbağalar ve sürüngenler salmonella taşıyabiliyor. Bu bakteri onlara dokunan insanlara geçebiliyor.",
+  "hata": 0,
+  "sure": 5.84,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Salmonella enfeksiyonu bebekler, küçük çocuklar, yaşlılar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.",
+  "duyulan": "Salmonella enfeksiyonu bebekler, küçük çocuklar, yaşlılar ve bağışıklığı zayıf olanlar için ciddi olabiliyor.",
+  "hata": 0,
+  "sure": 7.04,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Dokunduysan ellerini sabun ve suyla iyice yıka; bebekleri ve küçük çocukları kurbağadan uzak tut.",
+  "duyulan": "Dokunduysan ellerini sabun ve suyla iyice yıka, bebekleri ve küçük çocukları kurbağa'dan uzak tut.",
+  "hata": 0,
+  "sure": 6.08,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "İngiltere'deki dernek, çıplak elle dokunmamanı da öneriyor; çünkü kurbağalar derimizdeki kimyasallara çok duyarlı.",
+  "duyulan": "İngiltere'deki dernek çıplak elle dokunmamanı da öneriyor çünkü kurbağalar derimizdeki kimyasallara çok duyarlı.",
+  "hata": 0,
+  "sure": 6.52,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Mecbur kalırsan tek kullanımlık eldiven tak ve eldiveni önce suyla durula.",
+  "duyulan": "Mecbur kalırsan tek kullanımlık eldiven tak ve eldiveni önce suyla durula.",
+  "hata": 0,
+  "sure": 4.68,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Bahçendeki kurbağa hangisi?",
+  "duyulan": "Bahçendeki kurbağa hangisi?",
+  "hata": 0,
+  "sure": 1.64,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Türkiye'de iki kara kurbağası türü anılıyor: siğilli kurbağa ve Kafkas siğilli kurbağası.",
+  "duyulan": "Türkiye'de iki kara kurbağası türü anılıyor, Sihirli Kurbağa ve Kafkas Sihirli Kurbağası.",
+  "hata": 2,
+  "sure": 5.64,
+  "uygun": false
+ },
+ "036": {
+  "yazi": "Bilim dilinde bunlar Bufo bufo ve Bufo verrucosissimus; ikisinin birbiriyle ilişkisi hâlâ net değil.",
+  "duyulan": "Bilim dilinde bunlar Bufo-Bufo ve Bufo-Vericosisimus. İkisinin birbiriyle ilişkisi hâlâ net değil.",
+  "hata": 1,
+  "sure": 6.22,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Sırtı yeşilimsi benekli olanlar Bufotes cinsinden; bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar Bufotes sitibundus.",
+  "duyulan": "Sırtı yeşilimsi benekli olanlar bufotes cinsinden. Bir çalışmaya göre Anadolu'nun çoğunda yaşayanlar bufotes stibundus.",
+  "hata": 1,
+  "sure": 7.2,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış; Türkiye'deki sonuçları ayrıca doğrulayamadık.",
+  "duyulan": "Videodaki yaşam bilgilerinin çoğu Avrupa'daki kara kurbağası için yazılmış. Türkiye'deki sonuçları ayrıca doğurlayamadık.",
+  "hata": 1,
+  "sure": 6.28,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Bu hayvan bahçende ne iş yapıyor?",
+  "duyulan": "Bu hayvan bahçende ne iş yapıyor?",
+  "hata": 0,
+  "sure": 2.16,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Gündüz taşın, kökün ya da bir oyuğun altında saklanıyor; akşam karanlığında çıkıp avlanıyor.",
+  "duyulan": "Gündüz taşın, kökün ya da bir oyunun altında saklanıyor, akşam karanlığında çıkıp avlanıyor.",
+  "hata": 1,
+  "sure": 6.33,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Yiyecekleri arasında karınca, tırtıl, sinek, örümcek, solucan ve sümüklüböcek var.",
+  "duyulan": "Yiyecekleri arasında karınca, tırtıl, sinek, örümcek, solucan ve sümüklü böcek var.",
+  "hata": 0,
+  "sure": 6.22,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Dişleri yok; avını bütün yutuyor.",
+  "duyulan": "Dişleri yok, avını bütün yutuyor.",
+  "hata": 0,
+  "sure": 2.28,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "İngiltere'deki dernek, kurbağaların ve kara kurbağalarının çok sayıda böcek yediğini yazıyor; kara kurbağaları özellikle karıncayı tercih ediyor.",
+  "duyulan": "İngiltere'deki dernek, kurbağaların ve kara kurbağalarının çok sayıda böcek yediğini yazıyor. Kara kurbağaları özellikle karınca tercih ediyor.",
+  "hata": 1,
+  "sure": 8.68,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Kışın toprakta bir oyuğa, bazen de bodruma giriyorlar; çoğu zaman başka kurbağalarla birlikte.",
+  "duyulan": "Kışın, toprakta bir oyuağa bazen de bodruma giriyorlar, çoğu zaman başka kurbağalarla birlikte.",
+  "hata": 1,
+  "sure": 6.12,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Peki baharda bu hayvanlar neden yola çıkıyor?",
+  "duyulan": "Peki baharda bu hayvanlar neden yola çıkıyor?",
+  "hata": 0,
+  "sure": 2.66,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Kara kurbağaları baharda uyanıp topluca üreme göletine yürüyor; bir kilometreden fazla yol gidebiliyorlar.",
+  "duyulan": "Karakurbağaları baharda uyanıp, topluca üreme göletine yürüyor. Bir kilometreden fazla yol gidebiliyorlar.",
+  "hata": 0,
+  "sure": 6.12,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Avrupa'daki bir araştırmada, küçükken işaretlenip sonradan üremeye dönen erkeklerin büyük çoğunluğu doğdukları gölette yakalanmış.",
+  "duyulan": "Avrupa'daki bir araştırmada, küçükken işaretlenip sonradan üremeye dönen erkeklerin büyük çoğunluğu doğdukları gölette yakalanmış.",
+  "hata": 0,
+  "sure": 7.72,
+  "uygun": true
  }
 }

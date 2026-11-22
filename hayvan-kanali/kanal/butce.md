@@ -26,7 +26,10 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 20 Kas | 07 kırlangıç klipleri | – | ~2,10 $ (6 klip) | – | ~2,1 $ | kuluçka klibi düşürüldü |
 | 20 Kas | 08 kara kurbağası deneme görselleri | ~0,24 $ (2 tur × 2 test görseli) | – | – | ~0,2 $ | pençe ve bez hatası ana seriden önce yakalandı |
 | 20 Kas | 08 kara kurbağası görselleri | ~1,56 $ (26 aday üretildi; 4 aday kredi bitince üretilemedi) | – | ~0,05 $ (6 cümle) | ~1,6 $ | Replicate kredisi bitti; kanal sahibinin yüklemesi bekleniyor |
-| | **Kasım toplamı** | | | | **~46,2 $** | aylık bütçe 60 $ |
+| 22 Kas | 08 kara kurbağası: kalan görseller + düzenleme | ~0,36 $ (6 aday) + ~0,08 $ (2 Kontext) | – | – | ~0,4 $ | 4 gerçek fotoğraf ücretsiz (iNaturalist, Commons) |
+| 22 Kas | 08 kara kurbağası klipleri | – | ~1,40 $ (4 klip) | ~0,5 $ (seslendirme, sürüyor) | ~1,9 $ | video toplamı ≈ 4,3 $ (tavan 5 $) |
+| 22 Kas | 06 karga cümle 22–23 + 03–06 s3 Shorts seslendirmeleri | – | – | ~0,2 $ | ~0,2 $ | |
+| | **Kasım toplamı** | | | | **~48,7 $** | aylık bütçe 60 $ |
 
 ## Aralık 2026 planı (kanal sahibi: haftada 3 video, 60 $)
 - 14 yayın günü (salı, perşembe, cumartesi): karga ve kırlangıç hazır, 12 yeni video.
