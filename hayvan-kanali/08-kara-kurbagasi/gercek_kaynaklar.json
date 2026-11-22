@@ -1,0 +1,34 @@
+{
+ "gercek_rize": {
+  "baslik": "iNaturalist gözlem 199114094 (Bufo bufo)",
+  "sayfa": "https://www.inaturalist.org/observations/199114094",
+  "yazar": "© Wouter Beukema, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
+ },
+ "gercek_kirklareli": {
+  "baslik": "iNaturalist gözlem 410527886 (Bufo bufo)",
+  "sayfa": "https://www.inaturalist.org/observations/410527886",
+  "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
+ },
+ "gercek_goc_cifti": {
+  "baslik": "File:Bufo bufo couple during migration(2005).jpg",
+  "sayfa": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_couple_during_migration(2005).jpg",
+  "yazar": "Janekpfeifer at de.wikipedia",
+  "lisans": "CC BY-SA 3.0",
+  "boyut": "2048x1536",
+  "tur": "fotoğraf"
+ },
+ "gercek_portre": {
+  "baslik": "File:Bufo-bufo-erdkroete-maennlich-front.jpg",
+  "sayfa": "https://commons.wikimedia.org/wiki/File:Bufo-bufo-erdkroete-maennlich-front.jpg",
+  "yazar": "Holger Krisp",
+  "lisans": "CC BY 3.0",
+  "boyut": "3256x2240",
+  "tur": "fotoğraf"
+ }
+}

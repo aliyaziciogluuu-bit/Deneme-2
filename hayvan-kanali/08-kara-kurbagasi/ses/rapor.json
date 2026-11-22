@@ -3,49 +3,84 @@
   "yazi": "Taşı kaldırıyorsun; altında yumru yumru bir hayvan var.",
   "duyulan": "Taşı kaldırıyorsun, altında yumru yumru bir hayvan var.",
   "hata": 0,
-  "sure": 3.36,
+  "sure": 3.26,
   "uygun": true
  },
  "001": {
   "yazi": "Kurbağaya dokunursan elinde siğil çıkar mı?",
-  "duyulan": "Kurbağa'ya dokunursan elinde siil çıkar mı?",
-  "hata": 1,
-  "sure": 2.68,
-  "uygun": false
+  "duyulan": "Kurbağa'ya dokunursan elinde sihil çıkar mı?",
+  "hata": 0,
+  "sure": 2.26,
+  "uygun": true
  },
  "002": {
   "yazi": "Çıkmaz: siğile insan papilloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.",
-  "duyulan": "Çıkmaz. Si ile insan papiloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.",
+  "duyulan": "Çıkmaz. Siyle insan papiloma virüsü neden olur ve kurbağalar bu virüsü taşımaz.",
   "hata": 1,
-  "sure": 5.3,
+  "sure": 4.66,
   "uygun": true
  },
  "003": {
   "yazi": "Asıl dikkat etmen gereken başka: gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri.",
   "duyulan": "Asıl dikkat etmen gereken başka, gözlerinin arkasındaki bez, köpeğinin ağzı ve elindeki bakteri.",
   "hata": 0,
-  "sure": 6.18,
+  "sure": 5.98,
   "uygun": true
  },
  "004": {
   "yazi": "Derisindeki o yumrular ne?",
   "duyulan": "Derisindeki o yumrular ne?",
   "hata": 0,
-  "sure": 1.5,
+  "sure": 1.42,
   "uygun": true
  },
  "005": {
   "yazi": "Siğil değiller: boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksiyondan olmuyorlar.",
-  "duyulan": "Sihil değiller, boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksiyondan olmuyorlar.",
-  "hata": 0,
+  "duyulan": "Sihil değiller, boyları sabit, sağlıklı hayvanda bulunuyorlar ve bir enfeksyondan olmuyorlar.",
+  "hata": 1,
   "sure": 5.3,
   "uygun": true
  },
  "006": {
   "yazi": "Yumrular siğile benzediği için bu inanış yaygınlaşmış.",
-  "duyulan": "Yumrular siyle benzediği için bu inanış yaygınlaşmış.",
+  "duyulan": "yumrular siyle benzediği için bu inanış yaygınlaşmış.",
   "hata": 1,
-  "sure": 3.2,
+  "sure": 2.86,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Siğil gerçekte nereden çıkıyor?",
+  "duyulan": "Sihil gerçekte nereden çıkıyor?",
+  "hata": 0,
+  "sure": 2.0,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "İngiliz halk inanışına göre kurbağaya dokunmak siğil çıkarır; Alman inanışına göre dolunayda dokunmak siğili geçirir.",
+  "duyulan": "İngiliz halk inanışına göre kurbağa'ya dokunmak sihil çıkarır. Alman inanışına göre Dolunay'da dokunmak sihili geçirir.",
+  "hata": 1,
+  "sure": 7.62,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Siğil, kanser olmayan bir deri büyümesi.",
+  "duyulan": "Sihil, kanser olmayan bir deri büyümesi.",
+  "hata": 0,
+  "sure": 2.46,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Genellikle ellerde ve ayaklarda çıkıyor; virüsün deriye yaradan girdiği düşünülüyor.",
+  "duyulan": "Genellikle ellerde ve ayaklarda çıkıyor, virüsün deriye yaradan girdiği düşünülüyor.",
+  "hata": 0,
+  "sure": 5.02,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Çoğu siğil türü aylar ya da yıllar içinde geçiyor; elindeki için doktoruna danış.",
+  "duyulan": "çoğu sihil türü aylar ya da yıllar içinde geçiyor. Elindeki için doktoruna danış.",
+  "hata": 0,
+  "sure": 5.42,
   "uygun": true
  }
 }

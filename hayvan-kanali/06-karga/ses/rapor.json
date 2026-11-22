@@ -126,18 +126,20 @@
   "uygun": true
  },
  "022": {
-  "yazi": "Seattle'da sekiz yaşında bir kız, bahçesine gelen kargaları yıllarca besledi.",
-  "duyulan": "Seattle'da 8 yaşında bir kız, bahçesine gelen kargaları yıllarca besledi.",
+  "yazi": "Seattle'da sekiz yaşında bir kız, bahçesine gelen kargaları iki yıldır besliyordu.",
+  "duyulan": "Seattle'da 8 yaşında bir kız bahçesine gelen kargaları iki yıldır besliyordu.",
   "hata": 0,
-  "sure": 4.54,
-  "uygun": true
+  "sure": 5.5,
+  "uygun": true,
+  "tek_basina": true
  },
  "023": {
-  "yazi": "Anlatılanlara göre kargalar ona düğme, taş ve küpe gibi küçük şeyler bıraktı.",
-  "duyulan": "Anlatılanlara göre kargalar ona düğme, taş ve küpe gibi küçük şeyler bıraktı.",
+  "yazi": "Anlatılanlara göre kargalar ona deniz camı, paslı vida gibi küçük şeyler bıraktı.",
+  "duyulan": "Anlatılanlara göre kargalar ona deniz camı, paslı vida gibi küçük şeyler bıraktı.",
   "hata": 0,
-  "sure": 4.82,
-  "uygun": true
+  "sure": 5.08,
+  "uygun": true,
+  "tek_basina": true
  },
  "024": {
   "yazi": "Marzluff, kargaların hediye getirmesinin her zaman olacağını söyleyemediğini belirtmiş.",

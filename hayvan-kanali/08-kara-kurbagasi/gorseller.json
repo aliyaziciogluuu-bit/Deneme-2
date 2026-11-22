@@ -19,11 +19,6 @@
       "once_test": true
     },
     {
-      "ad": "sigil_el",
-      "istem": "A single human hand, palm down, resting on a wooden garden table seen from above, a few small ordinary skin warts on one finger, a green leaf beside it, no face, no toad in the picture, calm soft light. Folk-belief mood, no text. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces. The toad has exactly two eyes. Its toes are short, soft and blunt with rounded tips: no claws, no nails, no talons. The warts are irregular in size and shape, not uniform beads. Three clearly visible small rounded skin warts on the index finger. Skin uniform brown-olive with no dark spots, no leopard pattern, no grey ear-drum oval behind the eye.",
-      "aday": 1
-    },
-    {
       "ad": "el_yikama",
       "istem": "Two bare hands washing with soap under running water from an outdoor garden tap, foam and drops, evening light, green garden behind, only hands and forearms visible, no face, no animal. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
       "aday": 1
@@ -74,11 +69,6 @@
       "aday": 2
     },
     {
-      "ad": "golet_yumurta",
-      "istem": "A shallow spring pond with two long double-row strings of jelly toad eggs wrapped around underwater plant stems, tiny black tadpoles swimming in the clear water, reeds, a a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, behind each eye a long raised swollen ridge (the parotoid gland) made of the SAME warty brown skin, bumpy and elongated, slanting backward; it is NOT a dark patch, NOT an ear drum, NOT a second eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller resting at the pond edge half in the water. Scale: the egg strings are long, the tadpoles tiny, the toad palm-sized. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces. The toad has exactly two eyes. Its toes are short, soft and blunt with rounded tips: no claws, no nails, no talons. The warts are irregular in size and shape, not uniform beads. The eggs are laid as one long double-row string of clear jelly with two lines of small black dots, wrapped around underwater plant stems, NOT a clump, NOT yellow discs. Skin uniform brown-olive with no dark spots, no leopard pattern, no grey ear-drum oval behind the eye.",
-      "aday": 1
-    },
-    {
       "ad": "yol_gecis",
       "istem": "A quiet country road on a rainy spring night seen from the roadside, several a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, behind each eye a long raised swollen ridge (the parotoid gland) made of the SAME warty brown skin, bumpy and elongated, slanting backward; it is NOT a dark patch, NOT an ear drum, NOT a second eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller individuals, about five, crossing the wet asphalt one by one in the same direction, wet reflections, a faint glow of headlights very far away down the road, no car near, no people, nothing harmful happens. Scale: each toad about 10 cm, small against the road width. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces. The toad has exactly two eyes. Its toes are short, soft and blunt with rounded tips: no claws, no nails, no talons. The warts are irregular in size and shape, not uniform beads. Skin uniform brown-olive with no dark spots, no leopard pattern, no grey ear-drum oval behind the eye.",
       "aday": 2
@@ -87,6 +77,30 @@
       "ad": "kova_gonullu",
       "istem": "Roadside on a rainy night: gloved hands in thin blue disposable gloves carrying a plastic bucket with a few a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, behind each eye a long raised swollen ridge (the parotoid gland) made of the SAME warty brown skin, bumpy and elongated, slanting backward; it is NOT a dark patch, NOT an ear drum, NOT a second eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller individuals inside, toward the dark wet grass beyond the verge, only hands and a rain jacket sleeve visible, no faces, no car. Scale: each toad about 10 cm, the bucket is ordinary size. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces. The toad has exactly two eyes. Its toes are short, soft and blunt with rounded tips: no claws, no nails, no talons. The warts are irregular in size and shape, not uniform beads. Skin uniform brown-olive with no dark spots, no leopard pattern, no grey ear-drum oval behind the eye.",
       "aday": 1
+    },
+    {
+      "ad": "gercek_rize",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, Rize/Çamlıhemşin, iNaturalist, CC BY"
+    },
+    {
+      "ad": "gercek_kirklareli",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, Kırklareli/Demirköy, iNaturalist, CC BY"
+    },
+    {
+      "ad": "gercek_goc_cifti",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, göçte çiftleşen kara kurbağaları, Commons, CC BY-SA 3.0"
+    },
+    {
+      "ad": "gercek_portre",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, erkek kara kurbağası önden, Commons, CC BY 3.0"
     }
   ],
   "dusurulen": [
@@ -107,6 +121,18 @@
       "istem": "A dog with four legs standing calmly on a clean examination table in a veterinary room, a veterinarian's hands in white gloves checking its mouth, the vet's face is not visible (cropped at the shoulders, seen from behind), no text, no posters, no charts. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces.",
       "aday": 1,
       "dusuruldu": "20 Kas: aday denetimden geçmedi; tasarruf kuralı gereği yerine: kopek_belirti (düzenlenmiş)"
+    },
+    {
+      "ad": "sigil_el",
+      "istem": "A single human hand, palm down, resting on a wooden garden table seen from above, a few small ordinary skin warts on one finger, a green leaf beside it, no face, no toad in the picture, calm soft light. Folk-belief mood, no text. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces. The toad has exactly two eyes. Its toes are short, soft and blunt with rounded tips: no claws, no nails, no talons. The warts are irregular in size and shape, not uniform beads. Three clearly visible small rounded skin warts on the index finger. Skin uniform brown-olive with no dark spots, no leopard pattern, no grey ear-drum oval behind the eye.",
+      "aday": 1,
+      "dusuruldu": "22 Kas: tek aday denetimden geçmedi; yerine: el_yikama / kurbaga_yakin (elde siğil çizilemedi)"
+    },
+    {
+      "ad": "golet_yumurta",
+      "istem": "A shallow spring pond with two long double-row strings of jelly toad eggs wrapped around underwater plant stems, tiny black tadpoles swimming in the clear water, reeds, a a common toad (Bufo bufo): dry warty brown-olive skin covered in rounded bumps, copper-gold iris with a HORIZONTAL oval pupil, behind each eye a long raised swollen ridge (the parotoid gland) made of the SAME warty brown skin, bumpy and elongated, slanting backward; it is NOT a dark patch, NOT an ear drum, NOT a second eye, short stout legs, wide toothless mouth, plump body, not smooth, not green, not shiny, not a water frog, only about 8-15 cm long, about the size of an adult human palm or smaller resting at the pond edge half in the water. Scale: the egg strings are long, the tadpoles tiny, the toad palm-sized. Realistic amphibian anatomy: exactly four legs, four toes on each front foot, five on each hind foot, no extra limbs, no teeth. No text, no letters, no signs, no human faces. The toad has exactly two eyes. Its toes are short, soft and blunt with rounded tips: no claws, no nails, no talons. The warts are irregular in size and shape, not uniform beads. The eggs are laid as one long double-row string of clear jelly with two lines of small black dots, wrapped around underwater plant stems, NOT a clump, NOT yellow discs. Skin uniform brown-olive with no dark spots, no leopard pattern, no grey ear-drum oval behind the eye.",
+      "aday": 1,
+      "dusuruldu": "22 Kas: tek aday denetimden geçmedi; yerine: gercek_goc_cifti ve goc_yolu (yumurta ipi çizilemedi)"
     }
   ]
 }
