@@ -45,6 +45,28 @@ def test(dosya: pathlib.Path, uzun: bool):
     return son
 
 
+def test_paket(zip_yol: pathlib.Path):
+    """Yalnızca 4K paketi olan (8 saatlik) videolar: liste.txt toplam süresini ve ilk parçaların birleşiminde tekrar testini yapar."""
+    import tempfile
+    with tempfile.TemporaryDirectory(dir=KOK) as gec, zipfile.ZipFile(zip_yol) as z:
+        gec = pathlib.Path(gec)
+        z.extractall(gec, [n for n in z.namelist() if n.split("/")[-1] in ("liste.txt", "acilis.mp4", "dongu.mp4", "kapanis.mp4")])
+        klasor = next(gec.rglob("liste.txt")).parent
+        satir = [s for s in (klasor / "liste.txt").read_text().splitlines() if s.strip()]
+        sure = lambda f: float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)],
+                                              capture_output=True, text=True).stdout or 0)
+        toplam = sum(sure(klasor / s.split("'")[1]) for s in satir)
+        if toplam < 8 * 3600 - 1:
+            raise SystemExit(f"SÜRE HATALI: {zip_yol.name} {toplam:.0f} sn")
+        (klasor / "_kisa.txt").write_text("\n".join(satir[:4] + satir[-2:]) + "\n")        # açılış, döngü geçişleri ve kapanış
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(klasor / "_kisa.txt"), "-c", "copy",
+                        str(klasor / "_kisa.mp4")], check=True)
+        r = subprocess.run([sys.executable, "kontrol.py", str(klasor / "_kisa.mp4"), "--sure", "240"], cwd=KOK, capture_output=True, text=True)
+        if "SORUN" in r.stdout + r.stderr or r.returncode != 0:
+            raise SystemExit(f"TEKRAR TESTİ GEÇMEDİ: {zip_yol.name}\n{r.stdout}{r.stderr}")
+        return f"{(r.stdout.strip().splitlines() or [''])[-1]} · toplam {toplam / 3600:.1f} saat"
+
+
 def planlandi(bas, bit):
     """Aralıktaki yüklemeler YouTube'da planlandı: günlük hatırlatma artık dosya göndermesin, yalnızca notları hatırlatsın."""
     p = KOK / "kanal" / "takvim.json"
@@ -93,14 +115,16 @@ def main():
             subprocess.run([sys.executable, "gunluk.py", t], cwd=KOK, check=True, capture_output=True)
             klasor = hedef / t
             shutil.copytree(gunluk_klasor, klasor, copy_function=lambda a, b: __import__("os").link(a, b))
-            for v in sorted(klasor.glob("*_video.mp4")) + sorted(klasor.glob("*SHORTS_*.mp4")):
+            yalniz_4k = [z for z in sorted(klasor.glob("*_UZUN_*_4K_paket.zip"))
+                         if not (klasor / z.name.replace("_4K_paket.zip", "_video.mp4")).exists()]   # 8 saatlik: 1080p sürüm yok
+            for v in sorted(klasor.glob("*_video.mp4")) + yalniz_4k + sorted(klasor.glob("*SHORTS_*.mp4")):
                 uzun = "_UZUN_" in v.name
-                print(f"{t} {v.name}: {test(v, uzun)}")
+                print(f"{t} {v.name}: {test_paket(v) if v in yalniz_4k else test(v, uzun)}")
                 metin = (v.parent / v.name.replace("_video.mp4", "_metin.txt").replace(".mp4", "_metin.txt")
-                         if not uzun else v.parent / v.name.replace("_video.mp4", "_metin.txt"))
+                         if not uzun else v.parent / v.name.replace("_video.mp4", "_metin.txt").replace("_4K_paket.zip", "_metin.txt"))
                 yazi = metin.read_text(encoding="utf-8")
                 oge = {"tarih": t, "saat": "20:00" if uzun else "19:30", "tur": "uzun" if uzun else "shorts",
-                       "klasor": t, "video": v.name, "metin": metin.name,
+                       "klasor": t, "video": "" if v in yalniz_4k else v.name, "metin": metin.name,
                        "baslik": bolum(yazi, "TITLE"), "not": g.get("not", "")}
                 if uzun:
                     k = g["uzun"]
@@ -109,6 +133,8 @@ def main():
                     oge["paket_4K"] = sorted(p.name for p in klasor.glob("*_4K_paket.zip"))[:1]
                     oge["baslik_4K"] = json.loads((KOK / "kanal" / "baslik_4k.json").read_text(encoding="utf-8")).get(k, "")
                     oge["ceviriler"] = sorted(p.name for p in klasor.glob("*_ceviriler.txt"))[:1]
+                    if v in yalniz_4k:
+                        oge["yalnizca_4K"] = True                                  # 1080p yedeği yok: birleştirme olmazsa yükleme, sor
                 else:
                     satir = [s for s in (klasor / "0_TALIMAT.txt").read_text(encoding="utf-8").splitlines() if "İlgili video:" in s]
                     oge["ilgili_video"] = satir[0].split("İlgili video:", 1)[1].strip() if satir else ""

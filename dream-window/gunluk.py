@@ -17,12 +17,12 @@ AD = {"01-rainy-cabin": "yagmurlu_kulube", "03-christmas-cabin": "noel_kulubesi"
       "08-attic-bedroom": "cati_kati", "09-lighthouse": "deniz_feneri", "10-japanese-garden": "japon_bahcesi",
       "11-aurora-igloo": "kuzey_isiklari", "12-christmas-train": "noel_treni",
       "13-forest-cabin": "orman_kulubesi", "14-new-year-loft": "yilbasi_cati_kati", "15-rainy-bookshop": "yagmurlu_kitapci", "16-mountain-chalet": "alp_dag_evi", "17-dining-car": "yemekli_vagon", "18-rainy-greenhouse": "yagmurlu_sera", "19-castle-library": "kale_kutuphanesi", "20-lake-cabin": "gol_kulubesi",
-      "21-paris-apartment": "paris_dairesi", "22-tokyo-apartment": "tokyo_dairesi", "23-seaside-cottage": "deniz_kenari_kulube", "24-canal-houseboat": "kanal_teknesi", "25-rainforest-treehouse": "orman_agac_evi", "26-mountain-temple": "dag_tapinagi", "27-snowy-observatory": "karli_gozlemevi", "28-cherry-blossom-teahouse": "kiraz_cay_evi"}
+      "21-paris-apartment": "paris_dairesi", "22-tokyo-apartment": "tokyo_dairesi", "23-seaside-cottage": "deniz_kenari_kulube", "24-canal-houseboat": "kanal_teknesi", "25-rainforest-treehouse": "orman_agac_evi", "26-mountain-temple": "dag_tapinagi", "27-snowy-observatory": "karli_gozlemevi", "28-cherry-blossom-teahouse": "kiraz_cay_evi", "29-fjord-christmas-cabin": "fiyort_noel_kulubesi"}
 TR = {"yagmurlu_kulube": "Yağmurlu kulübe", "noel_kulubesi": "Noel kulübesi", "karli_kasaba": "Karlı kasaba", "kutuphane": "Kütüphane",
       "yagmurlu_kafe": "Yağmurlu kafe", "noel_arifesi": "Noel arifesi", "cati_kati": "Çatı katı", "deniz_feneri": "Deniz feneri",
       "japon_bahcesi": "Japon bahçesi", "kuzey_isiklari": "Kuzey ışıkları iglo", "noel_treni": "Noel treni",
       "orman_kulubesi": "Karlı orman kulübesi", "yilbasi_cati_kati": "Yılbaşı çatı katı", "yagmurlu_kitapci": "Yağmurlu kitapçı", "alp_dag_evi": "Alp dağ evi", "yemekli_vagon": "Kış treni yemekli vagon", "yagmurlu_sera": "Yağmurlu sera", "kale_kutuphanesi": "Kale kütüphanesi", "gol_kulubesi": "Göl kenarı kulübe",
-      "paris_dairesi": "Karlı Paris dairesi", "tokyo_dairesi": "Yağmurlu Tokyo dairesi", "deniz_kenari_kulube": "Fırtınalı deniz kenarı kulübe", "kanal_teknesi": "Kanal teknesi", "orman_agac_evi": "Yağmur ormanı ağaç evi", "dag_tapinagi": "Karlı dağ tapınağı", "karli_gozlemevi": "Karlı gözlemevi", "kiraz_cay_evi": "Kiraz çiçekli çay evi"}
+      "paris_dairesi": "Karlı Paris dairesi", "tokyo_dairesi": "Yağmurlu Tokyo dairesi", "deniz_kenari_kulube": "Fırtınalı deniz kenarı kulübe", "kanal_teknesi": "Kanal teknesi", "orman_agac_evi": "Yağmur ormanı ağaç evi", "dag_tapinagi": "Karlı dağ tapınağı", "karli_gozlemevi": "Karlı gözlemevi", "kiraz_cay_evi": "Kiraz çiçekli çay evi", "fiyort_noel_kulubesi": "Fiyort Noel kulübesi (8 saat)"}
 
 # takvimde "uzun" olarak geçmeyen, doğrudan YouTube'da planlanan uzun videolar (yayın tarihi)
 YOUTUBEDA_PLANLI = {"05-snowy-library": "2026-11-15", "12-christmas-train": "2026-12-23", "06-rainy-cafe": "2026-11-21",
@@ -38,7 +38,9 @@ def bagla(kaynak: pathlib.Path, hedef: pathlib.Path):
 
 
 def uzun_surum(klasor: pathlib.Path):
-    """3 saatlik sürüm varsa onu, yoksa 1 saatlik sürümü döndürür."""
+    """3 saatlik sürüm varsa onu, yoksa 1 saatlik sürümü döndürür. 8 saatlik videoların 1080p sürümü yoktur (video None: yalnızca 4K paket)."""
+    if (klasor / "yukleme_8saat.txt").exists():
+        return None, klasor / "kapak_3saat.jpg", klasor / "yukleme_8saat.txt", "8 saatlik, yalnızca 4K"
     if (klasor / "video_3saat.mp4").exists():
         return klasor / "video_3saat.mp4", klasor / "kapak_3saat.jpg", klasor / "yukleme_3saat.txt", "3 saatlik"
     return klasor / "video.mp4", klasor / "kapak.jpg", klasor / "yukleme.txt", "1 saatlik"
@@ -60,14 +62,17 @@ def main():
     if "uzun" in gun:
         k = gun["uzun"]; ad = AD[k]
         video, kapak, metin, tur = uzun_surum(KOK / k)
-        bagla(video, hedef / f"{sira}_UZUN_{ad}_video.mp4")
-        bagla(kapak, hedef / f"{sira}_UZUN_{ad}_kucuk_resim.jpg")
+        if video:
+            bagla(video, hedef / f"{sira}_UZUN_{ad}_video.mp4")
+        if kapak.exists():
+            bagla(kapak, hedef / f"{sira}_UZUN_{ad}_kucuk_resim.jpg")
         bagla(metin, hedef / f"{sira}_UZUN_{ad}_metin.txt")
         secenekler = [h for h in "BCD" if (kapak.parent / f"{kapak.stem}_{h}.jpg").exists()]
         for h in secenekler:                                           # YouTube "Test et ve karşılaştır" için ek küçük resimler
             bagla(kapak.parent / f"{kapak.stem}_{h}.jpg", hedef / f"{sira}_UZUN_{ad}_kucuk_resim_{h}.jpg")
         adimlar += [f"{sira}) UZUN VİDEO (saat 20:00): {TR[ad]} ({tur})",
-                    f"   - Video: {sira}_UZUN_{ad}_video.mp4",
+                    (f"   - Video: {sira}_UZUN_{ad}_video.mp4" if video else
+                     f"   - Video: yalnızca 4K paket var ({sira}_UZUN_{ad}_4K_paket.zip, aşağıda); telefondan yüklenemez, bilgisayar gerekir"),
                     f"   - Başlık, açıklama, etiketler: {sira}_UZUN_{ad}_metin.txt",
                     "     (TITLE → Başlık; DESCRIPTION → Açıklama; TAGS bölümünü açıklamaya DEĞİL, 'Etiketler' kutusuna yapıştır)",
                     (f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim_B.jpg (B: pencere açık, yazı köşede; yükledikten sonra Studio'dan ekle)" if "B" in secenekler
@@ -92,6 +97,8 @@ def main():
                         z.write(d, f"{ad}_4K/{d.name}")
             import kapak4k                                             # 4K yüklemede küçük resimlerde "4K" etiketi olsun
             for son in ["", *[f"_{h}" for h in secenekler]]:
+                if not (kapak.parent / f"{kapak.stem}{son}.jpg").exists():
+                    continue
                 k4 = kapak.parent / f"{kapak.stem}{son}_4K.jpg"
                 if not k4.exists():
                     kapak4k.etiketle(kapak.parent / f"{kapak.stem}{son}.jpg", k4)
@@ -99,10 +106,11 @@ def main():
             baslik4k = json.loads((KOK / "kanal" / "baslik_4k.json").read_text(encoding="utf-8")).get(k)
             adimlar[-1:-1] = [f"   - 4K SÜRÜM (yalnızca bilgisayardaysan): {zip_ad}",
                               "     Zip'i aç, ffmpeg.exe'yi açılan klasöre koy, BIRLESTIR.bat'a çift tıkla;",
-                              "     çıkan 4K videoyu yukarıdaki video yerine yükle. 4K yüklüyorsan:",
+                              ("     çıkan 4K videoyu yukarıdaki video yerine yükle. 4K yüklüyorsan:" if video else
+                               "     çıkan 4K videoyu yükle (bu videonun 1080p sürümü yok; birleştirme olmazsa yükleme, haber ver):"),
                               *([f"     · Başlık olarak bunu kullan: {baslik4k}"] if baslik4k else []),
                               "     · Küçük resim olarak sonu _4K.jpg ile biten dosyaları kullan; etiketlere 4k ekle.",
-                              "     (1080p yüklüyorsan 4K başlığını ve _4K küçük resimleri KULLANMA.)"]
+                              *(["     (1080p yüklüyorsan 4K başlığını ve _4K küçük resimleri KULLANMA.)"] if video else [])]
         sira += 1
     if "shorts" in gun:
         k, anahtar = gun["shorts"]; ad = AD[k]
