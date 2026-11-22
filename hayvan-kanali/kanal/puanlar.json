@@ -208,6 +208,27 @@
      "sonuc": "TESLİM"
     }
    ]
+  },
+  "08-kara-kurbagasi": {
+   "turlar": [
+    {
+     "tur": 1,
+     "tarih": "2026-11-22",
+     "puan": {
+      "dogruluk": 8.0,
+      "guvenlik": 8.0,
+      "kanca": 8.0,
+      "anlatim": 9.0,
+      "baslik": 9.0,
+      "shorts": 8.0,
+      "ses": 8.0,
+      "gorsel": 8.0,
+      "teknik": 10.0
+     },
+     "toplam": 83.0,
+     "sonuc": "TESLİM"
+    }
+   ]
   }
  }
 }

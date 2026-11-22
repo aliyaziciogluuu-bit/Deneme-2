@@ -1,7 +1,7 @@
-# Otomatik bekçi raporu – 22.11.2026 18:54
+# Otomatik bekçi raporu – 22.11.2026 18:58
 
 Boş disk: 9.5 GB
 
-### 07-kirlangic
-- UYARI: teslim edildi ya da yayında: dosyalara dokunulmadı (yalnızca kaynak erişimi denendi)
+### 08-kara-kurbagasi
+- YAPILACAK: uzun: video, kaynaklarından eski (22.11 18:46) → yeniden üretilmeli
 

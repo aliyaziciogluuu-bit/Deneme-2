@@ -261,3 +261,5 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
 - (22 Kasım, kara kurbağası 2. tur) "Düzeltme tamam" demeden önce son_kontrol_duyulan.txt'deki bütün fark=1 satırlarını (yalnızca düzeltilen cümleleri değil) large-v3 ile ikinci kez dinlet ve sonucu denetçiye satır satır yaz: "oyunun/oyuğun", "Veterinerin/Veterinere" gibi farklar large-v3'te doğru çıkıyorsa ses tanıma yazımıdır; yazılmazsa denetçi açık sayar.
 - (22 Kasım) Cümle başındaki "Siğil" "Sihil" gibi okunuyor; cümle ortasındaki "siğil" temiz. Anahtar kelimeyi cümle başına koyma ("Çünkü siğil, …").
 - (22 Kasım) Shorts açıklamasında yalnızca o Shorts'ta kullanılan gerçek fotoğraflar listelenir ve beyan buna göre seçilir (video.py otomatik yapıyor; bekçi beyan_denetle ile denetliyor).
+- (22 Kasım, yönetici) Küçük resim yazısı videonun çekincesini taşır: kaynak bulunamayan iddia ("köpeğe ağır") kapağa konmaz; kapak yazısı videonun cevapladığı bir soru olsun.
+- (22 Kasım) Shorts'lar uzun videodan 1 ve 2 gün sonra planlanır; senaryo.json "yayin" alanı yazılırken takvimdeki boş günler değil bu kural esas alınır.

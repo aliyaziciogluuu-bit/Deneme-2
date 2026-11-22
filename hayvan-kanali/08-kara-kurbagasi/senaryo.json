@@ -320,10 +320,10 @@
   "kapak_alternatifler": [
     {
       "buyuk": [
-        "KÖPEĞİNİ",
-        "UZAK TUT"
+        "KÖPEK",
+        "ISIRIRSA?"
       ],
-      "kucuk": "Bize göre akşam başıboş bırakma",
+      "kucuk": "Ne yapman gerektiği",
       "konum": "sol",
       "genislik": 500,
       "gorsel": "kapak",
@@ -345,8 +345,8 @@
   "yayin": {
     "uzun": "5 Aralık Cumartesi 18:00",
     "shorts": {
-      "s1-sigil": "9 Aralık 12:00",
-      "s2-kopek": "10 Aralık 12:00"
+      "s1-sigil": "6 Aralık Pazar 12:00",
+      "s2-kopek": "7 Aralık Pazartesi 12:00"
     }
   }
 }

@@ -23,9 +23,11 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Per 3 Ara | Karga Taşla Su Yükseltir mi? (karga s2) | **Kırlangıç** | teslim edildi 20 Kas |
 | Cum 4 Ara | Kırlangıç Kışı Nerede Geçiriyor? (kırlangıç s1) | — | teslim edildi |
 | Cmt 5 Ara | Kırlangıç Yuvasını Bozarsan Ne Olur? (kırlangıç s2) | **Kara kurbağası** (planlanacak) | Shorts teslim edildi |
-| Paz 6 Ara | yarasa s3 (YENİ) | — | — |
-| Pzt 7 Ara | baykuş s3 (YENİ) | — | — |
-| Sal 8 Ara | karga s3 (YENİ) | sıradaki video | — |
+| Paz 6 Ara | Kurbağaya Dokunursan Siğil Olur mu? (kara kurbağası s1-sigil) | — | yönetici önerisi: uzun videodan 1 gün sonra (9 Ara'dan öne alındı) |
+| Pzt 7 Ara | Köpek Kurbağayı Ağzına Alırsa Ne Yapmalı? (kara kurbağası s2-kopek) | — | 10 Ara'dan öne alındı |
+| Sal 8 Ara | karga s3 (YENİ) | **sıradaki video: yılan – ahırdaki ineği sağar mı?** (kara kurbağası kapanışı bunu duyuruyor; değişirse kapanış ve bitiş ekranı da değişir) | — |
+| Çar 9 Ara | yarasa s3 (YENİ, 6 Ara'dan kaydırıldı) | — | hazır |
+| Per 10 Ara | baykuş s3 (YENİ, 7 Ara'dan kaydırıldı) | sıradaki video | hazır |
 
 ## Yükleme adımları (her Shorts için)
 1. YouTube Studio veya YouTube uygulamasından videoyu yükle (dikey, 60 sn altı → Shorts).

@@ -25,3 +25,9 @@
 - Son kontrol: 66/66 GEÇTİ; s1-sigil 7/7, s2-kopek 7/7.
 - Metin editörü (Tur 1): RET (fotoğraf atıfları eksik — editör eski dosyayı okudu; atıflar aynı sırada video.py ile otomatik eklendi). Puan: kanca 8, anlatim 9, baslik 6, shorts 8.
 - Metin editörü (Tur 2): ONAY. Puan: kanca 8, anlatim 9, baslik 9, shorts 8.
+- Kalite kontrol (Tur 1, 22 Kasım): RET. Kova görselinde yazı izleri, leopar benekli kurbağalar (yol/köpek/çocuk), çizim Bufotes, cümle 11 "elindeki için", kapak C başlık tekrarı, s2 ilk karede köpeğin burnu kesik. Puan: ses 7, gorsel 5, teknik 3.
+- Kalite kontrol (Tur 2, 22 Kasım): RET. Dinlenmemiş ses farkları (s1 cümle 1, uzun 040/044, s2 cümle 4), Shorts beyan satırı fotoğraf kullanımıyla uyumsuz. Puan: ses 7, gorsel 7, teknik 4.
+- Düzeltme (Tur 3): bütün fark=1 satırları large-v3 ile dinletildi (ses tanıma yazımı); s1 cümle 1 "Çünkü siğil, …" (cümle başı 'Sihil' sorunu); beyan video bazında otomatik (video.py + bekçi beyan_denetle); cümle 61'e gerçek Bufo bufo portresi (iNaturalist, Avusturya).
+- Kalite kontrol (Tur 3, 22 Kasım): ONAY. Puan: ses 8, gorsel 8, teknik 5/5 (Tur 1: 7, 5, 3). Zayıf noktalar (engel değil): yol karesi, çizgi film köpek, kapak B başlıkla az örtüşüyor.
+- Puan (22 Kasım): 83/100 → TESLİM.
+- Yönetici (22 Kasım): ONAY. Uygulandı: kapak B "KÖPEK ISIRIRSA? / Ne yapman gerektiği" (eski B kaynaksız ağırlık vaat ediyordu); Shorts 6 ve 7 Aralık 12:00'ye alındı (yarasa s3 → 9 Ara, baykuş s3 → 10 Ara); sabit yorum etkilesim.md'ye eklendi; küçük resim sırası A, tıklama oranı 48 saatte %2 altındaysa C. 8 Aralık videosu kapanışta duyurulan yılan–inek olmalı.
