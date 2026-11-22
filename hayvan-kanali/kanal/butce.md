@@ -29,7 +29,8 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 22 Kas | 08 kara kurbağası: kalan görseller + düzenleme | ~0,36 $ (6 aday) + ~0,08 $ (2 Kontext) | – | – | ~0,4 $ | 4 gerçek fotoğraf ücretsiz (iNaturalist, Commons) |
 | 22 Kas | 08 kara kurbağası klipleri | – | ~1,40 $ (4 klip) | ~0,5 $ (seslendirme, sürüyor) | ~1,9 $ | video toplamı ≈ 4,3 $ (tavan 5 $) |
 | 22 Kas | 06 karga cümle 22–23 + 03–06 s3 Shorts seslendirmeleri | – | – | ~0,2 $ | ~0,2 $ | |
-| | **Kasım toplamı** | | | | **~48,7 $** | aylık bütçe 60 $ |
+| 22 Kas | 08 kara kurbağası kalite kontrol düzeltmeleri | ~0,12 $ (3 Kontext: benek silme) | – | ~0,01 $ (1 cümle) | ~0,1 $ | gerçek yeşil benekli kurbağa fotoğrafı ücretsiz (iNaturalist); video toplamı ≈ 4,4 $ |
+| | **Kasım toplamı** | | | | **~48,8 $** | aylık bütçe 60 $ |
 
 ## Aralık 2026 planı (kanal sahibi: haftada 3 video, 60 $)
 - 14 yayın günü (salı, perşembe, cumartesi): karga ve kırlangıç hazır, 12 yeni video.
