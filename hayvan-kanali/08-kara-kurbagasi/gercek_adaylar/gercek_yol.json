@@ -1,0 +1,86 @@
+{
+ "sorgu": "iNaturalist: Bufo bufo",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "gercek_yol_1.jpg",
+   "baslik": "iNaturalist gözlem 27108455 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/27108455",
+   "yazar": "© John Witton, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1535",
+   "aciklama": "Godden Wood, Sevenoaks, England, GB"
+  },
+  {
+   "n": 2,
+   "dosya": "gercek_yol_2.jpg",
+   "baslik": "iNaturalist gözlem 137780944 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/137780944",
+   "yazar": "no rights reserved",
+   "lisans": "CC0",
+   "boyut": "2048x1536",
+   "aciklama": "382 03 Křemže, Tschechien"
+  },
+  {
+   "n": 3,
+   "dosya": "gercek_yol_3.jpg",
+   "baslik": "iNaturalist gözlem 51356301 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/51356301",
+   "yazar": "no rights reserved",
+   "lisans": "CC0",
+   "boyut": "2048x1151",
+   "aciklama": "Parco Nazionale della Sila, Longobucco, Calabria, IT"
+  },
+  {
+   "n": 4,
+   "dosya": "gercek_yol_4.jpg",
+   "baslik": "iNaturalist gözlem 302939781 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/302939781",
+   "yazar": "© Johannes S., some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Lavant, Österreich"
+  },
+  {
+   "n": 5,
+   "dosya": "gercek_yol_5.jpg",
+   "baslik": "iNaturalist gözlem 104526097 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/104526097",
+   "yazar": "© Noah Patrick Hearne, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1536x2048",
+   "aciklama": "Norfolk Coast AONB, King'S Lynn, England, GB"
+  },
+  {
+   "n": 6,
+   "dosya": "gercek_yol_6.jpg",
+   "baslik": "iNaturalist gözlem 329959759 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/329959759",
+   "yazar": "© Martin M, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x946",
+   "aciklama": "2020 Hollabrunn, Österreich"
+  },
+  {
+   "n": 7,
+   "dosya": "gercek_yol_7.jpg",
+   "baslik": "iNaturalist gözlem 240151335 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/240151335",
+   "yazar": "© Andreas Schneider, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1494",
+   "aciklama": "922 90 Vindeln, Sweden"
+  },
+  {
+   "n": 8,
+   "dosya": "gercek_yol_8.jpg",
+   "baslik": "iNaturalist gözlem 370399025 (Bufo bufo)",
+   "sayfa": "https://www.inaturalist.org/observations/370399025",
+   "yazar": "© Brenda Black, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1647",
+   "aciklama": "06 Halle (Saale)-Stadtbezirk Nord, Deutschland"
+  }
+ ]
+}

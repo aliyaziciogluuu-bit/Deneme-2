@@ -38,5 +38,13 @@
   "lisans": "CC BY",
   "boyut": "2048x1536",
   "tur": "fotoğraf"
+ },
+ "gercek_avrupa": {
+  "baslik": "iNaturalist gözlem 302939781 (Bufo bufo)",
+  "sayfa": "https://www.inaturalist.org/observations/302939781",
+  "yazar": "© Johannes S., some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
  }
 }
