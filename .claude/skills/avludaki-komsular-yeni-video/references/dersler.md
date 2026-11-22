@@ -256,3 +256,5 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
 - **'Siğilli kurbağa' → 'sihirli kurbağa' duyuluyor (22 Kasım):** Gemini seslendirmesi ve hem medium hem large-v3 ses tanıma 'siğilli/siyilli' yazımlarının hepsini 'sihirli' duydu. 'Siğil' tek başına da 'sihil/sil' duyuluyor, ama bağlam içinde doğru anlaşılıyor. Kural: anlamı değiştirebilecek ses benzerliği olan ifadeyi (siğilli→sihirli) metinden çıkar; okunuş alanı bu tür benzerliği çözmüyor.
 
 - **Önce büyük modelle ikinci dinleme (22 Kasım):** Son kontrolde medium modelin bulduğu farkları yeniden seslendirmeden önce aynı ses dosyasını large-v3 ile dinlet. İkisi de aynı kelimeyi yanlış duyuyorsa gerçek hata say (ör. Shorts'ta 'siğile' → 'si ile'), yalnızca medium duyuyorsa ses tanımanın sınırıdır. Kısa ve bağlamsız cümlede belirsiz kelimeye bağlam ekle ('Deride çıkan siğile …').
+
+- **'Siğil' ekleri (22 Kasım):** Yalın 'siğil' güvenli (ses tanıma 'sihil' yazar, eşdeğer tablosunda). 'Siğile' (yönelme) her bağlamda 'si ile', 'siğilli' her yazımda 'sihirli' duyuldu. Metin yazarken bu ekli hâller yerine yalın kullanım: 'Siğil, … virüsünden kaynaklanır'.

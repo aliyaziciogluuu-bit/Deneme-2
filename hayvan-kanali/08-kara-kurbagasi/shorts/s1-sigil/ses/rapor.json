@@ -8,11 +8,12 @@
   "tek_basina": true
  },
  "001": {
-  "yazi": "Siğile insan papilloma virüsü neden olur; kurbağalar bu virüsü taşımaz.",
-  "duyulan": "Si ile insan papiloma virüsü neden olur. Kurbağalar bu virüsü taşımaz.",
-  "hata": 1,
-  "sure": 4.67,
-  "uygun": true
+  "yazi": "Siğil, insan papilloma virüsünden kaynaklanır; kurbağalar bu virüsü taşımaz.",
+  "duyulan": "Sihil, insan papilloma virüsünden kaynaklanır. Kurbağalar bu virüsü taşımaz.",
+  "hata": 0,
+  "sure": 4.98,
+  "uygun": true,
+  "tek_basina": true
  },
  "002": {
   "yazi": "Kara kurbağasının gözlerinin arkasındaki iki bez, saldırıya uğrayınca tadı kötü bir salgı çıkarıyor.",
