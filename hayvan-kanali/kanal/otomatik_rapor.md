@@ -1,7 +1,7 @@
-# Otomatik bekçi raporu – 22.11.2026 16:49
+# Otomatik bekçi raporu – 22.11.2026 18:17
 
-Boş disk: 12.8 GB
+Boş disk: 9.5 GB
 
-### 06-karga
-- UYARI: teslim edildi ya da yayında: dosyalara dokunulmadı (yalnızca kaynak erişimi denendi)
+### 08-kara-kurbagasi
+- Temiz.
 
