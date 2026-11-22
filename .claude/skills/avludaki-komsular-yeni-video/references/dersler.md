@@ -250,3 +250,5 @@ Her video sonrası patron, denetçilerin puan kırdığı yerleri buraya ölçü
 - **04 yarasa (güvenlik):** Temas şüphesi varken "yarasayı dışarı bırak" adımı sağlık kuruluşuna danışmadan geliyordu.
   - **Kural:** Bir güvenlik akışında sıra önemlidir. Sağlık kararı gerektiren durumda önce "danış", sonra "serbest bırak" gelir. Çocuk ve evcil hayvan uyarısı eklenir.
   - Sorumlu: senarist, bilgi kontrolcüsü.
+
+- **Arka plan işi yarıda kalıyor (22 Kasım):** 'nohup … &' ile başlatılan işler, oturum boşta kalınca ya da ortam yeniden başlayınca durdu (seslendirme 12/66'da, klip 1/4'te). Uzun işler artık aracın kendi 'arka planda çalıştır' seçeneğiyle başlatılıyor; bitince bildirim geliyor. Betikler kaldığı yerden devam ettiği için (var olan ses ve klipleri atlıyor) para kaybı olmadı.
