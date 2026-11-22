@@ -37,3 +37,4 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Küçük resim gösterimi 4,5 B, tıklama oranı %1,1 (organik, düşük; A/B testi 21 Kas akşamı başladı, gösterimler son saatlerde yeniden artıyor).
 - Kitle: kadın %51,8; yaş 35-44 %24,2, 25-34 ve 45-54 %20,7, 55-64 %17,4; cihaz telefon %47,5, TV %24,5 (birlikte izleme 1,62), bilgisayar %16,9, tablet %10,4; Türkiye %28,9 (geri kalan konum bilinmiyor olabilir); altyazısız izleme %26,3.
 - Maliyet: ≈ 0,14 TL / görüntüleme, ≈ 4 TL / izlenme saati. Abone sayısı henüz bilinmiyor.
+- 22 Kasım: geko'dan kazanılan abone: 1 (≈ 572 TL harcama, ≈ 4.100 reklam görüntülemesi). Sonuç: tanıtım abone getirmiyor (≈ 570 TL/abone); öneri: durdur, yenileme.
