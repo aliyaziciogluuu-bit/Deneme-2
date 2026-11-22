@@ -3,6 +3,7 @@
   A  kapak_3saat.jpg     – kanalın alışılmış stili: koyu kutu, altın "3 HOURS", büyük başlık (zaten var, dokunulmaz)
   B  kapak_3saat_B.jpg   – sade: kutu yok, sol üstte büyük başlık, sıcak ve canlı renkler, sol altta "3 HOURS" etiketi
   C  kapak_3saat_C.jpg   – yakın plan: pencere ve ateş arasına yakınlaşır, başlık altta ortada, ışıltılı alt yazı
+  D  kapak_3saat_D.jpg   – yazısız: yalnızca sahne (büyük rakip kanalların tarzı); hafif canlılık, kenarlarda yumuşak kararma
 
 Kullanım:  python kapak.py 06-rainy-cafe [08-attic-bedroom ...]    (sahne verilmezse bütün sahneler)
 Metinler kanal/kapak_metinleri.json'dan okunur; yoksa sahne.json'daki "ad" kullanılır.
@@ -108,6 +109,16 @@ def secenek_C(kaynak, baslik, alt, odak_xy, sol_ust=False, sag=False):
     return im.convert("RGB")
 
 
+def secenek_D(kaynak):
+    im = ImageEnhance.Color(kaynak).enhance(1.12)
+    im = ImageEnhance.Contrast(im).enhance(1.06)
+    im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=50, threshold=2))
+    kenar = Image.new("L", im.size, 0)                                # köşeleri hafifçe karart, göz ortaya gitsin
+    ImageDraw.Draw(kenar).ellipse((-160, -120, G + 160, Y + 120), fill=255)
+    kenar = kenar.filter(ImageFilter.GaussianBlur(140)).point(lambda v: 150 + v * 105 // 255)
+    return Image.composite(im, Image.new("RGB", im.size, (0, 0, 0)), kenar)
+
+
 def main():
     metinler = json.loads((KOK / "kanal" / "kapak_metinleri.json").read_text(encoding="utf-8"))
     sahneler = sys.argv[1:] or sorted(metinler)
@@ -119,7 +130,8 @@ def main():
         gen = cv2.imread(str(klasor / ayar["gorsel"])).shape[1]
         secenek_B(kaynak, baslik, alt).save(klasor / "kapak_3saat_B.jpg", quality=92)
         secenek_C(kaynak, baslik, alt, odak(ayar, gen), ayar.get("kapak_yazi") in ("sol_ust", "sag_ust"), ayar.get("kapak_yazi") == "sag_ust").save(klasor / "kapak_3saat_C.jpg", quality=92)
-        print(f"{ad}: B ve C hazır ({baslik} / {alt})")
+        secenek_D(kaynak).save(klasor / "kapak_3saat_D.jpg", quality=92)
+        print(f"{ad}: B, C ve D hazır ({baslik} / {alt})")
 
 
 if __name__ == "__main__":

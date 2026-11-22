@@ -63,7 +63,7 @@ def main():
         bagla(video, hedef / f"{sira}_UZUN_{ad}_video.mp4")
         bagla(kapak, hedef / f"{sira}_UZUN_{ad}_kucuk_resim.jpg")
         bagla(metin, hedef / f"{sira}_UZUN_{ad}_metin.txt")
-        secenekler = [h for h in "BC" if (kapak.parent / f"{kapak.stem}_{h}.jpg").exists()]
+        secenekler = [h for h in "BCD" if (kapak.parent / f"{kapak.stem}_{h}.jpg").exists()]
         for h in secenekler:                                           # YouTube "Test et ve karşılaştır" için ek küçük resimler
             bagla(kapak.parent / f"{kapak.stem}_{h}.jpg", hedef / f"{sira}_UZUN_{ad}_kucuk_resim_{h}.jpg")
         adimlar += [f"{sira}) UZUN VİDEO (saat 20:00): {TR[ad]} ({tur})",
@@ -71,7 +71,7 @@ def main():
                     f"   - Başlık, açıklama, etiketler: {sira}_UZUN_{ad}_metin.txt",
                     (f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim_B.jpg (B: pencere açık, yazı köşede; yükledikten sonra Studio'dan ekle)" if "B" in secenekler
                      else f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim.jpg (yükledikten sonra Studio'dan ekle)"),
-                    *([f"   - Bilgisayardaysan: Küçük resim > 'Test et ve karşılaştır' ile _kucuk_resim, _B ve _C dosyalarının üçünü birden yükle;"
+                    *([f"   - Bilgisayardaysan: Küçük resim > 'Test et ve karşılaştır' ile _B, _C ve _D (yazısız) dosyalarının üçünü birden yükle;"
                        , "     YouTube en çok tıklananı kendisi seçer."] if secenekler else []),
                     "   - Çocuklara özel değil · Herkese açık · Açıklamadaki öyküyü ve Sound credits satırlarını silme",
                     "   - Video öğeleri adımında BİTİŞ EKRANI ekle: Abone ol + En son yüklenen video (son 20 sn; telefonda yoksa bilgisayardan)",

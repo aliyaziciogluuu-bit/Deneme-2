@@ -37,12 +37,13 @@ Bu klasör, Dream Window kanalının (anonim uyku/ortam kanalı) bir haftalık y
    - Küçük resim: `_kucuk_resim_B_4K.jpg`.
    - Etiketlere `4k` ekle.
    4K birleştirme başarısız olursa 1080p videoyu (`_video.mp4`) yükle. O zaman normal başlığı (`TITLE`) ve 4K etiketsiz `_kucuk_resim_B.jpg` küçük resmini kullan. **4K olmayan videoya asla "4K" yazma.**
-2. Açıklama: `DESCRIPTION`. Etiketler: `TAGS`.
-3. Kitle: Çocuklara özel değil.
-4. **Video öğeleri > Bitiş ekranı:** son 20 saniyeye "Abone ol" + "En son yüklenen video".
-5. Görünürlük > **Planla** > tarih ve **20:00**.
-6. Kaydettikten sonra **Altyazılar > Dil ekle**: Almanca, İspanyolca, Portekizce, Fransızca, Japonca. Her dilde "Başlık ve açıklama"ya `_ceviriler.txt` içindeki o dilin `TITLE` (4K yüklediysen `TITLE_4K`) ve `DESCRIPTION` bölümünü yapıştır.
-7. `plan.json` > `not` alanında bir **oynatma listesi** adı geçiyorsa videoyu o listeye ekle. Liste henüz yoksa ve klasörde o listenin metin dosyası varsa (`japon_listesi.md`, `noel_listesi.md`), listeyi oradaki başlık ve açıklamayla **Herkese açık** ve **Manuel sıralama** ile oluştur. Metin dosyası yoksa oluşturma, kanal sahibine sor.
+2. **Küçük resim testi:** Küçük resim bölümünde **Test et ve karşılaştır**'ı seç ve üç dosyayı yükle: `_kucuk_resim_B`, `_kucuk_resim_C`, `_kucuk_resim_D` (D yazısızdır). 4K yüklüyorsan aynılarının `_4K.jpg` ile biten sürümlerini kullan. Test seçeneği çıkmazsa yalnızca B'yi yükle.
+3. Açıklama: `DESCRIPTION`. Etiketler: `TAGS`.
+4. Kitle: Çocuklara özel değil.
+5. **Video öğeleri > Bitiş ekranı:** son 20 saniyeye "Abone ol" + "En son yüklenen video".
+6. Görünürlük > **Planla** > tarih ve **20:00**.
+7. Kaydettikten sonra **Altyazılar > Dil ekle**: Almanca, İspanyolca, Portekizce, Fransızca, Japonca. Her dilde "Başlık ve açıklama"ya `_ceviriler.txt` içindeki o dilin `TITLE` (4K yüklediysen `TITLE_4K`) ve `DESCRIPTION` bölümünü yapıştır.
+8. `plan.json` > `not` alanında bir **oynatma listesi** adı geçiyorsa videoyu o listeye ekle. Liste henüz yoksa ve klasörde o listenin metin dosyası varsa (`japon_listesi.md`, `noel_listesi.md`), listeyi oradaki başlık ve açıklamayla **Herkese açık** ve **Manuel sıralama** ile oluştur. Metin dosyası yoksa oluşturma, kanal sahibine sor.
 
 Yayından sonra yapılacak işleri (sabit yorum, Shorts'a İlgili video bağlama) **şimdi yapamazsın**; video yayınlanmadan bu ayarlar görünmez. Onları kanal sahibi o gün yapar ya da yayın günü senden ister.
 

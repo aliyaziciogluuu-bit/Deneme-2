@@ -23,9 +23,6 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 
 ## Bekleyen
 
-- **P2 – Noel'e özel 8–10 saatlik "sleep marathon" (yapımcı):** etki 4, emek 4. Yönetici kararı BEKLET.
-  - Neden: Mevcut Noel videolarının görüntüsü yeniden kullanılırsa "yeniden kullanılmış içerik" riski doğar.
-  - Ocak'ta, özgün parçalarla bir "winter marathon" olarak yeniden değerlendirilecek.
 - **K1 – Uyku sonunda yumuşak iniş: son 20–30 dakikada ses kısılır (kalite kontrol):** etki 2–3. Yönetici kararı BEKLET.
   - Önce K3'ten gelecek tutma verisine bakılacak.
 
@@ -57,6 +54,9 @@ _(şu an yok)_
 - **Y4 – Uzun video başlık kalıbını çeşitlendirme (kanal yöneticisi).** Kanal sahibi 19 Kasım'da onayladı. 28 çay evinin başlığı tek kancalı yapıldı ("Spring Rain on the Cherry Blossoms 🌸 3 Hours in a Quiet Japanese Tea House with Irori Embers"). 13 Şubat'ta yayınlanacak; 27 Şubat'ta tıklama oranı öteki videolarla karşılaştırılacak. Eski başlık: "3 Hours Cherry Blossom Tea House 🌸🌧️ Spring Rain, Sakura & Irori Embers for Sleep & Study" (değişiklik 19 Kasım). Karşılaştırırken gösterimin nereden geldiğine de (arama / önerilen) bakılacak; yeni başlıkta "Sleep" yok. Sonuç zayıfsa yedek: "3 Hours Spring Rain on Cherry Blossoms 🌸 Quiet Japanese Tea House & Irori Embers for Sleep".
 - **Y5 – Yağmur oynatma listesi.** Kanal sahibi "Rain & Fireplace Sounds for Sleep" listesini zaten açmıştı. 22, 23, 24, 25 ve 28'in yayın günü talimatına "listeye ekle" notu kondu.
 - **Y6 – "Japan at Night 🏯" oynatma listesi (kanal yöneticisi).** Kanal sahibi 19 Kasım'da onayladı. Liste metni `kanal/japon_listesi.md` dosyasında. 5 Aralık'ta (Japon bahçesi) açılacak; 22, 26 ve 28'in yayın günlerine "listeye ekle" notu kondu.
+
+- **P2 – 8 saatlik Noel videosu (yapımcı).** Kanal sahibi 22 Kasım'da onayladı (rakip kanalın 8 saatlik videosu 6 günde 262 bin izlendi). Var olan görüntü kullanılmayacak; tamamen yeni bir sahne (Norveç fiyordu kulübesi) yeni karanlık ışık tarzıyla yapılacak. İstem: `kanal/noel_8saat_istemi.md`.
+- **Yeni görsel tarzı ve yazısız küçük resim (D).** Kanal sahibi 22 Kasım'da "bundan sonraki videoları böyle yapalım" dedi. Kurallar SKILL.md > Görsel tarzı bölümünde.
 
 ## Reddedilen
 

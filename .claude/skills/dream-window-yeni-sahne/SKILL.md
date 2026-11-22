@@ -1,6 +1,6 @@
 ---
 name: dream-window-yeni-sahne
-description: Dream Window (uyku/ortam YouTube kanalı) için yeni bir sahneyi baştan sona üretir. Bir ChatGPT görselinden canlandırılmış 3 saatlik video, iki Shorts, A/B/C küçük resimler, öykülü yükleme metinleri, 4K paket, 5 dilde çeviriler üretir. Hepsini tekrar testinden ve ofis onay zincirinden (kalite kontrol, metin editörü, kanal yöneticisi) geçirip takvim önerisiyle teslim eder. Kullanıcı yeni bir sahne görseli gönderdiğinde mutlaka bu skill'i kullan. Görsel çoğu zaman yalnızca bir numarayla gelir ("21", "22.png"). "Yeni sahne", "bu görseli canlandır", "bundan video yap", "yeni görseller gönderiyorum" gibi ifadelerde de kullan. Görsel ChatGPT istemi yazmak, toplu görsel üretmek (toplu.py) ya da var olan bir sahneyi yeniden üretmek için de kullan.
+description: Dream Window (uyku/ortam YouTube kanalı) için yeni bir sahneyi baştan sona üretir. Bir ChatGPT görselinden canlandırılmış 3 saatlik video, iki Shorts, A/B/C/D küçük resimler, öykülü yükleme metinleri, 4K paket, 5 dilde çeviriler üretir. Hepsini tekrar testinden ve ofis onay zincirinden (kalite kontrol, metin editörü, kanal yöneticisi) geçirip takvim önerisiyle teslim eder. Kullanıcı yeni bir sahne görseli gönderdiğinde mutlaka bu skill'i kullan. Görsel çoğu zaman yalnızca bir numarayla gelir ("21", "22.png"). "Yeni sahne", "bu görseli canlandır", "bundan video yap", "yeni görseller gönderiyorum" gibi ifadelerde de kullan. Görsel ChatGPT istemi yazmak, toplu görsel üretmek (toplu.py) ya da var olan bir sahneyi yeniden üretmek için de kullan.
 ---
 
 # Dream Window – yeni sahne üretimi
@@ -24,6 +24,21 @@ Her onay turundan sonra patron deftere yeni dersleri ekler:
 - çalışanların raporlarındaki işe yarar öneriler
 
 Aynı hata iki kez yaşanırsa yalnızca deftere yazmakla kalma. Kontrol listesini ya da betiği düzelt, o hata bir daha olamasın.
+
+## Görsel tarzı (kanal sahibinin kararı, 22 Kasım)
+
+Kanal sahibi, 400 bin+ izlenen rakip kanalı ("Cozy Dream Window") inceledikten sonra "bundan sonraki videoları böyle yapalım" dedi. Yeni sahnelerin ChatGPT istemlerine şu ışık tarzı eklenir:
+
+- **Karanlık, düşük anahtarlı ışık:** tavan ya da ana lamba yok. Oda yalnızca mumlar, küçük peri ışıkları, (varsa) ağaç ışıkları ve ateşle aydınlanır.
+- **Tek sıcak renk:** derin kırmızı-amber parıltı, derin gölgeler.
+- **Soğuk dışarı:** pencerenin dışı lacivert-mavi gece (kar, yağmur, ay). İçerinin sıcaklığıyla karşıtlık kurar.
+- **Az eşya:** sade, sakin kompozisyon; göz dinlensin. Kalabalık masa ve süs yığını yok.
+- **Neden:** Uyku izleyicisi videoyu bütün gece açık bırakır; karanlık ekran odayı aydınlatmaz. Atmosfer de daha "güvende ve sıcak" hissettirir.
+
+İsteme eklenecek İngilizce satır:
+> Very dark, low-key cinematic lighting: no ceiling lights, the room is lit only by candles, tiny fairy lights and the fire, creating a deep warm red-amber glow with soft deep shadows. Outside the window, a cool deep-blue night for contrast. Calm, minimal, uncluttered composition.
+
+Küçük resimde rakip kanallar yazı kullanmıyor. Her uzun video için `kapak.py` artık yazısız **D** seçeneğini de üretir; YouTube'un "Test et ve karşılaştır" testinde B, C ve D birlikte denenir.
 
 ## Ön kontrol (her seferinde)
 
