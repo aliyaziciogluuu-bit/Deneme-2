@@ -69,6 +69,7 @@ def main():
         adimlar += [f"{sira}) UZUN VİDEO (saat 20:00): {TR[ad]} ({tur})",
                     f"   - Video: {sira}_UZUN_{ad}_video.mp4",
                     f"   - Başlık, açıklama, etiketler: {sira}_UZUN_{ad}_metin.txt",
+                    "     (TITLE → Başlık; DESCRIPTION → Açıklama; TAGS bölümünü açıklamaya DEĞİL, 'Etiketler' kutusuna yapıştır)",
                     (f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim_B.jpg (B: pencere açık, yazı köşede; yükledikten sonra Studio'dan ekle)" if "B" in secenekler
                      else f"   - Küçük resim: {sira}_UZUN_{ad}_kucuk_resim.jpg (yükledikten sonra Studio'dan ekle)"),
                     *([f"   - Bilgisayardaysan: Küçük resim > 'Test et ve karşılaştır' ile _B, _C ve _D (yazısız) dosyalarının üçünü birden yükle;"

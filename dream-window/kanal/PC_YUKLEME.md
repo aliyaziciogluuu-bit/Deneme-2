@@ -38,7 +38,7 @@ Bu klasör, Dream Window kanalının (anonim uyku/ortam kanalı) bir haftalık y
    - Etiketlere `4k` ekle.
    4K birleştirme başarısız olursa 1080p videoyu (`_video.mp4`) yükle. O zaman normal başlığı (`TITLE`) ve 4K etiketsiz `_kucuk_resim_B.jpg` küçük resmini kullan. **4K olmayan videoya asla "4K" yazma.**
 2. **Küçük resim testi:** Küçük resim bölümünde **Test et ve karşılaştır**'ı seç ve üç dosyayı yükle: `_kucuk_resim_B`, `_kucuk_resim_C`, `_kucuk_resim_D` (D yazısızdır). 4K yüklüyorsan aynılarının `_4K.jpg` ile biten sürümlerini kullan. Test seçeneği çıkmazsa yalnızca B'yi yükle.
-3. Açıklama: `DESCRIPTION`. Etiketler: `TAGS`.
+3. Açıklama: yalnızca `DESCRIPTION` bölümü (hashtag satırıyla biter). `TAGS` bölümü açıklamaya **değil**, "Etiketler" kutusuna girer.
 4. Kitle: Çocuklara özel değil.
 5. **Video öğeleri > Bitiş ekranı:** son 20 saniyeye "Abone ol" + "En son yüklenen video".
 6. Görünürlük > **Planla** > tarih ve **20:00**.
