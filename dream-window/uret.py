@@ -491,8 +491,8 @@ class Sahne:
             renk, saydam = self.acilis_yazi
             a = saydam * (min(max((t - 1.0) / 1.5, 0.0), 1.0) * (1 - gecis))
             kare = kare * (1 - a) + renk * a
-        if acilis:
-            kare = kare * min(t / 2.5, 1.0)
+        if acilis:                                           # izleyici ilk saniyeden sahneyi görsün (rakip kanallar gibi; ilk 30 sn kaybı)
+            kare = kare * min(t / self.ayar.get("acilis_sn", 0.5), 1.0)
         if kapanis:
             kare = kare * min(max((DONGU - t) / 6.0, 0.0), 1.0)
         if kararma:                                          # karanlık ekran sürümü: bir dakikada yavaşça kararır
@@ -549,7 +549,7 @@ def lufs(ses: np.ndarray) -> float:
     return float(-0.691 + 10 * np.log10(e.mean()))
 
 
-def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float = 4, cikis: float = 8, hedef: float = None, tohum_ek: int = 0):
+def ses_kur(klasor: pathlib.Path, yol: pathlib.Path, sure: float, giris: float = 1.5, cikis: float = 8, hedef: float = None, tohum_ek: int = 0):
     """Sesi gerçek kayıtlardan kurar: isteğe bağlı bir zemin sesi (yağmur ya da rüzgâr) ve şömine çıtırtısı."""
     a = json.loads((klasor / "sahne.json").read_text(encoding="utf-8"))["ses"]
     n = int(sure * SR)
@@ -768,7 +768,7 @@ def main():
         for i in range(adet):
             yol = gecici / f"_ses_{i}.m4a"
             if not yol.exists():
-                ses_kur(klasor, yol, parca_sure, giris=4 if i == 0 else 0.01, cikis=8 if i == adet - 1 else 0.01, tohum_ek=i + 1)
+                ses_kur(klasor, yol, parca_sure, giris=1.5 if i == 0 else 0.01, cikis=8 if i == adet - 1 else 0.01, tohum_ek=i + 1)
             yollar.append(yol)
         filtre = "".join(f"[{'a' + str(i - 1) if i > 1 else '0'}][{i}]acrossfade=d={gecis}:c1=tri:c2=tri[a{i}];" for i in range(1, adet))
         subprocess.run(["ffmpeg", "-v", "error", "-y", *sum([["-i", str(y)] for y in yollar], []), "-filter_complex", filtre.rstrip(";"),

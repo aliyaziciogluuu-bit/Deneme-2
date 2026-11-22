@@ -213,9 +213,7 @@ def taslak(g):
         cv2.imwrite(str(klasor / "sahne.png"), gorsel)
         a = algila(gorsel, g.ates, susler=g.noel)
         ad = g.ad or klasor.name.split("-", 1)[-1].replace("-", " ").title()
-        ayar = {"gorsel": "sahne.png",
-                "acilis_yazi": {"baslik": "Dream Window", "alt": [x for x in ["CHRISTMAS" if g.noel else None, "SNOW" if g.yagis == "kar" else "RAIN",
-                                                                             "FIREPLACE" if "ates" in a else None, "RELAXATION", "SLEEP"] if x]},
+        ayar = {"gorsel": "sahne.png",                                 # açılış yazısı yok (22 Kasım: video doğrudan sahneyle açılır)
                 "yagis": g.yagis, "cam": {"kutular": a["kutular"], "esik": 0.0, "temizlik": 5},
                 "isiklar": a["isiklar"], "dongu_sn": 96, "ad": ad}
         if a["pirilti"]:

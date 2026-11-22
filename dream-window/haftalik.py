@@ -65,7 +65,8 @@ def planlandi(bas, bit):
             k = g.pop("uzun")
             import gunluk
             g["not"] = (f"{gunluk.TR[gunluk.AD[k]]} uzun videosu bilgisayardaki Claude tarafından YouTube'da planlandı, bugün 20:00'de kendiliğinden "
-                        "yayınlanacak (tekrar yükleme). " + g.get("not", "")).strip()
+                        "yayınlanacak (tekrar yükleme). 20:00'den sonra videoya şu yorumu yazıp sabitle: "
+                        "\"Where are you listening from tonight? 🌙 Sleep well.\" " + g.get("not", "")).strip()
             g["planli_uzun"] = k
         print(t, g)
     p.write_text(json.dumps(takvim, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -76,7 +76,7 @@ def main():
                        , "     YouTube en çok tıklananı kendisi seçer."] if secenekler else []),
                     "   - Çocuklara özel değil · Herkese açık · Açıklamadaki öyküyü ve Sound credits satırlarını silme",
                     "   - Video öğeleri adımında BİTİŞ EKRANI ekle: Abone ol + En son yüklenen video (son 20 sn; telefonda yoksa bilgisayardan)",
-                    "   - Yayından sonra şu yorumu yazıp sabitle: New 3-hour sleep ambience every week 🌙 Subscribe so you don't miss the next one.", ""]
+                    "   - Yayından sonra şu yorumu yazıp sabitle: Where are you listening from tonight? 🌙 Sleep well.", ""]
         ceviri = KOK / "kanal" / "ceviriler" / f"{k}.txt"
         if ceviri.exists():                                            # başka dillerde başlık ve açıklama (aramada bulunmak için)
             bagla(ceviri, hedef / f"{sira}_UZUN_{ad}_ceviriler.txt")
