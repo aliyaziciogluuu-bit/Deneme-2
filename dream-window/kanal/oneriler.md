@@ -26,6 +26,11 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 - **K1 – Uyku sonunda yumuşak iniş: son 20–30 dakikada ses kısılır (kalite kontrol):** etki 2–3. Yönetici kararı BEKLET.
   - Önce K3'ten gelecek tutma verisine bakılacak.
 
+- **Y7 – Para kazanmaya başlayınca orta reklamları kapatıp başlığa "No Mid-Roll Ads" (patron, rakip analizi 22 Kasım):** Rakiplerin en güçlü tıklama kancalarından biri "reklamsız" vaadi. Bizde ancak İş Ortağı Programı'na girince ve orta reklamlar gerçekten kapalıysa dürüstçe yazılabilir.
+  - Değerlendirme: etki 3, emek 1, maliyet: orta reklam gelirinden vazgeçmek. Şimdilik beklet.
+- **Y8 – 8 saatlik dosyaları Gumroad/Etsy'de satmak (patron, rakip analizi 22 Kasım):** Bazı kanallar kişisel kullanım için ~9 $'a satıyor. Önce ses kaynaklarının lisansı (CC BY, Pixabay) satışa izin veriyor mu, incelenmeli.
+  - Değerlendirme: etki 2, emek 2, risk: lisans. Beklet.
+
 ## İç işler (patron uygular, kanal sahibine sunulmaz)
 
 - **E1 – Vaat denetimi betiği (metin editörü, 19 Kasım):** Yükleme metnindeki kelimeleri (waves, wind, thunder, sounds, BGM, lofi, music, sweeps, drifts) `sahne.json` > `ses` ve hareket listesiyle otomatik karşılaştırıp uyarı veren betik. K2 `onay.py` içine katılacak.
