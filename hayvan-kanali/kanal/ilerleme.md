@@ -30,3 +30,10 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Küçük resim gösterimleri 2,7 B, hepsi yayından sonraki ilk ~3 saatte, sonra düz (YouTube organik göstermeyi bıraktı). Küçük resim tıklama oranı %1,3 (yılan ilk gün %1,7 → %2,7). Organik izlenme ≈ 2.700 × %1,3 ≈ 35–40 (önerilenler 40 ile uyumlu). Reklam izlenmeleri gösterim/tıklama oranına girmiyor.
 - Teşhis: geko'nun organik sorunu küçük resim/başlık tıklaması (izleyen kalıyor: ort. 2:13). Önlem: "Test ve karşılaştır" için B (portre, "ZEHİRLİ Mİ? / Mutfaktaki gizli komşu") ve C (tavan, "TAVANDA NASIL DURUR? / Gözünü diliyle yalıyor") üretildi (ücretsiz, mevcut görseller). Not: A'daki turuncu benekli kertenkele leopar gekoya benziyor, videodaki soluk ev kertenkelesine değil.
 - 21 Kasım ~13:40: kanal sahibi telefondan geko küçük resmini B ('ZEHİRLİ Mİ? / Mutfaktaki gizli komşu', portre) ile değiştirdi (A/B testi değil). Karşılaştırma: değişiklik öncesi tıklama oranı %1,3.
+
+## 22 Kasım 17:55 – Geko 44 saat (tanıtım sürüyor; bütçe 1.000 TL'ye çıkmış, harcanan 572,45 TL, bitiş 23 Kas)
+- 4.251 görüntüleme (reklam 4,1 B ≈ %98; öneriler 63; kanal sayfası 7), 145 saat izlenme, benzersiz izleyici 535 (21 Kas'a kadar).
+- Ortalama izleme 2:57 / 5:56 = %49,7 (yılan %20). Tutma: 0:30'da %48 ("standart"), sonra yavaş düşüş, sonda ≈ %15; sert düşüş yok.
+- Küçük resim gösterimi 4,5 B, tıklama oranı %1,1 (organik, düşük; A/B testi 21 Kas akşamı başladı, gösterimler son saatlerde yeniden artıyor).
+- Kitle: kadın %51,8; yaş 35-44 %24,2, 25-34 ve 45-54 %20,7, 55-64 %17,4; cihaz telefon %47,5, TV %24,5 (birlikte izleme 1,62), bilgisayar %16,9, tablet %10,4; Türkiye %28,9 (geri kalan konum bilinmiyor olabilir); altyazısız izleme %26,3.
+- Maliyet: ≈ 0,14 TL / görüntüleme, ≈ 4 TL / izlenme saati. Abone sayısı henüz bilinmiyor.
