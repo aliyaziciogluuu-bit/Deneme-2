@@ -175,6 +175,20 @@ def kapak_denetle(d, klasor, sen):
             d.uyari.append(f"kapak: alt yazı başlık parantezindeki sözcükleri tekrar ediyor ({', '.join(sorted(ortak))}); alt yazı yeni bir vaat taşımalı")
 
 
+def beyan_denetle(d, klasor):
+    """Açıklamadaki yapay zekâ beyanı gerçek fotoğraf kullanımıyla uyumlu mu (22 Kasım, kara kurbağası dersi)."""
+    for y in [klasor / "yukleme.txt"] + sorted(klasor.glob("shorts/*/yukleme.txt")):
+        if not y.exists():
+            continue
+        metin = y.read_text(encoding="utf-8")
+        yer = "uzun" if y.parent == klasor else f"Shorts {y.parent.name}"
+        atif = "Gerçek fotoğraflar:" in metin
+        if atif and "\nGörseller yapay zekâ ile üretilmiş" in metin:
+            d.hata.append(f"{yer} açıklaması: gerçek fotoğraf atfı var ama beyan 'Görseller yapay zekâ ile üretilmiş' diyor (video.py ile yeniden yaz)")
+        if not atif and "Gerçek fotoğraflar yukarıda" in metin:
+            d.hata.append(f"{yer} açıklaması: beyan gerçek fotoğraftan söz ediyor ama atıf listesi yok")
+
+
 def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=False):
     d = Denetim(klasor.name)
     sen = oku(klasor / "senaryo.json")
@@ -250,6 +264,7 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
             d.hata.append(m)
         d.yapilacak = [m for m in d.yapilacak if "sesi eksik" not in m]
         return d, []
+    beyan_denetle(d, klasor)  # oluşturma sonrası: yukleme.txt video.py ile yazılır
     if guncellik(d, klasor, "uzun"):
         uretilecek.append(klasor.name)
     for sd in sorted((klasor / "shorts").glob("*/")) if (klasor / "shorts").exists() else []:

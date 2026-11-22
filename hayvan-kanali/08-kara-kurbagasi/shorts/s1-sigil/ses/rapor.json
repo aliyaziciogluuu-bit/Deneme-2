@@ -8,10 +8,10 @@
   "tek_basina": true
  },
  "001": {
-  "yazi": "Siğil, insan papilloma virüsünden kaynaklanır; kurbağalar bu virüsü taşımaz.",
-  "duyulan": "Sihil, insan papilloma virüsünden kaynaklanır. Kurbağalar bu virüsü taşımaz.",
+  "yazi": "Çünkü siğil, insan papilloma virüsünden kaynaklanır; kurbağalar bu virüsü taşımaz.",
+  "duyulan": "Çünkü sihil, insan papiloma virüsünden kaynaklanır. Kurbağalar bu virüsü taşımaz.",
   "hata": 0,
-  "sure": 4.98,
+  "sure": 5.48,
   "uygun": true,
   "tek_basina": true
  },

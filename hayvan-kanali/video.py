@@ -138,6 +138,12 @@ def gercek_kunye(klasor: pathlib.Path):
         p = k / "gercek_kaynaklar.json"
         if p.exists():
             kayit = json.loads(p.read_text(encoding="utf-8"))
+            cek = klasor / "cekimler.json"  # yalnızca bu videoda gerçekten kullanılan gerçek fotoğraf/klipler
+            if cek.exists():
+                kullanilan = set()
+                for c in json.loads(cek.read_text(encoding="utf-8")).get("cekimler", []):
+                    kullanilan.update(x for x in (c.get("gorsel"), c.get("klip")) if x)
+                kayit = {ad: a for ad, a in kayit.items() if ad in kullanilan}
             return [f"- {a['baslik'].replace('File:', '')} – {a['yazar']} – {a['lisans']} – {a['sayfa'].replace('https://', '').replace('www.', '')}"
                     for a in kayit.values()]
     return []
@@ -160,7 +166,13 @@ def yukleme_yaz(senaryo, cumleler, yol: pathlib.Path):
                   "seslendirme yapay zekâ ile yapılmıştır. Bilgiler yukarıdaki kaynaklardan derlenmiştir.") if gercek else (
                   "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. "
                   "Bilgiler yukarıdaki kaynaklardan derlenmiştir.")
-    satirlar += ["", senaryo.get("beyan", varsayilan)]
+    beyan = senaryo.get("beyan", varsayilan)
+    if gercek and beyan.startswith("Görseller yapay zekâ"):  # Shorts kurulumunun hazır beyanı gerçek fotoğrafı saymaz
+        beyan = "Gerçek fotoğraflar yukarıda yazarlarıyla belirtilmiştir; diğer görseller yapay zekâ ile üretilmiş çizimlerdir; " \
+                "seslendirme yapay zekâ ile yapılmıştır."
+    elif not gercek and beyan.startswith("Gerçek fotoğraflar"):
+        beyan = varsayilan
+    satirlar += ["", beyan]
     if senaryo.get("ambiyans", {}).get("kaynak"):
         satirlar += ["Doğa sesi: " + senaryo["ambiyans"]["kaynak"]]
     imza = (KOK / "kanal" / "imza.txt")

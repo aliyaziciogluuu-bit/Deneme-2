@@ -3,73 +3,77 @@
 Hayır, kurbağa siğil yapmaz.
 
 2
-00:00:02,790 --> 00:00:05,844
-Siğil, insan papilloma virüsünden kaynaklanır;
+00:00:02,790 --> 00:00:04,708
+Çünkü siğil, insan papilloma
 
 3
-00:00:05,844 --> 00:00:08,015
-kurbağalar bu virüsü taşımaz.
+00:00:04,708 --> 00:00:06,284
+virüsünden kaynaklanır;
 
 4
-00:00:08,120 --> 00:00:09,796
-Kara kurbağasının gözlerinin
+00:00:06,284 --> 00:00:08,515
+kurbağalar bu virüsü taşımaz.
 
 5
-00:00:09,796 --> 00:00:11,593
-arkasındaki iki bez, saldırıya
+00:00:08,620 --> 00:00:10,296
+Kara kurbağasının gözlerinin
 
 6
-00:00:11,593 --> 00:00:12,730
-uğrayınca tadı kötü
+00:00:10,296 --> 00:00:12,093
+arkasındaki iki bez, saldırıya
 
 7
-00:00:12,730 --> 00:00:14,173
-bir salgı çıkarıyor.
+00:00:12,093 --> 00:00:13,230
+uğrayınca tadı kötü
 
 8
-00:00:14,278 --> 00:00:16,028
-Bize göre bu salgıyı gözüne
+00:00:13,230 --> 00:00:14,673
+bir salgı çıkarıyor.
 
 9
-00:00:16,028 --> 00:00:17,259
-ve ağzına değdirme;
+00:00:14,778 --> 00:00:16,528
+Bize göre bu salgıyı gözüne
 
 10
-00:00:17,259 --> 00:00:19,917
-dokunduysan ellerini sabun ve suyla yıka,
+00:00:16,528 --> 00:00:17,759
+ve ağzına değdirme;
 
 11
-00:00:19,917 --> 00:00:21,912
-kuşkun varsa doktora danış.
+00:00:17,759 --> 00:00:20,417
+dokunduysan ellerini sabun ve suyla yıka,
 
 12
-00:00:22,018 --> 00:00:23,986
-Kurbağalar salmonella taşıyabiliyor;
+00:00:20,417 --> 00:00:22,412
+kuşkun varsa doktora danış.
 
 13
-00:00:23,986 --> 00:00:25,353
-enfeksiyon küçük çocuklar
+00:00:22,518 --> 00:00:24,486
+Kurbağalar salmonella taşıyabiliyor;
 
 14
-00:00:25,353 --> 00:00:26,884
-ve bağışıklığı zayıf olanlar
+00:00:24,486 --> 00:00:25,853
+enfeksiyon küçük çocuklar
 
 15
-00:00:26,884 --> 00:00:28,332
-için ciddi olabiliyor.
+00:00:25,853 --> 00:00:27,384
+ve bağışıklığı zayıf olanlar
 
 16
-00:00:28,438 --> 00:00:29,638
-Çıplak elle dokunma;
+00:00:27,384 --> 00:00:28,832
+için ciddi olabiliyor.
 
 17
-00:00:29,638 --> 00:00:30,478
-zorunluysa tek
+00:00:28,938 --> 00:00:30,138
+Çıplak elle dokunma;
 
 18
-00:00:30,478 --> 00:00:32,162
-kullanımlık eldiven tak.
+00:00:30,138 --> 00:00:30,978
+zorunluysa tek
 
 19
-00:00:32,268 --> 00:00:33,718
+00:00:30,978 --> 00:00:32,662
+kullanımlık eldiven tak.
+
+20
+00:00:32,768 --> 00:00:34,218
 Tam videosu kanalımızda.
