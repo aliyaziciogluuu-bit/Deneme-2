@@ -1,0 +1,26 @@
+{
+ "sorgu": "calf suckling cow udder",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "gercek_buzagi_1.jpg",
+   "baslik": "File:Cow uddering Calf.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cow_uddering_Calf.jpg",
+   "yazar": "Joaquin Cuervo",
+   "lisans": "CC BY-SA 4.0",
+   "boyut": "6000x4000",
+   "aciklama": ""
+  },
+  {
+   "n": 2,
+   "dosya": "gercek_buzagi_2.jpg",
+   "baslik": "File:Cow uddering calf.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cow_uddering_calf.jpg",
+   "yazar": "Joaquin Cuervo",
+   "lisans": "CC BY-SA 4.0",
+   "boyut": "6000x4000",
+   "aciklama": ""
+  }
+ ]
+}
