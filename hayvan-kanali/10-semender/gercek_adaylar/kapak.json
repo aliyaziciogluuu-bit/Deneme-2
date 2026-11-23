@@ -1,0 +1,76 @@
+{
+ "sorgu": "iNaturalist: Salamandra infraimmaculata (Türkiye)",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "kapak_1.jpg",
+   "baslik": "iNaturalist gözlem 116099616 (Salamandra infraimmaculata)",
+   "sayfa": "https://www.inaturalist.org/observations/116099616",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Turkey"
+  },
+  {
+   "n": 2,
+   "dosya": "kapak_2.jpg",
+   "baslik": "iNaturalist gözlem 116042819 (Salamandra infraimmaculata)",
+   "sayfa": "https://www.inaturalist.org/observations/116042819",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Turkey"
+  },
+  {
+   "n": 3,
+   "dosya": "kapak_3.jpg",
+   "baslik": "iNaturalist gözlem 116042824 (Salamandra infraimmaculata)",
+   "sayfa": "https://www.inaturalist.org/observations/116042824",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Turkey"
+  },
+  {
+   "n": 4,
+   "dosya": "kapak_4.jpg",
+   "baslik": "iNaturalist gözlem 116099619 (Salamandra infraimmaculata)",
+   "sayfa": "https://www.inaturalist.org/observations/116099619",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Turkey"
+  },
+  {
+   "n": 5,
+   "dosya": "kapak_5.jpg",
+   "baslik": "iNaturalist gözlem 116042823 (Salamandra infraimmaculata)",
+   "sayfa": "https://www.inaturalist.org/observations/116042823",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Turkey"
+  },
+  {
+   "n": 6,
+   "dosya": "kapak_6.jpg",
+   "baslik": "iNaturalist gözlem 152914768 (Salamandra infraimmaculata)",
+   "sayfa": "https://www.inaturalist.org/observations/152914768",
+   "yazar": "© Balkan Mega, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2024x1518",
+   "aciklama": ""
+  },
+  {
+   "n": 7,
+   "dosya": "kapak_7.jpg",
+   "baslik": "iNaturalist gözlem 116042822 (Salamandra infraimmaculata)",
+   "sayfa": "https://www.inaturalist.org/observations/116042822",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Turkey"
+  }
+ ]
+}
