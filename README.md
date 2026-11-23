@@ -125,3 +125,10 @@ yuvalar dolunca kelime kendiliğinden kontrol edilir.
 - **Paylaşılan adres:** sonuca sayfanın kendi adresi eklenir; başka bir adres için dosyanın başındaki `ADRES` doldurulur.
 
 Açmak için sayfa adresinizin sonuna `hecemece/` ekleyin. Sınaması: `testler/hecemece.js`.
+
+## TV Kumandası — Philips Android TV için telefon kumandası
+
+`tv-kumanda/philips_kumanda.py`: TV ile aynı Wi-Fi'daki bir bilgisayarda ya da Android telefonda (Termux) çalışan,
+telefon tarayıcısından kullanılan kumanda paneli. Yön tuşları, ses ve kanal, uygulama kısayolları, uyku zamanlayıcısı ve
+Ambilight kontrolü (hazır stiller, istenen sabit renk ve parlaklık). Yalnızca Python 3 gerekir; kurulum ve eşleştirme
+adımları `tv-kumanda/README.md` içinde.
