@@ -22,10 +22,11 @@
  },
  "003": {
   "yazi": "Bir kaynağa göre bu yılan, ineğin memesinden süt emecek yapıda değil.",
-  "duyulan": "bir kaynağa göre bu yılan ineyinmemesinden süt emecek yapıda değil.",
-  "hata": 2,
-  "sure": 3.7,
-  "uygun": false
+  "duyulan": "bir kaynağa göre bu yılan, ineyin memesinden süt emecek yapıda değil.",
+  "hata": 0,
+  "sure": 4.4,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
   "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık.",

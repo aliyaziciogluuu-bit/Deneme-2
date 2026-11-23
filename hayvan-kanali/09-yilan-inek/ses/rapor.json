@@ -387,10 +387,11 @@
  },
  "055": {
   "yazi": "Özetle: kaynaklar süt yılanının ahırda fare aradığını söylüyor; ineği sağdığını gösteren bir yazıya rastlamadık.",
-  "duyulan": "Özetle kaynaklar, süt yalanının ahırda fare aradığını söylüyor. İneyi sardığını gösteren bir yazıya rastlamadık.",
-  "hata": 3,
-  "sure": 6.54,
-  "uygun": false
+  "duyulan": "Özetle, kaynaklar, süt yılanının ahırda fare aradığını söylüyor, ineği sığadığını gösteren bir yazıya rastlamadık.",
+  "hata": 1,
+  "sure": 7.68,
+  "uygun": false,
+  "tek_basina": true
  },
  "056": {
   "yazi": "Boş memenin nedeni buzağı, meme enfeksiyonu, sıcak, stres ya da insan davranışı olabilir.",

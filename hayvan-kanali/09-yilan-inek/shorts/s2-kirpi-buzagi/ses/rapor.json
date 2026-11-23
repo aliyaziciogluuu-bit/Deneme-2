@@ -36,10 +36,11 @@
  },
  "005": {
   "yazi": "Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
-  "duyulan": "Miksuri Doğa Koruma Dairesi bunun bir efsane olduğunu yılanın büyük olasılıklı fare aradığını yazıyor.",
-  "hata": 2,
-  "sure": 5.6,
-  "uygun": false
+  "duyulan": "Misuri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
+  "hata": 0,
+  "sure": 6.86,
+  "uygun": true,
+  "tek_basina": true
  },
  "006": {
   "yazi": "Tam videosu kanalımızda.",
