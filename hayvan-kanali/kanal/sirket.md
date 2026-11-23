@@ -18,13 +18,13 @@ Bu belge şirketin anayasasıdır. Hedefler, göstergeler, organizasyon, çalı�
 ## 2. Hedefler ve göstergeler (OKR)
 
 ### Ana hedef: YouTube İş Ortağı Programı
-1.000 abone ve son 12 ayda 4.000 saat uzun video izlenmesi. Erken aşama: 500 abone ve 3.000 saat.
+1.000 abone ve son 365 günde 8.000 geçerli saat (1 Şubat 2027 sonrası yeni başvurular; YouTube Yardım 12843009). Erken aşama: 500 abone ve 3.000 saat (hayran desteği, Creator Partnerships, Shopping; şart değişmiyor). **Bütün saat hedefleri organiktir: reklam/tanıtım izlenmesi sayılmaz** (kanal sahibi onayı, 23 Kasım).
 
 | Dönem | Hedef |
 |---|---|
-| **Aralık 2026 sonu** | 100 abone · 250 saat · ortalama izleme %25 · 15 uzun video yayında |
-| **Mart 2027 sonu** | 500 abone · 3.000 saat (erken aşama) |
-| **Haziran 2027 sonu** | 1.000 abone · 4.000 saat (para kazanma) |
+| **Aralık 2026 sonu** | 40–50 abone · 50 organik uzun video saati · ortalama izleme (organik) ≥ %25 · 15 uzun video yayında |
+| **Mart 2027 sonu** | 500 abone · 3.000 organik saat (erken aşama) |
+| **12–24 ay** | 1.000 abone · 8.000 organik saat (para kazanma) |
 
 ### Haftalık takip edilen göstergeler
 

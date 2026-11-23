@@ -29,9 +29,9 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Çar 9 Ara | yılan–inek s1 | — | uzun videodan 1 gün sonra |
 | Per 10 Ara | yılan–inek s2 | — | |
 | Cum 11 Ara | yarasa s3 (YENİ, 6 Ara'dan kaydırıldı) | — | hazır |
-| Cmt 12 Ara | baykuş s3 (YENİ, 7 Ara'dan kaydırıldı) | **uzun video (10. konu)** | hazır |
-| Paz 13 Ara | 10. konu s1 | — | |
-| Pzt 14 Ara | 10. konu s2 | — | |
+| Cmt 12 Ara | baykuş s3 (YENİ, 7 Ara'dan kaydırıldı) | **uzun video: semender** | hazır |
+| Paz 13 Ara | semender s1 | — | |
+| Pzt 14 Ara | semender s2 | — | |
 | Sal 15 Ara | yılan–inek s3 | **uzun video (11. konu)** | |
 
 ## Yükleme adımları (her Shorts için)

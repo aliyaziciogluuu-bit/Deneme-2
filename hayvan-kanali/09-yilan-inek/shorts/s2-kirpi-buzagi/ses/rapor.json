@@ -21,11 +21,12 @@
   "uygun": true
  },
  "003": {
-  "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok.",
-  "duyulan": "Bize göre kirpinin ineği sardığına dair elimizde sağlam bir kanıt yok.",
-  "hata": 1,
-  "sure": 4.06,
-  "uygun": true
+  "yazi": "Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok.",
+  "duyulan": "Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok.",
+  "hata": 0,
+  "sure": 5.1,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
   "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",

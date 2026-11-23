@@ -14,11 +14,12 @@
   "uygun": true
  },
  "002": {
-  "yazi": "Kirpiyi, buzağıyı, hatta kendimizi sorguya çekeceğiz; yılanın ahırda ne aradığını da göreceksin.",
-  "duyulan": "Kirpiği, buzağıyı, hatta kendimizi sorguya çekeceğiz. Yılanın ahırda ne aradığını da göreceksin.",
-  "hata": 1,
-  "sure": 6.28,
-  "uygun": true
+  "yazi": "Kirpi, buzağı, hatta biz: hepsini sorguya çekeceğiz; yılanın ahırda ne aradığını da göreceksin.",
+  "duyulan": "Kirpi, buza, hatta biz, hepsini sorguya çekeceğiz. Yılanın ahırda ne aradığını da göreceksin.",
+  "hata": 0,
+  "sure": 7.26,
+  "uygun": true,
+  "tek_basina": true
  },
  "003": {
   "yazi": "Diyelim ki bir köydesin; ahırda inek huzursuz, memesi boş, duvarın dibinde de bir yılan var.",
@@ -92,11 +93,12 @@
   "uygun": true
  },
  "013": {
-  "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok; üstelik süt şekerini kaldıramıyor.",
-  "duyulan": "Bize göre kirpinin ineyi sağdığına dair elimizde sağlam bir kanıt yok. Üstelik süt şekerini kaldıramıyor.",
-  "hata": 1,
-  "sure": 6.4,
-  "uygun": true
+  "yazi": "Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok; üstelik süt şekerini kaldıramıyor.",
+  "duyulan": "Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok. Üstelik süt şekerini kaldıramıyor.",
+  "hata": 0,
+  "sure": 7.38,
+  "uygun": true,
+  "tek_basina": true
  },
  "014": {
   "yazi": "İkinci şüpheli daha sıradan: sütü buzağı mı içmiş?",
