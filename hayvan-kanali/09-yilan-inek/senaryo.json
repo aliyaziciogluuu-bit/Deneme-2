@@ -1,7 +1,7 @@
 {
   "baslik": "Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)",
   "not": "Yeni büyüme kurallarıyla yazılan ilk video (dedektif yapısı: şüpheli sorgusu). Kaynaklar: Vikipedi (İngilizce ve Türkçe), Animal Diversity Web, Missouri Doğa Koruma Dairesi, WHO, dergipark makaleleri ve PubMed Central makaleleri; hepsi açılıp alıntılar kaynaklar/ klasöründeki arşivlerde doğrulandı. Açılamayan siteler (nationalzoo.si.edu, livescience.com, habervitrini.com, sembollerindili.com, bilgira.com) kullanılmadı. 'Süt yılanı', 'kirpi' ve 'Letonya' bilgileri Amerika ya da Avrupa kaynaklarına dayanır; cümlede söylendi. Yılanın dudak yapısı ve diş eğriliği için kaynak bulunamadı; yalnızca 'ısırıp koparamaz, bütün yutar' ve 'zehirsiz yılanın dişleri tutmaya uygun' denildi. Sarı yılanın ahır kullanımı için kaynak yok; yalnızca 'evlerin çevresi' denildi. Okunuşlar: Elafe savromates, Misuri.",
-  "aciklama": "Yılan ineği sağar mı? Yılan ahırdaki ineğin sütünü içer mi?\nYanlış Tanınan Komşular serisi: evinin çevresinde yaşayan, yanlış tanınan hayvanlar.\n\nBu videoda boş kalan memenin şüphelilerini sorguya çekiyoruz: kirpi, buzağı, yılan, meme enfeksiyonu (mastitis), sıcak, stres ve insan. Sarı yılan (Elaphe sauromates), Eskülap yılanı (Zamenis longissimus) ve Amerika'daki süt yılanı (Lampropeltis) da videoda.\n\nAradığın sorular: yılan süt içer mi, yılan inek sağar mı, ahırda yılan neden olur, ahıra yılan neden girer, sarı yılan zehirli mi, ahırdaki yılan ne yer.\n\nAhırda yılan görürsen karar vermek bize düşmez: ısırıldıysan hemen doktora ya da sağlık kuruluşuna, hayvanın ısırıldıysa veterinere, yılanla ne yapacağını bilemiyorsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Videodaki bilgilerin bir kısmı Amerika ve Avrupa'daki türlere aittir; cümlelerde ülke ve tür söylenmiştir.",
+  "aciklama": "Yılan ineği sağar mı? Yılan ahırdaki ineğin sütünü içer mi?\nYanlış Tanınan Komşular serisi: evinin çevresinde yaşayan, yanlış tanınan hayvanlar.\n\nBu videoda boş kalan memenin şüphelilerini sorguya çekiyoruz: kirpi, buzağı, yılan, meme enfeksiyonu (mastitis), sıcak, stres ve insan. Sarı yılan (Elaphe sauromates), Eskülap yılanı (Zamenis longissimus) ve Amerika'daki süt yılanı (Lampropeltis) da videoda.\n\nAradığın sorular: yılan süt içer mi, yılan inek sağar mı, ahıra yılan neden girer, sarı yılan zehirli mi.\n\nAhırda yılan görürsen karar vermek bize düşmez: ısırıldıysan hemen doktora ya da sağlık kuruluşuna, hayvanın ısırıldıysa veterinere, yılanla ne yapacağını bilemiyorsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Videodaki bilgilerin bir kısmı Amerika ve Avrupa'daki türlere aittir; cümlelerde ülke ve tür söylenmiştir.",
   "yorum_sorusu": "Senin köyünde yılan ve inek hakkında neler anlatılır? Hiç ahırda yılan gördün mü? Yorumlarda yaz.",
   "kaynaklar": [
     "Vikipedi – Milk snake: en.wikipedia.org/wiki/Milk_snake",
@@ -320,7 +320,7 @@
       ],
       "kucuk": "Sağan el de şüpheli",
       "konum": "sol",
-      "genislik": 500,
+      "genislik": 340,
       "gorsel": "kapak_c",
       "etiket": "C",
       "gorsel_notu": "inek ve boş kova / sağan el; yılan uzakta, küçük"

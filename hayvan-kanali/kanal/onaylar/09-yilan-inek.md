@@ -18,3 +18,5 @@
 - Ses: cümle 11 ("19." ↔ "on dokuzuncu" eşleştirmesi seslendir_bulut.sade'ye eklendi), cümle 55 "sağdığını" okunuş hatası nedeniyle "yılanın inekten süt emdiğini…" olarak yeniden yazıldı.
 - Son kontrol (23 Kasım): uzun 324 sn, 61/61; s1, s2, s3 GEÇTİ. Ses düzeltmeleri: sağılan/sağdığını/balık yiyor/memede/kirpiyi/huzursuz cümleleri yeniden yazıldı; açıklama 4.994 karakter.
 - Metin editörü son denetim (23 Kasım): **ONAY**. Puan: kanca 8, anlatim 8, baslik 8, shorts 8.
+- Kalite kontrol (Tur 1, 23 Kasım): **RET**. Puan: ses 8, gorsel 6, teknik 8. Gerekçeler: kapak_C yazısı ineğin burnuna yakın (TEKRARLANAN KUSUR, baykuş dersi), s2'de yılan başı kadrajdan çıkıyor, s2 ilk kare karanlık; açıklama 4.995/5.000.
+- Düzeltme: kapak_c görseli sola genişletildi, yazı daraltıldı; s2 ilk ve 4. kare gündüz çekilmiş gerçek kirpi (iNaturalist), yılan sahnesi sabit görsel; açıklama kısaltıldı.

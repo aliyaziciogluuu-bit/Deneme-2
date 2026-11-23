@@ -2,16 +2,16 @@
  "cekimler": [
   {
    "n": 1,
-   "gorsel": "gercek_kirpi",
+   "gorsel": "gercek_kirpi_gunduz",
    "a": [
-    0.2,
+    0.22,
     0.6,
-    0.5
+    1.0
    ],
    "b": [
-    0.2,
+    0.22,
     0.6,
-    0.5
+    0.92
    ],
    "etiket": "Kirpi, Türkiye"
   },
@@ -45,16 +45,16 @@
   },
   {
    "n": 1,
-   "gorsel": "gercek_kirpi",
+   "gorsel": "gercek_kirpi_gunduz",
    "a": [
-    0.2,
+    0.3,
     0.6,
-    0.55
+    0.95
    ],
    "b": [
-    0.2,
+    0.3,
     0.6,
-    0.55
+    1.0
    ],
    "etiket": "Kirpi, Türkiye"
   },
@@ -76,17 +76,15 @@
    "n": 1,
    "gorsel": "yilan_fare",
    "a": [
-    0.45,
     0.5,
-    1.0
+    0.45,
+    0.6
    ],
    "b": [
-    0.45,
     0.5,
-    0.85
-   ],
-   "klip": "yilan_fare",
-   "kx": 0.5
+    0.45,
+    0.55
+   ]
   },
   {
    "n": 1,

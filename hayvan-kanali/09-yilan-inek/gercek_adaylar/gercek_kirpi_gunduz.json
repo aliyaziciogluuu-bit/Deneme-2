@@ -1,0 +1,86 @@
+{
+ "sorgu": "iNaturalist: Erinaceus concolor (Türkiye)",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "gercek_kirpi_gunduz_1.jpg",
+   "baslik": "iNaturalist gözlem 310619792 (Erinaceus concolor)",
+   "sayfa": "https://www.inaturalist.org/observations/310619792",
+   "yazar": "no rights reserved",
+   "lisans": "CC0",
+   "boyut": "2048x1536",
+   "aciklama": "Aydınkent, Osmangazi, 35535 Bayraklı/İzmir, Türkiye"
+  },
+  {
+   "n": 2,
+   "dosya": "gercek_kirpi_gunduz_2.jpg",
+   "baslik": "iNaturalist gözlem 293545837 (Erinaceus concolor)",
+   "sayfa": "https://www.inaturalist.org/observations/293545837",
+   "yazar": "© Liva Erkul, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1337",
+   "aciklama": "09400 Kuşadası/Aydın, Türkiye"
+  },
+  {
+   "n": 3,
+   "dosya": "gercek_kirpi_gunduz_3.jpg",
+   "baslik": "iNaturalist gözlem 254546413 (Erinaceus concolor transcaucasicus)",
+   "sayfa": "https://www.inaturalist.org/observations/254546413",
+   "yazar": "© Biray Pinar, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1536x2048",
+   "aciklama": "4320/1. Sk., Cesme, İzmir, TR"
+  },
+  {
+   "n": 4,
+   "dosya": "gercek_kirpi_gunduz_4.jpg",
+   "baslik": "iNaturalist gözlem 286605582 (Erinaceus concolor)",
+   "sayfa": "https://www.inaturalist.org/observations/286605582",
+   "yazar": "© Fikret Arda Düzgünses, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Caddebostan, 34728 Kadıköy/İstanbul, Türkiye"
+  },
+  {
+   "n": 5,
+   "dosya": "gercek_kirpi_gunduz_5.jpg",
+   "baslik": "iNaturalist gözlem 167462368 (Erinaceus concolor)",
+   "sayfa": "https://www.inaturalist.org/observations/167462368",
+   "yazar": "© zm77, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "4304. Sk., Cesme, İzmir, TR"
+  },
+  {
+   "n": 6,
+   "dosya": "gercek_kirpi_gunduz_6.jpg",
+   "baslik": "iNaturalist gözlem 279515227 (Erinaceus concolor)",
+   "sayfa": "https://www.inaturalist.org/observations/279515227",
+   "yazar": "© Selim Türeli, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1536x2048",
+   "aciklama": "Büyükdere, Sarıyer, İstanbul, TR"
+  },
+  {
+   "n": 7,
+   "dosya": "gercek_kirpi_gunduz_7.jpg",
+   "baslik": "iNaturalist gözlem 63173686 (Erinaceus concolor)",
+   "sayfa": "https://www.inaturalist.org/observations/63173686",
+   "yazar": "© Biray Pinar, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Anadolu Yakası, İstanbul, Türkiye"
+  },
+  {
+   "n": 8,
+   "dosya": "gercek_kirpi_gunduz_8.jpg",
+   "baslik": "iNaturalist gözlem 119864758 (Erinaceus concolor)",
+   "sayfa": "https://www.inaturalist.org/observations/119864758",
+   "yazar": "© Jan Ebr & Ivana Ebrová, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1244",
+   "aciklama": "Merkez, Nigde, Turkey"
+  }
+ ]
+}

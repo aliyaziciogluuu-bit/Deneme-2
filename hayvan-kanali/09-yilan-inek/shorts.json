@@ -90,12 +90,12 @@
       "cumleler": [
         {
           "yazi": "Kirpi ineğin sütünü emer sanılmış.",
-          "gorsel": "gercek_kirpi",
-          "x": 0.2,
-          "aw": 0.5,
+          "gorsel": "gercek_kirpi_gunduz",
+          "x": 0.22,
+          "aw": 1.0,
           "ay": 0.6,
           "etiket": "Kirpi, Türkiye",
-          "w": 0.5,
+          "w": 0.92,
           "y": 0.6
         },
         {
@@ -110,12 +110,12 @@
         },
         {
           "yazi": "Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok.",
-          "gorsel": "gercek_kirpi",
-          "x": 0.2,
-          "aw": 0.55,
+          "gorsel": "gercek_kirpi_gunduz",
+          "x": 0.3,
+          "aw": 0.95,
           "ay": 0.6,
           "etiket": "Kirpi, Türkiye",
-          "w": 0.55,
+          "w": 1.0,
           "y": 0.6
         },
         {
@@ -127,9 +127,11 @@
           "yazi": "Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
           "ses": "Misuri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
           "gorsel": "yilan_fare",
-          "x": 0.45,
-          "klip": "yilan_fare",
-          "kx": 0.5
+          "x": 0.5,
+          "aw": 0.6,
+          "ay": 0.45,
+          "w": 0.55,
+          "y": 0.45
         },
         {
           "yazi": "Tam videosu kanalımızda.",
