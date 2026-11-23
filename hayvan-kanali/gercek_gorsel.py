@@ -155,7 +155,7 @@ def inat(klasor, ad, tur, turkiye=False, adet=8):
             yer = g.get("place_guess") or ""
             adaylar.append({"n": n, "dosya": dosya.name, "baslik": f"iNaturalist gözlem {g['id']} ({g.get('taxon', {}).get('name', tur)})",
                             "sayfa": f"https://www.inaturalist.org/observations/{g['id']}",
-                            "yazar": foto.get("attribution", "").replace("(c) ", "© "), "lisans": lisans.replace("-", " ").replace("CC ", "CC "),
+                            "yazar": html.unescape(foto.get("attribution", "")).replace("(c) ", "© "), "lisans": lisans.replace("-", " ").replace("CC ", "CC "),
                             "boyut": f"{im.size[0]}x{im.size[1]}", "aciklama": yer[:120]})
         if len(adaylar) >= adet:
             break
