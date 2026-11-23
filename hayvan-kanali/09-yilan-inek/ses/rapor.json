@@ -22,11 +22,12 @@
   "tek_basina": true
  },
  "003": {
-  "yazi": "Diyelim ki bir köydesin; ahırda inek huzursuz, memesi boş, duvarın dibinde de bir yılan var.",
-  "duyulan": "Diyelim ki bir köydesin, ahırda inek huzursuz, memesi boş, duvarın dibinde de bir yılan var.",
+  "yazi": "Diyelim ki bir köydesin; ahırdaki inek tedirgin, memesi boş, duvarın dibinde de bir yılan var.",
+  "duyulan": "Diyelim ki bir köydesin, ahırdaki inek tedirgin, memesi boş, duvarın dibinde de bir yılan var.",
   "hata": 0,
-  "sure": 5.66,
-  "uygun": true
+  "sure": 6.54,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
   "yazi": "Herkes suçluyu bulmuş gibi: yılan sütü içmiş.",

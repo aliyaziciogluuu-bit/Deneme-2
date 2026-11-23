@@ -1,7 +1,7 @@
 000 fark=0 | Kirpi ineğin sütünü emer sanılmış. || Kirpi, ineğin sütünü emer sanılmış.
 001 fark=0 | Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar buna inandığını yazıyor. || Bir kaynak bazı İngiliz köylülerinin 19. yüzyıla kadar buna inandığını yazıyor.
 002 fark=0 | Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor. || Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor.
-003 fark=1 | Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok. || Bize göre kirpinin ineyi sağdığına dair elimizde sağlam bir kanıt yok.
+003 fark=0 | Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok. || Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok.
 004 fark=1 | Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış. || Amerika'da süt yılanı denen bir türe de aynı hikâyeye yakıştırılmış.
-005 fark=1 | Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor. || Misuri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.
+005 fark=0 | Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor. || Misuri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.
 006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

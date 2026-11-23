@@ -31,7 +31,7 @@ Biçim: cümle no → kaynak → kaynakta geçen ifade (özgün dilde) → durum
 | 0 | Yılan ahıra girer, ineğin sütünü içer, derler. | Şahin 2012, Ç.Ü. Sosyal Bilimler Enstitüsü Dergisi 21(2) (dergipark.org.tr/tr/download/article-file/50762) | “Kırsal bölgelerde yılanın küçük ve büyük baş hayvanın sütünü içtiği bilinir” | açıldı, alıntı arşivde doğrulandı; inanışın anlatımı; kaynakta 'sütünü içtiği bilinir' geçer |
 | 1 | Oysa yılanlar avı ısırıp koparamaz, bütün yutar; peki memesi boş çıkan inek sütünü kime kaptırıyor? | Vikipedi – Snake (en.wikipedia.org/wiki/Snake) | “Snakes cannot bite or tear their food to pieces so must swallow their prey whole” | açıldı, alıntı arşivde doğrulandı; kanca: karşı kanıt + ikinci soru |
 | 2 | Kirpi, buzağı, hatta biz: hepsini sorguya çekeceğiz; yılanın ahırda ne aradığını da göreceksin. | – | – | kaynak gerektirmez: vaat; kirpi/buzağı/insan/ahır bilgisi ilgili cümlelerde eşlendi |
-| 3 | Diyelim ki bir köydesin; ahırda inek huzursuz, memesi boş, duvarın dibinde de bir yılan var. | – | – | kaynak gerektirmez: kurgu (varsayım; gerçek olay iddiası değil) |
+| 3 | Diyelim ki bir köydesin; ahırdaki inek tedirgin, memesi boş, duvarın dibinde de bir yılan var. | – | – | kaynak gerektirmez: kurgu (varsayım; gerçek olay iddiası değil) |
 | 4 | Herkes suçluyu bulmuş gibi: yılan sütü içmiş. | – | – | kaynak gerektirmez: kurgu / inanış (bkz. cümle 0) |
 | 5 | Gerçekten öyle mi? | – | – | kaynak gerektirmez: soru |
 | 6 | Bir makaleye göre kırsalda yılanın küçük ve büyükbaş hayvanın sütünü içtiği bilinirmiş. | Şahin 2012, Ç.Ü. Sosyal Bilimler Enstitüsü Dergisi 21(2) (dergipark.org.tr/tr/download/article-file/50762) | “ALMANCADA VE TÜRKÇEDE DEĞERLİLİĞİ” | açıldı, alıntı arşivde doğrulandı |
