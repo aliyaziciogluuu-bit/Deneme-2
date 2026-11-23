@@ -379,13 +379,13 @@ Avludaki Komşular'da, evinin çevresindeki yanlış
 tanınan komşuları anlatmaya devam edeceğiz.
 
 96
-00:05:14,468 --> 00:05:17,099
-Sıradaki komşu: engerek sanılan yılanlar;
+00:05:14,468 --> 00:05:18,683
+Sıradaki komşu: yağmurdan sonra çıkan siyah sarı semender;
 
 97
-00:05:17,099 --> 00:05:20,233
-senin gördüğün yılan gerçekten engerek miydi?
+00:05:18,683 --> 00:05:21,473
+ateşten doğduğu söylenir, doğru mu?
 
 98
-00:05:20,338 --> 00:05:21,328
+00:05:21,578 --> 00:05:22,568
 Komşunu tanı.
