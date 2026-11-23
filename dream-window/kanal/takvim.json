@@ -107,6 +107,13 @@
     "uzun": "13-forest-cabin",
     "not": "Karlı orman kulübesi Shorts'unun (10 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
   },
+  "2026-12-14": {
+    "shorts": [
+      "29-fjord-christmas-cabin",
+      "shorts"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video boş kalsın: 8 saatlik Fiyort Noel kulübesi videosu 16 Aralık'ta yayınlanacak, o gün bağlanacak. Kuzey ışıkları iglo videosuna bağlama."
+  },
   "2026-12-15": {
     "shorts": [
       "13-forest-cabin",
@@ -115,7 +122,15 @@
     "not": "Bu Shorts'u yüklerken İlgili video olarak Karlı orman kulübesi 3 saatlik videosunu seç (o video yayında)."
   },
   "2026-12-16": {
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "8 saatlik videodan sonra (20:00'den sonra) 14 Aralık'taki Fiyort Noel kulübesi Shorts'unun İlgili videosu olarak bugünkü videoyu bağla. Bu videoyu 'Christmas Sleep Windows 🎄' oynatma listesine ekle (ilk 3 videodan hemen sonraya). İlk hafta izleyici tutma grafiğinde 2:40 ve 5:20 civarına bak. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "uzun": "29-fjord-christmas-cabin"
+  },
+  "2026-12-17": {
+    "shorts": [
+      "29-fjord-christmas-cabin",
+      "shorts2"
+    ],
+    "not": "Bu Shorts'u yüklerken İlgili video olarak Fiyort Noel kulübesi 8 saatlik videosunu seç (dün yayınlandı)."
   },
   "2026-12-19": {
     "uzun": "11-aurora-igloo",

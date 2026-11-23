@@ -15,6 +15,7 @@
 
 **Sonradan eklenecekler** (o günlerin günlük talimatında hatırlatılacak):
 - 1 Aralık: Noel arifesi
+- 16 Aralık: Christmas Fjord Cabin (8 saat, 4K) – listenin ilk 3 videosundan hemen sonraya
 - 19 Aralık: kuzey ışıkları iglo (Christmas Night in a Glass Igloo)
 - 28 Aralık: yılbaşı çatı katı
 

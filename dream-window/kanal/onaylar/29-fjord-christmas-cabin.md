@@ -14,4 +14,4 @@
 - Kanal yöneticisi: ÖNERİ ONAY. Çukur için yeniden üretim gerekmiyor (uret.py geçişi qsin yapıldı, sonraki üretimler için). İlk hafta tutma grafiğinde 2:40 ve 5:20'ye bakılsın. Fiyord ve iglo Shorts'ları çapraz bağlanmasın. Video "Christmas Sleep Windows 🎄" listesine eklensin.
 
 ## Patron kararı
-ONAY. Takvim önerisi: 14 Aralık Shorts 1, 16 Aralık 20:00 8 saatlik video, 17 Aralık POV Shorts. Kullanıcı onayı bekleniyor.
+ONAY. Takvim: 14 Aralık Shorts 1, 16 Aralık 20:00 8 saatlik video, 17 Aralık POV Shorts (kullanıcı onayladı, 23 Kasım).
