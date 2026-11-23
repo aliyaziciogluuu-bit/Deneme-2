@@ -4,8 +4,8 @@ Kaynak: `hayvan-kanali/reports/Büyük hayvan kanalları analizi.md` (17 kanal, 
 (`hayvan-kanali/kanal/analiz_2026-11-22.md`). Kanal sahibi kararı (22 Kasım): **haftada 2 uzun video, raporun bütün önerileri uygulanır.**
 
 Ana teşhis: Darboğaz görünürlük değil, tutma. Sağır yılan aramada ilk sayfada, organik tıklama oranı %4,2 (normal), ama
-ortalama izleme %18. Para kazanma hedefi 1.000 abone + **8.000 saat** (1 Şubat 2027 sonrası başvurular; ikincil kaynaklı,
-doğrulanmadı). İzleme oranı %18 → %30, gereken yıllık izlenmeyi ≈444 binden ≈267 bine indirir. Bu kurallar o yüzden zorunludur.
+ortalama izleme %18. Para kazanma hedefi 1.000 abone + **8.000 saat** (1 Şubat 2027 sonrası başvurular; **YouTube Yardım 12843009 ile doğrulandı, 23 Kasım**).
+İlk kazanç kapısı değişmiyor: **500 abone + 3.000 saat** (ya da 90 günde 3 milyon Shorts) → hayran desteği (Süper Teşekkürler vb.), Creator Partnerships, Shopping. İzleme oranı %18 → %30, gereken yıllık izlenmeyi ≈444 binden ≈267 bine indirir. Bu kurallar o yüzden zorunludur.
 
 ## 1. Senaryo yapısı (senarist, metin editörü denetler)
 - **Ana cevap 2.–4. dakikada.** İlk 15 saniyede yalnızca kısmi cevap + ikinci soru. Örnek: "Yılan değil. Peki bacakları nereye gitti?"

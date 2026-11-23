@@ -147,5 +147,5 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 
 ## Karar (22 Kasım): haftada 2 uzun video, bütçe kalitede
 - Aralık: kara kurbağasından sonra 7 yeni uzun video (8, 12, 15, 19, 22, 26, 29 Aralık) × ≈ 5 $ ≈ 35 $. Aylık 60 $ bütçeden artan ≈ 20 $ kaliteye gider: video başı tavan 5 $ → 7 $ (daha çok görsel adayı, 4 → 6 klip, gerçek fotoğraf önceliği sürer), küçük resim için ayrı görsel turu.
-- Para kazanma hedefi: 1.000 abone + 8.000 saat (1 Şubat 2027 sonrası başvurular; ikincil kaynaklı, doğrulanmadı), takvim 12–24 ay.
+- Para kazanma hedefi: 1.000 abone + 8.000 saat (1 Şubat 2027 sonrası yeni başvurular; YouTube Yardım sayfası 12843009 ile doğrulandı, 23 Kasım), takvim 12–24 ay. Ara hedef: 500 abone + 3.000 saat → hayran desteği, Creator Partnerships ve Shopping açılır (bu şart değişmiyor).
 - Ücretli tanıtım yok (izlenmeleri şarta sayılmıyor; 638 TL → 0 abone).

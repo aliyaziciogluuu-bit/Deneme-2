@@ -5,7 +5,7 @@ description: Avludaki Komşular (evin çevresindeki yanlış tanınan hayvanlar�
 
 # Avludaki Komşular – yeni video üretimi
 
-Avludaki Komşular, evlerin, bahçelerin ve köylerin çevresinde yaşayıp yanlış tanınan hayvanları anlatan, yüzsüz bir Türkçe belgesel kanalı. Görseller yapay zekâ çizimi, anlatım yapay zekâ sesi. Kod `hayvan-kanali/` klasöründe, Türkçe adlı Python betikleri olarak duruyor. Kullanıcının hedefi kanaldan para kazanmak (1.000 abone ve 8.000 saat; 1 Şubat 2027 sonrası başvurular için yeni şart, ikincil kaynaklı).
+Avludaki Komşular, evlerin, bahçelerin ve köylerin çevresinde yaşayıp yanlış tanınan hayvanları anlatan, yüzsüz bir Türkçe belgesel kanalı. Görseller yapay zekâ çizimi, anlatım yapay zekâ sesi. Kod `hayvan-kanali/` klasöründe, Türkçe adlı Python betikleri olarak duruyor. Kullanıcının hedefi kanaldan para kazanmak (1.000 abone ve 8.000 saat; 1 Şubat 2027 sonrası başvurular için YouTube'un doğruladığı yeni şart; ara hedef 500 abone + 3.000 saat).
 
 **Kullanıcıyla iletişim:** Kullanıcı Türkçe konuşuyor ve teknik değil. Her zaman Türkçe, kısa ve net yaz. Komut açıklamaları da Türkçe olur ("İngilizce yazma"). Kullanıcının adını, e-postasını ve telefonunu hiçbir dış servise gönderme, tekrar etme.
 
