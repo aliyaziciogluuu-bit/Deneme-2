@@ -1,0 +1,53 @@
+{
+  "dikey": true,
+  "baslik": "Yılanın Ağzı Süt Emmeye Uygun mu? 🐍 #shorts",
+  "aciklama": "Yılanlar avı koparamıyor, bütün yutuyor; Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık. Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma; ısırıldıysan hemen sağlık kuruluşuna başvur. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)\"\n\nKaynaklar:\n- Vikipedi – Snake: en.wikipedia.org/wiki/Snake\n- Vikipedi – Milk snake: en.wikipedia.org/wiki/Milk_snake\n\n#shorts #yılan #ahır #doğa",
+  "etiketler": [
+    "yılan inek sağar mı",
+    "yılan süt içer mi",
+    "ahırda yılan",
+    "yılan",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "AVI BÜTÜN",
+    "YUTUYOR"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)",
+  "sahneler": [
+    {
+      "ad": "Yılanın Ağzı Süt Emmeye Uygun mu? 🐍 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Yılanın ağzı avı koparmaya değil, bütün yutmaya göre."
+        },
+        {
+          "yazi": "Zehirsiz yılanın dişleri yırtmaya değil, tutup kavramaya uygun."
+        },
+        {
+          "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış."
+        },
+        {
+          "yazi": "Bir kaynağa göre bu yılan, ineğin memesinden süt emecek yapıda değil."
+        },
+        {
+          "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık."
+        },
+        {
+          "yazi": "Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma; ısırıldıysan hemen sağlık kuruluşuna başvur."
+        },
+        {
+          "yazi": "Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

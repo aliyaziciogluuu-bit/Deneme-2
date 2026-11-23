@@ -254,7 +254,7 @@
           "yazi": "Çoğu yılan zehirsiz, ama güçlü zehirli olanlar da var; hangisi olduğunu yaklaşarak anlamaya çalışma."
         },
         {
-          "yazi": "Çoğu yılan korkutulmadıkça ya da yaralanmadıkça insandan kaçınıyor; bize göre mesafeni koru, elle yakalamaya çalışma."
+          "yazi": "Yılanların çoğu korkutulmadıkça ya da yaralanmadıkça insandan kaçınıyor; bize göre mesafeni koru, elle yakalamaya çalışma."
         },
         {
           "yazi": "Zehirsiz yılanın ısırığında da enfeksiyon ihtimali var; karar vermek bize düşmez, hemen sağlık kuruluşuna başvur."
@@ -306,7 +306,7 @@
         "YILANIN AĞZI",
         "UYGUN MU?"
       ],
-      "kucuk": "Süt emmeye uygun mu?",
+      "kucuk": "Dişler tutmaya göre",
       "konum": "sol",
       "genislik": 500,
       "gorsel": "kapak_b",

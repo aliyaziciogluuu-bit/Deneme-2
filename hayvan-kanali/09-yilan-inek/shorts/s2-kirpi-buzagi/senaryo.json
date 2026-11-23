@@ -1,0 +1,54 @@
+{
+  "dikey": true,
+  "baslik": "Kirpi İneğin Sütünü Emer mi? 🦔 #shorts",
+  "aciklama": "Bazı İngiliz köylüleri on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inanıyormuş; aynı metne göre kirpiler süt şekerini kaldıramıyor. Missouri Doğa Koruma Dairesi, Amerika'daki süt yılanının adının da bir efsaneden geldiğini yazıyor. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)\"\n\nKaynaklar:\n- Vikipedi – Hedgehogs in culture: en.wikipedia.org/wiki/Hedgehogs_in_culture\n- Missouri Department of Conservation – Eastern Milksnake: mdc.mo.gov/discover-nature/field-guide/eastern-milksnake\n\n#shorts #kirpi #inek #doğa",
+  "etiketler": [
+    "kirpi süt emer mi",
+    "kirpi inek sütü",
+    "yılan süt içer mi",
+    "süt yılanı",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "KİRPİ DE",
+    "SUÇLANMIŞ"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)",
+  "sahneler": [
+    {
+      "ad": "Kirpi İneğin Sütünü Emer mi? 🦔 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Kirpi ineğin sütünü emer sanılmış."
+        },
+        {
+          "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar buna inandığını yazıyor."
+        },
+        {
+          "yazi": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor."
+        },
+        {
+          "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok."
+        },
+        {
+          "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış."
+        },
+        {
+          "yazi": "Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
+          "ses": "Misuri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor."
+        },
+        {
+          "yazi": "Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}
