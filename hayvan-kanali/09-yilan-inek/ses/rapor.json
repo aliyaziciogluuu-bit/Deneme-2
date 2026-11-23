@@ -19,5 +19,54 @@
   "hata": 1,
   "sure": 6.28,
   "uygun": true
+ },
+ "003": {
+  "yazi": "Diyelim ki bir köydesin; ahırda inek huzursuz, memesi boş, duvarın dibinde de bir yılan var.",
+  "duyulan": "Diyelim ki bir köydesin, ahırda inek huzursuz, memesi boş, duvarın dibinde de bir yılan var.",
+  "hata": 0,
+  "sure": 5.66,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Herkes suçluyu bulmuş gibi: yılan sütü içmiş.",
+  "duyulan": "Herkes suçluyu bulmuş gibi. Yılan sütü içmiş.",
+  "hata": 0,
+  "sure": 2.8,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Gerçekten öyle mi?",
+  "duyulan": "Gerçekten öyle mi?",
+  "hata": 0,
+  "sure": 1.02,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Bir makaleye göre kırsalda yılanın küçük ve büyükbaş hayvanın sütünü içtiği bilinirmiş.",
+  "duyulan": "bir makaleye göre Kırsal'da yılanın küçük ve büyük baş hayvanın sütünü içtiği bilinirmiş.",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Peki bu hikâye nereden çıktı?",
+  "duyulan": "Peki bu hikaye nereden çıktı?",
+  "hata": 0,
+  "sure": 1.64,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Missouri Doğa Koruma Dairesi, Amerika'daki süt yılanının adını ahırda görüp süt çaldığını sanan ilk Avrupalı yerleşimcilerin verdiğini yazıyor.",
+  "duyulan": "Misuri Doğa Koruma Dairesi, Amerika'daki süt yılanının adını ahırda görüp süt çaldığını sanan ilk Avrupalı yerleşimcilerin verdiğini yazıyor.",
+  "hata": 0,
+  "sure": 8.32,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Aynı kaynak bunun bir efsane olduğunu söylüyor; yılan büyük olasılıkla ahırdaki fareleri arıyordu.",
+  "duyulan": "Aynı kaynak bunun bir efsane olduğunu söylüyor. Yılan büyük olasılıkla ahırdaki fareleri arıyordu.",
+  "hata": 0,
+  "sure": 5.78,
+  "uygun": true
  }
 }
