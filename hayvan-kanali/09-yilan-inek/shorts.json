@@ -2,8 +2,8 @@
   "shorts": [
     {
       "ad": "s1-yilan-agzi",
-      "baslik": "Yılan İneği Sağar mı? 🐍 #shorts",
-      "aciklama": "Yılanlar yiyeceklerini ısırıp koparamıyor, avı bütün yutuyor; Türkiye'de bir yılanın ineğin memesinden süt emdiğini gösteren bir kaynak bulamadık. Ahırda yılan görürsen yaklaşma; ısırıldıysan hemen sağlık kuruluşuna başvur. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Ahırda Gerçekte Ne Oluyor?)\"\n\nKaynaklar:\n- Vikipedi – Snake: en.wikipedia.org/wiki/Snake\n- Vikipedi – Milk snake: en.wikipedia.org/wiki/Milk_snake\n\n#shorts #yılan #ahır #doğa",
+      "baslik": "Yılanın Ağzı Süt Emmeye Uygun mu? 🐍 #shorts",
+      "aciklama": "Yılanlar avı koparamıyor, bütün yutuyor; Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık. Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma; ısırıldıysan hemen sağlık kuruluşuna başvur. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)\"\n\nKaynaklar:\n- Vikipedi – Snake: en.wikipedia.org/wiki/Snake\n- Vikipedi – Milk snake: en.wikipedia.org/wiki/Milk_snake\n\n#shorts #yılan #ahır #doğa",
       "etiketler": [
         "yılan inek sağar mı",
         "yılan süt içer mi",
@@ -13,29 +13,28 @@
         "doğa"
       ],
       "ust_yazi": [
-        "YILAN",
-        "KOPARAMAZ"
+        "AVI BÜTÜN",
+        "YUTUYOR"
       ],
       "cumleler": [
         {
-          "yazi": "Yılanlar yiyeceklerini ısırıp koparamaz.",
+          "yazi": "Yılanın ağzı avı koparmaya değil, bütün yutmaya göre.",
           "gorsel": "yilan_yakin"
         },
         {
-          "yazi": "Avı bütün yutmak zorundalar; zehirsiz yılanın dişleri de yırtmaya değil, tutup kavramaya uygun.",
+          "yazi": "Zehirsiz yılanın dişleri yırtmaya değil, tutup kavramaya uygun.",
           "gorsel": "yilan_yakin"
         },
         {
-          "yazi": "Amerika'da 'süt yılanı' denen bir tür için de aynı hikâye anlatılmış.",
-          "gorsel": "ahir_inek",
-          "ses": "Amerika'da süt yılanı denen bir tür için de aynı hikâye anlatılmış."
-        },
-        {
-          "yazi": "Bir kaynak, o yılanın ineğin memesinden süt emecek yapıda olmadığını söylüyor.",
+          "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
           "gorsel": "ahir_inek"
         },
         {
-          "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir kaynak bulamadık.",
+          "yazi": "Bir kaynağa göre bu yılan, ineğin memesinden süt emecek yapıda değil.",
+          "gorsel": "ahir_inek"
+        },
+        {
+          "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık.",
           "gorsel": "ahir_kapi"
         },
         {
@@ -51,12 +50,12 @@
     {
       "ad": "s2-kirpi-buzagi",
       "baslik": "Kirpi İneğin Sütünü Emer mi? 🦔 #shorts",
-      "aciklama": "Bazı İngiliz köylüleri on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inanıyormuş; aynı kaynağa göre kirpiler süt şekerini kaldıramıyor. Ahırda boş kalan memenin başka açıklamaları da var. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Ahırda Gerçekte Ne Oluyor?)\"\n\nKaynaklar:\n- Vikipedi – Hedgehogs in culture: en.wikipedia.org/wiki/Hedgehogs_in_culture\n- Neave, H. W. ve ark. (2024). JDS Communications 5(5): 495. doi.org/10.3168/jdsc.2023-0480\n\n#shorts #kirpi #inek #doğa",
+      "aciklama": "Bazı İngiliz köylüleri on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inanıyormuş; aynı metne göre kirpiler süt şekerini kaldıramıyor. Missouri Doğa Koruma Dairesi, Amerika'daki süt yılanının adının da bir efsaneden geldiğini yazıyor. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)\"\n\nKaynaklar:\n- Vikipedi – Hedgehogs in culture: en.wikipedia.org/wiki/Hedgehogs_in_culture\n- Missouri Department of Conservation – Eastern Milksnake: mdc.mo.gov/discover-nature/field-guide/eastern-milksnake\n\n#shorts #kirpi #inek #doğa",
       "etiketler": [
         "kirpi süt emer mi",
         "kirpi inek sütü",
-        "buzağı süt",
-        "inek sütü neden azalır",
+        "yılan süt içer mi",
+        "süt yılanı",
         "shorts",
         "doğa"
       ],
@@ -66,11 +65,11 @@
       ],
       "cumleler": [
         {
-          "yazi": "Kirpi de ineğin sütünü emmekle suçlanmış.",
+          "yazi": "Kirpi ineğin sütünü emer sanılmış.",
           "gorsel": "kirpi_yakin"
         },
         {
-          "yazi": "Bir kaynağa göre bazı İngiliz köylüleri, on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inanıyormuş.",
+          "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar buna inandığını yazıyor.",
           "gorsel": "kirpi_yakin"
         },
         {
@@ -78,16 +77,17 @@
           "gorsel": "kirpi_yakin"
         },
         {
-          "yazi": "Ahırda buzağı da şüpheli: annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
-          "gorsel": "buzagi_inek"
+          "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok.",
+          "gorsel": "kirpi_yakin"
         },
         {
-          "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
-          "gorsel": "buzagi_inek"
+          "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
+          "gorsel": "ahir_inek"
         },
         {
-          "yazi": "Araştırmacılar bu düşüklüğü yalnızca buzağının içtiği sütle açıklayamamış.",
-          "gorsel": "buzagi_inek"
+          "yazi": "Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
+          "ses": "Misuri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
+          "gorsel": "ahir_inek"
         },
         {
           "yazi": "Tam videosu kanalımızda.",
@@ -96,40 +96,40 @@
       ]
     },
     {
-      "ad": "s3-sagan-el",
-      "baslik": "İnek Neden Az Süt Verir? 🐄 #shorts",
-      "aciklama": "Bir derlemeye göre ineklere kötü davranılması süt verimini bastırabiliyor. Sütü birden azalan ineği önce veterinere göster. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Ahırda Gerçekte Ne Oluyor?)\"\n\nKaynaklar:\n- Acharya, R. Y. ve ark. (2022). Animals 12(4): 487. doi.org/10.3390/ani12040487\n- Leandro, M. A. ve ark. (2024). Journal of Animal Science 102: skae287. doi.org/10.1093/jas/skae287\n- Vikipedi – Mastitis in dairy cattle: en.wikipedia.org/wiki/Mastitis_in_dairy_cattle\n\n#shorts #inek #süt #doğa",
+      "ad": "s3-buzagi",
+      "baslik": "Boş Kalan Meme: Buzağı mı? 🐄 #shorts",
+      "aciklama": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer. Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış; araştırmacılar bunu yalnızca buzağının içtiği sütle açıklayamamış. Sütü birden azalan ineği önce veterinere göster. Tam video kanalımızda: \"Yılan İneği Sağar mı? (Boş Kalan Memenin Şüphelileri)\"\n\nKaynaklar:\n- Neave, H. W., Jensen, E. H., Solarino, A. & Jensen, M. B. (2024). JDS Communications 5(5): 495. doi.org/10.3168/jdsc.2023-0480\n\n#shorts #inek #buzağı #doğa",
       "etiketler": [
+        "buzağı süt",
         "inek sütü neden azalır",
         "inek az süt veriyor",
-        "mastitis",
         "ahır",
         "shorts",
         "doğa"
       ],
       "ust_yazi": [
-        "SÜTÜ KİM",
-        "AZALTIR?"
+        "BUZAĞI DA",
+        "SÜT İÇER"
       ],
       "cumleler": [
         {
-          "yazi": "İneğe kötü davranmak sütünü azaltabilir.",
-          "gorsel": "inek_yakin"
+          "yazi": "Sabah boş görünen memenin sorumlusu yılan değil, buzağı olabilir.",
+          "gorsel": "buzagi_inek"
         },
         {
-          "yazi": "Bir derlemeye göre ineklere kötü davranılması süt verimini bastırabiliyor.",
-          "gorsel": "inek_yakin"
+          "yazi": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
+          "gorsel": "buzagi_inek"
         },
         {
-          "yazi": "Aynı derleme, kötü davranan birinin yanında sağılan ineklerde memede daha çok süt kaldığını aktarıyor.",
-          "gorsel": "inek_sagim"
+          "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
+          "gorsel": "buzagi_inek"
         },
         {
-          "yazi": "Almanya'da yapılan bir çalışmada, sıcak stresi yaşanan bölgelerde süt veriminin anlamlı biçimde düştüğü görülmüş.",
-          "gorsel": "ahir_sicak"
+          "yazi": "Araştırmacılar bunu yalnızca buzağının içtiği sütle açıklayamamış.",
+          "gorsel": "buzagi_inek"
         },
         {
-          "yazi": "Meme enfeksiyonu mastitis de süt miktarını ve kalitesini düşürüyor.",
+          "yazi": "Sütü azaltan başka nedenler de var: meme enfeksiyonu, sıcak ve stres.",
           "gorsel": "inek_yakin"
         },
         {
