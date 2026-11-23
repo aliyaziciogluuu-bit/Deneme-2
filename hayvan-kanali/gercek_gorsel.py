@@ -16,6 +16,7 @@ Lisans: yalnızca kamu malı, CC0, CC BY ve CC BY-SA kabul edilir (ticari kullan
 NC (ticari olmayan) ve ND (değiştirilemez) lisanslar elenir. CC BY / BY-SA için açıklamada yazar ve lisans belirtilir
 (`kunye` komutu bu satırları üretir). Aday bilgileri <video>/gercek_adaylar/<ad>.json dosyasında tutulur.
 """
+import html
 import json
 import pathlib
 import re

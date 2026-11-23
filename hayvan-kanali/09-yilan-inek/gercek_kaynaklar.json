@@ -38,5 +38,21 @@
   "lisans": "CC BY SA",
   "boyut": "2048x1365",
   "tur": "fotoğraf"
+ },
+ "kapak": {
+  "baslik": "iNaturalist gözlem 226194542 (Zamenis longissimus)",
+  "sayfa": "https://www.inaturalist.org/observations/226194542",
+  "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
+ },
+ "kapak_b": {
+  "baslik": "iNaturalist gözlem 360257990 (Zamenis longissimus)",
+  "sayfa": "https://www.inaturalist.org/observations/360257990",
+  "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
  }
 }

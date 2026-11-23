@@ -143,6 +143,10 @@ def gercek_kunye(klasor: pathlib.Path):
                 kullanilan = set()
                 for c in json.loads(cek.read_text(encoding="utf-8")).get("cekimler", []):
                     kullanilan.update(x for x in (c.get("gorsel"), c.get("klip")) if x)
+                sj = klasor / "senaryo.json"  # küçük resimde kullanılan gerçek fotoğrafların da atfı yazılır
+                if sj.exists():
+                    s = json.loads(sj.read_text(encoding="utf-8"))
+                    kullanilan.update(x.get("gorsel") for x in [s.get("kapak") or {}] + s.get("kapak_alternatifler", []) if x.get("gorsel"))
                 kayit = {ad: a for ad, a in kayit.items() if ad in kullanilan}
             return [f"- {a['baslik'].replace('File:', '')} – {a['yazar']} – {a['lisans']} – {a['sayfa'].replace('https://', '').replace('www.', '')}"
                     for a in kayit.values()]

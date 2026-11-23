@@ -68,5 +68,103 @@
   "hata": 0,
   "sure": 5.78,
   "uygun": true
+ },
+ "010": {
+  "yazi": "İlk şüpheli kirpi: o gerçekten süt emer mi?",
+  "duyulan": "İlk şüpheli kirpi. O gerçekten süt emer mi?",
+  "hata": 0,
+  "sure": 3.42,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inandığını yazıyor.",
+  "duyulan": "Bir kaynak bazı İngiliz köylülerinin 19. yüzyıla kadar kirpinin ineyinmemesinden süt emdiğine inandığını yazıyor.",
+  "hata": 3,
+  "sure": 7.52,
+  "uygun": false
+ },
+ "012": {
+  "yazi": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor.",
+  "duyulan": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor.",
+  "hata": 0,
+  "sure": 3.52,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok; üstelik süt şekerini kaldıramıyor.",
+  "duyulan": "Bize göre kirpinin ineyi sağdığına dair elimizde sağlam bir kanıt yok. Üstelik süt şekerini kaldıramıyor.",
+  "hata": 1,
+  "sure": 6.4,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "İkinci şüpheli daha sıradan: sütü buzağı mı içmiş?",
+  "duyulan": "İkinci şüpheli daha sıradan, sütü buzağa mı içmiş?",
+  "hata": 1,
+  "sure": 3.3,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
+  "duyulan": "Buza, annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
+  "hata": 1,
+  "sure": 4.14,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
+  "duyulan": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağlam sütü en düşük çıkmış.",
+  "hata": 1,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Ama araştırmacılar bu düşüklüğü yalnızca buzağının içtiği sütle açıklayamamış.",
+  "duyulan": "Ama araştırmacılar bu düşüklüğü yalnızca buzağının içtiği sütle açıklayamamış.",
+  "hata": 0,
+  "sure": 4.28,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Bize göre buzağı güçlü bir şüpheli, ama tek başına yeterli bir açıklama olmayabilir.",
+  "duyulan": "Bize göre buzağa güçlü bir şüpheli ama tek başına yeterli bir açıklama olmayabilir.",
+  "hata": 1,
+  "sure": 4.7,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Süt ile yılan neden hep yan yana anılıyor?",
+  "duyulan": "Sütle yılan neden hep yan yana anılıyor?",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Rize'de ahırın iyesinin bir yılan olduğuna inanılır; ona duvarda, taşın içinde süt bırakılır.",
+  "duyulan": "Rize'de ahırın iyesinin bir yılan olduğuna inanılır, ona duvarda taşın içinde süt bırakılır.",
+  "hata": 0,
+  "sure": 5.86,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Bu gelenekleri küçümsemiyoruz; ama süt bırakmak, yılanın sütü içtiğini göstermez.",
+  "duyulan": "Bu gelenekleri küçümsemiyoruz ama süt bırakmak yılanın sütü içtiğini göstermez.",
+  "hata": 0,
+  "sure": 4.76,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Adana'da Yılanlı Kale'deki yılanların sütle beslendiği anlatılır; Kırgızlar eve giren yılanı çıkarmak için süt ya da kımız serper.",
+  "duyulan": "Adana'da yılanlı kaledeki yılanların sütle beslendiği anlatılır. Kırgızlar eve giren yılanı çıkarmak için süt ya da kımız serper.",
+  "hata": 0,
+  "sure": 8.28,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Kanıt arıyorsak yılanın ağzına bakmalıyız.",
+  "duyulan": "Kanıt arıyorsak yılanın ağzına bakmalıyız.",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
  }
 }

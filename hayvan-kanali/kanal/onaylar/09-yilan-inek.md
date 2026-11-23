@@ -11,3 +11,4 @@
 - Senarist Tur 3: 61 cümle, ≈5:13; ana cevap ≈2:03, Missouri kanıtı ≈0:36; kaynak kalıbı 12 → 6. Patron: kaynaksız "Sakın Öldürme" başlık seçeneği çıkarıldı; okunuş alanları geri eklendi.
 - Metin editörü ön denetim (Tur 2, 23 Kasım): **ONAY (ön)**. Tahmini puan: kanca 8, anlatim 8, baslik 8, shorts 8 (Tur 1: 7, 7, 7, 6). Patron uyguladı: "Çoğu yılan" tekrarı, kapak B alt yazı "Dişler tutmaya göre".
 - Seslendirme başladı (23 Kasım).
+- Görsel denetçi (23 Kasım): 38 adaydan 9 sahne KABUL (duvar_yilan, inek_yakin, ahir_kapi, ahir_sicak, ahira_giren, kapanis, kirsal_ev, koy_sabahi, yilanli_kale); 13 sahne RET (istenmeyen yılan, yarık göz bebeği, yazı izi). Patron: kapak A ve B gerçek Eskülap yılanı fotoğrafı (iNaturalist, Türkiye), dosya_pano ve yilan_yakin çıkarıldı, 9 görsel düzeltilmiş istemle yeniden üretiliyor (~1,1 $).

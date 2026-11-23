@@ -1,0 +1,66 @@
+{
+ "sorgu": "iNaturalist: Zamenis longissimus (Türkiye)",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "kapak_1.jpg",
+   "baslik": "iNaturalist gözlem 175635854 (Zamenis longissimus)",
+   "sayfa": "https://www.inaturalist.org/observations/175635854",
+   "yazar": "© Balkan Mega, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2024x1518",
+   "aciklama": "Turkey"
+  },
+  {
+   "n": 2,
+   "dosya": "kapak_2.jpg",
+   "baslik": "iNaturalist gözlem 226194542 (Zamenis longissimus)",
+   "sayfa": "https://www.inaturalist.org/observations/226194542",
+   "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Kırklareli Merkez/Kırklareli, Türkiye"
+  },
+  {
+   "n": 3,
+   "dosya": "kapak_3.jpg",
+   "baslik": "iNaturalist gözlem 57766669 (Zamenis longissimus)",
+   "sayfa": "https://www.inaturalist.org/observations/57766669",
+   "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Dereköy/Kırklareli Merkez/Kırklareli, Türkiye"
+  },
+  {
+   "n": 4,
+   "dosya": "kapak_4.jpg",
+   "baslik": "iNaturalist gözlem 360871280 (Zamenis longissimus)",
+   "sayfa": "https://www.inaturalist.org/observations/360871280",
+   "yazar": "© Matthew Rozanoff, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1536x2048",
+   "aciklama": "Yuvacık Yakacık, Başiskele/Kocaeli, Türkiye"
+  },
+  {
+   "n": 5,
+   "dosya": "kapak_5.jpg",
+   "baslik": "iNaturalist gözlem 288419562 (Zamenis longissimus)",
+   "sayfa": "https://www.inaturalist.org/observations/288419562",
+   "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Cumhuriyet, Yenice/Pınarhisar/Kırklareli, Türkiye"
+  },
+  {
+   "n": 6,
+   "dosya": "kapak_6.jpg",
+   "baslik": "iNaturalist gözlem 360257990 (Zamenis longissimus)",
+   "sayfa": "https://www.inaturalist.org/observations/360257990",
+   "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Kırklareli Merkez/Kırklareli, Türkiye"
+  }
+ ]
+}
