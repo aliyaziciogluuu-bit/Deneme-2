@@ -12,3 +12,4 @@
 - Metin editörü ön denetim (Tur 2, 23 Kasım): **ONAY (ön)**. Tahmini puan: kanca 8, anlatim 8, baslik 8, shorts 8 (Tur 1: 7, 7, 7, 6). Patron uyguladı: "Çoğu yılan" tekrarı, kapak B alt yazı "Dişler tutmaya göre".
 - Seslendirme başladı (23 Kasım).
 - Görsel denetçi (23 Kasım): 38 adaydan 9 sahne KABUL (duvar_yilan, inek_yakin, ahir_kapi, ahir_sicak, ahira_giren, kapanis, kirsal_ev, koy_sabahi, yilanli_kale); 13 sahne RET (istenmeyen yılan, yarık göz bebeği, yazı izi). Patron: kapak A ve B gerçek Eskülap yılanı fotoğrafı (iNaturalist, Türkiye), dosya_pano ve yilan_yakin çıkarıldı, 9 görsel düzeltilmiş istemle yeniden üretiliyor (~1,1 $).
+- Görsel denetçi (Tur 2): 18 adaydan 2 KABUL (yilan_fare_1, tas_ici_sut_2); "no snake" istemi yılan çizdirdi. Patron (Tur 3): yılan kelimesi geçmeyen sade istemlerle 5 sahne; kapak_c=2, buzagi_inek=1, inek_sagim=2, bos_kova=1, ahir_inek=1 seçildi (patron incelemesi, yılan yok). veteriner ve doktor_el çıkarıldı.

@@ -264,5 +264,166 @@
   "hata": 0,
   "sure": 4.36,
   "uygun": true
+ },
+ "038": {
+  "yazi": "Dördüncü şüpheli gözle görülmüyor: meme enfeksiyonu.",
+  "duyulan": "Dördüncü şüpheli gözle görülmüyor, meme infeksiyonu.",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Adı mastitis; süt ineklerinde en yaygın hastalık olarak geçiyor.",
+  "duyulan": "Adı mastitis, süt ineklerinde en yaygın hastalık olarak geçiyor.",
+  "hata": 0,
+  "sure": 4.16,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Bu enfeksiyonda süt salgılayan doku zarar görüyor, süt miktarı ve kalitesi düşüyor.",
+  "duyulan": "Bu enfeksyonda süt salgılayan doku zarar görüyor, süt miktarı ve kalitesi düşüyor.",
+  "hata": 1,
+  "sure": 4.6,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Bize göre sütü birden azalan ineği önce veterinere göster.",
+  "duyulan": "Bize göre sütü birden azalan ineyi önce veterinere göster.",
+  "hata": 1,
+  "sure": 3.42,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Peki ahır çok sıcaksa ya da inek tedirginse?",
+  "duyulan": "Peki ahı çok sıcaksa ya da inek tedirginse?",
+  "hata": 1,
+  "sure": 2.84,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Almanya'da yapılan bir çalışmada, sıcak stresi yaşanan bölgelerde süt veriminin anlamlı biçimde düştüğü görülmüş.",
+  "duyulan": "Almanya'da yapılan bir çalışmada sıcak stresi yaşanan bölgelerde süt veriminin anlamlı biçimde düştüğü görülmüş.",
+  "hata": 0,
+  "sure": 6.32,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Stresten çabuk etkilenen ineklerde süt miktarının ve kalitesinin olumsuz etkilenebileceği de bildiriliyor.",
+  "duyulan": "stresten çabuk etkilenen ineklerde süt miktarının ve kalitesinin olumsuz etkilenebileceği de bildiriliyor.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Son şüpheli bizden biri: ahıra giren insan.",
+  "duyulan": "Son şüpheli bizden biri, ahıra giren insan.",
+  "hata": 0,
+  "sure": 2.9,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Bir derlemeye göre ineklere kötü davranılması süt verimini bastırabiliyor.",
+  "duyulan": "bir derlemeye göre ineklere kötü davranılması süt verimini bastırabiliyor.",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Aynı derleme, kötü davranan birinin yanında sağılan ineklerde memede daha çok süt kaldığını aktarıyor.",
+  "duyulan": "Aynı derleme kötü davranan birinin yanında sağılan ineklerde Mehmet'e daha çok süt kaldığını aktarıyor.",
+  "hata": 1,
+  "sure": 5.54,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Ahırda gerçekten bir yılan görürsen ne yapmalısın?",
+  "duyulan": "Ahırda gerçekten bir yılan görürsen ne yapmalısın?",
+  "hata": 0,
+  "sure": 2.82,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Çoğu yılan zehirsiz, ama güçlü zehirli olanlar da var; hangisi olduğunu yaklaşarak anlamaya çalışma.",
+  "duyulan": "Çoğu yılan zehirsiz. Ama güçlü zehirli olanlar da var. Hangisi olduğunu yaklaşarak anlamaya çalışma.",
+  "hata": 0,
+  "sure": 6.0,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Yılanların çoğu korkutulmadıkça ya da yaralanmadıkça insandan kaçınıyor; bize göre mesafeni koru, elle yakalamaya çalışma.",
+  "duyulan": "Yılanların çoğu korkutulmadıkça ya da yaralanmadıkça insandan kaçınıyor. Bize göre mesafeni koru, elle yakalamaya çalışma.",
+  "hata": 0,
+  "sure": 7.4,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Zehirsiz yılanın ısırığında da enfeksiyon ihtimali var; karar vermek bize düşmez, hemen sağlık kuruluşuna başvur.",
+  "duyulan": "Zehirsiz yılanın ısırığında da enfeksiyon ihtimali var. Karar vermek bize düşmez, hemen sağlık kuruluşuna başvur.",
+  "hata": 0,
+  "sure": 6.06,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Sakin kal, ısırılan yeri oynatma, sıkan yüzük ve bileziği çıkar; yarayı kesme, emme ya da sıkı bağlama.",
+  "duyulan": "Sakin kal, ısırılan yere oynatma, sıkan yüzük ve bileziği çıkar, yarayı kesme, emme ya da sıkı bağlama.",
+  "hata": 1,
+  "sure": 7.14,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "İnek ya da başka bir hayvan ısırıldıysa veterinere danış.",
+  "duyulan": "inek ya da başka bir hayvanı sırıldıysa veterinere danış.",
+  "hata": 0,
+  "sure": 3.1,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Yılanla ne yapacağını bilemiyorsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "yılanla ne yapacağını bilemiyorsan, bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Özetle: kaynaklar süt yılanının ahırda fare aradığını söylüyor; ineği sağdığını gösteren bir yazıya rastlamadık.",
+  "duyulan": "Özetle kaynaklar, süt yalanının ahırda fare aradığını söylüyor. İneyi sardığını gösteren bir yazıya rastlamadık.",
+  "hata": 3,
+  "sure": 6.54,
+  "uygun": false
+ },
+ "056": {
+  "yazi": "Boş memenin nedeni buzağı, meme enfeksiyonu, sıcak, stres ya da insan davranışı olabilir.",
+  "duyulan": "Boş memenin nedeni buzağa, meme enfeksiyonu, sıcak, stres ya da insan davranışı olabilir.",
+  "hata": 1,
+  "sure": 6.14,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Senin köyünde yılan ve inek hakkında neler anlatılır?",
+  "duyulan": "Senin köyünde yılan ve inek hakkında neler anlatılır?",
+  "hata": 0,
+  "sure": 2.78,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "hata": 0,
+  "sure": 5.08,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Sıradaki komşu: engerek sanılan yılanlar; senin gördüğün yılan gerçekten engerek miydi?",
+  "duyulan": "Sıradaki komşu, engerek sanılan yalanlar. Senin gördüğün yılan gerçekten engerek miydi?",
+  "hata": 1,
+  "sure": 5.52,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Komşunu tanı.",
+  "duyulan": "Komşunu tanı.",
+  "hata": 0,
+  "sure": 0.74,
+  "uygun": true
  }
 }

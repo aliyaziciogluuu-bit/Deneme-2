@@ -31,7 +31,8 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 | 22 Kas | 06 karga cümle 22–23 + 03–06 s3 Shorts seslendirmeleri | – | – | ~0,2 $ | ~0,2 $ | |
 | 22 Kas | 08 kara kurbağası kalite kontrol düzeltmeleri | ~0,12 $ (3 Kontext: benek silme) | – | ~0,05 $ (5 cümle denemesi) | ~0,2 $ | gerçek yeşil benekli kurbağa fotoğrafı ücretsiz (iNaturalist); video toplamı ≈ 4,5 $ |
 | 23 Kas | 09 yılan–inek görselleri | ~2,28 $ (38 aday; ~0,6 $ gerçek fotoğraf yer tutucularına boşa gitti, araç düzeltildi) | – | (seslendirme sürüyor) | ~2,3 $ | 5 gerçek fotoğraf ücretsiz (iNaturalist) |
-| | **Kasım toplamı** | | | | **~51,2 $** | aylık bütçe 60 $ |
+| 23 Kas | 09 yılan–inek görsel 2. ve 3. tur | ~1,08 $ (18 aday, 2 KABUL) + ~0,60 $ (10 aday, 5 KABUL) | – | – | ~1,7 $ | 'no snake' istemi yılan çizdirdi; kelime çıkarılınca düzeldi |
+| | **Kasım toplamı** | | | | **~52,9 $** | aylık bütçe 60 $ |
 
 ## Aralık 2026 planı (kanal sahibi: haftada 3 video, 60 $)
 - 14 yayın günü (salı, perşembe, cumartesi): karga ve kırlangıç hazır, 12 yeni video.

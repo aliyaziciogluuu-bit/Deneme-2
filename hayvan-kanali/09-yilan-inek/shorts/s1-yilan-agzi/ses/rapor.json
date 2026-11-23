@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Yılanın ağzı avı koparmaya değil, bütün yutmaya göre.",
+  "duyulan": "Yılanın ağzı avı koparmaya değil, bütün yutmaya göre.",
+  "hata": 0,
+  "sure": 3.64,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Zehirsiz yılanın dişleri yırtmaya değil, tutup kavramaya uygun.",
+  "duyulan": "Zehirsiz yılanın dişleri yırtmaya değil, tutup kavramaya uygun.",
+  "hata": 0,
+  "sure": 3.66,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
+  "duyulan": "Amerika'da süt yılanı denen bir türe de aynı hikaye yakıştırılmış.",
+  "hata": 0,
+  "sure": 3.76,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bir kaynağa göre bu yılan, ineğin memesinden süt emecek yapıda değil.",
+  "duyulan": "bir kaynağa göre bu yılan ineyinmemesinden süt emecek yapıda değil.",
+  "hata": 2,
+  "sure": 3.7,
+  "uygun": false
+ },
+ "004": {
+  "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık.",
+  "duyulan": "Türkiye'deki yılanlardan birinin Mehmet'en süt emdiğini gösteren bir yazıya rastlamadık.",
+  "hata": 1,
+  "sure": 4.3,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma; ısırıldıysan hemen sağlık kuruluşuna başvur.",
+  "duyulan": "Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma, ısırıldıysan hemen sağlık kuruluşuna başvur.",
+  "hata": 0,
+  "sure": 6.26,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.3,
+  "uygun": true
+ }
+}
