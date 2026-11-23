@@ -29,6 +29,7 @@ Her denetçi kendi ölçütlerini 0–10 arası puanlar; ağırlıklı toplam 10
 | 06-karga | 3 | 2026-11-19 | 8.0 | 9.0 | 9.0 | 9.0 | 8.0 | 8.0 | 7.0 | 8.0 | 8.0 | **83.0** | TESLİM |
 | 07-kirlangic | 1 | 2026-11-20 | 9.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 10.0 | **83.0** | TESLİM |
 | 08-kara-kurbagasi | 1 | 2026-11-22 | 8.0 | 8.0 | 8.0 | 9.0 | 9.0 | 8.0 | 8.0 | 8.0 | 10.0 | **83.0** | TESLİM |
+| 09-yilan-inek | 1 | 2026-11-23 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 | 9.0 | **80.5** | TESLİM |
 
 ## Gerçek performans (yayından sonra)
 
@@ -44,27 +45,27 @@ Puanın işe yarayıp yaramadığını burada görürüz: kanca puanı yüksek v
 
 | Çalışan | Video sayısı | İlk tur ortalaması (kendi ölçütleri, 10 üzerinden) | İlk turda RET/DÜZELTME |
 |---|---|---|---|
-| senarist | 7 | 7.9 | 2 |
-| paketleme uzmanı | 7 | 7.6 | 1 |
-| Shorts uzmanı | 7 | 7.1 | 2 |
-| yapımcı | 7 | 7.4 | 1 |
-| patron | 7 | 8.4 | 0 |
+| senarist | 8 | 7.9 | 2 |
+| paketleme uzmanı | 8 | 7.6 | 1 |
+| Shorts uzmanı | 8 | 7.2 | 2 |
+| yapımcı | 8 | 7.5 | 1 |
+| patron | 8 | 8.4 | 0 |
 
 ## Ölçüt eğilimi (ilk tur → son tur, videolar tarih sırasıyla)
 
 Hedef: her ölçütte ilk turda 9. Bir ölçüt yerinde sayıyorsa dersler defterindeki "Puandan dersler" satırı sertleştirilir.
 
-| Ölçüt | 02-ev-kertenkelesi | 03-kirpi | 04-yarasa | 05-baykus | 06-karga | 07-kirlangic | 08-kara-kurbagasi |
-|---|---|---|---|---|---|---|---|
-| Doğruluk ve kaynak | 6 → 8 | 9 | 8 | 6 → 9 | 8 | 9 | 8 |
-| Güvenlik ve çekinceler | 7 → 8 | 9 | 8 | 5 → 9 | 9 | 8 | 8 |
-| Giriş ve izleyici tutma | 6 → 8 | 8 | 8 | 7 → 8 | 9 | 8 | 8 |
-| Anlatım ve Türkçe | 8 | 8 | 8 | 8 | 9 | 8 | 9 |
-| Başlık, küçük resim, açıklama | 6 → 8 | 8 | 7 → 8 | 7 → 8 | 8 | 8 | 9 |
-| Shorts kancası | 6 → 7 | 8 | 7 → 8 | 5 → 8 | 8 | 8 | 8 |
-| Seslendirme ve ses | 8 | 8 | 8 | 8 → 9 | 7 | 8 | 8 |
-| Görsel, anatomi, kadraj | 7 → 8 | 8 | 7 → 8 | 6 → 8 | 8 | 8 | 8 |
-| Testler ve teslim | 9 | 9 | 8 → 9 | 8 | 8 | 10 | 10 |
+| Ölçüt | 02-ev-kertenkelesi | 03-kirpi | 04-yarasa | 05-baykus | 06-karga | 07-kirlangic | 08-kara-kurbagasi | 09-yilan-inek |
+|---|---|---|---|---|---|---|---|---|
+| Doğruluk ve kaynak | 6 → 8 | 9 | 8 | 6 → 9 | 8 | 9 | 8 | 8 |
+| Güvenlik ve çekinceler | 7 → 8 | 9 | 8 | 5 → 9 | 9 | 8 | 8 | 8 |
+| Giriş ve izleyici tutma | 6 → 8 | 8 | 8 | 7 → 8 | 9 | 8 | 8 | 8 |
+| Anlatım ve Türkçe | 8 | 8 | 8 | 8 | 9 | 8 | 9 | 8 |
+| Başlık, küçük resim, açıklama | 6 → 8 | 8 | 7 → 8 | 7 → 8 | 8 | 8 | 9 | 8 |
+| Shorts kancası | 6 → 7 | 8 | 7 → 8 | 5 → 8 | 8 | 8 | 8 | 8 |
+| Seslendirme ve ses | 8 | 8 | 8 | 8 → 9 | 7 | 8 | 8 | 8 |
+| Görsel, anatomi, kadraj | 7 → 8 | 8 | 7 → 8 | 6 → 8 | 8 | 8 | 8 | 8 |
+| Testler ve teslim | 9 | 9 | 8 → 9 | 8 | 8 | 10 | 10 | 9 |
 
 ## Denetçilerin kaçırdığı hatalar
 

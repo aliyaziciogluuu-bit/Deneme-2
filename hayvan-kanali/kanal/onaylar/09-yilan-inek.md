@@ -20,3 +20,4 @@
 - Metin editörü son denetim (23 Kasım): **ONAY**. Puan: kanca 8, anlatim 8, baslik 8, shorts 8.
 - Kalite kontrol (Tur 1, 23 Kasım): **RET**. Puan: ses 8, gorsel 6, teknik 8. Gerekçeler: kapak_C yazısı ineğin burnuna yakın (TEKRARLANAN KUSUR, baykuş dersi), s2'de yılan başı kadrajdan çıkıyor, s2 ilk kare karanlık; açıklama 4.995/5.000.
 - Düzeltme: kapak_c görseli sola genişletildi, yazı daraltıldı; s2 ilk ve 4. kare gündüz çekilmiş gerçek kirpi (iNaturalist), yılan sahnesi sabit görsel; açıklama kısaltıldı.
+- Kalite kontrol (Tur 2, 23 Kasım): **ONAY**. Puan: ses 8, gorsel 8 (Tur 1: 6), teknik 9.
