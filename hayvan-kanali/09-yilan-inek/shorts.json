@@ -52,15 +52,20 @@
         },
         {
           "yazi": "Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma; ısırıldıysan hemen sağlık kuruluşuna başvur.",
-          "gorsel": "ahir_kapi",
-          "x": 0.62
+          "gorsel": "gercek_sari_yilan",
+          "x": 0.5,
+          "aw": 0.5,
+          "ay": 0.72,
+          "w": 0.45,
+          "y": 0.72,
+          "etiket": "Sarı yılan, Türkiye"
         },
         {
           "yazi": "Tam videosu kanalımızda.",
           "gorsel": "kapanis",
-          "x": 0.75,
+          "x": 0.52,
           "klip": "kapanis",
-          "kx": 0.8
+          "kx": 0.53
         }
       ]
     },
@@ -84,7 +89,7 @@
         {
           "yazi": "Kirpi ineğin sütünü emer sanılmış.",
           "gorsel": "gercek_kirpi",
-          "x": 0.25,
+          "x": 0.2,
           "aw": 0.5,
           "ay": 0.6,
           "etiket": "Kirpi, Türkiye"
@@ -102,7 +107,7 @@
         {
           "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok.",
           "gorsel": "gercek_kirpi",
-          "x": 0.22,
+          "x": 0.2,
           "aw": 0.55,
           "ay": 0.6,
           "etiket": "Kirpi, Türkiye"
@@ -118,14 +123,14 @@
           "gorsel": "yilan_fare",
           "x": 0.45,
           "klip": "yilan_fare",
-          "kx": 0.35
+          "kx": 0.5
         },
         {
           "yazi": "Tam videosu kanalımızda.",
           "gorsel": "kapanis",
-          "x": 0.75,
+          "x": 0.52,
           "klip": "kapanis",
-          "kx": 0.8
+          "kx": 0.53
         }
       ]
     },
@@ -149,9 +154,9 @@
         {
           "yazi": "Sabah boş görünen memenin sorumlusu yılan değil, buzağı olabilir.",
           "gorsel": "buzagi_inek",
-          "x": 0.42,
+          "x": 0.5,
           "klip": "buzagi",
-          "kx": 0.4
+          "kx": 0.5
         },
         {
           "yazi": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
@@ -161,7 +166,7 @@
         {
           "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
           "gorsel": "buzagi_inek",
-          "x": 0.3
+          "x": 0.66
         },
         {
           "yazi": "Araştırmacılar bunu yalnızca buzağının içtiği sütle açıklayamamış.",
@@ -181,9 +186,9 @@
         {
           "yazi": "Tam videosu kanalımızda.",
           "gorsel": "kapanis",
-          "x": 0.75,
+          "x": 0.52,
           "klip": "kapanis",
-          "kx": 0.8
+          "kx": 0.53
         }
       ]
     }

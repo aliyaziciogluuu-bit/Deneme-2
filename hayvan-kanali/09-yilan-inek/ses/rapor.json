@@ -78,10 +78,11 @@
  },
  "011": {
   "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inandığını yazıyor.",
-  "duyulan": "Bir kaynak bazı İngiliz köylülerinin 19. yüzyıla kadar kirpinin ineyinmemesinden süt emdiğine inandığını yazıyor.",
-  "hata": 3,
-  "sure": 7.52,
-  "uygun": false
+  "duyulan": "Bir kaynak bazı İngiliz köylülerinin 19. yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inandığını yazıyor.",
+  "hata": 1,
+  "sure": 7.74,
+  "uygun": false,
+  "tek_basina": true
  },
  "012": {
   "yazi": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor.",
