@@ -1,0 +1,206 @@
+ 
+ Semender - Vikipedi 
+ İçeriğe atla 
+ Ana menü 
+ Ana menü 
+ kenar çubuğuna taşı 
+ gizle 
+ Dolaşım
+ Anasayfa Hakkımızda İçindekiler Rastgele madde Seçkin içerik Yakınımdakiler 
+ Katılım
+ Deneme tahtası Köy çeşmesi Son değişiklikler Dosya yükle Topluluk portali Wikimedia dükkânı Yardım Özel sayfalar 
+ Ara 
+ Ara 
+ Görünüm 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ Kişisel araçlar 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ İçindekiler 
+ kenar çubuğuna taşı 
+ gizle 
+ Giriş 
+ 1 
+ Sistematik 
+ 2 
+ Türkiye'deki türleri 
+ 3 
+ Kaynakça 
+ 4 
+ Dış bağlantılar 
+ İçindekiler tablosunu değiştir 
+ Semender 
+ 93 dil 
+ Afrikaans Aragonés العربية مصرى Asturianu Azərbaycanca Basa Bali Batak Toba Беларуская (тарашкевіца) Беларуская Български Brezhoneg Català Cebuano کوردی Čeština Чӑвашла Cymraeg Dansk Deutsch Ελληνικά English Esperanto Español Eesti Euskara فارسی Suomi Français Arpetan Nordfriisk Gaeilge Galego עברית हिन्दी Hrvatski Magyar Հայերեն Bahasa Indonesia Ido Íslenska Italiano 日本語 ქართული Taqbaylit Қазақша 한국어 Kernowek Кыргызча Latina ລາວ Lietuvių Latviešu Македонски മലയാളം Bahasa Melayu မြန်မာဘာသာ Nederlands Norsk nynorsk Norsk bokmål Diné bizaad Occitan Ирон ਪੰਜਾਬੀ Polski پنجابی Português Runa Simi Română Русский Scots سنڌي Srpskohrvatski / српскохрватски Simple English Slovenčina Slovenščina Shqip Српски / srpski Svenska Kiswahili தமிழ் ไทย Tagalog Українська Oʻzbekcha / ўзбекча Tiếng Việt West-Vlams Walon Winaray 吴语 閩南語 / Bân-lâm-gí 粵語 中文 
+ Bağlantıları değiştir 
+ Madde 
+ Tartışma 
+ Türkçe 
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Araçlar 
+ Araçlar 
+ kenar çubuğuna taşı 
+ gizle 
+ Eylemler
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Genel
+ Sayfaya bağlantılar İlgili değişiklikler Kalıcı bağlantı Sayfa bilgisi Bu sayfayı kaynak göster Kısaltılmış URL'yi al Eski ayrıştırıcıya geç 
+ Yazdır/dışa aktar
+ Bir kitap oluştur PDF olarak indir Basılmaya uygun görünüm 
+ Diğer projelerde
+ Wikimedia Commons Vikitür Vikiveri ögesi 
+ Görünüm 
+ kenar çubuğuna taşı 
+ gizle 
+ Vikipedi, özgür ansiklopedi 
+ {{Akademik dergi kaynağı|doi=10.1073/pnas.1202491109|başlık=Fossils, molecules, divergence times, and the origin of Salamandroidea|dergi=Proceedings of the National Academy of Sciences|cilt=109|sayı=15|sayfalar=5557-5558|yıl=2012|soyadı1=Anderson|ad1=J. S.|pmid=22460794|pmc=3326514|bibcode=2012PNAS..109.5557A}}</ref>"},"resim":{"wt":"Salamandra salamandra (Marek Szczepanek).jpg"},"resim_bilgi":{"wt":"[[Lekeli semender]] (''Salamandra salamandra'')"},"takson":{"wt":"Urodela"},"sıralama":{"wt":"[[André Marie Constant Duméril|Duméril]], 1806"},"sinonim":{"wt":"Urodela [[Pierre André Latreille|Latreille]], 1825"},"altbaşlık":{"wt":"[[Familya]]lar"},"açıklama":{"wt":"Metne bakınız."},"resim2":{"wt":"SpottedSalamander.jpg"},"resim2_altyazı":{"wt":"''Ambystoma maculatum''"},"aralık_haritası":{"wt":"Cypron-Range Caudata.svg"},"aralık_haritası_altyazı":{"wt":"Semenderlerin dağılım haritası"},"altbölüm_sıra":{"wt":"Alttakımlar"},"altbölüm":{"wt":"* [[Cryptobranchoidea]]\n* [[Salamandroidea]]"}},"i":0}}]}'> Caudata Yaşadığı dönem aralığı: 160-0   myö Üst Jura - Günümüz [ 1 ] PreꞒ Ꞓ O S D C P T J K Pg N 
+ Lekeli semender ( Salamandra salamandra ) Ambystoma maculatum Biyolojik sınıflandırma 
+ Âlem: 
+ Animalia 
+ Şube: 
+ Chordata 
+ Sınıf: 
+ Amphibia 
+ Klad : 
+ Caudata 
+ Takım: 
+ Urodela Duméril , 1806 
+ Alttakımlar 
+ Cryptobranchoidea 
+ Salamandroidea 
+ Semenderlerin dağılım haritası 
+ Kuyruklu kurbağalar ya da Semenderler ( Caudata ya da Urodela ), iki yaşamlılar sınıfından yaklaşık 500 türünün ortak adıdır. Vücutları uzunlamasınadır ve uzun kuyrukludurlar. 
+ Nesli tükenmemiş olanlar Urodela olarak gruplandırılırken, bilinen tüm fosil kalıntıları ve nesli tükenmiş türleri ile beraber Caudata adı altında gruplandırılırlar. 
+ Sistematik [ değiştir | kaynağı değiştir ] 
+ Alt takım   : Cryptobranchoidea 
+ Familya   : Cryptobranchidae 
+ Familya   : Hynobiidae 
+ Alt takım   : Salamandroidea 
+ Familya   : Ambystomatidae 
+ Familya   : Amphiumidae 
+ Familya   : Dicamptodontidae 
+ Familya   : Plethodontidae 
+ Familya   : Proteidae 
+ Familya   : Rhyacotritonidae 
+ Familya   : Salamandridae 
+ Alt takım   : Sirenoidea 
+ Familya   : Sirenidae 
+ Cins   : Siren 
+ Cins   : Pseudobranchus 
+ Türkiye'deki türleri [ değiştir | kaynağı değiştir ] 
+ Ana madde: Türkiye amfibyumlar listesi 
+ Türkiye'de semenderlerin tek bir familyada ( Salamandridae ) toplanan 17 türü bulunur. [ 2 ] 
+ Türk semenderi [ 3 ] ( Salamandra infraimmaculata ) 
+ Kafkas semenderi [ 4 ] ( Mertensiella caucasica ) 
+ Şeritli semender [ 5 ] ( Ommatotriton vittatus ) 
+ Kuzey şeritli semenderi [ 6 ] ( Ommatotriton ophryticus ) 
+ Pürtüklü semender [ 7 ] ( Triturus karelinii ) 
+ Küçük semender [ 8 ] ( Lissotriton vulgaris ) 
+ Urmiye semenderi [ 9 ] ( Neurergus crocatus ) 
+ Benekli semender [ 10 ] ( Neurergus strauchii barani ) 
+ Kara semenderi [ 11 ] ( Lyciaslamandra luschani ) 
+ Lyciasalamandra luschani basoglui 
+ Lyciasalamandra luschani finikensis 
+ Lyciasalamandra luschani luschani 
+ Fazıla kara semenderi [ 12 ] ( Lyciasalamandra fazilae ) 
+ Marmaris semenderi [ 13 ] ( Lyciasalamandra flavimembris ) 
+ Sarıçınar semenderi ya da Beldibi semenderi [ 14 ] ( Lyciasalamandra billae ) 
+ Antalya semenderi [ 15 ] ( Lyciasalamandra antalyana ) 
+ Alanya semenderi [ 16 ] ( Lyciasalamandra atifi ) 
+ Göynük semenderi [ 17 ] ( Lyciasalamandra irfani ) keşif tarihi: 2011 [ 17 ] 
+ Ulupınar semenderi [ 18 ] ( Lyciasalamandra arikani ) keşif tarihi: 2012 [ 18 ] 
+ Kemer semenderi [ 19 ] ( Lyciasalamandra yehudahi ) keşif tarihi: 2012 [ 19 ] 
+ Kaynakça [ değiştir | kaynağı değiştir ] 
+ ↑ Anderson, J. S. (2012). "Fossils, molecules, divergence times, and the origin of Salamandroidea" . Proceedings of the National Academy of Sciences . 109 (15): 5557-5558. Bibcode : 2012PNAS..109.5557A . doi : 10.1073/pnas.1202491109 . PMC   3326514   . PMID   22460794 .   
+ ↑ "Kuyruklu Kurbağalar (Semenderler)   (URODELA) [ AdaMerOs: Türkiye Kurbağa ve Sürüngenleri Gözlemciliği ve Fotoğrafçılığı Topluluğu - The Frogs and Reptiles Monitoring & Photography Society of Turkey ] " . turkherptil.org . 26 Kasım 2012. 26 Kasım 2012 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Türk Semenderi   /   Turkish/Near Eastern Fire Salamander   (Salamandra   infraimmaculata) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 5 Mart 2016. 5 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Kafkas Semenderi   /   Caucasian salamander   (Mertensiella   caucasica) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 6 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Şeritli semender   /   Southern Banded Newt   (Ommatotriton   vittatus) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 4 Mart 2016. 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Kuzeydogu şeritli Semenderi   /   North-eastern Banded Newt   (Ommatotriton   ophryticus) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Balkan-Anadolu Pürtüklü Semenderi   /   Balkan-Anatolian Crested Newt   (Triturus   ivanbureschi) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 5 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Küçük semender   /   The Smooth Newt   (Lissotriton   vulgaris) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 4 Mart 2016. 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Urmiye Semenderi   /   Urmia Newt   (Neurergus   crocatus ) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 5 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Anadolu Benekli Semenderi   /   Anatolian (Strauch's) Spotted Newt   (Neurergus   strauchii ) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Kara Semenderi, Luschan'ın Likya Semenderi,   /   Luschan's Lycian Salamander   (Lyciasalamandra   luschani) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 4 Mart 2016. 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Fazıla'nın Likya Semenderi   /   Fazıla's (Gokceovacik) Lycian Salamander   (Lyciasalamandra   fazilae) @ AdaMerOs Herptil Turkiye" . turkherptil.org . 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Marmaris Semenderi   /   Marmaris Salamander   (Lyciasalamandra   flavimembris) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 29 Mayıs 2012 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Bille'nin Likya Semenderi, Beldibi Semenderi   /   Bille's Lycian Salamander, Beldibi Salamander   (Lyciasalamandra   billae) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 5 Mart 2016. 5 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Antalya Semenderi   /   Antalya Salamander   (Lyciasalamandra   antalyana) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 5 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ ↑ "Atıf'ınn Likya Semenderi   /   Atıf's Lycian Salamander   (Lyciasalamandra   atifi ) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ 1 2 "Göynük Semenderi, İrfan'ın Likya Semenderi   /   Goynuk Salamander, Irfan's Lycian Salamander   (Lyciasalamandra   billae irfani) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 4 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ 1 2 "Arıkan'ın Likya Semenderi   /   Arikan's Lycian Salamander   (Lyciasalamandra   billae arikani) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 5 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ 1 2 "Kemer Semenderi, Yehudah'ın Semenderi   /   Kemer Salamander, Yehudah's Salamander   (Lyciasalamandra   billae yehudahi) @ AdaMerOs Herptil Türkiye" . turkherptil.org . 5 Mart 2016 tarihinde kaynağından arşivlendi . Erişim tarihi: 21 Ağustos 2021 .   
+ Dış bağlantılar [ değiştir | kaynağı değiştir ] 
+ Wikimedia Commons 'ta Semender ile ilgili çoklu ortam belgeleri bulunur. 
+ Vikitür 'de Semender ile ilgili ayrıntılı taksonomik bilgiler bulunur. 
+ g t d Caudata familyası alttakımları 
+ Alem Animalia 
+ Şube Chordata 
+ Altşube Craniata 
+ Üstsınıf Tetrapod 
+ Sınıf Amphibia 
+ Cryptobranchoidea 
+ Cryptobranchidae 
+ Hynobiidae 
+ Salamandroidea 
+ Ambystomatidae 
+ Amphiumidae 
+ Plethodontidae 
+ Proteidae 
+ Rhyacotritonidae 
+ Salamandridae 
+ Sirenoidea 
+ Sirenidae 
+ Takson belirleyicileri 
+ Vikiveri : Q53663 
+ ADW : Caudata 
+ ASW : Caudata 
+ BOLD: 222 
+ EoL : 7518 
+ EPPO : 1URODO 
+ Fossilworks : 53229 
+ GBIF : 953 
+ iNaturalist : 26718 
+ IRMNG : 12453 
+ ITIS : 173584 
+ NBN : NHMSYS0000375305 
+ NCBI : 8293 
+ Plazi : 25228795-3106-FFD2-A49C-FE6B580BBAFB 
+ WoRMS : 1035194 
+ Otorite kontrolü 
+ Britannica : animal/Caudata 
+ GND : 4053740-7 
+ NDL : 00574388 
+ NKC : ph115329 
+ " https://tr.wikipedia.org/w/index.php?title=Semender&oldid=35645428 " sayfasından alınmıştır 
+ Kategoriler : Semenderler André Marie Constant Duméril tarafından adlandırılmış taksonlar Gizli kategoriler: Yinelenen şablon değişkenleri kullanan sayfalar Vikiveri'de aralık haritası bulunan taksonkutular Hem Vikiveri'de hem de Vikipedi'de aralık haritası bulunan taksonkutular Britannica tanımlayıcısı olan Vikipedi maddeleri GND tanımlayıcısı olan Vikipedi maddeleri NDL tanımlayıcısı olan Vikipedi maddeleri NKC tanımlayıcısı olan Vikipedi maddeleri 
+ Sayfa en son 23.52, 8 Temmuz 2025 tarihinde değiştirildi. 
+ Sayfa Parsoid ile işlendi. 
+ Metin Creative Commons Atıf-AynıLisanslaPaylaş Lisansı altındadır ve ek koşullar uygulanabilir. Bu siteyi kullanarak Kullanım Şartlarını ve Gizlilik Politikasını kabul etmiş olursunuz. Vikipedi® (ve Wikipedia®) kâr amacı gütmeyen kuruluş olan Wikimedia Foundation, Inc. tescilli markasıdır. 
+ Gizlilik politikası 
+ Vikipedi hakkında 
+ Sorumluluk reddi 
+ Hukuk & Güvenlik İletişim Noktaları 
+ Davranış Kuralları 
+ Geliştiriciler 
+ İstatistikler 
+ Çerez politikası 
+ Mobil görünüm 
+ Ara 
+ Ara 
+ İçindekiler tablosunu değiştir 
+ Semender 
+ 93 dil 
+ Konu ekle 
+ 

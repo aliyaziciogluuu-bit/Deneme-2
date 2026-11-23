@@ -1,0 +1,139 @@
+ 
+ Salamandra - Vikipedi 
+ İçeriğe atla 
+ Ana menü 
+ Ana menü 
+ kenar çubuğuna taşı 
+ gizle 
+ Dolaşım
+ Anasayfa Hakkımızda İçindekiler Rastgele madde Seçkin içerik Yakınımdakiler 
+ Katılım
+ Deneme tahtası Köy çeşmesi Son değişiklikler Dosya yükle Topluluk portali Wikimedia dükkânı Yardım Özel sayfalar 
+ Ara 
+ Ara 
+ Görünüm 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ Kişisel araçlar 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ İçindekiler 
+ kenar çubuğuna taşı 
+ gizle 
+ Giriş 
+ 1 
+ Alt türleri 
+ 2 
+ Dış bağlantılar 
+ 3 
+ Kaynakça 
+ İçindekiler tablosunu değiştir 
+ Salamandra 
+ 41 dil 
+ العربية مصرى Български Brezhoneg Català Cebuano Čeština Чӑвашла Deutsch Emiliàn e rumagnòl English Esperanto Español Eesti Euskara فارسی Suomi Français Galego עברית Italiano 日本語 Қазақша 한국어 Latina Latviešu Nederlands Diné bizaad Ирон Polski Português Русский Scots Српски / srpski Svenska தமிழ் Українська Tiếng Việt West-Vlams Winaray 中文 
+ Bağlantıları değiştir 
+ Madde 
+ Tartışma 
+ Türkçe 
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Araçlar 
+ Araçlar 
+ kenar çubuğuna taşı 
+ gizle 
+ Eylemler
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Genel
+ Sayfaya bağlantılar İlgili değişiklikler Kalıcı bağlantı Sayfa bilgisi Bu sayfayı kaynak göster Kısaltılmış URL'yi al Eski ayrıştırıcıya geç 
+ Yazdır/dışa aktar
+ Bir kitap oluştur PDF olarak indir Basılmaya uygun görünüm 
+ Diğer projelerde
+ Wikimedia Commons Vikitür Vikiveri ögesi 
+ Görünüm 
+ kenar çubuğuna taşı 
+ gizle 
+ Vikipedi, özgür ansiklopedi 
+ {{Web kaynağı |url=http://fossilworks.org/bridge.pl?a=taxonInfo&taxon_no=37407 |başlık=Fossilworks |erişimtarihi=21 Ağustos 2021 |arşivurl=https://web.archive.org/web/20210925221426/http://fossilworks.org/bridge.pl?a=taxonInfo&taxon_no=37407 |arşivtarihi=25 Eylül 2021 |ölüurl=hayır }}</ref>"},"resim":{"wt":"Salamandra atra.jpg"},"resim_bilgi":{"wt":"''[[Salamandra atra]]''"},"takson":{"wt":"Salamandra"},"sıralama":{"wt":"[[Josephus Nicolaus Laurenti|Laurenti]], 1768"}},"i":0}}]}'> Salamandra Paleosen–0 PreꞒ Ꞓ O S D C P T J K Pg N 
+ Salamandra atra Biyolojik sınıflandırma 
+ Âlem: 
+ Animalia 
+ Şube: 
+ Chordata 
+ Sınıf: 
+ Amphibia 
+ Familya: 
+ Salamandridae 
+ Alt familya: 
+ Salamandrinae 
+ Cins: 
+ Salamandra Laurenti , 1768 [ 1 ] 
+ Salamandra , Salamandridae familyasından , Güney Avrupa Kuzey Afrika ve Batı Asya 'da yaşayan, 6 türü bulunan bir semender cinsi. 
+ Alt türleri [ değiştir | kaynağı değiştir ] 
+ Resim Bilimsel ad 
+ Salamandra algira Bedriaga, 1883 
+ Salamandra atra Laurenti, 1768 
+ Salamandra corsica Savi, 1838 
+ Salamandra infraimmaculata Martens, 1885 
+ Salamandra lanzai Nascetti, Andreone, Capula et Bullini, 1988 
+ Salamandra longirostris Joger and Steinfartz, 1994 
+ Salamandra salamandra (Linnaeus, 1758) 
+ Dış bağlantılar [ değiştir | kaynağı değiştir ] 
+ Salamandra 4 Mart 2016 tarihinde Wayback Machine sitesinde arşivlendi . at Fauna Europaea 
+ " Salamandra Laurenti, 1768" . Bütünleştirilmiş Taksonomik Bilgi Sistemi .   
+ Salamandra 15 Mayıs 2011 tarihinde Wayback Machine sitesinde arşivlendi . at Animal Diversity Web 
+ Salamandra 15 Eylül 2019 tarihinde Wayback Machine sitesinde arşivlendi . at the National Center for Biotechnology Information 
+ Wikimedia Commons 'ta Salamandra ile ilgili çoklu ortam belgeleri bulunur. 
+ Vikitür 'de Salamandra ile ilgili ayrıntılı taksonomik bilgiler bulunur. 
+ Kaynakça [ değiştir | kaynağı değiştir ] 
+ ↑ Frost, Darrel R. (2019). "Salamandra" . Amphibian Species of the World: an Online Reference. Version 6.0 . American Museum of Natural History, New York, USA . Erişim tarihi: 11 October 2019 .   Arşivlenmesi gereken bağlantıya sahip kaynak şablonu içeren maddeler ( link ) 
+ Takson belirleyicileri 
+ Vikiveri : Q62181 
+ ASW : Salamandra 
+ BOLD: 6419 
+ EoL : 41054 
+ EPPO : 1SALAG 
+ Fauna Europaea : 177824 
+ Fauna Europaea (new) : 6d998022-7d94-4ded-952d-e855967fdc4c 
+ Fossilworks : 37407 
+ GBIF : 8024525 
+ iNaturalist : 27725 
+ ITIS : 1094915 
+ NBN : NHMSYS0000066687 
+ NCBI : 57569 
+ Otorite kontrolü 
+ BNF : cb123407550 (data) 
+ Britannica : animal/Salamandra 
+ LCCN : sh85116689 
+ NKC : ph820607 
+ NLI : 987007553586905171 
+ Hayvanlar ile ilgili bu madde taslak seviyesindedir. Madde içeriğini genişleterek Vikipedi ' ye katkı sağlayabilirsiniz. 
+ " https://tr.wikipedia.org/w/index.php?title=Salamandra&oldid=33936082 " sayfasından alınmıştır 
+ Kategoriler : Hayvan taslakları Semendergiller 1764'te tanımlanan taksonlar Josephus Nicolaus Laurenti tarafından adlandırılmış taksonlar Gizli kategoriler: Arşivlenmesi gereken bağlantıya sahip kaynak şablonu içeren maddeler Türkçe Vikipedi ile Vikiveride aynı resim olan maddeler Webarşiv şablonu wayback bağlantıları BNF tanımlayıcısı olan Vikipedi maddeleri Britannica tanımlayıcısı olan Vikipedi maddeleri LCCN tanımlayıcısı olan Vikipedi maddeleri NKC tanımlayıcısı olan Vikipedi maddeleri NLI tanımlayıcısı olan Vikipedi maddeleri Tüm taslak maddeler 
+ Sayfa en son 08.02, 4 Ekim 2024 tarihinde değiştirildi. 
+ Sayfa Parsoid ile işlendi. 
+ Metin Creative Commons Atıf-AynıLisanslaPaylaş Lisansı altındadır ve ek koşullar uygulanabilir. Bu siteyi kullanarak Kullanım Şartlarını ve Gizlilik Politikasını kabul etmiş olursunuz. Vikipedi® (ve Wikipedia®) kâr amacı gütmeyen kuruluş olan Wikimedia Foundation, Inc. tescilli markasıdır. 
+ Gizlilik politikası 
+ Vikipedi hakkında 
+ Sorumluluk reddi 
+ Hukuk & Güvenlik İletişim Noktaları 
+ Davranış Kuralları 
+ Geliştiriciler 
+ İstatistikler 
+ Çerez politikası 
+ Mobil görünüm 
+ Ara 
+ Ara 
+ İçindekiler tablosunu değiştir 
+ Salamandra 
+ 41 dil 
+ Konu ekle 
+ 

@@ -1,0 +1,244 @@
+ 
+ Fire salamander - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Taxonomy 
+ 2 
+ Distribution 
+ 3 
+ Habitat, behavior and diet 
+ 4 
+ Reproduction 
+ 5 
+ Toxicity 
+ 6 
+ Environmental stressors and threats 
+ Toggle Environmental stressors and threats subsection 
+ 6.1 
+ Batrachochytrium salamandrivorans 
+ 7 
+ Gallery 
+ 8 
+ References 
+ 9 
+ Further reading 
+ 10 
+ External links 
+ Toggle the table of contents 
+ Fire salamander 
+ 69 languages 
+ Aragonés العربية مصرى Asturianu Atikamekw Azərbaycanca Basa Bali Boarisch Български Brezhoneg Català Cebuano Čeština Чӑвашла Dansk Deutsch Ελληνικά Español Eesti Euskara فارسی Suomi Fɔ̀ngbè Français Galego עברית Hrvatski Magyar Հայերեն Bahasa Indonesia Íslenska Italiano 日本語 Қазақша 한국어 Kurdî Lëtzebuergesch Lietuvių Latviešu Македонски Монгол Plattdüütsch Nederlands Norsk bokmål Diné bizaad Picard Polski پښتو Português Română Русский Scots Simple English Slovenčina Slovenščina Српски / srpski Svenska ไทย Tagalog Türkçe Українська Oʻzbekcha / ўзбекча Vèneto Tiếng Việt West-Vlams Walon Winaray 吴语 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Save 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ Save 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikispecies Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Species of amphibian This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) 
+ You can help expand this article with text translated from the corresponding article in Catalan . (May 2026) Click [show] for important translation instructions. 
+ Machine translation, like DeepL or Google Translate , is a useful starting point for translations, but translators must follow the LLM translation guideline , revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia. 
+ Do not translate text that appears unreliable or low-quality. If possible, verify the text with references provided in the foreign-language article. 
+ You must provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation. A model attribution edit summary is Content in this edit is translated from the existing Catalan Wikipedia article at [[:ca:Salamandra comuna]]; see its history for attribution. 
+ You may also add the template {{Translated|ca|Salamandra comuna}} to the talk page . 
+ For more guidance, see Wikipedia:Translation . This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources:   "Fire salamander"   –   news   · newspapers   · books   · scholar   · JSTOR ( May 2026 ) ( Learn how and when to remove this message ) 
+ ( Learn how and when to remove this message ) {{cite iucn |author=IUCN SSC Amphibian Specialist Group |year= 2023 |title= ''Salamandra salamandra'' |article-number= e.T59467A219148292 |doi=10.2305/IUCN.UK.2023-1.RLTS.T59467A219148292.en |access-date=8 January 2024}}</ref>"},"genus":{"wt":"Salamandra"},"species":{"wt":"salamandra"},"authority":{"wt":"([[Carl Linnaeus|Linnaeus]], [[10th edition of Systema Naturae|1758]])"},"synonyms":{"wt":"* ''Lacerta salamandra'' {{au|Linnaeus, 1758}}\n* ''Salamandra candida'' {{au|Laurenti, 1768}}\n* ''Salamandra maculosa'' {{au|Laurenti, 1768}}\n* ''Salamandra terrestris'' {{au|Houttuyn, 1782}}\n* ''Gecko salamandra'' {{au|Meyer, 1795}}\n* ''Triton vulgaris'' {{au|Rafinesque, 1814}}\n* ''Salamandra maculata'' {{au|Merrem, 1820}}\n* ''Salamandra vulgaris'' {{au|Cloquet, 1827}}\n* ''Triton corthyphorus'' {{au|Leydig, 1867}}\n* ''Salamandra maculosa'' {{au|Boulenger, 1882}}\n* ''Salamandra moncheriana'' {{au|Schreiber, 1912}}\n* ''Salamandra maculata'' {{au|Schreiber, 1912}}"},"range_map":{"wt":"SalamandraSalamandraMap.png"},"range_map_caption":{"wt":"Distribution of fire salamander"}},"i":0}}]}'> 
+ Fire salamander 
+ Conservation status 
+ Vulnerable   ( IUCN 3.1 ) [ 1 ] 
+ Scientific classification 
+ Kingdom: 
+ Animalia 
+ Phylum: 
+ Chordata 
+ Class: 
+ Amphibia 
+ Order: 
+ Urodela 
+ Family: 
+ Salamandridae 
+ Genus: 
+ Salamandra 
+ Species: 
+ S.   salamandra 
+ Binomial name 
+ Salamandra salamandra ( Linnaeus , 1758 ) 
+ Distribution of fire salamander 
+ Synonyms 
+ Lacerta salamandra Linnaeus, 1758 
+ Salamandra candida Laurenti, 1768 
+ Salamandra maculosa Laurenti, 1768 
+ Salamandra terrestris Houttuyn, 1782 
+ Gecko salamandra Meyer, 1795 
+ Triton vulgaris Rafinesque, 1814 
+ Salamandra maculata Merrem, 1820 
+ Salamandra vulgaris Cloquet, 1827 
+ Triton corthyphorus Leydig, 1867 
+ Salamandra maculosa Boulenger, 1882 
+ Salamandra moncheriana Schreiber, 1912 
+ Salamandra maculata Schreiber, 1912 
+ The fire salamander ( Salamandra salamandra ) is a common species of salamander found in Europe . 
+ It is black with yellow spots or stripes to a varying degree; some specimens can be nearly completely black while on others the yellow is dominant. Shades of red and orange may sometimes appear, either replacing or mixing with the yellow according to subspecies . [ 2 ] This bright coloration is highly conspicuous and acts to deter predators by honest signalling of its toxicity ( aposematism ). [ 3 ] Fire salamanders can have a very long lifespan; one specimen lived for more than 50 years in Museum Koenig , a German natural history museum. 
+ Despite its wide distribution and abundance, it is classified as Vulnerable on the IUCN Red List due to its susceptibility to infection by the introduced fungus Batrachochytrium salamandrivorans , which has caused severe declines in fire salamanders in parts of its range. [ 1 ] 
+ Taxonomy [ edit ] 
+ This section does not cite any sources . Please help improve this section by adding citations to reliable sources . Unsourced material may be challenged and removed . ( June 2025 ) ( Learn how and when to remove this message ) 
+ Several subspecies of the fire salamander are recognized. Most notable are the subspecies fastuosa and bernadezi , which are the only viviparous subspecies – the others are ovoviviparous . 
+ S. s. alfredschmidti 
+ S. s. almanzoris 
+ S. s. bejarae 
+ S. s. bernardezi 
+ S. s. beschkovi 
+ S. s. crespoi 
+ S. s. fastuosa (or bonalli ) – yellow-striped fire salamander 
+ S. s. gallaica – Galician fire salamander 
+ S. s. gigliolii 
+ S. s. morenica 
+ S. s. salamandra – spotted fire salamander, nominate subspecies 
+ S. s. terrestris – barred fire salamander 
+ S. s. werneri 
+ Some former subspecies have been lately recognized as species for genetic reasons. 
+ S. algira Bedriaga, 1883 – African fire salamander 
+ S. corsica Savi, 1838 – Corsican fire salamander 
+ S. infraimmaculata Martens, 1885 – Near Eastern fire salamander (arouss al ayn) 
+ Distribution [ edit ] 
+ Video of a fire salamander in its natural habitat in Austria 
+ Fire salamanders are found in most of southern and central Europe. They are most commonly found at altitudes between 250 metres (820   ft) and 1,000 metres (3,300   ft) , only rarely below (in Northern Germany sporadically down to 25 metres (82   ft) ). However, in the Balkans or Spain they are commonly found in higher altitudes as well. 
+ Habitat, behavior and diet [ edit ] 
+ Fire salamanders live in the forests of central Europe and are more common in hilly areas. They prefer deciduous forests since they like to hide in fallen leaves and around mossy tree trunks. They need small brooks or ponds with clean water in their habitat for the development of the larvae. Whether on land or in water, fire salamanders are inconspicuous. They spend much of their time hidden under wood or other objects. They are active in the evening and the night, but on rainy days they are active in the daytime as well. [ 4 ] 
+ The diet of the fire salamander consists of various insects , spiders , millipedes , centipedes , earthworms and slugs , but they also occasionally eat newts and young frogs . [ 5 ] In captivity, they eat crickets , mealworms , waxworms and silkworm larvae. Small prey will be caught within the range of the vomerine teeth or by the posterior half of the tongue, to which the prey adheres. It weighs about 40 grams. Compared to other salamanders in the region like Luschan's salamander , the fire salamander has been shown to be larger and appears to have a more solid pectoral girdle. Additionally, it has a longer pectoral girdle than Luschan's salamander. [ 6 ] The fire salamander is one of Europe's largest salamanders [ 7 ] and can grow to be 15–25 centimetres (5.9–9.8   in) long. [ 8 ] 
+ Reproduction [ edit ] 
+ Males and females look very similar, except during the breeding season, when the most conspicuous difference is a swollen gland around the male's vent. This gland produces the spermatophore , which carries a sperm packet at its tip. The courtship happens on land. After the male becomes aware of a potential mate, he confronts her and blocks her path. The male rubs her with his chin to express his interest in mating, then crawls beneath her and grasps her front limbs with his own in amplexus . He deposits a spermatophore on the ground, then attempts to lower the female's cloaca into contact with it. If successful, the female draws the sperm packet in and her eggs are fertilized internally. The eggs develop internally and the female deposits the larvae into a body of water just as they hatch. In some subspecies, the larvae continue to develop within the female until she gives birth to fully formed metamorphs. Breeding has not been observed in neotenic fire salamanders. 
+ In captivity, females may retain sperm long-term and use the stored sperm later to produce another clutch. This behavior has not been observed in the wild, likely due to the ability to obtain fresh sperm and the degradation of stored sperm. [ 9 ] 
+ Toxicity [ edit ] 
+ Samandarin structure 
+ The fire salamander's primary alkaloid toxin, samandarin , causes strong muscle convulsions and hypertension combined with hyperventilation in all vertebrates . Through an analysis of the European fire salamander's skin secretions, scientists have determined that another alkaloid, such as samandarone, is also released by the salamander. [ 10 ] These steroids can be swabbed from the salamander's parotid glands. Samandarine was often the dominant alkaloid present but the ratio varied between salamanders. This ratio, however, was not shown to be sex dependent. [ 10 ] Larvae do not produce these alkaloids. Upon maturity, ovaries, livers, and testes appear to produce these defensive steroids. The poison glands of the fire salamander are concentrated in certain areas of the body, especially around the head and the dorsal skin surface. The coloured portions of the animal's skin usually coincide with these glands. Compounds in the skin secretions may be effective against bacterial and fungal infections of the epidermis ; some are potentially dangerous to human life. 
+ Environmental stressors and threats [ edit ] 
+ Batrachochytrium salamandrivorans [ edit ] 
+ In parts of its range, the fire salamander has become highly endangered by the spread of the introduced chytrid fungus Batrachochytrium salamandrivorans , which has had catastrophic effects on its population. This collapse was first identified from the Netherlands in 2013. [ 11 ] The fire salamander in the Netherlands is teetering on the brink of extinction, confined to three small populations in the southern part of the country. Prior to these declines, they were already listed as "Endangered" on the national Red List , and their range had reduced by 57% since 1950, mainly due to changes in water availability and habitat degradation. The remaining populations were limited to specific areas of deciduous forests on hillsides, and their surface activity is restricted to humid periods with night temperatures above 5°C.The species had been considered stable until 2008 when dead individuals were observed, and since 2010, there has been a staggering 96% population decline, with the largest population dropping from 241 individuals to only four in 2011. In 2013, the cause of the decline was officially identified as a new chytrid fungus, Batrachochytrium salamandrivorans ( Bsal ), likely introduced to Europe from east Asia via captive amphibians. [ 12 ] 
+ Since its identification in the Netherlands, Bsal has continued to spread across western Europe, and has infected more populations of S. s. terrestris in Belgium and western Germany, with an isolated but contained occurrence in Spain affecting a population of S. s. hispanica . Dramatic declines have been noted in all affected populations, and some may eventually be entirely extirpated , although at most known sites, fire salamanders persist at low numbers even after disease outbreak, and in one case appear to have recovered. Some localities in the Eifel Mountains where fire salamanders were previously known from appear to now be devoid of fire salamanders, suggesting landscape-scale declines that occurred prior to the disease's identification by science. [ 13 ] [ 14 ] In 2023, the fire salamander was officially moved from ' Least Concern ' to ' Vulnerable ' on the IUCN Red List , relating to the past and predicted future declines in the species. [ 1 ] 
+ Gallery [ edit ] 
+ Orange morph 
+ References [ edit ] 
+ 1 2 3 IUCN SSC Amphibian Specialist Group (2023). " Salamandra salamandra " . IUCN Red List of Threatened Species . 2023 e.T59467A219148292. doi : 10.2305/IUCN.UK.2023-1.RLTS.T59467A219148292.en . Retrieved 8 January 2024 . 
+ ↑ Francis, Eric T.B. (1934). "The anatomy of the Salamander" . Oxford: Clarendon Press . Retrieved January 12, 2013 . 
+ ↑ Caspers, Barbara A. (30 June 2020). "Developmental costs of yellow colouration in fire salamanders and experiments to test the efficiency of yellow as a warning colouration" . Amphibia-Reptilia . 41 (3): 373– 385. doi : 10.1163/15685381-bja10006 . 
+ ↑ Tanner, Vasco M.; Wood, Stephen L. (1958). "Salamander" . The Great Basin Naturalist . Phovo (Utah): Brigham Young University. pp.   97ff . Retrieved January 12, 2013 . 
+ ↑ Sydlowski, Rose. "Salamandra salamandra" . Animal Diversity Web . Retrieved 2022-12-02 . 
+ ↑ Özeti, Neclâ (1967). "The Morphology of the Salamander Mertensiella luschani ( Steindachner ) and the Relationships of Mertensiella and Salamandra". American Society of Ichthyologists and Herpetologists ( ASIH ) : 287– 298. 
+ ↑ "Bsal" . www.ravon.nl . Retrieved 2022-12-02 . 
+ ↑ Griffiths, R (1996). Newts and Salamanders of Europe . London: Academic Press . 
+ ↑ Steinfartz, S.; Stemshorn, K.; Kuesters, D.; Tautz, D. (30 November 2005). "Patterns of multiple paternity within and between annual reproduction cycles of the fire salamander (Salamandra salamandra) under natural conditions". Journal of Zoology . 268 (1): 1– 8. doi : 10.1111/j.1469-7998.2005.00001.x . 
+ 1 2 Mebs, Dietrich; Pogoda, Werner (1 April 2005). "Variability of alkaloids in the skin secretion of the European fire salamander ( Salamandra salamadra [ sic ] terrestris )". Toxicon . 45 (5): 603– 606. Bibcode : 2005Txcn...45..603M . doi : 10.1016/j.toxicon.2005.01.001 . PMID   15777956 . 
+ ↑ Spitzen-van der Sluijs, A., Spikmans, F., Bosman, W., de Zeeuw, M., van der Meij, T., Goverse, E., Kik, M., Pasmans, F., & Martel, A. (2013). Rapid enigmatic decline drives the fire salamander (Salamandra salamandra) to the edge of extinction in the Netherlands. Amphibia-Reptilia, 34(2), 233-239. https://doi.org/10.1163/15685381-00002891 
+ ↑ Martel, An; Spitzen-van der Sluijs, Annemarieke; Blooi, Mark; Bert, Wim; Ducatelle, Richard; Fisher, Matthew C.; Woeltjes, Antonius; Bosman, Wilbert; Chiers, Koen; Bossuyt, Franky; Pasmans, Frank (2013-09-17). "Batrachochytrium salamandrivorans sp. nov. causes lethal chytridiomycosis in amphibians" . Proceedings of the National Academy of Sciences . 110 (38): 15325– 15329. Bibcode : 2013PNAS..11015325M . doi : 10.1073/pnas.1307356110 . ISSN   0027-8424 . PMC   3780879 . PMID   24003137 . 
+ ↑ Lötters (2020). "The amphibian pathogen Batrachochytrium salamandrivorans in the hotspot of its European invasive range: past – present – future" (PDF) . Salamandra . 56 (3): 173– 188. 
+ ↑ Bosch, Jaime; Martel, An; Sopniewski, Jarrod; Thumsová, Barbora; Ayres, Cesar; Scheele, Ben C.; Velo-Antón, Guillermo; Pasmans, Frank (August 2021). "Batrachochytrium salamandrivorans Threat to the Iberian Urodele Hotspot" . Journal of Fungi . 7 (8): 644. doi : 10.3390/jof7080644 . ISSN   2309-608X . PMC   8400424 . PMID   34436183 . 
+ Further reading [ edit ] 
+ Manenti, R.; Ficetola, G. F.; De Bernardi, F. (February 2009). "Water, stream morphology and landscape: complex habitat determinants for the fire salamander Salamandra salamandra " . Amphibia-Reptilia . 30 (1): 7– 15. doi : 10.1163/156853809787392766 . 
+ Schmidt, B. R., Schaub, M., and Steinfartz, S. (2007). "Apparent survival of the salamander Salamandra salamandra is low because of high migratory activity" . Frontiers in Zoology 4:19. 
+ External links [ edit ] 
+ Wikimedia Commons has media related to Salamandra salamandra . 
+ Caudata.org entry for Salamandra 
+ Fantastic Fire Salamanders – Salamandra Salamandra , BioFresh Cabinet of Freshwater Curiosities. 
+ v t e Salamanders in the Salamandra genus 
+ Salamandra algira 
+ Salamandra atra 
+ Salamandra corsica 
+ Salamandra infraimmaculata 
+ Salamandra lanzai 
+ Salamandra salamandra 
+ Taxon identifiers Salamandra salamandra 
+ Wikidata : Q26395 
+ Wikispecies : Salamandra salamandra 
+ AmphibiaWeb : 4284 
+ ASW : Salamandra-salamandra 
+ BioLib: 307 
+ BOLD : 152530 
+ CoL : 6XB2G 
+ EoL : 333311 
+ EPPO : SALASA 
+ Fauna Europaea : 177846 
+ Fauna Europaea (new) : f81b1a90-42aa-460f-8be2-6b2175875d94 
+ GBIF (old): 2431776 
+ iNaturalist : 27726 
+ IRMNG : 11028859 
+ ITIS : 668396 
+ IUCN : 59467 
+ NBN : NHMSYS0000080153 
+ NCBI : 57571 
+ Observation.org : 458 
+ Open Tree of Life : 689975 
+ Paleobiology Database : 393926 
+ Lacerta salamandra 
+ Wikidata : Q109500739 
+ CoL : 3RMVN 
+ EUNIS : 10826 
+ GBIF (old): 4409500 
+ ITIS : 1100735 
+ ZooBank : 31013889-E468-4836-A324-B4FF39574B9D 
+ Authority control databases International GND National Salamandra salamandra</span>"}]]}'> United States mlok skvrnitý</span>"}]]}'> Czech Republic Israel Other Yale LUX 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Fire_salamander&oldid=1357521317 " 
+ Categories : IUCN Red List vulnerable species Amphibians of Europe Amphibians described in 1758 Animal taxa named by Carl Linnaeus Salamandra Hidden categories: Articles with short description Short description matches Wikidata Science and technology articles needing translation from Catalan Wikipedia Articles needing additional references from May 2026 All articles needing additional references Articles with multiple maintenance issues Articles with 'species' microformats Articles needing additional references from June 2025 Commons link from Wikidata Taxonbars with automatically added original combinations Articles containing video clips 
+ This page was last edited on 3 June 2026, at 03:13  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Fire salamander 
+ 69 languages 
+ Add topic 
+ 

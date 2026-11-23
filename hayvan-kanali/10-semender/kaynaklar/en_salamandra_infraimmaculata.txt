@@ -1,0 +1,203 @@
+ 
+ Near Eastern fire salamander - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Description 
+ 2 
+ Distribution and habitat 
+ 3 
+ Ecology 
+ Toggle Ecology subsection 
+ 3.1 
+ Life cycle 
+ 3.1.1 
+ Larvae 
+ 4 
+ Status 
+ 5 
+ Captivity 
+ 6 
+ References 
+ 7 
+ External links 
+ 8 
+ Further reading 
+ Toggle the table of contents 
+ Near Eastern fire salamander 
+ 18 languages 
+ Български Cebuano Deutsch Euskara فارسی Français עברית Italiano 日本語 Nederlands Diné bizaad Polski Português Русский Svenska Türkçe Tiếng Việt Winaray 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Save 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ Save 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikispecies Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Species of amphibian 
+ {{cite iucn |author1=Theodore Papenfuss |author2=Ahmad Disi |author3=Nasrullah Rastegar-Pouyani |author4=Gad Degani |author5=Ismail Ugurtas |author6=Max Sparreboom |author7=Sergius Kuzmin |author8=Steven Anderson |author9=Riyad Sadek |author10=Souad Hraoui-Bloquet, Avital Gasith |author11=Eldad Elron |author12=Sarig Gafny |author13=Tuba Kiliç |author14=Engin Gem |author15=Uğur Kaya |date=2009 |title=''Salamandra infraimmaculata'' |volume=2009 |article-number=e.T59466A11927871 |doi=10.2305/IUCN.UK.2009.RLTS.T59466A11927871.en |access-date=17 November 2021}}</ref>"},"genus":{"wt":"Salamandra"},"species":{"wt":"infraimmaculata"},"authority":{"wt":"[[Eduard von Martens|Martens]], 1885"},"synonyms":{"wt":"{{collapsible list|\n* ''Salamandra maculosa'' var. ''infraimmaculata'' Martens, 1885\n* ''Salamandra semenovi'' Nesterov, 1916\n* ''Salamandra maculosa'' [[var.]] ''orientalis'' Wolterstorff, 1925\n* ''Salamandra maculosa'' [[subsp.]] ''semenovi'' Wolterstorff, 1925\n* ''Salamandra maculosa'' [[Form (botany)|forma]] ''orientalis'' Wolterstorff, 1932\n* ''Salamandra salamandra semenovi'' Wolterstorff, 1932\n* ''Salamandra salamandra orientalis'' Bodenheimer, 1944\n* ''Salamandra salamandra infraimmaculata'' Mertens, 1948\n* ''Salamandra infraimmaculata'' Gasser, 1978\n* ''Salamandra infraimmaculata immaculata'' Joger and Steinfartz, 1995\n* ''Salamandra infraimmaculata orientalis'' Joger and Steinfartz, 1995\n* ''Salamandra infraimmaculata semenovi'' Joger and Steinfartz, 1995\n* ''Salamandra (Oriandra) infraimmaculata infraimmaculata'' Dubois and Raffaëlli, 2009\n* ''Salamandra (Oriandra) infraimmaculata orientalis'' Dubois and Raffaëlli, 2009\n* ''Salamandra (Oriandra) infraimmaculata semenovi'' Dubois and Raffaëlli, 2009\n* ''Salamandra (Oriandra) semenovi'' Raffaëlli, 2013\n}}"},"synonyms_ref":{"wt":"<ref name=\"ASW\">{{cite web |title=Salamandra infraimmaculata Martens, 1885 |url=https://amphibiansoftheworld.amnh.org/Amphibia/Caudata/Salamandridae/Salamandrinae/Salamandra/Salamandra-infraimmaculata |website=Amphibian Species of the World 6.2, an Online Reference |publisher=American Museum of Natural History |access-date=5 October 2026}}</ref>"}},"i":0}}]}"> 
+ Near Eastern fire salamander 
+ Conservation status 
+ Least Concern   ( IUCN 3.1 ) [ 1 ] 
+ Scientific classification 
+ Kingdom: 
+ Animalia 
+ Phylum: 
+ Chordata 
+ Class: 
+ Amphibia 
+ Order: 
+ Urodela 
+ Family: 
+ Salamandridae 
+ Genus: 
+ Salamandra 
+ Species: 
+ S.   infraimmaculata 
+ Binomial name 
+ Salamandra infraimmaculata Martens , 1885 
+ Synonyms [ 2 ] 
+ List 
+ Salamandra maculosa var. infraimmaculata Martens, 1885 
+ Salamandra semenovi Nesterov, 1916 
+ Salamandra maculosa var. orientalis Wolterstorff, 1925 
+ Salamandra maculosa subsp. semenovi Wolterstorff, 1925 
+ Salamandra maculosa forma orientalis Wolterstorff, 1932 
+ Salamandra salamandra semenovi Wolterstorff, 1932 
+ Salamandra salamandra orientalis Bodenheimer, 1944 
+ Salamandra salamandra infraimmaculata Mertens, 1948 
+ Salamandra infraimmaculata Gasser, 1978 
+ Salamandra infraimmaculata immaculata Joger and Steinfartz, 1995 
+ Salamandra infraimmaculata orientalis Joger and Steinfartz, 1995 
+ Salamandra infraimmaculata semenovi Joger and Steinfartz, 1995 
+ Salamandra (Oriandra) infraimmaculata infraimmaculata Dubois and Raffaëlli, 2009 
+ Salamandra (Oriandra) infraimmaculata orientalis Dubois and Raffaëlli, 2009 
+ Salamandra (Oriandra) infraimmaculata semenovi Dubois and Raffaëlli, 2009 
+ Salamandra (Oriandra) semenovi Raffaëlli, 2013 
+ The Near Eastern fire salamander [ 3 ] ( Salamandra infraimmaculata ) also called arouss al-ayn in Arabic , [ clarification needed ] [ 4 ] is a species of salamander in the family Salamandridae found in Iran , Iraq , Turkey , and the Levant : Syria , Lebanon , and Israel , [ 5 ] [ 6 ] along with possible records in Gaza . [ 2 ] Its natural habitats are subtropical dry shrubland and forests, often near rivers and freshwater springs . It is threatened by habitat loss . 
+ Description [ edit ] 
+ in a cave near Fassuta , Israel 
+ This species is a black salamander with yellow spots on its back as warning coloration , but none on its belly. It has smooth, shiny skin, usually with four large, yellow blotches on the head. Various subspecies have different patterns of colours, for example, S. i. orientalis is virtually identical to S. i. infraimmaculata , but has a large number of yellow dots all over its body. However, the validity of this subspecies is in question. Another subspecies, S. i. semenovi , has a more rounded head and rose-shaped spots over the top part of the body. It can grow to 324   mm (12.8   in) in length. S. i. infraimmaculata is the largest subspecies. [ clarification needed ] Females are in general larger than males. [ 6 ] 
+ Distribution and habitat [ edit ] 
+ The species is native to northwestern Iran , northern Iraq, Syria, Lebanon, Palestine, northern Israel near the ancient city of Tel Dan and northern and western Galilee , and the Mount Carmel area. In Turkey, the species can be found in Anatolia . It is found at altitudes of between 180 and 2,000 metres (590 and 6,560   ft) . [ 1 ] [ 3 ] 
+ Depending on the terrain, it can be found in various kinds of forests. For example, in Iran, it inhabits open cork forests with scattered trees, while in Turkey and Lebanon, it can be found in damp woods and groves in mountainous and hilly regions, especially near water. It can also be found near springs and the temporary pools that form after winter rains. It protects itself during the day by hiding under leaves, roots, or rocks and emerges at night to forage . In Palestine, it can be found around pools and spring-fed, slow-moving streams. [ 1 ] [ 3 ] 
+ Ecology [ edit ] 
+ The adults are active at night and spend the day in hiding. During the hottest months of summer they may aestivate , depending on location, and individuals at higher elevations hibernate during the winter. They show great fidelity to their hiding and breeding places. It used to be thought that they were resident within small home ranges but it has now been shown that this is not the case; migration sometimes take place and individuals may wander far from their normal territory. [ 7 ] 
+ Adults live on land and feed on insects , earthworms , slugs , snails, other small invertebrates, and even young salamanders of other species. [ 8 ] 
+ Life cycle [ edit ] 
+ Breeding takes place during the cooler months of winter. Although courtship has not been much studied, it is believed to be similar to that of the fire salamander . The male holds the female in a ventral amplexus . He deposits a spermatophore on the ground underneath her and moves his tail and sacrum in such a way that her abdomen comes into contact with it. She grasps it with the lips of her cloaca and draws it inside. A female may receive spermatophores from several different males. [ 3 ] 
+ This salamander is ovoviviparous , with the developing embryos being retained in the female's oviduct . There may be about a year between the fertilisation of the eggs and the deposition of live tadpoles into pools ( female sperm storage ). They are not all deposited at one time, and the female visits several ponds, choosing ones without large salamander larvae already present and those with plenty of crevices in which the young tadpoles hide. [ 9 ] 
+ Salamanders of this species can live up to 23 years for males and 21 years for females. [ 10 ] 
+ Larvae [ edit ] 
+ Female with larvae Larva, Israel 
+ When born, the larvae weigh about 20   g (0.7   oz) and already have two pairs of legs and two sets of external gills . They use their finned tails for swimming. The larvae grow rapidly, and if food is scarce, may become cannibalistic. [ 8 ] This cannibal morph occurs when larvae detect the water volume from their pond dropping, which triggers a transformation into the big-headed cannibal morph. [ 11 ] They are more likely to eat unrelated tadpoles than their clutch mates. [ 8 ] This behavior may be an adaptive feature related to the decreasing quantity of water in their temporary pools and may be sparked by the presence of dead tadpoles or a change in the quality of the water. Under these circumstances, cannibalism may be an important behaviour that allows some of the tadpoles to survive. [ 12 ] Tadpoles grow in size to about 5–7   cm (2.0–2.8   in) before undergoing metamorphosis which takes place after two to four months. [ 3 ] 
+ Typically, the larvae feed mainly on small crustaceans , mosquito larvae, and tadpoles of frogs and toads . [ 8 ] If fish inhabit the pond, they prey heavily on newt tadpoles, but if not, the salamander tadpoles are at the top of the food chain and have a significant impact on the composition and diversity of species in the pool. [ 13 ] 
+ Status [ edit ] 
+ This species is listed as " Near Threatened " in the IUCN Red List of Threatened Species . In some areas, it is quite plentiful, but in others is uncommon or rare. It is considered to be threatened in Israel and Lebanon due to road building and the pollution of water bodies by pesticides . The introduction of predatory fish such as the mosquitofish ( Gambusia affinis ) can severely impact the number of tadpoles that survive to adulthood. In Turkey, the population trend is downwards and the threats include the drying up of water bodies due to the extraction of ground water, the damming of streams, traffic , and the fragmentation of suitable habitat by development. [ 1 ] In Israel, it is listed as " Endangered " and is protected by national legislation. In Lebanon, its status is unknown, while in Syria, it is considered to be vulnerable because of habitat destruction. [ 1 ] [ 3 ] In both Turkey and Israel, it is present in some national parks . [ 1 ] 
+ Captivity [ edit ] 
+ This salamander can be kept as a pet, and captive breeding has been successful on some occasions. A 26.5 centimetres (10.4 inches) female imported from Lebanon in 1966 at a larval stage successfully reproduced 79 larvae in 2007. Four years later, in another gestation period, 102 further larvae were produced. [ 3 ] In Israel, where the species is protected, capture or possession of wild individual requires authorization from the Israel Nature and Parks Authority . [ 14 ] 
+ References [ edit ] 
+ {{cite web |url=https://amphibiansoftheworld.amnh.org/Amphibia/Caudata/Salamandridae/Salamandrinae/Salamandra/Salamandra-infraimmaculata |title=''Salamandra infraimmaculata'' Martens, 1885 |author=Frost, Darrel R. |year=2022 |work=Amphibian Species of the World: An Online Reference. Version 6.1 |publisher=American Museum of Natural History |doi=10.5531/db.vz.0001 |access-date=9 January 2023}}</ref>"}},"i":0}}]}'> 1 2 3 4 5 6 Theodore Papenfuss; Ahmad Disi; Nasrullah Rastegar-Pouyani; Gad Degani; Ismail Ugurtas; Max Sparreboom; Sergius Kuzmin; Steven Anderson; Riyad Sadek; Souad Hraoui-Bloquet, Avital Gasith; Eldad Elron; Sarig Gafny; Tuba Kiliç; Engin Gem; Uğur Kaya (2009). " Salamandra infraimmaculata " . IUCN Red List of Threatened Species . 2009 e.T59466A11927871. doi : 10.2305/IUCN.UK.2009.RLTS.T59466A11927871.en . Retrieved 17 November 2021 . 
+ 1 2 "Salamandra infraimmaculata Martens, 1885" . Amphibian Species of the World 6.2, an Online Reference . American Museum of Natural History . Retrieved 5 October 2026 . 
+ 1 2 3 4 5 6 7 Sparreboom, Max (2014). Salamanders of the Old World. The Salamanders of Europe, Asia, and Northern Africa . Zeist: KNNV Publishing. pp.   320– 323. ISBN   978-90-5011-4851 . 
+ ↑ "Arouss al ayn (Salamandra infraimmaculata)" . ARKive . Archived from the original on 2012-08-21 . Retrieved February 24, 2013 . 
+ ↑ Frost, Darrel R. (2022). " Salamandra infraimmaculata Martens, 1885" . Amphibian Species of the World: An Online Reference. Version 6.1 . American Museum of Natural History. doi : 10.5531/db.vz.0001 . Retrieved 9 January 2023 . 
+ 1 2 "Salamandra infraimmaculata" . Amphibia Web . Retrieved February 24, 2013 . 
+ ↑ Bar-David, S.; Segev, O.; Hill, N.; Templeton, A. R.; Schultz, C. B. & Blaustein, L. (2007). "Long-distance movements by fire salamanders ( Salamandra infraimmaculata ) and implications for habitat fragmentation". Israel Journal of Ecology & Evolution . 53 (2): 143– 159. Bibcode : 2007IsJEE..53..143B . doi : 10.1080/15659801.2007.10639579 . 
+ 1 2 3 4 Shai Markman; Naomi Hill; Josephine Todrank; Giora Heth; Leon Blaustein (2012). "Differential aggressiveness between fire salamander ( Salamandra infraimmaculata ) larvae covaries with their genetic similarity" (PDF) . Behavioral Ecology and Sociobiology . 63 (8): 1149– 1155. doi : 10.1007/s00265-009-0765-y . S2CID   24358544 . 
+ ↑ Sadeh, A.; M. Mangel & L. Blaustein (2009). "Context-dependent reproductive habitat selection: the interactive roles of structural complexity and cannibalistic conspecifics". Ecology Letters . 12 (11): 1158– 1164. Bibcode : 2009EcolL..12.1158S . doi : 10.1111/j.1461-0248.2009.01371.x . PMID   19708967 . 
+ ↑ Michael R. Warburg (2007). "Longevity in Salamandra infraimmaculata from Israel with a partial review of life expectancy in urodeles" ( PDF ) . Salamandra . 43 (1): 21– 34. 
+ ↑ "The Swiss Army knife of salamanders | The Source | Washington University in St. Louis" . The Source . 2013-06-26 . Retrieved 2020-08-18 . 
+ ↑ Sadeh, A.; N. Truskanov; M. Mangel & L. Blaustein (2011). "Compensatory development and costs of plasticity: larval responses to desiccated conspecifics" . PLOS ONE . 6 (1) e15602. Bibcode : 2011PLoSO...615602S . doi : 10.1371/journal.pone.0015602 . PMC   3016404 . PMID   21246048 . 
+ ↑ Blaustein, L.; J. Friedman & T. Fahima (1996). "Larval Salamandra drive temporary pool community dynamics: evidence from an artificial pool experiment". Oikos . 76 (2): 392– 402. Bibcode : 1996Oikos..76..392B . doi : 10.2307/3546211 . JSTOR   3546211 . 
+ ↑ "אחזקת חיות בר בישראל - רשות הטבע והגנים" [ Keeping Wildlife in Israel - Israel Nature and Parks Authority ] . www.parks.org.il (in Hebrew). Archived from the original on 2025-06-28 . Retrieved 2026-09-22 . 
+ External links [ edit ] 
+ Images of Salamandra infraimmaculata on CalPhotos 
+ Further reading [ edit ] 
+ L. Blank; I. Sinai; S. Bar-David; N. Peleg; O. Segev; A. Sadeh; N. M. Kopelman; A. R. Templeton; J. Merilä; L. Blaustein (December 13, 2012). "Genetic population structure of the endangered fire salamander ( Salamandra infraimmaculata ) at the southernmost extreme of its distribution". Animal Conservation . 16 (4): 412– 421. doi : 10.1111/acv.12009 . ISSN   1469-1795 . 
+ v t e Salamanders in the Salamandra genus 
+ Salamandra algira 
+ Salamandra atra 
+ Salamandra corsica 
+ Salamandra infraimmaculata 
+ Salamandra lanzai 
+ Salamandra salamandra 
+ Taxon identifiers Salamandra infraimmaculata 
+ Wikidata : Q348747 
+ Wikispecies : Salamandra infraimmaculata 
+ AmphibiaWeb : 5919 
+ ASW : Salamandra-infraimmaculata 
+ CoL : 78ZLD 
+ EoL : 1019470 
+ GBIF (old): 2431777 
+ iNaturalist : 27736 
+ IRMNG : 11163788 
+ ITIS : 668393 
+ IUCN : 59466 
+ NCBI : 156860 
+ Observation.org : 205583 
+ Open Tree of Life : 1024870 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Near_Eastern_fire_salamander&oldid=1386319259 " 
+ Categories : IUCN Red List least concern species Salamandra Amphibians of the Middle East Amphibians of Iran Amphibians of Iraq Amphibians of Turkey Amphibians described in 1885 Taxa named by Eduard von Martens Aposematic species Hidden categories: Articles with short description Short description matches Wikidata Articles with 'species' microformats Wikipedia articles needing clarification from October 2026 Pages using multiple image with auto scaled images CS1 Hebrew-language sources (he) Taxonomy articles created by Polbot 
+ This page was last edited on 17 November 2026, at 22:27  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Near Eastern fire salamander 
+ 18 languages 
+ Add topic 
+ 

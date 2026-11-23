@@ -1,0 +1,2306 @@
+Akademik Dil ve Edebiyat Dergisi
+Journal of Academic Language and Literature
+PROF. DR. METİN AKAR’A ARMAĞAN
+
+(Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021)
+
+Klasik Türk Şiirinde Semender
+
+Mehmet ÖZDEMİR
+Doç. Dr., Bilecik Şeyh Edebali
+Üniversitesi
+mehmet.ozdemir@bilecik.edu.tr
+
+“Salamander” in Classical Turkish Poetry
+
+https://orcid.org/0000-0003-0544-9280
+
+Araştırma Makalesi/Research Article
+Geliş Tarihi/Received: 16.11.2021
+Kabul Tarihi/Accepted: 22.12.2021
+Yayım Tarihi/Published: 30.12.2021
+Atıf/Citation
+ÖZDEMİR, M. (2021). Klasik Türk Şiirinde Semender. Akademik Dil ve Edebiyat Dergisi, 5(4), 18611900. https://doi.org/10.34083/akaded.1024301
+ÖZDEMİR, M. (2021). Salamander in Classical Turkish Poetry. Journal of Academic Language and
+Literature, 5(4), 1861-1900. https://doi.org/10.34083/akaded.1024301
+
+Bu makale iThenticate programıyla taranmıştır.
+This article was checked by iThenticate.
+*Bu makale, 13-14 Mayıs 2017 tarihinde Bilecik Şeyh Edebali Üniversitesi tarafından düzenlenen
+Osmanlı Edebî Metinlerinin Anlam Dünyası Sempozyumunda sunulan “Klasik Türk Şiirinde
+Semender” başlıklı bildirinin genişletilerek yeniden düzenlenmiş şeklidir.
+
+Mehmet ÖZDEMİR | 1862
+
+Öz
+Semender, klasik Türk şiirinde ateşten etkilenmeyen, hatta hayatını ateşte idame
+ettiren efsanevi bir hayvan olarak tasavvur edilmiştir. Bu çalışmada klasik Türk şiirinde
+semender algısı, semenderin şiirlerdeki kullanım sıklığı ve anlam çerçevesi, şiirlerinde
+semender geçen 173 şairin şiirleri incelenerek tespit edilmeye çalışılmıştır. Girişte,
+semender kelimesinin sözlüklerde yer alan anlamları üzerinde durulmuştur. Daha
+sonra bu efsanevi varlığın klasik Türk edebiyatı şairlerinin şiirlerinde nasıl bir varlık
+olarak tasavvur edildiği tespit edilen tanık beyitler çerçevesinde değerlendirilmiştir.
+Semenderin yüzyıllar ve şairler temelinde hangi sıklıkta kullanıldığı araştırılmış ve
+kelimenin 14-19. yüzyıllar arasında şiir yazmış şairlerin şiirlerindeki kullanımı sayısal
+veriler ve grafiklerle ortaya konulmaya çalışılmıştır. Ayrıca semenderin teşbih unsuru
+olarak kullanımı araştırılmış, bu çerçevede teşbih edilen varlıkların tespiti ve hangi
+varlığa hangi sıklıkla teşbih edildiği konusu tanık beyitlere de yer verilerek açıklığa
+kavuşturulmaya çalışılmıştır.
+Bu çalışmada klasik Türk şairlerinin semender algıları, semenderin klasik Türk
+şiirinde kullanımıyla ilgili sayısal veriler ve kelimenin klasik Türk şiirinde teşbih unsuru
+olarak kullanımı konularında elde edilen veriler detaylandırılarak incelenmeye
+çalışılmıştır.
+Anahtar Kelimeler: Semender, Klasik Türk Şiiri, Teşbih.
+Abstract
+In classical Turkish poetry, the “salamander” is conceived as a mythical animal that
+is not affected by fire and even sustains its life in fire. This study attempts to explore the
+perception of “salamander” in classical Turkish poetry through the frequency and the
+meaning frame of the use of “salamander” in poems of 173 poets who used “salamander”
+in their. In the introduction, the meanings of the word “salamander” in dictionaries are
+emphasized. Then, how this legendary being was conceived in the poems of the classical
+Turkish literature poets was evaluated based on the analyzed couplets. This study
+investigated how often the “salamander” was used on the basis of centuries and poets and
+portrayed the use of “salamander” in the poem through statistical data and graphs. In
+addition, the use of the “salamander” as an element of simile was investigated, and in this
+context, it was tried to determine which beings and how often the “salamander” was
+likened to based on the analyzed couplets.
+In this study, “salamander” perceptions of classical Turkish poets, statistical data
+about the use of “salamander” in classical Turkish poetry and the use of the word as a
+simile element in classical Turkish poetry were examined in detail.
+Keywords: Salamander, Classical Turkish Poetry, Simile.
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1863
+
+Giriş
+Semender, Farsça sözlük Lugatnâme-i Dihhuda’da Yunanca “Salamandra”,
+Fransızca “Salamandre”den geldiği ve ateşte yaşadığı, ateşten çıkınca öldüğü
+söylenen bazıları tarafından ise kertenkele, serçe ve tavuk şeklinde olduğu rivayet
+edilen bir hayvan olarak tanımlanmaktadır. Aynı eserde semenderin maksimum 25
+cm boyunda, koyu tenli, sarı renkte olduğu, karanlık ve nemli yerlerde,
+mağaralarda yaşadığı, böcekler ve solucanlarla beslendiği kayıtlıdır. Semenderin
+zararsız bir hayvan olduğu ve derisinden tahriş edici olan yapışkan bir madde
+salgılandığı, ateş tapınaklarında bulunan fare şeklinde bir hayvan olup ateşten
+çıkınca öldüğü yazılıdır. Bazı kimselerin de sözlüklerde semenderi ateşte yanmayan
+tüylü bir hayvan olarak tanımladığı belirtilmektedir (Dihhuda, h. 1385, C. 9: s.
+13742-13743).
+Ferheng-i Rîşe-Şenâhtî Zebân-ı Fârisî’de ise suda yaşayan ve kertenkeleye
+benzeyen uzun bedeni ve kuyruğu, kısa kol ve bacakları olan, ışıktan korkan hayali
+bir hayvan olduğu ve ateşte yaşadığı rivayeti yazılıdır. Kelime Latince’de
+“salamandra”, Fransızca’da “salamandre”, İngilizcede “salamander”, Almancada
+“salamander”, Rusça’da “salamandra”, İtalyancada “salamandra”, şekillerinde yer
+almaktadır. (Hassandoust, h. 1395, C. 3: s.1754).
+Osmanlı döneminde yazılan sözlüklerde ise “ateşte yaşayan efsanevi bir
+hayvan” (Şemseddin Sâmî, 1899-1900: s. 735; Muallim Naci, 1894: s. 482; Hüseyin
+Remzi, 1888: C. I: s. 683; Ebûzziyâ Mehmed Tevfik, 1891; 555; Ali Seydî Bey, 1911:
+s. 550; Toven, 1927: s. 392; Kestelli, 1927: 428; ) “kertenkele” (Şemseddin Sâmî,
+1899-1900: s. 735, Mehmed Salâhî, IV: s, 32; Toven, 1927: s. 392; Kestelli, 1927: s.
+428; Ebûzziyâ Mehmed Tevfik, 1891; s. 555; Ali Seydî Bey, 1911: s. 550; İbrahim
+Cûdî Efendi, 1913: s. 590); “tarla faresi” ve “kuş" (Hüseyin Remzi, 1888: C. I: s, 683)
+olarak tanımlanmaktadır.
+Kâmûs-ı Osmânî’de, semenderin suda yaşayan bir hayvan cinsi olduğu ve
+vücudunun iki tarafında su ifraz eden keseleri sayesinde yürüyeceği istikameti
+sulayarak geçtiğinden ateşte yanmadığı kaydedilmiştir (Mehmed Salâhî, IV: s. 32).
+Lehçe-i Osmânî’de ise suda yaşadığı, soğuk tabiatlı bir canlı olduğu, kudemâdan
+birinin “ateşe girse söndürür” ifadesini halkın “ateşte yaşar” şeklinde anladığı
+yazılmıştır. (Ahmed Vefik Paşa, 1876: s. 643).
+Lugat-i Remzî’de ateşte yaşayan bir hayvan olarak tarif edilen semenderin
+derisinden mendil, gömlek gibi eşyalar yapıldığı, kirlendikçe ateşe atılıp
+temizlendiği rivayet edilmiştir. Bazı kimselerin semenderi tarla faresi olarak
+tasavvur ettiği, semenderin ateşte yaşadığı ve ateşten çıktığında helak olduğuna
+inanıldığı belirtilmiştir. Aynı eser, bazılarının ise semenderi hoş sesli ve rengârenk
+olan, rüzgâr estikçe gagasındaki üç yüz altmış delikten çıkan hoş sesleri duyup
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1864
+
+toplanan kuşları yiyerek bin sene ömür süren bir kuş olarak tasavvur ettiklerini ileri
+sürmüştür. Yine rivayete göre, semender yaşadığı bin yıl zarfında biriktirdiği
+odunların üzerine çıkıp öyle yakıcı nameyle ötermiş ki bundan kendisi de müteessir
+ve sermest olup kanatlarını birbirine çırpmasıyla çıkan ateşte yandığı, yanan
+semenderin külünden o anda bir yavru vücuda getirdiği nakledilmiştir (Hüseyin
+Remzi, 1888: C. I: s. 683).
+Yine Lugat-i Remzî’de semender, rengi siyaha yakın olup derisi yeşil, turuncu
+ve sarı lekelerle süslü, vücudunun iki tarafında su ifraz eden keseleri
+bulunduğundan kıvılcımlı göl üzerinde yürüyeceği yerleri sulayarak gezen bir
+kertenkele olarak tarif edilip ateşte yanmadığı rivayet edilmiştir (Hüseyin Remzi,
+1888: C. I: s. 684).
+Semender, Resimli Kâmûs-ı Osmânî’de Kuzey Afrika ve Anadolu’da yaşayan,
+eski devirlerde ateşte yanmadığına inanılan, soğukluğu ile meşhur bir cins su
+kertenkelesi olarak tarif edilmiştir (Ali Seydî Bey, 1911: s. 550).
+Türk Dil Kurumu Güncel Türkçe Sözlük ise semenderi "Uzun gövdeli, dört
+bacaklı, kuyruklu, kertenkeleye benzeyen, birçok türü bulunan bir hayvan,
+salamandra; Ateşte yanmadığına hatta ateşi söndürdüğüne inanılan efsanevi
+hayvan" (Güncel Türkçe Sözlük, https://sozluk.gov.tr/, 2021, 10 Ekim) şeklinde
+tanımlamaktadır.
+Ziya Şükün semender hakkında şu bilgiyi vermektedir: “Ateşte yanmayan
+yahut ateşte yaşayan, tilkiden küçük (masal kabilinden) bir hayvandır. Bazılarına
+göre fareden büyücek kertenkele şeklinde kuyruğu uzundur yahut Hindistan'da
+bulunan ve ateşte yanmayan bir kuştur. Ateşten çıktığı sırada yakalanıp tüyünden
+yapılan mendil ve sarık gibi şeylerin ateşte yanmayacağı rivayet edilmektedir. Kara
+ve suda yaşayabilen semenderin bir söylentiye göre vücudundan su çıkardığı için
+ateşte yanmadığı nakledilmektedir.” (Şükün, 1984: s. 1218).
+Onay’a göre semender su kertenkelesi denilen bir hayvandır. Cisminin iki
+tarafında su ifraz eden kesesi bulunan bu hayvan, kıvılcımlı kül üstünde yürüyeceği
+tarafları sulayarak geçtiğinden yanmazmış (Onay, 2000:399).
+Pala, semenderin ateşte yanmayan bir çeşit efsanevi, denizatına benzeyen
+kuyruklu bir hayvan olduğu görüşündedir. Bu hayvanın ateşe girdiği zaman bir
+çeşit yağlı madde ifraz ederek kendini koruduğu rivayet edilir. Semenderin kuş
+olduğunu söyleyenler de vardır. Hindistan’daki Mecusilerin devamlı yaktıkları
+ateşte ısının artmasıyla semender denilen kanatlı bir böcek hâsıl olduğuna inananlar
+da vardır (Pala,1995: s. 435).
+Ceylan ise semender hakkında şu bilgileri vermektedir: Semender, Farsça “sâmender” (ateş içinde) kelimesinin muhaffefidir. Kelime, semendel, semendûr,
+semendûn, âzer-şep, âteş-hâr olarak da bilinmektedir. Suda ve karada yaşayan
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1865
+
+türleri bulunan semenderler görünüş olarak kertenkeleye benzemektedir.
+Edebiyatımızda zikredilen efsanevi semender de aynı vasfı taşıdığı kabul edilen bir
+hayvandır. Vücudunun her iki yanında su kesesi bulunan semender, köz üstünde
+yürüyeceği zaman geçeceği alanı sulayarak geçtiğinden ateşte yanmaz, ateşten
+çıkınca öleceğine inanılır (Ceylan, 2007: s. 211-215).
+Semenderin sözlüklerdeki anlamlarını özetledikten sonra klasik Türk şiirinde
+kullanımıyla ilgili sayısal veriler, klasik Türk şairlerinin semender algısı ve
+semenderin klasik Türk şiirinde teşbih unsuru olarak kullanımı konularında elde
+edilen veriler değerlendirilip detaylandırılarak aşağıda yer alan başlıklar altında
+incelenmiştir. Çalışmada elde edilen verilere, yayımlanmış ya da lisansüstü tez
+olarak hazırlanmış Türkçe divanlar ile Pervâne bin Abdullah tarafından 1560′ta
+derlenen Mecmû‘atü′n-nezâir adlı nazire mecmuasının taranması sonucunda
+ulaşılmıştır.
+1. Sayısal Verilerle Klasik Türk Şiirinde Semender
+a) Semenderin Yüzyıllara Göre Kullanımı
+
+Çalışmada, semender kelimesinin klasik Türk şiirinde kullanımıyla ilgili elde
+edilen sayısal veriler yüzyıl ve şairler bazında değerlendirilmiştir. Bu çerçevede
+semender kelimesinin 14.-19. yüzyıllar arasında hangi şair tarafından kaç kez
+kullanıldığı ve yüzyıllardaki toplam kullanım sayısı ile kullanım oranı tabloda
+gösterildi. Tabloda semender kelimesinin tüm yüzyıllardaki toplam 420 olan
+kullanımının yüzyıllara ve şairlere göre dağılımı ve oranı verilmiştir. 14. yüzyılda
+semender kelimesini sadece Kadı Burhaneddin ve Hoca Dehhânî kullanırken, şair
+ve kullanım sayısı bakımından en yüksek rakam 16. yüzyılda ortaya çıkmaktadır.
+Semender 16. yüzyılda 54 farklı şair tarafından toplamda 122 kez kullanılmıştır.
+Semenderin 14.-19. yüzyıllar arasındaki 420 olan toplam kullanımının 15.
+yüzyıldaki kullanım oranı %4’tür. Semender kelimesini kullanan 173 şairin
+yüzyıllara göre dağılımı incelendiğinde, şairlerin 54’ünün 16. yüzyılda yaşamış
+şairler olduğu görülmektedir. 16. yüzyıl şairlerinin kelimeyi kullanan tüm şairlere
+oranı %29’dur. Bu oran kelimenin kullanıldığı yüzyıllar içerisinde en yüksek
+kullanım oranıdır. 16. yüzyılda kelimeyi kullanan şair sayısı 122 ve kullanım oranı
+%29’dur. Buna bağlı olarak kelimenin kullanım sıklığı da bu yüzyılda en yüksek
+seviyeye ulaşmıştır. 17. yüzyılda semender kelimesi beş şair tarafından üçten fazla
+kullanılmıştır. Kelimeyi 5 şair üçer kez, 9 şair ikişer kez, 13 şair ise birer kez
+kullanmıştır. 18. yüzyılda Şeyh Gâlib (13 kez) ve Sünbülzâde Vehbî (10 kez)
+semender kelimesini en çok kullanan şairlerdir. 19. yüzyıl şairlerinden Aşkî Mustafa
+(17 kez) tüm yüzyıllar içinde semender kelimesini en çok kullanan şairdir. Aşkî’yi
+Antepli Aynî (10 kez) ve Şâkir Gâlib (6 kez) takip etmiştir. Bu yüzyılda kelimeyi 5
+şair dörder kez, 4 şair üçer kez, 7 şair ikişer kez ve 19 şair birer kez kullanmıştır.
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Kadı Burhaneddîn
+
+6
+
+Adlî, Ahmed Paşa, Beşiktaşlı Yahyâ,
+Çâkerî, Fakîh, Karamanlı Aynî, Mesîhî,
+Mestî, Necâti Bey, Sâkî Bey, Sehi Bey,
+Tâcîzâde Cafer Çelebi, Vahyî.
+
+1
+
+Avnî, Hamdullah Hamdî, Resmî
+
+2
+
+Amrî Aydınlı Visâlî, Azîzî, Azmî, Balıkesirli
+Şefî¤î, Bâlî Çelebi, Bursalı Rahmî, Cemîlî,
+Cenâbî, Edirneli Kâmî, Fasîhî, Gedâyî,
+Hadîdî, Hafî, Hasan Dede, Hâverî, Hecrî,
+Helâkî, Hidâyet Çelebi, Hüseynî, Kabûlî
+İbrâhim, Kütahyalı Rahîmî, Lâmi¤î, Latîfî,
+Meylî, Nâmûsî, Nazmî, Niyâzî, Nizâmî
+Çelebi, Refîkî, Rumelili Za’îfî, Sâfî,
+Şânî, Üsküplü İshak Çelebi, Yakînî
+Bâkî, Behiştî, Hüdâyî-i Kadîm, Sâgarî, Şâhî
+Âşık Çelebi, Celîlî, Emrî, Hisâlî,
+Mehemmed, Mostarlı Hasan Ziyâî,
+Sehâbî, Üsküdarlı Aşkî
+Lamiî Çelebi
+Çorumlu Zarîfî
+Hayâlî Bey
+Gelibolulu Mustafa Âlî
+Zâtî
+Muhibbî
+Bosnalı Âsım, Cevrî, Emetullah Hanım,
+Hâfız Ahmed Paşa, Kadı Şefî¤î, Lâmekânî
+Hüseyin Efendi, Nâbî, Nakşi Ali Akkirmanî,
+Nevizâde Atâyî, Sabir Parsâ, Süheylî,
+Sükkerî, Şeyhî Mehmed
+Fevzî, Hikmetî, Mehmed Adlî, Mehmed
+Safvetî, Mu¤în, Nazîr İbrâhim, Nef¤î,
+Nehcî, Şeyhülislâm Yahyâ
+Beyânî, Ferîdî, Mezâkî, Nâdirî, Nâ¤ilî-i
+Kadîm
+Ahmed Nâmî, Azmizâde Hâleti
+Edincikli Ravzî
+Fehîm-i Kadîm
+Tebrizli Kavsî
+
+Yüzyıldaki
+Kullanım
+Oranı
+
+2
+
+Yüzyıldaki
+Toplam
+Kullanım
+
+Semenderi
+Kullanım
+Sayısı
+
+Hoca Dehhânî
+
+Semenderi
+Kullanan
+Şair Sayısı
+
+17. Yüzyıl
+
+16. Yüzyıl
+
+15. Yüzyıl
+
+14. Yüzyıl
+
+Yüzyıl
+
+Şair
+
+Mehmet ÖZDEMİR | 1866
+
+2
+
+8
+
+%2
+
+16
+
+19
+
+%4
+
+54
+
+122
+
+%29
+
+32
+
+74
+
+%18
+
+1
+
+2
+3
+4
+5
+6
+7
+15
+16
+1
+
+2
+3
+4
+5
+6
+9
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+19. Yüzyıl
+
+18. Yüzyıl
+
+Klasik Türk Şiirinde Semender | 1867
+Erzurumlu Zihnî, Es¤ad-ı Bağdâdî, Fâik
+Mahmud, Nevres-i Kadîm, Osmanzâde
+Tâib, Servet
+Ahmed Müsellem, Arpaeminizâde Sâmî,
+Azbî Baba, Eğirdirli Şeyhî Mehmed, Koca
+Râgıb Paşa, Mustafa Sıdkî, Sakıb Dede,
+Seyyid Burhân, Tokatlı Kânî.
+Ağazâde Örfî, Diyarbakırlı Hâmî Ahmed,
+Fahrî-i Celvetî, Hakîm Mehmed, Mehmed
+Hakîm, Nedim, Sa¤îd Giray
+Hasmî , Lebîb, Muvakkitzâde Pertev
+Sünbülzâde Vehbî
+Şeyh Gâlib
+Âkif, Bursalı İffet, Emin Hilmî, Eşref Paşa,
+Ferdî Abdullah, Harputlu Rahmî Hasan
+Haydar, İbrahim Hürrem, Leylâ Hanım,
+Mehmed Nebîl, Mehmed Sebâtî,
+Meşhûrî, Mustafa Refîk, Nâfi¤, Sırrî Rahîle
+Hanım, Şânizâde Atâullah
+Şeref Hanım, Şevkî, Zâik
+Ahmed Bâdî, Ali Emîrî, Benderli Cesârî,
+Besnili Lüzûmî, Hatice Nakiyye,
+Süleyman Fehîm, Zîver Paşa
+Abdî-i Karahisârî, Kemahlı İbrâhim Hakkı,
+Mehmed Tâhir, Refî-i Kalâyî
+Câzib, Emrî Murâd, Nâkâm, Racûlî, Seyrî
+Şâkir Gâlib
+Antepli Aynî
+Aşkî Mustafa
+
+1
+
+2
+31
+
+99
+
+%24
+
+38
+
+98
+
+%23
+
+3
+5
+10
+13
+
+1
+
+2
+3
+4
+6
+10
+17
+
+b) Semenderin Şairlere Göre Kullanım Sıklığı
+Yukarıda bahsi geçen divan ve mecmualarda yaptığımız tarama sonucunda
+elde edilen veriler çerçevesinde semender kelimesini kullanan tüm şairler, kelimeyi
+kullanan şair sayıları ve kullanım sıklığı aşağıdaki tabloda gösterilmiştir.
+Çalışmada, 14.-19. yüzyıllar arasında şiirlerinde semender kelimesini kullanan 173
+şairin her birinin kelimeyi kaç kez kullandıkları tespit edilmiştir. Eldeki verilere
+göre, şairlerin yarısı semenderi şiirlerinde sadece bir kez kullanmışlardır. Kelimeyi
+iki kez kullanan şairlerin toplamı 34 iken 10’un üzerinde kullanan şair sayısı ise
+4’tür. Şiirlerinde semender kelimesini kullanan şairlerin yarısı kelimeyi sadece bir
+kez kullanmıştır. Tespit edilen bu verilerden hareketle semender kelimesinin şiir
+dilinde yaygın olarak kullanılmadığını, kelimenin yaygın kullanımının ise sadece
+5-6 şairle sınırlı olduğunu söyleyebiliriz.
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1868
+Şair
+Sayısı
+1
+
+Kullanım
+Sayısı
+17
+
+Muhibbî
+
+1
+
+16
+
+Zâtî
+
+1
+
+15
+
+Şeyh Gâlib
+
+1
+
+13
+
+Antepli Aynî, Sünbülzâde Vehbî
+
+2
+
+10
+
+Tebrizli Kavsî
+
+1
+
+9
+
+Gelibolulu Mustafa Âlî
+
+1
+
+7
+
+Fehîm-i Kadîm, Hayâlî Bey, Kadı Burhaneddîn, Şâkir Gâlib
+
+4
+
+6
+
+Çorumlu Zarîfî, Edincikli Ravzî, Hasmî, Lebîb, Muvakkitzâde Pertev
+
+5
+
+5
+
+Abbas Vesîm, Ahmed Nâmî, Azmizâde Hâletî, Câzib, Ecrî, Emrî Murâd,
+Kâtibzâde Sâkıb, Lami¤î Çelebi, Nâkâm, Nebzî, Racûlî, Seyrî
+
+12
+
+4
+
+Abdî-i Karahisârî, Ağazâde Örfî, Âşık Çelebi, Beyânî, Celîlî, Diyarbakırlı
+Hâmî Ahmed, Emrî, Fahrî-i Celvetî, Ferîdî, Hakîm Mehmed, Hisâlî, Kemahlı
+İbrâhim Hakkı, Mehemmed, Mehmed Hakîm, Mehmed Tâhir, Mezâkî,
+Mostarlı Hasan Ziyâ¤î, Nâdirî, Nâ¤ilî-i Kadîm, Nedîm, Refî-i Kalâyî, Sa¤îd
+Giray, Sehâbî, Üsküdarlı Aşkî,
+
+24
+
+3
+
+Ahmed Bâdî,Ahmed Müsellem, Ali Emîrî, Arpaeminizâde Sâmî, Avnî, Azbî
+Baba, Bâkî, Behiştî, Benderli Cesârî, Besnili Lüzûmî, Eğirdirli Şeyhi
+Mehmed, Fevzî, Hamdullah Hamdî, Hatice Nakiyye, Hikmetî, Hoca
+Dehhânî, Hüdâyî-i Kadîm, Koca Râgıb Paşa, Mehmed Adlî, Mehmed
+Safvetî, Mu¤în, Mustafa Sıdkî, Nazîr İbrâhim, Nef¤î, Nehcî, Resmî, Sâgarî,
+Sakıb Dede, Seyyid Burhân, Süleyman Fehîm, Şâhî, Şeyhülislam Yahyâ,
+Tokatlı Kânî, Zîver
+
+34
+
+2
+
+Adlî, Ahmed Paşa, Âkif, Amrî Aydınlı Visâlî, Azîzî, Azmî, Balıkesirli Şefî¤î,
+Bâlî, Beşiktaşlı Yahyâ, Bosnalı Âsım, Bursalı İffet, Bursalı Rahmî Cemîlî,
+Cenâbî, Cevrî, Çakerî, Edirneli Kâmî, Emetullah Hanım, Emin Hilmî,
+Erzurumlu Zihnî, Es¤ad-ı Bağdâdî, Eşref Paşa, Fâik Mahmud, Fakîh, Fasîhî,
+Ferdî Abdullah, Gedâyî, Hadîdî, Hâfız Ahmed Paşa, Hafî, Harputlu Rahmî,
+Hasan Dede, Hasan Haydar, Hâverî, Hecri, Helâkî, Hidâyet Çelebi, Hüseynî,
+İbrahim Hürrem, Kabûlî İbrâhim, Kadı Şefî¤î, Karamanlı Aynî, Kütahyalı
+Rahîmî, Lâmekânî Hüseyin Efendi, Lâmî¤i, Latîfî, Leylâ Hanım, Mehmed
+Nebil, Mehmed Sebâtî, Mesîhî, Mestî, Meşhurî, Meylî, Mustafa Refîk,
+Nâbî, Nâfi¤, Nakşi Ali Akkirmânî, Nâmûsî, Nazmî, Necâti Bey, Nev¤îzâde
+Atâyî, Nevres-i Kadîm, Niyâzî, Nizâmî Çelebi, Osmanzâde Tâ’ib, Refîkî,
+Rumelili Za¤îfî, Sabir Parsâ, Sâfî, Sâkî Bey, Sehi Bey, Servet, Sırrî, Rahîle
+Hanım, Süheylî, Sükkerî, Şânî, Şânizâde Atâ¤ullah, Şeref Hanım, Şevkî,
+Şeyhî Mehmed, Tâcîzâde Ca¤fer Çelebi, Üsküplü İshak Çelebi, Vahyî,
+Yakînî, Zâik
+
+86
+
+1
+
+Şiirlerinde Semender Geçen Şairler
+Aşkî Mustafa
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1869
+
+2. Klasik Türk Şiirinde Semender Algısı
+
+a) Semender=Ateşte Yanmayan Efsanevi Hayvan (Sürüngen)
+Klasik Türk şairlerinin semenderi nasıl bir varlık olarak tahayyül ettikleri,
+şiirlerinde semender geçen şairlerin kullanımına bağlı olarak incelenmiştir.
+Şiirlerinde semender geçen şairlerin, toplam 385 kullanımda semenderi ateşte
+yanmayan efsanevi hayvan (sürüngen) olarak tasavvur ettikleri görülmektedir. 35
+kullanımda ise şairler semenderi ateşte yanmayan efsanevi kuş olarak
+düşünmektedir. Tespit edilen toplam 420 kullanımda şairlerin semender algısına
+dair sayısal veriler aşağıdaki grafikte görülmektedir:
+Şairlerin Semender Algısı
+Ateşte Yanmayan Efsanevi
+Hayvan
+Ateşte Yanmayan Kuş
+
+92,11
+
+385
+
+8,37
+35
+
+Klasik Türk şairlerinin algısına göre semender aşağıda listelenen özellikleri ile
+bilinmekte ve tanık beyitlerde semenderin bu yönlerine vurgu yapılmaktadır:
+• Ateşte yaşar; mekânı ateştir
+Klasik Türk şairlerinden bazıları semenderin ateşte yaşadığına dair inançlarını
+ya da algılarını şiirlerinde dillendirmiştir. Bu şairlerin semender algılarına ve
+semenderi nasıl bir canlı olarak tasavvur ettiklerine tanıklık eden beyitlerinden
+bazıları şöyledir:
+Şevkî, semenderin ateşte yaşadığı inancına göndermede bulunduğu bir beyitte,
+kendi gönlüne seslenerek dünyada rahatlık bulmanın yolunu yokluk ve fakirlik
+ateşi içinde semender gibi olmaya bağlar:
+Âteş-i fakr u fenâ içre semender-fıtrat ol
+Bulmak isterseñ eger dünyâda râhat ey gönül
+
+(Şevkî, G. 75/2)
+
+Şeyhülislâm Yahyâ, âşıkların da semenderler gibi ateş içinde yaşadığını,
+muhabbet erbabının yerinin zaten ateş olacağını vurgulamaktadır:
+Yirin od itmedük kim vardur erbâb-ı mahabbetde
+Semenderler gibi uşşâk da sükkân-ı âteşdür
+
+(Ş. Yahya, G. 55/4)
+
+Mehmed Nebil, semenderin yuvasının aşk ateşi olduğunu ifade ederken
+ateşten etkilenmeyen semenderin vücudunu aşk ateşinin mahvettiğini dile getirir:
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1870
+
+Âkıbet bî-çâre mahv itdi vücûd-ı zârını
+Çün semender nâr-ı aşk içre tutardı âşiyân
+
+(Nebil, Tar. 28/6)
+
+Gelibolulu Mustafa Âlî ise semenderin ateşte yaşadığına dair algısını timsah
+denizde hoştur, semender ateşte ifadesiyle ortaya koymaktadır:
+Neheng baḥrda ḫoşdur semender âteşde
+Bu ḫâksâra gerekdür hevâda cilveger at
+
+(Âlî, K. 52/23)
+
+• Ateşte yanmaz
+
+Yaşadığı mekânın ateş olduğuna inanılan bir varlığın ateşte yanmaması
+doğaldır. Klasik Türk şairleri semenderin ateşte yanmayan bir efsanevi hayvan
+olduğuna dair inançlarını şiirlerinde dile getirmişlerdir. Şairlerin, semenderi ateşte
+yanmayan, ateşin tesir etmediği bir canlı olarak tahayyül ettiklerine dair inançlarını
+aşağıda yer alan seçme beyitlerde görmek mümkündür:
+Nâfi‘, âşıkların kalplerinin aşkın yakıcılığından etkilenmeyeceğini, her âşığın
+aslında bir semender olduğunu, bu yüzden ateşin âşığa tesir etmeyeceğini
+vurgulamaktadır:
+Muhabbet sûzişinden var mı bâkî kalb-i uşşâka
+Semenderdir ki itmez cismine anıñ ziyân âteş
+
+(Nâfi¤, G. 105/3)
+
+Beşiktaşlı Yahyâ, yaygın bir teşbih ile yanağın muma, güneşe benzetilmesine
+de uygun olarak sevgilinin yüzüne dökülen saçlarının semender tabiatlı olması
+sebebiyle sevgilinin yanağını yuva edindiğini söyler:
+İzârı üzre dildâruñ görenler zülfin eydürler
+Semender-ṭab‘dur bu kim idinmiş âşiyân âteş
+
+(Yahyâ, G. 42/4)
+
+Celîlî, sevgilinin yokluğunda hasretle çektiği âh ateşinin kıvılcımının her yeri
+kapladığını, yaşadığı mekânın semenderin yaşadığı ateş ocağına döndüğünü söyler:
+Şerâr-ı âteş-i âhum der ü dḭvârı dutmışdur
+Semendervâr âteşdür baña cânâ vaṭan sensüz
+
+(Celilî, G. 137/5)
+
+Tebrizli Kavsî, aşk ateşinin her çeşidinde yanmaktan usanmadığını, ateşe aşina
+olduğunu söylerken kendini evi ateşten olan semender ile özdeşleştirir:
+Her çend yanduñ odlara Kavsî usanmaduñ
+Âhir sen ey od evlü semender misen nesen
+
+(Kavsi, G. 385/10)
+
+• Ateş ile beslenir, gıdası ateştir, ateşten can bulur
+Semenderin, Klasik Türk şairlerince ateşte yaşayan efsanevi bir hayvan olarak
+tasavvur edildiğini ve ateşte yanmadığına dair inancı yukarıda yazılan örnek
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1871
+
+beyitlerde görmekteyiz. Aşağıda yer alan tanık beyitlerde ise şairlerin semenderi
+ateşle beslenen ve ateşten can bulan bir varlık olarak tahayyül ettikleri
+görülmektedir.
+Nebzî, âşığın gönlünü semendere teşbih ederek gönlün, âhın ateşinden
+beslendiğini, semender gibi kor ateşten (aşk ateşinden) zevk aldığını ifade eder:
+Gıdâsı nâr-ı âhıdır idinmiş
+Semendervâr ahkerden telezzüz
+
+(Nebzî, G.165/2)
+
+Âşık Çelebi, semender için ateşin âb-ı hayattan daha kıymetli olduğunu
+vurgulayarak aşk ehlinin de semender-meşrep olduğunu, muhabbet ehlinin
+hicranın sevincini vuslatın zevkine tercih ettiğini söyler:
+Mahabbet ehli virmez zevk-i vasla sûr-ı hicrânun
+Semender nâr-ı sûzâna degişmez âb-ı hayvânı
+
+(Âşık, G. 17/3)
+
+Hayâlî Bey, âhının ateşi ve gözyaşının çokluğunu gulüv derecesinde mübalağa
+ile ateşte yaşayan semenderin ateşi terk edip Hayâlî’nin âhının ateşinde, suda
+yaşayan ördeğin de denizden vazgeçip kendisinin gözyaşında yaşamaya başladığını
+dile getirir:
+Lem¤a-i âhımla yaşım içre ârâm etdiler
+Murg-ı âbî bahrı terk etdi semender âteşi
+
+(Hayâlî, G. 566/3)
+
+Tebrizli Kavsî, semender gibi kendi rızkının da ateş olduğunu, ayrılık ateşini
+görünce bağrının eridiği iddiasındadır:
+Her çend semender gibi rızkum benüm oddur
+Bağrum erinür âteş-i hicrânunı görgec
+
+(Kavsî, G. 36/4)
+
+• Ateşin sıcaklığı semenderi diriltir
+Abbas Vesîm, Hz. İsa’nın ölüye can veren nefesi gibi ateşin de sıcaklığı ile
+semenderleri dirilttiğini söylemektedir. Şairin, can bahşetmesi yönüyle de ateşi Hz.
+İsa’ya teşbih ettiği görülür:
+Nefes-i germi semenderleri ihyâ eyler
+Dem-i cân-bahş-ı Mesîhâ-yı hüdâdır âteş
+
+(Vesîm, K. 5/17)
+
+b) Semender=Ateşte Yanmayan Kuş
+Klasik Türk şairleri yaygın kanaatle semenderi ateşte yanmayan, ateşte yaşayan
+efsanevi hayvan olarak düşünse de bazı şairler de onu ateşle imtizacı olan, ateşten
+etkilenmeyen kuş olarak tasavvur etmiştir. Her iki tasavvurda da ortak yön
+semenderin ateşten etkilenmeyen bir varlık olmasıdır. Aşağıdaki örneklerde yer
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1872
+
+alan seçme beyitler şairlerin semenderi ateşte yanmayan efsanevi kuş olarak
+tasavvur ettiklerine dair inançlarını ortaya koymaktadır.
+Mehmed Tâhir, aşkın ateşten ülkesine güç ve kuvvet vererek coşturan kendi
+kollarını, semender kuşunun kanadına benzetir:
+Âteşsitân-ı aşka biraz tâb u fer viren
+Bâl-i semender oldı per ü bâlümüz bizüm
+
+(Tâhir, G. 274/6)
+
+19. yüzyıl şairlerinden Emrî Murad ateşin yakıcılığına alışkın bir semender
+kuşu (âşık) olduğunu ifade eder:
+Ülfetim âteşle sanki ben semender murguyam
+Âh edersem incinir zannım perî-pervâneler
+
+(Emrî, G. 213/2)
+
+Zâtî, dert dolu gönlünün yakıcı hislerini anlatan mektubu yazdıkça kâğıdın
+yandığını, sevgiliye gönderdiği mektubu semender kanadından yapılmış yanmayan
+kâğıda yazmak istediğini dile getirir:
+Saña göndermege sûz-ı dil-i pür-derdi yazdukça
+Yanar nâme meger kâgıd düzem perr-i semenderden
+
+(Zâti, G. 1075/2)
+
+Hayâlî Beg, aşk ateşinin yaktığı kor ateşe dönmüş bedeninin yakıcılığı ile
+gökyüzünde uçan kuşların piştiğini mübalağa ile ifade ederken ateşte yaşayan
+semender kuşunun başı üzerinde yuva yapmasını ister:
+O Mecnûnem ki sûzumdan felekde murg olur biryân
+Başım üzre semender murgu gelsin âşiyân etsin
+
+(Hayâlî, G. 444/2)
+
+Celîlî, aşağıdaki beyitte dostlarına vasiyetini “Dostlar ben öldüğümde
+gönlümün yarasından sakının, kefenimi de ateşte yanmayan semender kuşunun
+kanadından yapın.” diyerek dile getirir:
+Dostlar ben ölicek dâğ-ı dilümden sakınuñ
+Cismüme perr-i semenderden idesüz kefenüm
+
+(Celîlî, PBM, 5055/2)
+
+Şeyh Gâlib, gönlündeki yaraları semender kuşuna benzetmiş bedenini ise
+semenderin yaşadığı ateşten ev olarak kabul etmiştir:
+Ye¢s bir mihmân-ı gamdır hâtırım kâşânesi
+Dâğ bir mürg-i semenderdir ten âteş-hânesi
+
+(Gâlib, Trkb. 11/1)
+
+Leylâ Hanım, her gece muhabbet ateşiyle yanıp tutuştuğunu ve gönül
+kuşunun semendere benzediğini ifade eder:
+Yandım tutuşdum nâr-ı mahabbetle her şeb âh
+Murg-ı dilim de oldı müşâbih semender
+
+(Leylâ, G. 101)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1873
+
+Şeyh Gâlib, bir kuş olarak tahayyül ettiği semendere seslenerek ateş dolu
+gönlüne semenderin bir yara gibi yuva kurmasını ister. Şair yanan sinesini mekânı
+ateş olan semendere açmıştır:
+Ey mürg-i semender var ise tâkat-ı tâbiş
+Gel dâğ gibi sîne-i pür-sûza yer eyle
+
+(Gâlib, G. 299/3)
+
+Azmizâde Hâletî, kendi âşıklık halini Mecnun’un âşıklığına benzeterek ahının
+kıvılcımlarının şiddetini ve yakıcılığını başının üstünde ancak semenderin yuva
+yapabileceğini söyleyerek anlatır:
+Ben o Kays'am ki depemden şu‘le-i âhum çıkar
+Başum üstünde semender tutar ancak âşiyân
+
+(Hâletî, G. 653/4)
+
+Nedîm, aşkın kıvılcımını artıran şeyin gönül arzusu olduğunu ve bir kuş
+olarak düşündüğü semenderin kanatlarının aşk ateşinin yelpazesi olduğunu söyler:
+Şule-i aşkı hevâ-yı dildir efzûn eyleyen
+Bâdzen bâl-i semenderdir bu âteşhâneye
+
+(Nedîm, G. 214/5)
+
+Muvakkitzâde Pertev, şiddetli soğukları anlatırken ateşte yaşayan semender
+kuşunu bile titretecek derecede mübalağalı bir soğuktan bahseder:
+Bir sovuk var ki felekde meh-i enver ditirer
+Belki âteşde de ol mürg-i semender ditirer
+
+(Pertev, G. 144/1)
+
+Şeref Hanım, kuş olarak tasavvur ettiği semendere benzettiği gönlünün ayrılık
+ateşiyle her an yandığını ifade eder:
+Dâ’imâ murg-ı semenderdir dile ta‘bîrimiz
+Olamaz nâr-ı firâka yanmaga te’hîrimiz
+
+….
+
+(Şeref Hanım, Tahmis 2)
+
+3) Semenderin Teşbih Unsuru Olarak Kullanımı
+
+Semenderin klasik Türk şiirinde kullanımı ile ilgili araştırmamızda tespit
+ettiğimiz toplam 420 kullanımda teşbih unsuru olarak kullanımı da üzerinde
+durduğumuz bir başka konu oldu. Bu çerçevede semenderin klasik Türk şiirinde
+semenderin teşbih unsuru olarak kullanımıyla ilgili sayısal verilere başvurularak
+semendere teşbih edilen varlıklar ve teşbih edilme sayısı/sıklığı aşağıda yer alan
+başlıklar altında değerlendirildi. Aşağıdaki grafikte semendere teşbih edilen
+varlıklar ve teşbih edilme sayıları görülmektedir:
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1874
+
+Semendere Teşbih Edilen Varlıklar ve Teşbih Edilme Sayıları
+
+134
+
+77
+
+22
+
+Âşık
+
+Gönül
+
+Saç
+
+18
+
+Kuş
+
+8
+Yanak
+
+4
+
+2
+
+Ben
+
+Pervâne
+
+Yukarıdaki grafikte yer alan ve semendere birden fazla teşbih edilen varlıklar
+yer almaktadır. Semendere teşbih edilen varlıkların hangi şair tarafından kaç kez
+teşbih edildiği seçilmiş tanık beyitlerle aşağıda yer alan başlıklar altında
+değerlendirilmiştir:
+a) Semendere Birden Fazla Teşbih Edilen Varlıklar
+a.1.) Âşık→ = ←Semender
+İncelediğimiz divan ve şiir mecmualarında “âşık”ın semendere teşbihi en
+yaygın teşbih şekli olarak karşımıza çıkmaktadır. Klasik Türk şiirinde “âşık”ın aşk
+ateşinin yakıcılığı karşısındaki metaneti ve mücadelesi çokça söz konusu edilen bir
+durumdur. Bu sebeple “âşık”ın ateşle özdeşleşen semendere teşbih edilmesi tabii bir
+durumdur. İncelediğimiz divan ve mecmualarda semendere en çok teşbih edilen
+varlığın 132 teşbihle “âşık” olduğu görülmüştür. Âşıklar semender gibi ateşe
+dayanıklı, aşkın yakıcılığına tahammül eden kimseler olarak düşünülmektedir.
+İncelediğimiz divan ve mecmualarda 173 şairin semenderi toplamda 420 kez
+kullanıldığını tespit ettiğimizi belirtmiştik. 14.-19. yüzyıllarda şiir yazmış şairlerden
+“âşık”ı semendere teşbih eden şair sayısı ise 80’dir. Aşağıda “âşık”ı semendere bir
+kez teşbih eden 52 şairin isimleri alfabetik olarak sıralanmıştır:
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1875
+Âşıkı Semendere 2 ve Daha Fazla Teşbih Eden
+Şairler ve Teşbih Sayıları
+Zâtî
+Aşkî Mustafa
+Kavsî Tebrizî
+Şeyh Galib
+Muhibbî
+Mehemmed
+Kemahlı İbrahim Hakkı
+Celîlî
+Nâkâm
+Fehîm-i Kadîm
+Gelibolulu Mustafa Âlî
+Antepli Aynî
+Hatice Nakiyye
+Besnili Lüzûmî
+Şeyhülislam Yahyâ
+Şâhî
+Mehmed Tahir
+Refî-i Kalâyî
+Said Giray
+Beyânî
+Emrî
+Emrî Murad
+Ecrî
+Abbas Vesîm
+Azmizâde Hâleti
+Lamiî Çelebi
+Muvakkitzade Pertev
+Kadı Burhaneddin
+
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+
+3
+3
+3
+3
+3
+3
+3
+
+4
+4
+4
+
+7
+
+8
+
+Âşık→ = ← Semender Teşbihine Örnekler
+Şeyh Gâlib, etrafı ateş gören, aşkın semender yaradılışlı âşıklarına ateş olarak
+lale bahçesinin yeteceğini söyler:
+Gül âteş gülbün âteş gülşen âteş cûybâr âteş
+Semender-tıynetân-ı aşka besdir lâlezâr âteş
+
+(Gâlib, G 139/1)
+
+Yine Şeyh Gâlib, kendisini (âşığı) semender yaradılışlı olarak tanımlarken
+yaşayabileceği mekânın ancak ateş sazlığı olduğunu ifade eder:
+Evc-pervâz-ı himem şîr-i semender-tıynetiz
+Nahlzâr-ı unsur-ı âteşdir ancak bîşemiz
+
+(Gâlib, G 113/3)
+
+Fehîm-i Kadîm, eskiden yaraların ateşle dağlanarak iyileştirildiği inancına
+atıfta bulunarak semender yaradılışlı bir âşık olan kendisinin yarasının da ateşle
+tedavi edilmesini ister:
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1876
+
+Bülbül-i hasta-dilüz lîk semender-fıtrat
+Zahm-ı hâr-ı güle âteşle müdâvâ iderüz
+
+(Fehîm G. 131/6)
+
+Hamdullah Hamdî, Klasik Türk şiirinin sevilmeyen karakteri vaizin, kendisine
+ateşle (cehennem ateşini anarak) nasihat etmemesini, (semender fıtratlı) Hamdî’yi
+ateşle korkutmamasını söyler:
+Pend itme vâ’iz od ile göynüklü Hamdî`ye
+Korkutma hevl-i âteş ile bu semenderi
+
+(Hamdî, G. 159/6)
+
+Zâtî, hümâ kuşuna benzettiği sevgiliye seslendiği aşağıdaki beyitte eğer
+merhamet etmezse yana yana âh edip feleğin mekânını (gökyüzünü) semender gibi
+ateşe döndüreceğini söyler:
+Ey hümâ rahm eylemezseñ yana yana ah idüp
+Yirini çarhuñ semender gibi nâr itsem gerek
+
+(Zâtî, G. 787/5)
+
+Lâmiî Çelebi, semenderin ateşten haz alması gibi her nefeste sevgili uğruna
+çektiği gamla sonsuz hayat bulduğunu ifade eder:
+Hayât-ı câvidân bulsam gamuñdan her nefes tañ mı
+Olur cânâ semender âteş-i pür-tâbdan mahzûz
+
+(Lâmiî, G. 213)
+
+Hayâli Bey, aşk ateşinin semenderi olduğunu bu yüzden Allah’ın kendisini
+cehennem azabından (ateşinden) kurtardığını ifade söyler:
+Oldum Hayâlî âteş-i aşkun semenderi
+Kıldı halâs Hak beni nâr-ı azâbdan
+
+(Hayâlî, G. 422/8)
+
+Lâmiî Çelebi, sevgilinin aşkıyla yanan canını ateşe teşne semendere teşbih eder:
+Semender gibi cânum mihrüñ ile
+Olupdur âteş-i sûzâna teşne
+
+(Lâmiî, G. 448)
+
+Gelibolulu Âlî, zamanın her haneye mihnet ateşi saldığını, bu yüzden çok
+kimsenin kahır ateşinde yaşayan semendere benzediğini söyler:
+Her dûdmâna mihnet odın saldı rûzgâr
+Çok kimse oldı âteş-i kahruñ semenderi
+
+(Âlî, K. 110/11)
+
+Çankırılı İbrahim Hürrem, semender gibi ayrılık ateşinde yaşadığını söyleyerek
+sevgiliden perişan gönlüne lütuf olarak ateş misafiri göndermesini arzu eder:
+Semenderveş harîk-ı âteş-i hicrânınım cânâ
+Meded-i lutf dil-i pejmürdeye mihmân-ı âteşdür
+
+(Hürremî, G. 54)
+
+Çâkerî şiddetli savaşın ortasında gözünü kırpmadan savaşan kişiyi semendere
+teşbih etmektedir. Şaire göre ölüm korkusu yaşamadan savaşan asker kor ateşte
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1877
+
+yaşayan, ateşin yakmadığı bir semenderdir. Şair, gözü kara tavrını anlatırken “Kale
+cengi bile olsa ölümü düşünmeyip semender gibi kor ateşe girerdim" der:
+Kal‘a cengi olsa añmayup ölümüm
+Yanar oda girer semender idüm
+
+(Çâkeri, Kıt'a 1/4
+
+Bursalı İffet, semender fıtratlı oluşundan dolayı cehenneme de girse cehennem
+ateşini gülistan olarak kabul edeceğini söyler:
+Bâ‘is-i zevkim benim âteş semender-fıtratım
+Dûzaha girsem de seyr-i gül-sitânımdır benim
+
+(İffet, G. 74/2)
+
+Bâkî, “Semender yerine ateşte yaşayan ben olsaydım, ayrılık ateşine nispeten
+yerime ısınırdım.” der:
+Isınurdum yirüme nâr-ı firâka nisbet
+Ben olaydum eger âteşde semender yirine
+
+(Bâkî, G. 422/5)
+
+Şeyhülislâm Yahyâ, aşağıdaki beyitte aşk ehlinin yerinin ateş olduğunu
+âşıkların semenderler gibi ateşte yaşadığını ifade eder:
+Yirin od itmedük kim vardur erbâb-ı mahabbetde
+Semenderler gibi uşşâk da sükkân-ı âteşdür
+
+(Yahyâ, G. 55/4)
+
+Sehâbî, aşk ateşiyle yanıp tutuştuğunu ve sonunda semender gibi ateşi vatan
+tuttuğunu söyler:
+Yandı bes kim tutuşup nâr-ı mahabbetle tenüm
+Âkıbet oldı semender gibi âteş vatanum
+
+(Sehâbî, G. 246/1)
+
+Fevzî, ateşe âşinalığını anlatırken semenderi bile kıskandıracak mübalağaya
+başvurarak gam ateşiyle beslendiğini, suyun, ölümüne sebep olacağını ifade eder:
+Perverde-i nâr-ı gamıyuz reşk-i semender
+Lutf-ı eser-i âb-ı ferâh kâtilümüzdür
+
+(Fevzî, G. 54/5)
+
+Abbas Vesîm, pervane meşrepli ve semender yaradılışlı olduğunu belirtip,
+yatağının ateş koruluğu olduğunu söyler:
+Ol semender-tıynet ü hem-meşreb-i pervâneyim
+Şâhsâr-ı şu’le olmuştur Vesîmâ pisterim
+
+(Vesîm, G. 196/7)
+
+Abbas Vesîm, “Biz aşk ateşiyle semender gibi dönen öyle acayip pervaneleriz
+ki gönlümüz ateşe düştü.” diyerek âşıkları semendere benzetir:
+Âteş-i aşk u muhabbetle semenderveş Vesîm
+Bü’l-aceb pervâneyiz kim nâra düşdü gönlümüz
+
+(Vesîm, G. 115/5)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1878
+
+Muvakkitzâde Pertev, ahıyla denizleri ateş harmanına çevirdiğini, semender
+gibi sevgilinin aşk ateşini mesken tuttuğunu söyler:
+Eyledüm deryâları âhumla âteş hırmeni
+Nâr-ı ‘aşkuñda semender gibi kıldum meskeni
+…
+
+(Pertev, Tahmis 31/38)
+
+Azmizâde Hâletî, gönül bülbülünün mihnet ateşiyle birleşip semender
+yaradılışa büründüğünü ifade eder:
+Âteş-i mihnetle idüp imtizâc
+Bülbül-i dil oldı semender-mizâc
+
+(Hâletî, G. 107)
+
+Hâverî aşkının yakıcılığını anlatırken “Benim gibi bir Mecnun’un başına
+(ateşte yaşayan) semender yuva yapamaz.” derken aşkının yakıcılığına ateşte
+yaşayan semenderin bile dayanamayacağını iddia eder:
+Sûz-i ışkum şu kadardur ki semender olsa
+Âşiyânın yapımaz başına ben Mecnûn’uñ
+
+(Hâverî, PBM, 4135/2 )
+
+a.2) Gönül→ = ←Semender
+Semender kelimesinin yer aldığı şiirlerde “gönül”ün semendere teşbih edilmesi
+teşbih sayısı bakımından ikinci sıradadır. Şiirlerinde semender kelimesi geçen 173
+şairden 56’sı “gönül”ü semendere teşbih etmiştir. 56 şairin çoğunluğunun bir kez
+teşbih ettiği “gönül”ün toplam teşbih sayısı ise 77’dir. Aşağıdaki grafikte “gönül”ü
+semendere 2 kez ve daha fazla teşbih eden şairler ve teşbih sayıları yer almaktadır:
+Gönülü Semendere 2 ve Daha Fazla Teşbih Eden
+Şairler ve Teşbih Sayıları
+Aşkî Mustafa
+Edincikli Ravzî
+Muhibbî
+Çorumlu Zarîfî
+Ahmed Nâmî
+Üsküdarlı Aşkî
+Sâgarî
+Muîn
+Kavsî Tebrizî
+Kadı Burhaneddin
+Fehîm-i Kadîm
+Câzib
+Ağazâde Örfî
+
+2
+2
+2
+2
+2
+2
+2
+2
+
+3
+3
+3
+
+4
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+5
+
+Klasik Türk Şiirinde Semender | 1879
+
+Gönül→ = ←Semender Teşbihine Örnekler
+Nâilî-i Kadîm, gönlünü sevgilinin aşkının ateş bahçesinde yaşayan semendere
+benzetir:
+Gönül kim şu‘lezâr-ı ışk-ı hûbâna semenderdür
+Şerâr-ı âhı dâğ-ı sîne-i hûrşîd-i mahşerdür
+
+(Nâilî, K. 127/1)
+
+Hecrî, (sevgilinin mum gibi yanan) yanağının mumunun kıvılcımı gönlüne
+ateş saldığından beri (gönlünün) mekânının her zaman ateş olduğunu söyler:
+Şerâr-ı şem‘-i ruhsâruñ salaldan göñlüme âteş
+Semender-vâr olmışdur mekânı her zamân âteş
+
+(Hecrî, G. 78/4)
+
+Fevzî, gönlünün bir aşkın semenderi olduğundan beri her parça ve bedenin
+aşkın ateş koru olduğunu söyler:
+Tâ oldı göñül semender-i ışk
+Her cüz vü ten oldı ahker-i ışk
+
+(Fevzî, Terkibbend 2/5/1)
+
+Sırrî Râhile Hanım, “Güzellik mumuna kanat yakan pervaneler can verse de,
+gönül semender gibi dönüp ateş içinde yanmayı öğretir.” der:
+Şem-i hüsne per yakan pervâneler cân verse de
+Dil semender tek dönüp nâr içre sûzân ögredir
+
+(Sırrî Râhile, G. 8/2)
+
+Abbas Vesîm, “Vesîm’in gönlü semender midir nedir bilmem, ayrılık ateşiyle
+taze hayat bulur.” diyerek gönlünü ateşte beslendiğine inanılan semendere benzetir:
+Hayât-ı tâze bulur âteş-i firâkınla
+Dil-i Vesîm semender midir nedir bilmem
+
+(Vesîm, G.181/5)
+
+Mostarlı Hasan Ziyâî, gönlünün maşukun gam ateşiyle çok eğlenip huzur
+bulduğunu, bu durumu müşahede edenlerin âşığı semender sanacağını söyler:
+Göñlümüz nâr-ı gamuñla çok safâlar kesb ider
+Anda bu hâlâtı görenler semender sandılar
+
+(Ziyâî, G. 115/3)
+
+Şeyh Gâlib, gönül yarasının Hindistan’daki Mecusi ateşi gibi yandığını ifade
+ederken ateşten bir eve benzettiği gönlünü semender yuvası olarak düşünmüştür:
+Gâlib yanıp yakılmadadır Hinduvânı dâğ
+Âteşgeh-i derûn semender yuvasıdır
+
+(Gâlib, G. 78/6)
+
+Muhibbî, aşka alıştığından/âdet edindiğinden beri gönlünün semenderler gibi
+aşk ateşi içine girdiğini ifade eder:
+Âteş-i ‘ışḳ içre dil girdi semenderler gibi
+Olalıdan bu Muḥibbî dostlar mu‘tâd-ı ‘ışḳ
+
+(Muhibbî, G. 1572/11)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1880
+
+Ecrî, semendere benzeyen gönlünün figanının arşa çıktığını, sevgilinin
+kapısının toprağında yakıcı ateşe hasret kaldığını dile getirir:
+Semender göñlümüñ devr-i fiġânı ‘arşa çıkmışdır
+Seniñ hâk-i deriñde âteş-i sûzâna hasretdir
+
+(Ecrî, G. 68/4)
+
+Emetullah, tecâhülâne bir üslupla çekinmeden kolunu kanadını gam ateşinde
+yaktığını, gönlünün semender mi yoksa pervâne mi olduğunu bilmediğini söyler:
+Yakar bâl ü perin gam âteşinde ictinâb itmez
+Semenderdir veyâhûd bilmezem pervânedir gönlüm
+
+(Emetullah, G. 182/2
+
+Aşkî ise, “(Ey sevgili!) Gönül kuşu yanağından geçip saçına yerleşti; o, âdeta
+kızgın ateşin ortasından geçmiş bir semenderdir.” der:
+Geçüp ruhsârdan zülfüñde câ kıldı göñül mürġı
+Semenderdür sanasın sahn-ı âteş-tâbdan geçmiş
+
+(Aşkî, G. 194/2)
+
+a.3) Saç → = ← Semender
+İncelediğimiz divan ve mecmularda geçen şiirlerde “zülf/saç” 17 şair
+tarafından toplam 22 kez semendere teşbih edilmiştir. Zülfü (saçı) semendere en
+çok teşbih eden şair Muhibbî’dir. Aşağıdaki grafikte kelimeyi semendere teşbih
+eden şairler ve teşbih sayıları yer almaktadır:
+Saç → = ← Semender
+Muhibbî
+Lamiî Çelebi
+Fakîh
+Beşiktaşlı Yahya
+Erzurumlu Zihnî
+Lâmî'i
+Balıkesirli Şefî'î
+Yakînî
+Sehi Bey
+Helâkî
+SâkÎ Beg
+Mesîhî
+Ahmed Paşa
+Resmî
+Said Giray
+Muvakkitzade Pertev
+Antepli Aynî
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+2
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+5
+
+Klasik Türk Şiirinde Semender | 1881
+
+Zülf (Saç)→ = ←Semender Teşbihine Örnekler
+Lâmiî Çelebi, sevgilinin kâkülünü yanağının bahçesinde bir semender kuşu
+olarak düşünmektedir. Ateş de ona (kâküle) gece gündüz yuva ve gıda olmuştur:
+Meger murg-ı semenderdür ruhun bâğında ol kâkül
+Ana her rûz u şeb olmış gıdâ vü âşiyân âteş
+
+(Lâmiî, G. 187)
+
+Şeyh Gâlib, dağınık saçların kuş yuvası kabul edilmesi geleneğini de
+hatırlatarak başındaki dağınık saçları semender yuvasına teşbih etmiştir:
+Jülîde mû başımda semender yuvasıdır
+Zann etme Kaysa sâye salan âşiyân gibi
+
+(Gâlib, K. 13/37)
+
+Muhibbî ise, sevgilinin sihirbaz zülfünü semendere teşbih ederek onun
+mekânının ateş olduğunu ve sevgilinin güzelliğinin şevkiyle ateşte yanmayacağını
+ifade eder:
+Aceb sehhârdur zülfüñ ki yanmaz şevk-i hüsnüñle
+Semender gibi olmışdur aña her dem mekân âteş
+
+(Muhibbî, G, 1456/2)
+
+Şefî¤î aşağıdaki beyitte yanan gönlündeki sevgilinin zülfünün hayalini, ateşi
+mesken tutmuş bir semendere teşbih eder:
+Hayâl-i zülfüñ ey dil-ber dil-i sûzânum içinde
+Sanasın kim semenderdür ki olmış âşiyân âteş
+
+(Şefî’î, PBM, 3585/3)
+
+Fakîh, “Sevgilinin yüzünün ateşi âşık için yasemindir; sevgilinin (yüzüne
+dökülen) misk kokulu kâkülünü görenler semender sandılar.” der:
+Nâr-ı ruhsârı halîlinüñ semendür ‘âşıka
+Sandılar k’olmış semender kâkül-i miskîn-i dost
+
+(Fakîh, K. 4/5)
+
+Helâkî, sevgilinin muma benzeyen yüzüne düşen, ateşperest kâkülünü ateş
+içinde yaşayan semendere teşbih eder:
+Şem-i ruhsâruñda yâruñ kâküli âteş-perest
+San semenderdür karâr itmiş derûn-i nârda
+
+(Helâki G.130/2)
+
+a.4) Kuş→ = ←Semender
+İncelenen divan ve mecmularda geçen şiirlerde “kuş” 11 şair tarafından
+toplam 18 defa semendere teşbih edilmiştir. Kuşu semendere en çok teşbih eden
+şair Şeyh Galib’dir. Şeyh Galib kuşu semendere 5 kez teşbih ederken Racûlî 3 kez,
+Hayâlî Beg ise 2 kez teşbih etmiştir. Diğer 8 şair ise kelimeyi birer kez semendere
+teşbih etmişlerdir. “Kuş”u semendere teşbih eden şairler aynı zamanda semenderi
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1882
+
+de aslında bir kuş olarak tasavvur eder. Aşağıdaki grafikte “kuş”u semendere teşbih
+eden şairler ve teşbih sayıları yer almaktadır:
+Kuş→ = ←Semender
+Şeyh Galib
+Racûlî
+Hayâlî Bey
+Muvakkitzade Pertev
+Mehmed Hakîm
+Lebîb
+Kâtib-zâde Sâkıb
+Hakîm Mehmed
+Emrî Murad
+Beyânî
+Ahmed Müsellem
+
+5
+3
+2
+1
+1
+1
+1
+1
+1
+1
+1
+
+Kuş→ = ←Semender Teşbihine Örnekler
+Şeyh Gâlib, bir kuş olarak tahayyül ettiği semendere seslenerek onun şairin ateş
+dolu gönlüne bir yara gibi yuva kurmasını ister. Şair yanan sinesini mekânı ateş
+olan semendere açmıştır:
+Ey mürg-i semender var ise tâkat-ı tâbiş
+Gel dâğ gibi sîne-i pür-sûza yer eyle
+
+(Gâlib, G. 299/3)
+
+Muvakkitzâde Pertev, şiddetli soğukları anlatırken ateşte yaşayan semender
+kuşunu titretecek derecede mübalağalı bir soğuktan bahseder:
+Bir sovuk var ki felekde meh-i enver ditirer
+Belki âteşde de ol mürg-i semender ditirer
+
+(Pertev, G.144/1)
+
+Emrî Murad, ateşe alışkanlığından dolayı semender kuşu gibi olduğunu, âh
+ettiği takdirde âhının ateşinden pervanenin kanadının incineceğini söyler:
+Ülfetim âteşle sanki ben semender murguyam
+Âh edersem incinir zannım per-i pervâneler
+
+(Emri, G. 213/2)
+
+Zâtî, sevgiliye gönderdiği dert dolu gönlünün yakıcı hislerini anlatan mektubu
+yazdıkça mektup kâğıdının yandığını, sevgiliye gönderdiği mektubu semender
+kanadından yapılmış yanmayan kâğıda yazmak istediğini ifade eder:
+Saña göndermege sûz-ı dil-i pür-derdi yazdukça
+Yanar nâme meger kâgıd düzem perr-i semenderden
+
+(Zâti, G. 1075/2)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1883
+
+Hayâlî Beg, aşk ateşinin yaktığı kor ateşe dönmüş bedeninin yakıcılığı ile
+gökyüzünde uçan kuşların piştiğini mübalağa ile ifade ederken ateşte yaşayan
+semender kuşunun başı üzerinde yuva yapmasını ister:
+O Mecnûnem ki sûzumdan felekde murg olur biryân
+Başım üzre semender murgu gelsin âşiyân etsin
+
+(Hayâlî, G. 444/2)
+
+Şeyh Gâlib, gönlündeki yaraları semender kuşuna benzetmiş bedenini ise
+semenderin yaşadığı ateşten ev olarak kabul eder:
+Ye's bir mihmân-ı gamdır hâtırım kâşânesi
+Dâğ bir mürg-i semenderdir ten âteş-hânesi
+
+(Gâlib, Terkibbend 11/1)
+
+a.5) Yanak→ = ←Semender
+Yanak→ = ←Semender
+Nâmûsî
+Hadîdî
+Es’ad-ı Bağdâdî
+Gedâyî
+Meylî
+Mehmed Adlî
+Mostarlı Hasan…
+
+1
+1
+1
+1
+1
+1
+1
+
+Mostarlı Hasan Ziyâî, sevgilinin yanağını semendere benzettiği şu beyitte
+şöyle der:
+Togrusı ruhsâruñ ey serv-i çemen
+Bâğ-ı hüsne yâ semender yâ semen
+
+(Ziyâî, G. 348/1)
+
+Meylî, sevgilinin zülfünü yılana teşbih ederken yüzündeki ayva tüylerini de
+semendere teşbih eder:
+Sanasın mârdur zülfüñ ki yüzüñ tâbıdur câyı
+Semenderdür yâhûd hattuñ ki kılmışdur duhân âteş
+
+(Meylî, PBM, 3582/3)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1884
+
+a.6) Ben→ = ←Semender
+Ben→ = ←Semender
+Necâti Beg
+
+1
+
+Aydınlı Visâlî
+
+1
+
+Edincikli Ravzî
+
+1
+
+Necâtî Bey, sevgilinin (ateş gibi yanan) yanağındaki siyah beni semendere
+
+teşbih ederek onun mekânın da semender gibi gece gündüz ateş olduğunu söyler:
+Yañaġuñ ẖāl-i hindūsı ne sāhirdür nigārā kim
+Semendervār olmışdur aña dün gün mekān āteş
+
+(Necâtî, G. 251/4)
+
+Ravzî ise sevgilinin yanağındaki beni semendere teşbih ederken aynı zamanda
+tecahül ve telmih de yaparak sevgilinin yüzündeki beni, atıldığı ateş gül bahçesine
+dönen Hz. İbrahim de benzetir:
+Hâl-i ruhsâruñ semenderdür ki girmiş âteşe
+Yâ Halîl’ullâhdur kim meskeni gülzârdur
+
+(Ravzî, G. 217/3)
+
+a.7) Pervane→ = ←Semender
+Pervane→ = ←Semender
+Hisâlî
+
+1
+
+Nebzî
+
+1
+
+Pervâne-semender benzerliğine vurgu yapan Hayâlî Bey, semenderlik yolunu
+tutan âşığın bu yolun inceliklerini pervaneden öğrenmesi gerektiği inancındadır.
+Şair, pervânenin, ateşten pervâsı olmayan bir varlık olduğu inancıyla semender
+olma yolundaki âşığa pervanenin rehber olabileceği düşüncesindedir.
+Âteş-i derdim Hayâlîdir zebânın söyleyen
+Gel beri pervâneden ögren semenderlik yolun
+
+(Hayâlî, G. 389/5)
+
+İddi¢ā idüp semenderlik yakarsın āteşe
+Perr ü bāliñ hayf ey pervāne uş olduñ remād
+
+(Nebzî, G. 160/6)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1885
+
+b) Semendere Bir Kez Teşbih Edilen Varlıklar
+
+Yapılan çalışmada semendere sadece bir kez teşbih edilen 19 farklı varlık tespit
+edilmiştir. Aşağıdaki listede semenderi bir varlığa sadece bir kez teşbih eden şairler
+ve teşbih ettikleri varlıklar görülür:
+Şairler
+
+Semenderin Bir Kez Teşbih Edildiği Varlık
+
+Arpaemînizâde Sâmî
+
+Şahıs
+
+Muvakkitzâde Pertev
+
+Bülbül
+
+Aşkî Mustafa
+
+Akıl
+
+Bâkî
+
+At
+
+Behiştî
+
+Şule
+
+Âşık Çelebi
+
+Gamze
+
+Ferdî Abdullah
+
+Mevlevîler
+
+Hikmetî
+
+Afitâb
+
+Tebrizli Kavsî
+
+Aşk
+
+Mezâkî
+
+Gaziler
+
+Muhibbî
+
+Mum
+
+Nâdirî
+
+Ney
+
+Nedîm
+
+Cebrail
+
+Hadîdî
+
+Ayva tüyleri
+
+Atâyî
+
+Balık
+
+Resmî
+
+Yanak
+
+Şeyh Gâlib
+
+Dergâh
+
+Şeyh Gâlib
+
+Âteşbâz
+
+Şeyh Gâlib
+
+Sürahi
+
+1. Şahıs → = ←Semender
+Arpaemînizâde Sâmî, bir manzum lugazda adını gizlediği varlığın semender gibi
+ateşin üzerine atladığını söyler:
+Bî-muhâbâ uçup gezer her bâr
+Nâra pertâb ider semendervâr
+
+(Sâmî, Lügaz 5)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1886
+
+2. Bülbül→ = ←Semender
+Muvakkitzâde Pertev, gül bahçesinin temmuz ayındaki sıcaklığını tasvir
+ederken (adeta ateşten bir bahçede) inleyen bülbüle semender rütbesinin
+yakışacağını dile getirir:
+Temûzuñ tâbişi şol mertebe düşmiş ki gülzâra
+Semender pâyesi şâyân virilse bülbül-i zâra
+
+(Pertev, G. 493/1)
+
+3. Akıl→ = ←Semender
+Aşkî, gönlünün Hz. Muhammed’in ayrılığının matemi ile ağlayıp inlediğini
+söylerken akıl kuşunun ayrılık ateşiyle semendere döndüğünü söyler:
+Mâtem-i hicr-i Muhammedle dilüm pür-zârdur
+Murġ-ı aķlum nâr-ı fürķatle semender-vârdur
+
+(Aşkî, Tercibend 18, V/1)
+
+4. At→ = ←Semender
+Bâkî, II. Selim’in cülusuna yazdığı kasidenin bir beytinde, hükümdarın atının
+kendini semender gibi ateş içine atıp yanacağını, nalının kıvılcımlarının ise örse
+değse onu su gibi eriteceğini dile getirir:
+Semenderveş semendüñ yanar od içre atar kendin
+Su gibi akıdur degse şirâr-ı na’li sindânı
+
+(Bâkî, K. 5/17)
+
+5. Şule→ = ←Semender
+Behiştî, mumun başında altın bir taç gibi duran alevi, gümüş bir servi üzerine
+konmuş semender şeklinde düşünür:
+Şu‘le kim şem‘üñ başında efser-i zer gibidür
+Bir gümüş serv üstine konmış semender gibidür
+
+(Behiştî, G. 100/1)
+
+6. Gamze→ = ←Semender
+Âşık Çelebi, aşk ateşiyle yanan gönlünün içinde sevgilinin gönül delen
+okunu/gamzesini görenlerin “semender ateşin ortasına yuva yapmış” diyeceklerini
+söyler:
+Dil-i sûzânum içre tîr-i dil-dûzun gören eydür
+Semenderdür miyân-ı âteş içre âşiyân itmiş
+
+(Âşık, G. 112/3)
+
+7. Mevlevî Dervişleri→ = ←Semender
+Ferdî, Mevlevîleri aşk ateşindeki semendere benzettiği beyitte şöyle der:
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1887
+
+‘Aşk âteşinde murg-ı semender sanır gören
+Çarh içre olsa pâ-yı rızâ Mevlevîleri
+
+(Ferdî, K. 5/12)
+
+8. Âfitâb→ = ←Semender
+
+Hikmetî, kendi ah ateşinin yakıcılığını mübalağa ile tasvir edip güneşin, ahının
+ateşinde yaşayan bir semender olduğunu, gökyüzünün kolu ve kanatları olsa
+(ahının ateşiyle) yanacağını söyler:
+Bâl u per olsaydı cisminde yanardı âsumân
+Sem-i nâr-ı âhuma olmış semender âfitâb
+
+(Hikmetî, K. 14/29)
+
+9. Aşk→ = ←Semender
+Tebrizli Kavsî, güzelliği yanan bir ateşe, aşkı da semendere teşbih ederek
+mecalsiz âşığın ateşinin vuslatla sönmeyeceğini dile getirir:
+Vasl ile âşıķ-ı bî-tâb odı teskîn tapmaz
+Hüsn bir âteş-i sûzân u semenderdür aşķ
+
+(Kavsî, G. 250/6)
+
+10. Gâzîler→ = ←Semender
+
+Mezâkî, aşağıdaki yer alan beyitte İslam dini uğruna savaşan gazileri
+semendere teşbih eder. “Savaş meydanında ateş çemberinde savaşan gaziler
+semender gibi ateş içinde yüzerlerdi.” ifadesiyle Müslüman askerlerin gaza
+meydanındaki çetin savaş şartlarında düşmanla nasıl şiddetli savaşa tutuştuklarını
+dile getirir:
+Âteşîn arṣa-i heycâda ġuzât-ı İslâm
+Hep şinâverlik iderlerdi semender-vârî
+
+(Mezâkî, K. 18/30)
+
+11. Mum→ = ←Semender
+
+Muhibbî, mumun sevgilinin yanaklarına dökülen siyah zülfü gibi ateşi vatan
+tutup (sanki) semender olduğunu söyler:
+Ruhlaruñ üstinde cânâ ol siyâh zülfüñ gibi
+Tutdı od içre vatan oldı semendervâr şem‘
+
+(Muhibbî, G. 1514/6)
+
+12. Ney→ = ←Semender
+Nadirî, neye üflenen nefesin yakıcılığını vurgulayarak şevk ateşini ufuklara
+saçan şeyin şafak değil gagasından ateş saçan muhabbet neyinin semender
+olduğunu söyler:
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1888
+
+Semenderdür mahabbet-nây ana minkâr-ı âteş-dem
+Şafak sanman ki saçdı nâr-ı şevki cümle âfâka
+
+(Nadirî, G. 77/1)
+
+13. Cebrâil→ = ←Semender
+Nadirî, Cebrail’i sevgilinin cemalinin aşk ateşindeki semendere teşbih ettiği
+beyitte şöyle der:
+Ey zülâl-i meşrebüñden reşḥa cūy-ı Selsebḭl
+Âteş-i ışḳ-ı cemâlüñde semender Cebra’il
+
+(Nadirî, G. 77/1)
+
+14. Ayva Tüyleri→ = ←Semender
+
+Hadîdî, sevgilinin yüzündeki ayva tüylerini semendere teşbih ederek öyle
+olmasaydı o ayva tüylerinin mekânının sevgilinin ateş misali yüzü olmayacağını
+söyler:
+Semender olmasa hatt-ı gubâruñ
+Muhakkak nâr olmazdı mekânı
+
+(Hadîdî, PBM, 7359/3)
+
+15. Balık→ = ←Semender
+Atâyî, zahide balıkları birer semender olan aşk denizine girmemesi konusunda
+uyarıda bulunarak denizin ateşten olduğunu, zahidin aşk deryasının yakıcılığına
+dayanamayacağını söyler:
+Sakın deryâ-yı ‘aşka girme sen döymezsin ey zâhid
+Semenderdür bunuñ mâhîleri ‘ummânı âteşdür
+
+(Atâyî, G. 58/4)
+
+16. Yanak→ = ←Semender
+Resmî, sevgiliye dudağındaki ve yanağındaki ayva tüylerini sorduğunu, onun
+da biri bahçede yasemin çiçeği, diğeri de ateşteki semenderdir diye cevap verdiğini
+söyler:
+Hatt u haddinden su’âl itdüm lebinden lutf ile
+Dir semendür sebzede bu ol semender nârda
+
+(Resmî, MN, 4035/2)
+
+17. Dergâh→ = ←Semender
+Şeyh Gâlib, Mevlevi dergâhına yüz süren dervişleri “âteşperestân” ifadesiyle
+tanımlamış ve dergâhı “mihr ü vefâ semenderhânesi” olarak nitelendirir:
+Ana ruh-sûdedir âteş-perestân-ı mahabbet hep
+Semender-hâne-i mihr ü vefâdır matbah-ı Monlâ
+
+(Gâlib, K. 7/3)
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1889
+
+18. Âteşbâz→ = ←Semender
+Şeyh Gâlib, şu beyitte ise aşk ocağının pîr-i âteşbâzını (ateşbazların ustası,
+hocası, kurucusu) semendere teşbih eder:
+Nev-niyâzân-ı nemend-pûşânıdır pervâneler
+Aşk ocağının semender pîr-i âteşbâzıdır
+
+(Gâlib, G 55/5)
+
+19. Sürâhi→ = ←Semender
+Şeyh Gâlib, semender yaradılışlı şarap sürahisinin/testisinin (içinde sürekli
+alev kırmızısı şarap bulunduğundan) yakut renkli alevlere doyduğunu söyler:
+Bat-ı sahbâ semender-meşreb olmuş
+Ki oldu şu¤le-i yâkûta sîrâb
+
+(Gâlib, G. 15/5)
+
+Sonuç
+Bu çalışmada elde edilen veriler, neşri yapılmış ya da lisansüstü tez olarak
+çalışılmış divanlar ile nazire mecmularının taranmasıyla elde edilmiştir. 14.-19.
+yüzyıllar arasında yazılan ancak çalışmada ulaşılamayan divan, mesnevi ya da
+mecmularda da semender kelimesinin geçmiş olması ihtimal dâhilindedir. Ancak
+yeni tespit edilecek tanıklar semenderin kullanım sayısını değiştirse de teşbih
+unsuru olarak kullanımıyla ilgili verilerin anlamlı bir farklılık oluşturmayacağı
+kanaatindeyiz.
+İnceleme sonucunda, şiirlerinde semender kelimesini zikreden Osmanlı
+dönemi şairlerinden tespit edebildiğimiz toplam 173 şairin %92’si semenderi
+sözlüklerde geçen yaygın anlamına uygun olarak ateşte yanmayan efsanevi bir
+hayvan olarak tasavvur ettikleri görülmüştür. Şairler, semenderin ateşte yaşadığı,
+ateşten etkilenmediği, gıdasının ateş olduğu, ateşten can bulduğu inancındadırlar.
+Semenderi kuş olarak tasavvur eden toplam 35 şair de aslında hayal ettikleri bu
+canlının ateşte yanmadığı inancındadır.
+Araştırma sonucunda semenderin Anadolu sahası Türk şiirinde 14. yüzyıldan
+19. yüzyıla kadar divan tertip eden ya da yukarıda adı geçen nazire mecmualarında
+şiirleri bulunan şairler tarafından süreklilik arz edecek şekilde zikredildiği
+görülmüştür. 16. yüzyıl semender kelimesinin kullanımının şair sayısı ve kullanım
+sıklığına göre en yüksek rakama ulaştığı yüzyıldır.
+Semender kelimesinin şairler tarafından kullanım sıklığına bakıldığında
+kelimeyi en çok kullanan ilk beş şairin kullanım sayısına göre sıralanışı şu
+şekildedir: Aşkî Mustafa, Muhibbî, Zâtî, Şeyh Gâlip, Sümbülzâde Vehbî.
+Semenderin kullanım sıklığı sıralaması incelendiğinde tüm yüzyıllar içinde en çok
+kullanan şairin 19. yüzyıl şairlerinden Aşkî Mustafa (17) olduğu görülmüştür.
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1890
+
+Şiirlerinde semenderi 10 kez ve üzeri zikreden şairler Muhibbî (16), Zâtî (15), Şeyh
+Gâlib (13), Sünbülzâde Vehbî (10) ve Antebli Aynî (10)’dir. Bu veriler dikkate
+alındığında, semender kelimesinin klasik şiir dilinde yaygın kullanımı olan bir
+kelime olmadığı, kelimeyi kullanan şairlerin yarısının sadece bir kez kullandığı ve
+sadece 5-6 şair tarafından yaygın kullanıldığı sonuçlarına ulaşmak mümkündür.
+Semenderin teşbih unsuru olarak kullanımı incelendiğinde semendere en çok
+teşbih edilen varlığın “âşık” olduğu görülmüştür. Semenderin teşbih unsuru olarak
+kullanımında “âşık”ın semendere teşbih edilme sayısı 132’dir. “Âşık”ı semendere
+teşbih eden şair sayısı ise 80’dir. “Âşık”ı semendere en çok teşbih eden şairler 7
+teşbihle Zâtî ve 6 teşbihle Aşkî Mustafa’dır. Semender kelimesinin yer aldığı divan
+ve nazire mecmualarında “gönül”ün semendere teşbih edilmesi teşbih sayısı
+bakımından ikinci sıradadır. Şiirlerinde semender kelimesi geçen 173 şairden 56’sı
+“gönül”ü semendere teşbih etmiştir. 56 şairin çoğunluğunun bir kez teşbih ettiği
+“gönül”ün toplam teşbih sayısı ise 77’dir. “Gönül”ü semendere en çok teşbih eden
+şair Aşkî Mustafa (5)’dır. Âşık ve gönül dışında semendere birden çok kez teşbih
+edilen varlıklar ise zülf/saç, kuş, yanak, ben ve pervanedir.
+Kısaltmalar ve İşaretler
+→
+
+: Benzeyen
+
+←
+
+: Benzetilen
+
+G.
+
+: Gazel
+
+h.-H.
+
+: Hicri
+
+K.
+
+: Kaside
+
+M.
+
+: Miladi
+
+MN
+
+: Mecma¤u’n-nezâ¢ir
+
+PBM
+
+: Pervâne Bey Mecmuası
+
+Ş. Yahyâ
+
+: Şeyhüslisam Yahyâ
+
+Trhsz
+
+: Tarihsiz
+
+Trkb
+
+:Terkîbbent
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1891
+
+Kaynaklar
+Açıl, B. (2005). Sırrî Râhile Hanım ve Divânı. [Yayımlanmamış yüksek lisans tezi].
+Boğaziçi Üniversitesi.
+Admış, A. (2007). Âkif Divanı (İnceleme-Transkripsiyonlu metin).
+[Yayımlanmamış yüksek lisans tezi]. Sivas Cumhuriyet Üniversitesi.
+Ahmed Vefîk Paşa (1293/1876). Lehçe-i Osmânî. Tabhâne-i Âmire.
+Ak, C. (1987). Muhibbî Divanı-İzahlı Metin-Kanuni Sultan Süleyman. Kültür ve
+Turzim Bakanlığı Yayınları.
+Akarsu, K. (2010). Rumelili Za'ifî Divanı. Berikan Yayınevi.
+Akkaya, H. (1994). Nevres-i Kadim ve Türkçe Divanı. [Yayımlanmamış doktora
+tezi] Marmara Üniversitesi.
+Akkuş, M. (2018).
+divani.html.
+
+Nef’î
+
+Dîvanı.
+
+https://ekitap.ktb.gov.tr/TR-206118/nefi-
+
+Akkuş, Y. (2010). Benderli Cesârî’nin (Ölüm: 1829) Dîvânı ve Dîvânçesi (İncelemeTenkitli Metin). [Yayımlanmamış doktora tezi]. Marmara Üniversitesi.
+Aksoyak, İ. H. (2018). Gelibolulu Mustafa Âlî Dîvânı. https://ekitap.ktb.gov.tr/TR208602/gelibolulu-mustafa-ali-divani.html
+Aktaş, A. (1997). Yetîm Divanı: inceleme-metin. [Yayımlanmamış yüksek lisans
+tezi]. Ankara Üniversitesi.
+Aktaş, Y. (2010). Mehmed Nebil ve Divanı. [Yayımlanmamış yüksek lisans tezi].
+Gazi Üniversitesi.
+Albayrak, Ç. (2009). Ağazâde Örfî Divânı (Transkripsiyonlu Metin Aktarımı).
+[Yayımlanmamış yüksek lisans tezi]. Trakya Üniversitesi.
+Ali Ekber Dihhudâ (H. 1385/M. 1998). Lugatnâme (Editörler: Muhammed Muîn,
+Cafer Şâhidî), Müessese-i İntişārāt u Çāp-ı Dānişgāh-ı Tahrān.
+Ali Seydî Bey (1330/1911). Resimli Kâmûs-ı Osmânî. Matbaa-i Kütüphâne-i Cihân.
+Alkan, A. (2015 ). Fahrî-i Celveti: Hayatı, Eserleri ve Divanının Tenkitli Metni.
+[Yayımlanmamış yüksek lisans tezi]. Marmara Üniversitesi.
+Aras, M. (2010). Mu’în Divanı İnceleme-Metin. [Yayımlanmamış yüksek lisans
+tezi]. Ankara Üniversitesi.
+Arı, A. (2018). Sâkıb Dede ve Dîvânı. https://ekitap.ktb.gov.tr/TR-215340/sakibdede-divani.html
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1892
+
+Arslan, M. (2018). Leylâ Hanım Dîvânı, https://ekitap.ktb.gov.tr/TR-215361/leylahanim-divani.html
+Aslan, Ü. (2017). Nehcî Dîvânı. https://ekitap.ktb.gov.tr/TR-194366/nehcidivani.html
+Atacan, M. (2014 ). Hafız Mehmet Tahir Efendi Divanı (İnceleme-Metin).
+[Yayımlanmamış yüksek lisans tezi]. Ankara Üniversitesi.
+Awad İ. M. L. (2010). Ferîdî ve Divânı, İnceleme-Metin. [Yayımlanmamış doktora
+tezi]. Gazi Üniversitesi.
+Ay, S. (1999). Ahmed Sadıkî-Zîver Paşa Divanı. [Yayımlanmamış yüksek lisans
+tezi]. Fırat Üniversitesi.
+Ayan, H. (1981). Cevrî: Hayâtı, edebî kişiliği, eserleri ve divanının tenkitli metni.
+Atatürk Üniversitesi Yayınları.
+Aydemir, Y. (2017). Edincikli Ravzî Dîvânı. https://ekitap.ktb.gov.tr/TR196580/ravzi-divani.html
+Aydemir, Y. (2018). Vizeli Ramazan Behiştî Dîvânı. https://ekitap.ktb.gov.tr/TR199899/vizeli-ramazan-behisti-divani.html
+Aydemir, Y. ve Çeltik, H. (2017). Selanikli Meşhurî
+https://ekitap.ktb.gov.tr/TR-196428/selanikli-meshuri-divani.html
+
+Dîvânı.
+
+Aydur, M. (2011). Mehemmed Dîvânı (İnceleme-Metin). [Yayımlanmamış yüksek
+lisans tezi]. Ordu Üniversitesi.
+Aynur, H. (1999). 15. yy. Şairi Çâkerî ve Dîvânı: İnceleme-tenkitli metin. Yenilik
+Basımevi.
+Bakht, K. (2011). Seyyid Burhân Divanı ve İncelenmesi. [Yayımlanmamış yüksek
+lisans tezi]. İstanbul Üniversitesi.
+Baltalı, S. ( 2016) Mehmed Adlî Divanı. [Yayımlanmamış yüksek lisans tezi].
+Kırklareli Namık Kemal Üniversitesi.
+Başpınar, F. (2008). 17. yüzyıll Şairlerinden Beyânî’nin Divan’ı: İnceleme-Tenkitli
+Metin. [Yayımlanmamış doktora tezi]. Marmara Üniversitesi.
+Başpınar, F. (trhsz). Beyânî, Dîvân. https://ekitap.ktb.gov.tr/TR-78363/beyanidivani.html
+Bayrak, C. (2017). Sehâbî Dîvânı. https://ekitap.ktb.gov.tr/TR-194338/sehabidivani.html
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1893
+
+Bayram, S. (2006). Azbi Baba, hayatı, sanatı, eserleri, Divan'ı (inceleme-tenkitli
+metin). [Yayımlanmamış yüksek lisans tezi]. Trakya Üniversitesi.
+Bayram, Y. (2008). Amasya’ya Vâli Osmanlı’ya Padişah Bir Şair: Adlî [Hayatı,
+şahsiyeti, şairliği, dîvânının tenkidli metni], Amasya Valiliği Yayınları.
+Bayram, Y. (2018).
+divani.html
+
+Adli
+
+Divanı,
+
+https://ekitap.ktb.gov.tr/TR-215522/adli-
+
+Bektaş,
+E.
+(2017).
+Muvakkit-zâde
+Muhammed
+Pertev
+Dîvânı.
+https://ekitap.ktb.gov.tr/TR-195828/muvakkit-zade-muhammed-pertevdivani.html
+Bıyık Yapa, M. (2007). Aşkî Mustafa Dîvânı, Edisyon Kritik. [Yayımlanmamış
+doktora tezi]. Marmara Üniversitesi.
+Bilkan, A. F. (1997). Nâbî Dîvânı. Millı̂ Eğitim Bakanlığı Yayınları.
+Cersel, F. (2009). Mehmed Sâkir Gâlib Efendi Dîvânı (İnceleme-Metin).
+[Yayımlanmamış yüksek lisans tezi]. Sakarya Üniversitesi.
+Ceylan, Ö. (2007). Kuşlar Dîvânı: Osmanlı şiir kuşları. Kapı Yayınları.
+Çakırcı, M. (2006). Hakîm Mehmet Efendi Divanı (inceleme-transkripsiyonlu
+metin). [Yayımlanmamış yüksek lisans tezi]. Sivas Cumhuriyet Üniversitesi.
+Çavuşoğlu, H. (2012). Nâfi Arab Tâhir Efendi-Zâde’nin Hayatı, Edebî Kişiliği ve
+Divanı (İnceleme-Transkripsiyonlu Metin). [Yayımlanmamış doktora tezi].
+Atatürk Üniversitesi.
+Çavuşoğlu, M. (1979). Amrî Divan, Tenkidli basım. İstanbul Üniversitesi Edebiyat
+Fakültesi Yayınları.
+Çavuşoğlu, M. (1982). Helâkî Divanı. İstanbul Üniversitesi Edebiyat Fakültesi
+Yayınları.
+Çolak, M. (2010). Emetullâh Hanım Dîvânı, İnceleme-Metin. [Yayımlanmamış
+yüksek lisans tezi]. Kütahya Dumlupınar Üniversitesi.
+Demiralay, M. (2007). Hüdayi-i Kadim (16.yy) ve Divanı: İnceleme-Tenkidli
+Metin. [Yayımlanmamış yüksek lisans tezi]. Süleyman Demirel Üniversitesi.
+Demircioğlu-Gençtürk, T. (2002). Cemili Divanı İnceleme-Metin-Sözlük.
+[Yayımlanmamış doktora tezi]. Marmara Üniversitesi.
+Devrim, M. (2011) Ecrî Divanı, İnceleme-Metin. [Yayımlanmamış yüksek lisans
+tezi]. Trakya Üniversitesi.
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1894
+
+Doğan, F. (2015). Mestî Divanı. Metin-İnceleme. [Yayımlanmamış yüksek lisans
+tezi]. Gazi Üniversitesi.
+Doğan, M. N. (2015). Fatih Divanı ve Şerhi. Türkiye Yazma Eserler Kurumu ve
+Başkanlığı.
+Doğan, M. N. (trhsz). Avnî (Fâtih) Divanı. https://ekitap.ktb.gov.tr/TR-78360/avnifatih-divani.html
+Doğramacı, N. (2007). Fevzî Dîvânı (17. yy): Metin-Biçimsel ve Sevgilinin Güzellik
+Unsurları ve Âsıga Etkisi Üzerine İçerik İncelemesi. [Yayımlanmamış yüksek
+lisans tezi]. Boğaziçi Üniversitesi.
+Dönmez Parlak, B. (2006). Eğirdirli Şeyhi Mehmed Efendinin Divanı'nın
+İncelenmesi. [Yayımlanmamış yüksek lisans tezi]. İstanbul Üniversitesi.
+Duman, M. (2010).Trabzonlu Emin Hilmi Hayatı-Eserleri-Edebi Kişiliği ve
+Divanının Metni. [Yayımlanmamış yüksek lisans tezi]. Gazi Üniversitesi.
+Ebûzziyâ Mehmed Tevfik (1306-1308 / 1891). Lugat-i Ebûzziyâ. Matbaa-i Ebûzziyâ.
+Eğri, A. (2006). 17.yy. Şairlerinden Hikmetî ve Divanı. [Yayımlanmamış yüksek
+lisans tezi]. Gazi Üniversitesi.
+Ercan, Ö. (2008). Peşteli Hisâlî Dîvânı. Gaye Kitabevi.
+Erdoğan, M. (2008). Kabûlî İbrahim Efendi, Hayatı, Edebî Kişiliği ve Divanı
+(İnceleme-Tenkitli Metin-Dizin). [Yayımlanmamış doktora tezi]. Gazi
+Üniversitesi.
+Erdoğan, M. (2018). Bursalı Rahmî Dîvânı. https://ekitap.ktb.gov.tr/TR195643/bursali-rahmi-divani.html
+Ergin, M. (1982). Kadı Burhaneddin Divanı. İstanbul Üniversitesi Edebiyat
+Fakültesi Yayınları.
+Erişen Yazıcı, G. (2017). Kâmî Dîvânı. https://ekitap.ktb.gov.tr/TR-195832/kamidivani.html
+Erol, E. (1994). Sükkerî: Hayatı, edebî kişiliği ve divanı. Atatürk Kültür Merkezi
+Yayınları.
+Ersoy, E. (2013). Azizî Divanı. Akademi Titiz Yayınları.
+Ersoy, E. ve Ay, Ü. (2017). Hoca Dehhânî Dîvânı. TÜBA Yayınları. Türk-İslam
+Bilim Kültür Mirası Dizisi: 7.
+Erünsal, İ. E. (2018). Tâcî-zâde Ca‘fer Çelebi Dîvânı. https://ekitap.ktb.gov.tr/TR211662/taci-zade-cafer-celebi-divani.html
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1895
+
+Güncel Türkçe Sözlük (2021, 10 Ekim). https://sozluk.gov.tr/ Türk Dil Kurumu.
+Gürgendereli,
+M.
+(2017).
+Mostarlı
+Hasan
+Ziyâ’î
+Divânı.
+https://ekitap.ktb.gov.tr/TR-196834/mostarli-hasan-ziyai-divani.html
+Güzel, B. (2017). Safvetî Mehmet Çelebi Dîvânçesi. https://ekitap.ktb.gov.tr/TR209730/safveti-mehmet-celebi-divancesi.html
+Harmancı, M. E. (2017). Süheylî
+194364/suheyli-divani.html
+
+Dîvânı.
+
+https://ekitap.ktb.gov.tr/TR-
+
+Hassandoust, M. (H.1395). Ferheng-i Rîşe-Şenâhtî Zebân-ı Fârisî [An Etymological
+Dictionary of the Persian Language](C. 1-2-3-4-5), Tehran: The Academy of
+Persian Language and Literature.
+Hatipoğlu, G. F. (2010). Seyrî ve Divanı (İnceleme-metin). [Yayımlanmamış yüksek
+lisans tezi]. Gazi Üniversitesi.
+Hüseyin Remzi (1305/1888). Lugat-i Remzi. Matbaa-i Hüseyin Remzî.
+İpekten, H. (2019). Nâ'ilî-i Kadîm
+247199/naili-i-kadim-divani.html
+
+Divanı.
+
+https://ekitap.ktb.gov.tr/TR-
+
+Kadıoğu, İ. (2008). Es’ad-ı Bağdâdî Dîvânı. Özserhat Yayıncılık.
+Kaplan, H. (2008). Mustafa Refik ve Divanı. [Yayımlanmamış yüksek lisans tezi].
+Gazi Üniversitesi.
+Kaplan, Y. (2012). Fevzî
+divani.html
+
+Dîvânı. https://ekitap.ktb.gov.tr/TR-78371/fevzi-
+
+Karacan, T. (1991). Bosnalı Alâeddin Sâbit, Divan. Sivas Cumhuriyet Üniversitesi
+Yayınları.
+Karakaş, E. (2008). Racûlî, Hayatı, Edebi Kişiliği ve Divanı. Yüksek Lisans Tezi.
+Afyonkarahisar: Afyon Kocatepe Üniversitesi.
+Karakoyun, E. (2007). Zaik Divanı (Metin, 1b-65a). Yüksek Lisans Tezi. Konya:
+Selçuk Üniversitesi.
+Karaköse, S. (2017). Nev’î-zâde Atâyî Dîvânı. https://ekitap.ktb.gov.tr/TR194357/nevi-zade-atayi-divani.html
+Karaköse, S. (2017). Sa’id Giray Dîvânı. https://ekitap.ktb.gov.tr/TR-194362/saidgiray-divani.html
+Karaörs, M. (2006). Nevâdirü'ş-Şebâb. Türk Dil Kurumu Yayınları.
+Kavruk, H. (2001). Şeyhülislâm Yahyâ Dîvânı, Tenkitli metin. Milli Eğitim Bakanlığı
+Yayınları.
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1896
+
+Kavruk, H. (trhsz). Şeyhülislâm Yahyâ Dîvânı. https://ekitap.ktb.gov.tr/TR78405/seyhulislam-yahya-divani.html
+Kaya, B. A. (2017). Azmizâde Hâletî Dîvânı. https://ekitap.ktb.gov.tr/TR196456/azmizade-haleti-divani.html
+Kazan Nas, Ş. (2018). Celîlî Dîvânı. https://ekitap.ktb.gov.tr/TR-211944/celilidivani.html
+Kazan, Ş. (2011). Celîlî Dîvânı. Fakülte Kitabevi Yayınları.
+Kesik, B. (2018). Cenâbî Dîvânı. https://ekitap.ktb.gov.tr/TR-215706/cenabidivani.html
+Kestelli R. N. (1346 / 1927). Yeni Resimli Türkçe Kâmûs. Ahmed Kâmil Matbaası.
+Kılıç, F. (2017). Âşık Çelebi Dîvânı. https://ekitap.ktb.gov.tr/TR-195827/asikcelebi-divani.html
+Kılıç, F. (2018). Şâhî Dîvanı. https://ekitap.ktb.gov.tr/TR-212025/sahi-divani.html
+Kırbıyık, M. (2017). Kâtib-zâde Sâkıb Dîvânı. https://ekitap.ktb.gov.tr/TR199763/katib-zade-sakib-divani.html
+Kızıltaş, M. (2014). Besnili Lüzûmî Dîvânı Tahlil - Transkripsiyonlu Metin - Dizin.
+[Yayımlanmamış yüksek lisans tezi]. Bingöl Üniversitesi.
+Koç, N. (2006). Hafız Mehmed Sebâtî Divanı'nın transkripsiyonlu metni ve
+incelenmesi. [Yayımlanmamış yüksek lisans tezi]. Sakarya Üniversitesi.
+Koçak, F. (2006). Fâik Mahmud ve Divanı. [Yayımlanmamış yüksek lisans tezi].
+Gazi Üniversitesi.
+Köksal, M. F. (hzl.) (2017). Edirneli Nazmî, Mecma¤u’n-Nezâ’ir.
+https://ekitap.ktb.gov.tr/TR-195954/mecmaun-nezair-edirneli-nazmi.html
+Kurtoğlu, O. (2017). Diyarbakırlı Lebîb Dîvânı. https://ekitap.ktb.gov.tr/TR194358/diyarbakirli-lebib-divani.html
+Kurtoğlu, O. (2017). Zâtî Dîvânı. https://ekitap.ktb.gov.tr/TR-195592/zatidivani.html
+Kurtoğlu, Orhan (2018). Bosnalı Âsım Dîvânı. https://ekitap.ktb.gov.tr/TR208667/bosnali-asim-divani.html
+Kutlar Oğuz, F. S. (2017). Arpaemîni-zâde Mustafâ Sâmî
+https://ekitap.ktb.gov.tr/TR-196126/arpaemini-zade-mustafa-samidivani.html
+
+Dîvânı.
+
+Küçük, S. (trhsz). Bâkî Dîvânı. https://ekitap.ktb.gov.tr/TR-78361/baki-divani.html
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1897
+
+Külekçi, N. (1985). Ganî-zade Nâdirî: Hayatı, Edebi Kişiliği, Eserleri, Divanı ve
+Şehnâme'sinin Tenkidli Metni. [Yayımlanmamış doktora tezi]. Atatürk
+Üniversitesi.
+Levend, Â. S. (1984). Divan Edebiyatı (Kelimeler ve Remizler, Mazmunlar ve
+Mefhumlar). Enderun Kitabevi.
+Macit, M. (2017). Nedîm Dîvânı. https://ekitap.ktb.gov.tr/TR-196897/nedimdivani.html
+Macit, M. (2018). Erzurumlu Zihnî Dîvânı. https://ekitap.ktb.gov.tr/TR208572/erzurumlu-zihni-divani.html
+Mehmed Salîhî Bey (1313/1895). Kâmûs-ı Osmânî. Mahmud Bey Matbaası.
+Memiş, N. (2008).
+Ferdî Abdullah Efendi ve Divanı (İnceleme-Metin)
+[Yayımlanmamış yüksek lisans tezi]. Manisa Celal Bayar Üniversitesi.
+Mengi, M. (1995, 2014). Mesîhî Dîvânı. Atatürk Kültür, Dil ve Tarih Yüksek
+Kurumu Atatürk Kültür Merkezi Yayınları.
+Mermer, A. (1994). Mezâkî: Hayatı, Edebî Kişiliği ve Divanı'nın Tenkidli Metni.
+Ankara: Atatürk Kültür, Dil ve Tarih Yüksek Kurumu Atatürk Kültür
+Merkezi Yayınları.
+Mermer, A. (1997). Karamanlı Aynî ve Dîvânı. Akçağ Yayınları.
+Mermer, A. (2004). Kütahyalı Rahîmî ve Dîvânı. Sahaflar Kitap Sarayı.
+Mermer, A. (2006). Türkî-i Basit ve Aydınlı Visâlî Dîvânı. Akçağ Yayınları.
+Mert, A. (2012). Nâkâm Divanı (İnceleme-Tenkitli Metin). [Yayımlanmamış
+yüksek lisans tezi]. Sivas Cumhuriyet Üniversitesi.
+Muallim Naci (1312/1894). Lugat-i Nâcî.
+Nar, O. (2007). Seyhî, Hayatı ve Divanı’nın Tenkitli Metni. [Yayımlanmamış
+yüksek lisans tezi]. Selçuk Üniversitesi.
+Okçu, N. (trhsz). Şeyh Galib Dîvânı. https://ekitap.ktb.gov.tr/TR-78404/seyh-galibdivani.html
+Okmak, Ö. (2008). Ahmed Bâdî Dîvânı (Metin-İnceleme). [Yayımlanmamış
+yüksek lisans tezi]. Trakya Üniversitesi.
+Okumuş, S. (2007). Nebzî Divanı (İnceleme-Metin). [Yayımlanmamış doktora
+tezi]. Selçuk Üniversitesi.
+Onay, A. T. (2000). Eski Türk Edebiyatında Mazmunlar ve İzâhı. (hzl. Cemal
+Kurnaz). Akçağ Yayınları.
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1898
+
+Ömer b. Mezîd (1982). Mecmûatü’n-nezâir. (Haz. Mustafa Canpolat). Türk Dil
+Kurumu Yayınları.
+Özdemir, F. M. (2015). Servet Dîvânı (İnceleme – Metin). [Yayımlanmamış yüksek
+lisans tezi]. İstanbul Üniversitesi.
+Öztahtalı, İ. İ. (2009). Bursalı Emrî Murad Efendi ve Divanı. [Yayımlanmamış
+doktora tezi]. Gazi Üniversitesi.
+Özyıldırım, A. E. (trhsz). Hamdullah Hamdî Divanı. https://ekitap.ktb.gov.tr/TR78375/hamdullah-hamdi-divani.html
+Pala, İ. (1995). Ansiklopedik Divan Şiiri Sözlüğü. Akçağ Yayınları.
+Pervâne b. Abdullah (2017). Pervâne b. Abdullah, Pervâne Bey Mecmuası. (Haz.
+Kamil Ali Gıynaş)
+https://ekitap.ktb.gov.tr/TR-194492/pervane-beymecmuasi.html
+Poyraz, Y. (2008). Seyyid Mehmed Efendi (Hâkîm) Yaşamı, Edebî Kişiliği ve Dîvânı
+Üzerinde Bir Arastırma (İnceleme-Metin). [Yayımlanmamış doktora tezi].
+Ondokuzmayıs Üniversitesi.
+Rahimî, F. (2011). Kavsî Divanının Dil İncelemesi. [Yayımlanmamış doktora tezi].
+İstanbul Üniversitesi.
+Sağlam, H. (2011). Abdî-i Karahġsârî ve Divanı. [Yayımlanmamış yüksek lisans
+tezi]. Gazi Üniversitesi.
+Saraç, M. A. Y. (2002). Emrî Divanı. Eren Kitapevi.
+Saraç, M. A. Y. (trhz ). Emrî Dîvânı. https://ekitap.ktb.gov.tr/TR-78368/emridivani.html
+Selçuk, E. (2007). Hasmi Divanı (İnceleme-Metin). [Yayımlanmamış doktora tezi].
+Selçuk Üniversitesi.
+Serin, S. (2007). Diyarbakırlı Ali Emirî Divanı, İnceleme-Metin. [Yayımlanmamış
+yüksek lisans tezi] Gaziantep Üniversitesi.
+Sezen, G. (2010). Mustafa Sıdkî Efendi Dîvânı, Transkripsiyonlu Metin-Edebî
+İnceleme. [Yayımlanmamış yüksek lisans tezi]. İstanbul Üniversitesi.
+Sona, İ. (2006). Hidayet Çelebi ve Divanı. [Yayımlanmamış yüksek lisans tezi]. Gazi
+Üniversitesi.
+Sünger, E. (2004). Fakîh: Hayatı, Eserleri, Divanı. [Yayımlanmamış yüksek lisans
+tezi]. Gazi Üniversitesi.
+Şemseddin Sâmî (1317-1318/1899-1900). Kâmûs-ı Türkî. İkdam Matbaası.
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+Klasik Türk Şiirinde Semender | 1899
+
+Şengün, N. (2006). Nazîr İbrahim ve divanı (metin-muhteva-tahlil).
+[Yayımlanmamış doktora tezi]. Dokuz Eylül Üniversitesi.
+Şentürk, D. (2010). 19. yüzyıl Şairlerinden Hatice Nakiyye Hanım’ın Divanı’nın
+Transripsiyonlu Metni ve İncelenmesi. [Yayımlanmamış yüksek lisans tezi.
+İstanbul Üniversitesi.
+Şükün, Z. (1984). Farsça-Türkçe Lûgat: Gencinei Güftar Ferhengi Ziya, Milli Eğitim
+Basımevi.
+Tanrıbuyurdu, G. (2006). Eşref Paşa divanı (inceleme-transkripsiyonlu metinnesre çeviri). [Yayımlanmamış yüksek lisans tezi]. Kocaeli Üniversitesi.
+Tarlan, A. N. (1966). Ahmed Paşa Divanı. Milli Eğitim Basımevi.
+Tarlan, A. N. (1970). Zâtî Divanı, Gazeller Kısmı II. Cilt, İstanbul Üniversitesi
+Edebiyat Fakültesi Yayınları.
+Tarlan, A. N. (1992). Hayâlî Beg Divanı. Akçağ Yayınları.
+Taş,
+
+H. (2017).
+divani.html
+
+Vahyî
+
+Dîvânı.
+
+https://ekitap.ktb.gov.tr/TR-194335/vahyi-
+
+Taşdelen, İ. (2014). Şevkî Hasan Tahsin İstanbulî Divanı (Transkripsiyonlu Metin
+ve Sadeleştirme). [Yayımlanmamış doktora tezi]. Atatürk Üniversitesi
+Taşkın, G. (2009). Çorumlu Zarîfî Dîvanı: İnceleme-Edisyon Kritikli Metin.
+[Yayımlanmamış doktora tezi]. Marmara Üniversitesi.
+Tombul, E. (2014). Beşiktaşlı Yahya Efendi Divanı: Metin ve İnceleme.
+[Yayımlanmamış yüksek lisans tezi]. Boğaziçi Üniversitesi.
+Toprak, Z. (2006). Ahmet Müsellem Efendi ve Divan'ın Tenkitli Metni.
+[Yayımlanmamış yüksek lisans tezi].-Sakarya Üniversitesi.
+Torun, E. (2018). 19. yüzyıll Şairi Süleyman Fehim Efendi Divanı: İnceleme, Metin
+ve Dizin. [ Yayımlanmamış yüksek lisans tezi] Boğaziçi Üniversitesi.
+Tosun, S. (2011). Hâfız Ahmed Paşa Divanı ve İncelenmesi. [Yayımlanmamış
+yüksek lisans tezi]. İstanbul Üniversitesi.
+Toven, M. B. (1346 / 1927). Yeni Türkçe Lugat. Evkâf-ı İslâmiye Matbaası.
+Tuğluk, İ. H. (2007). Abbas Vesîm Efendi; Hayatı, Eserleri, Edebî Kişiliği,
+Divanı’nın Tenkitli Metni ve İncelemesi. [Yayımlanmamış doktora tezi]. Gazi
+Üniversitesi.
+Tunç, A. T. (2017). Şânî Divanı (İnceleme-Metin). [Yayımlanmamış yüksek lisans
+tezi]. Çukurova Üniversitesi.
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December s/p. 1861-1900
+
+Mehmet ÖZDEMİR | 1900
+
+Türkyılmaz, N. (2014). Kemahlı İbrahim Hakkı ve Dîvânı. [Yayımlanmamış yüksek
+lisans tezi]. Uşak Üniversitesi.
+Uysal, A. (2010). Hâfız Ahmed Paşa Dîvânı. [Yayımlanmamış yüksek lisans tezi].
+Gazi Üniversitesi.
+Uzun, S. (2011). Üsküdarlı Aşkî Divanı Tenkitli Metin, Nesre Çeviri ve 16. yy.
+Osmanlı Hayatının Divandaki Yansımaları. [Yayımlanmamış yüksek lisans
+tezi]. İstanbul Üniversitesi.
+Üstün, E. (2012). Seyyid Hasan Haydar Divanı (İnceleme-Metin-İndeks).
+[Yayımlanmamış yüksek lisans tezi]. Dumlupınar Üniversitesi.
+Üzgör, T. (1991). Fehim-i Kadîm Divanı. Atatürk Kültür Merkezi Yayınları.
+Yağcıoğlu Aydın, S. (2016). Kadı Şefî'î Dîvânı. DBY Yayınları.
+Yaşar, M. (2005). Bâlî hayatı edebi kişiliği divanının tenkitli metni (incelememetin). [Yayımlanmamış yüksek lisans tezi]. Selçuk Üniversitesi.
+Yavuz, K. ve Yavuz, O. (2016). Muhibbî Dîvânı (İnceleme-tenkitli metin). Türkiye
+Yazma Eserler Kurumu Başkanlığı Yayınları.
+Yazar, İ. (2017).
+divani.html
+
+Kânî
+
+Dîvânı.
+
+https://ekitap.ktb.gov.tr/TR-194493/kani-
+
+Yekbaş, H. (2010). Sehî Bey Divanı. Kitabevi Yayınları.
+Yenikale, A. (2017). Ahmed Nâmî
+196583/ahmed-nami-divani.html
+
+Dîvânı.
+
+https://ekitap.ktb.gov.tr/TR-
+
+Yenikale, A. (2017). Sünbülzâde Vehbî Dîvânı. https://ekitap.ktb.gov.tr/TR196833/sunbulzade-vehbi-divani.html
+Yılmaz, K. H. (2017). Diyarbakırlı Hâmî Ahmed Divanı. https://ekitap.ktb.gov.tr/
+TR-196122/diyarbakirli-hami-ahmed-divani.html
+Yılmaz, S. (2010).Câzib Divanı İnceleme, Metin. [Yayımlanmamış yüksek lisans
+tezi]. Gazi Üniversitesi.
+Yorulmaz, H. (1989). Koca Râgıb Paşa Divanı. [Yayımlanmamış yüksek lisans tezi].
+İstanbul Üniversitesi.
+Zülfe, Ö. (2010). Hecrî, Kara Çelebî Muhyi’d-dîn Mehmed [ö. 1557] Dîvân.
+https://ekitap.ktb.gov.tr/TR-78377/hecri-divani.html
+
+Akademik Dil ve Edebiyat Dergisi
+Prof. Dr. Metin AKAR’a Armağan
+Cilt/Volume: 5, Sayı/Issue: 4, Aralık/December 2021, s/p. 1861-1900
+
+
