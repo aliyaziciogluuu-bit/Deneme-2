@@ -166,5 +166,103 @@
   "hata": 0,
   "sure": 2.58,
   "uygun": true
+ },
+ "024": {
+  "yazi": "Peki yılanın ağzı, memeden süt emmeye uygun mu?",
+  "duyulan": "Peki yılanın ağzı Mehmet'en süt emmeye uygun mu?",
+  "hata": 1,
+  "sure": 3.2,
+  "uygun": true
+ },
+ "025": {
+  "yazi": "Zehirsiz yılanın dişleri koparmaya değil, tutup kavramaya uygun; avı bütün yutuyor.",
+  "duyulan": "Zehirsiz yılanın dişleri koparmaya değil, tutup kavramaya uygun, avı bütün yutuyor.",
+  "hata": 0,
+  "sure": 5.95,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Bir kaynağa göre süt yılanı da ineğin memesinden süt emecek yapıda değil.",
+  "duyulan": "Bir kaynağa göre süt yılanı da ineğin memesinden süt emecek yapıda değil.",
+  "hata": 0,
+  "sure": 4.16,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık.",
+  "duyulan": "Türkiye'deki yılanlardan birinin Meme'den süt emdiğini gösteren bir yazıya rastlamadık.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Letonya'da yılanın yaşadığı yerin yanına bir kâse süt bırakma geleneği var.",
+  "duyulan": "Lentonya'da yılanın yaşadığı yerin yanına bir kase süt bırakma geleneği var.",
+  "hata": 1,
+  "sure": 4.36,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Aynı yazı, bu geleneğe konu olan yılanın süt içtiğine dair kanıt olmadığını da ekliyor.",
+  "duyulan": "Aynı yazı, bu geleneğe konu olan yılanın süt içtiğine dair kanıt olmadığını da ekliyor.",
+  "hata": 0,
+  "sure": 4.98,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Peki yılan ahıra neden giriyor?",
+  "duyulan": "Peki yılan ahıra neden giriyor?",
+  "hata": 0,
+  "sure": 1.96,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Süt yılanı gündüz serin ve karanlıkta dinleniyor, ahırdaki kemirgenleri avlıyor.",
+  "duyulan": "Süt yılanı gündüz serin ve karanlıkta dinleniyor, ahırdaki kemirgenleri avlıyor.",
+  "hata": 0,
+  "sure": 5.08,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Türkiye'de hangi yılanlar evlerin, bahçelerin ve barakaların yakınında görülebiliyor?",
+  "duyulan": "Türkiye'de hangi yılanlar evlerin, bahçelerin ve barakaların yakınında görülebiliyor?",
+  "hata": 0,
+  "sure": 4.72,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Sarı yılan, kırsalda evlerin çevresinde de görülebilen zehirsiz bir tür; bilimsel adı Elaphe sauromates.",
+  "duyulan": "Sarı yılan, kırsalda, evlerin çevresinde de görülebilen zehirsiz bir tür. Bilimsel adı Elafe Savromates.",
+  "hata": 0,
+  "sure": 7.08,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Boyu iki buçuk metreye varabiliyor; Türkiye'de yaşayan en büyük yılanlardan biri.",
+  "duyulan": "boyu iki buçuk metreye varabiliyor. Türkiye'de yaşayan en büyük yılanlardan biri.",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Karadeniz kıyılarındaki Eskülap yılanı genellikle insandan kaçınmıyor, bahçe ve barakalarda bulunuyor; ana besini kemirgenler.",
+  "duyulan": "Karadeniz kıyılarındaki eskülap yılanı genellikle insandan kaçınmıyor, bahçe ve barakalarda bulunuyor, ana besini kemirgenler.",
+  "hata": 0,
+  "sure": 7.86,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Su kenarında yaşayan başka bir tür sık sık balık yiyor; menü her yılanda aynı değil.",
+  "duyulan": "Su kenarında yaşayan başka bir tür, sık sık balık yiyor. Menü her yılanda aynı değil.",
+  "hata": 0,
+  "sure": 5.4,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Bize göre ahıra giren yılanın peşinde süt değil, fare olabilir.",
+  "duyulan": "bize göre ahıra giren yılanın peşinde süt değil fare olabilir.",
+  "hata": 0,
+  "sure": 4.36,
+  "uygun": true
  }
 }
