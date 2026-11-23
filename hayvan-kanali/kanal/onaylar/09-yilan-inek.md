@@ -21,3 +21,5 @@
 - Kalite kontrol (Tur 1, 23 Kasım): **RET**. Puan: ses 8, gorsel 6, teknik 8. Gerekçeler: kapak_C yazısı ineğin burnuna yakın (TEKRARLANAN KUSUR, baykuş dersi), s2'de yılan başı kadrajdan çıkıyor, s2 ilk kare karanlık; açıklama 4.995/5.000.
 - Düzeltme: kapak_c görseli sola genişletildi, yazı daraltıldı; s2 ilk ve 4. kare gündüz çekilmiş gerçek kirpi (iNaturalist), yılan sahnesi sabit görsel; açıklama kısaltıldı.
 - Kalite kontrol (Tur 2, 23 Kasım): **ONAY**. Puan: ses 8, gorsel 8 (Tur 1: 6), teknik 9.
+- Puan (23 Kasım): 80,5/100 → TESLİM (eşikte).
+- Yönetici (23 Kasım): **ONAY**. Şart: kapanış takvimle uyumlu olsun → uygulandı (A): "Sıradaki komşu: yağmurdan sonra çıkan siyah sarı semender; ateşten doğduğu söylenir, doğru mu?" (large-v3 doğru duydu). Sabit yorum etkilesim.md'ye eklendi; bitiş ekranı: önce sağır yılan, 12 Aralık'tan sonra semender. Küçük resim sırası A → C → B. Oynatma listesi: Yılan Sanılanlar.

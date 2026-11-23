@@ -8,6 +8,7 @@
 - **06 Karga (4 Aralık):** Senin oralarda karga ne anlama geliyor? 🐦‍⬛ Sana hiç bağıran ya da seni takip eden bir karga oldu mu? Yerde yavru karga bulursan uzaktan izle, hasta ya da yaralı görünüyorsa bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Yaz, konuşalım 🌿 Sıradaki komşu: her yıl aynı eve dönen kırlangıç.
 - **05 Baykuş (1 Aralık):** Senin oralarda baykuşla ilgili hangi inanışlar anlatılıyor? 🦉 Gece çatıda baykuş sesi duyunca ne yapılır? Yaz, konuşalım 🌿 Sıradaki komşu: seni yıllarca unutmayan karga.
 - **08 Kara kurbağası (5 Aralık):** Siğili kurbağa değil virüs yapar 🐸 Asıl dikkat edeceğin şeyler: gözün arkasındaki bezin salgısı, salmonella ve evcil hayvanın güvenliği. Kurbağaya dokunduysan ellerini yıka; köpeğin kurbağayı ağzına aldıysa veterinere danış. Senin oralarda bu hayvana ne diyorlar? Kışın bahçende ya da bodrumunda kurbağa buldun mu? Yaz, konuşalım 🌿 Sıradaki komşu: ahırdaki ineği sağdığı söylenen yılan.
+- **09 Yılan ineği (8 Aralık):** Senin köyünde yılan ve inek hakkında neler anlatılır? 🐍🐄 Ahırda hiç yılan gördün mü, sütü kim içiyordu sence? Ahırda yılan görürsen elle yakalamaya çalışma, mesafeni koru; ısırıldıysan hemen sağlık kuruluşuna, hayvanın ısırıldıysa veterinere danış. Yaz, konuşalım 🌿 Sıradaki komşu: yağmurdan sonra çıkan siyah sarı semender.
 
 ## Yorumlara cevap (her gün 5 dakika)
 - İlk 1–2 saatteki her yoruma kalp + kısa cevap. Yöresel isim yazanlara teşekkür et, isimleri not al (sonraki videolarda "sizden gelen isimler" bölümü).

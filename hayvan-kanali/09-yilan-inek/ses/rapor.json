@@ -421,11 +421,12 @@
   "uygun": true
  },
  "059": {
-  "yazi": "Sıradaki komşu: engerek sanılan yılanlar; senin gördüğün yılan gerçekten engerek miydi?",
-  "duyulan": "Sıradaki komşu, engerek sanılan yalanlar. Senin gördüğün yılan gerçekten engerek miydi?",
-  "hata": 1,
-  "sure": 5.52,
-  "uygun": true
+  "yazi": "Sıradaki komşu: yağmurdan sonra çıkan siyah sarı semender; ateşten doğduğu söylenir, doğru mu?",
+  "duyulan": "Sıradaki komşu, yağmurdan sonra çıkan siyah sarı semender. Ateşten doğduğu söylenir, doğru mu?",
+  "hata": 0,
+  "sure": 6.76,
+  "uygun": true,
+  "tek_basina": true
  },
  "060": {
   "yazi": "Komşunu tanı.",

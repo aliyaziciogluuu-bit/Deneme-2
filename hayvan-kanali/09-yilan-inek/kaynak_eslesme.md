@@ -101,7 +101,7 @@ Biçim: cümle no → kaynak → kaynakta geçen ifade (özgün dilde) → durum
 | 56 | Boş memenin nedeni buzağı, meme enfeksiyonu, sıcak, stres ya da insan davranışı olabilir. | – | – | kaynak gerektirmez: özet; ilgili cümleler yukarıda eşlendi; 'olabilir' çekincesi var |
 | 57 | Senin köyünde yılan ve inek hakkında neler anlatılır? | – | – | kaynak gerektirmez: yorum sorusu |
 | 58 | Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. | – | – | kaynak gerektirmez: sabit kapanış |
-| 59 | Sıradaki komşu: engerek sanılan yılanlar; senin gördüğün yılan gerçekten engerek miydi? | – | – | kaynak gerektirmez: sıradaki video duyurusu |
+| 59 | Sıradaki komşu: yağmurdan sonra çıkan siyah sarı semender; ateşten doğduğu söylenir, doğru mu? | – | – | kaynak gerektirmez: sıradaki video duyurusu |
 | 60 | Komşunu tanı. | – | – | kaynak gerektirmez: sabit kapanış |
 
 ## Shorts cümleleri
