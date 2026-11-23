@@ -22,7 +22,7 @@
           "gorsel": "yer_tutucu_turk_semenderi_odun"
         },
         {
-          "yazi": "Birçok semender türü kışı çürüyen kütüklerin içinde ve altında geçiriyor.",
+          "yazi": "Birçok tür kışı çürüyen kütüklerde geçiriyor.",
           "gorsel": "yer_tutucu_kutuk_kis"
         },
         {
@@ -77,7 +77,7 @@
           "gorsel": "yer_tutucu_mendil_ates"
         },
         {
-          "yazi": "Asbest, ateşe dayanıklı kumaş yapılan lifli bir mineral.",
+          "yazi": "Asbest, yanmaya dayanıklı bez yapılan lifli bir mineral.",
           "gorsel": "yer_tutucu_asbest"
         },
         {
@@ -97,7 +97,7 @@
     {
       "ad": "s3-kertenkele-degil",
       "baslik": "Semender Kertenkele mi? 🦎 #shorts",
-      "aciklama": "Kertenkelenin derisi pullarla kaplı; semenderlerin derisinde pul yok. Bir Farsça sözlük, semender derisinden tahriş edici bir madde salgılandığını yazıyor. Semendere dokunursan elini sabunla yıka, gözüne ve ağzına götürme; küçük çocuk dokunduysa yıkamasına yardım et. Köpek ya da kedi ağzına aldıysa veterinere danış. Tam video kanalımızda: \"Semender Ateşten mi Doğar? (Odun Yığınındaki Sır)\"\n\nKaynaklar:\n- Vikipedi – Salamander: en.wikipedia.org/wiki/Salamander\n- Vikipedi – Lizard: en.wikipedia.org/wiki/Lizard\n- Özdemir, M. (2021). Klasik Türk Şiirinde Semender. Akademik Dil ve Edebiyat Dergisi 5(4): 1861–1900. doi.org/10.34083/akaded.1024301\n\n#shorts #semender #doğa",
+      "aciklama": "Kertenkelenin derisi pullarla kaplı; semenderlerin derisinde pul yok. Bir Farsça sözlük, semender derisinden tahriş edici bir madde salgılandığını yazıyor. Semendere dokunursan elini sabunla yıka, gözüne ve ağzına götürme; küçük çocuk dokunduysa yıkamasına yardım et. Köpek ya da kedi ağzına aldıysa veterinere başvur. Tam video kanalımızda: \"Semender Ateşten mi Doğar? (Odun Yığınındaki Sır)\"\n\nKaynaklar:\n- Vikipedi – Salamander: en.wikipedia.org/wiki/Salamander\n- Vikipedi – Lizard: en.wikipedia.org/wiki/Lizard\n- Özdemir, M. (2021). Klasik Türk Şiirinde Semender. Akademik Dil ve Edebiyat Dergisi 5(4): 1861–1900. doi.org/10.34083/akaded.1024301\n\n#shorts #semender #doğa",
       "etiketler": [
         "semender kertenkele mi",
         "semender pullu mu",
@@ -132,7 +132,7 @@
           "gorsel": "yer_tutucu_el_yikama"
         },
         {
-          "yazi": "Köpek ya da kedi ağzına aldıysa veterinere danış.",
+          "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
           "gorsel": "yer_tutucu_turk_semenderi_yakin"
         },
         {
