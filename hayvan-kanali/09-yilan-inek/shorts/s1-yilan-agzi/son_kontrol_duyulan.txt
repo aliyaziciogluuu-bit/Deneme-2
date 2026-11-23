@@ -4,4 +4,4 @@
 003 fark=0 | Bir kaynağa göre bu yılan, ineğin memesinden süt emecek yapıda değil. || Bir kaynağa göre bu yılan, ineyin memesinden süt emecek yapıda değil.
 004 fark=0 | Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık. || Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık.
 005 fark=0 | Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma; ısırıldıysan hemen sağlık kuruluşuna başvur. || Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma, ısırıldıysan hemen sağlık kuruluşuna başvur.
-006 fark=1 | Tam videosu kanalımızda. || Tam videosu kanalımızla.
+006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

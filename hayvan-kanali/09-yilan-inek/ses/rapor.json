@@ -113,11 +113,12 @@
   "uygun": true
  },
  "016": {
-  "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
-  "duyulan": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağlam sütü en düşük çıkmış.",
-  "hata": 1,
-  "sure": 4.88,
-  "uygun": true
+  "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerden alınan süt en az çıkmış.",
+  "duyulan": "Bir çalışmada buzağıyla sürekli temas eden ineklerden alınan süt en az çıkmış.",
+  "hata": 0,
+  "sure": 5.06,
+  "uygun": true,
+  "tek_basina": true
  },
  "017": {
   "yazi": "Ama araştırmacılar bu düşüklüğü yalnızca buzağının içtiği sütle açıklayamamış.",
@@ -253,11 +254,12 @@
   "uygun": true
  },
  "036": {
-  "yazi": "Su kenarında yaşayan başka bir tür sık sık balık yiyor; menü her yılanda aynı değil.",
-  "duyulan": "Su kenarında yaşayan başka bir tür, sık sık balık yiyor. Menü her yılanda aynı değil.",
+  "yazi": "Su kenarında yaşayan başka bir tür sık sık balıkla besleniyor; menü her yılanda aynı değil.",
+  "duyulan": "Su kenarında yaşayan başka bir tür, sık sık balıkla besleniyor. Menü her yılanda aynı değil.",
   "hata": 0,
-  "sure": 5.4,
-  "uygun": true
+  "sure": 5.94,
+  "uygun": true,
+  "tek_basina": true
  },
  "037": {
   "yazi": "Bize göre ahıra giren yılanın peşinde süt değil, fare olabilir.",
@@ -330,11 +332,12 @@
   "uygun": true
  },
  "047": {
-  "yazi": "Aynı derleme, kötü davranan birinin yanında sağılan ineklerde memede daha çok süt kaldığını aktarıyor.",
-  "duyulan": "Aynı derleme kötü davranan birinin yanında sağılan ineklerde Mehmet'e daha çok süt kaldığını aktarıyor.",
-  "hata": 1,
-  "sure": 5.54,
-  "uygun": true
+  "yazi": "Aynı derleme, kötü davranan birinin yanında sağılan ineklerin memesinde daha çok süt kaldığını aktarıyor.",
+  "duyulan": "Aynı derleme, kötü davranan birinin yanında sağılan ineklerin memesinde daha çok süt kaldığını aktarıyor.",
+  "hata": 0,
+  "sure": 6.48,
+  "uygun": true,
+  "tek_basina": true
  },
  "048": {
   "yazi": "Ahırda gerçekten bir yılan görürsen ne yapmalısın?",

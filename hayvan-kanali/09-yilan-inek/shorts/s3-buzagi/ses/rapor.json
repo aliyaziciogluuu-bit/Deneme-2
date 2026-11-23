@@ -7,18 +7,20 @@
   "uygun": true
  },
  "001": {
-  "yazi": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
-  "duyulan": "Buza, annesinin yanında kalırsa, sütün bir kısmını kendisi içer.",
-  "hata": 1,
-  "sure": 3.48,
-  "uygun": true
+  "yazi": "Annesinin yanında kalan buzağı, sütün bir kısmını kendisi içer.",
+  "duyulan": "Annesinin yanında kalan buzağı, sütün bir kısmını kendisi içer.",
+  "hata": 0,
+  "sure": 4.2,
+  "uygun": true,
+  "tek_basina": true
  },
  "002": {
-  "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
-  "duyulan": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağlam sütü en düşük çıkmış.",
-  "hata": 1,
-  "sure": 4.54,
-  "uygun": true
+  "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerden alınan süt en az çıkmış.",
+  "duyulan": "Bir çalışmada buzağıyla sürekli temas eden ineklerden alınan süt en az çıkmış.",
+  "hata": 0,
+  "sure": 5.04,
+  "uygun": true,
+  "tek_basina": true
  },
  "003": {
   "yazi": "Araştırmacılar bunu yalnızca buzağının içtiği sütle açıklayamamış.",

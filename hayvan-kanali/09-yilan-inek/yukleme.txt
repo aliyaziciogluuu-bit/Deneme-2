@@ -5,8 +5,6 @@ AÇIKLAMA
 Yılan ineği sağar mı? Yılan ahırdaki ineğin sütünü içer mi?
 Yanlış Tanınan Komşular serisi: evinin çevresinde yaşayan, yanlış tanınan hayvanlar.
 
-Bulduğumuz kaynaklar yılanların avı ısırıp koparamadığını, bütün yuttuğunu yazıyor; Amerika'daki süt yılanının adının bir efsaneden geldiğini ve yılanın ahırda büyük olasılıkla fare aradığını da. Türkiye'de bir yılanın ineğin memesinden süt emdiğini gösteren bir yazıya rastlamadık. Sütün azalmasının nedenleri arasında buzağı, meme enfeksiyonu, sıcak, stres ve insan davranışı var. Anadolu'daki yılan ve süt inanışlarını saygıyla aktarıyoruz.
-
 Bu videoda boş kalan memenin şüphelilerini sorguya çekiyoruz: kirpi, buzağı, yılan, meme enfeksiyonu (mastitis), sıcak ve stres, ahıra giren insan. Türkiye'de kırsalda evlerin ve bahçelerin çevresinde görülebilen sarı yılan (Elaphe sauromates) ve Eskülap yılanı (Zamenis longissimus) ile su kenarındaki bir yılan türünü (Natrix tessellata) anlatıyoruz. Amerika'daki “süt yılanı” (Lampropeltis triangulum) için anlatılan aynı hikâyeyi de karşılaştırıyoruz.
 
 Aradığın sorular: yılan süt içer mi, yılan inek sağar mı, ahırda yılan neden olur, ahıra yılan neden girer, sarı yılan zehirli mi, ahırdaki yılan ne yer.
@@ -24,9 +22,9 @@ Bölümler:
 1:38 Anadolu'da yılan ve süt
 2:04 Yılanın ağzı buna uygun mu?
 2:34 Yılan ahırda ne arıyor?
-3:18 Meme neden boşalır?
-4:05 Ahırda yılan görürsen ne yapmalı?
-4:46 Komşunu tanı
+3:19 Meme neden boşalır?
+4:06 Ahırda yılan görürsen ne yapmalı?
+4:47 Komşunu tanı
 
 🌿 Senin köyünde yılan ve inek hakkında neler anlatılır? Hiç ahırda yılan gördün mü? Yorumlarda yaz.
 
@@ -52,13 +50,12 @@ Kaynaklar:
 - Acharya, R. Y., Hemsworth, P. H., Coleman, G. J. & Kinder, J. E. (2022). The Animal-Human Interface in Farm Animal Production: Animal Fear, Stress, Reproduction and Welfare. Animals 12(4): 487. doi.org/10.3390/ani12040487
 
 Gerçek fotoğraflar:
-- iNaturalist gözlem 365684732 (Elaphe sauromates) – © actionpyramid, some rights reserved (CC BY) – CC BY – inaturalist.org/observations/365684732
-- iNaturalist gözlem 226194542 (Zamenis longissimus) – © Asrın Akıncıoğlu, some rights reserved (CC BY) – CC BY – inaturalist.org/observations/226194542
-- iNaturalist gözlem 119864758 (Erinaceus concolor) – © Jan Ebr & Ivana Ebrová, some rights reserved (CC BY) – CC BY – inaturalist.org/observations/119864758
-- iNaturalist gözlem 107651958 (Lampropeltis gentilis) – © evangrimes, some rights reserved (CC BY) – CC BY – inaturalist.org/observations/107651958
-- iNaturalist gözlem 407072084 (Natrix tessellata) – © Ömer Selim Kaya, some rights reserved (CC BY-SA) – CC BY SA – inaturalist.org/observations/407072084
-- iNaturalist gözlem 226194542 (Zamenis longissimus) – © Asrın Akıncıoğlu, some rights reserved (CC BY) – CC BY – inaturalist.org/observations/226194542
-- iNaturalist gözlem 360257990 (Zamenis longissimus) – © Asrın Akıncıoğlu, some rights reserved (CC BY) – CC BY – inaturalist.org/observations/360257990
+- Elaphe sauromates – © actionpyramid – CC BY – inaturalist.org/observations/365684732
+- Zamenis longissimus – © Asrın Akıncıoğlu – CC BY – inaturalist.org/observations/226194542
+- Erinaceus concolor – © Jan Ebr & Ivana Ebrová – CC BY – inaturalist.org/observations/119864758
+- Lampropeltis gentilis – © evangrimes – CC BY – inaturalist.org/observations/107651958
+- Natrix tessellata – © Ömer Selim Kaya – CC BY SA – inaturalist.org/observations/407072084
+- Zamenis longissimus – © Asrın Akıncıoğlu – CC BY – inaturalist.org/observations/360257990
 
 Gerçek fotoğraflar yukarıda yazarlarıyla belirtilmiştir; diğer görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. Bilgiler yukarıdaki kaynaklardan derlenmiştir.
 

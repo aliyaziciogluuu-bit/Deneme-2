@@ -30,7 +30,7 @@ Biçim: cümle no → kaynak → kaynakta geçen ifade (özgün dilde) → durum
 |---|---|---|---|---|
 | 0 | Yılan ahıra girer, ineğin sütünü içer, derler. | Şahin 2012, Ç.Ü. Sosyal Bilimler Enstitüsü Dergisi 21(2) (dergipark.org.tr/tr/download/article-file/50762) | “Kırsal bölgelerde yılanın küçük ve büyük baş hayvanın sütünü içtiği bilinir” | açıldı, alıntı arşivde doğrulandı; inanışın anlatımı; kaynakta 'sütünü içtiği bilinir' geçer |
 | 1 | Oysa yılanlar avı ısırıp koparamaz, bütün yutar; peki memesi boş çıkan inek sütünü kime kaptırıyor? | Vikipedi – Snake (en.wikipedia.org/wiki/Snake) | “Snakes cannot bite or tear their food to pieces so must swallow their prey whole” | açıldı, alıntı arşivde doğrulandı; kanca: karşı kanıt + ikinci soru |
-| 2 | Kirpiyi, buzağıyı, hatta kendimizi sorguya çekeceğiz; yılanın ahırda ne aradığını da göreceksin. | – | – | kaynak gerektirmez: vaat; kirpi/buzağı/insan/ahır bilgisi ilgili cümlelerde eşlendi |
+| 2 | Kirpi, buzağı, hatta biz: hepsini sorguya çekeceğiz; yılanın ahırda ne aradığını da göreceksin. | – | – | kaynak gerektirmez: vaat; kirpi/buzağı/insan/ahır bilgisi ilgili cümlelerde eşlendi |
 | 3 | Diyelim ki bir köydesin; ahırda inek huzursuz, memesi boş, duvarın dibinde de bir yılan var. | – | – | kaynak gerektirmez: kurgu (varsayım; gerçek olay iddiası değil) |
 | 4 | Herkes suçluyu bulmuş gibi: yılan sütü içmiş. | – | – | kaynak gerektirmez: kurgu / inanış (bkz. cümle 0) |
 | 5 | Gerçekten öyle mi? | – | – | kaynak gerektirmez: soru |
@@ -42,7 +42,7 @@ Biçim: cümle no → kaynak → kaynakta geçen ifade (özgün dilde) → durum
 | 10 | İlk şüpheli kirpi: o gerçekten süt emer mi? | – | – | kaynak gerektirmez: soru |
 | 11 | Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inandığını yazıyor. | Vikipedi – Hedgehogs in culture (en.wikipedia.org/wiki/Hedgehogs_in_culture) | “as late as the 19th century, some English villagers even believed that these creatures would suck milk out of cows' udders” | açıldı, alıntı arşivde doğrulandı |
 | 12 | Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor. | Vikipedi – Hedgehogs in culture (en.wikipedia.org/wiki/Hedgehogs_in_culture) | “In reality, however, hedgehogs are lactose-intolerant” | açıldı, alıntı arşivde doğrulandı; kaynakta 'lactose-intolerant'; seslendirmede 'laktoz' kelimesinden kaçınıldı |
-| 13 | Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok; üstelik süt şekerini kaldıramıyor. | – | – | kaynak gerektirmez: kanalın yorumu; kaynaklı iki cümleye dayanır (olumsuz bulgu çekinceli) |
+| 13 | Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok; üstelik süt şekerini kaldıramıyor. | – | – | kaynak gerektirmez: kanalın yorumu; kaynaklı iki cümleye dayanır (olumsuz bulgu çekinceli) |
 | 14 | İkinci şüpheli daha sıradan: sütü buzağı mı içmiş? | – | – | kaynak gerektirmez: soru |
 | 15 | Annesinin yanında kalan buzağı, sütün bir kısmını kendisi içer. | Neave ve ark. 2024, JDS Communications 5(5) (doi.org/10.3168/jdsc.2023-0480) | “milk consumption by the calf” | açıldı, alıntı arşivde doğrulandı |
 | 16 | Bir çalışmada buzağıyla sürekli temas eden ineklerden alınan süt en az çıkmış. | Neave ve ark. 2024, JDS Communications 5(5) (doi.org/10.3168/jdsc.2023-0480) | “Full-time cows had the lowest milk yields” | açıldı, alıntı arşivde doğrulandı |
@@ -126,7 +126,7 @@ Biçim: cümle no → kaynak → kaynakta geçen ifade (özgün dilde) → durum
 | 0 | Kirpi ineğin sütünü emer sanılmış. | Vikipedi – Hedgehogs in culture (en.wikipedia.org/wiki/Hedgehogs_in_culture): “some English villagers even believed that these creatures would suck milk out of cows' udders” | açıldı, arşivde doğrulandı |
 | 1 | Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar buna inandığını yazıyor. | Vikipedi – Hedgehogs in culture (en.wikipedia.org/wiki/Hedgehogs_in_culture): “as late as the 19th century, some English villagers even believed” | açıldı, arşivde doğrulandı |
 | 2 | Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor. | Vikipedi – Hedgehogs in culture (en.wikipedia.org/wiki/Hedgehogs_in_culture): “In reality, however, hedgehogs are lactose-intolerant” | açıldı, arşivde doğrulandı |
-| 3 | Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok. | – | kanalın yorumu (kirpi kaynak cümleleri) |
+| 3 | Bize göre kirpinin inekten süt emdiğine dair elimizde sağlam bir kanıt yok. | – | kanalın yorumu (kirpi kaynak cümleleri) |
 | 4 | Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış. | Vikipedi – Milk snake (en.wikipedia.org/wiki/Milk_snake): “An old fable about milk snakes is that they suck cow udders to get milk” | açıldı, arşivde doğrulandı |
 | 5 | Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor. | Missouri Department of Conservation – Eastern Milksnake (mdc.mo.gov/discover-nature/field-guide/eastern-milksnake): “This is a myth” ; Missouri Department of Conservation – Eastern Milksnake (mdc.mo.gov/discover-nature/field-guide/eastern-milksnake): “The snakes were likely in search of mice to eat” | açıldı, arşivde doğrulandı |
 | 6 | Tam videosu kanalımızda. | – | kapanış kalıbı |
