@@ -1,0 +1,23 @@
+{
+ "000": {
+  "yazi": "Yılan ahıra girer, ineğin sütünü içer, derler.",
+  "duyulan": "Yılan ahıra girer, iniğin sütünü içer derler.",
+  "hata": 1,
+  "sure": 2.92,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Oysa yılanlar avı ısırıp koparamaz, bütün yutar; peki memesi boş çıkan inek sütünü kime kaptırıyor?",
+  "duyulan": "Oysa yılanlar, avı ısırıp koparamaz, bütün yutar. Peki, memesi boş çıkan inek sütünü kime kaptırıyor?",
+  "hata": 0,
+  "sure": 7.0,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kirpiyi, buzağıyı, hatta kendimizi sorguya çekeceğiz; yılanın ahırda ne aradığını da göreceksin.",
+  "duyulan": "Kirpiği, buzağıyı, hatta kendimizi sorguya çekeceğiz. Yılanın ahırda ne aradığını da göreceksin.",
+  "hata": 1,
+  "sure": 6.28,
+  "uygun": true
+ }
+}

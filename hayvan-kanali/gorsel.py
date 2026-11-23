@@ -105,6 +105,7 @@ def main():
     klasor = KOK / sys.argv[1]
     arg = sys.argv[2:]
     tanim = json.loads((klasor / "gorseller.json").read_text(encoding="utf-8"))["gorseller"]
+    tanim = [g for g in tanim if not g.get("gercek") and (g.get("istem") or "").strip()]  # gerçek fotoğraf yer tutucuları üretilmez (23 Kasım)
     if "--sec" in arg:
         (klasor / "gorseller").mkdir(exist_ok=True)
         for s in arg[arg.index("--sec") + 1:]:
