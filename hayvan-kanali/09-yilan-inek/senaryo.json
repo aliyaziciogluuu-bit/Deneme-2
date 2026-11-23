@@ -1,6 +1,6 @@
 {
   "baslik": "Yılan İneği Sağar mı? (Ahırda Gerçekte Ne Oluyor?)",
-  "not": "Yeni büyüme kurallarıyla yazılan ilk video (dedektif yapısı: şüpheli eleme). Kaynaklar: Vikipedi (İngilizce ve Türkçe), Animal Diversity Web, dergipark makaleleri ve PubMed Central makaleleri; hepsi açılıp alıntılar kaynaklar/ klasöründeki arşivlerde doğrulandı. Açılamayan siteler (mdc.mo.gov, nationalzoo.si.edu, livescience.com, habervitrini.com, sembollerindili.com, bilgira.com) kullanılmadı. 'Süt yılanı', 'kirpi' ve 'su yılanı' bilgileri Amerika ya da Avrupa kaynaklarına dayanır; cümlede söylendi. Yılanın dudak yapısı ve diş eğriliği için kaynak bulunamadı; yalnızca 'ısırıp koparamaz, bütün yutar' ve 'tutmaya uygun diş' denildi. 'İnek buna izin vermez' iddiası kaynaksız olduğu için yazılmadı. Sarı yılanın ahır kullanımı için kaynak yok; yalnızca 'evlerin çevresi' denildi. Okunuşlar: Elafe savromates.",
+  "not": "Yeni büyüme kurallarıyla yazılan ilk video (dedektif yapısı: şüpheli eleme). Kaynaklar: Vikipedi (İngilizce ve Türkçe), Animal Diversity Web, dergipark makaleleri ve PubMed Central makaleleri; hepsi açılıp alıntılar kaynaklar/ klasöründeki arşivlerde doğrulandı. Missouri Doğa Koruma Dairesi ve WHO sayfaları 23 Kasım'da açılıp arşivlendi. Açılamayan siteler (nationalzoo.si.edu, livescience.com, habervitrini.com, sembollerindili.com, bilgira.com) kullanılmadı. 'Süt yılanı', 'kirpi' ve 'su yılanı' bilgileri Amerika ya da Avrupa kaynaklarına dayanır; cümlede söylendi. Yılanın dudak yapısı ve diş eğriliği için kaynak bulunamadı; yalnızca 'ısırıp koparamaz, bütün yutar' ve 'tutmaya uygun diş' denildi. 'İnek buna izin vermez' iddiası kaynaksız olduğu için yazılmadı. Sarı yılanın ahır kullanımı için kaynak yok; yalnızca 'evlerin çevresi' denildi. Okunuşlar: Elafe savromates.",
   "aciklama": "Yılan ineği sağar mı? Yılan ahırdaki ineğin sütünü içer mi?\nYanlış Tanınan Komşular serisi: evinin çevresinde yaşayan, yanlış tanınan hayvanlar.\n\nBulduğumuz kaynaklar yılanların yalnızca et yediğini ve yiyeceklerini ısırıp koparamadığını yazıyor; Türkiye'de bir yılanın ineğin memesinden süt emdiğini gösteren bir kaynak bulamadık. Sütün azalmasının nedenleri arasında buzağı, meme enfeksiyonu, sıcak, stres ve insan davranışı var. Anadolu'daki yılan ve süt inanışlarını saygıyla aktarıyoruz.\n\nBu videoda boş kalan memenin şüphelilerini tek tek eliyoruz: kirpi, buzağı, yılan, meme enfeksiyonu (mastitis), sıcak ve stres, ahıra giren insan. Türkiye'de kırsalda evlerin ve bahçelerin çevresinde görülebilen sarı yılan (Elaphe sauromates) ve Eskülap yılanı (Zamenis longissimus) ile su kenarındaki bir yılan türünü (Natrix tessellata) anlatıyoruz. Amerika'daki “süt yılanı” (Lampropeltis triangulum) için anlatılan aynı hikâyeyi de karşılaştırıyoruz.\n\nAradığın sorular: yılan süt içer mi, yılan inek sağar mı, ahırda yılan neden olur, ahıra yılan neden girer, sarı yılan zehirli mi, ahırdaki yılan ne yer.\n\nAhırda yılan görürsen karar vermek bize düşmez: ısırıldıysan hemen doktora ya da sağlık kuruluşuna, hayvanın ısırıldıysa veterinere, yılanla ne yapacağını bilemiyorsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Videodaki bilgilerin bir kısmı Amerika ve Avrupa'daki türlere aittir; cümlelerde ülke ve tür söylenmiştir.\n\nSıradaki komşu: engerek sanılan yılanlar; senin gördüğün yılan gerçekten engerek miydi?\n",
   "yorum_sorusu": "Senin köyünde yılan ve inek hakkında neler anlatılır? Hiç ahırda yılan gördün mü? Yorumlarda yaz.",
   "kaynaklar": [
@@ -11,7 +11,8 @@
     "Vikipedi – Dice snake: en.wikipedia.org/wiki/Dice_snake",
     "Vikipedi – Hedgehogs in culture: en.wikipedia.org/wiki/Hedgehogs_in_culture",
     "Vikipedi – Mastitis in dairy cattle: en.wikipedia.org/wiki/Mastitis_in_dairy_cattle",
-    "Vikipedi – Lactase: en.wikipedia.org/wiki/Lactase",
+    "Missouri Department of Conservation – Eastern Milksnake (Field Guide): mdc.mo.gov/discover-nature/field-guide/eastern-milksnake",
+    "Dünya Sağlık Örgütü (WHO) – Snakebite envenoming, Treatment: who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment",
     "Vikipedi (Türkçe) – Sarı yılan: tr.wikipedia.org/wiki/Elaphe_sauromates",
     "Vikipedi (Türkçe) – Eskülap yılanı: tr.wikipedia.org/wiki/Zamenis_longissimus",
     "Vikipedi (Türkçe) – Natrix tessellata: tr.wikipedia.org/wiki/Natrix_tessellata",
@@ -64,7 +65,7 @@
           "yazi": "Yılan ahıra girer, ineğin sütünü içer, derler."
         },
         {
-          "yazi": "Oysa bir kaynak, bütün yılanların yalnızca et yiyen hayvanlar olduğunu yazıyor."
+          "yazi": "Oysa bir kaynağa göre bütün yılanlar etçil, yani yalnızca hayvanlarla besleniyor."
         },
         {
           "yazi": "Peki sabah memesi boş çıkan inek, sütünü kime kaptırıyor?"
@@ -93,10 +94,7 @@
           "yazi": "Ama sütü gerçekten yılan mı içmiş?"
         },
         {
-          "yazi": "Bu açıklama yeni değil; yılan imgesini Türkçede ve Almancada inceleyen bir makale de ondan söz ediyor."
-        },
-        {
-          "yazi": "Makaleye göre kırsalda yılanın küçük ve büyükbaş hayvanın sütünü içtiği bilinirmiş; yılan o hayvanı sahiplenirmiş."
+          "yazi": "Bu açıklama yeni değil: bir makaleye göre kırsalda yılanın küçük ve büyükbaş hayvanın sütünü içtiği bilinirmiş."
         }
       ]
     },
@@ -107,13 +105,13 @@
           "yazi": "İlk şüpheli kirpi: o gerçekten süt emer mi?"
         },
         {
-          "yazi": "Bir kaynağa göre bazı İngiliz köylüleri, on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inanıyormuş."
+          "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inandığını yazıyor."
         },
         {
-          "yazi": "Aynı kaynak, kirpilerin süt şekerini kaldıramadığını yazıyor."
+          "yazi": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor."
         },
         {
-          "yazi": "Bize göre kirpi bu dosyadan düşüyor."
+          "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok; üstelik süt şekerini kaldıramıyor."
         }
       ]
     },
@@ -144,16 +142,13 @@
           "yazi": "Süt ile yılan neden hep yan yana anılıyor?"
         },
         {
-          "yazi": "Bir makaleye göre Rize'de ahır iyesi sayılan yılan için duvarda, bir taşın içinde süt bırakılır."
-        },
-        {
-          "yazi": "Makale ona taçlı karayılan diyor; bilimsel bir tür adı vermiyor."
+          "yazi": "Bir makaleye göre Rize'de ahır iyesi sayılan bir yılan için duvarda, taşın içinde süt bırakılır."
         },
         {
           "yazi": "Adana'da anlatılan bir inanışa göre Yılanlı Kale'deki yılanlar sütle beslenir."
         },
         {
-          "yazi": "Kırgızlar arasında eve giren yılanın üzerine süt ya da kımız serpilir."
+          "yazi": "Kırgızlar arasında eve giren yılanı dışarı çıkarmak için üzerine süt ya da kımız serpilir."
         },
         {
           "yazi": "Anlamı şu: niyetimiz süt gibi temiz, sen de bize zarar verme."
@@ -170,7 +165,7 @@
           "yazi": "Peki yılanın ağzı, memeden süt emmeye uygun mu?"
         },
         {
-          "yazi": "Yılanlar yiyeceklerini ısırıp koparamaz; avı bütün yutmak zorunda."
+          "yazi": "Bir kaynağa göre yılanlar yiyeceklerini ısırıp koparamaz; avı bütün yutmak zorunda."
         },
         {
           "yazi": "Zehirsiz yılanın dişleri yırtmaya değil, tutup kavramaya uygun."
@@ -185,13 +180,14 @@
           "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir kaynak bulamadık."
         },
         {
-          "yazi": "Yılan sütü sindirebilir mi?"
+          "yazi": "Peki bu hikâye nereden çıktı?"
         },
         {
-          "yazi": "Bir kaynağa göre süt şekerini parçalayan laktaz enzimi, insanın ve diğer memelilerin ince bağırsağında bulunuyor."
+          "yazi": "Missouri Doğa Koruma Dairesi, süt yılanı adının, yılanı ahırda görüp süt çaldığını sanan ilk Avrupalı yerleşimcilerden geldiğini yazıyor.",
+          "ses": "Misuri Doğa Koruma Dairesi, süt yılanı adının, yılanı ahırda görüp süt çaldığını sanan ilk Avrupalı yerleşimcilerden geldiğini yazıyor."
         },
         {
-          "yazi": "Yılan bağırsağında bu enzimin bulunduğunu gösteren bir kaynak bulamadık."
+          "yazi": "Aynı kaynak bunun bir efsane olduğunu söylüyor; yılan büyük olasılıkla ahırdaki fareleri arıyordu."
         },
         {
           "yazi": "Letonya ve Litvanya'da yılanın yaşadığı yerin yanına bir kâse süt bırakma geleneği var."
@@ -221,10 +217,10 @@
           "yazi": "Boyu iki buçuk metreye varabiliyor; Türkiye'de yaşayan en büyük yılanlardan biri."
         },
         {
-          "yazi": "Karadeniz kıyılarındaki Eskülap yılanı bahçe ve barakalardan kaçınmıyor; ana besini kemirgenler."
+          "yazi": "Karadeniz kıyılarındaki Eskülap yılanı genellikle insandan kaçınmıyor, bahçe ve barakalarda bulunuyor; ana besini kemirgenler."
         },
         {
-          "yazi": "Su kenarında yaşayan, Türkiye'de de görülen bir yılan türü sık sık balık yiyor."
+          "yazi": "Su kenarında yaşayan başka bir tür sık sık balık yiyor; menü her yılanda aynı değil."
         },
         {
           "yazi": "Bize göre ahıra giren yılanın peşinde süt değil, fare olabilir."
@@ -286,6 +282,12 @@
         },
         {
           "yazi": "Isırıldıysan karar vermek bize düşmez: hemen doktora ya da sağlık kuruluşuna başvur."
+        },
+        {
+          "yazi": "Sakin kal, ısırılan yeri oynatma, yüzük ve bilezik gibi sıkan şeyleri çıkar."
+        },
+        {
+          "yazi": "Yarayı kesme, emme ya da sıkı bağlama; hemen bir sağlık kuruluşuna başvur."
         },
         {
           "yazi": "İnek ya da başka bir hayvan ısırıldıysa veterinere danış."
