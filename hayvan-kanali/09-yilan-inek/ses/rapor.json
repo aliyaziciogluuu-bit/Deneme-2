@@ -78,10 +78,10 @@
  },
  "011": {
   "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inandığını yazıyor.",
-  "duyulan": "Bir kaynak bazı İngiliz köylülerinin 19. yüzyıla kadar kirpinin ineğin memesinden süt emdiğine inandığını yazıyor.",
-  "hata": 1,
-  "sure": 7.74,
-  "uygun": false,
+  "duyulan": "Bir kaynak, bazı İngiliz köylülerinin 19. yüzyıla kadar kirpinin ineğinmemesinden süt emdiğine inandığını yazıyor.",
+  "hata": 0,
+  "sure": 7.44,
+  "uygun": true,
   "tek_basina": true
  },
  "012": {
@@ -386,11 +386,11 @@
   "uygun": true
  },
  "055": {
-  "yazi": "Özetle: kaynaklar süt yılanının ahırda fare aradığını söylüyor; ineği sağdığını gösteren bir yazıya rastlamadık.",
-  "duyulan": "Özetle, kaynaklar, süt yılanının ahırda fare aradığını söylüyor, ineği sığadığını gösteren bir yazıya rastlamadık.",
-  "hata": 1,
-  "sure": 7.68,
-  "uygun": false,
+  "yazi": "Özetle: kaynaklar süt yılanının ahırda fare aradığını söylüyor; yılanın inekten süt emdiğini gösteren bir yazıya rastlamadık.",
+  "duyulan": "Özetle, kaynaklar, süt yılanının ahırda fare aradığını söylüyor. Yılanın inekten süt emdiğini gösteren bir yazıya rastlamadık.",
+  "hata": 0,
+  "sure": 9.06,
+  "uygun": true,
   "tek_basina": true
  },
  "056": {

@@ -33,7 +33,9 @@
           "x": 0.45,
           "aw": 0.45,
           "ay": 0.5,
-          "etiket": "Eskülap yılanı, Türkiye"
+          "etiket": "Eskülap yılanı, Türkiye",
+          "w": 0.45,
+          "y": 0.5
         },
         {
           "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
@@ -92,7 +94,9 @@
           "x": 0.2,
           "aw": 0.5,
           "ay": 0.6,
-          "etiket": "Kirpi, Türkiye"
+          "etiket": "Kirpi, Türkiye",
+          "w": 0.5,
+          "y": 0.6
         },
         {
           "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar buna inandığını yazıyor.",
@@ -110,7 +114,9 @@
           "x": 0.2,
           "aw": 0.55,
           "ay": 0.6,
-          "etiket": "Kirpi, Türkiye"
+          "etiket": "Kirpi, Türkiye",
+          "w": 0.55,
+          "y": 0.6
         },
         {
           "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
@@ -154,9 +160,7 @@
         {
           "yazi": "Sabah boş görünen memenin sorumlusu yılan değil, buzağı olabilir.",
           "gorsel": "buzagi_inek",
-          "x": 0.5,
-          "klip": "buzagi",
-          "kx": 0.5
+          "x": 0.5
         },
         {
           "yazi": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer.",

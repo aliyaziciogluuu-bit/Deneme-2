@@ -59,8 +59,20 @@ def sayi_yazi(n: int) -> str:
     return " ".join(x for x in parca if x)
 
 
+
+def sira_yazi(n: int) -> str:
+    """Sıra sayısı: 19 → on dokuzuncu (ses tanıma '19.' yazar)."""
+    s = sayi_yazi(n).split()
+    son = s[-1]
+    ek = {"bir": "birinci", "iki": "ikinci", "üç": "üçüncü", "dört": "dördüncü", "beş": "beşinci", "altı": "altıncı",
+          "yedi": "yedinci", "sekiz": "sekizinci", "dokuz": "dokuzuncu", "on": "onuncu", "yirmi": "yirminci", "otuz": "otuzuncu",
+          "kırk": "kırkıncı", "elli": "ellinci", "altmış": "altmışıncı", "yetmiş": "yetmişinci", "seksen": "sekseninci",
+          "doksan": "doksanıncı", "yüz": "yüzüncü", "bin": "bininci"}.get(son, son)
+    return " ".join(s[:-1] + [ek])
+
 def sade(metin: str):
     metin = re.sub(r"(\d)[.,](\d{3})\b", r"\1\2", metin)
+    metin = re.sub(r"(\d+)\.(?=\s*[a-zçğıöşü])", lambda m: " " + sira_yazi(int(m.group(1))) + " ", metin)  # 19. yüzyıl → on dokuzuncu yüzyıl (23 Kasım)
     metin = re.sub(r"(\d+)[,.]5\b", lambda m: " " + sayi_yazi(int(m.group(1))) + " buçuk ", metin)  # 1,5 → bir buçuk (22 Kasım)
     metin = re.sub(r"%\s*(\d+)", r"yüzde \1", metin)  # ses tanıma "yüzde yetmişi" → "%70'i" yazıyor (20 Kasım)
     metin = re.sub(r"(\d+)['’]([a-zçğıöşü]+)", lambda m: " " + sayi_yazi(int(m.group(1))) + m.group(2) + " ", metin)  # 70'i → yetmişi
