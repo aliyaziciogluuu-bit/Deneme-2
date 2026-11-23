@@ -1,0 +1,86 @@
+{
+ "sorgu": "iNaturalist: Natrix tessellata (Türkiye)",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "gercek_zar_yilani_1.jpg",
+   "baslik": "iNaturalist gözlem 99096122 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/99096122",
+   "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Üsküpdere/Kırklareli Merkez/Kırklareli, Türkiye"
+  },
+  {
+   "n": 2,
+   "dosya": "gercek_zar_yilani_2.jpg",
+   "baslik": "iNaturalist gözlem 400431355 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/400431355",
+   "yazar": "© Ryan van Huyssteen, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Çatalca/İstanbul, Türkiye"
+  },
+  {
+   "n": 3,
+   "dosya": "gercek_zar_yilani_3.jpg",
+   "baslik": "iNaturalist gözlem 67298602 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/67298602",
+   "yazar": "no rights reserved",
+   "lisans": "CC0",
+   "boyut": "1571x1343",
+   "aciklama": "Sarayköy, Nizip, Gaziantep, TR"
+  },
+  {
+   "n": 4,
+   "dosya": "gercek_zar_yilani_4.jpg",
+   "baslik": "iNaturalist gözlem 177869657 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/177869657",
+   "yazar": "© AnimalObserverDeniz321, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1401x1359",
+   "aciklama": "Armutlu, Yalova, Türkiye"
+  },
+  {
+   "n": 5,
+   "dosya": "gercek_zar_yilani_5.jpg",
+   "baslik": "iNaturalist gözlem 116565468 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/116565468",
+   "yazar": "© Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1728x1296",
+   "aciklama": "Diyarbakir, TR"
+  },
+  {
+   "n": 6,
+   "dosya": "gercek_zar_yilani_6.jpg",
+   "baslik": "iNaturalist gözlem 407072084 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/407072084",
+   "yazar": "© Ömer Selim Kaya, some rights reserved (CC BY-SA)",
+   "lisans": "CC BY SA",
+   "boyut": "2048x1365",
+   "aciklama": "Bafra/Samsun, Türkiye"
+  },
+  {
+   "n": 7,
+   "dosya": "gercek_zar_yilani_7.jpg",
+   "baslik": "iNaturalist gözlem 351707318 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/351707318",
+   "yazar": "© Biray Pinar, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1536",
+   "aciklama": "Bafra, Samsun, TR"
+  },
+  {
+   "n": 8,
+   "dosya": "gercek_zar_yilani_8.jpg",
+   "baslik": "iNaturalist gözlem 128524883 (Natrix tessellata)",
+   "sayfa": "https://www.inaturalist.org/observations/128524883",
+   "yazar": "© Fethullah ÖZTÜRK, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1367",
+   "aciklama": "Gölbaşı/Ankara, Turkey"
+  }
+ ]
+}

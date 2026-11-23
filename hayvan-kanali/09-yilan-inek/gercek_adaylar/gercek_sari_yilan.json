@@ -1,0 +1,36 @@
+{
+ "sorgu": "iNaturalist: Elaphe sauromates (Türkiye)",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "gercek_sari_yilan_1.jpg",
+   "baslik": "iNaturalist gözlem 247674100 (Elaphe sauromates)",
+   "sayfa": "https://www.inaturalist.org/observations/247674100",
+   "yazar": "© Joey Bom, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1543",
+   "aciklama": "Çamardı/Niğde, Turkije"
+  },
+  {
+   "n": 2,
+   "dosya": "gercek_sari_yilan_2.jpg",
+   "baslik": "iNaturalist gözlem 407025013 (Elaphe sauromates)",
+   "sayfa": "https://www.inaturalist.org/observations/407025013",
+   "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1827",
+   "aciklama": "Akalar, Kırklareli Merkez/Kırklareli, Türkiye"
+  },
+  {
+   "n": 3,
+   "dosya": "gercek_sari_yilan_3.jpg",
+   "baslik": "iNaturalist gözlem 365684732 (Elaphe sauromates)",
+   "sayfa": "https://www.inaturalist.org/observations/365684732",
+   "yazar": "© actionpyramid, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1542x2048",
+   "aciklama": "Yazır, 59000 Süleymanpaşa/Tekirdağ, Türkiye"
+  }
+ ]
+}

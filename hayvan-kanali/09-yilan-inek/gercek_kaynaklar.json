@@ -1,0 +1,42 @@
+{
+ "gercek_sari_yilan": {
+  "baslik": "iNaturalist gözlem 365684732 (Elaphe sauromates)",
+  "sayfa": "https://www.inaturalist.org/observations/365684732",
+  "yazar": "© actionpyramid, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "1542x2048",
+  "tur": "fotoğraf"
+ },
+ "gercek_eskulap": {
+  "baslik": "iNaturalist gözlem 226194542 (Zamenis longissimus)",
+  "sayfa": "https://www.inaturalist.org/observations/226194542",
+  "yazar": "© Asrın Akıncıoğlu, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
+ },
+ "gercek_kirpi": {
+  "baslik": "iNaturalist gözlem 119864758 (Erinaceus concolor)",
+  "sayfa": "https://www.inaturalist.org/observations/119864758",
+  "yazar": "© Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1244",
+  "tur": "fotoğraf"
+ },
+ "gercek_sut_yilani": {
+  "baslik": "iNaturalist gözlem 107651958 (Lampropeltis gentilis)",
+  "sayfa": "https://www.inaturalist.org/observations/107651958",
+  "yazar": "© evangrimes, some rights reserved (CC BY)",
+  "lisans": "CC BY",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
+ },
+ "gercek_zar_yilani": {
+  "baslik": "iNaturalist gözlem 407072084 (Natrix tessellata)",
+  "sayfa": "https://www.inaturalist.org/observations/407072084",
+  "yazar": "© Ömer Selim Kaya, some rights reserved (CC BY-SA)",
+  "lisans": "CC BY SA",
+  "boyut": "2048x1365",
+  "tur": "fotoğraf"
+ }
+}

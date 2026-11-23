@@ -1,0 +1,86 @@
+{
+ "sorgu": "iNaturalist: Lampropeltis triangulum",
+ "video": false,
+ "adaylar": [
+  {
+   "n": 1,
+   "dosya": "gercek_sut_yilani_1.jpg",
+   "baslik": "iNaturalist gözlem 69876247 (Lampropeltis triangulum)",
+   "sayfa": "https://www.inaturalist.org/observations/69876247",
+   "yazar": "© Matt Berger, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1632x1088",
+   "aciklama": "Claiborne East, Loveland, OH 45140, USA"
+  },
+  {
+   "n": 2,
+   "dosya": "gercek_sut_yilani_2.jpg",
+   "baslik": "iNaturalist gözlem 222365596 (Lampropeltis triangulum)",
+   "sayfa": "https://www.inaturalist.org/observations/222365596",
+   "yazar": "© Zac Peterson, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1542",
+   "aciklama": "Ipswich, MA 01938, USA"
+  },
+  {
+   "n": 3,
+   "dosya": "gercek_sut_yilani_3.jpg",
+   "baslik": "iNaturalist gözlem 107651958 (Lampropeltis gentilis)",
+   "sayfa": "https://www.inaturalist.org/observations/107651958",
+   "yazar": "© evangrimes, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": ""
+  },
+  {
+   "n": 4,
+   "dosya": "gercek_sut_yilani_4.jpg",
+   "baslik": "iNaturalist gözlem 318029854 (Lampropeltis triangulum)",
+   "sayfa": "https://www.inaturalist.org/observations/318029854",
+   "yazar": "© Dominic, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1376",
+   "aciklama": ""
+  },
+  {
+   "n": 5,
+   "dosya": "gercek_sut_yilani_5.jpg",
+   "baslik": "iNaturalist gözlem 217616784 (Lampropeltis gentilis)",
+   "sayfa": "https://www.inaturalist.org/observations/217616784",
+   "yazar": "no rights reserved",
+   "lisans": "CC0",
+   "boyut": "1365x2048",
+   "aciklama": "Poudre Canyon Rd, Livermore, CO, US"
+  },
+  {
+   "n": 6,
+   "dosya": "gercek_sut_yilani_6.jpg",
+   "baslik": "iNaturalist gözlem 26075370 (Lampropeltis triangulum)",
+   "sayfa": "https://www.inaturalist.org/observations/26075370",
+   "yazar": "© Tom Norton, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "1152x2048",
+   "aciklama": "Thetford, VT"
+  },
+  {
+   "n": 7,
+   "dosya": "gercek_sut_yilani_7.jpg",
+   "baslik": "iNaturalist gözlem 61835041 (Lampropeltis triangulum)",
+   "sayfa": "https://www.inaturalist.org/observations/61835041",
+   "yazar": "© Christina Moresi, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x2048",
+   "aciklama": "Philadelphia, PA 19128, USA"
+  },
+  {
+   "n": 8,
+   "dosya": "gercek_sut_yilani_8.jpg",
+   "baslik": "iNaturalist gözlem 292478092 (Lampropeltis triangulum)",
+   "sayfa": "https://www.inaturalist.org/observations/292478092",
+   "yazar": "© oksanaetal, some rights reserved (CC BY)",
+   "lisans": "CC BY",
+   "boyut": "2048x1365",
+   "aciklama": "Maine, US"
+  }
+ ]
+}
