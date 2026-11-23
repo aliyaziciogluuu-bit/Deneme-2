@@ -11,7 +11,7 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Cmt 21 Kas | Kertenkele Yemeğe Düşerse Zehirler mi? (geko s1) | — | yüklendi |
 | Paz 22 Kas | Kertenkele Tavanda Nasıl Yürüyor? (geko s2) | — | yüklendi |
 | Pzt 23 Kas | Göz Kapağı Olmayan Kertenkele! (geko s3) **akşam ~23:00** | — | yüklenmemişti; kanal sahibi akşam yayınlayacak (saat 22:28 idi) |
-| Sal 24 Kas | Yumurtlamayan Kertenkele! (yılan s3) | **Kirpi** (yeni sürüm) | yeni sürüm planlandı 20 Kas |
+| Sal 24 Kas | Yumurtlamayan Kertenkele! (yılan s3) — planlandı 23 Kas | **Kirpi** (yeni sürüm) | yeni sürüm planlandı 20 Kas |
 | Çar 25 Kas | Kirpiye Sakın Süt Verme! (kirpi s1) | — | eski planlı silinip yenisi |
 | Per 26 Kas | Kirpi Sırtında Elma Taşır mı? (kirpi s2) | **Yarasa** (27'den öne alındı) | yeni sürüm planlandı 20 Kas |
 | Cum 27 Kas | Yarasa Saça Yapışır mı? (yarasa s1) | — | eski 28'deki silinip yenisi 27'ye |
@@ -50,3 +50,5 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 - 22 Kasım: kara kurbağası (5 Ara 18:00) ve Shorts'ları (6, 7 Ara 12:00) yükleme asistanıyla planlandı. Küçük resim testi A/B/C kuruldu; bitiş ekranı 5:54–6:08 'İzleyici için en iyisi' + abone. Yayından sonra: iki Shorts'ta İlgili video, sabit yorum, kırlangıç bitiş ekranı → kara kurbağası.
 
 - 22 Kasım kanal sahibi kararı: uzun video haftada 2 (salı, cumartesi 18:00). Her uzun videodan 3 Shorts (uzun videonun en güçlü 20–40 saniyesi; ilk cümle iddia). Haftada 6 Shorts uzun videolardan, 7. gün en iyi tutan Shorts formatının yeni örneği ya da boş.
+
+- 23 Kasım stüdyo asistanı (Görev 7): tanıtım duraklatıldı (₺966,44, 0 abone); 5 oynatma listesi kuruldu; 6 videonun bitiş ekranına liste öğesi; sağır yılan başlık testi başladı, yarasa başlığı '(Karanlıkta Nasıl Görüyor?)'; geko başlık testi açılamadı (küçük resim testi sürüyor); topluluk gönderileri 25 Kas, 29 Kas, 2 Ara 20:00 planlandı. **Karga ve kırlangıç kanalda yok → yüklenecek.** Kirpi s3, yarasa s3, baykuş s3 yüklenecek.

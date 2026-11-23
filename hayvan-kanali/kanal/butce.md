@@ -45,3 +45,4 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 |---|---|---|---|---|
 | 20 Kas | 02 geko (yeniden yüklenen) | 950 TL (≈ 20 $, yaklaşık kur) | 3 gün (bitiş 23 Kas) | Kanal sahibi kararı. 21 Kas: ilk 13 saatte 862 reklam görüntülemesi, ort. izleme 2:13. Hedefleme: Türkiye, Türkçe, ilgi alanları seçildi; 21 Kas "Bilinmiyor" yaş grubu çıkarıldı (çocuk içerikleri yanında gösterim). Sonuç reklam bitince ölçülecek |
 | 22 Kas | Sonuç | 572 TL harcandı (bütçe 1.000 TL'ye çıkarılmış) | | ≈ 4.100 görüntüleme, ort. izleme %49,7, **1 abone**, organik etki çok az (öneriler 63). Karar önerisi: durdur, yenileme; para üretime |
+- 23 Kasım: geko tanıtımı stüdyo asistanınca DURAKLATILDI. Toplam harcama ₺966,44 (21.744 gösterim, 4.716 görüntüleme, 0 abone). Yeni tanıtım açılmayacak (izlenmeleri şarta sayılmıyor).
