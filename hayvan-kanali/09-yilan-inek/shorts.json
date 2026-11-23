@@ -19,31 +19,48 @@
       "cumleler": [
         {
           "yazi": "Yılanın ağzı avı koparmaya değil, bütün yutmaya göre.",
-          "gorsel": "yilan_yakin"
+          "gorsel": "gercek_sari_yilan",
+          "x": 0.52,
+          "aw": 0.5,
+          "ay": 0.7,
+          "w": 0.45,
+          "y": 0.7,
+          "etiket": "Sarı yılan, Türkiye"
         },
         {
           "yazi": "Zehirsiz yılanın dişleri yırtmaya değil, tutup kavramaya uygun.",
-          "gorsel": "yilan_yakin"
+          "gorsel": "gercek_eskulap",
+          "x": 0.45,
+          "aw": 0.45,
+          "ay": 0.5,
+          "etiket": "Eskülap yılanı, Türkiye"
         },
         {
           "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
-          "gorsel": "ahir_inek"
+          "gorsel": "ahir_inek",
+          "x": 0.55
         },
         {
           "yazi": "Bir kaynağa göre bu yılan, ineğin memesinden süt emecek yapıda değil.",
-          "gorsel": "ahir_inek"
+          "gorsel": "inek_yakin",
+          "x": 0.5
         },
         {
           "yazi": "Türkiye'deki yılanlardan birinin memeden süt emdiğini gösteren bir yazıya rastlamadık.",
-          "gorsel": "ahir_kapi"
+          "gorsel": "kirsal_ev",
+          "x": 0.4
         },
         {
           "yazi": "Ahırda yılan görürsen yaklaşma, elle yakalamaya çalışma; ısırıldıysan hemen sağlık kuruluşuna başvur.",
-          "gorsel": "ahir_kapi"
+          "gorsel": "ahir_kapi",
+          "x": 0.62
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "kapanis"
+          "gorsel": "kapanis",
+          "x": 0.75,
+          "klip": "kapanis",
+          "kx": 0.8
         }
       ]
     },
@@ -66,32 +83,49 @@
       "cumleler": [
         {
           "yazi": "Kirpi ineğin sütünü emer sanılmış.",
-          "gorsel": "kirpi_yakin"
+          "gorsel": "gercek_kirpi",
+          "x": 0.25,
+          "aw": 0.5,
+          "ay": 0.6,
+          "etiket": "Kirpi, Türkiye"
         },
         {
           "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar buna inandığını yazıyor.",
-          "gorsel": "kirpi_yakin"
+          "gorsel": "kirsal_ev",
+          "x": 0.4
         },
         {
           "yazi": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor.",
-          "gorsel": "kirpi_yakin"
+          "gorsel": "tas_ici_sut",
+          "x": 0.5
         },
         {
           "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok.",
-          "gorsel": "kirpi_yakin"
+          "gorsel": "gercek_kirpi",
+          "x": 0.22,
+          "aw": 0.55,
+          "ay": 0.6,
+          "etiket": "Kirpi, Türkiye"
         },
         {
           "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
-          "gorsel": "ahir_inek"
+          "gorsel": "ahir_inek",
+          "x": 0.55
         },
         {
           "yazi": "Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
           "ses": "Misuri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
-          "gorsel": "ahir_inek"
+          "gorsel": "yilan_fare",
+          "x": 0.45,
+          "klip": "yilan_fare",
+          "kx": 0.35
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "kapanis"
+          "gorsel": "kapanis",
+          "x": 0.75,
+          "klip": "kapanis",
+          "kx": 0.8
         }
       ]
     },
@@ -114,31 +148,42 @@
       "cumleler": [
         {
           "yazi": "Sabah boş görünen memenin sorumlusu yılan değil, buzağı olabilir.",
-          "gorsel": "buzagi_inek"
+          "gorsel": "buzagi_inek",
+          "x": 0.42,
+          "klip": "buzagi",
+          "kx": 0.4
         },
         {
           "yazi": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
-          "gorsel": "buzagi_inek"
+          "gorsel": "inek_sagim",
+          "x": 0.5
         },
         {
           "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
-          "gorsel": "buzagi_inek"
+          "gorsel": "buzagi_inek",
+          "x": 0.3
         },
         {
           "yazi": "Araştırmacılar bunu yalnızca buzağının içtiği sütle açıklayamamış.",
-          "gorsel": "buzagi_inek"
+          "gorsel": "bos_kova",
+          "x": 0.7
         },
         {
           "yazi": "Sütü azaltan başka nedenler de var: meme enfeksiyonu, sıcak ve stres.",
-          "gorsel": "inek_yakin"
+          "gorsel": "ahir_sicak",
+          "x": 0.55
         },
         {
           "yazi": "Bize göre sütü birden azalan ineği önce veterinere göster.",
-          "gorsel": "veteriner"
+          "gorsel": "inek_yakin",
+          "x": 0.5
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "kapanis"
+          "gorsel": "kapanis",
+          "x": 0.75,
+          "klip": "kapanis",
+          "kx": 0.8
         }
       ]
     }
