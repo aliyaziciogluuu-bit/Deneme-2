@@ -163,12 +163,12 @@
           "x": 0.5
         },
         {
-          "yazi": "Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer.",
+          "yazi": "Annesinin yanında kalan buzağı, sütün bir kısmını kendisi içer.",
           "gorsel": "inek_sagim",
           "x": 0.5
         },
         {
-          "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış.",
+          "yazi": "Bir çalışmada buzağıyla sürekli temas eden ineklerden alınan süt en az çıkmış.",
           "gorsel": "buzagi_inek",
           "x": 0.66
         },

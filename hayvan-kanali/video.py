@@ -14,6 +14,7 @@ Dikey (Shorts): senaryo.json'da "dikey": true → 1080x1920, üstte sabit "ust_y
 Gerekenler: ffmpeg, pip install pillow numpy
 """
 import json
+import re
 import multiprocessing as mp
 import pathlib
 import shutil
@@ -148,8 +149,15 @@ def gercek_kunye(klasor: pathlib.Path):
                     s = json.loads(sj.read_text(encoding="utf-8"))
                     kullanilan.update(x.get("gorsel") for x in [s.get("kapak") or {}] + s.get("kapak_alternatifler", []) if x.get("gorsel"))
                 kayit = {ad: a for ad, a in kayit.items() if ad in kullanilan}
-            return [f"- {a['baslik'].replace('File:', '')} – {a['yazar']} – {a['lisans']} – {a['sayfa'].replace('https://', '').replace('www.', '')}"
-                    for a in kayit.values()]
+            satir, gorulen = [], set()
+            for a in kayit.values():  # aynı fotoğraf (ör. kapakta da kullanılan) bir kez yazılır; kısa biçim (23 Kasım: açıklama 5.000 sınırı)
+                if a["sayfa"] in gorulen:
+                    continue
+                gorulen.add(a["sayfa"])
+                baslik = re.sub(r"^iNaturalist gözlem \d+ \((.+)\)$", r"\1", a["baslik"].replace("File:", ""))
+                yazar = re.sub(r",\s*some rights reserved.*$|\s*\(CC[^)]*\)$", "", a["yazar"]).strip()
+                satir.append(f"- {baslik} – {yazar} – {a['lisans']} – {a['sayfa'].replace('https://', '').replace('www.', '')}")
+            return satir
     return []
 
 

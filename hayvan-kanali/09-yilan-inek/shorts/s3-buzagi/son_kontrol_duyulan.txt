@@ -1,0 +1,7 @@
+000 fark=1 | Sabah boş görünen memenin sorumlusu yılan değil, buzağı olabilir. || Sabah boş görünen memenin sorumlusu yılan değil, buzağa olabilir.
+001 fark=1 | Buzağı annesinin yanında kalırsa sütün bir kısmını kendisi içer. || Buza, annesinin yanında kalırsa, sütün bir kısmını kendisi içer.
+002 fark=2 | Bir çalışmada buzağıyla sürekli temas eden ineklerin sağılan sütü en düşük çıkmış. || Bir çalışmada buzayla sürekli temas eden ineklerin sağlam sütü en düşük çıkmış.
+003 fark=0 | Araştırmacılar bunu yalnızca buzağının içtiği sütle açıklayamamış. || Araştırmacılar bunu yalnızca buzağının içtiği sütle açıklayamamış.
+004 fark=1 | Sütü azaltan başka nedenler de var: meme enfeksiyonu, sıcak ve stres. || Sütü azaltan başka nedenler de var. Mehmet enfeksiyonu, sıcak ve stres.
+005 fark=1 | Bize göre sütü birden azalan ineği önce veterinere göster. || Bize göre sütü birden azalan ineyi önce veterinere göster.
+006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.
