@@ -10,7 +10,7 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Cum 20 Kas | — | **Ev kertenkelesi (geko)** | 19 Kas erken açılmıştı; silinip 20 Kas 21:08 yeniden yayınlandı |
 | Cmt 21 Kas | Kertenkele Yemeğe Düşerse Zehirler mi? (geko s1) | — | yüklendi |
 | Paz 22 Kas | Kertenkele Tavanda Nasıl Yürüyor? (geko s2) | — | yüklendi |
-| Pzt 23 Kas | Göz Kapağı Olmayan Kertenkele! (geko s3) | — | teslim edildi 20 Kas, yüklenecek |
+| Pzt 23 Kas | Göz Kapağı Olmayan Kertenkele! (geko s3) **19:00** | — | yüklenmemişti; 23 Kas yeniden gönderildi, 19:00 planlanacak |
 | Sal 24 Kas | Yumurtlamayan Kertenkele! (yılan s3) | **Kirpi** (yeni sürüm) | yeni sürüm planlandı 20 Kas |
 | Çar 25 Kas | Kirpiye Sakın Süt Verme! (kirpi s1) | — | eski planlı silinip yenisi |
 | Per 26 Kas | Kirpi Sırtında Elma Taşır mı? (kirpi s2) | **Yarasa** (27'den öne alındı) | yeni sürüm planlandı 20 Kas |
