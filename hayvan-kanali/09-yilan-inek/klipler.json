@@ -1,35 +1,29 @@
 {
-  "not": "Yılan klipleri: göz kırpma, bacak/uzuv belirmesi, dil dışında ağız hareketi, yılanın inekle temas etmesi görülürse o kısım kırpılır. Her klipten 5 kare (0,5-4,9 sn) incelenir. 6 klip x 0,35 $ = 2,1 $. Shorts: s1 açılışı 'yilan_yakin', s2 buzağı kısmı 'buzagi', s3 açılışı için inek_yakin klibi YOK (bütçe); Shorts uzmanı mevcut kliplerle çözer. Şüpheli düzenleme gerekirse Kontext (~0,04 $).",
+  "not": "En fazla 6 klip, yalnızca yapay zekâ görsellerinden (gerçek fotoğraf animasyona sokulmaz). yilan_yakin ve eski ahir_sabah çıkarıldı. Yılan kliplerinde (duvar_yilan, yilan_fare): bacak belirmesi, göz kırpma, dil dışında ağız hareketi, yılanın fareye/ineğe temas etmesi görülürse o kısım kırpılır. Yılan olmayan kliplerin isteminde 'snake' kelimesi geçmez. Her klipten 5 kare (0,5-4,9 sn) incelenir. 6 klip x 0,35 $ = 2,1 $. Shorts dosyası (shorts.json) hâlâ yilan_yakin ve s1 klibini kullanıyor; yeniden kurulmalı.",
   "klipler": [
     {
       "ad": "acilis",
-      "gorsel": "duvar_yilan",
+      "gorsel": "koy_sabahi",
       "sure": 5,
-      "istem": "The snake slowly glides a short way along the foot of the stone wall, lifts its head a little and flicks its tongue once or twice, the grass sways gently in the breeze. Camera static, slow natural motion only. The snake stays limbless, no legs appear, no blinking, no new animals appear. Storybook watercolor style preserved."
-    },
-    {
-      "ad": "ahir_sabah",
-      "gorsel": "ahir_inek",
-      "sure": 5,
-      "istem": "The cow shifts her weight slowly, flicks one ear and swishes her tail once, dust motes drift in the sunbeams, she breathes calmly. Camera static, gentle natural motion only, exactly four legs, no new animals appear, no snake appears. Storybook watercolor style preserved."
-    },
-    {
-      "ad": "yilan_fare",
-      "gorsel": "yilan_fare",
-      "sure": 5,
-      "istem": "The snake glides very slowly along the wall toward the hole, the tongue flicks, the little mouse peeks out, twitches its whiskers and stays where it is, straw moves slightly. Camera static, slow natural motion only, the snake stays limbless without legs, the mouse is not caught or hurt, no new animals appear. Storybook watercolor style preserved."
+      "istem": "The morning mist drifts slowly over the hills, the grass and flowers sway gently in the breeze, smoke rises softly from the chimney, leaves flutter a little. Camera static, slow natural motion only, no people and no animals appear. Storybook watercolor style preserved."
     },
     {
       "ad": "buzagi",
       "gorsel": "buzagi_inek",
       "sure": 5,
-      "istem": "The calf suckles gently with small head bumps and a wagging tail while the cow chews calmly and turns her head to lick the calf once. Camera static, gentle natural motion only, cow four legs and calf four legs, no extra legs, no snake, nothing new appears. Storybook watercolor style preserved."
+      "istem": "The calf suckles gently with small head bumps and a wagging tail while the cow chews calmly and turns her head to lick the calf once. Camera static, gentle natural motion only, cow four legs and calf four legs, no extra legs, nothing new appears. Storybook watercolor style preserved."
     },
     {
-      "ad": "yilan_yakin",
-      "gorsel": "yilan_yakin",
+      "ad": "duvar_yilan",
+      "gorsel": "duvar_yilan",
       "sure": 5,
-      "istem": "The snake's tongue flicks slowly out and in, the head turns a few degrees, the throat moves a little with breathing, straw moves very slightly behind. Camera static, gentle natural motion only, the snake never blinks (no eyelids), no legs appear, no other animal appears. Storybook watercolor style preserved."
+      "istem": "The snake slowly glides a short way along the foot of the stone wall, its body flowing smoothly, lifts its head a little and flicks its tongue once or twice, the grass sways gently. Camera static, slow natural motion only. The snake stays limbless, no legs appear, the eyes stay round and dot-like, no blinking, no new animals appear. Storybook watercolor style preserved."
+    },
+    {
+      "ad": "yilan_fare",
+      "gorsel": "yilan_fare",
+      "sure": 5,
+      "istem": "The snake glides very slowly along the wall toward the hole, the tongue flicks, the little mouse peeks out, twitches its whiskers and stays where it is, straw moves slightly. Camera static, slow natural motion only, the snake stays limbless without legs, eyes stay round, the mouse is not caught or hurt, no new animals appear. Storybook watercolor style preserved."
     },
     {
       "ad": "kapanis",

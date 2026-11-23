@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Kirpi ineğin sütünü emer sanılmış.",
+  "duyulan": "Kirpi, ineğin sütünü emer sanılmış.",
+  "hata": 0,
+  "sure": 2.28,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bir kaynak, bazı İngiliz köylülerinin on dokuzuncu yüzyıla kadar buna inandığını yazıyor.",
+  "duyulan": "Bir kaynak bazı İngiliz köylülerinin 19. yüzyıla kadar buna inandığını yazıyor.",
+  "hata": 1,
+  "sure": 4.82,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor.",
+  "duyulan": "Kirpilerin süt şekerini kaldıramadığı da aynı metinde geçiyor.",
+  "hata": 0,
+  "sure": 3.2,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bize göre kirpinin ineği sağdığına dair elimizde sağlam bir kanıt yok.",
+  "duyulan": "Bize göre kirpinin ineği sardığına dair elimizde sağlam bir kanıt yok.",
+  "hata": 1,
+  "sure": 4.06,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Amerika'da 'süt yılanı' denen bir türe de aynı hikâye yakıştırılmış.",
+  "duyulan": "Amerika'da süt yılanı denen bir türe de aynı hikâyeye yakıştırılmış.",
+  "hata": 1,
+  "sure": 3.5,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Missouri Doğa Koruma Dairesi bunun bir efsane olduğunu, yılanın büyük olasılıkla fare aradığını yazıyor.",
+  "duyulan": "Miksuri Doğa Koruma Dairesi bunun bir efsane olduğunu yılanın büyük olasılıklı fare aradığını yazıyor.",
+  "hata": 2,
+  "sure": 5.6,
+  "uygun": false
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.28,
+  "uygun": true
+ }
+}
