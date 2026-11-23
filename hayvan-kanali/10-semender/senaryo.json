@@ -11,6 +11,7 @@
     "Vikipedi – Salamander: en.wikipedia.org/wiki/Salamander",
     "Vikipedi – Lizard: en.wikipedia.org/wiki/Lizard",
     "Vikipedi – Asbestos: en.wikipedia.org/wiki/Asbestos",
+    "Dünya Sağlık Örgütü (WHO) – Asbestos (bilgi sayfası): who.int/news-room/fact-sheets/detail/asbestos",
     "Vikipedi – Near Eastern fire salamander: en.wikipedia.org/wiki/Near_Eastern_fire_salamander",
     "Vikipedi – Fire salamander: en.wikipedia.org/wiki/Fire_salamander",
     "Vikipedi – Benvenuto Cellini: en.wikipedia.org/wiki/Benvenuto_Cellini",
@@ -42,7 +43,7 @@
       "ATEŞTEN",
       "DOĞAR MI?"
     ],
-    "kucuk": "Kışın odunda saklanan",
+    "kucuk": "Kışın uykuya yatan",
     "konum": "sol",
     "genislik": 500
   },
@@ -56,7 +57,7 @@
       "ad": "Odundan düşen hayvan",
       "cumleler": [
         {
-          "yazi": "Soba için odun alıyorsun, kütüğün altından siyah sarı benekli bir hayvan düşüyor."
+          "yazi": "Soba için odun alıyorsun, kütüğün altından siyah sarı lekeli bir hayvan düşüyor."
         },
         {
           "yazi": "Bu hayvan ateşten doğmadı; peki kışın odunun içinde ne arıyordu?"
@@ -112,13 +113,16 @@
           "yazi": "Ateşte yıkanan mendil nereden çıktı?"
         },
         {
-          "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil ve gömlek yapıldığını, kirlenince ateşe atılıp temizlendiğini anlatıyor."
+          "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil ve gömlek yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş."
         },
         {
           "yazi": "Bir derlemeye göre \"semender yününden\" denen kumaşlar gerçekte asbest kumaşıydı."
         },
         {
           "yazi": "Asbest, ateşe dayanıklı kumaş yapılan lifli bir mineral; yani kumaş vardı, hayvan yoktu."
+        },
+        {
+          "yazi": "Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor."
         }
       ]
     },
@@ -132,7 +136,7 @@
           "yazi": "Bir makale, on dördüncü ile on dokuzuncu yüzyıl arasında yüz yetmiş üç şairin şiirinde semender geçtiğini yazıyor."
         },
         {
-          "yazi": "Aynı makale, bir görüşe göre sözcüğün Farsçada \"ateş içinde\" demek olan bir sözcükten kısaldığını aktarıyor."
+          "yazi": "Aynı makale sözcük için iki açıklama aktarıyor: Yunancadan geldiği ve Farsçada ateş içinde anlamına gelen bir sözcükten kısaldığı."
         },
         {
           "yazi": "Osmanlı sözlüklerinin birçoğu onu ateşte yaşayan efsanevi hayvan diye tanımlıyor."
@@ -158,7 +162,7 @@
           "yazi": "Birçok semender türü, kışı çürüyen kütüklerin içinde ve altında uyuyarak geçiriyor."
         },
         {
-          "yazi": "Bir derlemeye göre ateş efsanesinin kökü büyük olasılıkla burası."
+          "yazi": "Bir derlemeye göre ateş efsanesinin kökü burada olabilir."
         },
         {
           "yazi": "Odun eve getirilip ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş."
@@ -168,7 +172,7 @@
           "ses": "On altıncı yüzyıl İtalyan sanatçısı Çelini, çocukken ateşte böyle bir hayvan gördüğünü anılarında yazmış."
         },
         {
-          "yazi": "Bize göre eskiler büyük olasılıkla gerçek bir şey gördü; yalnızca açıklamaları eksikti."
+          "yazi": "Bize göre eskiler gerçek bir şey görmüş olabilir; açıklamaları eksik kalmış olabilir."
         },
         {
           "yazi": "Türkiye'deki semender de odunda mı kışlıyor?"
@@ -185,7 +189,7 @@
           "yazi": "Peki semender, kertenkele midir?"
         },
         {
-          "yazi": "Öyle sanmak kolay: dört bacağı ve uzun bir kuyruğu var."
+          "yazi": "Öyle sanmak kolay: dört bacağı ve bir kuyruğu var."
         },
         {
           "yazi": "Oysa semender bir iki yaşamlıdır; kurbağayla aynı sınıftan."
@@ -208,42 +212,29 @@
           "yazi": "Türkiye'de hangi semenderler yaşıyor?"
         },
         {
-          "yazi": "Birçok türümüz var; Marmaris semenderi gibi bazıları yalnızca ülkemizde bulunuyor."
-        },
-        {
-          "yazi": "Bunlardan biri Türk semenderi: siyah derisinde sarı benekler var."
+          "yazi": "Bunlardan biri Türk semenderi: siyah derisinde sarı lekeler var."
         },
         {
           "yazi": "Yıllarca Avrupa lekeli semenderi sanıldı; bugün ayrı tür ve adı Salamandra infraimmaculata.",
           "ses": "Yıllarca Avrupa lekeli semenderi sanıldı; bugün ayrı tür ve adı Salamandra infraimmakülata."
         },
         {
-          "yazi": "Kaynaklara göre Erzincan, Bitlis, Adana, Mersin, Hatay ve Güneydoğu Anadolu'da yaşıyor."
+          "yazi": "Bir çalışma Erzincan, Malatya, Hatay ve Mersin'den örnek toplayıp karşılaştırmış."
         },
         {
-          "yazi": "En kuzeydeki kayıt, iki bin yirmi dörtte Sivas'ın İmranlı ilçesinden bildirildi."
+          "yazi": "Ama senin yörende de var mı?"
         },
         {
-          "yazi": "Senin yörende var mı?"
-        },
-        {
-          "yazi": "Dağlık ve tepelik bölgelerde, tatlı su kaynağına yakın nemli ormanlarda yaşıyor."
-        },
-        {
-          "yazi": "Gündüz saklanıyor; geceleri böcek, solucan, sümüklüböcek ve salyangoz yiyor."
+          "yazi": "Nemli ormanlarda, tatlı su kaynağına yakın yaşıyor; gündüz saklanıp geceleri böcek, solucan ve salyangoz yiyor."
         },
         {
           "yazi": "Yüksek yerlerdeki bireyler kışı uykuda geçiriyor; üreme kışın serin aylarına denk geliyor."
         },
         {
-          "yazi": "Plinius'un sağanak notu gerçeğe yakın: Avrupa lekeli semenderi yağmurlu günlerde gündüz de görünüyor.",
-          "ses": "Plinyus'un sağanak notu gerçeğe yakın: Avrupa lekeli semenderi yağmurlu günlerde gündüz de görünüyor."
-        },
-        {
           "yazi": "Bu komşumuz tehlikede mi?"
         },
         {
-          "yazi": "Kaynaklara göre kuruyan sular, barajlanan dereler, trafik ve parçalanan yaşam alanı onu tehdit ediyor."
+          "yazi": "Eski bir değerlendirmeye göre kuruyan sular, barajlanan dereler, trafik ve parçalanan yaşam alanı onu tehdit ediyor."
         }
       ]
     },
@@ -280,7 +271,7 @@
       "ad": "Komşunu tanı",
       "cumleler": [
         {
-          "yazi": "Özetle semender ateşten doğmuyor; ateş hikâyesi büyük olasılıkla kütüğün içinde uyuyan, nemli derili bir iki yaşamlıdan çıkmış."
+          "yazi": "Özetle semender ateşten doğmuyor; ateş hikâyesinin kütükten çıkan, kış uykusundaki semenderlerle bağlantılı olduğu öne sürülüyor."
         },
         {
           "yazi": "Senin köyünde semendere ne derler, hiç odunun içinden hayvan çıktı mı?"
@@ -302,7 +293,7 @@
     "Semender Ateşte Yanar mı? (Ateşte Yıkanan Mendilin Hikâyesi)",
     "Semender Ateşte Yaşar mı? (Kuyuyu Zehirlediği Sanılan Hayvan)"
   ],
-  "baslik_notu": "Öneri; son karar paketleme uzmanında. Üçü de arama sorgusunu birebir taşır (ateşten doğar mı / ateşte yanar mı / ateşte yaşar mı) ve parantez cevabı vermez, videonun bir bölümünü vaat eder. 1. başlık ana cevabın bölümüne (odun yığını), 2. başlık mendil ve asbest bölümüne, 3. başlık kuyu zehirleme hikâyesine işaret eder. Parantezlerde 'zehirlediği sanılan' denerek efsane olduğu belirtildi. Alt yazılar başlıkta geçmeyen vaatlerdir. Zaman tahmini için ses/rapor.json yok; kelime sayısından hesaplanan: ilk kanıt (Plinius'un şüphesi) ≈0:27, Plinius sağanak ≈0:35, mendil/asbest ≈1:35, Osmanlı sözlükleri ≈2:00, odun yığını ana cevap ≈2:35.",
+  "baslik_notu": "Öneri; son karar paketleme uzmanında. Üçü de arama sorgusunu birebir taşır (ateşten doğar mı / ateşte yanar mı / ateşte yaşar mı) ve parantez cevabı vermez, videonun bir bölümünü vaat eder. 1. başlık ana cevabın bölümüne (odun yığını), 2. başlık mendil ve asbest bölümüne, 3. başlık kuyu zehirleme hikâyesine işaret eder. Parantezlerde 'zehirlediği sanılan' denerek efsane olduğu belirtildi. Alt yazılar başlıkta geçmeyen vaatlerdir. Kapak ve başlık kesin köken vaat etmez (kökenin kütükten çıkabileceği 'öne sürülüyor' düzeyinde). Zamanlar kelime sayısından tahmin: ilk kanıt ≈0:26, Plinius sağanak ≈0:32, mendil/asbest ≈1:15, Osmanlı ≈1:35, odun yığını (ana cevap) ≈2:05.",
   "kapak_alternatifler": [
     {
       "buyuk": [
