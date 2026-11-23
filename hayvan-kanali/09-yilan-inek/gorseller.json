@@ -1,0 +1,145 @@
+{
+  "not": "Yılan–inek (Elaphe sauromates: açık sarımsı-zeytin, göz-ağız köşesi koyu şerit, YUVARLAK göz bebeği, göz kapağı yok, bacak yok, zehirsiz; Eskülap de zehirsiz yuvarlak göz bebekli). Yılan ASLA ineğin memesine dokunurken çizilmez (efsane görselle doğrulanmaz); yalnızca buzağı ya da çiftçinin eli meme ile temas eder. İnek: dört bacak, dört meme, iki boynuz. İnsan yılanı çıplak elle tutmaz, yüz yok, ölü/yaralı hayvan yok, yazı yok (kova, pano, kapı düz). Ölçek: yılan bilek kalınlığında, fare başparmak boyunda, kirpi avuç içi. dosya_pano: resimler yazısız; yazı benzeri karalama çıkarsa kullanma. kapak: yılan sağ yarıda, sol yarı boş, süt/kova/inek yok. Gerçek fotoğraflar: gercek_* adayları gercek_adaylar/ içinde, seçim önerileri notlarda; gorseller/'e seçilen kopyalanır, atıflar gercek_kaynaklar.json'a. Shorts'taki 'kirpi_yakin' adı yok: gercek_kirpi kullanılmalı (Shorts uzmanı). yilan_yakin, ahir_inek, ahir_kapi, buzagi_inek, inek_yakin, inek_sagim, ahir_sicak, veteriner, kapanis shorts.json'da kullanılıyor. Maliyet: 20 yapay zekâ görseli, 33 aday x 0,06 = ~2,0 $. 3 AYRI KAPAK: kapak (tek yılan, sağda), kapak_b (yılan başı/ağzı yakın, sağda), kapak_c (ahırda inek, boş kova, uzakta minik yılan; yılan ineğe dokunmaz). senaryo.json kapak_alternatifler B için 'gorsel': 'kapak_b', C için 'kapak_c' yazılmalı (senarist). Güncel maliyet: 22 yapay zekâ görseli, 38 aday = ~2,3 $.",
+  "gorseller": [
+    {
+      "ad": "kapak",
+      "istem": "Close-up, slightly low angle portrait of a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches on the front half of the body, a dark streak running from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, calm gentle expression, no legs, no feet, no toes, no claws anywhere, head and the front third of the body raised gently and tilted a little with curiosity, sitting on a sun-warmed mossy stone in the RIGHT half of the frame, the head turned toward the left, the eye and the round pupil sharply visible, golden morning light, the entire LEFT half of the image is soft empty blurred warm barn-and-meadow background with no objects, empty space for a title. The snake is about as thick as a human wrist, calm, friendly, cute, not threatening, mouth closed. No cow, no milk, no bucket in the picture. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "kapak_b",
+      "istem": "Extreme close-up of the head of a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches, a dark streak from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, no legs, no feet, no toes, no claws anywhere, the face filling the RIGHT half of the frame, head turned toward the left in profile, mouth closed with the thin forked tongue flicking just out, the big golden eye with the round black pupil sharp and friendly, smooth scales, soft blurred green meadow background, the entire LEFT half of the image is soft empty blurred background with no objects, empty space for a title. Cute and calm, not threatening, only one snake, no cow, no milk. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "kapak_c",
+      "istem": "Inside a village barn in warm morning light: a gentle brown-and-cream dairy cow with a white blaze, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats standing on the RIGHT half of the frame, side-on and looking calmly toward the camera, an empty shiny plain metal milk pail on the straw beside her front legs, and far away in the back of the barn near the stone wall a very small thin a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches, a dark streak from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, no legs, no feet, no toes, no claws anywhere lying still, tiny in the picture, nowhere near the cow, not touching the cow or the udder or the pail; the entire LEFT third of the image is soft empty blurred barn background for a title. Cute, calm, not scary, no dead or injured animal. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "duvar_yilan",
+      "istem": "Early morning at the base of an old village stone barn wall: a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches on the front half of the body, a dark streak running from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, calm gentle expression, no legs, no feet, no toes, no claws anywhere, about as thick as a human wrist, slowly gliding along the foot of the wall between dry grass and a few pebbles, head slightly raised, seen from the side at medium distance, soft golden light. No cow, no milk in the picture. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "inek_yakin",
+      "istem": "Close-up portrait of a gentle brown-and-cream dairy cow with a white blaze on the face, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats hanging between the hind legs, looking slightly puzzled and calm toward the camera, head and neck filling the frame, warm light inside a village barn with blurred hay behind, no snake, no milk bucket. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "dosya_pano",
+      "istem": "A cork detective board in a rustic farmhouse room, pinned painted pictures with red strings between them: a hedgehog, a calf, a snake, a cow's udder-less cow portrait, a thermometer sun symbol, a farmer's silhouette, a magnifying glass lying on the table, warm lamp light, storybook look; the pictures show simple animals only, all drawings are wordless. Every animal drawn on the board has correct anatomy: hedgehog with spines, snake limbless with round pupil, calf with four legs. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "koy_sabahi",
+      "istem": "A quiet Anatolian village at sunrise: stone-and-wood houses with red tile roofs, a thin chimney smoke, a barn with an open wooden door at the edge of a green hill, morning mist over meadows, dew, no people and no animals visible, no signs, soft golden light. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "ahir_inek",
+      "istem": "Inside a village barn at dawn: a gentle brown-and-cream dairy cow with a white blaze on the face, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats hanging between the hind legs, standing sideways in a stall, slightly restless, tail raised a little and ears pointing back, hay on the floor, sunbeams through wooden slats, the cow's udder looks small and slack, a stone wall behind. No snake, no calf, no people. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "bos_kova",
+      "istem": "A clean empty shiny metal milk pail and a small wooden milking stool on a straw floor in a village barn at early morning, sunbeams through the planks, the pail is completely empty and plain without any markings, no animals, no people. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "kirsal_ev",
+      "istem": "A small old stone village house with a vegetable garden and a low stone wall, wooden barn shed beside it, hens' coop in the distance, afternoon warm light, flowers along the wall, no people, no animals visible, no signs. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "buzagi_inek",
+      "istem": "In a village barn, a gentle brown-and-cream dairy cow with a white blaze on the face, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats hanging between the hind legs standing side-on, her calf a small brown calf with a white blaze, exactly four thin legs, long eyelashes, big soft eyes standing beside her flank suckling gently from her teat, tail wagging, the cow turns her head back and looks at the calf, soft morning light. Four legs on the cow and four legs on the calf, calf head clearly under her flank on the correct side. No snake, no people. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "inek_sagim",
+      "istem": "A farmer's weathered hands (only hands and forearms in a plain sleeve visible, no face) calmly hand-milking a cow into a plain metal pail in a barn, the cow's flank, hind legs and udder visible, exactly two hands, five fingers each, warm sunbeam, hay on the floor. Only the farmer's hands touch the udder. No snake. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "tas_ici_sut",
+      "istem": "A small white ceramic bowl of milk placed in a hollow niche between the stones of an old village wall, moss on the stones, soft evening light, a few wildflowers beside it, respectful and peaceful atmosphere, no animals, no people, no snake. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "yilanli_kale",
+      "istem": "A ruined medieval hill castle on a rocky ridge in southern Anatolia, golden dry grass in the foreground, distant blue hills, calm late afternoon light, painted view from far away, no people, no animals, no flags, no inscriptions. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "yilan_yakin",
+      "istem": "Close-up portrait of a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches on the front half of the body, a dark streak running from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, calm gentle expression, no legs, no feet, no toes, no claws anywhere, head turned slightly three-quarter toward the viewer, mouth gently closed with a thin forked tongue just flicking out, round pupil, smooth scales visible, sharp eye, blurred straw and barn wall background, the snake is about as thick as a human wrist. Only one snake, no cow, no milk. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "ahir_kapi",
+      "istem": "A wide wooden barn door open to morning light, a farmer in a cap and plain work clothes (seen from behind or small in the distance, no face) standing well back by the doorway, holding a child and a dog back with his arm, while far across the barn floor near the stone wall a thin a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches on the front half of the body, a dark streak running from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, calm gentle expression, no legs, no feet, no toes, no claws anywhere lies still, small in the picture, the farmer keeps a long safe distance, nobody touches the snake. No cow in the picture. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "yilan_fare",
+      "istem": "Inside a village barn at dusk: a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches on the front half of the body, a dark streak running from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, calm gentle expression, no legs, no feet, no toes, no claws anywhere gliding slowly along the base of a stone wall between straw bales, head raised toward a small hole in the wall where a field mouse peeks out, both animals calm and the snake moving slowly, the snake is about as thick as a human wrist and the mouse is thumb-sized, warm lantern-like soft light. No cow, no milk, nothing is caught or hurt. No snake touches any cow or any udder; no dead or injured animal; calm warm natural light, cute and gentle, not scary. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "veteriner",
+      "istem": "A veterinarian (seen from the side or behind, no face, plain work coat and thin gloves) gently examining the hind quarter of a gentle brown-and-cream dairy cow with a white blaze on the face, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats hanging between the hind legs standing calmly in a clean barn, hand resting lightly on the cow's flank, veterinary bag on the straw, soft light, a calm caring mood. Exactly four legs on the cow. No snake. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "ahir_sicak",
+      "istem": "A hot summer midday in a village barn: a gentle brown-and-cream dairy cow with a white blaze on the face, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats hanging between the hind legs standing in a patch of shade next to a water trough, sunlight blazing through the door, dust motes and heat haze in the air, flies few and tiny, the cow's head lowered toward the water, no snake, no people. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "ahira_giren",
+      "istem": "A stranger in plain work clothes (seen from behind, no face) walking into a village barn doorway from bright light, a gentle brown-and-cream dairy cow with a white blaze on the face, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats hanging between the hind legs in the stall turning her head and looking wary with ears pointing back, hay on the floor, the man keeps his hands down and is not touching or hitting anything, gentle storybook mood. No snake. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "doktor_el",
+      "istem": "A doctor's gloved hands in a clean white medical room gently examining and bandaging a bare forearm resting on a table covered with a white sheet, a bandage roll and a small medical bag, no faces, no signs, no writing on any item, calm light. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 1
+    },
+    {
+      "ad": "kapanis",
+      "istem": "A village yard at golden sunset: a gentle brown-and-cream dairy cow with a white blaze on the face, exactly four legs, two eyes, two ears, two small horns, a normal udder with four teats hanging between the hind legs and her calf a small brown calf with a white blaze, exactly four thin legs, long eyelashes, big soft eyes resting side by side near the open barn door, a hedgehog is a tiny shape on the grass far away, a very small far a yellow rat snake (Elaphe sauromates): a large slender completely limbless snake, smooth pale yellow-olive scales with faint darker blotches on the front half of the body, a dark streak running from the eye to the corner of the mouth, a golden-brown eye with a ROUND black pupil and NO eyelids, a thin forked tongue, non-venomous, calm gentle expression, no legs, no feet, no toes, no claws anywhere resting on a distant stone wall, warm glowing window of the stone house, peaceful evening, wide view, cute and calm. Every animal has correct anatomy. No text, no letters, no numbers, no signs, no logos anywhere. No human faces.",
+      "aday": 2
+    },
+    {
+      "ad": "gercek_sari_yilan",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, sarı yılan Elaphe sauromates, Türkiye, iNaturalist, CC BY; öneri: aday 3 (Tekirdağ, baş net, dikey fotoğraf; w=1 yatay şerit gösterir, cy kafa hizasında)"
+    },
+    {
+      "ad": "gercek_eskulap",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, Eskülap yılanı Zamenis longissimus, Türkiye, iNaturalist, CC BY; öneri: aday 2 (Kırklareli, baş net) ya da 6"
+    },
+    {
+      "ad": "gercek_zar_yilani",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, zar yılanı Natrix tessellata, Türkiye, iNaturalist, CC BY; öneri: aday 6 (Bafra, baş yakın) ya da 3"
+    },
+    {
+      "ad": "gercek_kirpi",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, kirpi Erinaceus concolor, Türkiye, iNaturalist, CC BY; öneri: aday 5 ya da 4 (gündüz yan profil); aday 3 ve 1 ezik/ölü görünüyor, kullanma"
+    },
+    {
+      "ad": "gercek_sut_yilani",
+      "gercek": true,
+      "istem": "",
+      "not": "Gerçek fotoğraf, Amerika süt yılanı Lampropeltis triangulum, ABD, iNaturalist, CC BY; öneri: aday 7 (Philadelphia, ABD konumu kesin) ya da 3 (konum boş)"
+    }
+  ]
+}
