@@ -225,6 +225,13 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
     sh = oku(klasor / "shorts.json") or {}
     for s in sh.get("shorts", []):
         ses_alani(d, f"Shorts {s.get('ad')}", s.get("cumleler", []))
+        metin_s = " ".join(c.get("yazi", "") for c in s.get("cumleler", [])).lower()
+        if "yıka" in metin_s and "dokunma" not in metin_s:  # 17 Kasım + 23 Kasım dersi: Shorts kısaltılırken "dokunma" düşüyor
+            d.hata.append(f"Shorts {s.get('ad')}: el yıkama uyarısı var ama 'dokunma' uyarısı yok (uzun videodaki güvenlik cümlesini aynen taşı)")
+        for c in s.get("cumleler", []):
+            y = c.get("yazi", "").lower()
+            if ("büyük olasılıkla" in y or "muhtemelen" in y) and "göre" not in y and "sürülüyor" not in y:
+                d.uyari.append(f"Shorts {s.get('ad')}: '{c.get('yazi','')[:50]}…' kesinlik ifadesi kaynak çekincesi olmadan (bir derlemeye göre / öne sürülüyor)")
         ilk = (s.get("cumleler") or [{}])[0].get("yazi", "").strip()
         if ilk.endswith("?"):  # büyüme kuralı 5: Shorts ilk cümlesi iddia olur (soru %18, iddia %51 izlemeye devam)
             d.hata.append(f"Shorts {s.get('ad')}: ilk cümle soru ('{ilk[:50]}'); şaşırtıcı bir iddiayla aç (buyume_kurallari.md 5)")
