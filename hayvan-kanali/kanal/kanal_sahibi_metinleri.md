@@ -34,3 +34,12 @@ Metinler ve görsel bilmeceler (4–13 Aralık, anket + "Bu hayvan zehirli mi?")
 3. **Korku ya da öldürme diyen:** Korkman çok anlaşılır, kimse bilmediği şeyden rahat edemez. Çoğu zaman bu komşular insanı görünce kaçar; öldürmek yerine uzaktan izleyip ne yapacağını bilemiyorsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danışabilirsin. Sen onu en son nerede gördün?
 4. **Tıbbi ya da ısırık sorusu:** Geçmiş olsun komşu. Karar vermek bize düşmez; lütfen hemen bir sağlık kuruluşuna başvur, hayvanın ısırıldıysa veterinere danış. (Bu tür yorumu patrona ayrıca bildir; ayrıntı ve tedavi yazılmaz.)
 5. **"Yapay zekâ sesi" eleştirisi:** Haklısın, videolarda yapay zekâ ile üretilmiş ses ve görseller kullanıyoruz ve bunu YouTube'da da işaretliyoruz. Bilgiler kaynaklardan kontrol ediliyor; eksik ya da yanlış bir şey görürsen yaz, düzeltelim.
+
+## Öğretmen ve veli tanıdıkları için (24 Kasım)
+Tek tek gönder; toplu gruba yapıştırma. Öğretmen isterse kendi sınıf/veli grubunda paylaşır.
+
+**Öğretmene:**
+Merhaba hocam, evin ve bahçenin çevresindeki hayvanlar hakkındaki yanlış bilgileri düzelten kısa belgeseller hazırlıyoruz ("Yarasa saça yapışır mı?", "Kurbağa siğil yapar mı?" gibi). Her bölüm 5–6 dakika, kaynakları açıklamada yazılı. Fen ya da hayat bilgisi dersinde işinize yararsa çok sevinirim: [BAĞLANTI]
+
+**Veliye:**
+Çocuklar sık sık soruyor diye hazırladık: bahçede görülen hayvanlar zehirli mi, dokunulur mu, ne yapmalı? Kısa ve kaynaklı belgeseller, birlikte izlemeye uygun: [BAĞLANTI]
