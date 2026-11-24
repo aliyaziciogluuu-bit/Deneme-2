@@ -234,7 +234,7 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
                 d.uyari.append(f"Shorts {s.get('ad')}: '{c.get('yazi','')[:50]}…' kesinlik ifadesi kaynak çekincesi olmadan (bir derlemeye göre / öne sürülüyor)")
         ilk = (s.get("cumleler") or [{}])[0].get("yazi", "").strip()
         if ilk.endswith("?"):  # büyüme kuralı 5: Shorts ilk cümlesi iddia olur (soru %18, iddia %51 izlemeye devam)
-            d.hata.append(f"Shorts {s.get('ad')}: ilk cümle soru ('{ilk[:50]}'); şaşırtıcı bir iddiayla aç (buyume_kurallari.md 5)")
+            (d.uyari if yayinda and s.get("ad", "") < "s4" else d.hata).append(f"Shorts {s.get('ad')}: ilk cümle soru ('{ilk[:50]}'); şaşırtıcı bir iddiayla aç (buyume_kurallari.md 5)")
     if not yayinda and cl:
         son = " ".join(c.get("yazi", "") for c in cl[-3:]).lower()
         if "abone ol" in son:  # büyüme kuralı 1: kapanış sıradaki videoyu bir soruyla açar

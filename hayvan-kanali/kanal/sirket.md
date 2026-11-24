@@ -149,3 +149,10 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 - Aralık: kara kurbağasından sonra 7 yeni uzun video (8, 12, 15, 19, 22, 26, 29 Aralık) × ≈ 5 $ ≈ 35 $. Aylık 60 $ bütçeden artan ≈ 20 $ kaliteye gider: video başı tavan 5 $ → 7 $ (daha çok görsel adayı, 4 → 6 klip, gerçek fotoğraf önceliği sürer), küçük resim için ayrı görsel turu.
 - Para kazanma hedefi: 1.000 abone + 8.000 saat (1 Şubat 2027 sonrası yeni başvurular; YouTube Yardım sayfası 12843009 ile doğrulandı, 23 Kasım), takvim 12–24 ay. Ara hedef: 500 abone + 3.000 saat → hayran desteği, Creator Partnerships ve Shopping açılır (bu şart değişmiyor).
 - Ücretli tanıtım yok (izlenmeleri şarta sayılmıyor; 638 TL → 0 abone).
+
+## Karar (24 Kasım, kanal sahibi: "hepsini yapalım")
+1. **Mevsimlik Shorts:** kış sorularını (kışın kirpi, kışın yarasa vb.) mevcut doğrulanmış içerikten Shorts'a çevirmek.
+2. **Öğretmen/veli kitlesi:** açıklamalara "Derste kullanabilirsiniz" notu; kanal sahibine öğretmen tanıdıkları için WhatsApp metni.
+3. **Yoruma Shorts ile yanıt:** izleyici sorusu gelince "yoruma video ile yanıt" Shorts'u (bilgi kontrolünden geçmiş bilgiyle).
+4. **Konu yelpazesi genişledi:** evde/bahçede görülüp "zehirli mi?" diye aranan böcek ve eklembacaklılar da kanala girer (ev örümceği, çıyan, kırkayak, akrep sanılanlar vb.; "Zehirli Sanılanlar" serisi). Güvenlik kritik konularda (akrep, karadul gibi gerçekten tehlikeli türler) resmi sağlık/kurum kaynağı şart.
+5. **Kış derlemesi:** Aralık sonunda "Kışın bahçendeki komşular nerede?" (8–10 dk, mevcut görseller, tamamen yeni anlatım; tekrar eden içerik kuralına dikkat).

@@ -1,0 +1,52 @@
+{
+  "dikey": true,
+  "baslik": "Dikeni Zehirliyse Kirpi Değildir! 🦔 #shorts",
+  "aciklama": "Kirpi dikenleri zehirli değil, ucu kancalı da değil; sertleşmiş kıllardır. Kirpi bir yaban hayvanı; yakalayıp evde beslemeye çalışma. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #doğa #bahçe #dikenler",
+  "etiketler": [
+    "kirpi",
+    "kirpi dikeni",
+    "zehirli mi",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "DİKENİ ZEHİRLİ",
+    "DEĞİL!"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)",
+  "sahneler": [
+    {
+      "ad": "Dikeni Zehirliyse Kirpi Değildir! 🦔 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Kirpi dikenleri zehirli değil; ucu kancalı da değil."
+        },
+        {
+          "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış."
+        },
+        {
+          "yazi": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış."
+        },
+        {
+          "yazi": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor."
+        },
+        {
+          "yazi": "Ama bu savunma, bir arabaya karşı işe yaramıyor."
+        },
+        {
+          "yazi": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar."
+        },
+        {
+          "yazi": "Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

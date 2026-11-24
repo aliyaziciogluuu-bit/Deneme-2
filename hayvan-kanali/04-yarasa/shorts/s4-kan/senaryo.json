@@ -1,0 +1,52 @@
+{
+  "dikey": true,
+  "baslik": "Kanla Besleniyorsa Türkiye'deki Yarasa Değildir! 🦇 #shorts",
+  "aciklama": "Türkiye'de kanla beslenen yarasa yok; ama yarasalara asla çıplak elle dokunma. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #doğa #kuduz #bahçe",
+  "etiketler": [
+    "yarasa",
+    "yarasa kan emer mi",
+    "kuduz",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "KAN EMEN",
+    "YARASA YOK!"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Yarasa Saça Yapışır mı? (Dokunmadan Önce Bunu Bil)",
+  "sahneler": [
+    {
+      "ad": "Kanla Besleniyorsa Türkiye'deki Yarasa Değildir! 🦇 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Türkiye'de kanla beslenen yarasa yok."
+        },
+        {
+          "yazi": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir; yalnızca bir tür meyve yer."
+        },
+        {
+          "yazi": "Yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak."
+        },
+        {
+          "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın."
+        },
+        {
+          "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az on beş dakika sürdür."
+        },
+        {
+          "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle."
+        },
+        {
+          "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

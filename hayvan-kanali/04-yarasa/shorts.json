@@ -1,210 +1,291 @@
 {
- "shorts": [
-  {
-   "ad": "s1-sac",
-   "baslik": "Yarasa Saça Yapışır mı? 🦇 #shorts",
-   "aciklama": "Yarasalar saça yapışmaz: böcek avcısı yarasalar karanlıkta yankıyla yön buluyor. Başının yakınından geçen yarasa büyük ihtimalle bir böceğin peşinde. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #efsane #doğa #bilim",
-   "etiketler": [
-    "yarasa",
-    "yarasa saça yapışır mı",
-    "ekolokasyon",
-    "shorts"
-   ],
-   "ust_yazi": [
-    "YARASA",
-    "saça yapışır mı?"
-   ],
-   "cumleler": [
+  "shorts": [
     {
-     "yazi": "Yarasalar saça yapışmaz.",
-     "gorsel": "bagiran",
-     "x": 0.3
+      "ad": "s1-sac",
+      "baslik": "Yarasa Saça Yapışır mı? 🦇 #shorts",
+      "aciklama": "Yarasalar saça yapışmaz: böcek avcısı yarasalar karanlıkta yankıyla yön buluyor. Başının yakınından geçen yarasa büyük ihtimalle bir böceğin peşinde. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #efsane #doğa #bilim",
+      "etiketler": [
+        "yarasa",
+        "yarasa saça yapışır mı",
+        "ekolokasyon",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "YARASA",
+        "saça yapışır mı?"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Yarasalar saça yapışmaz.",
+          "gorsel": "bagiran",
+          "x": 0.3
+        },
+        {
+          "yazi": "Bu, nesilden nesile anlatılan bir efsane.",
+          "gorsel": "balkon_aksam",
+          "klip": "balkon_aksam",
+          "kx": 0.4
+        },
+        {
+          "yazi": "Böcek avcısı yarasalar, çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
+          "gorsel": "ekolokasyon",
+          "x": 0.38,
+          "x2": 0.42
+        },
+        {
+          "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu anlıyor.",
+          "gorsel": "ekolokasyon",
+          "klip": "ekolokasyon",
+          "kx": 0.45
+        },
+        {
+          "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor.",
+          "gorsel": "ekolokasyon",
+          "x": 0.5,
+          "x2": 0.4
+        },
+        {
+          "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceğin peşinde. Tam videosu kanalımızda.",
+          "gorsel": "lamba_yarasa",
+          "x": 0.7,
+          "aw": 1.0,
+          "w": 1.0
+        }
+      ]
     },
     {
-     "yazi": "Bu, nesilden nesile anlatılan bir efsane.",
-     "gorsel": "balkon_aksam",
-     "klip": "balkon_aksam",
-     "kx": 0.4
+      "ad": "s2-dokunma",
+      "baslik": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
+      "aciklama": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: Dünya Sağlık Örgütü – Kuduz bilgi notu; ABD Hastalık Kontrol Merkezleri (CDC) – Kuduz\n\n#shorts #yarasa #kuduz #sağlık #doğa",
+      "etiketler": [
+        "yarasa",
+        "yarasa kuduz",
+        "yarasa ısırığı",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "YARASAYA",
+        "DOKUNMA!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın.",
+          "gorsel": "portre",
+          "x": 0.58,
+          "aw": 0.65,
+          "ay": 0.7,
+          "w": 0.65,
+          "y": 0.7
+        },
+        {
+          "yazi": "Çoğu taşımaz, ama bu yüzden hiçbirine çıplak elle dokunma.",
+          "gorsel": "yerde",
+          "x": 0.54
+        },
+        {
+          "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
+          "gorsel": "el_yikama",
+          "x": 0.47,
+          "aw": 0.75,
+          "ay": 0.7,
+          "w": 0.75,
+          "y": 0.7
+        },
+        {
+          "yazi": "Yıkamayı en az on beş dakika sürdür.",
+          "gorsel": "el_yikama",
+          "x": 0.47,
+          "etiket": "En az 15 dakika",
+          "aw": 0.75,
+          "ay": 0.7,
+          "w": 0.75,
+          "y": 0.7
+        },
+        {
+          "yazi": "Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir.",
+          "gorsel": "portre",
+          "x": 0.57,
+          "aw": 0.5,
+          "ay": 0.75,
+          "x2": 0.6,
+          "w": 0.5,
+          "y": 0.75
+        },
+        {
+          "yazi": "Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut.",
+          "gorsel": "yerde",
+          "x": 0.54
+        },
+        {
+          "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
+          "gorsel": "oda",
+          "x": 0.5,
+          "x2": 0.52,
+          "aw": 1.0,
+          "w": 1.0
+        },
+        {
+          "yazi": "Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
+          "gorsel": "oda",
+          "x": 0.51
+        }
+      ]
     },
     {
-     "yazi": "Böcek avcısı yarasalar, çoğunlukla insan kulağının duyamayacağı kadar tiz sesler çıkarıyor.",
-     "gorsel": "ekolokasyon",
-     "x": 0.38,
-     "x2": 0.42
+      "ad": "s3-kanat",
+      "baslik": "Yarasanın Kanadı Aslında Bir El! 🦇 #shorts",
+      "aciklama": "Yarasanın kanadı, uzamış parmak kemiklerinin arasına gerilmiş ince bir deri: kocaman açılmış bir el. Yarasalar gerçekten uçabilen tek memeli; kuş ya da fare değil. Unutma: yarasalara asla çıplak elle dokunma. Tam video kanalımızda: \"Yarasa Saça Yapışır mı? (Dokunmadan Önce Bunu Bil)\"\n\n#shorts #yarasa #doğa #memeli #ilginçbilgiler",
+      "etiketler": [
+        "yarasa",
+        "yarasa kanadı",
+        "uçan memeli",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "KANADI",
+        "aslında bir el"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Yarasanın kanadı, aslında kocaman açılmış bir el.",
+          "gorsel": "ekolokasyon",
+          "klip": "ekolokasyon",
+          "kx": 0.3,
+          "kz": 1.2,
+          "ky": 0.5
+        },
+        {
+          "yazi": "Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
+          "gorsel": "kanat",
+          "x": 0.5,
+          "aw": 0.9,
+          "ay": 0.45,
+          "w": 0.8,
+          "y": 0.45
+        },
+        {
+          "yazi": "Yarasalar, gerçekten uçabilen tek memeliler.",
+          "gorsel": "portre",
+          "x": 0.55,
+          "aw": 0.7,
+          "ay": 0.6,
+          "w": 0.7,
+          "y": 0.6
+        },
+        {
+          "yazi": "Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar.",
+          "gorsel": "anne_yavru",
+          "klip": "anne_yavru",
+          "kx": 0.65,
+          "kz": 1.0,
+          "ky": 0.5
+        },
+        {
+          "yazi": "Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar.",
+          "gorsel": "lamba_yarasa",
+          "x": 0.68,
+          "aw": 0.6,
+          "ay": 0.55,
+          "w": 0.7,
+          "y": 0.5
+        },
+        {
+          "yazi": "Üstelik şaşırtıcı derecede uzun yaşıyorlar: Sibirya'da halkalanan küçük bir yarasa, en az kırk bir yıl yaşadı.",
+          "gorsel": "kapak",
+          "x": 0.72,
+          "aw": 0.85,
+          "ay": 0.55,
+          "w": 0.9,
+          "y": 0.52
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.5
+        }
+      ]
     },
     {
-     "yazi": "Bu sesler çevredeki nesnelere çarpıp geri dönüyor; yarasa yankıyı dinleyerek önündekinin ne olduğunu anlıyor.",
-     "gorsel": "ekolokasyon",
-     "klip": "ekolokasyon",
-     "kx": 0.45
-    },
-    {
-     "yazi": "Buna ekolokasyon, yani yankıyla yön bulma deniyor.",
-     "gorsel": "ekolokasyon",
-     "x": 0.5,
-     "x2": 0.4
-    },
-    {
-     "yazi": "Başının yakınından geçen bir yarasa, büyük ihtimalle bir böceğin peşinde. Tam videosu kanalımızda.",
-     "gorsel": "lamba_yarasa",
-     "x": 0.7,
-     "aw": 1.0,
-     "w": 1.0
+      "ad": "s4-kan",
+      "baslik": "Kanla Besleniyorsa Türkiye'deki Yarasa Değildir! 🦇 #shorts",
+      "aciklama": "Türkiye'de kanla beslenen yarasa yok; ama yarasalara asla çıplak elle dokunma. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #doğa #kuduz #bahçe",
+      "etiketler": [
+        "yarasa",
+        "yarasa kan emer mi",
+        "kuduz",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "KAN EMEN",
+        "YARASA YOK!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Türkiye'de kanla beslenen yarasa yok.",
+          "gorsel": "portre",
+          "x": 0.58,
+          "aw": 0.65,
+          "ay": 0.7,
+          "w": 0.65,
+          "y": 0.7,
+          "kaynak_cumle": "Türkiye'de kanla beslenen yarasa yok."
+        },
+        {
+          "yazi": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir; yalnızca bir tür meyve yer.",
+          "gorsel": "lamba_yarasa",
+          "x": 0.68,
+          "aw": 0.6,
+          "ay": 0.55,
+          "w": 0.7,
+          "y": 0.5,
+          "kaynak_cumle": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir; yalnızca bir tür meyve yer."
+        },
+        {
+          "yazi": "Yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak.",
+          "gorsel": "portre",
+          "x": 0.58,
+          "aw": 0.65,
+          "ay": 0.7,
+          "w": 0.65,
+          "y": 0.7,
+          "kaynak_cumle": "Ama yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak."
+        },
+        {
+          "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.",
+          "gorsel": "yerde",
+          "x": 0.54,
+          "kaynak_cumle": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın."
+        },
+        {
+          "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az on beş dakika sürdür.",
+          "gorsel": "el_yikama",
+          "x": 0.47,
+          "aw": 0.75,
+          "ay": 0.7,
+          "w": 0.75,
+          "y": 0.7,
+          "kaynak_cumle": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az on beş dakika sürdür."
+        },
+        {
+          "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+          "gorsel": "portre",
+          "x": 0.57,
+          "aw": 0.5,
+          "ay": 0.75,
+          "x2": 0.6,
+          "w": 0.5,
+          "y": 0.75,
+          "kaynak_cumle": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle."
+        },
+        {
+          "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir. Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.5,
+          "kaynak_cumle": "Kuduz aşısı gerekip gerekmediğine doktor karar verir; kendi başına bir şey olmaz deyip geçme. (kısaltıldı)"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "ad": "s2-dokunma",
-   "baslik": "Yarasaya Asla Çıplak Elle Dokunma! ⚠️ #shorts",
-   "aciklama": "Çoğu yarasa kuduz ya da benzeri virüsler taşımaz, ama hangisinin taşıdığı bakarak anlaşılmaz. Isırık ya da tırmalamada yarayı en az 15 dakika sabunlu suyla yıka ve sağlık kuruluşuna başvur; aşıya doktor karar verir. Tam video kanalımızda: \"Yarasa Saça Yapışır mı?\"\n\nKaynaklar: Dünya Sağlık Örgütü – Kuduz bilgi notu; ABD Hastalık Kontrol Merkezleri (CDC) – Kuduz\n\n#shorts #yarasa #kuduz #sağlık #doğa",
-   "etiketler": [
-    "yarasa",
-    "yarasa kuduz",
-    "yarasa ısırığı",
-    "shorts"
-   ],
-   "ust_yazi": [
-    "YARASAYA",
-    "DOKUNMA!"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Bir yarasanın kuduz ya da benzeri virüs taşıyıp taşımadığını bakarak anlayamazsın.",
-     "gorsel": "portre",
-     "x": 0.58,
-     "aw": 0.65,
-     "ay": 0.7,
-     "w": 0.65,
-     "y": 0.7
-    },
-    {
-     "yazi": "Çoğu taşımaz, ama bu yüzden hiçbirine çıplak elle dokunma.",
-     "gorsel": "yerde",
-     "x": 0.54
-    },
-    {
-     "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
-     "gorsel": "el_yikama",
-     "x": 0.47,
-     "aw": 0.75,
-     "ay": 0.7,
-     "w": 0.75,
-     "y": 0.7
-    },
-    {
-     "yazi": "Yıkamayı en az on beş dakika sürdür.",
-     "gorsel": "el_yikama",
-     "x": 0.47,
-     "etiket": "En az 15 dakika",
-     "aw": 0.75,
-     "ay": 0.7,
-     "w": 0.75,
-     "y": 0.7
-    },
-    {
-     "yazi": "Sonra bir sağlık kuruluşuna git; aşı gerekip gerekmediğine doktor karar verir.",
-     "gorsel": "portre",
-     "x": 0.57,
-     "aw": 0.5,
-     "ay": 0.75,
-     "x2": 0.6,
-     "w": 0.5,
-     "y": 0.75
-    },
-    {
-     "yazi": "Yerde ya da gündüz uçamayan bir yarasaya yaklaşma; çocukları ve evcil hayvanları uzak tut.",
-     "gorsel": "yerde",
-     "x": 0.54
-    },
-    {
-     "yazi": "Eve yarasa girerse ışıkları kapat, pencereyi aç, kapıyı kapatıp odadan çık.",
-     "gorsel": "oda",
-     "x": 0.5,
-     "x2": 0.52,
-     "aw": 1.0,
-     "w": 1.0
-    },
-    {
-     "yazi": "Odada uyuyan biri, çocuk ya da temas olasılığı varsa, yarasayı serbest bırakmadan önce sağlık kuruluşuna danış. Tam videosu kanalımızda.",
-     "gorsel": "oda",
-     "x": 0.51
-    }
-   ]
-  },
-  {
-   "ad": "s3-kanat",
-   "baslik": "Yarasanın Kanadı Aslında Bir El! 🦇 #shorts",
-   "aciklama": "Yarasanın kanadı, uzamış parmak kemiklerinin arasına gerilmiş ince bir deri: kocaman açılmış bir el. Yarasalar gerçekten uçabilen tek memeli; kuş ya da fare değil. Unutma: yarasalara asla çıplak elle dokunma. Tam video kanalımızda: \"Yarasa Saça Yapışır mı? (Dokunmadan Önce Bunu Bil)\"\n\n#shorts #yarasa #doğa #memeli #ilginçbilgiler",
-   "etiketler": [
-    "yarasa",
-    "yarasa kanadı",
-    "uçan memeli",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "KANADI",
-    "aslında bir el"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Yarasanın kanadı, aslında kocaman açılmış bir el.",
-     "gorsel": "ekolokasyon",
-     "klip": "ekolokasyon",
-     "kx": 0.3,
-     "kz": 1.2,
-     "ky": 0.5
-    },
-    {
-     "yazi": "Kanatları, uzamış parmak kemiklerinin arasına gerilmiş ince bir deriden oluşuyor.",
-     "gorsel": "kanat",
-     "x": 0.5,
-     "aw": 0.9,
-     "ay": 0.45,
-     "w": 0.8,
-     "y": 0.45
-    },
-    {
-     "yazi": "Yarasalar, gerçekten uçabilen tek memeliler.",
-     "gorsel": "portre",
-     "x": 0.55,
-     "aw": 0.7,
-     "ay": 0.6,
-     "w": 0.7,
-     "y": 0.6
-    },
-    {
-     "yazi": "Kuş değiller; yavrularını doğuruyor ve sütle besliyorlar.",
-     "gorsel": "anne_yavru",
-     "klip": "anne_yavru",
-     "kx": 0.65,
-     "kz": 1.0,
-     "ky": 0.5
-    },
-    {
-     "yazi": "Fare de değiller; kemirgenlerle yakın akraba bile sayılmıyorlar.",
-     "gorsel": "lamba_yarasa",
-     "x": 0.68,
-     "aw": 0.6,
-     "ay": 0.55,
-     "w": 0.7,
-     "y": 0.5
-    },
-    {
-     "yazi": "Üstelik şaşırtıcı derecede uzun yaşıyorlar: Sibirya'da halkalanan küçük bir yarasa, en az kırk bir yıl yaşadı.",
-     "gorsel": "kapak",
-     "x": 0.72,
-     "aw": 0.85,
-     "ay": 0.55,
-     "w": 0.9,
-     "y": 0.52
-    },
-    {
-     "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.5
-    }
-   ]
-  }
- ]
+  ]
 }

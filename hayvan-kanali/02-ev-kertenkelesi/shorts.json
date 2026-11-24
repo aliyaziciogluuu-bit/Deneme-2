@@ -1,185 +1,270 @@
 {
- "shorts": [
-  {
-   "ad": "s1-yemek",
-   "baslik": "Kertenkele Yemeğe Düşerse Zehirler mi? 🦎 #shorts",
-   "aciklama": "Ev kertenkelesinin zehri yok; ama gekolar dahil pek çok sürüngen Salmonella taşıyabilir. Asıl mesele temizlik. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\nKaynak: CDC – Reptiles and Amphibians\n\n#shorts #kertenkele #geko #evdekertenkele #doğa",
-   "etiketler": [
-    "ev kertenkelesi",
-    "geko",
-    "kertenkele zehirli mi",
-    "shorts"
-   ],
-   "ust_yazi": [
-    "YEMEĞE DÜŞERSE",
-    "zehirler mi?"
-   ],
-   "cumleler": [
+  "shorts": [
     {
-     "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez.",
-     "gorsel": "mutfak_lamba",
-     "klip": "mutfak_lamba",
-     "kx": 0.75
+      "ad": "s1-yemek",
+      "baslik": "Kertenkele Yemeğe Düşerse Zehirler mi? 🦎 #shorts",
+      "aciklama": "Ev kertenkelesinin zehri yok; ama gekolar dahil pek çok sürüngen Salmonella taşıyabilir. Asıl mesele temizlik. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\nKaynak: CDC – Reptiles and Amphibians\n\n#shorts #kertenkele #geko #evdekertenkele #doğa",
+      "etiketler": [
+        "ev kertenkelesi",
+        "geko",
+        "kertenkele zehirli mi",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "YEMEĞE DÜŞERSE",
+        "zehirler mi?"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Yemeğe düşen bir kertenkele, yemeği zehirlemez.",
+          "gorsel": "mutfak_lamba",
+          "klip": "mutfak_lamba",
+          "kx": 0.75
+        },
+        {
+          "yazi": "Çünkü ev kertenkelesinin zehri yok.",
+          "gorsel": "bakisma",
+          "x": 0.5
+        },
+        {
+          "yazi": "Ama bilmen gereken önemli bir gerçek var.",
+          "gorsel": "yemek",
+          "x": 0.45
+        },
+        {
+          "yazi": "Ama gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor.",
+          "gorsel": "portre",
+          "x": 0.22,
+          "etiket": "Salmonella"
+        },
+        {
+          "yazi": "Yani asıl mesele zehir değil, temizlik.",
+          "gorsel": "hijyen",
+          "x": 0.5
+        },
+        {
+          "yazi": "Üzerine kertenkele düşen yiyeceği yeme, yüzeyi de sabunla iyice temizle.",
+          "gorsel": "hijyen",
+          "x": 0.35
+        },
+        {
+          "yazi": "Ona dokunduysan ellerini yıka; küçük çocuklar ve bağışıklığı zayıf olanlar ona hiç dokunmasın. Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.72,
+          "ay": 0.36,
+          "aw": 0.82,
+          "y": 0.36,
+          "w": 0.8
+        }
+      ]
     },
     {
-     "yazi": "Çünkü ev kertenkelesinin zehri yok.",
-     "gorsel": "bakisma",
-     "x": 0.5
+      "ad": "s2-tavan",
+      "baslik": "Kertenkele Tavanda Nasıl Yürüyor? 🤯 #shorts",
+      "aciklama": "Ev kertenkelesi gibi pek çok gekonun parmaklarında milyonlarca mikroskobik uç var; moleküller arası çekimle tavanda tutunuyorlar. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\nKaynak: Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae. PNAS 99(19): 12252–12256. Deney Tokay gekosuyla yapıldı.\n\n#shorts #geko #bilim #doğa #kertenkele",
+      "etiketler": [
+        "geko",
+        "kertenkele",
+        "bilim",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "TAVANDA",
+        "nasıl yürüyor?"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Bu kertenkele tavanda baş aşağı nasıl yürüyor?",
+          "gorsel": "tavan",
+          "klip": "tavan",
+          "kx": 0.35
+        },
+        {
+          "yazi": "Cevap parmaklarında saklı.",
+          "gorsel": "parmak",
+          "x": 0.28
+        },
+        {
+          "yazi": "Parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.",
+          "gorsel": "parmak",
+          "x": 0.65
+        },
+        {
+          "yazi": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.",
+          "gorsel": "kil",
+          "x": 0.5
+        },
+        {
+          "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.",
+          "gorsel": "kil",
+          "x": 0.3
+        },
+        {
+          "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
+          "gorsel": "kil",
+          "x": 0.7
+        },
+        {
+          "yazi": "Milyonlarca uç bir araya gelince, bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda.",
+          "gorsel": "tavan",
+          "x": 0.35
+        }
+      ]
     },
     {
-     "yazi": "Ama bilmen gereken önemli bir gerçek var.",
-     "gorsel": "yemek",
-     "x": 0.45
+      "ad": "s3-goz",
+      "baslik": "Göz Kapağı Olmayan Kertenkele! 🦎 #shorts",
+      "aciklama": "Ev kertenkelesinin göz kapakları yok: gözleri şeffaf bir pulla kaplı ve gözünü diliyle yalayarak temizliyor. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)\"\n\n#shorts #evkertenkelesi #geko #kertenkele #doğa",
+      "etiketler": [
+        "ev kertenkelesi",
+        "geko",
+        "kertenkele",
+        "göz",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "GÖZ KAPAĞI YOK!",
+        "Gözünü yalıyor"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Ev kertenkelesinin göz kapakları yok.",
+          "gorsel": "bakisma",
+          "klip": "goz_yalama",
+          "kx": 0.44,
+          "kz": 1.1,
+          "ky": 0.4
+        },
+        {
+          "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
+          "gorsel": "bakisma",
+          "x": 0.5,
+          "aw": 0.8,
+          "ay": 0.45,
+          "w": 0.75,
+          "y": 0.38
+        },
+        {
+          "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
+          "gorsel": "bakisma",
+          "klip": "goz_yalama",
+          "kx": 0.44,
+          "kz": 1.1,
+          "ky": 0.4
+        },
+        {
+          "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
+          "gorsel": "kapak",
+          "x": 0.64,
+          "aw": 0.6,
+          "ay": 0.5,
+          "x2": 0.62,
+          "w": 0.75,
+          "y": 0.45
+        },
+        {
+          "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
+          "gorsel": "avlanma",
+          "klip": "avlanma",
+          "kx": 0.5
+        },
+        {
+          "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
+          "gorsel": "mutfak_lamba",
+          "klip": "mutfak_lamba",
+          "kx": 0.75
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.62
+        }
+      ]
     },
     {
-     "yazi": "Ama gekolar dahil pek çok sürüngen, vücudunda ve dışkısında Salmonella bakterisi taşıyabiliyor.",
-     "gorsel": "portre",
-     "x": 0.22,
-     "etiket": "Salmonella"
-    },
-    {
-     "yazi": "Yani asıl mesele zehir değil, temizlik.",
-     "gorsel": "hijyen",
-     "x": 0.5
-    },
-    {
-     "yazi": "Üzerine kertenkele düşen yiyeceği yeme, yüzeyi de sabunla iyice temizle.",
-     "gorsel": "hijyen",
-     "x": 0.35
-    },
-    {
-     "yazi": "Ona dokunduysan ellerini yıka; küçük çocuklar ve bağışıklığı zayıf olanlar ona hiç dokunmasın. Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.72,
-     "ay": 0.36,
-     "aw": 0.82,
-     "y": 0.36,
-     "w": 0.8
+      "ad": "s4-goz-yalama",
+      "baslik": "Gözünü Diliyle Yalıyorsa Sağır Yılan Değildir! 🦎 #shorts",
+      "aciklama": "Ev kertenkelesinin göz kapakları yok; gözünü diliyle yalıyor. Sağır yılan ise göz kırpabiliyor. Ona dokunduysan ellerini yıka. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\n#shorts #kertenkele #geko #doğa #evkertenkelesi",
+      "etiketler": [
+        "ev kertenkelesi",
+        "geko",
+        "göz kapağı",
+        "kertenkele",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "GÖZÜNÜ YALIYOR",
+        "YILAN DEĞİL!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Gözünü diliyle yalıyorsa o hayvan, göz kapağı olmayan bir ev kertenkelesidir.",
+          "gorsel": "bakisma",
+          "x": 0.5,
+          "aw": 0.8,
+          "ay": 0.45,
+          "w": 0.75,
+          "y": 0.4,
+          "kaynak_cumle": "Ev kertenkelesinin bir tuhaflığı daha var: göz kapakları yok. + dilini çıkarıp gözünü yalıyor."
+        },
+        {
+          "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
+          "gorsel": "bakisma",
+          "x": 0.5,
+          "aw": 0.8,
+          "ay": 0.45,
+          "w": 0.75,
+          "y": 0.38,
+          "kaynak_cumle": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı."
+        },
+        {
+          "yazi": "Sağır yılan göz kırpabiliyor; bu kertenkele kırpamıyor.",
+          "gorsel": "bakisma",
+          "x": 0.5,
+          "aw": 0.8,
+          "ay": 0.45,
+          "w": 0.75,
+          "y": 0.38,
+          "kaynak_cumle": "Hatırlarsan sağır yılan göz kırpabiliyordu; bu kertenkele kırpamıyor."
+        },
+        {
+          "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
+          "gorsel": "bakisma",
+          "klip": "goz_yalama",
+          "kx": 0.44,
+          "kz": 1.1,
+          "ky": 0.4,
+          "kaynak_cumle": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor."
+        },
+        {
+          "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
+          "gorsel": "bakisma",
+          "x": 0.55,
+          "aw": 0.7,
+          "ay": 0.5,
+          "x2": 0.5,
+          "w": 0.85,
+          "y": 0.45,
+          "kaynak_cumle": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun."
+        },
+        {
+          "yazi": "Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor.",
+          "gorsel": "mutfak_lamba",
+          "klip": "mutfak_lamba",
+          "kx": 0.75,
+          "kaynak_cumle": "Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor."
+        },
+        {
+          "yazi": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi. Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.72,
+          "ay": 0.36,
+          "aw": 0.82,
+          "y": 0.36,
+          "w": 0.8,
+          "kaynak_cumle": "Ona dokunduysan ellerini yıka; beş yaşından küçük çocukların, altmış beş yaş üstündekilerin ve bağışıklığı zayıf olanların hiç dokunmaması daha iyi."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "ad": "s2-tavan",
-   "baslik": "Kertenkele Tavanda Nasıl Yürüyor? 🤯 #shorts",
-   "aciklama": "Ev kertenkelesi gibi pek çok gekonun parmaklarında milyonlarca mikroskobik uç var; moleküller arası çekimle tavanda tutunuyorlar. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi?\"\n\nKaynak: Autumn, K. ve ark. (2002). Evidence for van der Waals adhesion in gecko setae. PNAS 99(19): 12252–12256. Deney Tokay gekosuyla yapıldı.\n\n#shorts #geko #bilim #doğa #kertenkele",
-   "etiketler": [
-    "geko",
-    "kertenkele",
-    "bilim",
-    "shorts"
-   ],
-   "ust_yazi": [
-    "TAVANDA",
-    "nasıl yürüyor?"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Bu kertenkele tavanda baş aşağı nasıl yürüyor?",
-     "gorsel": "tavan",
-     "klip": "tavan",
-     "kx": 0.35
-    },
-    {
-     "yazi": "Cevap parmaklarında saklı.",
-     "gorsel": "parmak",
-     "x": 0.28
-    },
-    {
-     "yazi": "Parmaklarının altında, ince yapraklar gibi sıralanmış pedler var.",
-     "gorsel": "parmak",
-     "x": 0.65
-    },
-    {
-     "yazi": "Bu pedler gözle görülemeyecek kadar küçük, çok sayıda kılla kaplı.",
-     "gorsel": "kil",
-     "x": 0.5
-    },
-    {
-     "yazi": "Her kılın ucu da çok sayıda, daha da küçük uca ayrılıyor.",
-     "gorsel": "kil",
-     "x": 0.3
-    },
-    {
-     "yazi": "Bu uçlar yüzeye o kadar yaklaşıyor ki, moleküller arasındaki zayıf çekim kuvveti devreye giriyor.",
-     "gorsel": "kil",
-     "x": 0.7
-    },
-    {
-     "yazi": "Milyonlarca uç bir araya gelince, bu çekim onu tavanda tutmaya yetiyor. Tam videosu kanalımızda.",
-     "gorsel": "tavan",
-     "x": 0.35
-    }
-   ]
-  },
-  {
-   "ad": "s3-goz",
-   "baslik": "Göz Kapağı Olmayan Kertenkele! 🦎 #shorts",
-   "aciklama": "Ev kertenkelesinin göz kapakları yok: gözleri şeffaf bir pulla kaplı ve gözünü diliyle yalayarak temizliyor. Tam video kanalımızda: \"Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)\"\n\n#shorts #evkertenkelesi #geko #kertenkele #doğa",
-   "etiketler": [
-    "ev kertenkelesi",
-    "geko",
-    "kertenkele",
-    "göz",
-    "shorts"
-   ],
-   "ust_yazi": [
-    "GÖZ KAPAĞI YOK!",
-    "Gözünü yalıyor"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Ev kertenkelesinin göz kapakları yok.",
-     "gorsel": "bakisma",
-     "klip": "goz_yalama",
-     "kx": 0.44,
-     "kz": 1.1,
-     "ky": 0.4
-    },
-    {
-     "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
-     "gorsel": "bakisma",
-     "x": 0.5,
-     "aw": 0.8,
-     "ay": 0.45,
-     "w": 0.75,
-     "y": 0.38
-    },
-    {
-     "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
-     "gorsel": "bakisma",
-     "klip": "goz_yalama",
-     "kx": 0.44,
-     "kz": 1.1,
-     "ky": 0.4
-    },
-    {
-     "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
-     "gorsel": "kapak",
-     "x": 0.64,
-     "aw": 0.6,
-     "ay": 0.5,
-     "x2": 0.62,
-     "w": 0.75,
-     "y": 0.45
-    },
-    {
-     "yazi": "Avını gözüyle takip ediyor, yavaşça yaklaşıyor ve bir anda atılıyor.",
-     "gorsel": "avlanma",
-     "klip": "avlanma",
-     "kx": 0.5
-    },
-    {
-     "yazi": "Yani onu mutfak lambasının yanında görüyorsan, orada senin istemediğin misafirleri avlıyor demektir.",
-     "gorsel": "mutfak_lamba",
-     "klip": "mutfak_lamba",
-     "kx": 0.75
-    },
-    {
-     "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.62
-    }
-   ]
-  }
- ]
+  ]
 }

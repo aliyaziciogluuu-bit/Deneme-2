@@ -76,5 +76,29 @@
   "baslik": "Bahçendeki Yılan Zehirli mi? (Uzaktan Güvenle Ayırt Etmenin Yolu)",
   "durum": "sırada",
   "not": "güvenlik kritik; herpetolog kaynakları"
+ },
+ {
+  "no": 13,
+  "konu": "Bahçendeki yılan zehirli mi? (engerek sanılan yılanlar)",
+  "baslik": "Bahçendeki Yılan Zehirli mi? (taslak)",
+  "durum": "15 Aralık Salı 18:00; senaryo bekliyor"
+ },
+ {
+  "no": 14,
+  "konu": "Ev örümceği",
+  "baslik": "Evdeki Örümcek Zehirli mi? (taslak)",
+  "durum": "19 Aralık önerisi; böcek genişlemesi (24 Kas kararı)"
+ },
+ {
+  "no": 15,
+  "konu": "Çıyan / kırkayak",
+  "baslik": "Çıyan Isırır mı? (taslak)",
+  "durum": "22 Aralık önerisi; böcek genişlemesi"
+ },
+ {
+  "no": 16,
+  "konu": "Kış derlemesi",
+  "baslik": "Kışın Bahçendeki Komşular Nerede? (taslak)",
+  "durum": "26 ya da 29 Aralık; derleme, yeni anlatım"
  }
 ]

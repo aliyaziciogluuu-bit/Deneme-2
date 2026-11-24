@@ -94,3 +94,9 @@ Ana bulgu: abone getiren şey "abone ol" cümlesi değil, tekrar eden bir VAAT (
 - **Topluluk paketi (haftalık):** bir "Sıradaki komşuyu siz seçin" anketi + bir "Bu hayvan zehirli mi?" görsel bilmecesi (gerçek iNaturalist fotoğrafı ve atıf). Hitap: "Komşular, selam". Yalnızca "yeni video yayında" gönderisi yapılmaz.
 - **Ölçüm (haftalık rapor):** video başına 10.000 izlenmede abone (reklam trafiği hariç; Shorts'ta etkileşimli görüntüleme), abonelik kaynağı, bitiş ekranı tıklama oranı. 15–20 video sonra en çok abone getiren format 3–5 kez tekrarlanır.
 - **Bırakılanlar:** ücretli tanıtım, abone satın alma, toplu grup paylaşımı, başka kanallara "kanalıma gel" yorumu, canlı yayın, e-posta bülteni.
+
+## 14. Ek büyüme işleri (24 Kasım, kanal sahibi: "hepsini yapalım")
+- **Açıklama:** her uzun videonun açıklamasına kaynaklardan önce tek satır: "Öğretmenler ve veliler: bu videoyu derste ve evde kullanabilirsiniz; kaynaklar aşağıda." (senarist yazar; 5.000 karakter sınırını gözet).
+- **Mevsimlik Shorts:** o haftanın mevsimine uyan soru (kış uykusu, göç, üreme dönemi) mevcut doğrulanmış videodan Shorts'a çevrilir.
+- **Yoruma Shorts ile yanıt:** izleyici sorusu gelince topluluk sorumlusu bildirir; yalnızca bilgi kontrolünden geçmiş bilgiyle 20–40 sn'lik "yoruma yanıt" Shorts'u.
+- **Konu yelpazesi:** ev/bahçe böcek ve eklembacaklıları da kanala girer ("Zehirli Sanılanlar"). Gerçekten tehlikeli türlerde (akrep, karadul, engerek) güvenlik bölümü resmi sağlık kaynağına dayanır, telefon numarası yine yazılmaz.

@@ -1,212 +1,283 @@
 {
- "shorts": [
-  {
-   "ad": "s1-sut",
-   "baslik": "Kirpiye Sakın Süt Verme! 🦔 #shorts",
-   "aciklama": "Kirpiler laktozu sindiremez; süt ishale, ishal de sıvı kaybına yol açabilir. Onun yerine sığ bir kapta su bırak. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)\"\n\nKaynak: Hedgehog Street (BHPS ve PTES)\n\n#shorts #kirpi #hayvansevgisi #doğa #bahçe",
-   "etiketler": [
-    "kirpi",
-    "kirpiye süt verilir mi",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "KİRPİYE",
-    "SÜT VERME!"
-   ],
-   "cumleler": [
+  "shorts": [
     {
-     "yazi": "Bahçede gördüğün bir kirpinin önüne süt koyarsan, ona iyilik yapmak isterken zarar verebilirsin.",
-     "gorsel": "bahce_gece",
-     "klip": "bahce_gece",
-     "kx": 0.62,
-     "kz": 1.7,
-     "ky": 1.0
+      "ad": "s1-sut",
+      "baslik": "Kirpiye Sakın Süt Verme! 🦔 #shorts",
+      "aciklama": "Kirpiler laktozu sindiremez; süt ishale, ishal de sıvı kaybına yol açabilir. Onun yerine sığ bir kapta su bırak. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)\"\n\nKaynak: Hedgehog Street (BHPS ve PTES)\n\n#shorts #kirpi #hayvansevgisi #doğa #bahçe",
+      "etiketler": [
+        "kirpi",
+        "kirpiye süt verilir mi",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "KİRPİYE",
+        "SÜT VERME!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Bahçede gördüğün bir kirpinin önüne süt koyarsan, ona iyilik yapmak isterken zarar verebilirsin.",
+          "gorsel": "bahce_gece",
+          "klip": "bahce_gece",
+          "kx": 0.62,
+          "kz": 1.7,
+          "ky": 1.0
+        },
+        {
+          "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor.",
+          "gorsel": "sut_kabi",
+          "x": 0.42,
+          "x2": 0.47,
+          "aw": 0.6,
+          "ay": 0.76,
+          "y": 0.76,
+          "w": 0.6
+        },
+        {
+          "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
+          "gorsel": "top",
+          "x": 0.68,
+          "x2": 0.68,
+          "aw": 0.5,
+          "ay": 0.75,
+          "y": 0.75,
+          "w": 0.5
+        },
+        {
+          "yazi": "Küçük bir hayvanda ishal, hızla sıvı kaybına yol açabilir.",
+          "gorsel": "gunduz",
+          "x": 0.43,
+          "x2": 0.43,
+          "aw": 0.5,
+          "ay": 0.67,
+          "y": 0.67,
+          "w": 0.5
+        },
+        {
+          "yazi": "Zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir.",
+          "gorsel": "yavrular",
+          "x": 0.5,
+          "x2": 0.5,
+          "aw": 0.6,
+          "ay": 0.57,
+          "y": 0.57,
+          "w": 0.6
+        },
+        {
+          "yazi": "Onun yerine sığ bir kapta temiz su bırak. Tam videosu kanalımızda.",
+          "gorsel": "su_kabi",
+          "klip": "su_kabi",
+          "kx": 0.53,
+          "kz": 1.7,
+          "ky": 1.0
+        }
+      ]
     },
     {
-     "yazi": "Kirpiler, sütteki laktoz adlı şekeri sindiremiyor.",
-     "gorsel": "sut_kabi",
-     "x": 0.42,
-     "x2": 0.47,
-     "aw": 0.6,
-     "ay": 0.76,
-     "y": 0.76,
-     "w": 0.6
+      "ad": "s2-elma",
+      "baslik": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
+      "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık iki bin yıl önce yaşamış Romalı yazar Plinius'un yazılarında geçiyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)\"\n\nKaynak: Wikipedia – Hedgehogs in culture\n\n#shorts #kirpi #efsane #doğa",
+      "etiketler": [
+        "kirpi",
+        "kirpi elma",
+        "efsane",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "SIRTINDA ELMA",
+        "taşır mı?"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Hayır: kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
+          "gorsel": "elma",
+          "x": 0.6,
+          "x2": 0.58,
+          "aw": 0.6,
+          "ay": 0.42,
+          "y": 0.44,
+          "w": 0.55
+        },
+        {
+          "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
+          "ses": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'un yazılarında da geçiyor.",
+          "gorsel": "plinius",
+          "x": 0.7
+        },
+        {
+          "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla karşımıza çıkıyor.",
+          "gorsel": "elma",
+          "x": 0.56,
+          "x2": 0.56,
+          "aw": 0.85,
+          "ay": 0.5,
+          "y": 0.5,
+          "w": 0.8
+        },
+        {
+          "yazi": "Dikenleri onu avcılardan korumaya yarıyor.",
+          "gorsel": "top",
+          "x": 0.7,
+          "x2": 0.66,
+          "aw": 0.5,
+          "ay": 0.75,
+          "y": 0.75,
+          "w": 0.5
+        },
+        {
+          "yazi": "Kirpi aslında böcek avcısı; ana besini böcekler ve solucanlar. Tam videosu kanalımızda.",
+          "gorsel": "bocek_av",
+          "klip": "bocek_av",
+          "kx": 0.53,
+          "kz": 1.3,
+          "ky": 1.0
+        }
+      ]
     },
     {
-     "yazi": "Süt içen bir kirpide kısa sürede ishal başlayabiliyor.",
-     "gorsel": "top",
-     "x": 0.68,
-     "x2": 0.68,
-     "aw": 0.5,
-     "ay": 0.75,
-     "y": 0.75,
-     "w": 0.5
+      "ad": "s3-kopuk",
+      "baslik": "Kirpi Dikenlerine Köpük Sürüyor! 🦔 #shorts",
+      "aciklama": "Kirpi yeni ve keskin bir koku ya da tatla karşılaştığında ağzında köpüklü bir salya oluşturup dilini kıvırarak dikenlerinin üzerine sürüyor; bilim insanları nedenini hâlâ tam olarak bilmiyor. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)\"\n\n#shorts #kirpi #doğa #bahçe #ilginçbilgiler",
+      "etiketler": [
+        "kirpi",
+        "kirpi köpük",
+        "kirpi dikenleri",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "DİKENLERİNE",
+        "köpük sürüyor"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Kirpi, ağzında köpük yapıp bu köpüğü dikenlerine sürüyor.",
+          "gorsel": "bocek_av",
+          "klip": "bocek_av",
+          "kx": 0.53,
+          "kz": 1.3,
+          "ky": 1.0
+        },
+        {
+          "yazi": "Yeni ve keskin bir koku ya da tatla karşılaştığında, ağzında köpüklü bir salya oluşturuyor.",
+          "gorsel": "top",
+          "x": 0.68,
+          "aw": 0.5,
+          "ay": 0.75,
+          "w": 0.5,
+          "y": 0.75
+        },
+        {
+          "yazi": "Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor.",
+          "gorsel": "portre",
+          "x": 0.76,
+          "aw": 0.55,
+          "ay": 0.62,
+          "w": 0.6,
+          "y": 0.6
+        },
+        {
+          "yazi": "Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
+          "gorsel": "gunduz",
+          "x": 0.43,
+          "aw": 0.5,
+          "ay": 0.67,
+          "w": 0.5,
+          "y": 0.67
+        },
+        {
+          "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış.",
+          "gorsel": "dikenler",
+          "x": 0.5,
+          "w": 0.85,
+          "y": 0.5
+        },
+        {
+          "yazi": "Zehirli değiller; ucu kancalı da değiller.",
+          "gorsel": "kapak",
+          "x": 0.58,
+          "aw": 0.55,
+          "ay": 0.64,
+          "w": 0.6,
+          "y": 0.62
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.45
+        }
+      ]
     },
     {
-     "yazi": "Küçük bir hayvanda ishal, hızla sıvı kaybına yol açabilir.",
-     "gorsel": "gunduz",
-     "x": 0.43,
-     "x2": 0.43,
-     "aw": 0.5,
-     "ay": 0.67,
-     "y": 0.67,
-     "w": 0.5
-    },
-    {
-     "yazi": "Zayıf bir kirpi ya da bir yavru için bu ağır bir sağlık sorunu olabilir.",
-     "gorsel": "yavrular",
-     "x": 0.5,
-     "x2": 0.5,
-     "aw": 0.6,
-     "ay": 0.57,
-     "y": 0.57,
-     "w": 0.6
-    },
-    {
-     "yazi": "Onun yerine sığ bir kapta temiz su bırak. Tam videosu kanalımızda.",
-     "gorsel": "su_kabi",
-     "klip": "su_kabi",
-     "kx": 0.53,
-     "kz": 1.7,
-     "ky": 1.0
+      "ad": "s4-diken",
+      "baslik": "Dikeni Zehirliyse Kirpi Değildir! 🦔 #shorts",
+      "aciklama": "Kirpi dikenleri zehirli değil, ucu kancalı da değil; sertleşmiş kıllardır. Kirpi bir yaban hayvanı; yakalayıp evde beslemeye çalışma. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #doğa #bahçe #dikenler",
+      "etiketler": [
+        "kirpi",
+        "kirpi dikeni",
+        "zehirli mi",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "DİKENİ ZEHİRLİ",
+        "DEĞİL!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Kirpi dikenleri zehirli değil; ucu kancalı da değil.",
+          "gorsel": "kapak",
+          "x": 0.58,
+          "aw": 0.55,
+          "ay": 0.64,
+          "w": 0.6,
+          "y": 0.62,
+          "kaynak_cumle": "Zehirli değiller; ucu kancalı da değiller."
+        },
+        {
+          "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış.",
+          "gorsel": "dikenler",
+          "x": 0.5,
+          "w": 0.85,
+          "y": 0.5,
+          "kaynak_cumle": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış."
+        },
+        {
+          "yazi": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış.",
+          "gorsel": "portre",
+          "x": 0.8,
+          "aw": 0.55,
+          "ay": 0.62,
+          "w": 0.6,
+          "y": 0.6,
+          "kaynak_cumle": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış."
+        },
+        {
+          "yazi": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.",
+          "gorsel": "top",
+          "klip": "top",
+          "kx": 0.5,
+          "kaynak_cumle": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor."
+        },
+        {
+          "yazi": "Ama bu savunma, bir arabaya karşı işe yaramıyor.",
+          "gorsel": "yol",
+          "x": 0.3,
+          "kaynak_cumle": "Ama bu savunma, bir arabaya karşı işe yaramıyor."
+        },
+        {
+          "yazi": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar.",
+          "gorsel": "yol",
+          "x": 0.3,
+          "kaynak_cumle": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar."
+        },
+        {
+          "yazi": "Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.45,
+          "kaynak_cumle": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "ad": "s2-elma",
-   "baslik": "Kirpi Sırtında Elma Taşır mı? 🍎 #shorts",
-   "aciklama": "Kirpinin sırtında elma taşıdığı inancı yaklaşık iki bin yıl önce yaşamış Romalı yazar Plinius'un yazılarında geçiyor; bilimsel kanıtı yok. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)\"\n\nKaynak: Wikipedia – Hedgehogs in culture\n\n#shorts #kirpi #efsane #doğa",
-   "etiketler": [
-    "kirpi",
-    "kirpi elma",
-    "efsane",
-    "shorts"
-   ],
-   "ust_yazi": [
-    "SIRTINDA ELMA",
-    "taşır mı?"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Hayır: kirpilerin sırtında elma taşıdığına dair bilimsel bir kanıt yok.",
-     "gorsel": "elma",
-     "x": 0.6,
-     "x2": 0.58,
-     "aw": 0.6,
-     "ay": 0.42,
-     "y": 0.44,
-     "w": 0.55
-    },
-    {
-     "yazi": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinius'un yazılarında da geçiyor.",
-     "ses": "Bu inanç, yaklaşık iki bin yıl önce yaşamış Romalı yazar Yaşlı Plinyus'un yazılarında da geçiyor.",
-     "gorsel": "plinius",
-     "x": 0.7
-    },
-    {
-     "yazi": "Masallarda ve çizimlerde kirpi hâlâ sırtında elmalarla karşımıza çıkıyor.",
-     "gorsel": "elma",
-     "x": 0.56,
-     "x2": 0.56,
-     "aw": 0.85,
-     "ay": 0.5,
-     "y": 0.5,
-     "w": 0.8
-    },
-    {
-     "yazi": "Dikenleri onu avcılardan korumaya yarıyor.",
-     "gorsel": "top",
-     "x": 0.7,
-     "x2": 0.66,
-     "aw": 0.5,
-     "ay": 0.75,
-     "y": 0.75,
-     "w": 0.5
-    },
-    {
-     "yazi": "Kirpi aslında böcek avcısı; ana besini böcekler ve solucanlar. Tam videosu kanalımızda.",
-     "gorsel": "bocek_av",
-     "klip": "bocek_av",
-     "kx": 0.53,
-     "kz": 1.3,
-     "ky": 1.0
-    }
-   ]
-  },
-  {
-   "ad": "s3-kopuk",
-   "baslik": "Kirpi Dikenlerine Köpük Sürüyor! 🦔 #shorts",
-   "aciklama": "Kirpi yeni ve keskin bir koku ya da tatla karşılaştığında ağzında köpüklü bir salya oluşturup dilini kıvırarak dikenlerinin üzerine sürüyor; bilim insanları nedenini hâlâ tam olarak bilmiyor. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)\"\n\n#shorts #kirpi #doğa #bahçe #ilginçbilgiler",
-   "etiketler": [
-    "kirpi",
-    "kirpi köpük",
-    "kirpi dikenleri",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "DİKENLERİNE",
-    "köpük sürüyor"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Kirpi, ağzında köpük yapıp bu köpüğü dikenlerine sürüyor.",
-     "gorsel": "bocek_av",
-     "klip": "bocek_av",
-     "kx": 0.53,
-     "kz": 1.3,
-     "ky": 1.0
-    },
-    {
-     "yazi": "Yeni ve keskin bir koku ya da tatla karşılaştığında, ağzında köpüklü bir salya oluşturuyor.",
-     "gorsel": "top",
-     "x": 0.68,
-     "aw": 0.5,
-     "ay": 0.75,
-     "w": 0.5,
-     "y": 0.75
-    },
-    {
-     "yazi": "Sonra dilini kıvırarak bu köpüğü dikenlerinin üzerine sürüyor.",
-     "gorsel": "portre",
-     "x": 0.76,
-     "aw": 0.55,
-     "ay": 0.62,
-     "w": 0.6,
-     "y": 0.6
-    },
-    {
-     "yazi": "Bilim insanları bu davranışın nedenini hâlâ tam olarak bilmiyor.",
-     "gorsel": "gunduz",
-     "x": 0.43,
-     "aw": 0.5,
-     "ay": 0.67,
-     "w": 0.5,
-     "y": 0.67
-    },
-    {
-     "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış.",
-     "gorsel": "dikenler",
-     "x": 0.5,
-     "w": 0.85,
-     "y": 0.5
-    },
-    {
-     "yazi": "Zehirli değiller; ucu kancalı da değiller.",
-     "gorsel": "kapak",
-     "x": 0.58,
-     "aw": 0.55,
-     "ay": 0.64,
-     "w": 0.6,
-     "y": 0.62
-    },
-    {
-     "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.45
-    }
-   ]
-  }
- ]
+  ]
 }
