@@ -210,7 +210,7 @@
     },
     {
       "ad": "s4-diken",
-      "baslik": "Dikeni Zehirliyse Kirpi Değildir! 🦔 #shorts",
+      "baslik": "Kirpinin Dikeni Zehirli Değil! 🦔 #shorts",
       "aciklama": "Kirpi dikenleri zehirli değil, ucu kancalı da değil; sertleşmiş kıllardır. Kirpi bir yaban hayvanı; yakalayıp evde beslemeye çalışma. Tam video kanalımızda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #doğa #bahçe #dikenler",
       "etiketler": [
         "kirpi",
@@ -276,6 +276,95 @@
           "gorsel": "kapanis",
           "x": 0.45,
           "kaynak_cumle": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma."
+        }
+      ]
+    },
+    {
+      "ad": "s5-kis-uyku",
+      "baslik": "Kirpi Kışı Uyuyarak Geçirir! 🦔 #shorts",
+      "aciklama": "Soğuk bölgelerde kirpiler sonbahar sonunda yaprak ve ot yığınlarından yuva yapıp kış uykusuna yatıyor. Sonbaharda yaprak yığınını yakmadan ya da dağıtmadan önce altına bak. Kirpi bir yaban hayvanı; yakalayıp evde beslemeye çalışma. Tam hikâye bağlantıda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #kışuykusu #doğa #bahçe",
+      "etiketler": [
+        "kirpi",
+        "kirpi kış uykusu",
+        "kirpi kışın ne yapar",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "KİRPİ KIŞIN",
+        "UYUYOR!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Soğuk bölgelerde kirpiler kışı uyuyarak geçiriyor: sonbahar sonunda yaprak ve ot yığınlarından kendilerine bir yuva yapıp kış uykusuna yatıyorlar.",
+          "gorsel": "kis_uykusu",
+          "kaynak_cumle": "Özellikle soğuk bölgelerde, sonbahar sonunda kirpiler yaprak ve ot yığınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor.",
+          "x": 0.62,
+          "aw": 0.8,
+          "ay": 0.58,
+          "w": 0.75,
+          "y": 0.58
+        },
+        {
+          "yazi": "Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor.",
+          "gorsel": "kis_uykusu",
+          "kaynak_cumle": "Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor.",
+          "x": 0.55,
+          "x2": 0.62,
+          "aw": 0.95,
+          "ay": 0.55,
+          "w": 0.8,
+          "y": 0.58
+        },
+        {
+          "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.",
+          "gorsel": "kis_uykusu",
+          "kaynak_cumle": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.",
+          "x": 0.62,
+          "aw": 0.7,
+          "ay": 0.6,
+          "w": 0.7,
+          "y": 0.6
+        },
+        {
+          "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak.",
+          "gorsel": "yaprak_yigini",
+          "kaynak_cumle": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak.",
+          "x": 0.55,
+          "aw": 0.65,
+          "ay": 0.62,
+          "w": 0.7,
+          "y": 0.6
+        },
+        {
+          "yazi": "Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş.",
+          "gorsel": "yaprak_yigini",
+          "kaynak_cumle": "Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş.",
+          "x": 0.55,
+          "aw": 0.6,
+          "ay": 0.64,
+          "w": 0.6,
+          "y": 0.64
+        },
+        {
+          "yazi": "Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.",
+          "gorsel": "portre",
+          "kaynak_cumle": "Ve unutma: kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.",
+          "x": 0.8,
+          "aw": 0.55,
+          "ay": 0.62,
+          "w": 0.6,
+          "y": 0.6
+        },
+        {
+          "yazi": "Tam hikâye bağlantıda.",
+          "gorsel": "kapak",
+          "kaynak_cumle": "(kapanış cümlesi, yeni bilgi yok)",
+          "x": 0.58,
+          "aw": 0.55,
+          "ay": 0.64,
+          "w": 0.6,
+          "y": 0.62
         }
       ]
     }

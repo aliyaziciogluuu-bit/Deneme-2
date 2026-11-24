@@ -128,8 +128,8 @@ def shorts(klasor, risk_uzunda):
             onceki = c
         if cc and cc[0]["yazi"].rstrip().endswith("?"):
             ekle("UYARI", f"Shorts {sh['ad']}", "ilk cümle soru; cevapla ya da şaşırtıcı bir bilgiyle aç")
-        if cc and not cc[-1]["yazi"].rstrip().endswith("Tam videosu kanalımızda."):
-            ekle("HATA", f"Shorts {sh['ad']}", "son cümle \"Tam videosu kanalımızda.\" ile bitmiyor")
+        if cc and not cc[-1]["yazi"].rstrip().endswith(("Tam videosu kanalımızda.", "Tam hikâye bağlantıda.")):
+            ekle("HATA", f"Shorts {sh['ad']}", "son cümle \"Tam videosu kanalımızda.\" ya da \"Tam hikâye bağlantıda.\" ile bitmiyor")
         hijyen = any(re.search(r"(dokun|ellerini yıka|salmonella|kuduz|ısır)", c["yazi"], re.I) for c in cc)
         if risk_uzunda and hijyen and not any(RISK.search(c["yazi"]) for c in cc):
             ekle("HATA", f"Shorts {sh['ad']}", "temas/hijyen anlatılıyor ama uzun videodaki risk grubu uyarısı yok")

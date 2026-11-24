@@ -1,0 +1,52 @@
+{
+  "dikey": true,
+  "baslik": "Bazı Yarasalar Kışı Uyuyarak Geçirir! 🦇 #shorts",
+  "aciklama": "Bazı böcekçil yarasalar kış gelince mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyor; kışın onları rahatsız etmemek çok önemli. Yarasalara asla çıplak elle dokunma; ısırık ya da tırmalamada yarayı sabun ve suyla yıka, sağlık kuruluşuna git. Tam hikâye bağlantıda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #kışuykusu #kuduz #doğa",
+  "etiketler": [
+    "yarasa",
+    "yarasa kış uykusu",
+    "yarasa kışın nerede olur",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "BAZI YARASALAR",
+    "KIŞ UYKUSUNDA"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Yarasa Saça Yapışır mı? (Dokunmadan Önce Bunu Bil)",
+  "sahneler": [
+    {
+      "ad": "Bazı Yarasalar Kışı Uyuyarak Geçirir! 🦇 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Bazı yarasalar kışı uyuyarak geçiriyor: kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyorlar."
+        },
+        {
+          "yazi": "Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar; kışın mağaralarda yarasaları rahatsız etmemek çok önemli."
+        },
+        {
+          "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor."
+        },
+        {
+          "yazi": "Bu yüzden bir yarasaya asla çıplak elle dokunma."
+        },
+        {
+          "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka."
+        },
+        {
+          "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle."
+        },
+        {
+          "yazi": "Tam hikâye bağlantıda."
+        }
+      ]
+    }
+  ]
+}

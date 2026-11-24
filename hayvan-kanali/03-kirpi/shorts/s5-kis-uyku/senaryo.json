@@ -1,0 +1,52 @@
+{
+  "dikey": true,
+  "baslik": "Kirpi Kışı Uyuyarak Geçirir! 🦔 #shorts",
+  "aciklama": "Soğuk bölgelerde kirpiler sonbahar sonunda yaprak ve ot yığınlarından yuva yapıp kış uykusuna yatıyor. Sonbaharda yaprak yığınını yakmadan ya da dağıtmadan önce altına bak. Kirpi bir yaban hayvanı; yakalayıp evde beslemeye çalışma. Tam hikâye bağlantıda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #kışuykusu #doğa #bahçe",
+  "etiketler": [
+    "kirpi",
+    "kirpi kış uykusu",
+    "kirpi kışın ne yapar",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "KİRPİ KIŞIN",
+    "UYUYOR!"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Kirpiye Sakın Süt Verme! (Ekmek Bile Yanlış, Doğrusu Ne?)",
+  "sahneler": [
+    {
+      "ad": "Kirpi Kışı Uyuyarak Geçirir! 🦔 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Soğuk bölgelerde kirpiler kışı uyuyarak geçiriyor: sonbahar sonunda yaprak ve ot yığınlarından kendilerine bir yuva yapıp kış uykusuna yatıyorlar."
+        },
+        {
+          "yazi": "Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor."
+        },
+        {
+          "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor."
+        },
+        {
+          "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak."
+        },
+        {
+          "yazi": "Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş."
+        },
+        {
+          "yazi": "Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma."
+        },
+        {
+          "yazi": "Tam hikâye bağlantıda."
+        }
+      ]
+    }
+  ]
+}

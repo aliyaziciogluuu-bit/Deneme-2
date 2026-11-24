@@ -1,276 +1,276 @@
 {
- "shorts": [
-  {
-   "ad": "s1-goz",
-   "baslik": "Göz Kırpıyorsa Yılan Değildir! 🐍 #shorts",
-   "aciklama": "Sağır yılan aslında bacaksız bir kertenkele: göz kırpar, kuyruğunu koparabilir, zehri yoktur. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\n#shorts #sağıryılan #kertenkele #doğa #bahçe",
-   "etiketler": [
-    "sağır yılan",
-    "kertenkele",
-    "yılan mı",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "YILAN DEĞİL!",
-    "Göz kırpıyor"
-   ],
-   "cumleler": [
+  "shorts": [
     {
-     "yazi": "Bahçede bunu görürsen, önce gözlerine bak.",
-     "gorsel": "tas_alti",
-     "klip": "tas_alti",
-     "kx": 0.55
+      "ad": "s1-goz",
+      "baslik": "Göz Kırpıyorsa Yılan Değildir! 🐍 #shorts",
+      "aciklama": "Sağır yılan aslında bacaksız bir kertenkele: göz kırpar, kuyruğunu koparabilir, zehri yoktur. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\n#shorts #sağıryılan #kertenkele #doğa #bahçe",
+      "etiketler": [
+        "sağır yılan",
+        "kertenkele",
+        "yılan mı",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "YILAN DEĞİL!",
+        "Göz kırpıyor"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Bahçede bunu görürsen, önce gözlerine bak.",
+          "gorsel": "tas_alti",
+          "klip": "tas_alti",
+          "kx": 0.55
+        },
+        {
+          "yazi": "Halk arasında ona sağır yılan deniyor, ama o bir yılan değil.",
+          "gorsel": "portre",
+          "x": 0.75
+        },
+        {
+          "yazi": "Bacaksız bir kertenkele.",
+          "gorsel": "mavi_benek",
+          "x": 0.6
+        },
+        {
+          "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
+          "gorsel": "yilan_goz",
+          "x": 0.5,
+          "etiket": "Yılan: göz kapağı yok"
+        },
+        {
+          "yazi": "Sağır yılanın gerçek göz kapakları var.",
+          "gorsel": "goz",
+          "klip": "goz",
+          "kx": 0.4,
+          "etiket": "Sağır yılan: göz kırpar"
+        },
+        {
+          "yazi": "Üstelik pek çok kertenkele gibi kuyruğunu koparabiliyor.",
+          "gorsel": "kuyruk",
+          "klip": "kuyruk",
+          "kx": 0.35
+        },
+        {
+          "yazi": "Zehri yok ve bahçendeki sümüklü böcekleri avlıyor.",
+          "gorsel": "salyangoz",
+          "klip": "salyangoz",
+          "kx": 0.35
+        },
+        {
+          "yazi": "Onu öldürme. Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.62
+        }
+      ]
     },
     {
-     "yazi": "Halk arasında ona sağır yılan deniyor, ama o bir yılan değil.",
-     "gorsel": "portre",
-     "x": 0.75
+      "ad": "s2-54yil",
+      "baslik": "54 Yıl Yaşayan Kertenkele! 😮 #shorts",
+      "aciklama": "Sağır yılanın Avrupa'daki akrabası Anguis fragilis'ten bir birey, bakım altında 54 yıldan fazla yaşadı (Kopenhag Zooloji Müzesi, 1892–1946). Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\nKaynak: Guinness World Records – Oldest lizard\n\n#shorts #sağıryılan #kertenkele #rekor #doğa",
+      "etiketler": [
+        "sağır yılan",
+        "kertenkele",
+        "rekor",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "54 YIL",
+        "yaşayan kertenkele"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Bahçende gördüğün bu parlak hayvan, bilinen en uzun ömürlü kertenkele türlerinden birinin yakın akrabası.",
+          "gorsel": "tas_alti",
+          "klip": "tas_alti",
+          "kx": 0.55
+        },
+        {
+          "yazi": "Ona sağır yılan diyoruz, ama aslında bacaksız bir kertenkele.",
+          "gorsel": "portre",
+          "x": 0.75
+        },
+        {
+          "yazi": "Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı.",
+          "gorsel": "kapak",
+          "x": 0.6,
+          "etiket": "Kopenhag, 1892–1946"
+        },
+        {
+          "yazi": "Doğada ömrü çok daha kısa; çoğu birey on yılı göremiyor.",
+          "gorsel": "orman",
+          "klip": "orman",
+          "kx": 0.5
+        },
+        {
+          "yazi": "Onu tehdit edenler arasında, yılan sanıp öldüren insanlar, arabalar ve çim biçme makineleri var.",
+          "gorsel": "cim",
+          "x": 0.22,
+          "x2": 0.68,
+          "w": 1.0
+        },
+        {
+          "yazi": "Bir dahaki sefere onu görürsen, rahat bırak. Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.62
+        }
+      ]
     },
     {
-     "yazi": "Bacaksız bir kertenkele.",
-     "gorsel": "mavi_benek",
-     "x": 0.6
+      "ad": "s3-yavru",
+      "baslik": "Yumurtlamayan Kertenkele! 🐍 #shorts",
+      "aciklama": "Sağır yılan yumurtlamıyor, yavru doğuruyor: yumurtalar annenin vücudunun içinde gelişiyor, yavrular doğar doğmaz kendi başlarına yaşıyor. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)\"\n\n#shorts #sağıryılan #kertenkele #yavru #doğa",
+      "etiketler": [
+        "sağır yılan",
+        "kertenkele",
+        "yavru doğuran",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "YUMURTA YOK!",
+        "Yavru doğuruyor"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Sağır yılan yumurtlamıyor, yavru doğuruyor.",
+          "gorsel": "orman",
+          "klip": "orman",
+          "kx": 0.65,
+          "kz": 1.5,
+          "ky": 1.0
+        },
+        {
+          "yazi": "Yumurtalar annenin vücudunun içinde gelişiyor.",
+          "gorsel": "yavrular2",
+          "x": 0.62,
+          "x2": 0.62,
+          "aw": 0.6,
+          "ay": 0.7,
+          "w": 0.66,
+          "y": 0.67
+        },
+        {
+          "yazi": "Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor.",
+          "gorsel": "yavrular2",
+          "x": 0.66,
+          "x2": 0.62,
+          "aw": 0.6,
+          "ay": 0.7,
+          "w": 0.66,
+          "y": 0.67
+        },
+        {
+          "yazi": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.",
+          "gorsel": "yavrular2",
+          "x": 0.6,
+          "x2": 0.64,
+          "aw": 0.62,
+          "ay": 0.69,
+          "w": 0.68,
+          "y": 0.66
+        },
+        {
+          "yazi": "Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.",
+          "gorsel": "kis",
+          "x": 0.5,
+          "aw": 0.6,
+          "ay": 0.7,
+          "x2": 0.58,
+          "w": 0.8,
+          "y": 0.66
+        },
+        {
+          "yazi": "Bazen aynı kış sığınağını birçok birey paylaşıyor.",
+          "gorsel": "kis",
+          "x": 0.58,
+          "aw": 0.7,
+          "ay": 0.67,
+          "x2": 0.55,
+          "w": 0.85,
+          "y": 0.64
+        },
+        {
+          "yazi": "Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.62
+        }
+      ]
     },
     {
-     "yazi": "Yılanların göz kapağı yoktur; gözleri şeffaf bir pulla kaplıdır ve hiç kapanmaz.",
-     "gorsel": "yilan_goz",
-     "x": 0.5,
-     "etiket": "Yılan: göz kapağı yok"
-    },
-    {
-     "yazi": "Sağır yılanın gerçek göz kapakları var.",
-     "gorsel": "goz",
-     "klip": "goz",
-     "kx": 0.4,
-     "etiket": "Sağır yılan: göz kırpar"
-    },
-    {
-     "yazi": "Üstelik pek çok kertenkele gibi kuyruğunu koparabiliyor.",
-     "gorsel": "kuyruk",
-     "klip": "kuyruk",
-     "kx": 0.35
-    },
-    {
-     "yazi": "Zehri yok ve bahçendeki sümüklü böcekleri avlıyor.",
-     "gorsel": "salyangoz",
-     "klip": "salyangoz",
-     "kx": 0.35
-    },
-    {
-     "yazi": "Onu öldürme. Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.62
+      "ad": "s4-kuyruk",
+      "baslik": "Sağır Yılan Aslında Kuyruğunu Koparan Bir Kertenkele! 🦎 #shorts",
+      "aciklama": "Sağır yılan aslında bacaksız bir kertenkele: tehlikede kuyruğunu koparabiliyor. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\n#shorts #sağıryılan #kertenkele #doğa #bahçe",
+      "etiketler": [
+        "sağır yılan",
+        "kertenkele",
+        "kuyruğunu koparan",
+        "yılan mı",
+        "shorts"
+      ],
+      "ust_yazi": [
+        "YILAN DEĞİL,",
+        "KERTENKELE!"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Sağır yılan bir yılan değil, bacaksız bir kertenkele; tehlikede kuyruğunu koparıp kaçabiliyor.",
+          "gorsel": "tas_alti",
+          "klip": "tas_alti",
+          "kx": 0.55,
+          "kaynak_cumle": ""
+        },
+        {
+          "yazi": "Sağır yılan aslında bacaksız bir kertenkele.",
+          "gorsel": "portre",
+          "x": 0.75,
+          "aw": 0.7,
+          "ay": 0.6,
+          "kaynak_cumle": "",
+          "w": 0.7,
+          "y": 0.6
+        },
+        {
+          "yazi": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.",
+          "gorsel": "kuyruk",
+          "klip": "kuyruk",
+          "kx": 0.35,
+          "kaynak_cumle": ""
+        },
+        {
+          "yazi": "Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar.",
+          "gorsel": "kuyruk",
+          "kaynak_cumle": "",
+          "x": 0.7,
+          "aw": 0.8,
+          "ay": 0.55,
+          "w": 0.8,
+          "y": 0.55
+        },
+        {
+          "yazi": "Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır.",
+          "gorsel": "kuyruk",
+          "kaynak_cumle": "",
+          "x": 0.7,
+          "aw": 0.8,
+          "ay": 0.55,
+          "w": 0.8,
+          "y": 0.55
+        },
+        {
+          "yazi": "Onu asla kuyruğundan tutma. Türkiye'de zehirli engerekler de yaşıyor.",
+          "gorsel": "engerek",
+          "x": 0.5,
+          "kaynak_cumle": ""
+        },
+        {
+          "yazi": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma; mesafeni koru. Tam videosu kanalımızda.",
+          "gorsel": "kapanis",
+          "x": 0.62,
+          "kaynak_cumle": ""
+        }
+      ]
     }
-   ]
-  },
-  {
-   "ad": "s2-54yil",
-   "baslik": "54 Yıl Yaşayan Kertenkele! 😮 #shorts",
-   "aciklama": "Sağır yılanın Avrupa'daki akrabası Anguis fragilis'ten bir birey, bakım altında 54 yıldan fazla yaşadı (Kopenhag Zooloji Müzesi, 1892–1946). Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\nKaynak: Guinness World Records – Oldest lizard\n\n#shorts #sağıryılan #kertenkele #rekor #doğa",
-   "etiketler": [
-    "sağır yılan",
-    "kertenkele",
-    "rekor",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "54 YIL",
-    "yaşayan kertenkele"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Bahçende gördüğün bu parlak hayvan, bilinen en uzun ömürlü kertenkele türlerinden birinin yakın akrabası.",
-     "gorsel": "tas_alti",
-     "klip": "tas_alti",
-     "kx": 0.55
-    },
-    {
-     "yazi": "Ona sağır yılan diyoruz, ama aslında bacaksız bir kertenkele.",
-     "gorsel": "portre",
-     "x": 0.75
-    },
-    {
-     "yazi": "Avrupa'daki akrabasının bakım altındaki bir bireyi, elli dört yıl yaşadı.",
-     "gorsel": "kapak",
-     "x": 0.6,
-     "etiket": "Kopenhag, 1892–1946"
-    },
-    {
-     "yazi": "Doğada ömrü çok daha kısa; çoğu birey on yılı göremiyor.",
-     "gorsel": "orman",
-     "klip": "orman",
-     "kx": 0.5
-    },
-    {
-     "yazi": "Onu tehdit edenler arasında, yılan sanıp öldüren insanlar, arabalar ve çim biçme makineleri var.",
-     "gorsel": "cim",
-     "x": 0.22,
-     "x2": 0.68,
-     "w": 1.0
-    },
-    {
-     "yazi": "Bir dahaki sefere onu görürsen, rahat bırak. Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.62
-    }
-   ]
-  },
-  {
-   "ad": "s3-yavru",
-   "baslik": "Yumurtlamayan Kertenkele! 🐍 #shorts",
-   "aciklama": "Sağır yılan yumurtlamıyor, yavru doğuruyor: yumurtalar annenin vücudunun içinde gelişiyor, yavrular doğar doğmaz kendi başlarına yaşıyor. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)\"\n\n#shorts #sağıryılan #kertenkele #yavru #doğa",
-   "etiketler": [
-    "sağır yılan",
-    "kertenkele",
-    "yavru doğuran",
-    "shorts",
-    "doğa"
-   ],
-   "ust_yazi": [
-    "YUMURTA YOK!",
-    "Yavru doğuruyor"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Sağır yılan yumurtlamıyor, yavru doğuruyor.",
-     "gorsel": "orman",
-     "klip": "orman",
-     "kx": 0.65,
-     "kz": 1.5,
-     "ky": 1.0
-    },
-    {
-     "yazi": "Yumurtalar annenin vücudunun içinde gelişiyor.",
-     "gorsel": "yavrular2",
-     "x": 0.62,
-     "x2": 0.62,
-     "aw": 0.6,
-     "ay": 0.7,
-     "w": 0.66,
-     "y": 0.67
-    },
-    {
-     "yazi": "Yaz sonuna doğru da ince, parlak, yaklaşık yedi ila on santimetre boyunda yavrular dünyaya geliyor.",
-     "gorsel": "yavrular2",
-     "x": 0.66,
-     "x2": 0.62,
-     "aw": 0.6,
-     "ay": 0.7,
-     "w": 0.66,
-     "y": 0.67
-    },
-    {
-     "yazi": "Yavrular doğar doğmaz kendi başlarına yaşamaya başlıyor.",
-     "gorsel": "yavrular2",
-     "x": 0.6,
-     "x2": 0.64,
-     "aw": 0.62,
-     "ay": 0.69,
-     "w": 0.68,
-     "y": 0.66
-    },
-    {
-     "yazi": "Sonbaharda, genellikle ekim ayında, sağır yılanlar toprağın altına ya da taş yığınlarının dibine çekilip kış uykusuna yatıyor.",
-     "gorsel": "kis",
-     "x": 0.5,
-     "aw": 0.6,
-     "ay": 0.7,
-     "x2": 0.58,
-     "w": 0.8,
-     "y": 0.66
-    },
-    {
-     "yazi": "Bazen aynı kış sığınağını birçok birey paylaşıyor.",
-     "gorsel": "kis",
-     "x": 0.58,
-     "aw": 0.7,
-     "ay": 0.67,
-     "x2": 0.55,
-     "w": 0.85,
-     "y": 0.64
-    },
-    {
-     "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.62
-    }
-   ]
-  },
-  {
-   "ad": "s4-kuyruk",
-   "baslik": "Kuyruğunu Koparıyorsa Yılan Değildir! 🦎 #shorts",
-   "aciklama": "Sağır yılan aslında bacaksız bir kertenkele: tehlikede kuyruğunu koparabiliyor. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\n#shorts #sağıryılan #kertenkele #doğa #bahçe",
-   "etiketler": [
-    "sağır yılan",
-    "kertenkele",
-    "kuyruğunu koparan",
-    "yılan mı",
-    "shorts"
-   ],
-   "ust_yazi": [
-    "KUYRUK KOPUYOR",
-    "YILAN DEĞİL!"
-   ],
-   "cumleler": [
-    {
-     "yazi": "Kuyruğunu koparabiliyorsa o hayvan bir yılan değil.",
-     "gorsel": "tas_alti",
-     "klip": "tas_alti",
-     "kx": 0.55,
-     "kaynak_cumle": ""
-    },
-    {
-     "yazi": "Sağır yılan aslında bacaksız bir kertenkele.",
-     "gorsel": "portre",
-     "x": 0.75,
-     "aw": 0.7,
-     "ay": 0.6,
-     "kaynak_cumle": "",
-     "w": 0.7,
-     "y": 0.6
-    },
-    {
-     "yazi": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.",
-     "gorsel": "kuyruk",
-     "klip": "kuyruk",
-     "kx": 0.35,
-     "kaynak_cumle": ""
-    },
-    {
-     "yazi": "Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar.",
-     "gorsel": "kuyruk",
-     "kaynak_cumle": "",
-     "x": 0.7,
-     "aw": 0.8,
-     "ay": 0.55,
-     "w": 0.8,
-     "y": 0.55
-    },
-    {
-     "yazi": "Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır.",
-     "gorsel": "kuyruk",
-     "kaynak_cumle": "",
-     "x": 0.7,
-     "aw": 0.8,
-     "ay": 0.55,
-     "w": 0.8,
-     "y": 0.55
-    },
-    {
-     "yazi": "Onu asla kuyruğundan tutma. Türkiye'de zehirli engerekler de yaşıyor.",
-     "gorsel": "engerek",
-     "x": 0.5,
-     "kaynak_cumle": ""
-    },
-    {
-     "yazi": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma; mesafeni koru. Tam videosu kanalımızda.",
-     "gorsel": "kapanis",
-     "x": 0.62,
-     "kaynak_cumle": ""
-    }
-   ]
-  }
- ]
+  ]
 }

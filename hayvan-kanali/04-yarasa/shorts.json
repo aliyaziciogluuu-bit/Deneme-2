@@ -286,6 +286,91 @@
           "kaynak_cumle": "Kuduz aşısı gerekip gerekmediğine doktor karar verir; kendi başına bir şey olmaz deyip geçme. (kısaltıldı)"
         }
       ]
+    },
+    {
+      "ad": "s5-kis-uyku",
+      "baslik": "Bazı Yarasalar Kışı Uyuyarak Geçirir! 🦇 #shorts",
+      "aciklama": "Bazı böcekçil yarasalar kış gelince mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyor; kışın onları rahatsız etmemek çok önemli. Yarasalara asla çıplak elle dokunma; ısırık ya da tırmalamada yarayı sabun ve suyla yıka, sağlık kuruluşuna git. Tam hikâye bağlantıda: \"Yarasa Saça Yapışır mı?\"\n\n#shorts #yarasa #kışuykusu #kuduz #doğa",
+      "etiketler": [
+        "yarasa",
+        "yarasa kış uykusu",
+        "yarasa kışın nerede olur",
+        "shorts",
+        "doğa"
+      ],
+      "ust_yazi": [
+        "BAZI YARASALAR",
+        "KIŞ UYKUSUNDA"
+      ],
+      "cumleler": [
+        {
+          "yazi": "Bazı yarasalar kışı uyuyarak geçiriyor: kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyorlar.",
+          "gorsel": "kis_uykusu",
+          "kaynak_cumle": "Bazı böcekçil yarasalar, kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyor.",
+          "x": 0.72,
+          "aw": 0.55,
+          "ay": 0.42,
+          "w": 0.6,
+          "y": 0.42
+        },
+        {
+          "yazi": "Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar; kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
+          "gorsel": "kis_uykusu",
+          "kaynak_cumle": "Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar. + Bu yüzden kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
+          "x": 0.4,
+          "x2": 0.3,
+          "aw": 0.6,
+          "ay": 0.42,
+          "w": 0.6,
+          "y": 0.42
+        },
+        {
+          "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.",
+          "gorsel": "portre",
+          "kaynak_cumle": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.",
+          "x": 0.58,
+          "aw": 0.65,
+          "ay": 0.7,
+          "w": 0.65,
+          "y": 0.7
+        },
+        {
+          "yazi": "Bu yüzden bir yarasaya asla çıplak elle dokunma.",
+          "gorsel": "yerde",
+          "kaynak_cumle": "Bu yüzden bir yarasaya asla çıplak elle dokunma.",
+          "x": 0.54,
+          "aw": 0.8,
+          "ay": 0.6,
+          "w": 0.7,
+          "y": 0.6
+        },
+        {
+          "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
+          "gorsel": "el_yikama",
+          "kaynak_cumle": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka.",
+          "x": 0.5,
+          "w": 0.85,
+          "y": 0.5
+        },
+        {
+          "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+          "gorsel": "portre",
+          "kaynak_cumle": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+          "x": 0.58,
+          "aw": 0.65,
+          "ay": 0.7,
+          "w": 0.65,
+          "y": 0.7
+        },
+        {
+          "yazi": "Tam hikâye bağlantıda.",
+          "gorsel": "kapanis",
+          "kaynak_cumle": "(kapanış cümlesi, yeni bilgi yok)",
+          "x": 0.5,
+          "w": 0.85,
+          "y": 0.5
+        }
+      ]
     }
   ]
 }
