@@ -1,0 +1,72 @@
+{
+ "000": {
+  "yazi": "Taşın altından çıkan bu hayvan yılan değil.",
+  "duyulan": "Taşın altından çıkan bu hayvan yılan değil.",
+  "hata": 0,
+  "sure": 2.76,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Ev kertenkelesinin zehri yok.",
+  "duyulan": "Ev kerten kilisinin zehri yok.",
+  "hata": 2,
+  "sure": 2.36,
+  "uygun": false
+ },
+ "002": {
+  "yazi": "Kirpi, sütteki şekeri sindiremiyor.",
+  "duyulan": "Kirpi, sütte ki şekeri sindiremiyor.",
+  "hata": 0,
+  "sure": 2.24,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yarasa saça yapışmaz.",
+  "duyulan": "Yarasa saça yapışmaz.",
+  "hata": 0,
+  "sure": 1.48,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Baykuş uğursuz değil, köyün gece bekçisi.",
+  "duyulan": "Baykuş, uğursuz değil, köyün gece bekçisi.",
+  "hata": 0,
+  "sure": 3.54,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bilim insanlarının denediği kargalar insanı tanıyordu.",
+  "duyulan": "Bilim insanlarının denediği kargalar insanı tanıyordu.",
+  "hata": 0,
+  "sure": 3.22,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "İngiltere'de halkayla işaretlenen bir kırlangıç, Güney Afrika'da bulundu.",
+  "duyulan": "İngiltere'de halkayla işaretlenen bir kırlangıç, Güney Afrika'da bulundu.",
+  "hata": 0,
+  "sure": 4.1,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Kurbağaya dokunmak elinde siğil çıkarmaz.",
+  "duyulan": "Kurbağaya dokunmak elinde sihil çıkarmaz.",
+  "hata": 0,
+  "sure": 2.62,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Yanlış Tanınan Komşular: evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.",
+  "duyulan": "Yanlış tanınan komşular, evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.",
+  "hata": 0,
+  "sure": 6.12,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Her salı ve cumartesi akşamı yeni bir komşu.",
+  "duyulan": "Her Salı ve Cumartesi akşamı yeni bir komşu.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ }
+}
