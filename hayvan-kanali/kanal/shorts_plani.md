@@ -67,3 +67,4 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Çar 2 Ara 20:00 | Bazı Yarasalar Kışı Uyuyarak Geçirir! (mevsimlik) | yarasa |
 
 - Kanal fragmanı (36 sn, teslim/00-fragman): herkese açık ya da liste dışı yüklenir; Studio → Özelleştirme → Düzen → "Abone olmayanlar için kanal fragmanı".
+- 24 Kasım kart planı: karga 3:44 ("Peki karga uğursuz mu?") → baykuş kartı, 28 Kas baykuş yayına girince; kırlangıç 1:26 ("eski yuvalar…") → karga kartı, 1 Ara karga yayına girince. Kart yalnızca yayındaki videoyu gösterebildiği için beklenir; baykuş ve karga yayın sonrası hatırlatmalarına eklendi.
