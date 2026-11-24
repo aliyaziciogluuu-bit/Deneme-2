@@ -1,0 +1,7 @@
+000 fark=0 | Sağır yılan bir yılan değil, bacaksız bir kertenkele; tehlikede kuyruğunu koparıp kaçabiliyor. || Sağır yılan bir yılan değil, bacaksız bir kertenkele. Tehlikede kuyruğunu koparıp kaçabiliyor.
+001 fark=0 | Sağır yılan aslında bacaksız bir kertenkele. || Sağır yılan aslında bacaksız bir kertenkele.
+002 fark=0 | Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder. || Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.
+003 fark=0 | Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar. || Yırtıcı kıvranan kuyrukla uğraşırken sağır yılan sessizce kaçar.
+004 fark=0 | Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır. || Kuyruk bir miktar yenilenir ama genellikle kısa ve küt bir uç olarak kalır.
+005 fark=0 | Onu asla kuyruğundan tutma. Türkiye'de zehirli engerekler de yaşıyor. || Onu asla kuyruğundan tutma. Türkiye'de zehirli engerekler de yaşıyor.
+006 fark=0 | Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma; mesafeni koru. Tam videosu kanalımızda. || Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma, mesafeni koru. Tam videosu kanalımızda.

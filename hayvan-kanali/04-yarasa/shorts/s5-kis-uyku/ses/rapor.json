@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Bazı yarasalar kışı uyuyarak geçiriyor: kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyorlar.",
+  "duyulan": "Bazı yarasalar kışı uyuyarak geçiriyor. Kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyorlar.",
+  "hata": 0,
+  "sure": 8.66,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar; kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
+  "duyulan": "Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar. Kışın mağaralarda yarasaları rahatsız etmemek çok önemli.",
+  "hata": 0,
+  "sure": 8.08,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.",
+  "duyulan": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.",
+  "hata": 0,
+  "sure": 4.54,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu yüzden bir yarasaya asla çıplak elle dokunma.",
+  "duyulan": "Bu yüzden bir yarasaya asla çıplak elle dokunma.",
+  "hata": 0,
+  "sure": 2.66,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka; yıkamayı en az on beş dakika sürdür.",
+  "duyulan": "Isırık ya da tırmalama küçük olsa bile yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az 15 dakika sürdür.",
+  "hata": 0,
+  "sure": 6.92,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+  "duyulan": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasa ile temas ettiğini söyle.",
+  "hata": 0,
+  "sure": 4.1,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam hikâye bağlantıda.",
+  "duyulan": "Tam hikaye bağlantıda.",
+  "hata": 0,
+  "sure": 1.22,
+  "uygun": true
+ }
+}

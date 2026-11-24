@@ -52,3 +52,11 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 - 22 Kasım kanal sahibi kararı: uzun video haftada 2 (salı, cumartesi 18:00). Her uzun videodan 3 Shorts (uzun videonun en güçlü 20–40 saniyesi; ilk cümle iddia). Haftada 6 Shorts uzun videolardan, 7. gün en iyi tutan Shorts formatının yeni örneği ya da boş.
 
 - 23 Kasım stüdyo asistanı (Görev 7): tanıtım duraklatıldı (₺966,44, 0 abone); 5 oynatma listesi kuruldu; 6 videonun bitiş ekranına liste öğesi; sağır yılan başlık testi başladı, yarasa başlığı '(Karanlıkta Nasıl Görüyor?)'; geko başlık testi açılamadı (küçük resim testi sürüyor); topluluk gönderileri 25 Kas, 29 Kas, 2 Ara 20:00 planlandı. **Karga ve kırlangıç kanalda yok → yüklenecek.** Kirpi s3, yarasa s3, baykuş s3 yüklenecek.
+
+## İkinci Shorts (20:00) – "X yapıyorsa Y değildir" alt serisi (24 Kasım, bilgi kontrol ONAY)
+| Tarih | Shorts | İlgili video |
+|---|---|---|
+| Çar 25 Kas 20:00 | Sağır Yılan Aslında Kuyruğunu Koparan Bir Kertenkele! | sağır yılan |
+| Per 26 Kas 20:00 | Göz Kırpamıyorsa Sağır Yılan Değildir! | geko |
+| Cum 27 Kas 20:00 | Kanla Besleniyorsa Türkiye'deki Yarasa Değildir! | yarasa (26 Kas yayında) |
+| Cmt 28 Kas 20:00 | Kirpinin Dikeni Zehirli Değil! | kirpi (24 Kas yayında) |

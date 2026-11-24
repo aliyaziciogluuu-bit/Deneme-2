@@ -1,0 +1,7 @@
+000 fark=0 | Türkiye'de kanla beslenen yarasa yok. || Türkiye'de kanla beslenen yarasa yok.
+001 fark=0 | Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir; yalnızca bir tür meyve yer. || Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir, yalnızca bir tür meyve yer.
+002 fark=0 | Yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak. || Yarasalarla ilgili bilmen gereken önemli bir gerçek de var. Onlara asla çıplak elle dokunmamak.
+003 fark=0 | Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın. || Yarasalar dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. Çoğu yarasa bunları taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.
+004 fark=0 | Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az on beş dakika sürdür. || Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az 15 dakika sürdür.
+005 fark=0 | Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle. || Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.
+006 fark=0 | Kuduz aşısı gerekip gerekmediğine doktor karar verir. Tam videosu kanalımızda. || Kuduz aşısı gerekip gerekmediğine doktor karar verir. Tam videosu kanalımızda.

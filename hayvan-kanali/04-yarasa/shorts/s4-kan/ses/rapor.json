@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Türkiye'de kanla beslenen yarasa yok.",
+  "duyulan": "Türkiye'de kanla beslenen yarasa yok.",
+  "hata": 0,
+  "sure": 2.18,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir; yalnızca bir tür meyve yer.",
+  "duyulan": "Türkiye'deki yarasaların neredeyse hepsi böcekle beslenir, yalnızca bir tür meyve yer.",
+  "hata": 0,
+  "sure": 4.44,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Yarasalarla ilgili bilmen gereken önemli bir gerçek de var: onlara asla çıplak elle dokunmamak.",
+  "duyulan": "Yarasalarla ilgili bilmen gereken önemli bir gerçek de var. Onlara asla çıplak elle dokunmamak.",
+  "hata": 0,
+  "sure": 6.04,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. Çoğu yarasa bunları taşımaz, ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "duyulan": "Yarasalar dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. Çoğu yarasa bunları taşımaz ama hangisinin taşıdığını bakarak anlayamazsın.",
+  "hata": 0,
+  "sure": 8.54,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az on beş dakika sürdür.",
+  "duyulan": "Isırık ya da tırmalamak küçük olsa bile, yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az 15 dakika sürdür.",
+  "hata": 1,
+  "sure": 6.76,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+  "duyulan": "Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.",
+  "hata": 0,
+  "sure": 4.26,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Kuduz aşısı gerekip gerekmediğine doktor karar verir. Tam videosu kanalımızda.",
+  "duyulan": "kuduz aşısı gerekip gerekmediğine doktor karar verir. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 4.42,
+  "uygun": true
+ }
+}

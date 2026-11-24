@@ -1,0 +1,7 @@
+000 fark=0 | Ev kertenkelesinin göz kapağı yok; gözünü hiç kırpamıyor. || Ev kerten kelesinin göz kapağı yok. Gözünü hiç kırpamıyor.
+001 fark=0 | Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı. || Gözleri tıpkı yılanlarda olduğu gibi şeffaf bir pul lakaplı.
+002 fark=0 | Sağır yılan göz kırpabiliyor; bu kertenkele kırpamıyor. || Sağır yılan göz kırpabiliyor, bu kertenkele kırpamıyor.
+003 fark=0 | Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor. || Çoğu geko gibi gözünü temizlemenin başka bir yolunu bulmuş, dilini çıkarıp gözünü yalıyor.
+004 fark=0 | Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun. || Gözleri iri, göz bebekleri dikey, loş ışıkta görmeye çok uygun.
+005 fark=0 | Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor. || Ev kerten kelesi zehirli değil, temizliğe dikkat edersen ondan korkman gerekmiyor.
+006 fark=0 | Gekolar dahil pek çok sürüngen Salmonella taşıyabilir; dokunduysan ellerini yıka, küçük çocuklar, yaşlılar ve bağışıklığı zayıf olanlar hiç dokunmasın. Tam videosu kanalımızda. || Gekolar dahil pek çok sürüngen salmonella taşıyabilir. Dokunduysan ellerini yıka, küçük çocuklar, yaşlılar ve bağışıklığı zayıf olanlar hiç dokunmasın. Tam videosu kanalımızda.

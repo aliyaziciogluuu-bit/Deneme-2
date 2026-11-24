@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Soğuk bölgelerde Avrupa kirpisi kışı uyuyarak geçiriyor: sonbahar sonunda yaprak ve ot yığınlarından kendine bir yuva yapıp kış uykusuna yatıyor.",
+  "duyulan": "Soğuk bölgelerde Avrupa kirpisi, kışı uyuyarak geçiriyor. Sonbahar sonunda yaprak ve ot yığınlarından kendine bir yuva yapıp kış uykusuna yatıyor.",
+  "hata": 0,
+  "sure": 8.94,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor.",
+  "duyulan": "Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor.",
+  "hata": 0,
+  "sure": 4.98,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.",
+  "duyulan": "vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.",
+  "hata": 0,
+  "sure": 3.46,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak.",
+  "duyulan": "Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce altında bir kirpü olup olmadığına bak.",
+  "hata": 1,
+  "sure": 6.06,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş.",
+  "duyulan": "Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş.",
+  "hata": 0,
+  "sure": 4.38,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma.",
+  "duyulan": "Kirpi bir yaban hayvanı. Onu yakalayıp evde beslemeye çalışma.",
+  "hata": 0,
+  "sure": 3.46,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam hikâye bağlantıda.",
+  "duyulan": "Tam hikaye, bağlantıda.",
+  "hata": 0,
+  "sure": 1.46,
+  "uygun": true
+ }
+}

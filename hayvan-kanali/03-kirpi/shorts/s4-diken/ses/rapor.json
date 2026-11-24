@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Kirpi dikenleri zehirli değil; ucu kancalı da değil.",
+  "duyulan": "Kirpi dikenleri zehirli değil, ucuk ancalı da değil.",
+  "hata": 0,
+  "sure": 3.02,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış.",
+  "duyulan": "Bu dikenler aslında sertleşmiş kıllar, saçımız ve tırnaklarımız gibi keratinden yapılmış.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış.",
+  "duyulan": "Avrupa kirpisinde vücutta 5 bin ile 7 bin arasında diken sayılmış.",
+  "hata": 0,
+  "sure": 4.3,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.",
+  "duyulan": "Tehlike anında dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.",
+  "hata": 0,
+  "sure": 8.0,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Ama bu savunma, bir arabaya karşı işe yaramıyor.",
+  "duyulan": "Ama bu savunma, bir arabaya karşı işe yaramıyor.",
+  "hata": 0,
+  "sure": 2.8,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar.",
+  "duyulan": "Arabalar kirpiler için ciddi bir tehlike, geceleri yolu geçerken araçların altında kalabiliyorlar.",
+  "hata": 0,
+  "sure": 5.76,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Tam videosu kanalımızda.",
+  "duyulan": "Kirpi bir yaban hayvanı, onu yakalayıp evde beslemeye çalışma, tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 5.36,
+  "uygun": true
+ }
+}

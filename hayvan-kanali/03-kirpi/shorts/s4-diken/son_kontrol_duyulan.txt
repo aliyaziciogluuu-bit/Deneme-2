@@ -1,0 +1,7 @@
+000 fark=0 | Kirpi dikenleri zehirli değil; ucu kancalı da değil. || Kirpi dikenleri zehirli değil, ucu kancalı da değil.
+001 fark=0 | Bu dikenler aslında sertleşmiş kıllar; saçımız ve tırnaklarımız gibi keratinden yapılmış. || Bu dikenler aslında sertleşmiş kıllar, saçımız ve tırnaklarımız gibi keratinden yapılmış.
+002 fark=0 | Avrupa kirpisinde vücutta beş bin ile yedi bin arasında diken sayılmış. || Avrupa kirpisinde vücutta 5.000 ile 7.000 arasında diken sayılmış.
+003 fark=0 | Tehlike anında, dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor. || Tehlike anında dikenli derisinin kenarındaki halka biçimli güçlü bir kas sayesinde vücudunu sıkıca kapatıp dikenli bir topa dönüşüyor.
+004 fark=0 | Ama bu savunma, bir arabaya karşı işe yaramıyor. || Ama bu savunma, bir arabaya karşı işe yaramıyor.
+005 fark=0 | Arabalar kirpiler için ciddi bir tehlike; geceleri yolu geçerken araçların altında kalabiliyorlar. || Arabalar kirpiler için ciddi bir tehlike. Geceleri yolu geçerken araçların altında kalabiliyorlar.
+006 fark=0 | Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. Tam videosu kanalımızda. || Kirpi bir yaban hayvanı, onu yakalayıp evde beslemeye çalışma. Tam videosu kanalımızda.
