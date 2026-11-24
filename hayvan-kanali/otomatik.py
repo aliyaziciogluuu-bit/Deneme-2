@@ -235,7 +235,7 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
         ilk = (s.get("cumleler") or [{}])[0].get("yazi", "").strip()
         if ilk.endswith("?"):  # büyüme kuralı 5: Shorts ilk cümlesi iddia olur (soru %18, iddia %51 izlemeye devam)
             (d.uyari if yayinda and s.get("ad", "") < "s4" else d.hata).append(f"Shorts {s.get('ad')}: ilk cümle soru ('{ilk[:50]}'); şaşırtıcı bir iddiayla aç (buyume_kurallari.md 5)")
-    if not yayinda and cl:
+    if not yayinda and cl and not klasor.name.startswith("00-"):  # 00-fragman abone çağrısıyla biter
         son = " ".join(c.get("yazi", "") for c in cl[-3:]).lower()
         if "abone ol" in son:  # büyüme kuralı 1: kapanış sıradaki videoyu bir soruyla açar
             d.uyari.append("uzun: kapanışta 'abone ol' var; sıradaki videoyu bir soruyla duyur (buyume_kurallari.md 1)")
