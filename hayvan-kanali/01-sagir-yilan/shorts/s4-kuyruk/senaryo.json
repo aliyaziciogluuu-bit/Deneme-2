@@ -1,0 +1,52 @@
+{
+  "dikey": true,
+  "baslik": "Kuyruğunu Koparıyorsa Yılan Değildir! 🦎 #shorts",
+  "aciklama": "Sağır yılan aslında bacaksız bir kertenkele: tehlikede kuyruğunu koparabiliyor. Unutma: Türkiye'de zehirli engerekler de yaşıyor; emin olmadığın hiçbir hayvana dokunma. Tam video kanalımızda: \"Bahçende Sağır Yılan Görürsen Önce Bunu Bil!\"\n\n#shorts #sağıryılan #kertenkele #doğa #bahçe",
+  "etiketler": [
+    "sağır yılan",
+    "kertenkele",
+    "kuyruğunu koparan",
+    "yılan mı",
+    "shorts"
+  ],
+  "ust_yazi": [
+    "KUYRUK KOPUYOR",
+    "YILAN DEĞİL!"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/bahce_kuslar.ogg",
+    "seviye": 0.12,
+    "kaynak": "“Birdsong mild sunny day”, stephan, Wikimedia Commons (kamu malı)"
+  },
+  "ana_video": "Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)",
+  "sahneler": [
+    {
+      "ad": "Kuyruğunu Koparıyorsa Yılan Değildir! 🦎 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Kuyruğunu koparabiliyorsa o hayvan bir yılan değil."
+        },
+        {
+          "yazi": "Sağır yılan aslında bacaksız bir kertenkele."
+        },
+        {
+          "yazi": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder."
+        },
+        {
+          "yazi": "Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar."
+        },
+        {
+          "yazi": "Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır."
+        },
+        {
+          "yazi": "Onu asla kuyruğundan tutma. Türkiye'de zehirli engerekler de yaşıyor."
+        },
+        {
+          "yazi": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma; mesafeni koru. Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}
