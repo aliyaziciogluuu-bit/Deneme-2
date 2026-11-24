@@ -50,10 +50,11 @@
  },
  "007": {
   "yazi": "Kurbağaya dokunmak elinde siğil çıkarmaz.",
-  "duyulan": "Kurbağa'ya dokunmak elinde sihir çıkarmaz.",
-  "hata": 1,
-  "sure": 2.62,
-  "uygun": false
+  "duyulan": "Kurbağaya dokunmak elinde sil çıkarmaz.",
+  "hata": 0,
+  "sure": 2.76,
+  "uygun": true,
+  "tek_basina": true
  },
  "008": {
   "yazi": "Yanlış Tanınan Komşular: evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.",

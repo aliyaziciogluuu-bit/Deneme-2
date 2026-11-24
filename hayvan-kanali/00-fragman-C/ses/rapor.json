@@ -8,10 +8,11 @@
  },
  "001": {
   "yazi": "Ev kertenkelesinin zehri yok.",
-  "duyulan": "Ev kerten kilisinin zehri yok.",
-  "hata": 2,
-  "sure": 2.36,
-  "uygun": false
+  "duyulan": "Ev kerten kelesinin zehri yok?",
+  "hata": 0,
+  "sure": 2.1,
+  "uygun": true,
+  "tek_basina": true
  },
  "002": {
   "yazi": "Kirpi, sütteki şekeri sindiremiyor.",
@@ -67,6 +68,13 @@
   "duyulan": "Her Salı ve Cumartesi akşamı yeni bir komşu.",
   "hata": 0,
   "sure": 2.68,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Abone ol. Komşunu tanı.",
+  "duyulan": "Abone ol, komşunu tanı.",
+  "hata": 0,
+  "sure": 2.14,
   "uygun": true
  }
 }

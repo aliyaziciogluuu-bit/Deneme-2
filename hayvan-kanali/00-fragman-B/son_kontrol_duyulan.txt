@@ -1,0 +1,11 @@
+000 fark=0 | Taşın altından çıkan bu hayvan yılan değil. || Taşın altından çıkan bu hayvan yılan değil.
+001 fark=0 | Ev kertenkelesinin zehri yok. || Ev kertenkelesinin zehri yok.
+002 fark=0 | Kirpi, sütteki şekeri sindiremiyor. || Kirpi, sütte ki şekeri sindiremiyor.
+003 fark=0 | Yarasa saça yapışmaz. || Yarasa saça yapışmaz.
+004 fark=0 | Baykuş uğursuz değil, köyün gece bekçisi. || Baykuş uğursuz değil, köyün gece bekçisi.
+005 fark=0 | Bilim insanlarının denediği kargalar insanı tanıyordu. || Bilim insanlarının denediği kargalar insanı tanıyordu.
+006 fark=0 | İngiltere'de halkayla işaretlenen bir kırlangıç, Güney Afrika'da bulundu. || İngiltere'de halka ile işaretlenen bir kırlangıç Güney Afrika'da bulundu.
+007 fark=0 | Kurbağaya dokunmak elinde siğil çıkarmaz. || Kurbağa'ya dokunmak elinde sil çıkarmaz.
+008 fark=0 | Yanlış Tanınan Komşular: evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz. || Yanlış tanınan komşular, evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.
+009 fark=0 | Her salı ve cumartesi akşamı yeni bir komşu. || Her Salı ve Cumartesi akşamı yeni bir komşu.
+010 fark=0 | Abone ol. Komşunu tanı. || Abone ol, komşunu tanı!
