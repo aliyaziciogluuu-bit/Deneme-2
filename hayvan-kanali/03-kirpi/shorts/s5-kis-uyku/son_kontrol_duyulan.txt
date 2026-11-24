@@ -1,0 +1,7 @@
+000 fark=0 | Soğuk bölgelerde Avrupa kirpisi kışı uyuyarak geçiriyor: sonbahar sonunda yaprak ve ot yığınlarından kendine bir yuva yapıp kış uykusuna yatıyor. || Soğuk bölgelerde Avrupa kirpisi, kışı uyuyarak geçiriyor. Sonbahar sonunda yaprak ve ot yığınlarından kendine bir yuva yapıp kış uykusuna yatıyor.
+001 fark=0 | Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor. || Avrupa'daki akrabalarında kış uykusu sırasında vücut işlevlerinin tümü yavaşlıyor.
+002 fark=0 | Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor. || Vücut sıcaklığı da çevre sıcaklığına yaklaşana kadar düşebiliyor.
+003 fark=1 | Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce, altında bir kirpi olup olmadığına bak. || Bu yüzden sonbaharda kuru yaprakları yakmadan ya da dağıtmadan önce altında bir kirpü olup olmadığına bak.
+004 fark=0 | Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş. || Bir kirpi bulursan onu rahatsız etme, yığına daha fazla dokunma ve uzaklaş.
+005 fark=1 | Kirpi bir yaban hayvanı; onu yakalayıp evde beslemeye çalışma. || Kirpi bir yaban hayvanı, onu yakalayıp evde beslemeye çalışmak.
+006 fark=0 | Tam hikâye bağlantıda. || Tam hikaye bağlantıda.

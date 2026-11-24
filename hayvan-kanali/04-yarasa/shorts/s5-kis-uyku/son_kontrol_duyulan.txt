@@ -1,0 +1,7 @@
+000 fark=0 | Bazı yarasalar kışı uyuyarak geçiriyor: kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyorlar. || Bazı yarasalar kışı uyuyarak geçiriyor. Kış gelince böcekler azaldığında mağaralara ve benzeri korunaklı yerlere çekilip kış uykusuna yatıyorlar.
+001 fark=0 | Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar; kışın mağaralarda yarasaları rahatsız etmemek çok önemli. || Uyandırılırlarsa, kışı geçirmek için biriktirdikleri yağ depolarını harcıyorlar. Kışın mağaralarda yarasaları rahatsız etmemek çok önemli.
+002 fark=0 | Yarasalar, dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor. || Yarasalar dünyanın birçok yerinde kuduz ve kuduza benzeyen virüsler taşıyabiliyor.
+003 fark=0 | Bu yüzden bir yarasaya asla çıplak elle dokunma. || Bu yüzden bir yarasaya asla çıplak elle dokunma.
+004 fark=0 | Isırık ya da tırmalama küçük olsa bile, yarayı hemen bol sabun ve suyla yıka; yıkamayı en az on beş dakika sürdür. || Isırık ya da tırmalama küçük olsa bile yarayı hemen bol sabun ve suyla yıka. Yıkamayı en az 15 dakika sürdür.
+005 fark=0 | Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle. || Sonra vakit kaybetmeden bir sağlık kuruluşuna git ve yarasayla temas ettiğini söyle.
+006 fark=0 | Tam hikâye bağlantıda. || Tam hikaye bağlantıda.
