@@ -1,0 +1,98 @@
+{
+  "baslik": "Avludaki Komşular – Kanal Fragmanı (C)",
+  "not": "Kanal fragmanı (45-60 sn). Her iddia yayındaki ya da teslim edilmiş videonun senaryosundan; 'kaynak' alanı cümle numarasını gösterir. 'ise' kalıbı ve rakam yok. Kurbağa görseli gerçek fotoğraf (atıf gercek_kaynaklar.json).",
+  "aciklama": "Avludaki Komşular: evinin çevresindeki hayvanlar hakkındaki yanlışları her hafta düzeltiyoruz. Her salı ve cumartesi akşamı yeni bir komşu. Abone ol, komşunu tanı.",
+  "kaynaklar": [
+    "01-sagir-yilan",
+    "02-ev-kertenkelesi",
+    "03-kirpi",
+    "04-yarasa",
+    "05-baykus",
+    "06-karga",
+    "07-kirlangic",
+    "08-kara-kurbagasi"
+  ],
+  "etiketler": [
+    "Avludaki Komşular",
+    "Yanlış Tanınan Komşular",
+    "kanal fragmanı",
+    "yaban hayatı",
+    "doğa"
+  ],
+  "sahneler": [
+    {
+      "ad": "Fragman",
+      "duygu": "Speak with genuine curiosity and playful surprise, as if revealing a fun secret to a friend; give each sentence its own energy and stress the surprising word",
+      "cumleler": [
+        {
+          "yazi": "Taşın altından çıkan bu hayvan yılan değil.",
+          "kaynak": "01-sagir-yilan cümle 4"
+        },
+        {
+          "yazi": "Ev kertenkelesinin zehri yok.",
+          "kaynak": "02-ev-kertenkelesi cümle 6"
+        },
+        {
+          "yazi": "Kirpi, sütteki şekeri sindiremiyor.",
+          "kaynak": "03-kirpi cümle 4"
+        },
+        {
+          "yazi": "Yarasa saça yapışmaz.",
+          "kaynak": "04-yarasa cümle 3"
+        },
+        {
+          "yazi": "Baykuş uğursuz değil, köyün gece bekçisi.",
+          "kaynak": "05-baykus cümle 5 ve 7"
+        },
+        {
+          "yazi": "Bilim insanlarının denediği kargalar insanı tanıyordu.",
+          "kaynak": "06-karga cümle 3"
+        },
+        {
+          "yazi": "İngiltere'de halkayla işaretlenen bir kırlangıç, Güney Afrika'da bulundu.",
+          "kaynak": "07-kirlangic cümle 6"
+        },
+        {
+          "yazi": "Kurbağaya dokunmak elinde siğil çıkarmaz.",
+          "kaynak": "08-kara-kurbagasi cümle 3"
+        }
+      ]
+    },
+    {
+      "ad": "",
+      "duygu": "Warm, enthusiastic and inviting, a little faster, like proudly introducing your favourite show",
+      "cumleler": [
+        {
+          "yazi": "Yanlış Tanınan Komşular: evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.",
+          "kaynak": "vaat (buyume_kurallari.md 13)"
+        },
+        {
+          "yazi": "Her salı ve cumartesi akşamı yeni bir komşu.",
+          "kaynak": "vaat (buyume_kurallari.md 13)"
+        }
+      ]
+    },
+    {
+      "ad": "",
+      "duygu": "Friendly, smiling and warm, slow down slightly for the last words",
+      "cumleler": [
+        {
+          "yazi": "Abone ol. Komşunu tanı.",
+          "kaynak": "vaat (buyume_kurallari.md 13)"
+        }
+      ]
+    }
+  ],
+  "kapak": {
+    "gorsel": "kapak",
+    "buyuk": [
+      "YANLIŞ TANINAN",
+      "KOMŞULAR"
+    ],
+    "kucuk": "Komşunu tanı.",
+    "konum": "sol",
+    "genislik": 500
+  },
+  "ses_adi": "Puck",
+  "uslup": "Warm, expressive Turkish documentary storyteller with a native Istanbul accent; natural human rhythm, varied pace and pitch, never monotone"
+}

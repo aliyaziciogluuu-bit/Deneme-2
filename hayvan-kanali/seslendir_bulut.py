@@ -115,8 +115,8 @@ def curl(*a, cikti=None):
     return None if cikti else json.loads(r.stdout)
 
 
-def tts(metin: str, hedef: pathlib.Path):
-    girdi = {"text": metin, "voice": SES, "style": USLUP, "output_format": "wav"}
+def tts(metin: str, hedef: pathlib.Path, ses: str = None, uslup: str = None):
+    girdi = {"text": metin, "voice": ses or SES, "style": uslup or USLUP, "output_format": "wav"}
     for bekle in (15, 30, 60, 90, 0):
         t = curl("-X", "POST", f"https://api.replicate.com/v1/models/{MODEL}/predictions", "-H", "Content-Type: application/json",
                  "-H", "Prefer: wait=60", "-d", json.dumps({"input": girdi}))
@@ -237,6 +237,11 @@ def main():
     rapor_yolu = hedef / "rapor.json"
     rapor = json.loads(rapor_yolu.read_text(encoding="utf-8")) if rapor_yolu.exists() else {}
     tek = [int(x) for x in sys.argv[sys.argv.index("--cumle") + 1:]] if "--cumle" in sys.argv else []
+    ses_adi = senaryo.get("ses_adi", SES)  # 24 Kasım: video bazında ses seçimi
+    taban = senaryo.get("uslup", USLUP)
+
+    def uslup_of(sahne):  # bölüm başına duygu talimatı (senaryo "sahneler[i].duygu")
+        return taban + (". " + sahne["duygu"] if sahne.get("duygu") else "")
     zorla = set() if tek else {int(x) for x in sys.argv[2:]}
 
     from faster_whisper import WhisperModel
@@ -253,15 +258,15 @@ def main():
         return np.interp(np.arange(0, len(ses), SR / 16000), np.arange(len(ses)), ses).astype(np.float32)
 
     if tek:
-        hepsi = [c for s in senaryo["sahneler"] for c in s["cumleler"]]
+        hepsi = [(c, s) for s in senaryo["sahneler"] for c in s["cumleler"]]
         for i in tek:
-            c, ad = hepsi[i], f"{i:03d}"
+            (c, s_c), ad = hepsi[i], f"{i:03d}"
             ok, yz = c.get("ses", c["yazi"]), c["yazi"]
             sinir = 0  # tek cümle yeniden üretiliyorsa sıfır hata aranır
             en_iyi = None
             for deneme in range(1, DENEME + 2):
                 kayit = hedef / f"cumle_{ad}.wav"
-                tts(ok, kayit)
+                tts(ok, kayit, ses_adi, uslup_of(s_c))
                 p = kirp(oku(kayit))
                 kayit.unlink()
                 duy = dinle(on16(p))
@@ -296,7 +301,7 @@ def main():
         en_iyi = None
         for deneme in range(1, DENEME + 1):
             kayit = hedef / f"sahne_{s_i:02d}.wav"
-            tts(" ".join(okunan), kayit)
+            tts(" ".join(okunan), kayit, ses_adi, uslup_of(sahne))
             ses = oku(kayit)
             kelimeler = [(a * 1.0, b * 1.0, k) for a, b, k in dinle(on16(ses), kelime=True)]
             parcalar = bol(ses, kelimeler, okunan)
