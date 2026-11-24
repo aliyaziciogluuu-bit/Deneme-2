@@ -69,5 +69,15 @@
         }
       ]
     }
-  ]
+  ],
+  "kapak": {
+    "gorsel": "kapak",
+    "buyuk": [
+      "YANLIŞ TANINAN",
+      "KOMŞULAR"
+    ],
+    "kucuk": "Komşunu tanı.",
+    "konum": "sol",
+    "genislik": 500
+  }
 }

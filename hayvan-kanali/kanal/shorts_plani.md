@@ -60,3 +60,7 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 | Per 26 Kas 20:00 | Göz Kırpamıyorsa Sağır Yılan Değildir! | geko |
 | Cum 27 Kas 20:00 | Kanla Besleniyorsa Türkiye'deki Yarasa Değildir! | yarasa (26 Kas yayında) |
 | Cmt 28 Kas 20:00 | Kirpinin Dikeni Zehirli Değil! | kirpi (24 Kas yayında) |
+| Pzt 30 Kas 20:00 | Soğuk Bölgelerde Kirpi Kışı Uyuyarak Geçirir! (mevsimlik) | kirpi |
+| Çar 2 Ara 20:00 | Bazı Yarasalar Kışı Uyuyarak Geçirir! (mevsimlik) | yarasa |
+
+- Kanal fragmanı (36 sn, teslim/00-fragman): herkese açık ya da liste dışı yüklenir; Studio → Özelleştirme → Düzen → "Abone olmayanlar için kanal fragmanı".

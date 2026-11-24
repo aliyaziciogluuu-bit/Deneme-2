@@ -134,7 +134,7 @@ def main():
     test("Etiketler (toplam ≤ 500)", sum(len(e) for e in etiketler) + 2 * (len(etiketler) - 1) <= 500, f"{len(etiketler)} etiket")
     bolumler = [] if dikey else [(int(m), int(s), ad) for m, s, ad in re.findall(r"^(\d+):(\d{2}) (.+)$", aciklama, re.M)]
     saniye = [m * 60 + s for m, s, _ in bolumler]
-    if not dikey:
+    if not dikey and (bolumler or vs > 120):  # iki dakikadan kısa fragmanda bölüm gerekmez (24 Kasım)
       test("Bölümler (YouTube kuralları)", saniye and saniye[0] == 0 and len(saniye) >= 3
          and all(b - a >= 10 for a, b in zip(saniye, saniye[1:] + [vs])), f"{len(saniye)} bölüm, en kısa "
          f"{min(b - a for a, b in zip(saniye, saniye[1:] + [vs])):.0f} sn")
