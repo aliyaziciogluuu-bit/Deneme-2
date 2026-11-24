@@ -281,7 +281,7 @@
     },
     {
       "ad": "s5-kis-uyku",
-      "baslik": "Kirpi Kışı Uyuyarak Geçirir! 🦔 #shorts",
+      "baslik": "Soğuk Bölgelerde Kirpi Kışı Uyuyarak Geçirir! 🦔 #shorts",
       "aciklama": "Soğuk bölgelerde kirpiler sonbahar sonunda yaprak ve ot yığınlarından yuva yapıp kış uykusuna yatıyor. Sonbaharda yaprak yığınını yakmadan ya da dağıtmadan önce altına bak. Kirpi bir yaban hayvanı; yakalayıp evde beslemeye çalışma. Tam hikâye bağlantıda: \"Kirpiye Sakın Süt Verme!\"\n\n#shorts #kirpi #kışuykusu #doğa #bahçe",
       "etiketler": [
         "kirpi",
@@ -291,12 +291,12 @@
         "doğa"
       ],
       "ust_yazi": [
-        "KİRPİ KIŞIN",
-        "UYUYOR!"
+        "SOĞUK YERDE KİRPİ",
+        "KIŞ UYKUSUNA YATAR"
       ],
       "cumleler": [
         {
-          "yazi": "Soğuk bölgelerde kirpiler kışı uyuyarak geçiriyor: sonbahar sonunda yaprak ve ot yığınlarından kendilerine bir yuva yapıp kış uykusuna yatıyorlar.",
+          "yazi": "Soğuk bölgelerde Avrupa kirpisi kışı uyuyarak geçiriyor: sonbahar sonunda yaprak ve ot yığınlarından kendine bir yuva yapıp kış uykusuna yatıyor.",
           "gorsel": "kis_uykusu",
           "kaynak_cumle": "Özellikle soğuk bölgelerde, sonbahar sonunda kirpiler yaprak ve ot yığınlarından kendilerine bir yuva yapıyor ve kış uykusuna yatıyor.",
           "x": 0.62,

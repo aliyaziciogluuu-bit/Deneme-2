@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Sağır yılan bir yılan değil, bacaksız bir kertenkele; tehlikede kuyruğunu koparıp kaçabiliyor.",
+  "duyulan": "Sağır yılan bir yılan değil, bacaksız bir kertenkele. Tehlikede kuyruğunu koparıp kaçabiliyor.",
+  "hata": 0,
+  "sure": 5.74,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sağır yılan aslında bacaksız bir kertenkele.",
+  "duyulan": "Sağır yılan aslında bacaksız bir kertenkele.",
+  "hata": 0,
+  "sure": 2.48,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.",
+  "duyulan": "Bir yırtıcı onu kuyruğundan yakaladığında kuyruk kopar ve bir süre kıpırdamaya devam eder.",
+  "hata": 0,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yırtıcı kıvranan kuyrukla uğraşırken, sağır yılan sessizce kaçar.",
+  "duyulan": "Yırtıcı kıvranan kuyrukla uğraşırken sağır yılan sessizce kaçar.",
+  "hata": 0,
+  "sure": 4.18,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Kuyruk bir miktar yenilenir, ama genellikle kısa ve küt bir uç olarak kalır.",
+  "duyulan": "Kuyruk bir miktar yenilenir ama genellikle kısa ve küt bir uç olarak kalır.",
+  "hata": 0,
+  "sure": 4.58,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Onu asla kuyruğundan tutma. Türkiye'de zehirli engerekler de yaşıyor.",
+  "duyulan": "onu asla kuyruğundan tutma. Türkiye'de zehirli engerekler de yaşıyor.",
+  "hata": 0,
+  "sure": 4.26,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma; mesafeni koru. Tam videosu kanalımızda.",
+  "duyulan": "Gördüğün hayvanın ne olduğundan emin değilsen ona dokunma, yaklaşma, mesafeni koru. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 6.98,
+  "uygun": true
+ }
+}
