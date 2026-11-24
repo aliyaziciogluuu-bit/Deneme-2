@@ -3,7 +3,15 @@
 ## Kanal adı: **Avludaki Komşular** (kanal sahibi seçti, 16 Kasım 2026)
 Önerilen kullanıcı adı (handle): @AvludakiKomsular — YouTube'da boşta olup olmadığına kanal açılırken bakılmalı.
 
-## Kanal açıklaması (YouTube > Kanalı özelleştir > Temel bilgiler)
+## Kanal açıklaması – YENİ (24 Kasım, abone raporu; stüdyo asistanı Görev 8 ile yapıştırır)
+Yanlış Tanınan Komşular: evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz. Komşunu tanı. 🌿
+
+Bahçende taşın altından çıkan "yılan", çatı arasındaki yarasa, gece duvarda dolaşan kertenkele, kapının önündeki kirpi... Hepsi senin komşun, ama çoğunu yanlış tanıyoruz. Efsaneleri, bilimin söylediklerini ve karşılaşınca ne yapman gerektiğini anlatıyoruz; korkutmak için değil, tanıtmak için. Her bölümün açıklamasında kaynaklar yer alır.
+
+Her salı ve cumartesi 18:00'de yeni bölüm, her gün 12:00'de kısa video.
+Abone ol: https://www.youtube.com/@AvludakiKomsular?sub_confirmation=1
+
+## Kanal açıklaması – ESKİ (YouTube > Kanalı özelleştir > Temel bilgiler)
 Bahçende taşın altından çıkan "yılan", çatı arasındaki yarasa, gece duvarda dolaşan kertenkele, kapının önündeki kirpi...
 Hepsi senin komşun, ama çoğunu yanlış tanıyoruz.
 

@@ -83,3 +83,14 @@ Kurbağa–siğil ✓, yarasa "saça yapışır mı?" ✓, karga zekâ ✓, kirp
 - Uzun video haftada 2: **salı ve cumartesi 18:00** (5 Aralık kara kurbağasına kadar planlananlar aynen kalır).
 - Shorts her gün 12:00; uzun videonun Shorts'ları yayından sonraki 1. ve 2. gün.
 - İzleme oranı %25'i sürekli geçerse haftada 3'e dönüş kanal sahibine önerilir.
+
+## 13. Abone kuralları (24 Kasım; kaynak: hayvan-kanali/reports/Büyük kanalların abone stratejileri.md, kanal sahibi onayı)
+Ana bulgu: abone getiren şey "abone ol" cümlesi değil, tekrar eden bir VAAT (adı konmuş seri, tanınır anlatıcı, sabit başlık/kapanış). Donca ve Ankaralı Belgeselci 10.000 izlenmede 100+ abone; kimliksiz Böcek-3 ≈24.
+- **Vaat cümlesi (her yerde birebir):** "Yanlış Tanınan Komşular: evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz. Komşunu tanı." Fragman, kanal açıklaması, abone çağrısı ve Shorts kapanışında aynı söz.
+- **Sözlü abone çağrısı (uzun video, tek kez):** ilk değer anının hemen ardından (ilk kanıt ya da ilk ödül verildikten sonra, ≈0:40–1:10), ilk 30 saniyede değil: "Böyle bir yanlışı her hafta düzeltiyoruz; sıradakini kaçırmamak için abone ol, salı ve cumartesi akşamı yeni komşu geliyor." Kapanışta ikinci çağrı yok; kapanış sıradaki soruyu açar ve "Komşunu tanı." ile biter. (İzleyicinin çoğu sona ulaşmıyor: ort. izleme %18.)
+- **Shorts köprüsü:** son cümle "Tam hikâye bağlantıda." ya da "Tam videosu kanalımızda." + İlgili video her Shorts'ta zorunlu; uzun videonun ilk 5–10 sn'si Shorts vaadini karşılar. Teslim notunda Shorts → uzun video eşlemesi yazılır.
+- **Alt seri "X yapıyorsa Y değildir":** en iyi Shorts ("Göz Kırpıyorsa Yılan Değildir", 4 abone) kalıbından türetilir; yalnızca bilgi kontrolünden geçmiş cümlelerle.
+- **Yöresel ad ritüeli:** her videoda yöresel ad sorulur; bir sonraki videoda bir iki yanıt yalnızca yöre adıyla okunur ("Konya'dan bir izleyici…"), kullanıcı adı okunmaz.
+- **Topluluk paketi (haftalık):** bir "Sıradaki komşuyu siz seçin" anketi + bir "Bu hayvan zehirli mi?" görsel bilmecesi (gerçek iNaturalist fotoğrafı ve atıf). Hitap: "Komşular, selam". Yalnızca "yeni video yayında" gönderisi yapılmaz.
+- **Ölçüm (haftalık rapor):** video başına 10.000 izlenmede abone (reklam trafiği hariç; Shorts'ta etkileşimli görüntüleme), abonelik kaynağı, bitiş ekranı tıklama oranı. 15–20 video sonra en çok abone getiren format 3–5 kez tekrarlanır.
+- **Bırakılanlar:** ücretli tanıtım, abone satın alma, toplu grup paylaşımı, başka kanallara "kanalıma gel" yorumu, canlı yayın, e-posta bülteni.

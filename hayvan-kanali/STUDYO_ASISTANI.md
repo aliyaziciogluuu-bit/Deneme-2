@@ -112,3 +112,16 @@ ekranlarında çalış, görünürlük ekranını açma.
 5. **Topluluk gönderileri:** `topluluk_gonderileri.md` dosyasındaki gönderileri **dosyadaki tarihlerde** Topluluk sekmesinden paylaş
    (Studio → Oluştur → Gönderi oluştur; tarih ileriyse "Planla"). Metni birebir kopyala, anket seçeneklerini aynen yaz.
 6. Özet: madde madde ne yapıldı, ne yapılamadı, ekran görüntüsü dosya adları.
+
+## Görev 8 – Abone düzenlemesi (kanal sahibi onayı: 24 Kasım, "bunları kaydet başlayacağız")
+Bu görevdeki maddeler kanal sahibinin onayıdır; sormadan uygula. Planlı videoların görünürlük ekranını açma. Para harcayan hiçbir şey yapma.
+1. **Kontrol:** kanal kitlesi "çocuklara özel değil"; Gönderiler (Topluluk) sekmesi kanal sayfasında herkese görünüyor mu, planlı anketler (25 Kas, 29 Kas, 2 Ara) duruyor mu; "Uğursuz Sanılanlar" ve "Kuşlar ve Yuvalar" listeleri herkese açık ve kanal sayfasında görünüyor mu. Görünmeyeni düzelt.
+2. **Kanal açıklaması:** `kanal/kanal_aciklamasi.md` dosyasındaki "Kanal açıklaması – YENİ" metnini birebir yapıştır (eskisinin yerine). Abone bağlantısındaki @ adı kanalın gerçek @ adıyla aynı değilse gerçek @ adını yaz.
+3. **Şemsiye liste:** "Yanlış Tanınan Komşular" adlı, herkese açık bir oynatma listesi oluştur; kanaldaki ve planlı bütün UZUN videoları yayın sırasıyla ekle (Shorts hariç). Açıklama: vaat cümlesi.
+4. **Ana sayfa düzeni:** abone olmayanlara gösterilen video (kanal fragmanı) = sağır yılan videosu (geko'nun izlenmesi reklamla şişti; fragman hazır olunca değişecek). Geri dönen abonelere öne çıkan video = en yeni yayındaki uzun video. Bölüm sırası: 1) Yanlış Tanınan Komşular listesi, 2) Kısa videolar, 3) beş konu listesi, 4) Popüler videolar.
+5. **Shorts ilgili video (geriye dönük):** kanaldaki bütün Shorts'larda "İlgili video" dolu mu bak; boşsa ait olduğu uzun videoyu seç (yayında olanlar). "Göz Kırpıyorsa Yılan Değildir" → sağır yılan ile başla.
+6. **Kart:** her yayındaki uzun videoda videonun ortasına yakın bir yere, aynı konu listesine giden bir kart (zaten bir kart varsa ikinciyi ekleme, var olanı bırak).
+7. **Filigran:** "Tüm video" olarak kaldığını doğrula (değiştirme).
+8. **Yükleme varsayılanları → açıklama:** en başa vaat cümlesini ve abone bağlantısını ekle, mevcut imzayı koru.
+9. **Raporla:** Analytics → Gelişmiş mod → "Abonelik kaynağı" ve video bazında "Kazanılan aboneler" tablosunu oku, `analiz_abone_YYYY-AA-GG.md` olarak klasöre yaz (yalnızca oku).
+10. Özet: madde madde ne yapıldı, ne yapılamadı, ekran görüntüleri.
