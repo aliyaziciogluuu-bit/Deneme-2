@@ -1,0 +1,79 @@
+{
+ "000": {
+  "yazi": "Taşın altından çıkan bu hayvan yılan değil.",
+  "duyulan": "Taşın altından çıkan bu hayvan yılan değil.",
+  "hata": 0,
+  "sure": 2.5,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Ev kertenkelesinin zehri yok.",
+  "duyulan": "Ev Kertenkelesi'nin zehri yok.",
+  "hata": 0,
+  "sure": 1.82,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kirpi, sütteki şekeri sindiremiyor.",
+  "duyulan": "Kirpi, sütte ki şekeri sindiremiyor.",
+  "hata": 0,
+  "sure": 2.42,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yarasa saça yapışmaz.",
+  "duyulan": "yarasa saça yapışmaz.",
+  "hata": 0,
+  "sure": 1.62,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Baykuş uğursuz değil, köyün gece bekçisi.",
+  "duyulan": "Baykuş uğursuz değil, köyün gece bekçisi.",
+  "hata": 0,
+  "sure": 2.82,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bilim insanlarının denediği kargalar insanı tanıyordu.",
+  "duyulan": "Bilim insanlarının denediği kargalar insanı tanıyordu.",
+  "hata": 0,
+  "sure": 3.1,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "İngiltere'de halkayla işaretlenen bir kırlangıç, Güney Afrika'da bulundu.",
+  "duyulan": "İngiltere'de halka ile işaretlenen bir kırlangıç Güney Afrika'da bulundu.",
+  "hata": 0,
+  "sure": 4.06,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Kurbağaya dokunmak elinde siğil çıkarmaz.",
+  "duyulan": "Kurbağa'ya dokunmak elinde sihir çıkarmaz.",
+  "hata": 1,
+  "sure": 2.62,
+  "uygun": false
+ },
+ "008": {
+  "yazi": "Yanlış Tanınan Komşular: evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.",
+  "duyulan": "Yanlış tanınan komşular, evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.",
+  "hata": 0,
+  "sure": 5.9,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Her salı ve cumartesi akşamı yeni bir komşu.",
+  "duyulan": "Her Salı ve Cumartesi akşamı yeni bir komşu.",
+  "hata": 0,
+  "sure": 2.36,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Abone ol. Komşunu tanı.",
+  "duyulan": "Abone ol, komşunu tanı!",
+  "hata": 0,
+  "sure": 1.88,
+  "uygun": true
+ }
+}
