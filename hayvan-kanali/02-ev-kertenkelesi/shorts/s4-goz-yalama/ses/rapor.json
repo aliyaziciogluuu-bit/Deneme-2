@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Ev kertenkelesinin göz kapağı yok; gözünü hiç kırpamıyor.",
+  "duyulan": "Ev kerten kelesinin göz kapağı yok. Gözünü hiç kırpamıyor.",
+  "hata": 0,
+  "sure": 3.34,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Gözleri, tıpkı yılanlarda olduğu gibi, şeffaf bir pulla kaplı.",
+  "duyulan": "Gözleri tıpkı yılanlarda olduğu gibi şeffaf bir pul lakaplı.",
+  "hata": 0,
+  "sure": 3.8,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Sağır yılan göz kırpabiliyor; bu kertenkele kırpamıyor.",
+  "duyulan": "Sağır yılan göz kırpabiliyor, bu kertenkele kırpamıyor.",
+  "hata": 0,
+  "sure": 3.02,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Çoğu geko gibi, gözünü temizlemenin başka bir yolunu bulmuş: dilini çıkarıp gözünü yalıyor.",
+  "duyulan": "Çoğu geko gibi gözünü temizlemenin başka bir yolunu bulmuş. Dilini çıkarıp gözünü yalıyor.",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Gözleri iri, göz bebekleri dikey; loş ışıkta görmeye çok uygun.",
+  "duyulan": "Gözleri iri, göz bebekleri dikey, loş ışıkta görmeye çok uygun.",
+  "hata": 0,
+  "sure": 4.24,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ev kertenkelesi zehirli değil; temizliğe dikkat edersen ondan korkman gerekmiyor.",
+  "duyulan": "Ev kerten kelesi zehirli değil, temizliğe dikkat edersen ondan korkman gerekmiyor.",
+  "hata": 0,
+  "sure": 4.34,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Gekolar dahil pek çok sürüngen Salmonella taşıyabilir; dokunduysan ellerini yıka, küçük çocuklar, yaşlılar ve bağışıklığı zayıf olanlar hiç dokunmasın. Tam videosu kanalımızda.",
+  "duyulan": "Gekolar dahil pek çok sürüngen salmonella taşıyabilir. Dokunduysan ellerini yıka, küçük çocuklar, yaşlılar ve bağışıklığı zayıf olanlar hiç dokunmasın. Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 10.8,
+  "uygun": true
+ }
+}
