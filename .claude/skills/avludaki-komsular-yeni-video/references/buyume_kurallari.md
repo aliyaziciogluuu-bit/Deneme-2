@@ -100,3 +100,10 @@ Ana bulgu: abone getiren şey "abone ol" cümlesi değil, tekrar eden bir VAAT (
 - **Mevsimlik Shorts:** o haftanın mevsimine uyan soru (kış uykusu, göç, üreme dönemi) mevcut doğrulanmış videodan Shorts'a çevrilir.
 - **Yoruma Shorts ile yanıt:** izleyici sorusu gelince topluluk sorumlusu bildirir; yalnızca bilgi kontrolünden geçmiş bilgiyle 20–40 sn'lik "yoruma yanıt" Shorts'u.
 - **Konu yelpazesi:** ev/bahçe böcek ve eklembacaklıları da kanala girer ("Zehirli Sanılanlar"). Gerçekten tehlikeli türlerde (akrep, karadul, engerek) güvenlik bölümü resmi sağlık kaynağına dayanır, telefon numarası yine yazılmaz.
+
+## 15. Shorts çeşitliliği (24 Kasım, kanal sahibi sorusu: "tekrara düşmek olmuyor mu?")
+YouTube bir uzun videodan birden çok Shorts çıkarmayı teşvik eder (Studio'da "Shorts'a dönüştür" aracı, İlgili video bağlantısı). Sorun olan, Temmuz 2025 "özgün olmayan içerik" kuralındaki gibi neredeyse aynı, şablonla seri üretilmiş içeriktir. Bu yüzden:
+- Bir uzun videodan **en fazla 5 Shorts**; her birinin sorusu/bilgisi farklı, aynı bölümün yeniden kesimi değil.
+- Aynı videonun Shorts'larında **ilk kare her seferinde farklı görsel** (mümkünse gerçek fotoğraf); aynı çizim art arda iki Shorts'un ilk karesi olmaz.
+- **"X yapıyorsa Y değildir" kalıbı haftada en fazla 2**; diğer günler başka açılış (sayı, şaşırtıcı davranış, "bunu bilmiyordun" değil iddia cümlesi).
+- Her Shorts ayrı metin ve ayrı seslendirme; aynı ses dosyası iki Shorts'ta kullanılmaz.
