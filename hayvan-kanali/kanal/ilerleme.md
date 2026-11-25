@@ -45,3 +45,8 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Geko: tutma %49,7 ama izlemenin %98'i reklam; organik görüntüleme 54, tıklama oranı %1,2. 0:03–0:10 düşüşü reklam atlamaları.
 - Shorts izlemeye devam: Göz Kırpıyorsa %51 (en iyi, 4 abone) · 54 Yıl %43 · Yemeğe Düşerse %39 · Tavanda %18 (soruyla açılıyor: "…nasıl yürüyor?"). Örüntü: şaşırtıcı iddiayla açılanlar tutuyor, soruyla açılan kaydırılıyor.
 - Tanıtım: 638,75 TL harcandı, tanıtımdan abone 0, hâlâ etkin → durdurma önerisi tekrarlandı.
+
+## 25 Kasım 10:00 – Abone sıçraması
+- Toplam abone: **47** (22 Kasım: 8; 27 Eki–23 Kas raporu: +11 / −2). 3 günde ≈ +39.
+- Sağır yılan Kitle büyütme tanıtımı (24 Kas'tan beri): ₺51,62, 44 görüntüleme, panelde 13 abone (≈ ₺4/abone). Kalan ≈ 26 abone: tanıtımın dolaylı etkisi (reklamı görüp sonra kanala gelenler panelde sayılmayabilir), kirpi (24 Kas) ve günlük Shorts. Ayrımı Analytics → Abone → kaynak (video bazında) gösterecek; 27 Kas test bitince istenecek.
+- Aralık sonu hedefi (40–50 abone) Kasım bitmeden tuttu; hedef 27 Kas test sonucuyla birlikte yükseltilecek.

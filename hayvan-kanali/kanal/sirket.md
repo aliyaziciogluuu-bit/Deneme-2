@@ -148,7 +148,7 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 ## Karar (22 Kasım): haftada 2 uzun video, bütçe kalitede
 - Aralık: kara kurbağasından sonra 7 yeni uzun video (8, 12, 15, 19, 22, 26, 29 Aralık) × ≈ 5 $ ≈ 35 $. Aylık 60 $ bütçeden artan ≈ 20 $ kaliteye gider: video başı tavan 5 $ → 7 $ (daha çok görsel adayı, 4 → 6 klip, gerçek fotoğraf önceliği sürer), küçük resim için ayrı görsel turu.
 - Para kazanma hedefi: 1.000 abone + 8.000 saat (1 Şubat 2027 sonrası yeni başvurular; YouTube Yardım sayfası 12843009 ile doğrulandı, 23 Kasım), takvim 12–24 ay. Ara hedef: 500 abone + 3.000 saat → hayran desteği, Creator Partnerships ve Shopping açılır (bu şart değişmiyor).
-- Ücretli tanıtım yok (izlenmeleri şarta sayılmıyor; 638 TL → 0 abone).
+- Ücretli tanıtım: "Görüntüleme sayısı" hedefi yok (geko: ₺966 → 0 abone; izlenmeleri şarta sayılmıyor). "Kitle büyütme" hedefi test ediliyor (sağır yılan, 24–27 Kas): 25 Kas ara sonuç ₺51,62 → 13 abone, kanal toplamı 8 → 47. Abone başına < ₺20 sürerse Aralık'ta her yeni uzun videoya küçük bütçe (karar 27 Kas).
 
 ## Karar (24 Kasım, kanal sahibi: "hepsini yapalım")
 1. **Mevsimlik Shorts:** kış sorularını (kışın kirpi, kışın yarasa vb.) mevcut doğrulanmış içerikten Shorts'a çevirmek.
