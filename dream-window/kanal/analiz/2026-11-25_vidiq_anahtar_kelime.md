@@ -19,3 +19,4 @@ Hacim: aylık tahmini arama. Rekabet: 0–100, düşük iyi.
 | sleep sounds | 279 bin | 43 | +%49 | |
 
 Kural (Y10'a ek): Yeni sahnenin başlık ifadesini seçmeden önce vidIQ ile 1 araştırma (5 kredi) yap; rekabeti 40'ın altında ve düşüşte olmayan ifadeyi tercih et.
+- 25 Kasım: vidIQ verisiyle 13 başlığı 'Cozy Fireplace', 15 başlığı 'Rain Sounds for Studying' olarak değiştirildi (kullanıcı onayı).
