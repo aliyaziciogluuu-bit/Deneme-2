@@ -1,10 +1,13 @@
 # Üretim panosu – Avludaki Komşular
 
-Güncelleme: 24.11.2026 06:46 (`python3 pano.py`)
+Güncelleme: 25.11.2026 06:46 (`python3 pano.py`)
 
 | Video | Bekleyen istasyon | Ayrıntı |
 |---|---|---|
 | 00-fragman | Kaynak arşivi | ses 11/11 · çekim 11/11 · görsel 12/0 · klip 0/0 · test GEÇTİ · Shorts yok · puan — |
+| 00-fragman-B | Kaynak arşivi | ses 11/11 · çekim 11/11 · görsel 12/0 · klip 0/0 · test GEÇTİ · Shorts yok · puan — |
+| 00-fragman-C | Kaynak arşivi | ses 11/11 · çekim 11/11 · görsel 12/0 · klip 0/0 · test GEÇTİ · Shorts yok · puan — |
+| 00-fragman-D | Kaynak arşivi | ses 11/11 · çekim 11/11 · görsel 12/0 · klip 0/0 · test GEÇTİ · Shorts yok · puan — |
 | 01-sagir-yilan | TAMAM (teslim edildi) | ses 80/80 · çekim 80/80 · görsel 20/20 · klip 6/6 · test GEÇTİ · s1-goz:✓ s2-54yil:✓ s3-yavru:✓ s4-kuyruk:✓ · puan — |
 | 02-ev-kertenkelesi | TAMAM (teslim edildi) | ses 69/69 · çekim 69/69 · görsel 22/21 · klip 6/6 · test GEÇTİ · s1-yemek:✓ s2-tavan:✓ s3-goz:✓ s4-goz-yalama:✓ · puan 80.0 |
 | 03-kirpi | TAMAM (teslim edildi) | ses 74/74 · çekim 74/74 · görsel 23/23 · klip 6/6 · test GEÇTİ · s1-sut:✓ s2-elma:✓ s3-kopuk:✓ s4-diken:✓ s5-kis-uyku:✓ · puan 83.5 |
