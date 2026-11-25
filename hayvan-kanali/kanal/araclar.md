@@ -16,3 +16,7 @@
 - Görüntüleme: reklam 7.651 · Shorts akışı 3.621 · göz atma (ana sayfa/abonelikler) 554 · önerilen 252 · arama 172 · kanal 28.
 - İzlenme dakikası: reklam 15.563 (≈ 259 saat, %92) · diğer her şey ≈ 1.210 (≈ 20 saat).
 - Sonuç: 2 haftada organik izlenme ≈ 20 saat. 8.000 saat şartı için organik uzun video izlenmesi asıl darboğaz.
+
+## vidIQ notu (25 Kasım)
+- Ücretsiz plan tek kanal bağlıyor; Dream Window bağlı kalır. Araştırma araçları (anahtar kelime, outlier, başlık puanı) kanal bağlamadan da çalışıyor; başlık puanına Avludaki kanal ID'si elle verilebilir.
+- İlk deneme (5 kredi): "yılan zehirli mi" TR → çoğu uzun ifade "<750/ay" (veri yok sayılır); geniş terimler: "yılan" ≈ 12.000/ay, "belgesel" ≈ 204.000/ay (%87 TR), "doğa" ≈ 8.000/ay. Türkçe uzun kuyruk verisi zayıf → vidIQ'yu yalnızca geniş terim karşılaştırması ve outlier için kullan, kredi idareli.
