@@ -50,3 +50,4 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Toplam abone: **47** (22 Kasım: 8; 27 Eki–23 Kas raporu: +11 / −2). 3 günde ≈ +39.
 - Sağır yılan Kitle büyütme tanıtımı (24 Kas'tan beri): ₺51,62, 44 görüntüleme, panelde 13 abone (≈ ₺4/abone). Kalan ≈ 26 abone: tanıtımın dolaylı etkisi (reklamı görüp sonra kanala gelenler panelde sayılmayabilir), kirpi (24 Kas) ve günlük Shorts. Ayrımı Analytics → Abone → kaynak (video bazında) gösterecek; 27 Kas test bitince istenecek.
 - Aralık sonu hedefi (40–50 abone) Kasım bitmeden tuttu; hedef 27 Kas test sonucuyla birlikte yükseltilecek.
+- 25 Kasım (gün içinde, sonraki ölçüm): toplam **69** abone (sabah 47). Tanıtım hâlâ etkin; panel sayısı akşam ekran görüntüsüyle alınacak.
