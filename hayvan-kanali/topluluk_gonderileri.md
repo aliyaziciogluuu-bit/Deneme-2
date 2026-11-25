@@ -40,3 +40,19 @@ Görsel: hayvan-kanali/10-semender/gorseller/gercek_turk_semenderi.jpg (Türk se
 Metin: Komşular, selam! 🔥 Odun yığınından ya da taş altından çıkan bu siyah sarı lekeli hayvan zehirli mi? Cevabı yarın akşam yazacağız.
 Seçenekler (anket): Zehirli · Zararsız, dokunabilirim · Dokunmamak en iyisi · Daha önce gördüm, yorumda anlatacağım
 Cevap (14 Aralık 20:00): Birçok semender tehdit edilince derisinden zehirli madde salgılıyor; ama bunun etkisi çok abartılmış. Türk semenderi için insan üzerinde etkisini gösteren bir kaynak bulamadık; Avrupa lekeli semenderinde insan için tehlikeli olabilecek maddeler bildiriliyor. Bu yüzden dokunma; dokunduysan elini sabunla yıka, gözüne ve ağzına götürme. Videoda hepsi var: Semender Ateşten mi Doğar? [BAĞLANTI]
+
+## 6. 100 abone teşekkürü + anket (25 Kasım, hemen paylaşılır)
+
+Gönderi türü: Anket
+
+Metin:
+100 komşu olduk! 🦔🦉 Kanala katılan herkese teşekkürler.
+Bu kanalda evinin çevresindeki hayvanlar hakkındaki bir yanlışı her hafta düzeltiyoruz.
+19 Aralık'taki komşuyu sen seç: hangisini anlatalım?
+
+Seçenekler:
+1. Evdeki örümcek zehirli mi?
+2. Çıyan ısırır mı?
+3. Kör fare tarlana zarar veriyor mu?
+
+Not: Kazanan konu 19 Aralık'ta yayınlanır; diğer ikisi sonraki haftalara. Anket sonucu fikirler.json'a yazılır.
