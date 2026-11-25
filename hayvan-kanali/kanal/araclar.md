@@ -20,3 +20,8 @@
 ## vidIQ notu (25 Kasım)
 - Ücretsiz plan tek kanal bağlıyor; Dream Window bağlı kalır. Araştırma araçları (anahtar kelime, outlier, başlık puanı) kanal bağlamadan da çalışıyor; başlık puanına Avludaki kanal ID'si elle verilebilir.
 - İlk deneme (5 kredi): "yılan zehirli mi" TR → çoğu uzun ifade "<750/ay" (veri yok sayılır); geniş terimler: "yılan" ≈ 12.000/ay, "belgesel" ≈ 204.000/ay (%87 TR), "doğa" ≈ 8.000/ay. Türkçe uzun kuyruk verisi zayıf → vidIQ'yu yalnızca geniş terim karşılaştırması ve outlier için kullan, kredi idareli.
+
+## Google Drive (25 Kasım)
+- Klasörler: "Avludaki Komşular" (1g6QeyxK0-Dv4JaOawPfyKEx2pWBhjaJv) → "teslim" (1vCvdkb4fHFGOcUo194IYKBL2XkIKtZTX) → "09-yilan-inek" (12eIkfEMuKBhJVHhHOepsY4Ngxgw0gUxy).
+- Buradan yükleme sınırı **10 MB**: yükleme metinleri, altyazı, küçük resimler, raporlar Drive'a; videolar (Shorts 11–13 MB, uzun ~170 MB) sohbetle gönderilir.
+- 09-yilan-inek: 11 küçük dosya Drive'da; 4 video sohbetle gönderilecek.
