@@ -23,5 +23,6 @@
 
 ## Google Drive (25 Kasım)
 - Klasörler: "Avludaki Komşular" (1g6QeyxK0-Dv4JaOawPfyKEx2pWBhjaJv) → "teslim" (1vCvdkb4fHFGOcUo194IYKBL2XkIKtZTX) → "09-yilan-inek" (12eIkfEMuKBhJVHhHOepsY4Ngxgw0gUxy).
-- Buradan yükleme sınırı **10 MB**: yükleme metinleri, altyazı, küçük resimler, raporlar Drive'a; videolar (Shorts 11–13 MB, uzun ~170 MB) sohbetle gönderilir.
-- 09-yilan-inek: 11 küçük dosya Drive'da; 4 video sohbetle gönderilecek.
+- Bağlantı sınırı: istek başına ~4,2 MB (dosya ≈ 3 MB). Çözüm (kanal sahibi 25 Kas: "videoları ben yüklemeyeyim"): `python3 drive_parca.py teslim/<klasör>` → `_drive/` içinde 3 MB'lık parçalar + BIRLESTIR.ps1 (SHA-256 doğrulamalı) + yukle.json. Parçalar `create_file` ile dosya referansı (sha256:<özet>:<yol>) olarak yüklenir; bilgisayardaki Claude klasörü indirip `powershell -ExecutionPolicy Bypass -File BIRLESTIR.ps1` çalıştırır.
+- Bir parça referansla gitmezse (09'da p12) parçayı ikiye böl (p12a/p12b), BIRLESTIR.ps1'deki listeyi düzelt, eski betiği çöpe at, yenisini yükle.
+- 09-yilan-inek: tamamı Drive'da (11 küçük dosya, 14 Shorts parçası, 59 uzun video parçası, BIRLESTIR.ps1). Birleştirme yerelde sınandı (özet birebir).
