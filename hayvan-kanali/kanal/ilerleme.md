@@ -52,3 +52,10 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Aralık sonu hedefi (40–50 abone) Kasım bitmeden tuttu; hedef 27 Kas test sonucuyla birlikte yükseltilecek.
 - 25 Kasım (gün içinde, sonraki ölçüm): toplam **69** abone (sabah 47). Tanıtım hâlâ etkin; panel sayısı akşam ekran görüntüsüyle alınacak.
 - 25 Kasım 18:07: **101 abone** (22 Kas: 8). Son 28 gün: 12,8 B görüntüleme, 282 saat (çoğu reklam izlemesi; şarta sayılmaz). Dikkat: kirpi uzun video ilk günde 18 görüntüleme, kirpi s1 Shorts ilk 6 saatte 2 görüntüleme → aboneler henüz yeni videoları izlemiyor; tanıtım aboneleri büyük olasılıkla sağır yılandan geliyor. 27 Kas Analytics'te 'abonelerden gelen görüntüleme' bakılacak. 100 abone teşekkür anketi hazırlandı (topluluk_gonderileri.md §6).
+
+## 25 Kasım 21:40 – Stüdyo asistanı verisi (analiz_2026-11-25.md, kanal sahibinin bilgisayarında)
+- Toplam **115** abone. Son 7 gün (18–24 Kas): +53 / −2. Kaynak satırlarında yalnızca ~9 görünüyor (Shorts akışı 6); ~44 satırsız → tanıtım (reklamdan doğrudan abone).
+- Tanıtım (Kitle büyütme, sağır yılan): ₺296,13 · 11.989 gösterim · 247 görüntüleme · **96 abone → ≈ ₺3,1/abone**. Geko (Görüntüleme hedefi) sona erdi: ₺969,84 · 0 abone.
+- **Risk:** abonelerden gelen görüntüleme %0,4 (46 / 12.500). Kirpi uzun video 17 görüntüleme (12'si aramadan, ortalama 1 sn — anlamsız tıklama), ort. izleme %33. Reklam aboneleri henüz izlemiyor. Test: yarasa (26 Kas 18:00) ilk 24 saatte abonelerden kaç görüntüleme alıyor.
+- Shorts: 'Sağır Yılan Aslında Kuyruğunu Koparan Bir Kertenkele!' 1 saat 40 dakikada 454 görüntüleme ('X yapıyorsa / şaşırtıcı iddia' serisi tutuyor; 'Göz Kırpıyorsa' 4 abone). 'Kirpiye Sakın Süt Verme!' Shorts'u ~10 saatte 2 görüntüleme (yeniden yüklenmiş Shorts; 26 Kas yeniden bakılacak).
+- Yorum: son 7 günde izleyici yorumu yok. 100 abone anketi yayınlandı (3 seçenek).
