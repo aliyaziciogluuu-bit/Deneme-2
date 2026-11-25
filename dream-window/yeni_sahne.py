@@ -270,19 +270,27 @@ def uret(g):
     gunluk_ad = klasor.name.split("-", 1)[-1].replace("-", "_")
     log = lambda s: KOK / klasor / f"_log_{s}.txt"
     rapor = []
+    uzun8 = g.dakika > 240                                              # 8 saatlik video (25 Kasım'dan beri varsayılan): yalnızca 4K paket, 1080p sürüm yok
+    if uzun8 and ayar.get("sure_etiket") != "8 HOURS":
+        ayar["sure_etiket"], ayar["sure_dakika"] = "8 HOURS", g.dakika
+        (klasor / "sahne.json").write_text(json.dumps(ayar, ensure_ascii=False, indent=2), encoding="utf-8")
+    saat = "8" if uzun8 else "3"
 
     # 1) 3 saatlik 1080p/720p video: 400 MiB gönderme sınırına sığana kadar ses bit hızı düşürülür
-    if not (klasor / "video_3saat.mp4").exists() or g.zorla:
+    if uzun8:
+        pass
+    elif not (klasor / "video_3saat.mp4").exists() or g.zorla:
         calistir(PY, "uret.py", g.klasor, "--dakika", str(g.dakika), "--720", "--hevc", "--crf", "36", "--ses-kbps", "96", "--cikti", "video_3saat.mp4", log=log("1080"))
-    for kbps in (80, 64):
+    for kbps in (() if uzun8 else (80, 64)):
         if (klasor / "video_3saat.mp4").stat().st_size <= 395 * 2 ** 20:
             break
         calistir(PY, "uret.py", g.klasor, "--sesdegistir", "--cikti", "video_3saat.mp4", "--ses-kbps", str(kbps), log=log("ses"))
-    tamam, satir = kontrol(klasor / "video_3saat.mp4")
-    sn = sure_sn(klasor / "video_3saat.mp4")
-    rapor.append(f"3 saatlik video: {(klasor / 'video_3saat.mp4').stat().st_size / 2 ** 20:.0f} MiB, {sn / 3600:.2f} saat · {satir}")
-    if sn < g.dakika * 60:
-        rapor.append("SORUN: video 3 saatten kısa")
+    if not uzun8:
+        tamam, satir = kontrol(klasor / "video_3saat.mp4")
+        sn = sure_sn(klasor / "video_3saat.mp4")
+        rapor.append(f"3 saatlik video: {(klasor / 'video_3saat.mp4').stat().st_size / 2 ** 20:.0f} MiB, {sn / 3600:.2f} saat · {satir}")
+        if sn < g.dakika * 60:
+            rapor.append("SORUN: video 3 saatten kısa")
 
     # 2) Shorts (iki tane), her biri kendi süresince tekrarsız
     for anahtar in ("shorts", "shorts2"):
@@ -300,20 +308,23 @@ def uret(g):
     if g.klasor not in metinler:
         metinler[g.klasor] = [ad.upper(), " & ".join(x for x in ["Snowfall" if kar else "Rain", "Fireplace" if ates else None] if x)]
         metin_yolu.write_text(_j.dumps(metinler, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    if not (klasor / "kapak_3saat.jpg").exists() or g.zorla:
+    if not uzun8 and (not (klasor / "kapak_3saat.jpg").exists() or g.zorla):   # A stili "3 HOURS" yazılı; 8 saatlikte yalnızca B/C/D
         alt = metinler[g.klasor][1]                                     # görselle tutarlı alt yazı (soba/kor/ateş yok) – dersler defteri
         kapak(klasor, ["3 HOURS", ad.upper(), alt, "DEEP SLEEP  •  RELAXATION"], klasor / "kapak_3saat.jpg")
     calistir(PY, "kapak.py", g.klasor)                                 # B ve C (Test et ve karşılaştır)
     calistir(PY, "kapak4k.py", g.klasor)                               # 4K etiketli sürümler – dersler defteri (20, kalite kontrol RET)
-    if not (klasor / "yukleme_3saat.txt").exists():
+    metin_dosya = klasor / f"yukleme_{saat}saat.txt"
+    if not metin_dosya.exists():
         sesler = " & ".join(x for x in ["Snowfall" if kar else "Rain Sounds", "Crackling Fireplace" if ates else None] if x)
-        (klasor / "yukleme_3saat.txt").write_text(
-            f"TITLE\n3 Hours {ad} {'❄️' if kar else '🌧️'}{'🔥' if ates else ''} {sesler} for Deep Sleep\n\nDESCRIPTION\nWelcome to Dream Window 🌙\n\n"
-            f"[ÖYKÜ]\n\n• 3 hours, no music, no talking\n• Soft, quiet {'winter' if kar else 'rainy'} night atmosphere\n"
-            "• Best with headphones or a speaker at low volume\n\n🔔 Subscribe for new rain, snow, fireplace and nature ambience every week.\n\n"
+        metin_dosya.write_text(
+            f"TITLE\n{'[ARANAN İFADE] 4K ' if uzun8 else ''}{saat} Hours {ad} {'❄️' if kar else '🌧️'}{'🔥' if ates else ''} {sesler} for Deep Sleep\n\nDESCRIPTION\nWelcome to Dream Window 🌙\n\n"
+            f"[ÖYKÜ]\n\n• {saat} hours, no music, no talking\n• Soft, quiet {'winter' if kar else 'rainy'} night atmosphere\n"
+            "• Best with headphones or a speaker at low volume\n\n"
+            + ("Sleep timer – one chapter for every hour of the night:\n" + "".join(f"{i}:00:00 [BÖLÜM {i + 1}]\n" for i in range(8)) + "\n" if uzun8 else "")
+            + "🔔 Subscribe for new rain, snow, fireplace and nature ambience every week.\n\n"
             "The scene is an AI-generated illustration animated for this video.\n\n"
             + ("Sound credits:\n• \"Campfire sound ambience\" by Glaneur de sons, CC BY 3.0 – https://commons.wikimedia.org/wiki/File:Campfire_sound_ambience.ogg\n\n" if ates else "")
-            + f"#{'snowfall' if kar else 'rainsounds'} #sleepambience #cozy #relaxing #dreamwindow\n\nTAGS\n3 hours {ad.lower()}, "
+            + f"#{'8hours' if uzun8 else ('snowfall' if kar else 'rainsounds')} #sleepambience #cozy #relaxing #dreamwindow\n\nTAGS\n{saat} hours {ad.lower()}, "
             + f"{'snowfall ambience, winter night sleep' if kar else 'rain sounds, rainy night sleep'}, {'fireplace sounds, ' if ates else ''}"
             "sleep ambience, cozy ambience, relaxing sounds, deep sleep, long ambience video, dream window\n", encoding="utf-8")
     for anahtar in ("shorts", "shorts2"):
@@ -321,7 +332,7 @@ def uret(g):
             a = ayar[anahtar]
             (klasor / f"{anahtar}_yukleme.txt").write_text(
                 f"TITLE\n{a['baslik']} {'❄️' if kar else '🌧️'} {a['alt']} #shorts\n\nDESCRIPTION\n[KISA ÖYKÜ]\n\n"
-                "The full 3-hour version is on the channel – subscribe so you don't miss new windows. 🔔\n\n"
+                f"The full {saat}-hour version is on the channel – subscribe so you don't miss new windows. 🔔\n\n"
                 + ("Sound credits: \"Campfire sound ambience\" by Glaneur de sons, CC BY 3.0 – https://commons.wikimedia.org/wiki/File:Campfire_sound_ambience.ogg\n\n" if ates else "")
                 + f"#{'snowfall' if kar else 'rain'} #sleepambience #cozy #shorts\n", encoding="utf-8")
 
@@ -361,7 +372,7 @@ def main():
     u.add_argument("klasor")
     u.add_argument("--zorla", action="store_true", help="var olan çıktıları yeniden üret")
     u.add_argument("--k4-yok", action="store_true", help="4K paketini atla")
-    u.add_argument("--dakika", type=int, default=180, help="uzun video süresi (deneme için kısa verilebilir)")
+    u.add_argument("--dakika", type=int, default=480, help="uzun video süresi; 240'tan uzunsa yalnızca 4K paket (8 saatlik videolar, 25 Kasım'dan beri varsayılan)")
     g = p.parse_args()
     if g.adim == "taslak" and not g.yeniden and not g.gorsel:
         p.error("taslak için görsel gerekli")

@@ -34,7 +34,7 @@ def etiketle(kaynak: pathlib.Path, hedef: pathlib.Path):
 def main():
     for ad in sys.argv[1:]:
         klasor = KOK / ad
-        for k in ("kapak_3saat", "kapak_3saat_B", "kapak_3saat_C"):
+        for k in ("kapak_3saat", "kapak_3saat_B", "kapak_3saat_C", "kapak_3saat_D"):
             if (klasor / f"{k}.jpg").exists():
                 etiketle(klasor / f"{k}.jpg", klasor / f"{k}_4K.jpg")
         print(f"{ad}: 4K küçük resimler hazır")

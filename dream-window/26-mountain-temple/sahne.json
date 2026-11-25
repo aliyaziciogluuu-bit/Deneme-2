@@ -1,14 +1,5 @@
 {
   "gorsel": "sahne.png",
-  "acilis_yazi": {
-    "baslik": "Dream Window",
-    "alt": [
-      "SNOW",
-      "FIREPLACE",
-      "RELAXATION",
-      "SLEEP"
-    ]
-  },
   "yagis": "kar",
   "cam": {
     "kutular": [
@@ -210,5 +201,7 @@
     "genlik": 0.5
   },
   "gorsel_4k": "sahne_4k.png",
-  "kapak_yazi": "sol_ust"
+  "kapak_yazi": "sol_ust",
+  "sure_etiket": "8 HOURS",
+  "sure_dakika": 480
 }

@@ -44,12 +44,13 @@ Ofisteki herkes kanalı büyütecek fikirleri buraya önerir: çalışanlar, den
 
 ## Sunulan (kanal sahibinin kararı bekleniyor)
 
-- **Y9 – Yeni sahneler 3 yerine 8 saatlik (patron, 25 Kasım):** 4.000 saat hedefinin en hızlı yolu. Uyku izleyicisi videoyu bütün gece açık bırakır; rakiplerin en çok izlenenleri 8 saatlik. Yalnızca yeni sahneler için (aynı görüntüyü uzatıp yeniden yüklemek yok, özgün olmayan içerik riski). 4K paket ~600 MB, üretim ~1,5 saat. Etki 4–5.
-- **Y10 – Başlıkların başına aranan ifade (patron, 25 Kasım):** Aramadan gelen izlenme çok az. YouTube arama önerilerinde çıkan ifadeler ("rain sounds for sleeping", "fireplace sounds 8 hours", "christmas ambience") başlığın ilk kelimelerine konur, sahne adı ikinci sıraya geçer. Önce yayınlanmamış videolarda denenir. Etki 3.
-- **Y11 – Yükleme saatini izleyicinin saatine göre ayarlama (patron, 25 Kasım):** 20:00 Türkiye, ABD'de öğlen. Studio > Analytics > Kitle > "İzleyicilerinizin YouTube'da olduğu zamanlar" verisine göre seçilir. Kanal sahibinin ekran görüntüsü gerekir. Etki 2–3.
+_(şu an yok)_
 
 ## Onaylanan
 
+- **Y9 – Yeni sahneler 3 yerine 8 saatlik (patron, 25 Kasım):** 4.000 saat hedefinin en hızlı yolu. Uyku izleyicisi videoyu bütün gece açık bırakır; rakiplerin en çok izlenenleri 8 saatlik. Yalnızca yeni sahneler için (aynı görüntüyü uzatıp yeniden yüklemek yok, özgün olmayan içerik riski). 4K paket ~600 MB, üretim ~1,5 saat. Etki 4–5. **Kanal sahibi 25 Kasım'da onayladı**; yayınlanmamış 18 uzun video (09–28) da 8 saate çevriliyor, eski 3 saatlik 1080p kopyaları kanal sahibinin onayıyla silindi.
+- **Y10 – Başlıkların başına aranan ifade (patron, 25 Kasım):** Aramadan gelen izlenme çok az. YouTube arama önerilerinde çıkan ifadeler ("rain sounds for sleeping", "fireplace sounds 8 hours", "christmas ambience") başlığın ilk kelimelerine konur, sahne adı ikinci sıraya geçer. Önce yayınlanmamış videolarda denenir. Etki 3. **Kanal sahibi 25 Kasım'da onayladı**; 18 videonun başlıkları yenileniyor (28 hariç: Y4 deneyi sürüyor).
+- **Y11 – Yükleme saatini izleyicinin saatine göre ayarlama (patron, 25 Kasım):** 20:00 Türkiye, ABD'de öğlen. Studio > Analytics > Kitle > "İzleyicilerinizin YouTube'da olduğu zamanlar" verisine göre seçilir. Kanal sahibinin ekran görüntüsü gerekir. Etki 2–3. **Kanal sahibi 25 Kasım'da onayladı**; ekran görüntüsü bekleniyor.
 - **Y2 – "Christmas Sleep Windows 🎄" oynatma listesi (metin yazarı).** Kanal sahibi 18 Kasım'da onayladı. Liste metni `kanal/noel_listesi.md` dosyasında. Aralık'taki Noel videolarının günlük talimatlarına "listeye ekle" notu kondu.
 - **K3 – Haftalık tutma verisi (kalite kontrol).** Kanal sahibi 18 Kasım'da onayladı. Her çarşamba günlük talimatta hatırlatılıyor. Veri `ilerleme.md` dosyasındaki tutma tablosuna işlenir.
 

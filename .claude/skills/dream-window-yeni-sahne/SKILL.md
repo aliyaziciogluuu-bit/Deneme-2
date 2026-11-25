@@ -1,6 +1,6 @@
 ---
 name: dream-window-yeni-sahne
-description: Dream Window (uyku/ortam YouTube kanalı) için yeni bir sahneyi baştan sona üretir. Bir ChatGPT görselinden canlandırılmış 3 saatlik video, iki Shorts, A/B/C/D küçük resimler, öykülü yükleme metinleri, 4K paket, 5 dilde çeviriler üretir. Hepsini tekrar testinden ve ofis onay zincirinden (kalite kontrol, metin editörü, kanal yöneticisi) geçirip takvim önerisiyle teslim eder. Kullanıcı yeni bir sahne görseli gönderdiğinde mutlaka bu skill'i kullan. Görsel çoğu zaman yalnızca bir numarayla gelir ("21", "22.png"). "Yeni sahne", "bu görseli canlandır", "bundan video yap", "yeni görseller gönderiyorum" gibi ifadelerde de kullan. Görsel ChatGPT istemi yazmak, toplu görsel üretmek (toplu.py) ya da var olan bir sahneyi yeniden üretmek için de kullan.
+description: Dream Window (uyku/ortam YouTube kanalı) için yeni bir sahneyi baştan sona üretir. Bir ChatGPT görselinden canlandırılmış 8 saatlik 4K video, iki Shorts, B/C/D küçük resimler, öykülü yükleme metinleri, 4K paket, 5 dilde çeviriler üretir. Hepsini tekrar testinden ve ofis onay zincirinden (kalite kontrol, metin editörü, kanal yöneticisi) geçirip takvim önerisiyle teslim eder. Kullanıcı yeni bir sahne görseli gönderdiğinde mutlaka bu skill'i kullan. Görsel çoğu zaman yalnızca bir numarayla gelir ("21", "22.png"). "Yeni sahne", "bu görseli canlandır", "bundan video yap", "yeni görseller gönderiyorum" gibi ifadelerde de kullan. Görsel ChatGPT istemi yazmak, toplu görsel üretmek (toplu.py) ya da var olan bir sahneyi yeniden üretmek için de kullan.
 ---
 
 # Dream Window – yeni sahne üretimi
@@ -24,6 +24,15 @@ Her onay turundan sonra patron deftere yeni dersleri ekler:
 - çalışanların raporlarındaki işe yarar öneriler
 
 Aynı hata iki kez yaşanırsa yalnızca deftere yazmakla kalma. Kontrol listesini ya da betiği düzelt, o hata bir daha olamasın.
+
+## Süre: 8 saat, yalnızca 4K (kanal sahibinin kararı, 25 Kasım)
+
+Uzun videolar artık 8 saatlik (onaylanan öneri Y9; 4.000 saat izlenme hedefinin en hızlı yolu). `yeni_sahne.py uret` varsayılan olarak `--dakika 480` kullanır: 1080p sürüm üretmez, yalnızca 4K paket (`paket_<ad>_4K`, bilgisayarda birleştirilir), `yukleme_8saat.txt` ve "8 HOURS" etiketli B/C/D küçük resimleri üretir. Yükleme bilgisayardaki Claude ile haftalık paketle yapılır (`haftalik.py`, `plan.json` > `yalnizca_4K`). Örnek: `29-fjord-christmas-cabin`.
+
+- Başlık (onaylanan öneri Y10): **insanların aradığı bir ifadeyle başlar**, sahne adı sonra gelir. Kalıp: `<Aranan ifade> 4K <emoji> <Ad> 8 Hours <öğeler>`, ör. "Rain Sounds for Sleeping 4K 🌧️ Rainy Bookshop 8 Hours with Crackling Fireplace". Aranan ifade sahnede gerçekten olan sese uymalı. Aynı açılış ifadesi kanalda art arda kullanılmasın.
+- Açıklamada maddelerden sonra "Sleep timer" başlıklı 8 saatlik bölüm listesi (0:00:00 … 7:00:00, sahneye özgü adlar).
+- `kanal/baslik_4k.json`'daki girdi TITLE ile aynıdır. Çevirilerde TITLE ve TITLE_4K aynıdır.
+- Aşağıdaki "3 saatlik" adımlar eski videolar ya da `--dakika 180` ile istenen kısa sürüm içindir.
 
 ## Görsel tarzı (kanal sahibinin kararı, 22 Kasım)
 

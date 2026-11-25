@@ -1,15 +1,5 @@
 {
   "gorsel": "sahne.png",
-  "acilis_yazi": {
-    "baslik": "Dream Window",
-    "alt": [
-      "RAIN",
-      "STORM",
-      "FIREPLACE",
-      "RELAXATION",
-      "SLEEP"
-    ]
-  },
   "yagis": "yagmur",
   "cam": {
     "kutular": [
@@ -163,5 +153,7 @@
     "baslik": "POV: a lighthouse in a storm",
     "alt": "the stove keeps you warm",
     "ses_kazanc": 1.5
-  }
+  },
+  "sure_etiket": "8 HOURS",
+  "sure_dakika": 480
 }
