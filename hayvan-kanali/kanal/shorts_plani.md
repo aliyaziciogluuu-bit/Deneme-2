@@ -68,3 +68,4 @@ Güncelleme: 20 Kasım 2026. Kanal sahibi kararı: "Evet başla, her gün Shorts
 
 - Kanal fragmanı (36 sn, teslim/00-fragman): herkese açık ya da liste dışı yüklenir; Studio → Özelleştirme → Düzen → "Abone olmayanlar için kanal fragmanı".
 - 24 Kasım kart planı: karga 3:44 ("Peki karga uğursuz mu?") → baykuş kartı, 28 Kas baykuş yayına girince; kırlangıç 1:26 ("eski yuvalar…") → karga kartı, 1 Ara karga yayına girince. Kart yalnızca yayındaki videoyu gösterebildiği için beklenir; baykuş ve karga yayın sonrası hatırlatmalarına eklendi.
+- 25 Kasım: yılan–inek ilk kez Drive üzerinden teslim edildi (parçalı, BIRLESTIR.ps1 doğruladı) ve stüdyo asistanınca planlandı: uzun 8 Ara 18:00 (A/C/B küçük resim testi, altyazı, 3 liste, bitiş ekranı sağır yılan + abone 5:10–son), Shorts 9, 10, 15 Ara 12:00. Yayından sonra: sabit yorum, 3 Shorts İlgili video, kara kurbağası bitiş ekranı → yılan–inek. 12 Ara: bitiş ekranı → semender.
