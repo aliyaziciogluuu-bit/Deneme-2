@@ -15,3 +15,12 @@
 3. Para kazanma için Shorts yolu: 1.000 abone + 90 günde Shorts izlenme eşiği. Türler Alemi bunu tek başına Shorts'la aşıyor. Uzun video saati zor geliyorsa Shorts yolu ciddi alternatif.
 4. Uzun tarafta izlenme saati için uzun derlemeler (Doğanın Sesi ~45 dk, Harp Tarihi 1–1,5 sa).
 5. Çok video tek başına yetmiyor (Bilgi Neşesi): kanca ve seri kimliği şart.
+
+## Türler Alemi yakından (son 50 + en popüler 50 Shorts)
+- Takvim: 2 günde bir, hep 19:00 (TR). Süre 16–40 sn, çoğu ~20 sn (~45 kelime).
+- Başlık kalıpları: "… Ne Olur?", "Neden …?", "Nasıl …?", "… Durdurabilir mi?" + 😳😨🤯.
+- Konu: adı hayvan ama içerik genel merak (vücut, mermi deneyleri, hayatta kalma, hayvan). Hayvan konuları: arı, örümcek, sinek, salyangoz, yılan dişi, ahtapot.
+- Sonuçlar aşırı dengesiz: çoğu 20–200 bin, birkaçı milyonlarca (Küçük Dil 31,7 M; Boru 9 M; Arı 7,3 M; Örümcek-tuvalet 6,3 M). Büyüme birkaç patlayan videodan.
+- 31,7 M'lik videonun metni (21 sn): "Boğazının arkasında sallanan o küçük şeyin ne olduğunu hiç merak ettin mi?" → benzetme (boks torbası) → 2 bilgi → bitiş. Abone çağrısı yok, döngüye giriyor.
+- Konuların çoğu yabancı popüler 3D animasyon Shorts konularıyla çok benziyor; üretim yöntemi kesin bilinmiyor. Bize uymayan yanlar: konu dağınıklığı, kaynak yok, kanal kimliği zayıf (33 bin abone / 166 M izlenme = izlenme başına çok az abone).
+- Bize uyan: ~20 sn, "sen" diye hitap, herkesin gördüğü bir şeyle açılış, tek benzetme, 2 bilgi, çağrısız döngü bitişi, sabit saat, ev çevresi böcekleri (arı, örümcek, sinek) çok izleniyor.
