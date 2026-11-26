@@ -10,6 +10,7 @@ Girdi:  <video>/gorseller.json  {"gorseller": [{"ad": "...", "istem": "...", "or
 Çıktı:  <video>/adaylar/<ad>_1.jpg, _2.jpg ...  ve  <video>/adaylar/secim.jpg (karşılaştırma sayfası)
 
 Kanalın görsel dili STIL'de sabittir; her video aynı çizim tarzını kullanır.
+gorseller.json'da üst düzey "stil" verilirse (deneme serileri) STIL yerine o kullanılır.
 API anahtarı ortamın ağ geçidi tarafından eklenir; bu betikte anahtar yoktur. POST istekleri yeniden denenmez.
 """
 import json
@@ -36,7 +37,7 @@ def curl(*arg, cikti=None):
     return None if cikti else json.loads(r.stdout)
 
 
-def uret(klasor, liste, onay):
+def uret(klasor, liste, onay, stil=STIL):
     adaylar = klasor / "adaylar"
     adaylar.mkdir(exist_ok=True)
     adet = sum(g.get("aday", ADAY) for g in liste)
@@ -44,7 +45,7 @@ def uret(klasor, liste, onay):
     if not onay:
         raise SystemExit("Harcama yapılmadı. Onaylıyorsan aynı komutu --onay ile çalıştır.")
     for g in liste:
-        istem = f"{g['istem']} {STIL}"
+        istem = f"{g['istem']} {stil}"
         for n in range(1, g.get("aday", ADAY) + 1):  # hayvanın görünmediği sahnelerde "aday": 1 yeterli
             if (adaylar / f"{g['ad']}_{n}.jpg").exists():
                 continue
@@ -104,7 +105,9 @@ def secim_sayfasi(klasor, adlar):
 def main():
     klasor = KOK / sys.argv[1]
     arg = sys.argv[2:]
-    tanim = json.loads((klasor / "gorseller.json").read_text(encoding="utf-8"))["gorseller"]
+    dosya = json.loads((klasor / "gorseller.json").read_text(encoding="utf-8"))
+    tanim = dosya["gorseller"]
+    stil = dosya.get("stil", STIL)  # deneme serileri (ör. 3D kesit) kendi stilini verebilir; varsayılan kanal stili
     tanim = [g for g in tanim if not g.get("gercek") and (g.get("istem") or "").strip()]  # gerçek fotoğraf yer tutucuları üretilmez (23 Kasım)
     if "--sec" in arg:
         (klasor / "gorseller").mkdir(exist_ok=True)
@@ -119,7 +122,7 @@ def main():
     else:
         liste = [g for g in tanim if not list((klasor / "adaylar").glob(f"{g['ad']}_*.jpg"))]
     if liste:
-        uret(klasor, liste, "--onay" in arg)
+        uret(klasor, liste, "--onay" in arg, stil)
     secim_sayfasi(klasor, [g["ad"] for g in tanim])
 
 

@@ -1,0 +1,23 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a modern educational science animation, cinematic soft lighting, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject centered in the middle of the frame. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "karin_ic",
+   "oran": "9:16",
+   "istem": "Top-down dorsal view of an orb-weaver spider on a green leaf, translucent X-ray style like an educational animation: the legs and the normal round abdomen are glass-like and see-through, inside the abdomen two thin glowing silk-gland cords run from the middle of the abdomen to the spinnerets at its tip, where a single fine glowing silk thread comes out. Exactly eight legs of near-equal length, four on the left and four on the right, the first pair longest, two tiny palps in front of the head. No rings, no egg shapes, no round balls inside.",
+   "aday": 3
+  },
+  {
+   "ad": "ag",
+   "oran": "9:16",
+   "istem": "Front view of a circular orb spider web at dawn between two plant stems, radial threads and a fine spiral with tiny dew droplets, a European garden spider sitting in the center of the web, large in the frame, about one fifth of the frame height. The spider has exactly 8 legs in total, 4 on the left side and 4 on the right side, each leg clearly separate and fully visible, no extra limbs; two body parts only, a small cephalothorax and a large round abdomen; the abdomen is orange-brown with a distinct white cross made of white spots.",
+   "aday": 3
+  },
+  {
+   "ad": "ag_yeme",
+   "oran": "9:16",
+   "istem": "An orb-weaver spider hanging head-down in the center of a torn, sagging old orb web at dusk, with exactly eight legs: four on the left and four on the right, all clearly visible and symmetric; a small compact ball of silk held right in front of its mouth, eating its old web; short palps in front of the head; thin straight web threads; brown abdomen with a white cross of spots.",
+   "aday": 3
+  }
+ ]
+}

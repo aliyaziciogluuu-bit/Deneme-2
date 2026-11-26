@@ -1,0 +1,25 @@
+{
+  "dikey": true,
+  "baslik": "Semenderin Derisi Neden Hep Islak? 🌧️ #shorts",
+  "aciklama": "Semenderin derisinde pul yok ve bu ince deri su geçiriyor; bu yüzden birçok semender serin ve nemli yerlere bağlı yaşıyor. Aynı deri bir savunma aracı da: birçok semender tehdit edilince derisinden zehirli bir madde salgılıyor. Ona dokunma; dokunduysan elini sabunla yıka ve yıkamadan gözüne, ağzına götürme. Tam hikâye bağlantıda: \"Semender Ateşten mi Doğar?\"\n\n#shorts #semender #doğa #iki yaşamlılar #içindenbak",
+  "etiketler": ["semender", "semender derisi", "semender zehirli mi", "ateş semenderi", "shorts", "doğa"],
+  "ust_yazi": ["SEMENDER DERİSİ", "İÇİNDEN BAK"],
+  "kaynaklar": [
+    "Vikipedi – Salamander: https://en.wikipedia.org/wiki/Salamander",
+    "Vikipedi – Salamander (legendary creature): https://en.wikipedia.org/wiki/Salamander_(legendary_creature)"
+  ],
+  "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {"dosya": "../../sesler/bahce_kuslar.ogg", "seviye": 0.04, "kaynak": ""},
+  "ana_video": "Semender Ateşten mi Doğar? (Odun Yığınındaki Sır)",
+  "sahneler": [
+    {
+      "ad": "Semenderin Derisi Neden Hep Islak? 🌧️ #shorts",
+      "cumleler": [
+        {"yazi": "Semenderin derisinde pul yok ve bu deri su geçiriyor."},
+        {"yazi": "Bu yüzden birçok semender serin ve nemli yerlere bağlı yaşıyor."},
+        {"yazi": "Aynı deri bir savunma aracı da: birçok semender tehdit edilince derisinden zehirli bir madde salgılıyor."},
+        {"yazi": "Bu yüzden ona dokunma; dokunduysan elini sabunla yıka ve yıkamadan gözüne, ağzına götürme."}
+      ]
+    }
+  ]
+}
