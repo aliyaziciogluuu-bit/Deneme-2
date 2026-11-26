@@ -116,3 +116,7 @@ Kuzey ışığı klibinin çokgeninin üst kenarını yatay çizgi olarak (y=34)
 ## Uzun seste parça geçişleri (29, Kasım 2026)
 
 8 saatlik ses 3 parça hâlinde üretilip çapraz geçişle birleşiyor. Kalite kontrol, geçiş noktalarında (9600 ve 19200 sn) 10 sn'lik RMS'de 6–8 dB'lik bir çukur ölçtü. Kopma değildi ve doğal dalgalanmanın içinde kalıyordu. Doğrusal (`tri`) geçiş, birbirinden bağımsız iki gürültüde ortada gücü düşürür. Bu yüzden `qsin`'e (eşit güç) geçildi. 8 saatlik paketlerde geçiş noktalarında RMS'i ölç; 5 dB'den büyük çukur varsa geçişi incele.
+
+## Biçim değişince her yeri tara (8 saate çevirme, Kasım 2026)
+
+18 video 3 saatten 8 saate çevrildiğinde takvimde POV Shorts günlerinde 17 not hâlâ "… 3 saatlik videosunu seç" diyordu; kanal yöneticisi yakaladı. Ders: bir sahnenin süresi ya da biçimi değişince aynı turda `kanal/takvim.json` notlarını, küçük resim etiketini (`sure_etiket`), `baslik_4k.json`'u, çevirileri ve `PC_YUKLEME.md`'yi tara. Ses kontrolünde ekleme noktasının yanında aynı uzunlukta ekleme dışı bir pencereyi de ölç; böylece ekleme çukuru ile kaynak sesin doğal sessizliği ayrılır (21'deki 5–10 dB'lik inişler ateş kaynağının kendisindendi).
