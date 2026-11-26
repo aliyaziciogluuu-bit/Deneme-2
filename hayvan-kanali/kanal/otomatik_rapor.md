@@ -1,6 +1,6 @@
-# Otomatik bekçi raporu – 25.11.2026 06:44
+# Otomatik bekçi raporu – 26.11.2026 06:44
 
-Boş disk: 7.6 GB
+Boş disk: 7.4 GB
 
 ### 00-fragman
 - Temiz.
@@ -39,7 +39,6 @@ Boş disk: 7.6 GB
 - UYARI: teslim edildi ya da yayında: dosyalara dokunulmadı (yalnızca kaynak erişimi denendi)
 
 ### 08-kara-kurbagasi
-- UYARI: kaynak açılamıyor (HTTP 429): https://www.en.wikipedia.org/wiki/Salmonellosis — açılamayan kaynak listede kalmaz
 - UYARI: kaynak açılamıyor (HTTP 302): https://www.doi.org/10.46309/biodicon.2024.1426045 — açılamayan kaynak listede kalmaz
 - UYARI: teslim edildi ya da yayında: dosyalara dokunulmadı (yalnızca kaynak erişimi denendi)
 
