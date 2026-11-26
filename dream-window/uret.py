@@ -788,10 +788,8 @@ def main():
             for d in hedef.iterdir():
                 d.unlink()
         gecici.rename(hedef)
-        (hedef / "BIRLESTIR.bat").write_text(
-            "@echo off\r\ncd /d \"%~dp0\"\r\necho Video birlestiriliyor, lutfen bekleyin...\r\n"
-            f"ffmpeg -v error -y -f concat -safe 0 -i liste.txt -i ses.m4a -map 0:v -map 1:a -c copy -shortest -movflags +faststart \"{ad}.mp4\"\r\n"
-            f"if exist \"{ad}.mp4\" (echo HAZIR: {ad}.mp4) else (echo HATA: ffmpeg.exe bu klasorde mi?)\r\npause\r\n", encoding="ascii")
+        import ses_bol                   # büyük ses (8 saat ~450 MB) sohbetten gönderilebilsin diye parçalara bölünür; .bat da yazılır
+        print("ses:", ses_bol.bol(hedef, ad))
         print(f"Paket hazır: {hedef}")
         return
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(gecici / "liste.txt"), "-i", str(gecici / "ses.m4a"),

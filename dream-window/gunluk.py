@@ -91,10 +91,18 @@ def main():
         paket = sorted(d for d in (KOK / k).glob("paket_*4K") if (d / "BIRLESTIR.bat").exists())
         if paket:                                                      # 4K sürümü: parçalar tek zip içinde (sıkıştırmasız)
             zip_ad = f"{sira}_UZUN_{ad}_4K_paket.zip"
-            if not (hedef / zip_ad).exists():
-                with zipfile.ZipFile(hedef / zip_ad, "w", zipfile.ZIP_STORED) as z:
-                    for d in sorted(paket[-1].iterdir()):
-                        z.write(d, f"{ad}_4K/{d.name}")
+            if not (hedef / zip_ad).exists():                          # her zip ≤350 MiB (sohbet sınırı 400 MiB); ilki video parçaları ve .bat
+                dosya = sorted(paket[-1].iterdir(), key=lambda d: (d.name.startswith("ses_"), int(d.stem.split("_")[1]) if d.name.startswith("ses_") else 0, d.name))
+                gruplar, boy = [[]], 0
+                for d in dosya:
+                    if gruplar[-1] and boy + d.stat().st_size > 350 * 1048576:
+                        gruplar.append([]); boy = 0
+                    gruplar[-1].append(d); boy += d.stat().st_size
+                for i, g in enumerate(gruplar, 1):
+                    with zipfile.ZipFile(hedef / (zip_ad if i == 1 else zip_ad.replace(".zip", f"_ek{i}.zip")), "w", zipfile.ZIP_STORED) as z:
+                        for d in g:
+                            z.write(d, f"{ad}_4K/{d.name}")
+            ekler = sorted(p.name for p in hedef.glob(f"{sira}_UZUN_{ad}_4K_paket_ek*.zip"))
             import kapak4k                                             # 4K yüklemede küçük resimlerde "4K" etiketi olsun
             for son in ["", *[f"_{h}" for h in secenekler]]:
                 if not (kapak.parent / f"{kapak.stem}{son}.jpg").exists():
@@ -105,6 +113,7 @@ def main():
                 bagla(k4, hedef / f"{sira}_UZUN_{ad}_kucuk_resim{son}_4K.jpg")
             baslik4k = json.loads((KOK / "kanal" / "baslik_4k.json").read_text(encoding="utf-8")).get(k)
             adimlar[-1:-1] = [f"   - 4K SÜRÜM (yalnızca bilgisayardaysan): {zip_ad}",
+                              *([f"     Bu paket {1 + len(ekler)} zip'tir ({', '.join([zip_ad, *ekler])}); HEPSİNİ aynı yere aç (aynı klasöre açılırlar)."] if ekler else []),
                               "     Zip'i aç, ffmpeg.exe'yi açılan klasöre koy, BIRLESTIR.bat'a çift tıkla;",
                               ("     çıkan 4K videoyu yukarıdaki video yerine yükle. 4K yüklüyorsan:" if video else
                                "     çıkan 4K videoyu yükle (bu videonun 1080p sürümü yok; birleştirme olmazsa yükleme, haber ver):"),

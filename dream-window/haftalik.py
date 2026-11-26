@@ -52,6 +52,16 @@ def test_paket(zip_yol: pathlib.Path):
         gec = pathlib.Path(gec)
         z.extractall(gec, [n for n in z.namelist() if n.split("/")[-1] in ("liste.txt", "acilis.mp4", "dongu.mp4", "kapanis.mp4")])
         klasor = next(gec.rglob("liste.txt")).parent
+        # .bat'ın istediği ses dosyalarının hepsi bu zip'te ya da _ek zip'lerinde var mı
+        adlar = set(z.namelist())
+        for ek in zip_yol.parent.glob(zip_yol.name.replace(".zip", "_ek*.zip")):
+            with zipfile.ZipFile(ek) as ze:
+                adlar |= set(ze.namelist())
+        bat = z.read(next(n for n in z.namelist() if n.endswith("BIRLESTIR.bat"))).decode("ascii")
+        gerekli = re.findall(r"ses_\d+\.aac", bat) or ["ses.m4a"]
+        eksik = [s for s in gerekli if not any(n.endswith("/" + s) for n in adlar)]
+        if eksik:
+            raise SystemExit(f"PAKET EKSİK: {zip_yol.name} içinde yok: {eksik}")
         satir = [s for s in (klasor / "liste.txt").read_text().splitlines() if s.strip()]
         sure = lambda f: float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)],
                                               capture_output=True, text=True).stdout or 0)
@@ -130,7 +140,7 @@ def main():
                     k = g["uzun"]
                     oge["kucuk_resim"] = sorted(p.name for p in klasor.glob("*_kucuk_resim_B.jpg"))[:1]
                     oge["kucuk_resim_4K"] = sorted(p.name for p in klasor.glob("*_kucuk_resim_B_4K.jpg"))[:1]
-                    oge["paket_4K"] = sorted(p.name for p in klasor.glob("*_4K_paket.zip"))[:1]
+                    oge["paket_4K"] = sorted(p.name for p in klasor.glob("*_4K_paket*.zip"))   # 8 saatlik paket birden çok zip olabilir: hepsi aynı yere açılır
                     oge["baslik_4K"] = json.loads((KOK / "kanal" / "baslik_4k.json").read_text(encoding="utf-8")).get(k, "")
                     oge["ceviriler"] = sorted(p.name for p in klasor.glob("*_ceviriler.txt"))[:1]
                     if v in yalniz_4k:
