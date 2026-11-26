@@ -1,0 +1,30 @@
+{
+ "000": {
+  "yazi": "Semenderin derisinde pul yok ve bu deri su geçiriyor.",
+  "duyulan": "Semenderin derisinde pul yok ve bu deri su geçiriyor.",
+  "hata": 0,
+  "sure": 3.4,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bu yüzden birçok semender serin ve nemli yerlere bağlı yaşıyor.",
+  "duyulan": "Bu yüzden birçok semender serin ve nemli yerlere bağlı yaşıyor.",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Aynı deri bir savunma aracı da: birçok semender tehdit edilince derisinden zehirli bir madde salgılıyor.",
+  "duyulan": "Aynı deri bir savunma aracı da birçok semender tehdit edilince derisinden zehirli bir madde salgılıyor.",
+  "hata": 0,
+  "sure": 6.04,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu yüzden ona dokunma; dokunduysan elini sabunla yıka ve yıkamadan gözüne, ağzına götürme.",
+  "duyulan": "Bu yüzden ona dokunma, dokunduysan elini sabunla yıka ve yıkamadan gözüne, ağzına götürme.",
+  "hata": 0,
+  "sure": 6.24,
+  "uygun": true
+ }
+}

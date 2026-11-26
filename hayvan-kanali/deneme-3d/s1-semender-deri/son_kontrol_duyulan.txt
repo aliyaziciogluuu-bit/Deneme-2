@@ -1,0 +1,4 @@
+000 fark=0 | Semenderin derisinde pul yok ve bu deri su geçiriyor. || Semender'in derisinde pul yok ve bu deri su geçiriyor.
+001 fark=0 | Bu yüzden birçok semender serin ve nemli yerlere bağlı yaşıyor. || Bu yüzden birçok semender serin ve nemli yerlere bağlı yaşıyor.
+002 fark=0 | Aynı deri bir savunma aracı da: birçok semender tehdit edilince derisinden zehirli bir madde salgılıyor. || Aynı deri bir savunma aracı da, birçok semender tehdit edilince derisinden zehirli bir madde salgılıyor.
+003 fark=0 | Bu yüzden ona dokunma; dokunduysan elini sabunla yıka ve yıkamadan gözüne, ağzına götürme. || Bu yüzden ona dokunma, dokunduysan elini sabunla yıka ve yıkamadan gözüne, ağzına götürme.
