@@ -52,3 +52,4 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 
 - 25 Kasım düzeltme: tanıtım aboneleri 1.000 abone şartına sayılmıyor (yalnızca organik aboneler). 115 abonenin ~96'sı tanıtımdan → şarta sayılan ≈ 19. Tanıtımın değeri yalnızca follow-on (sonradan organik) görüntülemeler ve bu abonelerin gelecekteki izlemeleri. Büyük tanıtım bütçesi önerisi askıda; 27 Kas kararı follow-on görüntülemelere göre.
 - 26 Kasım 21:20: tanıtım ₺599,91 (üst sınır ₺500 sanılıyordu; aşıldı) · 24.999 gösterim · 517 görüntüleme · 221 abone (≈ ₺2,71/abone). Toplam abone 234. Yarasa (26 Kas 18:00) 3 saatte 3 görüntüleme → reklam aboneleri izlemiyor ve şarta sayılmıyor. Öneri: tanıtımı 27 Kas bitişini beklemeden durdur.
+- 26 Kasım kanal sahibi kararı: tanıtım durdurulmayacak, 27 Kasım bitişine kadar sürecek.
