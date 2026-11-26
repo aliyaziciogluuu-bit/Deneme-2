@@ -1,0 +1,30 @@
+{
+ "000": {
+  "yazi": "Örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.",
+  "duyulan": "Örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bu sıvı, karnın ucundaki örü memelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor.",
+  "duyulan": "Bu sıvı karnın ucundaki örümemelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor.",
+  "hata": 0,
+  "sure": 5.98,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bazı örümceklerde ağın çerçevesi ile yapışkan av sarmalı, farklı ipek bezlerinden geliyor.",
+  "duyulan": "Bazı örümceklerde ağın çerçevesiyle yapışkan av sarmalı farklı ipek bezlerinden geliyor.",
+  "hata": 0,
+  "sure": 5.8,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bazı ağ örücü örümcekler ise eski ağlarını yiyip içindeki proteini yeni ipek için yeniden kullanıyor.",
+  "duyulan": "Bazı ağ örücü örümceklerse eski ağlarını yiyip içindeki proteini yeni ip ek için yeniden kullanıyor.",
+  "hata": 0,
+  "sure": 6.3,
+  "uygun": true
+ }
+}
