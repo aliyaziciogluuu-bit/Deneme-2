@@ -1,6 +1,30 @@
-{"cekimler": [
- {"n": 1, "gorsel": "karin_ic", "klip": "karin_ic", "kz": 1.55, "ky": 0.12, "kx": 0.5},
- {"n": 1, "gorsel": "karin_ic", "klip": "karin_ic", "kz": 1.55, "ky": 0.12, "kx": 0.5},
- {"n": 1, "gorsel": "ag", "klip": "ag"},
- {"n": 1, "gorsel": "ag_yeme", "klip": "ag_yeme"}
-]}
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "karin_ic",
+   "klip": "karin_ic",
+   "kz": 2.0,
+   "ky": 0.0,
+   "kx": 0.5
+  },
+  {
+   "n": 1,
+   "gorsel": "karin_ic",
+   "klip": "karin_ic",
+   "kz": 2.0,
+   "ky": 0.0,
+   "kx": 0.5
+  },
+  {
+   "n": 1,
+   "gorsel": "ag",
+   "klip": "ag"
+  },
+  {
+   "n": 1,
+   "gorsel": "ag_yeme",
+   "klip": "ag_yeme"
+  }
+ ]
+}

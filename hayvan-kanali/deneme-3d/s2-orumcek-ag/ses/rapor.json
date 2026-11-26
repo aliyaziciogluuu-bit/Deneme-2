@@ -1,30 +1,30 @@
 {
  "000": {
-  "yazi": "Örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.",
-  "duyulan": "Örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.",
+  "yazi": "Bir örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.",
+  "duyulan": "Bir örümceğin ipeği iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.",
   "hata": 0,
-  "sure": 5.46,
+  "sure": 5.2,
   "uygun": true
  },
  "001": {
   "yazi": "Bu sıvı, karnın ucundaki örü memelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor.",
-  "duyulan": "Bu sıvı karnın ucundaki örümemelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor.",
+  "duyulan": "Bu sıvı karnın ucundaki örüm emelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor.",
   "hata": 0,
-  "sure": 5.98,
+  "sure": 5.5,
   "uygun": true
  },
  "002": {
-  "yazi": "Bazı örümceklerde ağın çerçevesi ile yapışkan av sarmalı, farklı ipek bezlerinden geliyor.",
-  "duyulan": "Bazı örümceklerde ağın çerçevesiyle yapışkan av sarmalı farklı ipek bezlerinden geliyor.",
+  "yazi": "Bazı örümceklerde çerçeve ipliği ve yapışkan av sarmalı, farklı ipek bezlerinden geliyor.",
+  "duyulan": "Bazı örümceklerde çerçeve ipliği ve yapışkan av sarmalı farklı ipek bezlerinden geliyor.",
   "hata": 0,
-  "sure": 5.8,
+  "sure": 5.48,
   "uygun": true
  },
  "003": {
-  "yazi": "Bazı ağ örücü örümcekler ise eski ağlarını yiyip içindeki proteini yeni ipek için yeniden kullanıyor.",
-  "duyulan": "Bazı ağ örücü örümceklerse eski ağlarını yiyip içindeki proteini yeni ip ek için yeniden kullanıyor.",
+  "yazi": "Bazı ağ örücü örümcekler, eski ağlarını yiyip içindeki proteini yeni ipek için yeniden kullanıyor.",
+  "duyulan": "Bazı ağ örücü örümcekler eski ağlarını yiyip içindeki proteini yeni ipek için yeniden kullanıyor.",
   "hata": 0,
-  "sure": 6.3,
+  "sure": 5.62,
   "uygun": true
  }
 }

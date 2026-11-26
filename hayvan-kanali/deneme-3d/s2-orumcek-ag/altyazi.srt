@@ -1,47 +1,47 @@
 1
-00:00:00,700 --> 00:00:02,627
-Örümceğin ipeği, iplik olmadan
+00:00:00,700 --> 00:00:01,869
+Bir örümceğin ipeği,
 
 2
-00:00:02,627 --> 00:00:04,169
-önce karnındaki bezlerde
+00:00:01,869 --> 00:00:04,089
+iplik olmadan önce karnındaki bezlerde
 
 3
-00:00:04,169 --> 00:00:06,405
+00:00:04,089 --> 00:00:06,145
 yoğun bir sıvı olarak bekliyor.
 
 4
-00:00:06,510 --> 00:00:08,310
+00:00:06,250 --> 00:00:07,906
 Bu sıvı, karnın ucundaki örü
 
 5
-00:00:08,310 --> 00:00:10,175
+00:00:07,906 --> 00:00:09,621
 memelerine giden dar kanaldan
 
 6
-00:00:10,175 --> 00:00:12,735
+00:00:09,621 --> 00:00:11,995
 geçerken katılaşıp ipliğe dönüşüyor.
 
 7
-00:00:12,840 --> 00:00:14,949
-Bazı örümceklerde ağın çerçevesi
+00:00:12,100 --> 00:00:14,116
+Bazı örümceklerde çerçeve ipliği
 
 8
-00:00:14,949 --> 00:00:16,531
-ile yapışkan av sarmalı,
+00:00:14,116 --> 00:00:15,564
+ve yapışkan av sarmalı,
 
 9
-00:00:16,531 --> 00:00:18,885
+00:00:15,564 --> 00:00:17,825
 farklı ipek bezlerinden geliyor.
 
 10
-00:00:18,990 --> 00:00:21,090
-Bazı ağ örücü örümcekler ise eski
+00:00:17,930 --> 00:00:19,394
+Bazı ağ örücü örümcekler,
 
 11
-00:00:21,090 --> 00:00:23,126
-ağlarını yiyip içindeki proteini
+00:00:19,394 --> 00:00:21,560
+eski ağlarını yiyip içindeki proteini
 
 12
-00:00:23,126 --> 00:00:25,540
+00:00:21,560 --> 00:00:23,800
 yeni ipek için yeniden kullanıyor.

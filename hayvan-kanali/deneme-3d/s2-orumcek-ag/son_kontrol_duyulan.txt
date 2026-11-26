@@ -1,4 +1,4 @@
-000 fark=0 | Örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor. || Örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.
-001 fark=0 | Bu sıvı, karnın ucundaki örü memelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor. || Bu sıvı karnın ucundaki örümemelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor.
-002 fark=1 | Bazı örümceklerde ağın çerçevesi ile yapışkan av sarmalı, farklı ipek bezlerinden geliyor. || Bazı örümceklerde ahan çerçevesiyle yapışkan av sarmalı farklı ipek bezlerinden geliyor.
-003 fark=1 | Bazı ağ örücü örümcekler ise eski ağlarını yiyip içindeki proteini yeni ipek için yeniden kullanıyor. || Bazı ağ örücü örümceklerse eski ağlarını yiyip içindeki proteini yeni yipek için yeniden kullanıyor.
+000 fark=0 | Bir örümceğin ipeği, iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor. || Bir örümceğin ipeği iplik olmadan önce karnındaki bezlerde yoğun bir sıvı olarak bekliyor.
+001 fark=0 | Bu sıvı, karnın ucundaki örü memelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor. || Bu sıvı, karnın ucundaki örüm emelerine giden dar kanaldan geçerken katılaşıp ipliğe dönüşüyor.
+002 fark=0 | Bazı örümceklerde çerçeve ipliği ve yapışkan av sarmalı, farklı ipek bezlerinden geliyor. || Bazı örümceklerde çerçeve ipliği ve yapışkan av sarmalı farklı ipek bezlerinden geliyor.
+003 fark=0 | Bazı ağ örücü örümcekler, eski ağlarını yiyip içindeki proteini yeni ipek için yeniden kullanıyor. || Bazı ağ örücü örümcekler eski ağlarını yiyip içindeki proteini yeni ip ek için yeniden kullanıyor.
