@@ -63,7 +63,7 @@
     "planli_uzun": "07-christmas-eve"
   },
   "2026-12-02": {
-    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel arifesi (dün yayınlanan 3 saatlik) videosu olmalı; boşsa bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "not": "Kontrol: bugünkü Shorts'un İlgili videosu Noel arifesi (dün yayınlanan 3 saatlik) videosu olmalı; boşsa bağla. Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez.",
     "planli_shorts": true
   },
   "2026-12-03": {
@@ -88,7 +88,7 @@
   },
   "2026-12-09": {
     "uzun": "09-lighthouse",
-    "not": "Bu video 19 Kasım'da dalga sesiyle yenilendi: video dosyasını ve yeni başlığı (\"…Rain, Waves & Crackling Fire for Sleep\") Claude'dan bugün yeniden iste, eski indirdiğin dosyayı kullanma. Deniz feneri Shorts'unun (21 Kasım) İlgili videosu olarak bugünkü videoyu bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Bu video 19 Kasım'da dalga sesiyle yenilendi: video dosyasını ve yeni başlığı (\"…Rain, Waves & Crackling Fire for Sleep\") Claude'dan bugün yeniden iste, eski indirdiğin dosyayı kullanma. Deniz feneri Shorts'unun (21 Kasım) İlgili videosu olarak bugünkü videoyu bağla. Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2026-12-10": {
     "shorts": [
@@ -122,7 +122,7 @@
     "not": "Bu Shorts'u yüklerken İlgili video olarak Karlı orman kulübesi 8 saatlik videosunu seç (o video yayında)."
   },
   "2026-12-16": {
-    "not": "8 saatlik videodan sonra (20:00'den sonra) 14 Aralık'taki Fiyort Noel kulübesi Shorts'unun İlgili videosu olarak bugünkü videoyu bağla. Bu videoyu 'Christmas Sleep Windows 🎄' oynatma listesine ekle (ilk 3 videodan hemen sonraya). İlk hafta izleyici tutma grafiğinde 2:40 ve 5:20 civarına bak. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "not": "8 saatlik videodan sonra (20:00'den sonra) 14 Aralık'taki Fiyort Noel kulübesi Shorts'unun İlgili videosu olarak bugünkü videoyu bağla. Bu videoyu 'Christmas Sleep Windows 🎄' oynatma listesine ekle (ilk 3 videodan hemen sonraya). İlk hafta izleyici tutma grafiğinde 2:40 ve 5:20 civarına bak. Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez.",
     "uzun": "29-fjord-christmas-cabin"
   },
   "2026-12-17": {
@@ -143,7 +143,7 @@
     ]
   },
   "2026-12-23": {
-    "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et. Noel treni Shorts'unun (20 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra). Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk). 20:00'den sonra Noel treni videosunu aç > Kaydet > 'Christmas Sleep Windows 🎄' listesine ekle."
+    "not": "Noel treni (4K) 14 Kasım'da yüklendi ve bugün 20:00'de kendiliğinden yayınlanacak; bugün bir şey YÜKLEME. Yayından sonra videonun açıldığını ve Kısıtlamalar sütununda 'Yok' yazdığını kontrol et. Noel treni Shorts'unun (20 Aralık) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra). Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez. 20:00'den sonra Noel treni videosunu aç > Kaydet > 'Christmas Sleep Windows 🎄' listesine ekle."
   },
   "2026-12-24": {
     "shorts": [
@@ -167,7 +167,7 @@
       "15-rainy-bookshop",
       "shorts"
     ],
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2026-12-31": {
     "shorts": [
@@ -202,7 +202,7 @@
       "18-rainy-greenhouse",
       "shorts"
     ],
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2027-01-07": {
     "shorts": [
@@ -237,7 +237,7 @@
       "20-lake-cabin",
       "shorts"
     ],
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2027-01-14": {
     "shorts": [
@@ -268,7 +268,7 @@
     "not": "Kale kütüphanesi Shorts'unun (17 Ocak) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra)."
   },
   "2027-01-20": {
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez.",
     "shorts": [
       "21-paris-apartment",
       "shorts"
@@ -307,7 +307,7 @@
       "26-mountain-temple",
       "shorts"
     ],
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2027-01-28": {
     "shorts": [
@@ -342,7 +342,7 @@
       "27-snowy-observatory",
       "shorts"
     ],
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2027-02-04": {
     "shorts": [
@@ -377,7 +377,7 @@
       "28-cherry-blossom-teahouse",
       "shorts"
     ],
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2027-02-11": {
     "shorts": [
@@ -408,7 +408,7 @@
     "not": "Kanal teknesi Shorts'unun (14 Şubat) İlgili videosu olarak bugünkü videoyu bağla (yayınlandıktan sonra). Bu videoyu 'Rain & Fireplace Sounds for Sleep' oynatma listesine ekle."
   },
   "2027-02-17": {
-    "not": "Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk)."
+    "not": "Haftalık tutma verisini (K3) Claude Windsor'dan kendisi çekiyor; ekran görüntüsü gerekmez."
   },
   "2027-02-18": {
     "shorts": [
