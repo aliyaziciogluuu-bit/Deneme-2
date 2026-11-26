@@ -1,23 +1,51 @@
 {
   "dikey": true,
   "baslik": "Baykuş Başını Nasıl Bu Kadar Çeviriyor? 🦉 #shorts",
-  "aciklama": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor; gözleri boru biçiminde ve yuvasında dönemiyor. Bizim boynumuzda yedi omur var, baykuşun boynunda on dört. Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş. Tam hikâye bağlantıda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\n#shorts #baykuş #doğa #içindenbak",
-  "etiketler": ["baykuş", "baykuş başını çevirir mi", "baykuş boynu", "kukumav", "shorts", "doğa"],
-  "ust_yazi": ["BAYKUŞ BOYNU", "İÇİNDEN BAK"],
-  "kaynaklar": [],
+  "aciklama": "Baykuşlar başını tam tur değil, iki yüz yetmiş dereceye kadar çevirebiliyor; gözleri boru biçiminde ve yuvasında dönemiyor. Bizim boynumuzda yedi omur var, baykuşun boynunda on dört (peçeli baykuşta sayıldı). Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş. Tam hikâye bağlantıda: \"Baykuş Uğursuz mu? (Köyün Gece Bekçisi)\"\n\n#shorts #baykuş #doğa #içindenbak",
+  "etiketler": [
+    "baykuş",
+    "baykuş başını çevirir mi",
+    "baykuş boynu",
+    "kukumav",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "BAYKUŞ BOYNU",
+    "İÇİNDEN BAK"
+  ],
+  "kaynaklar": [
+    "Krings ve ark. 2014, PLoS ONE 9(3):e91653 – peçeli baykuşta 14 boyun omuru: https://pmc.ncbi.nlm.nih.gov/articles/PMC3961260"
+  ],
   "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
-  "ambiyans": {"dosya": "../../sesler/gece_cirit.ogg", "seviye": 0.04, "kaynak": ""},
+  "ambiyans": {
+    "dosya": "../../sesler/gece_cirit.ogg",
+    "seviye": 0.04,
+    "kaynak": ""
+  },
   "ana_video": "Baykuş Uğursuz mu? (Köyün Gece Bekçisi)",
   "sahneler": [
     {
       "ad": "Baykuş Başını Nasıl Bu Kadar Çeviriyor? 🦉 #shorts",
       "cumleler": [
-        {"yazi": "Baykuş başını iki yüz yetmiş dereceye kadar çevirebiliyor."},
-        {"yazi": "Çünkü gözleri yuvasında dönemiyor."},
-        {"yazi": "Gözleri top gibi değil, boru biçiminde."},
-        {"yazi": "Bizim boynumuzda yedi omur var."},
-        {"yazi": "Baykuşun boynunda on dört."},
-        {"yazi": "Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş."}
+        {
+          "yazi": "Baykuşlar başını tam tur değil, iki yüz yetmiş dereceye kadar çevirebiliyor."
+        },
+        {
+          "yazi": "Çünkü gözleri yuvasında dönemiyor."
+        },
+        {
+          "yazi": "Gözleri top gibi değil, boru biçiminde."
+        },
+        {
+          "yazi": "Bizim boynumuzda yedi omur var."
+        },
+        {
+          "yazi": "Baykuşların boynunda on dört omur var."
+        },
+        {
+          "yazi": "Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş."
+        }
       ]
     }
   ]
