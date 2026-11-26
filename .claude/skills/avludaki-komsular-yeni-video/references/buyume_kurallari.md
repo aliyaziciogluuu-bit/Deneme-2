@@ -107,3 +107,9 @@ YouTube bir uzun videodan birden çok Shorts çıkarmayı teşvik eder (Studio'd
 - Aynı videonun Shorts'larında **ilk kare her seferinde farklı görsel** (mümkünse gerçek fotoğraf); aynı çizim art arda iki Shorts'un ilk karesi olmaz.
 - **"X yapıyorsa Y değildir" kalıbı haftada en fazla 2**; diğer günler başka açılış (sayı, şaşırtıcı davranış, "bunu bilmiyordun" değil iddia cümlesi).
 - Her Shorts ayrı metin ve ayrı seslendirme; aynı ses dosyası iki Shorts'ta kullanılmaz.
+
+## 16. Küçük kanal dersleri (26 Kasım, kanal sahibi: "ekle"; kaynak: hayvan-kanali/kanal/kucuk_kanallar_2026-11-26.md)
+- Hızlı büyüyen küçük Türkçe hayvan kanalları Shorts ağırlıklı ve seri kalıplı. Shorts 17–45 sn; Aralık'ta en az 4 Shorts 25 sn altı denenir.
+- Seri kimliği şart: aynı kalıp, aynı açılış tipi (iddia), aynı kapanış. Çok video tek başına büyütmüyor.
+- Ayda bir 20–40 dk uzun derleme (mevcut malzeme + yeni bağlantı anlatımı + bölümler). İlki 26 Aralık kış derlemesi.
+- Para kazanma takibinde Shorts yolu da izlenir (1.000 organik abone + 90 günde Shorts eşiği).

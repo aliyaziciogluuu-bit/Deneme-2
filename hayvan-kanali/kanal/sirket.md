@@ -156,3 +156,10 @@ Kanal sahibinin isteği: "Fabrika gibi işlesin, işinde profesyonel çalışanl
 3. **Yoruma Shorts ile yanıt:** izleyici sorusu gelince "yoruma video ile yanıt" Shorts'u (bilgi kontrolünden geçmiş bilgiyle).
 4. **Konu yelpazesi genişledi:** evde/bahçede görülüp "zehirli mi?" diye aranan böcek ve eklembacaklılar da kanala girer (ev örümceği, çıyan, kırkayak, akrep sanılanlar vb.; "Zehirli Sanılanlar" serisi). Güvenlik kritik konularda (akrep, karadul gibi gerçekten tehlikeli türler) resmi sağlık/kurum kaynağı şart.
 5. **Kış derlemesi:** Aralık sonunda "Kışın bahçendeki komşular nerede?" (8–10 dk, mevcut görseller, tamamen yeni anlatım; tekrar eden içerik kuralına dikkat).
+
+## Karar (26 Kasım, kanal sahibi: "ekle") – küçük kanal analizinden Aralık planı
+Kaynak: kanal/kucuk_kanallar_2026-11-26.md (vidIQ).
+1. **Shorts önce:** "… değildir!" serisi sürer (haftada en fazla 2, ters durum kontrolüyle). Aralık'ta en az 4 Shorts 25 sn altında denenir; izlemeye devam oranı 30–40 sn'lik Shorts'larla karşılaştırılır.
+2. **Aylık uzun derleme:** ayda bir 20–40 dk derleme. İlki 26 Aralık: "Kışın Bahçendeki Komşular Nerede?" (mevcut videoların kış bölümleri + yeni bağlantı anlatımı; düşük maliyet). Amaç izlenme saati.
+3. **Tanıtım yerine üretim:** Aralık'ta ücretli tanıtım bütçesi derleme ve Shorts'a gider (27 Kas test sonucu farklı bir şey göstermezse).
+4. **Para kazanma için iki yol izlenir:** (a) 1.000 organik abone + 8.000 saat; (b) 1.000 organik abone + 90 günde Shorts izlenme eşiği. Haftalık raporda ikisi de gösterilir.

@@ -1,104 +1,105 @@
 [
- {
-  "no": 1,
-  "konu": "Sağır yılan",
-  "baslik": "Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)",
-  "durum": "yayında (17 Kasım 2026)",
-  "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
- },
- {
-  "no": 2,
-  "konu": "Ev kertenkelesi (Akdeniz geko)",
-  "baslik": "Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)",
-  "durum": "YouTube'da planlandı: Cuma 20 Kasım 18:00",
-  "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
- },
- {
-  "no": 3,
-  "konu": "Kirpi",
-  "baslik": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Öldürebilirsin)",
-  "durum": "YouTube'da planlandı: Salı 24 Kasım 18:00",
-  "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
- },
- {
-  "no": 4,
-  "konu": "Yarasa",
-  "baslik": "Yarasa Saça Yapışır mı? (Karanlıkta Nasıl Görüyor?)",
-  "durum": "YouTube'da planlandı: Cuma 27 Kasım 18:00",
-  "not": "kuduz bilgisi uzman kaynaktan doğrulanmalı",
-  "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
- },
- {
-  "no": 5,
-  "konu": "Baykuş",
-  "baslik": "Baykuş Uğursuz mu? (Köyün Gece Bekçisi)",
-  "durum": "hazır (18 Kasım, 14/14 test); 20 Kasım izleyici tutma verisine bakıldıktan sonra Salı 1 Aralık 18:00 için planlanacak"
- },
- {
-  "no": 6,
-  "konu": "Karga",
-  "baslik": "Karga Seni Tanıyor mu? Bir Maske, 17 Yıl ve Sönen Öfke",
-  "durum": "sırada"
- },
- {
-  "no": 7,
-  "konu": "Kırlangıç",
-  "baslik": "Kırlangıç Yuvasını Bozmadan Önce Bunu Bil (Her Yıl Aynı Eve Dönüyor)",
-  "durum": "sırada"
- },
- {
-  "no": 8,
-  "konu": "Kara kurbağası",
-  "baslik": "Kurbağaya Dokunursan Siğil Olur mu? (Asıl Tehlike Başka)",
-  "durum": "sırada"
- },
- {
-  "no": 9,
-  "konu": "Yılan ve süt efsanesi",
-  "baslik": "Yılan İneği Sağar mı? (Köy Efsanelerinin Gerçeği)",
-  "durum": "sırada"
- },
- {
-  "no": 10,
-  "konu": "Kör fare",
-  "baslik": "Kör Fare Tarlana Zarar mı Veriyor? (Toprağın Altındaki Mühendis)",
-  "durum": "sırada"
- },
- {
-  "no": 11,
-  "konu": "Semender",
-  "baslik": "Semender Ateşten mi Doğar? (Yağmurdan Sonra Çıkan Siyah-Sarı Hayvan)",
-  "durum": "sırada"
- },
- {
-  "no": 12,
-  "konu": "Bahçedeki yılanlar",
-  "baslik": "Bahçendeki Yılan Zehirli mi? (Uzaktan Güvenle Ayırt Etmenin Yolu)",
-  "durum": "sırada",
-  "not": "güvenlik kritik; herpetolog kaynakları"
- },
- {
-  "no": 13,
-  "konu": "Bahçendeki yılan zehirli mi? (engerek sanılan yılanlar)",
-  "baslik": "Bahçendeki Yılan Zehirli mi? (taslak)",
-  "durum": "15 Aralık Salı 18:00; senaryo bekliyor"
- },
- {
-  "no": 14,
-  "konu": "Ev örümceği",
-  "baslik": "Evdeki Örümcek Zehirli mi? (taslak)",
-  "durum": "19 Aralık önerisi; böcek genişlemesi (24 Kas kararı)"
- },
- {
-  "no": 15,
-  "konu": "Çıyan / kırkayak",
-  "baslik": "Çıyan Isırır mı? (taslak)",
-  "durum": "22 Aralık önerisi; böcek genişlemesi"
- },
- {
-  "no": 16,
-  "konu": "Kış derlemesi",
-  "baslik": "Kışın Bahçendeki Komşular Nerede? (taslak)",
-  "durum": "26 ya da 29 Aralık; derleme, yeni anlatım"
- }
+  {
+    "no": 1,
+    "konu": "Sağır yılan",
+    "baslik": "Bahçende Sağır Yılan Görürsen Önce Bunu Bil! (Yılan Bile Değil)",
+    "durum": "yayında (17 Kasım 2026)",
+    "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
+  },
+  {
+    "no": 2,
+    "konu": "Ev kertenkelesi (Akdeniz geko)",
+    "baslik": "Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)",
+    "durum": "YouTube'da planlandı: Cuma 20 Kasım 18:00",
+    "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
+  },
+  {
+    "no": 3,
+    "konu": "Kirpi",
+    "baslik": "Kirpiye Sakın Süt Verme! (İyilik Yaparken Öldürebilirsin)",
+    "durum": "YouTube'da planlandı: Salı 24 Kasım 18:00",
+    "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
+  },
+  {
+    "no": 4,
+    "konu": "Yarasa",
+    "baslik": "Yarasa Saça Yapışır mı? (Karanlıkta Nasıl Görüyor?)",
+    "durum": "YouTube'da planlandı: Cuma 27 Kasım 18:00",
+    "not": "kuduz bilgisi uzman kaynaktan doğrulanmalı",
+    "shorts": "2 Shorts hazır, testler geçti — tarihler kanal/shorts_plani.md"
+  },
+  {
+    "no": 5,
+    "konu": "Baykuş",
+    "baslik": "Baykuş Uğursuz mu? (Köyün Gece Bekçisi)",
+    "durum": "hazır (18 Kasım, 14/14 test); 20 Kasım izleyici tutma verisine bakıldıktan sonra Salı 1 Aralık 18:00 için planlanacak"
+  },
+  {
+    "no": 6,
+    "konu": "Karga",
+    "baslik": "Karga Seni Tanıyor mu? Bir Maske, 17 Yıl ve Sönen Öfke",
+    "durum": "sırada"
+  },
+  {
+    "no": 7,
+    "konu": "Kırlangıç",
+    "baslik": "Kırlangıç Yuvasını Bozmadan Önce Bunu Bil (Her Yıl Aynı Eve Dönüyor)",
+    "durum": "sırada"
+  },
+  {
+    "no": 8,
+    "konu": "Kara kurbağası",
+    "baslik": "Kurbağaya Dokunursan Siğil Olur mu? (Asıl Tehlike Başka)",
+    "durum": "sırada"
+  },
+  {
+    "no": 9,
+    "konu": "Yılan ve süt efsanesi",
+    "baslik": "Yılan İneği Sağar mı? (Köy Efsanelerinin Gerçeği)",
+    "durum": "sırada"
+  },
+  {
+    "no": 10,
+    "konu": "Kör fare",
+    "baslik": "Kör Fare Tarlana Zarar mı Veriyor? (Toprağın Altındaki Mühendis)",
+    "durum": "sırada"
+  },
+  {
+    "no": 11,
+    "konu": "Semender",
+    "baslik": "Semender Ateşten mi Doğar? (Yağmurdan Sonra Çıkan Siyah-Sarı Hayvan)",
+    "durum": "sırada"
+  },
+  {
+    "no": 12,
+    "konu": "Bahçedeki yılanlar",
+    "baslik": "Bahçendeki Yılan Zehirli mi? (Uzaktan Güvenle Ayırt Etmenin Yolu)",
+    "durum": "sırada",
+    "not": "güvenlik kritik; herpetolog kaynakları"
+  },
+  {
+    "no": 13,
+    "konu": "Bahçendeki yılan zehirli mi? (engerek sanılan yılanlar)",
+    "baslik": "Bahçendeki Yılan Zehirli mi? (taslak)",
+    "durum": "15 Aralık Salı 18:00; senaryo bekliyor"
+  },
+  {
+    "no": 14,
+    "konu": "Ev örümceği",
+    "baslik": "Evdeki Örümcek Zehirli mi? (taslak)",
+    "durum": "19 Aralık önerisi; böcek genişlemesi (24 Kas kararı)"
+  },
+  {
+    "no": 15,
+    "konu": "Çıyan / kırkayak",
+    "baslik": "Çıyan Isırır mı? (taslak)",
+    "durum": "22 Aralık önerisi; böcek genişlemesi"
+  },
+  {
+    "no": 16,
+    "konu": "Kış derlemesi",
+    "baslik": "Kışın Bahçendeki Komşular Nerede? (Kış Derlemesi) (taslak)",
+    "durum": "26 Aralık Cumartesi 18:00 önerisi; 20–40 dk derleme (kanal sahibi 26 Kas: 'ekle'). Kirpi, yarasa, kara kurbağası, semender, sağır yılan, kırlangıç ve baykuşun kış hâlleri; mevcut görüntü ve seslerin kış bölümleri + yeni bağlantı anlatımı + az sayıda yeni görsel. Bölümler zorunlu. Hedef: izlenme saati.",
+    "tur": "aylık uzun derleme"
+  }
 ]
