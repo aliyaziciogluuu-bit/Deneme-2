@@ -1,0 +1,34 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "bas_arkada",
+   "klip": "bas_arkada"
+  },
+  {
+   "n": 1,
+   "gorsel": "goz_yakin",
+   "klip": "goz_yakin"
+  },
+  {
+   "n": 1,
+   "gorsel": "goz_kesit",
+   "klip": "goz_kesit"
+  },
+  {
+   "n": 1,
+   "gorsel": "insan_boyun",
+   "klip": "insan_boyun"
+  },
+  {
+   "n": 1,
+   "gorsel": "baykus_omur",
+   "klip": "baykus_omur"
+  },
+  {
+   "n": 1,
+   "gorsel": "damar",
+   "klip": "damar"
+  }
+ ]
+}

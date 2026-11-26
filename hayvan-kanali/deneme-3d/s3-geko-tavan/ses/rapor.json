@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Duvardaki ev kertenkelesi tavanda baş aşağı yürüyor.",
+  "duyulan": "Duvardaki ev kertenkelesi tavanda baş aşağı yürüyor.",
+  "hata": 0,
+  "sure": 3.68,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Üstelik yapışkan bir sıvı olmadan.",
+  "duyulan": "Üstelik yapışkan bir sıvı olmadan.",
+  "hata": 0,
+  "sure": 1.94,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Sır, parmaklarının altındaki yaprak gibi dizili yastıklarda.",
+  "duyulan": "Sır, parmaklarının altındaki yaprak gibi dizili yastıklarda.",
+  "hata": 0,
+  "sure": 3.88,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu yastıklar, gözle görülmeyecek kadar küçük kıllarla kaplı.",
+  "duyulan": "Bu yastıklar gözle görülmeyecek kadar küçük kıllarla kaplı.",
+  "hata": 0,
+  "sure": 4.1,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Her kılın ucu da daha küçük uçlara ayrılıyor.",
+  "duyulan": "Her kılın ucu da daha küçük uçlara ayrılıyor.",
+  "hata": 0,
+  "sure": 2.6,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Milyonlarca uçtaki zayıf moleküler çekim, onu tavanda tutuyor.",
+  "duyulan": "milyonlarca uçtaki zayıf moleküler çekim onu tavanda tutuyor.",
+  "hata": 0,
+  "sure": 4.28,
+  "uygun": true
+ }
+}
