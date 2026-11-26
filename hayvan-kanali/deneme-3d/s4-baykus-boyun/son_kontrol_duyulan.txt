@@ -1,0 +1,6 @@
+000 fark=0 | Baykuşlar başını tam tur değil, iki yüz yetmiş dereceye kadar çevirebiliyor. || Baykuşlar başını tam tur değil, 270 dereceye kadar çevirebiliyor.
+001 fark=0 | Çünkü gözleri yuvasında dönemiyor. || Çünkü gözleri yuvasında dönemiyor.
+002 fark=0 | Gözleri top gibi değil, boru biçiminde. || Gözleri top gibi değil, boru biçiminde.
+003 fark=0 | Bizim boynumuzda yedi omur var. || Bizim boynumuzda 7 omur var.
+004 fark=0 | Baykuşların boynunda on dört omur var. || Baykuşların boynunda 14 omur var.
+005 fark=0 | Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş. || Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş.

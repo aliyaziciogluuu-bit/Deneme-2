@@ -1,0 +1,6 @@
+000 fark=0 | Duvardaki ev kertenkelesi tavanda baş aşağı yürüyor. || Duvardaki ev kertenkelesi tavanda baş aşağı yürüyor.
+001 fark=0 | Üstelik yapışkan bir sıvı olmadan. || Üstelik yapışkan bir sıvı olmadan.
+002 fark=0 | Sır, parmaklarının altındaki yaprak gibi dizili yastıklarda. || Sır, parmaklarının altındaki yaprak gibi dizili yastıklarda.
+003 fark=0 | Bu yastıklar, gözle görülmeyecek kadar küçük kıllarla kaplı. || Bu yastıklar gözle görülmeyecek kadar küçük kıllarla kaplı.
+004 fark=0 | Her kılın ucu da daha küçük uçlara ayrılıyor. || Her kılın ucu da daha küçük uçlara ayrılıyor.
+005 fark=0 | Milyonlarca uçtaki zayıf moleküler çekim, onu tavanda tutuyor. || Milyonlarca uçtaki zayıf moleküler çekim onu tavanda tutuyor.

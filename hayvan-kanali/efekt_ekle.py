@@ -38,7 +38,7 @@ def main():
     sahne_bas = [0.0] + kesimler
     olaylar = [("pop.wav", 0.0, g.seviye + 2)]
     for i, t in enumerate(kesimler):
-        olaylar.append(("whoosh.wav" if i % 2 == 0 else "whoosh_ters.wav", max(t - 0.28, 0), g.seviye))
+        olaylar.append(("whoosh.wav" if i % 2 == 0 else "whoosh_ters.wav", max(t - 0.12, 0), g.seviye))  # konuşma bittikten sonra başlasın (ara/2 = 0,175 sn)
     for n in [int(x) for x in g.parilti.split(",") if x.strip()]:
         if 1 <= n <= len(sahne_bas):
             olaylar.append(("parilti.wav", sahne_bas[n - 1] + 0.1, g.seviye - 4))
