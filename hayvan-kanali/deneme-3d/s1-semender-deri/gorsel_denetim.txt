@@ -1,0 +1,4 @@
+deri_yakin: KABUL (kalite kontrol sonrası, 26 Kas)
+nemli_orman: KABUL (kalite kontrol sonrası, 26 Kas)
+zehir_kesit: KABUL (kalite kontrol sonrası, 26 Kas)
+el_yika: KABUL (kalite kontrol sonrası, 26 Kas)

@@ -1,0 +1,6 @@
+bas_arkada: KABUL (kalite kontrol sonrası, 26 Kas)
+goz_yakin: KABUL (kalite kontrol sonrası, 26 Kas)
+goz_kesit: KABUL (kalite kontrol sonrası, 26 Kas)
+insan_boyun: KABUL (kalite kontrol sonrası, 26 Kas)
+baykus_omur: KABUL (kalite kontrol sonrası, 26 Kas)
+damar: KABUL (kalite kontrol sonrası, 26 Kas)

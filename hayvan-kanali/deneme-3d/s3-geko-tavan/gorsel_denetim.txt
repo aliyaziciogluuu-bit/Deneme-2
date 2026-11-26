@@ -1,0 +1,6 @@
+tavan: KABUL (kalite kontrol sonrası, 26 Kas)
+ayak_cam: KABUL (kalite kontrol sonrası, 26 Kas)
+lamel: KABUL (kalite kontrol sonrası, 26 Kas)
+kil: KABUL (kalite kontrol sonrası, 26 Kas)
+uclar: KABUL (kalite kontrol sonrası, 26 Kas)
+tavan2: KABUL (kalite kontrol sonrası, 26 Kas)

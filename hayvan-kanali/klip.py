@@ -5,6 +5,9 @@ Kullanım:
   python klip.py 01-sagir-yilan --onay     # harcamayı onaylar
   python klip.py 01-sagir-yilan --onay goz # yalnızca adı verilen klibi (yeniden) üretir
 
+Bütçe koruması: <video>/gorsel_denetim.txt içinde her görsel için "ad: KABUL" satırı yoksa klip üretilmez
+(görsel denetçisi onaylamadan klip yok; zorunlu istisna için --denetimsiz).
+
 Girdi:  <video>/klipler.json  {"klipler": [{"ad": "goz", "gorsel": "goz", "istem": "...", "sure": 5}]}
 Çıktı:  <video>/klipler/<ad>.mp4  →  cekimler.json'da bir çekime "klip": "<ad>" yazınca video.py görsel yerine klibi oynatır.
 
@@ -60,6 +63,18 @@ def main():
         return
     if "--onay" not in arg:
         raise SystemExit("Harcama yapılmadı. Onaylıyorsan aynı komutu --onay ile çalıştır.")
+    # Bütçe koruması (26 Kasım, kanal sahibi: "hataları önceden görün, bütçeyi boşuna harcamayalım"):
+    # klip görselden ~6 kat pahalı; görsel denetçisinin KABUL etmediği görselden klip üretilmez.
+    denetim = klasor / "gorsel_denetim.txt"
+    kabul = set()
+    if denetim.exists():
+        for satir in denetim.read_text(encoding="utf-8").splitlines():
+            if ":" in satir and "KABUL" in satir.split(":", 1)[1].upper():
+                kabul.add(satir.split(":", 1)[0].strip())
+    eksik = [k["gorsel"] for k in liste if k["gorsel"] not in kabul]
+    if eksik and "--denetimsiz" not in arg:
+        raise SystemExit(f"Harcama yapılmadı: şu görseller için gorsel_denetim.txt'de KABUL yok: {', '.join(sorted(set(eksik)))}. "
+                         "Önce avlu-gorsel-denetci'ye denetlet ve 'ad: KABUL' satırlarını yaz.")
     for k in liste:
         girdi = {"prompt": k["istem"], "start_image": veri_adresi(next((klasor / "gorseller").glob(k["gorsel"] + ".*"))),
                  "duration": k.get("sure", 5), "negative_prompt": OLUMSUZ}

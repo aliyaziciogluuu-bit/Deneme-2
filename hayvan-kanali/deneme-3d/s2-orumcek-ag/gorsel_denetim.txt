@@ -1,0 +1,3 @@
+karin_ic: KABUL (kalite kontrol sonrası, 26 Kas)
+ag: KABUL (kalite kontrol sonrası, 26 Kas)
+ag_yeme: KABUL (kalite kontrol sonrası, 26 Kas)
