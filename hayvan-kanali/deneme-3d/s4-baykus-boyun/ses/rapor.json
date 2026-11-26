@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Baykuşlar başını tam tur değil, iki yüz yetmiş dereceye kadar çevirebiliyor.",
+  "duyulan": "Baykuşlar başını tam tur değil, 270 dereceye kadar çevirebiliyor.",
+  "hata": 0,
+  "sure": 4.32,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Çünkü gözleri yuvasında dönemiyor.",
+  "duyulan": "Çünkü gözleri yuvasında dönemiyor.",
+  "hata": 0,
+  "sure": 1.9,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Gözleri top gibi değil, boru biçiminde.",
+  "duyulan": "gözleri top gibi değil, boru biçiminde.",
+  "hata": 0,
+  "sure": 2.24,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bizim boynumuzda yedi omur var.",
+  "duyulan": "Bizim boynumuzda 7 omur var.",
+  "hata": 0,
+  "sure": 1.88,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Baykuşların boynunda on dört omur var.",
+  "duyulan": "Baykuşların boynunda 14 omur var.",
+  "hata": 0,
+  "sure": 2.52,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş.",
+  "duyulan": "Damarları da başı dönerken beyne giden kanı kesmeyecek şekilde gelişmiş.",
+  "hata": 0,
+  "sure": 4.06,
+  "uygun": true
+ }
+}

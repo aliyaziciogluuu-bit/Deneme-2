@@ -1,10 +1,35 @@
-{ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
  "gorseller": [
-  {"ad": "tavan", "oran": "9:16", "istem": "A pale, slightly translucent Mediterranean house gecko with small bumps on its skin, big eyes with vertical pupils, walking upside down on a white ceiling next to a glowing lamp at night, seen from below, its four legs spread and each foot with five wide toes gripping the ceiling."},
-  {"ad": "ayak_cam", "oran": "9:16", "istem": "Seen through a clear window pane from the other side: the pale underside of a Mediterranean house gecko pressed against the glass at night, close-up of its feet with five wide toes each, the toes showing rows of fine pads pressed flat on the glass, warm room light behind."},
-  {"ad": "lamel", "oran": "9:16", "istem": "Extreme macro 3D close-up of the underside of a single gecko toe: rows of thin, curved, leaf-like pads (lamellae) stacked like the gills of a mushroom, soft cream color, glistening, dark background with soft rim light."},
-  {"ad": "kil", "oran": "9:16", "istem": "Microscopic 3D science visualization: the surface of a gecko toe pad magnified thousands of times, revealing a dense forest of tiny thin hair-like bristles all leaning in the same direction, cream and pale gold, soft bluish rim light, like an electron microscope image rendered in color."},
-  {"ad": "uclar", "oran": "9:16", "istem": "Microscopic 3D science visualization: the tip of a single tiny bristle branching into hundreds of even tinier flat spatula-shaped tips that touch a smooth flat glass surface, tiny soft glowing points where the tips touch the surface, cream bristle, dark blue background."},
-  {"ad": "tavan2", "oran": "9:16", "istem": "Dramatic low angle: a pale, slightly translucent Mediterranean house gecko with big eyes and vertical pupils hanging upside down from a white ceiling corner, looking down at the viewer, four legs and five toes on each foot clearly visible, warm lamp light, night."}
+  {
+   "ad": "tavan",
+   "oran": "9:16",
+   "istem": "View from below looking straight up at a white ceiling at night: a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big eyes with vertical pupils, four short legs, five wide toes on each foot, a long tail) lying completely flat against the ceiling, belly pressed to the ceiling, all four legs spread out and all four feet flat on the ceiling, upside down, next to a glowing round ceiling lamp."
+  },
+  {
+   "ad": "ayak_cam",
+   "oran": "9:16",
+   "istem": "View through a clear window pane from the outside at night: the pale belly of a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big eyes with vertical pupils, four short legs, five wide toes on each foot, a long tail) pressed flat against the glass, all four feet spread flat on the glass, wide toe pads clearly visible pressed on the glass, warm room light behind."
+  },
+  {
+   "ad": "lamel",
+   "oran": "9:16",
+   "istem": "Extreme macro 3D close-up of the underside of a gecko's foot with five wide toes spread out, each toe pad covered by a row of thin transverse ridged plates stacked like the gills of a mushroom or piano keys, pale cream color, soft rim light, dark background."
+  },
+  {
+   "ad": "kil",
+   "oran": "9:16",
+   "istem": "Microscopic 3D science visualization: the surface of a gecko toe pad magnified thousands of times, revealing a dense forest of tiny thin hair-like bristles all leaning in the same direction, cream and pale gold, soft bluish rim light, like an electron microscope image rendered in color."
+  },
+  {
+   "ad": "uclar",
+   "oran": "9:16",
+   "istem": "Microscopic 3D science visualization: the tip of a single tiny bristle branching into hundreds of even tinier flat spatula-shaped tips that touch a smooth flat glass surface, tiny soft glowing points where the tips touch the surface, cream bristle, dark blue background."
+  },
+  {
+   "ad": "tavan2",
+   "oran": "9:16",
+   "istem": "Dramatic low-angle view from below: a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big eyes with vertical pupils, four short legs, five wide toes on each foot, a long tail) lying flat upside down on a white ceiling corner at night, head turned to look down at the viewer, all four feet flat on the ceiling, tail curved, warm lamp light."
+  }
  ]
 }
