@@ -37,12 +37,12 @@
     "not": "YAPILDI (24 Kasım): Karlı kütüphane POV Shorts'u 19:30'da yayınlandı (kullanıcı 20:36'da gördü)."
   },
   "2026-11-25": {
-    "not": "Çatı katı 4K uzun videosu 17 Kasım'da yüklendi, bugün 20:00'de kendiliğinden yayınlanacak (tekrar yükleme). 20:00'den sonra bu videoya şu yorumu yazıp sabitle: \"Where are you listening from tonight? 🌙 Sleep well.\" Çatı katı Shorts'unun (19 Kasım) İlgili videosu olarak bugünkü çatı katı videosunu bağla. Haftalık tutma verisi (onaylanan öneri K3): Studio > Analytics > İçerik'te son 7 günün en çok izlenen 2 uzun videosuna gir; 'Ortalama izleme süresi' ve 'İzleyici tutma' grafiğinin ekran görüntüsünü Claude'a gönder (5–15 dk).",
+    "not": "YAPILDI: Çatı katı 4K uzun videosu yayınlandı, sabit yorum yazıldı; 19 Kasım Shorts'u 26 Kasım'da bağlandı.",
     "planli_shorts": true
   },
   "2026-11-26": {
     "planli_shorts": true,
-    "not": "Bugünkü Shorts'un İlgili videosu boş (Çatı katı dün yayınlandığı için yüklemede seçilemedi): 19:30'dan önce Studio'da Shorts'u aç, İlgili video olarak Çatı katı 3 saatlik videosunu bağla."
+    "not": "YAPILDI (26 Kasım, bilgisayardaki Claude): bugünkü ve 19 Kasım Çatı katı Shorts'ları Çatı katı 4K uzun videosuna bağlandı; sabit yorum zaten vardı."
   },
   "2026-11-27": {
     "planli_shorts": true
