@@ -1,0 +1,5 @@
+000 fark=0 | Taşın altından fırlayan çıyanın kaç bacağı var? || Taşın altından fırlayan çıyanın kaç bacağı var?
+001 fark=0 | Gövdesi vagon dizisi gibi; çoğu bölümde bir çift bacak var. || Gövdesi vagon dizisi gibi. Çoğu bölümde bir çift bacak var.
+002 fark=0 | Bilinen çıyanlarda bacak çiftlerinin sayısı hep tek; bu yüzden hiçbir çıyanın tam yüz bacağı olmaz. || Bilinen çıyanlarda bacak çiftlerinin sayısı hep tek. Bu yüzden hiçbir çıyanın tam 100 bacağı olmaz.
+003 fark=0 | Öndeki bacak çifti zehir kıskacına dönüşmüş. || Öndeki bacak çifti zehir kıskacına dönüşmüş.
+004 fark=1 | Isırık çocuklarda ve arı alerjisi olanlarda tehlikeli olabilir; nefes darlığı ya da ağır belirti olursa sağlık kuruluşuna başvur. || Isırık çocuklarda ve arı alerjisi olanlarda tehlikeli olabilir. Nefes darlığı ya da ağır belirte olursa sağlık kuruluşuna başvur.

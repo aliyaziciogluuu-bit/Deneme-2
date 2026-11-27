@@ -1,0 +1,5 @@
+000 fark=1 | Sineğe elini uzattığında, neden çoğu zaman tam zamanında kaçıyor? || Sine elini uzattığında neden çoğu zaman tam zamanında kaçıyor?
+001 fark=0 | Sanki dünyaya senden hızlı bir kamerayla bakıyor. || Sanki dünyaya senden hızlı bir kamera ile bakıyor.
+002 fark=0 | Karasinek görüntüleri insandan çok daha hızlı işliyor; bu yüzden senin elin ona ağır çekimde geliyormuş gibi görünüyor. || Karasinek görüntüleri insandan çok daha hızlı işliyor. Bu yüzden senin elin ona ağır çekimde geliyormuş gibi görünüyor.
+003 fark=0 | Başında iki büyük petek göz, ayrıca üç küçük basit göz var. || Başında iki büyük petek göz, ayrıca üç küçük basit göz var.
+004 fark=0 | İşte sineğin elinden kaçabilmesinin bir sebebi bu. || İşte sineğin elinden kaçabilmesinin bir sebebi bu.

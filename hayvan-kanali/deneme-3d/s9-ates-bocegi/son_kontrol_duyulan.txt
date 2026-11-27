@@ -1,0 +1,6 @@
+000 fark=0 | Yaz akşamı bahçede yanıp sönen ateş böceği neden parlıyor? || Yaz akşamı bahçede yanıp sönen ateş böceği neden parlıyor?
+001 fark=0 | Sanki karnında minik bir fener taşıyor. || Sanki karnında minik bir fener taşıyor.
+002 fark=1 | Bu ışık, böceğin vücudundaki bir maddenin enzim ve oksijenle tepkimesinden çıkıyor. || Bu ışık, böceğin vücudundaki bir maddenin enzin ve oksijenle tepkimesinden çıkıyor.
+003 fark=0 | Yetişkinlerde ışık çoğunlukla eş bulmaya yarıyor. || Yetişkinlerde ışık çoğunlukla eş bulmaya yarıyor.
+004 fark=0 | Üstelik ateş böceği larvaları da parlıyor; larvadaki ışığın yırtıcılara uyarı olduğu düşünülüyor. || Üstelik ateş böceği larvaları da parlıyor. Larvadaki ışığın yırtıcılara uyarı olduğu düşünülüyor.
+005 fark=0 | Yani o minik fener, bir tepkimeden doğan ışık. || Yani o minik fener, bir tepkimeden doğan ışık.

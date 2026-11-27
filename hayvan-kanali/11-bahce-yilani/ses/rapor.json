@@ -173,5 +173,306 @@
   "hata": 1,
   "sure": 3.92,
   "uygun": true
+ },
+ "025": {
+  "yazi": "Peki Türkiye'de gerçekten tehlikeli olanlar hangileri?",
+  "duyulan": "Peki Türkiye'de gerçekten tehlikeli olanlar hangileri?",
+  "hata": 0,
+  "sure": 3.24,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Bir derleme, en sık karşılaşılan zehirli yılanların engerekler olduğunu yazıyor.",
+  "duyulan": "Bir derleme, en sık karşılaşılan zehirli yılanların en gerekler olduğunu yazıyor.",
+  "hata": 0,
+  "sure": 4.6,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Boynuzlu engerekte sırtta koyu zikzak desen var; burun ucunda yukarı bakan küçük bir çıkıntı bulunuyor.",
+  "duyulan": "Boynuzlu engerekte, sırtta koyu zikzak desen var. Bunun ucunda yukarı bakan küçük bir çıkıntı bulunuyor.",
+  "hata": 1,
+  "sure": 6.34,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Şeritli engerek, diğer adıyla Osmanlı engereği; sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
+  "duyulan": "Şeritli engerek, diğer adıyla Osmanlı engeli, sırtındaki büyük benekler ziksaklı bir şerit oluşturabiliyor.",
+  "hata": 2,
+  "sure": 6.36,
+  "uygun": false
+ },
+ "029": {
+  "yazi": "Koca engerek, bir derlemeye göre Türkiye'de yaşayan yılanların en zehirlisi; boyu iki metreye kadar çıkabiliyor.",
+  "duyulan": "Koca engerek, bir derlemeye göre Türkiye'de yaşayan yılanların en zehirlisi. Boyu 2 metreye kadar çıkabiliyor.",
+  "hata": 0,
+  "sure": 6.68,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Vikipedi onun ovalarda, bahçelerde ve tarlalarda yaşadığını yazıyor.",
+  "duyulan": "Wikipedia onun ovalarda, bahçelerde ve tarlalarda yaşadığını yazıyor.",
+  "hata": 1,
+  "sure": 4.32,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Hangisi senin yörende yaşıyor?",
+  "duyulan": "hangisi senin yörende yaşıyor?",
+  "hata": 0,
+  "sure": 1.9,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Boynuzlu engerek, bir tıp yazısına göre, Trakya'nın kuzeyinde, Batı-Güney Anadolu bölgesinde, kuzeydoğuda ve doğuda yayılmış.",
+  "duyulan": "Boynuzlu engerek bir tıp yazısına göre Trakya'nın kuzeyinde, batı Güney Anadolu bölgesinde, kuzey doğuda ve doğuda yayılmış.",
+  "hata": 0,
+  "sure": 7.68,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Derlemeye göre şeritli engerek Ege, Akdeniz ve Orta Anadolu'da, koca engerek Adana çevresi, güneydoğu ve doğuda görülüyor.",
+  "duyulan": "Derlemeye göre Şeritli Engerek, Ege, Akdeniz ve Orta Anadolu'da. Koca Engerek, Adana çevresi, Güneydoğu ve Doğu'da görülüyor.",
+  "hata": 0,
+  "sure": 8.08,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Bu yılanlar seni ne zaman ısırıyor?",
+  "duyulan": "Bu yılanlar seni ne zaman ısırıyor?",
+  "hata": 0,
+  "sure": 1.96,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Vikipedi, şeritli engereğin çok yaklaşıldığında önce tıslayarak uyardığını, üzerine basılırsa ısırabildiğini yazıyor.",
+  "duyulan": "Wikipedia, şeritli engereğin çok yaklaşıldığında önce tıslayarak uyardığını üzerine basılırsa ısırabildiğini yazıyor.",
+  "hata": 1,
+  "sure": 6.68,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Bir derleme, engerek zehirlerinin çok şiddetli etki yapabildiğini yazıyor.",
+  "duyulan": "Bir derleme, engerek sehirlerinin çok şiddetli etki yapabildiğini yazıyor.",
+  "hata": 1,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Rize'deki bir hastanede yapılan çalışmada, yılan ısırığıyla gelen yirmi yedi kişinin yirmi altısında ısırık ayağın üstündeydi.",
+  "duyulan": "Rize'deki bir hastanede yapılan çalışmada yılan ısırığı ile gelen 27 kişinin 26'sında ısırık ayağın üstündeydi.",
+  "hata": 0,
+  "sure": 7.28,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Peki bahçendeki yılanın zehirli olup olmadığını uzaktan nasıl anlarsın?",
+  "duyulan": "Peki bahçendeki yılanın zehirli olup olmadığını uzaktan nasıl anlarsın?",
+  "hata": 0,
+  "sure": 3.88,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Türkçe Vikipedi, amatörlerin yılanı görünüşüne bakarak ayırmasının zor olduğunu yazıyor.",
+  "duyulan": "Türkçe Wikipedia, amatörlerin yılanı görünüşüne bakarak ayırmasının zor olduğunu yazıyor.",
+  "hata": 1,
+  "sure": 4.7,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Missouri'deki sürüngen uzmanı da emin olamıyorsan yılanı rahat bırakmanı söylüyor.",
+  "duyulan": "Misurideki sürüngen uzmanı da emin olamıyorsan yılanı rahat bırakmanı söylüyor.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Aynı uzman, yılanı öldürmeye çalışırken ısırılma ihtimalinin daha yüksek olduğunu söylüyor.",
+  "duyulan": "Aynı uzman, yılanı öldürmeye çalışırken ısırılma ihtimalinin daha yüksek olduğunu söylüyor.",
+  "hata": 0,
+  "sure": 5.0,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Anadolu'da da benzer bir inanış var: Rize'de evin çevresinde sürekli görülen yılanı öldürmek tabudur.",
+  "duyulan": "Anadolu'da da benzer bir inanış var. Rize'de evin çevresinde sürekli görülen yılanı öldürmek tabudur.",
+  "hata": 0,
+  "sure": 5.64,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Diyarbakır'da yılanın bağ ve bahçeleri koruduğuna inanılır; halk onu rahatsız etmekten çekinir.",
+  "duyulan": "Diyarbakır'da yılanın bağı ve bahçeleri koruduğuna inanılır. Halk onu rahatsız etmekten çekinir.",
+  "hata": 1,
+  "sure": 5.0,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Bunları bilimsel kanıt diye sunmuyoruz, ama vardıkları sonuç uzmanın önerisine yakın.",
+  "duyulan": "Bunları bilimsel kanıt diye sunmuyoruz ama vardıkları sonuç uzmanın önerisine yakın.",
+  "hata": 0,
+  "sure": 4.58,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Zehirli bir engereği bile öldürmek gerekir mi?",
+  "duyulan": "zehirli bir engereyi bile öldürmek gerekir mi?",
+  "hata": 1,
+  "sure": 2.24,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Vikipedi, boynuzlu engereğin de kemiricilerle beslendiği için yararlı olduğunu yazıyor.",
+  "duyulan": "Wikipedia, boynuzlu engereğin de kemiricilerle beslendiği için yararlı olduğunu yazıyor.",
+  "hata": 1,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma.",
+  "duyulan": "Bize göre mesafeni koru ve yılanı izle. Fotoğraf çekmek için bile yaklaşma.",
+  "hata": 0,
+  "sure": 4.58,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Ona dokunma; yakalamaya ya da öldürmeye çalışma.",
+  "duyulan": "Ona dokunma, yakalamaya ya da öldürmeye çalışma.",
+  "hata": 0,
+  "sure": 2.88,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne danış.",
+  "hata": 0,
+  "sure": 4.29,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir; sağır yılan dediğimiz kertenkeleyi önceki videomuzda anlattık.",
+  "duyulan": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir. Sahar yılan dediğimiz kertenkeleyi önceki videomuzda anlattık.",
+  "hata": 1,
+  "sure": 6.92,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Bir yılan seni ısırırsa ne yapmalısın?",
+  "duyulan": "Bir yılan seni ısırırsa ne yapmalısın?",
+  "hata": 0,
+  "sure": 1.92,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırığın olduğu yerden hemen uzaklaş.",
+  "duyulan": "Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırın olduğu yerden hemen uzaklaş.",
+  "hata": 1,
+  "sure": 4.72,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar; şişlik olursa zarar verebilirler.",
+  "duyulan": "Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar. Şişlik olursa zarar verebilirler.",
+  "hata": 0,
+  "sure": 4.64,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez.",
+  "duyulan": "Birçok ısırık zehirsiz yılanlardan gelir. Ama hangisi olduğuna karar vermek sana düşmez.",
+  "hata": 0,
+  "sure": 4.76,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Isırılan yeri hiç oynatma; mümkünse atelle sabitle ve kişiyi yürütmeden taşı.",
+  "duyulan": "Isırılan yeri hiç oynatma, mümkünse aterle sabitle ve kişiyi yürütmeden taşı.",
+  "hata": 1,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir.",
+  "duyulan": "Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş. Panzehir ancak orada verilebilir.",
+  "hata": 0,
+  "sure": 4.87,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.",
+  "duyulan": "yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.",
+  "hata": 0,
+  "sure": 3.74,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Bitkisel ya da geleneksel yöntemlere de başvurma.",
+  "duyulan": "bitkisel ya da geleneksel yöntemlere de başvurma.",
+  "hata": 0,
+  "sure": 2.52,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Çocuklar, küçük vücutları yüzünden daha ağır etkilenebiliyor. Küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 6.44,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Rize'deki hastanede yapılan çalışmada ısırılanların hepsi bilinci açık gelmişti; yine de ikisinde bayılma ve tansiyon düşmesi görüldü.",
+  "duyulan": "Rize'deki hastanede yapılan çalışmada ısırılanların hepsi bilinci açık gelmişti. Yine de ikisinde bayılma ve tansiyon düşmesi görüldü.",
+  "hata": 0,
+  "sure": 7.16,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Hastaneler gerekirse Ulusal Zehir Danışma Merkezi'ne danışabiliyor.",
+  "duyulan": "Hastaneler gerekirse Ulusal Zehir Danışma Merkezi'ne danışabiliyor.",
+  "hata": 0,
+  "sure": 3.43,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Bir vaka raporunda yılanın türünü o merkez belirlemiş, panzehir de oradan istenmiş.",
+  "duyulan": "Bir vaka raporunda yılanın türünü o merkez belirlemiş, panzahir de oradan istenmiş.",
+  "hata": 1,
+  "sure": 4.58,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Özetle baş şekli ve göz bebeği tek başına yetmiyor; zehirsiz yılanların da başı geniş, sırtı lekeli olabiliyor.",
+  "duyulan": "Özetle, baş şekli ve göz bebeği tek başına yetmiyor. Zehirsiz yılanların da başı geniş, sırtı lekeli olabiliyor.",
+  "hata": 0,
+  "sure": 7.22,
+  "uygun": true
+ },
+ "064": {
+  "yazi": "Senin yörende engereğe ne derler, bahçende en son hangi yılanı gördün?",
+  "duyulan": "Senin yörende engereye ne derler, bahçende en son hangi yılanı gördün?",
+  "hata": 1,
+  "sure": 4.5,
+  "uygun": true
+ },
+ "065": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "hata": 0,
+  "sure": 5.0,
+  "uygun": true
+ },
+ "066": {
+  "yazi": "Sıradaki komşu: evdeki örümcek zehirli mi, ve hangisinden gerçekten uzak durmalısın?",
+  "duyulan": "Sıradaki komşu, evdeki örümcek zehirli mi? Ve hangisinden gerçekten uzak durmalısın?",
+  "hata": 0,
+  "sure": 5.82,
+  "uygun": true
+ },
+ "067": {
+  "yazi": "Komşunu tanı.",
+  "duyulan": "Komşunu tanı.",
+  "hata": 0,
+  "sure": 0.8,
+  "uygun": true
  }
 }

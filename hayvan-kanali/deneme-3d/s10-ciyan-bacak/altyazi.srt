@@ -1,0 +1,55 @@
+1
+00:00:00,700 --> 00:00:02,010
+Taşın altından fırlayan
+
+2
+00:00:02,010 --> 00:00:03,565
+çıyanın kaç bacağı var?
+
+3
+00:00:03,670 --> 00:00:05,302
+Gövdesi vagon dizisi gibi;
+
+4
+00:00:05,302 --> 00:00:07,555
+çoğu bölümde bir çift bacak var.
+
+5
+00:00:07,660 --> 00:00:09,910
+Bilinen çıyanlarda bacak çiftlerinin
+
+6
+00:00:09,910 --> 00:00:10,848
+sayısı hep tek;
+
+7
+00:00:10,848 --> 00:00:12,348
+bu yüzden hiçbir çıyanın
+
+8
+00:00:12,348 --> 00:00:13,905
+tam yüz bacağı olmaz.
+
+9
+00:00:14,010 --> 00:00:15,031
+Öndeki bacak çifti
+
+10
+00:00:15,031 --> 00:00:16,695
+zehir kıskacına dönüşmüş.
+
+11
+00:00:16,800 --> 00:00:18,785
+Isırık çocuklarda ve arı alerjisi
+
+12
+00:00:18,785 --> 00:00:20,530
+olanlarda tehlikeli olabilir;
+
+13
+00:00:20,530 --> 00:00:22,455
+nefes darlığı ya da ağır belirti
+
+14
+00:00:22,455 --> 00:00:24,630
+olursa sağlık kuruluşuna başvur.

@@ -1,0 +1,5 @@
+000 fark=0 | Koluna konan işçi bal arısı seni sokunca neden ölüyor? || Koluna konan işçi bal arısı seni sokunca neden ölüyor?
+001 fark=1 | İşçi bal arısının iğnesi, kancalı bir olta ucu gibi dikenli. || İşçi bal arısının iğnesi, kancalı bir oltu ucu gibi dikenli.
+002 fark=0 | Deriye saplanınca geri çıkmıyor; iğne arının karnından kopuyor. || Deriye saplanınca geri çıkmıyor, iğne arının karnından kopuyor.
+003 fark=0 | Kopan iğnenin kas ve sinir düğümü var; arıdan ayrılsa da zehir vermeyi sürdürüyor. || Kopan iğnenin kas ve sinir düğümü var, arıdan ayrılsa da zehir vermeyi sürdürüyor.
+004 fark=0 | Sokulursan, nefes darlığı ya da yüzde ya da boğazda şişme olursa, vakit kaybetmeden sağlık kuruluşuna başvur. || Sokulursan, nefes darlığı ya da yüzde ya da boğazda şişme olursa, vakit kaybetmeden sağlık kuruluşuna başvur.
