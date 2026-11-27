@@ -37,11 +37,19 @@ def curl(*arg, cikti=None):
     return None if cikti else json.loads(r.stdout)
 
 
-def uret(klasor, liste, onay, stil=STIL):
+def uret(klasor, liste, onay, stil=STIL, yeniden=False):
     adaylar = klasor / "adaylar"
     adaylar.mkdir(exist_ok=True)
-    adet = sum(g.get("aday", ADAY) for g in liste)
-    print(f"{len(liste)} görsel, {adet} aday, tahmini maliyet ≈ {adet * FIYAT:.2f} $")
+    if yeniden and onay:  # adı verilen görselin eski adayları ret/ klasörüne taşınır; yoksa var olan dosya atlanır ve hiçbir şey üretilmez (27 Kasım dersi)
+        ret = adaylar / "ret"
+        ret.mkdir(exist_ok=True)
+        damga = time.strftime("%m%d_%H%M")
+        for g in liste:
+            for eski in adaylar.glob(f"{g['ad']}_[0-9]*.jpg"):
+                eski.rename(ret / f"{eski.stem}_{damga}.jpg")
+    adet = sum(1 for g in liste for n in range(1, g.get("aday", ADAY) + 1)
+               if yeniden or not (adaylar / f"{g['ad']}_{n}.jpg").exists())
+    print(f"{len(liste)} görsel, {adet} aday üretilecek, tahmini maliyet ≈ {adet * FIYAT:.2f} $")
     if not onay:
         raise SystemExit("Harcama yapılmadı. Onaylıyorsan aynı komutu --onay ile çalıştır.")
     for g in liste:
@@ -122,7 +130,7 @@ def main():
     else:
         liste = [g for g in tanim if not list((klasor / "adaylar").glob(f"{g['ad']}_*.jpg"))]
     if liste:
-        uret(klasor, liste, "--onay" in arg, stil)
+        uret(klasor, liste, "--onay" in arg, stil, yeniden=bool(adlar))
     secim_sayfasi(klasor, [g["ad"] for g in tanim])
 
 
