@@ -307,7 +307,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S14 – Ağustos Böceği Nasıl Ötüyor? 🎶
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Ağustos Böceği Nasıl Ötüyor? 🎶
 - Kelime: 50; cümle: 5; tahmini süre ≈ 22 sn
 - Kapsam: ağustos böcekleri (Cicadidae); ses organı "çoğu türde" bu zarlardır, belirgin ötüşü "yalnızca erkekler" çıkarır (kaynakta istisna türler var: bazı türlerde kanat sürtmesi, bir türde iki cinsiyet de ses çıkarır; metin bu istisnaları söylemiyor, kapsam notunda duruyor). Desibel ve işitme kaybı bilgisi bilerek yazılmadı.
@@ -339,12 +339,12 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S15 – Kelebek Kanadındaki Toz Nedir? 🦋
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Kelebek Kanadındaki Toz Nedir? 🦋
 - Kelime: 46; cümle: 5; tahmini süre ≈ 20 sn
-- Kapsam: kelebekler ve güveler (Lepidoptera, pul kanatlılar); ağdan kurtulma deneyi güvelerle yapılmış, kelebeklere genellenmedi. "Toz = pul" eşlemesi kaynakta "pullar gevşekçe tutunur, kolayca ayrılır" ifadesine dayanıyor; kontrolcü onaylasın. "Kiremit" yalnızca benzetme.
+- Kapsam: kelebekler ve güveler (Lepidoptera, pul kanatlılar); ağdan kurtulma deneyi güvelerle yapılmış, kelebeklere genellenmedi. "Toz = pul" eşlemesi kaynakta "pullar gevşekçe tutunur, kolayca ayrılır" ifadesine dayanıyor;. "Kiremit" yalnızca benzetme.
 - Üst yazı: KANAT PULU
-- Açıklama ilk satırı: Kelebeğe dokununca parmakta kalan toz, kanattan ayrılan minik pullar.
+- Açıklama ilk satırı: Kelebeğin kanadından kolayca ayrılan toz gibi şey, kanadı kaplayan minik pullar.
 - İlgili uzun video: yok (örümcek ağı Shorts'uyla bağ kurulabilir: aynı pullar ağdan kurtulmaya yarıyor)
 
 Metin:
@@ -406,7 +406,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S17 – Toprak Solucanı Nasıl Nefes Alıyor? 🪱
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Toprak Solucanı Nasıl Nefes Alıyor? 🪱
 - Kelime: 45; cümle: 5; tahmini süre ≈ 20 sn
 - Kapsam: toprak solucanları (Earthworm; Türkçe vikipedide Lumbricus terrestris için "bir toprak solucanı"). Deri kurursa ne olduğu ve yağmurda yüzeye çıkma nedeni yazılmadı (kaynakta doğrulanmadı). Rakam yok.
@@ -438,7 +438,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S18 – Posta Güvercini Yolunu Nasıl Buluyor? 🕊️
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Posta Güvercini Yolunu Nasıl Buluyor? 🕊️
 - Kelime: 52; cümle: 5; tahmini süre ≈ 23 sn
 - Kapsam: posta güvercini (homing pigeon, Columba livia domestica; yarış ve haberleşme için yetiştirilmiş evcil güvercin); sokak güvercinleri için ayrı iddia yok. Manyetik algı kuramı ve 2012 çalışması bilerek yazılmadı. "Çoğu araştırmacı" ifadesi kaynakta "most researchers".
@@ -470,12 +470,12 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S19 – Kurbağanın Dili Neden Yapışkan? 🐸
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Kurbağanın Dili Neden Yapışkan? 🐸
 - Kelime: 52; cümle: 5; tahmini süre ≈ 23 sn
 - Kapsam: kurbağalar (Anura), "genellikle" avını yapışkan diliyle yakalar; kaynakta dili olmayan kurbağalar da var, metin "genellikle" diyor. Tür adı verilmiyor; kara kurbağası için ayrı iddia yok. Hız ve sayı yazılmadı.
 - Üst yazı: KURBAĞA DİLİ
-- Açıklama ilk satırı: Kurbağanın dilindeki tükürük, basınçla akıcılaşıp sonra koyulaşarak avı tutuyor.
+- Açıklama ilk satırı: Kurbağanın dilindeki tükürük, basınçla akıcılaşıp sonra koyulaşarak avın dilde kalmasına yardım ediyor.
 - İlgili uzun video: 08-kara-kurbagasi (komşu konu; kara kurbağası farklı bir kurbağa grubu, bağlantı yalnızca açıklamada anılır)
 
 Metin:
@@ -502,12 +502,12 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S20 – Yaban Arısı Yuvasını Neyden Yapıyor? 🐝
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Yaban Arısı Yuvasını Neyden Yapıyor? 🐝
 - Kelime: 55; cümle: 4; tahmini süre ≈ 24 sn
 - Kapsam: gerçek kâğıt arıları (Polistinae); "çoğu" kâğıt arısı bu yöntemle yuva yapar, bazı arılar çamur kullanır. Ad "yaban arısı" ile kuruldu (kanal sahibi/kontrol kararı); "eşek arısı" geçmiyor. Sokma uyarısı kaynaktaki "quite painful" ve anafilaksi cümlesine dayanıyor; yuva kaldırma önerisi yazılmadı (kaynakta yok).
 - Üst yazı: ARI YUVASI
-- Açıklama ilk satırı: Kâğıt arılarının yuvası, ölü odun lifinin tükürükle karışmasından yapılıyor.
+- Açıklama ilk satırı: Kâğıt yapan yaban arılarının yuvası, ölü odun lifinin tükürükle karışmasından yapılıyor.
 - İlgili uzun video: yok
 
 Metin:
