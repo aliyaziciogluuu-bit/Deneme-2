@@ -122,10 +122,10 @@
   "uygun": true
  },
  "017": {
-  "yazi": "Asbest, ateşe dayanıklı kumaş dokunan lifli bir mineral; yani kumaş vardı, hayvan yoktu.",
-  "duyulan": "Asbest, ateşe dayanıklı kumaş dokunan lifli bir mineral. Yani kumaş vardı, hayvan yoktu.",
+  "yazi": "Asbest, ateşe dayanıklı kumaş yapımında kullanılmış lifli bir mineral; yani kumaş vardı, hayvan yoktu.",
+  "duyulan": "Asbest ateşe dayanıklı kumaş yapımında kullanılmış lifli bir mineral. Yani kumaş vardı, hayvan yoktu.",
   "hata": 0,
-  "sure": 6.46,
+  "sure": 7.1,
   "uygun": true,
   "tek_basina": true
  },
@@ -151,10 +151,10 @@
   "uygun": true
  },
  "021": {
-  "yazi": "Peki bu ad nereden gelmiş? Makaleye göre ya Yunancadan ya da Farsçada ateş içinde anlamına gelen bir sözcükten.",
-  "duyulan": "Peki bu ad nereden gelmiş? Makaleye göre ya Yunancadan ya da Farsça'da ateş içinde anlamına gelen bir sözcükten.",
+  "yazi": "Peki bu ad nereden gelmiş? Makale, sözlüklere dayanarak iki açıklama aktarıyor: ad ya Yunancadan geliyor ya da Farsçada ateş içinde anlamına gelen bir kelimeden.",
+  "duyulan": "Peki bu ad nereden gelmiş? Makale, sözlüklere dayanarak iki açıklama aktarıyor. Ad ya Yunancadan geliyor ya da Farsça'da ateş içinde anlamına gelen bir kelimeden.",
   "hata": 0,
-  "sure": 7.44,
+  "sure": 11.16,
   "uygun": true,
   "tek_basina": true
  },
@@ -166,10 +166,10 @@
   "uygun": true
  },
  "023": {
-  "yazi": "Bazıları da ona kertenkele adını veriyor.",
-  "duyulan": "Bazıları da ona kertenkele adını veriyor.",
+  "yazi": "Bazı Osmanlı sözlükleri onu kertenkele diye tanımlıyor.",
+  "duyulan": "Bazı Osmanlı sözlükleri onu kertenkele diye tanımlıyor.",
   "hata": 0,
-  "sure": 2.38,
+  "sure": 3.56,
   "uygun": true,
   "tek_basina": true
  },
@@ -300,10 +300,10 @@
   "uygun": true
  },
  "042": {
-  "yazi": "Yıllarca bu hayvan Avrupa lekeli semenderi sanıldı; bugün ayrı tür ve adı Salamandra infraimmaculata.",
-  "duyulan": "Yıllarca bu hayvan, Avrupa lekeli semenderi sanıldı. Bugün ayrı tür ve adı Salamandra infra immaculata.",
+  "yazi": "Eskiden bu hayvan Avrupa lekeli semenderinin alt türü sayılıyordu; bugün ayrı tür ve adı Salamandra infraimmaculata.",
+  "duyulan": "Eskiden bu hayvan Avrupa lekeli semenderinin alt türü sayılıyordu, bugün ayrı tür ve adı Salamandra infraimmaculata.",
   "hata": 0,
-  "sure": 8.5,
+  "sure": 8.46,
   "uygun": true,
   "tek_basina": true
  },

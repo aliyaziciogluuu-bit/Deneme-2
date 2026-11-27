@@ -3,7 +3,7 @@
   {
    "ad": "s1-odundan-cikan",
    "baslik": "Ateşten Doğduğu Sanılan Hayvan Nerede Uyuyordu? 🪵 #shorts",
-   "aciklama": "Semender ateşten doğmuyor; efsanenin, kışı kütüklerde uyuyarak geçiren semenderlerden çıktığı öne sürülüyor. Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık. Semenderi ateşe ya da sobaya atma; ona dokunma, dokunduysan elini sabunla yıka, gözüne ve ağzına götürme. Küçük çocuk dokunduysa ya da ağzına aldıysa yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış. Köpek ya da kedi ağzına aldıysa veterinere başvur. Semenderi doğadan alıp eve götürme; kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Tam video kanalımızda: \"Semender Ateşten mi Doğar?\"\n\nKaynaklar:\n- Vikipedi – Salamander (legendary creature): en.wikipedia.org/wiki/Salamander_(legendary_creature)\n- Karahisar, S. & Demirsoy, A. (2012). The Comparison of Important Salamandra infraimmaculata Populations in Turkey by Means of Morphological, Histological and Karyotypical Characteristics. Hacettepe Journal of Biology and Chemistry, Special Issue: 343–352. dergipark.org.tr/en/pub/hjbc/article/926068\n\n#shorts #semender #doğa",
+   "aciklama": "Semender ateşten doğmuyor; efsanenin, kütükten çıkan semenderlerden doğduğu öne sürülüyor. Bir derlemeye göre birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor. Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık. Avrupa lekeli semenderinin salgısında, insan için tehlikeli olabilecek maddeler de bildiriliyor. Semenderi ateşe ya da sobaya atma; ona dokunma, dokunduysan elini sabunla yıka, gözüne ve ağzına götürme. Küçük çocuk dokunduysa ya da ağzına aldıysa yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış. Köpek ya da kedi ağzına aldıysa veterinere başvur. Semenderi doğadan alıp eve götürme; kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Tam video kanalımızda: \"Semender Ateşten mi Doğar?\"\n\nKaynaklar:\n- Vikipedi – Salamander (legendary creature): en.wikipedia.org/wiki/Salamander_(legendary_creature)\n- Karahisar, S. & Demirsoy, A. (2012). The Comparison of Important Salamandra infraimmaculata Populations in Turkey by Means of Morphological, Histological and Karyotypical Characteristics. Hacettepe Journal of Biology and Chemistry, Special Issue: 343–352. dergipark.org.tr/en/pub/hjbc/article/926068\n\n#shorts #semender #doğa",
    "etiketler": [
     "semender ateşten mi doğar",
     "semender efsanesi",
@@ -18,7 +18,7 @@
    ],
    "cumleler": [
     {
-     "yazi": "Semender ateşten doğmuyor; efsanenin kütükten çıktığı öne sürülüyor.",
+     "yazi": "Semender ateşten doğmuyor; efsanenin, kütükten çıkan semenderlerden doğduğu öne sürülüyor.",
      "gorsel": "kutuk_icinde",
      "x": 0.52,
      "aw": 0.6,
@@ -27,12 +27,17 @@
      "y": 0.6
     },
     {
-     "yazi": "Birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor; odun ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.",
+     "yazi": "Bir derlemeye göre birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor; odun ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.",
      "gorsel": "soba_ates",
      "x": 0.55
     },
     {
      "yazi": "Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık.",
+     "gorsel": "odun_yigini_kis",
+     "x": 0.5
+    },
+    {
+     "yazi": "Avrupa lekeli semenderinin salgısında, insan için tehlikeli olabilecek maddeler de bildiriliyor.",
      "gorsel": "odun_yigini_kis",
      "x": 0.5
     },
@@ -62,11 +67,11 @@
      "x": 0.62
     }
    ],
-   "kapsam": "kütükte kışlama: birçok semender türü için genel bilgi; Türkiye'deki tür için kaynak bulunamadı (açıkça söyleniyor). Efsanenin kütükle bağı 'öne sürülüyor' çekincesiyle. Güvenlik cümleleri uzun videodaki 50, 53-56'dan."
+   "kapsam": "kütükte kışlama: birçok semender türü için genel bilgi; Türkiye'deki tür için kaynak bulunamadı (açıkça söyleniyor). Efsanenin kütükle bağı 'öne sürülüyor' çekincesiyle. Güvenlik cümleleri uzun videodaki 50, 53-56'dan. 052 (salgı, tür adıyla) eklendi."
   },
   {
    "ad": "s2-ates-mendili",
-   "baslik": "Semender Yününden Yapılan Kumaş Neydi? 🔥 #shorts",
+   "baslik": "Semender Yününden Denen Kumaş Neydi? 🔥 #shorts",
    "aciklama": "Bir derlemeye göre \"semender yününden\" denen kumaşlar gerçekte asbest kumaşıydı. Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor. Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor. Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor. Tam video kanalımızda: \"Semender Ateşten mi Doğar?\"\n\nKaynaklar:\n- Vikipedi – Salamander (legendary creature): en.wikipedia.org/wiki/Salamander_(legendary_creature)\n- Vikipedi – Asbestos: en.wikipedia.org/wiki/Asbestos\n- Dünya Sağlık Örgütü – Asbestos: who.int/news-room/fact-sheets/detail/asbestos\n- Özdemir, M. (2021). Klasik Türk Şiirinde Semender. Akademik Dil ve Edebiyat Dergisi 5(4): 1861–1900. doi.org/10.34083/akaded.1024301\n\n#shorts #semender #doğa",
    "etiketler": [
     "semender yünü",
@@ -82,7 +87,7 @@
    ],
    "cumleler": [
     {
-     "yazi": "Ateşte temizlenen semender kumaşı, bir derlemeye göre asbestti.",
+     "yazi": "Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestti.",
      "gorsel": "mendil_ates",
      "x": 0.5
     },
@@ -92,7 +97,7 @@
      "x": 0.68
     },
     {
-     "yazi": "Asbest, yanmaya dayanıklı bez dokunan lifli bir mineral.",
+     "yazi": "Asbest, yanmaya dayanıklı bez yapımında kullanılmış lifli bir mineral.",
      "gorsel": "asbest_kumas",
      "x": 0.5
     },
@@ -141,7 +146,16 @@
    ],
    "cumleler": [
     {
-     "yazi": "Semender kertenkele değil; derisinde pul yok, pürüzsüz ve parlak.",
+     "yazi": "Semender kertenkele değil; derisinde pul yok.",
+     "gorsel": "gercek_turk_semenderi",
+     "x": 0.68,
+     "aw": 0.7,
+     "ay": 0.36,
+     "w": 0.7,
+     "y": 0.36
+    },
+    {
+     "yazi": "Türk semenderinin derisi pürüzsüz ve parlak.",
      "gorsel": "gercek_turk_semenderi",
      "x": 0.68,
      "aw": 0.7,
