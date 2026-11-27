@@ -18,6 +18,7 @@ API anahtarı ortamın ağ geçidi tarafından eklenir; bu betikte anahtar yoktu
 import base64
 import io
 import json
+import re
 import pathlib
 import subprocess
 import sys
@@ -69,6 +70,18 @@ def main():
                  and ("--yeniden" in arg or not (hedef / f"{k['ad']}.mp4").exists())]  # var olan klip --yeniden olmadan tekrar üretilmez
     else:
         liste = [k for k in tanim if not (hedef / f"{k['ad']}.mp4").exists()]
+    plan = klasor / "cekimler.json"  # çekim planında kullanılmayan klip üretilmez (27 Kasım: plandan çıkarılmış klip yeniden üretildi, $0.35)
+    if plan.exists():
+        kullanilan = set()
+        for c in json.loads(plan.read_text(encoding="utf-8"))["cekimler"]:
+            kullanilan.add(c.get("klip"))
+            kullanilan.update(g.get("klip") for g in c.get("gorseller", []) if isinstance(g, dict))
+        if (klasor / "shorts.json").exists():  # Shorts'ların kullandığı klipler de sayılır
+            kullanilan.update(re.findall(r'"klip":\s*"([^"]+)"', (klasor / "shorts.json").read_text(encoding="utf-8")))
+        disarda = [k["ad"] for k in liste if k["ad"] not in kullanilan]
+        if disarda:
+            print(f"Çekim planında kullanılmadığı için atlandı: {', '.join(disarda)}")
+        liste = [k for k in liste if k["ad"] in kullanilan]
     maliyet = sum(FIYAT_5SN * k.get("sure", 5) / 5 for k in liste)
     print(f"{len(liste)} klip, tahmini maliyet ≈ {maliyet:.2f} $")
     if not liste:
