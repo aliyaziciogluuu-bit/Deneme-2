@@ -27,3 +27,4 @@
 - Bir parça referansla gitmezse (09'da p12) parçayı ikiye böl (p12a/p12b), BIRLESTIR.ps1'deki listeyi düzelt, eski betiği çöpe at, yenisini yükle.
 - 09-yilan-inek: tamamı Drive'da (11 küçük dosya, 14 Shorts parçası, 59 uzun video parçası, BIRLESTIR.ps1). Birleştirme yerelde sınandı (özet birebir).
 - 27 Kasım: `.p12` parçası iki teslimde de (yılan–inek, semender) "can't be sent by reference" ile reddedildi; neden büyük olasılıkla `.p12` uzantısının sertifika dosyası (PKCS#12) sayılması (`.p10` da "pkcs10" etiketi aldı). drive_parca.py artık parçaları `.parcaNN` diye adlandırıyor. Semender teslimi: p12 → p12a/p12b bölündü, BIRLESTIR.ps1 güncellendi, eski kopya çöpe atıldı. Drive klasörü: teslim/10-semender (1ghNy-8erUh11-Zgx6UpQutvnmgUP5qQ6), 64 dosya.
+- 27 Kasım: Drive teslim/11-bahce-yilani (1G7Cu4phmTVy7kNYUrXzUGsNRt4LWmaQ2, 59 dosya) ve teslim/3d-seri-1 (1wLLLKmYOVSyeR-ZKbxoyCO3oRziDrN7h, 67 dosya) yüklendi, eksiksiz; .parcaNN adlandırmasıyla hiç red yok.
