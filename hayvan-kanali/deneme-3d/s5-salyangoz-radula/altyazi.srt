@@ -1,0 +1,51 @@
+1
+00:00:00,700 --> 00:00:02,495
+Bahçedeki salyangozun yaprağı
+
+2
+00:00:02,495 --> 00:00:04,845
+nasıl yediğini hiç merak ettin mi?
+
+3
+00:00:04,950 --> 00:00:06,649
+Ağzında, dile benzeyen,
+
+4
+00:00:06,649 --> 00:00:08,053
+üstü minik dişlerle
+
+5
+00:00:08,053 --> 00:00:09,775
+kaplı bir şerit var.
+
+6
+00:00:09,880 --> 00:00:11,646
+Tıpkı ince bir törpü gibi,
+
+7
+00:00:11,646 --> 00:00:13,045
+yiyeceği kazıyor.
+
+8
+00:00:13,150 --> 00:00:14,661
+Bu şeridin adı radula;
+
+9
+00:00:14,661 --> 00:00:17,035
+Latincede küçük kazıyıcı demek.
+
+10
+00:00:17,140 --> 00:00:18,493
+Dişler aşınınca şeridin
+
+11
+00:00:18,493 --> 00:00:20,385
+gerisinden yenileri geliyor.
+
+12
+00:00:20,490 --> 00:00:22,432
+Yani salyangoz, yemeğini dişli
+
+13
+00:00:22,432 --> 00:00:24,560
+bir şeritle kazıyarak alıyor.
