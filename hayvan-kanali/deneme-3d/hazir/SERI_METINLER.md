@@ -702,6 +702,9 @@ Kaynaklar ve cümle eşlemesi:
 - Integr Org Biol 2019, Witzmann ve ark. (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC7671152
   - Cümle: 1, 3, 4, 5
   - Kaynakta geçen ifade: "frogs and salamanders are unique among extant tetrapods in pulling the eyeballs down through the interpterygoid vacuities into the buccal cavity to force the prey toward the esophagus or to help to fixate it" ; "the eyeballs … (usually termed eye retraction)". Cümle 4 "muhtemelen … yardım ediyor" diye çekinceli (kesin sonuç değil); makale deneysel araştırma, derleme değil; "özetten, tam metin henüz gelmedi" ; cümle 2: "the eyeballs are (1) pulled in by action of the m. retractor bulbi".
+- Levine, Monroy ve Brainerd 2004, J Exp Biol 207(8):1361–1368 (özetten, 28 Kas bilgi kontrolü web aramasıyla): https://sicb.org/?p=34751
+  - Cümle: 2, 4, 6
+  - Kaynakta geçen ifade: "Electromyographic recordings confirm strong activity in the retractor bulbi muscles during eye retraction" ; "After bilateral denervation of the retractor bulbi, frogs maintain the ability to swallow but show a 74% increase in the number of swallows required per cricket" ; eye retraction is "an accessory swallowing mechanism".
 - Cümle 6: —
   - Cümle: 6
   - Kaynakta geçen ifade: Soru; Levine ve ark. 2004 (J Exp Biol 207:1361) sinir kesildiğinde yutmanın sürdüğünü söylüyor (özetten, açılmadı), metne alınmadı.
@@ -799,7 +802,7 @@ Metin:
 1. Kurbağa, suyu ağzıyla içmiyor; derisiyle alıyor.
 2. Birçok kurbağa, karnının alt derisinden suyu hızla emiyor.
 3. Orası, damarlarla dolu özel bir bölge.
-4. Su kaybı, öldürecek kadar hızlı olabiliyor.
+4. Kurbağalar, çoğu kara hayvanından hızlı su kaybediyor.
 5. Bu yüzden kurbağayı ıslak yerinde rahat bırak.
 6. Peki derisi başka neler yapıyor?
 
@@ -807,6 +810,7 @@ Kaynaklar ve cümle eşlemesi:
 - PMC8831224, kurbağalarda su alışverişi, açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC8831224
   - Cümle: 1, 2, 3, 4
   - Kaynakta geçen ifade: "Rather than drinking, anurans replace water losses by efficiently absorbing water through their skin" ; "Many frogs are able to absorb water rapidly through a highly vascularized area of ventral skin called the seat patch" ; "water loss rates from amphibians are high relative to other terrestrial vertebrates, and can be lethally rapid"
+  - 28 Kas: "öldürecek kadar hızlı" bilgi kontrolünce bağımsız doğrulanamadı; cümle 4 alıntının doğrulanabilen ilk yarısına indirildi ("çoğu kara hayvanından hızlı"). Ek destek: ABD Milli Parklar Servisi, Water Loss Compounds Amphibians' Vulnerability to Climate Change.
 - Wikipedia – Frog (ikincil), açıldı: https://en.wikipedia.org/wiki/Frog
   - Cümle: 1, 2
   - Kaynakta geçen ifade: "Many frogs are able to absorb water and oxygen directly through the skin, especially around the pelvic area" ; "A frog's skin is protective, has a respiratory function, can absorb water, and helps control body temperature."

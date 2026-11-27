@@ -1,51 +1,52 @@
 {
-  "dikey": true,
-  "baslik": "Kurbağa Yutarken Gözlerini İçeri Çekiyor! 🐸 #shorts",
-  "aciklama": "Kurbağalar ve semenderler, yutarken gözlerini ağız boşluğuna doğru çekiyor; gözlerin yemeği yerinde tutmaya ve yemek borusuna doğru itmeye yardım ettiği düşünülüyor. Yaşayan dört ayaklı hayvanlar arasında bunu yalnızca kurbağalar ve semenderler yapıyor. Kaynak: Witzmann, Brainerd ve ark. 2019 araştırması.\n\n#shorts #şaşırtıcı #doğa #avludakikomşular",
-  "etiketler": [
-    "kurbağa",
-    "kurbağa gözü",
-    "kurbağa nasıl yutar",
-    "semender",
-    "shorts",
-    "doğa"
-  ],
-  "ust_yazi": [
-    "YUTARKEN",
-    "GÖZÜNÜ ÇEKİYOR"
-  ],
-  "kapsam": "kurbağalar (Anura) ve semenderler; 'dört ayaklılar arasında yalnızca' ifadesi kaynakta 'unique among extant tetrapods'; gözlerin yutmadaki işlevi kesin değil, 'muhtemelen yardım ediyor' diye çekinceli yazıldı; kas adı (retractor bulbi) metne girmedi.",
-  "kaynaklar": [
-    "Witzmann ve ark. 2019, Integr Org Biol – Eye Movements in Frogs and Salamanders: Testing the Palatal Buccal Pump Hypothesis: https://pmc.ncbi.nlm.nih.gov/articles/PMC7671152"
-  ],
-  "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
-  "altyazi_stili": "kelime",
-  "muzik": "lyria_hayret",
-  "ilk_kare": "Kurbağanın yüzü yakın planda: iri gözleri bir anda içeri çöküyor, gözün yerinde çukur kalıyor ve boğazı hareket ediyor (şematik ağız boşluğu çizimi, et/pasta görünümü yok).",
-  "tur": "yetenek",
-  "sahneler": [
+ "dikey": true,
+ "baslik": "Kurbağa Yutarken Gözlerini İçeri Çekiyor! 🐸 #shorts",
+ "aciklama": "Kurbağalar ve semenderler, yutarken gözlerini ağız boşluğuna doğru çekiyor; gözlerin yemeği yerinde tutmaya ve yemek borusuna doğru itmeye yardım ettiği düşünülüyor. Yaşayan dört ayaklı hayvanlar arasında bunu yalnızca kurbağalar ve semenderler yapıyor. Gözü içeri çeken kas (retractor bulbi) bir deneyde devre dışı bırakıldığında kurbağalar yine yutabildi ama aynı avı yutmak için çok daha fazla yutkunmaları gerekti. Kaynaklar: Witzmann, Brainerd ve ark. 2019; Levine, Monroy ve Brainerd 2004.\n\n#shorts #şaşırtıcı #doğa #avludakikomşular",
+ "etiketler": [
+  "kurbağa",
+  "kurbağa gözü",
+  "kurbağa nasıl yutar",
+  "semender",
+  "shorts",
+  "doğa"
+ ],
+ "ust_yazi": [
+  "YUTARKEN",
+  "GÖZÜNÜ ÇEKİYOR"
+ ],
+ "kapsam": "kurbağalar (Anura) ve semenderler; 'dört ayaklılar arasında yalnızca' ifadesi kaynakta 'unique among extant tetrapods'; gözlerin yutmadaki işlevi kesin değil, 'muhtemelen yardım ediyor' diye çekinceli yazıldı; kas adı (retractor bulbi) metne girmedi.",
+ "kaynaklar": [
+  "Witzmann ve ark. 2019, Integr Org Biol – Eye Movements in Frogs and Salamanders: Testing the Palatal Buccal Pump Hypothesis: https://pmc.ncbi.nlm.nih.gov/articles/PMC7671152",
+  "Levine, Monroy ve Brainerd 2004, J Exp Biol 207(8):1361–1368 – Contribution of eye retraction to swallowing performance in the northern leopard frog, Rana pipiens (göz çekici kas retractor bulbi EMG ile doğrulandı; kas devre dışı kalınca kriket başına yutkunma 2,3'ten 4,0'a çıktı): https://sicb.org/?p=34751"
+ ],
+ "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
+ "altyazi_stili": "kelime",
+ "muzik": "lyria_hayret",
+ "ilk_kare": "Kurbağanın yüzü yakın planda: iri gözleri bir anda içeri çöküyor, gözün yerinde çukur kalıyor ve boğazı hareket ediyor (şematik ağız boşluğu çizimi, et/pasta görünümü yok).",
+ "tur": "yetenek",
+ "sahneler": [
+  {
+   "ad": "Kurbağa Yutarken Gözlerini İçeri Çekiyor! 🐸 #shorts",
+   "cumleler": [
     {
-      "ad": "Kurbağa Yutarken Gözlerini İçeri Çekiyor! 🐸 #shorts",
-      "cumleler": [
-        {
-          "yazi": "Bu kurbağa yutkunurken gözlerini içeri çekiyor."
-        },
-        {
-          "yazi": "Bunu özel bir göz kası yapıyor."
-        },
-        {
-          "yazi": "Gözler, ağzın tavanından ağıza iniyor."
-        },
-        {
-          "yazi": "Muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor."
-        },
-        {
-          "yazi": "Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor."
-        },
-        {
-          "yazi": "Peki gözleri olmasa yutamaz mıydı?"
-        }
-      ]
+     "yazi": "Bu kurbağa yutkunurken gözlerini içeri çekiyor."
+    },
+    {
+     "yazi": "Bunu özel bir göz kası yapıyor."
+    },
+    {
+     "yazi": "Gözler, ağzın tavanından ağıza iniyor."
+    },
+    {
+     "yazi": "Muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor."
+    },
+    {
+     "yazi": "Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor."
+    },
+    {
+     "yazi": "Peki gözleri olmasa yutamaz mıydı?"
     }
-  ]
+   ]
+  }
+ ]
 }
