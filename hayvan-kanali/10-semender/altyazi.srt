@@ -7,393 +7,393 @@ Soba için odun alıyorsun, kütüğün altından
 siyah sarı lekeli bir hayvan düşüyor.
 
 3
-00:00:06,210 --> 00:00:10,615
-Bu hayvan ateşten doğmadı; peki kışın odunun içinde ne arıyordu?
+00:00:06,210 --> 00:00:11,275
+Bu semender ateşten doğmadı; peki kışın odunun içinde ne arıyordu?
 
 4
-00:00:10,720 --> 00:00:14,162
-Sırada ateşte yıkanan mendiller, zehirli kuyu
+00:00:11,380 --> 00:00:16,365
+Oysa onun ateşte yaşadığı, hatta ateşi söndürdüğü anlatılmış.
 
 5
-00:00:14,162 --> 00:00:17,925
-hikâyesi ve odun yığınındaki gerçek konuk var.
+00:00:16,470 --> 00:00:20,268
+Sırada ateşte yıkanan mendiller, zehirli kuyu
 
 6
-00:00:18,030 --> 00:00:20,934
-Semender denen bu hayvanın ateşte yaşadığı,
+00:00:20,268 --> 00:00:24,400
+hikâyesi ve odun yığınındaki gerçek konuk var.
 
 7
-00:00:20,934 --> 00:00:23,480
-hatta ateşi söndürdüğü anlatılmış.
-
-8
-00:00:24,080 --> 00:00:25,865
+00:00:25,000 --> 00:00:26,785
 Bu hikâye ne kadar eski?
 
-9
-00:00:25,970 --> 00:00:28,035
+8
+00:00:26,890 --> 00:00:28,955
 Aristoteles'in kitabında bile var.
 
-10
-00:00:28,140 --> 00:00:32,637
+9
+00:00:29,060 --> 00:00:33,557
 Romalı yazar Plinius, yapıtının bir yerinde buna inanmadığını söylüyor;
 
-11
-00:00:32,637 --> 00:00:35,225
+10
+00:00:33,557 --> 00:00:36,145
 doğru olsaydı göstermek kolay olurdu.
 
-12
-00:00:35,330 --> 00:00:38,468
+11
+00:00:36,250 --> 00:00:39,388
 Aynı yazar, semenderin yalnızca şiddetli sağanakta
 
-13
-00:00:38,468 --> 00:00:41,475
+12
+00:00:39,388 --> 00:00:42,395
 çıktığını yazıyor; hava açılınca çekilirmiş.
 
-14
-00:00:41,580 --> 00:00:45,485
+13
+00:00:42,500 --> 00:00:46,405
 Ateşi seven bir hayvan neden yalnızca yağmurda ortaya çıksın?
 
-15
-00:00:45,590 --> 00:00:47,913
+14
+00:00:46,510 --> 00:00:48,833
 Birçok semenderin derisi su geçiriyor;
 
-16
-00:00:47,913 --> 00:00:51,220
+15
+00:00:48,833 --> 00:00:52,140
 bu yüzden serin ve nemli yerlere bağlı yaşıyorlar.
 
-17
-00:00:51,820 --> 00:00:54,225
+16
+00:00:52,740 --> 00:00:55,145
 Orta Çağ'da bu hayvandan neden korkulmuş?
 
-18
-00:00:54,330 --> 00:00:57,772
+17
+00:00:55,250 --> 00:00:58,692
 Antik yazılarda ve bazı Orta Çağ hayvan kitaplarında,
 
-19
-00:00:57,772 --> 00:01:01,395
+18
+00:00:58,692 --> 00:01:02,315
 tek bir semender ağaca sarılırsa meyveleri zehirler.
 
-20
-00:01:01,500 --> 00:01:04,425
+19
+00:01:02,420 --> 00:01:05,345
 Kuyuya düşerse suyunu içenleri zehirlermiş.
 
-21
-00:01:04,530 --> 00:01:06,700
+20
+00:01:05,450 --> 00:01:07,620
 Korkunun bir temeli var, ama abartılmış:
 
-22
-00:01:06,700 --> 00:01:10,635
+21
+00:01:07,620 --> 00:01:11,555
 birçok semender tehdit edilince derisinden zehirli madde salgılıyor.
 
-23
-00:01:10,740 --> 00:01:13,205
+22
+00:01:11,660 --> 00:01:14,125
 Ateşte yıkanan mendil nereden çıktı?
 
-24
-00:01:13,310 --> 00:01:16,960
+23
+00:01:14,230 --> 00:01:17,880
 Osmanlı sözlüklerinden biri, semender derisinden mendil ve gömlek
 
-25
-00:01:16,960 --> 00:01:21,135
+24
+00:01:17,880 --> 00:01:22,055
 yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş.
 
-26
-00:01:21,240 --> 00:01:23,453
+25
+00:01:22,160 --> 00:01:24,373
 Bir derlemeye göre "semender yününden"
 
-27
-00:01:23,453 --> 00:01:26,085
+26
+00:01:24,373 --> 00:01:27,005
 denen kumaşlar gerçekte asbest kumaşıydı.
 
+27
+00:01:27,110 --> 00:01:30,695
+Asbest, ateşe dayanıklı kumaş yapımında kullanılmış
+
 28
-00:01:26,190 --> 00:01:29,872
-Asbest, ateşe dayanıklı kumaş yapılan lifli bir mineral;
+00:01:30,695 --> 00:01:34,455
+lifli bir mineral; yani kumaş vardı, hayvan yoktu.
 
 29
-00:01:29,872 --> 00:01:32,155
-yani kumaş vardı, hayvan yoktu.
-
-30
-00:01:32,260 --> 00:01:34,403
+00:01:34,560 --> 00:01:36,703
 Asbest bugün sağlığa zararlı sayılıyor;
 
-31
-00:01:34,403 --> 00:01:38,610
+30
+00:01:36,703 --> 00:01:40,910
 Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.
 
-32
-00:01:39,210 --> 00:01:42,055
+31
+00:01:41,510 --> 00:01:44,355
 Bizim edebiyatımızda semender nasıl anlatılmış?
 
-33
-00:01:42,160 --> 00:01:45,659
+32
+00:01:44,460 --> 00:01:47,959
 Bir makale, on dördüncü ile on dokuzuncu yüzyıl arasında
 
-34
-00:01:45,659 --> 00:01:49,465
+33
+00:01:47,959 --> 00:01:51,765
 yüz yetmiş üç şairin şiirinde semender geçtiğini yazıyor.
 
+34
+00:01:51,870 --> 00:01:55,730
+Peki bu ad nereden gelmiş? Makale, sözlüklere dayanarak
+
 35
-00:01:49,570 --> 00:01:53,806
-Aynı makale sözcük için iki açıklama aktarıyor: Yunancadan geldiği
+00:01:55,730 --> 00:01:59,310
+iki açıklama aktarıyor: ad ya Yunancadan geliyor ya
 
 36
-00:01:53,806 --> 00:01:58,095
-ve Farsçada ateş içinde anlamına gelen bir sözcükten kısaldığı.
+00:01:59,310 --> 00:02:03,275
+da Farsçada ateş içinde anlamına gelen bir kelimeden.
 
 37
-00:01:58,200 --> 00:02:00,730
+00:02:03,380 --> 00:02:05,910
 Osmanlı sözlüklerinin birçoğu onu ateşte
 
 38
-00:02:00,730 --> 00:02:03,505
+00:02:05,910 --> 00:02:08,685
 yaşayan efsanevi hayvan diye tanımlıyor.
 
 39
-00:02:03,610 --> 00:02:05,495
-Bazıları da ona kertenkele diyor.
+00:02:08,790 --> 00:02:12,595
+Bazı Osmanlı sözlükleri onu kertenkele diye tanımlıyor.
 
 40
-00:02:05,600 --> 00:02:08,405
+00:02:12,700 --> 00:02:15,505
 Peki bu inanış bir yanlış anlamayla mı büyümüş?
 
 41
-00:02:08,510 --> 00:02:12,126
+00:02:15,610 --> 00:02:19,226
 Eski bir Osmanlı sözlüğü, eskilerin "ateşe girse söndürür"
 
 42
-00:02:12,126 --> 00:02:15,680
+00:02:19,226 --> 00:02:22,780
 sözünü halkın "ateşte yaşar" diye anladığını yazıyor.
 
 43
-00:02:16,280 --> 00:02:19,105
+00:02:23,380 --> 00:02:26,205
 Odunun içindeki hayvan orada ne yapıyordu?
 
 44
-00:02:19,210 --> 00:02:21,998
+00:02:26,310 --> 00:02:29,098
 Birçok semender türü, kışı çürüyen kütüklerin
 
 45
-00:02:21,998 --> 00:02:24,535
+00:02:29,098 --> 00:02:31,635
 içinde ve altında uyuyarak geçiriyor.
 
 46
-00:02:24,640 --> 00:02:28,405
+00:02:31,740 --> 00:02:35,505
 Bir derlemeye göre ateş efsanesinin kökü burada olabilir.
 
 47
-00:02:28,510 --> 00:02:31,090
+00:02:35,610 --> 00:02:38,190
 Odun eve getirilip ateşe atılınca hayvanlar
 
 48
-00:02:31,090 --> 00:02:33,915
+00:02:38,190 --> 00:02:41,015
 alevlerin içinden çıkıyormuş gibi görünmüş.
 
 49
-00:02:34,020 --> 00:02:36,585
+00:02:41,120 --> 00:02:43,685
 On altıncı yüzyıl İtalyan sanatçısı Cellini,
 
 50
-00:02:36,585 --> 00:02:40,385
+00:02:43,685 --> 00:02:47,485
 çocukken ateşte böyle bir hayvan gördüğünü anılarında yazmış.
 
 51
-00:02:40,490 --> 00:02:43,360
+00:02:47,590 --> 00:02:50,460
 Bize göre eskiler gerçek bir şey görmüş olabilir;
 
 52
-00:02:43,360 --> 00:02:45,655
+00:02:50,460 --> 00:02:52,755
 açıklamaları eksik kalmış olabilir.
 
 53
-00:02:45,760 --> 00:02:48,535
+00:02:52,860 --> 00:02:55,635
 Türkiye'deki semender de odunda mı kışlıyor?
 
 54
-00:02:48,640 --> 00:02:52,491
+00:02:55,740 --> 00:02:59,591
 Bunu gösteren bir yazıya rastlamadık; ama gündüz yaprak altında,
 
 55
-00:02:52,491 --> 00:02:55,930
+00:02:59,591 --> 00:03:03,030
 kayaların arasında ve oyuklarda saklandığı yazılıyor.
 
 56
-00:02:56,530 --> 00:02:58,635
+00:03:03,630 --> 00:03:05,735
 Peki semender, kertenkele midir?
 
 57
-00:02:58,740 --> 00:03:01,885
+00:03:05,840 --> 00:03:08,985
 Öyle sanmak kolay: dört bacağı ve bir kuyruğu var.
 
 58
-00:03:01,990 --> 00:03:05,695
+00:03:09,090 --> 00:03:12,795
 Oysa semender bir iki yaşamlıdır; kurbağayla aynı sınıftan.
 
 59
-00:03:05,800 --> 00:03:10,685
+00:03:12,900 --> 00:03:17,785
 Kertenkelenin derisi, keratinden yapılmış üst üste binen pullarla kaplı.
 
 60
-00:03:10,790 --> 00:03:12,953
+00:03:17,890 --> 00:03:20,053
 Semenderlerin derisinde pul yok;
 
 61
-00:03:12,953 --> 00:03:16,172
+00:03:20,053 --> 00:03:23,272
 Türk semenderinin derisi pürüzsüz ve parlak.
 
 62
-00:03:16,277 --> 00:03:18,675
+00:03:23,377 --> 00:03:25,775
 Bir derlemeye göre semender, kertenkeleye
 
 63
-00:03:18,675 --> 00:03:21,147
+00:03:25,775 --> 00:03:28,247
 bir memeliden daha yakın akraba değil.
 
 64
-00:03:21,747 --> 00:03:24,212
+00:03:28,847 --> 00:03:31,312
 Türkiye'de hangi semenderler yaşıyor?
 
 65
-00:03:24,317 --> 00:03:28,382
+00:03:31,417 --> 00:03:35,482
 Bunlardan biri Türk semenderi: siyah derisinde sarı lekeler var.
 
 66
-00:03:28,487 --> 00:03:31,649
-Yıllarca Avrupa lekeli semenderi sanıldı;
+00:03:35,587 --> 00:03:40,443
+Eskiden bu hayvan Avrupa lekeli semenderinin alt türü sayılıyordu;
 
 67
-00:03:31,649 --> 00:03:35,672
+00:03:40,443 --> 00:03:44,292
 bugün ayrı tür ve adı Salamandra infraimmaculata.
 
 68
-00:03:35,777 --> 00:03:38,371
+00:03:44,397 --> 00:03:46,991
 Bir çalışma Erzincan, Malatya, Hatay ve
 
 69
-00:03:38,371 --> 00:03:41,342
+00:03:46,991 --> 00:03:49,962
 Mersin'den örnek toplayıp karşılaştırmış.
 
 70
-00:03:41,447 --> 00:03:43,192
+00:03:50,067 --> 00:03:51,812
 Ama senin yörende de var mı?
 
 71
-00:03:43,297 --> 00:03:46,459
+00:03:51,917 --> 00:03:55,079
 Nemli ormanlarda, tatlı su kaynağına yakın yaşıyor;
 
 72
-00:03:46,459 --> 00:03:50,362
+00:03:55,079 --> 00:03:58,982
 gündüz saklanıp geceleri böcek, solucan ve salyangoz yiyor.
 
 73
-00:03:50,467 --> 00:03:53,396
+00:03:59,087 --> 00:04:02,016
 Yüksek yerlerdeki bireyler kışı uykuda geçiriyor;
 
 74
-00:03:53,396 --> 00:03:56,032
+00:04:02,016 --> 00:04:04,652
 üreme kışın serin aylarına denk geliyor.
 
 75
-00:03:56,137 --> 00:03:57,882
+00:04:04,757 --> 00:04:06,502
 Bu komşumuz tehlikede mi?
 
 76
-00:03:57,987 --> 00:04:01,783
+00:04:06,607 --> 00:04:10,403
 Eski bir değerlendirmeye göre kuruyan sular, barajlanan dereler,
 
 77
-00:04:01,783 --> 00:04:05,057
+00:04:10,403 --> 00:04:13,677
 trafik ve parçalanan yaşam alanı onu tehdit ediyor.
 
 78
-00:04:05,657 --> 00:04:07,964
+00:04:14,277 --> 00:04:16,584
 Odun yığınının içinde ya da bir taşın
 
 79
-00:04:07,964 --> 00:04:10,702
+00:04:16,584 --> 00:04:19,322
 altında semender bulursan ne yapmalısın?
 
 80
-00:04:10,807 --> 00:04:13,361
+00:04:19,427 --> 00:04:21,981
 Bize göre önce odunu yavaşça yerine bırak;
 
 81
-00:04:13,361 --> 00:04:15,672
+00:04:21,981 --> 00:04:24,292
 semenderi ateşe ya da sobaya atma.
 
 82
-00:04:15,777 --> 00:04:18,488
+00:04:24,397 --> 00:04:27,108
 Bir Farsça sözlük, semender derisinden tahriş edici,
 
 83
-00:04:18,488 --> 00:04:20,922
+00:04:27,108 --> 00:04:29,542
 yapışkan bir madde salgılandığını yazıyor.
 
 84
-00:04:21,027 --> 00:04:23,019
+00:04:29,647 --> 00:04:31,639
 Avrupa lekeli semenderinin salgısında,
 
 85
-00:04:23,019 --> 00:04:26,252
+00:04:31,639 --> 00:04:34,872
 insan için tehlikeli olabilecek maddeler de bildiriliyor.
 
 86
-00:04:26,357 --> 00:04:29,634
+00:04:34,977 --> 00:04:38,254
 Bu yüzden ona dokunma; dokunduysan elini sabunla yıka,
 
 87
-00:04:29,634 --> 00:04:32,002
+00:04:38,254 --> 00:04:40,622
 yıkamadan gözüne ve ağzına götürme.
 
 88
-00:04:32,107 --> 00:04:34,725
+00:04:40,727 --> 00:04:43,345
 Küçük çocuk dokunduysa elini yıkamasına yardım et;
 
 89
-00:04:34,725 --> 00:04:37,692
+00:04:43,345 --> 00:04:46,312
 gözde ya da ağızda rahatsızlık olursa doktora danış.
 
 90
-00:04:37,797 --> 00:04:40,602
+00:04:46,417 --> 00:04:49,222
 Köpek ya da kedi ağzına aldıysa veterinere başvur.
 
 91
-00:04:40,707 --> 00:04:43,613
+00:04:49,327 --> 00:04:52,233
 Semenderi doğadan alıp eve götürme; kararsız kalırsan
 
 92
-00:04:43,613 --> 00:04:47,317
+00:04:52,233 --> 00:04:55,937
 bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.
 
 93
-00:04:47,917 --> 00:04:52,166
+00:04:56,537 --> 00:05:00,786
 Özetle semender ateşten doğmuyor; ateş hikâyesinin kütükten çıkan,
 
 94
-00:04:52,166 --> 00:04:56,402
+00:05:00,786 --> 00:05:05,022
 kış uykusundaki semenderlerle bağlantılı olduğu öne sürülüyor.
 
 95
-00:04:56,507 --> 00:05:00,932
+00:05:05,127 --> 00:05:09,552
 Senin köyünde semendere ne derler, hiç odunun içinden hayvan çıktı mı?
 
 96
-00:05:01,037 --> 00:05:03,801
+00:05:09,657 --> 00:05:12,421
 Avludaki Komşular'da, evinin çevresindeki yanlış
 
 97
-00:05:03,801 --> 00:05:06,522
+00:05:12,421 --> 00:05:15,142
 tanınan komşuları anlatmaya devam edeceğiz.
 
 98
-00:05:06,627 --> 00:05:09,608
+00:05:15,247 --> 00:05:18,228
 Sıradaki komşu: bahçendeki yılan zehirli mi,
 
 99
-00:05:09,608 --> 00:05:11,952
+00:05:18,228 --> 00:05:20,572
 ve bunu uzaktan nasıl anlarsın?
 
 100
-00:05:12,057 --> 00:05:13,167
+00:05:20,677 --> 00:05:21,787
 Komşunu tanı.

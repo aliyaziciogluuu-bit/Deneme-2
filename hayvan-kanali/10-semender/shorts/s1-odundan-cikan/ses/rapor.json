@@ -1,0 +1,65 @@
+{
+ "000": {
+  "yazi": "Semender ateşten doğmuyor; efsanenin, kütükten çıkan semenderlerden doğduğu öne sürülüyor.",
+  "duyulan": "Semender ateşten doğmuyor, efsanenin kütükten çıkan semenderlerden doğduğu öne sürülüyor.",
+  "hata": 0,
+  "sure": 5.78,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bir derlemeye göre birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor; odun ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.",
+  "duyulan": "Bir derlemeye göre birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor. Odun ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.",
+  "hata": 0,
+  "sure": 9.02,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık.",
+  "duyulan": "Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık.",
+  "hata": 0,
+  "sure": 3.52,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Avrupa lekeli semenderinin salgısında, insan için tehlikeli olabilecek maddeler de bildiriliyor.",
+  "duyulan": "Avrupa lekeli semenderinin salgısında insan için tehlikeli olabilecek maddeler de bildiriliyor.",
+  "hata": 0,
+  "sure": 5.24,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Semenderi ateşe ya da sobaya atma; ona dokunma, dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.",
+  "duyulan": "Semenderi ateşe ya da sobaya atma. Ona dokunma, dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.",
+  "hata": 0,
+  "sure": 7.68,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Küçük çocuk dokunduysa elini yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış.",
+  "duyulan": "Küçük çocuk dokunduysa elini yıkamasına yardım et. Gözde ya da ağızda rahatsızlık olursa doktora danış.",
+  "hata": 0,
+  "sure": 5.7,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
+  "duyulan": "köpek ya da kedi ağzına aldıysa veterinere başvur.",
+  "hata": 0,
+  "sure": 2.96,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Semenderi doğadan alıp eve götürme; kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Semenleri doğadan alıp eve götürme. Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.",
+  "hata": 1,
+  "sure": 6.64,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.44,
+  "uygun": true
+ }
+}
