@@ -338,8 +338,14 @@ def sigdir_tuvali(gorsel: Image.Image) -> Image.Image:
     return zemin
 
 
-def klipleri_hazirla(klasor: pathlib.Path):
-    """cekimler.json'daki klipleri 1920x1080, 30 fps ham karelere çevirir (işçi süreçler bellek eşlemeyle okur)."""
+def klipleri_hazirla(klasor: pathlib.Path, zamanli_plan=None):
+    """cekimler.json'daki klipleri 1920x1080, 30 fps ham karelere çevirir (işçi süreçler bellek eşlemeyle okur).
+    zamanli_plan (Sahne.plan) verilirse her klipten yalnızca çekimde gerçekten kullanılan süre önbelleğe alınır
+    (28 Kasım: 13 klipli uzun video ~12 GB önbellek istiyordu, disk doldu; klip çekimden uzunsa zaten yalnızca başı oynar)."""
+    gerek = {}
+    for c in zamanli_plan or []:
+        if c.get("klip"):
+            gerek[c["klip"]] = max(gerek.get(c["klip"], 0.0), c["bit"] - c["bas"] + 0.2)
     plan = json.loads((klasor / "cekimler.json").read_text(encoding="utf-8"))["cekimler"]
     gecici = klasor / "_gecici"
     gecici.mkdir(exist_ok=True)
@@ -357,6 +363,9 @@ def klipleri_hazirla(klasor: pathlib.Path):
         if not hedef.exists():
             # kt: [bas, bit] sn — klibin yalnızca temiz aralığı kullanılır (denetçi ŞARTLI dediğinde)
             aralik = ["-ss", str(kx[ad][3][0]), "-to", str(kx[ad][3][1])] if kx[ad][3] else []
+            if ad in gerek:  # yalnızca gereken süre (klip daha kısaysa ffmpeg klibin sonunda durur)
+                sure = min(gerek[ad], kx[ad][3][1] - kx[ad][3][0]) if kx[ad][3] else gerek[ad]
+                aralik = (["-ss", str(kx[ad][3][0])] if kx[ad][3] else []) + ["-t", f"{sure:.2f}"]
             subprocess.run(["ffmpeg", "-v", "error", "-y", *aralik, "-i", str(klasor / "klipler" / f"{ad}.mp4"), "-an", "-vf",
                             f"scale={round(G * kx[ad][1])}:{round(Y * kx[ad][1])}:force_original_aspect_ratio=increase:flags=lanczos,"
                             f"crop={G}:{Y}:(iw-{G})*{kx[ad][0]}:(ih-{Y})*{kx[ad][2]},fps={FPS}",
@@ -593,8 +602,8 @@ def main():
     if "--ses-duzelt" in sys.argv:  # yalnızca bitmiş videonun ses yüksekliğini düzelt
         ses_yuksekligi_duzelt(klasor / "video.mp4")
         return
-    klipleri_hazirla(klasor)
     sahne = Sahne(klasor)
+    klipleri_hazirla(klasor, sahne.plan)
     if "--onizleme" in sys.argv:
         onizleme(sahne, klasor / "onizleme.jpg")
         shutil.rmtree(klasor / "_gecici", ignore_errors=True)  # dikey klip önbelleği klip başına ~900 MB; diski doldurmasın

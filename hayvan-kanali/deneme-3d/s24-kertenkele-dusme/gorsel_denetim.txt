@@ -1,3 +1,6 @@
 kuyruk: KABUL (aday 1; görsel denetçi 28 Kas)
 inis: KABUL (aday 1; görsel denetçi 28 Kas)
 tavan_bos: KABUL (aday 1; görsel denetçi 28 Kas)
+dusme: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur)
+donus: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur)
+tavan_geko, kuyruksuz: ÜRETİM DIŞI (2 tur RET; yerine tavan_bos ve inis)

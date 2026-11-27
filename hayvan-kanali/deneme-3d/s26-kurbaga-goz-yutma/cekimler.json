@@ -4,8 +4,8 @@
    "n": 1,
    "gorseller": [
     {
-     "gorsel": "goz_cokme",
-     "klip": "goz_cokme"
+     "gorsel": "cam_kafa",
+     "klip": "cam_kafa_k"
     },
     "portre"
    ]
@@ -15,7 +15,7 @@
    "gorseller": [
     "av",
     {
-     "gorsel": "goz_cokme",
+     "gorsel": "portre",
      "a": [
       0.5,
       0.42,
@@ -87,7 +87,7 @@
      ]
     },
     {
-     "gorsel": "goz_cokme",
+     "gorsel": "cam_kafa",
      "a": [
       0.5,
       0.475,
