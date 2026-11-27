@@ -1,0 +1,177 @@
+{
+ "000": {
+  "yazi": "Bahçede ayağının dibinde bir yılan kıvrılmış.",
+  "duyulan": "bahçede ayağının dibinde bir yılan kıvrılmış.",
+  "hata": 0,
+  "sure": 2.78,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bahçendeki yılan zehirli mi?",
+  "duyulan": "Bahçendeki yılan zehirli mi?",
+  "hata": 0,
+  "sure": 1.52,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bilinen ölçü şu: başı üçgense, gözü dikeyse zehirlidir.",
+  "duyulan": "Bilinen ölçü şu, başı üçgense, gözü dikeyse zehirlidir.",
+  "hata": 0,
+  "sure": 4.04,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Oysa çoğunlukla boynunda açık renkli yaka olan zehirsiz bir yılan, korkunca bazen başını ve boynunu yassılaştırabiliyor.",
+  "duyulan": "Oysa çoğunlukla boynunda açık renkli yaka olan zehirsiz bir yılan korkunca bazen başını ve boynunu yaslalaştırabiliyor.",
+  "hata": 1,
+  "sure": 7.4,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Gözü dikey olan bir yılan daha var, ama o bir engerek değil.",
+  "duyulan": "Gözü dikey olan bir yılan daha var ama o bir engerek değil.",
+  "hata": 0,
+  "sure": 3.28,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Sırada başı geniş, sırtı lekeli ama zehirsiz bir yılan ile ısırıldıktan sonra hastanede yaşananlar var.",
+  "duyulan": "Sırada başı geniş, sırtı lekeli ama zehirsiz bir yılanla ısırıldıktan sonra hastanede yaşananlar var.",
+  "hata": 0,
+  "sure": 6.56,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Önce baş şekline bakalım: gerçekten güvenilir bir ölçüt mü?",
+  "duyulan": "Önce baş şekline bakalım, gerçekten güvenilir bir ölçüt mü?",
+  "hata": 0,
+  "sure": 3.28,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Bir tıp derlemesi, zehirli yılanlarda başın üçgen, boynun belirgin olduğunu yazıyor.",
+  "duyulan": "Bir tıp derlemesi, zehirli yılanlarda başın üçgen, boynun belirgin olduğunu yazıyor.",
+  "hata": 0,
+  "sure": 5.14,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Aynı derleme, zehirliyi zehirsizden ayırmanın baştan güç olduğunu da kabul ediyor.",
+  "duyulan": "Aynı derleme, zehirliği zehirsizden ayırmanın baştan güç olduğunu da kabul ediyor.",
+  "hata": 1,
+  "sure": 4.6,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Sarı yılanın başı boynuna göre belirgin geniş; sırtında da siyah ya da çok koyu lekeler var.",
+  "duyulan": "Sarı yılanın başı boynuna göre belirgin geniş, sırtında da siyah ya da çok koyu lekeler var.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Yine de zehirsiz bir yılan.",
+  "duyulan": "Yine de zehirsiz bir yılan.",
+  "hata": 0,
+  "sure": 1.42,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Böyle bir yanlışı her hafta düzeltiyoruz; sıradakini kaçırmamak için abone ol.",
+  "duyulan": "Böyle bir yanlışı her hafta düzeltiyoruz. Sıradakini kaçırmamak için abone ol.",
+  "hata": 0,
+  "sure": 4.12,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Salı ve cumartesi akşamı yeni komşu geliyor.",
+  "duyulan": "Salı ve Cumartesi akşamı yeni komşu geliyor.",
+  "hata": 0,
+  "sure": 2.37,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Boyu iki buçuk metreye kadar çıkabiliyor; Türkiye'de yaşayan en büyük yılanlardan biri.",
+  "duyulan": "Boyu 2.5 metreye kadar çıkabiliyor. Türkiye'de yaşayan en büyük yılanlardan biri.",
+  "hata": 0,
+  "sure": 5.72,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Boynunda yaka olan o yılan, korkunca başka ne yapıyor?",
+  "duyulan": "Boynunda yaka olan o yılan, korkunca başka ne yapıyor?",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Ağzını açmadan hamle yapıp tıslayabiliyor; ölü taklidi de yapabiliyor.",
+  "duyulan": "Ağzını açmadan hamle yapıp tıslayabiliyor, ölü taklidi de yapabiliyor.",
+  "hata": 0,
+  "sure": 3.98,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Bir ansiklopedi, zehir dişi olmadığını ve savunmada nadiren ısırdığını yazıyor.",
+  "duyulan": "Bir ansiklopedi zehir dişi olmadığını ve savunmada nadiren ısırdığını yazıyor.",
+  "hata": 0,
+  "sure": 4.52,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Peki göz bebeği dikeyse yılan engerek midir?",
+  "duyulan": "Peki göz mebeği dikeyse yılan engerek midir?",
+  "hata": 1,
+  "sure": 3.12,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Derleme, zehirlilerde göz bebeğinin elips, zehirsizlerde yuvarlak olduğunu yazıyor.",
+  "duyulan": "Derleme, zehirlilerde göz ve bebeğinin elips, zehirsizlerde yuvarlak olduğunu yazıyor.",
+  "hata": 1,
+  "sure": 5.12,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Ama kedi gözlü yılanın göz bebeği dikey ve yarık biçimli; adını da oradan almış.",
+  "duyulan": "ama kedi gözlü yılanın göz bebeği dikey ve yarık biçimli. Adını da oradan almış.",
+  "hata": 0,
+  "sure": 5.24,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma.",
+  "duyulan": "Wikipedia onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor. Yine de hiçbir yılana dokunma.",
+  "hata": 1,
+  "sure": 7.18,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Kırsal bahçelerde de bulunabiliyor.",
+  "duyulan": "kırsal bahçelerde de bulunabiliyor.",
+  "hata": 0,
+  "sure": 1.56,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Üstelik göz bebeğinin biçimini görecek kadar yakına gitmek akıllıca mı?",
+  "duyulan": "Üstelik göz ve bebeğinin biçimini görecek kadar yakına gitmek akıllıca mı?",
+  "hata": 1,
+  "sure": 3.88,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Missouri'deki doğa koruma dairesi, göz bebeğini görmek için çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor.",
+  "duyulan": "Mesurideki doğa koruma dairesi, göz bebeğini görmek için çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor.",
+  "hata": 1,
+  "sure": 6.68,
+  "uygun": true
+ },
+ "024": {
+  "yazi": "Yani ölçüt doğru olsa bile, güvenli mesafeden işine yaramıyor.",
+  "duyulan": "yani ölçü doğru olsa bile güvenli mesafeden işine yaramıyor.",
+  "hata": 1,
+  "sure": 3.92,
+  "uygun": true
+ }
+}

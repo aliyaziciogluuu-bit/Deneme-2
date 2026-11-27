@@ -1,0 +1,33 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "bahce",
+   "klip": "bahce"
+  },
+  {
+   "n": 1,
+   "gorsel": "fener",
+   "klip": "fener"
+  },
+  {
+   "n": 1,
+   "gorsel": "tepkime",
+   "klip": "tepkime"
+  },
+  {
+   "n": 1,
+   "gorsel": "es",
+   "klip": "es"
+  },
+  {
+   "n": 1,
+   "gorsel": "larva"
+  },
+  {
+   "n": 1,
+   "gorsel": "fener",
+   "klip": "fener"
+  }
+ ]
+}

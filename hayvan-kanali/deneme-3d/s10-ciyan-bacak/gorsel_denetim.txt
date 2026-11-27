@@ -1,0 +1,5 @@
+tas: KABUL (aday 1: orta mesafe çıyan)
+vagon: KABUL (aday 1: bölüm başına bir çift bacak)
+sayim: KABUL (aday 2: ışıklı noktalar, rakam yok)
+kiskac: KABUL (aday 1: zehir kıskacı)
+kapi: KABUL (aday 1: yazısız kapı)

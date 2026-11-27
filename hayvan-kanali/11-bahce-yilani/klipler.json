@@ -1,0 +1,107 @@
+{
+ "not": "17 klip x 0,35 $ = 5.95 $. Yalnızca yapay zekâ görsellerinden. Yılan kliplerinde gövdenin kopması/çatallanması, ikinci baş, bacak, ağız açılıp zehir dişi, pul deseninin değişmesi kontrol edilir; insan eli/ayağı klibi yok (yalnızca durağan insanlar). Her klipten 5 kare (0,5-4,9 sn) incelenir; avlu-gorsel-denetci KABUL vermeden klip üretilmez.",
+ "klipler": [
+  {
+   "ad": "ayak_yilan",
+   "gorsel": "bahce_ayak_yilan",
+   "sure": 5,
+   "istem": "The snake gently flicks its forked tongue and slowly raises its head a little, grass sways softly in the breeze; the shoes stay completely still. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "yassilasan_bas",
+   "gorsel": "yakali_yilan_yassi",
+   "sure": 5,
+   "istem": "The snake holds its flattened head and neck, sways very slightly and flicks its forked tongue once, grass moves gently. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "kedi_dil",
+   "gorsel": "kedi_gozlu_goz",
+   "sure": 5,
+   "istem": "The tongue flicks out and back twice, the head stays almost still, soft light shifts on the scales. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "sari_bas_dil",
+   "gorsel": "sari_yilan_bas",
+   "sure": 5,
+   "istem": "The snake flicks its forked tongue and turns its head very slightly, mouth stays closed otherwise, soft light moves on the scales. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "sari_surun",
+   "gorsel": "sari_yilan_uzun",
+   "sure": 5,
+   "istem": "The snake slowly raises its head slightly and gently glides a short distance forward along the path, the chair stays still. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "yakali_hamle",
+   "gorsel": "yakali_yilan_hamle",
+   "sure": 5,
+   "istem": "The raised front of the body sways slowly in the S-curve, mouth stays closed, tongue flicks once. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "yakali_olu",
+   "gorsel": "yakali_yilan_olu",
+   "sure": 5,
+   "istem": "The snake lies limp and still, only the tongue twitches slightly and soft light flickers on the soil. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "dikey_goz",
+   "gorsel": "dikey_goz_engerek",
+   "sure": 5,
+   "istem": "Soft light slowly shifts across the scales around the eye, the pupil stays a vertical slit, the head stays almost still, extremely subtle motion only. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "kedi_tas",
+   "gorsel": "kedi_gozlu_tas",
+   "sure": 5,
+   "istem": "The snake slowly turns its head a little and flicks its tongue, the body stays on the wall, evening leaves sway in the background. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "mesafe_izle",
+   "gorsel": "bahce_mesafe",
+   "sure": 5,
+   "istem": "The snake slowly lifts its head and flicks its tongue; the person stays standing still with relaxed hands; grass sways gently. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "anadolu_nefes",
+   "gorsel": "anadolu_manzara",
+   "sure": 5,
+   "istem": "Cloud shadows slowly drift across the landscape, wheat sways gently, no animals, no people. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "boynuzlu_nefes",
+   "gorsel": "boynuzlu_engerek_tam",
+   "sure": 5,
+   "istem": "The snake breathes gently, its flanks rise slightly and the tongue flicks once, head stays raised, mouth closed. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "koca_dil",
+   "gorsel": "koca_engerek_tam",
+   "sure": 5,
+   "istem": "The thick body breathes slowly, the tongue flicks out and in, head moves very slightly, mouth stays closed. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "seritli_uyari",
+   "gorsel": "seritli_engerek_uyari",
+   "sure": 5,
+   "istem": "The raised head sways very slightly above the coils and the tongue flicks, mouth closed, coils stay in place. Keeps exactly one head, one continuous body and one tail, scale pattern unchanged, no legs appear, body never splits or forks. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "karadeniz_sis",
+   "gorsel": "karadeniz_ev",
+   "sure": 5,
+   "istem": "Morning mist drifts slowly between the tea hills, wet grass sways gently, smoke-free calm village atmosphere, no animals, no people. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "kemirgen_nefes",
+   "gorsel": "kemirgen_tarla",
+   "sure": 5,
+   "istem": "The mouse nibbles the seed in its front paws and its whiskers and nose twitch, otherwise sitting still; keeps exactly two eyes, two ears, four legs and one tail. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "bahce_aksam",
+   "gorsel": "bahce_genel",
+   "sure": 5,
+   "istem": "Warm evening light slowly shifts, flowering bushes and grass sway gently in a breeze, the window glow flickers softly, no animals, no people. Camera static or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  }
+ ]
+}

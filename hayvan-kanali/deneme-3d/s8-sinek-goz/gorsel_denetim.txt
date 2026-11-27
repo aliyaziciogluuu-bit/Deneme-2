@@ -1,0 +1,4 @@
+tezgah: KABUL (aday 2: el beş parmak, sinek altı bacak)
+kamera: KABUL (aday 2: film şeridi)
+agir: KABUL (aday 2)
+goz: KABUL (aday 1: iki petek göz + üç basit göz)

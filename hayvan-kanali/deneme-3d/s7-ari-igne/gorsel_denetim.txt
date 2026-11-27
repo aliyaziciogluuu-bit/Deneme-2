@@ -1,0 +1,5 @@
+kol: KABUL (aday 1: işçi arı, altı bacak, kol)
+igne: KABUL (aday 1: tek dikenli iğne)
+kopma: KABUL (aday 2; aday 1 RET: kanlı et kesiti görünümü)
+kese: KABUL (aday 2: iğne + zehir kesesi, kan yok)
+kapi: KABUL (aday 1: yazısız kapı)

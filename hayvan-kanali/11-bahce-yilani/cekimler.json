@@ -1,0 +1,652 @@
+{
+ "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 68). Tamamen 3D; gerçek fotoğraf yok. a/b kadrajları taslak: aday seçilince hat.py önizlemesiyle hayvanın konumuna göre düzeltilecek. Klipler: ayak_yilan(1-2), yassilasan_bas(3-4), sari_bas_dil(10-11), yakali_hamle ve yakali_olu(15-16) en etkili anlar.",
+ "cekimler": [
+  {
+   "n": 2,
+   "gorsel": "bahce_ayak_yilan",
+   "klip": "ayak_yilan",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "yakali_yilan_yassi",
+   "klip": "yassilasan_bas",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kedi_gozlu_goz",
+   "klip": "kedi_dil",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "saglik_kurulusu",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "sari_yilan_ot",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "derleme_sayfa",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "sari_yilan_bas",
+   "klip": "sari_bas_dil",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "bahce_genel",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "sari_yilan_uzun",
+   "klip": "sari_surun",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yakali_yilan_hamle",
+   "klip": "yakali_hamle",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yakali_yilan_olu",
+   "klip": "yakali_olu",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yakali_yilan_portre",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "dikey_goz_engerek",
+   "klip": "dikey_goz",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yuvarlak_goz",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "kedi_gozlu_tas",
+   "klip": "kedi_tas",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "yilan_uzaktan_zoom",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "anadolu_manzara",
+   "klip": "anadolu_nefes",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "boynuzlu_engerek_tam",
+   "klip": "boynuzlu_nefes",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "boynuzlu_engerek_burun",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "seritli_engerek_tam",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "koca_engerek_tam",
+   "klip": "koca_dil",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "koca_engerek_tarla",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "turkiye_harita",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "seritli_engerek_uyari",
+   "klip": "seritli_uyari",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "laboratuvar_sise",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "rize_cay_boot",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "yilan_uzaktan_zoom",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "surungen_uzmani",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "el_uzanan",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "karadeniz_ev",
+   "klip": "karadeniz_sis",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "diyarbakir_bag",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "anadolu_manzara",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "boynuzlu_engerek_burun",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kemirgen_tarla",
+   "klip": "kemirgen_nefes",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "bahce_mesafe",
+   "klip": "mesafe_izle",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "bacaksiz_kertenkele",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "bahce_uzaklas",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "yuzuk_cikar",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "atel_sedye",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "saglik_kurulusu",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "yara_eller",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "cocuk_saglik",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "doktor_telefon",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.72
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "sari_yilan_ot",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 4,
+   "gorsel": "bahce_genel",
+   "klip": "bahce_aksam",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "tezgah",
+   "klip": "tezgah"
+  },
+  {
+   "n": 1,
+   "gorsel": "kamera",
+   "klip": "kamera"
+  },
+  {
+   "n": 1,
+   "gorsel": "agir"
+  },
+  {
+   "n": 1,
+   "gorsel": "goz",
+   "klip": "goz"
+  },
+  {
+   "n": 1,
+   "gorsel": "tezgah",
+   "klip": "tezgah"
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+bahce: KABUL (aday 2)
+fener: KABUL (2. üretim aday 2: kalkanlı ateş böceği, ışıklı karın; 1. üretim RET: karasinek gibi büyük kırmızı gözler)
+tepkime: KABUL (aday 2)
+es: KABUL (2. üretim aday 2: iki ateş böceği)
+larva: KABUL (2. üretim aday 1: bacaklar önde, kuyrukta ışık)
