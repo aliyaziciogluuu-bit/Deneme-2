@@ -35,17 +35,17 @@ Bu şeridin adı radula;
 Latincede küçük kazıyıcı demek.
 
 10
-00:00:17,140 --> 00:00:18,493
-Dişler aşınınca şeridin
+00:00:17,140 --> 00:00:19,066
+Bu dişler aşınınca şeridin
 
 11
-00:00:18,493 --> 00:00:20,385
+00:00:19,066 --> 00:00:21,385
 gerisinden yenileri geliyor.
 
 12
-00:00:20,490 --> 00:00:22,432
+00:00:21,490 --> 00:00:23,432
 Yani salyangoz, yemeğini dişli
 
 13
-00:00:22,432 --> 00:00:24,560
+00:00:23,432 --> 00:00:25,560
 bir şeritle kazıyarak alıyor.

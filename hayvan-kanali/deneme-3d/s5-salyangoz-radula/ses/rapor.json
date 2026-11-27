@@ -28,11 +28,12 @@
   "uygun": true
  },
  "004": {
-  "yazi": "Dişler aşınınca şeridin gerisinden yenileri geliyor.",
-  "duyulan": "Dişler aşınınca şeridin gerisinden yenileri geliyor.",
+  "yazi": "Bu dişler aşınınca şeridin gerisinden yenileri geliyor.",
+  "duyulan": "Bu dişler aşınınca şeridin gerisinden yenileri geliyor.",
   "hata": 0,
-  "sure": 3.0,
-  "uygun": true
+  "sure": 4.0,
+  "uygun": true,
+  "tek_basina": true
  },
  "005": {
   "yazi": "Yani salyangoz, yemeğini dişli bir şeritle kazıyarak alıyor.",
