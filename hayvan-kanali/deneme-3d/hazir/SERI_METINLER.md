@@ -530,3 +530,286 @@ Kaynaklar ve cümle eşlemesi:
   - Cümle: 5, 6
   - Kaynakta geçen ifade: Kaynak: Paper wasp sayfası (acı verici sokma, anafilaktik reaksiyon). Yönlendirme: kesin tıbbi hüküm yok; karar sağlık kuruluşuna bırakılıyor (S2 kalıbı). Kaynaktaki "anafilaktik reaksiyon" cümlesi yönlendirmenin gerekçesi.
 
+
+---
+
+## Paket 2 (yükseltilmiş biçim)
+
+S21–S30 (27 Kasım): yükseltilmiş biçim (Zack D. Films / Türler Alemi temposu): 5–6 kısa cümle, 34–40 kelime (≈20 sn), kelime kelime büyük altyazı, müzik altlığı (ambiyans yok), ilk cümle şok kanca, son cümle döngü ya da merak, abone çağrısı yok. Rakam ve "ise" yok; yabancı ad ses alanı gerektirmiyor. 5 "ne olur?" (S21–S25), 3 yetenek (S26–S28), 2 efsane (S29–S30).
+Kaynaklar yalnızca bu oturumda açılıp metni okunan PubMed Central (hakemli) makaleleri ve ikincil destek olarak Vikipedi sayfalarıdır. Bilgi kontrolcüsü cümle eşlemesinden çalışır. Sinek (S27) ve salyangoz (S22) en zayıf kaynaklı konulardır: S27'de hakemli kaynak yakın akraba bir sinekte (blowfly), S22'de tek bir tatlı su türünde.
+Ses riski: cümle başları "Kırık", "Düşen", "Kopan", "Lambanın", "Bal arısı" ses testinde izlensin; "Çünkü" ile başlayan S21 son cümle ve "Peki" ile başlayan döngü soruları gözden geçirilsin.
+Görsel notu: ince bacaklı hayvanlarda (geko, sinek, kurbağa, arı) bacaklar kadraj dışı ya da durağan; kertenkele duvarda "belly pressed flat, legs splayed sideways, not standing, not hanging"; kesitlerde et/pasta görünümü yok.
+
+## S21 – Yağmur Damlası Sivrisineğe Çarparsa Ne Olur? 🦟
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Yağmur Damlası Sivrisineğe Çarparsa Ne Olur? 🦟 #shorts
+- Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
+- Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
+- Kapsam: serbest uçan sivrisinekler (laboratuvar deneyi, damla çarpması); 'bazı' tür belirtilmedi; sayı yazılmadı.
+- Üst yazı: YAĞMURA KARŞI / SİVRİSİNEK
+- İlk kare: Yağmur damlası, havada uçan küçük bir sivrisineğe tam isabet ediyor; sivrisinek damlayla birlikte düşüyor ama ezilmiyor (3D, yavaş çekim, damla sivrisineğin neredeyse üç katı boyda).
+- İlgili uzun video: yok
+
+Metin:
+1. Sivrisinek, kendinden ağır yağmur damlasından sağ çıkıyor.
+2. Çok hafif olduğu için damla ona az kuvvet uyguluyor.
+3. Bir süre damlaya yapışıp aşağı sürükleniyor.
+4. Sonra yana kayıp uçmaya devam ediyor.
+5. Asıl tehlike yağmur değil, zemin.
+6. Çünkü damladan ayrılmaya yeri kalmıyor.
+
+Kaynaklar ve cümle eşlemesi:
+- PNAS 2012 Dickerson ve ark. (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC3382494
+  - Cümle: 1, 2, 3, 4, 5, 6
+  - Kaynakta geçen ifade: "free-flying mosquitoes can survive the high-speed impact of falling raindrops" ; "raindrops can weigh more than 50 times a mosquito" (metinde yalnızca "kendinden ağır"; sayı yazılmadı) ; "A mosquito's strong exoskeleton and low mass renders it impervious to falling drops. The mosquito's low mass causes raindrops to lose little momentum upon impact and so impart correspondingly low forces" ; "The mosquito's falling distance while pinned by the drop varies from 5–20 body lengths" ; "laterally separate itself from the drop and recover its flight" ; "it is imperative a mosquito does not fly too low during rain or it will suffer an secondary impact with the ground"
+
+## S22 – Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌 #shorts
+- Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
+- Kelime: 36; cümle: 6; tahmini süre ≈ 20 sn
+- Kapsam: tatlı su salyangozu Pomacea canaliculata (tek tür, tek araştırma); bahçe salyangozu için iddia yok; sayı yalnızca 'yirmi bir gün içinde çoğunlukla'.
+- Üst yazı: KIRIK KABUK / ONARILIR MI?
+- İlk kare: Yapraktaki salyangozun kabuğunda belirgin bir çatlak ve kırık kenar, yakın plan; çatlağın üstünde yumuşak bir ışık yeni örülen ince tabakayı gösteriyor.
+- İlgili uzun video: yok
+
+Metin:
+1. Kırık salyangoz kabuğu onarılabiliyor.
+2. Bir araştırmada kırık kabuklar çoğunlukla yirmi bir günde onarıldı.
+3. Onarım ilk günlerde daha hızlıydı.
+4. Ama bu sonuç, tek bir tatlı su salyangozundan.
+5. Sen yine de kabuğa dokunma.
+6. Peki kabuk çok kötü kırılırsa?
+
+Kaynaklar ve cümle eşlemesi:
+- Sci Rep 2023, Pomacea canaliculata kabuk onarımı (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC10593848
+  - Cümle: 1, 2, 3, 4
+  - Kaynakta geçen ifade: "snail broken-shell repaired mostly within 21 days. The snails experienced a significant increase in shell repair rates during earlier days of the treatment" (tek tür, tatlı su; cümle 4 bu kapsamı belirtiyor)
+- Cümle 5 (güvenlik/etik): —
+  - Cümle: 5
+  - Kaynakta geçen ifade: Bilgi iddiası değil; hayvanı rahatsız etmeme yönlendirmesi. Cümle 6 soru, iddia içermiyor.
+
+## S23 – Kertenkelenin Kuyruğu Kopunca Ne Olur? 🦎
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Kertenkelenin Kuyruğu Kopunca Ne Olur? 🦎 #shorts
+- Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
+- Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
+- Kapsam: kuyruğunu bırakabilen bazı kertenkeleler; 'önceden ayrılmış noktalar' Tokay gekosu bulgusu ('bir gekoda'); ev kertenkelesi (Hemidactylus) için ayrı iddia yok; kuyruğun yenilendiği söylenmiyor (soru olarak bırakıldı).
+- Üst yazı: KOPAN KUYRUK / KIPIRDIYOR
+- İlk kare: Duvarda bir kertenkelenin gövdesi kadrajın dışına kaçıyor, geride kalan kopmuş kuyruk ışıklı bir iz bırakarak kıvrılıp kıpırdıyor (kertenkele sırtı dönük, duvara yassı, bacaklar yanlara açık).
+- İlgili uzun video: Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)
+
+Metin:
+1. Kopan kertenkele kuyruğu, kıpırdamaya devam ediyor.
+2. Bu, avcının dikkatini dağıtıyor.
+3. Bir gekoda kuyruk, önceden ayrılmış noktalardan kopuyor.
+4. Ama bedeli ağır: kuyruk hareket ve yağ depolamaya yarıyor.
+5. Bu yüzden kertenkeleyi asla kuyruğundan tutma.
+6. Peki kopan kuyruğun yerine ne çıkıyor?
+
+Kaynaklar ve cümle eşlemesi:
+- PLoS ONE 2012, lizard tail autotomy (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC3526639
+  - Cümle: 1, 2, 3, 4
+  - Kaynakta geçen ifade: "The detached tail continues to wiggle … thereby distracting the attention of the predator from the escaping lizard" (kaynaktaki süre sayısı yazılmadı) ; "the tail of Gekko gecko was pre-severed at distinct sites" (cümle 3, "bir gekoda") ; "there is a significant cost to the animal due to the vital functions of the tail for movement, establishing social status, and as a fat-storage organ"
+- Wikipedia – Autotomy (ikincil), açıldı: https://en.wikipedia.org/wiki/Autotomy
+  - Cümle: 1, 2, 5
+  - Kaynakta geçen ifade: "Some lizards … when caught by the tail will shed part of it in attempting to escape. In many species the detached tail will continue to wriggle" ; "breakage occurs only when the tail is grasped with sufficient force"
+- Cümle 5 (etik) ve 6 (soru): —
+  - Cümle: 5, 6
+  - Kaynakta geçen ifade: Cümle 5 yönlendirme; cümle 6 soru, iddia yok.
+
+## S24 – Tavandan Düşen Kertenkele Havada Ne Yapıyor? 🦎
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Tavandan Düşen Kertenkele Havada Ne Yapıyor? 🦎 #shorts
+- Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
+- Kelime: 39; cümle: 6; tahmini süre ≈ 22 sn
+- Kapsam: yassı kuyruklu ev gekosu (Cosymbotus platyurus), laboratuvar deneyi; Türkiye'deki Hemidactylus için iddia yok; süre 106 ms bulgusu 'yaklaşık saniyenin onda biri' diye yazıldı.
+- Üst yazı: DÜŞEN GEKO / KUYRUKLA DÖNÜYOR
+- İlk kare: Tavandan sırtüstü düşen küçük bir ev gekosu, havada kuyruğunu bir yöne savuruyor ve gövdesi tam ters yöne dönüyor (yavaş çekim, geko duvara yassı duruşta, bacaklar yanlara açık).
+- İlgili uzun video: Duvardaki Kertenkele Yemeğe Düşerse Zehirler mi? (Gecenin Sessiz Avcısı)
+
+Metin:
+1. Düşen ev gekosu, havada kuyruğunu çevirip dönüyor.
+2. Sırtüstü düşse bile, karnı yere bakıyor.
+3. Kuyruk bir yöne dönünce gövde ters dönüyor.
+4. Bu dönüş, saniyenin yaklaşık onda biri sürüyor.
+5. Havada süzülürken kuyruk, yönü de ayarlıyor.
+6. Peki kuyruğu kopmuş gekoyu ne bekliyor?
+
+Kaynaklar ve cümle eşlemesi:
+- PNAS 2008 Jusufi ve ark., geko kuyruğu (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC2393739
+  - Cümle: 1, 2, 3, 4, 5
+  - Kaynakta geçen ifade: "a swing of its tail induces the most rapid, zero-angular momentum air-righting response yet measured" ; "geckos … always landed with the ventral side facing the ground independent of the initial posture" ; "Counterclockwise tail rotation induced a clockwise rotation of the body" ; "The average time to reorient was only 106 ± 6 ms" (metinde "yaklaşık saniyenin onda biri") ; "circular tail movements control yaw and pitch as the gecko descends" ; tür: flat-tailed house gecko, Cosymbotus platyurus (açıklamada belirtildi)
+- Cümle 6: —
+  - Cümle: 6
+  - Kaynakta geçen ifade: Soru, iddia yok (kuyruksuz gekoların performansı kaynakta ayrıca ölçülmüş, metne alınmadı).
+
+## S25 – Kovandaki Kraliçe Arı Ölürse Ne Olur? 🐝
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Kovandaki Kraliçe Arı Ölürse Ne Olur? 🐝 #shorts
+- Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
+- Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
+- Kapsam: bal arısı (Apis mellifera) kovanı; kraliçenin aniden ölmesi; başka arı türlerine genelleme yok; sayı yok ('bir günlük' larva kaynakta 1-day-old).
+- Üst yazı: KRALİÇE ÖLÜRSE / KOVAN NE YAPAR?
+- İlk kare: Kovanın içi: peteğin ortasında hareketsiz duran kraliçe, etrafında telaşla toplanan işçi arılar, hemen yanında altın renkli arı sütüyle dolan büyük bir hücre.
+- İlgili uzun video: yok
+
+Metin:
+1. Kraliçe ölünce, işçi arılar yeni kraliçe yetiştiriyor.
+2. Üstelik sıradan bir işçi larvadan.
+3. Seçilen larva, bol arı sütüyle besleniyor.
+4. Bir günlük larvadan çıkan kraliçe, daha çok işçi çekiyor.
+5. Acil durum kraliçeleri genellikle daha küçük oluyor.
+6. Peki genç larva kalmamışsa?
+
+Kaynaklar ve cümle eşlemesi:
+- PMC11171287, kraliçe aday seçimi, açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC11171287
+  - Cümle: 1, 2, 4
+  - Kaynakta geçen ifade: "When the queen dies or is injured, workers raise closely related larvae to develop into a queen." ; "In an emergency, new queens are reared from young worker larvae" ; "1-day-old larval queens triggered more worker followers than 2-day-old larval queens"
+- Wikipedia – Queen bee (ikincil), açıldı: https://en.wikipedia.org/wiki/Queen_bee
+  - Cümle: 3, 5
+  - Kaynakta geçen ifade: "If a queen suddenly dies, the workers will attempt to create an emergency queen by selecting several brood cells where a larva has just emerged which are then flooded with royal jelly." ; "Emergency queens are usually smaller and less prolific than normal queens."
+- Cümle 6: —
+  - Cümle: 6
+  - Kaynakta geçen ifade: Soru; kaynakta "Drone-laying queens usually signal the death of the colony, because the workers have no fertilized larvae" (Queen bee) cevabı destekliyor, metne alınmadı.
+
+## S26 – Bu Kurbağa Gözleriyle Yutkunuyor! 🐸
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Bu Kurbağa Gözleriyle Yutkunuyor! 🐸 #shorts
+- Tür: yetenek; müzik: lyria_hayret; altyazı: kelime
+- Kelime: 34; cümle: 6; tahmini süre ≈ 19 sn
+- Kapsam: kurbağalar (Anura) ve semenderler; 'dört ayaklılar arasında yalnızca' ifadesi kaynakta 'unique among extant tetrapods'; gözlerin yutmadaki payı (yardımcı mekanizma) metinde 'itiyor' diye değil sorusuyla bırakıldı.
+- Üst yazı: GÖZLERİYLE / YUTKUNUYOR
+- İlk kare: Kurbağanın yüzü yakın planda: iri gözleri bir anda içeri çöküyor, gözün yerinde çukur kalıyor ve boğazı hareket ediyor (şematik ağız boşluğu çizimi, et/pasta görünümü yok).
+- İlgili uzun video: yok
+
+Metin:
+1. Bu kurbağa gözleriyle yutkunuyor.
+2. Yemeği yutarken gözlerini içeri çekiyor.
+3. Gözler, ağzın tavanındaki boşluklardan ağıza iniyor.
+4. Böylece yemeği boğaza doğru itiyor.
+5. Dört ayaklılar arasında bunu yalnızca kurbağalar ve semenderler yapıyor.
+6. Peki gözleri olmasa yutamaz mıydı?
+
+Kaynaklar ve cümle eşlemesi:
+- Integr Org Biol 2019, Witzmann ve ark. (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC7671152
+  - Cümle: 1, 2, 3, 4, 5
+  - Kaynakta geçen ifade: "frogs and salamanders are unique among extant tetrapods in pulling the eyeballs down through the interpterygoid vacuities into the buccal cavity to force the prey toward the esophagus or to help to fixate it" ; "the eyeballs … (usually termed eye retraction)". Cümle 1 sözcük oyunu (gözle yutkunma = göz çekilmesi yutmaya yardım ediyor); cümle 4 "itiyor" yerine kaynakta "force … or help to fixate" geçiyor, kontrolcü uygun bulmazsa "yardım ediyor" yapılabilir.
+- Cümle 6: —
+  - Cümle: 6
+  - Kaynakta geçen ifade: Soru; Levine ve ark. 2004 (J Exp Biol 207:1361) sinir kesildiğinde yutmanın sürdüğünü söylüyor (özetten, açılmadı), metne alınmadı.
+
+## S27 – Karasinek Yemeğin Tadına Ayaklarıyla Bakıyor! 🪰
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Karasinek Yemeğin Tadına Ayaklarıyla Bakıyor! 🪰 #shorts
+- Tür: yetenek; müzik: lyria_merak; altyazı: kelime
+- Kelime: 35; cümle: 6; tahmini süre ≈ 19 sn
+- Kapsam: karasinek (Musca domestica) bacak tat alıcıları; deneysel doğrulama yakın akraba bir sinekte (Phormia regina); 'ayaklarını ovuşturma yorumu' kaynakta 'enabling' olarak geçiyor, metin çekinceli.
+- Üst yazı: TADI / AYAKTA
+- İlk kare: Şekerli bir tabağın üstünde yürüyen karasineğin bacak ucu aşırı yakın planda: ucundaki tüylü pençeler ve parlayan küçük tat alıcıları.
+- İlgili uzun video: yok
+
+Metin:
+1. Karasinek, yemeğin tadına ayaklarıyla bakıyor.
+2. Bacaklarının ucunda, tat alan özel organlar var.
+3. Bir şeyin üstünde yürüyerek şekeri tanıyabiliyor.
+4. Sık sık bacaklarını birbirine sürtüyor.
+5. Bunun, alıcıları yeniden tazelediği söyleniyor.
+6. Yani sineğin ayakları, ikinci bir ağız gibi.
+
+Kaynaklar ve cümle eşlemesi:
+- Wikipedia – Housefly (ikincil), açıldı: https://en.wikipedia.org/wiki/Housefly
+  - Cümle: 1, 2, 3, 4, 5, 6
+  - Kaynakta geçen ifade: "Houseflies have chemoreceptors, organs of taste, on the tarsi of their legs, so they can identify foods such as sugars by walking over them. Houseflies are often seen cleaning their legs by rubbing them together, enabling the chemoreceptors to taste afresh whatever they walk on next." (cümle 5 "söyleniyor" diye çekinceli)
+- PNAS, Dethier, blowfly (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC426897
+  - Cümle: 2
+  - Kaynakta geçen ifade: "Contact chemoreceptors on the mouthparts and legs of the blowfly Phormia regina" (karasinek değil yakın bir sinek; destek)
+
+## S28 – Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝 #shorts
+- Tür: yetenek; müzik: lyria_hayret; altyazı: kelime
+- Kelime: 37; cümle: 6; tahmini süre ≈ 21 sn
+- Kapsam: bal arısı (Apis mellifera) sallanma dansı; yön Güneş'e göre, mesafe sallanma süresine bağlı; 'bazı arılar' (kaynakta 'some of them may be recruited'); mesafe oranı/sayı yazılmadı.
+- Üst yazı: ARININ / DANSI
+- İlk kare: Karanlık petek yüzeyinde bir bal arısı sekiz çizen sallanma dansı yapıyor, çevresinde onu izleyen arılar halka olmuş; dansçının izi parlayan ışıklı bir sekiz şekli.
+- İlgili uzun video: yok
+
+Metin:
+1. Bal arısı dans ederek adres tarif ediyor.
+2. Dans, sekiz şeklinde bir yol çiziyor.
+3. Açı, çiçeğin Güneş'e göre yönünü anlatıyor.
+4. Uzun sallanma, uzak çiçek demek.
+5. Dansı izleyen bazı arılar o çiçeğe uçuyor.
+6. Peki karanlık kovanda Güneş'i nasıl biliyorlar?
+
+Kaynaklar ve cümle eşlemesi:
+- Insects 2019, Waggle dance nöroetolojisi (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826
+  - Cümle: 1, 3, 4, 5, 6
+  - Kaynakta geçen ifade: "the direction to a food source from the hive relative to the sun's azimuth is encoded according to the angle between the upward direction and the waggle run direction, and the distance from the hive to the food source is related to the duration of the waggle run" ; "Bees in close proximity to the dancing bee (followers) receive this information, and some of them may be recruited to the same food source"
+- Wikipedia – Waggle dance (ikincil), açıldı: https://en.wikipedia.org/wiki/Waggle_dance
+  - Cümle: 1, 2
+  - Kaynakta geçen ifade: "figure-eight dance of the honey bee … successful foragers can share information about the direction and distance to patches of flowers" ; "The farther the target, the longer the waggle phase." Cümle 6 (soru): dikey peteğin, yukarı = Güneş yönü kuralı kaynakta ("food directly toward the sun is danced straight upward").
+
+## S29 – Böcekler Lambaya Âşık Değil! Peki Neden Dönüp Duruyor? 💡
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Böcekler Lambaya Âşık Değil! Peki Neden Dönüp Duruyor? 💡 #shorts
+- Tür: efsane; müzik: lyria_merak; altyazı: kelime
+- Kelime: 34; cümle: 6; tahmini süre ≈ 19 sn
+- Kapsam: lambanın yakınında uçan böcekler (araştırmada on farklı böcek takımından kayıt; birkaç metre mesafe); belirli tür adı yok; 'güve' yerine 'böcek' denildi; lambadan uzak mesafede ne olduğu iddia edilmiyor.
+- Üst yazı: LAMBAYA / ÂŞIK DEĞİL
+- İlk kare: Karanlık bir avlu gecesi, sokak lambasının çevresinde dönen küçük bir böcek; böceğin sırtından lambaya doğru ince bir ışık oku uzanıyor ve sırtı lambaya dönük.
+- İlgili uzun video: yok
+
+Metin:
+1. Lambanın çevresindeki böcek, ışığa âşık değil.
+2. Araştırmacılara göre, ışığa doğrudan gitmiyor.
+3. Sırtını ışığa doğru çeviriyor.
+4. Doğada en parlak yer gökyüzü olur.
+5. Yapay lambada bu refleks, onu dönüp durmaya sürüklüyor.
+6. Yani lamba, böceğin pusulasını şaşırtıyor.
+
+Kaynaklar ve cümle eşlemesi:
+- Nature Communications 2024, Fabian ve ark. (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC10827719
+  - Cümle: 1, 2, 3, 4, 5, 6
+  - Kaynakta geçen ifade: "Contrary to the expectation of attraction, insects do not steer directly toward the light. Instead, insects turn their dorsum toward the light, generating flight bouts perpendicular to the source. Under natural sky light, tilting the dorsum towards the brightest visual hemisphere helps maintain proper flight attitude and control. Near artificial sources, however, this highly conserved dorsal-light-response can produce continuous steering around the light and trap an insect." ; "the brightest part of the visual field has been the sky" ; araştırma lambaya birkaç metre yakınlıkta, on böcek takımından kayıtla ("pusula" cümle 6 benzetmedir)
+
+## S30 – Kurbağa Su İçmiyor, Peki Nasıl Susuzluğunu Gideriyor? 🐸
+
+- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Başlık: Kurbağa Su İçmiyor, Peki Nasıl Susuzluğunu Gideriyor? 🐸 #shorts
+- Tür: efsane; müzik: lyria_merak; altyazı: kelime
+- Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
+- Kapsam: kurbağa ve kara kurbağası dâhil kuyruksuz amfibiler (Anura); 'birçok kurbağa' deriyle emiyor; araştırma altı türde (iki Bufo/Rana dâhil) yapıldı; sayı yok.
+- Üst yazı: KURBAĞA / SU İÇMİYOR
+- İlk kare: Islak taşın üstüne konmuş kurbağa, karnının altı ve arka kısmı suya değiyor; deriden içeri parlayan su damlacıkları sızıyor, ağzı kapalı.
+- İlgili uzun video: Kurbağaya Dokunursan Siğil Olur mu? (Elini Yıkaman Gereken Asıl Neden)
+
+Metin:
+1. Kurbağa, suyu ağzıyla içmiyor; derisiyle alıyor.
+2. Birçok kurbağa, karnının alt derisinden suyu hızla emiyor.
+3. Orası, damarlarla dolu özel bir bölge.
+4. Su kaybı, öldürecek kadar hızlı olabiliyor.
+5. Bu yüzden kurbağayı ıslak yerinde rahat bırak.
+6. Peki derisi başka neler yapıyor?
+
+Kaynaklar ve cümle eşlemesi:
+- PMC8831224, kurbağalarda su alışverişi, açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC8831224
+  - Cümle: 1, 2, 3, 4
+  - Kaynakta geçen ifade: "Rather than drinking, anurans replace water losses by efficiently absorbing water through their skin" ; "Many frogs are able to absorb water rapidly through a highly vascularized area of ventral skin called the seat patch" ; "water loss rates from amphibians are high relative to other terrestrial vertebrates, and can be lethally rapid"
+- Wikipedia – Frog (ikincil), açıldı: https://en.wikipedia.org/wiki/Frog
+  - Cümle: 1, 2, 6
+  - Kaynakta geçen ifade: "Many frogs are able to absorb water and oxygen directly through the skin, especially around the pelvic area" ; "A frog's skin is protective, has a respiratory function, can absorb water, and helps control body temperature."
+- Cümle 5 (etik): —
+  - Cümle: 5
+  - Kaynakta geçen ifade: Yönlendirme; kuru/ıslak yer iddiası değil, rahatsız etmeme önerisi.
+
