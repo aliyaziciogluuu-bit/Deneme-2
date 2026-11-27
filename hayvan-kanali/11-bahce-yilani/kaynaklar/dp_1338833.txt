@@ -1,0 +1,269 @@
+       Original Article
+
+
+
+Retrospective Evaluation of
+Snake Bites in Eastern Black Sea Region
+   Ozlem Bilir1, Alpaslan Unlu1, Gökhan Ersunan1, Teslime Ayaz2
+1
+  Department of Emergency Medicine, Faculty of Medicine, University of Recep Tayyip Erdoğan, Education and Research Hospital, Rize, Turkey
+2
+  Department Internal Medicine, Faculty of Medicine, University of Recep Tayyip Erdoğan, Education and Research Hospital, Rize, Turkey
+
+
+
+
+    Abstract
+    Objectives: The aim of this study is to review snake bites, which are rarely encountered and thus regionally neglected in Eastern Black Sea Region but which
+    cause potentially serious clinical pictures, in order to provide a better patient management.
+    Material and Method: In this study, 27 cases who referred to tertiary emergency service due to snake bite were analysed retrospectively.
+    Results: Of the 27 cases, 70.4%(n=19) were female and average age was found as 46.77±16.11. Referrals were in the month of July when tea and hazelnut
+    farming was frequently done regionally. However, two patients developed syncope and hypotension after admission. The most common complaints of re-
+    ferral were pain (96.3%,n=26), ecchymosis and swelling (88.9%,n=24) due to bite in the lower extremity dorsum of the foot (96.3%,n=26). While 18.5% were
+    referred to our hospital after they were applied antivenom therapy in another health institution, antivenom therapy was applied to 2 patients(7.4%) due to
+    their clinical picture at admission. 29.6% of the patients who referred to the emergency service were followed and treated by being hospitalized. None of
+    the patients admitted with snake bite died. Elevated INR was the most common serious complication with 11.1%(n=3).
+    Conclusion: Snake bite is a rare situation in Eastern Black Sea region. In cases in the region which is the natural habitat of Vipera kaznakovi, depending on
+    the feature of the venom, hematotoxic complications can occur, local lesions caused by other Viperia species being at the forefront. Appropriate follow-up
+    and treatment should be based on the existing clinical picture.
+
+    Key words: snake bite, eastern black sea region, emergency service visit
+
+
+    Özet
+    Amaç; Doğu Karadeniz Bölgesinde nadir olarak karşılaşılan ancak potansiyel ciddi klinik tablolara neden olan bu durum karşısında daha iyi bir hasta yöne-
+    timi sağlanabilmesi için bölgesel olarak ihmal edilen bu durumun gözden geçirilmesini sağlamaktır.
+    Gereç ve Yöntem: Bu çalışma üçüncü basamak acil servise yılan ısırması nedeniyle başvuran 27 olgu retrospektif olarak incelendi.
+    Bulgular: Toplam 27 olgunun %70.4’ü (n=19) kadındı ve yaş ortalaması 46.77±16.11 olarak tespit edildi. Başvuru, bölgesel olarak çay ve fındık tarımının
+    sıklıkla yapıldığı Temmuz ayındaydı. Hastaların hepsinin başvuru esnasında genel durumları iyi ve vital bulguları stabildi. Ancak 2 hastada başvuru sonra-
+    sında senkop ve hipotansiyon gelişti. En sık başvuru şikayeti alt ekstermite ayak dorsumundaki ısırık nedeniyle (%96.3, n= 26) ağrı (%96.3, n=26), ekimoz
+    ve şişlik (%88.9, n=24) di. Downey ve arkadaşlarının sistemine göre yılan ısırığın ciddiyeti en sık %51.9 (n=14) ile grade 0 olarak değerlendirildi. Olguların
+    %18.5’i başka bir sağlık kuruluşuna başvuru sonrası antivenom tedavi uygulanarak hastanemize yönlendirilmişken 2 hastaya (%7.4) ise başvuru sırasında
+    mevcut klinik tabloları nedeniyle antivenom tedavi uygulanmış. Acil servise başvuran hastaların %29.6’sı yatırılarak takip ve tedavisi düzenlendi. Yılan ısırığı
+    nedeniyle başvuran hastalarda ölümle sonlanım olmamıştır. INR yüksekliği %11.1 (n=3) ile en sık görülen ciddi komplikasyondu.
+    Sonuç: Doğu Karadeniz Bölgesin de yılan ısırığı nadir bir durumdur. Vipera kaznakovinin doğal yaşam alanı olan bölgedeki vakalarda venomun özelliğine
+    göre diğer Vipera türlerinin neden olduğu lokal lezyonlar ön planda olmak üzere hemototoksik komplikasyonlara da neden olabilir. Uygun takip ve tedavi
+    mevcut klinik tabloya göre düzenlenmelidir.
+
+    Anahtar kelimeler: yılan ısırığı, doğu karadeniz bölgesi, acil servis başvuruları
+
+
+
+Introduction                                                                            Elapidae and Viperidae families2, 3. In our country, almost
+                                                                                        all of the poisoning cases belong to Viperidae family (viper
+                                                                                        snake) and the sub-types show regional differences. For the
+In many regions of the world, particularly in subtropical and
+                                                                                        Eastern Black Sea region, Vipera kaznakovi (Caucasian vi-
+tropical countries, poisoning from snake bite is an important                           per) has been identified as a dangerous sub-type. Especially
+public health problem1. There are more than 600 species of                              the structure of the Eastern Black Sea Region has favourable
+venomous snakes in the world and most of them belong to                                 conditions for the life of this species4.
+
+Corresponding Author: Alpaslan Unlu e-mail:alpiunlu@gmail.com
+Received: 10.10.2020 • Accepted: 05.11.2020
+Cite this article as: Bilir O, Unlu A, Ersunan G, Ayaz T. Retrospective evaluation of snake bites in eastern black sea region. Eurasian J Tox. 2020;1(2):40-43
+
+©Copyright 2018 by Emergency Physicians Association of Turkey - Available online at https://dergipark.org.tr/ejtox
+                                                                                                                             Unlu et al.
+Eurasian J Tox. 2020; 2 (2):40-43                                  Retrospective Evaluation of Snake Bites in Eastern Black Sea Region     41
+     Vipera kaznakovi venom is a cocktail rich in protein and         Table 1. Demographic Features (n=27)
+peptide toxins with specificity for a wide variety of tissue re-      Gender              Female                     19 (70.4%)
+ceptors. With the entry of venom into the body, the clinical
+                                                                                          Male                       8 (29.6%)
+picture changes according to the characteristics of the toxin
+and the local or systemic response of the person to the toxin5.       Age                        46.77 ± 16.11 (min: 14, max: 87)
+    The aim of this study is to review snake bites, which are         Occupation          Worker                     26 (96.3%)
+rarely encountered and thus regionally neglected in Eastern                               Student                    1 (3.7%)
+Black Sea Region but which cause potentially serious clini-           Place of resi-      Rize, City centre          11 (40.7%)
+cal pictures, in order to provide a better patient management.        dence               Artvin, Hopa               6 (22.2%)
+                                                                                          Rize, Kalkandere           2 (7.4%)
+                                                                      Referral to         Within the first hour      14 (51.9%)
+Materials and Methods                                                 hospital after                (min: 1 hour, max: 168 hours)
+                                                                      the incident
+27 patients who referred to Recep Tayyip Erdoğan Univer-             Minimum-Maximum (Mean ±Standard Deviation).
+sity Training and Research Hospital Emergency Clinic due
+to snake bite between 2010 and 2018 were included in this
+study. The data were collected retrospectively from the hos-          Table 2. Severity of the snake bite according to Downey et al.’s system
+pital data system.                                                    Stage 0                              14 (51.9%)
+     Findings of poisoning were evaluated in all patients.            Stage 1                              8 (29.6%)
+The severity of the reaction was made according to the clas-
+                                                                      Stage 2                              5 (18.5%)
+sification described by Downey et al.6. According to this
+system, stage 0: no local or systemic findings of poisoning,
+but <2.5 cm swelling and erythema around the tooth marks;
+stage 1: no systemic findings of poisoning, but swelling and
+                                                                         Symptoms, Clinical Findings and Laboratory Tests:
+erythema between 2.5-15 cm; stage 2: mild systemic find-
+                                                                     The patients referred to the emergency service most common-
+ings with swelling and erythema between 15-40 cm; stage
+                                                                     ly with the complaint of pain (n= 26, 96.3%). Tables 3 and
+3: systemic findings with swelling and erythema over >40
+                                                                     Table 4 show the patients’ clinical symptoms, findings, com-
+cm; stage 4: serious systemic findings accompanied with
+                                                                     plications and laboratory findings. 59.3% (n=16) of the fol-
+coma and shock. Demographic and epidemiological charac-
+                                                                     low-ups after referral were made in the emergency service of
+teristics, clinical symptoms and findings, laboratory results,
+                                                                     the health institutions the cases referred to. Follow-up period
+treatment and results were analysed.
+                                                                     in the hospital varied between 1 and 11 days and the average
+    The data were analysed by using SPSS for Windows
+                                                                     time was found as 2.77 ± 2.66. 44.4% (n=12) of the patients
+version 17 (SPSS, Chicago, IL, United States). Descriptive
+                                                                     were followed for one day, 22.2% (n=6) were followed for
+statistics were given as average ± standard deviation for
+                                                                     two days and 3.7% (n=1) patient was followed for 11 days.
+metric discrete variables, while they were given as case and
+percentage for categorical variables.
+
+
+Results                                                               Table 3. Clinical Symptoms and Findings
+                                                                      Local
+Demographic and Epidemiological Features: 40.7%
+                                                                        Tooth mark                                        22 (81.5%)
+(n=11) of the 27 patients who referred due to snake bite
+                                                                        Pain                                              26 (96.3%)
+between 2010 and 2018 referred in the month of July. The
+snakes which caused bite were not brought to hospital.                  Ecchymosis                                        24 (88.9%)
+However, the snakes were seen and according to the descrip-             Swelling                                          24 (88.9%)
+tion made, it was estimated that the snakes were Vipera ka-             Paraesthesia                                       1 (3.7%)
+znakovi, also called Caucasian viper, located in the region.            Regional swelling in lymph nodes                   9 (33.3%)
+40.7% of the patients referred within the first hour after the          Allergic reaction                                  1 (3.7%)
+incident during tea collection procedure in settlements of the        Systemic
+city centre in Rize (Table 1).                                          Nausea                                             2 (7.4%)
+    Anatomical region of the bites was lower extremity dor-             Vomiting                                           1 (3.7%)
+sum of the foot with a rate of 96.3% (n=26). According to the
+                                                                        Hypotension                                        2 (7.4%)
+system of Downey et al. the most common snake bite severity
+                                                                        Syncope                                            2 (7.4%)
+was evaluated as grade 0 with 51.9% (n=14) (Table 2).
+       Unlu et al.
+42     Retrospective Evaluation of Snake Bites in Eastern Black Sea Region                                        Eurasian J Tox. 2020; 2 (2):40-43
+
+
+ Table 4. Complications and Findings Related to Snake Bite                        Geographical structure of Eastern Black Sea Region and
+ Complications                                       n (%)                   the growing areas of main sources of livelihood such as tea
+                                                                             and hazelnut create a natural habitat for Vipera kaznakovi.
+  Wound infection                                  7 (25.9%)
+                                                                             Although snake bites are not very common especially re-
+  Thrombophlebitis                                  1 (3.7%)
+                                                                             gionally, lack of adequate protective measures in July, which
+  Compartment syndrome                              1 (3.7%)
+                                                                             is the period with the highest temperature in tea or hazelnut
+ Laboratory findings                                 n (%)                   collection periods, increased exposure. We think that this
+  Leucocytosis                                    20 (74.1%)                 situation can be evaluated as a professional exposure for the
+  Thrombocytopenia                                  1 (3.7%)                 region. In a study Al et al. evaluated snake bites in adults in
+  Elevated PT/APTT/INR                             3 (11.1%)                 Southeast Anatolia Region in 2010, snake bites were found
+  Elevated urea                                    5 (18.5%)                 to be a professional risk in middle aged individuals8. This
+  Elevated creatinine                               2 (7.4%)                 result is similar to our results.
+  Elevated CPK                                    14 (51.9%)                     It was found that 70.4% of the exposed individuals were
+  Elevated SGOT/SGPT                                2 (7.4%)
+                                                                             female. This is due to the fact that female workforce is at the
+                                                                             forefront in the agricultural areas which are the main source
+  Elevated LDH                                     17 (63%)
+                                                                             of income regionally. In studies conducted worldwide, vic-
+  Haematuria/proteinuria                           3 (11.1%)
+                                                                             tims were found to be generally adult males9. We think that
+                                                                             this situation results from the regional differences within the
+                                                                             country as well as difference between countries. Although
+    APTT, Activated partial thromboplastin time; CPK, Cre-
+                                                                             snake bites are seen in all age groups, it was found that av-
+atine phosphokinase; INR, International Normalized Ratio;
+                                                                             erage age was 46.77 ± 16.11 (min: 14, max: 87) with a wide
+LDH, Lactate dehydrogenase; SGOT, Serum glutamic-ox-
+                                                                             range. It is noteworthy that the wide age range in this study
+aloacetic transaminase; SGPT, Serum glutamic-pyruvic
+                                                                             is due to the differences between the communities in which
+transaminase; PT, Prothrombin time                                           other studies are conducted.
+                                                                                 Snake venom is a cocktail rich in protein and peptide
+    Treatment and Outcome: After the patients were ad-                       toxins that are specific for a wide variety of tissue receptors
+mitted to the emergency service, they were followed in terms                 that can cause local and systemic findings10, 11. This feature
+of vitals, local, systemic and delayed findings. The wounded                 varies according to the type of snake and thus causes the
+extremity was immobilized and rested. The patients were                      emergence of different clinical pictures. As in other Viperid
+evaluated in terms of tetanus immunization and tetanus pro-                  species, Vipera kaznakovi, which lives in the Eastern Black
+phylaxis was performed on patients if necessary. Depending                   Sea Region, often causes local reactions such as pain, bruis-
+on the presence of symptom, analgesic, antiemetic, antial-                   ing and swelling and tissue necrosis, coagulopathy, haem-
+lergic and antibiotherapy were applied by taking fluid elec-                 orrhage, Rhabdomyolysis and/or acute kidney damage20. In
+trolyte balance and urine output into consideration. Dialysis                the present study, it was found that the patients referred to
+was not required in any of the patients who were found to                    emergency service within the first hour most frequently with
+have elevated urea and creatinine. No serious coagulation                    the complaints of pain as a result of bite in lower extremity
+disorder was found.                                                          foot dorsum with a rate of 96.3%. In parallel with the liter-
+    18.5% of the cases had been referred to out hospital af-                 ature12, 13, in the present series, it was found that all patients
+ter having been given antivenom therapy in another health                    were conscious upon admission, while 7.4% of the patients
+institution. Two patients (7.4%) received antivenom thera-                   were found to have a tension artery lower than 90/60 mmHg
+py at admission due to their existing clinical picture. 29.6%                and their vitals were not stable. This is seen as the effect of
+of the patients who referred to the emergency service were                   a protein suppressing the myocardial functions in the venom
+followed and treated by being hospitalized. None of the pa-                  of some Viperia species14. In addition, as an indicator of con-
+tients admitted with snake bite died.                                        sumption coagulopathy caused by venom, it was found that
+                                                                             INR, PT, APTT values were high in 3 patients and throm-
+                                                                             bocytopenia was found to develop in one patient. Accord-
+Discussion                                                                   ing to the system of Downey et al.6, the severity of snake
+                                                                             bites was evaluated most frequently as grade 0 with a rate
+Snake bite is included in the “Neglected Tropical Diseases”                  of 51.9%. The results found showed similarity with other
+which require intervention by the World Health Organiza-                     case series of Viperia species snake bites in terms of both
+tion7. This situation is not only limited to tropical regions; it            local effects and systemic findings. Although the risk of an
+is also valid in the Eastern Black Sea Region of our country.                individual’s being bitten by a snake is low, death rate is high.
+When the literature was reviewed, no case series related to                  Traditional treatments such as sucking and cutting are used
+snake bites of the region were found.                                        especially in snake bites in rural areas and most of the time,
+                                                                                                                                Unlu et al.
+Eurasian J Tox. 2020; 2 (2):40-43                                     Retrospective Evaluation of Snake Bites in Eastern Black Sea Region     43
+these cases die before they reach the hospital. In the present          5. Nalik BS. “Dry bite” in venomous snakes: A review. Toxicon
+series, 96.3% of the cases occurred during tea collecting in                2017; 133: 63-67.
+the rural area. However, only 40.7% referred to emergency               6. Downey DJ, Omer GE, Moneim MS. New Mexico rattlesnake
+service from their settlement within the first hour and they                bites: demographic review and guidelines for treatment. J
+received tourniquet, which is a traditional method. Follow-                 Trauma 1991; 31: 1380-1386.
+                                                                        7. Tchoffo D, Kamgno J, Kekeunou S, YAdufashije C, Nana Djeun-
+ing their admission to the emergency service, the patients
+                                                                            ga HC, Nkwescheu AS. High snakebite underreporting rate
+were followed in terms of vitals, local, systemic and de-
+                                                                            in the Centre Region of Cameroon: an observational study.
+layed findings and the affected extremity was immobilized,                  BMC Public Health 2019; 19 (1): 1040.
+tetanus prophylaxis was performed to patients who needed                8. Al B, Orak M, Aldemir M, Güloğlu C. Snakebites in the adults
+tetanus prophylaxis and depending on the presence of symp-                  from the Diyarbakır region in southeast Turkey. Turkısh Jour-
+toms and paying attention to fluid electrolyte balance and                  nal of Trauma Emergency Medicine 2010; 16(3): 210-214.
+urinary output, fluid, analgesic, antiemetic, antiallergic and          9. Narvencar K, Favas TT, Dias A. Epidemiology and Clinical Pro-
+antibiotherapy were applied. 25.9% of the patients received                 file of Snakebites in Goa and Surrounding Areas. J Assoc Phy-
+antivenom therapy in parallel with the literature due to their              sicians India. 2020; 68(3): 28-32.
+existing clinical state15,16. Antivenom therapy is thought to           10. Waheed H, Moin SF, Choudhary MI. Snake Venom: From
+be unnecessary for all snake bites, and it was applied only                 Deadly Toxins to Life-saving Therapeutics. Curr Med Chem
+on cases when necessary in the present study17. Depending                   2017; 24(17): 1874-1891.
+                                                                        11. Petras D, Hempel BF, Göçmen B, Karis M, Whiteley G, et al.
+on the snake bite, it can cause myonecrosis compartment
+                                                                            Intact protein mass spectrometry reveals intraspecies varia-
+syndrome which occurs under the influence of venom. Al-
+                                                                            tions in venom composition of a local population of Vipera
+though this is not an actual compartment syndrome, in cases                 kaznakovi in Northeastern Turkey. J Proteomics. 2019; 199:
+with typical findings, it is necessary to measure the pressure              31-50.
+between compartments and to request surgical consultation               12. Karakus A, Zeren C, Celik MM, Arica S, Ozden R, et al. A 5-year
+in case of increase18, 19. In this series, compartment syndrome             retrospective evaluation of snakebite cases in Hatay, Turkey.
+developed only in one case and fasciotomy was applied.                      Toxicol Ind Health. 2015; 31: 188-192.
+     Various complications resulting from systemic involve-             13. Ertem M, Esenkaya I, Kaygusuz MA, Turan C. Clinical expe-
+ment and delayed treatment or incorrect applications can                    rience in the treatment of snake envenomation (our clinical
+cause death20. However, none of the patients followed and                   experience in the treatment of snakebites). Acta Orthopaedi-
+treated in this series (n= 27) died and all of them were dis-               ca et Traumatologica Turcica Journal 2005; 39: 54-58.
+charged in healthy conditions.                                          14. Najman L, Seshadri R. Rattlesnake envenomation. Compend
+                                                                            Contin Educ Vet 2007; 29: 166-176.
+    As a conclusion, snake bite can be defined as a rare and
+                                                                        15. Clark RF, O’Connell CW, Villano JH, ve ark. Severe recurrent
+neglected situation for Eastern Black Sea region. For this rea-
+                                                                            coagulopathy following crotaline envenomation refractory
+son, our study was conducted with limited number of cases. In               to maintenance dosing of antivenom. Am J Emerg Med 2015;
+cases in Vipera kaznakovi’s natural habitat, systemic compli-               33: 856. e3-5.
+cations such as hemototoxic and cytotoxic complications can             16. Lavonas EJ, Ruha AM, Banner W, ve ark. Unified treatment al-
+occur, local lesions caused by other Viperia species being at               gorithim for the management of crotaline snakebite in the
+the forefront. Appropriate follow-up and treatment should be                United States: results of an evidence-informed consensus
+arranged according to the existing clinical picture. We think               workshop. BMC Emerg Med 2011;11: 2.
+that this approach can prevent or decrease complications.               17. Karakus A, Zeren C, Celik MM, Arica S, Ozden R, Duru M, Tasın
+                                                                            V. A 5-year retrospective evaluation of snakebite cases in Ha-
+                                                                            tay, Turkey. Toxicol Ind Health. 2015; 31(2): 188-192.
+References                                                              18. Brys AK, Gandolfi BM, Levinson H, Gerardo CJ. Copperhead
+                                                                            envenomation resulting in a rare case of hand Compartment
+1. Harrison RA, Hargreaves A, Wagstaff SC, Fragher B, Lalloo DG.            Syndrome and sunsequent Fasciotomy. Plast Reconstr Surg
+   Snake envenoming: a disease of poverty. PLoS Negl Trop Dis.              Glob Open 2015; 3: e396.
+   2009; 3: e569.                                                       19. Toschlog EA, Bauer CR, Hall EL, ve ark. Surgical considerations
+2. Warrell DA. Snake bite. Lancet 2010; 375: 77-88.                         in the management of pit viper snake envenomation. J Am
+3. White J. Overview of venomous snakes of the world. In: Medi-             Coll Surg 2013; 217: 726-735.
+   cal Toxicology, 3rd edition, Dart RC (Ed), Lippincott, Williams,     20. Söker M, Haspolat K. Turkey’s southeastern Anatolia region of
+   & Wilkins, Philadelphia 2004. p.154                                      snake bite in children: 52 cases due. Gulhane Medical Journal
+4. Kumlutaş Y, Ilgaz Ç, Yakar O. Herpetofauna of Karabük Provin-            1999; 41(3): 331-337.
+   ce. Acta Biologica Turcica 2017; 30: 102-107.
+
