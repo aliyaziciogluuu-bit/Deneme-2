@@ -1,0 +1,26 @@
+{
+  "cekimler": [
+    {
+      "n": 1,
+      "gorsel": "kirmizi"
+    },
+    {
+      "n": 1,
+      "gorsel": "levha",
+      "klip": "levha"
+    },
+    {
+      "n": 1,
+      "gorsel": "kus"
+    },
+    {
+      "n": 1,
+      "gorsel": "damla"
+    },
+    {
+      "n": 1,
+      "gorsel": "don",
+      "klip": "don"
+    }
+  ]
+}

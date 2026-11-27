@@ -1,0 +1,22 @@
+{
+  "klipler": [
+    {
+      "ad": "deri",
+      "gorsel": "deri",
+      "sure": 5,
+      "istem": "Tiny bubbles drift slowly off the skin. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "kesit",
+      "gorsel": "kesit",
+      "sure": 5,
+      "istem": "Oxygen dots flow slowly into the capillaries. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "film",
+      "gorsel": "film",
+      "sure": 5,
+      "istem": "The moist shine ripples gently. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    }
+  ]
+}

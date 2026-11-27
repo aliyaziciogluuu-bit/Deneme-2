@@ -1,0 +1,28 @@
+{
+  "klipler": [
+    {
+      "ad": "kedi",
+      "gorsel": "kedi",
+      "sure": 5,
+      "istem": "The cat's breathing is calm, the whiskers move very slightly. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "gogus",
+      "gorsel": "gogus",
+      "sure": 5,
+      "istem": "The small motor wheel turns slowly. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "girtlak",
+      "gorsel": "girtlak",
+      "sure": 5,
+      "istem": "The small gate opens and closes rhythmically. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "vet",
+      "gorsel": "vet",
+      "sure": 5,
+      "istem": "The camera pulls back very slowly. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    }
+  ]
+}

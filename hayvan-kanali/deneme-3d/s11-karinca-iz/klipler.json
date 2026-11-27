@@ -1,0 +1,22 @@
+{
+  "klipler": [
+    {
+      "ad": "anten",
+      "gorsel": "anten",
+      "sure": 5,
+      "istem": "The antennae sway slightly and the golden droplets drift down slowly. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "solma",
+      "gorsel": "solma",
+      "sure": 5,
+      "istem": "The golden trail fades slowly from the end and the light particles dissolve. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "don",
+      "gorsel": "don",
+      "sure": 5,
+      "istem": "The camera pulls back very slowly. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    }
+  ]
+}

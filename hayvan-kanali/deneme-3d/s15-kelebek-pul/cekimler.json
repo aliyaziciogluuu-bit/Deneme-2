@@ -1,0 +1,26 @@
+{
+  "cekimler": [
+    {
+      "n": 1,
+      "gorsel": "kelebek"
+    },
+    {
+      "n": 1,
+      "gorsel": "pul",
+      "klip": "pul"
+    },
+    {
+      "n": 1,
+      "gorsel": "parmak"
+    },
+    {
+      "n": 1,
+      "gorsel": "guve"
+    },
+    {
+      "n": 1,
+      "gorsel": "don",
+      "klip": "don"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "cekimler": [
+    {
+      "n": 1,
+      "gorsel": "yuva",
+      "klip": "yuva"
+    },
+    {
+      "n": 1,
+      "gorsel": "doku",
+      "klip": "doku"
+    },
+    {
+      "n": 1,
+      "gorsel": "lif"
+    },
+    {
+      "n": 1,
+      "gorsel": "kapi",
+      "klip": "kapi"
+    }
+  ]
+}

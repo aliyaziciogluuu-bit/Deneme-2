@@ -1,0 +1,22 @@
+{
+  "klipler": [
+    {
+      "ad": "yuva",
+      "gorsel": "yuva",
+      "sure": 5,
+      "istem": "The nest sways very slightly in the breeze. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "doku",
+      "gorsel": "doku",
+      "sure": 5,
+      "istem": "The camera drifts very slightly, the light shifts across the paper layers. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    },
+    {
+      "ad": "kapi",
+      "gorsel": "kapi",
+      "sure": 5,
+      "istem": "The camera pulls back very slowly. Static camera, gentle natural motion only, same shape, 3D animation style preserved, nothing new appears."
+    }
+  ]
+}

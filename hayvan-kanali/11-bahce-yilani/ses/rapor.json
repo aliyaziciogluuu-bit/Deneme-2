@@ -196,11 +196,12 @@
   "uygun": true
  },
  "028": {
-  "yazi": "Şeritli engerek, diğer adıyla Osmanlı engereği; sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
-  "duyulan": "Şeritli engerek, diğer adıyla Osmanlı engeli, sırtındaki büyük benekler ziksaklı bir şerit oluşturabiliyor.",
-  "hata": 2,
-  "sure": 6.36,
-  "uygun": false
+  "yazi": "Şeritli engereğin bir adı da Osmanlı engereği; sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
+  "duyulan": "Şeritli engereğin bir adı da Osmanlı Engere'yi. Sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
+  "hata": 1,
+  "sure": 6.96,
+  "uygun": false,
+  "tek_basina": true
  },
  "029": {
   "yazi": "Koca engerek, bir derlemeye göre Türkiye'de yaşayan yılanların en zehirlisi; boyu iki metreye kadar çıkabiliyor.",

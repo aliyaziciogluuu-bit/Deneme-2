@@ -1,0 +1,27 @@
+{
+  "cekimler": [
+    {
+      "n": 1,
+      "gorsel": "solucan"
+    },
+    {
+      "n": 1,
+      "gorsel": "deri",
+      "klip": "deri"
+    },
+    {
+      "n": 1,
+      "gorsel": "kesit",
+      "klip": "kesit"
+    },
+    {
+      "n": 1,
+      "gorsel": "film",
+      "klip": "film"
+    },
+    {
+      "n": 1,
+      "gorsel": "ilerle"
+    }
+  ]
+}
