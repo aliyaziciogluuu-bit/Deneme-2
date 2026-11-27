@@ -18,17 +18,16 @@
   },
   {
    "n": 1,
-   "gorsel": "zehir_bezi_yakin",
-   "klip": "zehir_yakin_k",
+   "gorsel": "kapak_ev_orumcegi",
    "a": [
+    0.62,
     0.5,
-    0.5,
-    1
+    1.0
    ],
    "b": [
-    0.53,
-    0.46,
-    0.75
+    0.7,
+    0.5,
+    0.62
    ]
   },
   {
@@ -744,7 +743,7 @@
   },
   {
    "n": 1,
-   "gorsel": "cocuk_saglik",
+   "gorsel": "acil_servis",
    "a": [
     0.5,
     0.5,

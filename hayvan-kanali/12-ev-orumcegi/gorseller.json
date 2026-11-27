@@ -9,13 +9,6 @@
    "not": "Açılış. Ev örümceği (Tegenaria) orta mesafede duvarda; sekiz bacak, dört sağda dört solda, yassı baş-göğüs, tüylü kahverengi. Bacak sayısı şüpheliyse kullanma."
   },
   {
-   "ad": "zehir_bezi_yakin",
-   "oran": "16:9",
-   "istem": "Side profile view of the head and fangs of a small brown European house spider, head facing left, spider body about 1 cm, scientific 3D cutaway: the shell of the head is semi-transparent like smoked glass; each chelicera is a short thick cylinder ending in one curved black claw folded inward, with a small glowing amber venom gland inside the thick base and a thin glowing duct running down to the claw tip; the eyes are eight tiny equal-sized pinpoint dots in two rows on top of the head; front legs cropped by the frame edge; soft rim light, dark blue background, clean educational look.",
-   "aday": 3,
-   "not": "3. tur (27 Kas): yüz makrosu iki turda zıplayan örümcek gözüne kaydı; yandan kesit görünümüne geçildi (göz düzeni sorunu ortadan kalkar)."
-  },
-  {
    "ad": "laboratuvar_sise",
    "oran": "16:9",
    "istem": "A tidy research bench by a window: a stereo microscope, tweezers, an empty glass petri dish, clean empty glass vials with plain blank stoppers, a stack of plain white sheets, soft daylight, nothing written anywhere.",
@@ -266,13 +259,6 @@
    "istem": "A sink with a running tap: two clean hands with five fingers each washing a forearm with white soap foam under the water, then a small ice pack beside the sink, no face visible, bright bathroom light, plain white tiles.",
    "aday": 2,
    "not": "Sabun ve soğuk uygulama; deride yara/kızarıklık yok."
-  },
-  {
-   "ad": "cocuk_saglik",
-   "oran": "16:9",
-   "istem": "Close side view at hand level: an adult's hand in a gentle closed grip, only the knuckles and thumb visible, completely enclosing a small child's hand so no child fingers show, only the child's small thumb tip peeks out; the child's hand is half the adult's size; one small backpack blurred in the background; warm calm indoor light, faces out of frame.",
-   "aday": 3,
-   "not": "3. tur (27 Kas): kavrayan el kapalı; parmak sayısı görünmez kılındı (görsel denetçi önerisi)."
   },
   {
    "ad": "ev_genel",
