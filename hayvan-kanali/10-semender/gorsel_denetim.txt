@@ -37,3 +37,4 @@ harita_nabiz (klip): RET — Kling İç Anadolu'ya parlayan iğne ekledi (yanlı
 # 27 Kas klip denetimi (görsel denetçi): KABUL acilis soba_alev papirus_mum agac_sis koy_sis kurbaga_nefes kertenkele_bas kis_uykusu gece_beslenme
 # RET yagmurda_yuruyen avrupa_yuruyus kutuk_alev semender_yurur(ŞARTLI) — Kling ayak parmaklarını el/pençe gibi açıyor; bu çekimlerde durağan görsel + kamera hareketi kullanılıyor
 # RET deri_salgi — 0-1 sn beyaz yığın beliriyor, baş yön değiştiriyor; sabit yakın çekim istemiyle yeniden üretiliyor
+deri_salgi: KABUL (yeniden üretim; yeni nesne yok, göz yok, damlacıklar temiz)
