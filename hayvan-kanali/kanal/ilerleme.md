@@ -67,3 +67,4 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Shorts güçlü taraf: "Kertenkele Yemeğe Düşerse" 759 (%50), "Kertenkele Tavanda Nasıl Yürüyor?" 704 (ort. %187 → tekrar izleniyor), "Yumurtlamayan Kertenkele" 310 (%66).
 - Planlı/yayında olmayan videolarda 1–2 görüntüleme: yükleme/kontrol sırasındaki önizlemeler, sorun değil.
 - Windsor'da gösterim/tıklama oranı yok → kirpi için Studio'dan gösterim ve TO istenecek.
+- 27 Kas, kirpi uzun video (yayından ~3 gün): 52 gösterim, küçük resim tıklama oranı %5,8 (iyi). Trafik: arama %65, göz atma %20. Sorun tıklama değil, gösterim azlığı. vidIQ'da "kirpi" araması TR'de BMC Kirpi zırhlı araç ve "Kirpi Piki" çizgi filmiyle dolu → başlık/açıklamada hayvan bağlamı ("kirpi süt içer mi", "bahçedeki kirpi") net olmalı. Öneri: arama odaklı başlık testi + açıklamaya arama ifadeleri.
