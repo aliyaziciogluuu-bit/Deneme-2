@@ -1,0 +1,5 @@
+000 fark=0 | Ağustos böceğinin o gür sesi ağzından mı çıkıyor? || Ağustos böceğinin o gür sesi ağzından mı çıkıyor?
+001 fark=0 | Hayır; çoğu türde karnının iki yanında davula benzeyen zarlar var. || Hayır, çoğu türde karnının iki yanında davula benzeyen zarlar var.
+002 fark=0 | Kaslar zarları içeri çökertiyor; kaslar gevşeyince zarlar hızla eski hâline dönüyor. || Kaslar zarları içeri çökertiyor. Kaslar gevşeyince zarlar hızla eski haline dönüyor.
+003 fark=0 | Bu belirgin sesi erkekler çıkarıyor; ötmeleri sırasında kendi kulak zarlarını devre dışı bırakıyorlar. || Bu belirgin sesi erkekler çıkarıyor. Ötmeleri sırasında kendi kulak zarlarını devre dışı bırakıyorlar.
+004 fark=0 | Yani çoğu ağustos böceğinin sesi, karnındaki davuldan geliyor. || Yani çoğu Ağustos böceğinin sesi karnındaki davuldan geliyor.

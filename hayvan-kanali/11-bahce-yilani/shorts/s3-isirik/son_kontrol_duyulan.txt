@@ -1,0 +1,9 @@
+000 fark=1 | Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırığın olduğu yerden hemen uzaklaş. || Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırığın olduğu yerden hemen uzaklar.
+001 fark=0 | Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar; şişlik olursa zarar verebilirler. || Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar, şişlik olursa zarar verebilirler.
+002 fark=0 | Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez. || Birçok ısırık zehirsiz yılanlardan gelir ama hangisi olduğuna karar vermek sana düşmez.
+003 fark=0 | Isırılan yeri hiç oynatma; mümkünse atelle sabitle ve kişiyi yürütmeden taşı. || Isırılan yeri hiç oynatma. Mümkünse atelle sabitle ve kişiyi yürütmeden taşı.
+004 fark=1 | Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir. || Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ular. Panzehir ancak orada verilebilir.
+005 fark=0 | Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama. || yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.
+006 fark=0 | Bitkisel ya da geleneksel yöntemlere de başvurma. || Bitkisel ya da geleneksel yöntemlere de başvurma.
+007 fark=0 | Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git. || Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor. Küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.
+008 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

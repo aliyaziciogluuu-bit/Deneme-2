@@ -1,0 +1,30 @@
+{
+ "000": {
+  "yazi": "Saçağın altında sallanan gri yuva neden kâğıda benziyor?",
+  "duyulan": "Saçağın altında sallanan gri yuva neden kağıda benziyor?",
+  "hata": 0,
+  "sure": 3.6,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki elle yapılmış kâğıttan örülmüş.",
+  "duyulan": "sanki elle yapılmış kağıttan örülmüş.",
+  "hata": 0,
+  "sure": 2.67,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kâğıt yapan yaban arılarının çoğu ölü odundan ve bitki saplarından lif toplayıp tükürükle karıştırarak yuvasını yapıyor.",
+  "duyulan": "Kağıt yapan yaban arılarının çoğu ölü odundan ve bitki saplarından lif toplayıp tükürükle karıştırarak yuvasını yapıyor.",
+  "hata": 0,
+  "sure": 6.84,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yuvaya yaklaşma ve ona dokunma; sokması çok acı verebilir ve bazı kişilerde ağır alerjik tepkiye yol açabilir. Sokulursan ve kendini kötü hissedersen hemen sağlık kuruluşuna başvur.",
+  "duyulan": "Yuvaya yaklaşma ve ona dokunma. Sokması çok acı verebilir ve bazı kişiler de ağır alerjik tepkiye yol açabilir. Sokulursan ve kendini kötü hissedersen hemen sağlık kuruluşuna başvur.",
+  "hata": 0,
+  "sure": 11.08,
+  "uygun": true
+ }
+}

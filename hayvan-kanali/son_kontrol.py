@@ -31,6 +31,19 @@ from seslendir_bulut import sade  # noqa: E402  (rakamları sözcüğe çeviren 
 sonuclar = []
 
 
+_buyuk = None
+
+
+def ikinci_dinle(ses16k):
+    """Medium modelin yanlış duyduğu kısa parçayı large-v3 ile yeniden dinler (yalnızca gerektiğinde yüklenir)."""
+    global _buyuk
+    from faster_whisper import WhisperModel
+    if _buyuk is None:
+        _buyuk = WhisperModel("large-v3", device="cpu", compute_type="int8", cpu_threads=4)
+    return " ".join(p.text.strip() for p in _buyuk.transcribe(ses16k, language="tr", beam_size=5,
+                                                               condition_on_previous_text=False)[0])
+
+
 def test(ad, gecti, ayrinti=""):
     sonuclar.append((ad, gecti, ayrinti))
     print(f"[{'GEÇTİ' if gecti else 'KALDI'}] {ad}" + (f" — {ayrinti}" if ayrinti else ""), flush=True)
@@ -51,8 +64,22 @@ def main():
     # 1
     rapor = json.loads((klasor / "ses" / "rapor.json").read_text(encoding="utf-8"))
     eksik = [f"{i:03d}" for i in range(len(cumleler)) if not rapor.get(f"{i:03d}", {}).get("uygun")]
+    ikinci = []
+    if eksik:  # dersler (27 Kasım): medium modelin kaçırdığı cümle, large-v3 ikinci dinlemede birebir duyuluyorsa geçer
+        from seslendir_bulut import fark as _fark
+        import wave
+        for k in list(eksik):
+            w = wave.open(str(klasor / "ses" / f"{k}.wav")); sr = w.getframerate()
+            a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+            if w.getnchannels() > 1:
+                a = a.reshape(-1, w.getnchannels()).mean(1)
+            if sr != 16000:
+                a = np.interp(np.arange(0, len(a), sr / 16000), np.arange(len(a)), a).astype(np.float32)
+            duy = ikinci_dinle(a)
+            if _fark(duy, cumleler[int(k)]) == 0:
+                eksik.remove(k); ikinci.append(k)
     test("Cümle cümle ses doğrulaması", not eksik, f"{len(cumleler) - len(eksik)}/{len(cumleler)} cümle doğrulandı"
-         + (f"; sorunlu: {eksik}" if eksik else ""))
+         + (f"; sorunlu: {eksik}" if eksik else "") + (f"; large-v3 ikinci dinlemeyle: {ikinci}" if ikinci else ""))
 
     # 4
     bilgi = ffprobe(video)
@@ -95,7 +122,7 @@ def main():
                          capture_output=True, check=True).stdout
     ses = np.frombuffer(ham, dtype=np.float32)
     dinleyici = WhisperModel("medium", device="cpu", compute_type="int8", cpu_threads=4)
-    toplam_hata, toplam_kelime, sorunlu, satirlar = 0, 0, [], []
+    toplam_hata, toplam_kelime, sorunlu, satirlar, ikinci2 = 0, 0, [], [], []
     for i, c in enumerate(zaman):
         parca = ses[max(int((c["bas"] - 0.15) * 16000), 0): int((c["bit"] + 0.15) * 16000)]
         duy = " ".join(p.text.strip() for p in dinleyici.transcribe(parca, language="tr", beam_size=5)[0])
@@ -105,11 +132,17 @@ def main():
         toplam_kelime += n
         satirlar.append(f"{i:03d} fark={h} | {c['yazi']} || {duy}")
         if h > (0 if n <= 6 else 1):
+            duy2 = ikinci_dinle(parca)
+            if fark(duy2, c["yazi"]) == 0:
+                satirlar[-1] += f" || large-v3: {duy2}"
+                ikinci2.append(i)
+                continue
             sorunlu.append(i)
-            print(f"      {i:03d}: senaryo «{c['yazi']}» → duyulan «{duy}»")
+            print(f"      {i:03d}: senaryo «{c['yazi']}» → duyulan «{duy}» / large-v3 «{duy2}»")
     (klasor / "son_kontrol_duyulan.txt").write_text("\n".join(satirlar) + "\n", encoding="utf-8")
     test("Bitmiş videoda anlatım = senaryo (cümle cümle)", not sorunlu,
-         f"{len(zaman) - len(sorunlu)}/{len(zaman)} cümle birebir, toplam {toplam_hata}/{toplam_kelime} kelime farkı")
+         f"{len(zaman) - len(sorunlu)}/{len(zaman)} cümle birebir, toplam {toplam_hata}/{toplam_kelime} kelime farkı"
+         + (f"; large-v3 ikinci dinlemeyle doğrulanan: {[f'{i:03d}' for i in ikinci2]}" if ikinci2 else ""))
 
     # 6
     srt = (klasor / "altyazi.srt").read_text(encoding="utf-8").strip().split("\n\n")

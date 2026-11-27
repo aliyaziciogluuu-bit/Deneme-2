@@ -1,0 +1,65 @@
+{
+ "000": {
+  "yazi": "Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırığın olduğu yerden hemen uzaklaş.",
+  "duyulan": "Dünya Sağlık Örgütü'ne göre ısırılınca, önce ısırığın olduğu yerden hemen uzaklar.",
+  "hata": 1,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar; şişlik olursa zarar verebilirler.",
+  "duyulan": "Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar, şişlik olursa zarar verebilirler.",
+  "hata": 0,
+  "sure": 4.68,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez.",
+  "duyulan": "Birçok ısırık zehirsiz yılanlardan gelir ama hangisi olduğuna karar vermek sana düşmez.",
+  "hata": 0,
+  "sure": 4.76,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Isırılan yeri hiç oynatma; mümkünse atelle sabitle ve kişiyi yürütmeden taşı.",
+  "duyulan": "Isırılan yeri hiç oynatma, mümkünse atelle sabitle ve kişiyi yürütmeden taşı.",
+  "hata": 0,
+  "sure": 4.84,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir.",
+  "duyulan": "Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ular. Panzehir ancak orada verilebilir.",
+  "hata": 1,
+  "sure": 5.77,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.",
+  "duyulan": "yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.",
+  "hata": 0,
+  "sure": 3.84,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Bitkisel ya da geleneksel yöntemlere de başvurma.",
+  "duyulan": "bitkisel ya da geleneksel yöntemlere de başvurma.",
+  "hata": 0,
+  "sure": 2.48,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor. Küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 6.02,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.28,
+  "uygun": true
+ }
+}

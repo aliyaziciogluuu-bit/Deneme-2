@@ -1,0 +1,47 @@
+1
+00:00:00,700 --> 00:00:02,243
+Ağustos böceğinin o gür
+
+2
+00:00:02,243 --> 00:00:04,165
+sesi ağzından mı çıkıyor?
+
+3
+00:00:04,270 --> 00:00:06,402
+Hayır; çoğu türde karnının iki
+
+4
+00:00:06,402 --> 00:00:09,135
+yanında davula benzeyen zarlar var.
+
+5
+00:00:09,240 --> 00:00:11,550
+Kaslar zarları içeri çökertiyor;
+
+6
+00:00:11,550 --> 00:00:13,283
+kaslar gevşeyince zarlar
+
+7
+00:00:13,283 --> 00:00:15,405
+hızla eski hâline dönüyor.
+
+8
+00:00:15,510 --> 00:00:17,828
+Bu belirgin sesi erkekler çıkarıyor;
+
+9
+00:00:17,828 --> 00:00:19,760
+ötmeleri sırasında kendi kulak
+
+10
+00:00:19,760 --> 00:00:22,195
+zarlarını devre dışı bırakıyorlar.
+
+11
+00:00:22,300 --> 00:00:24,529
+Yani çoğu ağustos böceğinin sesi,
+
+12
+00:00:24,529 --> 00:00:26,670
+karnındaki davuldan geliyor.

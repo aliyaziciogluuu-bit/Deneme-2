@@ -1,0 +1,5 @@
+000 fark=0 | Toprağın altındaki solucanın akciğeri yok; peki nasıl nefes alıyor? || Toprağın altındaki solucanın ak ciğeri yok. Peki nasıl nefes alıyor?
+001 fark=0 | Sanki derisi bir akciğer gibi çalışıyor. || Sanki derisi bir akciğer gibi çalışıyor.
+002 fark=0 | Oksijen nemli deriden ve kılcal damarlardan geçiyor, kandaki hemoglobin onu alıyor. || Oksijen, nemli deriden ve kılcal damarlardan geçiyor. Kandaki hemoglobin onu alıyor.
+003 fark=0 | Derideki özel hücreler, vücudu nemli tutan sümüksü bir sıvı salgılıyor. || Derideki özel hücreler vücudu nemli tutan sümüksü bir sıvı salgılıyor.
+004 fark=0 | Yani toprak solucanı, nemli derisiyle nefes alan bir hayvan. || Yani toprak solucanı, nemli derisi ile nefes alan bir hayvan.

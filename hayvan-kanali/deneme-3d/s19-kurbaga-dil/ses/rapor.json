@@ -15,10 +15,11 @@
  },
  "002": {
   "yazi": "Dili olan kurbağalarda dil, önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor.",
-  "duyulan": "Dili olan kurbağlarda dil önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor.",
-  "hata": 1,
-  "sure": 6.08,
-  "uygun": true
+  "duyulan": "Dili olan kurbağlarda dil önden çeneğe bağlı, arkası serbest, ağızda kıvrık duruyor.",
+  "hata": 2,
+  "sure": 6.2,
+  "uygun": false,
+  "tek_basina": true
  },
  "003": {
   "yazi": "Bu dildeki tükürük, avı sararken akıcı hâle geliyor; basınç azalınca yeniden koyulaşıp dile ek bir tutuş sağlıyor.",

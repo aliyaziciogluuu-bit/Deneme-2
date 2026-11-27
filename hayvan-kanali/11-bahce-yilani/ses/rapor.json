@@ -197,9 +197,9 @@
  },
  "028": {
   "yazi": "Şeritli engereğin bir adı da Osmanlı engereği; sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
-  "duyulan": "Şeritli engereğin bir adı da Osmanlı Engere'yi. Sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
-  "hata": 1,
-  "sure": 6.96,
+  "duyulan": "Şeritli Engere'yin bir adı da Osmanlı Engere'yi. Sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
+  "hata": 2,
+  "sure": 7.2,
   "uygun": false,
   "tek_basina": true
  },
@@ -351,11 +351,12 @@
   "uygun": true
  },
  "050": {
-  "yazi": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir; sağır yılan dediğimiz kertenkeleyi önceki videomuzda anlattık.",
-  "duyulan": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir. Sahar yılan dediğimiz kertenkeleyi önceki videomuzda anlattık.",
-  "hata": 1,
-  "sure": 6.92,
-  "uygun": true
+  "yazi": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir; önceki videomuzdaki sağır yılan da aslında bir kertenkeleydi.",
+  "duyulan": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir. Önceki videomuzdaki sağır yılanda aslında bir kertenkeleydi.",
+  "hata": 0,
+  "sure": 7.84,
+  "uygun": true,
+  "tek_basina": true
  },
  "051": {
   "yazi": "Bir yılan seni ısırırsa ne yapmalısın?",

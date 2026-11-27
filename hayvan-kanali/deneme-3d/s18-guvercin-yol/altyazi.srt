@@ -1,0 +1,47 @@
+1
+00:00:00,700 --> 00:00:02,444
+Hiç gitmediği yerden bırakılan
+
+2
+00:00:02,444 --> 00:00:04,665
+posta güvercini eve nasıl dönüyor?
+
+3
+00:00:04,770 --> 00:00:05,959
+Sanki gökyüzünde onun
+
+4
+00:00:05,959 --> 00:00:07,675
+için çizilmiş bir yol var.
+
+5
+00:00:07,780 --> 00:00:09,726
+Araştırmacıların çoğuna göre posta
+
+6
+00:00:09,726 --> 00:00:11,614
+güvercini, pusula ve harita denen
+
+7
+00:00:11,614 --> 00:00:13,805
+iki parçalı bir sistem kullanıyor.
+
+8
+00:00:13,910 --> 00:00:15,991
+Pusula kısmında Güneş'in rolü olduğu
+
+9
+00:00:15,991 --> 00:00:17,840
+düşünülüyor, ama haritanın nasıl
+
+10
+00:00:17,840 --> 00:00:19,935
+çalıştığı hâlâ çok tartışılıyor.
+
+11
+00:00:20,040 --> 00:00:22,058
+Yani posta güvercininin haritası
+
+12
+00:00:22,058 --> 00:00:24,010
+henüz tam anlaşılmış değil.

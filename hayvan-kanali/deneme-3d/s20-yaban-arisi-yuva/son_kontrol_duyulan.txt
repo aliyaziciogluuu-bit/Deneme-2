@@ -1,0 +1,4 @@
+000 fark=0 | Saçağın altında sallanan gri yuva neden kâğıda benziyor? || Saçağın altında sallanan gri yuva neden kağıda benziyor?
+001 fark=0 | Sanki elle yapılmış kâğıttan örülmüş. || Sanki elle yapılmış kağıttan örülmüş.
+002 fark=0 | Kâğıt yapan yaban arılarının çoğu ölü odundan ve bitki saplarından lif toplayıp tükürükle karıştırarak yuvasını yapıyor. || Kağıt yapan yaban arılarının çoğu ölü odundan ve bitki saplarından lif toplayıp tükürükle karıştırarak yuvasını yapıyor.
+003 fark=0 | Yuvaya yaklaşma ve ona dokunma; sokması çok acı verebilir ve bazı kişilerde ağır alerjik tepkiye yol açabilir. Sokulursan ve kendini kötü hissedersen hemen sağlık kuruluşuna başvur. || Yuvaya yaklaşma ve ona dokunma. Sokması çok acı verebilir ve bazı kişiler de ağır alerjik tepkiye yol açabilir. Sokulursan ve kendini kötü hissedersen hemen sağlık kuruluşuna başvur.

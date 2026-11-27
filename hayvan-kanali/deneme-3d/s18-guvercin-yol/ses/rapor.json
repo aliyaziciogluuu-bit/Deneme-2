@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Hiç gitmediği yerden bırakılan posta güvercini eve nasıl dönüyor?",
+  "duyulan": "Hiç gitmediği yerden bırakılan posta güvercini eve nasıl dönüyor?",
+  "hata": 0,
+  "sure": 3.72,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki gökyüzünde onun için çizilmiş bir yol var.",
+  "duyulan": "sanki gökyüzünde onun için çizilmiş bir yol var.",
+  "hata": 0,
+  "sure": 2.66,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Araştırmacıların çoğuna göre posta güvercini, pusula ve harita denen iki parçalı bir sistem kullanıyor.",
+  "duyulan": "Araştırmacıların çoğuna göre POSTA güvercini PUSULA ve HARITA denen iki parçalı bir sistem kullanıyor.",
+  "hata": 1,
+  "sure": 5.78,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Pusula kısmında Güneş'in rolü olduğu düşünülüyor, ama haritanın nasıl çalıştığı hâlâ çok tartışılıyor.",
+  "duyulan": "Pusula kısmında Güneş'in rolü olduğu düşünülüyor ama haritanın nasıl çalıştığı hala çok tartışılıyor.",
+  "hata": 0,
+  "sure": 5.78,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani posta güvercininin haritası henüz tam anlaşılmış değil.",
+  "duyulan": "Yani, posta güverceninin haritası henüz tam anlaşılmış değil.",
+  "hata": 1,
+  "sure": 3.72,
+  "uygun": true
+ }
+}

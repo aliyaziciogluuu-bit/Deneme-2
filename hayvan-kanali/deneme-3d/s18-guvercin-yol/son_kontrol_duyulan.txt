@@ -1,0 +1,5 @@
+000 fark=0 | Hiç gitmediği yerden bırakılan posta güvercini eve nasıl dönüyor? || Hiç gitmediği yerden bırakılan posta güvercini eve nasıl dönüyor?
+001 fark=0 | Sanki gökyüzünde onun için çizilmiş bir yol var. || Sanki gökyüzünde onun için çizilmiş bir yol var.
+002 fark=0 | Araştırmacıların çoğuna göre posta güvercini, pusula ve harita denen iki parçalı bir sistem kullanıyor. || Araştırmacıların çoğuna göre, posta güvercini pusula ve harita denen iki parçalı bir sistem kullanıyor.
+003 fark=0 | Pusula kısmında Güneş'in rolü olduğu düşünülüyor, ama haritanın nasıl çalıştığı hâlâ çok tartışılıyor. || Pusula kısmında güneşin rolü olduğu düşünülüyor ama haritanın nasıl çalıştığı hala çok tartışılıyor.
+004 fark=1 | Yani posta güvercininin haritası henüz tam anlaşılmış değil. || Yani, posta güvercenenin haritası henüz tam anlaşılmış değil.

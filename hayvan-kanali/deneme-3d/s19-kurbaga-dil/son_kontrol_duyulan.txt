@@ -1,5 +1,5 @@
 000 fark=0 | Kurbağa dilini fırlatınca böcek neden yapışıp kalıyor? || Kurbağa dilini fırlatınca böcek neden yapışıp kalıyor?
 001 fark=0 | Sanki dili bala bulanmış. || Sanki dili bala bulanmış.
-002 fark=2 | Dili olan kurbağalarda dil, önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor. || Dili olan kurbağlarda dil önden çeneğe bağlı, arkası serbest, ağızda kıvrık duruyor.
+002 fark=2 | Dili olan kurbağalarda dil, önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor. || Dili olan kurbağlarda dil önden çeneğe bağlı, arkası serbest, ağızda kıvrık duruyor. || large-v3: Dili olan kurbağalarda dil önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor.
 003 fark=0 | Bu dildeki tükürük, avı sararken akıcı hâle geliyor; basınç azalınca yeniden koyulaşıp dile ek bir tutuş sağlıyor. || Bu dildeki tükürük, avı sararken akıcı hale geliyor. Basınç azalınca yeniden koyulaşıp, dile ek bir tutuş sağlıyor.
 004 fark=0 | Yani böceğin dilde kalmasına yardım eden şeylerden biri, durum değiştiren bir tükürük. || Yani, böceğin dilde kalmasına yardım eden şeylerden biri durum değiştiren bir tükürük.

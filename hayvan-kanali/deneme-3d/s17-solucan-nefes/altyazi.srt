@@ -1,0 +1,43 @@
+1
+00:00:00,700 --> 00:00:03,220
+Toprağın altındaki solucanın akciğeri yok;
+
+2
+00:00:03,220 --> 00:00:04,905
+peki nasıl nefes alıyor?
+
+3
+00:00:05,010 --> 00:00:06,027
+Sanki derisi bir
+
+4
+00:00:06,027 --> 00:00:07,735
+akciğer gibi çalışıyor.
+
+5
+00:00:07,840 --> 00:00:09,434
+Oksijen nemli deriden ve
+
+6
+00:00:09,434 --> 00:00:11,227
+kılcal damarlardan geçiyor,
+
+7
+00:00:11,227 --> 00:00:13,465
+kandaki hemoglobin onu alıyor.
+
+8
+00:00:13,570 --> 00:00:15,812
+Derideki özel hücreler, vücudu nemli
+
+9
+00:00:15,812 --> 00:00:18,175
+tutan sümüksü bir sıvı salgılıyor.
+
+10
+00:00:18,280 --> 00:00:19,618
+Yani toprak solucanı,
+
+11
+00:00:19,618 --> 00:00:22,290
+nemli derisiyle nefes alan bir hayvan.
