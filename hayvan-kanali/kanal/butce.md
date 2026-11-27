@@ -55,3 +55,4 @@ Tutarlar tahminidir (aday ve deneme sayısından hesaplanır). Kesin rakam Repli
 - 26 Kasım kanal sahibi kararı: tanıtım durdurulmayacak, 27 Kasım bitişine kadar sürecek.
 - 26 Kasım: kanal sahibi Replicate hesabına 50 $ yükledi (kredi azalınca istekler dakikada 6 ile sınırlanmıştı). 26 Kas 3D denemeleri: v1 (semender+örümcek) ≈ 6 $, v2 (geko+baykuş) ≈ 7 $.
 - 27 Kasım: 10-semender (ilk tam 3D uzun video) üretimi tamam; tahmini harcama ≈ 13–15 $ (görseller + 18 klip + Kontext düzeltmeleri + 3D kapaklar; onaylı aralık 10–20 $). Boşa gidenler: harita klibi (uydurma iğne) 0,35 $, ayak gizleme Kontext 0,08 $, dikey kapak denemesi 0,12 $, ayaklı 4 klip (durağan görsele çevrildi) ≈ 1,40 $.
+- 27 Kasım: kanal sahibi Replicate'e yeniden yükleme yaptı (tutar bildirilmedi). 3D seri salyangoz + sivrisinek ≈ 4,5 $. 11-bahce-yilani 3D üretimi başladı (tahmin 13–15 $).
