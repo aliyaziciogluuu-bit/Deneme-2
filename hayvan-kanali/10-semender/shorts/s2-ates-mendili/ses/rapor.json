@@ -1,10 +1,11 @@
 {
  "000": {
-  "yazi": "Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestti.",
-  "duyulan": "Ateşte temizlendiği söylenen semender kumaşı bir derlemeye göre az pesti.",
-  "hata": 2,
-  "sure": 4.7,
-  "uygun": false
+  "yazi": "Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestten yapılmıştı.",
+  "duyulan": "ateşte temizlendiği söylenen semender kumaşı bir derlemeye göre asbestten yapılmıştı.",
+  "hata": 0,
+  "sure": 5.92,
+  "uygun": true,
+  "tek_basina": true
  },
  "001": {
   "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş.",

@@ -436,9 +436,10 @@
  },
  "061": {
   "yazi": "Komşunu tanı.",
-  "duyulan": "komşunu tanı.",
+  "duyulan": "Komşunu tanı.",
   "hata": 0,
-  "sure": 0.86,
-  "uygun": true
+  "sure": 0.92,
+  "uygun": true,
+  "tek_basina": true
  }
 }

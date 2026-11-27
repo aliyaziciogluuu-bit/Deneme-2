@@ -1,0 +1,10 @@
+000 fark=2 | Semender kertenkele değil; derisinde pul yok. || SEMENDER KERTEN KALI DEĞİL, DERİSİNDE PUL YOK
+001 fark=0 | Türk semenderinin derisi pürüzsüz ve parlak. || Türk semen derinin derisi pürüzsüz ve parlak.
+002 fark=1 | Kertenkelenin derisi, keratinden yapılmış üst üste binen pullarla kaplı. || Kertenkale'nin derisi keratinden yapılmış üst üste binen pullarla kaplı.
+003 fark=0 | Bir Farsça sözlük, semender derisinden tahriş edici, yapışkan bir madde salgılandığını yazıyor. || Bir Farsça sözlük, semender derisinden tahriş edici yapışkan bir madde salgılandığını yazıyor.
+004 fark=0 | Avrupa lekeli semenderinin salgısında, insan için tehlikeli olabilecek maddeler de bildiriliyor. || Avrupa lekeli semenderinin salgısında insan için tehlikeli olabilecek maddeler de bildiriliyor.
+005 fark=0 | Bu yüzden ona dokunma; dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme. || Bu yüzden ona dokunma, dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.
+006 fark=0 | Küçük çocuk dokunduysa elini yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış. || Küçük çocuk dokunduysa elini yıkamasına yardım et. Gözde ya da ağızda rahatsızlık olursa doktora danış.
+007 fark=1 | Köpek ya da kedi ağzına aldıysa veterinere başvur. || Köpek ya da kedi ağzını aldıysa veterinere başvur.
+008 fark=1 | Semenderi doğadan alıp eve götürme; kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. || Semendiri doğadan alıp eve götürme. Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne danış.
+009 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

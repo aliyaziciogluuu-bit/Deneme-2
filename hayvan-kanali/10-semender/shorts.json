@@ -87,7 +87,7 @@
    ],
    "cumleler": [
     {
-     "yazi": "Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestti.",
+     "yazi": "Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestten yapılmıştı.",
      "gorsel": "mendil_ates",
      "x": 0.5
     },
@@ -146,7 +146,7 @@
    ],
    "cumleler": [
     {
-     "yazi": "Semender kertenkele değil; derisinde pul yok.",
+     "yazi": "Semender bir kertenkele değil; derisinde pul yok.",
      "gorsel": "gercek_turk_semenderi",
      "x": 0.68,
      "aw": 0.7,

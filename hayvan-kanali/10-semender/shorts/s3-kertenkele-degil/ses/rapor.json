@@ -1,10 +1,11 @@
 {
  "000": {
-  "yazi": "Semender kertenkele değil; derisinde pul yok.",
-  "duyulan": "SEMENDER KERTEN KALI DEĞİL. DERİSİNDE PUL YOK.",
-  "hata": 2,
-  "sure": 2.76,
-  "uygun": false
+  "yazi": "Semender bir kertenkele değil; derisinde pul yok.",
+  "duyulan": "Semender bir kertenkele değil, derisinde pul yok.",
+  "hata": 0,
+  "sure": 3.44,
+  "uygun": true,
+  "tek_basina": true
  },
  "001": {
   "yazi": "Türk semenderinin derisi pürüzsüz ve parlak.",
