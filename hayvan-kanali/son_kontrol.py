@@ -61,6 +61,12 @@ def main():
     senaryo = json.loads((klasor / "senaryo.json").read_text(encoding="utf-8"))
     cumleler = [c["yazi"] for s in senaryo["sahneler"] for c in s["cumleler"]]
 
+    # 0  Video, sesinden ve senaryosundan yeni mi? (27 Kasım: ses yenilendikten sonra eski video eski kontrolle teslime gidiyordu)
+    vt = video.stat().st_mtime
+    yeni = [p.name for p in [klasor / "senaryo.json", klasor / "cekimler.json", *sorted((klasor / "ses").glob("[0-9][0-9][0-9].wav"))]
+            if p.exists() and p.stat().st_mtime > vt + 1]
+    test("Video, ses ve senaryodan yeni", not yeni, f"videodan sonra değişen: {yeni[:6]}" if yeni else "")
+
     # 1
     rapor = json.loads((klasor / "ses" / "rapor.json").read_text(encoding="utf-8"))
     eksik = [f"{i:03d}" for i in range(len(cumleler)) if not rapor.get(f"{i:03d}", {}).get("uygun")]
