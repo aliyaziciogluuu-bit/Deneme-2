@@ -1,27 +1,27 @@
 {
-  "cekimler": [
-    {
-      "n": 1,
-      "gorsel": "govde"
-    },
-    {
-      "n": 1,
-      "gorsel": "zar",
-      "klip": "zar"
-    },
-    {
-      "n": 1,
-      "gorsel": "cokme",
-      "klip": "cokme"
-    },
-    {
-      "n": 1,
-      "gorsel": "erkek",
-      "klip": "erkek"
-    },
-    {
-      "n": 1,
-      "gorsel": "don"
-    }
-  ]
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "govde"
+  },
+  {
+   "n": 1,
+   "gorsel": "zar",
+   "klip": "zar"
+  },
+  {
+   "n": 1,
+   "gorsel": "cokme",
+   "klip": "cokme"
+  },
+  {
+   "n": 1,
+   "gorsel": "erkek",
+   "klip": "erkek"
+  },
+  {
+   "n": 1,
+   "gorsel": "govde"
+  }
+ ]
 }
