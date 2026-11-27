@@ -163,3 +163,8 @@ Kaynak: kanal/kucuk_kanallar_2026-11-26.md (vidIQ).
 2. **Aylık uzun derleme:** ayda bir 20–40 dk derleme. İlki 26 Aralık: "Kışın Bahçendeki Komşular Nerede?" (mevcut videoların kış bölümleri + yeni bağlantı anlatımı; düşük maliyet). Amaç izlenme saati.
 3. **Tanıtım yerine üretim:** Aralık'ta ücretli tanıtım bütçesi derleme ve Shorts'a gider (27 Kas test sonucu farklı bir şey göstermezse).
 4. **Para kazanma için iki yol izlenir:** (a) 1.000 organik abone + 8.000 saat; (b) 1.000 organik abone + 90 günde Shorts izlenme eşiği. Haftalık raporda ikisi de gösterilir.
+
+## Karar (27 Kasım, kanal sahibi: "1") – ilk 3D uzun video: semender
+- Semender (12 Ara) 3D belgesel animasyonu tarzında üretilir; tür tanıtımında 3–4 gerçek fotoğraf kalır. Tahmini maliyet 10–20 $.
+- Ölçüt: ortalama izleme yüzdesi ve tıklama oranı önceki uzun videolarla karşılaştırılır (kirpi %25–33, TO %5,8; yarasa TO %6,7). İyiyse sonraki uzun videolar 3D; değilse eski tarza dönülür.
+- Shorts tarafında 3D kararı 4 Ara verisine bağlı (ayrı deneme).
