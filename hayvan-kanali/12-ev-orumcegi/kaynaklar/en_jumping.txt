@@ -1,0 +1,517 @@
+ 
+ Jumping spider - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Description 
+ 2 
+ Vision 
+ 3 
+ Behavior 
+ Toggle Behavior subsection 
+ 3.1 
+ Jumping 
+ 3.2 
+ Hunting 
+ 3.3 
+ Sleeping 
+ 4 
+ Diet 
+ 5 
+ Reproduction 
+ Toggle Reproduction subsection 
+ 5.1 
+ Courtship and mating behavior 
+ 5.2 
+ Consequences of sexual dimorphism 
+ 6 
+ Taxonomy 
+ 7 
+ Habitat 
+ 8 
+ Models for mimicry 
+ 9 
+ Fossils 
+ 10 
+ See also 
+ 11 
+ References 
+ 12 
+ Further reading 
+ 13 
+ External links 
+ Toggle the table of contents 
+ Jumping spider 
+ 47 languages 
+ العربية مصرى Беларуская (тарашкевіца) Беларуская Български Català Cebuano Čeština Dansk Deutsch Esperanto Español Eesti Euskara فارسی Suomi Français Galego עברית Bahasa Indonesia Italiano 日本語 Қазақша Latina Lëtzebuergesch Lietuvių Latviešu Nederlands Norsk bokmål Diné bizaad Polski پنجابی Português Română Русский Simple English Slovenščina Српски / srpski Svenska தமிழ் ไทย Türkçe Українська Tiếng Việt Winaray 粵語 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Save 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ Save 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikispecies Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Family of spiders 
+ "},"range_map":{"wt":"Salticidae range map.svg"},"range_map_caption":{"wt":"<span style=\"color:blue\">blue</span>: reported countries ([[World Spider Catalog|WSC]])<br /><span style=\"color:green\">green</span>: observation hotspots ([[iNaturalist]])"},"subdivision_ranks":{"wt":"Genera"},"subdivision":{"wt":"See [[List of Salticidae genera]]."}},"i":1}}]}'> 
+ Jumping spiders Temporal range: Eocene to Present , 54–0   Ma 
+ PreꞒ 
+ Ꞓ 
+ O 
+ S 
+ D 
+ C 
+ P 
+ T 
+ J 
+ K 
+ Pg 
+ N 
+ Possible Paleocene record 
+ Adult female Platycryptus undatus 
+ Scientific classification 
+ Kingdom: 
+ Animalia 
+ Phylum: 
+ Arthropoda 
+ Subphylum: 
+ Chelicerata 
+ Class: 
+ Arachnida 
+ Order: 
+ Araneae 
+ Infraorder: 
+ Araneomorphae 
+ Clade : 
+ RTA clade 
+ Family: 
+ Salticidae Blackwall , 1841 
+ Genera 
+ See List of Salticidae genera . 
+ Diversity [ 1 ] 
+ 695 genera, 6,950 species 
+ blue : reported countries ( WSC ) green : observation hotspots ( iNaturalist ) 
+ Jumping spiders are spiders in the family Salticidae , with almost 700 genera and around 7,000 described species , [ 1 ] making it the largest family of spiders   – comprising 13% of spider species. [ 2 ] Jumping spiders have some of the best vision among arthropods – being capable of stereoptic color vision – and use sight in courtship, hunting, and navigation. 
+ Although they normally move unobtrusively and fairly slowly, most species are capable of very agile jumps, notably when hunting, but sometimes in response to sudden threats or crossing long gaps. Both their book lungs and tracheal system are well-developed, and they use both systems (bimodal breathing). Jumping spiders are generally recognized by their eye pattern. All jumping spiders have four pairs of eyes, with the anterior median pair (the two front middle eyes) being particularly large. 
+ Description [ edit ] 
+ Salticidae male anterior and dorsal aspects, showing positions of eyes 
+ A regal jumper staying near its shelter on a thistle . It attempts to capture a small winged insect. 
+ Jumping spiders are among the easiest to distinguish from similar spider families because of the shape of the cephalothorax and their eye patterns. The families closest to Salticidae in general appearance are the Corinnidae (distinguished also by prominent spines on the back four legs), the Oxyopidae (the lynx spiders, distinguished by very prominent spines on all legs), and the Thomisidae (the crab spiders, distinguished by their front four legs, which are very long and powerful). None of these families, however, have eyes that resemble those of the Salticidae. Conversely, the legs of jumping spiders are not covered with any very prominent spines. Their front four legs generally are larger than the hind four, but not as dramatically so as those of the crab spiders, nor are they held in the outstretched-arms attitude characteristic of the Thomisidae. [ 3 ] In spite of the length of their front legs, Salticidae depend on their rear legs for jumping. The generally larger front legs are used partly to assist in grasping prey, [ 4 ] and in some species, the front legs and pedipalps are used in species-recognition signaling. 
+ The jumping spiders, unlike the other families, have faces that are roughly rectangular surfaces perpendicular to their direction of motion. In effect this means that their forward-looking, anterior eyes are on "flat faces". Their eye pattern is the clearest single identifying characteristic. They have eight eyes. [ 3 ] [ 4 ] Most diagnostic are the front row of four eyes, in which the anterior median pair are more dramatically prominent than any other spider eyes apart from the posterior median eyes of the Deinopidae . There is, however, a radical functional difference between the major (anterior median) eyes of Salticidae and the major (posterior median) eyes of the Deinopidae; the large posterior eyes of Deinopidae are adapted mainly to vision in dim light, whereas the large anterior eyes of Salticidae are adapted to detailed, three-dimensional vision for purposes of estimating the range, direction, and nature of potential prey, permitting the spider to direct its attacking leaps with great precision. The anterior lateral eyes, though large, are smaller than the anterior median eyes and provide a wider forward field of vision. 
+ The rear row of four eyes may be described as strongly bent, or as being rearranged into two rows, with two large posterior lateral eyes being the furthest back. They serve for lateral vision. The posterior median eyes also have been shifted out laterally, almost as far as the posterior lateral eyes. They are usually much smaller than the posterior lateral eyes and there is doubt about whether they are at all functional in many species. [ citation needed ] 
+ The body length of jumping spiders generally ranges from 1   to 25   mm (0.04–0.98   in) . [ 3 ] [ 5 ] The largest is Hyllus giganteus , [ 5 ] while other genera with relatively large species include Phidippus , Philaeus and Plexippus . [ 6 ] 
+ In addition to using their silk for safety lines while jumping, they also build silken "pup tents", where they take shelter from bad weather and sleep at night. [ 7 ] They molt in these shelters, build and store egg cases in them, and also spend the winter in them. [ 8 ] 
+ Their body's sensory hairs are able to detect airborne acoustic stimuli up to 3   m away. [ 9 ] 
+ Vision [ edit ] 
+ The visual fields of a jumping spider 
+ The eight eyes of a Telamonia dimidiata located near the front 
+ Adult male Phidippus audax 
+ Jumping spiders have four pairs of eyes; three secondary pairs that are fixed and a principal pair that is internally adaptable. [ 10 ] 
+ The posterior median eyes are vestigial in many species, but in some primitive subfamilies, they are comparable in size with the other secondary eyes and help to detect motion. [ 11 ] While unable to form images, the reduced pair of eyes is thought to have a role similar to that of insect ocelli by receiving light from the sky. The photoreceptors in the other secondary pairs are almost exclusively green-sensitive, but the posterior median eyes have two visual opsins different from those in all the other eyes, sensitive to blue and UV light. [ 12 ] 
+ The posterior lateral eyes (PLEs) are wide-angle motion detectors that sense motions from the side and behind. Combined with the other eyes, PLEs give the spider a near 360° view of the world. [ 13 ] 
+ The anterior lateral eyes (ALEs) have the best visual acuity of the secondary eyes. [ 14 ] They are able to distinguish some details, as well, and without them, no "looming response" (instinctive rapid defensive action) [ 15 ] can be triggered by motion. [ 16 ] Even with all the other pairs covered, jumping spiders in a study could still detect, stalk, and attack flies, using their ALEs only, which are also sufficiently widely spaced to provide stereoscopic vision. [ 17 ] 
+ The anterior median eyes have very good vision . This pair of eyes is built like a telescopic tube with a corneal lens in the front and a second lens in the back that focus images onto a four-layered retina, a narrow, boomerang-shaped strip oriented vertically. [ 18 ] [ 19 ] Physiological experiments have shown they may have up to four different kinds of receptor cells, with different absorption spectra , giving them the possibility of tetrachromatic color vision , with sensitivity extending into the ultraviolet (UV) range. [ 20 ] As the eyes are too close together to allow depth perception , and the animals do not make use of motion parallax , they have instead evolved a method called image defocus. Of the four photoreceptor layers in the retina, the two closest to the surface contain a UV-sensitive opsin (visual pigment), while the two deepest contain a green-sensitive opsin. The incoming green light is only focused on the deepest layer, while the other one receives defocused or fuzzy images. By measuring the amount of defocus from the fuzzy layer, calculating the distance to the objects in front of them is possible. [ 21 ] [ 22 ] In addition to receptor cells, red filters also have been detected, located in front of the cells that normally register green light. [ 23 ] All salticids, regardless of whether they have two, three, or four kinds of color receptors, seemingly are highly sensitive to UV light. [ 20 ] Some species (such as Cosmophasis umbratica ) are highly dimorphic in the UV spectrum, suggesting a role in sexual signaling. [ 24 ] Color discrimination has been demonstrated in behavioral experiments. 
+ The anterior median eyes have high resolution (11 min visual angle ), [ 25 ] but the field of vision is narrow, from 2 to 5°. The central region of the retina, where acuity is highest, is no more than six or seven receptor rows wide. However, the eye can scan objects off the direct axis of vision. As the lens is attached to the carapace, the eye's scanning movements are restricted to its retina through a complicated pattern of translations and rotations. [ 26 ] This dynamic adjustment is a means of compensation for the narrowness of the static field of vision. Movement of the retina in jumping spiders is analogous to the way many vertebrates , such as primates , move their entire eyes to focus images of interest onto their fovea centralis . In jumping spiders with a translucent carapace, such movements within the jumping spider's eyes are visible from outside when the attention of the spider is directed to various targets. [ 27 ] 
+ Behavior [ edit ] 
+ Jumping [ edit ] 
+ Unidentified salticid jumping with trailing dragline 
+ Many other arthropods are known to jump, including grasshoppers , fleas , leafhoppers , and sand fleas . Jumping spiders are different from these animals because they are able to make accurate, targeted jumps. Jumps are used for navigation, to escape danger, and to catch prey. When jumping, they use mainly their third or fourth pair of legs, or both pairs, depending on species. [ 28 ] Jumping spiders' well-developed internal hydraulic system extends their limbs by altering the pressure of their body fluid ( hemolymph ) within them. [ 29 ] This enables the spiders to jump without having large muscular legs like a grasshopper. The maximum horizontal jump distance varies greatly between species, with some capable of jumping two or three body lengths, while the jump of an individual Colonus puerperus was measured at 38 times the body length. [ 30 ] The accuracy of their jumps is mediated by their well-developed visual system and the ability to quickly process visual information to tailor each jump. [ 31 ] [ 32 ] When a jumping spider moves from place to place, and especially just before it jumps, it tethers a filament of silk (or 'dragline') to whatever it is standing on. [ 3 ] [ 5 ] This dragline provides a mechanical aid to jumping, including braking and stabilization [ 31 ] [ 33 ] and if the jump should fail, the spider climbs back up the dragline. [ 8 ] 
+ Hunting [ edit ] 
+ Heavy-bodied jumper eating a Pantropical jumper 
+ The hunting behaviour of the Salticidae is confusingly varied compared to that of most spiders in other families. [ 34 ] Salticids hunt diurnally as a rule, which is consistent with their highly developed visual system. When it detects potential prey, a jumping spider typically begins orienting itself by swiveling its cephalothorax to bring the anterior median eyes to bear. It then moves its abdomen in line with its cephalothorax. After that, it might spend some time inspecting the object of its attention and determining whether a camouflaged or doubtful item of prey is promising, before it starts to stalk slowly forward. When close enough, the spider pauses to attach a dragline, then springs onto the prey. 
+ Many variations on the theme and many surprising aspects exist. For one, salticids do not necessarily follow a straight path in approaching prey. They may follow a circuitous course, sometimes even a course that takes the hunter through regions from which the prey is not visible. Such complex adaptive behaviour is hard to reconcile with an organism that has such a tiny brain. Some jumping spiders, in particular some species of Portia , can negotiate long detours from one bush down to the ground, then up the stem of another bush to capture a prey item on a particular leaf. [ 35 ] Such behaviour is the subject of research. [ 34 ] 
+ Some salticid species are continually on the move, stopping periodically to look around for prey, which they then stalk immediately. Others spend more time scanning their surroundings from one position, actively stalking any prey they detect. Members of the genus Phaeacius take that strategy to extremes; they sit on a tree trunk, facing downwards and rarely do any stalking, but simply lunge down on any prey items that pass close before them. [ 34 ] 
+ Some Salticidae specialise in particular classes of prey, such as ants . Most spiders, including most salticids, avoid worker ants, but several species not only eat them as a primary item in their diets, but also employ specialised attack techniques. Anasaitis canosa circles around to the front of the ant and grabs it over the back of its head. Such myrmecophagous species, however, do not necessarily refuse other prey items, and routinely catch flies and similar prey in the usual salticid fashion, without the special precautions they apply in hunting dangerous prey such as ants. Ants offer the advantages of being plentiful prey items for which little competition from other predators occurs, but catching less hazardous prey when it presents itself remains profitable. [ 34 ] 
+ Some of the most surprising hunting behaviours occur among the araneophagous Salticidae, and vary greatly in method. Many of the spider-hunting species quite commonly attack other spiders, whether fellow salticids or not, in the same way as any other prey, but some kinds resort to web invasion. Nonspecialists such as Phidippus audax sometimes attack prey ensnared in webs, basically in acts of kleptoparasitism ; sometimes they leap onto and eat the web occupant itself, or simply walk over the web for that purpose. 
+ Salticidae in the genera Brettus , Cyrba , Gelotia and Portia display more advanced web-invasion behavior. They slowly advance onto the web and vibrate the silk with their pedipalps and legs. In this respect, their behaviour resembles that of the Mimetidae , probably the most specialised of the araneophagous spider families. If the web occupant approaches in the manner appropriate to dealing with ensnared prey, the predator attacks. [ 34 ] 
+ The foregoing examples present the Salticidae as textbook examples of active hunters; they would hardly seem likely to build webs other than those used in reproductive activities, and in fact, most species really do not build webs to catch prey. However, exceptions occur, though even those that do build capture webs generally also go hunting like other salticids. Some Portia species, for example, spin capture webs that are functional, though not as impressive as some orb webs of the Araneidae . Portia webs are of an unusual funnel shape and apparently adapted to the capture of other spiders. Spartaeus species, though, largely capture moths in their webs. In their review of the ethology of the Salticidae, Richman and Jackson speculate on whether such web building is a relic of the evolution of this family from web-building ancestors. [ 34 ] Their tendency towards being active hunters poses a risk in relation to spider-pathogenic fungi , especially in the Tropics, Subtropics, and North America. This is because spider-pathogenic fungi tend to infect spiders that move around a lot. [ 36 ] 
+ In hunting, the Salticidae also use their silk as a tether to enable them to reach prey that otherwise would be inaccessible. For example, by advancing towards the prey to less than the jumping distance, then retreating and leaping in an arc at the end of the tether line, many species can leap onto prey on vertical or even inverted surfaces, which of course would not be possible without such a tether. 
+ Having made contact with the prey, hunting Salticidae administer a bite to inject rapid-acting venom that gives the victim little time to react. [ 37 ] In this respect, they resemble the Mimetidae and Thomisidae, families that ambush prey that often are larger than the predator, and they do so without securing the victim with silk. Consequently they must immobilise it immediately and their venom is adapted accordingly. 
+ This small female jumping spider ( Hyllus semicupreus ) successfully captured a grasshopper that is much larger and stronger than she is. The grasshopper tried to escape, but the spider immobilized it using the venom she injected, and the "dragline" helped her hold her position with respect to the prey object. 
+ Sleeping [ edit ] 
+ While jumping spiders sleep, they experience similar characteristics of REM sleep. Such characteristics are curled legs with occasional twitching and movement of the eyes. Retinal movements often accompanied body movements, such as twitching. [ 38 ] 
+ Diet [ edit ] 
+ A camouflaged Menemerus bivittatus jumping spider with a captured male ant 
+ Although jumping spiders are generally carnivorous , many species have been known to include nectar in their diets. [ 39 ] One species, Bagheera kiplingi , feeds primarily on Beltian bodies , specialized structures rich in fat and protein, found on some acacia ( Vachellia ) species. [ 40 ] None are known to feed on seeds or fruit. Extrafloral nectaries on plants, such as Chamaecrista fasciculata (partridge pea), provide jumping spiders with nectar; the plant benefits accordingly when the spiders prey on whatever pests they find. 
+ The female of the Southeast Asian species Toxeus magnus feeds its offspring with a milky, nutritious fluid for the first 40 days of their lives. [ 41 ] 
+ Reproduction [ edit ] 
+ Courtship display of Saitis barbipes jumping spider 
+ Courtship and mating behavior [ edit ] 
+ Jumping spiders conduct complex, visual courtship displays using movements and physical bodily attributes. A form of sexual dimorphism , the males possess plumose hairs, colored or iridescent hairs (particularly pronounced in the peacock spiders ), front leg fringes, structures on other legs, and other, often bizarre, modifications. These characteristics are used in a courtship "dance" in which the colored or iridescent parts of the body are displayed. In addition to displaying colors, jumping spiders perform complex sliding, vibrational, or zigzag movements to attract females. Many males have auditory signals, as well. These amplified sounds presented to the females resemble buzzes or drum rolls. [ 42 ] Species vary significantly in visual and vibratory components of courtship. [ 43 ] The ability to sense UV light (see Vision section) is used by at least one species, Cosmophasis umbratica , in courtship behavior. [ 44 ] [ 45 ] Cosmophasis umbratica males have markings that are only visible in UV and the females use the markings for mate choice . [ 46 ] 
+ If receptive to the male, the female assumes a passive, crouching position. In some species, the female may vibrate her palps or abdomen. The male then extends his front legs towards the female to touch her. If the female remains receptive, the male climbs on her back and inseminates her with his palps. [ 47 ] 
+ Consequences of sexual dimorphism [ edit ] 
+ Maintaining colorful ornamentation may seem strictly beneficial to sexual selection, yet costs to maintain such distinguishing characteristics occur. [ 46 ] While colorful or UV-reflecting individuals may attract more female spiders, it can also increase the risk of predation. [ 19 ] 
+ Taxonomy [ edit ] 
+ See also: List of Salticidae genera 
+ {{cite journal|last1=Wheeler|first1=Ward C.|last2=Coddington|first2=Jonathan A.|last3=Crowley|first3=Louise M.|last4=Dimitrov|first4=Dimitar|last5=Goloboff|first5=Pablo A.|last6=Griswold|first6=Charles E.|last7=Hormiga|first7=Gustavo|last8=Prendini|first8=Lorenzo|last9=Ramírez|first9=Martín J.|last10=Sierwald|first10=Petra|last11=Almeida-Silva|first11=Lina|last12=Alvarez-Padilla|first12=Fernando|last13=Arnedo|first13=Miquel A.|last14=Benavides Silva|first14=Ligia R.|last15=Benjamin|first15=Suresh P.|last16=Bond|first16=Jason E.|last17=Grismado|first17=Cristian J.|last18=Hasan|first18=Emile|last19=Hedin|first19=Marshal|last20=Izquierdo|first20=Matías A.|last21=Labarque|first21=Facundo M.|last22=Ledford|first22=Joel|last23=Lopardo|first23=Lara|last24=Maddison|first24=Wayne P.|last25=Miller|first25=Jeremy A.|last26=Piacentini|first26=Luis N.|last27=Platnick|first27=Norman I.|last28=Polotow|first28=Daniele|last29=Silva-Dávila|first29=Diana|last30=Scharff|first30=Nikolaj|last31=Szűts|first31=Tamás|last32=Ubick|first32=Darrell|last33=Vink|first33=Cor J.|last34=Wood|first34=Hannah M.|last35=Zhang|first35=Junxia|title=The spider tree of life: phylogeny of Araneae based on target-gene analyses from an extensive taxon sampling|journal=Cladistics|volume=33|issue=6|pages=574–616|date=December 2016|display-authors=3|doi=10.1111/cla.12182|pmid=34724759 |s2cid=35535038|doi-access=free}}</ref>"},"clades":{"wt":"{{clade\n|style=font-size:85%;line-height:89%\n\n|1={{clade\n |1=[[Mygalomorphae]]\n |label2=[[Araneomorphae]]\n |2={{clade\n |1=[[Synspermiata]]\n |2=[[Palpimanoidea]]\n |label3=[[Entelegynae]]\n |3={{clade\n |1=[[Araneoidea]]\n |2=[[Eresidae]]\n |3=[[Titanoecidae]]\n |label4=[[RTA clade]]\n |4={{clade\n |1=[[Zodariidae]]\n |2=[[Sparassidae]]\n |3=[[Lycosidae]]\n |label4=[[Dionycha]]\n |4={{clade\n |1=[[Clubionidae]]\n |2=[[Gnaphosidae]]\n |3=[[Corinnidae]]\n |4=[[Philodromidae]]\n |5='''Salticidae'''\n }}\n }}\n }}\n }}\n }}\n}}"}},"i":0}}]}'>
+ Classification within the spiders ( Araneae ) [ 48 ] 
+ Mygalomorphae 
+ Araneomorphae 
+ Synspermiata 
+ Palpimanoidea 
+ Entelegynae 
+ Araneoidea 
+ Eresidae 
+ Titanoecidae 
+ RTA clade 
+ Zodariidae 
+ Sparassidae 
+ Lycosidae 
+ Dionycha 
+ Clubionidae 
+ Gnaphosidae 
+ Corinnidae 
+ Philodromidae 
+ Salticidae 
+ The monophyly of the family Salticidae is well established through both phylogenetic and morphological analyses. The sister group to Salticidae is the family Philodromidae . [ 49 ] [ 50 ] Synapomorphies of the two families include loss of cylindrical gland spigots and loss of tapeta in the indirect eyes . [ 50 ] 
+ A 2015 revision of the Salticidae family divided it into seven subfamilies: [ 51 ] 
+ Onomastinae Maddison, 2015 – 1 extant genus 
+ Asemoneinae Maddison, 2015 – 4 extant genera ( Hindumanes , originally placed here, was moved to Lyssomaninae [ 52 ] ) 
+ Lyssomaninae Blackwall, 1877 – 4 extant genera (including Hindumanes ) 
+ Spartaeinae Wanless, 1984 – 29 extant genera in 3 tribes 
+ Eupoinae Maddison, 2015 – 3 extant genera 
+ Hisponinae Simon, 1901 – 6 extant genera 
+ Salticinae Blackwall, 1841 – about 540 extant genera in 27 tribes 
+ The relationships between these subfamilies is still up for debate. Below are the results of a 2017 phylogenomic study that attempted to resolve this question. The subfamily Eupoinae was unevaluated and its exact position is unclear. [ 53 ] 
+ Salticidae 
+ Eupoinae 
+ Spartaeinae 
+ Asemoneinae 
+ Lyssomaninae 
+ Onomastinae 
+ Hisponinae 
+ Salticinae 
+ Habitat [ edit ] 
+ Diamorphic jumping spider in family  Salticidae on tree trunk. 
+ Jumping spiders live in a variety of habitats. Tropical forests harbor the most species, but they are also found in temperate forests , scrubland , deserts , intertidal zones , and mountainous regions. Euophrys omnisuperstes is the species reported to have been collected at the highest elevation, on the slopes of Mount Everest . [ 54 ] 
+ Models for mimicry [ edit ] 
+ Some small insects are thought to have evolved an appearance or behavioural traits that resemble those of jumping spiders and this is suspected to prevent their predation, specifically from jumping spiders. Some examples appear to be provided by patterns on the wings of some tephritid flies, [ 55 ] [ 56 ] the nymph of a fulgorid [ 57 ] and possibly some moths. [ 58 ] 
+ Fossils [ edit ] 
+ Very few jumping spider fossils have been found. Of those known, all are from Cenozoic era amber . The oldest fossils are from Baltic amber dating to the Eocene epoch, specifically, 54 to 42 million years ago. Other fossil jumping spiders have been preserved within Chiapas amber and Dominican amber . [ 59 ] 
+ See also [ edit ] 
+ Peckhamia (journal) 
+ Spider taxonomy 
+ References [ edit ] 
+ {{cite web\n |title=Families\n |website=World Spider Catalog\n |place=Bern, Switzerland\n |publisher=Natur Historisches Museum, Bern\n |url=https://wsc.nmbe.ch/families/\n |access-date=23 January 2026\n |archive-date=9 January 2026\n |archive-url=https://web.archive.org/web/20260109234357/https://wsc.nmbe.ch/families\n |url-status=live\n }}</ref>\n\n<ref name=Crom54>\n{{cite book\n |last=Crompton |first=J. |author-link=John Battersby Crompton Lamburn\n |date=1954\n |title=The Life of the Spider\n |edition=reprint |page=77\n |location=New York, NY\n |publisher=New American Library\n |oclc=2896911\n}}\n</ref>\n\n<ref name=HarlJack00>\n{{cite journal\n |last1=Harland |first1=D.P.\n |last2=Jackson |first2=R.R. |name-list-style=amp\n |date=2000\n |title='Eight-legged cats' and how they see – a review of recent research on jumping spiders (Araneae: Salticidae)\n |journal=Cimbebasia\n |volume=16 |pages=231–240\n |url=https://www.researchgate.net/publication/238671399\n |access-date=28 January 2016\n}}\n</ref>\n\n<ref name=Maddison2015>\n{{cite journal\n |last=Maddison |first=Wayne P.\n |date=November 2015\n |title=A phylogenetic classification of jumping spiders (Araneae: Salticidae)\n |journal=Journal of Arachnology\n |volume=43 |issue=3 |pages=231–292\n |doi=10.1636/arac-43-03-231-292 |s2cid=85680279\n}}\n</ref>\n\n<ref name=PeasWils89>\n{{cite journal\n |last1=Peaslee |first1=A.G.\n |last2=Wilson |first2=G. |name-list-style=amp\n |date=May 1989\n |title=Spectral sensitivity in jumping spiders (Araneae, Salticidae)\n |journal=Journal of Comparative Physiology&nbsp;A\n |volume=164 |issue=3 |pages=359–63\n |doi=10.1007/BF00612995 |pmid=2709341\n |s2cid=21329083\n}}\n</ref>\n\n<ref name=PengTsoLi02>{{cite journal\n |last1=Peng\n |first1=Xian-Jin\n |last2=Tso\n |first2=I-Min\n |last3=Li\n |first3=Shu-Qiang\n |name-list-style=amp\n |date=2002\n |title=Five new and four newly recorded species of jumping spiders from Taiwan (Araneae: Salticidae)\n |journal=Zoological Studies\n |volume=41\n |issue=1\n |pages=1–12\n |url=http://zoolstud.sinica.edu.tw/Journals/41.1/1.pdf\n |access-date=28 January 2016\n |archive-date=10 November 2021\n |archive-url=https://web.archive.org/web/20211110055051/http://zoolstud.sinica.edu.tw/Journals/41.1/1.pdf\n |url-status=dead\n }}</ref>\n\n<ref name=RichEdwaCutl05>\n{{cite book\n |last1=Richman |first1=D.B.\n |last2=Edwards |first2=G.B.\n |last3=Cutler |first3=B. |name-list-style=amp\n |date=2005\n |contribution=Salticidae\n |editor1-last=Ubick |editor1-first=D.\n |editor2-last=Paquin |editor2-first=P.\n |editor3-last=Cushing |editor3-first=P.E.\n |editor4-last=Roth |editor4-first=V.\n |title=Spiders of North America: An identification manual\n |pages=205–216\n |publisher=American Arachnological Society\n |isbn=978-0-9771439-0-0\n}}\n</ref>"}},"i":0}}]}'> 1 2 "Families" . World Spider Catalog . Bern, Switzerland: Natur Historisches Museum, Bern. Archived from the original on 9 January 2026 . Retrieved 23 January 2026 . 
+ ↑ Peng, Xian-Jin; Tso, I-Min & Li, Shu-Qiang (2002). "Five new and four newly recorded species of jumping spiders from Taiwan (Araneae: Salticidae)" (PDF) . Zoological Studies . 41 (1): 1– 12. Archived from the original (PDF) on 10 November 2021 . Retrieved 28 January 2016 . 
+ 1 2 3 4 
+ Richman, D.B.; Edwards, G.B. & Cutler, B. (2005). "Salticidae". In Ubick, D.; Paquin, P.; Cushing, P.E. & Roth, V. (eds.). Spiders of North America: An identification manual . American Arachnological Society. pp.   205– 216. ISBN   978-0-9771439-0-0 . 
+ 1 2 
+ Crompton, J. (1954). The Life of the Spider (reprint   ed.). New York, NY: New American Library. p.   77. OCLC   2896911 . 
+ 1 2 3 "Watch the world's biggest jumping spider make a leap" . BBC Earth . 17 August 2017. Archived from the original on 5 March 2023 . Retrieved 4 March 2023 . 
+ ↑ Macík, Stanislav (27 August 2012). "Phiddipus regius: the Jewel between Spider Predators" . arachnos.eu. Archived from the original on 6 April 2023 . Retrieved 18 June 2016 . 
+ ↑ Gabrielson, M., & Roberts, A. (2022). Jumping spider. Getting Eight Legs Up – Learning More About Our Forest's Jumping Spiders. 
+ 1 2 Foelix, Rainer F. (1996). Biology of Spiders . Oxford University Press. p.   11 . ISBN   978-0-674-07431-6 . 
+ ↑ Shamble, Paul S.; Menda, Gil; Golden, James R.; Nitzany, Eyal I.; Walden, Katherine; Beatus, Tsevi; Elias, Damian O.; Cohen, Itai; Miles, Ronald N.; Hoy, Ronald R. (2016). "Airborne Acoustic Perception by a Jumping Spider" . Current Biology . 26 (21): 2913– 2920. Bibcode : 2016CBio...26.2913S . doi : 10.1016/j.cub.2016.08.041 . PMC   5102792 . PMID   27746028 . 
+ ↑ Elmer, Nicole (13 August 2020). "Backyard Biodiversity: Jumping Spiders" . Biodiversity Center . Retrieved 18 November 2026 . 
+ ↑ Land, M. F. (November 1985). "Fields of View of the Eyes Of Primitive Jumping Spiders". Journal of Experimental Biology . 119 (1): 381– 384. Bibcode : 1985JExpB.119..381L . doi : 10.1242/jeb.119.1.381 . 
+ ↑ Terakita, Akihisa; Nagata, Takashi (October 2014). "Functional Properties of Opsins and their Contribution to Light-Sensing Physiology". Zoological Science . 31 (10): 653– 659. doi : 10.2108/zs140094 . PMID   25284384 . 
+ ↑ De Agrò, Massimo; Rößler, Daniela; Shamble, Paul (15 June 2024). "Eye-specific detection and a multi-eye integration model of biological motion perception" . Journal of Experimental Biology . 227 (12). doi : 10.1242/jeb.247061 . PMC   11418026 . 
+ ↑ Zurek, Daniel B.; Nelson, Ximena J. (August 2012). "Hyperacute motion detection by the lateral eyes of jumping spiders" . Vision Research . 66 : 26– 30. doi : 10.1016/j.visres.2012.06.011 . hdl : 10092/17539 . PMID   22750020 . 
+ ↑ Heinemans, Mirjam; Moita, Marta A. (16 September 2024). "Looming stimuli reliably drive innate defensive responses in male rats, but not learned defensive responses" . Scientific Reports . 14 (1) 21578. Bibcode : 2024NatSR..1421578H . doi : 10.1038/s41598-024-70256-2 . PMC   11405667 . PMID   39285228 . 
+ ↑ "Jeepers, Peepers: Why Spiders Have So Many Eyes" . Livescience.com. 17 October 2012. Archived from the original on 3 July 2013 . Retrieved 13 August 2013 . 
+ ↑ Zurek, D. B.; Taylor, A. J.; Evans, C. S.; Nelson, X. J. (25 June 2010). "The role of the anterior lateral eyes in the vision-based behaviour of jumping spiders" . Journal of Experimental Biology . 213 (14): 2372– 2378. Bibcode : 2010JExpB.213.2372Z . doi : 10.1242/jeb.042382 . hdl : 10092/17412 . PMID   20581266 . 
+ ↑ Rozenbaum, Ilya; Ritch, R (November 2007). "Eye on the Web". Archives of Ophthalmology . 125 (11): 1557. doi : 10.1001/archopht.125.11.1557 . PMID   17998517 . 
+ 1 2 
+ Harland, D.P. & Jackson, R.R. (2000). " 'Eight-legged cats' and how they see – a review of recent research on jumping spiders (Araneae: Salticidae)" . Cimbebasia . 16 : 231– 240 . Retrieved 28 January 2016 . 
+ 1 2 
+ Peaslee, A.G. & Wilson, G. (May 1989). "Spectral sensitivity in jumping spiders (Araneae, Salticidae)". Journal of Comparative Physiology   A . 164 (3): 359– 63. doi : 10.1007/BF00612995 . PMID   2709341 . S2CID   21329083 . 
+ ↑ "Jumping Spiders' Unique Vision Revealed" . Livescience.com. 26 January 2012. Archived from the original on 2 July 2013 . Retrieved 13 August 2013 . 
+ ↑ Nagata, Takashi; Koyanagi, Mitsumasa; Tsukamoto, Hisao; Saeki, Shinjiro; Isono, Kunio; Shichida, Yoshinori; Tokunaga, Fumio; Kinoshita, Michiyo; Arikawa, Kentaro; Terakita, Akihisa (27 January 2012). "Depth Perception from Image Defocus in a Jumping Spider" . Science . 335 (6067): 469– 471. Bibcode : 2012Sci...335..469N . doi : 10.1126/science.1211667 . PMID   22282813 . 
+ ↑ "Filters let jumping spiders spot flashy mates" . Archived from the original on 24 May 2015 . Retrieved 23 May 2015 . 
+ ↑ Lim, Matthew L. M.; Li, Daiqin (August 2006). "Behavioural evidence of UV sensitivity in jumping spiders (Araneae: Salticidae)". Journal of Comparative Physiology A . 192 (8): 871– 878. doi : 10.1007/s00359-006-0126-5 . PMID   16598507 . 
+ ↑ Land, M. F. (November 1969). "Structure of the Retinae of the Principal Eyes of Jumping Spiders (Salticidae: Dendryphantinae) in Relation to Visual Optics". Journal of Experimental Biology . 51 (2): 443– 470. Bibcode : 1969JExpB..51..443L . doi : 10.1242/jeb.51.2.443 . PMID   5351425 . 
+ ↑ "Topic: Scanning eyes in molluscs and arthropods" . Mapoflife.org. Archived from the original on 17 May 2014 . Retrieved 13 August 2013 . 
+ ↑ Land, M. F. (November 1969). "Movements of the Retinae of Jumping Spiders (Salticidae: Dendryphantinae) in Response to Visual Stimuli". Journal of Experimental Biology . 51 (2): 471– 493. Bibcode : 1969JExpB..51..471L . doi : 10.1242/jeb.51.2.471 . PMID   5351426 . 
+ ↑ Goetzke, H. H.; Federle, W. (2021). "Role of legs and foot adhesion in salticid spiders jumping from smooth surfaces" . Journal of Comparative Physiology. A, Neuroethology, Sensory, Neural, and Behavioral Physiology . 207 (2): 165– 177. doi : 10.1007/s00359-021-01466-6 . PMC   8046696 . PMID   33730199 . 
+ ↑ Parry, D.A.; Brown, R.H.J (1959). "The jumping mechanism of salticid spiders". Journal of Experimental Biology . 36 (4): 654– 664. Bibcode : 1959JExpB..36..654P . doi : 10.1242/jeb.36.4.654 . 
+ ↑ Hill, D.E. (2018). "The jumping behavior of jumping spiders: a review" (PDF) . Peckhamia . 167 (1): 1– 8. Archived (PDF) from the original on 18 June 2022 . Retrieved 5 March 2023 . 
+ 1 2 Hill, D.E. (15 December 2006). "Targeted jumps by salticid spiders (Araneae, Salticidae, Phidippus )" (PDF) . The Peckham Society . v. 9. Archived (PDF) from the original on 27 November 2022 . Retrieved 5 March 2023 . 
+ ↑ Harland, Duane P.; Li, Daiqin; Jackson, Robert R. (2012). "How Jumping Spiders See the World". How Animals See the WorldComparative Behavior, Biology, and Evolution of Vision . pp.   132– 163. doi : 10.1093/acprof:oso/9780195334654.003.0010 . ISBN   978-0-19-533465-4 . 
+ ↑ Chen, Y.; Ciao, C.; Tsai, F.; Chi, K. (2013). "More than a safety line: jump-stabilizing silk of salticids" . Journal of the Royal Society Interface . 10:20130572 (87). doi : 10.1098/rsif.2013.0572 . PMC   3758018 . PMID   23925983 . 
+ 1 2 3 4 5 6 Richman, David B.; Jackson, Robert R. (1992). "A review of the ethology of jumping spiders (Araneae, Salticidae)" (PDF) . Bull. Br. Arachnol. Soc . 9 (2): 33– 37. Archived (PDF) from the original on 31 May 2019 . Retrieved 4 May 2013 . 
+ ↑ Tarsitano, Michael S.; Jackson, Robert R. (February 1997). "Araneophagic jumping spiders discriminate between detour routes that do and do not lead to prey". Animal Behaviour . 53 (2): 257– 266. Bibcode : 1997AnBeh..53..257T . doi : 10.1006/anbe.1996.0372 . 
+ ↑ Nyffeler, Martin; Hywel-Jones, Nigel (11 October 2024). "Diversity of spider families parasitized by fungal pathogens: a global review" . The Journal of Arachnology . 52 (2). doi : 10.1636/JoA-S-23-007 . 
+ ↑ National Geographic video of capture of bee by jumping spider Archived 28 September 2016 at the Wayback Machine . Youtube.com (27 February 2009). Retrieved on 4 May 2013. 
+ ↑ Siliezar, Juan (9 August 2022). "Harvard researchers find REM sleep in jumping spiders" . Harvard Gazette . Retrieved 30 October 2026 . 
+ ↑ Jackson, Robert R.; Pollard, Simon D.; Nelson, Ximena J.; Edwards, G. B.; Barrion, Alberto T. (September 2001). "Jumping spiders (Araneae: Salticidae) that feed on nectar". Journal of Zoology . 255 (1): 25– 29. Bibcode : 2001JZoo..255...25J . doi : 10.1017/S095283690100108X . 
+ ↑ Meehan, Christopher J.; Olson, Eric J.; Reudink, Matthew W.; Kyser, T. Kurt; Curry, Robert L. (October 2009). "Herbivory in a spider through exploitation of an ant–plant mutualism". Current Biology . 19 (19): R892– R893. Bibcode : 2009CBio...19.R892M . doi : 10.1016/j.cub.2009.08.049 . PMID   19825348 . 
+ ↑ Chen, Zhanqi; Corlett, Richard T.; Jiao, Xiaoguo; et   al. (30 November 2018). "Prolonged milk provisioning in a jumping spider" . Science . 362 (6418): 1052– 1055. Bibcode : 2018Sci...362.1052C . doi : 10.1126/science.aat3692 . PMID   30498127 . 
+ ↑ Elias, DO; Mason, AC; Maddison, WP; Hoy, RR (2003). "Seismic signals in a courting male jumping spider" . The Journal of Experimental Biology . 206 (22): 4029– 4039. Bibcode : 2003JExpB.206.4029E . doi : 10.1242/jeb.00634 . PMID   14555743 . 
+ ↑ Morelle, Rebecca (2 May 2008). "Study sheds light on spider sex" . BBC News . Archived from the original on 5 May 2008 . Retrieved 4 May 2008 . 
+ ↑ Lim, Matthew L. M.; Li, Daiqin (2006). "Extreme Ultraviolet Sexual Dimorphism in Jumping Spiders (Araneae: Salticidae)" . Biological Journal of the Linnean Society . 89 (3): 397– 406. doi : 10.1111/j.1095-8312.2006.00704.x . 
+ ↑ Lim, M. L. M.; Li, D. (2004). "Courtship and male-male agonistic behaviour of Cosmophasis umbratica Simon, an ornate jumping spider (Araneae: Salticidae) from Singapore" . Raffles Bulletin of Zoology . 52 (2): 435– 448. Archived from the original on 16 September 2024 . Retrieved 1 July 2026 . 
+ 1 2 Bulbert, Matthew W.; O'Hanlon, James C.; Zappettini, Shane; Zhang, Shichang; Li, Daiqin (February 2015). "Sexually selected UV signals in the tropical ornate jumping spider, C osmophasis umbratica may incur costs from predation" . Ecology and Evolution . 5 (4): 914– 920. Bibcode : 2015EcoEv...5..914B . doi : 10.1002/ece3.1419 . PMC   4338973 . PMID   25750717 . 
+ ↑ Foelix, Rainer F. (1996). Biology of Spiders . Oxford University Press. pp.   195–197 . ISBN   978-0-674-07431-6 . 
+ ↑ Wheeler, Ward C.; Coddington, Jonathan A.; Crowley, Louise M.; et   al. (December 2016). "The spider tree of life: phylogeny of Araneae based on target-gene analyses from an extensive taxon sampling" . Cladistics . 33 (6): 574– 616. doi : 10.1111/cla.12182 . PMID   34724759 . S2CID   35535038 . 
+ ↑ Ramírez, Martín J. (27 June 2014). "The Morphology And Phylogeny Of Dionychan Spiders (Araneae: Araneomorphae)". Bulletin of the American Museum of Natural History . 390 : 1–374 [313]. Bibcode : 2014BAMNH.390....1R . doi : 10.1206/821.1 . hdl : 11336/18066 . 
+ 1 2 Azevedo, Guilherme H. F.; Bougie, Tierney; Carboni, Martin; Hedin, Marshal; Ramírez, Martín J. (January 2022). "Combining genomic, phenotypic and Sanger sequencing data to elucidate the phylogeny of the two-clawed spiders (Dionycha)" . Molecular Phylogenetics and Evolution . 166 107327. Bibcode : 2022MolPE.16607327A . doi : 10.1016/j.ympev.2021.107327 . hdl : 11336/148790 . PMID   34666169 . 
+ ↑ 
+ Maddison, Wayne P. (November 2015). "A phylogenetic classification of jumping spiders (Araneae: Salticidae)". Journal of Arachnology . 43 (3): 231– 292. doi : 10.1636/arac-43-03-231-292 . S2CID   85680279 . 
+ ↑ Sudhin, P.P.; Nafin, K.S. & Sudhikumar, A.V. (2017). "Revision of Hindumanes Logunov, 2004 (Araneae: Salticidae: Lyssomaninae), with description of a new species from the Western Ghats of Kerala, India" . Zootaxa . 4350 (2): 317– 330. doi : 10.11646/zootaxa.4350.2.7 . PMID   29245556 . Archived from the original on 24 March 2025 . Retrieved 29 July 2026 . 
+ ↑ Maddison, Wayne; et   al. (4 September 2017). "A genome-wide phylogeny of jumping spiders (Araneae, Salticidae), using anchored hybrid enrichment" . ZooKeys (695): 89– 101. Bibcode : 2017ZooK..695...89M . doi : 10.3897/zookeys.695.13852 . PMC   5673835 . PMID   29134008 . 
+ ↑ Wanless, F. R. (1975). "Spiders of the family Salticidae from the upper slopes of Everest and Makalu" (PDF) . Bulletin of the British Arachnological Society . 3 (5): 132– 136. Archived (PDF) from the original on 8 July 2023 . Retrieved 1 July 2026 . 
+ ↑ Whitman, D.W; Orsak, L; Greene, E. (1988). "Spider mimicry in fruit flies (Diptera: Tephritidae): Further experiments on the deterrence of jumping spiders (Araneae: Salticidae) by Zonosemata vittigera (Coquillett)". Annals of the Entomological Society of America . 81 (3): 532– 536. doi : 10.1093/aesa/81.3.532 . 
+ ↑ Rao, D.; Díaz-Fleischer, F. (2012). "Characterisation of Predator-Directed Displays in Tephritid Flies". Ethology . 118 (12): 1165– 1172. Bibcode : 2012Ethol.118.1165R . doi : 10.1111/eth.12021 . 
+ ↑ Zolnerowich, Gregory (1992). "A Unique Amycle Nymph (Homoptera: Fulgoridae) That Mimics Jumping Spiders (Araneae: Salticidae)". Journal of the New York Entomological Society . 100 (3): 498– 502. JSTOR   25009980 . 
+ ↑ Rota J, Wagner DL (2006). "Predator Mimicry: Metalmark Moths Mimic Their Jumping Spider Predators" . PLOS ONE . 1 (1) e45. Bibcode : 2006PLoSO...1...45R . doi : 10.1371/journal.pone.0000045 . PMC   1762363 . PMID   17183674 . 
+ ↑ Hill, David Edwin (7 October 2009). "Salticidae of the Antarctic land bridge" (PDF) . Peckhamia . Archived (PDF) from the original on 15 July 2011 . Retrieved 26 January 2010 . 
+ Further reading [ edit ] 
+ Forster, L.M. (1982). "Vision and prey-catching strategies in jumping spiders". American Scientist . 70 (2): 165– 175. Bibcode : 1982AmSci..70..165F . 
+ Jackson, R.R. (1982). "The behavior of communicating in jumping spiders (Salticidae)". In Witt, P.; Rovner, J. (eds.). Spider Communication Mechanisms and Ecological Significance . Princeton, NJ: Princeton University Press. pp.   213– 247. OCLC   951407473 . 
+ Elias, D.O.; Mason, A.C.; Maddison, W.P.; Hoy, R.R. (2003). "Seismic signals in a courting male jumping spider (Araneae: Salticidae)" . Journal of Experimental Biology . 206 (22): 4029– 4039. Bibcode : 2003JExpB.206.4029E . doi : 10.1242/jeb.00634 . PMID   14555743 . 
+ Lim, M.L.M.; Li, D. (2005). "Extreme ultraviolet sexual dimorphism in jumping spiders (Araneae: Salticidae)" . Biological Journal of the Linnean Society . 89 (3): 397– 406. doi : 10.1111/j.1095-8312.2006.00704.x . 
+ Maddison, Wayne P.; Beattie, Imara; Marathe, Kiran; Ng, Paul Y. C.; Kanesharatnam, Nilani; Benjamin, Suresh P.; Kunte, Krushnamegh (16 December 2020). "A phylogenetic and taxonomic review of baviine jumping spiders (Araneae, Salticidae, Baviini)" . ZooKeys (1004): 27– 97. Bibcode : 2020ZooK.1004...27M . doi : 10.3897/zookeys.1004.57526 . PMC   7758311 . PMID   33384565 . 
+ External links [ edit ] 
+ Citizen science observations for Jumping spider at iNaturalist 
+ Asian jumping spiders and photo references Archived 23 October 2020 at the Wayback Machine 
+ Comprehensive resource on the morphology and taxonomy of jumping spiders (Salticidae): www.jumping-spiders.com 
+ Global Species Database of Salticidae 
+ Video of a jumping spider's mating behavior 
+ High-Speed Photography of Jumping Spiders in Mid-air 
+ PBS Be Smart Video About Jumping Spider Vision 
+ Close-Up Video of Transparent Jumping Spider Captures Its Tube-Like Eyes Moving 
+ World Spider Catalog 
+ Jumping Spiders of NW-Europe 
+ Jumping spiders of Australia 
+ American Jumping Spiders – 100 Species Videos (includes introduction to salticids, predation, mating, and other behaviors) 
+ Movies of Habronattus courtship behavior 
+ The Australian Faunal Directory taxonomic classification of Australian salticids 
+ v t e Extant Araneae families 
+ Kingdom: Animalia 
+ Phylum: Arthropoda 
+ Subphylum: Chelicerata 
+ Class: Arachnida 
+ Suborder Mesothelae 
+ Liphistiidae (segmented spiders) 
+ Liphistius 
+ Heptathelinae 
+ Suborder Opisthothelae Mygalomorphae 
+ Actinopodidae (mouse spiders and relatives) 
+ Anamidae 
+ Antrodiaetidae (folding trapdoor spiders) 
+ Atracidae (Australian funnel-web spiders) 
+ Atypidae (atypical tarantulas or purseweb spiders) 
+ Barychelidae (brushed trapdoor spiders) 
+ Bemmeridae 
+ Ctenizidae (cork-lid trapdoor spiders) 
+ Cyrtaucheniidae (wafer trapdoor spiders) 
+ Dipluridae (funnel-web tarantulas) 
+ Entypesidae 
+ Euagridae 
+ Euctenizidae 
+ Halonoproctidae 
+ Hexathelidae (funnel-webs or venomous funnel-web tarantulas) 
+ Hexurellidae 
+ Idiopidae 
+ Ischnothelidae 
+ Macrothelidae 
+ Mecicobothriidae (dwarf tarantulas) 
+ Megahexuridae 
+ Microhexuridae 
+ Microstigmatidae 
+ Migidae (tree trapdoor spiders) 
+ Nemesiidae (funnel-web tarantulas) 
+ Paratropididae (bald-legged spiders) 
+ Porrhothelidae 
+ Pycnothelidae 
+ Rhytidicolidae 
+ Stasimopidae 
+ Theraphosidae (true tarantulas) 
+ Araneomorphae Non-entelegynes 
+ Archaeidae (pelican spiders) 
+ Archoleptonetidae 
+ Austrochilidae 
+ Caponiidae 
+ Diguetidae (coneweb spiders) 
+ Drymusidae (false violin spiders) 
+ Dysderidae (woodlouse hunters) 
+ Filistatidae (crevice weaver spiders) 
+ Gradungulidae (large-clawed spiders) 
+ Huttoniidae 
+ Hypochilidae (lampshade spiders) 
+ Leptonetidae 
+ Mecysmaucheniidae 
+ Ochyroceratidae (midget ground weavers) 
+ Oonopidae (goblin spiders) 
+ Orsolobidae 
+ Pacullidae 
+ Palpimanidae (palp-footed spiders) 
+ Periegopidae 
+ Pholcidae (cellar spiders) 
+ Plectreuridae 
+ Psilodercidae 
+ Scytodidae (spitting spiders) 
+ Segestriidae (tube-dwelling spiders) 
+ Sicariidae (violin spiders, assassin spiders) 
+ Stenochilidae 
+ Telemidae (long-legged cave spiders) 
+ Tetrablemmidae (armored spiders) 
+ Trogloraptoridae ( Trogloraptor marchingtoni ) 
+ Entelegynae 
+ Agelenidae (araneomorph funnel weavers) 
+ Amaurobiidae (tangled nest spiders) 
+ Anapidae 
+ Ancylometidae 
+ Anyphaenidae (anyphaenid sac spiders) 
+ Araneidae (orb-weaver spiders) 
+ Arkyidae 
+ Cheiracanthiidae 
+ Cicurinidae 
+ Cithaeronidae 
+ Clubionidae (sac spiders) 
+ Corinnidae (dark sac spiders) 
+ Ctenidae (wandering spiders or tropical wolf spiders) 
+ Cyatholipidae 
+ Cybaeidae 
+ Cycloctenidae 
+ Deinopidae (net-casting spiders) 
+ Desidae (intertidal spiders) 
+ Dictynidae 
+ Dolomedidae 
+ Eresidae (velvet spiders) 
+ Fonteferreidae 
+ Gallieniellidae 
+ Gnaphosidae (flat-bellied ground spiders) 
+ Hahniidae (dwarf sheet spiders) 
+ Hersiliidae (tree trunk spiders) 
+ Homalonychidae 
+ Lamponidae (white-tailed spiders) 
+ Linyphiidae (sheet weavers or money spiders) 
+ Liocranidae (liocranid sac spiders) 
+ Lycosidae (wolf spiders) 
+ Macrobunidae 
+ Malkaridae (shield spiders) 
+ Megadictynidae 
+ Mimetidae (pirate spiders) 
+ Miturgidae 
+ Myrmecicultoridae 
+ Mysmenidae (spurred orb-weavers) 
+ Nesticidae (cave cobweb spiders) 
+ Nicodamidae (red and black spiders) 
+ Oecobiidae (disc web spiders) 
+ Oxyopidae (lynx spiders) 
+ Penestomidae 
+ Philodromidae (running crab spiders) 
+ Phrurolithidae 
+ Physoglenidae 
+ Phyxelididae 
+ Pimoidae 
+ Pisauridae (nursery web spiders) (including Halidae ) 
+ Prodidomidae 
+ Psechridae 
+ Salticidae (jumping spiders) 
+ Selenopidae 
+ Senoculidae (bark hunters) 
+ Sparassidae (huntsman spiders) 
+ Stiphidiidae 
+ Symphytognathidae (dwarf orb-weavers) 
+ Synaphridae 
+ Synotaxidae 
+ Tetragnathidae (long jawed orb-weavers) 
+ Theridiidae (tangle-web spiders) 
+ Theridiosomatidae (ray spiders) 
+ Thomisidae (crab spiders) 
+ Titanoecidae 
+ Toxopidae 
+ Trachelidae 
+ Trachycosmidae 
+ Trechaleidae 
+ Trochanteriidae 
+ Udubidae 
+ Uloboridae (cribellate orb weavers) 
+ Viridasiidae 
+ Xenoctenidae 
+ Zodariidae (ant spiders) 
+ Zoropsidae 
+ Spider taxonomy 
+ Bold are families with more than 1000 species 
+ Taxon identifiers Salticidae 
+ Wikidata : Q11687 
+ Wikispecies : Salticidae 
+ ADW : Salticidae 
+ AFD : Salticidae 
+ BioLib: 879 
+ BOLD : 1273 
+ BugGuide : 1962 
+ CoL : FWW 
+ EoL : 186 
+ EPPO : 1SALTF 
+ Fauna Europaea : 10696 
+ Fauna Europaea (new) : a2316293-6ae1-4cdf-90c1-311d629b39c1 
+ GBIF (old): 5644 
+ iNaturalist : 48139 
+ IRMNG : 101163 
+ ITIS : 871537 
+ NBN : NBNSYS0000160924 
+ NCBI : 94017 
+ NZOR: 97932e2b-39a9-4019-a58a-a89615154ac7 
+ Open Tree of Life : 466751 
+ Paleobiology Database : 57494 
+ Plazi : 38D7F355-1FFF-C957-A1E0-A3AD7E98C2F1 
+ WoRMS : 150472 
+ WSC : urn:lsid:nmbe.ch:spiderfam:0101 
+ Authority control databases National skákavkovití</span>"}]]}'> Czech Republic Israel Other Yale LUX 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Jumping_spider&oldid=1387957036 " 
+ Categories : Jumping spiders Extant Eocene first appearances Araneomorphae families Hidden categories: Articles with short description Short description matches Wikidata Use dmy dates from November 2026 Articles using diversity taxobox Articles with 'species' microformats All articles with unsourced statements Articles with unsourced statements from June 2025 CS1: long volume value Webarchive template wayback links Taxonbars with 20–24 taxon IDs 
+ This page was last edited on 26 November 2026, at 04:27  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Jumping spider 
+ 47 languages 
+ Add topic 
+ 

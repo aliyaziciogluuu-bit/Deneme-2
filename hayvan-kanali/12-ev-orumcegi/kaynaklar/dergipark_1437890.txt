@@ -1,0 +1,322 @@
+Corresponding Author: Fikret Bildik e-mail: fbildik@gazi.edu.tr
+Received: 08.12.2020 • Accepted: 13.01.2021
+DOI: 10.33706/jemcr.837733
+©Copyright 2020 by Emergency Physicians Association of Turkey - Available online at www.jemcr.com
+Abstract
+Introduction: Black widow spider bites cause severe poisoning (latrodectism) with symptoms such as muscle spasm, rigidity, pain, vomiting, hypertension,
+and tachycardia. Although Latrodectus mactans (L. mactans) is the most well-known species to cause latrodectism, it has not been reported in Turkey.
+We report a poisoning case caused by Latrodectus tredecimguttatus (L. tredecimguttatus) spider a species known to be in Turkey for the first time in the
+literature.
+Case: A 35-year-old male patient presented with complaints of pain in the lower extremities and excessive sweating due to a spider bite. Discomfort, agi-
+tation, a sweaty appearance, tachycardia, and hypertensive attack were observed in the patient. Because black widow antivenom is not available in Turkey
+and because of the continuation of symptoms despite treatment for 12 hours in the emergency department, the patient was transferred to the intensive
+care unit, where he was given IV sedoanalgesia. Nicardipine infusion was administered to treat hypertension attack. The patient’s symptoms improved on
+the fifth day. The dead spider that was brought in was identified by an expert biologist as L. tredecimguttatus.
+Conclusion: It should be considered that latrodectism due to L. tredecimguttatus spider bite may be resistant to emergent treatment and hospitalization
+may be required.
+Keywords: black widow; Latrodectus tredecimguttatus; poisoning
+Fikret Bildik1
+, Burhan Çomruk1
+, Başak Yüksek1
+, Mehmet Ali Aslaner1
+, Tuncay Türkeş2
+1
+Department of Emergency, Gazi University School of Medicine, Ankara, Turkey
+2
+Department of Biology, Ömer Halisdemir University, Niğde, Turkey
+Mediterranean Black Widow Spider
+(Latrodectus Tredecimguttatus) Poisoning
+in a Metropolitan City in Turkey
+Case Report
+Journal of Emergency
+Medicine Case Reports
+Introduction
+Latrodectism is a syndrome characterized by vomiting,
+tachycardia, and hypertension in addition to severe spasm,
+rigidity, and pain in the muscles, and it is caused by al-
+pha-latrotoxin, which is found in the venom of black widow
+spiders (Latrodectus spp.) 1, 2
+. Although L. mactans is the
+most well-known species to cause latrodectism, it has not
+been reported in Turkey 3
+. In addition, other Latrodectus
+species distinction has not been made in previously pub-
+lished poisoning cases 4, 5
+. This paper presents a poisoning
+case caused by the Mediterranean black widow L. tredec-
+imguttatus spider that occurred in a metropolitan city, the
+capital of Turkey.
+Case
+A 35-year-old male shepherd who was otherwise healthy
+woke up in a field in Ankara, the capital of Turkey, with
+left chest pain and saw a black insect and killed it. Shortly
+after, he went to the hospital with severe pain at the bite site
+and in all of his joints, and the following medications were
+administered: methyl prednisolone, pheniramine maleate, a
+nonsteroidal anti-inflammatory drug (NSAID), ketamine,
+and tetanus vaccine. However, as the patient’s complaints
+persisted, he was referred to our tertiary care hospital.
+The patient was observed to be sweaty, restless, and agi-
+tated on admission, and he had severe pain, especially in the
+lower extremities and at the bite site. His vital signs were
+BP: 153/122 mmHg, P: 120/min, F: 36.7 °C, RR: 20/min,
+and SaO2
+: 96%. A hyperemic area of approximately 2×2 cm
+was found on the left anterior aspect of the patient’s chest
+(Fig 1). The results of other physical examinations were con-
+sidered normal. The results of his blood tests were Hb: 11.7
+g/dl, Wbc: 17.460/mm3
+, and platelets: 446.000/mm3
+. The re-
+sults of venous blood gas analysis, liver function tests, kid-
+ney function tests, coagulation tests, troponin measurement,
+and complete urine analysis were all within normal limits.
+His total creatine phosphokinase (CK) was measured as 282
+U/L, and his ECG revealed sinus tachycardia.
+During the patient’s 12 hour stay in the emergency de-
+partment, H1 and H2 receptor antagonists (pheniramine
+Bildik
+Mediterranean Black Widow Spider (Latrodectus Tredecimguttatus)
+Poisoning in a Metropolitan City in Turkey
+Journal of Emergency Medicine Case Reports 2021; 12(2):48-51
+DOI: 10.33706/jemcr.837733
+49
+maleate, 45.5 mg, and ranitidine 50, mg, intravenous (IV)),
+methyl prednisolone (40 mg, IV), diclofenac Na (75 mg,
+intramuscular (IM)), tenoxicam (20 mg, IV), fentanyl (100
+µg, IV), paracetamol (1 g, IV), thiocolchicoside (4 mg, IM),
+and diazepam (10 mg, IV) were administered, but the pain,
+sweating, and restlessness could not be controlled. Fortu-
+nately, the patient brought in the dead spider that bit him,
+and because the clinical findings were compatible with poi-
+soning, it was thought that his condition may be black wid-
+ow poisoning, which is very rare in Turkey and the region.
+However, the spider’s species distinction was not clearly
+made at that time. Because black widow antivenom is not
+available in Turkey and because his symptoms continued,
+the patient was transferred to the intensive care unit.
+On the second day, CK increased to 2749 U/L, AST to 75
+U/L, and ALT to 52 U/L. Sedoanalgesia (fentanyl, midazol-
+am, dexmedetomidine) and non-steroidal anti-Inflammatory
+drugs were administered to the patient for pain control for 5
+days. IV metoprolol and a glyceryl trinitrate infusion were
+administered for blood pressure control, and when no re-
+sponse was obtained, a nicardipine infusion was started. The
+patient was discharged from the hospital on the eighth day.
+During this time, the dead spider that the patient brought with
+him was examined by a biologist, who is an expert on spi-
+ders, and it was determined to be L. tredecimguttatus (Fig 2).
+Discussion
+The Latrodectus spiders are called Black Widows because of
+their powerful venom, and they are found in different parts of
+the world. The best known and most dangerous is L. mactans,
+which is found in North America 3
+. L. tredecimguttatus lives
+in regions extending from Central Europe to Central Asia,
+the Caucasus, North Africa, and Saudi Arabia 6
+. It lives in the
+Marmara, Mediterranean, and Central, Eastern, and South-
+eastern Anatolia regions in Turkey 7
+. Although it is common
+in all Mediterranean regions, the incidence of L. tredecim-
+guttatus poisoning is very low 6
+. It primarily lives in steppes
+and grasslands and can be a major problem in areas where
+grain is harvested by hand. These spiders bite if disturbed,
+and the female, which is 7–15 mm in size, is responsible for
+poisoning. Some have red spots on the dorsal surface of the
+abdomen, and some may be completely black6
+.
+The venom released in bites by Latrodectus spiders
+contains the neurotoxin α-latrotoxin (α-LTX), which has
+neurological and autonomic effects in humans. This venom
+stimulates the release of neurotransmitters, such as acetyl-
+choline, catecholamines, and glutamate, in humans 1, 2
+. Mus-
+cle spasms and head, back, lower extremity, and abdominal
+pain develop because of the increase in acetylcholine. Pain
+is an almost universal feature of latrodectism. In more than
+half of cases, pain increases within the first hour and often
+spreads to the extremities or may result in abdominal pain
+mimicking acute abdomen. Pain is typically severe and dif-
+ficult to treat, lasting from hours to days 2, 6, 8
+.
+Systemic effects are present in 20–30% of cases and se-
+vere sweating in approximately 70%. Other symptoms such
+as restlessness, nausea and vomiting, high fever, increased
+secretions, tremor, increased reflexes, paresthesia, priapism,
+and ptosis may also develop in patients 6, 8-10
+. Hypertension
+develops in less than 10% of cases 6
+. In Turkey, a few cases
+of acute myocardial injury and severe hypertension resis-
+tant to antihypertensive therapy have been reported 9, 11, 12
+.
+In a study published by Isbister and Fan in 2011, local pain
+was reported in 90% of 56 L. tredecimguttatus bite cases and
+sweating in 55%, while hypertension, agitation, and pain
+spreading to the extremities were not observed 2
+. In the L.
+tredecimguttatus bite case presented here, the patient expe-
+rienced pain that spread to the extremities, agitation, severe
+sweating, and treatment-resistant hypertension.
+50 Journal of Emergency Medicine Case Reports 2021; 12(2):48-51
+DOI: 10.33706/jemcr.837733
+Bildik
+Mediterranean Black Widow Spider (Latrodectus Tredecimguttatus)
+Poisoning in a Metropolitan City in Turkey
+The diagnosis of latrodectism is based on a history of a
+spider bite and consistent clinical findings in patients. There
+is no analytical method for detecting the neurotoxin α-latro-
+toxin in blood, urine, or the bite site 2
+. Tests that can aid in
+monitoring and treatment include complete blood cell count,
+electrolytes, CK, and urinalysis. Leukocytosis, albuminuria,
+and increased CK are common laboratory findings 8, 10
+. Ob-
+taining an ECG and cardiac enzymes are recommended,
+especially in L. tredecimguttatus bites 2
+. In our case, there
+were no ECG findings except tachycardia. Troponin at fol-
+low-up remained within normal limits.
+Between 1982 and 1990, 163 cases of black widow spi-
+der envenomation in the USA were reviewed and catego-
+rized according to severity as grade 1, 2, or 3 13
+. Patients
+(grade 1) who were asymptomatic, except for local pain at
+the bite site, accounted for 9% of all cases. Patients (grade 2)
+with muscle pain in the bitten extremity, muscle pain spread-
+ing to the abdomen if bitten on a lower extremity, muscle
+pain spreading to the chest if bitten on an upper extremity,
+local sweating at the bite site or extremity, and stable vital
+signs constituted 37% of all patients. Widespread muscle
+pain in the back, abdomen, and chest; sweating outside the
+bitten area; and abnormal vital signs such as hypertension,
+tachycardia, nausea, vomiting, and headache were present in
+54% of all patients (grade 3). The most common laboratory
+findings were increases in white blood cell count, CK levels,
+and lactic dehydrogenase levels 13
+. Our case was determined
+to be grade 3 in severity, and leukocytosis and an increase in
+CK levels were observed.
+The goal for the treatment of latrodectism is pain con-
+trol. However, pain control can be difficult, often requiring
+large doses of pain medication and/or hospitalization. Al-
+though there is no evidence that analgesics are effective,
+muscle relaxants and non-opioid and opioid analgesics are
+well tolerated and considered suitable for the symptomatic
+relief of pain 2
+. The dose administered is similar to that for
+other acute painful disorders and should initially consist of
+a combination of non-opioid and opioid oral analgesia. Per-
+sistent pain should then be treated with parenteral opioids,
+such as intravenous morphine. In patients with latrodectism,
+benzodiazepines can be used to treat restlessness, muscle
+spasm, and increased adrenergic activity, such as hyperten-
+sion, tachycardia, and sweating 2, 8
+. Although some previous
+studies have indicated that the IV use of 10% Ca gluconate
+will produce immediate and long-term relief of muscle pain
+by lowering the depolarization threshold at the neuromus-
+cular junction, there is little information on the effects of
+calcium and magnesium, and therefore, they are currently
+not recommended 1, 2, 8
+. In our case, pain and sweating that
+were resistant to various analgesic and sedative drugs were
+observed for about 5 days.
+Developed hypertension will usually respond to treat-
+ment with antivenom, but patients with underlying medical
+problems and severe hypertension may require additional
+antihypertensive therapy. Hospitalization may be required
+in cases where antivenom is not available or in hypertensive
+situations that are not suitable for antivenom and/or do not
+respond to treatment 13
+. One case study reported that periph-
+eral vasodilators and beta-blockers were not effective in the
+treatment of a pediatric patient with severe hypertension, but
+blood pressure returned to normal after the venom wore off
+9
+. In our case, who had no previously known hypertension
+diagnosis, there was no response to IV nitroglycerin and a
+beta blocker, IV nicardipine treatment was administered,
+and blood pressure was brought under control after a few
+days.
+To date, a number of antivenoms have been developed
+against specific Latrodectus spp. in various parts of the
+world, including Australia and America. Among these, L.
+mactans antivenom (Antivenom L. mactans, Merck Sharp
+& Dohme®) and Latrodectus spp. antivenom (Aracmyn
+Plus, Instituto Bioclon®) are not available in Europe. Al-
+though the use of antivenom is controversial, one +study has
+claimed that it provides rapid pain relief and reduces hospi-
+talization or re-admissions to the emergency department 14
+.
+However, these previous studies were on L. mactans spe-
+cies.Although no scientific report has described the use of L.
+mactans antivenom to treat L. tredecimguttatus poisoning,
+this antivenom was reported to be effective in one case in
+Italy 15
+. However, it should be taken into account that an-
+tivenoms have serious side effects. In our case, antivenom
+was not used because it was not available in Turkey.
+Conclusion
+It should be kept in mind that a patient who comes to the
+emergency department in Mediterranean region with com-
+plaints of muscle, joint, and abdominal pain resistant to
+treatment as well as hypertension, tachycardia, and sweating
+as a result of an insect bite may have latrodectism syndrome
+caused by the bite of the Mediterranean black widow spider
+(L. tredecimguttatus), and hospitalization may be required.
+References
+1. Timms PK, Gibbons RB. Latrodectism--effects of the black
+widow spider bite. The Western journal of medicine.
+1986;144(3):315-7.
+2. Isbister GK, Fan HW. Spider bite. The Lancet.
+2011;378(9808):2039-47.
+3. Bayram A, Yiğit N, Danışman T, Çorak İ, Sancak Z, Ulaşoğlu D.
+Venomous Spiders of Turkey (Araneae). Journal of Applied
+Biological Sciences. 2007;1(3):33-6.
+4. Cesaretli Y, Ozkan O. A clinical and epidemiological study on
+spider bites in Turkey. Asian Pacific journal of tropical medi-
+cine. 2011;4(2):159-62.
+Bildik
+Mediterranean Black Widow Spider (Latrodectus Tredecimguttatus)
+Poisoning in a Metropolitan City in Turkey
+Journal of Emergency Medicine Case Reports 2021; 12(2):48-51
+DOI: 10.33706/jemcr.837733
+51
+5. Akyildiz B, Kurtoğlu S, Poyrazoğlu H, Ozcan A. Spider poison-
+ing: a report of six cases from the Central Anatolian region,
+Turkey. The Turkish journal of pediatrics. 2009;51(6):598-604.
+6. Latrodectus tredecimguttatus (Rossi, 1790) 2020 [Available
+from: https://araneae.nmbe.ch/data/2138.
+7. Topçu A. A checklist of the spiders of Turkey. Serket.
+2005;9(4):109-40.
+8. Camp NE. Black widow spider envenomation. Journal of
+emergency nursing. 2014;40(2):193-4.
+9. Saka M, Tekgüç H, Topçu A, Dursun O. Karadul Türü Örümcek
+Isırması Sonrası Ciddi Hipertansiyon. J Pediatr Emerg Inten-
+sive Care Med. 2015;2(2):95-8.
+10. Antoniou G, Iliopoulos D, Kalkouni R, Iliopoulou S, Rigakos
+G, Baka A. Latrodectus Envenomation in Greece. The Perma-
+nente journal. 2014;18(4):e155-8.
+11. Sari I, Zengin S, Davutoglu V, Yildirim C, Gunay N. Myocarditis
+after black widow spider envenomation. The American jour-
+nal of emergency medicine. 2008;26(5):630.e1-3.
+12. YamanM,MeteT,OzerI,YamanE,BetonO.ReversibleMyocar-
+ditis and Pericarditis after Black Widow Spider Bite or Kounis
+Syndrome? Case Reports in Cardiology. 2015;2015:768089.
+13. Clark RF, Wethern-Kestner S, Vance MV, Gerkin R. Clinical pre-
+sentation and treatment of black widow spider envenom-
+ation: a review of 163 cases. Annals of emergency medicine.
+1992;21(7):782-7.
+14. Offerman SR, Daubert GP, Clark RF. The treatment of black
+widow spider envenomation with antivenin latrodectus mac-
+tans: a case series.The Permanente journal. 2011;15(3):76-81.
+15. Di Paola G, Cirronis M, Scaravaggi G, Castorani L, Petrolini
+VM, Locatelli CA. Latrodectism in Italy: First report of suc-
+cessful treatment of L. tredecimguttatus envenomation
+using L. mactans antivenom from North America. Toxicon:
+official journal of the International Society on Toxinology.
+2020;179:107-10.
+
