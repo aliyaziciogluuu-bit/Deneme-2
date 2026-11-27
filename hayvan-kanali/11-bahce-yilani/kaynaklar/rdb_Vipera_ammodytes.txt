@@ -1,0 +1,234 @@
+ 
+ Vipera ammodytes | The Reptile Database 
+ Go to: main text of page | main navigation | local menu 
+ Reptarium 
+ The Reptile Database 
+ You are here » 
+ home › 
+ advanced search › 
+ Vipera ammodytes 
+ Vipera ammodytes (LINNAEUS, 1758) 
+ Can you confirm these amateur observations of Vipera ammodytes ? 
+ Add your own observation of Vipera ammodytes » 
+ Find more photos by Google images search: 
+ Higher Taxa Viperidae, Viperinae, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) 
+ Subspecies Vipera ammodytes ammodytes LINNAEUS 1758 Vipera ammodytes illyrica LAURENTI 1768  
+ Common Names E: Nose-horned Viper, Sand Viper G: Europäische Hornotter, Europäische Sandotter Croatian: poskok Italian: vipera dal corno  
+ Synonym Coluber Ammodytes LINNAEUS 1758: 216 Vipera ammodytes — DUMÉRIL & BIBRON 1854: 1414 Vipera ammodytes — MCDIARMID, CAMPBELL & TOURÉ 1999: 390 Vipera (Vipera) ammodytes — VENCHI & SINDACO 2006 Vipera ammodytes — WALLACH et al. 2014: 772 Vipera ammodytes illyrica LAURENTI 1768 Vipera Illyrica LAURENTI 1768 Vipera Illyrica var. fusca LAURENTI 1768 Vipera Illyrica var. pallido-caerulescens LAURENTI 1768 Vipera aspis balcanica BURESCH & ZONKOV 1934 Vipera ammodytes ruffoi BRUNO 1968 Vipera ammodytes gregorwallneri SOCHUREK 1974 Vipera (Rhinaspis) ammodytes ruffoi — OBST 1983 Vipera (Rhinaspis) ammodytes ammodytes — OBST 1983 Vipera (Rhinaspis) ammodytes gregorwallneri — OBST 1984 Vipera ammodytes gregorwallneri — ENGELMANN et al 1993 Vipera ammodytes ruffoi — ENGELMANN et al 1993 Vipera ammodytes ammodytes — ENGELMANN et al 1993 Vipera aspis balcanica — WELCH 1994: 119 Vipera ammodytes ammodytes — WELCH 1994: 119 Vipera ammodytes ammodytes — SCHWEIGER 2009 Vipera ammodytes illyrica — KRECSÁK et al. 2025  
+ Distribution Austria (Kärnten, Südsteiermark), N Italy, Croatia (including some adriatic islands), Slovenia, Bosnia and Hercegovina, Montenegro, Macedonia, Serbia, Romania, Bulgaria, Albania, Greece (incl. Paros, Antiparos, Strongylo, Andros), Republic of Georgia, Azerbaijan ammodytes: Italy, Austria, Slovenia, Croatia, Bosnia-Herzegovina, Serbia, Montenegro, Albania, Macedonia, Bulgaria, Romania; Type locality: “Oriente”, restricted to near Castello Nuovo di Duino (Trieste, Venezia Giulia NW), NE Italy by Bruno 1968, then corrected to Belgrad Forest (Belgrad Ormaný), Belgrad village, Istanbul Metropolitan Municipality, Turkey by Krecsák et al. 2024. balcanica (invalid): SE Bosnia, S Bulgaria buchholzi: Greece (Paros, Antiparos); Type locality: “isola egea di Antiparos, località Panagia, 8 m s.l.m. 37°01’32’’N, 25°04’34’’E, Cicladi centrali, Grecia” illyrica: montandoni: Turkey, E Bulgaria, Romania, Macedonia, Albania, Greece (fide Cattaneo 2021); Type locality: “Greci, Distretto di Macin, Dobrudscha, Romania” (fide Cattaneo 2021, restricted by MERTENS & MÜLLER, 1928).
+ Reproduction ovoviviparous  
+ Types Holotype: UUZM (= ZMUU = UPSZTY) 95. Holotype: ZFMK; Paratypes: (n=31) MCZRVR VA/AP10/4 C.C. (allotype), female, same information as holotype except date (May 11, 1982); 4 males from Paros, MCZRVR VA/PR13/1-4 C.C., A. Vesci and A. Cattaneo, May 1991; 15 males and 11 females, from Antiparos, MCZRVR VA/AP10/2, 3, 5-28 C.C., A. Vesci et A. Cattaneo , May 1982. MCZR (= Museo Civico di Zoologia, Roma); MCZRVR Reference Number: VA/AP10/1 C.C; Collected by: A. Vesci; Collection Date: (leg.) May 8, 1982[buchholzi] Neotype: NHMW 25274:6 [illyrica] Syntypes: BMNH 1901.11.26.11; BMNH 1901.11.26.12; BMNH 1903.6.29.6-8; and BMNH 1904.7.25.28-29 (7) [montandoni]  
+ Diagnosis Unfortunately we had to temporarily remove additional information as this was scraped by multiple AI companies who sell that data. These details, e.g. detailed descriptions are available for collaborators and contributors. We will relaease that material sometime next year. Please contact us if you need any of this data earlier than that.  
+ Comment Venomous! Synonymy: Vipera ammodytes transcaucasiana is considered as a valid species by several authors (like JOGER, pers. comm., Nilson et al. 1999), but not by others (e.g. BARAN 1998, DAVID et al. 1999, GÖÇMEN et al. 2014, WALLACH et al. 2014: 786). V. pontica is a hybrid between sympatric V. kaznakovi and V. transcaucasiana (see V. kaznakovi). We follow recent authors in considering it as a subspecies of ammodytes. Krecsák et al 2024 synonymized V. a. montandoni with ammodytes, but Krecsák et al 2025 redefined ammodytes s. str. to contain what used to be montandoni but NOT the western populations which are now V. a. illyrica. Dufresnes et al. 2024 have revalidated meridionalis as valid species and their phylogenetic analysis suggested that transcaucasiana may be a synonym. But they did not explicitly synonymize the two, so we keep transcaucasiana as a subspecies for now. Subspecies: Vipera ammodytes transcaucasiana is considered as species by several authors (like JOGER in prep., Nilson et al. in press), but not by others (e.g. BARAN 1998; U. Joger, pers. comm.). It is included here as valid species. Most authors don’t seem to recognize V. a. gregorwallneri and synonymize it with V. a. ammodytes (e.g. GOLAY et al. 1993). URSENBACHER et al. (2008) synonymized gregorwallneri and ruffoi with ammodytes. The validity of V. a. montandoni was questioned recently based of on morphological characters (Christov & Beshkov 1999, Tomović & Džukić 2003). Garrigues et al. (2005) found that V. a. montandoni is phylogenetically closely related to V. a. meridionalis, thus these authors proposed to regard the former as a synonym of V. a. meridionalis. Tomović (2006) reconfirm the validity of V. a. montandoni, based on morphometric analysis of five mersitic and qualitative characters on 922 specimens. However, KRECSÁK et al. 2024 synonymize montandoni again with ammodytes, that the type of ammodytes is actually not ammodytes and that illyrica has priority over ammodytes which needs to be renamed if not protected. Type genus: Rhinaspis is the type genus of the subfamily Rhinaspinae REUSS 1933. Type locality: Mertens & Müller (1928) proposed the restriction of the type locality of Vipera ammodytes ammodytes (Linné) to Illyria. Schwarz (1936) proposed to restrict the type locality to Zara (Zadar; Croatia) without clarification or explanation. Later, the restricted type locality, Zadar, was followed by Mertens & Müller (1940), Mertens & Wermuth (1960), Saint Girons (1978), McDiarmid et al. (1999), and others. Bruno (1968) restricted the type locality to near Castello Nuovo di Duino (Trieste, Venezia Giulia NW), NE Italy, noting the holotype as male uv., 95 SCL-ZMUU. Krecsák et al 2024 believe that the type is from the surroundings of Belgrad village Distribution data still reflecting inclusion of V. transcaucasiana. V. a. ammodytes hybridized with V. aspis atra in captivity (FAORO 1986), with V. aspis zinnikeri (OBERMAYER 1967), and with V. aspis aspis (SCHWEIZER 1941). Has been erroneously reported from S Czechoslovakia (but doesn’t occur there fide Hegner, pers. comm.). Reports from Hungary may be based on historical reports when parts of Romania belonged to Hungary (and may therefore represent records from Romania). Not in Armenia fide Jeff Ettling (pers. comm., 2 April 2015). For a map see Sindaco et al. 2013. Welch 1994 listed meridionalis from Albania, Greece, S Serbia, Romania, S Bulgaria, and European Turkey. Not in the Middle East fide IUCN assessment. For a map of subspecies see Hempel et al. 2018 (Fig. 1) but in that map montandoni needs to be replaced by ammodytes and ammodytes should be replaced by illyrica, fide KRECSÁK et al. 2024, 2025 Genome: Laustsen et al. 2025. NCBI taxonID: 235552 [transcaucasiana] RDB speciesID: 20001 [transcaucasiana]  
+ Etymology From Greek ammodutēs = sand-dweller (Bodson 2014), from ammos = “sand”, and dutes = “burrower” or “diver”. However, the name Sand Viper seems somewhat inapproriate as the species rarely occurs in truly sandy habitats. V. a. buchholzi was named after Karl F. Buchholz for being the first to report the presence of Vipera ammodytes on the island of Antiparos and for his important contribution to the knowledge of Reptiles of the Aegean Islands. V. a. montandoni was named after the collector of the type, M.A. Montandon.  
+ References 
+ Ajtić, Rastko D., Sonja Z. Nikolić, Aleksandar B. Simović, and Glorija Ž. Ćirković. 2024. THE PRESENCE OF AMPHIBIANS AND REPTILES IN THE GOLIJA MOUNTAIN COMPARED WITH FAUNA OF OTHER AREAS. Kragujevac J. Sci. 46: 000-008 - get paper here 
+ AKKAYA, A. & UǦURTAS, İ. H. 2011. Rediscovery of Vipera ammodytes (LINNAEUS, 1758) at Uludaǧ-Bursa, Turkey, after 62 years [Short Note]. Herpetozoa 24: - get paper here 
+ Andonov, K., Dyugmedzhiev, A., Naumov, B., Todorov, N., & Vergilov, V. 2025. A comparative analysis of female genitalia of seven Old World snakes using a recently proposed technique. Acta Herpetologica - get paper here 
+ ANĐELKOVIĆ, MARKO; SONJA NIKOLIĆ & LJILJANA TOMOVIĆ. 2021. Reproductive characteristics, diet composition and fat reserves of nose-horned vipers (Vipera ammodytes). Herpetological Journal 31(3): 151–161. - get paper here 
+ Arakelyan, Marine S.; Felix D. Danielyan, Claudia Corti, Roberto Sindaco, and Alan E. Leviton 2011. The Herpetofauna of Armenia and Nagorno-Karabakh. SSAR, Salt Lake City, 154 pp. [ISBN: 978-0-916984-84-7.] 
+ Barnett, Brian F. 1991. Breeding results: Vipera ammodytes ammodytes - Sandviper. Litteratura Serpentium 11 (6): 144 - get paper here 
+ BAYCAN, BENGI; BEGÜM BORAN, ÇIĞDEM GÜL & MURAT TOSUNOĞLU. 2022. Clinical Hematology of the Nose-Horned Viper, Vipera ammodytes (Linnaeus 1758). Reptiles & Amphibians 29(1): 461–469. - get paper here 
+ Beshkov, V & Nanev, K 2006. The Amphibians and Reptiles in Bulgaria. Pensoft Series Faunistica 46, 120 pp. 
+ Billing H; Nilson G; Sattler U 1990. Vipera pontica sp. n., a new viper species in the kaznakovi group (Reptilia, Viperidae) from northeastern Turkey and adjacent Transcaucasia. Zoologica Scripta 19 (2): 227-231 - get paper here 
+ BODSON, Liliane 2009. L’interprétation des noms grecs et latins d’animaux illustrée par le cas du zoonyme seps-seps. Académie Royale de Belgique, Bruxelles, 368 pp. 
+ Bodson, Liliane 2014. ZOOLOGICAL KNOWLEDGE IN ANCIENT GREECE AND ROME, in: CAMPBELL G.L. (ed.), The Oxford Handbook of Animals in Classical Thought and Life. Oxford, Oxford University Press, 2014, 556-578 - get paper here 
+ Boettger, O. [as O. Böttger] 1880. Die Reptilien und Amphibien von Syrien, Palaestina und Cypern. Ber. Senckenb. Naturforsch. Ges., Frankfurt/M., 1879-1880: 132-219 - get paper here 
+ Bohlmann, H.; Falkenberg, E.; Knüppel, U. & König, R. 1981. Herpetologische Notizen von der Kykladeninsel Tinos (Griechenland). Herpetofauna 3 (14): 8-13 - get paper here 
+ Böhme, Wolfgang 2024. Schuppenlose Sandvipern, Vipera ammodytes (Linnaeus, 1758) als innerartliches Kreuzungsprodukt? Sauria 46 (1): 47 
+ Boulenger, G. A. 1904. On the sand viper of Roumania (Vipera ammodytes, var. Montandoni). Ann. Mag. Nat. Hist. (7) 14: 134-135 - get paper here 
+ Boulenger, G. A. 1913. On the geographical races of Vipera ammodytes. Ann. Mag. Nat. Hist. (8) 11: 283-287 - get paper here 
+ Boulenger, G. A. 1913. The snakes of Europe. Methusen & Co. Ltd, London, 151 pp. 
+ Boulenger, George A. 1903. On the Geographical Variations of the Sand-Viper, Vipera ammodytes. Proceedings of the Zoological Society of London 1903: 185-186 - get paper here 
+ Bringsøe, Henrik 2019. Vipera ammodytes, “Sand Viper” – origin of its name, and a sand habitat in Greece. Podarcis 10 (2): 23-34 - get paper here 
+ Broggi MF 2024. Update on the herpetofauna of Syros (Cyclades, Greece) and current land-use and climate change threats. Herpetozoa 37: 339-346 - get paper here 
+ Broggi, Mario F. 1996. Die Feuchtgebiete der Insel Andros mit ihren Amphibien und hydrophilen Reptilien (Amphibia, Reptilia; Kykladen, Griechenland). Herpetozoa 8 (3/4): 135-144 - get paper here 
+ Bruno,S. 1968. Sulla Vipera ammodytes (Linnaeus, 1758) in Italia. Mem. Mus. Civ. Stor. nat. 15:289-336. 
+ Buresch,I. & J. Zonkov. 1934. Untersuchungen über die Verbreitung der Reptilien und Amphibien in Bulgarien und auf der Balkanhalbinsel 2. Bull. Inst. Hist. Nat. Sofia 7: 106-188. [V. aspis balcanica] 
+ Buseke, D. 1982. Die Schlangen der Südbulgarischen Schwarzmeerküste. Sauria 4 (2): 5-9 - get paper here 
+ Cabela, A., & Tiedemann, F. 1985. Atlas der Amphibien und Reptilien Osterreichs. Naturhist. Mus. in Wien, Neue Denkschriften Band 4 80 pp. 
+ ÇAKMAK, Mücahit; Bahadır AKMAN and Mehmet Zülfü YILDIZ 2018. HERPETOFAUNA OF BARTIN PROVINCE (NORTHWEST BLACKSEA REGION, TURKEY). South Western Journal of Horticulture, Biology and Environment P-Issn: 2067- 9874, E-Issn: 2068-7958<br />Vol.8, No.2, 2017 pp.89-102 - get paper here 
+ Carpenter, Charles C. 1977. Communication and Displays of Snakes. American Zoologist 17: 217-223 - get paper here 
+ Cattaneo, Augusto 2021. VARIABILITÀ DI VIPERA AMMODYTES (LINNAEUS, 1758) (Reptilia Viperidae) IN ALCUNE ISOLE EGEE, CON DESCRIZIONE DI VIPERA AMMODYTES BUCHHOLZI SUBSP. NOVA. Naturalista sicil., S. IV, XLV (1-2): 119-15 - get paper here 
+ Clark, R. J. 1968. Außergewöhnliche Färbung und Zeichnung bei Vipera ammodytes meridionalis von griechischen Inseln. Salamandra 4 (2-3): 69-72 - get paper here 
+ Clark, R.J. 1967. Centipede in Stomach of Young Vipera ammodytes meridionalis Copeia 1967 (1): 224. - get paper here 
+ Cogălniceanu, Dan; Laurentiu Rozylowicz, Paul Székely, Ciprian Samoilă, Florina Stănescu, Marian Tudor, Diana Székely, Ruben Iosif 2013. Diversity and distribution of reptiles in Romania. ZooKeys 341 (2013): 49-76 - get paper here 
+ Covaciu-Marcov S.-D.; Ghira, I.; Cicort-Lucaciu A.-St., Sas I.; Strugariu, A. & Bogdan H. V. 2006. Contributions to knowledge regarding the geographical distribution of the herpetofauna of Dobrudja, Romania. North-Western Journal of Zoology 2 (2): 88-125 - get paper here 
+ Covaciu-Marcov, S.D., Cicort-Lucaciu, A.S., Dobre, F., Ferenţi, S., Birceanu, M., Mihuţ, R. & Strugariu, A. 2009. The herpetofauna of the Jiului Gorge National Park, Romania. North-Western Journal of Zoology 5 (Suppl. 1): 1-78 
+ Crnobrnja-Isailovic, Jelka; Ajtic, Rastko; Tomovic, Ljiljana 2007. Activity patterns of the sand viper (Vipera ammodytes) from the central Balkans. Amphibia-Reptilia 28 (4): 582-589 - get paper here 
+ Čubrić T, Bonnet X, Crnobrnja‐Isailović J 2023. ﻿Body size and body condition in the nose-horned viper (Vipera ammodytes): effects of sex and populations. Herpetozoa 36: 53-58 - get paper here 
+ Čubrić, Tijana; Jelka Crnobrnja-Isailović 2017. Malformation of eye pupil in nose-horned viper (Vipera ammodytes) from a wild population. Herpetology Notes 10: 229-231 - get paper here 
+ Cundall, D. 2009. Viper Fangs: Functional Limitations of Extreme Teeth. Physiological and Biochemical Zoology: Ecological and Evolutionary Approaches, 82(1), 63–79 - get paper here 
+ Dalla Torre,K.W. 1912. Die Schlangen Tirols. Z. Ferdinand. Innsbruck 3 :1-9 
+ Derjugin,K. 1901. Matériaux pour l'herpétologie du sud-ouest du Transcaucase et des environs de Trapézonde. [in Russian] Ann. Mus. Zool. St. Pétersbourg 6: 84-111. - get paper here 
+ DI NICOLA, MATTEO RICCARDO 2019. A revised dichotomous key to the snakes of Italy (Reptilia, Squamata, Serpentes), according to recent systematic updates. Zootaxa 4686 (2): 294–296 - get paper here 
+ Diesener, G. 1979. Die Hornotter Vipera ammodytes (LINNAEUS). Herpetofauna 1 (2): 20-23 - get paper here 
+ Diesener, Günther 1981. Literature: Die Hornotter, Vipera ammodytes (Linnaeus). Litteratura Serpentium 1 (2): 75 - get paper here 
+ Dunaev E.A., Orlova V.F. 2003. Diversity of snakes (on the materials of the exposition of the Zoological Museum of the Moscow State University). Moscow: Moscow State University Press, 376 pp 
+ Dyugmedzhiev A, Andonov K, Hristov G, Borissov S 2024. New data on the distribution of the Vipera ammodytes (Linnaeus, 1758) mitochondrial lineages place their contact zone in western Bulgaria. Herpetozoa 37: 57-63 - get paper here 
+ Dyugmedzhiev A, Slavchev M, Naumov B 2019. Emergence and dispersal of snakes after syntopic hibernation. Herpetozoa 32: 149-157 - get paper here 
+ Dyugmedzhiev, A. V., Andonov, K. I., & Slavchev, M. L. 2021. Further Insights on the Nocturnal Activity of the Nose-horned Viper Vipera ammodytes (Linnaeus, 1758)(Reptilia: Viperidae) in Bulgaria: First Observation in October. ACTA ZOOLOGICA BULGARICA - get paper here 
+ DYUGMEDZHIEV, A., NAUMOV, B., & TZANKOV, N. 2021. Thermal ecology of the Nose-Horned Viper (Vipera ammodytes (Linnaeus, 1758)) under natural conditions. NORTH-WESTERN JOURNAL OF ZOOLOGY, 17(1), 44-56 
+ DYUGMEDZHIEV, ANGEL V., BORISLAV Y. NAUMOV & NIKOLAY D. TZANKOV. 2023. Interpopulation Variations in Circadian Activity of the Nose-horned Viper Vipera ammodytes (Linnaeus, 1758)(Reptilia: Viperidae). Acta Zoologica Bulgarica 75(1): 67–73. - get paper here 
+ DYUGMEDZHIEV, ANGEL; BORISLAV NAUMOV & NIKOLAY TZANKOV. 2022. Sex- and age-related variations in seasonal and circadian activity of the Nose-horned Viper Vipera ammodytes (Linnaeus, 1758). Belgian Journal of Zoology 152(0): 139–156. - get paper here 
+ DYUGMEDZHIEV, ANGEL; KOSTADIN ANDONOV, GEORGI POPGEORGIEV, BORISLAV NAUMOV & YURII V. KORNILEV. 2020. Crepuscular and nocturnal activity of the Nose-horned viper, Vipera ammodytes (Linnaeus, 1758) is more common than previously reported. Herpetozoa 33: 165–169. - get paper here 
+ Engelmann, W.E. et al. 1993. Lurche und Kriechtiere Europas. Neumann Verlag (Radebeul, Germany), 440 pp. 
+ Faoro, George 1987. Bemerkungen zur Verbastardierung von Vipera ammodytes ammodytes mit Vipera aspis atra. Litteratura Serpentium 7 (4): 198 - get paper here 
+ Faoro,G. 1986. Bemerkungen zur Verbastardierung von Vipera ammodytes mit Vipera aspis atra. herpetofauna 8 (43):6-7. - get paper here 
+ Foufopoulos J, Roussos S, Kalogiannis S, Kalb S, Strachinis I, Brock KM 2024. The herpetofauna of the Sporades Islands (Aegean Sea, Greece): New discoveries and a review of a century of research. Herpetozoa 37: 241-258 - get paper here 
+ GANDINI, ANTONIO. 2021. Predation of Vipera ammodytes by the eastern Montpellier snake Malpolon insignitus. The Herpetological Bulletin (158). - get paper here 
+ Garrigues, Thomas; Catherine Dauga; Elisabeth Ferquel; Valérie Choumet and Anna-Bella Failloux 2005. Molecular phylogeny of Vipera Laurenti, 1768 and the related genera Macrovipera (Reuss, 1927) and Daboia (Gray, 1842), with comments about neurotoxic Vipera aspis aspis populations. Molecular Phylogenetics and Evolution <br />Volume 35 (1): 35-47 - get paper here 
+ GEBHART, J. 2020. Speed-Dating mit den drei Vipernarten Montenegros – Ein Erlebnisbericht. Sauria 42 (2): 28-36 
+ Gemel, R.; G. Gassner & S. Schweiger 2019. Katalog der Typen der Herpetologischen Sammlung des Naturhistorischen Museums Wien – 2018. Ann. Naturhist. Mus. Wien, B 121: 33–248 - get paper here 
+ Geniez, Philippe 2018. Snakes of Europe, North Africa and the Middle East. Princeton University Press, 384 pp. - get paper here 
+ Gestel, P. van 1983. Breeding results: Vipera ammodytes. Litteratura Serpentium 3 (5): 171 - get paper here 
+ Göçmen, Bayram; Konrad Mebert, Naşit İğci, Bahadır Akman, Mehmet Zülfü Yıldız, Mehmet Anıl Oğuz, and Çağatay Altın 2014. New locality records for four rare species of vipers (Reptilia: Viperidae) in Turkey. Zoology in the Middle East 60 (4): 306-313 - get paper here 
+ Gruber, U. 2009. Die Schlangen Europas, 2. Aufl. Kosmos Naturführer, 266 pp. 
+ Gruber, U. & Fuchs, D. 1977. Die Herpetofauna des Paros-Archipels (Zentral-Ägäis). Salamandra 13 (2): 60-77 - get paper here 
+ Gulden, J. 1988. Hibernation and breeding of Vipera ammodytes ammodytes. Litteratura Serpentium 8 (4): 168-172 - get paper here 
+ GVOZDENOVIĆ, S., & IKOVIĆ, V. 2022. CHECKLIST OF AMPHIBIANS AND REPTILES OF MONTENEGRO AND THEIR CONSERVATION STATUS. Natura Montenegrina, Podgorica, 2022, 14 (2): 93-105 - get paper here 
+ Hanscom, R. J., Higham, T. E., Ryan, D., & Clark, R. W. 2023. Ambush hunting in snakes: behaviour, function, and diversity. In: D. Penning (ed.), Snakes: morphology, function, and ecology. Hauppauge, New York: Nova Science Publishers - get paper here 
+ Hempel, B.-F., Damm, M., Göçmen, B., Karis, M., Oguz, M. A., Nalbantsoy, A., & Süssmuth, R. D. 2018. Comparative Venomics of the Vipera ammodytes transcaucasiana and Vipera ammodytes montandoni from Turkey Provides Insights into Kinship. Toxins, 10(1), 23 - get paper here 
+ Herrmann, H. W.; Joger, U.; Lenk, P. & Wink, M. 1999. Morphological and molecular phylogenies of viperines: conflicting evidence? Kaupia (Darmstadt) (8): 21-30 - get paper here 
+ Ivanov, M.; Valkanov, K.; Tsvetkov, R.; Natchev, N. 2025. Hybridization in Vipers—A Case Study on Mating Between Vipera ammodytes transcaucasiana and V. a. ammodytes in Captivity. J. Zool. Bot. Gard.2025,6,34 - get paper here 
+ Jablonski, Daniel 2011. Reptiles and amphibians of Albania with new records and notes on occurrence and distribution. Acta Soc. Zool. Bohem. 75: 223–238 - get paper here 
+ Janoo, A. & J.-P. Gasc 1992. High speed motion analysis of the predatory strike and fluorographic study of oesophageal deglutition in Vipera ammodytes: more than meets the eye Amphibia-Reptilia 13(4): 315-325. - get paper here 
+ Janssen, P. 1981. Vipera ammodytes in de natuur en in gevangenschap [Vipera ammodytes in nature and in captivity]. Litteratura Serpentium 1 (3): 78-87 - get paper here 
+ Jelić, Dušan; Rastko AJtić, Bogoljub Sterijovski, Jelka Crnobrnja-Isailović, Suvad Lelo, and Ljiljana Tomović 2013. Legal Status and Assessment of Conservation Threats to Vipers (Reptilia: Squamata: Viperidae) of the <br />Western and Central Balkans. Herp. Cons. Biol. 8 (3) - get paper here 
+ Kabisch, K. 1966. Herpetologische Exkursionen in die Umgebung von Sofia. Aquarien-Terrarien, 4:131-135 
+ Kabisch, K. & Belter, H. 1968. Das Verzehren von Amphibien und Reptilien durch Vögel. Zoologische Abhandlungen aus dem Staatlichen Museum für Tierkunde in Dresden 29: 191-227 
+ Kabisch, K. & Engelhard, H. 1964. Beobachtungen an Reptilien in der Umgebung von Varna-Goldsand. Aquarien Terrarien 11 (6): 194-197 
+ Kabisch, Klaus 2013. Legende oder Wahrheit? Giftschlangen – eine biologische Waffe Hannibals Sekretär 13 (1): - get paper here 
+ Knight, Alec;Mindell, David P. 1994. On the phylogenetic relationship of Colubrinae, Elapidae, and Viperidae and the evolution of front-fanged venom systems in snakes. Copeia 1994 (1): 1-9 - get paper here 
+ Krecsák, L., A. M. Bauer, L. Tomović, S. Schweiger & A. Westerström 2025. A valid neotype designation for Vipera illyrica Laurenti, 1768. Salamandra 61(3): 362–363 - get paper here 
+ Krecsák, L., A. M. Bauer, L. Tomovic, S. Schweiger & A. Westerström 2025. The history of the Illyrian Nose-horned Viper, Vipera ammodytes illyrica (Laurenti, 1768), with designation of a neotype. Salamandra 61 (2): 184-194 - get paper here 
+ KRECSÁK, L., BAUER, A. M., WESTERSTRÖM, A., WAHLGREN, R., TOMOVIĆ, L., STILLE, B., & ÅHLANDER, E. 2024. Assessment of the Linnaean type material of the Nose-horned viper, Vipera ammodytes (Linnaeus, 1758). Zootaxa 5537(1), 24-48 - get paper here 
+ Krecsák, László. 2008. Albinism and leucism among European viperinae: A review. Russ. J. Herpetol. 15 (2): 97-102 - get paper here 
+ Krizmanić, I. 2018. CONTRIBUTION TO THE HERPETOFAUNA OF SERBIA-DISTRIBUTION OF REPTILES IN KOSOVO AND METOHIJA PROVINCE. Bulletin of Natural Sciences Research 9 (2): - get paper here 
+ KUCHARZEWSKI, C 2011. OLD WORLD VIPERS. A natural history of the Azemiopinae and Viperinae von Tony PHELPS – Anmerkungen, Ergänzungen, Korrekturen. Sauria 33 (3): 19-42 - get paper here 
+ Kutrup, B. 1999. The Morphology of Vipera ammodytes transcaucasiana (Reptilia, Viperidae) Specimens Collected from Murgul (Artvin, Turkey). Tr. J. of Zoology 23: 433–438 
+ Kutrup, Bilal 2000. Notes on the breeding and feeding of long-nosed Caucasian Viper (Vipera ammodytes transcaucasiana). Litteratura Serpentium 20 (6): 170-174 - get paper here 
+ Kwet, A. 2010. Reptilien und Amphibien Europas. Kosmos-Verlag, Stuttgart, 252 pp. 
+ Kwet, Axel & Benny Trapp 2014. Liste der Reptilien Europas. Draco 15 (60): 72-79 - get paper here 
+ Kwet, Axel & Benny Trapp 2014. Die Vipern Europas. Draco 15 (60): 40-56 - get paper here 
+ Laita, Mark 2013. Serpentine. Abrams and PQ Blackwell, Auckland, New Zealand, 200 unnumbered pages 
+ Lakušić, Margareta; Vukašin Bjelica, Ljiljana Tomović 2021. Record size for the Nose-horned Viper, Vipera ammodytes (Linnaeus, 1758), from Serbia. Herpetology Notes 14: 605-607 
+ Laurenti, J. N. 1768. Specimen medicum, exhibens synopsin reptilium emendatam cum experimentis circa venena et antidota reptilium austracorum, quod authoritate et consensu. Vienna, Joan. Thomae, 217 pp. - get paper here 
+ Laustsen, A., Rao, W., Rivera-de-Torre, E., Seneci, L., Shi, M. H., Zhang, Y., ... & LIU, S. 2025. De novo genome assembly of Vipera ammodytes ammodytes reveals venom gene expansion and ecological adaptations. researchsquare - get paper here 
+ Linné, C. [= Linnaeus, C.] 1758. Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Tomus I. Editio decima, reformata. Laurentii Salvii, Holmiæ. 10th Edition: 824 pp. - get paper here 
+ Luiselli, L. 1996. Food Habits of an Alpine Population of the Sand Viper (Vipera ammodytes) Journal of Herpetology 30 (1): 92-94. - get paper here 
+ LUKANOV, SIMEON & ANGEL DYUGMEDZHIEV. 2023. Photo identification of viperid snakes using pattern recognition software: a case study of Vipera ammodytes (Linnaeus, 1758). North-Western Journal of Zoology 19(1): 41–45. - get paper here 
+ Mallow, D. Ludwig, D. & Nilson, G. 2003. True Vipers: Natural History and Toxinology of Old World Vipers. Krieger, Malabar, Florida, 410 pp. [review in HR 35: 200, Reptilia 35: 74] 
+ Marktanner-Turneretscher,G. 1904. Beitrag zur Kenntnis der Verbreitung der Giftschlangen in der Steiermark. Mitt. naturw. Ver. Steierm. 15: 3-42. 
+ Martínez-Freiría, F., Toyama, K. S., Freitas, I., & Kaliontzopoulou, A. 2020. Thermal melanism explains macroevolutionary variation of dorsal pigmentation in Eurasian vipers. Scientific Reports, 10(1) - get paper here 
+ McDiarmid, R.W.; Campbell, J.A. & Touré,T.A. 1999. Snake species of the world. Vol. 1. [type catalogue] Herpetologists’ League, 511 pp. 
+ Mcmahon, M. L. 1990. Venoms And Snakebite: Vipera ammodytes meridionalis: Envenoment. J. Herp. Assoc. Africa (37): 60-60 - get paper here 
+ Mebert, Konrad; Nasit Igci, Bayram Göçmen & Sylvain Ursenbacher 2014. Vipern der Nordost-Türkei: Genfluss und Umweltfaktoren zwischen den Taxa des Vipera-barani-kaznakovi-darevskii-Komplexes. Terraria-Elaphe 2014 (5): 58-67 - get paper here 
+ Mebert, Konrad; Tomaz Jagar, Rok Grželj, Vesna Cafuta, Luca Luiselli, Erika Ostanek, Philippe Golay, Sylvain Dubey, Joaquim Golay and Sylvain Ursenbacher 2015. The dynamics of coexistence: habitat sharing versus segregation patterns among three sympatric montane vipers. Biological Journal of the Linnean Society DOI: 10.1111/bij.12582 - get paper here 
+ Melani, E. 2005. The Nose-horned viper, Vipera ammodytes. Reptilia (GB) (41): 73-79 - get paper here 
+ Meuth,F.X. 1913. Biologische Gesellschaft, Graz. Aus den Vereinsabenden im Monat August. Blätter für Aquarien- und Terrarienkunde 24:644-645. 
+ Meyer, A. 1985. Die Reptilienfauna des südlichen Peleponnes. Sauria 7 (1): 13-16 - get paper here 
+ Mojsisovics, A. v. 1889. Nachträgliche Bemerkungen zu meiner Arbeit „Über die geographische Verbreitung einiger westpalaearktischer Schlangen”. Mitt. naturwiss. Ver. Steiermark, 1888: 270-273 - get paper here 
+ Mulder, John 2017. A review of the distribution of Vipera ammodytes transcaucasiana Boulenger, 1913 (Serpentes: Viperidae) in Turkey. Biharean Biologist 2017: e161305 - get paper here 
+ NAUMOV, BORISLAV; NIKOLAY TZANKOV, KRASIMIR DONCHEV, BOYAN PETROV, ANDREI STOJANOV, GEORGI POPGEORGIEV, IVELIN MOLLOV, VLADIMIR BESHKOV 2016. The Herpetofauna (Amphibia and Reptilia) of Vrachanska Planina Mountains - Species Composition, Distribution and Conservation. In: Bechev, D. & Georgiev, D. (Eds.), Faunistic diversity of Vrachanski Balkan Nature Park. ZooNotes, Supplement 3, Plovdiv University Press, Plovdiv - get paper here 
+ Nilson, G., Andren, C., & Flärdh, B. 1988. Die Vipern der Türkei. Salamandra 24 (4): 215-247 - get paper here 
+ Nilson,G.; TUNIYEV,B.; ANDRÉN,C. & ORLOV,N. 1999. Vipers of Caucasus: Taxonomic considerations. Kaupia (Darmstadt) (8): 103-106 
+ Obermayer, G. 1967. Vipera aspis zinnikeri x Vipera ammodytes ammodytes. DATZ 20: 255-256. 
+ Obst, F.J. 1983. Zur Kenntnis der Schlangengattung Vipera. Zool. Abh. staatl. Mus. Tierkunde Dresden 38: 229-235 
+ O’Shea, M. 2018. The Book of Snakes. Ivy Press / Quarto Publishing, London, - get paper here 
+ Petrov B. P., N. Tzankov, H. Strijbosch, G. Popgeorgiev, V. Beshkov 2006. The herpetofauna (Amphibia and Reptilia) of the Western Rhodopes mountain (Bulgaria and Greece). In: Beron P. (ed.). Biodiversity of Bulgaria. 3. Biodiversity of Western Rhodopes (Bulgaria and Greece) I. Pensoft & Nat. Mus. Natur. Hist., Sofia, pp. 863-912 
+ Pezdirc, Marko, Anamarija Zagar and Miguel A. Carretero. 2013. First record of dicephalism in Vipera ammodytes (Linnaeus, 1758), from Slovenia. Herpetozoa 26 (1/2): 94-95 - get paper here 
+ Phelps, T. 2010. Old World Vipers. Edition Chimaira, Frankfurt, 558 pp. [critical review in Sauria 33 (3): 19 and HR 43: 503] 
+ Pichler, Hans 2014. Die Folgen eines Hornotternbisses. Terraria-Elaphe 2014 (5): 79 - get paper here 
+ Plessas, A. 2002. Herp hound experience in Greece. Reptilia (GB) (21): 8-10 - get paper here 
+ PLETTENBERG-LAING, ANTHONY 2020. Observations on the diet of the nose-horned viper (Vipera ammodytes) in Greece. Herpetological Bulletin 153: - get paper here 
+ Polovic, Lidija and Natalija Cadenovic. 2014. The herpetofauna of Ljubisnja Mountain, Montenegro. Herpetozoa 26 (3/4): 193-194 - get paper here 
+ Rao, W. Q., Rivera-de-Torre, E., Seneci, L., Shi, M. H., Zhang, Y. L., Lin, L., ... & Laustsen, A. H. 2025. A chromosome-level genome assembly of the western nose-horned viper (Vipera ammodytes ammodytes). Genome Biology and Evolution, evaf210 
+ Reuss, T. 1933. Fortsetzung und Schluss der Originalberichte. Nachr. Bl. Aquar. Terrar.-Ver. 1933: 372-373 
+ Ripa, D. 1983. Breeding results: Vipera ammodytes montandoni. Litteratura Serpentium 3 (1): 43 - get paper here 
+ Rödel, M.-O. & R. BUSSMANN 1990. Die Amphibien und Reptilien der Julischen Alpen. Sauria 12 (4): 15-21 - get paper here 
+ Roussos, Stephanos A. 2013. Geographic Distribution: Vipera ammodytes (long-nosed or nose-horned viper). Herpetological Review 44 (4): 631 - get paper here 
+ Saint-Girons,H. 1978. Morphologie externe comparée et systematique des Viperes d'Europe (Reptilia, Viperidae). Revue Suisse de Zoologie 85: 165-595 - get paper here 
+ Sajovic,G. 1914. Beiträge zur Reptilienkunde Krains. Verh. zool.-bot. Ges. Wien 150-175. 
+ Sämann, Jürgen; Martin Dieckmann & Karin Dieckmann 2023. Krk – Island of the giants. Sauria 45 (3): 1-12 
+ Schlüter, U. 2003. Die Herpetofauna des NSG Padurea Hagieni in Rumänien. Elaphe 11 (1): 60-65 
+ Schlüter, U. 2006. Die Herpetofauna der bulgarischen Schwarzmeerküste - Teil 3: Schlangen. Elaphe 14 (2): 59-66 
+ Schmidt B, Kranželić D, Majetić Đ, Lauš B, Štih A, Koren T 2020. Distribution and conservation status of the herpetofauna of Dugi Otok Island, Croatia. Herpetozoa 33: 191-205 - get paper here 
+ Schweiger, M. 2009. Haltung, Zucht und Aufzucht der Europäischen Hornotter Vipera ammodytes. Reptilia (Münster) 14 (76): 26-33 - get paper here 
+ Schweiger, M. 2009. Die Giftschlangen Europas. Eine Übersicht der Arten und Bemerkungen zu einzelnen Taxa. Reptilia (Münster) 14 (76): 14-25 - get paper here 
+ Schweiger, M. 2009. Vipera ammodytes: von abnormen Vipern und Hybriden. Draco 10 (39): 22-30 - get paper here 
+ Schweiger, M. 2012. Die Schlangenfauna der kroatischen Insel Krk. Ophidia 6 (2): 2-18 - get paper here 
+ Schweiger, Mario 1992. Die Europäische Hornotter Vipera ammodytes (Linaeus, 1758). Teil 2: Haltung und Zucht. Herpetofauna 14 (78): 11-16 - get paper here 
+ Schweiger, Mario 1992. Die Europäische Hornotter Vipera ammodytes (Linnaeus, 1758). Teil 1: Systematik, Ökologie und Lebensweise. Herpetofauna 14 (77): 11-22 - get paper here 
+ Schweiger, Mario 2013. Substratrassen bei der Nominatform der Europäischen Hornotter (Vipera ammodytes ammodytes). Ophidia 7 (1): 11-21 - get paper here 
+ Schweizer, H. 1941. Die Bastardform von Vipera aspis aspis X Vipera ammodytes ammodytes. Wochenschr. Aquar. Terrarienkunde 38: 345-346 
+ Shine, Richard;Madsen, Thomas 1994. Sexual dichromatism in snakes of the genus Vipera: A review and a new evolutionary hypothesis. Journal of Herpetology 28 (1): 114-117 - get paper here 
+ Sindaco, R.; Alberto Venchi & Cristina Grieco 2013. The Reptiles of the Western Palearctic, Volume 2: Annotated Checklist and Distributional Atlas of the Snakes of Europe, North Africa, Middle East and Central Asia, with an Update to Volume 1. Edizioni Belvedere, Latina (Italy), 543 pp. - get paper here 
+ Sindaco, Roberto; Alberto Venchi, Giuseppe M. Carpaneto, Marco A. Bologna 2000. The Reptiles of Anatolia: a Checklist and Zoogeographical analysis. Biogeographia, 21-2000: 441-554. - get paper here 
+ Sochurek,E. 1976. Zur systematischen Stellung der alpinen Hornotter. Carinthia, Klagenfurt II(166):447-452. 
+ Sos, T. 2008. Review of recent taxonomic and nomenclatural changes in European Amphibia and Reptilia related to Romanian herpetofauna. Herpetologica Romanica 2: 61-91 
+ Stoev, Pavel 2000. On the distribution, biology and ecology of amphibians and reptiles in the Derventski Heights and the Sakar Mountain, South-East Bulgaria Hist. Nat. Bulgarica 12: 59–69 - get paper here 
+ Strachinis, Ilias; Dimitris Aravanis 2017. Additions to the known herpetofauna of the Island of Ithaki, Ionian Sea, Greece. Herpetozoa 30 (1/2): 64 - 66 - get paper here 
+ Strauch, A. 1868. Concerning poisonous snakes distributed in Russia. [in Russian]. Trudy Perv. Siezda Russ. Yestestv. Zool., 1: 294 (also cited as Trans. First Conf. Russ. Nat., St.Petersburg, 1: 271-297) 
+ Stümpel, N. & Hahn, S. 2001. Die Hornotter Vipera ammodytes (LINNAEUS 1758) in Südtirol, Italien. Herpetofauna 23 (134): 9-18 - get paper here 
+ Thanou, E., Jablonski, D., & Kornilios, P. 2023. Genome-wide single nucleotide polymorphisms reveal recurrent waves of speciation in niche-pockets, in Europe's most venomous snake. Molecular Ecology, 00, 1–17 - get paper here 
+ Thieme, U. 1986. Die Amphibien - und Reptilienfauna der südost - bulgarischen Küste, Teil 4: Reptilien 3. Sauria 8 (3): 3-6 - get paper here 
+ Thomas, E. 1969. Jungtierkämpfe bei Vipera a. ammodytes (Serpentes, Viperidae). Salamandra 5 (3-4): 141-142 - get paper here 
+ Tok, C. V. & Y. Kumlutaş 1996. On Vipera ammodytes transcaucasiana (Viperidae) from Perşembe, Black Sea region of Turkey. Zoology in the Middle East 13: 47 - get paper here 
+ Tomovic, L. 2006. Systematics of the nose-horned viper (Vipera ammodytes Linnaeus, 1758). The Herpetological Journal 16: 191-201 - get paper here 
+ Tomovic, L. & Georg Dzukic 2003. Geographic variability and taxonomy of the nose-horned viper, Vipera ammodytes (L. 1758), in the central and eastern parts of the Balkans: A multivariate study. Amphibia-Reptilia 24 (3): 359-377 - get paper here 
+ Tomovic, Ljiljana, Jelena Radojicic, George Dzukic and Milos L. Kalezic 2002. Sexual dimorphism of the sand viper (Vipera ammodytes L.) from the central part of Balkan Peninsula. Russ. J. Herpetol. 9 (1): 69-76 - get paper here 
+ TOMOVIĆ, LJILJANA; MARKO ANĐELKOVIĆ, ANA GOLUBOVIĆ, DRAGAN ARSOVSKI, RASTKO AJTIĆ, BOGOLJUB STERIJOVSKI, SONJA NIKOLIĆ, JELKA CRNOBRNJA-ISAILOVIĆ, MARGARETA LAKUŠIĆ & XAVIER BONNET. 2022. Dwarf vipers on a small island: body size, diet and fecundity correlates. Biological Journal of the Linnean Society 137(2): 267–279. - get paper here 
+ Tóth, Tamás, László Krecsák, Thomas Madsen and Beáta Újvári 2002. Herpetofaunal locality records on the Greek Islands of Corfu (Amphibia, Reptilia). Herpetozoa 15 (3/4):149-169 - get paper here 
+ Trapp, B. 2007. Reptilien und Amphibien des griechischen Festlandes. Natur und Tier Verlag (Münster), 300 pp. - get paper here 
+ Trapp, Benny 2014. Europäische Vipern. Terraria-Elaphe 2014 (3): 14-21 - get paper here 
+ Trutnau, L. 1975. Europäische Amphibien und Reptilien. Belser Verlag, Stuttgart 212 pp. 
+ Tuniyev B.S., Tuniyev S.B., Avcı A., Ilgaz Ç. 2014. Herpetological studies in Eastern and North-Eastern Turkey. Current Studies in Herpetology 14 (1/2): 44–53. Резюме - get paper here 
+ Tuniyev, B.S.; N.L. Orlov, N.B. Ananjeva and A.L. Aghasyan 2019. Snakes of the Caucasus: taxonomic diversity, distribution, conservation. St. Petersburg, Moscow. KMK Scientific Press. 2019. 276 pp. - get paper here 
+ Uhrin, Marcel; Peter Havaš, Martin Minařík, Karel Kodejš, Imrich Bugoš, Stanislav Danko, Tomáš Husák, Daniel Koleska and Daniel Jablonski 2016. Distribution updates to amphibian and reptile fauna for the Republic of Macedonia. Herpetology Notes 9: 201-220 - get paper here 
+ Ursenbacher, S.; S. Schweiger, L. Tomović, J. Crnobrnja-Isailović, L. Fumagalli and W. Mayer 2008. Molecular phylogeography of the nose-horned viper (Vipera ammodytes, Linnaeus (1758)): Evidence for high genetic diversity and multiple refugia in the Balkan peninsula. Molecular Phylogenetics and Evolution 46 (3): 1116-1128 - get paper here 
+ Veith, G. 1991. Die Reptilien Bosniens und der Herzegowina. Teil 2. Herpetozoa 4 (1-2): 1-96 - get paper here 
+ Venchi, Alberto and Roberto Sindaco 2006. Annotated checklist of the reptiles of the Mediterranean countries, with keys to species identification. Part 2 -Snakes (Reptilia, Serpentes). Annali del Museo Civico di Storia Naturale "G. Doria", Genova, XCVIII: 259-364 
+ Wallach, Van; Kenneth L. Williams, Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. 
+ Weima, André 2007. Pictures: Vipera transcaucasiana en Agkistrodon contortrix. Litteratura Serpentium 27 (2): 74 - get paper here 
+ Weima, André 2008. Picture: Vipera transcaucasiana. Litteratura Serpentium 28 (1): 63 - get paper here 
+ Weima, André 2009. Pictures: Vipera ammodytes and Sistrurus ravus ravus. Litteratura Serpentium 29 (3): 103 - get paper here 
+ Weima, André 2009. Pictures: Vipera transcaucasiana. Litteratura Serpentium 29 (1): 17 - get paper here 
+ Weima, André 2009. Pictures: Vipera ammodytes ammodytes and Vipera aspis aspis. Litteratura Serpentium 29 (3): 118 - get paper here 
+ Weima, André 2011. Picture: Vipera ammodytes meridionalis. Litteratura Serpentium 31 (4): 207 - get paper here 
+ Weima, André 2011. Picture: Vipera ammodytes ammodytes. Litteratura Serpentium 31 (4): 206 - get paper here 
+ Weima, André 2013. Giftschlangen verantwortungsvoll pflegen. Terraria-Elaphe 2013 (6): 18-23 - get paper here 
+ Weima, André 2014. Care and breeding of Vipera ammodytes. Litteratura Serpentium 34 (4): 227-248 - get paper here 
+ Werner, F. 1904. Neue Beiträge zur Kenntnis der Reptilien- und Orthopterenfauna Kleinasiens. Zool. Anz. 28: 79-82 - get paper here 
+ Wirth, Michael 2010. Der Mittelmeerraum – Landschaften und Herpetofauna in Südeuropa. Draco 11 (42): 4-23 
+ Wirth, Michael 2012. Von Kratzern, gutem Müll und gebräunten Nacken. Praxistipps für die Reptiliensuche. Terraria-Elaphe 2012 (3): 26-31 - get paper here 
+ Wirth, Michael 2012. „Fieldherping“. Die erfolgreiche Suche nach Reptilien im Freiland. Terraria-Elaphe 2012 (3): 16-23 - get paper here 
+ Wöss, W. 1989. Auf den Spuren der Sandviper Vipera ammodytes (LINNAEUS 1758) in der Südsteiermark - Individuelle Eindrücke einer naturkundlichen Studienreise. Herpetofauna 11 (60): 6-11 - get paper here 
+ Wüster, W., Böhme, W., Denzer, W., & Kaiser, H. 2025. Nomenclatural historians are kindly requested to respect the intent of the Code: Nomenclatural parsimony and the case of the Nose-horned Viper, Vipera ammodytes (Linnaeus, 1758). Zootaxa, 5696(3), 385–397 - get paper here 
+ Wütschert, R. 1984. Neues uber die Reptilienfauna der Insel Korfu. Salamandra 20 (4): 221-228 - get paper here 
+ Zadravec, Mladen; Toni Koren 2017. Further evidence of nocturnal activity of Vipera ammodytes (LINNAEUS, 1758). Herpetozoa 30 (1/2): 107 - 108 - get paper here 
+ Žagar, A., Carretero, M. A., Krofel, M., Lužnik, M., Podnar, M. & Tvrtković, N. 2014. Reptile survey in Dinara Mountain (Croatia) revealed the southernmost known population of Horvath’s rock lizard (Iberolacerta horvathi). Nat. Croat. 23 (1): 235–240 - get paper here 
+ ZAUNER, J. 2021. Auf Reptiliensuche im Soca-Tal (Slowenien). Sauria 43 (1): 2-8 - get paper here 
+ Zauner, Jochen 2023. Herpetologische Beobachtungen auf dem Peloponnes (Griechenland). Sauria 45 (4): 1-17 
+ External links 
+ IUCN Red List 
+ National Center for Biotechnology Information 
+ http://www.kingsnake.com/viperidae/images/photos.htm 
+ http://www.itc.it/mtsn/softw/rettili/corno.html 
+ http://dx.doi.org/10.1016/j.ympev.2007.11.002 
+ http://seh-herpetology.org/sites/seh-herpetology.org/files/uploads/atlas… 
+ http://www.seh-herpetology.org/sites/seh-herpetology.org/files/uploads… 
+ Google images 
+ Is it interesting? Share with others: 
+ Tweet 
+ Please submit feedback about this entry to the curator 
+ Home page 
+ Advanced search 
+ Vipera ammodytes 
+ Search tips 
+ Contact us 
+ Global Reptile BioBlitz 
+ reptile-database.org 
+ ^ To top of page 
+ This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates). Web pages and scripting Jiri Hosek 
+

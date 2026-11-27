@@ -1,0 +1,621 @@
+ 
+ Snakebite - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Signs and symptoms 
+ 2 
+ Cause 
+ 3 
+ Mechanism 
+ Toggle Mechanism subsection 
+ 3.1 
+ Predatory vs. defensive bites 
+ 3.2 
+ Venom metering 
+ 3.3 
+ Venom spitting 
+ 3.4 
+ Pathophysiology 
+ 3.5 
+ Snake venom 
+ 4 
+ Prevention 
+ 5 
+ Treatment 
+ Toggle Treatment subsection 
+ 5.1 
+ Snake identification 
+ 5.2 
+ First aid 
+ 5.3 
+ Pressure immobilization 
+ 5.4 
+ Antivenom 
+ 5.5 
+ Chronic complications 
+ 5.6 
+ Outmoded 
+ 6 
+ Epidemiology 
+ 7 
+ Society and culture 
+ 8 
+ Research 
+ Toggle Research subsection 
+ 8.1 
+ In development 
+ 9 
+ Other animals 
+ 10 
+ References 
+ 11 
+ Further reading 
+ 12 
+ External links 
+ Toggle the table of contents 
+ Snakebite 
+ 54 languages 
+ العربية مصرى অসমীয়া Asturianu Башҡортса বাংলা Català Čeština Deutsch Español Eesti Euskara فارسی Suomi Français Galego Hausa עברית हिन्दी Hrvatski Հայերեն Bahasa Indonesia 日本語 Jawa ಕನ್ನಡ 한국어 Luganda Lietuvių ဘာသာမန် मराठी မြန်မာဘာသာ नेपाली Nederlands ଓଡ଼ିଆ ਪੰਜਾਬੀ پښتو Português Русский ᱥᱟᱱᱛᱟᱲᱤ සිංහල Slovenščina Shqip Српски / srpski தமிழ் తెలుగు Тоҷикӣ Türkçe Татарча / tatarça Українська اردو Oʻzbekcha / ўзбекча Tiếng Việt 粵語 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Save 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ Save 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Injury caused by bite from snakes 
+ For other uses, see Snakebite (disambiguation) . 
+ <ref name=Gold2002/>"},"complications":{"wt":"[[hemorrhage|Bleeding]], [[kidney failure]], [[anaphylaxis|severe allergic reaction]], [[necrosis|tissue death]] around the bite, breathing problems, [[amputation]], [[envenomation]]<ref name=CDC2012/><ref name=WHO2015/>"},"onset":{"wt":""},"duration":{"wt":""},"types":{"wt":""},"causes":{"wt":"[[Snakes]]<ref name=CDC2012/>"},"risks":{"wt":"Working outside with one's hands ([[farming]], [[forestry]], construction);<ref name=CDC2012/><ref name=WHO2015/> harassment;<ref>{{cite web|url=http://www.fs.usda.gov/r05/eldorado|title=Eldorado - Outdoor Safety & Ethics}}</ref><ref>{{cite web | url=https://wildlife.utah.gov/news/utah-wildlife-news/1202-rattlesnake-encounter-what-to-do.html | title=What to do if you encounter a rattlesnake}}</ref> [[drunkenness]]<ref>{{cite web | url=https://reptilesmagazine.com/alcohol-and-snake-bites/ |title=Alcohol and Snake Bites – Reptiles Magazine | date=December 2011}}</ref>"},"diagnosis":{"wt":""},"differential":{"wt":""},"prevention":{"wt":"[[Protective footwear]], avoiding areas where snakes live, not handling snakes<ref name=CDC2012/>"},"treatment":{"wt":"Washing the wound with soap and water, [[antivenom]]<ref name=CDC2012/><ref name=WHONeg/>"},"medication":{"wt":""},"prognosis":{"wt":"Depends on type of snake<ref name=Marx2010/>"},"frequency":{"wt":"Up to 5 million a year<ref name=WHO2015/>"},"deaths":{"wt":"94,000–125,000 per year<ref name=WHO2015/>"}},"i":0}}]}'>Medical condition Snakebite A cobra bite on the foot of a girl in Thailand Specialty Emergency medicine Symptoms Two puncture wounds , redness , swelling , severe pain at the area [ 1 ] [ 2 ] Complications Bleeding , kidney failure , severe allergic reaction , tissue death around the bite, breathing problems, amputation , envenomation [ 1 ] [ 3 ] Causes Snakes [ 1 ] Risk factors Working outside with one's hands ( farming , forestry , construction); [ 1 ] [ 3 ] harassment; [ 4 ] [ 5 ] drunkenness [ 6 ] Prevention Protective footwear , avoiding areas where snakes live, not handling snakes [ 1 ] Treatment Washing the wound with soap and water, antivenom [ 1 ] [ 7 ] Prognosis Depends on type of snake [ 8 ] Frequency Up to 5 million a year [ 3 ] Deaths 94,000–125,000 per year [ 3 ] 
+ A snakebite is an injury caused by the bite of a snake . Most snake species are non-venomous, but bites from venomous snakes may result in envenomation , in which venom is injected into the victim. [ 9 ] [ 3 ] A common sign of a bite from a venomous snake is the presence of two puncture wounds from the animal's fangs . [ 1 ] Envenomation may cause redness, swelling, and severe pain around the bite, which may take up to an hour to develop. [ 1 ] [ 2 ] Vomiting , blurred vision , tingling of the limbs, and sweating may result. [ 1 ] [ 2 ] Most bites are on the hands, arms, or legs. [ 2 ] [ 10 ] Fear following a bite is common with symptoms of a racing heart and feeling faint . [ 2 ] The venom may cause bleeding , kidney failure , a severe allergic reaction , tissue death around the bite, or breathing problems. [ 1 ] [ 3 ] Bites may result in the loss of a limb or other chronic problems or even death. [ 11 ] [ 3 ] 
+ The outcome depends on the type of snake, the area of the body bitten, the amount of snake venom injected, the general health of the person bitten, and whether or not anti-venom serum has been administered in a timely manner. [ 11 ] [ 8 ] Problems are often more severe in children than adults, due to their smaller size. [ 3 ] [ 12 ] [ 13 ] Allergic reactions to snake venom can further complicate outcomes and can include anaphylaxis , requiring additional treatment and in some cases resulting in death. [ 11 ] 
+ Snakes bite acts both as a method of hunting and as a means of protection. [ 14 ] Risk factors for bites include working outside with one's hands such as in farming , forestry , and construction . [ 1 ] [ 3 ] Snakes commonly involved in envenomations include elapids (such as kraits , cobras and mambas ), vipers , and sea snakes . [ 7 ] The majority of snake species do not have venom and kill their prey by constriction (squeezing them). [ 2 ] Venomous snakes can be found on every continent except Antarctica . [ 14 ] Determining the type of snake that caused a bite is often not possible. [ 7 ] The World Health Organization says snakebites are a "neglected public health issue in many tropical and subtropical countries ", [ 13 ] and in 2017, the WHO categorized snakebite envenomation as a Neglected Tropical Disease (Category A). The WHO also estimates that between 4.5 and 5.4 million people are bitten each year, and of those figures, 40–50% develop some kind of clinical illness as a result. [ 15 ] Furthermore, the death toll from such an injury could range between 80,000 and 130,000 people per year. [ 16 ] [ 15 ] The purpose was to encourage research, expand the accessibility of antivenoms, and improve snakebite management in " developing countries ". [ 17 ] 
+ Prevention of snake bites can involve wearing protective footwear, avoiding areas where snakes live, and not handling snakes. [ 1 ] Treatment partly depends on the type of snake. [ 1 ] Washing the wound with soap and water and holding the limb still is recommended. [ 1 ] [ 7 ] Trying to suck out the venom, cutting the wound with a knife , or using a tourniquet is not recommended. [ 1 ] Antivenom is effective at preventing death from bites; however, antivenoms frequently have side effects . [ 3 ] [ 18 ] The type of antivenom needed depends on the type of snake involved. [ 7 ] When the type of snake is unknown, antivenom is often given based on the types known to be in the area. [ 7 ] In some areas of the world, getting the right type of antivenom is difficult and this partly contributes to why they sometimes do not work. [ 3 ] An additional issue is the cost of these medications. [ 3 ] Antivenom has little effect on the area around the bite itself. [ 7 ] Supporting the person's breathing is sometimes also required. [ 7 ] 
+ The number of venomous snakebites that occur each year may be as high as five million. [ 3 ] They result in about 2.5 million envenomations and 20,000 to 125,000 deaths. [ 3 ] [ 14 ] The frequency and severity of bites vary greatly among different parts of the world. [ 14 ] They occur most commonly in Africa , Asia , and Latin America , [ 3 ] with rural areas more greatly affected. [ 3 ] [ 13 ] Deaths are relatively rare in Australia , Europe and North America . [ 14 ] [ 18 ] [ 19 ] For example, in the United States , about seven to eight thousand people per year are bitten by venomous snakes (about one in 40 thousand people) and about five people die (about one death per 65 million people). [ 1 ] 
+ Signs and symptoms [ edit ] 
+ The most common symptoms of any kind of snake envenomation. [ 20 ] [ 21 ] [ 22 ] However, there is vast variation in symptoms between bites from different types of snakes. [ 20 ] 
+ The most common first symptom of all snakebites is an overwhelming fear , which may contribute to other symptoms, and may include nausea and vomiting , diarrhea , vertigo , fainting , tachycardia , and cold, clammy skin. [ 2 ] [ 23 ] Snake bites can have a variety of different signs and symptoms depending on their species. [ 11 ] 
+ Dry snakebites and those inflicted by a non-venomous species may still cause severe injury. The bite may become infected from the snake's saliva. The fangs sometimes harbor pathogenic microbial organisms, including Clostridium tetani , and may require an updated tetanus immunization. [ 24 ] [ 15 ] 
+ Most snakebites, from either a venomous or a non-venomous snake, will have some type of local effect. [ 25 ] Minor pain and redness occur in over 90 percent of cases, although this varies depending on the site. [ 2 ] Bites by vipers and some cobras may be extremely painful, with the local tissue sometimes becoming tender and severely swollen within five minutes. [ 18 ] This area may also bleed and blister and may lead to tissue necrosis . Other common initial symptoms of pit viper and viper bites include lethargy , bleeding, weakness, nausea , and vomiting . [ 2 ] [ 18 ] Symptoms may become more life-threatening over time, developing into hypotension , tachypnea , severe tachycardia , severe internal bleeding, altered sensorium , kidney failure , and respiratory failure . [ 2 ] [ 18 ] 
+ Bites by some snakes, such as the kraits , coral snake , Mojave rattlesnake , and the speckled rattlesnake , may cause little or no pain, despite their serious and potentially life-threatening venom. [ 2 ] Some people report experiencing a "rubbery", "minty", or "metallic" taste after being bitten by certain species of rattlesnake . [ 2 ] Spitting cobras and rinkhalses can spit venom in a person's eyes. This results in immediate pain, ophthalmoparesis , and sometimes blindness . [ 26 ] [ 27 ] 
+ Severe tissue necrosis following Bothrops asper envenomation that required amputation above the knee. The person was an 11-year-old boy, bitten two weeks earlier in Ecuador , but treated only with antibiotics . [ 28 ] 
+ Some Australian elapids and most viper envenomations will cause coagulopathy , sometimes so severe that a person may bleed spontaneously from the mouth, nose, and even old, seemingly healed wounds. [ 18 ] Internal organs may bleed, including the brain and intestines , [ 29 ] and ecchymosis (bruising) of the skin is often seen. [ 30 ] 
+ The venom of elapids, including sea snakes , kraits , cobras , king cobra , mambas , and many Australian species, contains toxins which attack the nervous system, causing neurotoxicity . [ 2 ] [ 18 ] [ 31 ] The person may present with strange disturbances to their vision, including blurriness . Paresthesia throughout the body, as well as difficulty in speaking and breathing, may be reported. [ 2 ] Nervous system problems will cause a huge array of symptoms, and those provided here are not exhaustive. If not treated immediately they may die from respiratory failure . [ 32 ] 
+ Venom emitted from some types of cobras, almost all vipers, and some sea snakes cause necrosis of muscle tissue. [ 18 ] Muscle tissue will begin to die throughout the body, a condition known as rhabdomyolysis . Rhabdomyolysis can result in damage to the kidneys as a result of myoglobin accumulation in the renal tubules . This, coupled with hypotension , can lead to acute kidney injury , and, if left untreated, eventually death. [ 18 ] 
+ Snakebite is also known to cause depression and post-traumatic stress disorder in a high proportion of people who survive. [ 33 ] 
+ Cause [ edit ] 
+ See also: List of dangerous snakes 
+ In the developing world most snakebites occur in those who work outside such as farmers , hunters , and fishermen . They often happen when a person steps on the snake or approaches it too closely. In the United States and Europe , snakebites most commonly occur in those who keep them as pets . [ 34 ] 
+ The type of snake that most often delivers serious bites depends on the region of the world. In Africa , it is mambas , Egyptian cobras , puff adders , and carpet vipers . In the Middle East , it is carpet vipers and elapids . In Latin America , it is snakes of the Bothrops and Crotalus types, the latter including rattlesnakes . [ 34 ] In North America , rattlesnakes are the primary concern, and up to 95% of all snakebite-related deaths in the United States are attributed to the western and eastern diamondback rattlesnakes. [ 2 ] The greatest number of bites are inflicted on the hands. [ citation needed ] People get bitten by handling snakes or in the outdoors by putting their hands on the wrong places. The next largest number of bites occur on the ankles, as snakes are often hidden or camouflaged extremely well to fend off predators . Most bite victims are bitten by surprise, and it is a comfortable fiction that rattlesnakes always forewarn their bite victims - often the bite is the first indication a snake is near. Since most venomous snakes move about during the dawn dusk or night, one may expect more encounters during the early morning or late afternoon, though many species such as the Western Diamondback may be encountered at any time of day and in fact most bites occur during the month of April when both snakes and humans are out and about and encounter one another hiking , in yards, or on pathways. Children playing within short distances of their homes crawl under porches, jump into bushes, pull boards of wood from a pile and are bitten. Most however occur when people handle rattlesnakes. [ 35 ] In South Asia , it was previously believed that Indian cobras , common kraits , Russell's viper , and carpet vipers were the most dangerous; other snakes, however, may also cause significant problems in this area of the world. [ 34 ] 
+ Mechanism [ edit ] 
+ See also: Envenomation 
+ Basic diagram of a snake's venom delivery system 
+ When venomous snakes bite a target, they secrete venom through their venom delivery system. The venom delivery system generally consists of two venom glands , a compressor muscle, venom ducts, a fang sheath, and fangs . The primary and accessory venom glands store the venom quantities required during envenomation . The compressor muscle contracts during bites to increase the pressure throughout the venom delivery system. The pressurized venom travels through the primary venom duct to the secondary venom duct that leads down through the fang sheath and fang. The venom is then expelled through the exit orifice of the fang. The total volume and flow rate of venom administered into a target varies widely, sometimes as much as an order of magnitude. One of the largest factors is snake species and size, larger snakes have been shown to administer larger quantities of venom. [ 36 ] 
+ Predatory vs. defensive bites [ edit ] 
+ Snake bites are classified as either predatory or defensive. During defensive strikes, the rate of venom expulsion and total volume of venom expelled is much greater than during predatory strikes. Defensive strikes can have 10 times as much venom volume expelled at 8.5 times the flow rate. [ 37 ] This can be explained by the snake's need to quickly subdue a threat. While employing similar venom expulsion mechanics, predatory strikes are quite different from defensive strikes. Snakes usually release the prey shortly after the envenomation allowing the prey to run away and die. Releasing prey prevents retaliatory damage to the snake. The venom scent allows the snake to relocate the prey once it is deceased. [ 36 ] The amount of venom injected has been shown to increase with the mass of the prey animal. [ 38 ] Larger venom volumes allow snakes to effectively kill larger prey while remaining economical during strikes against smaller prey. This is an important skill as venom is a metabolically expensive resource. [ citation needed ] 
+ Venom metering [ edit ] 
+ Venom metering is the ability of a snake to have neurological control over the amount of venom released into a target during a strike based on situational cues. This ability would prove useful as venom is a limited resource, larger animals are less susceptible to the effects of venom, and various situations require different levels of force. There is a lot of evidence to support the venom metering hypothesis. For example, snakes frequently use more venom during defensive strikes, administer more venom to larger prey, and are capable of dry biting. A dry bite is a bite from a venomous snake that results in very little or no venom expulsion, leaving the target asymptomatic . [ 39 ] However, there is debate among many academics about venom metering in snakes. The alternative to venom metering is the pressure balance hypothesis. [ citation needed ] 
+ The pressure balance hypothesis cites the retraction of the fang sheath as the many mechanisms for producing outward venom flow from the venom delivery system. When isolated, fang sheath retraction has experimentally been shown to induce very high pressures in the venom delivery system. [ 40 ] A similar method was used to stimulate the compressor musculature, the main muscle responsible for the contraction and squeezing of the venom gland, and then measuring the induced pressures. It was determined that the pressure created from the fang sheath retraction was at times an order of magnitude greater than those created by the compressor musculature. Snakes do not have direct neurological control of the fang sheath, it can only be retracted as the fangs enter a target and the target's skin and body provide substantial resistance to retract the sheath. For these reasons, the pressure balance hypothesis concludes that external factors, mainly the bite and physical mechanics, are responsible for the quantity of venom expelled. [ citation needed ] 
+ Venom spitting [ edit ] 
+ Venom spitting is another venom delivery method that is unique to some Asiatic and African cobras . In venom spitting, a stream of venom is propelled at very high pressures outwards up to 3 meters (300 centimeters). The venom stream is usually aimed at the eyes and face of the target as a deterrent for predators. There are non-spitting cobras that provide useful information on the unique mechanics behind venom spitting. Unlike the elongated oval shaped exit orifices of non-spitting cobras, spitting cobras have circular exit orifice at their fang tips. [ 41 ] This combined with the ability to partially retract their fang sheath by displacing the palato-maxillary arch and contracting the adductor mandibulae, allows the spitting cobras to create large pressures within the venom delivery system. [ 42 ] While venom spitting is a less common venom delivery system, the venom can still cause the effects if ingested. [ citation needed ] 
+ Pathophysiology [ edit ] 
+ Since envenomation is completely voluntary , all venomous snakes are capable of biting without injecting venom into a person. Snakes may deliver such a " dry bite " rather than waste their venom on a creature too large for them to eat, a behaviour called venom metering . [ 43 ] However, the percentage of dry bites varies among species: 80 percent of bites inflicted by sea snakes , which are normally timid, do not result in envenomation , [ 31 ] whereas for pit viper bites the number is closer to 25 percent. [ 2 ] Furthermore, some snake genera , such as rattlesnakes , can internally regulate the amount of venom they inject. [ 44 ] There is a wide variance in the composition of venoms from one species of venomous snake to another. Some venoms may have their greatest effect on a victim's respiration or circulatory system . Others may damage or destroy tissues . This variance has imparted to the venom of each species a distinct chemistry. Sometimes antivenins have to be developed for individual species. For this reason, standard therapeutic measures will not work in all cases. 
+ Some dry bites may also be the result of imprecise timing on the snake's part, as venom may be prematurely released before the fangs have penetrated the person. [ 43 ] Even without venom, some snakes, particularly large constrictors such as those belonging to the Boidae and Pythonidae families, can deliver damaging bites; large specimens often cause severe lacerations , or the snake itself pulls away, causing the flesh to be torn by the needle-sharp recurved teeth embedded in the person. While not as life-threatening as a bite from a venomous species, the bite can be at least temporarily debilitating and could lead to dangerous infections if improperly dealt with. [ citation needed ] 
+ While most snakes must open their mouths before biting, African and Middle Eastern snakes belonging to the family Atractaspididae can fold their fangs to the side of their head without opening their mouth and jab a person. [ 45 ] 
+ Snake venom [ edit ] 
+ Main articles: Snake venom and Venom-induced consumption coagulopathy 
+ It has been suggested that snakes evolved the mechanisms necessary for venom formation and delivery sometime during the Miocene epoch. [ 46 ] During the mid- Tertiary , most snakes were large ambush predators belonging to the superfamily Henophidia , which use constriction to kill their prey. As open grasslands replaced forested areas in parts of the world, some snake families evolved to become smaller and thus more agile . However, subduing and killing prey became more difficult for the smaller snakes, leading to the evolution of snake venom. The most likely hypothesis holds that venom glands evolved from specialized salivary glands . The venom itself evolved through the process of natural selection ; it retained and emphasized the qualities that made it useful in killing or subduing prey. Today we can find various snake species in stages of this hypothesized development. There are the highly efficient envenoming machines - like the rattlesnakes - with large capacity venom storage, hollow fangs that swing into position immediately before the snake bites, and spare fangs ready to replace those damaged or lost. [ 47 ] [ 46 ] Other research on Toxicofera , a hypothetical clade thought to be ancestral to most living reptiles , suggests an earlier time frame for the evolution of snake venom, possibly to the order of tens of millions of years, during the Late Cretaceous . [ 48 ] 
+ Snake venom is produced in modified parotid glands normally responsible for secreting saliva . It is stored in structures called alveoli behind the animal's eyes and ejected voluntarily through its hollow tubular fangs . [ citation needed ] 
+ Venom in many snakes, such as pit vipers, affects virtually every organ system in the human body and can be a combination of many toxins , including cytotoxins , hemotoxins , neurotoxins , and myotoxins , allowing for an enormous variety of symptoms. [ 2 ] [ 49 ] Snake venom may cause cytotoxicity as various enzymes including hyaluronidases , collagenases , proteinases and phospholipases lead to breakdown (dermonecrosis) and injury of local tissue and inflammation which leads to pain, edema and blister formation. [ 50 ] Metalloproteinases further lead to breakdown of the extracellular matrix (releasing inflammatory mediators) and cause microvascular damage, leading to hemorrhage , skeletal muscle damage ( necrosis ), blistering and further dermonecrosis. [ 50 ] The metalloproteinase release of the inflammatory mediators leads to pain, swelling, and white blood cell ( leukocyte ) infiltration. The lymphatic system may be damaged by the various enzymes contained in the venom leading to edema; or the lymphatic system may also allow the venom to be carried systemically. [ 50 ] Snake venom may cause muscle damage or myotoxicity via the enzyme phospholipase A2 which disrupts the plasma membrane of muscle cells . This damage to muscle cells may cause rhabdomyolysis , respiratory muscle compromise, or both. [ 50 ] Other enzymes such as bradykinin potentiating peptides, natriuretic peptides , vascular endothelial growth factors , proteases can also cause hypotension or low blood pressure. [ 50 ] Toxins in snake venom can also cause kidney damage ( nephrotoxicity ) via the same inflammatory cytokines . The toxins cause direct damage to the glomeruli in the kidneys as well as causing protein deposits in Bowman's capsule . Or the kidneys may be indirectly damaged by envenomation due to shock , clearance of toxic substances such as immune complexes, blood degradation products, or products of muscle breakdown (rhabdomyolysis). [ 50 ] 
+ In venom-induced consumption coagulopathy , toxins in snake venom promote hemorrhage via activation, consumption, and subsequent depletion of clotting factors in the blood. [ 50 ] These clotting factors normally work as part of the coagulation cascade in the blood to form blood clots and prevent hemorrhage. Toxins in snake venom (especially the venom of New World pit vipers (the family crotalina )) may also cause low platelets ( thrombocytopenia ) or altered platelet function also leading to bleeding. [ 50 ] 
+ Snake venom is known to cause neuromuscular paralysis, usually as a flaccid paralysis that is descending; starting at the facial muscles , causing ptosis or drooping eyelids and dysarthria or poor articulation of speech, and descending to the respiratory muscles causing respiratory compromise. [ 50 ] The neurotoxins can either bind to and block membrane receptors at the post-synaptic neurons or they can be taken up into the pre-synaptic neuron cells and impair neurotransmitter release. [ 50 ] Venom toxins that are taken up intra-cellularly, into the cells of the pre-synaptic neurons are much more difficult to reverse using anti-venom as they are inaccessible to the anti-venom when they are intracellular. [ 50 ] 
+ The strength of venom differs markedly between species and even more so between families, as measured by median lethal dose (LD 50 ) in mice. Subcutaneous LD 50 varies by over 140-fold within elapids and by more than 100-fold in vipers. The amount of venom produced also differs among species, with the Gaboon viper able to potentially deliver from 450 to 600 milligrams of venom in a single bite, the most of any snake. [ 51 ] Opisthoglyphous colubrids have venom ranging from life-threatening (in the case of the boomslang ) to barely noticeable (as in Tantilla ). [ citation needed ] 
+ Prevention [ edit ] 
+ Sign at Sylvan Rodriguez Park in Houston, Texas , warning of the presence of snakes 
+ Snakes are most likely to bite when they feel threatened, are startled, are provoked, or when they have been cornered. Snakes are likely to approach residential areas when attracted by prey, such as rodents . Regular pest control can reduce the threat of snakes considerably. It is beneficial to know the species of snake that are common in local areas, or while travelling or hiking. Africa , Australia , the Neotropics , and South Asia in particular are populated by many dangerous species of snake. Being aware of—and ultimately avoiding—areas known to be heavily populated by dangerous snakes is strongly recommended. [ citation needed ] 
+ When in the wilderness, treading heavily creates ground vibrations and noise, which will often cause snakes to flee from the area. However, this generally only applies to vipers, as some larger and more aggressive snakes in other parts of the world, such as mambas and cobras , [ 52 ] will respond more aggressively. If presented with a direct encounter, it is best to remain silent and motionless. If the snake has not yet fled, it is important to step away slowly and cautiously. [ citation needed ] 
+ The use of a flashlight when engaged in camping activities, such as gathering firewood at night, can be helpful. Snakes may also be unusually active during especially warm nights when ambient temperatures exceed 21   °C (70   °F) . It is advised not to reach blindly into hollow logs, flip over large rocks, and enter old cabins or other potential snake hiding places. When rock climbing , it is not safe to grab ledges or crevices without examining them first, as snakes are cold-blooded and often sunbathe atop rock ledges. [ citation needed ] 
+ In the United States, more than 40 percent of people bitten by snakes intentionally put themselves in harm's way by attempting to capture wild snakes or by carelessly handling their dangerous pets—40 percent of that number had a blood alcohol level of 0.1 percent or more. [ 53 ] 
+ It is also important to avoid snakes that appear to be dead , as some species will roll over on their backs and stick out their tongue to fool potential threats. A snake's detached head can immediately act by reflex and potentially bite. The induced bite can be just as severe as that of a live snake. [ 2 ] [ 54 ] 
+As a dead snake is incapable of regulating the venom injected, a bite from a dead snake can often contain large amounts of venom. [ 55 ] 
+ Snakebite-proof gaiters can also be worn to help prevent snakebites. As many snakes have relatively small fangs, gaiters may provide a physical barrier that prevents the fangs from penetrating the skin of the lower legs. 
+ Snakebite-proof gaiters worn over the lower legs for protection against snakebites. 
+ Treatment [ edit ] 
+ It may be difficult to determine if a bite by any species of snake is life-threatening. A bite by a North American copperhead on the ankle is usually a moderate injury to a healthy adult, but a bite to a child's abdomen or face by the same snake may be fatal. The outcome of all snakebites depends on a multitude of factors: the type of snake, the size, physical condition, and temperature of the snake, the age and physical condition of the person, the area and tissue bitten (e.g., foot, torso, vein or muscle), the amount of venom injected, the time it takes for the person to find treatment, and finally the quality of that treatment. [ 2 ] [ 56 ] An overview of systematic reviews on different aspects of snakebite management found that the evidence base from majority of treatment modalities is low quality. [ 57 ] An analysis of World Health Organization guidelines found that they are of low quality, with inadequate stakeholder involvement and poor methodological rigour. [ 58 ] In addition, access to effective treatment modalities is a major challenge in some regions, particularly in most African countries. [ 59 ] 
+ Snake identification [ edit ] 
+ Identification of the snake is important in planning treatment in certain areas of the world but is not always possible. Ideally, the dead snake would be brought in with the person, but in areas where snake bite is more common, local knowledge may be sufficient to recognize the snake. However, in regions where polyvalent antivenoms are available, such as North America , identification of snakes is not a high-priority item. Attempting to catch or kill the offending snake also puts one at risk for re-envenomation or creating a second person bitten, and generally is not recommended. [ 60 ] 
+ The three types of venomous snakes that cause the majority of major clinical problems are vipers , kraits , and cobras . Knowledge of what species are present locally can be crucial, as is knowledge of typical signs and symptoms of envenomation by each type of snake. A scoring system can be used to try to determine the biting snake based on clinical features, [ 61 ] but these scoring systems are extremely specific to particular geographical areas and might be compromised by the presence of escaped or released non-native species. [ 60 ] 
+ First aid [ edit ] 
+ Snakebite first aid recommendations vary, in part because different snakes have different types of venom. Some have little local effect, but life-threatening systemic effects, in which case containing the venom in the region of the bite by pressure immobilization is desirable. Other venoms instigate localized tissue damage around the bitten area, and immobilization may increase the severity of the damage in this area, but also reduce the total area affected; whether this trade-off is desirable remains a point of controversy. Because snakes vary from one country to another, first aid methods also vary. [ citation needed ] 
+ Many organizations, including the American Medical Association and American Red Cross , recommend washing the bite with soap and water. Australian recommendations for snake bite treatment are against cleaning the wound. Traces of venom left on the skin/bandages from the strike can be used in combination with a snake bite identification kit to identify the species of snake. This speeds the determination of which antivenom to administer in the emergency room. [ 62 ] 
+ Pressure immobilization [ edit ] 
+ Further information: Pressure immobilization technique 
+ Snakebite first-aid kit and pressure-immobilization bandages with tension indicators. 
+ As of 2008, clinical evidence for pressure immobilization using an elastic bandage was limited. [ 63 ] It is recommended as an immediate first-aid treatment for snakebites that have occurred in Australia (due to elapids which are neurotoxic). [ 64 ] It is not recommended for bites from non-neurotoxic snakes such as those found in North America and some other regions of the world. [ 64 ] [ 65 ] The British military recommends pressure immobilization in all cases where the type of snake is unknown. [ 66 ] 
+ Pressure immobilization is intended as an immediate first-aid measure to delay the systemic spread of venom and to buy time for medical assistance to be obtained. It does not replace definitive medical treatment. The technique aims to delay the movement of venom from a bitten limb through the lymphatic system , by applying pressure to restrict lymphatic drainage and immobilizing the bitten limb to reduce the pumping action of skeletal muscles . Because lymphatic flow is driven largely by muscle movements, the limb needs to be immobilised with a splint after the pressure bandage is applied. [ 67 ] 
+ Antivenom [ edit ] 
+ A Russell's viper is being "milked". Laboratories use extracted snake venom to produce antivenom , which is often the only effective treatment for potentially fatal snakebites. 
+ Until the advent of antivenom , bites from some species of snake were almost universally fatal. [ 68 ] Despite huge advances in emergency therapy, antivenom is often still the only effective treatment for envenomation. The first antivenom was developed in 1895 by French physician Albert Calmette for the treatment of Indian cobra bites. Antivenom is made by injecting a small amount of venom into an animal (usually a horse or sheep) to initiate an immune system response. The resulting antibodies are then harvested from the animal's blood. [ citation needed ] 
+ Antivenom is injected into the person intravenously , and works by binding to and neutralizing venom enzymes. It cannot undo the damage already caused by venom, so antivenom treatment should be sought as soon as possible. Modern antivenoms are usually polyvalent, making them effective against the venom of numerous snake species. Pharmaceutical companies that produce antivenom target their products against the species native to a particular area. The availability of antivenom is a major concern in some areas, including most of Africa, due to economic reasons (antivenom crisis). [ 59 ] In Sub-Saharan Africa, the efficacy of antivenom is often poorly characterised and some of the few available products have even been found to lack effectiveness. [ 69 ] 
+ Although some people may develop serious adverse reactions to antivenom, such as anaphylaxis , in emergency situations this is usually treatable in a hospital setting and hence the benefit outweighs the potential consequences of not using antivenom. Giving adrenaline (epinephrine) to prevent adverse reactions to antivenom before they occur might be reasonable in cases where they occur commonly. [ 70 ] Antihistamines do not appear to provide any benefit in preventing adverse reactions. [ 70 ] 
+ Chronic complications [ edit ] 
+ Chronic health effects of snakebite include but are not limited to non-healing and chronic ulcers, musculoskeletal disorders, amputations, chronic kidney disease, and other neurological and endocrine complications. [ 71 ] [ 72 ] The treatment of chronic complications of snakebite has not been well researched and there a systems approach consisting of a multi-component intervention. [ 73 ] [ 57 ] 
+ Outmoded [ edit ] 
+ Old-style snake bite kit that should not be used 
+ The following treatments, while once recommended, are considered of no use or harmful, including tourniquets, incisions, suction, application of cold, and application of electricity. [ 65 ] Cases in which these treatments appear to work may be the result of dry bites . 
+ Application of a tourniquet to the bitten limb is generally not recommended. There is no convincing evidence that it is an effective first-aid tool as ordinarily applied. [ 74 ] Tourniquets have been found to be completely ineffective in the treatment of Crotalus durissus bites, [ 75 ] but some positive results have been seen with properly applied tourniquets for cobra venom in the Philippines . [ 76 ] Uninformed tourniquet use is dangerous since reducing or cutting off circulation can lead to gangrene , which can be fatal. [ 74 ] The use of a compression bandage is generally as effective, and much safer. 
+ Cutting open the bitten area, an action often taken before suction, is not recommended since it causes further damage and increases the risk of infection; the subsequent cauterization of the area with fire or silver nitrate (also known as infernal stone ) is also potentially threatening. [ 77 ] 
+ Sucking out venom, either by mouth or with a pump, does not work and may harm the affected area directly. [ 78 ] Suction started after three minutes removes a clinically insignificant quantity—less than one-thousandth of the venom injected—as shown in a human study. [ 79 ] In a study with pigs, suction not only caused no improvement but led to necrosis in the suctioned area. [ 80 ] Suctioning by mouth presents a risk of further poisoning through the mouth's mucous tissues . [ 81 ] The helper may also release bacteria into the person's wound, leading to infection. 
+ Immersion in warm water or sour milk, followed by the application of snake-stones (also known as la Pierre Noire ), which are believed to draw off the poison in much the way a sponge soaks up water. 
+ Application of a one-percent solution of potassium permanganate or chromic acid to the cut, exposed area. [ 77 ] The latter substance is notably toxic and carcinogenic. 
+ Drinking abundant quantities of alcohol following the cauterization or disinfection of the wound area. [ 77 ] 
+ Use of electroshock therapy in animal tests has shown this treatment to be useless and potentially dangerous. [ 82 ] [ 83 ] [ 84 ] [ 85 ] 
+ In extreme cases, in remote areas, all of these misguided attempts at treatment have resulted in injuries far worse than an otherwise mild to moderate snakebite. In worst-case scenarios, thoroughly constricting tourniquets have been applied to bitten limbs, completely shutting off blood flow to the area. By the time the person finally reached appropriate medical facilities, their limbs had to be amputated . [ citation needed ] 
+ Epidemiology [ edit ] 
+ Main article: Epidemiology of snakebites 
+ See also: List of fatal snake bites in the United States and List of fatal snake bites in Australia 
+ Earlier estimates for snakebite vary from 1.2 to 5.5   million, with 421,000 to 2.5   million being envenomings, and causing 20,000 to 125,000 deaths. [ 3 ] [ 14 ] More recent modelling estimates that in 2019, about 63,400 people died globally from snakebite, with 51,100 of these deaths happening in India . [ 86 ] Since reporting is not mandatory in much of the world, the data on the frequency of snakebites is not precise. [ 14 ] Many people who survive bites have permanent tissue damage caused by venom , leading to disability. [ 18 ] Most snake envenomings and fatalities occur in South Asia , Southeast Asia , and sub-Saharan Africa , with India reporting the most snakebite deaths of any country. [ 14 ] Available evidence on the effect of climate change on the epidemiology of snakebite is limited but it is expected that there will be a geographic shift in the risk of snakebite: northwards in North America and southwards in South America and Mozambique , and increase in the incidence of bite in Sri Lanka . [ 87 ] 
+ Most snakebites are caused by non-venomous snakes. Of the roughly 3,000 known species of snake found worldwide, only 15% are considered dangerous to humans. [ 2 ] [ 14 ] Snakes are found on every continent except Antarctica . [ 14 ] The most diverse and widely distributed snake family, the colubrids , has approximately 700 venomous species, [ 88 ] but only five genera — boomslangs , twig snakes , keelback snakes , green snakes , and slender snakes —have caused human fatalities. [ 88 ] 
+ Worldwide, snakebites occur most frequently in the summer season when snakes are active and humans are outdoors. [ 14 ] [ 89 ] Agricultural and tropical regions report more snakebites than anywhere else. [ 14 ] [ 28 ] In the United States , those bitten are typically male and between 17 and 27 years of age. [ 2 ] [ 89 ] [ 90 ] Children and the elderly are the most likely to die. [ 2 ] [ 56 ] 
+ India has the largest recorded national burden. Using verbal autopsies from the nationally representative Million Death Study , a survey of 123,000 deaths estimated about 45,900 snakebite deaths in India in 2005, far above the numbers suggested by hospital reporting. [ 91 ] A later analysis of the same study, combining 2833 snakebite deaths recorded from 2001 to 2014 with a review of published reports, estimated 1.2 million snakebite deaths in India between 2000 and 2019, an average of about 58,000 a year. Nearly half were in people aged 30 to 69 and more than a quarter in children under 15, most occurred at home in rural areas, and the risk of an Indian dying from snakebite before the age of 70 was put at about 1 in 250. [ 92 ] 
+ Death rate from venomous snakes 
+ Map showing the approximate world distribution of snakes. Map showing the global distribution of snakebite morbidity. 
+ Society and culture [ edit ] 
+ See also: Serpent (symbolism) 
+ According to tradition, Cleopatra VII famously committed suicide by snakebite to her left breast, as depicted in this 1911 painting by Hungarian artist Gyula Benczúr . 
+ Snakes were both revered and worshipped and feared by early civilizations. The ancient Egyptians recorded prescribed treatments for snakebites as early as the Thirteenth Dynasty in the Brooklyn Medical Papyrus , which includes at least seven venomous species common to the region today, such as the horned vipers . [ 93 ] In Judaism , the Nehushtan was a pole with a snake made of copper fixed upon it. The object was regarded as a divinely empowered instrument of God that could bring healing to Jews bitten by venomous snakes while they were wandering in the desert after their exodus from Egypt . Healing was said to occur by merely looking at the object as it was held up by Moses . [ citation needed ] 
+ Historically, snakebites were seen as a means of execution in some cultures. [ 94 ] Reportedly, in Southern Han during China 's Five Dynasties and Ten Kingdoms period and in India a form of capital punishment was to throw people into snake pits , leaving people to die from multiple venomous bites. [ 95 ] According to popular belief, the Egyptian queen Cleopatra VII committed suicide by letting herself be bitten by an asp —likely an Egyptian cobra [ 93 ] [ 96 ] —after hearing of Mark Antony 's death, while some contemporary ancient authors rather assumed a direct application of poison. [ 97 ] 
+ Snakebite as a surreptitious form of murder has been featured in stories such as Sir Arthur Conan Doyle 's The Adventure of the Speckled Band , but actual occurrences are virtually unheard of, with only a few documented cases. [ 95 ] [ 98 ] [ 99 ] It has been suggested that Boris III of Bulgaria , who was allied to Nazi Germany during World War II , may have been killed with snake venom, [ 95 ] although there is no definitive evidence. At least one attempted suicide by snakebite has been documented in medical literature involving a puff adder bite to the hand. [ 100 ] 
+ In Jainism , the goddess Padmāvatī has been associated with curing snakebites. [ 101 ] 
+ Since 2018, International Snakebite Awareness Day has been observed on the 19th of September by the World Health Organization (WHO) and public global health coalitions. The purpose of the observance is to raise awareness of snakebite prevention, treatment and its impact as a global public health issue, particularly in tropical and subtropical regions. [ 102 ] [ 103 ] [ 104 ] 
+ Research [ edit ] 
+ In 2018, the World Health Organization listed snakebite envenoming as a neglected tropical disease. [ 105 ] [ 106 ] In 2019, they launched a strategy to prevent and control snakebite envenoming, which involved a program targeting affected communities and their health systems. [ 107 ] [ 108 ] A policy analysis however found that the placement of snakebite in the global health agenda of WHO is fragile due to reluctance to accept the disease in the neglected tropical disease community and the perceived colonial nature of the network driving the agenda. [ 109 ] 
+ Key institutions conducting snakebite research on snakebite are the George Institute for Global Health, the Liverpool School of Tropical Medicine, and the Indian Institute of Science. 
+ Recombinant antivenoms assembled from defined antibodies are under development as an alternative to plasma-derived products , which are produced by immunising horses or sheep with venom. In 2026, groups at the Indian Institute of Science and the Technical University of Denmark reported an antivenom made of five camelid nanobodies directed against the α-neurotoxins, cytotoxins and phospholipases A 2 that predominate in Indian elapid venoms. In mouse experiments the mixture prevented death after injection of venom from the monocled cobra , from pan-Indian populations of the spectacled cobra , and from both king cobra species found in India. [ 110 ] [ 111 ] 
+ In development [ edit ] 
+ Several new drugs and treatments are under development for snakebite. For instance, the metal chelator dimercaprol has recently been shown to potently antagonize the activity of Zn 2+ -dependent snake venom metalloproteinases in vitro . [ 112 ] New monoclonal antibodies , polymer gels and a small molecule inhibitor called Varespladib are in development. [ 113 ] A core outcome set (minimal list of consensus outcomes that should be used in future intervention research) for snakebite in South Asia is being developed. [ 114 ] 
+ In an article published in Nature in October 2025, a group led by researchers from the Technical University of Denmark has presented the possibility of a broad-spectrum antivenom that can work against the bites of many different snakes. They have developed an experimental polyvalent recombinant anti-venom that the authors claim to be capable of neutralising seven toxin families or subfamilies. [ 115 ] 
+ A study conducted by Jacob Glanville used two antibodies taken from the memory B cells of blood from a "hyperimmune" donor, who had been deliberately bitten by many species of snake, to develop an antivenom "cocktail". Elapidae were the focus of the study, of which nineteen are classified as being the deadliest on Earth by the World Health Organization . Tested on mice , the antivenom cocktail prevented death from thirteen of the nineteen species, with partial protection observed from the other six. [ 116 ] [ 117 ] 
+ Other animals [ edit ] 
+ Several animals acquired immunity against the venom of snakes that occur in the same habitat. [ 118 ] This has been documented in some humans as well. [ 119 ] 
+ References [ edit ] 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 "Venomous Snakes" . U.S. National Institute for Occupational Safety and Health . 24 February 2012. Archived from the original on 29 April 2015 . Retrieved 19 May 2015 . 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 Gold BS, Dart RC, Barish RA (August 2002). "Bites of venomous snakes". The New England Journal of Medicine . 347 (5): 347– 356. doi : 10.1056/NEJMra013477 . PMID   12151473 . 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 "Animal bites: Fact sheet N°373" . World Health Organization . February 2015. Archived from the original on 4 May 2015 . Retrieved 19 May 2015 . 
+ ↑ "Eldorado - Outdoor Safety & Ethics" . 
+ ↑ "What to do if you encounter a rattlesnake" . 
+ ↑ "Alcohol and Snake Bites – Reptiles Magazine" . December 2011. 
+ 1 2 3 4 5 6 7 8 "Neglected tropical diseases: Snakebite" . World Health Organization . Archived from the original on 30 September 2015 . Retrieved 19 May 2015 . 
+ 1 2 Marx JA (2010). Rosen's emergency medicine: concepts and clinical practice (7   ed.). Philadelphia: Mosby/Elsevier. p.   746. ISBN   978-0-323-05472-0 . Archived from the original on 21 May 2015. 
+ ↑ "Definition of Snakebite" . www.merriam-webster.com . Retrieved 17 June 2019 . 
+ ↑ Daley BJ, Torres J (June 2014). "Venomous snakebites". Journal of Emergency Medical Services . 39 (6): 58– 62. PMID   25109149 . 
+ 1 2 3 4 Eske J, Biggers A (14 December 2018). "How to identify and treat snake bites" . Medical News Today . Healthline Media UK Ltd . Retrieved 4 May 2022 . 
+ ↑ Peden MM (2008). World Report on Child Injury Prevention . World Health Organization . p.   128. ISBN   978-92-4-156357-4 . Archived from the original on 2 February 2017. 
+ 1 2 3 "Snake antivenoms: Fact sheet N°337" . World Health Organization . February 2015. Archived from the original on 18 April 2017 . Retrieved 16 May 2017 . 
+ 1 2 3 4 5 6 7 8 9 10 11 12 Kasturiratne A, Wickremasinghe AR, de Silva N, Gunawardena NK, Pathmeswaran A, Premaratna R, et   al. (November 2008). "The global burden of snakebite: a literature analysis and modelling based on regional estimates of envenoming and deaths" . PLOS Medicine . 5 (11) e218. doi : 10.1371/journal.pmed.0050218 . PMC   2577696 . PMID   18986210 . 
+ 1 2 3 Langley R, Haskell MG, Hareza D, King K (October 2020). "Fatal and Nonfatal Snakebite Injuries Reported in the United States". Southern Medical Journal . 113 (10): 514– 519. doi : 10.14423/SMJ.0000000000001156 . PMID   33005969 . 
+ ↑ World Health Organization. Prevalence of snakebite envenoming. [https://web.archive.org/web/20170922113845/http://www.who.int/snakebites/epidemiology/en/ ]. Accessed April 15, 2019 
+ ↑ "WHO | Snakebite envenomation turns again into a neglected tropical disease!" . WHO . Archived from the original on 22 September 2017. 
+ 1 2 3 4 5 6 7 8 9 10 Gutiérrez JM, Lomonte B, León G, Rucavado A, Chaves F, Angulo Y (2007). "Trends in snakebite envenomation therapy: scientific, technological and public health considerations". Current Pharmaceutical Design . 13 (28): 2935– 2950. doi : 10.2174/138161207782023784 . hdl : 10669/29338 . PMID   17979738 . 
+ ↑ Chippaux JP (1998). "Snake-bites: appraisal of the global situation" . Bulletin of the World Health Organization . 76 (5): 515– 524. PMC   2305789 . PMID   9868843 . 
+ 1 2 "Snake bites" . A.D.A.M. Medical Encyclopedia . MedlinePlus. 26 September 2024 [2023-11-02] . Retrieved 4 January 2026 . 
+ ↑ "Snake Bite First Aid – Snakebite" . Health-care-clinic.org . Archived from the original on 16 January 2016 . Retrieved 21 March 2009 . 
+ ↑ Snake bite image . Patient Education. MDconsult . Archived from the original on 7 January 2016. 
+ ↑ Kitchens CS, Van Mierop LH (September 1987). "Envenomation by the Eastern coral snake (Micrurus fulvius fulvius). A study of 39 victims". JAMA . 258 (12): 1615– 1618. doi : 10.1001/jama.258.12.1615 . PMID   3625968 . 
+ ↑ Otten E, Blomkalns A. Venomous animal injuries. In: Marx J, Hockberger R, Walls R, eds. Rosen's Emergency Medicine: Concepts and Clinical Practice. St Louis: Mosby; 2002 
+ ↑ Lamsal S (3 June 2023). "Snakebites in Nepal are a medical emergency. Here are things you should know about them" . Online Khabar . Retrieved 21 June 2023 . 
+ ↑ Warrell DA, Ormerod LD (May 1976). "Snake venom ophthalmia and blindness caused by the spitting cobra (Naja nigricollis) in Nigeria". The American Journal of Tropical Medicine and Hygiene . 25 (3): 525– 529. doi : 10.4269/ajtmh.1976.25.525 . PMID   1084700 . 
+ ↑ Ismail M, al-Bekairi AM, el-Bedaiwy AM, Abd-el Salam MA (1993). "The ocular effects of spitting cobras: I. The ringhals cobra (Hemachatus haemachatus) venom-induced corneal opacification syndrome". Journal of Toxicology. Clinical Toxicology . 31 (1): 31– 41. doi : 10.3109/15563659309000372 . PMID   8433414 . 
+ 1 2 Gutiérrez JM, Theakston RD, Warrell DA (June 2006). "Confronting the neglected problem of snake bite envenoming: the need for a global partnership" . PLOS Medicine . 3 (6) e150. doi : 10.1371/journal.pmed.0030150 . PMC   1472552 . PMID   16729843 . 
+ ↑ Cuhna JP (6 August 2021). "Symptoms and Signs of Snakebite (Snake Bite)" . eMedicine Health . WebMD . Retrieved 26 July 2022 . 
+ ↑ Peterson ME (2013). "Snake Bite". Small Animal Toxicology . pp.   783– 797. doi : 10.1016/B978-1-4557-0717-1.00075-2 . ISBN   978-1-4557-0717-1 . 
+ 1 2 Phillips CM (2002). "Sea snake envenomation". Dermatologic Therapy . 15 : 58– 61. doi : 10.1046/j.1529-8019.2002.01504.x . 
+ ↑ Sabirin MR, Sudjud RW, Suwarman, Pradian E (2020). "Case Report: Management of Respiratory Failure Following Snake Bite". Journal of Health and Medical Sciences . 3 (3). doi : 10.31014/aior.1994.03.03.129 . 
+ ↑ Bhaumik S, Kallakuri S, Kaur A, Devarapalli S, Daniel M (November 2020). "Mental health conditions after snakebite: a scoping review" . BMJ Global Health . 5 (11) e004131. doi : 10.1136/bmjgh-2020-004131 . PMC   7705584 . PMID   33257419 . 
+ 1 2 3 Garcia HH, Tanowitz H, Del Brutto OH (2013). Garcia HH, Tanowitz HB, Del Brutto OH (eds.). Neuroparasitology and tropical neurology . Newnes. p.   351. ISBN   978-0-444-53499-6 . Archived from the original on 8 September 2017. 
+ ↑ Campbell S, Shaw CE (1974). Snakes of The American West . New York: Alfred A. Knopf . ISBN   978-0-394-48882-0 . 
+ 1 2 Hayes WK, Herbert SS, Rehling GC, Gennaro JF (2002). "Factors that influence venom expenditure in viperids and other snake species during predatory and defensive contexts". Biology of the Vipers (PDF) . Eagle Mountain Publishing. pp.   207– 233. 
+ ↑ Young BA, Zahn K (December 2001). "Venom flow in rattlesnakes: mechanics and metering". The Journal of Experimental Biology . 204 (Pt 24): 4345– 4351. Bibcode : 2001JExpB.204.4345Y . doi : 10.1242/jeb.204.24.4345 . PMID   11815658 . 
+ ↑ Hayes WK (1995). "Venom metering by juvenile prairie rattlesnakes, Crotalus v. viridis : effects of prey size and experience". Animal Behaviour . 50 (1): 33– 40. Bibcode : 1995AnBeh..50...33H . doi : 10.1006/anbe.1995.0218 . 
+ ↑ Naik BS (July 2017). " "Dry bite" in venomous snakes: A review". Toxicon . 133 : 63– 67. Bibcode : 2017Txcn..133...63N . doi : 10.1016/j.toxicon.2017.04.015 . PMID   28456535 . 
+ ↑ Young BA, Kardong KV (January 2007). "Mechanisms controlling venom expulsion in the western diamondback rattlesnake, Crotalus atrox" . Journal of Experimental Zoology Part A: Ecological Genetics and Physiology . 307 (1): 18– 27. Bibcode : 2007JEZA..307...18Y . doi : 10.1002/jez.a.341 . PMID   17094108 . 
+ ↑ Bar-On B (February 2019). "On the form and bio-mechanics of venom-injection elements". Acta Biomaterialia . 85 : 263– 271. doi : 10.1016/j.actbio.2018.12.030 . PMID   30583109 . 
+ ↑ Young BA, Dunlap K, Koenig K, Singer M (September 2004). "The buccal buckle: the functional morphology of venom spitting in cobras" . The Journal of Experimental Biology . 207 (Pt 20): 3483– 3494. Bibcode : 2004JExpB.207.3483Y . doi : 10.1242/jeb.01170 . PMID   15339944 . 
+ 1 2 Young BA, Lee CE, Daley KM (2002). "Do Snakes Meter Venom?" . BioScience . 52 (12): 1121– 26. doi : 10.1641/0006-3568(2002)052 [ 1121:DSMV ] 2.0.CO ; 2 . The second major assumption that underlies venom metering is the snake's ability to accurately assess the target 
+ ↑ Young BA, Zahn K (2001). "Venom flow in rattlesnakes: Mechanics and metering". Journal of Experimental Biology . 204 (24): 4345– 4351. Bibcode : 2001JExpB.204.4345Y . doi : 10.1242/jeb.204.24.4345 . PMID   11815658 . 
+ ↑ Deufel A, Cundall D (2003). "Feeding in Atractaspis (Serpentes: Atractaspididae): A study in conflicting functional constraints". Zoology . 106 (1): 43– 61. Bibcode : 2003Zool..106...43D . doi : 10.1078/0944-2006-00088 . PMID   16351890 . 
+ 1 2 Jackson K (2003). "The evolution of venom-delivery systems in snakes". Zoological Journal of the Linnean Society . 137 (3): 337– 354. doi : 10.1046/j.1096-3642.2003.00052.x . 
+ ↑ Campbell S, Shaw CE (1974). Snakes of The American West . New York: Alfred A. Knopf . p.   181. ISBN   978-0-394-48882-0 . 
+ ↑ Fry BG, Vidal N, Norman JA, Vonk FJ, Scheib H, Ramjan SF, Kuruppu S, Fung K, Blair Hedges S, Richardson MK, Hodgson WC, Ignjatovic V, Summerhayes R, Kochva E (2006). "Early evolution of the venom system in lizards and snakes". Nature . 439 (7076): 584– 588. Bibcode : 2006Natur.439..584F . doi : 10.1038/nature04328 . PMID   16292255 . 
+ ↑ Russell FE (1980). "Snake venom poisoning in the United States". Annual Review of Medicine . 31 : 247– 259. doi : 10.1146/annurev.me.31.020180.001335 . PMID   6994610 . 
+ 1 2 3 4 5 6 7 8 9 10 11 Seifert SA, Armitage JO, Sanchez EE (6 January 2022). "Snake Envenomation" . New England Journal of Medicine . 386 (1): 68– 78. doi : 10.1056/NEJMra2105228 . PMC   9854269 . PMID   34986287 . 
+ ↑ Spawls S, Branch B (1997). The Dangerous Snakes of Africa . Johannesburg: Southern Book Publishers. p.   192. ISBN   978-1-86812-575-3 . 
+ ↑ Haji R. "Venomous snakes and snake bites" (PDF) . Zoocheck Canada . Archived from the original (PDF) on 25 April 2012 . Retrieved 25 October 2013 . 
+ ↑ Kurecki BA, Brownlee HJ (October 1987). "Venomous snakebites in the United States". The Journal of Family Practice . 25 (4): 386– 392. PMID   3655676 . 
+ ↑ Gold BS, Barish RA (May 1992). "Venomous snakebites. Current concepts in diagnosis, treatment, and management". Emergency Medicine Clinics of North America . 10 (2): 249– 267. doi : 10.1016/S0733-8627(20)30712-4 . PMID   1559468 . 
+ ↑ Suchard JR, LoVecchio F (June 1999). "Envenomations by rattlesnakes thought to be dead" . The New England Journal of Medicine . 340 (24): 1930. doi : 10.1056/NEJM199906173402420 . PMID   10375322 . 
+ 1 2 Gold BS, Wingert WA (June 1994). "Snake venom poisoning in the United States: a review of therapeutic practice". Southern Medical Journal . 87 (6): 579– 589. doi : 10.1097/00007611-199406000-00001 . PMID   8202764 . 
+ 1 2 Bhaumik S, Beri D, Lassi ZS, Jagnoor J (October 2020). "Interventions for the management of snakebite envenoming: An overview of systematic reviews" . PLOS Neglected Tropical Diseases . 14 (10) e0008727. doi : 10.1371/journal.pntd.0008727 . PMC   7584233 . PMID   33048936 . 
+ ↑ Bhaumik S, Jagadesh S, Lassi Z (1 April 2018). "Quality of WHO guidelines on snakebite: the neglect continues" . BMJ Global Health . 3 (2) e000783. doi : 10.1136/bmjgh-2018-000783 . PMC   5898301 . PMID   29662699 . 
+ 1 2 Berg P, Theart F, van Driel M, Saaiman EL, Mavoungou LB (6 November 2024). "Snakebite envenoming in Africa remains widely neglected and demands multidisciplinary attention" . Nature Communications . 15 (1): 9598. Bibcode : 2024NatCo..15.9598B . doi : 10.1038/s41467-024-54070-y . PMC   11541957 . PMID   39505859 . 
+ 1 2 Knudsen C, Jürgensen JA, Føns S, Haack AM, Friis RU, Dam SH, Bush SP, White J, Laustsen AH (2021). "Snakebite Envenoming Diagnosis and Diagnostics" . Frontiers in Immunology . 12 661457. doi : 10.3389/fimmu.2021.661457 . PMC   8113877 . PMID   33995385 . 
+ ↑ Pathmeswaran A, Kasturiratne A, Fonseka M, Nandasena S, Lalloo DG, de Silva HJ (September 2006). "Identifying the biting species in snakebite by clinical features: an epidemiological tool for community surveys". Transactions of the Royal Society of Tropical Medicine and Hygiene . 100 (9): 874– 878. doi : 10.1016/j.trstmh.2005.10.003 . PMID   16412486 . 
+ ↑ Chris Thompson. "Treatment of Australian Snake Bites" . Australian anaesthetists' website . Archived from the original on 23 March 2007. 
+ ↑ Currie BJ, Canale E, Isbister GK (June 2008). "Effectiveness of pressure-immobilization first aid for snakebite requires further study". Emergency Medicine Australasia . 20 (3): 267– 270. doi : 10.1111/j.1742-6723.2008.01093.x . PMID   18549384 . 
+ 1 2 Patrick Walker J, Morrison R, Stewart R, Gore D (January 2013). "Venomous bites and stings". Current Problems in Surgery . 50 (1): 9– 44. doi : 10.1067/j.cpsurg.2012.09.003 . PMID   23244230 . 
+ 1 2 American College of Medical Toxicology, American Academy of Clinical Toxicology, American Association of Poison Control Centers, European Association of Poison Control Centres, International Society of Toxinology, Asia Pacific Association of Medical Toxicology (December 2011). "Pressure immobilization after North American Crotalinae snake envenomation" . Journal of Medical Toxicology . 7 (4): 322– 323. doi : 10.1007/s13181-011-0174-2 . PMC   3550191 . PMID   22065370 . 
+ ↑ Wall C (September 2012). "British Military snake-bite guidelines: pressure immobilisation". Journal of the Royal Army Medical Corps . 158 (3): 194– 198. doi : 10.1136/jramc-158-03-09 . PMID   23472565 . 
+ ↑ "Pressure Immobilisation Technique: Why It Works for Snakebite and Venomous Bites" . reachau.com.au . Retrieved 19 September 2026 . 
+ ↑ White J (November 1991). "Oxyuranus microlepidotus" . Chemical Safety Information from Intergovernmental Organizations. Archived from the original on 3 August 2009 . Retrieved 24 July 2009 . Without appropriate antivenom treatment up to 75% of taipan bites will be fatal. Indeed, in the era before specific antivenom therapy, virtually no survivors of taipan bite were recorded. 
+ ↑ Potet J, Smith J, McIver L (24 June 2019). "Reviewing evidence of the clinical effectiveness of commercially available antivenoms in sub-Saharan Africa identifies the need for a multi-centre, multi-antivenom clinical trial" . PLOS Neglected Tropical Diseases . 13 (6) e0007551. doi : 10.1371/journal.pntd.0007551 . PMC   6615628 . PMID   31233536 . 
+ 1 2 Nuchpraryoon I, Garner P (2000). "Interventions for preventing reactions to snake antivenom" . The Cochrane Database of Systematic Reviews . 1999 (2) CD002153. doi : 10.1002/14651858.CD002153 . PMC   7017854 . PMID   10796682 . 
+ ↑ Kasturiratne A, Lalloo DG, Janaka de Silva H (July 2021). "Chronic health effects and cost of snakebite" . Toxicon . 9– 10 100074. Bibcode : 2021TxcnX...900074K . doi : 10.1016/j.toxcx.2021.100074 . PMC   8321925 . PMID   34355162 . 
+ ↑ Bhaumik S, Gopalakrishnan M, Meena P (October 2021). "Mitigating the chronic burden of snakebite: turning the tide for survivors". Lancet . 398 (10309): 1389– 1390. doi : 10.1016/S0140-6736(21)01905-X . PMID   34537105 . 
+ ↑ Bhaumik S, Gopalakrishnan M, Meena P (October 2021). "Mitigating the chronic burden of snakebite: turning the tide for survivors". Lancet . 398 (10309): 1389– 1390. doi : 10.1016/S0140-6736(21)01905-X . PMID   34537105 . 
+ 1 2 Theakston BR (1997). "An objective approach to antivenom therapy and assessment of first aid measures in snake bite". Annals of Tropical Medicine and Parasitology . 91 (7): 857– 866. doi : 10.1080/00034989760626 . PMID   9625943 . 
+ ↑ Amaral CF, Campolina D, Dias MB, Bueno CM, Rezende NA (May 1998). "Tourniquet ineffectiveness to reduce the severity of envenoming after Crotalus durissus snake bite in Belo Horizonte, Minas Gerais, Brazil". Toxicon . 36 (5): 805– 808. Bibcode : 1998Txcn...36..805A . doi : 10.1016/S0041-0101(97)00132-3 . PMID   9655642 . 
+ ↑ Watt G, Padre L, Tuazon ML, Theakston RD, Laughlin LW (May 1988). "Tourniquet application after cobra bite: delay in the onset of neurotoxicity and the dangers of sudden release". The American Journal of Tropical Medicine and Hygiene . 38 (3): 618– 622. doi : 10.4269/ajtmh.1988.38.618 . PMID   3275141 . 
+ 1 2 3 Lupano G, Peola P (1915). Corso di Scienze Naturali a uso delle Scuole Complementari [ A Course of Natural Sciences for the Complementary Institutes ] (in Italian). G.B. Paravia. p.   68. 
+ ↑ Holstege CP, Singletary EM (July 2006). "Images in emergency medicine. Skin damage following application of suction device for snakebite" . Annals of Emergency Medicine . 48 (1): 105, 113. doi : 10.1016/j.annemergmed.2005.12.019 . PMID   16781926 . 
+ ↑ Alberts MB, Shalit M, LoGalbo F (February 2004). "Suction for venomous snakebite: a study of "mock venom" extraction in a human model". Annals of Emergency Medicine . 43 (2): 181– 186. doi : 10.1016/S0196-0644(03)00813-8 . PMID   14747805 . 
+ ↑ Bush SP, Hegewald KG, Green SM, Cardwell MD, Hayes WK (2000). "Effects of a negative pressure venom extraction device (Extractor) on local tissue injury after artificial rattlesnake envenomation in a porcine model" . Wilderness & Environmental Medicine . 11 (3): 180– 188. doi : 10.1580/1080-6032(2000)011 [ 0180:EOANPV ] 2.3.CO ; 2 . PMID   11055564 . 
+ ↑ Riggs BS, Smilkstein MJ, Kulig KW, et al. Rattlesnake envenomation with massive oropharyngeal edema following incision and suction (Abstract). Presented at the AACT/AAPCC/ABMT/CAPCC Annual Scientific Meeting, Vancouver, Canada, September 27 October 2, 1987. 
+ ↑ Russell FE (October 1987). "Another warning about electric shock for snakebite". Postgraduate Medicine . 82 (5): 32. doi : 10.1080/00325481.1987.11699990 . PMID   3671201 . 
+ ↑ Ryan AJ (August 1987). "Don't use electric shock for snakebite". Postgraduate Medicine . 82 (2): 42. doi : 10.1080/00325481.1987.11699922 . PMID   3497394 . 
+ ↑ Howe NR, Meisenheimer JL (March 1988). "Electric shock does not save snakebitten rats". Annals of Emergency Medicine . 17 (3): 254– 256. doi : 10.1016/S0196-0644(88)80118-5 . PMID   3257850 . 
+ ↑ Johnson EK, Kardong KV, Mackessy SP (1987). "Electric shocks are ineffective in treatment of lethal effects of rattlesnake envenomation in mice". Toxicon . 25 (12): 1347– 1349. Bibcode : 1987Txcn...25.1347J . doi : 10.1016/0041-0101(87)90013-4 . PMID   3438923 . 
+ ↑ Roberts NL, Johnson EK, Zeng SM, Hamilton EB, Abdoli A, Alahdab F, Alipour V, Ancuceanu R, Andrei CL, Anvari D, Arabloo J, Ausloos M, Awedew AF, Badiye AD, Bakkannavar SM (25 October 2022). "Global mortality of snakebite envenoming between 1990 and 2019" . Nature Communications . 13 (1): 6160. Bibcode : 2022NatCo..13.6160G . doi : 10.1038/s41467-022-33627-9 . PMC   9596405 . PMID   36284094 . 
+ ↑ Bhaumik S, Beri D, Jagnoor J (October 2022). "The impact of climate change on the burden of snakebite: Evidence synthesis and implications for primary healthcare" . Journal of Family Medicine and Primary Care . 11 (10): 6147– 6158. doi : 10.4103/jfmpc.jfmpc_677_22 . PMC   9810950 . PMID   36618235 . 
+ 1 2 MacKessy SP (2002). "Biochemistry and Pharmacology of Colubrid Snake Venoms". Journal of Toxicology: Toxin Reviews . 21 ( 1– 2): 43– 83. doi : 10.1081/TXR-120004741 . Estimates of the number of venomous colubrids approach 700 species. Most may not produce a venom capable of causing serious damage to humans, but at least five species ( Dispholidus typus , Thelotornis capensis , Rhabdophis tigrinus , Philodryas olfersii and Tachymenis peruviana ) 
+ 1 2 Wingert WA, Chan L (January 1988). "Rattlesnake bites in southern California and rationale for recommended treatment" . The Western Journal of Medicine . 148 (1): 37– 44. PMC   1026007 . PMID   3277335 . 
+ ↑ Parrish HM (March 1966). "Incidence of treated snakebites in the United States" . Public Health Reports . 81 (3): 269– 276. doi : 10.2307/4592691 . JSTOR   4592691 . PMC   1919692 . PMID   4956000 . 
+ ↑ Mohapatra B, Warrell DA, Suraweera W, Bhatia P, Dhingra N, Jotkar RM, Rodriguez PS, Mishra K, Whitaker R, Jha P (April 2011). "Snakebite mortality in India: a nationally representative mortality survey" . PLOS Neglected Tropical Diseases . 5 (4): e1018. doi : 10.1371/journal.pntd.0001018 . PMC   3075236 . PMID   21532748 . {{ cite journal }} : CS1 maint: article number as page number ( link ) 
+ ↑ Suraweera W, Warrell D, Whitaker R, Menon G, Rodrigues R, Fu SH, Begum R, Sati P, Piyasena K, Bhatia M, Brown P, Jha P (July 2020). "Trends in snakebite deaths in India from 2000 to 2019 in a nationally representative mortality study" . eLife . 9 : e54076. doi : 10.7554/eLife.54076 . PMC   7338050 . PMID   32633232 . {{ cite journal }} : CS1 maint: article number as page number ( link ) 
+ 1 2 Schneemann M, Cathomas R, Laidlaw ST, El Nahas AM, Theakston RD, Warrell DA (November 2004). "Life-threatening envenoming by the Saharan horned viper (Cerastes cerastes) causing micro-angiopathic haemolysis, coagulopathy and acute renal failure: clinical cases and review" . QJM . 97 (11): 717– 727. doi : 10.1093/qjmed/hch118 . PMID   15496528 . This echoed the opinion of the Egyptian physicians who wrote the earliest known account of the treatment of snake bite, the Brooklyn Museum Papyri, dating perhaps from 2200 BC. They regarded bites by horned vipers 'fy' as non-lethal, as the victims could be saved. 
+ ↑ Wilcox C (9 August 2016). Venomous: How Earth's Deadliest Creatures Mastered Biochemistry . Farrar, Straus and Giroux. ISBN   978-0-374-71221-1 . 
+ 1 2 3 Anil A (2004). "Homicide with snakes: A distinct possibility and its medicolegal ramifications" . Anil Aggrawal's Internet Journal of Forensic Medicine and Toxicology . 4 (2). Archived from the original on 18 July 2007. 
+ ↑ Crawford A (1 April 2007). "Who Was Cleopatra? Mythology, propaganda, Liz Taylor and the real Queen of the Nile" . Smithsonian . Retrieved 4 September 2009 . 
+ ↑ Grant M (14 July 2011). Cleopatra: Cleopatra . Orion. ISBN   978-1-78022-114-4 . 
+ ↑ Warrell DA (September 2009). "Commissioned article: management of exotic snakebites" . QJM . 102 (9): 593– 601. doi : 10.1093/qjmed/hcp075 . PMID   19535618 . 
+ ↑ Straight RC, Glenn JL (1993). "Human fatalities caused by venomous animals in Utah, 1900-1990". The Great Basin Naturalist . 53 : 390– 394. doi : 10.5962/bhl.part.16607 . A third unusual death was a tragic fatality (1987), recorded as a homicide, which resulted when a large rattlesnake ( G. v. lutosus ) bit a 22-month-old girl after the snake had been placed around her neck (Washington County). The child died in approximately 5 h. 
+ ↑ Strubel T, Birkhofer A, Eyer F, Werber KD, Förstl H (May 2008). "[Attempted suicide by snake bite. Case report and literature survey]" [ Attempted suicide by snake bite: Case report and literature survey ] . Der Nervenarzt (in German). 79 (5): 604– 606. doi : 10.1007/s00115-008-2431-4 . PMID   18365165 . Ein etwa 20-jähriger Arbeiter wurde nach dem Biss seiner Puffotter ( Bitis arietans ) in die Hand auf die toxikologische Intensivstation aufgenommen. Zunächst berichtet der Patient, dass es beim "Melken" der Giftschlange zu dem Biss gekommen sei, erst im weiteren Verlauf räumt er einen Suizidversuch ein. Als Gründe werden Einsamkeit angeführt sowie unerträgliche Schmerzen im Penis. 
+ ↑ Slouber M (2017). Early Tantric Medicine: Snakebite, Mantras, and Healing in the Garuda Tantras . Oxford University Press. p.   99. ISBN   978-0-19-046181-2 . 
+ ↑ "International Snakebite Awareness Day" . Asclepius Snakebite Foundation . Retrieved 18 September 2026 . 
+ ↑ "The first-ever International Snakebite Awareness Day | RSTMH" . www.rstmh.org . 19 September 2018 . Retrieved 18 September 2026 . 
+ ↑ Edmund H (23 September 2019). "International Snakebite Awareness Day Launch" . School of Biomedical Sciences . Retrieved 18 September 2026 . 
+ ↑ Minghui R, Malecela MN, Cooke E, Abela-Ridder B (July 2019). "WHO's Snakebite Envenoming Strategy for prevention and control" . The Lancet. Global Health . 7 (7): e837– e838. doi : 10.1016/S2214-109X(19)30225-6 . PMID   31129124 . 
+ ↑ Schiermeier Q (May 2019). "Snakebite crisis gets US$100-million boost for better antivenoms". Nature . doi : 10.1038/d41586-019-01557-0 . PMID   32409762 . 
+ ↑ "Snakebite: WHO targets 50% reduction in deaths and disabilities" . World Health Organization . Retrieved 30 May 2019 . 
+ ↑ Williams DJ, Faiz MA, Abela-Ridder B, Ainsworth S, Bulfone TC, Nickerson AD, et   al. (February 2019). "Strategy for a globally coordinated response to a priority neglected tropical disease: Snakebite envenoming" . PLOS Neglected Tropical Diseases . 13 (2) e0007059. doi : 10.1371/journal.pntd.0007059 . PMC   6383867 . PMID   30789906 . 
+ ↑ Bhaumik S, Zwi AB, Norton R, Jagnoor J (2023). "How and why snakebite became a global health priority: A policy analysis" . BMJ Global Health . 8 (8) e011923. doi : 10.1136/bmjgh-2023-011923 . PMC   10445399 . PMID   37604596 . 
+ ↑ Samanta A, Rudresha GV, Ahmadi S, et   al. (2026). "Oligoclonal nanobody-based recombinant antivenom protects mice challenged with venom from cobras and king cobras from India". Science Translational Medicine . doi : 10.1126/scitranslmed.aed4290 . 
+ ↑ "Engineered antibodies offer broad protection against deadly cobra toxins" . Indian Institute of Science. 9 September 2026 . Retrieved 24 November 2026 . 
+ ↑ Albulescu LO, Hale MS, Ainsworth S, Alsolaiss J, Crittenden E, Calvete JJ, et   al. (May 2020). "Preclinical validation of a repurposed metal chelator as an early-intervention therapeutic for hemotoxic snakebite" . Science Translational Medicine . 12 (542) eaay8314. doi : 10.1126/scitranslmed.aay8314 . PMC   7116364 . PMID   32376771 . 
+ ↑ "The search for better antivenoms heats up as snakebites get renewed attention" . Chemical & Engineering News . Retrieved 15 October 2020 . 
+ ↑ Bhaumik S, Beri D, Tyagi J, Clarke M, Sharma SK, Williamson PR, Jagnoor J (8 June 2022). "Outcomes in intervention research on snakebite envenomation: a systematic review" . F1000Research . 11 : 628. doi : 10.12688/f1000research.122116.1 . PMC   9579743 . PMID   36300033 . 
+ ↑ Ahmadi S, et   al. (2025). "Nanobody-based recombinant antivenom for cobra, mamba and rinkhals bites" . Nature . 647 (8090): 716– 725. Bibcode : 2025Natur.647..716A . doi : 10.1038/s41586-025-09661-0 . PMC   12629983 . PMID   41162699 . 
+ ↑ Gallagher J (3 May 2025). " 'Unparalleled' snake antivenom made from man bitten 200 times" . BBC News . Retrieved 4 January 2026 . 
+ ↑ Glanville J, Bellin M, Pletnev S, Zhang B, Andrade JC, Kim S, Tsao D, Verardi R, Bedi R, Liao S, Newland R, Bayless NL, Youssef S, Tully ES, Bylund T, Kim S, Hirou H, Liu T, Kwong PD (2025). "Snake venom protection by a cocktail of varespladib and broadly neutralizing human antibodies" . Cell . 188 (12): 3117–3134.e11. doi : 10.1016/j.cell.2025.03.050 . 
+ ↑ Bittel J. "The Animals That Venom Can't Touch" . Smithsonian . Retrieved 29 May 2018 . 
+ ↑ Collins B (11 February 2018). "Poison pass: the man who became immune to snake venom" . the Guardian . Retrieved 29 May 2018 . 
+ Bibliography 
+ Greene HW (1997). Snakes: The Evolution of Mystery in Nature . Berkeley, CA: University of California Press. ISBN   978-0-520-20014-2 . 
+ Mackessy SP, ed. (2010). Handbook of Venoms and Toxins of Reptiles (2nd   ed.). Boca Raton, FL: CRC Press. ISBN   978-0-8493-9165-1 . 
+ Valenta J (2010). Venomous Snakes: Envenoming, Therapy (2nd   ed.). Hauppauge, NY: Nova Science Publishers. ISBN   978-1-60876-618-5 . 
+ Further reading [ edit ] 
+ Library resources about Snakebite 
+ Online books 
+ Resources in your library 
+ Resources in other libraries 
+ Campbell JA , Lamar WW (2004). The Venomous Reptiles of the Western Hemisphere . Ithaca, NY: Cornell University Press 978-0-8014-4141-7. 
+ Spawls S, Branch B (1995). The Dangerous Snakes of Africa: Natural History, Species Directory, Venoms and Snakebite . Sanibel Island, FL: Ralph Curtis Publishing. ISBN   978-0-88359-029-4 . 
+ Sullivan JB, Wingert WA, Norris Jr RL (1995). "North American Venomous Reptile Bites". Wilderness Medicine: Management of Wilderness and Environmental Emergencies . 3 : 680– 709. 
+ Thorpe RS, Wüster W , Malhotra A (14 May 1997). Venomous Snakes: Ecology, Evolution, and Snakebite . Oxford, England: Oxford University Press . ISBN   978-0-19-854986-4 . 
+ External links [ edit ] 
+ WHO Snake Antivenoms Database 
+ Organization (2016). Guidelines for the management of snakebites . Regional Office for South-East Asia, World Health Organization. hdl : 10665/249547 . ISBN   978-92-9022-530-0 . 
+ Classification D ICD - 10 : T63.0 , T14.1, W59 (nonvenomous), X20 (venomous) ICD - 9-CM : 989.5 , E905.0 , E906.2 MeSH : D012909 DiseasesDB : 29733 External resources MedlinePlus : 000031 eMedicine : med/2143 Scholia : Q68854 
+ v t e General wounds and injuries Abrasions 
+ Abrasion 
+ Avulsion 
+ Blisters 
+ Blood blister 
+ Coma blister 
+ Delayed blister 
+ Edema blister 
+ Fracture blister 
+ Friction blister 
+ Sucking blister 
+ Bruises 
+ Hematoma / Ecchymosis 
+ Battle's sign 
+ Raccoon eyes 
+ Black eye 
+ Subungual hematoma 
+ Cullen's sign 
+ Grey Turner's sign 
+ Retroperitoneal hemorrhage 
+ Biting 
+ Animal 
+ Insect 
+ Spider 
+ Snake 
+ Other: 
+ Ballistic trauma 
+ Stab wound 
+ Splinter 
+ Blunt trauma /superficial/ closed 
+ Penetrating trauma / open 
+ Aerosol burn 
+ Burn / Corrosion / Chemical burn 
+ Frostbite 
+ Occupational injuries 
+ Traumatic amputation 
+ By region 
+ Hand injury 
+ Head injury 
+ Chest trauma 
+ Abdominal trauma 
+ v t e 
+ Poisoning 
+ Toxicity 
+ Overdose 
+ Poison 
+ History 
+ Inorganic Metals Toxic metals 
+ Beryllium 
+ Cadmium 
+ Lead 
+ Mercury 
+ Nickel 
+ Thallium 
+ Tin 
+ Dietary minerals 
+ Chromium 
+ Cobalt 
+ Copper 
+ Iron 
+ Manganese 
+ Zinc 
+ Other non-toxic metals 
+ Silver 1 
+ Metalloids 
+ Arsenic 
+ Nonmetals 
+ Sulfuric acid 
+ Selenium 
+ Chlorine 
+ Fluoride 
+ Organic Phosphorus 
+ Pesticides 
+ Aluminium phosphide 
+ Organophosphates 
+ Nitrogen 
+ Cyanide 
+ Nicotine 
+ Nitrogen dioxide poisoning 
+ CHO 
+ alcohol 
+ Ethanol 
+ Ethylene glycol 
+ Methanol 
+ Carbon monoxide 
+ Oxygen 
+ Toluene 
+ Pharmaceutical Drug overdoses Nervous 
+ Alcohol 
+ Anticholinesterase 
+ Aspirin 
+ Barbiturates 
+ Benzodiazepines 
+ Cocaine 
+ Lithium 
+ Opioids 
+ Paracetamol 
+ Serotonergic substances 
+ Tricyclic antidepressants 
+ Cardiovascular 
+ Digoxin 
+ Dipyridamole 
+ Vitamin poisoning 
+ Vitamin A 
+ Vitamin D 
+ Vitamin E 
+ Megavitamin-B 6 syndrome 
+ Biological 2 Fish   / Seafood 
+ Ciguatera 
+ Haff disease 
+ Ichthyoallyeinotoxism 
+ Scombroid 
+ Shellfish poisoning 
+ Amnesic 
+ Diarrhetic 
+ Neurotoxic 
+ Paralytic 
+ Other vertebrates 
+ Amphibian 
+ Batrachotoxin 
+ Bombesin 
+ Bufotenin 
+ Physalaemin 
+ Birds 
+ Coturnism 
+ Mammal 
+ Snakes   / Snake venom 
+ Alpha-Bungarotoxin 
+ Ancrod 
+ Batroxobin 
+ Arthropods 
+ Arthropod bites and stings 
+ Bee sting   / Bee venom 
+ Apamin 
+ Melittin 
+ Scorpion venom 
+ Charybdotoxin 
+ spider venom 
+ Latrotoxin   / Latrodectism 
+ Loxoscelism 
+ Tick paralysis 
+ Plants   / Fungi 
+ Cinchonism 
+ Ergotism 
+ Fish toxins 
+ Lathyrism 
+ Locoism 
+ Mushroom 
+ Strychnine 
+ Related topics 
+ Bite and Stinger 
+ plant 
+ Cnidocyte 
+ Venomous animals 
+ Poisonous animals 
+ Deadly fungus 
+ Mycotoxicology 
+ Miscellaneous 
+ Antibiotic 
+ EPA list of hazard 
+ Lists of poisonings 
+ List of types of poison 
+ Pollution 
+ 1 Silver is generally non-toxic metal, but in large doses it can lead to argyria , which is rare. 
+ 2 including venoms , toxins , foodborne illnesses . 
+ Category 
+ Commons 
+ WikiProject 
+ v t e Animal bites and stings Invertebrate 
+ Arthropod 
+ Centipede 
+ Insect 
+ Ant 
+ Bed bug cimicosis 
+ Bee 
+ Flea pulicosis 
+ Mosquito 
+ Scorpion scorpionism 
+ Skin mite demodicosis 
+ Spider arachnidism 
+ Black widow spider latrodectism 
+ Recluse spider loxoscelism 
+ Millipede 
+ Bristleworm 
+ Cephalopod 
+ Coral 
+ Jellyfish 
+ Sea anemone 
+ Sea urchin 
+ Vertebrate 
+ Alligator 
+ Bear 
+ Beaver 
+ Cougar 
+ Coyote 
+ Crocodile 
+ Domestic cat 
+ Orca 
+ Leopard 
+ Monkey 
+ Shark 
+ Snake 
+ Stingray 
+ Tiger 
+ Venomous fish 
+ Walrus 
+ Wolf 
+ Dog 
+ Dingo 
+ Other 
+ Animal attack 
+ Cnidocyte 
+ Man-eating animal 
+ Stinging plant 
+ Seabather's eruption 
+ Category 
+ v t e Reptiles in culture Dinosaurs 
+ Crystal Palace Dinosaurs 
+ Jurassic Park 
+ Stegosaurus in popular culture 
+ Tyrannosaurus in popular culture 
+ Snakes 
+ Basilisk 
+ Caduceus 
+ Serpents in the Bible 
+ Rod of Asclepius 
+ Snakebite 
+ Snake charming 
+ Serpent (symbolism) 
+ Snake worship 
+ Other 
+ Cultural depictions of turtles 
+ Bixi (mythology) 
+ Turtle Island 
+ World Turtle 
+ Crocodile farm 
+ Crocodile tears 
+ Dragon 
+ Reptilian humanoid 
+ Authority control databases International Schlangenbiss</span>"}]]}'> GND Other NARA 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Snakebite&oldid=1387573566 " 
+ Categories : Animal bites Snake attacks Medical emergencies Parasitic infestations, stings, and bites of the skin Venomous snakes Wilderness medical emergencies Tropical diseases Hidden categories: Articles with short description Short description is different from Wikidata Use dmy dates from January 2014 All articles with unsourced statements Articles with unsourced statements from April 2024 Articles with unsourced statements from May 2021 Articles with unsourced statements from March 2023 Articles with unsourced statements from July 2020 CS1 Italian-language sources (it) CS1 maint: article number as page number Pages using gadget OWIDPopup CS1 German-language sources (de) Wikipedia medicine articles ready to translate Wikipedia emergency medicine articles ready to translate 
+ This page was last edited on 24 November 2026, at 16:34  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Snakebite 
+ 54 languages 
+ Add topic 
+ 

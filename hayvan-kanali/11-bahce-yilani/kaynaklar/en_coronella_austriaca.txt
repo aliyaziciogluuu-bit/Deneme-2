@@ -1,0 +1,202 @@
+ 
+ Smooth snake - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Subspecies 
+ 2 
+ Geographic range 
+ 3 
+ Description 
+ 4 
+ Biology 
+ 5 
+ See also 
+ 6 
+ References 
+ 7 
+ Further reading 
+ 8 
+ Gallery 
+ 9 
+ External links 
+ Toggle the table of contents 
+ Smooth snake 
+ 55 languages 
+ Aragonés العربية مصرى Asturianu Azərbaycanca Башҡортса Беларуская (тарашкевіца) Беларуская Български Català Cebuano Čeština Чӑвашла Dansk Deutsch Ελληνικά Español Eesti Euskara فارسی Suomi Français Galego Hrvatski Magyar Հայերեն Italiano ქართული 한국어 Lëtzebuergesch Lietuvių Latviešu Македонски Кырык мары Nederlands Norsk nynorsk Norsk bokmål Diné bizaad Ирон Polski Português Română Русский Simple English Slovenčina Slovenščina Shqip Српски / srpski Svenska Türkçe Татарча / tatarça Українська Tiếng Việt Winaray 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Save 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ Save 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikispecies Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ (Redirected from Coronella austriaca ) 
+ Species of non-venomous snake 
+ This article is about the animal. For other uses, see Smooth snake (disambiguation) . 
+ {{cite iucn |author=Crnobrnja-Isailović, J. |author2=Ajtic, R. |author3=Vogrin, M. |author4=Corti, C. |author5=Pérez Mellado, V. |author6=Sá-Sousa, P. |author7=Cheylan, M. |author8=Pleguezuelos, J. |author9=Westerström, A. |author10=De Haan, C.C. |author11=Tok, V. |author12=Borczyk, B. |author13=Sterijovski, B. |author14=Schmidt, B. |author15=Borkin, L. |author16=Milto, K. |author17=Golynsky, E. |author18=Rustamov, A, Nuridjanov, D. |author19=Munkhbayar, K. |author20=Shestopal, A. |author21=Litvinchuk, S. |display-authors=3 |year=2017 |title=Coronella austriaca |article-number=e.T157284A748852 |doi=10.2305/IUCN.UK.2017-2.RLTS.T157284A748852.en |access-date=9 June 2022}}</ref>"},"taxon":{"wt":"Coronella austriaca"},"authority":{"wt":"[[Josephus Nicolaus Laurenti|Laurenti]], 1768<ref name=RDB>{{EMBL species|genus=Coronella|species=austriaca}}. www.reptile-database.org.</ref>"},"range_map":{"wt":"CoronellaAustriacaIUCNver2020-1.png"},"range_map_caption":{"wt":"Range of ''C. austriaca''"}},"i":0}}]}'> 
+ Smooth snake 
+ Conservation status 
+ Least Concern   ( IUCN 3.1 ) [ 1 ] 
+ Scientific classification 
+ Kingdom: 
+ Animalia 
+ Phylum: 
+ Chordata 
+ Class: 
+ Reptilia 
+ Order: 
+ Squamata 
+ Suborder: 
+ Serpentes 
+ Family: 
+ Colubridae 
+ Genus: 
+ Coronella 
+ Species: 
+ C.   austriaca 
+ Binomial name 
+ Coronella austriaca Laurenti , 1768 [ 2 ] 
+ Range of C. austriaca 
+ The smooth snake ( Coronella austriaca ) [ 3 ] is a species of small snakes in the family Colubridae . The species is found in northern and central Europe, but also as far east as northern Iran. The Reptile Database recognizes two subspecies as being valid, including the nominotypical subspecies described here. [ 2 ] 
+ Subspecies [ edit ] 
+ There are two subspecies: [ 2 ] 
+ Subspecies 
+ Distribution 
+ C. a. austriaca 
+ Laurenti , 1768 
+ C. a. acutirostris 
+ Malkmus , 1995 
+ Portugal 
+ Geographic range [ edit ] 
+ Coronella austriaca is found from the south of England through France and the Low Countries to northern Spain and Portugal, Germany, Norway and Sweden (as far north as latitude 63°), Latvia, Lithuania, Estonia, Switzerland, Austria, Italy and Sicily (but not in Corsica or Sardinia ), the western Balkans and Greece, and European Russia as far north as latitude 57°. In Asia, it is found from Turkey to Azerbaijan , Georgia , Armenia and northern Iran. [ 4 ] It is absent in Denmark despite the species being found just south of the German border as well as in southern Sweden. The species is only known from Denmark from 6 specimens, all found between 1870 and 1914. [ 5 ] 
+ In Finland, the species is found only in Åland , and it is not common there. [ citation needed ] 
+ Description [ edit ] 
+ Feeding on a common slow worm 
+ Both sexes of C. austriaca grow to an average total length (including tail) of about 60   cm (24   in) to 75   cm (30   in) . Two specimens measuring 83   cm (33   in) have been recorded in Sweden, as well as one in Russia that was 92   cm (36   in) . [ 3 ] 
+The head has a rostral scale that is at least as deep as it is wide, creating a triangular indentation between the internasal scales (rarely separating them). The top of the head is covered with nine large plates. The nasal scale is often divided. There is one (rarely two) preoculars and two postoculars . The temporals number 2+2 or 2+3 (rarely 1+2). There are seven (rarely eight) upper labials , of which the third and fourth or fourth and fifth border the eye. [ 3 ] Eating a grass snake In the middle part of the body there are 19 (rarely 17 or 21) rows of dorsal scales . In contrast with many other snakes found in the region, these scales are flat (not keeled). This gives the snake a smooth texture to the touch, from which it gets its common name. The ventral scales number 150–164 in males and 162–200 in females. The anal scale is divided (rarely single) and the subcaudal scales are paired. Males have 54–70 subcaudal scales and females 40–76. [ 3 ] 
+ The colour pattern consists of a brown, grey or reddish ground colour [ 4 ] with two rows of small, rather indistinct dark spots running down the back towards the tail. In some cases, each pair of spots may be united toward the neck area, forming a series of cross-bars over the back. There is also a very indistinct series of dark spots running along each of the flanks. These four series of spots along the body overlay four parallel, rather shadowy stripes that also run down the back and flanks. [ 3 ] 
+ On the top of the head is a dark marking which is often in the shape of a crown, giving rise to the generic name Coronella (which means coronet ). A relatively thick dark stripe extends from each nostril, through the eye, and along the side of the head to a little beyond the neck. The upper labials are whitish, greyish-white or light brown, sometimes with darker spots. The tongue is reddish brown or dark red. [ 3 ] 
+ Biology [ edit ] 
+ The smooth snake feeds on smaller animals, especially other reptiles. It subdues larger prey by constriction, although unlike true constrictors it does not kill by this method. [ 6 ] C. austriaca is an opisthoglyphous species, the total subjugation of its prey occurs through the inoculation of secretions produced by the venom gland, which are able to neutralize small animals [ 7 ] . Smooth snakes are ovoviviparous : the juveniles hatch out of eggs internally and are born live. [ 8 ] 
+ In Britain it is restricted to heathland habitats. 
+ See also [ edit ] 
+ List of reptiles of Europe 
+ References [ edit ] 
+ ↑ Crnobrnja-Isailović, J.; Ajtic, R.; Vogrin, M.; et   al. (2017). "Coronella austriaca" . IUCN Red List of Threatened Species . 2017 e.T157284A748852. doi : 10.2305/IUCN.UK.2017-2.RLTS.T157284A748852.en . Retrieved 9 June 2022 . {{ cite journal }} : CS1 maint: multiple names: authors list ( link ) 
+ 1 2 3 Species Coronella austriaca at The Reptile Database 
+. www.reptile-database.org. 
+ 1 2 3 4 5 6 Street D (1979). The Reptiles of Northern and Central Europe . London: B.T. Batsford Ltd. 268 pp. ISBN   0-7134-1374-3 . 
+ 1 2 Steward JW (1971). The Snakes of Europe . Cranbury, New Jersey: Associated University Press (Fairleigh Dickinson University Press). 238 pp. LCCCN 77-163307. ISBN   0-8386-1023-4 . 
+ ↑ Hvass, Hans, ed. (1970). Danmarks Dyreverden . Copenhagen: Rosenkilde og Bagger. 
+ ↑ Surrey Amphibian and Reptile Group smooth snake page Archived 2012-02-23 at the Wayback Machine 
+ ↑ Paterna, Alessandro; Meier, Grégoire (2026-08-20). "Reclassification of the smooth snake. Analysis of the rear fangs, venom system, and the cephalic anatomy of Coronella austriaca (Serpentes: Colubridae)" . Zootaxa . 5873 (1): 145– 160. doi : 10.11646/zootaxa.5873.1.8 . ISSN   1175-5334 . 
+ ↑ Völkl W, Käsewieter D (2003). Die Schlingnatter ein heimlicher Jäger. – Beiheft der Zeitschrift für Feldherpetologie 6 . Bielefeld: Laurenti-Verlag. p.   151. ISBN   978-3-933066-15-2 . (in German). 
+ Further reading [ edit ] 
+ Arnold EN , Burton JA (1978). A Field Guide to the Reptiles and Amphibians of Britain and Europe . (With 351 illustrations, 257 in colour by D.W. Ovenden ). London: Collins. 272 pp. + Plates 1-40. ISBN   0-00-219318-3 . ( Coronella austriaca , pp.   204–205 + Plate 38, figure 1 + Map 117). 
+ Boulenger GA (1894). Catalogue of the Snakes in the British Museum (Natural History). Volume II., Containing the Conclusion of the Colubridæ Aglyphæ. London: Trustees of the British Museum (Natural History). (Taylor and Francis, printers). xi + 382 pp. + Plates I-XX. ( Coronella austriaca , pp.   191–193). 
+ Laurenti JN (1768). Specimen medicum, exhibens synopsin reptilium emendatam cum experimentis circa venena et antidota reptilium austriacorum. Vienna: "Joan. Thom. Nob. de Trattnern". 214 pp. + Plates I-V. ( Coronella austriaca , new species, p.   84 + Plate V, figure 1). (in Latin). 
+ Malkmus R (1995). "Coronella austriaca acutirostris subspec. nov. aus dem Nordwesten der Iberischen Halbinsel (Reptilia: Serpentes: Colubridae) ". Zoologische Abhandlungen, Museum für Tierkunde Dresden 48 (3): 265-278. ( Coronella austriaca acutirostris , new subspecies). (in German). 
+ Gallery [ edit ] 
+ Head of C. austriaca . 
+ C. austriaca in Hungary . 
+ C. austriaca in Bosnia and Herzegovina . 
+ C. austriaca curled up. 
+ Subadult C. austriaca in northern Germany . 
+ C. austriaca - Dorset, UK (August 2025) 
+ External links [ edit ] 
+ Wikimedia Commons has media related to Smooth snake . 
+ Smooth snake ( Coronella austriaca ) at Surrey Amphibian and Reptile Group (SARG) . Accessed 5 June 2008. 
+ Coronella austriaca at Amphibians and Reptiles of Europe . Accessed 7 October 2006. 
+ Smooth snake ( Coronella austriaca ) at ARKive [ link removed ] . Accessed 7 October 2006. 
+ Smooth Snake – Coronella austriaca at Reptiles and Amphibians of the UK . Accessed 7 October 2006. 
+ Smooth snake, Coronella austriaca at Reptiles & Amphibians of France . Accessed 30 October 2006. 
+ Coronella austriaca at Checklist of Armenia's Amphibians and Reptiles, Tadevosyan's Herpetological Resources . Accessed 30 March 2007. 
+ Smooth Snake at Blog posting with two pictures of Coronella austriaca . Accessed 18 July 2007. 
+ Smooth snake ( Coronella austriaca ) at Dissertation abstract about smooth snakes mimicry of vipers being a protective behavior, scaring off some predators. Accessed 15 July 2014 
+ IUCN Red List 
+ Taxon identifiers Coronella austriaca 
+ Wikidata : Q208648 
+ Wikispecies : Coronella austriaca 
+ BioLib: 371 
+ CoL : YH2R 
+ EPPO : KRNLAU 
+ EUNIS : 663 
+ Fauna Europaea : 214732 
+ Fauna Europaea (new) : f88da361-0a3b-464b-bcce-b8c4a2e4f809 
+ GBIF (old): 5959617 
+ iNaturalist : 26904 
+ IRMNG : 10363346 
+ ITIS : 1081704 
+ IUCN : 157284 
+ NBN : NHMSYS0000332360 
+ NCBI : 201445 
+ Observation.org : 443 
+ Open Tree of Life : 859562 
+ Paleobiology Database : 252064 
+ RD : austriaca 
+ Authority control databases International GND National United States Israel Other Yale LUX 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Smooth_snake&oldid=1384332542 " 
+ Categories : IUCN Red List least concern species Coronella Snakes of Asia Reptiles of Europe Reptiles of Azerbaijan Reptiles of Russia Fauna of the United Kingdom Reptiles described in 1768 Taxa named by Josephus Nicolaus Laurenti Hidden categories: Articles with short description Short description is different from Wikidata CS1 maint: multiple names: authors list Articles with 'species' microformats All articles with unsourced statements Articles with unsourced statements from April 2022 Webarchive template wayback links Commons link is on Wikidata Deprecated archive template links 
+ This page was last edited on 7 November 2026, at 19:41  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Smooth snake 
+ 55 languages 
+ Add topic 
+ 

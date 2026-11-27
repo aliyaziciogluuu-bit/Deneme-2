@@ -1,0 +1,759 @@
+                    Arşiv Kaynak Tarama Dergisi
+                         Archives Medical Review Journal
+
+
+                    Yılan Isırmalarının Yönetimi
+                             Management of Snake Bites
+    Müge Elarslan Kara1, Mehmet Oğuzhan Ay2, Sencer Seğmen2, Akkan Avcı2,
+                          Ferhat İçme3, Yüksel Gökel4
+                                1
+                                 İskenderun Devlet Hastanesi, Hatay, Turkey
+                2
+                 Adana Numune Eğitim ve Araştırma Hastanesi Acil Tıp Kliniği, Adana, Turkey
+                   3
+                    Atatürk Eğitim ve Araştırma Hastanesi Acil Tıp Kliniği, Ankara, Turkey
+                     4
+                      Çukurova Üniv. Tıp Fakültesi Acil Tıp Anabilim Dalı, Adana, Turkey
+
+ABSTRACT
+Snake bites can cause severe morbidity and mortality. Patient admissions to emergency services due to
+snake bites increase in especially rural areas of our country and in summer months. In this compilation,
+the current knowledge about snake species living in our country, discrimination of poisonous snakes
+and non-venomous snakes, and approaches to snake bites has been reviewed.
+Key words: Snake bite, emergency, poisoning, management.
+
+ÖZET
+Yılan ısırmaları ciddi mortalite ve morbiditeye neden olabilmektedir. Ülkemizde özellikle yaz aylarında
+ve kırsal bölgelerde acil servislere yılan ısırmalarına bağlı başvurularda artış gözlenmektedir. Bu
+derlemede ülkemizde yaşayan yılan türleri, zehirli - zehirsiz yılan ayırımı ve yılan ısırmalarına yaklaşım
+ile ilgili güncel bilgiler gözden geçirilmiştir.
+Anahtar kelimeler: Yılan ısırması, acil, zehirlenme, yönetim.
+
+
+Giriş
+Dünyada yaşayan yılanların tür sayısı tam olarak bilinmemekle beraber 2.500-3.000 kadar
+olduğu tahmin edilmektedir1. Yılan türlerinin %8’ini tehlikeli olan türler oluşturmaktadır2.
+
+
+
+             Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal            2014; 23(2):272-292
+Elarslan Kara ve ark.                                                                            273
+
+Tüm dünyada özellikle tropikal bölgelerde yılan ısırmalarına bağlı mortalite ve morbidite ciddi
+bir sağlık sorunu oluşturmaktadır3.
+Türkiye’de 40 tür yılan bulunmaktadır. En sık karşılaşılan zehirli yılanlar ise Viperidae grubu
+yılanlardır4.Çukurova bölgesinde ise genellikle Vipera ammodytes ve Vipera lebetina türü
+zehirli yılanlar bulunmaktadır. Bu tür yılanların zehirleri sıklıkla hematotoksik, nadiren
+nörotoksik etkiye sahiptir4. Yılan zehirinin toksik etkisi, zehrin şiddeti, miktarı, ısırılan kişinin
+zehire karşı duyarlılığı, yılanın yaşı, fizyolojik ve patolojik durumu vb. şartlara göre değişir4.
+Yılan ısırığı hayatı tehdit edici ciddiyette zehirlenme bulgularına neden olabileceği için ilk
+yardım ve müdahalemizdeki asıl amaç, hastaları mümkün olan en kısa sürede en yakın ve
+müdahale edilebilecek bir kuruma götürmek olmalıdır. Isırılan bölge hafif nemli bir bezle
+silinmelidir. Isırılan ekstremite kalp hizasında ve mutlaka hareketsiz hale getirilmelidir. O
+ekstremitede yüzük ve benzeri takılar mevcut ise çıkartılmalıdır. Isırılan hastaya lokal yara
+bakımı ve tetanoz profilaksisi uygulanmalı, gerektiğinde ise vakit kaybetmeksizin antiserum
+tedavisine başlanılmalıdır. Kateterizasyon, eksizyon, amputasyon, vakumla, şırıngayla, ağızla
+emme gibi yöntemler kesinlikle uygulanmamalıdır5-10.
+Yılan ısırması vakalarında hastanın tedavisini yönlendirmek ve takibini kolaylaştırmak
+amacıyla klinik evreleme sistemi geliştirilmiştir. Bu sayede hastalara gereksiz antivenom
+tedavisi verilmesinden ve neden olunabilecek komplikasyonlardan korunulabilir3. Bu
+derlemede ülkemizde bulunan yılan türleri hakkında bilgi verilmesi ve acil serviste yılan
+ısırmalarının yönetimi konusunun güncel bilgiler eşliğinde gözden geçirilmesi amaçlanmıştır.
+Epidemiyoloji
+Dünya Bankası Küresel Projesi 2005 çalışmasında, ülkeler epidemiyolojik olarak 21 farklı
+coğrafi bölgeye ayrılmıştır. Bu çalışmada dünyada en çok yılan ısırmasına bağlı mortalite ve
+morbidite Güney Asya, Güney Doğu Asya ve Sahra-altı Afrika’dadır11. Tüm dünyada, Dünya
+Sağlık Örgütünün (WHO) yaptığı araştırma ve yayınlara göre en fazla Hindistan’da olmak
+üzere yılan ısırmalarına bağlı her yıl yaklaşık 35.000-50.000 kişi ölmektedir12. Fransa’da,
+Vipera aspis ve Vipera berus türü yılanlara bağlı her yıl 1.000-2.000 arası vaka bildirilmektedir.
+Mortalite %0.5’tir13. Güney Amerika’da yılan ısırmalarına bağlı mortalite %2.4’tür. Britanya’da
+son 100 yılda engerek yılan ısırmalarına bağlı sadece 14 ölüm bildirilmiştir14. Tüm dünyada
+her yıl üç milyon yılan ısırığı vakası ve buna bağlı 150.000 ölüm olayı gerçekleşmektedir.
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+274                                                                       Yılan Isırmalarının Yönetimi
+
+Amerika zehir kontrol birliğinin raporuna göre birleşik devletlerde her yıl 6.000 yılan ısırığı
+vakası mevcut olup; bunların sadece 2.000’ini zehirli yılanlar oluşturmaktadır. Amerika’da 120
+yılan türünden sadece 20 tanesi zehirlidir. Zehirlenmenin büyük çoğunluğu yılanların ve
+insanların aktivitesinin arttığı yaz aylarında meydana gelmektedir. Geçmişte yılan ısırığına
+bağlı mortalite %25’lere yaklaşır iken, antivenomlara ulaşımın kolaylaşması ve ilk yardım ve
+acillerde müdahalelerin gelişmesi ile mortalite %0.5’in altına düşürülmüştür. Yılan tarafından
+ısırılan kişilere ilk yardım amaçlı yapılabilecek uygun müdahaleler hastaların iyileşme sürecini
+ve komplikasyon gelişimini etkilemektedir15.
+Türkiye’de Sıklıkla Görülen Yılan Türleri
+Zehirli yılanlar 5 ana gruba (Colubridae, Elapidae, Hydrophylidae, Viperidae, Atractaspididae)
+ayrılır. Türkiye’de 40 tür yılan bulunmakta ve en sık karşılaşılan zehirli yılanlar Viperidae grubu
+yılanlardır. Çukurova bölgesinde genellikle Vipera ammodytes ve Vipera lebetina türü zehirli
+yılanlar bulunmaktadır. Bu tür yılanların zehirleri sıklıkla hematotoksik, nadiren nörotoksik
+etkiye sahiptir4.
+Zehirli-Zehirsiz Yılan Ayrımı
+Zehirli yılanları, zehirsizlerden ayırmak ne kadar güç ise de, Türkiye’de bulunan zehirli ve
+zehirsiz yılanı birbirinden ayırmaya yarayan bazı özellikler şunlardır4;
+  1. Zehirli yılanların başlarının dorsalinde küçük ve çok sayıda, zehirsiz yılanlarda ise büyük
+     ve en fazla 9 tane pul vardır.
+  2. Zehirli yılanlarda göz ile alt çene kenarı arasındaki pullar çok sıralı, zehirsiz yılanlarda ise
+     bir sıralıdır.
+  3. Zehirli yılanlarda kuyruk ucu küt, zehirsiz yılanlarda uca doğru gittikçe incelir.
+  4. Zehirli yılanlarda vücut iri lekeli, zehirsiz yılanlarda ise lekesizdir.
+  5. Zehirli yılanlarda göz bebekleri elips, zehirsiz yılanlarda ise yuvarlak şekildedir.
+  6. Zehirli yılanlarda baş üçgen şeklinde köşeli ve boyun belirli, zehirsiz yılanlarda ise baş
+     elips şeklinde ve boyun belirsizdir.
+  7. Zehirli yılanlarda üst çenenin ön ucunda 2 tane zehir dişi vardır, zehirsiz yılanlarda bu
+     dişler yoktur.
+  8. Zehirli yılanlardan bazıları canlı doğurur, zehirsiz yılanların hepsi yumurtlayarak ürerler.
+Ülkemizde bulunan yılanlar viperidae, colubridae ve boidae familyasındandır.
+
+                   Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                            275
+
+A. Viperidae Familyası (Engerek Yılanlar)
+Maksilla kemiği çok kısa olup üzerinde bir çift veya daha fazla sayıda zehir dişi bulunur.
+Isıracakları zaman üst çene dikey duruma gelir. Çene kapanınca dişler geriye bükülür ve uç
+kısımları mukus salgılayan bir kısmın içerisine girer. Dişlerin hem saldırıda hem savunmada
+yararlı bu özel uyarlanması nedeniyle, bedenin çok çevik hareketler yapabilmesine gerek
+kalmamıştır.2
+Zehirleri çok şiddetlidir ve hemotoksik etki yapar. Bir insan ısırılınca ateşi yükselir, rengi
+beyazlaşır, kan basıncı aniden düşer, dokular dejenere olur, iç kanama meydana gelir, kalp
+durur ve ölüm meydana gelir. Bazılarında zehir aynı zamanda nörotoksik etki de gösterir. Bir
+kısmının zehiri ilaç yapımında kullanılır. Göz bebekleri dikey ve elips şeklindedir4. Baş, boyun
+kısmından bariz olarak daha geniştir. Umumiyetle kalın yapılı ve kısa kuyrukludurlar. Çoğunda
+başın üst tarafı pullar ile örtülüdür16.
+Ülkemizde Viperidae familyasına mensup vipera cinsi ve bunun 9 türü yaşamaktadır.
+Viperidae Familyasına ait örnek türler şunlardır:
+1. Vipera ammodytes (Boynuzlu Engerek)
+Boyu 55 cm kadar, başın ucu sivri, arka tarafı geniş ve boynu incedir. Başın üst tarafı önde ve
+ortada küçük karinasız pullarla, diğer kısımları plaklarla örtülüdür2. Sırt tarafı kül rengi, sarımsı
+veya gri kahverengidir. Bu zemin üzerinde esmer kahverengi zikzak bant bulunur. Bu bandın
+kenarları iç bölgelerden daha koyudur. Kuyruğun uç kısmı pembemsi sarı renktedir. Alt taraf
+sarımsı beyazdır1. Zehri insan için çok tehlikelidir. Ülkemizde Trakya’nın kuzeyinde, Batı-
+Güney Anadolu, ayrıca Kuzeydoğu ve Doğu Anadolu Bölgesi’nde yayılmıştır4.
+2. Vipera kaznakovi (Siyah Engerek)
+Başı üçgen şeklinde, ince boyunlu ve vücut boyu 50-60 santimetredir. Başın üst tarafı karinasız
+pullarla ve plaklarla örtülüdür2. Sırt tarafın zemin rengi, sarıdan tuğla kırmızısına kadar
+değişir. Alt taraf siyah olup üzerinde dağınık sarımsı lekeler bulunur1. Yurdumuzda Doğu
+Karadeniz Bölgesi bu türün yayılış alanını teşkil eder. Yalnız Hopa civarında bulunmaktadır2.
+3. Vipera lebetina (Koca Engerek)
+Boyları 2 m, ağırlıkları 3 kg kadar olabilmektedir. Türkiye’de yaşayan yılanların en zehirli, en
+uzun ve kalın olanıdır. Isırdığı fareyi birkaç saniyede öldürür. Başın ucu küt ve boyun bariz bir
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+276                                                                      Yılan Isırmalarının Yönetimi
+
+şekilde incelmiştir. Başın üst tarafı tamamen karinalı küçük pullarla örtülüdür. Üst taraf gri
+veya esmer kahverengi olup; orta kısımları tuğla kırmızısı renktedir1. Bu tür Türkiye’de Adana
+civarı ile Güneydoğu ve Doğu Anadolu Bölgeleri’nde yayılmıştır4.
+4. Vipera pontica (Çoruh Engereği)
+Nispeten ince boyunlu, vücut boyu 40-50 santimetredir. Başın üstü karinasız pul ve plaklarla
+örtülüdür. Sırt tarafın zemin rengi gri kahverengi olup üzerinde bariz ve yer yer birleşerek
+zikzak bant şeklinde enine siyahımsı lekeler bulunur. Kuyruk ucu yeşilimsi sarıdır. Bu türden
+yalnız 2 yavru,1 ergin numune tanınmaktadır. Bu engerek türü yabancılar tarafından
+toplatılarak yurt dışına götürülmektedir2. Vipera pontica, yalnız Artvin İli’nde Çoruh Vadisi ile
+Çamlıhemşin civarında bilinmektedir2.
+5. Vipera barani (Baran Engereği)
+Boyu 55 cm kadar, başın ucu sivri, arka tarafı geniş ve boynu incedir. Başın ön tarafı önde ve
+ortada küçük karinasız pullarla diğer kısımları plaklarla örtülüdür1. Türün incelenen
+örneklerinden biri hariç tümü siyah renklidir. Bu tür şimdiki bilgilere göre yalnız Türkiye’de
+yayılmış endemik bir türdür. İlk olarak Sakarya İli’nde bulunmuş olan bu engerek türünün
+daha sonra 1992 yılında toplam 4 ayrı örneği Silifke civarındaki Toros’larda bulunmuştur2.
+6. Vipera raddei (Ağrı Engereği)
+Boyu 100 cm kadar, baş belirgin üçgen şeklinde ve ince boyunludur. Sırt taraf gri kahverengi
+olup üzerinde zikzak bant veya köşeli lekeler bulunur. Zehirleri insanlar için tehlikeli olabilir.
+Ancak bu türün ısırmasıyla ölüm olayının olduğu kesin olarak bilinmemektedir. Bu tür
+Türkiye’de Kars, Ağrı ve Iğdır İllerinde, ayrıca Van ile Hakkari İllerinin İran ve Irak sınırlarına
+yakın kısımlarında yayılmıştır2.
+7. Vipera wagneri (Vagner Engereği)
+Çok güzel desenli ve vücut boyu 50-90 santimetredir. Boyun bariz şekilde ince, başın üstü
+karinalı küçük pullarla örtülüdür. Sırt gri veya kahverengi bej olup bariz lekelidir. Türkiye’de
+Kars İli sınırları içinde yayılmıştır2.
+
+
+
+
+                   Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                          277
+
+8. Vipera ursinii (Küçük Engerek)
+Boyları 50 cm kadar veya biraz daha uzun olabilen küçük bir yılandır. Başın üstü karinasız pul
+ve plaklarla örtülüdür.2 Sırt tarafın zemin rengi soluk kahverengi, sarımsı veya zeytin yeşilidir1.
+Türkiye’deki en küçük zehirli yılan türüdür. Türkiye’de Kuzeydoğu ve Güneybatı Anadolu
+Bölgeleri’nde yayılmıştır2.
+9. Vipera xanthina (Şeritli Engerek)
+Başı bariz şekilde üçgen ve ince boyunlu, kalın yapılı bir yılandır. Vücut boyu 70-80
+santimetredir2. Sırt tarafın zemini gri kahverengidir. Bu zemin üzerinde iri siyahımsı lekeler
+bulunur. Başın arkasında 2 iri siyah leke mevcuttur ve siyah temporal şerit vardır. Alt tarafın
+zemin rengi sarımsı beyazdır1. Zehirleri insanlar ve büyükbaş hayvanlar için tehlikeli olan bir
+türü de yabancılar yurt dışına götürmektedir. Ege, Akdeniz ve Orta Anadolu Bölgeleri’nde ve
+Kars yöresinde yaşar4.
+B. Colubridae Familyası
+Kafatasları üzerindeki maxilla, palatin ve pterygoid kemikleri oynaktır ve bu kemikler üzerinde
+dişler bulunmaktadır. Çoğunlukla zehir dişlerine sahip olmayan bu türün bazılarında dişler üst
+çene kemiğinin arka tarafta bulunduğundan insanı ısırsalar dahi zehirleyememektedirler. Bu
+familyaya mensup yılanların boyları 1-2 m. arasında değişir. Yaklaşık olarak bütün yılan
+türlerinin 3/4’ ü bu familyaya mensuptur. Tahmini olarak 250’den fazla cins ve 1.000’den fazla
+tür ihtiva eder. Dolayısıyla gerek vücut şekilleri, gerek yaşadıkları ortamlar çok çeşitlidir16.
+Ülkemizde bu familyaya mensup zehirli olarak kabul edilen 2 cinsi mevcuttur:
+1. Malpolon monspessulanus (Çukurbaşlı Yılan)
+Vücut uzunluğu 2 metredir. Baş üstünde ve gözler araksında bir çukurluk vardır. Vücutları
+silindirik ve baş kısmı boyundan daha geniş değildir2. Renk ve desen özellikleri genç ve
+yaşlılarda biraz farklıdır. Gençlerde başın üstü sarımsı kahverengi lekeli; bu lekelerin kenarları
+genellikle sarımsı beyaz çizgilerle sınırlanır. Gövdenin üst tarafı gri veya zeytuni, bu zemin
+renk üzerinde siyah küçük lekeler yer alır. Alt taraf beyazımsı ince siyah noktalıdır. Yaş
+ilerledikçe baş ve gövde lekeleri kaybolur1. İnsanı ısırsa bile zehrini akıtamaz, ancak ısırdığı
+yerin şişmesine ve ağrı vermesine sebep olur. Zehri ancak beslendiği küçük hayvanları
+
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+278                                                                       Yılan Isırmalarının Yönetimi
+
+yutarken etkili olur. Anadolu’nun Karadeniz sahil bölgesi hariç bütün Türkiye’ye
+yayılmışlardır2.
+2. Telescopus fallax (Kedi Gözlü yılan)
+İnce boyunlu, göz bebekleri dikey ve vücut uzunluğu genellikle 1 m kadar olabilen bir yılan
+türüdür2. Üst tarafı gri veya gri kahverengi olup, bu zemin renk üzerinde ve sırtta siyah lekeler
+bulunur. Sırt lekeleri gövdenin geri kısımlarında ve kuyruk üstünde daha soluk renkli, bazen
+de fark edilecek kadar siliktir1. Ülkemizde bu tür Türkiye’nin Batı, Güney kısımları ile
+Güneydoğu Anadolu Bölgesi’nde bulunur2.
+C. Boidae Familyası
+Bizdeki tek boa cinsi Eryx jaculus (Kum yılanı)’dur. Karnı pullarla değil, plaklarla örtülüdür.
+Karın tarafını enine doğru kapladığı halde Eryx jaculus’da daha dar olup, orta kısımda
+bulunur2.
+Yılan Zehri
+Zehirli yılanlarda, içinde kanallar bulunan bir çift zehir dişleri vardır. Bu şekildeki diş tipine
+“opisthoglyphs” denir. Bazı yılanlarda zehir dişleri arkaya doğru yatık halde bulunur. Ancak
+ağız açıldığı zaman kullanılabilir hale gelir4.
+Zehirli yılanlarda, başın yan taraflarında ve umumiyetle gözün alt ve yan tarafında büyük birer
+zehir bezi mevcuttur. Bezin ön kısmı zehir kanalı şeklinde uzamıştır. Kanalın ucu, bir kılıf
+(yumuşak doku) ile sarılmış olan zehir dişinin kaide kısmına açılır. Yılan ısırınca, zehir bezini
+saran kaslar kasılarak, bez içinde bulunan zehirli sıvı, zehir kanalı ile zehir dişine geçer ve dişin
+battığı dokuya dökülür. Zehir dişinin kendisi zehirli olmayıp, zehir bezinden gelen salgıyı
+akıtır1,16. Zehirli yılanlarda, bir çift asıl zehir dişinin yanında bir çiftte yedek zehir dişleri
+vardır17.
+Yılan Zehrinin Fiziksel ve Kimyasal Özellikleri
+Yılanlar hayvanlar alemindeki en kompleks zehire sahip hayvanlardır. Zehrin içeriği türden
+türe değişiklik gösterir. Tek türe ait zehrin bileşenleri de yılanın yaşına, mevsime ve sıcaklığa
+göre değişebilir. Kuru zehirin % 90'ından fazlası proteinlerden oluşur. Bunlar çoğunlukla farklı
+enzimler, enzimatik olmayan polipeptidler, toksinler ve toksik olmayan Nerve Growth Factor
+
+
+                   Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                         279
+
+(NGF, Rita Levi-Montalcini ve Stanley Cohen tarafından keşfedildi) gibi proteinlerdir. Engerek
+zehiri % 80-90 oranında enzim barındırırken, elapid zehirinde bu oran sadece % 25-70
+civarındadır16.
+Genel olarak yılan zehri sarımsı veya beyazımsı bir sıvı olup, içinde az çok katı cisimler de
+bulunur. Az çok yapışkan olan bu sıvı, sudan biraz daha ağırdır. Yılan zehirinde, % 70 su ve %
+30 protein yapısında değişik maddeler vardır. Ayrıca zehirde, fosfolipaz, asetilkolinesteraz,
+hyalurinidaz, kollejenaz, RNA ve DNA’az, lökotrienler, antibakterisidin, nörotoksinler,
+prokoagülant, antikoagülant, kardiotoksin, hemotoksin ve bazı elektrolitler bulunur. Ayrıca
+sokma bölgesinden sitolitik enzimler yoluyla kinin, histamin ve serotonin salınımına yol açar.
+Bunların yanında ayrıca yılan zehirinde, proteolitik ve hemolitik faktörler, aminoasit
+oksidanlar ve diğer enzimler de bulunmaktadır16-18.
+Fosfodiesterazlar; avın dolaşım sistemine karışır ve kan basıncını düşürür. Fosfolipaz A2,
+kırmızı kan hücrelerinin esterolizi yoluyla hemolize yol açar ve kas nekrozuna sebep olur.
+Neredeyse bütün yılan zehirlerinde bulunur19.
+Yılan zehiri kolinesterazı engelleyerek avın kas kontrolünü kaybetmesini sağlar. Hiyalüronidaz;
+doku geçirgenliğini artırarak diğer enzimlerin avın dokusunda absorbe edilmesini kolaylaştırır.
+Oksidaz ve proteaz; sindirim için kullanılır. Oksidaz, ayrıca diğer bazı enzimlerin
+tetiklenmesine de sebep olur ve bazı türlerdeki venomun yeşil renginden sorumludur. Yılan
+zehiri genellikle ATP’nin çözülmesine ve avın enerji üretiminin bozulmasına yarayan ATP’az
+içerir. Yılan zehrinde sodyum, kalsiyum, potasyum, magnezyum ve az miktarda çinko, demir,
+kobalt, manganez ve nikel gibi inorganik katyon iyonları içerir20.
+Zehrin Vücut İçine Yayılması
+Yılan ısırınca, zehir dişlerinden akan sıvı vücut içine 2 yoldan yayılır; bunlardan biri kan
+dolaşımı sistemidir. İkinci yol lenf dolaşım sistemidir. Zehir vücut içine daha çok bu yol ile
+yayılır ve bu yayılma yavaştır1,21,22.
+Zehirin Etkinlik Derecesi
+Yılan zehirinin toksik etkisi, zehrin şiddeti, miktarı, ısırılan kişinin zehire karşı duyarlılığı,
+yılanın yaşı, fizyolojik ve patolojik durumu vb. şartlara göre değişir. Bunlardan en önemlisi
+zehrin şiddeti yani toksisitesidir. Bu faktör yılan türüne göre değişir. Örneğin çok zehirli bir
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+280                                                                      Yılan Isırmalarının Yönetimi
+
+Engerek olan ve Hindistan’da yaşayan Echis carinata’nın bir insan için öldürücü dozu 5 mg.
+kuru zehirdir1. Yılan ısırdığı zaman, psikolojik durumu da önemlidir. Zehir bezlerini boşaltıp
+boşaltmamak veya ne miktarda zehir akıtacağı yılanın kendi kontrolü dahilindedir2. Yılan
+zehirine karşı dayanıklılıkta, avın boyutları önemlidir. Isırılan bölge % 90-98 oranında
+ekstremiteler olmakla beraber, baş ve gövde ısırıkları en tehlikeli ısırık bölgeleridir23-25.
+Yılan Zehrinin Sınıflandırılması
+Viperid zehirler sitotoksik ve hemotoksik etkiye, Elapid zehirler nörotoksik etkiye, deniz
+yılanları nörotoksik ve miyotoksik etkiye sahiptir.
+1. Sitotoksik
+Sitotoksinler pozitif yüklü polipeptidlerdir19. Bütün vücut yerine sadece belli türden hücrelere
+ya da organa membran lipidleri ve proteinlerle etkileşmeye girerek etki ederler26. Hücreler
+sitotoksinlerden birkaç farklı yolla etkilenir. Bunlardan biri nekroz diğeri de apoptosisdir.
+İlerleyen safhalarda genellikle nekrozla apoptosis birbirlerine eşlik eder27. Sitotoksinler
+yutulmadan önce avın sindirilmeye başlamasını da sağlar28.
+2. Miyotoksik
+Miyotoksinler çıngıraklı yılanların ve diğer çukur engereklerin zehirlerinde bulunur. En
+bilinenlerden biri miyotoksin-a özellikle kasların sarkoplazmik retikulumuna bağlanır ve onun
+iyon geçirgenliğini değiştirerek hem sarkoplazmik retikulumda hem de kas fibrillerinde
+bozulmalara yol açar29.
+3. Hemorajik
+Genellikle çıngıraklı yılanlarda bulunan hemorajik zehir kurbanın iç kanamayla ölmesine yol
+açar. Ayrıca yoğun doku yıkımına da sebep olabilir30.
+Fibrinolitik enzimler (α,β,δ fibrinogenaz) fibrinojenin zincirlerini sindirir. Faktör 5, 10,11 ve
+Protein C’yi uyarır. Protrombin aktivatörlerinin salınımını ve Fosfolipaz A2’yi arttırır. Trombosit
+agregasyonunu sağlar ve agregasyonu baskılayan α-fibrinogenaz, 5-Nükleotidaz ya da
+Adenindifosfatazı arttırır. Von Willebrant Faktör (VWF) bağımlı trombosit agregasyonuna
+neden olur. Şiddetli zehirlenmeler yaygın damar içi pıhtılaşma oluşur31.
+
+
+
+                   Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                            281
+
+4. Nörotoksik
+Nörotoksinler presinaptik kavşakta sinir uçlarına geri dönüşümsüz olarak bağlanarak
+asetilkolin salınımına neden olur. Bu da nöromuskuler blokajla sonuçlanır. Hastanın ana ölüm
+nedeni solunum yetmezliğidir. Isırılan kişilerde 3-5 gün süren yaygın vücut felci gelişebilir,
+tamamen düzelmesi haftalar alabilir32.
+Toksinin şiddetine göre hastada lokal ve sistemik belirtiler ortaya çıkar. Lokal bulgu olarak
+ödem, hematom, gangrenöz lezyonlardır. Sistemik bulgu olarak da ateş, bulantı, kusma,
+dolaşım kollapsı, hafif sarılık, delirium, konvulziyon, koma ortaya çıkabilir. Ölüm 6-48 saat
+içinde sekonder enfeksiyonlar, DIC (Dissemine intravasküler koagülopati), nörotoksisite, ABY
+(Akut Böbrek Yetmezliği), kafa içi kanama nedenleri ile oluşabilir. Ayrıca ilerleyici anemi,
+lökositoz, trombositopeni, hipofibrinojenemi, koagülasyon testlerinde bozukluk, proteinüri,
+azotemi bildirilmektedir33-36. Viperid zehirinin içinde eğer fosfolipaz A2 mevcutsa zehir
+doğrudan nefrotoksik olabilir. Akut böbrek yetmezliği gelişimi lokal ödem, ateş, bulantı,
+kusmanın yanında toksinin sistemik etkileri, permeabilite artması, dolaşım kollapsı, bazı
+inflamatuar ve vazodilatatör mediatörlerin salınımı nedeniyle en sık prerenal sebeplere bağlı
+olarak meydana gelir6-8. Prerenal azotemi uzarsa hipoksik akut tübüler nekroza bağlı intrinsik
+böbrek yetmezliği olabilir. Ayrıca kompartman sendromu sonucu olan myoglobinüri ve
+hemolize bağlı oluşan hemoglobinüri sonucu toksine bağlı intrinsik böbrek yetmezliği
+meydana gelebilir. DIC sonucu oluşan mikro trombüslere bağlı vasküler hasar sonucu da akut
+böbrek yetmezliğine neden olabilir. Ayrıca yılan toksinine bağlı alerjik tübülointerstisyel nefrit
+meydana gelebilir36.
+Yılan Isırmalarında İlk Yardım Müdahalesi
+Yılan ısırığı hayatı tehdit edici ciddiyette zehirlenme bulgularına neden olabileceği için ilk
+yardım ve müdahalemizdeki asıl amaç, hastaları mümkün olan en kısa sürede en yakın ve
+müdahale edilebilecek bir kuruma götürmek olmalıdır.
+İlkyardım müdahalesi olarak öncelikle hastaya güven verilmeli ve sakinleştirilmelidir. Isırılan
+bölge % 90-98 oranında ekstremiteler olmakla beraber, baş ve gövde ısırıkları en tehlikeli
+ısırık bölgeleridir23-25. Isırılan bölge hafif nemli bir bezle silinmelidir. Isırılan ekstremite kalp
+hizasında ve mutlaka hareketsiz hale getirilmelidir. O ekstremitede yüzük ve benzeri takılar
+mevcut ise çıkartılmalıdır. Isırılan hastaya lokal yara bakımı ve tetanoz profilaksisi
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+282                                                                      Yılan Isırmalarının Yönetimi
+
+uygulanmalı; gerektiğinde ise vakit kaybetmeksizin antiserum tedavisine başlanılmalıdır.
+Kateterizasyon, eksizyon, amputasyon, vakumla, şırıngayla, ağızla emme gibi yöntemler
+kesinlikle uygulanmamalıdır5-10.
+Yılan tarafından ısırılmalara ülkemizde özellikle doğu illerinde ve yaz aylarında,
+zannedildiğinden daha sık olarak rastlanılmaktadır. Bu bölgelerdeki hastanelerin acil
+servislerinde yeterli miktarda antiserum bulundurulması ölümcül seyredebilecek olgular
+açısından oldukça önemli olup, yeterli endikasyonların varlığında gerekli önlemler alınarak,
+antiserum uygulanmaktadır6-10.
+Isırılan bölgeye soğuk veya buz uygulaması ile zehrin enzim aktivitesini ve sistemik emilimini
+azaltacağı düşünülerek bazı hayvanlar üzerinde deneysel çalışmalar yapılmış, fakat fayda
+sağladığı gösterilememiştir38,39. Başka bir yöntem ise elektrik şok tedavisi uygulamasıdır.
+Yapılan hayvan deneylerinde elektrik şokuna bağlı çok ciddi komplikasyonlar geliştiği
+gösterilmiştir40-46.
+Bazı otoriteler tarafında eğer hasta tıbbi müdahale edilebilecek merkeze 30 dakikadan fazla
+uzaklıkta ise kısa, derin olmayan düz bir kesi sonucunda hayvanlar üzerinde yapılan deneyler
+sonucunda zehrin belirli bir kısmının geri alınabildiğini göstermiştir47,48. Bush ve arkadaşları ise
+vakum pompalarının yararının olmadığını, tam tersine doku nekrozuna yol açtığını
+bildirmiştir49.
+Turnike Uygulaması
+1979 yılında Avusturalya Ulusal Sağlık Ve Tıbbi Araştırma Konseyi yılan ısırması vakalarında
+Basınç-immobilizasyon-bandajı kullanmayı önermiştir47. Basınç-immobilizasyon-bandajı
+engerek yılan ısırmasına bağlı sitotoksik zehirlenmeye karşı uygun değildir. Struan Stherland
+tarafından 1978 yılında yapılan klinik çalışmada Basınç-immobilizasyon-bandajı, bacak
+hareketlerini engelleyerek lenfatik dolaşım ile zehrin yayılmasını engellemek ve iskelet
+kaslarını hareketsiz hale getirerek dolaşımın yavaşlamasını sağlamaktadır49-53.
+Yılan Zehirlenmelerinde Değerlendirme
+Öncelikle hastayı gerçekten yılan tarafından mı yoksa başka bir böcek tarafından ısırılıp
+ısırılmadığının ayırt edilmesi gerekir. Yılan ısırması nedeniyle acil servise başvuran hastalarda
+diş izi olup olmadığına bakılmalıdır. Diş izi mevcut ise hasta sakinleştirilmeli ve ısırılan
+
+
+                   Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                            283
+
+ekstremite kalp hizasında hareketsiz hale getirilmelidir. Eğer hasta başka bir merkezden
+getirilmiş ise hastaya herhangi bir müdahale uygulanıp uygulanmadığı sorgulanmalıdır.
+Hastaya ilk yardım müdahalesi olarak; mesela o ekstremiteye bandaj uygulaması yapıldıysa
+hastanın evrelemesi yapılıp antivenom verilip verilmeyeceği karar verilip, eğer verilmeyecekse
+bandaj çözülmelidir. Fakat yılan antivenomu verilecekse, antivenom verildikten sonra bandaj
+açılmalıdır. Diş izi mevcut değilse ve sistemik zehirlenme bulguları yoksa hasta 12 saat
+izlendikten sonra taburcu edilebilir32,54.
+Yılan ısırığına bağlı olarak genellikle ilk 2 saat içinde ödem gelişir. Ağrı olmayan olgular
+olduğu gibi zonklayıcı tarzda ağrı da görülebilir. İlk birkaç günde görülebilen bölgesel
+lenfadenopati ve ısırık çevresindeki doku gerginliği zamanla geriler32.
+Hastalarda sistemik zehirlenme bulguları mevcutsa, hasta acil gözleme yatışı yapılır. Hastanın
+oksijenizasyonu sağlanır. Monitörize edilir. Havayolu açıklılığı sağlanır. Yılan ısırılmasına bağlı
+olarak ölümcül seyredebilen anjiyoödem, dil ödemi, bradi/taşiaritmi ve bronkospazm
+tedavisinde de kullanılan metilprednisolon oldukça etkilidir32.
+Yılan ısırığına maruz kalmış tüm vakalara tetanoz proflaksisi uygulanırken, lokal komplikasyon
+gelişen olgular haricinde profilaktik antibiotik verilmesi tartışmalıdır55,56. Profilaktik antibiotik
+kullanımı, önceleri her hastaya önerilmekteydi57. Fakat son yıllarda yapılan çalışmalarda rutin
+profilaktik antibiotik kullanımı, hastanın ısırılan ekstremitesinde ödem, bül ya da kesi, emme
+gibi müdahalelerde bulunulduysa tavsiye edilmektedir58-60.
+Seçilecek antibiyotik gram negatif aerob basiller, gram pozitif aerob koklar ve anaeroblara etki
+etmelidir. Lokal doku nekrozu gelişen olgularda kültür alındıktan sonra ikili antibiotik
+proflaksisi uygulanır. Isırılmanın yılan tarafından olduğundan emin olunmadığı durumlarda
+yara aspiratı, bül sıvısı, serum ve idrar örneklerinden yapılan immunolojik testlerle doğrulama
+yapılabilir24,61. Profilaktik antibiotik olarak genelde penisilin grubu tercih edilir57,59,60.
+Klinik Evrelendirme
+Yılan ısırması vakalarında hastanın tedavisini yönlendirmek ve takibini kolaylaştırmak
+amacıyla klinik evreleme sistemi geliştirilmiştir (Tablo 1). Bu evrelendirme sayesinde hastalara
+gereksiz yere antivenom tedavisinden verilmesinden ve neden olunabilecek
+komplikasyonlardan korunulur3.
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+284                                                                        Yılan Isırmalarının Yönetimi
+
+
+Antivenom Tedavi
+Antivenin (veya antivenom) zehirli (venomlu) ısırıkların ve sokmaların tedavisinde kullanılan
+biyolojik üründür. Antivenin hedeflenen venomun küçük bir miktarının at, koyun, keçi veya
+tavşan gibi hayvanlara enjeksiyonu ile üretilir. Hayvanın bağışıklık sistemi venoma reaksiyon
+gösterir ve venomun aktif molekülü karşısında antikor üretir. Bu antikorlar hayvanın kanından
+alınarak zehirlenme tedavisinde kullanılır. Uluslararası düzeyde, üretilen antiveninler
+Farmakope ve Dünya Sağlık Örgütü (WHO) standartlarına uymak zorundadır62.
+Antiveninin prensibi temel olarak Louis Pasteur'ün geliştirdiği aşıya dayanır. Ancak
+antivenomda bağışıklığı tetikleme işlemi doğrudan hastada yapılması yerine, işlem konak
+hayvanda yapılır ve hiperimmunize serum hastaya transfüze edilir. Antivenin monovalan
+(sadece belirlenen türün venomuna karşı etkili) ve polivalan (bir dizi türün venomuna karşı
+etkili veya birkaç farklı türün venomuna karşı aynı anda etkili) olarak sınıflandırılabilir. İlk yılan
+antivenini 1895'te Pasteur Enstitüsü'ndeki Fransız bilim insanı Albert Calmette tarafından
+enstitünün Hindiçin şubesinde çalışırken adi kobraya (Naja naja) karşı geliştirildi. Brezilyalı bir
+bilim insanı Vital Brazil 1901'de Orta ve Güney Amerika'daki Crotalus, Bothrops ve Elaps
+cinsleri için ilk monovalan ve polivalan ativeninleri geliştirdi63,64.
+Antiserum tedavisi, alerji ve anaflaktik reaksiyon riskinden dolayı rutin olarak yapılmamakla
+birlikte, sistemik zehirlenme veya ağır lokal doku reaksiyonu olan hastalarda yapılmalıdır.
+Antiserum yapılmadan önce deri testi ile duyarlılık değerlendirilebilir, ayrıca bu tedavi
+sırasında antihistamin, kortikosteroid ve adrenalin el altında bulundurulmalıdır. Ülkemizde
+ithal edilen üç çesit yılan antiserumu kullanılmaktadır. Bunlardan birincisi 'European Viper
+Venom®' (Intervax Biological Ltd, Toronto, Zagreb, Hırvatistan) antiserumudur. Uluslar arası
+literatürde bu serum 'Zagreb serumu' olarak da bilinmektedir. İkincisi 'Pasteur Ipser Europe®'
+(Pasteur Merieux, Lyon, Fransa) antiserumudur. Üçüncüsü ise 'Polyvalent Snake Venom
+Antiserum®' (Vascera, Giza, Mısır) antiserumudur5,57,65.
+Ülkemizdeki yılan çesitleri göz önüne alındığında birinci antiserum daha uygun bir seçimdir;
+ancak Zagreb antiserumu bulunamaz ise, yılanın türü tam olarak tespit edilerek uygun
+bulunduğu takdirde diğer antiserumlar da kullanılabilir5,57. Zagreb antiserumu, özellikle yaz
+mevsiminin son aylarında bu serumun tükenmesine bağlı olarak temin edilemeyebilir.
+Antiserumun intramuskuler veya lokal enjeksiyon şeklinde uygulanması gibi bir takım
+yanlışlıklar yapılmaktadır. Lokal enjeksiyonların zehiri daha yavaş nötralize etmesi yanında,
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                         285
+
+ısırılan bölge sıklıkla olduğu gibi el veya ayakta ise verilen antiserum doku içinde zaten yüksek
+olan basıncı daha da arttırarak dolaşımı bozar. Bundan dolayı antiserum tedavisinin
+intravenöz yoldan uygulanması gerekir66.
+Antivenom Tedavisinin Endikasyonları
+A. Sistemik Zehirlenme Bulguları
+1- Hemorajik bozukluk: Spontan sistemik kanamaları olan (Burun kanaması, diş eti kanaması
+vb.), koagülopati (Fibrinojen ve trombosit azalır, fibrin yıkım ürünleri artar, protrombim
+zamanı ve aktivite parsiyel tromboplastin zamanı uzar) gelişen hastalara verilmelidir.
+2- Kardiyovasküler anormallikler: Şok, hipotansiyon, anormal elektrokardiyografik bulgular,
+akciğer ödemi.
+3- Yaygın kas yıkımı, buna bağlı gelişen akut böbrek yetmezliği, kreatinin fosfokinaz
+yüksekliği.
+4- Diğer ciddi sistemik semptomlar (Hipoksi, metabolik asidoz vb.)
+5- Nedeni olmayan şuur bozukluğu, nörolojik tutulum.
+B. Şiddetli Doku Zedelenme Bulguları
+Isırılan ekstremitede ciddi ödem (Yaklaşık ekstremitenin yarısını tutan) zedelenme, nekroz,
+hemorajik büllerin olması3.
+Antivenom Yan Etkileri
+1- Pirojenik Reaksiyon
+Antivenom verildikten 1-2 saat sonra gelişir. Ateş, üşüme, titreme, deride solukluk görülür.
+Tedavide soğuk uygulama, ılık banyo, asetaminofen verilir.
+2- Tip 1 Reaksiyon
+ Ig E aracılı olan ve aracılı olmayan anaflaktik reaksiyondur. Yaklaşık % 20 hastada gelişir. Ig E
+aracılı olmayan ve hipotansiyonla seyreden anfilaktoid reaksiyon, yabancı proteine karşı
+gelişen mast hücresi degranülasyonuna bağlıdır. IgE bağımlı mast hücresi amin ve
+bazofillerde vazoaktif amin ve mediatörlerin salınımı sonucu klinik etkileri gözlenen
+reaksiyondur. Histamin salınımı sonucu vasküler permeabiliteyi artar, vazodilatasyon,
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+286                                                                        Yılan Isırmalarının Yönetimi
+
+bronkospazm ve mukus sekresyonu artışı olur. Mast hücre membran aktivasyonu sonucu
+Fosfolipaz A2 salınımı olur. LTC4 ve LTD4 vazoaktif spazmojenik ajanlardır ve düz kas
+kontraksiyonu yapıp permeabiliteyi arttırırlar. LTB4 nötrofiller ve eozinofiller için
+kemotaktiktir. PGD2 artmış mukus sekresyonu ve bronkospazmdan sorumludur. Mast
+hücreleri TNF-α, IL-1, IL5, IL-6 gibi sitokinleri oluşturarak etkili olur. Sensitizasyon süresi
+günler-haftalar alır67,69.
+3- Tip 2 Reaksiyon
+Antikor aracılığıyla aşırı duyarlılık reaksiyonunda, vücudun kendi hücreleri üzerinde yer alan
+antijenlere karşı gelişen bağışıklık yanıt sonrası antikorlar gelişmiştir. Antijenlere karşı
+gelişmiş IgG ve IgM klasik yol üzerinden kompleman sistemi aktivasyonu gerçekleştirir.
+Kompleman aktivasyonu normalde, patojen maddeleri bağışıklık sistemine sunan hücrelerin
+ve dolayısıyla patojen taşıyan hücrelerin yok edilmesi amacını taşır. Reaksiyon bölgesinde,
+akut yangı etken maddeleri salgılanır hücreler parçalanır ve hücre ölümü gerçekleşir. Bu
+reaksiyonun oluşması ve etkinliği, saatler veya günler boyunca sürebilir. Bazı örnekleri,
+otoimmün hemolitik anemi, Goodpasture sendromu, pemfigus, pernisiyöz anemi, immün
+trombositopeni ve kan transfüzyonu reaksiyonları olarak sıralanabilir67,69.
+4- Tip 3 Reaksiyon
+İmmün kompleks hastalığı veya immün kompleks aşırı duyarlılığı olarak da adlandırılır. IgG
+veya IgM antikorlarının antijenler ile birleşmesi sonucu meydana gelen immün komplekslerin
+oluşması ve bu immün komplekslerin sistemik dolaşımda bulunmaları ile açığa çıkar. Bu
+reaksiyonun gelişmesi ve etkinliği saatler veya günler boyunca sürebilir. Bazı örnekleri, immün
+kompleks glomerülonefriti, romatoid artrit, serum hastalığı, subakut bakteriyel endokardit,
+sıtmanın bulguları, sistemik lupus eritamatozis ve Arthus reaksiyonu olarak sıralanabilir67,69.
+5- Tip 4 Reaksiyon
+Hücre aracılığıyla aşırı duyarlılık olarak da adlandırılır, etken bileşenler bağışıklık sistemi
+hücreleridir. Gecikmiş tip aşırı duyarlılıkta, kendisine antikor sunulan T lenfosit aktif bir hale
+geçer ve bazı sitokinler salgılar, bu sitokinlere örnek olarak Tümör nekroz faktör, interlökin 2,
+ve interferon δ verilebilir. Bu sitokinler, bağışıklık sistemindeki hücreleri uyarır ve
+etkinleşmelerini sağlarlar. Bazı örnekleri, kontakt dermatit, BCG aşısı veya tüberküloz etkeni
+ile karşılaşma sonrası gelişen PPD testi, olarak sıralanabilir. Gelişmesi saatler ve günler alır67,69.
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                            287
+
+
+Yılan Isırmasına Bağlı Kompartman Sendromu
+Yılan ısırmalarına bağlı oluşabilecek lokal doku hasarı, anaflaktik reaksiyon, kanama diyatezi
+gibi ağır sistemik patolojiler yanında diğer önemli komplikasyon da, oldukça nadir olarak
+bildirilen, tedavi edilmediğinde iskemik kontraktür ve ekstiremite amputasyonuna neden
+olabilen kompartman sendromudur. Kompartman sendromu, ekstremitelerde kapalı kas
+fasyalarının içinde artmış perfüzyon basıncı nedeni ile sinir ve kas dokularında meydana gelen,
+iskemi sonucu gelişen fonksiyon kaybı ile karakterize bir tablodur. Kompartman sendromu,
+dokulardaki basınç artışı, ödem veya hemoraji nedeni ile kompartman alanının azalmasına ya
+da kompartman içi volüm artışına bağlı olarak gelişir70.
+Patogenezde kompartman içi basınç artışına bağlı olarak venöz basıncın artması arteryel
+basıncın azalması (arterio-venöz gradyent) sonucu kapiller dolaşım bozulur. Oluşan iskemi
+ATP ve glikojen depolarının azalmasına yol açar. İskemi ve sonrası reperfüzyona bağlı olarak
+artan polimorfonükleer lökosit (PMN), tümor nekroz faktörü, lökotrienler ve serbest oksijen
+radikalleri, intravasküler kompartmandan sıvı akışına ve kompartman sendromunda klinik
+tabloya neden olan doku hasarlanmasından sorumlu tutulmaktadır71.
+Kompartman sendromunun klasik semptomları, sürekli devam eden özellikle kasın pasif
+olarak gerilmesi ile belirgin artış gösteren şiddetli ağrı ve parestezidir. Şişlik, renk değişikliği,
+nabız alınamaması gibi dolaşım bozukluğuna ait bulgular da olabilir. Periferik sinir
+etkilenmesine bağlı olarak duyu ve motor defisitler kliniğe eşlik edebilir70.
+En sık, ön kol volar yüz ile alt ekstremitenin anterior ve derin posterior kompartmanlarına ait
+bir tablo olmasına rağmen, vücutta, iskelet kasının fasya ile çevrili olduğu her yerde
+gözlenebilir. Kompartman sendromunun klinik bulguları kompartman bölgesindeki kasların
+pasif gerilmesiyle ağrı oluşumu, parestezi, güçsüzlük, kompartmanın palpasyonuna bağlı ağrı
+şeklinde özetlenebilir. Yılan ısırmaları sonucu görülen lokal bulgular 30 ila 60 dakika içerisinde
+ortaya çıkmasına karşın kompartman sendromu ilk bir hafta içinde görülebilmektedir. Yılan
+ısırıklarının büyük bir çoğunluğu ekstremitelerde olmakta ve bunların bir kısmında
+kompartman sendromu gelişmektedir70.
+Literatürde yılan sokmalarına veya travmaya bağlı gelişen kompartman sendromu tedavisi
+konusunda fikir birliği sağlanamamıştır72-78. Cerrahi tedavi için kompartman basıncının eşik
+değeri konusunda farklı görüşler vardır75-78. Bazı çalışmalarda fasyotominin son aşamaya kadar
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+288                                                                            Yılan Isırmalarının Yönetimi
+
+beklenilmesi gerektiği ve fasyotominin oldukça fazla komplikasyonlara yol açabileceği
+vurgulanmıştır72-74. Bu nedenle kompartman sendromunda klinik bulgular tam olarak oturana
+kadar elevasyon, mannitol tedavisi gibi tıbbi tedaviler uygulanarak beklenebileceği
+önerilmiştir79. Buna karşın diğer bazı çalışmalarda ise ekstremitelerdeki ısırıkların, olası
+kompartman sendromu açısından sıkı takip edilmesi gerektiği ve klinik olarak
+şüphelenildiğinde fasyotomi açılması gerektiği görüşü savunulmuştur75-80. Kompartman
+sendromu tanısının gecikmesi iskemik kontraktürlere veya ektremitede çeşitli seviyelerde
+amputasyonlara neden olmaktadır81.
+Sonuç ve Öneriler
+Yılan ısırmalarında bilinçsiz ilkyardım müdahaleleriyle hastaya zarar verilebileceği
+unutulmamalıdır. Yılan ısırması nedeniyle acil servislere başvuran hastalar hiçbir klinik
+zehirlenme bulgusu olmasa dahi acil serviste 12 saat gözlem altında tutulmalıdır. Bulgusu
+olan hastalar yatırılarak saat başı muayene edilerek yakından takip edilmelidir. Klinik
+evrelemeye göre eğer gerekliyse antivenom tedavisi verilmelidir. Antivenom verilirken akut
+alerjik reaksiyon gelişimi yönünden dikkatli olunmalıdır. Doku ödemi olan her hastanın ısırılan
+bölgesi atele alınarak kalp seviyesinde tutulmalı ve immobilize edilmelidir. Yara bölgesi her
+gün kontrol edilmeli, yara bakımı ve bül, abse, nekroz veya kompartman sendromu gelişimi
+açısından kontrol edilmelidir.
+Kaynaklar
+1.    Baran İ, Başoğlu M. Türkiye Sürüngenleri, İzmir, Ege Üniversitesi Basımevi, 1998.
+2.    Baran İ. Türkiye Herpefaurası (Kurbağa ve Sürüngenler). Ankara, T.C. Çevre Bakanlığı, 1998.
+3.    Açıkalın A. Yılan ısırmalarında düşük doz antivenom tedavisinin etkinliği ve sistemik tümör
+      nekrozis faktör- α salınımının mortalite ve morbidite ile olan ilişkisi (uzmanlık Tezi). Adana,
+      Çukurova Üniversitesi Tıp Fakültesi, 2004.
+4.    Kuru M. Omurgalı Hayvanlar, 5. Baskı. Ankara, Palme Yayıncılık, 1999.
+5.    Okur Mİ, Yıldırım AM, Köse R. Türkiye’de zehirli yılan ısırmaları ve tedavisi. Türkiye Klinikleri Tıp
+      Bilimleri Dergisi. 2001; 21:528-32.
+6.    Ertem K, Esenkaya I, Kaygusuz MA, Turan C. Our clinical experience in the treatment of
+      snakebites. Acta Ortop Travmatol. 2005; 39:54-8.
+7.    Uğurtaş İH. Türkiye’de yaşayan zehirli yılanlar, ısırık ve sokmalar. In Klinik toksikoloji Derneği 10.
+      Toplantısı Kitabı:5-10. Bursa, Uludağ Üniversitesi Basımevi. 2004.
+
+
+                     Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                          289
+
+8.  Clarck RF. Snakebite. In Poisoning and Drug Overdose, 4th ed (Ed KR Olson):343-5. NewYork,
+    McGraw Hill, 2004.
+9. Warrell DA. Treatment of snakebite in the Asia Pasific: a personal view. In Snake of Medical
+    Importance Singapore Venom, (Eds P Gopalaksishnakone, LM Chou):641-70. Singapore,
+    University of Singapore, 1990.
+10. Hall EL. Role of surgical intervention in the management of crotaline snake envenomation. Ann
+    Emergy Med. 2001; 37:175-80.
+11. Kasturiratne A, Wickremasinghe AR, De Silva N, Gunawardena NK, Pathmeswaran A, Premaratna
+    R et al. The global burden of snakebite: a literature analysis and modelling based on regional
+    estimates of envenoming and deaths. PloS Med. 2008; 5:e218.
+12. Mohapatra B, Warrell DA, Suraweera W, Bhatia P, Dhingra N, Jotkar RM et al. Million Death Study
+    Collaborators. Snakebite mortality in India: a nationally representative mortality survey. PloS
+    Negl Trop Dsl. 2011; 5:e1018.
+13. Chippaux JP. Global incidence of snake and scorpion envenoming. Med Sci (Paris). 2009; 25:197-
+    200.
+14. Edmunds C. Dangerous marine animals. Aust Fam Physician. 1976;5:381-407.
+15. Harborne DJ. Emergency treatment of adder bites: case report and literature review. Arch Emerg
+    Med. 1993; 10:239-43.
+16. Koh DC, Armugam A, Jeyaseelan K. Snake venom components and their applications in
+    biomedicine. Cell Mol Life Sci. 2006; 63:3030-41.
+17. Mamak N, Durgut R. Köpek ve kedilerde yılan sokması. Veteriner Cerrahi Dergisi. 2010; 14:17-31.
+18. Kurtoğlu K. Zehirlenmeler: Teşhis ve Tedavi. Kayseri, Erciyes Üniversitesi, 1992.
+19. Feofanov AV, Sharonov GV, Dubinnyi MA, Astapova MV, Kudelina IA, Dubovskii PV et al.
+    Comparative study of structure and activity of cytotoxins from venom of the cobras Naja oxiana,
+    Naja kaouthia, and Naja haje. Biochemistry (Mosc). 2004; 69:1148-57.
+20. Ananda KJ, Mohan K, Kamran A, Sharada R. Snake bite in dogs and its successful treatment.
+    Veterinary World. 2009; 2:66-7.
+21. Başoğlu M, Baran I. The Snakes (Sürüngenler). İzmir, Ege Üniversitesi, 1980.
+22. Büyükbecbeci O, Barlas SK, Karakarum G, Güleç A, Demir S. Yılan ısırmalarında klinik
+    deneyimlerimiz. Artroplasti Artroskopik Cerrahi. 2001; 12:47-9.
+23. Reading CJ. Incidence, pathology, and treatment of adder (Vipera berus L) bites in man. J Accid
+    Emerg Med. 1996; 13:346-51.
+24. Milani JR, Jorge MT, de Campos FP, Martins FP, Bousso A, Cardoso JL et al. Snake bites by the
+    jararacuçu (Bothrops jararacussu): clinicopathological studies of 29 proven cases in São Paulo
+    State, Brazil. QJM. 1997; 90:323-34.
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+290                                                                         Yılan Isırmalarının Yönetimi
+
+25. Büyük Y, Koçak U, Yazıcı YA, Gülpınar SS, Kır Z. Yılan ısırmalarına bağlı ölüm. Türkiye Klinikleri
+    Adli Tıp Dergisi. 2007; 4:127-30.
+26. Panda S, Sinha J. The saga of cytotoxin-switching of destructive role to a constructive role. Indian
+    J Biotechnol. 2009; 8:259-65.
+27. Bonderud D. What is a cytotoxin? http://www.wisegeek.com/what-is-a-cytotoxin.htm (accessed
+    Aug 2013).
+28. McDonald J. how snake venom works? http://www.popsci.com/scitech/gallery/2008-03/how-
+    snake-venom-works (accessed Aug 2013).
+29. Koh DCI, Arumugam A, Jeyaseelan K. Snake venom components and their applications in
+    biomedicine. Cell Mol Life Sci. 2006; 63:3030-41.
+30. Admin.         Understanding          snake         venom       and       how        it       works.
+    http://www.snakesandspiders.com/understanding-snake-venom-works/ (accessed Aug 2013).
+31. Ouyang C, Teng CM, Huang TF. Characterization of snake venom components acting on blood
+    coagulation and platelet function. Toxicon. 1992; 30:945-66.
+32. Johnston MA, Tullett WM. Adder (Vipera berus) bites: a case report and review of the
+    management for emergency medical personnel. Arch Emerg Med. 1993; 10:375-9.
+33. Gökel Y, Başlamışlı F, Koçak R. Çukurova yöresinde yılan ısırmaları. Çukurova Üniversitesi Tıp
+    Fakültesi Dergisi. 1997; 22:184-8.
+34. Currie BJ, Sutherland SK, Hudson BJ, Smith AM. An epidemiological study of snake bite
+    envenomation in Papua New Guinea. Med J Aust. 1991; 154:266-8.
+35. Spiller HA, Bosse GM. Prospective study of morbidity associated with snakebite envenomation. J
+    Toxicol Clin Toxicol. 2003; 41:125-30.
+36. Gundappa RK, Sud K, Kohli HS, Jha V, Gupta KL, Joshi K et al. Snakebite induced acute interstitial
+    nephritis: report of a rare entity. Ren Fail. 2002; 24:369-72.
+37. Lau YL, Kenna AP. Surgical treatment of adder bite. J R Soc Med. 1985; 78:1028-30.
+38. Gill KA Jr. The evaluation of cryotherapy in the treatment of snake envenomization. South Med J.
+    1970; 63:552-6.
+39. McKinney PE. Out of hospital and interhospital management of crotaline snakebite. Ann Emerg
+    Med. 2001; 37:168-74.
+40. Bucnall NC. Elevtrical treatment of venomous bites and stings. Toxicon. 1991; 29:397-8.
+41. Hardy DL. A review of first aid measures for pit viper bite in the North America with an appraisol
+    of Extractor suction and stun gun electroshock. In Biology of Pit Vipers (Eds ED Brodie Jr, TX
+    Tyler):395-404. NewYork, Selva Publishing, 1992.
+42. Gold BS, Wingert WA. Snake venom poisoning in the United States: a review of therapeutic
+    practice. South Med J. 1994; 87:579-89.
+43. Sutherland SK. Deaths from snake bite in Australia, 1981-1991. Med J Aust. 1992; 157:740-6.
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                                              291
+
+44. Juckett G, Hancox JG. Venomous snakebites in the United States: management review and
+    update. Am Fam Physician. 2002; 65:1367-74.
+45. Dart RC, Gustafson RA. Failure of electric shock treatment for rattlesnake envenomation. Ann
+    Emerg Med. 1991; 20:659-61.
+46. Blackman JR, Dillon S. Venomous snakebite: past, present, and future treatment options. J Am
+    Board Fam Pract. 1992; 5:399-405.
+47. Russell FE. Snake venom poisoning. Vet Hum Toxicol. 1991; 33:584-6.
+48. Murdock RT, White GL Jr, Pedersen DM, DeFaller JM, Snyder CC. Prevention and emergency field
+    management of venomous snakebites during military exercises. Mil Med. 1990; 155:587-90.
+49. Bush SP, Hegewald KG, Green SM, Cardwell MD, Hayes WK. Effects of a negative pressure venom
+    extraction device (Extractor) on local tissue injury after artificial rattlesnake envenomation in a
+    porcine model. Wilderness Environ Med. 2000; 11:180-8.
+50. Rogers IR, Celenza T. Simulated field experience in the use of the Sam splint for pressure
+    immobilization of snakebite. Wilderness Environ Med. 2002; 13:184-5.
+51. Bush SP, Green SM, Laack TA, Hayes WK, Cardwell MD, Tanen DA. Pressure immobilization delays
+    mortality and increases intracompartmental pressure after artificial intramuscular rattlesnake
+    envenomation in a porcine model. Ann Emerg Med. 2004; 44:599-604.
+52. Rogers IR, Winkel KD. Struan Sutherland's "Rationalisation of first-aid measures for elapid
+    snakebite"-a commentary. Wilderness Environ Med. 2005; 16:160-3.
+53. Sutherland SK, Coulter AR, Harris RD. Rationalisation of first-aid measures for elapid snakebite.
+    Wilderness Environ Med. 2005; 16:164-7.
+54. Chang KP, Lai CS, Lin SD. Management of poisonous snake bites in southern Taiwan. Kaohsiung J
+    Med Sci. 2007; 23:511-8.
+55. Ertem K, Esenkaya I, Kaygusuz MA, Turan C. Our clinical experience in the treatment of
+    snakebites. Acta Ortop Tramvatol Truc. 2005; 39:54-8.
+56. Reid HA. Treatment of snake-bite poisoning. Br Med J. 1963; 1(5346):1675.
+57. Tagwireyi DD, Ball DE, Nhachi CF. Routine prophylactic antibiotic use in the management of
+    snakebite. BMC Clinical Pharmacology. 2001; 1:4.
+58. Roberts JR, Otten EJ. Snakebites and other reptiles. In Goldfrank’ s Toxicolojic Emergencies, (Eds
+    LR Goldfrank, NE Flomenbau):1603-23. New York, McGraw Hill, 1998.
+59. Blaylock RS. Antibiotic use and infection in snakebite victims. S Afr Med J. 1999; 89:874-6.
+60. Goldstein EJ. Bite wounds and infection. Clin Infect Dis. 1992; 14:34633-8.
+61. Greenwood BM, Warrell DA, Davidson NM, Ormerod LD, Reid HA. Immunodiagnosis of snake bite.
+    Br Med J.1974; 4(5947):743-5.
+62. Theakston RD, Warrell DA, Griffiths E. Report of a WHO workshop on the standardization and
+    control of antivenoms. Toxicon. 2003; 41:541-57.
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+292                                                                      Yılan Isırmalarının Yönetimi
+
+63. Lalloo DG, Theakston RD. Snake antivenoms. J Toxicol Clin Toxicol. 2003; 41:277-90.
+64. Vincent JL, Créteur J. Snake bites. Rev Med Brux. 1995; 16:349-52.
+65. Köse R. The management of snake envenomation: evaluation of twenty-one snake bite cases.
+    Ulus Travma Acil Cerrahi Derg. 2007; 13:307-12.
+66. Snyder CC, Straight R, Glenn J. The snakebitten hand. Plast Reconstr Surg. 1972; 49:275-82.
+67. Jenkins JL, Brean GR. Manual of Emergency Medicine. Philadelphia, Lippincott Williams &
+    Wilkins, 2000.
+68. Tanen D, Ruha A, Graeme K, Curry S. Epidemiology and hospital course of rattlesnake
+    envenomations cared for at a tertiary referral center in Central Arizona. Acad Emerg Med. 2001;
+    8:177-82.
+69. Tintinalli JE, Stapczynski J, John Ma O, Cline D, Cydulka R, Meckler G. Tintinalli's Emergency
+    Medicine: A Comprehensive Study Guide, 7th ed. New York, McGraw Hill, 2011.
+70. Emre U, Özdolap Ş, Gül Ş, Keser S. Akut kompartman sendromu sonrası gelişen radial ve ulnar
+    sinir lezyonu. Türkiye Fiziksel Tıp ve Rehabilitasyon Dergisi. 2007; 53:160-3.
+71. Tollens T, Janzing H, Bros P. The pathophysiology of the acute compartment syndrome. Acta Chir
+    Belg. 1998; 98:171-5.
+72. Ertem K. Venomous snake bite in Turkey. European Journal of General Medicine. 2004; 1:1-6.
+73. Tanen DA, Danish DC, Grice GA, Riffenburgh RH, Clark RF. Fasciotomy worsens the amount of
+    myonecrosis in a porcine model of crotaline envenomation. Ann Emerg Med. 2004; 44:99-104.
+74. Gold BS, Barish RA, Dart RC, Silverman RP, Bochicchio GV. Resolution of compartment syndrome
+    after rattlesnake envenomation utilizing non-invasive measures. J Emerg Med. 2003; 24:285-8.
+75. Williams AB, Luchette FA, Papaconstantinou HT, Lim E, Hurst JM, Johannigman JA et al. The
+    effect of early versus late fasciotomy in the management of extremity trauma. Surgery. 1997;
+    122:861-6.
+76. Cawrse NH, Inglefield CJ, Hayes C, Palmer JH. A snake in the clinical grass: late compartment
+    syndrome in a child bitten by an adder. Br J Plast Surg. 2002; 55:434-5.
+77. Matsen FA, Winquist RA, Krugmire RB. Diagnosis and management of compartmental
+    syndromes. J Bone Joint Surg Am. 1980; 62:286-91.
+78. Mars M, Hadley GP. Raised compartmental pressure in children: a basis for management. Injury.
+    1998; 29:183-5.
+79. Anıl BA, Anıl M, Kara OD, Bal A, Ozhan B, Aksu N. Yılan ısırığına bağlı ağır ödem saptanan üç
+    olguda mannitol tedavisi. Türkiye Klinikleri J Med Sci. 2011; 31:720-3.
+80. Grace TG. Closed compartment ischemia and snakebite. West J Med. 1988; 148:707.
+81. McQueen MM, Gaston P, Court-Brown CM. Acute compartment syndrome: Who is at risk? J Bone
+    Joint Surg Br. 2000; 82:200-3..
+
+
+                   Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+Elarslan Kara ve ark.                                                               293
+
+Correspondence Address / Yazışma Adresi
+Mehmet Oğuzhan Ay
+Adana Numune Eğitim ve Araştırma Hastanesi
+Acil Tıp Kliniği
+Adana, Turkey
+e-mail: droguzhan2006@mynet.com
+
+
+
+
+                    Arşiv Kaynak Tarama Dergisi . Archives Medical Review Journal
+

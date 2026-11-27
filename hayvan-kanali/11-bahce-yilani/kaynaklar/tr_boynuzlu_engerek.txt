@@ -1,0 +1,150 @@
+ 
+ Boynuzlu engerek - Vikipedi 
+ İçeriğe atla 
+ Ana menü 
+ Ana menü 
+ kenar çubuğuna taşı 
+ gizle 
+ Dolaşım
+ Anasayfa Hakkımızda İçindekiler Rastgele madde Seçkin içerik Yakınımdakiler 
+ Katılım
+ Deneme tahtası Köy çeşmesi Son değişiklikler Dosya yükle Topluluk portali Wikimedia dükkânı Yardım Özel sayfalar 
+ Ara 
+ Ara 
+ Görünüm 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ Kişisel araçlar 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ İçindekiler 
+ kenar çubuğuna taşı 
+ gizle 
+ Giriş 
+ 1 
+ Özellikleri 
+ 2 
+ Yaşam alanları 
+ 3 
+ Avlanma ve beslenme 
+ 4 
+ Üreme 
+ 5 
+ Kaynakça 
+ İçindekiler tablosunu değiştir 
+ Boynuzlu engerek 
+ 40 dil 
+ العربية مصرى Azərbaycanca Български Brezhoneg Bosanski Cebuano Čeština Deutsch Ελληνικά English Español Eesti Euskara فارسی Suomi Français Hrvatski Magyar Հայերեն Bahasa Indonesia Italiano 日本語 ქართული Lietuvių Македонски Nederlands Diné bizaad Polski پنجابی Română Русский Slovenščina Shqip Српски / srpski Svenska Українська Tiếng Việt Winaray 中文 
+ Bağlantıları değiştir 
+ Madde 
+ Tartışma 
+ Türkçe 
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Araçlar 
+ Araçlar 
+ kenar çubuğuna taşı 
+ gizle 
+ Eylemler
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Genel
+ Sayfaya bağlantılar İlgili değişiklikler Kalıcı bağlantı Sayfa bilgisi Bu sayfayı kaynak göster Kısaltılmış URL'yi al Eski ayrıştırıcıya geç 
+ Yazdır/dışa aktar
+ Bir kitap oluştur PDF olarak indir Basılmaya uygun görünüm 
+ Diğer projelerde
+ Wikimedia Commons Vikitür Vikiveri ögesi 
+ Görünüm 
+ kenar çubuğuna taşı 
+ gizle 
+ Vikipedi, özgür ansiklopedi 
+ {{Akademik dergi kaynağı | yazar = Aram Agasyan | yazar2 = Aziz Avci | yazar3 = Boris Tuniyev | yazar4 = Jelka Crnobrnja Isailovic | yazar5 = Petros Lymberakis | yazar6 = Claes Andrén | yazar7 = Dan Cogalniceanu | yazar8 = John Wilkinson | yazar9 = Natalia Ananjeva | yazar10 = Nazan Üzüm | yazarlarıgöster = etal | başlık = ''Vipera ammodytes'' | dergi = [[IUCN Kırmızı Listesi]] | sayfa = e.T62255A12584303 | tarih = 2009 | url = https://www.iucnredlist.org/species/62255/12584303 | doi = 10.2305/IUCN.UK.2009.RLTS.T62255A12584303.en | erişimtarihi = 14 Aralık 2022 | arşivurl = https://web.archive.org/web/20220404033310/https://www.iucnredlist.org/species/62255/12584303 | arşivtarihi = 4 Nisan 2022 | ölüurl = hayır }}</ref>"},"alem":{"wt":"[[Hayvan|Animalia]]"},"şube":{"wt":"[[Kordalılar|Chordata]]"},"sınıf":{"wt":"[[Sürüngenler|Reptilia]]"},"takım":{"wt":"[[Pullular|Squamata]]"},"alttakım":{"wt":"[[Yılan|Serpentes]]"},"familya":{"wt":"[[Engerek|Viperidae]] <small>(Engerekgiller)</small>"},"altfamilya":{"wt":"[[Engerekler|Viperinae]]"},"cins":{"wt":"[[Vipera]]"},"tür":{"wt":"V. ammodytes"},"ikili_ad":{"wt":"Vipera ammodytes"},"ikili_ad_yazar":{"wt":"[[Carl Linnaeus|Linnaeus]], 1758"},"harita":{"wt":"Vipera ammodytes distribution (including V. a. transcaucasiana).png"},"harita_bilgi":{"wt":"Vipera ammodytes ve alt türlerinin dağılımı"},"dış_bağlantılar":{"wt":"{{commons-species|Vipera ammodytes}}"}},"i":0}}]}'>
+ Boynuzlu engerek 
+ Korunma durumu 
+ Asgari endişe altında   ( IUCN 2.3 ) [ 1 ] 
+ Biyolojik sınıflandırma 
+ Üst âlem: 
+ Eukaryota 
+ Âlem: 
+ Animalia 
+ Alt âlem: 
+ Eumetazoa 
+ (Grup) 
+ Bilateria 
+ Üst şube: 
+ Deuterostomia 
+ Şube: 
+ Chordata 
+ Alt şube: 
+ Vertebrata 
+ İnfa şube: 
+ Gnathostomata 
+ Üst sınıf: 
+ Tetrapoda 
+ Sınıf: 
+ Reptilia 
+ Alt sınıf: 
+ Diapsida 
+ İnfra sınıf: 
+ Lepidosauromorpha 
+ Üst takım: 
+ Lepidosauria 
+ Takım: 
+ Squamata 
+ Alt takım: 
+ Serpentes 
+ Familya: 
+ Viperidae (Engerekgiller) 
+ Alt familya: 
+ Viperinae 
+ Cins: 
+ Vipera 
+ Tür: 
+ V. ammodytes 
+ İkili adlandırma 
+ Vipera ammodytes Linnaeus , 1758 
+ Vipera ammodytes ve alt türlerinin dağılımı 
+ Boynuzlu engerek ( Vipera ammodytes ), engerekgiller (Viperidae) familyasından sırt bölgesinin rengi genel olarak gri, sarı ve kahverengi renkli engerek türü . 
+ Özellikleri [ değiştir | kaynağı değiştir ] 
+ Boynuzlu engerek yılanının baş tarafında küçük yapıda boynuza benzer bir yapıları vardır ve bu nedenle bu ismi almışlardır. Küçük hayvan grubu ile beslenirler hatta diğer yılan türlerini bile yerler. Yaz ortalarında 10 - 14 kadar yavru doğururlar ve boyları takriben 1m kadar olur. Tehlikede olduklarını hissetiklerinde saldırırlar. "Boynuzlu" denmesinin nedeni burun ucunun gergedan boynuzu gibi küçük ve yukarıya doğru olmasından dolayıdır. Sırtta ayrıca koyu kahverengi, baklava deseni benzeri zikzak desenler bulunur. beneklerin ortası kenarlara göre daha açık olur. Kuyruğun uç kısımları genç bireylerde sarımsı pembe renkli olur. Başın üst kısmında küçük ve belirgin benekler bulunur. 
+Karın bölgesi sarımsı beyaz ve küçük benekli olur. Hareketleri oldukça yavaştır. Eylül-Ekim'den Mart-Nisan'a kadar kış uykusuna yatarlar. Boyları genel olarak 50–60   cm (erkekler en fazla 90   cm) kadar olur. 
+ Üst çenelerinin ön tarafında, içi enjektör iğnesi gibi delik ve büyük zehir dişleri bulunur. Zehirleri insan için tehlikeli olabilir. Ancak üzerine basılmadıkça veya rahatsız edilmedikçe insanı ısırmazlar. Eğer sıkıştırılırlarsa başlarını havaya kaldırarak tıslarlar ve kendilerini çok tehlikede hissederlerse saldırabilirler. Tür adı olan "ammodytes" Yunancada kum anlamına gelen "ammos" ve gömülen anlamına gelen "dytes" kelimelerinin birleşmesinden oluşur. 
+ Yaşam alanları [ değiştir | kaynağı değiştir ] 
+ Türkiye 'de kumlu yerlerden daha çok küçük boylu bitkilerin altlarında, orman açıklıklarında, çalılık ve taşlık yerlerde yaşarlar. Yüksekliği 2000 metreye kadar olan yerlerde bulunabilirler. 
+ Avlanma ve beslenme [ değiştir | kaynağı değiştir ] 
+ Yüksek ve serin yerlerde gündüz, sıcak bölgelerde gece avlanır. Bilhassa ay ışığında çok sayıda ortaya çıkarlar. Besinlerini küçük kemiriciler , kuşlar , yılan ve kertenkeleler teşkil eder. Küçük memeli türlerini önce ısırarak zehirlerler, sonra ölmesini bekler ve ondan sonra yutarlar. Kemiricilerle beslendikleri için yararlıdırlar. 
+ Üreme [ değiştir | kaynağı değiştir ] 
+ İlkbaharda çiftleşen dişiler, Ağustos ayında 5-14 kadar yavru doğururlar. 
+ Kaynakça [ değiştir | kaynağı değiştir ] 
+ ↑ Aram Agasyan; Aziz Avci; Boris Tuniyev; Jelka Crnobrnja Isailovic; Petros Lymberakis; Claes Andrén; Dan Cogalniceanu; John Wilkinson; Natalia Ananjeva; Nazan Üzüm; ve diğerleri. (2009). " Vipera ammodytes " . IUCN Kırmızı Listesi : e.T62255A12584303. doi : 10.2305/IUCN.UK.2009.RLTS.T62255A12584303.en . 4 Nisan 2022 tarihinde kaynağından arşivlendi 14 Aralık 2022.   
+ Otorite kontrolü 
+ GND : 4179062-5 
+ " https://tr.wikipedia.org/w/index.php?title=Boynuzlu_engerek&oldid=38623622 " sayfasından alınmıştır 
+ Kategoriler : IUCN Kırmızı Listesi'ne göre asgari endişe altındaki türler Engerek Azerbaycan'daki sürüngenler Türkiye'deki yılanlar Carl Linnaeus tarafından adlandırılmış hayvan taksonları Gizli kategoriler: Otomatik taksonkutu eklenmesi gereken sayfalar Türkçe Vikipedi ile Vikiveride aynı resim olan maddeler GND tanımlayıcısı olan Vikipedi maddeleri 
+ Sayfa en son 15.25, 18 Kasım 2026 tarihinde değiştirildi. 
+ Sayfa Parsoid ile işlendi. 
+ Metin Creative Commons Atıf-AynıLisanslaPaylaş Lisansı altındadır ve ek koşullar uygulanabilir. Bu siteyi kullanarak Kullanım Şartlarını ve Gizlilik Politikasını kabul etmiş olursunuz. Vikipedi® (ve Wikipedia®) kâr amacı gütmeyen kuruluş olan Wikimedia Foundation, Inc. tescilli markasıdır. 
+ Gizlilik politikası 
+ Vikipedi hakkında 
+ Sorumluluk reddi 
+ Hukuk & Güvenlik İletişim Noktaları 
+ Davranış Kuralları 
+ Geliştiriciler 
+ İstatistikler 
+ Çerez politikası 
+ Mobil görünüm 
+ Ara 
+ Ara 
+ İçindekiler tablosunu değiştir 
+ Boynuzlu engerek 
+ 40 dil 
+ Konu ekle 
+ 

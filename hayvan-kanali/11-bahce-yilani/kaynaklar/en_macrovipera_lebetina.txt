@@ -1,0 +1,243 @@
+ 
+ Macrovipera lebetinus - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Common names 
+ 2 
+ Taxonomy 
+ 3 
+ Subspecies 
+ 4 
+ Description 
+ 5 
+ Habitat 
+ 6 
+ Geographic range 
+ 7 
+ Conservation status 
+ 8 
+ References 
+ 9 
+ Further reading 
+ 10 
+ External links 
+ Toggle the table of contents 
+ Macrovipera lebetinus 
+ 31 languages 
+ العربية Azərbaycanca Беларуская Български Cebuano Čeština Deutsch Eesti Euskara فارسی Français עברית Magyar Հայերեն Italiano ქართული Қазақша کٲشُر Kurdî Кыргызча Nederlands Diné bizaad پنجابی Русский Svenska Тоҷикӣ Türkçe Українська Oʻzbekcha / ўзбекча Tiếng Việt Winaray 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Save 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ Save 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikispecies Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ (Redirected from Macrovipera lebetina ) 
+ Species of snake 
+ {{cite iucn |author1=Aghasyan, A. |author1-link=species:Aram L. Agasyan |author2=Ananjeva, N.B. |author2-link=species:Natalia Borisovna Ananjeva |author3=Böhme, W. |author3-link=species:Wolfgang Böhme |author4=Cogălniceanu, D. |author4-link=species:Dan Cogălniceanu |author5=Hraoui-Bloquet, S. |author5-link=species:Souad Hraoui-Bloquet |author6=Lymberakis, P. |author6-link=species:Petros Lymberakis |author7=Orlov, N.L. |author7-link=species:Nikolai Liutsianovich Orlov |author8=Sadek, R. |author8-link=species:Riyad Sadek |author9=Sevinç, M. |author9-link=species:Murat Sevinç |author10=Tok, C.V. |author10-link=species:Varol Tok |author11=Tuniyev, B. |author11-link=species:Boris Sakoevich Tuniyev |author12=Ugurtas, I.H. |author12-link=species:İsmael Hakki Uğurtaş |author13=Werner, Y.L. |author13-link=Yehudah L. Werner |author14=Wilkinson, J. |author14-link=species:Jeffery A. Wilkinson |author15=Borkin, L. |author15-link=species:Leo J. Borkin |author16=Milto, K. |author16-link=species:Konstantin Dmitrievich Milto |author17=Golynsky, E. |author17-link=species:Evgeny A. Golynsky |author18=Rustamov, A |author18-link=species:Anver Keyushevich Rustamov |author19=Nuridjanov, D. |author19-link=species:Denis A. Nuridjanov |author20=Munkhbayar, K. |author20-link=species:Khorlooghiyn Munkhbayar |author21=Giri, V. |author21-link=species:Varad B. Giri |date=2021 |title=''Macrovipera lebetinus '' |article-number=e.T157295A750117 |doi=10.2305/IUCN.UK.2021-3.RLTS.T157295A750117.en |access-date=21 February 2022}}</ref>"},"genus":{"wt":"Macrovipera"},"species":{"wt":"lebetinus"},"authority":{"wt":"([[Carl Linnaeus|Linnaeus]], [[10th edition of Systema Naturae|1758]])"},"synonyms":{"wt":"* [''Coluber''] ''Lebetinus'' <br /><small>Linnaeus, 1758</small>\n* ''Vipera lebetina'' <br /><small>&mdash; [[François Marie Daudin|Daudin]], 1803</small>\n* ''Vipera Euphratica'' <br /><small>[[William Charles Linnaeus Martin|W.C.L. Martin]], 1838</small>\n* ''Daboia Euphratica'' <br /><small>&mdash; [[John Edward Gray|Gray]], 1849</small>\n* ''V''[''ipera'']. (''Echidna'') ''lebetina'' <br /><small>&mdash; [[Giorgio Jan|Jan]], 1863</small>\n* ''Vipera lebethina'' [sic] <br /><small>[[Filippo de Filippi|de Filippi]], 1865</small> (''[[ex errore]]'')\n* ''Vipera lebetina'' <br /><small>&mdash; [[George Albert Boulenger|Boulenger]], 1896</small>\n* ''Macrovipera lebetina'' <br /><small>&mdash; [[species::Albert Franz Theodor Reuss|A.F.T. Reuss]], 1927</small>\n* ''Vipera lebetina lebetina'' <br /><small>&mdash; [[Robert Mertens|Mertens]] & [[Lorenz Müller|L. Müller]], 1928</small>\n* ''Vipera lebetina euphratica'' <br /><small>&mdash; [[Karl Patterson Schmidt|K.P. Schmidt]], 1939</small>\n* ''Vipera libertina'' [sic] <br /><small>Roitman, 1967</small> (''ex errore'')\n* ''Vipera lebetina'' <br /><small>&mdash; [[Orsetta Elter|Elter]], 1981</small>\n* ''Daboia'' (''Daboia'') ''lebetina lebetina'' <br /><small>&mdash; [[species:Fritz Jürgen Obst|Obst]], 1983</small>\n* ''Vipera lebetina cypriensis'' <br /><small>[[Beat Schätti|Schätti]] & [[Harry Sigg|Sigg]], 1989</small>\n* ''Daboia'' (''Vipera'') ''lebetina'' <br /><small>&mdash; [[C. Radspieler|Radspieler]] & [[species:Mario Schweiger|Schweiger]], 1990</small>\n* ''Macrovipera lebetina'' <br /><small>&mdash; [[species:Hans-Werner Herrmann|Herrmann]], [[species:Ulrich Joger|Joger]] & [[species:Gorän Nilson|Nilson]], 1992</small>\n* ''Daboia lebetina'' <br /><small>&mdash; [[species:Wolf-Eberhard Engelmann|Engelmann]] et al., 1993</small>\n* ''Macrovipera lebetina'' <br /><small>&mdash; [[species:Roy Wallace McDiarmid|McDiarmid]], [[Jonathan A. Campbell|Cambell]] & [[species:T'Shaka A. Touré|Touré]], 1999</small>"},"synonyms_ref":{"wt":"<ref name=\"McD99\">[[species:Roy Wallace McDiarmid|McDiarmid RW]], [[Jonathan A. Campbell|Campbell JA]], [[species:T'Shaka A. Touré|Touré TA]] (1999). ''Snake Species of the World: A Taxonomic and Geographic Reference, Volume 1''. Washington: District of Columbia: Herpetologists' League. 511 pp. {{ISBN|1-893777-00-6}} (series). {{ISBN|1-893777-01-4}} (volume).</ref>"}},"i":0}}]}"> 
+ Macrovipera lebetinus 
+ Macrovipera lebetinus obtusa 
+ Conservation status 
+ Least Concern   ( IUCN 3.1 ) [ 1 ] 
+ Scientific classification 
+ Kingdom: 
+ Animalia 
+ Phylum: 
+ Chordata 
+ Class: 
+ Reptilia 
+ Order: 
+ Squamata 
+ Suborder: 
+ Serpentes 
+ Family: 
+ Viperidae 
+ Genus: 
+ Macrovipera 
+ Species: 
+ M.   lebetinus 
+ Binomial name 
+ Macrovipera lebetinus ( Linnaeus , 1758 ) 
+ Synonyms [ 2 ] 
+ [ Coluber ] Lebetinus Linnaeus, 1758 
+ Vipera lebetina — Daudin , 1803 
+ Vipera Euphratica W.C.L. Martin , 1838 
+ Daboia Euphratica — Gray , 1849 
+ V [ ipera ]. ( Echidna ) lebetina — Jan , 1863 
+ Vipera lebethina [sic] de Filippi , 1865 ( ex errore ) 
+ Vipera lebetina — Boulenger , 1896 
+ Macrovipera lebetina — A.F.T. Reuss , 1927 
+ Vipera lebetina lebetina — Mertens & L. Müller , 1928 
+ Vipera lebetina euphratica — K.P. Schmidt , 1939 
+ Vipera libertina [sic] Roitman, 1967 ( ex errore ) 
+ Vipera lebetina — Elter , 1981 
+ Daboia ( Daboia ) lebetina lebetina — Obst , 1983 
+ Vipera lebetina cypriensis Schätti & Sigg , 1989 
+ Daboia ( Vipera ) lebetina — Radspieler & Schweiger , 1990 
+ Macrovipera lebetina — Herrmann , Joger & Nilson , 1992 
+ Daboia lebetina — Engelmann et al., 1993 
+ Macrovipera lebetina — McDiarmid , Cambell & Touré , 1999 
+ Macrovipera lebetinus , known as the blunt-nosed viper , Lebetine viper , Levant viper , [ 3 ] and by other common names , is a viper species found on islands in the Aegean Sea , in Algeria , and in much of the Middle East , and as far east as India . Like all other vipers, it is venomous . Six subspecies are currently recognized, including the nominate race described here. [ 4 ] 
+ Common names [ edit ] 
+ Common names for this viper include: blunt-nosed viper, Lebetine viper, Levant viper, [ 3 ] Levantine viper, [ 5 ] Levantine adder, [ 6 ] kufi or kufi viper (from the Greek word κωφή meaning deaf), gjurza (from Persian ), [ 3 ] coffin snake, Levante viper, mountain viper, [ 7 ] gunas (from Kashmiri ), fina or kontonoura (the second comes from the translation of Greek Cypriot dialect for "short-tailed"). 
+ Taxonomy [ edit ] 
+ This species is currently subject to review. It is likely that certain subspecies will soon be elevated to valid species status. The nominate subspecies was restricted to Cyprus in 1928 by Mertens and Müller and so does not actually occur in the Levant region. [ 3 ] 
+ The populations found in southern Afghanistan and northern India are sometimes referred to as a separate subspecies: M. l. peilei . These normally have semidivided supraoculars. [ 3 ] 
+ Vipera Euphratica was originally used to refer to the populations that occur in the Euphrates river basin of Turkey, Syria and Iraq. It was synonymized with M. l. obtusa in several publications, including Joger (1984). [ 3 ] However, Golay et al. (1993) include it in the synonymy of M. l. lebetina . [ 2 ] 
+ Obst (1983) suggested inclusion of the species in the genus Daboia instead of Macrovipera . 
+ Subspecies [ edit ] 
+ Images 
+ Subspecies [ 4 ] 
+ Taxon author [ 4 ] 
+ Common name [ 8 ] 
+ Geographic range [ 3 ] 
+ M. l. cernovi 
+ ( Chikin & Szczerbak , 1992) 
+ Northeast Iran , southern Turkmenistan , parts of northern Afghanistan and Pakistan ( Kashmir ). 
+ M. l. lebetinus 
+ ( Linnaeus , 1758) 
+ Cypriot blunt-nosed viper 
+ Cyprus 
+ M. l. obtusa 
+ ( Dwigubsky , 1832) 
+ Levant blunt-nosed viper 
+ Turkey , Syria , Lebanon , Iraq , north Jordan , Caucasus (incl. Armenia ), Azerbaijan , Dagestan , Iran , southern Afghanistan, Pakistan , and north India ( Kashmir , Ladakh , Himachal ). 
+ M. l. schweizeri 
+ ( F. Werner , 1935) 
+ Milos viper 
+ Cyclades Archipelago 
+ M. l. transmediterranea 
+ ( Nilson & Andrén , 1988) 
+ Algeria , Tunisia 
+ M. l. turanica 
+ ( Chernov , 1940) 
+ Turan blunt-nosed viper 
+ Eastern Turkmenistan , Uzbekistan , Tajikistan , southwestern Kazakhstan , parts of northern Afghanistan and western Pakistan 
+ Description [ edit ] 
+ Macrovipera lebetina This is a large snake, with females reaching 150   cm (59.1   in) in total length (body + tail) and males a little less. Sizes vary among different populations, with M. l. lebetina being somewhat smaller. [ 3 ] 
+ The head is broad, triangular, and distinct from the neck. The snout is rounded and blunt when viewed from above, which is why it is also called the blunt-nosed viper. The nasal and nasorostral scales are almost completely fused into a single plate, although some variation occurs. [ 3 ] 
+ The dorsal scales are strongly keeled , except for those bordering the ventrals . M. l. lebetina usually has 146-163 ventral scales. The anal scale is single. [ 3 ] 
+ The color pattern is less varied than one might expect from a species that is so widely distributed. The head is normally uniformly colored, although it can occasionally be marked with a dark V-shape. Dorsally , the ground color of the body can be gray, brown, beige, pinkish, olive, or khaki. The pattern, if present, is darker. It can be gray, bluish, rust, or brown in color, and may consist of a middorsal row or double row of large spots. When two rows are present, the spots may alternate or oppose, which can produce anything from a saddled to a continuous zigzag pattern. The spots are usually brown, dark gray, or black, but are sometimes red, brick, yellow, or olive in color. [ 3 ] Males are usually 3 and a half feet (1.1 m) in total length, while females may attain a total length of 5 feet (1.5 m). 
+ Habitat [ edit ] 
+ It may be found under short trees with thick shade if the outside temperature is greater than 45   °C. 
+ Geographic range [ edit ] 
+ The blunt-nosed viper can be found in Algeria , Tunisia , Cyprus , Turkey , Syria , Jordan , Israel (in the past), Lebanon , Iraq , Iran , Russian Caucasia , Armenia , Georgia , Azerbaijan , Turkmenistan , Uzbekistan , Kazakhstan , Tajikistan , Afghanistan , Pakistan , and northern India . 
+ Scortecci (1929) also reported this species from Yemen . 
+ The type locality originally given was "Oriente" . Mertens and L. Müller (1928) suggested restricting the range to "Cypern" (= Cyprus). [ 2 ] 
+ Conservation status [ edit ] 
+ Lebetine vipers are endangered. The species is listed as strictly protected (Appendix II) under the Berne Convention . [ 9 ] 
+ References [ edit ] 
+ ↑ Aghasyan, A. ; Ananjeva, N.B. ; Böhme, W. ; Cogălniceanu, D. ; Hraoui-Bloquet, S. ; Lymberakis, P. ; Orlov, N.L. ; Sadek, R. ; Sevinç, M. ; Tok, C.V. ; Tuniyev, B. ; Ugurtas, I.H. ; Werner, Y.L. ; Wilkinson, J. ; Borkin, L. ; Milto, K. ; Golynsky, E. ; Rustamov, A ; Nuridjanov, D. ; Munkhbayar, K. ; Giri, V. (2021). " Macrovipera lebetinus " . IUCN Red List of Threatened Species . 2021 e.T157295A750117. doi : 10.2305/IUCN.UK.2021-3.RLTS.T157295A750117.en . Retrieved 21 February 2022 . 
+ 1 2 3 McDiarmid RW , Campbell JA , Touré TA (1999). Snake Species of the World: A Taxonomic and Geographic Reference, Volume 1 . Washington: District of Columbia: Herpetologists' League. 511 pp. ISBN   1-893777-00-6 (series). ISBN   1-893777-01-4 (volume). 
+ 1 2 3 4 5 6 7 8 9 10 11 Mallow D, Ludwig D, Nilson G. 2003. True Vipers: Natural History and Toxinology of Old World Vipers . Malabar, Florida: Krieger Publishing Company. 359 pp. ISBN   0-89464-877-2 . 
+ 1 2 3 " Macrovipera lebetina " . Integrated Taxonomic Information System . Retrieved 9 August 2006 . 
+ ↑ Macrovipera lebetinus at the Reptarium.cz Reptile Database . Accessed 9 January 2020. 
+ ↑ Brown, John Haynes (1973). Toxicology and Pharmacology of Venoms from Poisonous Snakes . Springfield, Illinois: Charles C. Thomas. 184 pp. LCCCN 73-229. ISBN   0-398-02808-7 . 
+ ↑ United States Navy (1991). Poisonous Snakes of the World . New York: U.S. Government / Dover Publications Inc. 203 pp. ISBN   0-486-26629-X . 
+ ↑ Mehrtens JM (1987). Living Snakes of the World in Color . New York: Sterling Publishers. 480 pp. ISBN   0-8069-6460-X . 
+ ↑ Convention on the Conservation of European Wildlife and Natural Habitats, Appendix II Archived 2013-05-22 at the Wayback Machine at Council of Europe Archived 2015-09-17 at the Wayback Machine . Accessed 9 October 2006. 
+ Further reading [ edit ] 
+ Al-Oran R, Rostum S, Joger U , Amr Z (1998). "First record of the Levantine Viper, Macrovipera lebetina , from Jordan". Zoology in the Middle East (Heidelberg) 16 : 65–70. 
+ Arnold N , Burton JA (1978). A Field Guide to the Reptiles and Amphibians of Britain and Europe . London: Collins. 272 pp. ISBN   0-00-219318-3 . ( Vipera lebetina , p.   224 + Plate 40 + map on p.   113). 
+ Boulenger GA (1887). "List of Reptiles and Batrachians from Cyprus". Annals and Magazine of Natural History, Fifth Series 20 : 344–345. 
+ Boulenger GA (1890). The Fauna of British India, Including Ceylon and Burma. Reptilia and Batrachia. London: Secretary of State for India in Council. (Taylor & Francis, printers). xviii + 541 pp. ( Vipera lebetina , p.   421). 
+ Boulenger GA (1896). Catalogue of the Snakes in the British Museum (Natural History). Volume III., Containing the ... Viperidæ. London: Trustees of the British Museum (Natural History). (Taylor and Francis, printers). xiv + 727 pp. + Plates I–XXV. ( Vipera lebetina , pp.   487–490). 
+ Engelmann W-E , Fritzsche J , Günther R , Obst FJ (1993). Lurche und Kriechtiere Europas . Radebeul, Germany: Neumann Verlag. 440 pp. (including 324 color plates, 186 figures, 205 maps). 
+ Golay P , Smith HM , Broadley DG , Dixon JR , McCarthy CJ , Rage J-C , Schätti B , Toriba M (1993). Endoglyphs and Other Major Venomous Snakes of the World. A Checklist. Geneva: Azemiops Herpetological Data Center. 478 pp. 
+ Gray JE (1849). Catalogue of the Specimens of Snakes in the Collection of the British Museum. London: Trustees of the British Museum. (Edward Newman, printer). xv + 125 pp. ( "Daboia Euphratica" , pp.   116–117). 
+ Herrmann H-W , Joger U , Lenk P , Wink M (1999). "Morphological and molecular phylogenies of viperines: conflicting evidence?" Kaupia (Darmstadt) (8): 21–30. 
+ Herrmann H-W, Joger U, Nilson G (1992). "Phylogeny and systematics of viperine snakes. III. Resurrection of the genus Macrovipera Reuss, 1927, as suggested by biochemical evidence". Amphibia-Reptilia 13 (4): 375–392. 
+ Linnaeus C (1758). Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Tomus I. Editio Decima, Reformata. Stockholm: L. Salvius. 824 pp. ( Coluber lebetinus , p.   218). 
+ Mertens R , Müller L (1928). " Liste der Amphibien und Reptilian Europas ". Abhandlungen der Senckenbergischen Naturforschenden Gesellschaft (Frankfurt am Main) 41 : 1–62. 
+ Obst FJ (1983). " Zur Kenntnis der Schlangengattung Vipera". Zoologische Abhandlungen aus dem staatlichen Museum für Tierkunde in Dresden 38 : 229–235. 
+ External links [ edit ] 
+ Wikimedia Commons has media related to Macrovipera lebetina . 
+ Macrovipera lebetina at Amphibians and Reptiles of Europe . Accessed 10 August 2006. 
+ Macrovipera lebetina at Wildlife of Pakistan . Accessed 15 March 2007. 
+ Macrovipera lebetina at Checklist of Armenia's Amphibians and Reptiles, Tadevosyan's Herpetological Resources . Accessed 30 March 2007. 
+ Taxon identifiers Macrovipera lebetina 
+ Wikidata : Q918123 
+ Wikispecies : Macrovipera lebetina 
+ ADW : Macrovipera_lebetina 
+ EoL : 1055892 
+ EUNIS : 8646 
+ Fauna Europaea : 214759 
+ Fauna Europaea (new) : ed656ce9-1107-47eb-8af7-a1acd5427ae8 
+ GBIF (old): 2444716 
+ iNaturalist : 105083 
+ IRMNG : 10365093 
+ ITIS : 634977 
+ IUCN : 157295 
+ NBN : NHMSYS0000375827 
+ NCBI : 8709 
+ Observation.org : 101289 
+ Open Tree of Life : 78579 
+ RD : lebetina 
+ Coluber lebetinus 
+ Wikidata : Q109513284 
+ ITIS : 1058692 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Macrovipera_lebetinus&oldid=1387340628 " 
+ Categories : IUCN Red List least concern species Viperinae Reptiles of Azerbaijan Reptiles of Pakistan Reptiles described in 1758 Reptile taxa named by Carl Linnaeus Snakes of Jordan Reptiles of Russia Snakes of Arabia Hidden categories: Articles with short description Short description is different from Wikidata Articles with 'species' microformats Webarchive template wayback links Commons link from Wikidata Taxonbars with automatically added original combinations 
+ This page was last edited on 23 November 2026, at 14:06  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Macrovipera lebetinus 
+ 31 languages 
+ Add topic 
+ 

@@ -1,0 +1,507 @@
+           Cukurova Medical Journal                                                        Cukurova Med J 2020;45(3):1230-1237
+           ÇUKUROVA ÜNİVERSİTESİ TIP FAKÜLTESİ                                                     DOI: 10.17826/cumj.737922
+
+
+
+
+ARAŞTIRMA / RESEARCH
+
+Comparison of two types of polyvalent snake antivenom used in
+treatment
+Tedavide kullanılan iki tip polivalan yılan antivenomunun karşılaştırılması
+
+Müge Gülen1 , Salim Satar1                 , Önder Yeşiloğlu1             , Çağdaş İnce1           , Cemre İpek Esen1              ,
+Selen Acehan1
+1Adana City Training and Research Hospital, Department of Emergency Medicine, Adana, Turkey
+
+                                           Cukurova Medical Journal 2020;45(3):1230-1237
+ Abstract                                                          Öz
+ Purpose: In this study; we aimed to compare the                   Amaç: Bu çalışmada; acil servise yılan ısırması ile başvuran
+ effectiveness of the two types of polyvalent snake                hastalarda kullanılan iki tip polivalan yılan antivenomun
+ antivenom and to determine the possible local and                 etkinliğinin karşılaştırılması ve olası lokal ve sistemik yan
+ systemic reactions in patients who admitted to the                etkilerin belirlenmesi amaçlanmıştır.
+ emergency department with snake bite.                             Gereç ve Yöntem: Bu retrospektif çalışmaya yılan ısırması
+ Materials and Methods: We performed this                          şikayeti olan 30 hasta dahil edildi. Hastalar aldıkları
+ retrospective study on 30 patients who complained of              antivenom tipine (PoliseraTM veya PolivalanTM) göre
+ snakebite. We grouped the patients according to the               gruplandırıldı. Hastaların demografik özelliklerinin yanı
+ antivenom type (PoliseraTM or Polivalan TM) which they            sıra, vital bulguları, lokal doku bulguları ve laboratuvar
+ received. Demographic characteristics of the patients, vital      parametreleri standart veri formuna kaydedildi. Her grupta
+ signs, local tissue findings, and laboratory parameters were      kaç vial yılan anti serumu kullanıldığı, kaç kez ek doz
+ recorded in the standard data form. The following data            venom ihtiyacı olduğu; antivenoma karşı herhangi bir
+ were also recorded; the number of vials of snake                  reaksiyon gelişip gelişmediği kaydedildi.
+ antivenom used in each group, additional doses of venom           Bulgular: Çalışmaya 30 hasta dahil edildi. 16 hastaya
+ were administered, and whether any local or systemic              Polisera TM (Grup 1) yılan antivenomu, 14 hastaya
+ reaction to antivenom has developed or not.                       PolivalanTM (Grup 2) yılan antivenomu verildi. Grup
+ Results: Thirty patients were included in the study. 16           1'deki hastalara ortalama 9.1±7.3 vial antivenom verilirken,
+ patients were administered PoliseraTM (Group 1) snake             Grup 2'deki hastalara ortalama 11.6±12.7 vial verildi.
+ antivenom and 14 patients were administered Polivalan             PolivalanTM antivenom alan grupta daha fazla alerjik
+ TM (Group 2) snake antivenom. Patients in Group 1 were            reaksiyon-ürtiker, ateş ve selülitgözlendi.
+ given an average of 9.1±7.3 vials, while patients in Group        Sonuç: Pirojen kontaminasyonu, üretimden kaynaklanan
+ 2 were given an average of 11.6±12.7 vials. More allergic         farklı metodolojiler ve ambalaj farklılıkları aynı doz ve
+ reactions-urticaria, fever, and cellulite were observed in the    içeriğe sahip antivenom ürünlerinde bile farklı etkilere ve
+ group receiving PolivalanTM antivenom.                            yan etkilere neden olabilir.
+ Conclusion: Different methodologies arising from the
+ production of antivenom, pyrogen contamination, and
+ differences in packaging can cause different effects and
+ side effects even in products with the same dose and
+ antivenom content.
+ Keywords:. Antivenom, emergency, envenomation,                    Anahtar kelimeler: Acil, antivenom, yılan ısırması,
+ snakebite                                                         zehirlenme
+
+
+
+
+ Yazışma Adresi/Address for Correspondence: Dr. Müge Gülen, Adana City Training and Research Hospital,
+ Department of Emergency Medicine, Adana, Turkey E mail: muge-gulen@hotmail.com
+ Geliş tarihi/Received: 15.05.2020 Kabul tarihi/Accepted: 21.07.2020 Çevrimiçi yayın/Published online: 31.08.2020
+ Gülen et al.                                                                                 Cukurova Medical Journal
+
+
+                                                                hematological         disorders,       patients     using
+INTRODUCTION                                                    anticoagulants - antithrombotic treatment, patients
+                                                                who were previously allergic to snake antivenom,
+Mortality and morbidity due to snakebites are most              patients who were administered snake antivenom at
+commonly seen in South Asia, South East Asia, and               another hospital and referred to our hospital, patients
+Sub-Saharan Africa. According to the data of the                who had a dry bite and did not require antivenom
+World Health Organization (WHO), more than 5                    treatment, and patients whose file information was
+million snakebites occur every year worldwide and               not fully accessible were excluded from the study. As
+50% of them are dry bites. There are at least 1.8‐2.7           a result, thirty patients, whose file data were available,
+million poisonings related to snakebites, and deaths            were included in the study.The study was planned as
+between 81.410 and 137.880 are reported per year 1,             a retrospective observational case series.
+2. In Turkey, snakebites are more common in warm
+
+regions such as the Mediterranean region, Southeast,            For this study, ethics approval was obtained from
+and Eastern Anatolia regions 3. An average of 40                Adana Governorship, Provincial Health Directorate,
+snake species lives in our country. Of these, 28 are            Adana City Education and Research Hospital,
+non-poisonous and 13 are poisonous 4. The                       Clinical Research Ethics Committee with the decision
+Viperidae (viper) family is the most common group               no: 55/817 dated 22.04.2020.
+in our country among the poisonous species. The
+most common subtypes are V. pontica, V. raddei, V.              Procedure
+ammodytes, V. xanthina, V. lebetina, V. barani, V.
+                                                                As of August 14, 2019, our hospital pharmacy has an
+wagneri, V. ursinii, and V. monspessulanus 1.
+                                                                only new type of PolivalanTM snake antivenom.
+Snake venom is one of the most complex venoms                   Before this date, the PoliseraTM snake antivenom was
+found in nature. The level of toxicity depends on               in use for the patients who presented for snakebite,
+several factors, such as the type of the venom                  while the PolivalanTM snake antivenom was applied
+injected, its amount, location of the bite, and the             to patients who presented after this date. The
+patient's susceptibility to intoxication 5. It may exhibit      contents of both antivenoms are the same; every 10
+cytotoxic, myotoxic, hemorrhagic, and neurotoxic                milliliters of antivenoms have at least 500 LD50
+effects, causing severe clinical consequences 6.                Macrovipera lebetina, 500 LD50 Montivipera xanthina and
+Careful and close monitoring of patients, supportive            1000 LD50 Vipera ammodytes horse-derived antitoxic
+treatment, and antivenom treatment can significantly            globulins F(ab')2 that neutralize snake venoms 9. The
+reduce morbidity and mortality 7. Snake antivenom               patients were classified into two different groups
+(PoliseraTM, Vetal Serum, Adıyaman) started to be               according to the type of antivenom used (PoliseraTM
+produced for the first time in our country in 2014 to           snake antivenom, PolivalanTM snake antivenom).
+be used in the treatment of snake bites 8. Then,                Sixteen patients were administered PoliseraTM
+PolivalanTM snake antivenom (5ml), which was                    (Group 1) snake antivenom and 14 patients were
+distributed by the Public Health Directorate, started           administered Polivalan TM          (Group 2) snake
+to be produced in 2019. Both antivenoms contain                 antivenom.
+globulins against V. ammodytes, V. xanthina, V.
+                                                                In addition to the demographic characteristics of the
+Lebetina species, which are commonly seen in our
+                                                                patients, vital signs, local tissue findings, and
+country 9. In this study, we aimed to determine the
+                                                                laboratory parameters were recorded in the standard
+clinical features of patients who presented to
+                                                                data form. Clinical staging was performed according
+emergency department with snakebites, to compare
+                                                                to traditional snake bite severity grading scale (Table
+the effectiveness of the two types of polyvalent snake
+                                                                1) 10. The following data were also recorded; the
+antivenom and to determine the possible local and
+                                                                number of vials of snake antivenom used in each
+systemic reactions.
+                                                                group, additional doses of venom were administered,
+                                                                and whether any local or systemic reaction to
+MATERIALS AND METHODS                                           antivenom has developed or not. Systemic findings
+                                                                (petechiae, bleeding, dyspnea, myocardial ischemia,
+Patients over 18 years of age who presented to the              kidney failure), coagulopathy (thrombocytopenia,
+tertiary hospital emergency department due to                   prolongation in PTZ and aPTT), rhabdomyolysis
+snakebite, between April, 01st 2019 and March, 31st             (creatine kinase elevation, pain in the extremity),
+2020 were included in the study. Patients with known            improvement or progression in tissue edema,
+                                                         1231
+ Cilt/Volume 45 Yıl/Year 2020                                  Comparison of two types of polyvalent snake antivenom
+
+
+duration of stay in the emergency room were also               wound care and, if necessary, tetanus prophylaxis.
+recorded. A platelet count below <150.000/mm3 was              The limb with the bite was immobilized at the time
+accepted as thrombocytopenia. Laboratory tests were            of admission to the emergency department. The
+repeated every 4-6 hours according to the patient's            bitten area was marked for monitoring the edema and
+clinical findings.                                             evaluating the treatment response. Antivenom was
+                                                               given by diluting in serum saline according to the
+Patients were monitored in the emergency critical
+                                                               clinical stage. An additional dose of antivenom was
+care unit, and vital signs were followed. An
+                                                               given in the event of edema exceeding the region of
+appropriate fluid replacement was given, and urine
+                                                               the marking or tissue tension in the limb or in case of
+outflows were monitored. All patients underwent
+                                                               coagulopathy.
+
+Table 1. Traditional snake bite severity grading scale10
+  Severity (Grade)              Manifestations                                                  Amount of
+                                                                                                Antivenom
+                                                                                                Recommended
+  0 (No envenomation)           Local or systemic signs or symptoms absent                      -
+  1 (Minimal)                   Local swelling, absence of systemic signs, normal               2-4 vial
+                                laboratory findings
+                                Swelling extending past bite site (6–12 in), ≥1 systemic sign
+  2 (Moderate)                  or symptom, abnormal laboratory findings                        5-9 vial
+                                Marked (>12 in) swelling, tissue loss, multiple or severe
+  3 (Severe)                    systemic symptoms, immediate systemic signs, rapid              10-15 vial
+                                progression of symptoms
+                                Rapid development of local reaction, ecchymoses, necrosis,
+  4 (Very severe)               blebs, blisters, swelling severe enough to obstruct venous      >15 vial
+                                or arterial flow, swelling may involve ipsilateral trunk
+
+
+
+                                                               patients presented after that date were administered
+Statistical analysis                                           PolivalanTM snake antivenom (Group 2). The
+SPSS 21 package program (SPSS Inc, Chicago,                    demographic characteristics, vital signs, and location
+Illinois, USA) was used for the statistical evaluation         of the bite of the patients were compared according
+of the data obtained in the study. Continuous data             to the treatments they received in Table 2. The
+were summarized as mean, standard deviation, while             clinical stages of the patients were classified
+categorical data were summarized in numbers and                according to their worst conditions during their
+percentages. Categorical data were compared with               follow-up. In Group 1; 25% (n = 4) of patients were
+the Chi-square test. The Kolmogorov-Smirnov test               Grade 1, 62.5% (n = 10) were Grade 2 and 12.5% (n
+was used to compare the means of the parameters                = 2) were Grade 3. In Group 2; 35.7% (n = 5) of
+examined, and the Student's t-test was used in the             patients were Grade 1, 35.7% (n = 5) were Grade 2
+evaluation performed with the histogram in the two             and 28.6% (n = 4) were Grade 3. Two of Grade 3
+groups comparisons when the variables were                     patients in Group 1 were Grade 2 at the time of
+normally distributed, and the Mann Whitney U test              presentation and progressed to Grade 3 during
+was used for the abnormally distributed variables.             follow-up. There was no statistically significant
+                                                               difference between the treatment patients received
+RESULTS                                                        and their clinical stages. (P = 0.313)
+                                                               Antivenom treatment dose was decided according to
+Thirty patients, whose file data were available, were          the clinical stage. Patients in Group 1 were given an
+included in the study. Six (20%) of the patients were          average of 9.1±7.3 vials, while patients in Group 2
+female, and 24 (80%) were male. The mean age was               were given an average of 11.6±12.7 vials. There was
+41±13 (min-max= 20-66). Sixteen patients presented             no statistically significant difference between the
+before August 14, 2019, were administered                      number of antivenoms used in the treatment groups
+PoliseraTM (Group 1) snake antivenom, and 14                   (p = 0.517). The need for additional doses of
+                                                        1232
+ Gülen et al.                                                                                    Cukurova Medical Journal
+
+
+antivenom was decided according to the clinical                      compared to Group 1 (p=0.038). Fever was observed
+findings, tissue edema, and laboratory abnormalities                 in 30% (n= 9) of all cases and thrombocytopenia in
+(coagulopathy). The mean frequency of the                            33.3% (n=10). Rhabdomyolysis was observed in
+antivenom administration of Group 1 was 2.9±1.4,                     23.3% (n = 7) cases with pain, tenderness in the area
+whereas that of Group 2 was 3.6±3.2 times (P =                       of the bite, and elevated creatine kinase.
+0.461).
+                                                                     Comparison of the complications developed due to
+A comparison of local and systemic complications                     antivenom treatment among patients was made in
+developed during the follow-up of the patients                       Table 2. In Group 2, allergic reactions and / or
+between the groups is shown in Table 2. Cellulite was                urticarial plaques were seen in 64.3% (n = 9) patients
+observed in 85.7% (n = 12) of the cases in Group 2,                  (p <0.001). Hypotension was observed in 28.6% (n =
+and the difference was statistically significant                     4) patients after antivenom infusion (p=0.102).
+Table 2. Patient demographics and admission details
+                                                                 Group 1 (n=16)            Group 2 (n=14)          p
+ Gender (n)
+   Female                                                                 3                       3              0.855
+   Male                                                                   13                     11
+ Age (year) mean±SD                                                   41.4±13.5              40.6±12.9           0.859
+ Mean arterial pressure (mmHg) mean±SD                                89.6±11.7              91.3±12.6           0.700
+ Heart beat (beat/min) mean±SD                                        74.2±14.2              80.1±12.7           0.250
+ Bite location (n)
+   Hand                                                                    5                     3
+   Feet                                                                    5                     6               0.730
+   Finger                                                                  5                     3
+   Toe                                                                     1                     2
+ Severity (Grade) (n)
+   Grade 0                                                                 0                     0
+   Grade 1                                                                 4                     5               0.313
+   Grade 2                                                                 10                    5
+   Grade 3                                                                 2                     4
+   Grade 4                                                                 0                     0
+ Antivenom vials (mean±SD)                                              9.1±7.3              11.6±12.7           0.517
+ Antivenom application frequency (mean±SD)                              2.9±1.4               3.6±3.2            0.461
+ Local and systemic complications (n)
+   Cellulite                                                               8                    12               0.038
+   Lymphedema                                                              7                     6               0.961
+   Thrombocytopenia                                                        3                     7               0.070
+   Fever                                                                   2                     7               0.025
+   Rhabdomyolysis                                                          3                     4               0.526
+   Myocardial ischemia                                                     0                     1               0.277
+   Dyspnea                                                                 0                     1               0.277
+
+ Complications against antivenomas (n)
+   Allergic reaction-Urticaria                                            0                      9              <0.001
+   Hypotension                                                            1                      4              0.102
+   Anaphylaxis                                                            0                      2              0.118
+   Ventricular Tachycardia                                                0                      1              0.277
+ Length of hospital stay (/hour) (mean±SD)                            28.6±20.4              47.6±33.8          0.069
+Group 1: Patients using Polisera antivenom   Group 2: Patients using Polivalan antivenom
+
+
+                                                              1233
+ Cilt/Volume 45 Yıl/Year 2020                                Comparison of two types of polyvalent snake antivenom
+
+
+Clinical deterioration was detected in 5 patients            patient was discharged with the recommendation of
+receiving PolivalanTM antivenom during their                 leg immobilization.
+hospitalization. The clinical-stage progressed from
+                                                             Case 4
+Grade 2 to Grade 3 in 4 patients and Grade 1 to
+Grade 2 in 1 patient.                                        A 45-year-old female patient. A total of 19 vials of
+                                                             antivenom were applied to the patient, who was
+Case samples                                                 determined as Grade 2. Platelet level decreased to
+                                                             118.000/mm3; there was progress in edema. The
+Case 1                                                       patient needed an additional dose of antivenom. The
+A 28-year-old male patient. The patient needed 25            patient developed fever and cellulite. When taking
+vials of antivenom. Platelet level decreased to              antivenom infusion for the 4th time, the patient
+75.000/mm3, creatine kinase level increased to 381           developed pulsed ventricular tachycardia. Antivenom
+IU/L, there was progress in edema. Intravenous               infusion was stopped. The heart rhythm improved
+mannitol was administered to regress lymphedema.             spontaneously. On the 6th day of hospitalization, the
+The patient needed an additional dose of antivenom.          patient was discharged with the recommendation of
+Hyperemia was seen in the whole body after the 2nd           arm immobilization.
+dose of antivenom. Antihistamine and steroids were
+administered. On the 4th day of hospitalization, the
+patient was discharged with the recommendation of
+leg immobilization.
+Case 2
+A 50-year-old male patient. Local tissue edema
+progressed in the follow-up, and a total of 10 vials of
+antivenom were applied. Mannitol was given. After
+the 2nd dose antivenom, dyspnea developed. No skin
+finding and hypotension occurred. The patient with
+bronchospasm was given oxygen, nebular
+salbutamol, and intravenous steroids. On the 2nd day
+of hospitalization, the patient was discharged with the
+recommendation of arm immobilization.
+Case 3
+A 39-year-old male patient. (Figure 1) A total of 16
+vials of antivenom were applied to the patient.
+Platelet level decreased to 86.000/mm3 creatine
+kinase: increased to 910 IU/L, there was progress in
+edema. Cardiac markers were detected high at the
+time of admission (CK-MB: 13 µg / L, High Sensitive
+Troponin I: 514 ng/L).
+                                                              Figure 1. (Case 3) A 39-year-old male patient. Grade
+The patient had sinus tachycardia on the                      3 envenomation with snakebite patient local tissue
+electrocardiogram (ECG). Ejection fraction was 55%            finding. Definite teeth traces at the bite site; the two
+in echocardiography; there was no global or                   holes which are two centimeters apart from each
+segmental wall motion abnormality. The patient                other where swelling, pain, haemorrhagic and color
+needed an additional dose of antivenom.                       change occur.
+Anaphylactoid reaction developed after the 2nd dose
+of antivenom, and the patient had hypotension and            Case 5
+urticaria. Adrenaline, antihistamine, and steroids were      A 57-year-old male patient. The patient needed six
+administered. Post-treatment body temperature was            vials of antivenom. Platelet level decreased to
+38.5 ° C. Cold application, and paracetamol infusion         148.000/mm3 Creatine kinase: increased to 674
+were applied. On the 5th day of hospitalization, the         IU/L. The patient developed fever and cellulite. The
+                                                      1234
+ Gülen et al.                                                                                      Cukurova Medical Journal
+
+
+patient needed an additional dose of antivenom.                     Laboratory parameters, according to the given
+Anaphylactoid reaction developed after the 3rd dose                 treatments, are compared in Table 3. In Group 2
+of antivenom, and the patient had hypotension and                   patients, the mean WBC count after 24 hours was
+urticaria. Adrenaline, antihistamine, and steroids were             18.2 ± 7.4 (p = 0.038), and the mean CRP level was
+administered. On the 2nd day of hospitalization, the                63.2 ± 39 (p = 0.013); the mean values were
+patient was discharged with the recommendation of                   statistically significantly higher.
+leg immobilization.
+Table 3. Laboratory parameters of the patients
+                                  On Admission                           6th hour                           24th hour
+                      Group 1         Group 2       p        Group 1        Group 2      p      Group 1        Group 2      p
+ WBC (103µL)          10.7±3.5        12.1±5.6     0.398     10.7±2.8      19.2±17.4   0.066     12±2.6        18.2±7.4    0.038
+ Hemoglobin           14.2±1.7        14.9±1.5     0.248     13.6±1.5      14.1±1.3    0.294     13±1.4        13.1±1.3    0.864
+ (g/dl)
+ Platelet (103µL)     201.9±58       217.9±52.7    0.440    202.4±58      196.5±57.6   0.783   194.2±42.7      168±66      0.335
+ PTZ (sn)              12.2±1         12.4±1.5     0.594     12.7±0.6       12.9±1     0.383    12.1±0.9       12.7±1.3    0.263
+ aPTT (sn)            22.7±2.4        22.4±2.1     0.758     22.3±2.5      22.3±1.9    0.975    21.6±1.4       22.4±2.3    0.416
+ INR                   1±0.1           1±0.1       0.689      1±0.05       1.1±0.08    0.538     1±0.08         1±0.12     0.365
+ Glucose (mg/dl)      119.9±31       118.9±26.7    0.930    143.4±72      144.6±42.5   0.959   111.8±20.1     128.9±32.8   0.263
+ Urea (mg/dl)         32.7±7.7        33.4±6.1     0.796     28.4±7.2      28.6±7.2    0.924   27.5±10.2        28±6.6     0.901
+ Creatinine (mg/dl)    0.8±0.1        0.8±0.2      0.571     0.6±0.2        0.7±0.2    0.064     0.6±0.1       0.7±0.1     0.706
+ AST (IU/L)           28.4±8.6        29.3±9.4     0.798     23.9±6.5      28.6±15.2   0.272    21.2±6.2       23.4±10     0.636
+ ALT (IU/L)           25.6±14.4      24.5±18.2     0.852     19.9±12       27.8±20.2   0.192   16.8±12.4       22.1±13     0.425
+ Amylase (IU/L)       63.5±19         65.4±21      0.801     52.9±15       54.1±20.4   0.854    56.2±9.4      41.2±15.8    0.059
+ Sodium (mmol/L)      138.3±2.1      139.8±1.5     0.030     137.7±2       138.7±2.4   0.217   138.5±2.1      139.1±1.9    0.563
+ Potassium             4.4±0.4        4.3±0.4      0.562     4.3±0.4         4±0.4     0.021     4.2±0.3        4±0.4      0.261
+ (mmol/L)
+ CK (IU/L)            166.5±88      265.6±219.5    0.107    118.1±67.3    192.9±171.   0.119   130.2±93.8     180.3±170    0.605
+                                                                               9
+ CK-MB (µg/L)          2.7±2.3        3.7±4.8      0.450     2.1±1.7       2.5±3.1     0.632     1.4±0.3       2.9±3.7     0.320
+ Troponin I (ng/L)     5.7±5.5       16.6±47.4     0.368     4.9±5.8      41.1±136.1   0.296     5±2.8        24.2±61.1    0.458
+ CRP                   6.4±7.2        3.3±3.5      0.165     8.1±10.6      16.9±15.5   0.078   14.1±24.7       63.2±39     0.013
+
+Group 1: Patients using Polisera antivenom; Group 2: Patients using Polivalan antivenom; CK: Creatinine kinase; CK-MB: Creatinine
+kinase- Myocardial band; aPTT: Activated partial thromboplastin time; CRP: C-Reaktive Protein; ALT: Alanine transferase PTZ:
+Protrombin Time; AST: Aspartate transferase; WBC: White blood cell; *Value other than reference values
+
+
+The length of hospital stay for Group 1 patients was                to antivenom use were seen in patients receiving a
+28.6 ± 20.4 hours, while for Group 2 patients, it was               new type of PolivalanTM antivenom.
+47.6 ± 33.8 hours. There was no statistically
+                                                                    Antivenoms are antibody preparations derived from
+significant difference between the two groups (p =
+                                                                    the plasma of the animals such as horses or sheep by
+0.069). Despite developing complications, no death
+                                                                    injecting venoms of poisonous animals into these
+due to snakebite or antivenom treatment was
+                                                                    animals. Antivenoms contain the entire Ig G
+observed.
+                                                                    molecule or Fab fragments, or F(ab')2 fragments to
+                                                                    which only the antigen binds 11. In many centers
+DISCUSSION                                                          around the world, it is possible to produce snake
+In our study, a significantly higher rate of allergic               toxins required for antivenom production with
+reactions-urticaria, fever, and cellulite was observed              recombinant technology. However, while creating
+in the group receiving PolivalanTM antivenom. The                   venom pools, antivenom producers still obtain the
+number of antivenoms used and the length of                         poison required for antivenom by the mechanical
+hospital stay was higher in the group receiving                     stimulation method of poison glands called 'milking.'
+PolivalanTM antivenom. Besides, severe life-                        Significant toxicological and antigenic differences
+threatening side effects such as anaphylaxis,                       have been reported, even in the same snake
+arrhythmia (ventricular tachycardia), hypotension due               populations, due to the geographic regions in which
+                                                             1235
+ Cilt/Volume 45 Yıl/Year 2020                                  Comparison of two types of polyvalent snake antivenom
+
+
+they are located. There zfore the antibody efficacy of         administration, and the length of hospital stay was
+venom pools obtained by the milking method can                 not statistically significant, it was mathematically
+vary. Another important stage in the production                higher in the group that received PolivalanTM
+phase is the stabilization process of antivenoms,              antivenom.
+known as the freeze-drying technique. In this
+                                                               The early reaction may occur within hours, while late
+process, because of the structural changes that the
+                                                               reaction can occur five days after due to the use of
+toxins are subjected to due to the stress, the
+                                                               snake antivenoms. This fact may increase mortality
+effectiveness of the two venoms with the same
+                                                               and morbidity 13. Early anaphylactic reactions due to
+toxicity profile may differ 12. In addition, as a result
+                                                               the use of antivenom can be observed on a wide scale
+of the batch-to-batch variation out from the factory,
+                                                               from urticaria to life-threatening anaphylactic shock.
+there may be differences between the antivenom
+                                                               Most of these reactions occur due to complement
+success and effectiveness even in antivenoms
+                                                               activation by IgG aggregates / residual Fc fragments
+produced at different times in the same production
+                                                               or by stimulation of mast cells/basophils by
+facility. Also, the recommended dosage warnings that
+                                                               antivenom proteins. Pyrogenic (endotoxin) reactions
+the manufacturers encode on the packs are often
+                                                               are associated with pyrogen contamination during the
+obtained with the LD50 and ED50 in the laboratory
+                                                               production of antivenom. It occurs 1-2 hours post-
+mice and are mostly clinically unreliable 6. All these
+                                                               infusion. Fever, vasodilation, hypotension can be
+factors in the production stage may be support the
+                                                               observed. Hypotension and shock often occur as a
+reason why two polyvalent antivenoms with the same
+                                                               result of systematical leakage from plasma in the
+contents we use in our study have different
+                                                               bitten limb, vasodilation, or cardiac damage. Due to
+antivenom efficacy and side effect profile.
+                                                               the possibility of all kinds of arrhythmia, myocardial
+Antivenom treatment is indicated in the case of                damage, and hyperkalemia, ECG should be requested
+systemic or regional envenomation. Systemic                    for patients. Late (serum disease-type) reactions
+envenomation findings include spontaneous systemic             occur on average in 7 days. Fever, vomiting, diarrhea,
+bleeding, coagulopathy (INR > 1.2 or > 4-5 seconds             myalgia, lymphadenopathy, proteinuria, recurrent
+above PT control or thrombocytopenia),                         urticaria, and rarely encephalopathy can be observed
+neurotoxicity findings, cardiovascular anomaly                 6. A higher rate of complications and side effects were
+
+(hypotension, shock, arrhythmia, etc.), acute kidney           observed statistically after the PolivalanTM antivenom
+injury (increased urea creatinine, oliguria/anuria) and        in our study. More allergic reactions-urticaria, fever,
+hemoglobinuria, rhabdomyolysis. Regional signs of              and cellulite were observed in the group receiving
+envenomation are local swelling, which includes                PolivalanTM antivenom. Also, severe life-threatening
+more than half of the extremity within 48 hours after          side effects such as anaphylaxis, arrhythmia
+the bite, swelling after the finger bite, swelling that        (ventricular tachycardia), hypotension were seen in
+exceeds the wrist and ankle within hours, expansion            patients receiving a new type of PolivalanTM
+in the lymph node that drains the bitten limb 6. The           antivenom. It is possible that the fever and infection
+snake antivenom was applied according to the                   table, that is, pyrogenic (endotoxin) reactions, which
+presence of the findings of the envenomation and               we see more frequently in the patients we applied
+clinical stage in our study. The ideal dose and clinical-      PolivalanTM, are caused by contamination of the
+stage for antivenom dosage and treatment in the                antivenom during production or distribution.
+literature are still controversial. Roberts and Otten          Another cause of fever may be a common wound
+suggested not using antivenom for Grade 0 and 1,               infection and cellulite in patients.
+using 4 to 10 vials for Grade 2, and 10 to 40 vials for
+                                                               After PolivalanTM antivenom, tissue edema regressed
+Grade 3 13, while Scharman et al. staged the patients
+                                                               more limitedly and progress in clinical stages of
+as Grade 0, 1, 2, 3, 4 and suggested using 0-4, 5-9, 10-
+                                                               patients and deterioration in laboratory parameters
+15, 15 and over vials, respectively 10. We think that
+                                                               were observed more frequently. Existing tissue
+the type of antivenom used is also effective in these
+                                                               edema caused wound infection and a higher rate of
+numbers. New protocols where a low dose of
+                                                               cellulite (WBC, CRP count correlates with this
+antivenom application is effective coming to the fore
+                                                               condition). Increased tissue edema caused more
+today. However, even in these protocols, up to 17%
+                                                               additional doses of antivenoms and longer length of
+allergy can be observed 14, 15. Although the difference
+                                                               hospital stay. Anaphylaxis was seen in 2 patients,
+between the mean number of antivenom used in our
+                                                               ventricular tachycardia was seen in 1 patient,
+study, the frequency of additional dose antivenom
+                                                        1236
+ Gülen et al.                                                                                                    Cukurova Medical Journal
+
+
+shortness of breath was seen in 1 patient, and                                          Tıp Kitabevi, 2020.
+hypotension was seen in 4 patients of 14 patients who                             2.     Warrell DA, Venomous bites, stings, and poisoning:
+received PolivalanTM in our study. This number may                                      an update. Infect Dis Clin N Am. 2019;33:17–38.
+not be statistically significant due to the recent use of                         3.    Aslan N, Yıldızdaş D, Horoz ÖÖ, Ekinci F, Arslan D,
+                                                                                        Bilen S et al. The relationship between neutrophil
+antivenom and the study being conducted in a limited                                    lymphocyte ratio and clinical outcomes after snakebite
+number of cases. However, it is clinically significant                                  in pediatric patients. Cukurova Medical Journal.
+due to potentially fatal side effects.                                                  2019;44:1040-5.
+                                                                                  4.    Okur Mİ, Yıldırım AM, Köse R. Türkiye’de zehirli
+As a conclusion, antivenoms are an important part of
+                                                                                        yılanı ısırmaları ve tedavisi. Türkiye Klinikleri Tıp
+treatment because of their potential to reverse                                         Bilimleri Dergisi. 2001;21:21-4.
+pathophysiological     processes     in    snakebites.                            5.    Kara ME, Ay MO, Seğmen S, Avcı A, İçme F, Gökel
+However, important side effects related to the use of                                   Y. Management of snake bites. Archives Medical
+antivenom may be seen. Different methodologies                                          Review Journal. 2014;23:272–92.
+arising from the production of antivenom, pyrogen                                 6.    Warrell D. Snakebites. World Health Organization,
+contamination, and differences in packaging can                                         Guidelines for the Management Of Snakebites. 2nd
+cause different effects and side effects even in                                        Edition. New Delhi, WHO/Regional Office for
+products with the same dose and antivenom content.                                      South-East Asia, 2016.
+                                                                                  7.    Altun D, Altun D, Ayaz B. Our clinical experiences in
+Prospective studies to be conducted with a larger case
+                                                                                        snake bites. J Turk Soc Intens Care 2016;14:100-4.
+series with antivenoms used in our country will help                              8.    Gümüştekin M, Sarıçoban B, Gürkan MA.
+to determine this effect and side effect profile better.                                Antivenomlar ve uygulama ilkeleri. Dokuz Eylül
+ Yazar Katkıları: Çalışma konsepti/Tasarımı: MG, SS; Veri toplama:                      Üniversitesi Tıp Fakültesi Dergisi. 2019;34:73-83.
+ MG, ÖY, SA, Çİ, CİE; Veri analizi ve yorumlama: MG, SS, ÖY, Çİ,                  9.    Product information of Polisera Vial Containing
+ CİE; Yazı taslağı: MG, SS, ÖY, Çİ, CİE; İçeriğin eleştirel incelenmesi:                Injectable Solution against snakebites. 10.05.2020.
+ MG, SS, ÖY, SA; Son onay ve sorumluluk: MG, SS, ÖY, Çİ, CİE;
+ Teknik ve malzeme desteği: MG, SA, Çİ, CİE; Süpervizyon: MG, SS,                       http://www.vetalserum.com.tr/panel/images/dosyal
+ ÖY, Çİ, CİE; Fon sağlama (mevcut ise): yok.                                            ar/poliserakub.pdf. Access date 10.05.2020.
+ Etik Onay: Bu çalışma için Adana Valiliği, İl Sağlık Müdürlüğü, Adana            10.   Scharman EJ, Noffsinger VD. Copperhead
+ Şehir Eğitim ve Araştırma Hastanesi, Klinik Araştırmalar Etik
+ Kurulundan 22.04.2020 tarih ve 55/817 sayılı kararı ile etik onay
+                                                                                        snakebites: Clinical severity of local effects. Ann
+ alınmıştır.                                                                            Emerg Med. 2001;38:55-61.
+ Hakem Değerlendirmesi: Dış bağımsız.                                             11.   Isbister GK. Antivenom efficacy or effectiveness: The
+ Çıkar Çatışması: Yazarlar çıkar çatışması beyan etmemişlerdir.                         Australian experience. Toxicology. 2010;268:148–54.
+ Finansal Destek: Yazarlar finansal destek beyan etmemişlerdir.
+ Author Contributions: Concept/Design : MG, SS; Data acquisition:                 12.   León G, Vargas M, Segura Á, Herrera M., Villalta M,
+ MG, ÖY, SA, Çİ, CİE; Data analysis and interpretation: MG, SS, ÖY,                     Sánchez A et al Current technology for the industrial
+ Çİ, CİE; Drafting manuscript: MG, SS, ÖY, Çİ, CİE; Critical revision                   manufacture of snake antivenoms. Toxicon.
+ of manuscript: MG, SS, ÖY, SA; Final approval and accountability: MG,                  2018;151:63-73.
+ SS, ÖY, Çİ, CİE; Technical or material support: MG, SA, Çİ, CİE;
+ Supervision: MG, SS, ÖY, Çİ, CİE; Securing funding (if available): n/a.          13.   Roberts JR, Otten EJ. Snakebites and other reptiles.
+ Ethical Approval: For this study, ethics approval was obtained from                    In Goldfrank's Toxicologic Emergencies (Eds LR
+ Adana Governorship, Provincial Health Directorate, Adana City                          Goldfrank):1063-123. Stamford (Conn), Appleton
+ Education and Research Hospital, Clinical Research Ethics Committee
+ with the decision no: 55/817 dated 22.04.2020.                                         Lange, 1998.
+ Peer-review: Externally peer-reviewed.                                           14.   Açikalin A, Gökel Y, Kuvandik G, Duru M, Köseoğlu
+ Conflict of Interest: Authors declared no conflict of interest.                        Z, Satar S. The efficacy of low-dose antivenom
+ Financial Disclosure: Authors declared no financial support                            therapy on morbidity and mortality in snakebite cases.
+                                                                                        Am J Emerg Med. 2008;26:402-7.
+REFERENCES                                                                        15.   Sarin K, Dutta KT, Vinod KV. Clinical profile &
+                                                                                        complications of neurotoxic snake bite & comparison
+1.   Bilir Ö. Sürüngenler. In Klinik Toksikoloji Tanı ve                                of two regimens of polyvalent anti-snake venom in its
+     Tedavi. (Editörler: S Satar, Y Yürümez, Ö Güneysel,                                treatment. Indian J Med Res. 2017;145:58-62.
+     S Türedi, A Akıcı): 1011-18. Antalya, Çukurova Nobel
+
+
+
+
+                                                                           1237
+

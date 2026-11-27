@@ -1,0 +1,143 @@
+ 
+ Kedi gözlü yılan - Vikipedi 
+ İçeriğe atla 
+ Ana menü 
+ Ana menü 
+ kenar çubuğuna taşı 
+ gizle 
+ Dolaşım
+ Anasayfa Hakkımızda İçindekiler Rastgele madde Seçkin içerik Yakınımdakiler 
+ Katılım
+ Deneme tahtası Köy çeşmesi Son değişiklikler Dosya yükle Topluluk portali Wikimedia dükkânı Yardım Özel sayfalar 
+ Ara 
+ Ara 
+ Görünüm 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ Kişisel araçlar 
+ Bağış yapın 
+ Hesap oluştur 
+ Oturum aç 
+ İçindekiler 
+ kenar çubuğuna taşı 
+ gizle 
+ Giriş 
+ 1 
+ Özellikleri 
+ 2 
+ Coğrafi dağılım 
+ 3 
+ Yaşam alanı 
+ 4 
+ Alt türler 
+ 5 
+ Galeri 
+ 6 
+ Kaynakça 
+ İçindekiler tablosunu değiştir 
+ Kedi gözlü yılan 
+ 32 dil 
+ العربية مصرى Azərbaycanca Български Cebuano Čeština Deutsch Ελληνικά English Español Eesti Euskara فارسی Suomi Français עברית Hrvatski Հայերեն Italiano ქართული Македонски Malti Nederlands Diné bizaad Polski Русский Slovenščina Српски / srpski Svenska Українська Tiếng Việt Winaray 
+ Bağlantıları değiştir 
+ Madde 
+ Tartışma 
+ Türkçe 
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Araçlar 
+ Araçlar 
+ kenar çubuğuna taşı 
+ gizle 
+ Eylemler
+ Oku 
+ Değiştir 
+ Kaynağı değiştir 
+ Geçmişi gör 
+ Kaydet 
+ Genel
+ Sayfaya bağlantılar İlgili değişiklikler Kalıcı bağlantı Sayfa bilgisi Bu sayfayı kaynak göster Kısaltılmış URL'yi al Eski ayrıştırıcıya geç 
+ Yazdır/dışa aktar
+ Bir kitap oluştur PDF olarak indir Basılmaya uygun görünüm 
+ Diğer projelerde
+ Wikimedia Commons Vikitür Vikiveri ögesi 
+ Görünüm 
+ kenar çubuğuna taşı 
+ gizle 
+ Vikipedi, özgür ansiklopedi 
+ {{Akademik dergi kaynağı |yazar=Aram Agasyan, Aziz Avci, Boris Tuniyev, Jelka Crnobrnja Isailovic, Petros Lymberakis, Claes Andrén, Dan Cogalniceanu, John Wilkinson, Natalia Ananjeva, Nazan Üzüm, Nikolai Orlov, Richard Podloucky, Sako Tuniyev, Uğur Kaya, Wolfgang Böhme, Rastko Ajtic, Varol Tok, Ismail H. Ugurtas, Murat Sevinç, Pierre-André Crochet, Ahmad Mohammed Mousa Disi, Souad Hraoui-Bloquet, Riyad Sadek, Yehudah Werner & Idriz Haxhiu |başlık=''Telescopus fallax'' |dergi=[[IUCN Kırmızı Listesi]] |cilt=2009 |sayfa=e.T157258A5062870 |tarih=2009 |url=https://www.iucnredlist.org/species/157258/5062870 |doi=10.2305/IUCN.UK.2009.RLTS.T157258A5062870.en |erişimtarihi=1 Ocak 2023 |arşivurl=https://web.archive.org/web/20230606055723/https://www.iucnredlist.org/species/157258/5062870 |arşivtarihi=6 Haziran 2023 |ölüurl=hayır }}</ref>"},"takson":{"wt":"Telescopus"},"tür":{"wt":"fallax"},"sıralama":{"wt":"([[Friedrich Ludwig Fleischmann|Fleischmann]], 1831)"},"dış_bağlantılar":{"wt":"{{commons-species|Telescopus fallax}}"},"aralık_haritası":{"wt":""},"aralık_haritası_altyazı":{"wt":""},"sinonimler":{"wt":"*''Coluber vivax'' <small>[[Leopold Fitzinger|Fitzinger]], 1826</small>\n*''Tarbophis fallax'' <small>Fleischmann, 1831</small>\n*''Trigonophis iberus'' <small>[[Karl Eichwald|Eichwald]], 1831</small>\n*''Coluber carneus'' <small>Dwigubsky, 1832</small>\n*''Ailurophis vivax'' <small>&mdash; [[Charles Lucien Bonaparte|Bonaparte]], 1837</small>\n*''Tarbophis savignyi'' <small>[[George Albert Boulenger|Boulenger]], 1896</small><ref name=fallax>{{Web kaynağı|url = https://reptile-database.reptarium.cz/species?genus=Telescopus&species=fallax|başlık = ''Telescopus fallax'' (FLEISCHMANN, 1831)|çalışma = The Reptile Database|yayıncı = J. Craig Venter Institute|erişimtarihi = 3 Ocak 2023|arşivengelli = evet|arşivurl = https://web.archive.org/web/20230103025631/https://reptile-database.reptarium.cz/species?genus=Telescopus&species=fallax|arşivtarihi = 3 Ocak 2023|ölüurl = hayır}}</ref>"},"sinonim_kaynak":{"wt":"<ref name=fallax/>"}},"i":0}}]}'> Kedi gözlü yılan Korunma durumu Asgari endişe altında   ( IUCN 3.1 ) [ 1 ] Biyolojik sınıflandırma 
+ Âlem: 
+ Animalia 
+ Şube: 
+ Chordata 
+ Sınıf: 
+ Squamata 
+ Familya: 
+ Colubridae 
+ Alt familya: 
+ Colubrinae 
+ Cins: 
+ Telescopus 
+ Tür: 
+ T. fallax 
+ İkili adlandırma Telescopus fallax ( Fleischmann , 1831) Sinonimler 
+ Coluber vivax Fitzinger , 1826 
+ Tarbophis fallax Fleischmann, 1831 
+ Trigonophis iberus Eichwald , 1831 
+ Coluber carneus Dwigubsky, 1832 
+ Ailurophis vivax — Bonaparte , 1837 
+ Tarbophis savignyi Boulenger , 1896 [ 2 ] 
+ Kedi gözlü yılan ( Telescopus fallax ), Colubridae familyasına dahil Akdeniz ve Kafkasya bölgelerine özgü zehirli bir türdür. [ 2 ] [ 3 ] 
+ Özellikleri [ değiştir | kaynağı değiştir ] 
+ Telescopus fallax gözbebekleri yarık şeklinde ve dikeydir. 
+ Kedi gözlü yılanın ortalama uzunluğu yaklaşık 60–70   cm, büyük örnekleri ise 100   cm uzunluğa ulaşabilir. [ 4 ] Gövde rengi gri, gri-kahverengi veya sarımsı-kahverengi olup, aralarında daha açık renkli çubuklar bulunan koyu dikdörtgen beneklerden oluşan sırt deseni vardır. Bu lekeler vücut gerisinde kuyruğa doğru soluklaşır ve belirsizleşir. Başın iki yanında bariz koyu kahverengi veya siyah şeritler vardır. Ventral bölgesi sarımsı beyaz, krem rengi veya açık pembe olup, satranç tahtası gibi dizilmiş koyu beneklere sahiptir. Vücudun ortasında ortalama 19 sıra pul bulunur ve bunların sayısı 17 ile 21 arasında değişebilir.   Vücut pulları çıkıntısızdır, bu nedenle vücut pürüzsüz ve parlak görünür. [ 2 ] [ 5 ] [ 6 ] 
+ Başı küçük ancak nispeten geniştir ve uzun, dar boynundan oldukça farklıdır. Kedi gözlü yılan adını kedilerinkine benzeyen dikey ve büyük gözbebeklerinden almıştır. [ 7 ] Genelde zehirli bir tür olarak kabul edilir, ancak arka dişlere sahip olduğu ve insanlara zehir enjekte etme yeteneği olmadığı için tehlikeli değildir. [ 2 ] 
+ Coğrafi dağılım [ değiştir | kaynağı değiştir ] 
+ Telescopus fallax   Malta sahilinde günün son ışıklarını alıyor. 
+ Kedi gözlü yılanın dağılım alanı kuzeydoğu İtalya 'dan başlar güneye, Slovenya , Hırvatistan (bazı Adriyatik adaları), Bosna Hersek , güney Karadağ , Arnavutluk , Makedonya , güney Bulgaristan , Malta , Kıbrıs ve Yunanistan 'ın ( Girit gibi bazı Ege adaları ) Akdeniz bölgesi boyunca uzanır. [ 1 ] [ 2 ] Batı Asya 'da dağılım alanı Türkiye 'de başlar, [ 8 ] Suriye , Lübnan , İsrail , Irak , Ermenistan , Gürcistan ( Kafkas Dağları ) ve Azerbaycan 'a kadar uzanır. Ayrıca güney Rusya ve İran 'da ( Kürdistan , İlam , Kirmanşah , Luristan ve Huzistan Eyaleti ) popülasyonlar bulunur. [ 1 ] [ 2 ] 
+ Yaşam alanı [ değiştir | kaynağı değiştir ] 
+ Çoğunlukla çalılıklar , kayalıklar,   açık ormanlık alanlar, bitki örtülü kumsallar (yalnızca Türkiye ve Avrupa ), dağ bozkırları ve yarı çöller gibi biyotopları tercih ederler. Bazı popülasyonlar nadiren dağ ormanlarının kenarlarında kaydedilmiştir. [ 1 ] Ayrıca tarlalar, çayırlar ve kırsal bahçeler gibi insanların yaşadığı bölgelerde de bulunabilir. Bazı bölgelerde deniz seviyesinden yaklaşık 2000   metre yüksekliğe kadar görülebilir. [ 5 ] 
+ Alt türler [ değiştir | kaynağı değiştir ] 
+ Kedi gözlü yılanın bilinen 5 alt türü bulunmaktadır. [ 2 ] 
+ Telescopus fallax cyprianus (Barbour & Amaral, 1927) - Kıbrıs 
+ Telescopus fallax fallax (Fleischmann, 1831) - Kuzeydoğu İtalya, Yunanistan ( Paros , Mikonos , Antiparos , Girit, Kalymnos , Sisam , Kimolos , Milos , Korfu ve Syros adası ), Arnavutluk, kıyı Hırvatistan, Slovenya, Bosna-Hersek, Karadağ, Makedonya, güney Bulgaristan, Türkiye, Malta, Kıbrıs, İran, Irak, Suriye, İsrail, güney Rusya, Ermenistan, Gürcistan ve Azerbaycan. 
+ Telescopus fallax iberus (Eichwald, 1831) - Ermenistan,   Azerbaycan, güney   Gürcistan, güney   Rusya, kuzey   İran   ve doğu   Türkiye. 
+ Telescopus fallax pallidus (Stepanek, 1944) - Girit, Gavdos , Elasa ve Christiana Adaları. 
+ Telescopus fallax syriacus (Boettger, 1880) - Lübnan, Suriye, Ürdün, güneydoğu Türkiye ve kuzey İsrail. 
+ Galeri [ değiştir | kaynağı değiştir ] 
+ Kayalıklar arasında gizlemeye çalışan Telescopus fallax 
+ Yunanistan Rodos adası 
+ Alman ressam Gustav Mützel tarafından yapılan bir Telescopus fallax çizimi 
+ Kaynakça [ değiştir | kaynağı değiştir ] 
+ 1 2 3 4 Aram Agasyan, Aziz Avci, Boris Tuniyev, Jelka Crnobrnja Isailovic, Petros Lymberakis, Claes Andrén, Dan Cogalniceanu, John Wilkinson, Natalia Ananjeva, Nazan Üzüm, Nikolai Orlov, Richard Podloucky, Sako Tuniyev, Uğur Kaya, Wolfgang Böhme, Rastko Ajtic, Varol Tok, Ismail H. Ugurtas, Murat Sevinç, Pierre-André Crochet, Ahmad Mohammed Mousa Disi, Souad Hraoui-Bloquet, Riyad Sadek, Yehudah Werner & Idriz Haxhiu (2009). " Telescopus fallax " . IUCN Kırmızı Listesi . 2009 : e.T157258A5062870. doi : 10.2305/IUCN.UK.2009.RLTS.T157258A5062870.en . 6 Haziran 2023 tarihinde kaynağından arşivlendi 1 Ocak 2023.   KB1 bakım: Birden fazla ad: yazar listesi ( link ) 
+ 1 2 3 4 5 6 7 " Telescopus fallax (FLEISCHMANN, 1831)" . The Reptile Database . J. Craig Venter Institute. 3 Ocak 2023 tarihinde kaynağından arşivlendi . Erişim tarihi: 3 Ocak 2023 .   
+ ↑ " Telescopus fallax " . Bütünleştirilmiş Taksonomik Bilgi Sistemi . Erişim tarihi: 3 Ocak 2023 .   
+ ↑ Václav Laňka & Zbyšek Vít, Amfibieën en reptielen. Rebo Productions (1985), Pagina 204, 205. 90-366-0639-X . 
+ 1 2 Philippe Geniez, Guide Delachaux des serpents d'Europe, d'Afrique du Nord et du Moyen-Orient , éditions delachaux et niestlé, 2015, 978-2-603-01955-9 . 
+ ↑ J. Speybroeck, W. Beukema, B. Bok, J. van Voort, I. Velikov, Guide Delachaux des amphibiens et reptiles de France et d'Europe , éditions delachaux et niestlé, édition française de 2018 (édition originale de 2016), 978-2-603-02534-5 . 
+ ↑ Axel Kwet (2009). European Reptile and Amphibian Guide. New Holland Publishers. sid. 210. 978-1-84773-444-0 
+ ↑ "Kahramanmaraş'ta ilk kez kedi gözlü yılan görüntülendi" . CNN Türk. 12 Nisan 2020 tarihinde kaynağından arşivlendi . Erişim tarihi: 3 Ocak 2023 .   
+ " https://tr.wikipedia.org/w/index.php?title=Kedi_gözlü_yılan&oldid=38039537 " sayfasından alınmıştır 
+ Kategoriler : IUCN Kırmızı Listesi'ne göre asgari endişe altındaki türler Türkiye'deki yılanlar Asya sürüngenleri Avrupa sürüngenleri Rusya'daki sürüngenler Gizli kategoriler: KB1 bakım: Birden fazla ad: yazar listesi Türkçe Vikipedi ile Vikiveride aynı resim olan maddeler 
+ Sayfa en son 20.08, 21 Eylül 2026 tarihinde değiştirildi. 
+ Sayfa Parsoid ile işlendi. 
+ Metin Creative Commons Atıf-AynıLisanslaPaylaş Lisansı altındadır ve ek koşullar uygulanabilir. Bu siteyi kullanarak Kullanım Şartlarını ve Gizlilik Politikasını kabul etmiş olursunuz. Vikipedi® (ve Wikipedia®) kâr amacı gütmeyen kuruluş olan Wikimedia Foundation, Inc. tescilli markasıdır. 
+ Gizlilik politikası 
+ Vikipedi hakkında 
+ Sorumluluk reddi 
+ Hukuk & Güvenlik İletişim Noktaları 
+ Davranış Kuralları 
+ Geliştiriciler 
+ İstatistikler 
+ Çerez politikası 
+ Mobil görünüm 
+ Ara 
+ Ara 
+ İçindekiler tablosunu değiştir 
+ Kedi gözlü yılan 
+ 32 dil 
+ Konu ekle 
+ 

@@ -1,0 +1,178 @@
+ 
+ European cat snake - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Taxonomy 
+ 2 
+ Distribution 
+ 3 
+ Ecology and Biology 
+ 4 
+ Subspecies 
+ 5 
+ References 
+ 6 
+ Further reading 
+ 7 
+ External links 
+ Toggle the table of contents 
+ European cat snake 
+ 32 languages 
+ العربية مصرى Azərbaycanca Български Cebuano Čeština Deutsch Ελληνικά Español Eesti Euskara فارسی Suomi Français עברית Hrvatski Հայերեն Italiano ქართული Македонски Malti Nederlands Diné bizaad Polski Русский Slovenščina Српски / srpski Svenska Türkçe Українська Tiếng Việt Winaray 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Save 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ Save 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikispecies Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ (Redirected from Telescopus fallax ) 
+ Species of snake 
+ {{Cite iucn | author = Aram Agasyan | author2 = Aziz Avci | author3 = Boris Tuniyev | author4 = Jelka Crnobrnja Isailovic | author5 = Petros Lymberakis | author6 = Claes Andrén | author7 = Dan Cogalniceanu | author8 = John Wilkinson | author9 = Natalia Ananjeva | author10 = Nazan Üzüm | display-authors = etal | title = ''Telescopus fallax'' | article-number = e.T157258A5062870 | date = 2009 | doi = 10.2305/IUCN.UK.2009.RLTS.T157258A5062870.en | access-date = 15 March 2022}}</ref>"},"genus":{"wt":"Telescopus"},"species":{"wt":"fallax"},"authority":{"wt":"([[Friedrich Ludwig Fleischmann|Fleischmann]], 1831)"},"synonyms":{"wt":"*''Tarbophis fallax'' <small>Fleischmann, 1831</small>\n*''Coluber vivax'' <small>[[Leopold Fitzinger|Fitzinger]], 1826</small>\n*''Trigonophis iberus'' <small>[[Karl Eichwald|Eichwald]], 1831</small>\n*''Coluber carneus'' <small>Dwigubsky, 1832</small>\n*''Ailurophis vivax'' <small>&mdash; [[Charles Lucien Bonaparte|Bonaparte]], 1837</small>\n*''Tarbophis savignyi'' <small>[[George Albert Boulenger|Boulenger]], 1896</small>"},"synonyms_ref":{"wt":"<ref name=iucn/>"}},"i":0}}]}'> 
+ European cat snake 
+ Telescopus fallax from Malta 
+ Conservation status 
+ Least Concern   ( IUCN 3.1 ) [ 1 ] 
+ Scientific classification 
+ Kingdom: 
+ Animalia 
+ Phylum: 
+ Chordata 
+ Class: 
+ Reptilia 
+ Order: 
+ Squamata 
+ Suborder: 
+ Serpentes 
+ Family: 
+ Colubridae 
+ Genus: 
+ Telescopus 
+ Species: 
+ T.   fallax 
+ Binomial name 
+ Telescopus fallax ( Fleischmann , 1831) 
+ Synonyms [ 1 ] 
+ Tarbophis fallax Fleischmann, 1831 
+ Coluber vivax Fitzinger , 1826 
+ Trigonophis iberus Eichwald , 1831 
+ Coluber carneus Dwigubsky, 1832 
+ Ailurophis vivax — Bonaparte , 1837 
+ Tarbophis savignyi Boulenger , 1896 
+ The European cat snake ( Telescopus fallax ), or the Mediterranean cat snake , is a species of venomous snake belonging to the family Colubridae . This species is found in Southeastern Europe and Western Asia. 
+ Taxonomy [ edit ] 
+ The European cat snake was first formally described as Tarbophis fallax in 1831 by the German naturalist Friedrich Ludwig Fleischmann with its type locality given as Dalmatia and Istria . [ 2 ] Fitzinger had named Coluber fallax in 1826, which referred to this species, but this name is a nomen nudum . This species is now classified in the genus Telescopus which belongs to the subfamily Colubrinae of the family Colubridae. [ 3 ] 
+ Distribution [ edit ] 
+ The European cat snake is found in is southeastern Europe from the extreme northeastern part of Italy southwards along Adriatic coast of the Balkans to Albania, Northern Macedonia, Greece and southern Bulgaria. It can also be found on some Mediterranean islands such as Malta, Crete and Cyprus. In Western Asia its range extends from ranges from Turkey south to Israel, east to Iraq and Iran and north into the Caucasus Mountains as far as southern Russia. [ 1 ] It was first recorded in Malta in 1894 and was thought to be an introduced species but recent studies have indicated it is native to the archipelago. [ 4 ] 
+ Ecology and Biology [ edit ] 
+ The European cat snake is venomous , but because it is rear-fanged (i.e. its fangs are located at the back of the upper jaw), its venom is not very effective against humans. Its venom can still be injected when biting if a body part is deep enough to attempt to swallow. It feeds mainly on geckos , lizards , and other snakes. [ 5 ] 
+ The species can be found in open and scrubby country including beaches and open woodlands. The species also inhabits mountainous areas. [ 1 ] [ 5 ] 
+ European cat snakes can reach a length of up to 100 cm. [ 5 ] 
+ Subspecies [ edit ] 
+ 5 subspecies are currently recognized. [ 3 ] 
+ Telescopus fallax cyprianus (Barbour & Amaral, 1927) - Cyprus 
+ Telescopus fallax fallax (Fleischmann, 1831) - Northeastern Italy , Greece ( Paros , Mykonos , Antiparos , Crete , Kalymnos , Samos , Kimolos , Milos , Corfu , Syros ), Albania , coastal Croatia , Slovenia , Bosnia and Herzegovina , Montenegro , Macedonia , southern Bulgaria , Turkey , Malta , Cyprus , Iran , Iraq , Syria , Israel , southern Russia , Armenia , Republic of Georgia , and Azerbaijan . 
+ Telescopus fallax iberus (Eichwald, 1831) - Armenia , Azerbaijan , South Georgia , southern Russia , northern Iran , and East Turkey . 
+ Telescopus fallax pallidus (Stepanek, 1944) - Crete , Gavdos , Elasa and Christiana Islands . 
+ Telescopus fallax syriacus (Boettger, 1880) - Lebanon , Syria , Jordan , southeast Turkey and northern Israel . 
+ References [ edit ] 
+ 1 2 3 4 Aram Agasyan; Aziz Avci; Boris Tuniyev; Jelka Crnobrnja Isailovic; Petros Lymberakis; Claes Andrén; Dan Cogalniceanu; John Wilkinson; Natalia Ananjeva; Nazan Üzüm; et   al. (2009). " Telescopus fallax " . IUCN Red List of Threatened Species . 2009 e.T157258A5062870. doi : 10.2305/IUCN.UK.2009.RLTS.T157258A5062870.en . Retrieved 15 March 2022 . 
+ ↑ F. L. Fleischmann (1831). Dalmatiae nova serpentum genera (PDF) (MD thesis). Friedrich-Alexander-Universität Erlangen-Nürnberg. 
+ 1 2 "Telescopus fallax" . Retrieved 25 April 2025 . 
+ ↑ "BioSnippet Issue 53" (PDF) . Environment & Resources Authority . Retrieved 25 April 2025 . 
+ 1 2 3 Geniez, Philippe (8 May 2018). Snakes of Europe, North Africa and the Middle East: A Photographic Guide . Princeton University Press. pp.   191, 193– 194. ISBN   978-0-691-17239-2 . Retrieved 26 February 2025 . 
+ Further reading [ edit ] 
+ Arnold EN , Burton JA. 1978. A Field Guide to the Reptiles and Amphibians of Britain and Europe . London: Collins. 272 pp. + Plates 1–40. ISBN   0-00-219318-3 . ( Telescopus fallax , pp.   207–210 + Plate 38, Figures 4a, 4b + Map 120). 
+ Fleischmann FL. 1831. Dalmatiae Nova Serpentum Genera . Erlangen, Germany: C. Heyder. 35 pp. ( Tarbophis fallax , new species, p.   18). 
+ External links [ edit ] 
+ Wikispecies has information related to Telescopus fallax . 
+ Wikimedia Commons has media related to Telescopus fallax . 
+ Video of Telescopus fallax on YouTube 
+ Video of Telescopus fallax on YouTube 
+ Movement of Telescopus fallax on YouTube 
+ v t e Snakes in the Telescopus genus 
+ Telescopus fallax 
+ Telescopus hoogstraali 
+ Telescopus semiannulatus 
+ Taxon identifiers Telescopus fallax 
+ Wikidata : Q1377407 
+ Wikispecies : Telescopus fallax 
+ CoL : 556CC 
+ EUNIS : 808 
+ Fauna Europaea : 214755 
+ Fauna Europaea (new) : 489ebc7a-ea67-40bd-966f-384b8d7f84c3 
+ GBIF (old): 2457466 
+ iNaturalist : 64078 
+ IRMNG : 11399238 
+ ITIS : 1082410 
+ IUCN : 157258 
+ NBN : NHMSYS0000375779 
+ NCBI : 186607 
+ Observation.org : 84238 
+ Open Tree of Life : 913529 
+ RD : fallax 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=European_cat_snake&oldid=1355310734 " 
+ Categories : IUCN Red List least concern species Telescopus Reptiles of West Asia Reptiles of Europe Reptiles described in 1831 Reptiles of Russia Hidden categories: Articles with short description Short description is different from Wikidata Articles with 'species' microformats Commons link from Wikidata 
+ This page was last edited on 21 May 2026, at 03:40  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ European cat snake 
+ 32 languages 
+ Add topic 
+ 
