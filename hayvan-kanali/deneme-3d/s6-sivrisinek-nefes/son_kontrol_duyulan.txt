@@ -1,0 +1,5 @@
+000 fark=0 | Karanlık odada sivrisinek seni nasıl buluyor, hiç merak ettin mi? || Karanlık odada sivrisinek seni nasıl buluyor hiç merak ettin mi?
+001 fark=0 | Nefesin onun için uzaktan görünen bir fener gibi. || Nefesin onun için uzaktan görünen bir fener gibi.
+002 fark=0 | Kan emen dişi sivrisinekler, verdiğin nefesteki karbondioksiti, vücut ısını ve çeşitli kokuları kullanarak seni buluyor. || Kanemen dişi sivrisinekler, verdiğin nefesteki karbondioksiti, vücut ısını ve çeşitli kokuları kullanarak seni buluyor.
+003 fark=0 | Bazı türlerde bu kan, yumurta üretimi için şart. || Bazı türlerde bu kan yumurta üretimi için şart.
+004 fark=0 | Yani karanlıkta seni ele veren şey nefesin, ısın ve kokun. || Yani karanlıkta seni ele veren şey nefesin, ısın ve kokun.

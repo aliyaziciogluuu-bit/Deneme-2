@@ -1,0 +1,6 @@
+000 fark=0 | Bahçedeki salyangozun yaprağı nasıl yediğini hiç merak ettin mi? || Bahçedeki salyangozun yaprağı nasıl yediğini hiç merak ettin mi?
+001 fark=0 | Ağzında, dile benzeyen, üstü minik dişlerle kaplı bir şerit var. || Ağzında dile benzeyen, üstü minik dişlerle kaplı bir şerit var.
+002 fark=0 | Tıpkı ince bir törpü gibi, yiyeceği kazıyor. || Tıpkı ince bir törpü gibi yiyeceği kazıyor.
+003 fark=0 | Bu şeridin adı radula; Latincede küçük kazıyıcı demek. || Bu şeridin adı radula, latince de küçük kazıyıcı demek.
+004 fark=1 | Dişler aşınınca şeridin gerisinden yenileri geliyor. || İşler aşınınca şeridin gerisinden yenileri geliyor.
+005 fark=0 | Yani salyangoz, yemeğini dişli bir şeritle kazıyarak alıyor. || Yani salyangoz, yemeğini dişli bir şeritle kazıyarak alıyor.

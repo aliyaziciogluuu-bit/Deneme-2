@@ -1,4 +1,4 @@
-# Kaynak eşleme – 11-bahce-yilani (67 cümle, 0 tabanlı)
+# Kaynak eşleme – 11-bahce-yilani (68 cümle, 0 tabanlı)
 
 Biçim: cümle no → kaynak bağlantısı → kaynakta geçen ifade (özgün dilde) → durum. Her ifade `kaynaklar/` altındaki arşiv dosyasında boşluk ve tırnak türü yok sayılarak aranıp doğrulandı (uret betiği; bulunamayan ifade olsaydı betik durdururdu).
 
@@ -37,7 +37,7 @@ Bu ortamdan açılabilen siteler: DergiPark, who.int, mdc.mo.gov, tr/en.wikipedi
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Zehirli yılanlarda baş üçgen şeklinde köşeli ve boyun belirli, zehirsiz yılanlarda ise baş elips şeklinde ve boyun belirsizdir” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Zehirli yılanlarda göz bebekleri elips, zehirsiz yılanlarda ise yuvarlak şekildedir” — açıldı
   - not: derlemenin saydığı ölçütler (sonraki bölümlerde sınanıyor)
-**003** [Ayağının dibinde bir yılan] Oysa Türkiye'de de görülen, boynunda açık renkli yaka olan zehirsiz bir yılan, korkunca başını ve boynunu yassılaştırıyor.
+**003** [Ayağının dibinde bir yılan] Oysa çoğunlukla boynunda açık renkli yaka olan zehirsiz bir yılan, korkunca bazen başını ve boynunu yassılaştırabiliyor.
   - https://en.wikipedia.org/wiki/Grass_snake → “flattening their heads and necks so that they resemble cobras” — açıldı
   - https://en.wikipedia.org/wiki/Grass_snake → “They rarely bite in defence and lack venomous fangs” — açıldı
   - https://tr.wikipedia.org/wiki/Natrix_natrix → “Kafasının arkasında yaka şeklinde sarı veya beyazımsı çizgi bulunur” — açıldı
@@ -72,10 +72,8 @@ Bu ortamdan açılabilen siteler: DergiPark, who.int, mdc.mo.gov, tr/en.wikipedi
 **012** [Başı geniş olan yılan zehirli mi?] Salı ve cumartesi akşamı yeni komşu geliyor.
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: kanal yayın takvimi
-**013** [Başı geniş olan yılan zehirli mi?] Boyu iki buçuk metreye, yani bir kapıdan uzun olmaya kadar çıkıyor; evlerin çevresinde de görülebiliyor.
+**013** [Başı geniş olan yılan zehirli mi?] Boyu iki buçuk metreye kadar çıkabiliyor; Türkiye'de yaşayan en büyük yılanlardan biri.
   - https://tr.wikipedia.org/wiki/Elaphe_sauromates → “250 cm erişen boyları ile Türkiye 'de yaşayan en büyük yılanlardan biridir” — açıldı
-  - https://tr.wikipedia.org/wiki/Elaphe_sauromates → “Kırsal bölgelerde müstakil yer evleri çevrelerinde de görülebilir” — açıldı
-  - not: 'bir kapıdan uzun': iki buçuk metre > kapı yüksekliği (kaynaksız karşılaştırma, genel ölçü)
 **014** [Başı geniş olan yılan zehirli mi?] Boynunda yaka olan o yılan, korkunca başka ne yapıyor?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: soru
@@ -92,15 +90,15 @@ Bu ortamdan açılabilen siteler: DergiPark, who.int, mdc.mo.gov, tr/en.wikipedi
 **019** [Göz bebeği dikeyse engerek midir?] Ama kedi gözlü yılanın göz bebeği dikey ve yarık biçimli; adını da oradan almış.
   - https://tr.wikipedia.org/wiki/Kedi_gözlü_yılan → “Telescopus fallax gözbebekleri yarık şeklinde ve dikeydir” — açıldı
   - https://tr.wikipedia.org/wiki/Kedi_gözlü_yılan → “Kedi gözlü yılan adını kedilerinkine benzeyen dikey ve büyük gözbebeklerinden almıştır” — açıldı
-**020** [Göz bebeği dikeyse engerek midir?] Vikipedi, onun zehirli sayıldığını ama arka dişli olduğu ve insana zehir veremediği için tehlikeli olmadığını yazıyor.
+**020** [Göz bebeği dikeyse engerek midir?] Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma.
   - https://tr.wikipedia.org/wiki/Kedi_gözlü_yılan → “Genelde zehirli bir tür olarak kabul edilir, ancak arka dişlere sahip olduğu ve insanlara zehir enjekte etme yeteneği olmadığı için tehlikeli değildir” — açıldı
   - not: Vikipedi'ye atıfla
 **021** [Göz bebeği dikeyse engerek midir?] Kırsal bahçelerde de bulunabiliyor.
   - https://tr.wikipedia.org/wiki/Kedi_gözlü_yılan → “Ayrıca tarlalar, çayırlar ve kırsal bahçeler gibi insanların yaşadığı bölgelerde de bulunabilir” — açıldı
-**022** [Göz bebeği dikeyse engerek midir?] Üstelik göz bebeğini görecek kadar yaklaşmak akıllıca mı?
+**022** [Göz bebeği dikeyse engerek midir?] Üstelik gözün biçimini seçecek kadar yakına gitmek akıllıca mı?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: soru
-**023** [Göz bebeği dikeyse engerek midir?] Missouri'deki doğa koruma dairesi, bunun için çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor.
+**023** [Göz bebeği dikeyse engerek midir?] Missouri'deki doğa koruma dairesi, göz bebeğini görmek için çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor.
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “there are several distinguishing features that are even more definite but less helpful because they require you to be much closer to the snake than most people like” — açıldı
   - not: Missouri'deki türler için yazılmış dergi yazısı; mesafe uyarısı genel
 **024** [Göz bebeği dikeyse engerek midir?] Yani ölçüt doğru olsa bile, güvenli mesafeden işine yaramıyor.
@@ -117,17 +115,18 @@ Bu ortamdan açılabilen siteler: DergiPark, who.int, mdc.mo.gov, tr/en.wikipedi
 **028** [Türkiye'de engerekler nasıl görünüyor?] Şeritli engerek, diğer adıyla Osmanlı engereği; sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.
   - https://tr.wikipedia.org/wiki/Montivipera_xanthina → “Şeritli engerek ya da Osmanlı engereği” — açıldı
   - https://tr.wikipedia.org/wiki/Montivipera_xanthina → “Bu benekler bazen birleşip baklava desenli, dalgalı ya da zikzaklı bir şerit oluşturur” — açıldı
-**029** [Türkiye'de engerekler nasıl görünüyor?] Koca engerek, bir derlemeye göre Türkiye'nin en zehirli, en uzun ve kalın yılanı.
+**029** [Türkiye'de engerekler nasıl görünüyor?] Koca engerek, bir derlemeye göre Türkiye'de yaşayan yılanların en zehirlisi; boyu iki metreye kadar çıkabiliyor.
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Türkiye’de yaşayan yılanların en zehirli, en uzun ve kalın olanıdır” — açıldı
+  - https://dergipark.org.tr/tr/download/article-file/25277 → “Boyları 2 m, ağırlıkları 3 kg kadar olabilmektedir” — açıldı
 **030** [Türkiye'de engerekler nasıl görünüyor?] Vikipedi onun ovalarda, bahçelerde ve tarlalarda yaşadığını yazıyor.
   - https://tr.wikipedia.org/wiki/Koca_engerek → “Ovalarda, taşlık yerlerde, terk edilmiş evlerde, harabelerde, bahçelerde ve tarlalarda yaşarlar” — açıldı
 **031** [Türkiye'de engerekler nasıl görünüyor?] Hangisi senin yörende yaşıyor?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: soru
-**032** [Türkiye'de engerekler nasıl görünüyor?] Derlemeye göre boynuzlu engerek Trakya'nın kuzeyinde, Batı-Güney Anadolu bölgesinde, kuzeydoğuda ve doğuda yaşıyor.
+**032** [Türkiye'de engerekler nasıl görünüyor?] Boynuzlu engerek, bir tıp yazısına göre, Trakya'nın kuzeyinde, Batı-Güney Anadolu bölgesinde, kuzeydoğuda ve doğuda yayılmış.
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Ülkemizde Trakya’nın kuzeyinde, Batı- Güney Anadolu, ayrıca Kuzeydoğu ve Doğu Anadolu Bölgesi’nde yayılmıştır” — açıldı
   - not: kaynaktaki 'Batı-Güney Anadolu' ifadesi aynen
-**033** [Türkiye'de engerekler nasıl görünüyor?] Şeritli engerek Ege, Akdeniz ve Orta Anadolu'da; koca engerek Adana çevresi ile güneydoğu ve doğu illerinde görülüyor.
+**033** [Türkiye'de engerekler nasıl görünüyor?] Derlemeye göre şeritli engerek Ege, Akdeniz ve Orta Anadolu'da; koca engerek Adana çevresi ile güneydoğu ve doğu illerinde.
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Ege, Akdeniz ve Orta Anadolu Bölgeleri’nde ve Kars yöresinde yaşar” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Bu tür Türkiye’de Adana civarı ile Güneydoğu ve Doğu Anadolu Bölgeleri’nde yayılmıştır” — açıldı
   - not: Kars yöresi kısaltıldı (tam liste değil)
@@ -136,99 +135,102 @@ Bu ortamdan açılabilen siteler: DergiPark, who.int, mdc.mo.gov, tr/en.wikipedi
   - not: soru
 **035** [Türkiye'de engerekler nasıl görünüyor?] Vikipedi, şeritli engereğin çok yaklaşıldığında önce tıslayarak uyardığını, üzerine basılırsa ısırabildiğini yazıyor.
   - https://tr.wikipedia.org/wiki/Montivipera_xanthina → “çok yaklaşıldığında önce tıslayarak uyarılar, üzerine basılması gibi durumda ise ısırabilirler” — açıldı
-**036** [Türkiye'de engerekler nasıl görünüyor?] Rize'de yapılan bir çalışmada, yılan ısırığıyla hastaneye gelen yirmi yedi kişinin yirmi altısında ısırık ayağın üstündeydi.
+**036** [Türkiye'de engerekler nasıl görünüyor?] Bir derleme, engerek zehirlerinin çok şiddetli etki yapabildiğini yazıyor.
+  - https://dergipark.org.tr/tr/download/article-file/25277 → “Zehirleri çok şiddetlidir ve hemotoksik etki yapar” — açıldı
+  - not: denetçi önerisi
+**037** [Türkiye'de engerekler nasıl görünüyor?] Rize'deki bir hastanede yapılan çalışmada, yılan ısırığıyla gelen yirmi yedi kişinin yirmi altısında ısırık ayağın üstündeydi.
   - https://dergipark.org.tr/en/download/article-file/1338833 → “27 cases who referred to tertiary emergency service due to snake bite” — açıldı
   - https://dergipark.org.tr/en/download/article-file/1338833 → “bite in the lower extremity dorsum of the foot (96.3%,n=26)” — açıldı
   - not: Rize Recep Tayyip Erdoğan Üniversitesi Eğitim ve Araştırma Hastanesi, 2010–2018
-**037** [Uzaktan nasıl anlarsın?] Peki bahçendeki yılanın zehirli olup olmadığını uzaktan nasıl anlarsın?
+**038** [Uzaktan nasıl anlarsın?] Peki bahçendeki yılanın zehirli olup olmadığını uzaktan nasıl anlarsın?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: soru (videonun ana vaadi)
-**038** [Uzaktan nasıl anlarsın?] Türkçe Vikipedi, amatörlerin yılanı görünüşüne bakarak ayırmasının zor olduğunu yazıyor.
+**039** [Uzaktan nasıl anlarsın?] Türkçe Vikipedi, amatörlerin yılanı görünüşüne bakarak ayırmasının zor olduğunu yazıyor.
   - https://tr.wikipedia.org/wiki/Yılan → “Amatörler için yılanları görünüşüne göre zehirli zehirsiz olarak nitelendirmek zor olup onlardan uzak durmak ya da bir profesyonel ile yaklaşmak gerekir” — açıldı
-**039** [Uzaktan nasıl anlarsın?] Missouri'deki sürüngen uzmanı da emin olamıyorsan yılanı rahat bırakmanı söylüyor.
+**040** [Uzaktan nasıl anlarsın?] Missouri'deki sürüngen uzmanı da emin olamıyorsan yılanı rahat bırakmanı söylüyor.
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “leave it alone” — açıldı
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “State Herpetologist Jeff Briggler” — açıldı
-**040** [Uzaktan nasıl anlarsın?] Aynı uzman, yılanı öldürmeye çalışırken ısırılma ihtimalinin daha yüksek olduğunu söylüyor.
+**041** [Uzaktan nasıl anlarsın?] Aynı uzman, yılanı öldürmeye çalışırken ısırılma ihtimalinin daha yüksek olduğunu söylüyor.
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “You are more likely to be bitten attempting to kill a snake” — açıldı
-**041** [Uzaktan nasıl anlarsın?] Anadolu'da da benzer bir inanış var: Rize'de evin çevresinde sürekli görülen yılanı öldürmek tabudur.
+**042** [Uzaktan nasıl anlarsın?] Anadolu'da da benzer bir inanış var: Rize'de evin çevresinde sürekli görülen yılanı öldürmek tabudur.
   - https://dergipark.org.tr/en/download/article-file/3707866 → “Rize’de de her evin bir koruyucu yılanı olduğuna inanılır. Bu nedenle evin etrafında sürekli görülen yılanın öldürülmesi bir tabudur” — açıldı
   - not: yöresel inanış, saygıyla aktarıldı
-**042** [Uzaktan nasıl anlarsın?] Diyarbakır'da yılanın bağ ve bahçeleri koruduğuna inanılır; halk onu rahatsız etmekten çekinir.
+**043** [Uzaktan nasıl anlarsın?] Diyarbakır'da yılanın bağ ve bahçeleri koruduğuna inanılır; halk onu rahatsız etmekten çekinir.
   - https://dergipark.org.tr/en/download/article-file/3707866 → “Diyarbakır'da, yılanın bağ ve bahçeleri koruduğuna inanılır” — açıldı
   - https://dergipark.org.tr/en/download/article-file/3707866 → “halk onu rahatsız etmekten çekinir” — açıldı
-**043** [Uzaktan nasıl anlarsın?] Bunları bilimsel kanıt diye sunmuyoruz, ama vardıkları sonuç uzmanın önerisine yakın.
+**044** [Uzaktan nasıl anlarsın?] Bunları bilimsel kanıt diye sunmuyoruz, ama vardıkları sonuç uzmanın önerisine yakın.
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: yorum; inanışlar kanıt diye sunulmuyor
-**044** [Uzaktan nasıl anlarsın?] Zehirli bir engereği bile öldürmek gerekir mi?
+**045** [Uzaktan nasıl anlarsın?] Zehirli bir engereği bile öldürmek gerekir mi?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: soru
-**045** [Uzaktan nasıl anlarsın?] Vikipedi, boynuzlu engereğin de kemiricilerle beslendiği için yararlı olduğunu yazıyor.
+**046** [Uzaktan nasıl anlarsın?] Vikipedi, boynuzlu engereğin de kemiricilerle beslendiği için yararlı olduğunu yazıyor.
   - https://tr.wikipedia.org/wiki/Boynuzlu_engerek → “Kemiricilerle beslendikleri için yararlıdırlar” — açıldı
-**046** [Uzaktan nasıl anlarsın?] Bize göre mesafeni koru, yılanı izle, mümkünse uzaktan fotoğrafını çek.
+**047** [Uzaktan nasıl anlarsın?] Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma.
   - https://tr.wikipedia.org/wiki/Yılan → “Amatörler için yılanları görünüşüne göre zehirli zehirsiz olarak nitelendirmek zor olup onlardan uzak durmak ya da bir profesyonel ile yaklaşmak gerekir” — açıldı
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “leave it alone” — açıldı
   - not: 'bize göre' önerisi; Vikipedi'deki 'uzak durmak' ve uzmanın 'rahat bırak' önerisine dayanır
-**047** [Uzaktan nasıl anlarsın?] Ona dokunma; yakalamaya ya da öldürmeye çalışma.
+**048** [Uzaktan nasıl anlarsın?] Ona dokunma; yakalamaya ya da öldürmeye çalışma.
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “You are more likely to be bitten attempting to kill a snake” — açıldı
   - https://tr.wikipedia.org/wiki/Yılan → “Amatörler için yılanları görünüşüne göre zehirli zehirsiz olarak nitelendirmek zor olup onlardan uzak durmak ya da bir profesyonel ile yaklaşmak gerekir” — açıldı
   - not: 'yakalamaya ya da öldürmeye çalışma': uzmanın 'öldürmeye çalışırken ısırılma' uyarısı
-**048** [Uzaktan nasıl anlarsın?] Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.
+**049** [Uzaktan nasıl anlarsın?] Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: kanal standardı kurum cümlesi
-**049** [Uzaktan nasıl anlarsın?] Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir; sağır yılan dediğimiz kertenkeleyi önceki videomuzda anlattık.
+**050** [Uzaktan nasıl anlarsın?] Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir; sağır yılan dediğimiz kertenkeleyi önceki videomuzda anlattık.
   - https://tr.wikipedia.org/wiki/Yılan → “Serpentes alt takımının üyeleri, ayaksız kertenkelelerden dış kulakların ve göz kapaklarının olmayışı ile ayırdedilirler” — açıldı
   - https://en.wikipedia.org/wiki/Slow_worm → “Despite its name, the common slow worm is neither a worm nor a snake” — açıldı
   - not: 01-sagir-yilan videosuna bağlantı; Slow worm Avrupa'daki akraba tür (Türkiye türünün kaynakları 01 videosunda)
-**050** [Isırılırsan ne yapmalısın?] Bir yılan seni ısırırsa ne yapmalısın?
+**051** [Isırılırsan ne yapmalısın?] Bir yılan seni ısırırsa ne yapmalısın?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: soru
-**051** [Isırılırsan ne yapmalısın?] Dünya Sağlık Örgütü'ne göre önce ısırığın olduğu yerden hemen uzaklaş.
+**052** [Isırılırsan ne yapmalısın?] Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırığın olduğu yerden hemen uzaklaş.
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Immediately move away from the area where the bite occurred” — açıldı
-**052** [Isırılırsan ne yapmalısın?] Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar; şişlik olursa zarar verebilirler.
+**053** [Isırılırsan ne yapmalısın?] Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar; şişlik olursa zarar verebilirler.
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Remove anything tight from around the bitten part of the body (e.g.: rings, anklets, bracelets) as these can cause harm if swelling occurs” — açıldı
-**053** [Isırılırsan ne yapmalısın?] Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez.
+**054** [Isırılırsan ne yapmalısın?] Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez.
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Many snake bites are caused by non-venomous snakes” — açıldı
   - not: 'karar vermek sana düşmez' kanal çekincesi
-**054** [Isırılırsan ne yapmalısın?] Isırılan yeri hiç oynatma; mümkünse atelle sabitle ve kişiyi yürütmeden taşı.
+**055** [Isırılırsan ne yapmalısın?] Isırılan yeri hiç oynatma; mümkünse atelle sabitle ve kişiyi yürütmeden taşı.
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Immobilize the person completely. Splint the limb to keep it still” — açıldı
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Use a makeshift stretcher to carry the person to a place where transport is available to take them to a health facility” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Isırılan ekstremite kalp hizasında ve mutlaka hareketsiz hale getirilmelidir” — açıldı
-**055** [Isırılırsan ne yapmalısın?] Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir.
+**056** [Isırılırsan ne yapmalısın?] Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir.
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “People who suspect they have been bitten by a venomous snake should be transported to a health facility without delay” — açıldı
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “the administration of antivenom and other adjunct therapy” — açıldı
   - not: WHO: panzehir sağlık kuruluşunda uygulanır
-**056** [Isırılırsan ne yapmalısın?] Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.
+**057** [Isırılırsan ne yapmalısın?] Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “wound incision or excision, suction, or application of “black stones” should be avoided” — açıldı
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Never use a tight arterial tourniquet” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Kateterizasyon, eksizyon, amputasyon, vakumla, şırıngayla, ağızla emme gibi yöntemler kesinlikle uygulanmamalıdır” — açıldı
-**057** [Isırılırsan ne yapmalısın?] Bitkisel ya da geleneksel yöntemlere de başvurma.
+**058** [Isırılırsan ne yapmalısın?] Bitkisel ya da geleneksel yöntemlere de başvurma.
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Avoid traditional first aid methods, herbal medicines and other unproven or unsafe forms of first aid” — açıldı
-**058** [Isırılırsan ne yapmalısın?] Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.
+**059** [Isırılırsan ne yapmalısın?] Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.
   - https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming → “Children often suffer more severe effects than adults, due to their smaller body mass” — açıldı
   - not: risk grubu
-**059** [Isırılırsan ne yapmalısın?] Rize'deki çalışmada hastaların hepsi geldiğinde iyi durumdaydı; ama ikisinde sonradan bayılma ve tansiyon düşmesi gelişti.
+**060** [Isırılırsan ne yapmalısın?] Rize'deki hastanede yapılan çalışmada ısırılanların hepsi bilinci açık gelmişti; yine de ikisinde bayılma ve tansiyon düşmesi görüldü.
   - https://dergipark.org.tr/en/download/article-file/1338833 → “Hastaların hepsinin başvuru esnasında genel durumları iyi ve vital bulguları stabildi” — açıldı
   - https://dergipark.org.tr/en/download/article-file/1338833 → “two patients developed syncope and hypotension after admission” — açıldı
   - not: hafif görünse de beklememe gerekçesi
-**060** [Isırılırsan ne yapmalısın?] Hastaneler gerekirse Ulusal Zehir Danışma Merkezi'ne danışabiliyor.
+**061** [Isırılırsan ne yapmalısın?] Hastaneler gerekirse Ulusal Zehir Danışma Merkezi'ne danışabiliyor.
   - https://doi.org/10.5472/marumj.1191161 (PDF: https://dergipark.org.tr/en/download/article-file/2734305) → “We reported and consulted the case to the National Poisons Center (NPC)” — açıldı
   - not: telefon numarası yok; yalnızca ad
-**061** [Isırılırsan ne yapmalısın?] Bir vaka raporunda yılanın türünü o merkez belirlemiş, panzehir de oradan istenmiş.
+**062** [Isırılırsan ne yapmalısın?] Bir vaka raporunda yılanın türünü o merkez belirlemiş, panzehir de oradan istenmiş.
   - https://doi.org/10.5472/marumj.1191161 (PDF: https://dergipark.org.tr/en/download/article-file/2734305) → “The snake was identified as Vipera Pontica, by the National Poisons Center” — açıldı
   - https://doi.org/10.5472/marumj.1191161 (PDF: https://dergipark.org.tr/en/download/article-file/2734305) → “we requested polyvalent snake antivenom from the poison center” — açıldı
-**062** [Komşunu tanı] Özetle baş şekli ve göz bebeği tek başına yetmiyor; zehirsiz yılanların da başı geniş, sırtı lekeli olabiliyor.
+**063** [Komşunu tanı] Özetle baş şekli ve göz bebeği tek başına yetmiyor; zehirsiz yılanların da başı geniş, sırtı lekeli olabiliyor.
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: özet (cümle 9-10, 3-4'e dayanır)
-**063** [Komşunu tanı] Senin yörende engereğe ne derler, bahçende en son hangi yılanı gördün?
+**064** [Komşunu tanı] Senin yörende engereğe ne derler, bahçende en son hangi yılanı gördün?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: yorum sorusu (yöresel ad ritüeli)
-**064** [Komşunu tanı] Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.
+**065** [Komşunu tanı] Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: kapanış kalıbı
-**065** [Komşunu tanı] Sıradaki komşu: evdeki örümcek zehirli mi, ve hangisinden gerçekten uzak durmalısın?
+**066** [Komşunu tanı] Sıradaki komşu: evdeki örümcek zehirli mi, ve hangisinden gerçekten uzak durmalısın?
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: fikirler.json no.14 (19 Aralık)
-**066** [Komşunu tanı] Komşunu tanı.
+**067** [Komşunu tanı] Komşunu tanı.
   - kaynak gerekmiyor (soru / sahne kurma / kanal cümlesi)
   - not: sabit kapanış
 
@@ -236,7 +238,7 @@ Bu ortamdan açılabilen siteler: DergiPark, who.int, mdc.mo.gov, tr/en.wikipedi
 
 ### s1-bas-sekli
 
-kapsam: sarı yılan (zehirsiz; Türkiye'de) ve boynunda açık renkli yaka olan yılan (zehirsiz; Türkiye'de de kayıtlı). 'Başı geniş yılan zehirsizdir' genellemesi yapılmıyor; yalnızca bu iki türün baş şekli örnek. Güvenlik cümleleri uzun videodaki 46, 47, 48 ve 58'den kelimesi kelimesine.
+kapsam: sarı yılan (zehirsiz; Türkiye'de) ve boynunda açık renkli yaka olan yılan (zehirsiz; Türkiye'de de kayıtlı). 'Başı geniş yılan zehirsizdir' genellemesi yapılmıyor; yalnızca bu iki türün baş şekli örnek. Güvenlik cümleleri uzun videodaki 47, 48, 49 ve 59'dan kelimesi kelimesine.
 
 **s1-bas-sekli 0** Başı geniş, sırtı lekeli bu yılan zehirsiz.
   - https://tr.wikipedia.org/wiki/Elaphe_sauromates → “Baş boyna göre bariz şekilde daha geniş” — açıldı
@@ -244,72 +246,77 @@ kapsam: sarı yılan (zehirsiz; Türkiye'de) ve boynunda açık renkli yaka olan
   - https://tr.wikipedia.org/wiki/Elaphe_sauromates → “zehirsiz bir yılan türüdür” — açıldı
 **s1-bas-sekli 1** Adı sarı yılan; başı boynuna göre belirgin geniş.
   - https://tr.wikipedia.org/wiki/Elaphe_sauromates → “Baş boyna göre bariz şekilde daha geniş” — açıldı
-**s1-bas-sekli 2** Boynunda açık renkli yaka olan bir yılan da korkunca başını ve boynunu yassılaştırıyor.
+**s1-bas-sekli 2** Çoğunlukla boynunda açık renkli yaka olan bir yılan da korkunca bazen başını ve boynunu yassılaştırabiliyor.
   - https://en.wikipedia.org/wiki/Grass_snake → “flattening their heads and necks so that they resemble cobras” — açıldı
   - https://tr.wikipedia.org/wiki/Natrix_natrix → “Kafasının arkasında yaka şeklinde sarı veya beyazımsı çizgi bulunur” — açıldı
   - https://en.wikipedia.org/wiki/Grass_snake → “They rarely bite in defence and lack venomous fangs” — açıldı
-**s1-bas-sekli 3** Bir tıp derlemesi, zehirliyi zehirsizden ayırmanın baştan güç olduğunu da kabul ediyor.
+**s1-bas-sekli 3** Bir tıp derlemesi, zehirliyi zehirsizden ayırmanın güç olduğunu da kabul ediyor.
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Zehirli yılanları, zehirsizlerden ayırmak ne kadar güç ise de” — açıldı
-**s1-bas-sekli 4** Bize göre mesafeni koru, yılanı izle, mümkünse uzaktan fotoğrafını çek.  (uzun video 046 ile kelimesi kelimesine aynı)
+**s1-bas-sekli 4** Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma.  (uzun video 047 ile kelimesi kelimesine aynı)
   - https://tr.wikipedia.org/wiki/Yılan → “Amatörler için yılanları görünüşüne göre zehirli zehirsiz olarak nitelendirmek zor olup onlardan uzak durmak ya da bir profesyonel ile yaklaşmak gerekir” — açıldı
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “leave it alone” — açıldı
-**s1-bas-sekli 5** Ona dokunma; yakalamaya ya da öldürmeye çalışma.  (uzun video 047 ile kelimesi kelimesine aynı)
+**s1-bas-sekli 5** Ona dokunma; yakalamaya ya da öldürmeye çalışma.  (uzun video 048 ile kelimesi kelimesine aynı)
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “You are more likely to be bitten attempting to kill a snake” — açıldı
   - https://tr.wikipedia.org/wiki/Yılan → “Amatörler için yılanları görünüşüne göre zehirli zehirsiz olarak nitelendirmek zor olup onlardan uzak durmak ya da bir profesyonel ile yaklaşmak gerekir” — açıldı
-**s1-bas-sekli 6** Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.  (uzun video 048 ile kelimesi kelimesine aynı)
-**s1-bas-sekli 7** Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.  (uzun video 058 ile kelimesi kelimesine aynı)
+**s1-bas-sekli 6** Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.  (uzun video 049 ile kelimesi kelimesine aynı)
+**s1-bas-sekli 7** Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.  (uzun video 059 ile kelimesi kelimesine aynı)
   - https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming → “Children often suffer more severe effects than adults, due to their smaller body mass” — açıldı
 **s1-bas-sekli 8** Tam videosu kanalımızda.
   - kanal cümlesi / köprü
 
 ### s2-goz-bebegi
 
-kapsam: yalnızca kedi gözlü yılan (zehirli sayılan ama insana tehlikeli sayılmayan, arka dişli tür). 'Dikey göz bebeği engerek değildir' genellemesi yok; engerek göz bebeğinin dikey olduğu bu Shorts'ta söylenmiyor, uzun videoda derlemeye atıfla var. Güvenlik cümleleri uzun videodaki 23, 46, 47, 48 ve 58'den kelimesi kelimesine.
+kapsam: yalnızca kedi gözlü yılan (zehirli sayılan ama insana tehlikeli sayılmayan, arka dişli tür). 'Dikey göz bebeği engerek değildir' genellemesi yok; engerek göz bebeğinin dikey olduğu bu Shorts'ta söylenmiyor, uzun videoda derlemeye atıfla var. Güvenlik cümleleri uzun videodaki 23, 54, 47, 48, 49 ve 59'dan kelimesi kelimesine.
 
-**s2-goz-bebegi 0** Dikey göz bebekli bu kedi gözlü yılan, engerek değil.
+**s2-goz-bebegi 0** Engereklerin göz bebeği dikeydir, ama göz bebeği dikey olan her yılan engerek değildir; bu kedi gözlü yılan gibi.
+  - https://dergipark.org.tr/tr/download/article-file/25277 → “Göz bebekleri dikey ve elips şeklindedir” — açıldı
   - https://tr.wikipedia.org/wiki/Kedi_gözlü_yılan → “Telescopus fallax gözbebekleri yarık şeklinde ve dikeydir” — açıldı
   - https://tr.wikipedia.org/wiki/Kedi_gözlü_yılan → “Colubridae familyasına dahil” — açıldı
   - https://tr.wikipedia.org/wiki/Engerek → “Engerek , engerekgiller ya da Viperidae” — açıldı
-**s2-goz-bebegi 1** Vikipedi, onun zehirli sayıldığını ama arka dişli olduğu ve insana zehir veremediği için tehlikeli olmadığını yazıyor.  (uzun video 020 ile kelimesi kelimesine aynı)
+**s2-goz-bebegi 1** Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma.  (uzun video 020 ile kelimesi kelimesine aynı)
   - https://tr.wikipedia.org/wiki/Kedi_gözlü_yılan → “Genelde zehirli bir tür olarak kabul edilir, ancak arka dişlere sahip olduğu ve insanlara zehir enjekte etme yeteneği olmadığı için tehlikeli değildir” — açıldı
-**s2-goz-bebegi 2** Missouri'deki doğa koruma dairesi, bunun için çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor.  (uzun video 023 ile kelimesi kelimesine aynı)
+**s2-goz-bebegi 2** Missouri'deki doğa koruma dairesi, göz bebeğini görmek için çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor.  (uzun video 023 ile kelimesi kelimesine aynı)
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “there are several distinguishing features that are even more definite but less helpful because they require you to be much closer to the snake than most people like” — açıldı
-**s2-goz-bebegi 3** Bize göre mesafeni koru, yılanı izle, mümkünse uzaktan fotoğrafını çek.  (uzun video 046 ile kelimesi kelimesine aynı)
+**s2-goz-bebegi 3** Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez.  (uzun video 054 ile kelimesi kelimesine aynı)
+  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Many snake bites are caused by non-venomous snakes” — açıldı
+**s2-goz-bebegi 4** Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma.  (uzun video 047 ile kelimesi kelimesine aynı)
   - https://tr.wikipedia.org/wiki/Yılan → “Amatörler için yılanları görünüşüne göre zehirli zehirsiz olarak nitelendirmek zor olup onlardan uzak durmak ya da bir profesyonel ile yaklaşmak gerekir” — açıldı
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “leave it alone” — açıldı
-**s2-goz-bebegi 4** Ona dokunma; yakalamaya ya da öldürmeye çalışma.  (uzun video 047 ile kelimesi kelimesine aynı)
+**s2-goz-bebegi 5** Ona dokunma; yakalamaya ya da öldürmeye çalışma.  (uzun video 048 ile kelimesi kelimesine aynı)
   - https://mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers → “You are more likely to be bitten attempting to kill a snake” — açıldı
   - https://tr.wikipedia.org/wiki/Yılan → “Amatörler için yılanları görünüşüne göre zehirli zehirsiz olarak nitelendirmek zor olup onlardan uzak durmak ya da bir profesyonel ile yaklaşmak gerekir” — açıldı
-**s2-goz-bebegi 5** Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.  (uzun video 048 ile kelimesi kelimesine aynı)
-**s2-goz-bebegi 6** Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.  (uzun video 058 ile kelimesi kelimesine aynı)
+**s2-goz-bebegi 6** Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.  (uzun video 049 ile kelimesi kelimesine aynı)
+**s2-goz-bebegi 7** Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.  (uzun video 059 ile kelimesi kelimesine aynı)
   - https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming → “Children often suffer more severe effects than adults, due to their smaller body mass” — açıldı
-**s2-goz-bebegi 7** Tam videosu kanalımızda.
+**s2-goz-bebegi 8** Tam videosu kanalımızda.
   - kanal cümlesi / köprü
 
 ### s3-isirik
 
-kapsam: yalnızca ısırık sonrası ilk yardım (Dünya Sağlık Örgütü). Tıbbi hüküm yok: 'hangisi olduğuna karar vermek sana düşmez' çekincesi uzun videoda; burada sağlık kuruluşuna yönlendirme. Telefon numarası yok. Güvenlik cümleleri uzun videodaki 51, 52, 54, 55, 56, 57 ve 58'den kelimesi kelimesine.
+kapsam: yalnızca ısırık sonrası ilk yardım (Dünya Sağlık Örgütü). Tıbbi hüküm yok: 'hangisi olduğuna karar vermek sana düşmez' çekincesi uzun videoda; burada sağlık kuruluşuna yönlendirme. Telefon numarası yok. Güvenlik cümleleri uzun videodaki 52–59'dan kelimesi kelimesine.
 
-**s3-isirik 0** Yılan ısırığında yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.
-  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “wound incision or excision, suction, or application of “black stones” should be avoided” — açıldı
-  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Never use a tight arterial tourniquet” — açıldı
-  - https://dergipark.org.tr/tr/download/article-file/25277 → “Kateterizasyon, eksizyon, amputasyon, vakumla, şırıngayla, ağızla emme gibi yöntemler kesinlikle uygulanmamalıdır” — açıldı
-**s3-isirik 1** Bitkisel ya da geleneksel yöntemlere de başvurma.  (uzun video 057 ile kelimesi kelimesine aynı)
-  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Avoid traditional first aid methods, herbal medicines and other unproven or unsafe forms of first aid” — açıldı
-**s3-isirik 2** Dünya Sağlık Örgütü'ne göre önce ısırığın olduğu yerden hemen uzaklaş.  (uzun video 051 ile kelimesi kelimesine aynı)
+**s3-isirik 0** Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırığın olduğu yerden hemen uzaklaş.  (uzun video 052 ile kelimesi kelimesine aynı)
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Immediately move away from the area where the bite occurred” — açıldı
-**s3-isirik 3** Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar; şişlik olursa zarar verebilirler.  (uzun video 052 ile kelimesi kelimesine aynı)
+**s3-isirik 1** Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar; şişlik olursa zarar verebilirler.  (uzun video 053 ile kelimesi kelimesine aynı)
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Remove anything tight from around the bitten part of the body (e.g.: rings, anklets, bracelets) as these can cause harm if swelling occurs” — açıldı
-**s3-isirik 4** Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.  (uzun video 058 ile kelimesi kelimesine aynı)
-  - https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming → “Children often suffer more severe effects than adults, due to their smaller body mass” — açıldı
-**s3-isirik 5** Isırılan yeri hiç oynatma; mümkünse atelle sabitle ve kişiyi yürütmeden taşı.  (uzun video 054 ile kelimesi kelimesine aynı)
+**s3-isirik 2** Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez.  (uzun video 054 ile kelimesi kelimesine aynı)
+  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Many snake bites are caused by non-venomous snakes” — açıldı
+**s3-isirik 3** Isırılan yeri hiç oynatma; mümkünse atelle sabitle ve kişiyi yürütmeden taşı.  (uzun video 055 ile kelimesi kelimesine aynı)
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Immobilize the person completely. Splint the limb to keep it still” — açıldı
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Use a makeshift stretcher to carry the person to a place where transport is available to take them to a health facility” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/25277 → “Isırılan ekstremite kalp hizasında ve mutlaka hareketsiz hale getirilmelidir” — açıldı
-**s3-isirik 6** Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir.  (uzun video 055 ile kelimesi kelimesine aynı)
+**s3-isirik 4** Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir.  (uzun video 056 ile kelimesi kelimesine aynı)
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “People who suspect they have been bitten by a venomous snake should be transported to a health facility without delay” — açıldı
   - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “the administration of antivenom and other adjunct therapy” — açıldı
-**s3-isirik 7** Tam videosu kanalımızda.
+**s3-isirik 5** Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.  (uzun video 057 ile kelimesi kelimesine aynı)
+  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “wound incision or excision, suction, or application of “black stones” should be avoided” — açıldı
+  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Never use a tight arterial tourniquet” — açıldı
+  - https://dergipark.org.tr/tr/download/article-file/25277 → “Kateterizasyon, eksizyon, amputasyon, vakumla, şırıngayla, ağızla emme gibi yöntemler kesinlikle uygulanmamalıdır” — açıldı
+**s3-isirik 6** Bitkisel ya da geleneksel yöntemlere de başvurma.  (uzun video 058 ile kelimesi kelimesine aynı)
+  - https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment → “Avoid traditional first aid methods, herbal medicines and other unproven or unsafe forms of first aid” — açıldı
+**s3-isirik 7** Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.  (uzun video 059 ile kelimesi kelimesine aynı)
+  - https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming → “Children often suffer more severe effects than adults, due to their smaller body mass” — açıldı
+**s3-isirik 8** Tam videosu kanalımızda.
   - kanal cümlesi / köprü
 
 ## Emin olunmayan / çekinceli noktalar
