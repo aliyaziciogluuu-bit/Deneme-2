@@ -35,11 +35,12 @@
   "uygun": true
  },
  "005": {
-  "yazi": "Sırada başı geniş, sırtı lekeli ama zehirsiz bir yılan ile ısırıldıktan sonra hastanede yaşananlar var.",
-  "duyulan": "Sırada başı geniş, sırtı lekeli ama zehirsiz bir yılanla ısırıldıktan sonra hastanede yaşananlar var.",
+  "yazi": "Sırada, zehirsiz olduğu hâlde başı geniş ve sırtı lekeli bir yılan var; peki gözü dikey olan yılan neden engerek değil?",
+  "duyulan": "Sırada zehirsiz olduğu halde başı geniş ve sırtı lekeli bir yılan var. Peki gözü dikey olan yılan neden engerek değil?",
   "hata": 0,
-  "sure": 6.56,
-  "uygun": true
+  "sure": 8.44,
+  "uygun": true,
+  "tek_basina": true
  },
  "006": {
   "yazi": "Önce baş şekline bakalım: gerçekten güvenilir bir ölçüt mü?",
