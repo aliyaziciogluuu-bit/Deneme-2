@@ -27,16 +27,12 @@
     {
      "yazi": "Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.",
      "gorsel": "uzun_bacakli_yakin",
-     "x": 0.5,
-     "klip": "pholcid_yakin_k",
-     "kx": 0.5
+     "x": 0.5
     },
     {
      "yazi": "Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil.",
      "gorsel": "uzun_bacakli_yakin",
-     "x": 0.5,
-     "klip": "pholcid_yakin_k",
-     "kx": 0.5
+     "x": 0.5
     },
     {
      "yazi": "Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
