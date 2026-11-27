@@ -84,7 +84,7 @@
   {
    "ad": "s2-goz-bebegi",
    "baslik": "Dikey Göz Bebekli Yılan Engerek mi? 👁️ #shorts",
-   "aciklama": "Engereklerin göz bebeği dikeydir, ama göz bebeği dikey olan her yılan engerek değildir; kedi gözlü yılan gibi. Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma. Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez. Missouri'deki doğa koruma dairesi, göz bebeğini görmek için çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor. Yılan görürsen: mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma. Ona dokunma; yakalamaya ya da öldürmeye çalışma. Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git. Tam video kanalımızda: \"Bahçendeki Yılan Zehirli mi?\"\n\nKaynaklar:\n- Vikipedi (Türkçe) – Kedi gözlü yılan: tr.wikipedia.org/wiki/Kedi_gözlü_yılan\n- Archer, L. (2022). Dopplefangers. Missouri Conservationist (Missouri Department of Conservation): mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers\n- Vikipedi (Türkçe) – Yılan: tr.wikipedia.org/wiki/Yılan\n- Dünya Sağlık Örgütü – Snakebite envenoming: who.int/news-room/fact-sheets/detail/snakebite-envenoming\n\n#shorts #yılan #doğa",
+   "aciklama": "Engereklerin göz bebeği dikeydir, ama göz bebeği dikey olan her yılan engerek değildir; kedi gözlü yılan gibi. Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma. Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez. Missouri'deki doğa koruma dairesine göre göz bebeğini görmek için çok yaklaşmak gerekir. Yılan görürsen: mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma. Ona dokunma; yakalamaya ya da öldürmeye çalışma. Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git. Tam video kanalımızda: \"Bahçendeki Yılan Zehirli mi?\"\n\nKaynaklar:\n- Vikipedi (Türkçe) – Kedi gözlü yılan: tr.wikipedia.org/wiki/Kedi_gözlü_yılan\n- Archer, L. (2022). Dopplefangers. Missouri Conservationist (Missouri Department of Conservation): mdc.mo.gov/magazines/missouri-conservationist/2022-07/dopplefangers\n- Vikipedi (Türkçe) – Yılan: tr.wikipedia.org/wiki/Yılan\n- Dünya Sağlık Örgütü – Snakebite envenoming: who.int/news-room/fact-sheets/detail/snakebite-envenoming\n\n#shorts #yılan #doğa",
    "etiketler": [
     "dikey göz bebekli yılan",
     "kedi gözlü yılan",
@@ -99,7 +99,7 @@
    ],
    "cumleler": [
     {
-     "yazi": "Engereklerin göz bebeği dikeydir, ama göz bebeği dikey olan her yılan engerek değildir; bu kedi gözlü yılan gibi.",
+     "yazi": "Göz bebeği dikey olan her yılan engerek değildir; bu, kedi gözlü yılan.",
      "gorsel": "kedi_gozlu_goz",
      "x": 0.5,
      "ay": 0.52,
@@ -193,7 +193,16 @@
    ],
    "cumleler": [
     {
-     "yazi": "Dünya Sağlık Örgütü'ne göre ısırılınca önce ısırığın olduğu yerden hemen uzaklaş.",
+     "yazi": "Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.",
+     "gorsel": "yara_eller",
+     "x": 0.5,
+     "ay": 0.5,
+     "aw": 0.85,
+     "y": 0.5,
+     "w": 0.75
+    },
+    {
+     "yazi": "Dünya Sağlık Örgütü'ne göre ısırılınca önce hemen uzaklaş.",
      "gorsel": "bahce_uzaklas",
      "x": 0.6
     },
@@ -216,15 +225,6 @@
      "yazi": "Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş; panzehir ancak orada verilebilir.",
      "gorsel": "saglik_kurulusu",
      "x": 0.55
-    },
-    {
-     "yazi": "Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.",
-     "gorsel": "yara_eller",
-     "x": 0.5,
-     "ay": 0.5,
-     "aw": 0.85,
-     "y": 0.5,
-     "w": 0.75
     },
     {
      "yazi": "Bitkisel ya da geleneksel yöntemlere de başvurma.",

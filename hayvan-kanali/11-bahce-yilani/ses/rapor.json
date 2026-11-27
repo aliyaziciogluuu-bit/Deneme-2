@@ -429,48 +429,34 @@
   "uygun": true
  },
  "061": {
-  "yazi": "Hastaneler gerekirse Ulusal Zehir Danışma Merkezi'ne danışabiliyor.",
-  "duyulan": "Hastaneler gerekirse Ulusal Zehir Danışma Merkezi'ne danışabiliyor.",
-  "hata": 0,
-  "sure": 3.43,
-  "uygun": true
- },
- "062": {
-  "yazi": "Bir vaka raporunda yılanın türünü o merkez belirlemiş, panzehir de oradan istenmiş.",
-  "duyulan": "Bir vaka raporunda yılanın türünü o merkez belirlemiş, panzahir de oradan istenmiş.",
-  "hata": 1,
-  "sure": 4.58,
-  "uygun": true
- },
- "063": {
   "yazi": "Özetle baş şekli ve göz bebeği tek başına yetmiyor; zehirsiz yılanların da başı geniş, sırtı lekeli olabiliyor.",
   "duyulan": "Özetle, baş şekli ve göz bebeği tek başına yetmiyor. Zehirsiz yılanların da başı geniş, sırtı lekeli olabiliyor.",
   "hata": 0,
   "sure": 7.22,
   "uygun": true
  },
- "064": {
+ "062": {
   "yazi": "Senin yörende engereğe ne derler, bahçende en son hangi yılanı gördün?",
   "duyulan": "Senin yörende engereye ne derler, bahçende en son hangi yılanı gördün?",
   "hata": 1,
   "sure": 4.5,
   "uygun": true
  },
- "065": {
+ "063": {
   "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
   "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
   "hata": 0,
   "sure": 5.0,
   "uygun": true
  },
- "066": {
+ "064": {
   "yazi": "Sıradaki komşu: evdeki örümcek zehirli mi, ve hangisinden gerçekten uzak durmalısın?",
   "duyulan": "Sıradaki komşu, evdeki örümcek zehirli mi? Ve hangisinden gerçekten uzak durmalısın?",
   "hata": 0,
   "sure": 5.82,
   "uygun": true
  },
- "067": {
+ "065": {
   "yazi": "Komşunu tanı.",
   "duyulan": "Komşunu tanı.",
   "hata": 0,
