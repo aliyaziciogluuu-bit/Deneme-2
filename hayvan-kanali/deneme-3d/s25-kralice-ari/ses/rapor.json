@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Kraliçe ölünce, işçi arılar yeni kraliçe yetiştiriyor.",
+  "duyulan": "Kraliçe ölünce işçi arılar yeni kraliçe yetiştiriyor.",
+  "hata": 0,
+  "sure": 3.56,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Üstelik sıradan bir işçi larvadan.",
+  "duyulan": "Üstelik sıradan bir işçi larvadan.",
+  "hata": 0,
+  "sure": 1.88,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Seçilen larva, bol arı sütüyle besleniyor.",
+  "duyulan": "seçilen larva bol arı sütüyle besleniyor.",
+  "hata": 0,
+  "sure": 2.96,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "İşçiler mümkünse en genç larvaları seçiyor.",
+  "duyulan": "işçiler mümkünse en genç larvaları seçiyor.",
+  "hata": 0,
+  "sure": 2.84,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bir günlük larvadan çıkan kraliçe, daha çok işçi çekiyor.",
+  "duyulan": "bir günlük larvadan çıkan kraliçe daha çok işçi çekiyor.",
+  "hata": 0,
+  "sure": 3.26,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ya genç larva kalmamışsa?",
+  "duyulan": "Ya genç larva kalmamışsa?",
+  "hata": 0,
+  "sure": 1.8,
+  "uygun": true
+ }
+}
