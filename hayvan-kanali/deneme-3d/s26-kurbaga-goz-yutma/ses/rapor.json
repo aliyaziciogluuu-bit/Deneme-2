@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Bu kurbağa yutkunurken gözlerini içeri çekiyor.",
+  "duyulan": "Bu kurbağa yutkunurken gözlerini içeri çekiyor.",
+  "hata": 0,
+  "sure": 2.72,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bunu özel bir göz kası yapıyor.",
+  "duyulan": "Bunu özel bir göz kası yapıyor.",
+  "hata": 0,
+  "sure": 1.96,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Gözler, ağzın tavanından ağıza iniyor.",
+  "duyulan": "Gözler ağzın tavanından ağıza iniyor.",
+  "hata": 0,
+  "sure": 2.36,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor.",
+  "duyulan": "muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor.",
+  "hata": 0,
+  "sure": 3.36,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor.",
+  "duyulan": "Dört ayaklılar arasında yalnızca kurbalar ve semenderler yapıyor.",
+  "hata": 1,
+  "sure": 4.04,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Peki gözleri olmasa yutamaz mıydı?",
+  "duyulan": "Peki, gözleri olmasa yutamaz mıydı?",
+  "hata": 0,
+  "sure": 2.28,
+  "uygun": true
+ }
+}
