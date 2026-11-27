@@ -303,7 +303,7 @@
       "kucuk": "Derisinde pul yok",
       "konum": "sol",
       "genislik": 500,
-      "gorsel": "kapak_b",
+      "gorsel": "gercek_semender_yaprak",
       "etiket": "B",
       "gorsel_notu": "Türk semenderi yakın plan, gerçek iNaturalist fotoğrafı (taxon Salamandra infraimmaculata, Türkiye gözlemi), nemli yaprak üstünde, sevimli ifade; yazı yüze binmez"
     },
@@ -315,7 +315,7 @@
       "kucuk": "Kumaşı kim verdi?",
       "konum": "sol",
       "genislik": 500,
-      "gorsel": "kapak_c",
+      "gorsel": "mendil_ates",
       "etiket": "C",
       "gorsel_notu": "yaprak kuruyken suluboya: ateşte bir mendil ve yanında küçük siyah sarı semender; semender Türk semenderi gibi (siyah, sarı lekeli, bacaklı, kuyruklu, pulsuz, parlak deri)"
     }
