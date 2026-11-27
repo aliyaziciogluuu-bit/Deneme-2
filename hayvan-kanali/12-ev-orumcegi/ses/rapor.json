@@ -194,5 +194,26 @@
   "hata": 5,
   "sure": 5.48,
   "uygun": false
+ },
+ "028": {
+  "yazi": "Bahçeden eve giren iri örümceklerden korkmalı mısın?",
+  "duyulan": "bahçeden eve giren iri örümceklerden korkmalı mısın?",
+  "hata": 0,
+  "sure": 3.18,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Akdeniz çevresi için yazılmış bir derleme, bu endişenin yersiz olduğunu, iri örümceklerin zehrinin insanda pek etkili olmadığını belirtiyor.",
+  "duyulan": "Akdeniz çevresi için yazılmış bir derleme bu endişenin yersiz olduğunu iri örümceklerin zehrinin insanda pek etkili olmadığını belirtiyor.",
+  "hata": 0,
+  "sure": 8.3,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Aralarında rahatsız edilince en çok savunmaya geçen tür, özellikle yumurtasını koruyan dişisiymiş; ısırığı yaban arısı sokmasından hafif bulunmuş.",
+  "duyulan": "Aralarında rahatsız edilince en çok savunmaya geçen tür, özellikle yumurtasını koruyan dişisiymiş. Isırığı yaban arısı sokmasından hafif bulunmuş.",
+  "hata": 0,
+  "sure": 9.64,
+  "uygun": true
  }
 }
