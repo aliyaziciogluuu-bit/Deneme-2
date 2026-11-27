@@ -168,3 +168,10 @@ Kaynak: kanal/kucuk_kanallar_2026-11-26.md (vidIQ).
 - Semender (12 Ara) 3D belgesel animasyonu tarzında üretilir; tür tanıtımında 3–4 gerçek fotoğraf kalır. Tahmini maliyet 10–20 $.
 - Ölçüt: ortalama izleme yüzdesi ve tıklama oranı önceki uzun videolarla karşılaştırılır (kirpi %25–33, TO %5,8; yarasa TO %6,7). İyiyse sonraki uzun videolar 3D; değilse eski tarza dönülür.
 - Shorts tarafında 3D kararı 4 Ara verisine bağlı (ayrı deneme).
+
+## Karar (27 Kasım, kanal sahibi: "Ben tamamen 3D istiyorum, karışık olsun uzun ve Shorts")
+- Kanal tamamen 3D'ye geçiyor: uzun videolar ve Shorts 3D animasyon (semender ilk örnek). Gerçek fotoğraflar yalnızca tür tanıtımı/kanıt için kullanılabilir.
+- Karışık yayın sürüyor: uzun videolar (izlenme saati, gelir) + Türler Alemi kısalığında 3D Shorts serisi (18–25 sn, "sen" hitabı, herkesin gördüğü bir şeyle açılış, tek benzetme, 2 bilgi, çağrısız döngü bitişi, 2 günde bir 19:00). Konu kimliği korunur: ev çevresindeki hayvanlar, kaynaklı bilgi, güvenlik çekinceleri.
+- 4 Aralık 3D değerlendirmesi artık "3D'ye geçilsin mi" değil, "hangi 3D kalıp daha iyi" sorusunu ölçer.
+- Bütçe etkisi (tahmin): 3D uzun ≈ 13–15 $/video, 3D Shorts ≈ 3–4 $/adet. Haftada 2 uzun + 2 günde bir Shorts ≈ ayda 150–180 $ (Aralık planı 60 $'ın üstünde; kanal sahibi "para sorun değil" demişti, Replicate bakiyesi izlenecek).
+- Ders: semender/kurbağa gibi küt parmaklı hayvanlarda ayak kuralları (dersler.md 27 Kasım) her 3D işte geçerli.
