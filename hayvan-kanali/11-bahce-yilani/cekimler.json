@@ -18,8 +18,7 @@
   },
   {
    "n": 2,
-   "gorsel": "yakali_yilan_yassi",
-   "klip": "yassilasan_bas",
+   "gorsel": "yakali_yilan_olu",
    "a": [
     0.5,
     0.5,
@@ -134,8 +133,7 @@
   },
   {
    "n": 1,
-   "gorsel": "yakali_yilan_hamle",
-   "klip": "yakali_hamle",
+   "gorsel": "yakali_yilan_olu",
    "a": [
     0.5,
     0.5,
@@ -164,7 +162,7 @@
   },
   {
    "n": 1,
-   "gorsel": "yakali_yilan_portre",
+   "gorsel": "yakali_yilan_olu",
    "a": [
     0.5,
     0.5,
@@ -495,7 +493,6 @@
   {
    "n": 3,
    "gorsel": "bahce_mesafe",
-   "klip": "mesafe_izle",
    "a": [
     0.5,
     0.5,

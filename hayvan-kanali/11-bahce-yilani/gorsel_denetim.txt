@@ -28,3 +28,13 @@ yara_eller: KABUL (aday 1; görsel denetçi 27 Kas)
 yilan_uzaktan_zoom: KABUL (aday 3; görsel denetçi 27 Kas)
 yuvarlak_goz: KABUL (aday 9; görsel denetçi 27 Kas, Kontext düzeltmesi: göz bebeği yuvarlak / burun boynuzu)
 yuzuk_cikar: KABUL (aday 1; görsel denetçi 27 Kas)
+bacaksiz_kertenkele: KABUL (2. üretim aday 2)
+bahce_mesafe: KABUL (2. üretim aday 3)
+boynuzlu_engerek_tam: KABUL (2. üretim aday 3)
+diyarbakir_bag: KABUL (2. üretim aday 2)
+kapak_sari_yilan: KABUL (2. üretim aday 8, Kontext: göz bebeği yuvarlak)
+kapak_seritli_engerek: KABUL (2. üretim aday 1)
+saglik_kurulusu: KABUL (2. üretim aday 2)
+yakali_yilan_portre / yakali_yilan_hamle / yakali_yilan_yassi: RET (iki üretim + iki Kontext denemesinde yaka çizilmedi; hamle_3 kobra kukuletası) → bu çekimlerde yakası net olan yakali_yilan_olu kullanılıyor
+kapak_bahce_mesafe: RET (2. üretimde de baş kopuk / siyah bant) → kapak B görseli bahce_mesafe
+turkiye_harita: RET (anlamsız yazı, yanlış şekil) → anadolu_manzara
