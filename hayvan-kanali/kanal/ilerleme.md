@@ -77,3 +77,9 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - Abone 325 (26 Kas: 254). Son 28 gün: 15,4 B görüntüleme, 292 saat.
 - Yorum: 3D kalıbın ilk saatteki dağıtımı ~100 kat daha geniş; erken veri (izlemeye devam oranı henüz yok). 24 saat sonra görüntüleme, izlemeye devam %, kazanılan abone kontrol edilecek. 27 Kas "tamamen 3D" kararını destekliyor.
 - 27 Kas 17:17 (76. dk): geko 3D 771 görüntüleme; trafik %97,5 Shorts akışı, %1,8 arama; +2 abone. Eğri ilk ~40 dk dik (~400), sonra yavaşlayarak sürüyor (düzleşme yok). Elde tutma verisi 2 güne kadar gelmiyor. Abone dönüşümü ~%0,26 (Shorts için olağan; Türler Alemi ~%0,02).
+
+## 27 Kasım 21:47 – tanıtım bitişi ve uygunluk ekranı
+- Tanıtım toplamı: ₺902,68, 39.977 gösterim, 807 görüntüleme, 360 abone.
+- Gelir/uygunluk (alt kademe, 22 Kas verisi): 380/500 abone; geçerli izlenme 8 saat/3.000 (365 gün); geçerli Shorts 1,5 B/3 Mn (90 gün). İzlenme saati yolu çok uzak; asıl yol Shorts görüntülemesi → günlük 3D Shorts serisi bu yüzden kritik.
+- Yarasa uzun video (27 saat): 30 gösterim, TO %3,3, trafik %75 göz atma + %25 doğrudan. Uzun videoların organik erişimi hâlâ çok düşük.
+- Organik hedef (öneri): 31 Aralık'a kadar 500 abone ve 90 günlük geçerli Shorts görüntülemesini 1,5 B'den 300 B'ye çıkarmak (3D seri günde ~5 B ortalama ile).

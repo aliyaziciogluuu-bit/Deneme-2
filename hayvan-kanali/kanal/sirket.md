@@ -180,3 +180,7 @@ Kaynak: kanal/kucuk_kanallar_2026-11-26.md (vidIQ).
 - 3D Shorts serisi günde 1, her gün 19:00. Gerekçe: ilk 3D Shorts (geko) 76 dakikada 771 görüntüleme, eski tarz Shorts 5 saatte 5.
 - Stok hedefi: en az 7 günlük hazır 3D Shorts. Haftada ~7 yeni metin (senarist) → bilgi kontrolü → üretim (Shorts başı ~2–2,5 $; ayda ~70 $).
 - Yükleme toplu yapılır (ev bilgisayarı oturumunda bir haftalık paket).
+
+## Karar (27 Kasım, tanıtım testi sonucu)
+- Aralık'ta ücretli tanıtım yapılmıyor; büyüme günlük 3D Shorts (19:00) + haftada iki 3D uzun video ile organik.
+- Para kazanma yolu: alt kademede 500 abone + 3 Mn geçerli Shorts görüntüleme (90 gün) izlenme saatinden (3.000) çok daha yakın; Shorts serisi önceliklidir.
