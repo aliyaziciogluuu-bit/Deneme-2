@@ -1,0 +1,6 @@
+000 fark=0 | Tezgâhtaki şeker kırıntısına karıncalar neden aynı çizgide sıralanıyor? || Tezgahtaki şeker kırıntısına karıncalar neden aynı çizgide sıralanıyor?
+001 fark=0 | Sanki yere görünmez bir yol boyası sürülmüş. || Sanki yere görünmez bir yol boyası sürülmüş.
+002 fark=0 | Grup hâlinde yiyecek arayan türlerde, yiyeceği bulan karınca dönerken yola koku bırakıyor. || Grup halinde yiyecek arayan türlerde yiyeceği bulan karınca dönerken yola koku bırakıyor.
+003 fark=0 | Diğerleri kokuyu takip ediyor, yiyecekle dönenler de onu güçlendiriyor. || Diğerleri kokuyu takip ediyor, yiyecekle dönenler de onu güçlendiriyor.
+004 fark=0 | Yiyecek bitince koku yavaş yavaş dağılıyor. || Yiyecek bitince koku yavaş yavaş dağılıyor.
+005 fark=1 | Yani tezgâhtaki o çizgi, kullanıldıkça kuvvetlenen bir koku yolu. || Yani tezgahtaki o çizgiyi kullanıldıkça kuvvetlenen bir koku yolu.

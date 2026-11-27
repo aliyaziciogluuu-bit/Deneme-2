@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Kucağındaki kedi mırlarken o ses tam olarak nereden çıkıyor?",
+  "duyulan": "kucağındaki kedi mırlarken o ses tam olarak nereden çıkıyor?",
+  "hata": 0,
+  "sure": 3.8,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki içinde küçük bir motor çalışıyor.",
+  "duyulan": "sanki içinde küçük bir motor çalışıyor.",
+  "hata": 0,
+  "sure": 2.38,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Nasıl olduğu tam açıklanmış değil; bir varsayıma göre kedi, gırtlak kaslarıyla ses yarığını hızla açıp kapatıyor.",
+  "duyulan": "Nasıl olduğu tam açıklanmış değil, bir varsayıma göre kedi gırtlak kaslarıyla ses yarığını hızla açıp kapatıyor.",
+  "hata": 0,
+  "sure": 7.04,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Mırlama çoğunlukla mutluluğu anlatıyor; kedi ağrıyı yönetmek ve kendini sakinleştirmek için de mırlıyor.",
+  "duyulan": "Mırlama çoğunlukla mutluluğu anlatıyor. Kedi ağrıyı yönetmek ve kendini sakinleştirmek için de mırlıyor.",
+  "hata": 0,
+  "sure": 6.18,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Mırlama tek başına kedinin iyi olduğunu göstermez; ağrısından şüphelenirsen veterinere danış.",
+  "duyulan": "Mırlama tek başına kedinin iyi olduğunu göstermez. Ağrısından şüphelenirsen veterinere danış.",
+  "hata": 0,
+  "sure": 5.5,
+  "uygun": true
+ }
+}

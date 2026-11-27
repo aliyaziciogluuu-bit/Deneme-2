@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Kurbağa dilini fırlatınca böcek neden yapışıp kalıyor?",
+  "duyulan": "Kurbağa dilini fırlatınca böcek neden yapışıp kalıyor?",
+  "hata": 0,
+  "sure": 3.0,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki dili bala bulanmış.",
+  "duyulan": "Sanki dili bala bulanmış.",
+  "hata": 0,
+  "sure": 1.54,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Dili olan kurbağalarda dil, önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor.",
+  "duyulan": "Dili olan kurbağlarda dil önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor.",
+  "hata": 1,
+  "sure": 6.08,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu dildeki tükürük, avı sararken akıcı hâle geliyor; basınç azalınca yeniden koyulaşıp dile ek bir tutuş sağlıyor.",
+  "duyulan": "Bu dildeki tükürük, avı sararken akıcı hale geliyor. Basınç azalınca yeniden koyulaşıp, dile ek bir tutuş sağlıyor.",
+  "hata": 0,
+  "sure": 7.52,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani böceğin dilde kalmasına yardım eden şeylerden biri, durum değiştiren bir tükürük.",
+  "duyulan": "Yani, böceğin dilde kalmasına yardım eden şeylerden biri durum değiştiren bir tükürük.",
+  "hata": 0,
+  "sure": 5.12,
+  "uygun": true
+ }
+}

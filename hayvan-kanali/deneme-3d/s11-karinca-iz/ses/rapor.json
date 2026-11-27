@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Tezgâhtaki şeker kırıntısına karıncalar neden aynı çizgide sıralanıyor?",
+  "duyulan": "Tezgahtaki şeker kırıntısına karıncalar neden aynı çizgide sıralanıyor?",
+  "hata": 0,
+  "sure": 3.92,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki yere görünmez bir yol boyası sürülmüş.",
+  "duyulan": "sanki yere görünmez bir yol boyası sürülmüş.",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Grup hâlinde yiyecek arayan türlerde, yiyeceği bulan karınca dönerken yola koku bırakıyor.",
+  "duyulan": "grup halinde yiyecek arayan türlerde, yiyeceği bulan karınca dönerken yola koku bırakıyor.",
+  "hata": 0,
+  "sure": 5.12,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Diğerleri kokuyu takip ediyor, yiyecekle dönenler de onu güçlendiriyor.",
+  "duyulan": "Diğerleri kokuyu takip ediyor, yiyecekle dönenler de onu güçlendiriyor.",
+  "hata": 0,
+  "sure": 3.76,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yiyecek bitince koku yavaş yavaş dağılıyor.",
+  "duyulan": "Yiyecek bitince koku yavaş yavaş dağılıyor.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Yani tezgâhtaki o çizgi, kullanıldıkça kuvvetlenen bir koku yolu.",
+  "duyulan": "yani tezgahtaki o çizgiyi kullanıldıkça kuvvetlenen bir koku yolu.",
+  "hata": 1,
+  "sure": 4.2,
+  "uygun": true
+ }
+}

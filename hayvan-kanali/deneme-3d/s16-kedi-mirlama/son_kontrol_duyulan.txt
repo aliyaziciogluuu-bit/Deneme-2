@@ -1,0 +1,5 @@
+000 fark=0 | Kucağındaki kedi mırlarken o ses tam olarak nereden çıkıyor? || Kucağındaki kedi mırlarken o ses tam olarak nereden çıkıyor?
+001 fark=0 | Sanki içinde küçük bir motor çalışıyor. || Sanki içinde küçük bir motor çalışıyor.
+002 fark=1 | Nasıl olduğu tam açıklanmış değil; bir varsayıma göre kedi, gırtlak kaslarıyla ses yarığını hızla açıp kapatıyor. || Nasıl olduğu tam açıklanmış değil, bir varsayıma göre kedi gırtlak kaslarıyla ses yarını hızla açıp kapatıyor.
+003 fark=0 | Mırlama çoğunlukla mutluluğu anlatıyor; kedi ağrıyı yönetmek ve kendini sakinleştirmek için de mırlıyor. || Mırlama çoğunlukla mutluluğu anlatıyor. Kedi, ağrıyı yönetmek ve kendini sakinleştirmek için de mırlıyor.
+004 fark=0 | Mırlama tek başına kedinin iyi olduğunu göstermez; ağrısından şüphelenirsen veterinere danış. || Mırlama tek başına kedinin iyi olduğunu göstermez. Ağrısından şüphelenirsen veterinere danış.

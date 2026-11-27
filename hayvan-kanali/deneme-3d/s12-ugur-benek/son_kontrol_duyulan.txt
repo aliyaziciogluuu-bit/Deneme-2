@@ -1,0 +1,5 @@
+000 fark=0 | Yaprağın üstündeki uğur böceği neden bu kadar parlak kırmızı? || Yaprağın üstündeki uğur böceği neden bu kadar parlak kırmızı?
+001 fark=0 | Sanki sırtına bir dur levhası asılmış. || Sanki sırtına bir dur levhası asılmış.
+002 fark=0 | Birçok uğur böceği türünde kırmızı üstüne siyah benekler, yırtıcılara tadının kötü olduğunu bildiriyor. || Birçok uğur böceği türünde kırmızı üstüne siyah benekler yırtıcılara tadının kötü olduğunu bildiriyor.
+003 fark=0 | Rahatsız edilince uğur böcekleri, bacak eklemlerinden acı bir sıvı damlatıyor. || Rahatsız edilince uğur böcekleri bacak eklemlerinden acı bir sıvı damlatıyor.
+004 fark=0 | Yani birçok uğur böceğinde kırmızı sırt, süs değil, bir uyarı. || Yani birçok uğur böceğinde kırmızı sırt süs değil, bir uyarı.

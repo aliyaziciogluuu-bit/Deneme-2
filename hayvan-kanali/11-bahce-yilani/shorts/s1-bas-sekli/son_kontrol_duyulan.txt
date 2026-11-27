@@ -1,0 +1,9 @@
+000 fark=0 | Başı geniş, sırtı lekeli bu yılan zehirsiz. || Başı geniş, sırtı lekeli, bu yılan zehirsiz.
+001 fark=0 | Adı sarı yılan; başı boynuna göre belirgin geniş. || Adı Sarı Yılan, başı boynuna göre belirgin geniş.
+002 fark=0 | Çoğunlukla boynunda açık renkli yaka olan bir yılan da korkunca bazen başını ve boynunu yassılaştırabiliyor. || Çoğunlukla boynunda açık renkli yaka olan bir yılanda korkunca bazen başını ve boynunu yassılaştırabiliyor.
+003 fark=1 | Bir tıp derlemesi, zehirliyi zehirsizden ayırmanın güç olduğunu da kabul ediyor. || Bir tıp derlemesi zehirliği zehirsizden ayırmanın güç olduğunu da kabul ediyor.
+004 fark=0 | Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma. || Bize göre mesafeni koru ve yılanı izle. Fotoğraf çekmek için bile yaklaşma.
+005 fark=0 | Ona dokunma; yakalamaya ya da öldürmeye çalışma. || Ona dokunma, yakalamaya ya da öldürmeye çalışma.
+006 fark=0 | Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. || Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne danış.
+007 fark=0 | Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git. || Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor. Küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.
+008 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

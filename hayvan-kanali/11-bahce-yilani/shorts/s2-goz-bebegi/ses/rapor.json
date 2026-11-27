@@ -1,0 +1,65 @@
+{
+ "000": {
+  "yazi": "Engereklerin göz bebeği dikeydir, ama göz bebeği dikey olan her yılan engerek değildir; bu kedi gözlü yılan gibi.",
+  "duyulan": "Engereklerin göz bebeği dikeydir. Ama göz bebeği dikey olan her yılan engerek değildir. Bu kedi gözlü yılan gibi.",
+  "hata": 0,
+  "sure": 7.08,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma.",
+  "duyulan": "Wikipedia onu ''zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan'' diye anlatıyor. Yine de hiçbir yılana dokunma.",
+  "hata": 1,
+  "sure": 7.12,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Missouri'deki doğa koruma dairesine göre göz bebeğini görmek için çok yaklaşmak gerekir.",
+  "duyulan": "Misurideki doğa koruma dairesine göre göz bebeğini görmek için çok yaklaşmak gerekir.",
+  "hata": 0,
+  "sure": 4.88,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez.",
+  "duyulan": "birçok ısırık, zehirsiz yılanlardan gelir. Ama hangisi olduğuna karar vermek sana düşmez.",
+  "hata": 0,
+  "sure": 5.4,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma.",
+  "duyulan": "Bize göre mesafeni koru ve yılanı izle. Fotoğraf çekmek için bile yaklaşma.",
+  "hata": 0,
+  "sure": 4.8,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ona dokunma; yakalamaya ya da öldürmeye çalışma.",
+  "duyulan": "Ona dokunma. Yakalamaya ya da öldürmeye çalışma.",
+  "hata": 0,
+  "sure": 2.92,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Kararsız kalırsan, Bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.",
+  "hata": 0,
+  "sure": 4.54,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Çocuklar küçük vücutları yüzünden daha har etkilenebiliyor. Küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "hata": 1,
+  "sure": 6.42,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.26,
+  "uygun": true
+ }
+}

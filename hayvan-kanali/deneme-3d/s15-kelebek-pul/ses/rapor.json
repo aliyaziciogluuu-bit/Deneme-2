@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Kelebeğe dokununca parmağında kalan o toz nedir?",
+  "duyulan": "Kelebeğe dokununca parmağında kalan o toz nedir?",
+  "hata": 0,
+  "sure": 3.32,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Aslında toz değil; kanat, kiremit gibi minik pullarla kaplı.",
+  "duyulan": "Aslında toz değil, kanat, kiremit gibi minik pullar lakaplı.",
+  "hata": 0,
+  "sure": 4.36,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Pullar kanada gevşekçe tutunuyor ve böceğe zarar vermeden kolayca ayrılıyor.",
+  "duyulan": "Pullar kanada gevşekçe tutunuyor ve böceğe zarar vermeden kolayca ayrılıyor.",
+  "hata": 0,
+  "sure": 4.64,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bir deneyde örümcek ağına bırakılan güveler kurtulabildi; ağda pul izleri kaldı.",
+  "duyulan": "Bir deneyde, örümcek ağına bırakılan güveler kurtulabildi. Ağda pul izleri kaldı.",
+  "hata": 0,
+  "sure": 5.52,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani kanattan kolayca ayrılan o toz, kanadı kaplayan pullar.",
+  "duyulan": "Yani kanattan kolayca ayrılan o toz, kanadı kaplayan pullar.",
+  "hata": 0,
+  "sure": 4.32,
+  "uygun": true
+ }
+}

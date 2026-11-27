@@ -1,0 +1,65 @@
+{
+ "000": {
+  "yazi": "Başı geniş, sırtı lekeli bu yılan zehirsiz.",
+  "duyulan": "Başı geniş, sırtı lekeli, bu yılan zehirsiz.",
+  "hata": 0,
+  "sure": 2.88,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Adı sarı yılan; başı boynuna göre belirgin geniş.",
+  "duyulan": "Adı Sarı Yılan. Başı boynuna göre belirgin geniş.",
+  "hata": 0,
+  "sure": 3.16,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Çoğunlukla boynunda açık renkli yaka olan bir yılan da korkunca bazen başını ve boynunu yassılaştırabiliyor.",
+  "duyulan": "Çoğunlukla boynunda açık renkli yaka olan bir yılanda korkunca bazen başını ve boynunu yassılaştırabiliyor.",
+  "hata": 0,
+  "sure": 6.16,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bir tıp derlemesi, zehirliyi zehirsizden ayırmanın güç olduğunu da kabul ediyor.",
+  "duyulan": "bir tıp derlemesi, zehirliği zehirsizden ayırmanın güç olduğunu da kabul ediyor.",
+  "hata": 1,
+  "sure": 4.3,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma.",
+  "duyulan": "Bize göre mesafeni koru ve yılanı izle. Fotoğraf çekmek için bile yaklaşma.",
+  "hata": 0,
+  "sure": 4.54,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ona dokunma; yakalamaya ya da öldürmeye çalışma.",
+  "duyulan": "Ona dokunma, yakalamaya ya da öldürmeye çalışma.",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Kararsız kalırsan bölgendeki doğa koruma ve milli parklar şube müdürlüğüne danış.",
+  "hata": 0,
+  "sure": 4.7,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor; küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Çocuklar, küçük vücutları yüzünden daha ağır etkilenebiliyor. Küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 7.32,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.34,
+  "uygun": true
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Ağustos böceğinin o gür sesi ağzından mı çıkıyor?",
+  "duyulan": "Ağustos böceğinin o gür sesi ağzından mı çıkıyor?",
+  "hata": 0,
+  "sure": 3.22,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Hayır; çoğu türde karnının iki yanında davula benzeyen zarlar var.",
+  "duyulan": "Hayır, çoğu türde karnının iki yanında davula benzeyen zarlar var.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kaslar zarları içeri çökertiyor; kaslar gevşeyince zarlar hızla eski hâline dönüyor.",
+  "duyulan": "Kaslar zarları içeri çökertiyor. Kaslar gevşeyince zarlar hızla eski haline dönüyor.",
+  "hata": 0,
+  "sure": 5.92,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu belirgin sesi erkekler çıkarıyor; ötmeleri sırasında kendi kulak zarlarını devre dışı bırakıyorlar.",
+  "duyulan": "Bu belirgin sesi erkekler çıkarıyor. Ötmeleri sırasında kendi kulak zarlarına devre dışı bırakıyorlar.",
+  "hata": 1,
+  "sure": 6.44,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani çoğu ağustos böceğinin sesi, karnındaki davuldan geliyor.",
+  "duyulan": "Yani çoğu Ağustos böceğinin sesi karnındaki davuldan geliyor.",
+  "hata": 0,
+  "sure": 4.12,
+  "uygun": true
+ }
+}

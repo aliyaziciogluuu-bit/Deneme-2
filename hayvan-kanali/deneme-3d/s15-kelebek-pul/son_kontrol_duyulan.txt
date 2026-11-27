@@ -1,0 +1,5 @@
+000 fark=0 | Kelebeğe dokununca parmağında kalan o toz nedir? || Kelebeğe dokununca parmağında kalan o toz nedir?
+001 fark=0 | Aslında toz değil; kanat, kiremit gibi minik pullarla kaplı. || Aslında toz değil. Kanat, kiremit gibi minik pullar lakaplı.
+002 fark=0 | Pullar kanada gevşekçe tutunuyor ve böceğe zarar vermeden kolayca ayrılıyor. || Pullar kanada gevşekçe tutunuyor ve böceğe zarar vermeden kolayca ayrılıyor.
+003 fark=0 | Bir deneyde örümcek ağına bırakılan güveler kurtulabildi; ağda pul izleri kaldı. || Bir deneyde, örümcek ağına bırakılan güveler kurtulabildi. Ağda pul izleri kaldı.
+004 fark=0 | Yani kanattan kolayca ayrılan o toz, kanadı kaplayan pullar. || Yani kanattan kolayca ayrılan o toz, kanadı kaplayan pullar.

@@ -1,0 +1,47 @@
+1
+00:00:00,700 --> 00:00:02,115
+Kurbağa dilini fırlatınca
+
+2
+00:00:02,115 --> 00:00:03,945
+böcek neden yapışıp kalıyor?
+
+3
+00:00:04,050 --> 00:00:05,835
+Sanki dili bala bulanmış.
+
+4
+00:00:05,940 --> 00:00:07,894
+Dili olan kurbağalarda dil,
+
+5
+00:00:07,894 --> 00:00:10,428
+önden çeneye bağlı, arkası serbest,
+
+6
+00:00:10,428 --> 00:00:12,265
+ağızda kıvrık duruyor.
+
+7
+00:00:12,370 --> 00:00:14,921
+Bu dildeki tükürük, avı sararken akıcı
+
+8
+00:00:14,921 --> 00:00:17,406
+hâle geliyor; basınç azalınca yeniden
+
+9
+00:00:17,406 --> 00:00:20,135
+koyulaşıp dile ek bir tutuş sağlıyor.
+
+10
+00:00:20,240 --> 00:00:21,947
+Yani böceğin dilde kalmasına
+
+11
+00:00:21,947 --> 00:00:23,592
+yardım eden şeylerden biri,
+
+12
+00:00:23,592 --> 00:00:25,610
+durum değiştiren bir tükürük.
