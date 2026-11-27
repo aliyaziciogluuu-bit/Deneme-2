@@ -1,0 +1,33 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "yaprak",
+   "klip": "yaprak"
+  },
+  {
+   "n": 1,
+   "gorsel": "serit",
+   "klip": "serit"
+  },
+  {
+   "n": 1,
+   "gorsel": "kazima",
+   "klip": "kazima"
+  },
+  {
+   "n": 1,
+   "gorsel": "dis"
+  },
+  {
+   "n": 1,
+   "gorsel": "yenilenme",
+   "klip": "yenilenme"
+  },
+  {
+   "n": 1,
+   "gorsel": "yaprak",
+   "klip": "yaprak"
+  }
+ ]
+}

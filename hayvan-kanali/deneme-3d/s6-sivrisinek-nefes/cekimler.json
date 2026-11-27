@@ -1,0 +1,28 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "oda",
+   "klip": "oda"
+  },
+  {
+   "n": 1,
+   "gorsel": "nefes",
+   "klip": "nefes"
+  },
+  {
+   "n": 1,
+   "gorsel": "bas",
+   "klip": "bas"
+  },
+  {
+   "n": 1,
+   "gorsel": "yumurta"
+  },
+  {
+   "n": 1,
+   "gorsel": "nefes",
+   "klip": "nefes"
+  }
+ ]
+}

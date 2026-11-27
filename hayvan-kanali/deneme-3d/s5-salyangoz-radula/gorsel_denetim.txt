@@ -1,0 +1,5 @@
+yaprak: KABUL (aday 1: iki uzun göz sapı, iki kısa alt dokunaç, kabuk bantlı)
+serit: KABUL (aday 2: dişli şerit, et/pasta görünümü yok)
+kazima: KABUL (aday 1; aday 2 RET: alt dokunaçlar diş gibi)
+dis: KABUL (aday 2)
+yenilenme: KABUL (aday 2: bant gibi dizili dişler)

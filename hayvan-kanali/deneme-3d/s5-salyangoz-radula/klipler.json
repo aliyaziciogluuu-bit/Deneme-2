@@ -1,0 +1,28 @@
+{
+ "klipler": [
+  {
+   "ad": "yaprak",
+   "gorsel": "yaprak",
+   "sure": 5,
+   "istem": "The snail glides slowly forward on the leaf, its eye-stalks gently sway and stretch, a water droplet rolls off the leaf. Static camera. Same snail, same shell, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "serit",
+   "gorsel": "serit",
+   "sure": 5,
+   "istem": "The toothed ribbon slowly undulates like a wave, light glints across the rows of tiny teeth. Slow camera glide. 3D science animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "kazima",
+   "gorsel": "kazima",
+   "sure": 5,
+   "istem": "The snail's mouth slowly scrapes along the leaf edge, the scraped area grows a little, tiny leaf particles drift. Static camera. Same snail, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "yenilenme",
+   "gorsel": "yenilenme",
+   "sure": 5,
+   "istem": "The toothed ribbon moves slowly forward like a conveyor belt, fresh sharp teeth slide toward the front where the worn teeth are. Static camera. 3D science animation style preserved, nothing new appears."
+  }
+ ]
+}

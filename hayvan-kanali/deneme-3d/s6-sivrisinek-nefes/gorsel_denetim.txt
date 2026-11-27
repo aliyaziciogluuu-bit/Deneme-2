@@ -1,0 +1,4 @@
+oda: KABUL (aday 1: sivrisinek küçük siluet, uyuyan kişi)
+nefes: KABUL (aday 2)
+bas: KABUL (aday 2: bacaklar büyük ölçüde kadraj dışı; aday 1 RET: uzun bacaklar belirgin)
+yumurta: KABUL (aday 1: yumurta salı + kan damlası)

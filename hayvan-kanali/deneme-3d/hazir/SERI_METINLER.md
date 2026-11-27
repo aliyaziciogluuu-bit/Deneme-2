@@ -104,13 +104,13 @@ Kaynaklar ve cümle eşlemesi:
 - Kelime: 51; cümle: 5; tahmini süre ≈ 22 sn
 - Kapsam: kan emen dişi sivrisinekler, genel olarak; tür ve yumurta için kan ihtiyacı türe göre değişiyor (metinde "bazı türlerde"). Erkeğin ne yaptığı söylenmedi.
 - Üst yazı: SİVRİSİNEK BURNU
-- Açıklama ilk satırı: Dişi sivrisinek, nefesteki karbondioksit, ısı ve kokularla sahibini buluyor.
+- Açıklama ilk satırı: Dişi sivrisinek, nefesteki karbondioksit, ısı ve kokularla seni buluyor.
 - İlgili uzun video: yok (sivrisinek 07-kirlangic videosunda kırlangıcın avı olarak geçiyor)
 
 Metin:
 1. Karanlık odada sivrisinek seni nasıl buluyor, hiç merak ettin mi?
 2. Nefesin onun için uzaktan görünen bir fener gibi.
-3. Kan emen dişi sivrisinekler, verdiğin nefesteki karbondioksiti, vücut ısını ve çeşitli kokuları kullanarak sahibini buluyor.
+3. Kan emen dişi sivrisinekler, verdiğin nefesteki karbondioksiti, vücut ısını ve çeşitli kokuları kullanarak seni buluyor.
 4. Bazı türlerde bu kan, yumurta üretimi için şart.
 5. Yani karanlıkta seni ele veren şey nefesin, ısın ve kokun.
 
