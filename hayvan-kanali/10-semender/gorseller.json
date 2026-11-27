@@ -26,8 +26,8 @@
   {
    "ad": "yagmurda_semender",
    "oran": "16:9",
-   "istem": "A cool misty forest in heavy rain: a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail walking slowly along a wet mossy log across wet brown leaves, side view, whole body visible, large raindrops splashing, water droplets on its glossy skin, dark green background.",
-   "aday": 2,
+   "istem": "A cool misty forest in heavy rain: a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail walking slowly along a wet mossy log across wet brown leaves, side view, whole body visible, large raindrops splashing, water droplets on its glossy skin, dark green background. Toes very short, blunt and rounded like human fingertips, dark same color as the skin, absolutely no claws, no nails, no hooks, no pale or amber tips; skin perfectly smooth and glossy without any granular texture or scales; two dark round eyes with no yellow ring.",
+   "aday": 3,
    "not": "Kilit klip: yağmurda yürüyen semender."
   },
   {
@@ -45,8 +45,8 @@
   {
    "ad": "agac_kuyu",
    "oran": "16:9",
-   "istem": "A medieval-style village orchard at dawn mist: an old apple tree with ripe red apples beside a round old stone well with a wooden bucket; at the foot of the tree trunk sits a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail looking small and calm, whole body visible, fallen apples in the grass.",
-   "aday": 2
+   "istem": "A medieval-style village orchard at dawn mist: an old apple tree with ripe red apples beside a round old stone well with a wooden bucket; at the foot of the tree trunk sits a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail looking small and calm, whole body visible, fallen apples in the grass. The salamander stands on all four legs, about 20 cm long, the well rim much taller than the animal. Toes very short, blunt and rounded like human fingertips, dark same color as the skin, absolutely no claws, no nails, no hooks, no pale or amber tips; skin perfectly smooth and glossy without any granular texture or scales; two dark round eyes with no yellow ring.",
+   "aday": 3
   },
   {
    "ad": "salgi_yuzey",
@@ -95,7 +95,7 @@
   {
    "ad": "kutuk_alev_kenari",
    "oran": "16:9",
-   "istem": "Close view of a stone hearth: a split log lies on the stone floor next to a roaring fireplace with orange flames in the background; a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail has just crawled out of the end of the log onto the cool stone, away from the flames, whole body visible, firelight reflecting on its glossy black skin.",
+   "istem": "Close view of a stone hearth: a split log lies on the stone floor next to a roaring fireplace with orange flames in the background; a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail has just crawled out of the end of the log onto the cool stone, away from the flames, whole body visible, firelight reflecting on its glossy black skin. The whole animal including the head is visible, resting on the stone hearth floor well outside the flames. Toes very short, blunt and rounded like human fingertips, dark same color as the skin, absolutely no claws, no nails, no hooks, no pale or amber tips; skin perfectly smooth and glossy without any granular texture or scales; two dark round eyes with no yellow ring.",
    "aday": 3,
    "not": "Efsanenin kökü sahnesi. Semender alevin içinde değil, taş zeminde; ateşin içinde çıkarsa elenir."
   },
@@ -112,8 +112,8 @@
   {
    "ad": "semender_yan_bacak",
    "oran": "16:9",
-   "istem": "Side view of a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail walking slowly across a flat gray stone covered with a little moss, mid-step, whole body from nose to tail tip visible, all four legs clearly visible with the toes spread, soft studio-like natural light, dark blurred green background.",
-   "aday": 2,
+   "istem": "Side view of a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail walking slowly across a flat gray stone covered with a little moss, mid-step, whole body from nose to tail tip visible, all four legs clearly visible with the toes spread, soft studio-like natural light, dark blurred green background. Side view showing four short legs: each front foot with four short rounded toes, each hind foot with five short rounded toes; mouth closed. Toes very short, blunt and rounded like human fingertips, dark same color as the skin, absolutely no claws, no nails, no hooks, no pale or amber tips; skin perfectly smooth and glossy without any granular texture or scales; two dark round eyes with no yellow ring.",
+   "aday": 3,
    "not": "Dört bacak, parmak sayıları; klip semender_yurur."
   },
   {
@@ -132,7 +132,7 @@
   {
    "ad": "anadolu_harita",
    "oran": "16:9",
-   "istem": "Stylized 3D relief map of Anatolia and the eastern Mediterranean coast seen from above at an angle, green forested mountains and blue sea with a soft atmospheric glow, four small glowing yellow location pins placed in the east, the southeast, the south coast and the central south, dark blue background, no borders, no labels.",
+   "istem": "Stylized 3D relief map of Turkey seen straight from above, elongated east-west, Black Sea to the north, Mediterranean to the south, Aegean to the west, the whole country inside the frame, green forested mountains in the north and east, soft daylight. No pins, no markers, no borders, no labels.",
    "aday": 3,
    "not": "RİSK: Türkiye şekli bozuk çıkabilir; aday 2. Pin sayısı 4."
   },
@@ -162,7 +162,7 @@
   {
    "ad": "eller_odun_birak",
    "oran": "16:9",
-   "istem": "Close view of two hands in worn leather work gloves (five fingers each, no face visible) gently placing a split log back onto a woodpile in a snowy yard; on the ground beside the pile sits a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail calm and still, whole body visible, soft evening light.",
+   "istem": "Close view of two hands in worn leather work gloves (five fingers each, no face visible) gently placing a split log back onto a woodpile in a snowy yard; on the ground beside the pile sits a Near Eastern fire salamander: smooth glossy jet-black skin with large bright yellow blotches, completely smooth wet-looking skin, plump rounded body, exactly two round dark eyes, exactly four short legs, four blunt rounded toes on each front foot and five blunt rounded toes on each hind foot, soft rounded toe tips, a long rounded tail calm and still, whole body visible, soft evening light. The gloved hands do not touch the animal; each hand has exactly five fingers; the salamander is at least a hand-width away from the gloves, whole body visible. Toes very short, blunt and rounded like human fingertips, dark same color as the skin, absolutely no claws, no nails, no hooks, no pale or amber tips; skin perfectly smooth and glossy without any granular texture or scales; two dark round eyes with no yellow ring.",
    "aday": 3,
    "not": "Eller beş parmak; yüz yok."
   },
