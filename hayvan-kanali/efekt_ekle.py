@@ -21,7 +21,7 @@ def gecisler(klasor: pathlib.Path):
     import video
     cumleler, toplam, _, senaryo = video.cizelge(klasor)
     plan = video.cekimleri_kur(klasor, cumleler, toplam)
-    return [c["bas"] for c in plan[1:]]
+    return [(c["bas"], bool(c.get("kesme"))) for c in plan[1:]]  # kesme: hızlı kurgudaki alt çekim (sert kesme)
 
 
 def main():
@@ -29,16 +29,22 @@ def main():
     p.add_argument("klasor")
     p.add_argument("--parilti", default="")
     p.add_argument("--seviye", type=float, default=-14.0, help="efektlerin dB düzeyi (anlatımın altında)")
+    p.add_argument("--muzik", default=None, help="sesler/muzik/ altındaki altlık (ör. lyria_merak); verilmezse senaryo.json 'muzik' alanı")
+    p.add_argument("--muzik-seviye", type=float, default=-21.0, help="müziğin dB düzeyi; konuşma sırasında ayrıca bastırılır")
     g = p.parse_args()
     k = KOK / g.klasor
     asil, yedek = k / "video.mp4", k / "video_efektsiz.mp4"
     if not yedek.exists():
         shutil.copy2(asil, yedek)
-    kesimler = gecisler(k)
+    plan = gecisler(k)
+    kesimler = [t for t, _ in plan]
     sahne_bas = [0.0] + kesimler
     olaylar = [("pop.wav", 0.0, g.seviye + 2)]
-    for i, t in enumerate(kesimler):
-        olaylar.append(("whoosh.wav" if i % 2 == 0 else "whoosh_ters.wav", max(t - 0.12, 0), g.seviye))  # konuşma bittikten sonra başlasın (ara/2 = 0,175 sn)
+    for i, (t, alt) in enumerate(plan):
+        if alt:  # cümle içindeki sert kesme: kısa ve hafif (her kesmede tam whoosh yorucu olur)
+            olaylar.append(("whoosh_ters.wav" if i % 2 else "whoosh.wav", max(t - 0.06, 0), g.seviye - 7))
+        else:
+            olaylar.append(("whoosh.wav" if i % 2 == 0 else "whoosh_ters.wav", max(t - 0.12, 0), g.seviye))  # konuşma bittikten sonra başlasın (ara/2 = 0,175 sn)
     for n in [int(x) for x in g.parilti.split(",") if x.strip()]:
         if 1 <= n <= len(sahne_bas):
             olaylar.append(("parilti.wav", sahne_bas[n - 1] + 0.1, g.seviye - 4))
@@ -48,7 +54,21 @@ def main():
         ms = int(t * 1000)
         filtre.append(f"[{j}:a]volume={db}dB,adelay={ms}|{ms}[e{j}]")
         etiketler.append(f"[e{j}]")
-    filtre.append(f"[0:a]{''.join(etiketler)}amix=inputs={len(etiketler) + 1}:duration=first:normalize=0,"
+    import json
+    muzik = g.muzik or json.loads((k / "senaryo.json").read_text(encoding="utf-8")).get("muzik")
+    ana = "[0:a]"
+    if muzik:  # müzik altlığı: döngüde çalar, konuşma varken sidechain ile bastırılır, sonda 1 sn kısılarak biter
+        yol = next((KOK / "sesler" / "muzik").glob(muzik + ".*"))
+        sure = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(yedek)],
+                                    capture_output=True, text=True, check=True).stdout)
+        m = len(girdiler) // 2
+        girdiler += ["-stream_loop", "-1", "-i", str(yol)]
+        filtre.append("[0:a]asplit=2[konus][anahtar]")
+        filtre.append(f"[{m}:a]aformat=channel_layouts=stereo,volume={g.muzik_seviye}dB,atrim=0:{sure:.2f},"
+                      f"afade=t=in:d=0.3,afade=t=out:st={max(sure - 1.2, 0):.2f}:d=1.2[muz0]")
+        filtre.append("[muz0][anahtar]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=350[muz]")
+        ana, etiketler = "[konus]", etiketler + ["[muz]"]
+    filtre.append(f"{ana}{''.join(etiketler)}amix=inputs={len(etiketler) + 1}:duration=first:normalize=0,"
                   f"loudnorm=I=-14.5:TP=-1.5:LRA=11[a]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", *girdiler, "-filter_complex", ";".join(filtre),
                     "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",

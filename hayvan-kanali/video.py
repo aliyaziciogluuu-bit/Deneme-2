@@ -91,7 +91,24 @@ def cekimleri_kur(klasor: pathlib.Path, cumleler, toplam):
         c["bas"] = 0.0 if k == 0 else ilk["bas"] - cumleler[i - 1]["ara"] / 2
         c["bit"] = toplam if k == len(plan) - 1 else son["bit"] + son["ara"] / 2
         i += c["n"]
-    return plan
+    # Hızlı kurgu (27 Kasım, Zack D. Films temposu): "gorseller": [ad | {gorsel, a, b, klip}, ...] verilen çekim
+    # eşit alt çekimlere bölünür; alt çekimler arasında sert kesme ve hafif "punch-in" yakınlaşma olur.
+    acik = []
+    for c in plan:
+        liste = c.get("gorseller")
+        if not liste:
+            acik.append(c)
+            continue
+        d = (c["bit"] - c["bas"]) / len(liste)
+        for j, g in enumerate(liste):
+            g = {"gorsel": g} if isinstance(g, str) else dict(g)
+            alt = {k: v for k, v in c.items() if k not in ("gorseller", "gorsel", "klip", "a", "b", "kesme")}
+            alt.update({"a": [0.5, 0.5, 0.92], "b": [0.5, 0.5, 0.74]})
+            alt.update(g)
+            alt["bas"], alt["bit"] = c["bas"] + j * d, c["bas"] + (j + 1) * d
+            alt["kesme"] = j > 0 or c.get("kesme", False)
+            acik.append(alt)
+    return acik
 
 
 # ---------------------------------------------------------------- altyazı
@@ -123,6 +140,50 @@ def altyazilar(cumleler):
             t += sure
         liste[-1]["bit"] += min(0.25, c["ara"] * 0.7)
     return liste
+
+
+def kelime_altyazilari(cumleler, en_cok=3, karakter=14):
+    """Shorts için kelime kelime altyazı: 1–3 kelimelik gruplar; her kelimenin zamanı harf sayısıyla orantılı."""
+    gruplar = []
+    for c in cumleler:
+        kel = c["yazi"].split()
+        uz = [len(k) + 2 for k in kel]
+        top, t = sum(uz), c["bas"]
+        zam = []
+        for k, u in zip(kel, uz):
+            d = (c["bit"] - c["bas"]) * u / top
+            zam.append((k, t, t + d))
+            t += d
+        g = []
+        for z in zam:
+            if g and (len(g) >= en_cok or sum(len(x[0]) + 1 for x in g) + len(z[0]) > karakter or g[-1][0][-1] in ".,;:?!"):
+                gruplar.append(g)
+                g = []
+            g.append(z)
+        if g:
+            gruplar.append(g)
+        gruplar[-1][-1] = (gruplar[-1][-1][0], gruplar[-1][-1][1], gruplar[-1][-1][2] + min(0.25, c["ara"] * 0.7))
+    return gruplar
+
+
+def kelime_katmani(kelimeler, aktif: int, font, kontur=8):
+    """Grubun kelimelerini tek satırda çizer; konuşulan kelime sarı ve biraz büyük."""
+    aralik = font.getlength(" ")
+    boy = [font.getlength(k) for k in kelimeler]
+    gen = int(sum(boy) + aralik * (len(kelimeler) - 1)) + 60
+    yuk = int(font.size * 1.5) + 30
+    kat = Image.new("RGBA", (gen, yuk), (0, 0, 0, 0))
+    golge = Image.new("RGBA", kat.size, (0, 0, 0, 0))
+    for katman, kaydir, alfa in ((golge, 5, 180), (kat, 0, 255)):
+        ciz = ImageDraw.Draw(katman)
+        x = 30
+        for i, (k, b) in enumerate(zip(kelimeler, boy)):
+            renk = ((250, 204, 72) if i == aktif else (255, 255, 255)) if katman is kat else (0, 0, 0)
+            ciz.text((x + kaydir, 15 + kaydir), k, font=font, fill=renk + (alfa,), stroke_width=kontur, stroke_fill=(0, 0, 0, alfa))
+            x += b + aralik
+    golge = golge.filter(ImageFilter.GaussianBlur(6))
+    golge.alpha_composite(kat)
+    return golge
 
 
 def srt_yaz(liste, yol: pathlib.Path):
@@ -308,11 +369,13 @@ class Sahne:
         self.cumleler, self.toplam, self.kayit, self.senaryo = cizelge(klasor)
         self.plan = cekimleri_kur(klasor, self.cumleler, self.toplam)
         self.alt = altyazilar(self.cumleler)
+        self.kelime = kelime_altyazilari(self.cumleler) if DIKEY and self.senaryo.get("altyazi_stili") == "kelime" else None
         self.kare_sayisi = int(self.toplam * FPS)
         self._gorsel, self._kat, self._klip = {}, {}, {}
         self.sabit = sabit_katman()
         self.siyah = Image.new("RGB", (G, Y), (0, 0, 0))
         self.f_alt = ImageFont.truetype(YAZI_KALIN if DIKEY else YAZI, 66 if DIKEY else 50)
+        self.f_kelime = ImageFont.truetype(YAZI_KALIN, 112)
         self.ust = None
         if DIKEY and self.senaryo.get("ust_yazi"):
             f = ImageFont.truetype(YAZI_KALIN, 104)
@@ -375,7 +438,7 @@ class Sahne:
         k = next((i for i, c in enumerate(self.plan) if t < c["bit"]), len(self.plan) - 1)
         c = self.plan[k]
         kare = self.kamera(c, t)
-        if k > 0 and t - c["bas"] < GECIS:  # önceki çekimden yumuşak geçiş
+        if k > 0 and t - c["bas"] < GECIS and not c.get("kesme"):  # önceki çekimden yumuşak geçiş (hızlı kurguda sert kesme)
             kare = Image.blend(self.kamera(self.plan[k - 1], t), kare, (t - c["bas"]) / GECIS)
         kare.paste(self.sabit, (0, 0), self.sabit)
 
@@ -398,6 +461,17 @@ class Sahne:
 
         if self.ust is not None:
             kare.paste(self.ust, (0, 130), self.ust)
+        if self.kelime is not None:
+            g = next((g for g in self.kelime if g[0][1] <= t < g[-1][2]), None)
+            if g:
+                aktif = next((i for i, z in enumerate(g) if z[1] <= t < z[2]), len(g) - 1)
+                metin = tuple(z[0] for z in g)
+                f = self.f_kelime
+                while sum(f.getlength(x) for x in metin) + f.getlength(" ") * (len(metin) - 1) > G - 140 and f.size > 60:
+                    f = ImageFont.truetype(YAZI_KALIN, f.size - 6)
+                kat = self.katman(("k", metin, aktif, f.size), lambda: kelime_katmani(list(metin), aktif, f))
+                kare.paste(kat, ((G - kat.width) // 2, int(Y * self.senaryo.get("altyazi_y", 0.64)) - kat.height // 2), kat)
+            return kare
         a = next((a for a in self.alt if a["bas"] <= t < a["bit"]), None)
         if a:
             if DIKEY:  # Shorts'ta altyazı ortanın biraz altında; alttaki düğme ve açıklama alanına girmez

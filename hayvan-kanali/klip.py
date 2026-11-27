@@ -38,6 +38,17 @@ def curl(*a, cikti=None):
     return None if cikti else json.loads(r.stdout)
 
 
+def sabirli_curl(*a, cikti=None, deneme=40):
+    """Ağ kopmasında (curl hata 7, 28, 56...) ödenmiş klibi kaybetmemek için uzun süre yeniden dener (27 Kasım dersi)."""
+    for i in range(deneme):
+        try:
+            return curl(*a, cikti=cikti)
+        except subprocess.CalledProcessError as e:
+            print(f"    ağ hatası ({e.returncode}), {i + 1}. yeniden deneme 30 sn sonra", flush=True)
+            time.sleep(30)
+    return curl(*a, cikti=cikti)
+
+
 def veri_adresi(yol: pathlib.Path) -> str:
     im = Image.open(yol).convert("RGB")
     im.thumbnail((1920, 1080))
@@ -77,11 +88,22 @@ def main():
         raise SystemExit(f"Harcama yapılmadı: şu görseller için gorsel_denetim.txt'de KABUL yok: {', '.join(sorted(set(eksik)))}. "
                          "Önce avlu-gorsel-denetci'ye denetlet ve 'ad: KABUL' satırlarını yaz.")
     for k in liste:
+        kayit = hedef / f"_{k['ad']}_tahmin.txt"  # ödenen işin kimliği: yarıda kalırsa yeniden çalıştırınca tekrar ödemeden kaldığı yerden alınır
+        if kayit.exists():
+            print(f"  {k['ad']}: yarım kalan iş {kayit.read_text().strip()} kaldığı yerden alınıyor", flush=True)
+            t = sabirli_curl(f"https://api.replicate.com/v1/predictions/{kayit.read_text().strip()}")
+            if t["status"] == "succeeded" and not t.get("output"):
+                print(f"  {k['ad']}: çıktının süresi dolmuş; --yeniden-ode ile yeniden üretilebilir", flush=True)
+                if "--yeniden-ode" not in arg:
+                    continue
+                kayit.unlink()
+        if not kayit.exists():
+            t = None
         girdi = {"prompt": k["istem"], "start_image": veri_adresi(next((klasor / "gorseller").glob(k["gorsel"] + ".*"))),
                  "duration": k.get("sure", 5), "negative_prompt": OLUMSUZ}
         istek = hedef / f"_{k['ad']}_istek.json"  # görsel verisi komut satırına sığmadığı için dosyadan gönderilir
         istek.write_text(json.dumps({"input": girdi}))
-        for bekle in (15, 30, 60, 90, 0):
+        for bekle in ((15, 30, 60, 90, 0) if t is None else ()):
             t = curl("-X", "POST", f"https://api.replicate.com/v1/models/{MODEL}/predictions",
                      "-H", "Content-Type: application/json", "-d", f"@{istek}")
             if "id" in t or not bekle:  # id yoksa istek kabul edilmedi (hız sınırı); yeniden denemek güvenli
@@ -91,13 +113,16 @@ def main():
         if "id" not in t:
             print(f"  {k['ad']}: İSTEK KABUL EDİLMEDİ {t}", flush=True)
             continue
+        kayit.write_text(t["id"])
         while t["status"] not in ("succeeded", "failed", "canceled"):
             time.sleep(8)
-            t = curl(f"https://api.replicate.com/v1/predictions/{t['id']}")
+            t = sabirli_curl(f"https://api.replicate.com/v1/predictions/{t['id']}")
         if t["status"] != "succeeded":
             print(f"  {k['ad']}: BAŞARISIZ {t.get('error')}", flush=True)
+            kayit.unlink()
             continue
-        curl(t["output"] if isinstance(t["output"], str) else t["output"][0], cikti=hedef / f"{k['ad']}.mp4")
+        sabirli_curl(t["output"] if isinstance(t["output"], str) else t["output"][0], cikti=hedef / f"{k['ad']}.mp4")
+        kayit.unlink()
         print(f"  {k['ad']}: hazır ({t.get('metrics', {}).get('predict_time', 0):.0f} sn)", flush=True)
 
 
