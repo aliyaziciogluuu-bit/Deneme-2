@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Toprağın altındaki solucanın akciğeri yok; peki nasıl nefes alıyor?",
+  "duyulan": "Toprağın altındaki solucanın ak ciğeri yok, peki nasıl nefes alıyor?",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki derisi bir akciğer gibi çalışıyor.",
+  "duyulan": "Sanki derisi bir akciğer gibi çalışıyor.",
+  "hata": 0,
+  "sure": 2.48,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Oksijen nemli deriden ve kılcal damarlardan geçiyor, kandaki hemoglobin onu alıyor.",
+  "duyulan": "Oksijen, nemli deriden ve kılcal damarlardan geçiyor. Kandaki hemoglobin onu alıyor.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Derideki özel hücreler, vücudu nemli tutan sümüksü bir sıvı salgılıyor.",
+  "duyulan": "Derideki özel hücreler vücudu nemli tutan sümüksü bir sıvı salgılıyor.",
+  "hata": 0,
+  "sure": 4.36,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani toprak solucanı, nemli derisiyle nefes alan bir hayvan.",
+  "duyulan": "yani toprak solucanı, nemli derisi ile nefes alan bir hayvan.",
+  "hata": 0,
+  "sure": 3.76,
+  "uygun": true
+ }
+}
