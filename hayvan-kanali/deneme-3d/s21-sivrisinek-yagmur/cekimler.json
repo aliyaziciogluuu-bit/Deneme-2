@@ -4,8 +4,7 @@
    "n": 1,
    "gorseller": [
     {
-     "gorsel": "damla_carpma",
-     "klip": "damla_carpma"
+     "gorsel": "damla_carpma"
     },
     {
      "gorsel": "ucus",
@@ -56,9 +55,9 @@
   {
    "n": 1,
    "gorseller": [
-    "yapisma",
+    "damla_carpma",
     {
-     "gorsel": "yapisma",
+     "gorsel": "damla_carpma",
      "a": [
       0.5,
       0.4,

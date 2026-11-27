@@ -1,0 +1,5 @@
+kralice_orta: KABUL (aday 1; görsel denetçi 28 Kas)
+iscilar: KABUL (aday 1; görsel denetçi 28 Kas)
+isci_portre: KABUL (aday 1; görsel denetçi 28 Kas)
+yeni_kralice: KABUL (aday 1; görsel denetçi 28 Kas)
+petek_bos: KABUL (aday 1; görsel denetçi 28 Kas)

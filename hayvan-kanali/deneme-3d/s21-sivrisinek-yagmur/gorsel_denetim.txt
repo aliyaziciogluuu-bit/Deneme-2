@@ -1,0 +1,6 @@
+damla_carpma: KABUL (aday 2; görsel denetçi 28 Kas)
+ucus: KABUL (aday 2; görsel denetçi 28 Kas)
+zemin: KABUL (aday 2; görsel denetçi 28 Kas)
+yagmur_bahce: KABUL (aday 1; görsel denetçi 28 Kas)
+sicrama: KABUL (aday 1; görsel denetçi 28 Kas)
+portre: KABUL (aday 1; görsel denetçi 28 Kas)

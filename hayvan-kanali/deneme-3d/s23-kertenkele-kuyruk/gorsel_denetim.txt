@@ -1,0 +1,5 @@
+kuyruk_kivrim: KABUL (aday 1; görsel denetçi 28 Kas)
+avci: KABUL (aday 2; görsel denetçi 28 Kas)
+kirik_nokta: KABUL (aday 1; görsel denetçi 28 Kas)
+sakin: KABUL (aday 1; görsel denetçi 28 Kas)
+duvar_bos: KABUL (aday 1; görsel denetçi 28 Kas)

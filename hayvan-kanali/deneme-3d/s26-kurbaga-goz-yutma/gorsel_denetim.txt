@@ -1,0 +1,6 @@
+portre: KABUL (aday 2; görsel denetçi 28 Kas)
+av: KABUL (aday 2; görsel denetçi 28 Kas)
+cam_kafa: KABUL (aday 2; görsel denetçi 28 Kas)
+bogaz: KABUL (aday 1; görsel denetçi 28 Kas)
+semender: KABUL (aday 1; görsel denetçi 28 Kas)
+gol_bos: KABUL (aday 1; görsel denetçi 28 Kas)

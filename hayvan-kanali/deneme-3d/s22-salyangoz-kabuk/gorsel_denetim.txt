@@ -1,0 +1,5 @@
+portre: KABUL (aday 1; görsel denetçi 28 Kas)
+kapali: KABUL (aday 1; görsel denetçi 28 Kas)
+kotu: KABUL (aday 1; görsel denetçi 28 Kas)
+kabuk_yakin: KABUL (aday 1; görsel denetçi 28 Kas)
+havuz: KABUL (aday 1; görsel denetçi 28 Kas)
