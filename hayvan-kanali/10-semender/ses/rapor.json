@@ -1,0 +1,72 @@
+{
+ "000": {
+  "yazi": "Soba için odun alıyorsun, kütüğün altından siyah sarı lekeli bir hayvan düşüyor.",
+  "duyulan": "Soba için odun alıyorsun, kütüğün altından siyah sarı lekeli bir hayvan düşüyor.",
+  "hata": 0,
+  "sure": 5.16,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bu hayvan ateşten doğmadı; peki kışın odunun içinde ne arıyordu?",
+  "duyulan": "Bu hayvan ateşten doğmadı, peki kışın odunun içinde ne eriyordu?",
+  "hata": 1,
+  "sure": 4.16,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Sırada ateşte yıkanan mendiller, zehirli kuyu hikâyesi ve odun yığınındaki gerçek konuk var.",
+  "duyulan": "Sırada ateşte yıkanan mendiller, zehirli kuyu hikayesi ve odun yanındaki gerçek konuk var.",
+  "hata": 1,
+  "sure": 6.96,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Semender denen bu hayvanın ateşte yaşadığı, hatta ateşi söndürdüğü anlatılmış.",
+  "duyulan": "Semender denen bu hayvanın ateşte yaşadığı, hatta ateşi söndürdüğü anlatılmış.",
+  "hata": 0,
+  "sure": 5.2,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bu hikâye ne kadar eski?",
+  "duyulan": "Bu hikaye ne kadar eski?",
+  "hata": 0,
+  "sure": 1.54,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Aristoteles'in kitabında bile var.",
+  "duyulan": "Aristoteles'in kitabında bile var.",
+  "hata": 0,
+  "sure": 1.82,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Romalı yazar Plinius, yapıtının bir yerinde buna inanmadığını söylüyor; doğru olsaydı göstermek kolay olurdu.",
+  "duyulan": "Romalı yazar Plinyus, yapıtının bir yerinde buna inanmadığını söylüyor. Doğru olsaydı, göstermek kolay olurdu.",
+  "hata": 0,
+  "sure": 6.84,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Aynı yazar, semenderin yalnızca şiddetli sağanakta çıktığını yazıyor; hava açılınca çekilirmiş.",
+  "duyulan": "Aynı yazar, Semender'in yalnızca şiddetli sanakta çıktığını yazıyor, hava açılınca çekilirmiş.",
+  "hata": 1,
+  "sure": 5.9,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Ateşi seven bir hayvan neden yalnızca yağmurda ortaya çıksın?",
+  "duyulan": "Ateşi seven bir hayvan neden yalnızca yağmurda ortaya çıksın?",
+  "hata": 0,
+  "sure": 3.66,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Birçok semenderin derisi su geçiriyor; bu yüzden serin ve nemli yerlere bağlı yaşıyorlar.",
+  "duyulan": "Birçok semenderin derisi su geçiriyor, bu yüzden serin ve nemli yerlere bağlı yaşıyorlar.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true
+ }
+}
