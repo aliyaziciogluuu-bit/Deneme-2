@@ -96,5 +96,47 @@
   "hata": 1,
   "sure": 5.62,
   "uygun": true
+ },
+ "014": {
+  "yazi": "Peki duvarda sıçrayarak ilerleyen, iri gözlü örümcek kim?",
+  "duyulan": "Peki duvarda sıçrayarak ilerleyen iri gözlü örümcek kim?",
+  "hata": 0,
+  "sure": 3.68,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Bunlar sıçrayan örümcekler; ağ kurup beklemek yerine avının üzerine sıçrıyor.",
+  "duyulan": "Bunlar sıçrayan örümcekler. Ağa kurup beklemek yerine avının üzerine sıçrıyor.",
+  "hata": 1,
+  "sure": 4.66,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Gözleri eklembacaklılar arasında en iyi görenlerden; renkli görme bile yapabiliyorlar.",
+  "duyulan": "Gözleri eklem bacaklılar arasında en iyi görenlerden, renkli görme bile yapabiliyorlar.",
+  "hata": 0,
+  "sure": 5.06,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Geceyi ve kışı ipekten küçük bir çadırda geçiriyorlar.",
+  "duyulan": "geceyi ve kışı İpek'ten küçük bir çadırda geçiriyorlar.",
+  "hata": 0,
+  "sure": 3.06,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Çoğu örümcek tehlike görünce kaçar ya da ölü taklidi yapar; insanı nadiren ısırır.",
+  "duyulan": "çoğu örümcek tehlike görünce kaçar ya da ölü taklidi yapar. İnsanı nadiran ısırır.",
+  "hata": 1,
+  "sure": 5.22,
+  "uygun": true
+ },
+ "019": {
+  "yazi": "Uyurken örümcek yuttuğun söylenir; Vikipedi'ye göre insanlar uykuda çok sayıda örümcek yutmuyor.",
+  "duyulan": "uyurken örümcek yuttuğun söylenir. Wikipedia'ya göre insanlar uykuda çok sayıda örümcek yutmuyor.",
+  "hata": 1,
+  "sure": 5.74,
+  "uygun": true
  }
 }
