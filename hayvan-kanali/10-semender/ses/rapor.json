@@ -7,25 +7,28 @@
   "uygun": true
  },
  "001": {
-  "yazi": "Bu hayvan ateşten doğmadı; peki kışın odunun içinde ne arıyordu?",
-  "duyulan": "Bu hayvan ateşten doğmadı, peki kışın odunun içinde ne eriyordu?",
-  "hata": 1,
-  "sure": 4.16,
-  "uygun": true
+  "yazi": "Bu semender ateşten doğmadı; peki kışın odunun içinde ne arıyordu?",
+  "duyulan": "Bu semender ateşten doğmadı, peki kışın odunun içinde ne arıyordu?",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true,
+  "tek_basina": true
  },
  "002": {
-  "yazi": "Sırada ateşte yıkanan mendiller, zehirli kuyu hikâyesi ve odun yığınındaki gerçek konuk var.",
-  "duyulan": "Sırada ateşte yıkanan mendiller, zehirli kuyu hikayesi ve odun yanındaki gerçek konuk var.",
-  "hata": 1,
-  "sure": 6.96,
-  "uygun": true
+  "yazi": "Oysa onun ateşte yaşadığı, hatta ateşi söndürdüğü anlatılmış.",
+  "duyulan": "Oysa onun ateşte yaşadığı, hatta ateşi söndürdüğü anlatılmış.",
+  "hata": 0,
+  "sure": 4.74,
+  "uygun": true,
+  "tek_basina": true
  },
  "003": {
-  "yazi": "Semender denen bu hayvanın ateşte yaşadığı, hatta ateşi söndürdüğü anlatılmış.",
-  "duyulan": "Semender denen bu hayvanın ateşte yaşadığı, hatta ateşi söndürdüğü anlatılmış.",
+  "yazi": "Sırada ateşte yıkanan mendiller, zehirli kuyu hikâyesi ve odun yığınındaki gerçek konuk var.",
+  "duyulan": "Sırada ateşte yıkanan mendiller, zehirli kuyu hikayesi ve odun yığınındaki gerçek konuk var.",
   "hata": 0,
-  "sure": 5.2,
-  "uygun": true
+  "sure": 7.68,
+  "uygun": true,
+  "tek_basina": true
  },
  "004": {
   "yazi": "Bu hikâye ne kadar eski?",
@@ -119,11 +122,12 @@
   "uygun": true
  },
  "017": {
-  "yazi": "Asbest, ateşe dayanıklı kumaş yapılan lifli bir mineral; yani kumaş vardı, hayvan yoktu.",
-  "duyulan": "Asbest ateşe dayanıklı kumaş yapılan lifli bir mineral, yani kumaş vardı, hayvan yoktu.",
+  "yazi": "Asbest, ateşe dayanıklı kumaş dokunan lifli bir mineral; yani kumaş vardı, hayvan yoktu.",
+  "duyulan": "Asbest, ateşe dayanıklı kumaş dokunan lifli bir mineral. Yani kumaş vardı, hayvan yoktu.",
   "hata": 0,
-  "sure": 5.72,
-  "uygun": true
+  "sure": 6.46,
+  "uygun": true,
+  "tek_basina": true
  },
  "018": {
   "yazi": "Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.",
@@ -147,11 +151,12 @@
   "uygun": true
  },
  "021": {
-  "yazi": "Aynı makale sözcük için iki açıklama aktarıyor: Yunancadan geldiği ve Farsçada ateş içinde anlamına gelen bir sözcükten kısaldığı.",
-  "duyulan": "Aynı makale, sözcük için iki açıklama aktarıyor. Yunancadan geldiği ve Farsça'da ateş içinde anlamına gelen bir sözcükten kısaldı.",
-  "hata": 1,
-  "sure": 8.28,
-  "uygun": true
+  "yazi": "Peki bu ad nereden gelmiş? Makaleye göre ya Yunancadan ya da Farsçada ateş içinde anlamına gelen bir sözcükten.",
+  "duyulan": "Peki bu ad nereden gelmiş? Makaleye göre ya Yunancadan ya da Farsça'da ateş içinde anlamına gelen bir sözcükten.",
+  "hata": 0,
+  "sure": 7.44,
+  "uygun": true,
+  "tek_basina": true
  },
  "022": {
   "yazi": "Osmanlı sözlüklerinin birçoğu onu ateşte yaşayan efsanevi hayvan diye tanımlıyor.",
@@ -161,11 +166,12 @@
   "uygun": true
  },
  "023": {
-  "yazi": "Bazıları da ona kertenkele diyor.",
-  "duyulan": "Bazıları da ona kertenkele ediyor.",
-  "hata": 1,
-  "sure": 1.64,
-  "uygun": false
+  "yazi": "Bazıları da ona kertenkele adını veriyor.",
+  "duyulan": "Bazıları da ona kertenkele adını veriyor.",
+  "hata": 0,
+  "sure": 2.38,
+  "uygun": true,
+  "tek_basina": true
  },
  "024": {
   "yazi": "Peki bu inanış bir yanlış anlamayla mı büyümüş?",
@@ -294,11 +300,12 @@
   "uygun": true
  },
  "042": {
-  "yazi": "Yıllarca Avrupa lekeli semenderi sanıldı; bugün ayrı tür ve adı Salamandra infraimmaculata.",
-  "duyulan": "Yıllarca Avrupa lekeli semenleri sanıldı. Bugün ayrı tür ve adı Salamandra infra immaculata.",
-  "hata": 3,
-  "sure": 6.94,
-  "uygun": false
+  "yazi": "Yıllarca bu hayvan Avrupa lekeli semenderi sanıldı; bugün ayrı tür ve adı Salamandra infraimmaculata.",
+  "duyulan": "Yıllarca bu hayvan, Avrupa lekeli semenderi sanıldı. Bugün ayrı tür ve adı Salamandra infra immaculata.",
+  "hata": 0,
+  "sure": 8.5,
+  "uygun": true,
+  "tek_basina": true
  },
  "043": {
   "yazi": "Bir çalışma Erzincan, Malatya, Hatay ve Mersin'den örnek toplayıp karşılaştırmış.",

@@ -1,0 +1,14 @@
+[KALDI] Cümle cümle ses doğrulaması 60/62 cümle doğrulandı; sorunlu: ['023', '042']
+[GEÇTİ] Görüntü biçimi 1920x1080 30 fps h264/aac
+[GEÇTİ] Video ve ses süresi tutarlı video 315.4 sn, ses 315.4 sn
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.6 LUFS, tepe -1.3 dBTP
+[GEÇTİ] Siyah kare yok 
+[GEÇTİ] Donmuş görüntü yok (4 sn+) 
+[KALDI] Bitmiş videoda anlatım = senaryo (cümle cümle) 60/62 cümle birebir, toplam 9/647 kelime farkı
+[GEÇTİ] Altyazı zamanlaması 100 altyazı, son 313.2 sn
+[GEÇTİ] Altyazı uzunluğu en uzun 72 karakter
+[GEÇTİ] Başlık uzunluğu 49 karakter
+[GEÇTİ] Açıklama uzunluğu ve karakterleri 3713 karakter
+[GEÇTİ] Etiketler (toplam ≤ 500) 15 etiket
+[GEÇTİ] Bölümler (YouTube kuralları) 9 bölüm, en kısa 24 sn
+[GEÇTİ] Kapak 1280x720, 242 KB
