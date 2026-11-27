@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Yaprağın üstündeki uğur böceği neden bu kadar parlak kırmızı?",
+  "duyulan": "Yaprağın üstündeki uğur böceği neden bu kadar parlak kırmızı?",
+  "hata": 0,
+  "sure": 3.58,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki sırtına bir dur levhası asılmış.",
+  "duyulan": "sanki sırtına bir dur levhası asılmış.",
+  "hata": 0,
+  "sure": 2.2,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Birçok uğur böceği türünde kırmızı üstüne siyah benekler, yırtıcılara tadının kötü olduğunu bildiriyor.",
+  "duyulan": "Birçok uğur böceği türünde kırmızı üstüne siyah benekler yırtıcılara tadının kötü olduğunu bildiriyor.",
+  "hata": 0,
+  "sure": 6.16,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Rahatsız edilince uğur böcekleri, bacak eklemlerinden acı bir sıvı damlatıyor.",
+  "duyulan": "Rahatsız edilince uğur böcekleri bacak eklemlerinden acı bir sıvı damlatıyor.",
+  "hata": 0,
+  "sure": 4.64,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani birçok uğur böceğinde kırmızı sırt, süs değil, bir uyarı.",
+  "duyulan": "Yani birçok uğur böceğinde kırmızı sırt süs değil, bir uyarı.",
+  "hata": 0,
+  "sure": 3.84,
+  "uygun": true
+ }
+}

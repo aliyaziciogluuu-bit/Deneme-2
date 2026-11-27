@@ -1,3 +1,4 @@
 doku: KABUL (aday 1; görsel denetçi 27 Kas)
 lif: KABUL (aday 1; görsel denetçi 27 Kas)
 kapi: KABUL (aday 2; görsel denetçi 27 Kas)
+yuva: KABUL (2. üretim aday 2)

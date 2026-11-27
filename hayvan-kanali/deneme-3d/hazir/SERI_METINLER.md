@@ -275,7 +275,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S13 – Yusufçuğun Gözleri Neden Bu Kadar Büyük? 👀
 
-- Durum: ONAY (bilgi kontrolü 27 Kasım)
+- Durum: ÜRETİM DIŞI (27 Kas: Flux dört denemede yusufçuk gözlerini ayrık çizdi — kızböceği görünümü)
 - Başlık: Yusufçuğun Gözleri Neden Bu Kadar Büyük? 👀
 - Kelime: 42; cümle: 5; tahmini süre ≈ 18 sn
 - Kapsam: yusufçuklar (Anisoptera; Türkçe "yusufçuk", kızböceklerinden ayrı alt takım); "büyük türlerde" göz birimi sayısı binlerle ifade ediliyor (kaynakta iki türde yirmi iki bin altı yüz elli ve yirmi üç bin sekiz yüz doksan; sayı metne yazılmadı). Görüş alanı ve renk görme yazılmadı.
