@@ -41,7 +41,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S2 – İşçi Bal Arısı Sokunca Neden Ölüyor? 🐝
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: İşçi Bal Arısı Sokunca Neden Ölüyor? 🐝
 - Kelime: 55; cümle: 5; tahmini süre ≈ 24 sn
 - Kapsam: işçi bal arısı (Apis mellifera) ve memeli derisine saplanan iğne. Kraliçenin iğnesi dikenli değil; başka arı ve yaban arısı türleri için genelleme yok.
@@ -54,7 +54,7 @@ Metin:
 2. İşçi bal arısının iğnesi, kancalı bir olta ucu gibi dikenli.
 3. Deriye saplanınca geri çıkmıyor; iğne arının karnından kopuyor.
 4. Kopan iğnenin kas ve sinir düğümü var; arıdan ayrılsa da zehir vermeyi sürdürüyor.
-5. Sokulursan, nefes darlığı ya da yüzde ve boğazda şişme olursa, vakit kaybetmeden sağlık kuruluşuna başvur.
+5. Sokulursan, nefes darlığı ya da yüzde ya da boğazda şişme olursa, vakit kaybetmeden sağlık kuruluşuna başvur.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Koluna konmuş işçi bal arısı, yakın plan (kol stilize, yüz yok).
@@ -73,7 +73,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S3 – Karasinek Elinden Nasıl Kaçıyor? 🪰
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Karasinek Elinden Nasıl Kaçıyor? 🪰
 - Kelime: 51; cümle: 5; tahmini süre ≈ 22 sn
 - Kapsam: karasinek (Musca domestica). İnsana göre "çok daha hızlı" görüntü işleme; sayısal oran yazılmadı. Diğer sinek türlerine genelleme yok.
@@ -134,7 +134,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S5 – Ateş Böceği Neden Parlıyor? ✨
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Ateş Böceği Neden Parlıyor? ✨
 - Kelime: 52; cümle: 6; tahmini süre ≈ 23 sn
 - Kapsam: ateş böcekleri (Lampyridae familyası) genel olarak; yetişkinde ışık "çoğunlukla" eş bulmaya yarıyor (gündüz uçan ve ışıksız türler var). Larva ışığının uyarı olduğu "düşünülüyor" diye çekinceli yazıldı.
@@ -165,7 +165,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S6 – Çıyanın Kaç Ayağı Var? 🐛
 
-- Durum: bilgi kontrolü 2. tur bekliyor
+- Durum: ONAY (bilgi kontrolü 2. tur, 27 Kasım)
 - Başlık: Çıyanın Kaç Ayağı Var? 🐛
 - Kelime: 55; cümle: 4; tahmini süre ≈ 24 sn
 - Kapsam: çıyanlar (Chilopoda; İngilizce centipede), "bilinen çıyanlarda" bacak çifti sayısı hep tek. Türkçede kırkayak denen Diplopoda (millipede) farklı bir gruptur, metinde geçmiyor. Sayı yazılmadı.
@@ -177,7 +177,8 @@ Metin:
 1. Taşın altından fırlayan çıyanın kaç bacağı var?
 2. Gövdesi vagon dizisi gibi; çoğu bölümde bir çift bacak var.
 3. Bilinen çıyanlarda bacak çiftlerinin sayısı hep tek; bu yüzden hiçbir çıyanın tam yüz bacağı olmaz.
-4. Öndeki bacak çifti zehir kıskacına dönüşmüş; ısırık çocuklarda ve arı alerjisi olanlarda tehlikeli olabilir; nefes darlığı ya da ağır belirtide sağlık kuruluşuna başvur.
+4. Öndeki bacak çifti zehir kıskacına dönüşmüş.
+5. Isırık çocuklarda ve arı alerjisi olanlarda tehlikeli olabilir; nefes darlığı ya da ağır belirti olursa sağlık kuruluşuna başvur.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Bahçede kaldırılmış taşın altında çıyan, orta mesafe, yan görünüm.

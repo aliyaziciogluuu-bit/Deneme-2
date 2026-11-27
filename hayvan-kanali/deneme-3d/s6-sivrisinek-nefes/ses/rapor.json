@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Karanlık odada sivrisinek seni nasıl buluyor, hiç merak ettin mi?",
+  "duyulan": "Karanlık odada sivrisinek seni nasıl buluyor hiç merak ettin mi?",
+  "hata": 0,
+  "sure": 3.86,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Nefesin onun için uzaktan görünen bir fener gibi.",
+  "duyulan": "nefesin onun için uzaktan görünen bir fener gibi.",
+  "hata": 0,
+  "sure": 3.26,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kan emen dişi sivrisinekler, verdiğin nefesteki karbondioksiti, vücut ısını ve çeşitli kokuları kullanarak seni buluyor.",
+  "duyulan": "Kanemen dişi sivrisinekler, verdiğin nefesteki karbondioksiti, vücut ısını ve çeşitli kokuları kullanarak seni buluyor.",
+  "hata": 0,
+  "sure": 7.3,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bazı türlerde bu kan, yumurta üretimi için şart.",
+  "duyulan": "Bazı türlerde bu kan yumurta yüretimi için şart.",
+  "hata": 1,
+  "sure": 3.02,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani karanlıkta seni ele veren şey nefesin, ısın ve kokun.",
+  "duyulan": "Yani karanlıkta seni ele veren şey, nefesin, ısın ve kokun.",
+  "hata": 0,
+  "sure": 4.8,
+  "uygun": true
+ }
+}
