@@ -143,56 +143,56 @@
   "yazi": "Mutfak köşesindeki huni biçimli ağın sahibi tehlikeli mi?",
   "duyulan": "Mutfak köşesindeki huni biçimli ağın sahibi tehlikeli mi?",
   "hata": 0,
-  "sure": 3.28,
+  "sure": 3.4,
   "uygun": true
  },
  "021": {
   "yazi": "Huni ağı ören ev örümceği cinsi nadiren ısırır; ısırırsa savunma içindir ve deriyi delmesi olası değildir.",
-  "duyulan": "Huni ağ öğren ev örümceği cinsi nadiran ısırır, ısırırsa savunma içindir ve deriyi delmesi olası değildir.",
-  "hata": 3,
-  "sure": 6.32,
-  "uygun": false
+  "duyulan": "Huni ağ ören ev örümceği cinsi nadiren ısırır. Isırırsa savunma içindir ve deriyi delmesi olası değildir.",
+  "hata": 1,
+  "sure": 6.82,
+  "uygun": true
  },
  "022": {
   "yazi": "Dolabın arkasında yuvarlak karınlı koyu bir örümcek, dolap örümceği ya da sahte karadul diye anılan cins olabilir.",
-  "duyulan": "Dolabın arkasında yuvarlak karınlı koyu bir örümcek. Dolap örümceği ya da sahte karadul diye anılan cins olabilir.",
+  "duyulan": "Dolabın arkasında yuvarlak karınlı koyu bir örümcek, dolap örümceği ya da sahte kara dul diye anılan cins olabilir.",
   "hata": 0,
-  "sure": 6.88,
+  "sure": 6.84,
   "uygun": true
  },
  "023": {
   "yazi": "Uzman olmayanlar onu karaduldan kolay ayıramaz; o yüzden elle tutma.",
   "duyulan": "Uzman olmayanlar onu karaduldan kolay ayıramaz. O yüzden elle tutma.",
   "hata": 0,
-  "sure": 3.94,
+  "sure": 3.56,
   "uygun": true
  },
  "024": {
   "yazi": "Dolap örümceği ısırırsa ne olur?",
   "duyulan": "Dolap örümceyi ısırırsa ne olur?",
   "hata": 1,
-  "sure": 1.6,
+  "sure": 1.74,
   "uygun": false
  },
  "025": {
   "yazi": "Dolap örümceğinin ısırığı bölgesel ağrı, kızarıklık ve şişlik yapabiliyor; bazı olgularda bulantı ve baş ağrısı da görülüyor.",
-  "duyulan": "Dolap örümceğinin ısırığı bölgesel ağırı, kızarıklık ve şişlik yapabiliyor. Bazı olgularda bulantı ve baş ağrısı da görülüyor.",
+  "duyulan": "Dolap örümceğinin ısırığı, bölgesel ağırığı, kızarıklık ve şişlik yapabiliyor. Bazı olgularda bulantı ve baş ağrısı da görülüyor.",
   "hata": 1,
-  "sure": 7.0,
+  "sure": 7.42,
   "uygun": true
  },
  "026": {
-  "yazi": "Bölgesel belirtiler iki üç günde geçiyor.",
-  "duyulan": "Bölgesel belirtiler iki üç günde geçiyor.",
+  "yazi": "Bölgesel belirtiler genellikle iki üç günde geçiyor.",
+  "duyulan": "bölgesel belirtiler genellikle 2-3 günde geçiyor.",
   "hata": 0,
-  "sure": 2.18,
+  "sure": 2.68,
   "uygun": true
  },
  "027": {
   "yazi": "Dolap örümceği ısırıkları kışın da evde olabiliyor; karadul ısırığı genellikle yazın dışarıda oluyor.",
-  "duyulan": "Dolap örümceği yasırıkları kışında evde olabiliyor. Karadulu sıra genellikle yazın dışarıda oluyor.",
+  "duyulan": "Dolap örümceği ısırıkları kışında evde olabiliyor. Kara dolu sırı genellikle yazın dışarıda oluyor.",
   "hata": 5,
-  "sure": 5.48,
+  "sure": 5.68,
   "uygun": false
  },
  "028": {

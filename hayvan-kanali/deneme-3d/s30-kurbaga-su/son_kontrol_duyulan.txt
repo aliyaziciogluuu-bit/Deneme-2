@@ -1,0 +1,6 @@
+000 fark=0 | Kurbağa, suyu ağzıyla içmiyor; derisiyle alıyor. || Kurbağa suyu ağzıyla içmiyor, derisiyle alıyor.
+001 fark=0 | Birçok kurbağa, karnının alt derisinden suyu hızla emiyor. || Birçok kurbağa karnının alt derisinden suyu hızla emiyor.
+002 fark=0 | Bu bölge, damarlarla dolu. || Bu bölge damarlarla dolu.
+003 fark=0 | Kurbağalar, çoğu kara hayvanından hızlı su kaybediyor. || Kurbağalar çoğu kara hayvanından hızlı su kaybediyor.
+004 fark=1 | Bu yüzden kurbağayı ıslak yerinde rahat bırak. || O yüzden kurbağayı ıslak yerinde rahat bırak.
+005 fark=0 | Ya derisi başka neler yapıyor? || Ya derisi başka neler yapıyor?
