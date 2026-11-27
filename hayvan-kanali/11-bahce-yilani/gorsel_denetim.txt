@@ -30,7 +30,7 @@ yuvarlak_goz: KABUL (aday 9; görsel denetçi 27 Kas, Kontext düzeltmesi: göz 
 yuzuk_cikar: KABUL (aday 1; görsel denetçi 27 Kas)
 bacaksiz_kertenkele: KABUL (2. üretim aday 2)
 bahce_mesafe: KABUL (2. üretim aday 3)
-boynuzlu_engerek_tam: KABUL (2. üretim aday 3)
+boynuzlu_engerek_tam: KABUL (2. üretim aday 3 + Kontext: göz bebeği DİKEY yapıldı; ilk kabulde yuvarlak göz bebeği kaçırılmıştı, klip denetimi yakaladı)
 diyarbakir_bag: KABUL (2. üretim aday 2)
 kapak_sari_yilan: KABUL (2. üretim aday 8, Kontext: göz bebeği yuvarlak)
 kapak_seritli_engerek: KABUL (2. üretim aday 1)
@@ -38,3 +38,4 @@ saglik_kurulusu: KABUL (2. üretim aday 2)
 yakali_yilan_portre / yakali_yilan_hamle / yakali_yilan_yassi: RET (iki üretim + iki Kontext denemesinde yaka çizilmedi; hamle_3 kobra kukuletası) → bu çekimlerde yakası net olan yakali_yilan_olu kullanılıyor
 kapak_bahce_mesafe: RET (2. üretimde de baş kopuk / siyah bant) → kapak B görseli bahce_mesafe
 turkiye_harita: RET (anlamsız yazı, yanlış şekil) → anadolu_manzara
+# 27 Kas klip denetimi: KABUL ayak_yilan kedi_dil sari_bas_dil sari_surun yakali_olu kedi_tas anadolu_nefes koca_dil seritli_uyari karadeniz_sis kemirgen_nefes bahce_aksam; ŞARTLI dikey_goz (0–3,4 sn; sonrasında diş benzeri pullar); RET boynuzlu_nefes (kaynak görselde göz bebeği yuvarlaktı) → çekimde düzeltilmiş durağan görsel
