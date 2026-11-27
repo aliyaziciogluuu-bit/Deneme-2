@@ -1,0 +1,5 @@
+dansci: KABUL (aday 2; görsel denetçi 28 Kas)
+gunes: KABUL (aday 1; görsel denetçi 28 Kas)
+ucus_cicek: KABUL (aday 2; görsel denetçi 28 Kas)
+izleyiciler: KABUL (aday 2; görsel denetçi 28 Kas)
+karanlik: KABUL (aday 1; görsel denetçi 28 Kas)

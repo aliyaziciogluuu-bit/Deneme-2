@@ -1,0 +1,6 @@
+ayak_yakin: KABUL (aday 1; görsel denetçi 28 Kas)
+sinek_portre: KABUL (aday 2; görsel denetçi 28 Kas)
+seker_yuru: KABUL (aday 1; görsel denetçi 28 Kas)
+ovusturme: KABUL (aday 2; görsel denetçi 28 Kas)
+seker_kase: KABUL (aday 1; görsel denetçi 28 Kas)
+agiz: KABUL (aday 1; görsel denetçi 28 Kas)

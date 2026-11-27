@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Bazı salyangozlar kırık kabuğunu onarabiliyor.",
+  "duyulan": "Bazı salyangozlar kırık kabuğunu onarabiliyor.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bir deneyde kırık kabuklar çoğunlukla yirmi bir günde onarıldı.",
+  "duyulan": "Bir deneyde kırık kabuklar, çoğunlukla 21 günde onarıldı.",
+  "hata": 0,
+  "sure": 3.68,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Onarım hızı ilk günlerde yükselip sonra yavaşladı.",
+  "duyulan": "Onarım hızı ilk günlerde yükselip, sonra yavaşladı.",
+  "hata": 0,
+  "sure": 3.06,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Ama bu sonuç, tek bir tatlı su salyangozundan.",
+  "duyulan": "Ama bu sonuç tek bir tatlı susa langozundan.",
+  "hata": 2,
+  "sure": 2.86,
+  "uygun": false
+ },
+ "004": {
+  "yazi": "Sen yine de kabuğa dokunma.",
+  "duyulan": "Sen yine de kabuğa dokunma.",
+  "hata": 0,
+  "sure": 1.46,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Peki kabuk çok kötü kırılırsa?",
+  "duyulan": "Peki kabuk çok kötü kırılırsa?",
+  "hata": 0,
+  "sure": 2.0,
+  "uygun": true
+ }
+}

@@ -1,0 +1,5 @@
+islak_tas: KABUL (aday 1; görsel denetçi 28 Kas)
+portre: KABUL (aday 1; görsel denetçi 28 Kas)
+su_film: KABUL (aday 1; görsel denetçi 28 Kas)
+catlak_toprak: KABUL (aday 1; görsel denetçi 28 Kas)
+yosun: KABUL (aday 2; görsel denetçi 28 Kas)

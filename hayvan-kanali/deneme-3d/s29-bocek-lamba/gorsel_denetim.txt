@@ -1,0 +1,5 @@
+bocek_yakin: KABUL (aday 1; görsel denetçi 28 Kas)
+doner: KABUL (aday 2; görsel denetçi 28 Kas)
+gece_lamba: KABUL (aday 1; görsel denetçi 28 Kas)
+gokyuzu: KABUL (aday 1; görsel denetçi 28 Kas)
+sirt_isik: KABUL (aday 1; görsel denetçi 28 Kas)
