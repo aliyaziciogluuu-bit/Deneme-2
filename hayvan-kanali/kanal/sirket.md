@@ -175,3 +175,8 @@ Kaynak: kanal/kucuk_kanallar_2026-11-26.md (vidIQ).
 - 4 Aralık 3D değerlendirmesi artık "3D'ye geçilsin mi" değil, "hangi 3D kalıp daha iyi" sorusunu ölçer.
 - Bütçe etkisi (tahmin): 3D uzun ≈ 13–15 $/video, 3D Shorts ≈ 3–4 $/adet. Haftada 2 uzun + 2 günde bir Shorts ≈ ayda 150–180 $ (Aralık planı 60 $'ın üstünde; kanal sahibi "para sorun değil" demişti, Replicate bakiyesi izlenecek).
 - Ders: semender/kurbağa gibi küt parmaklı hayvanlarda ayak kuralları (dersler.md 27 Kasım) her 3D işte geçerli.
+
+## Karar (27 Kasım 17:20, kanal sahibi: "Günde bir Shorts yapalım")
+- 3D Shorts serisi günde 1, her gün 19:00. Gerekçe: ilk 3D Shorts (geko) 76 dakikada 771 görüntüleme, eski tarz Shorts 5 saatte 5.
+- Stok hedefi: en az 7 günlük hazır 3D Shorts. Haftada ~7 yeni metin (senarist) → bilgi kontrolü → üretim (Shorts başı ~2–2,5 $; ayda ~70 $).
+- Yükleme toplu yapılır (ev bilgisayarı oturumunda bir haftalık paket).
