@@ -241,7 +241,8 @@
       "ad": "Karşılaşırsan ne yapmalı?",
       "cumleler": [
         {
-          "yazi": "Odun yığınında ya da taş altında semender bulursan ne yapmalısın?"
+          "yazi": "Odun yığınının içinde ya da bir taşın altında semender bulursan ne yapmalısın?",
+          "ses": "Odun yığınının içinde ya da bir taşın altında semender bulursan ne yapmalısın?"
         },
         {
           "yazi": "Bize göre önce odunu yavaşça yerine bırak; semenderi ateşe ya da sobaya atma."

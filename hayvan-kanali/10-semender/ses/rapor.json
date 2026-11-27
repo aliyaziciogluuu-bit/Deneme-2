@@ -278,5 +278,160 @@
   "hata": 0,
   "sure": 4.62,
   "uygun": true
+ },
+ "040": {
+  "yazi": "Türkiye'de hangi semenderler yaşıyor?",
+  "duyulan": "Türkiye'de hangi semenderler yaşıyor?",
+  "hata": 0,
+  "sure": 2.22,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Bunlardan biri Türk semenderi: siyah derisinde sarı lekeler var.",
+  "duyulan": "Bunlardan biri Türk semen deri. Siyah derisinde sarı lekeler var.",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Yıllarca Avrupa lekeli semenderi sanıldı; bugün ayrı tür ve adı Salamandra infraimmaculata.",
+  "duyulan": "Yıllarca Avrupa lekeli semenleri sanıldı. Bugün ayrı tür ve adı Salamandra infra immaculata.",
+  "hata": 3,
+  "sure": 6.94,
+  "uygun": false
+ },
+ "043": {
+  "yazi": "Bir çalışma Erzincan, Malatya, Hatay ve Mersin'den örnek toplayıp karşılaştırmış.",
+  "duyulan": "Bir çalışma Erzincan, Malatya, Hatay ve Mersin'den örnek toplayıp karşılaştırmış.",
+  "hata": 0,
+  "sure": 5.32,
+  "uygun": true
+ },
+ "044": {
+  "yazi": "Ama senin yörende de var mı?",
+  "duyulan": "Ama senin yörende de var mı?",
+  "hata": 0,
+  "sure": 1.5,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Nemli ormanlarda, tatlı su kaynağına yakın yaşıyor; gündüz saklanıp geceleri böcek, solucan ve salyangoz yiyor.",
+  "duyulan": "Nemli ormanlarda tatlı su kaynağına yakın yaşıyor. Gündüz saklanıp geceleri böcek, solucan ve salyangoz yiyor.",
+  "hata": 0,
+  "sure": 6.82,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Yüksek yerlerdeki bireyler kışı uykuda geçiriyor; üreme kışın serin aylarına denk geliyor.",
+  "duyulan": "Yüksek yerlerdeki bireyler kışı uykuda geçiriyor. Üreme kışın serin aylarına denk geliyor.",
+  "hata": 0,
+  "sure": 5.32,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Bu komşumuz tehlikede mi?",
+  "duyulan": "Bu komşumuz tehlikede mi?",
+  "hata": 0,
+  "sure": 1.5,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Eski bir değerlendirmeye göre kuruyan sular, barajlanan dereler, trafik ve parçalanan yaşam alanı onu tehdit ediyor.",
+  "duyulan": "Eski bir değerlendirmeye göre kuruyan sular, barajlanan dereler, trafik ve parçalanan yaşam alanı onu tehdit ediyor.",
+  "hata": 0,
+  "sure": 6.82,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Odun yığınında ya da taş altında semender bulursan ne yapmalısın?",
+  "duyulan": "Odun yığınının içinde ya da bir taşın altında semender bulursan ne yapmalısın?",
+  "hata": 0,
+  "sure": 4.8,
+  "uygun": true,
+  "tek_basina": true
+ },
+ "050": {
+  "yazi": "Bize göre önce odunu yavaşça yerine bırak; semenderi ateşe ya da sobaya atma.",
+  "duyulan": "Bize göre önce odunu yavaşça yerine bırak. Semenderi ateşe ya da sobaya atma.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Bir Farsça sözlük, semender derisinden tahriş edici, yapışkan bir madde salgılandığını yazıyor.",
+  "duyulan": "bir Farsça sözlük, semender derisinden tahriş edici yapışkan bir maddes algılandığını yazıyor.",
+  "hata": 0,
+  "sure": 4.9,
+  "uygun": true
+ },
+ "052": {
+  "yazi": "Avrupa lekeli semenderinin salgısında, insan için tehlikeli olabilecek maddeler de bildiriliyor.",
+  "duyulan": "Avrupa lekeli semen derinin salgısında insan için tehlikeli olabilecek maddelerde bildiriliyor.",
+  "hata": 0,
+  "sure": 4.98,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Bu yüzden ona dokunma; dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.",
+  "duyulan": "Bu yüzden ona dokunma, dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.",
+  "hata": 0,
+  "sure": 5.4,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Küçük çocuk dokunduysa elini yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış.",
+  "duyulan": "Küçük çocuk dokunduysa elini yıkamasına yardım et, gözde ya da ağızda rahatsızlık olursa doktora danış.",
+  "hata": 0,
+  "sure": 5.34,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
+  "duyulan": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
+  "hata": 0,
+  "sure": 2.56,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Semenderi doğadan alıp eve götürme; kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Semendir'i doğadan alıp eve götürme. Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğü'ne danış.",
+  "hata": 1,
+  "sure": 6.36,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Özetle semender ateşten doğmuyor; ateş hikâyesinin kütükten çıkan, kış uykusundaki semenderlerle bağlantılı olduğu öne sürülüyor.",
+  "duyulan": "Özetle, semender ateşten doğmuyor. Ateş hikayesinin kütükten çıkan, kış uykusundaki semenderlerle bağlantılı olduğu öne sürülüyor.",
+  "hata": 0,
+  "sure": 8.24,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Senin köyünde semendere ne derler, hiç odunun içinden hayvan çıktı mı?",
+  "duyulan": "Senin köyünde semendere ne derler? Hiç odunun içinden hayvan çıktı mı?",
+  "hata": 0,
+  "sure": 4.18,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "hata": 0,
+  "sure": 5.24,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Sıradaki komşu: bahçendeki yılan zehirli mi, ve bunu uzaktan nasıl anlarsın?",
+  "duyulan": "Sıradaki komşu, bahçendeki yılan sehirli mi ve bunu uzaktan nasıl anlarsın?",
+  "hata": 1,
+  "sure": 5.08,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Komşunu tanı.",
+  "duyulan": "komşunu tanı.",
+  "hata": 0,
+  "sure": 0.86,
+  "uygun": true
  }
 }
