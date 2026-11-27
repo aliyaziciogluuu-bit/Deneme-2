@@ -1,0 +1,95 @@
+{
+ "not": "15 klip x 0,35 $ = 5,25 $. Yalnızca yapay zekâ görsellerinden. Semender kliplerinde fazla uzuv/göz, pençe ve pul belirmesi kontrol; ateş kliplerinde hayvan alevin içine girmemeli. Her klipten 5 kare (0,5-4,9 sn) incelenir; avlu-gorsel-denetci KABUL vermeden klip üretilmez.",
+ "klipler": [
+  {
+   "ad": "acilis",
+   "gorsel": "odundan_dusen",
+   "sure": 5,
+   "istem": "The log tips and the salamander tumbles down and lands softly on the leaves, then lifts its head and blinks; snowflakes drift. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "soba_alev",
+   "gorsel": "soba_ates",
+   "sure": 5,
+   "istem": "Flames flicker and dance behind the stove glass, glowing embers pulse, warm light flickers on the wooden walls. Camera static, no animals, nothing new appears."
+  },
+  {
+   "ad": "papirus_mum",
+   "gorsel": "aristoteles_papirus",
+   "sure": 5,
+   "istem": "The oil lamp flame flickers gently, dust motes float in the warm light, the papyrus edge stirs slightly in a breeze. Camera static, nothing new appears."
+  },
+  {
+   "ad": "yagmurda_yuruyen",
+   "gorsel": "yagmurda_semender",
+   "sure": 5,
+   "istem": "The salamander walks slowly forward along the log with alternating steps of its four legs while heavy rain falls and drops splash on the leaves. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "agac_sis",
+   "gorsel": "agac_kuyu",
+   "sure": 5,
+   "istem": "Morning mist drifts slowly through the orchard, apple tree leaves sway gently, the salamander sits still and blinks once. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "deri_salgi",
+   "gorsel": "salgi_yuzey",
+   "sure": 5,
+   "istem": "The milky droplets slowly swell on the glossy skin and one droplet slides slightly, the skin gently rises and falls with breathing. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "kis_uykusu",
+   "gorsel": "kutuk_icinde",
+   "sure": 5,
+   "istem": "The curled salamander breathes slowly, its throat gently pulsing, snowflakes drift down past the log, mist moves softly. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "kutuk_alev",
+   "gorsel": "kutuk_alev_kenari",
+   "sure": 5,
+   "istem": "The flames flicker in the background and firelight dances on the glossy skin while the salamander slowly turns its head on the stone. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "semender_yurur",
+   "gorsel": "semender_yan_bacak",
+   "sure": 5,
+   "istem": "The salamander walks slowly across the stone with alternating steps of its four legs and a gentle tail sway, side view. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "kurbaga_nefes",
+   "gorsel": "kurbaga_gol",
+   "sure": 5,
+   "istem": "The frog's throat pulses with breathing, it blinks once, a dragonfly flutters in the background. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "kertenkele_bas",
+   "gorsel": "kertenkele_pul",
+   "sure": 5,
+   "istem": "The lizard turns its head slightly and flicks its tongue once, its sides move with breathing. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "harita_nabiz",
+   "gorsel": "anadolu_harita",
+   "sure": 5,
+   "istem": "The four yellow pins glow and pulse softly one after another, a slow soft shimmer moves over the sea. Camera static, nothing new appears."
+  },
+  {
+   "ad": "avrupa_yuruyus",
+   "gorsel": "avrupa_lekeli",
+   "sure": 5,
+   "istem": "The salamander walks slowly forward across the wet leaves with alternating steps of its four legs while light raindrops fall. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  },
+  {
+   "ad": "koy_sis",
+   "gorsel": "koy_manzara",
+   "sure": 5,
+   "istem": "Mist drifts slowly through the valley, chimney smoke rises, the golden light brightens slowly. Camera static, nothing new appears."
+  },
+  {
+   "ad": "gece_beslenme",
+   "gorsel": "gece_beslenme",
+   "sure": 5,
+   "istem": "The salamander slowly creeps closer to the snail with small alternating steps of its four legs, the snail slowly retracts its antennae. Camera static, gentle natural motion only, keeps exactly two eyes, four legs, same shape, 3D animation style preserved, nothing new appears."
+  }
+ ]
+}

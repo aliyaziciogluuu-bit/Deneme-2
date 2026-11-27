@@ -1,0 +1,622 @@
+{
+ "not": "Her çekim sırayla 'n' cümleyi kaplar (toplam 62). Gerçek fotoğraflar 4:3; w=1 yatay şerit, cy hayvanın yüksekliği. Hayvanlı klipler: acilis(1-2), yagmurda(8-9), kis_uykusu(27-29) kilit anlar.",
+ "cekimler": [
+  {
+   "n": 2,
+   "gorsel": "odundan_dusen",
+   "klip": "acilis",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "soba_ates",
+   "klip": "soba_alev",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.75
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "aristoteles_papirus",
+   "klip": "papirus_mum",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.6,
+    0.5,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "roma_oda",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "yagmurda_semender",
+   "klip": "yagmurda_yuruyen",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "deri_parlak_yakin",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.5,
+    0.4,
+    0.7
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "ortacag_manastir",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "agac_kuyu",
+   "klip": "agac_sis",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.6,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "salgi_yuzey",
+   "klip": "deri_salgi",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.7
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "mendil_ates",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.75
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "asbest_kumas",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.75
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "divan_bahcesi",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "osmanli_sozluk",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.55,
+    0.55,
+    0.75
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "koy_ocak_siluet",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 3,
+   "gorsel": "kutuk_icinde",
+   "klip": "kis_uykusu",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kutuk_alev_kenari",
+   "klip": "kutuk_alev",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.85
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "cellini_atolye",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.45,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "odun_yigini_kis",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gercek_semender_yaprak",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.6,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "semender_yan_bacak",
+   "klip": "semender_yurur",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kurbaga_gol",
+   "klip": "kurbaga_nefes",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kertenkele_pul",
+   "klip": "kertenkele_bas",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "deri_parlak_yakin",
+   "a": [
+    0.5,
+    0.45,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "anadolu_harita",
+   "klip": "harita_nabiz",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gercek_turk_semenderi",
+   "a": [
+    0.55,
+    0.45,
+    1
+   ],
+   "b": [
+    0.6,
+    0.45,
+    0.75
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "avrupa_lekeli",
+   "klip": "avrupa_yuruyus",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "anadolu_harita",
+   "a": [
+    0.5,
+    0.5,
+    0.7
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.9
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "koy_manzara",
+   "klip": "koy_sis",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.55,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gece_beslenme",
+   "klip": "gece_beslenme",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kayalik_orman",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kapak",
+   "a": [
+    0.65,
+    0.6,
+    1
+   ],
+   "b": [
+    0.6,
+    0.6,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kuruyan_dere",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gercek_semender_tahta",
+   "a": [
+    0.55,
+    0.55,
+    1
+   ],
+   "b": [
+    0.6,
+    0.55,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "eller_odun_birak",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "salgi_yuzey",
+   "a": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.95
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "avrupa_lekeli",
+   "a": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "el_yika",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "veteriner_kopek",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gercek_semender_yaprak",
+   "a": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "kutuk_icinde",
+   "a": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.5,
+    1
+   ]
+  },
+  {
+   "n": 2,
+   "gorsel": "koy_manzara",
+   "a": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "b": [
+    0.5,
+    0.55,
+    1
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "bahce_tas_duvar",
+   "a": [
+    0.5,
+    0.5,
+    1
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "gercek_turk_semenderi",
+   "a": [
+    0.6,
+    0.45,
+    0.9
+   ],
+   "b": [
+    0.6,
+    0.5,
+    1
+   ]
+  }
+ ]
+}

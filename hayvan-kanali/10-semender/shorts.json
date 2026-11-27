@@ -19,31 +19,31 @@
       "cumleler": [
         {
           "yazi": "Bir derlemeye göre ateşten doğduğu sanılan semender, kütüğün içinde kış uykusuna yatan semenderlerden çıkmış olabilir.",
-          "gorsel": "yer_tutucu_avrupa_lekeli_semender_kutuk"
+          "gorsel": "kutuk_icinde"
         },
         {
           "yazi": "Odun eve getirilip ateşe atılınca hayvanlar alevlerden çıkıyormuş gibi görünmüş.",
-          "gorsel": "yer_tutucu_soba_odun"
+          "gorsel": "soba_ates"
         },
         {
           "yazi": "Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık.",
-          "gorsel": "yer_tutucu_kutuk_kis"
+          "gorsel": "odun_yigini_kis"
         },
         {
           "yazi": "Semender görürsen sobaya atma ve dokunma; dokunduysan elini sabunla yıka, gözüne ve ağzına götürme.",
-          "gorsel": "yer_tutucu_avrupa_lekeli_semender_kutuk"
+          "gorsel": "eller_odun_birak"
         },
         {
           "yazi": "Küçük çocuk dokunduysa ya da ağzına aldıysa yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış.",
-          "gorsel": "yer_tutucu_el_yikama"
+          "gorsel": "el_yika"
         },
         {
           "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
-          "gorsel": "yer_tutucu_avrupa_lekeli_semender_kutuk"
+          "gorsel": "veteriner_kopek"
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "yer_tutucu_kapanis"
+          "gorsel": "koy_manzara"
         }
       ]
     },
@@ -66,31 +66,31 @@
       "cumleler": [
         {
           "yazi": "Semender yününden yapıldığı söylenen kumaşlar, bir derlemeye göre gerçekte asbesttendi.",
-          "gorsel": "yer_tutucu_mendil_ates"
+          "gorsel": "mendil_ates"
         },
         {
           "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş.",
-          "gorsel": "yer_tutucu_osmanli_sozluk"
+          "gorsel": "osmanli_sozluk"
         },
         {
           "yazi": "Asbest, yanmaya dayanıklı bez yapılan lifli bir mineral.",
-          "gorsel": "yer_tutucu_asbest"
+          "gorsel": "asbest_kumas"
         },
         {
           "yazi": "Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.",
-          "gorsel": "yer_tutucu_asbest"
+          "gorsel": "asbest_kumas"
         },
         {
           "yazi": "Yani yanmaya dayanan kumaş gerçekti, ama onu veren hayvan yoktu.",
-          "gorsel": "yer_tutucu_mendil_ates"
+          "gorsel": "mendil_ates"
         },
         {
           "yazi": "Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor.",
-          "gorsel": "yer_tutucu_avrupa_lekeli_semender_kutuk"
+          "gorsel": "kutuk_icinde"
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "yer_tutucu_kapanis"
+          "gorsel": "koy_manzara"
         }
       ]
     },
@@ -113,31 +113,31 @@
       "cumleler": [
         {
           "yazi": "Semender bir kertenkele değil; derisinde pul yok. Türk semenderinin derisi nemli, pürüzsüz ve parlak.",
-          "gorsel": "yer_tutucu_turk_semenderi_yakin"
+          "gorsel": "gercek_turk_semenderi"
         },
         {
           "yazi": "Kertenkelenin derisi, keratinden yapılmış üst üste binen pullarla kaplı.",
-          "gorsel": "yer_tutucu_kertenkele_pul"
+          "gorsel": "kertenkele_pul"
         },
         {
           "yazi": "Bir Farsça sözlük, semender derisinden tahriş edici bir madde salgılandığını yazıyor; dokunma, dokunduysan elini sabunla yıka.",
-          "gorsel": "yer_tutucu_el_yikama"
+          "gorsel": "el_yika"
         },
         {
           "yazi": "Gözüne ve ağzına götürme; küçük çocuk dokunduysa yıkamasına yardım et, gözde ya da ağızda rahatsızlık olursa doktora danış.",
-          "gorsel": "yer_tutucu_el_yikama"
+          "gorsel": "el_yika"
         },
         {
           "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
-          "gorsel": "yer_tutucu_turk_semenderi_yakin"
+          "gorsel": "gercek_turk_semenderi"
         },
         {
           "yazi": "Ne yapacağını bilemiyorsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
-          "gorsel": "yer_tutucu_turk_semenderi_yakin"
+          "gorsel": "gercek_turk_semenderi"
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "yer_tutucu_kapanis"
+          "gorsel": "koy_manzara"
         }
       ]
     }
