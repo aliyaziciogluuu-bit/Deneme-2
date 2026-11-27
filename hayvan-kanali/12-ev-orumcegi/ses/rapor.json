@@ -320,5 +320,47 @@
   "hata": 1,
   "sure": 6.96,
   "uygun": true
+ },
+ "046": {
+  "yazi": "Başta sorduğumuz soruya dönelim: ısırık sanılan şey neden çoğu zaman başka bir şey çıkıyor?",
+  "duyulan": "Başta sorduğumuz soruya dönelim, ısırık sanılan şey neden çoğu zaman başka bir şey çıkıyor?",
+  "hata": 0,
+  "sure": 5.58,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Bir derleme, örümcek ısırığının ancak örümcek ısırırken görülür, yakalanır ve bir uzman tanırsa kesinleşebildiğini bildiriyor.",
+  "duyulan": "Bir derleme, örümcek ısırığının ancak örümcek ısırırken görülür, yakalanır ve bir uzman tanırsa kesinleşebildiğini bildiriyor.",
+  "hata": 0,
+  "sure": 7.52,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Kaliforniya'daki bir acil servis çalışmasında, bu şikâyetle gelenlerin yalnızca çok azı örümceği ısırma anında görmüştü.",
+  "duyulan": "Kaliforniya'daki bir acil servis çalışmasında bu şikayetle gelenlerin yalnızca çok azı örümceyi ısırma anında görmüştü.",
+  "hata": 1,
+  "sure": 6.94,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Çoğuna deri enfeksiyonu teşhisi konmuş.",
+  "duyulan": "çoğuna deri enfeksiyonu teşhisi konmuş.",
+  "hata": 0,
+  "sure": 2.02,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Derleme, yarayı örümceğe yormanın uygun tedaviyi geciktirebildiğini de söylüyor.",
+  "duyulan": "Derleme, yarayı örümceye yormanın uygun tedaviyi geciktirebildiğini de söylüyor.",
+  "hata": 1,
+  "sure": 4.5,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Bu yüzden yaran kötüleşiyorsa örümcektir deyip bekleme; hekime göster.",
+  "duyulan": "Bu yüzden yaran kötüleşiyorsa, örümcektir deyip bekleme, hekime göster.",
+  "hata": 0,
+  "sure": 4.24,
+  "uygun": true
  }
 }
