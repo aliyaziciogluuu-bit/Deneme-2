@@ -1,0 +1,1 @@
+iNaturalist gözlem 253992882 (API: api.inaturalist.org/v1/observations/253992882). quality_grade: research; takson: Scutigera coleoptrata (House Centipede); yer: Atatürk, 35030 Bornova/İzmir, Türkiye; konum: 38.4708036861,27.1951307729; tarih: 2024-12-02; bağlantı: https://www.inaturalist.org/observations/253992882
