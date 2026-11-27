@@ -68,5 +68,68 @@
   "hata": 0,
   "sure": 5.38,
   "uygun": true
+ },
+ "010": {
+  "yazi": "Orta Çağ'da bu hayvandan neden korkulmuş?",
+  "duyulan": "Orta çağda bu hayvandan neden korkulmuş?",
+  "hata": 0,
+  "sure": 2.16,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Antik yazılarda ve bazı Orta Çağ hayvan kitaplarında, tek bir semender ağaca sarılırsa meyveleri zehirler.",
+  "duyulan": "Antik yazılarda ve bazı ortaçağ hayvan kitaplarında tek bir semender ağaca sarılırsa meyveleri zehirler.",
+  "hata": 0,
+  "sure": 6.82,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Kuyuya düşerse suyunu içenleri zehirlermiş.",
+  "duyulan": "Kuyuya düşerse, suyunu içenleri zehirlermiş.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Korkunun bir temeli var, ama abartılmış: birçok semender tehdit edilince derisinden zehirli madde salgılıyor.",
+  "duyulan": "Korkunun bir temeli var ama abartılmış. Birçok semender tehdit edilince derisinden zehirli madde salgılıyor.",
+  "hata": 0,
+  "sure": 5.86,
+  "uygun": true
+ },
+ "014": {
+  "yazi": "Ateşte yıkanan mendil nereden çıktı?",
+  "duyulan": "Ateşte yıkanan mendil nereden çıktı?",
+  "hata": 0,
+  "sure": 2.22,
+  "uygun": true
+ },
+ "015": {
+  "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil ve gömlek yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş.",
+  "duyulan": "Osmanlı Sözlüklerinden biri, Semender Derisi'nden mendil ve gömlek yapıldığı rivayetini aktarıyor. Kirlenince ateşe atılıp temizlenirmiş.",
+  "hata": 0,
+  "sure": 7.58,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Bir derlemeye göre \"semender yününden\" denen kumaşlar gerçekte asbest kumaşıydı.",
+  "duyulan": "bir derlemeye göre semender yününden denen kumaşlar gerçekte asbest kumaşıydı.",
+  "hata": 0,
+  "sure": 4.6,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Asbest, ateşe dayanıklı kumaş yapılan lifli bir mineral; yani kumaş vardı, hayvan yoktu.",
+  "duyulan": "Asbest ateşe dayanıklı kumaş yapılan lifli bir mineral, yani kumaş vardı, hayvan yoktu.",
+  "hata": 0,
+  "sure": 5.72,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.",
+  "duyulan": "Asbest bugün sağlığa zararlı sayılıyor. Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.",
+  "hata": 0,
+  "sure": 6.1,
+  "uygun": true
  }
 }

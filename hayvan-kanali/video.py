@@ -285,14 +285,16 @@ def klipleri_hazirla(klasor: pathlib.Path):
     kx = {}
     for c in plan:  # dikeyde klibin hangi yatay bölümü alınacak (0 sol, 0,5 orta, 1 sağ)
         if c.get("klip"):  # kz: yakınlaştırma (1 = yok), ky: yakınlaştırınca hangi dikey bölüm (0 üst, 0,5 orta, 1 alt)
-            kx.setdefault(c["klip"], (c.get("kx", 0.5), max(1.0, c.get("kz", 1.0)), c.get("ky", 0.5)))
+            kx.setdefault(c["klip"], (c.get("kx", 0.5), max(1.0, c.get("kz", 1.0)), c.get("ky", 0.5), c.get("kt")))
     for ad in sorted(kx):
         hedef = gecici / f"klip_{ad}.rgb"
         if not (klasor / "klipler" / f"{ad}.mp4").exists():
             print(f"UYARI: klipler/{ad}.mp4 yok, o çekimde görsel kullanılacak")
             continue
         if not hedef.exists():
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(klasor / "klipler" / f"{ad}.mp4"), "-an", "-vf",
+            # kt: [bas, bit] sn — klibin yalnızca temiz aralığı kullanılır (denetçi ŞARTLI dediğinde)
+            aralik = ["-ss", str(kx[ad][3][0]), "-to", str(kx[ad][3][1])] if kx[ad][3] else []
+            subprocess.run(["ffmpeg", "-v", "error", "-y", *aralik, "-i", str(klasor / "klipler" / f"{ad}.mp4"), "-an", "-vf",
                             f"scale={round(G * kx[ad][1])}:{round(Y * kx[ad][1])}:force_original_aspect_ratio=increase:flags=lanczos,"
                             f"crop={G}:{Y}:(iw-{G})*{kx[ad][0]}:(ih-{Y})*{kx[ad][2]},fps={FPS}",
                             "-pix_fmt", "rgb24", "-f", "rawvideo", str(hedef)], check=True)

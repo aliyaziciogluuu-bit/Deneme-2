@@ -63,7 +63,6 @@
   {
    "n": 2,
    "gorsel": "yagmurda_semender",
-   "klip": "yagmurda_yuruyen",
    "a": [
     0.5,
     0.5,
@@ -221,7 +220,6 @@
   {
    "n": 1,
    "gorsel": "kutuk_alev_kenari",
-   "klip": "kutuk_alev",
    "a": [
     0.5,
     0.5,
@@ -278,7 +276,6 @@
   {
    "n": 2,
    "gorsel": "semender_yan_bacak",
-   "klip": "semender_yurur",
    "a": [
     0.5,
     0.5,
@@ -365,7 +362,6 @@
   {
    "n": 1,
    "gorsel": "avrupa_lekeli",
-   "klip": "avrupa_yuruyus",
    "a": [
     0.5,
     0.5,

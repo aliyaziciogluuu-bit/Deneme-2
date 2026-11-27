@@ -34,3 +34,6 @@ kutuk_alev_kenari: KABUL (aday 5: Kontext ile ayaklar yosunla örtüldü; pençe
 agac_kuyu: KABUL (aday 1: hayvansız elma ağacı + kuyu)
 eller_odun_birak: KABUL (aday 1: eldivenler 5 parmak, logo yok)
 harita_nabiz (klip): RET — Kling İç Anadolu'ya parlayan iğne ekledi (yanlış yer izlenimi); çekimde durağan görsel + yavaş yakınlaşma kullanılıyor
+# 27 Kas klip denetimi (görsel denetçi): KABUL acilis soba_alev papirus_mum agac_sis koy_sis kurbaga_nefes kertenkele_bas kis_uykusu gece_beslenme
+# RET yagmurda_yuruyen avrupa_yuruyus kutuk_alev semender_yurur(ŞARTLI) — Kling ayak parmaklarını el/pençe gibi açıyor; bu çekimlerde durağan görsel + kamera hareketi kullanılıyor
+# RET deri_salgi — 0-1 sn beyaz yığın beliriyor, baş yön değiştiriyor; sabit yakın çekim istemiyle yeniden üretiliyor
