@@ -1,10 +1,11 @@
 {
  "000": {
-  "yazi": "Engereklerin göz bebeği dikeydir, ama göz bebeği dikey olan her yılan engerek değildir; bu kedi gözlü yılan gibi.",
-  "duyulan": "Engereklerin göz bebeği dikeydir. Ama göz bebeği dikey olan her yılan engerek değildir. Bu kedi gözlü yılan gibi.",
+  "yazi": "Göz bebeği dikey olan her yılan engerek değildir; bu, kedi gözlü yılan.",
+  "duyulan": "Göz bebeği dikey olan her yılan engerek değildir. Bu kedi gözlü yılan.",
   "hata": 0,
-  "sure": 7.08,
-  "uygun": true
+  "sure": 4.94,
+  "uygun": true,
+  "tek_basina": true
  },
  "001": {
   "yazi": "Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma.",

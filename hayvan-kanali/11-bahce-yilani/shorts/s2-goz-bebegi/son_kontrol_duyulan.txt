@@ -1,6 +1,6 @@
-000 fark=0 | Engereklerin göz bebeği dikeydir, ama göz bebeği dikey olan her yılan engerek değildir; bu kedi gözlü yılan gibi. || Engereklerin göz bebeği dikeydir. Ama göz bebeği dikey olan her yılan engerek değildir. Bu kedi gözlü yılan gibi.
+000 fark=0 | Göz bebeği dikey olan her yılan engerek değildir; bu, kedi gözlü yılan. || Göz bebeği dikey olan her yılan engerek değildir. Bu kedi gözlü yılan.
 001 fark=1 | Vikipedi, onu zehirli sayılan ama tehlikeli olmayan, arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma. || Wikipedia onu zehirli sayılan ama tehlikeli olmayan arka dişli bir yılan diye anlatıyor. Yine de hiçbir yılana dokunma.
-002 fark=1 | Missouri'deki doğa koruma dairesine göre göz bebeğini görmek için çok yaklaşmak gerekir. || Misurideki doğa koruma dairesine göre göz bebeğini görmek için çok yaklaşmak gerekir.
+002 fark=1 | Missouri'deki doğa koruma dairesine göre göz bebeğini görmek için çok yaklaşmak gerekir. || Misuri'deki doğa koruma dairesine göre göz bebeğini görmek için çok yaklaşmak gerekir.
 003 fark=0 | Birçok ısırık zehirsiz yılanlardan gelir, ama hangisi olduğuna karar vermek sana düşmez. || Birçok ısırık zehirsiz yılanlardan gelir ama hangisi olduğuna karar vermek sana düşmez.
 004 fark=0 | Bize göre mesafeni koru ve yılanı izle; fotoğraf çekmek için bile yaklaşma. || Bize göre mesafeni koru ve yılanı izle. Fotoğraf çekmek için bile yaklaşma.
 005 fark=0 | Ona dokunma; yakalamaya ya da öldürmeye çalışma. || Ona dokunma. Yakalamaya ya da öldürmeye çalışma.

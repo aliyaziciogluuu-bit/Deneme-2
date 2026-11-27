@@ -57,11 +57,12 @@
   "uygun": true
  },
  "008": {
-  "yazi": "Aynı derleme, zehirliyi zehirsizden ayırmanın baştan güç olduğunu da kabul ediyor.",
-  "duyulan": "Aynı derleme, zehirliği zehirsizden ayırmanın baştan güç olduğunu da kabul ediyor.",
+  "yazi": "Aynı derleme, zehirliyi zehirsizden ayırmanın güç olduğunu da kabul ediyor.",
+  "duyulan": "Aynı derleme, zehirliği zehirsizden ayırmanın güç olduğunu da kabul ediyor.",
   "hata": 1,
-  "sure": 4.6,
-  "uygun": true
+  "sure": 4.76,
+  "uygun": false,
+  "tek_basina": true
  },
  "009": {
   "yazi": "Sarı yılanın başı boynuna göre belirgin geniş; sırtında da siyah ya da çok koyu lekeler var.",
@@ -92,11 +93,12 @@
   "uygun": true
  },
  "013": {
-  "yazi": "Boyu iki buçuk metreye kadar çıkabiliyor; Türkiye'de yaşayan en büyük yılanlardan biri.",
-  "duyulan": "Boyu 2.5 metreye kadar çıkabiliyor. Türkiye'de yaşayan en büyük yılanlardan biri.",
+  "yazi": "Sarı yılanın boyu iki buçuk metreye kadar çıkabiliyor; Türkiye'de yaşayan en büyük yılanlardan biri.",
+  "duyulan": "Sarı yılanın boyu 2,5 metreye kadar çıkabiliyor. Türkiye'de yaşayan en büyük yılanlardan biri.",
   "hata": 0,
-  "sure": 5.72,
-  "uygun": true
+  "sure": 6.54,
+  "uygun": true,
+  "tek_basina": true
  },
  "014": {
   "yazi": "Boynunda yaka olan o yılan, korkunca başka ne yapıyor?",
@@ -121,10 +123,11 @@
  },
  "017": {
   "yazi": "Peki göz bebeği dikeyse yılan engerek midir?",
-  "duyulan": "Peki göz mebeği dikeyse yılan engerek midir?",
-  "hata": 1,
-  "sure": 3.12,
-  "uygun": true
+  "duyulan": "Peki göz bebeği dikeyse yılan engerek midir?",
+  "hata": 0,
+  "sure": 3.2,
+  "uygun": true,
+  "tek_basina": true
  },
  "018": {
   "yazi": "Derleme, zehirlilerde göz bebeğinin elips, zehirsizlerde yuvarlak olduğunu yazıyor.",
@@ -255,10 +258,11 @@
  },
  "036": {
   "yazi": "Bir derleme, engerek zehirlerinin çok şiddetli etki yapabildiğini yazıyor.",
-  "duyulan": "Bir derleme, engerek sehirlerinin çok şiddetli etki yapabildiğini yazıyor.",
-  "hata": 1,
-  "sure": 3.96,
-  "uygun": true
+  "duyulan": "Bir derleme, engerek zehirlerinin çok şiddetli etki yapabildiğini yazıyor.",
+  "hata": 0,
+  "sure": 4.56,
+  "uygun": true,
+  "tek_basina": true
  },
  "037": {
   "yazi": "Rize'deki bir hastanede yapılan çalışmada, yılan ısırığıyla gelen yirmi yedi kişinin yirmi altısında ısırık ayağın üstündeydi.",
@@ -352,11 +356,11 @@
   "uygun": true
  },
  "050": {
-  "yazi": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir; önceki videomuzdaki sağır yılan da aslında bir kertenkeleydi.",
-  "duyulan": "Bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir. Önceki videomuzdaki sağır yılanda aslında bir kertenkeleydi.",
-  "hata": 0,
-  "sure": 7.84,
-  "uygun": true,
+  "yazi": "Bir şey daha: bacaksız ama göz kapağı olan bir hayvan yılan olmayabilir; kanalımızdaki sağır yılan videosunda gördüğün gibi, o da bir kertenkeleydi.",
+  "duyulan": "Bir şey daha, bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir. Kanalımızdaki sahar yılan videosunda gördüğün gibi o da bir kertenkeleydi.",
+  "hata": 1,
+  "sure": 9.5,
+  "uygun": false,
   "tek_basina": true
  },
  "051": {

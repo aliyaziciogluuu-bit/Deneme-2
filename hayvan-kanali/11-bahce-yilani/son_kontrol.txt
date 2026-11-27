@@ -1,11 +1,11 @@
-[GEÇTİ] Cümle cümle ses doğrulaması 68/68 cümle doğrulandı; large-v3 ikinci dinlemeyle: ['028']
+[GEÇTİ] Cümle cümle ses doğrulaması 66/66 cümle doğrulandı; large-v3 ikinci dinlemeyle: ['008', '028', '050']
 [GEÇTİ] Görüntü biçimi 1920x1080 30 fps h264/aac
-[GEÇTİ] Video ve ses süresi tutarlı video 342.0 sn, ses 342.0 sn
-[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.2 LUFS, tepe -1.3 dBTP
+[GEÇTİ] Video ve ses süresi tutarlı video 337.9 sn, ses 337.9 sn
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.1 LUFS, tepe -1.3 dBTP
 [GEÇTİ] Siyah kare yok 
 [GEÇTİ] Donmuş görüntü yok (4 sn+) 
-[GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 68/68 cümle birebir, toplam 21/725 kelime farkı; large-v3 ikinci dinlemeyle doğrulanan: ['026', '028', '040']
-[GEÇTİ] Altyazı zamanlaması 109 altyazı, son 339.8 sn
+[GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 66/66 cümle birebir, toplam 19/718 kelime farkı; large-v3 ikinci dinlemeyle doğrulanan: ['026', '028', '040']
+[GEÇTİ] Altyazı zamanlaması 107 altyazı, son 335.6 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 80 karakter
 [GEÇTİ] Başlık uzunluğu 60 karakter
 [GEÇTİ] Açıklama uzunluğu ve karakterleri 4946 karakter
