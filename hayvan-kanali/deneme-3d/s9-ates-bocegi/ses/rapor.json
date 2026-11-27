@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Yaz akşamı bahçede yanıp sönen ateş böceği neden parlıyor?",
+  "duyulan": "Yaz akşamı bahçede yanıp sönen ateş böceği neden parlıyor?",
+  "hata": 0,
+  "sure": 3.48,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki karnında minik bir fener taşıyor.",
+  "duyulan": "sanki karnında minik bir fener taşıyor.",
+  "hata": 0,
+  "sure": 2.22,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bu ışık, böceğin vücudundaki bir maddenin enzim ve oksijenle tepkimesinden çıkıyor.",
+  "duyulan": "Bu ışık, böceğin vücudundaki bir maddenin enzin ve oksijenle tepkimesinden çıkıyor.",
+  "hata": 1,
+  "sure": 5.02,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yetişkinlerde ışık çoğunlukla eş bulmaya yarıyor.",
+  "duyulan": "Yetişkinlerde ışık çoğunlukla eş bulmaya yarıyor.",
+  "hata": 0,
+  "sure": 2.86,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Üstelik ateş böceği larvaları da parlıyor; larvadaki ışığın yırtıcılara uyarı olduğu düşünülüyor.",
+  "duyulan": "Üstelik ateş böceği larvaları da parlıyor. Larvadaki ışığın yırtıcılara uyarı olduğu düşünülüyor.",
+  "hata": 0,
+  "sure": 5.68,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Yani o minik fener, bir tepkimeden doğan ışık.",
+  "duyulan": "Yani o minik fener bir tepkimeden doğan ışık.",
+  "hata": 0,
+  "sure": 3.42,
+  "uygun": true
+ }
+}

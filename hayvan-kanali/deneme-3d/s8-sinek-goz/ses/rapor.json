@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Sineğe elini uzattığında, neden çoğu zaman tam zamanında kaçıyor?",
+  "duyulan": "sine elini uzattığında neden çoğu zaman tam zamanında kaçıyor?",
+  "hata": 1,
+  "sure": 4.18,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sanki dünyaya senden hızlı bir kamerayla bakıyor.",
+  "duyulan": "Sanki dünyaya senden hızlı bir kamerayla bakıyor.",
+  "hata": 0,
+  "sure": 2.86,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Karasinek görüntüleri insandan çok daha hızlı işliyor; bu yüzden senin elin ona ağır çekimde geliyormuş gibi görünüyor.",
+  "duyulan": "Karasinek görüntüleri insandan çok daha hızlı işliyor. Bu yüzden senin elin ona ağır çekimde geliyormuş gibi görünüyor.",
+  "hata": 0,
+  "sure": 6.58,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Başında iki büyük petek göz, ayrıca üç küçük basit göz var.",
+  "duyulan": "Başında iki büyük petek göz, ayrıca üç küçük basit göz var.",
+  "hata": 0,
+  "sure": 3.92,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "İşte sineğin elinden kaçabilmesinin bir sebebi bu.",
+  "duyulan": "İşte sineğin elinden kaçabilmesinin bir sebebi bu.",
+  "hata": 0,
+  "sure": 2.96,
+  "uygun": true
+ }
+}

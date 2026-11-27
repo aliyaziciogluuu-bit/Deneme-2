@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Koluna konan işçi bal arısı seni sokunca neden ölüyor?",
+  "duyulan": "Koluna konan işçi bal arısı seni sokunca neden ölüyor?",
+  "hata": 0,
+  "sure": 3.28,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "İşçi bal arısının iğnesi, kancalı bir olta ucu gibi dikenli.",
+  "duyulan": "İşçi bal arısının iğnesi kancalı bir oltu ucu gibi dikenli.",
+  "hata": 1,
+  "sure": 3.66,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Deriye saplanınca geri çıkmıyor; iğne arının karnından kopuyor.",
+  "duyulan": "Deriye saplanınca geri çıkmıyor, iğne arının karnından kopuyor.",
+  "hata": 0,
+  "sure": 4.14,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Kopan iğnenin kas ve sinir düğümü var; arıdan ayrılsa da zehir vermeyi sürdürüyor.",
+  "duyulan": "Kopan iğnenin kas ve sinir düğümü var, arıdan ayrılsa da zehir vermeyi sürdürüyor.",
+  "hata": 0,
+  "sure": 4.92,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Sokulursan, nefes darlığı ya da yüzde ya da boğazda şişme olursa, vakit kaybetmeden sağlık kuruluşuna başvur.",
+  "duyulan": "Sokulursan, nefes darlığı ya da yüzde ya da boğazda şişme olursa, vakit kaybetmeden sağlık kuruluşuna başvur.",
+  "hata": 0,
+  "sure": 6.88,
+  "uygun": true
+ }
+}
