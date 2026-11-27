@@ -7,6 +7,7 @@ Cümle başı ses riski: "Bahçedeki", "Koluna", "Sineğe", "Karanlık", "Yaz", 
 
 ## S1 – Salyangoz Nasıl Yemek Yiyor? 🐌
 
+- Durum: ONAY (bilgi kontrolü)
 - Başlık: Salyangoz Nasıl Yemek Yiyor? 🐌
 - Kelime: 48; cümle: 6; tahmini süre ≈ 21 sn
 - Kapsam: karından bacaklılar (salyangozlar ve bazı sümüklüböcekler) ve beslenmelerindeki radula; tek bir tür adı verilmiyor. Diş sayısı yazılmadı (türe göre değişiyor, doğrulanamadı).
@@ -38,68 +39,73 @@ Kaynaklar ve cümle eşlemesi:
   - Cümle: 5
   - Kaynakta geçen ifade: "They are slowly brought forward to the tip by a slow forward movement of the ribbon, to be replaced in their turn when they are worn out." (dişler radula kesesinde, ağız boşluğunun arka ucunda üretilir)
 
-## S2 – Bal Arısı Sokunca Neden Ölüyor? 🐝
+## S2 – İşçi Bal Arısı Sokunca Neden Ölüyor? 🐝
 
-- Başlık: Bal Arısı Sokunca Neden Ölüyor? 🐝
-- Kelime: 53; cümle: 5; tahmini süre ≈ 23 sn
+- Durum: bilgi kontrolü 2. tur bekliyor
+- Başlık: İşçi Bal Arısı Sokunca Neden Ölüyor? 🐝
+- Kelime: 55; cümle: 5; tahmini süre ≈ 24 sn
 - Kapsam: işçi bal arısı (Apis mellifera) ve memeli derisine saplanan iğne. Kraliçenin iğnesi dikenli değil; başka arı ve yaban arısı türleri için genelleme yok.
 - Üst yazı: ARI İĞNESİ
-- Açıklama ilk satırı: Bal arısı iğnesi kancalı olduğu için işçi arı sokunca ölüyor.
+- Açıklama ilk satırı: İşçi bal arısı iğnesi kancalı olduğu için sokunca ölüyor.
 - İlgili uzun video: yok
-- Açıklama notu (konuşulmaz): "Sokulduktan sonra şişme, nefes darlığı ya da kötüleşen belirti olursa vakit kaybetmeden sağlık kuruluşuna başvur; kararı doktora bırak." Bu genel yönlendirmedir; bilgi kontrolcüsü uygunluğunu onaylasın (kaynaksız kesin tıbbi hüküm yok).
 
 Metin:
-1. Koluna konan bal arısı seni soktuğunda, neden kendisi de ölüyor?
+1. Koluna konan işçi bal arısı seni sokunca neden ölüyor?
 2. İşçi bal arısının iğnesi, kancalı bir olta ucu gibi dikenli.
-3. Deriye saplanınca geri çıkmıyor; arı uçup giderken iğne karnından kopuyor.
-4. Kopan iğnenin kendi kasları ve sinir düğümü var; arıdan ayrılsa da zehir vermeyi sürdürüyor.
-5. Yani işçi bal arısının ölümüne, iğnesinin kancaları yol açıyor.
+3. Deriye saplanınca geri çıkmıyor; iğne arının karnından kopuyor.
+4. Kopan iğnenin kas ve sinir düğümü var; arıdan ayrılsa da zehir vermeyi sürdürüyor.
+5. Sokulursan, nefes darlığı ya da yüzde ve boğazda şişme olursa, vakit kaybetmeden sağlık kuruluşuna başvur.
 
 3D görsel fikri (her cümle için bir sahne):
-1. Koluna konmuş bal arısı, yakın plan (insan kolu stilize, yüz yok).
+1. Koluna konmuş işçi bal arısı, yakın plan (kol stilize, yüz yok).
 2. İğnenin yan görünüşü: dikenli, kancalı uç (olta ucu görünümü, tek iğne).
-3. İğne deriye saplanmış, arı geriye çekiliyor (ayaksız, karın ve iğne odakta).
-4. Kopmuş iğne kasılarak zehir damlatıyor; iğnenin yanında minik kas ve sinir düğümü şeması.
-5. Kanca ucunun büyük yakın planı, kamera ilk kareye geri sarar (döngü).
+3. İğne deriye saplanmış, arının karnından kopuyor (ayaksız, karın ve iğne odakta).
+4. Kopan iğne kasılarak zehir damlatıyor; yanında minik kas ve sinir düğümü şeması.
+5. Sakin bir sağlık kuruluşu tabelası ya da kapı, ışıklı (Türkçe yazı, kısa); kamera çekilir.
 
 Kaynaklar ve cümle eşlemesi:
 - Vikipedi – Honey bee (İngilizce), açıldı: https://en.wikipedia.org/wiki/Honey_bee
-  - Cümle: 2, 3, 4, 5, 1
+  - Cümle: 1, 2, 3, 4
   - Kaynakta geçen ifade: "The stings of honey bees are barbed and therefore embed themselves into the sting site, and the sting apparatus has its own musculature and ganglion which keep delivering venom even after detachment." ve "The worker dies after the sting becomes lodged and is subsequently torn loose from the bee's abdomen." ve "The sting of queens is not barbed like a worker's sting"
+- Cümle 5 (güvenlik): —
+  - Cümle: 5
+  - Kaynakta geçen ifade: Bilgi iddiası değil, yönlendirme: kesin tıbbi hüküm yok; kararı sağlık kuruluşuna bırakır. Kaynak: denetçi önerisi; bilgi kontrolcüsü doğrulasın.
 
-## S3 – Karasinek Elinden Nasıl Hep Kaçıyor? 🪰
+## S3 – Karasinek Elinden Nasıl Kaçıyor? 🪰
 
-- Başlık: Karasinek Elinden Nasıl Hep Kaçıyor? 🪰
-- Kelime: 49; cümle: 5; tahmini süre ≈ 21 sn
-- Kapsam: karasinek (Musca domestica). Görüntü işleme hızı "yaklaşık" ve insana göre; diğer sinek türlerine genelleme yok. Gözlerdeki petek göz sayısı (ommatidium) yazılmadı.
+- Durum: bilgi kontrolü 2. tur bekliyor
+- Başlık: Karasinek Elinden Nasıl Kaçıyor? 🪰
+- Kelime: 51; cümle: 5; tahmini süre ≈ 22 sn
+- Kapsam: karasinek (Musca domestica). İnsana göre "çok daha hızlı" görüntü işleme; sayısal oran yazılmadı. Diğer sinek türlerine genelleme yok.
 - Üst yazı: SİNEK GÖZÜ
-- Açıklama ilk satırı: Karasinek, görüntüleri senden yaklaşık yedi kat hızlı işliyor.
+- Açıklama ilk satırı: Karasinek, görüntüleri insandan çok daha hızlı işliyor.
 - İlgili uzun video: yok
 
 Metin:
-1. Sineğe elini her uzattığında, neden tam zamanında kaçıyor?
+1. Sineğe elini uzattığında, neden çoğu zaman tam zamanında kaçıyor?
 2. Sanki dünyaya senden hızlı bir kamerayla bakıyor.
-3. Karasinek görüntüleri insandan yaklaşık yedi kat hızlı işliyor; bu yüzden senin elin ona ağır çekimde geliyor.
+3. Karasinek görüntüleri insandan çok daha hızlı işliyor; bu yüzden senin elin ona ağır çekimde geliyormuş gibi görünüyor.
 4. Başında iki büyük petek göz, ayrıca üç küçük basit göz var.
-5. İşte sineğin tam zamanında kaçmasının sırrı bu.
+5. İşte sineğin elinden kaçabilmesinin bir sebebi bu.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Tezgâhta duran karasinek, ona doğru uzanan stilize bir el (yüz yok).
 2. Sineğin gözünden bakış: hızlı sarılan film şeridi gibi kareler (kamera benzetmesi).
 3. El ağır çekimde yaklaşıyor, sinek hazır bekliyor; hareket çizgileri.
 4. Sineğin başının yakın planı: iki büyük kırmızı petek göz, ayrıca üç küçük basit göz parlıyor (ayaklar kadraj dışı).
-5. Sinek tam zamanında havalanıyor, el boşa kalıyor; kamera başa sarar (döngü).
+5. Sinek havalanıyor, el boşa kalıyor; kamera başa sarar (döngü).
 
 Kaynaklar ve cümle eşlemesi:
 - Vikipedi – Housefly (İngilizce), açıldı: https://en.wikipedia.org/wiki/Housefly
-  - Cümle: 2, 3, 4, 5
-  - Kaynakta geçen ifade: "The pair of large compound eyes almost touch in the male, but are more widely separated in the female. They have three simple eyes (ocelli) and a pair of short antennae." ve "Houseflies process visual information around seven times more quickly than humans, enabling them to identify and avoid attempts to catch or swat them, since they effectively see the human's movements in slow motion"
+  - Cümle: 1, 3, 5, 4
+  - Kaynakta geçen ifade: "Houseflies process visual information around seven times more quickly than humans, enabling them to identify and avoid attempts to catch or swat them, since they effectively see the human's movements in slow motion" (metinde yalnızca "çok daha hızlı"; "yaklaşık yedi kat" yazılmadı); "The pair of large compound eyes … They have three simple eyes (ocelli)"
 - Vikipedi – Karasinek (Türkçe), açıldı: https://tr.wikipedia.org/wiki/Ev_sine%C4%9Fi
-  - Cümle: 1, 4
+  - Cümle: kapsam, 4
   - Kaynakta geçen ifade: "Karasinek ( Musca domestica ), iki kanatlılar (Diptera) takımının Muscidae familyasından böcek türü"; "kırmızı birleşik göz ya da petek göz (oculi compositi)"
 
 ## S4 – Sivrisinek Seni Karanlıkta Nasıl Buluyor? 🦟
 
+- Durum: ONAY (bilgi kontrolü; "sahibini" → "seni")
 - Başlık: Sivrisinek Seni Karanlıkta Nasıl Buluyor? 🦟
 - Kelime: 51; cümle: 5; tahmini süre ≈ 22 sn
 - Kapsam: kan emen dişi sivrisinekler, genel olarak; tür ve yumurta için kan ihtiyacı türe göre değişiyor (metinde "bazı türlerde"). Erkeğin ne yaptığı söylenmedi.
@@ -128,9 +134,10 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S5 – Ateş Böceği Neden Parlıyor? ✨
 
+- Durum: bilgi kontrolü 2. tur bekliyor
 - Başlık: Ateş Böceği Neden Parlıyor? ✨
-- Kelime: 49; cümle: 6; tahmini süre ≈ 21 sn
-- Kapsam: ateş böcekleri (Lampyridae familyası) genel olarak; ışığın yetişkinde ne işe yaradığı (eş bulma) söylenmedi çünkü gündüz uçan ve ışıksız türler var. "Bütün larvalar parlar" bilgisi Vikipedi İngilizce maddesindeki üç kaynağa dayanıyor; bilgi kontrolcüsü birincil kaynakla (ör. Lewis ve Cratsley) doğrulasın.
+- Kelime: 52; cümle: 6; tahmini süre ≈ 23 sn
+- Kapsam: ateş böcekleri (Lampyridae familyası) genel olarak; yetişkinde ışık "çoğunlukla" eş bulmaya yarıyor (gündüz uçan ve ışıksız türler var). Larva ışığının uyarı olduğu "düşünülüyor" diye çekinceli yazıldı.
 - Üst yazı: ATEŞ BÖCEĞİ
 - Açıklama ilk satırı: Ateş böceğinin ışığı kimyasal bir tepkimeden geliyor; larvaları da parlıyor.
 - İlgili uzun video: yok
@@ -138,59 +145,55 @@ Kaynaklar ve cümle eşlemesi:
 Metin:
 1. Yaz akşamı bahçede yanıp sönen ateş böceği neden parlıyor?
 2. Sanki karnında minik bir fener taşıyor.
-3. Bu ışık, ateş böceğinin ürettiği iki maddenin oksijenle tepkimesinden çıkıyor.
-4. Üstelik bütün ateş böcekleri larvalıkta bile parlıyor.
-5. Bu ışık, yırtıcılara beni yeme diyen bir uyarı sayılıyor.
-6. Yani o minik fener, bir tepkimeyle yanan uyarı.
+3. Bu ışık, böceğin vücudundaki bir maddenin enzim ve oksijenle tepkimesinden çıkıyor.
+4. Yetişkinlerde ışık çoğunlukla eş bulmaya yarıyor.
+5. Üstelik ateş böceği larvaları da parlıyor; larvadaki ışığın yırtıcılara uyarı olduğu düşünülüyor.
+6. Yani o minik fener, bir tepkimeden doğan ışık.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Yaz akşamı bahçe, çimde yanıp sönen ateş böceği, loş mavi gökyüzü.
 2. Böceğin karın ucunda küçük fener gibi ışıyan bölge, yakın plan (ayaklar kadraj dışı).
-3. İki parlak damla birleşiyor, etrafında oksijen baloncukları (şematik tepkime).
-4. Toprakta parlayan larva (ayaksız yakın plan, böcek değil larva).
-5. Larvanın yanından geçen yırtıcı kuş silueti geri çekiliyor (kuş gövdesi yarım, gaga/diş yok).
-6. Aynı böcek yeniden yanıp sönüyor; kamera ilk kareye döner (döngü).
+3. Bir damla, enzim ve oksijen baloncuklarıyla birleşip ışık veriyor (şematik tepkime).
+4. İki ateş böceği karşılıklı yanıp sönüyor (ayaklar kadraj dışı).
+5. Toprakta parlayan larva (ayaksız yakın plan), yanından geçen kuş silueti geri çekiliyor (gaga/diş yok).
+6. Minik fener yakın planı, kamera ilk kareye döner (döngü).
 
 Kaynaklar ve cümle eşlemesi:
 - Vikipedi – Firefly (İngilizce), açıldı: https://en.wikipedia.org/wiki/Firefly
-  - Cümle: 2, 3, 4, 5
-  - Kaynakta geçen ifade: "All fireflies glow as larvae, where bioluminescence is an aposematic warning signal to predators." ve "Light production in fireflies is due to the chemical process of bioluminescence … These fireflies produce the enzyme firefly luciferase that acts on another compound produced by fireflies, firefly luciferin. In the presence of magnesium ions, ATP, and oxygen, this reaction produces light." ve "light-emitting organs … usually located on a female firefly's lower abdomen"
+  - Cümle: 2, 3, 4, 5, 6
+  - Kaynakta geçen ifade: "Light production in fireflies is due to the chemical process of bioluminescence … firefly luciferase that acts on another compound produced by fireflies, firefly luciferin. In the presence of magnesium ions, ATP, and oxygen, this reaction produces light." ; "light … to attract mates" ; "All fireflies glow as larvae, where bioluminescence is an aposematic warning signal to predators." ; "Light production … is thought to have originated as a warning signal that the larvae were distasteful."
 
 ## S6 – Çıyanın Kaç Ayağı Var? 🐛
 
+- Durum: bilgi kontrolü 2. tur bekliyor
 - Başlık: Çıyanın Kaç Ayağı Var? 🐛
-- Kelime: 54; cümle: 5; tahmini süre ≈ 23 sn
-- Kapsam: çıyanlar (Chilopoda; İngilizce centipede). Türkçede kırkayak denen Diplopoda (İngilizce millipede) farklı bir gruptur, metinde geçmiyor. Bacak çifti sayısı türe göre değişiyor; sayı yazılmadı.
+- Kelime: 55; cümle: 4; tahmini süre ≈ 24 sn
+- Kapsam: çıyanlar (Chilopoda; İngilizce centipede), "bilinen çıyanlarda" bacak çifti sayısı hep tek. Türkçede kırkayak denen Diplopoda (millipede) farklı bir gruptur, metinde geçmiyor. Sayı yazılmadı.
 - Üst yazı: ÇIYAN BACAĞI
-- Açıklama ilk satırı: Çıyanın bacak çifti sayısı hep tek; ön bacağı zehir kıskacına dönüşmüş.
+- Açıklama ilk satırı: Çıyanın bacak çiftlerinin sayısı hep tek; öndeki bacak çifti zehir kıskacına dönüşmüş.
 - İlgili uzun video: yok
-- Açıklama notu (konuşulmaz): "Çıyan ısırmasında şişme, şiddetli ağrı ya da kötüleşen belirti olursa sağlık kuruluşuna başvur; kararı doktora bırak." Genel yönlendirmedir; bilgi kontrolcüsü onaylasın.
 
 Metin:
-1. Bahçede taşın altından fırlayan çıyanın kaç ayağı var, hiç saydın mı?
-2. Gövdesi vagon dizisine benziyor; çoğunda bir çift bacak var.
-3. Bacak çiftlerinin sayısı hep tek; bu yüzden hiçbir çıyanın tam yüz bacağı olmaz.
-4. En öndeki bir çift bacak ayrıca zehir kıskacına dönüşmüş.
-5. Yani çıyanın ayak sayısı türe göre değişiyor, ama çift sayısı hep tek.
+1. Taşın altından fırlayan çıyanın kaç bacağı var?
+2. Gövdesi vagon dizisi gibi; çoğu bölümde bir çift bacak var.
+3. Bilinen çıyanlarda bacak çiftlerinin sayısı hep tek; bu yüzden hiçbir çıyanın tam yüz bacağı olmaz.
+4. Öndeki bacak çifti zehir kıskacına dönüşmüş; ısırık çocuklarda ve arı alerjisi olanlarda tehlikeli olabilir; nefes darlığı ya da ağır belirtide sağlık kuruluşuna başvur.
 
 3D görsel fikri (her cümle için bir sahne):
-1. Bahçede kaldırılmış taşın altında çıyan, orta mesafe (stilize, yan görünüm).
-2. Gövde dilimleri vagon dizisi gibi, her vagonda tek çift bacak (bacaklar simetrik, çok bacaklı hayvan olduğu için ayak parmakları belirgin değil).
-3. Bacak çiftleri tek tek sayılıyor, ışıklı noktalar yanıyor; toplam çift sayısı hep tek (rakam yazısı yok).
-4. En öndeki bacak çifti parlayıp kıskaca dönüşüyor (yakın plan baş).
-5. Başka bir çıyan, daha uzun ya da kısa gövde; çift sayısı yine tek (rakam yok); kamera ilk kareye döner (döngü).
+1. Bahçede kaldırılmış taşın altında çıyan, orta mesafe, yan görünüm.
+2. Gövde dilimleri vagon dizisi gibi, her bölümde tek çift bacak (simetrik).
+3. Bacak çiftleri tek tek sayılıyor, ışıklı noktalar yanıyor; çift sayısı tek (rakam yazısı yok).
+4. Öndeki bacak çifti parlayıp kıskaca dönüşüyor (yakın plan baş), sonra sakin bir sağlık kuruluşu kapısı (Türkçe yazı, kısa).
 
 Kaynaklar ve cümle eşlemesi:
 - Vikipedi – Centipede (İngilizce), açıldı: https://en.wikipedia.org/wiki/Centipede
-  - Cümle: 2, 3, 4, 5
-  - Kaynakta geçen ifade: "Despite the name, no species of centipede has exactly 100 legs; the number of pairs of legs is an odd number that ranges from 15 pairs to 191 pairs." ve "the total number of pairs is always odd, so there are never exactly 100 legs" ve "forcipules or toxicognaths, which are actually modified front legs instead of fangs" ve "Most of the segments bear a single pair of legs"
+  - Cümle: 1, 2, 3, 4
+  - Kaynakta geçen ifade: "Despite the name, no species of centipede has exactly 100 legs; the number of pairs of legs is an odd number that ranges from 15 pairs to 191 pairs." ; "the total number of pairs is always odd, so there are never exactly 100 legs" ; "Most of the segments bear a single pair of legs" ; "forcipules or toxicognaths, which are actually modified front legs instead of fangs" ; "centiped bites can be dangerous to small children and those with allergies to bee stings. The venomous bite of larger centipedes can induce anaphylactic shock in such people."
 - Vikipedi – Çıyan (Türkçe), açıldı: https://tr.wikipedia.org/wiki/%C3%87%C4%B1yan
   - Cümle: kapsam
-  - Kaynakta geçen ifade: Çıyan = Chilopoda sınıfı; çok bacaklıların kırkayaklardan (Diplopoda) ayrımı (kapsam satırı için)
+  - Kaynakta geçen ifade: Çıyan = Chilopoda sınıfı; kırkayaklardan (Diplopoda) ayrım (kapsam satırı için)
 
-## Çekinceler ve emin olunmayanlar
-- Salyangoz cümle 3 (törpü) ve S4 cümle 2 (fener), S5 cümle 2 (fener), S6 cümle 2 (vagon) benzetmedir, bilgi iddiası değildir. S1 cümle 4 "küçük kazıyıcı" Türkçe Vikipedi'den.
-- S3 "yaklaşık yedi kat": İngilizce Vikipedi cümlesi, kaynağı (Healy ve ark.) ayrıca açılmadı; denetçi birincil kaynağı doğrulasın ya da cümle "yaklaşık" ile kalsın, doğrulanamazsa cümleden çıkarılıp yerine petek göz bilgisi genişletilsin.
-- S5 "bütün ateş böcekleri larvalıkta parlıyor" tek maddeye (üç dipnotlu) dayanıyor; doğrulanamazsa "ateş böceği larvaları da parlıyor" biçimine yumuşatılır.
-- S2 ve S6 güvenlik notları açıklamada, konuşmada değil; kesin tıbbi hüküm yok.
-- Karınca, kedi bıyığı ve kırkayak (Diplopoda) bu turda yazılmadı; karınca için feromon izi kaynağı açılmadı.
+## Çekinceler
+- Benzetmeler (törpü, fener, vagon, kamera) bilgi iddiası değildir.
+- S2 ve S6'nın güvenlik cümleleri konuşmaya girdi; kesin tıbbi hüküm yok, karar sağlık kuruluşuna bırakılıyor.
+- Karınca, kedi bıyığı ve Diplopoda kırkayak bu turda yazılmadı.
