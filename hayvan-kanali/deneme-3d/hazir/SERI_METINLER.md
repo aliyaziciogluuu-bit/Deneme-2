@@ -558,7 +558,7 @@ Metin:
 3. Bir süre damlaya yapışıp aşağı sürükleniyor.
 4. Sonra yana kayıp uçmaya devam ediyor.
 5. Asıl tehlike yağmur değil, zemin.
-6. Çünkü damladan ayrılmaya yeri kalmıyor.
+6. Yere yakın uçarsa damladan ayrılacak yer kalmıyor.
 
 Kaynaklar ve cümle eşlemesi:
 - PNAS 2012 Dickerson ve ark. (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC3382494
@@ -609,7 +609,7 @@ Metin:
 3. Bir gekoda kuyruk, önceden ayrılmış noktalardan kopuyor.
 4. Ama bedeli ağır: kuyruk hareket ve yağ depolamaya yarıyor.
 5. Bu yüzden kertenkeleyi asla kuyruğundan tutma.
-6. Peki kopan kuyruğun yerine ne çıkıyor?
+6. Ya kopan kuyruğun yerine ne çıkıyor?
 
 Kaynaklar ve cümle eşlemesi:
 - PLoS ONE 2012, lizard tail autotomy (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC3526639
@@ -666,7 +666,7 @@ Metin:
 3. Seçilen larva, bol arı sütüyle besleniyor.
 4. İşçiler mümkünse en genç larvaları seçiyor.
 5. Bir günlük larvadan çıkan kraliçe, daha çok işçi çekiyor.
-6. Peki genç larva kalmamışsa?
+6. Ya genç larva kalmamışsa?
 
 Kaynaklar ve cümle eşlemesi:
 - PMC11171287, kraliçe aday seçimi, açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC11171287
@@ -750,10 +750,10 @@ Kaynaklar ve cümle eşlemesi:
 Metin:
 1. Bal arısı dans ederek adres tarif ediyor.
 2. Dans, sekiz şeklinde bir yol çiziyor.
-3. Açı, çiçeğin Güneş'e göre yönünü anlatıyor.
+3. Dansın açısı, çiçeğin Güneş'e göre yönünü anlatıyor.
 4. Uzun sallanma, uzak çiçek demek.
 5. Dansı izleyen bazı arılar o çiçeğe uçuyor.
-6. Peki karanlık kovanda Güneş'i nasıl biliyorlar?
+6. Ama karanlık kovanda Güneş'i nasıl biliyorlar?
 
 Kaynaklar ve cümle eşlemesi:
 - Insects 2019, Waggle dance nöroetolojisi (PMC), açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826
@@ -801,10 +801,10 @@ Kaynaklar ve cümle eşlemesi:
 Metin:
 1. Kurbağa, suyu ağzıyla içmiyor; derisiyle alıyor.
 2. Birçok kurbağa, karnının alt derisinden suyu hızla emiyor.
-3. Orası, damarlarla dolu özel bir bölge.
+3. Bu bölge, damarlarla dolu.
 4. Kurbağalar, çoğu kara hayvanından hızlı su kaybediyor.
 5. Bu yüzden kurbağayı ıslak yerinde rahat bırak.
-6. Peki derisi başka neler yapıyor?
+6. Ya derisi başka neler yapıyor?
 
 Kaynaklar ve cümle eşlemesi:
 - PMC8831224, kurbağalarda su alışverişi, açıldı: https://pmc.ncbi.nlm.nih.gov/articles/PMC8831224

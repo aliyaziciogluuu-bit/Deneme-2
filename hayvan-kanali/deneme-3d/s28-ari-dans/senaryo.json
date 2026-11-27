@@ -1,52 +1,52 @@
 {
-  "dikey": true,
-  "baslik": "Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝 #shorts",
-  "aciklama": "Başarılı bir işçi bal arısı, kovana dönünce sekiz şeklinde bir sallanma dansı yaparak çiçeğin yönünü ve uzaklığını arkadaşlarına bildiriyor: sallanma yolunun açısı çiçeğin Güneş'e göre yönünü, sallanmanın süresi uzaklığı anlatıyor. Dansı izleyen arıların bir kısmı o çiçeğe uçuyor. Hakemli derleme: Insects 2019.\n\n#shorts #şaşırtıcı #doğa #avludakikomşular",
-  "etiketler": [
-    "bal arısı",
-    "arı dansı",
-    "sallanma dansı",
-    "arılar nasıl haberleşir",
-    "shorts",
-    "doğa"
-  ],
-  "ust_yazi": [
-    "ARININ",
-    "DANSI"
-  ],
-  "kapsam": "bal arısı (Apis mellifera) sallanma dansı; yön Güneş'e göre, mesafe sallanma süresine bağlı; 'bazı arılar' (kaynakta 'some of them may be recruited'); mesafe oranı/sayı yazılmadı.",
-  "kaynaklar": [
-    "Neuroethology of the Waggle Dance, Insects 2019 (PMC6835826): https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826",
-    "Wikipedia – Waggle dance (ikincil, sekiz şekli): https://en.wikipedia.org/wiki/Waggle_dance"
-  ],
-  "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
-  "altyazi_stili": "kelime",
-  "muzik": "lyria_hayret",
-  "ilk_kare": "Karanlık petek yüzeyinde bir bal arısı sekiz çizen sallanma dansı yapıyor, çevresinde onu izleyen arılar halka olmuş; dansçının izi parlayan ışıklı bir sekiz şekli.",
-  "tur": "yetenek",
-  "sahneler": [
+ "dikey": true,
+ "baslik": "Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝 #shorts",
+ "aciklama": "Başarılı bir işçi bal arısı, kovana dönünce sekiz şeklinde bir sallanma dansı yaparak çiçeğin yönünü ve uzaklığını arkadaşlarına bildiriyor: sallanma yolunun açısı çiçeğin Güneş'e göre yönünü, sallanmanın süresi uzaklığı anlatıyor. Dansı izleyen arıların bir kısmı o çiçeğe uçuyor. Hakemli derleme: Insects 2019.\n\n#shorts #şaşırtıcı #doğa #avludakikomşular",
+ "etiketler": [
+  "bal arısı",
+  "arı dansı",
+  "sallanma dansı",
+  "arılar nasıl haberleşir",
+  "shorts",
+  "doğa"
+ ],
+ "ust_yazi": [
+  "ARININ",
+  "DANSI"
+ ],
+ "kapsam": "bal arısı (Apis mellifera) sallanma dansı; yön Güneş'e göre, mesafe sallanma süresine bağlı; 'bazı arılar' (kaynakta 'some of them may be recruited'); mesafe oranı/sayı yazılmadı.",
+ "kaynaklar": [
+  "Neuroethology of the Waggle Dance, Insects 2019 (PMC6835826): https://pmc.ncbi.nlm.nih.gov/articles/PMC6835826",
+  "Wikipedia – Waggle dance (ikincil, sekiz şekli): https://en.wikipedia.org/wiki/Waggle_dance"
+ ],
+ "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
+ "altyazi_stili": "kelime",
+ "muzik": "lyria_hayret",
+ "ilk_kare": "Karanlık petek yüzeyinde bir bal arısı sekiz çizen sallanma dansı yapıyor, çevresinde onu izleyen arılar halka olmuş; dansçının izi parlayan ışıklı bir sekiz şekli.",
+ "tur": "yetenek",
+ "sahneler": [
+  {
+   "ad": "Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝 #shorts",
+   "cumleler": [
     {
-      "ad": "Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝 #shorts",
-      "cumleler": [
-        {
-          "yazi": "Bal arısı dans ederek adres tarif ediyor."
-        },
-        {
-          "yazi": "Dans, sekiz şeklinde bir yol çiziyor."
-        },
-        {
-          "yazi": "Açı, çiçeğin Güneş'e göre yönünü anlatıyor."
-        },
-        {
-          "yazi": "Uzun sallanma, uzak çiçek demek."
-        },
-        {
-          "yazi": "Dansı izleyen bazı arılar o çiçeğe uçuyor."
-        },
-        {
-          "yazi": "Peki karanlık kovanda Güneş'i nasıl biliyorlar?"
-        }
-      ]
+     "yazi": "Bal arısı dans ederek adres tarif ediyor."
+    },
+    {
+     "yazi": "Dans, sekiz şeklinde bir yol çiziyor."
+    },
+    {
+     "yazi": "Dansın açısı, çiçeğin Güneş'e göre yönünü anlatıyor."
+    },
+    {
+     "yazi": "Uzun sallanma, uzak çiçek demek."
+    },
+    {
+     "yazi": "Dansı izleyen bazı arılar o çiçeğe uçuyor."
+    },
+    {
+     "yazi": "Ama karanlık kovanda Güneş'i nasıl biliyorlar?"
     }
-  ]
+   ]
+  }
+ ]
 }
