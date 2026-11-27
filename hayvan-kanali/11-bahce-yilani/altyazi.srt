@@ -99,329 +99,329 @@ Bir ansiklopedi, zehir dişi olmadığını
 ve savunmada nadiren ısırdığını yazıyor.
 
 26
-00:01:19,602 --> 00:01:22,968
+00:01:19,602 --> 00:01:23,048
 Peki göz bebeği dikeyse yılan engerek midir?
 
 27
-00:01:23,072 --> 00:01:25,695
+00:01:23,152 --> 00:01:25,775
 Derleme, zehirlilerde göz bebeğinin elips,
 
 28
-00:01:25,695 --> 00:01:28,438
+00:01:25,775 --> 00:01:28,518
 zehirsizlerde yuvarlak olduğunu yazıyor.
 
 29
-00:01:28,542 --> 00:01:31,129
+00:01:28,622 --> 00:01:31,209
 Ama kedi gözlü yılanın göz bebeği dikey
 
 30
-00:01:31,129 --> 00:01:34,028
+00:01:31,209 --> 00:01:34,108
 ve yarık biçimli; adını da oradan almış.
 
 31
-00:01:34,133 --> 00:01:37,270
+00:01:34,212 --> 00:01:37,350
 Vikipedi, onu zehirli sayılan ama tehlikeli olmayan,
 
 32
-00:01:37,270 --> 00:01:41,558
+00:01:37,350 --> 00:01:41,638
 arka dişli bir yılan diye anlatıyor; yine de hiçbir yılana dokunma.
 
 33
-00:01:41,663 --> 00:01:43,468
+00:01:41,742 --> 00:01:43,548
 Kırsal bahçelerde de bulunabiliyor.
 
 34
-00:01:43,572 --> 00:01:47,698
+00:01:43,652 --> 00:01:47,778
 Üstelik göz bebeğinin biçimini görecek kadar yakına gitmek akıllıca mı?
 
 35
-00:01:47,803 --> 00:01:51,060
+00:01:47,883 --> 00:01:51,140
 Missouri'deki doğa koruma dairesi, göz bebeğini görmek için
 
 36
-00:01:51,060 --> 00:01:54,728
+00:01:51,140 --> 00:01:54,808
 çoğu insanın istemeyeceği kadar yaklaşmak gerektiğini yazıyor.
 
 37
-00:01:54,833 --> 00:01:59,003
+00:01:54,913 --> 00:01:59,083
 Yani ölçüt doğru olsa bile, güvenli mesafeden işine yaramıyor.
 
 38
-00:01:59,602 --> 00:02:03,088
+00:01:59,682 --> 00:02:03,168
 Peki Türkiye'de gerçekten tehlikeli olanlar hangileri?
 
 39
-00:02:03,193 --> 00:02:05,522
+00:02:03,273 --> 00:02:05,602
 Bir derleme, en sık karşılaşılan zehirli
 
 40
-00:02:05,522 --> 00:02:08,038
+00:02:05,602 --> 00:02:08,118
 yılanların engerekler olduğunu yazıyor.
 
 41
-00:02:08,143 --> 00:02:11,126
+00:02:08,222 --> 00:02:11,206
 Boynuzlu engerekte sırtta koyu zikzak desen var;
 
 42
-00:02:11,126 --> 00:02:14,728
+00:02:11,206 --> 00:02:14,808
 burun ucunda yukarı bakan küçük bir çıkıntı bulunuyor.
 
 43
-00:02:14,832 --> 00:02:17,928
+00:02:14,912 --> 00:02:18,008
 Şeritli engereğin bir adı da Osmanlı engereği;
 
 44
-00:02:17,928 --> 00:02:22,278
+00:02:18,008 --> 00:02:22,358
 sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.
 
 45
-00:02:22,383 --> 00:02:25,452
+00:02:22,462 --> 00:02:25,532
 Koca engerek, bir derlemeye göre Türkiye'de yaşayan
 
 46
-00:02:25,452 --> 00:02:29,308
+00:02:25,532 --> 00:02:29,388
 yılanların en zehirlisi; boyu iki metreye kadar çıkabiliyor.
 
 47
-00:02:29,413 --> 00:02:33,978
+00:02:29,492 --> 00:02:34,058
 Vikipedi onun ovalarda, bahçelerde ve tarlalarda yaşadığını yazıyor.
 
 48
-00:02:34,082 --> 00:02:36,228
+00:02:34,162 --> 00:02:36,308
 Hangisi senin yörende yaşıyor?
 
 49
-00:02:36,332 --> 00:02:40,172
+00:02:36,412 --> 00:02:40,252
 Boynuzlu engerek, bir tıp yazısına göre, Trakya'nın kuzeyinde,
 
 50
-00:02:40,172 --> 00:02:44,258
+00:02:40,252 --> 00:02:44,338
 Batı-Güney Anadolu bölgesinde, kuzeydoğuda ve doğuda yayılmış.
 
 51
-00:02:44,362 --> 00:02:48,569
+00:02:44,442 --> 00:02:48,649
 Derlemeye göre şeritli engerek Ege, Akdeniz ve Orta Anadolu'da,
 
 52
-00:02:48,569 --> 00:02:52,688
+00:02:48,649 --> 00:02:52,768
 koca engerek Adana çevresi, güneydoğu ve doğuda görülüyor.
 
 53
-00:02:52,793 --> 00:02:54,998
+00:02:52,872 --> 00:02:55,078
 Bu yılanlar seni ne zaman ısırıyor?
 
 54
-00:02:55,103 --> 00:02:58,097
+00:02:55,182 --> 00:02:58,177
 Vikipedi, şeritli engereğin çok yaklaşıldığında önce
 
 55
-00:02:58,097 --> 00:03:02,028
+00:02:58,177 --> 00:03:02,108
 tıslayarak uyardığını, üzerine basılırsa ısırabildiğini yazıyor.
 
 56
-00:03:02,133 --> 00:03:06,338
+00:03:02,212 --> 00:03:07,018
 Bir derleme, engerek zehirlerinin çok şiddetli etki yapabildiğini yazıyor.
 
 57
-00:03:06,443 --> 00:03:09,879
+00:03:07,122 --> 00:03:10,559
 Rize'deki bir hastanede yapılan çalışmada, yılan ısırığıyla
 
 58
-00:03:09,879 --> 00:03:13,973
+00:03:10,559 --> 00:03:14,652
 gelen yirmi yedi kişinin yirmi altısında ısırık ayağın üstündeydi.
 
 59
-00:03:14,573 --> 00:03:18,698
+00:03:15,252 --> 00:03:19,378
 Peki bahçendeki yılanın zehirli olup olmadığını uzaktan nasıl anlarsın?
 
 60
-00:03:18,802 --> 00:03:21,288
+00:03:19,482 --> 00:03:21,968
 Türkçe Vikipedi, amatörlerin yılanı görünüşüne
 
 61
-00:03:21,288 --> 00:03:23,748
+00:03:21,968 --> 00:03:24,427
 bakarak ayırmasının zor olduğunu yazıyor.
 
 62
-00:03:23,853 --> 00:03:25,963
+00:03:24,532 --> 00:03:26,643
 Missouri'deki sürüngen uzmanı da emin
 
 63
-00:03:25,963 --> 00:03:28,718
+00:03:26,643 --> 00:03:29,398
 olamıyorsan yılanı rahat bırakmanı söylüyor.
 
 64
-00:03:28,823 --> 00:03:31,489
+00:03:29,502 --> 00:03:32,169
 Aynı uzman, yılanı öldürmeye çalışırken ısırılma
 
 65
-00:03:31,489 --> 00:03:34,068
+00:03:32,169 --> 00:03:34,748
 ihtimalinin daha yüksek olduğunu söylüyor.
 
 66
-00:03:34,172 --> 00:03:36,203
+00:03:34,852 --> 00:03:36,883
 Anadolu'da da benzer bir inanış var:
 
 67
-00:03:36,203 --> 00:03:40,058
+00:03:36,883 --> 00:03:40,737
 Rize'de evin çevresinde sürekli görülen yılanı öldürmek tabudur.
 
 68
-00:03:40,163 --> 00:03:43,301
+00:03:40,842 --> 00:03:43,981
 Diyarbakır'da yılanın bağ ve bahçeleri koruduğuna inanılır;
 
 69
-00:03:43,301 --> 00:03:45,408
+00:03:43,981 --> 00:03:46,088
 halk onu rahatsız etmekten çekinir.
 
 70
-00:03:45,513 --> 00:03:47,639
+00:03:46,192 --> 00:03:48,319
 Bunları bilimsel kanıt diye sunmuyoruz,
 
 71
-00:03:47,639 --> 00:03:50,338
+00:03:48,319 --> 00:03:51,018
 ama vardıkları sonuç uzmanın önerisine yakın.
 
 72
-00:03:50,443 --> 00:03:52,928
+00:03:51,122 --> 00:03:53,608
 Zehirli bir engereği bile öldürmek gerekir mi?
 
 73
-00:03:53,033 --> 00:03:55,471
+00:03:53,712 --> 00:03:56,151
 Vikipedi, boynuzlu engereğin de kemiricilerle
 
 74
-00:03:55,471 --> 00:03:57,938
+00:03:56,151 --> 00:03:58,618
 beslendiği için yararlı olduğunu yazıyor.
 
 75
-00:03:58,043 --> 00:04:00,456
+00:03:58,722 --> 00:04:01,136
 Bize göre mesafeni koru ve yılanı izle;
 
 76
-00:04:00,456 --> 00:04:02,868
+00:04:01,136 --> 00:04:03,548
 fotoğraf çekmek için bile yaklaşma.
 
 77
-00:04:02,973 --> 00:04:06,098
+00:04:03,652 --> 00:04:06,778
 Ona dokunma; yakalamaya ya da öldürmeye çalışma.
 
 78
-00:04:06,203 --> 00:04:08,350
+00:04:06,882 --> 00:04:09,030
 Kararsız kalırsan bölgendeki Doğa Koruma
 
 79
-00:04:08,350 --> 00:04:10,742
+00:04:09,030 --> 00:04:11,422
 ve Milli Parklar şube müdürlüğüne danış.
 
 80
-00:04:10,848 --> 00:04:15,532
+00:04:11,528 --> 00:04:16,212
 Bir şey daha: bacaksız ama göz kapağı olan bir hayvan yılan olmayabilir;
 
 81
-00:04:15,532 --> 00:04:17,875
+00:04:16,212 --> 00:04:18,555
 kanalımızdaki sağır yılan videosunda
 
 82
-00:04:17,875 --> 00:04:20,598
+00:04:18,555 --> 00:04:21,278
 gördüğün gibi, o da bir kertenkeleydi.
 
 83
-00:04:21,198 --> 00:04:23,363
+00:04:21,878 --> 00:04:24,042
 Bir yılan seni ısırırsa ne yapmalısın?
 
 84
-00:04:23,468 --> 00:04:25,710
+00:04:24,148 --> 00:04:26,390
 Dünya Sağlık Örgütü'ne göre ısırılınca
 
 85
-00:04:25,710 --> 00:04:28,433
+00:04:26,390 --> 00:04:29,112
 önce ısırığın olduğu yerden hemen uzaklaş.
 
 86
-00:04:28,538 --> 00:04:31,264
+00:04:29,218 --> 00:04:31,944
 Yüzük, halhal, bilezik gibi sıkı şeyleri çıkar;
 
 87
-00:04:31,264 --> 00:04:33,422
+00:04:31,944 --> 00:04:34,102
 şişlik olursa zarar verebilirler.
 
 88
-00:04:33,528 --> 00:04:35,771
+00:04:34,208 --> 00:04:36,451
 Birçok ısırık zehirsiz yılanlardan gelir,
 
 89
-00:04:35,771 --> 00:04:38,532
+00:04:36,451 --> 00:04:39,212
 ama hangisi olduğuna karar vermek sana düşmez.
 
 90
-00:04:38,638 --> 00:04:40,232
+00:04:39,318 --> 00:04:40,912
 Isırılan yeri hiç oynatma;
 
 91
-00:04:40,232 --> 00:04:43,543
+00:04:40,912 --> 00:04:44,222
 mümkünse atelle sabitle ve kişiyi yürütmeden taşı.
 
 92
-00:04:43,648 --> 00:04:46,772
+00:04:44,328 --> 00:04:47,452
 Ardından vakit kaybetmeden en yakın sağlık kuruluşuna ulaş;
 
 93
-00:04:46,772 --> 00:04:48,765
+00:04:47,452 --> 00:04:49,445
 panzehir ancak orada verilebilir.
 
 94
-00:04:48,870 --> 00:04:52,855
+00:04:49,550 --> 00:04:53,535
 Yarayı kesme, zehri ağızla emme, sıkı turnike bağlama.
 
 95
-00:04:52,960 --> 00:04:55,725
+00:04:53,640 --> 00:04:56,405
 Bitkisel ya da geleneksel yöntemlere de başvurma.
 
 96
-00:04:55,830 --> 00:04:59,023
+00:04:56,510 --> 00:04:59,703
 Çocuklar küçük vücutları yüzünden daha ağır etkilenebiliyor;
 
 97
-00:04:59,023 --> 00:05:02,515
+00:04:59,703 --> 00:05:03,195
 küçük çocuk ısırıldıysa hiç beklemeden sağlık kuruluşuna git.
 
 98
-00:05:02,620 --> 00:05:06,927
+00:05:03,300 --> 00:05:07,607
 Rize'deki hastanede yapılan çalışmada ısırılanların hepsi bilinci açık gelmişti;
 
 99
-00:05:06,927 --> 00:05:10,030
+00:05:07,607 --> 00:05:10,710
 yine de ikisinde bayılma ve tansiyon düşmesi görüldü.
 
 100
-00:05:10,630 --> 00:05:13,977
+00:05:11,310 --> 00:05:14,657
 Özetle baş şekli ve göz bebeği tek başına yetmiyor;
 
 101
-00:05:13,977 --> 00:05:18,095
+00:05:14,657 --> 00:05:18,775
 zehirsiz yılanların da başı geniş, sırtı lekeli olabiliyor.
 
 102
-00:05:18,200 --> 00:05:22,945
+00:05:18,880 --> 00:05:23,625
 Senin yörende engereğe ne derler, bahçende en son hangi yılanı gördün?
 
 103
-00:05:23,050 --> 00:05:25,687
+00:05:23,730 --> 00:05:26,367
 Avludaki Komşular'da, evinin çevresindeki yanlış
 
 104
-00:05:25,687 --> 00:05:28,295
+00:05:26,367 --> 00:05:28,975
 tanınan komşuları anlatmaya devam edeceğiz.
 
 105
-00:05:28,400 --> 00:05:31,345
+00:05:29,080 --> 00:05:32,025
 Sıradaki komşu: evdeki örümcek zehirli mi,
 
 106
-00:05:31,345 --> 00:05:34,465
+00:05:32,025 --> 00:05:35,145
 ve hangisinden gerçekten uzak durmalısın?
 
 107
-00:05:34,570 --> 00:05:35,620
+00:05:35,250 --> 00:05:36,300
 Komşunu tanı.
