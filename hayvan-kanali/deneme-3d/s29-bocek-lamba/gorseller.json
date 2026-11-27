@@ -1,0 +1,47 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "bocek_lamba",
+   "oran": "9:16",
+   "istem": "Close-up at night: a realistic medium-sized brown night moth (furry thorax, broad dusty-brown wings with fine darker patterns, large dark eyes, thick feathery antennae, six legs) hovering in front of a huge softly glowing round street lamp, seen from the side with its upper back turned toward the lamp, a soft beam of warm light falling onto its back, dark blue night garden bokeh and tiny glowing dust specks around. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Güve yandan: sırtı lambaya dönük, lamba ışığı sırtında. Altı bacak, dört kanat (iki çift), tüylü antenler.",
+   "aday": 2
+  },
+  {
+   "ad": "gece_lamba",
+   "oran": "9:16",
+   "istem": "Night in a courtyard: a street lamp with a big warm golden halo, tiny dust specks and haze swirling in the light, dark blue sky and silhouettes of trees, empty of animals.",
+   "not": "Hayvansız gece lambası ve hale.",
+   "aday": 1
+  },
+  {
+   "ad": "bocek_yakin",
+   "oran": "9:16",
+   "istem": "Extreme macro portrait of a realistic medium-sized brown night moth (furry thorax, broad dusty-brown wings with fine darker patterns, large dark eyes, thick feathery antennae, six legs) facing the viewer, large dark compound eyes, thick feathery antennae, furry brown face, warm rim light from one side, dark blue background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Güve yüzü: iri koyu gözler, kalın tüylü antenler.",
+   "aday": 2
+  },
+  {
+   "ad": "sirt_isik",
+   "oran": "9:16",
+   "istem": "Macro view from above and behind of a realistic medium-sized brown night moth (furry thorax, broad dusty-brown wings with fine darker patterns, large dark eyes, thick feathery antennae, six legs) with its furry back and dusty-brown wings lit brightly by a warm light from above, rim light glowing along its fur, dark blue background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Güvenin sırtı, tüylü, üstten ışık alıyor. Dört kanat, altı bacak.",
+   "aday": 2
+  },
+  {
+   "ad": "gokyuzu",
+   "oran": "9:16",
+   "istem": "Vertical view looking up from a dark forest floor at a bright glowing dawn sky above the black silhouettes of tree tops, brightest at the top, a few soft clouds, empty of animals.",
+   "not": "Hayvansız: karanlık ağaçlar üstünde en parlak gökyüzü.",
+   "aday": 1
+  },
+  {
+   "ad": "doner",
+   "oran": "9:16",
+   "istem": "Long-exposure style scene at night: a glowing spiral trail of golden light curling around a bright street lamp, with a realistic medium-sized brown night moth (furry thorax, broad dusty-brown wings with fine darker patterns, large dark eyes, thick feathery antennae, six legs) small but clear in the middle of the spiral, dark blue background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Lambanın etrafında altın ışık izi spirali, ortada küçük güve.",
+   "aday": 2
+  }
+ ]
+}

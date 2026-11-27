@@ -1,0 +1,332 @@
+Kaynak: https://pmc.ncbi.nlm.nih.gov/articles/PMC10593848/
+İndirildi: 27 Kasım 2026 (sayfa metni)
+
+
+ Ca2+ addition facilitates the shell repair with eggs production of Pomacea canaliculata through biomineralization and food intaking regulation - PMC
+ Skip to main content
+ An official website of the United States government
+ Here's how you know 
+ Here's how you know 
+ Official websites use .gov 
+ A
+ .gov website belongs to an official
+ government organization in the United States.
+ Secure .gov websites use HTTPS 
+ A lock (
+ Lock 
+ Locked padlock icon
+ ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+ Log in 
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+ Search PMC Full-Text Archive 
+ Search in PMC 
+ Journal List
+ User Guide
+ PERMALINK 
+ Copy 
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. 
+ Learn more:
+ PMC Disclaimer 
+ |
+ PMC Copyright Notice
+ Sci Rep . 2023 Oct 23;13:18101. doi: 10.1038/s41598-023-43071-4 
+ Search in PMC 
+ Search in PubMed 
+ View in NLM Catalog 
+ Add to search 
+ Ca 2+ addition facilitates the shell repair with eggs production of Pomacea canaliculata through biomineralization and food intaking regulation 
+ Yingtong Chen 
+ Yingtong Chen 
+ 1 Guangdong Provincial Key Laboratory of Eco-Circular Agriculture, South China Agricultural University, Guangzhou, 510642 China 
+ 2 Department of Ecology, College of Natural Resources and Environment, South China Agricultural University, Guangzhou, 510642 China 
+ 3 Guangdong Engineering Research Center for Modern Eco-Agriculture and Circular Agriculture, Guangzhou, 510642 China 
+ 4 Key Laboratory of Agro-Environment in the Tropics, Ministry of Agriculture and Rural Affairs, Guangzhou, 510642 China 
+ Find articles by Yingtong Chen 
+ 1, 2, 3, 4 , Fucheng Yao 
+ Fucheng Yao 
+ 1 Guangdong Provincial Key Laboratory of Eco-Circular Agriculture, South China Agricultural University, Guangzhou, 510642 China 
+ 2 Department of Ecology, College of Natural Resources and Environment, South China Agricultural University, Guangzhou, 510642 China 
+ 3 Guangdong Engineering Research Center for Modern Eco-Agriculture and Circular Agriculture, Guangzhou, 510642 China 
+ 4 Key Laboratory of Agro-Environment in the Tropics, Ministry of Agriculture and Rural Affairs, Guangzhou, 510642 China 
+ Find articles by Fucheng Yao 
+ 1, 2, 3, 4 , Jiaen Zhang 
+ Jiaen Zhang 
+ 1 Guangdong Provincial Key Laboratory of Eco-Circular Agriculture, South China Agricultural University, Guangzhou, 510642 China 
+ 2 Department of Ecology, College of Natural Resources and Environment, South China Agricultural University, Guangzhou, 510642 China 
+ 3 Guangdong Engineering Research Center for Modern Eco-Agriculture and Circular Agriculture, Guangzhou, 510642 China 
+ 4 Key Laboratory of Agro-Environment in the Tropics, Ministry of Agriculture and Rural Affairs, Guangzhou, 510642 China 
+ Find articles by Jiaen Zhang 
+ 1, 2, 3, 4, ✉ , Chunxia Zhang 
+ Chunxia Zhang 
+ 1 Guangdong Provincial Key Laboratory of Eco-Circular Agriculture, South China Agricultural University, Guangzhou, 510642 China 
+ 2 Department of Ecology, College of Natural Resources and Environment, South China Agricultural University, Guangzhou, 510642 China 
+ 3 Guangdong Engineering Research Center for Modern Eco-Agriculture and Circular Agriculture, Guangzhou, 510642 China 
+ 4 Key Laboratory of Agro-Environment in the Tropics, Ministry of Agriculture and Rural Affairs, Guangzhou, 510642 China 
+ Find articles by Chunxia Zhang 
+ 1, 2, 3, 4 , Zhong Qin 
+ Zhong Qin 
+ 1 Guangdong Provincial Key Laboratory of Eco-Circular Agriculture, South China Agricultural University, Guangzhou, 510642 China 
+ 2 Department of Ecology, College of Natural Resources and Environment, South China Agricultural University, Guangzhou, 510642 China 
+ 3 Guangdong Engineering Research Center for Modern Eco-Agriculture and Circular Agriculture, Guangzhou, 510642 China 
+ 4 Key Laboratory of Agro-Environment in the Tropics, Ministry of Agriculture and Rural Affairs, Guangzhou, 510642 China 
+ Find articles by Zhong Qin 
+ 1, 2, 3, 4 , Jing Guo 
+ Jing Guo 
+ 5 Henry Fok School of Biology and Agriculture, Shaoguan University, Shaoguan, 512005 China 
+ Find articles by Jing Guo 
+ 5 
+ Author information 
+ Article notes 
+ Copyright and License information 
+ 1 Guangdong Provincial Key Laboratory of Eco-Circular Agriculture, South China Agricultural University, Guangzhou, 510642 China 
+ 2 Department of Ecology, College of Natural Resources and Environment, South China Agricultural University, Guangzhou, 510642 China 
+ 3 Guangdong Engineering Research Center for Modern Eco-Agriculture and Circular Agriculture, Guangzhou, 510642 China 
+ 4 Key Laboratory of Agro-Environment in the Tropics, Ministry of Agriculture and Rural Affairs, Guangzhou, 510642 China 
+ 5 Henry Fok School of Biology and Agriculture, Shaoguan University, Shaoguan, 512005 China 
+ ✉ Corresponding author. 
+ Received 2023 Feb 14; Accepted 2023 Sep 19; Collection date 2023. 
+ © The Author(s) 2023 
+ Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ . 
+ PMC Copyright notice 
+ PMCID: PMC10593848  PMID: 37872161 
+ Abstract 
+ Pomacea canaliculata was by far one of the most harmful invasive organisms in the world, causing serious harm to aquatic crops and ecosystem. Calcium carbonate is a common component of aquatic environment, which is important for the growth of Pomacea canaliculata . Therefore, the objective of this study was to investigate the response characteristics of P. canaliculata suffered shell breakage to the addition of calcium carbonate in water environment. In this experiment, we explored the effects of calcium carbonate addition on the P. canaliculata shell repair rate, food intake, egg production, shell strength, and calcium content through breaking the snails shell and the addition of calcium carbonate treatment. The results showed that snail broken-shell repaired mostly within 21 days. The snails experienced a significant increase in shell repair rates during earlier days of the treatment, especially for female snails. Food intake of snails exhibited different patterns when their shells were broken and calcium carbonate was added. Shell breakage treatment combined with calcium carbonate addition significantly increased the diameter of snail eggs compared with the control and the calcium carbonate addition treatment without shell-broken snail group. There was no significant difference in shell strength or calcium content of male snails between the treatments. The study suggests that P. canaliculata exhibits a sex-dependent response pattern when subjected to shell damage and calcium carbonate addition. The findings can provide some references to better understand the invasion mechanism and survival strategy of the P. canaliculata . 
+ Subject terms: Ecology, Biodiversity Introduction 
+ Pomacea canaliculata is a globally invasive snail species. This species was introduced to China from Argentina in the 1980s for economic purposes as a food source. However, these snails were subsequently abandoned in natural aquatic environments and rice fields due to their unpalatability and their role as carriers of the pathogenic parasite Angiostrongylus cantonensis . This situation resulted in significant agricultural losses in southern China, particularly in rice production 1 . The remarkable adaptability of P. canaliculata populations to their surroundings enables them to proliferate within aquatic ecosystems, posing a substantial threat to local biodiversity 2 . 
+ Currently, snail control primarily relies on chemical methods, which unfortunately result in significant ecological harm and the snail's pesticide resistance due to prolonged use of chemicals. In recent years, notable progress has been made in the biological management of P. canaliculata , taking advantage of its natural predators, a strategy well-suited for China with its prevalent biodiversity. The majority of these predators target the snails by breaking their shells and consuming the soft tissues within the shells. Some researchers observed that the size of the mouth in Trachemys scripta elegans correlates directly with the size of the snails they prey upon. Certain predators are restricted to prey on smaller snails due to limitations in their biting power and size 3 , 4 . Consequently, the strength of the snail's shell emerges as a pivotal factor influencing the success of predation by its natural enemies. 
+ The shell is the result of biomineralization, composed primarily of minerals and organic molecules, with calcium carbonate constituting 90% of its composition 5 , 6 . Biomineralization is a meticulously orchestrated process in which the mantle assumes a crucial role 7 . The mantle of mollusks promotes calcium accumulation during shell formation, overseeing neurosecretion to regulate shell growth by secreting an organic matrix that aids in calcium carbonate deposition, a pivotal factor in shell formation 8 , 9 . Microscopic examinations by researchers revealed that the molluscan mantle undergoes a series of metamorphic stages. Notably, the juvenile phase emerges as a critical period for mantle development in mollusk growth. Furthermore, observations showed enhanced mitochondrial and endoplasmic reticulum development in the epithelial cells at the mantle's periphery, with the central region characterized by increased cytoplasm and fewer organelles. This suggests that the reparative capacity of the mantle's edge surpasses that of the central region, with repair rates potentially influenced by environmental conditions 10 , 11 . 
+ Shell repair rate serves as a vital metric for evaluating the snail's proficiency in shell restoration 12 . Measuring the shell repair rate allows us to discern the speed and effectiveness of shell restoration within various treatment groups 13 . Feeding rate, quantifying the snails' food consumption, serves as an indicator of their activity and growth status 14 , 15 . Comparative analysis of feeding rates among distinct treatment groups facilitates an examination of the feeding patterns and food utilization capabilities of P. canaliculata subjected to shell breakage stress. 
+ Egg diameter serves as a key metric for evaluating the reproductive capacity of P. canaliculata 16 , 17 . Measuring egg diameter provides insights into the reproductive strategies and fertility of snails subjected to shell breakage stress in various treatment groups 18 . Shell strength and calcium content serve as indicators for assessing shell quality and calcium metabolism in snails 19 . Comparative analysis of shell strength and calcium content among distinct treatment groups enables us to understand changes in shell quality and calcium metabolism in snails exposed to shell breakage stress 20 , 21 . 
+ Environmental factors exert a profound influence on mollusks' biomineralization process, especially concerning shell repair. Biomineralization is a meticulously regulated process, characterized by intricate interactions among diverse internal factors 22 . Calcium ions play a pivotal role in biomineralization and hold particular significance in mollusk shell repair. Environmental calcium ion concentrations directly influence the accessibility of calcium ions to mollusks, its elevation enhances the mollusks' capacity to absorb and utilize calcium ions, thereby expediting shell repair and formation 23 . 
+ Temperature, pH, nutrient availability, salinity, environmental pollution, and oxidative stress are factors that exert influence on the biomineralization process 24 – 29 . The cumulative impact of environmental factors on mollusks' biomineralization process is intricate and substantial. Favorable environmental conditions can facilitate the seamless advancement of biomineralization, whereas adverse conditions may hinder shell repair and growth, consequently impacting mollusks' survival and reproductive abilities 30 – 36 . 
+ In this study, we devised four distinct experimental treatments to explore the adaptive strategies of P . canaliculata when subjected to shell breakage stress. We conducted tests on the shell repair rate, food intake, egg diameter, shell strength, and calcium content of the snails. Calcium carbonate, a pivotal contributor to the shell formation process of P. canaliculata , was intentionally selected as a variable. Thus, by manipulating the addition of calcium carbonate and the snail shell breakage treatment, we aimed to gain a more comprehensive understanding of snail adaptation and response to shell repair under stressful conditions. Furthermore, monitoring changes in calcium content in P. canaliculata can elucidate the regulatory mechanisms of biochemical substances necessary for the shell repair process. Examining the relationships between these indicators can assist us in unveiling the ecological adaptability of P. canaliculata in response to shell breakage stress and in substantiating the presence of their resilient survival mechanisms and regulatory processes. Materials and methods 
+ Experimental materials 
+ We gathered all tested P. canaliculata individuals from irrigation ditches on a farm situated at South China Agricultural University in Guangzhou, Guangdong Province, China (23° 14′ N, 113° 38′ E). The snails were then reared in plastic aquaria measuring 45 cm × 35 cm × 35 cm, submerged to water with an approximate depth of 20 cm. They were provided with daily feedings of fresh lettuce within a climate-controlled indoor balcony. Experimental Performance 
+ Following several days of rearing, we randomly selected healthy adult P. canaliculata of comparable size (shell height 25 ± 5 mm, weight 5.3 ± 0.5 g). After differentiating males and females, we marked their shells using a waterproof pen. We utilized twelve plastic aquariums, each filled with 15 cm of water and containing 10 male and 10 female snails. We employed analytical grade (AR) calcite powder as the source of calcium carbonate, adding 15 g per day. The treatments comprised a shell-broken snail group with calcium carbonate addition, a shell-broken snail group without calcium carbonate addition, a calcium carbonate addition treatment without shell-broken snail group, and a blank control snail group without shell-broken treatment and calcium carbonate addition. We installed screens on the water surface to prevent the escape of P. canaliculata and promptly removed any deceased snails. We provided an ample daily supply of lettuce as the primary food source for the snails. We replaced water in plastic aquariums using tap water weekly, retaining approximately 3/4 of the original volume to maintain water clarity. We measured the water temperature daily at 16:00 using a thermostat positioned approximately 5 cm below the water surface with an accuracy of 0.1 °C. Eggs produced on the same day were promptly collected. The experiment spanned 21 days, during which the snails were fed once daily at 16:00, and any remaining lettuce was removed before the subsequent feeding. The experimental treatments and groupings are shown in Table 1 . 
+ Table 1. 
+ Experimental grouping and treatment. 
+ Number 
+ Group 
+ Treatment 
+ 1 
+ SC 
+ A shell-broken snail group with calcium carbonate addition 
+ 2 
+ S 
+ A shell-broken snail group without calcium carbonate addition 
+ 3 
+ C 
+ Calcium carbonate addition treatment without shell-broken snail group 
+ 4 
+ CK 
+ Blank control snail group without shell-broken treatment and calcium carbonate addition 
+ Open in a new tab Shell strength measurement 
+ Dissecting scissors and a scalpel were employed to delicately separate the snail's shell from its flesh without causing damage. We utilized an Edbaura pressure testing machine equipped with a digital display push–pull meter, possessing an accuracy of 0.1 N, to ascertain the shell's compressive capacity. For testing, the shell was positioned flat on the platform with the operculum facing downward. Subsequently, the machine applied pressure to the shell until it fractured, at which point the operation was terminated. The numerical value displayed at this juncture represented the shell's strength. Shell repair observation and calculation 
+ Photographs of each shell-broken snail were taken at the time points of 0, 2nd, 4th, 6th, 8th, 11th, and 21st day. Subsequently, the width of the clipped shell and height of the shell repair was quantified using Vernier calipers, after which the snails were returned to their respective aquariums. The shell repair area and repair rate are calculated according to the following equations: 
+ Area of repair (AR) = W × H Repair rate % = 100 % × ARl - ARf / Act; 
+ “W” indicates the width of the clipped shell; “H” indicates the height of the shell repair; “ARl” indicates the area of shell repair for the latter measurement; “ARf” indicates the shell repair area of the former measurement; “Act” denotes the area of the shell cutted off at the beginning of the test. Measurement of snail eggs 
+ We collected fresh egg masses daily, recorded their weight and quantity, and individually stored each egg mass in a dedicated container. After the experiment concluded, we immersed the egg masses in a 2% NaOH solution for 1.5 h. We measured the diameter (in millimeters) of each egg by randomly selecting 10 eggs and assessing their dimensions with a Vernier caliper (Model: DL91150). Measurement of food intake 
+ Before feeding, excess water on the surface of lettuce was removed. Feeding amounts were recorded on days 2, 3, 8, 12, and 19 following the experimental treatment. Fresh lettuce, pre-weighed, was provided to each experimental group. After 24 h, the remain lettuce was collected, drained, and weighed again to calculate the snails' food intake. The food intake for each group was determined in relation to the survival count. 
+ Total food intake g = Total weight of the lettuce fed g - Total weight of the remain lettuce next day g ; Food intake g = Total food intake g / Number of snail survivors on the day . Measurement of calcium and protein content 
+ We assessed calcium content and protein concentration using kits from Nanjing Jiancheng Bioengineering Institute. Calcium content was determined using the methyl thymol blue method, while total protein concentrations (TP) were determined via the Bicinchoninic Acid (BCA) method 37 , 38 . The procedures were conducted as follows: (1) preparation of the test solution: accurately weighed mantle tissue (100 mg) was mixed with physiological saline at a ratio of weight (g):volume (mL) = 1:9. The mixture was homogenized under ice-water bath conditions at 2500 rpm and centrifuged for 10 min. The resulting supernatant was retained for testing or further dilution. (2) Calcium and protein content determination: followed the kit's specified procedures. 
+ The calcium content ( mmol / gprot ) = A T r e a t m e n t - A B l a n k A S t a n d a r d - A B l a n k × C ( S t a n d a r d ) / T P 
+ TP ( g / L ) = A T r e a t m e n t - A B l a n k A S t a n d a r d - A B l a n k × C S t a n d a r d × N 
+ A(Treatment): tested data for each treatment group. A(Blank): tested data for blank group. C(Standard): standard concentration, 1 mmol/L.  TP: total protein content. N: pre-test dilution times of a sample. Statistical analysis 
+ Statistical analyses were conducted using SPSS version 20.0. Normality analysis was performed on male and female snails within the same treatment and at the same time. To assess the impact of calcium carbonate and shell breakage on shell repair in P. canaliculata , we employed repeated-measures ANOVA and Duncan's multiple comparisons to analyze the repair rates, food intake, shell strength and calcium content across various treatments. Additionally, we analyzed the differences in shell repair rates, shell strength and calcium content between male and female snails under the same treatments at the end of the experiment using t-tests. Graphs were created using Origin 8.0. Significance was set at P  < 0.05, or at P  < 0.01. Result 
+ Shell repair rates of P. canaliculata in different treatments 
+ The snail shell repair rate exhibited an initial increase followed by a gradual decline, reaching its lowest point at day 21 under both treatments (Fig.  1 ). Notably, only in the fourth day, we observed significant differences in female snails between the two treatments, with the SC snail group showing significantly higher values than the S group ( P  < 0.05). In the S group, both males and females displayed an average repair area of 1.0 ± 0.02 mm 2 per day. On the day 2, this rate was 14.2% for males and 16.8% for females, followed by an upward trend in the early period, peaking at 17.6% for males and 16.6% for females on day 6. Subsequently, a significant decrease occurred until the end of the experiment ( P  < 0.05), with rates on the final day at 1.4% for males and merely 0.6% for females. In the meantime, the SC group displayed a pattern of increase followed by decrease in both males and females, with identical average repair area of 0.9 ± 0.02 mm 2 per day. In this group, the rate significantly increased ( P  < 0.05) from the 2nd to the 4th day, with 9.6% for males and 13.9% for females on the second day, and peaking at 20.9% and 18.6% on the fourth day, respectively. The repair rates exhibited a sharp decrease on the final day, at 1.2% for males and 1.4% for females ( P  < 0.01). Repeated-measures ANOVA results indicated no significant effect of calcium carbonate addition on the rate of shell repair ( F 1,8  = 0.018, P  > 0.05). 
+ Figure 1. 
+ Open in a new tab 
+ Shell repair rate of P. canaliculata in different treatments with different genders. SC and S refer to shell-broken snail group with calcium carbonate addition, and shell-broken snail group without  calcium carbonate addition, C and CK refer to calcium carbonate addition treatment without shell-broken snail group and blank control snail group without shell-broken treatment and calcium carbonate addition, respectively. *Indicates significant differences between treatments at the same time. Food intake of P. canaliculata in different treatments 
+ The food intake of the P. canaliculata substantially exhibited a "first increasing, then decreasing" trend over time in C and CK groups (Fig.  2 ). In the CK group, the feeding rate significantly increased on day 8 but decreased from day 8 to the end of the experiment. Similarly, the C group displayed a significant increase in food intake from the day 3 to  day 12, followed by a subsequent decrease. In S group, food intake showed a change trend of "first increasing, then keeping stable, finally decreasing" with the highest cumulative feeding amount. In the SC group, food intake kept a relative stable level, while it reached a peak with amount of 1.59 g on day 8. Notably, there were no significant differences in food intake between the CK and C groups during the first two days of the experiment. Repeated-measures ANOVA indicated a significant impact of the interaction between calcium carbonate addition and shell breakage on the food intake of snails ( F 1,8  = 7.453, P  < 0.05). 
+ Figure 2. 
+ Open in a new tab 
+ Food intake of P. canaliculata under different treatments. SC and S refer to shell-broken snail group with calcium carbonate addition, and shell-broken snail group without calcium carbonate addition, C and CK refer to calcium carbonate addition treatment without shell-broken snail group and blank control snail group without shell-broken treatment and calcium carbonate addition. Egg production of the P. canaliculata in different treatments 
+ Throughout the experiment period, the CK snail group produced 2 egg masses, each containing an average of 25.0 ± 4.0 eggs; the C group also produced 2 egg masses, with an average of 79.5 ± 40.5 eggs per mass; the S group yielded 4 egg masses, averaging 62.5 ± 12.6 eggs per mass, while the SC group produced 6 egg masses, each containing an average of 65.83 ± 24.4 eggs. The average egg diameters were 1.94 ± 0.03 mm, 1.85 ± 0.06 mm, 2.23 ± 0.04 mm, and 2.60 ± 0.02 mm in the CK group, C group, S group, and SC group, respectively (Fig.  3 ). Notably, the egg diameter in the SC group was significantly larger than that in the CK and C groups. Repeated-measures ANOVA revealed a highly significant change in egg diameter due to shell breakage ( F 1,16  = 164.574, P  < 0.001), indicating that the snails with damaged shells produced larger eggs in diameter than those with unbroken shells. Additionally, the input of calcium carbonate led to a significant difference in egg diameter ( F 1,16  = 7.801, P  < 0.05). 
+ Figure 3. 
+ Open in a new tab 
+ Egg diameter of P. canaliculata under different treatments. SC and S refer to shell-broken snail group with calcium carbonate addition, and shell-broken snail group without calcium carbonate addition, C and CK refer to calcium carbonate addition treatment without shell-broken snail group and blank control snail group without shell-broken treatment and calcium carbonate addition. Different lowercase letters in the graph indicate significant differences between different treatments. Shell strength of P. canaliculata in different treatments 
+ A partially significant variation in snail shell strength was observed among the female groups (Fig.  4 ). The range of shell strength for male snails across all four treatments was from 57 to 75 N. Female snails, on the other hand, exhibited the highest shell strength of 80 N in the C group, which was significantly greater than the S group (53 N) and the SC group (56 N). Interestingly, there were no significant differences in shell strength between male and female snails within the same treatment. Repeated-measures ANOVA indicated the absence of significant differences in shell strength related to calcium carbonate addition ( F 1,40  = 0.081, P  > 0.05), shell breakage treatment ( F 1,40  = 1.286, P  > 0.05), and gender ( F 1,40  = 0.037, P  > 0.05). 
+ Figure 4. 
+ Open in a new tab 
+ Shell strength of different sexes of P. canaliculata under different treatments. SC and S refer to shell-broken snail group with calcium carbonate addition, and shell-broken snail group without calcium carbonate addition, C and CK refer to calcium carbonate addition treatment without shell-broken snail group and blank control snail group without shell-broken treatment and calcium carbonate addition. Different lowercase letters in the graphs indicate significant differences under the same sex between different treatments. Calcium content of P. canaliculata in different treatments 
+ The total protein concentration of snails under all the treatments was determined using the BCA method (Table 2 ). Calcium content in the mantle under each treatment is presented in Fig.  5 . In the CK group, male snails had a mantle calcium content of 0.94 ± 0.35 mmol/g prot, while female snails had 0.64 ± 0.10 mmol/g prot. Male snails in the C group exhibited the lowest calcium content at 0.52 ± 0.15 mmol/g prot. Notably, female snails in the SC treatment had significantly higher mantle calcium content than those in the other three treatment groups after 21 days of treatment. Repeated-measures ANOVA indicated no significant differences in calcium content caused by gender ( F 1,40  = 0.004, P  > 0.05), shell breakage ( F 1,40  = 0.776, P  > 0.05), or calcium carbonate addition ( F 1,40  = 0.132, P  > 0.05). 
+ Table 2. 
+ Total protein content (TP) of P. canaliculata mantle under different treatments (g/L). 
+ Sex 
+ Sample size 
+ CK 
+ C 
+ S 
+ SC 
+ Male 
+ 6 
+ 2.81 ± 0.54 
+ 8.73 ± 5.54 
+ 2.33 ± 0.58 
+ 2.62 ± 0.53 
+ Female 
+ 6 
+ 2.70 ± 0.46 
+ 1.85 ± 0.21 
+ 6.83 ± 4.66 
+ 1.85 ± 0.29 
+ Open in a new tab Figure 5. 
+ Open in a new tab 
+ Calcium content of P. canaliculata under different treatments. Different lowercase letters indicate significant differences under the same sex between different treatments. SC and S refer to shell-broken snail group with calcium carbonate addition, and shell-broken snail group without calcium carbonate addition, C and CK refer to calcium carbonate addition treatment without shell-broken snail group and blank control  snail group without shell-broken treatment and calcium carbonate addition. Discussion 
+ As depicted in Fig.  6 , the broken-shell repair process and egg production of P. canaliculata  are affected and regulated by several important factors, such as food and calcium supplies and other environmental conditions. In our study, the addition of calcium carbonate initially resulted in an increase in the snail shell repair rate, followed by a subsequent decrease. This trend can be attributed to the initial boost in calcium availability, facilitating the shell repair process. However, the repair process may reach a saturation point over time, limiting further improvement in the repair rate 39 . Furthermore, excessive calcium carbonate supplementation could adversely affect the snails by disrupting their acid–base balance or inducing toxic effects, ultimately reducing the shell repair rate 40 . 
+ Figure 6. 
+ Open in a new tab 
+ Ca 2+ involved repair process of the broken shell and egg production of  P. canaliculata . The blue dashed curved lines indicate the input process of materials. The red dashed curved lines indicate the output process of materials. The up arrows near the parameters mean the increase of values. The “NC” near the parameters means no change. In the present study, we observed that shell-broken snails without calcium carbonate addition treatment had a higher level of food intake than the those with calcium carbonate addition treatment. The variations in the food intake of snails subjected to both shell damage and calcium carbonate addition may be attributed to several reasons. Firstly, it is likely that the shell damage induced stress responses in the snails, changing their usual feeding behavior 41 . In order to repair the broken shell, the snails needed to eat more lettuce to  supply calcium and offset the calcium deficiency when  no additional calcium was input. Meanwhile, the shell-broken female snails had higher calcium content in the calcium carbonate addition treatment than that in the treatment without calcium carbonate addition, further verifying that the injured snails can directly intake  calcium in the water, which may subsequently reduce their feeding amount. Secondly, the addition of calcium carbonate could lead to alterations in water chemistry, including an increase in pH, which may also affect snails feeding 42 . 
+ In the snail group with both shell breakage and calcium carbonate addition treatment, a significant increase in egg diameter was observed. The combination of shell breakage and calcium addition can influence the physiological processes of P. canaliculata , impacting egg development and growth. Shell breakage likely initiates a cascade of responses within the organism, including the activation of cell proliferation and differentiation, particularly during egg development. Calcium, being a pivotal component of snail shells, plays a crucial role; with a sufficient calcium supply, snails can utilize calcium more effectively for egg shell development and reinforcement, resulting in larger egg diameters 43 – 46 . The augmentation in egg size may serve as an adaptive response, making it more challenging for predators to prey on the larger eggs, as observed in other species like Diatraea saccharalis , Pomacentridae , and Trematomus bernacchii 47 – 49 . Nonetheless, further investigations are required to unveil the related mechanisms governing this phenomenon. When exposed to the stress of shell damage, P. canaliculata likely undergoes a series of physiological and biochemical responses, including the activation of specific biochemical pathways to cope with external pressures 50 – 52 . These responses can lead to alterations in body fluid composition, subsequently affecting egg development and size. Additionally, the input of calcium carbonate serves as an additional source of calcium, facilitating the process of egg calcification 19 . Tahara et al.  conducted experiments comparing body fluid composition and egg size across different environments 53 . Further research is essential to comprehensively investigate changes in the body fluid composition of injured P. canaliculata and to identify the signaling molecules involved in regulating egg size. 
+ Among female snails, shell strength exhibited significant differences among the most treatments. The snail group without broken shells but treated with calcium carbonate addition had significantly highest shell strength, the reason would be that the supplementation of calcium carbonate contributes to increase calcium content and shell density of snails, thereby fortifying shell strength 54 . The control group, having undergone no specific treatment, demonstrated intermediate shell strength. Shell damage treatments likely influenced the integrity and structure of snail shells, resulting in reduced shell strength,  but the shell-broken snail group with calcium carbonate addition showed an increasing trend in shell strength, relative to the shell-broken snail group without  calcium carbonate addition, which may also indicate the contribution of calcium carbonate addition. Conversely, there were no significant differences in shell strength and calcium content among male snails across the various treatments. This variance between female and male snails might be attributed to the pronounced influence of hormonal factors and reproductive activities on snail shell strength and calcium content. 
+ The shell repair capacity of mollusks has a direct bearing on their susceptibility to pests and diseases. In laboratory rearing conditions, all individuals of Buccinum undatum completely restored their damaged shells within 30 days 55 . Pinctada fucata exhibited significant shell repair within 5–20 days following shell edge damage 56 . The mantle, vital for mollusk biomineralization, is comprised of epithelial cells capable of secreting essential inorganic ions such as Ca 2+ and CO 3 2− . It plays a pivotal role in snail shell regeneration 57 . The mantle is supposed to promptly allocate resources and energy for repairing damaged shells and tissues when breakage occurs. Snails initiate the growth of new shells as early as 1 day after shell breakage, often completely covering the damaged area within 5–10 days. The repair rate is notably high in the early stages but gradually diminishes as shell repair progresses. Notably, during the experiment, the addition of calcium to the water environment led to a more pronounced increase in the begining of shell repair process, likely due to the facilitation of the biomineralization process through calcium intake by snails, thereby improving the repair rate, especially for female snails.  
+ After suffered shell injuries, gastropods usually better allocate energy and safeguard themselves from environmental threats to minimize further harm and potential mortality when their delicate soft tissues become exposed 58 . The repair process is intricately governed by biomolecules, and in the case of oysters, shell matrix proteins (SMPs) play a pivotal role in regulating CaCO 3 crystallization in vitro. However, the composition of the newly repaired shell differs from that of the original one 17 . Mollusks invest substantial energy and resources in shell repair, affecting their overall metabolic functioning during the post-injury period 59 . Spawning represents a critical stage in snail life history, with snails strategically allocating energy based on environmental nutrient content to enhance population stability and expansion 60 . In the present study, we observed a close relationship between Ca 2+ addition and egg diameter, with females producing more offspring in response to shell breakage to ensure population growth. However, our study solely investigate the calcium content of snails under one-time shell breakage stress with calcium carbonate addition and subsequent repair process in laboratory. Therefore, further research is warranted to elucidate the effects of the frequent shell breakage and repair process on snail population development, growth, and invasion in fields. In addition, exploring related mechanisms, such as gene expression, is imperative for a comprehensive understanding of this phenomenon. Conclusion 
+ This study showed that when P . canaliculata  facing with shell damage, the addition of calcium carbonate in water increased the shell repair rate of female snails in the earlier period, and then the rate gradually decreased. Food intake of  P. canaliculata exhibited different patterns when the shell was broken and calcium was added, which is affected by the interaction between calcium carbonate addition and shell breakage. The addition of calcium resulted in a significant increase in calcium content in the mantle of females with shell breakage, which resulted in the increase of the shell strength, amounts and size of eggs, but no difference for males with shell breakage among the treatments. Therefore, snails are able to repair themselves rapidly through the biomineralization of Ca 2+ in the water environment and food intake after suffered shell damage and are able to maintain the stability of their populations and the adoption of different survival strategies. This findings may provide some references for probing invasion mechanism of P. canaliculata and help to implement a more targeted prevention and control on them. Supplementary Information 
+ Supplementary Information. (150.2KB, xlsx) 
+ Acknowledgements 
+ This work was supported by the National Natural Science Foundation of China (31870525, 31770484, 41871034, 31901229), Guangdong Science and Technology Project (2019B030301007). We thank the anonymous reviewers who provided helpful comments on earlier versions of this manuscript. Author contributions 
+ Y.C.: conceptualization, data curation, formal analysis, investigation, methodology, visualization, writing—original draft. F.Y.: investigation. C.Z.: investigation. Z.Q.: data curation, review and editing. J.G.: review and editing. J.Z.: conceptualization, methodology, writing—review and editing, funding acquisition, project administration, supervision. Data availability 
+ All data generated or analysed during this study are included in this published article. Competing interests 
+ The authors declare no competing interests. Footnotes 
+ Publisher's note 
+ Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. 
+ Supplementary Information 
+ The online version contains supplementary material available at 10.1038/s41598-023-43071-4. References 
+ 1. Zhou XM, et al. The complete mitochondrial genome of Pomacea canaliculata (Gastropoda: Ampullariidae) Mitochondrial DNA Part A. 2016;27(2):884–885. doi: 10.3109/19401736.2014.919488. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 2. Silva WD, et al. Potential spreading risk of an invasive snail species (Pomacea canaliculata) in freshwater habitats of Asia. Curr. Sci. 2019;117:6. [ Google Scholar ] 
+ 3. Jia-en GJZ. Status, problems and countermeasures in biological control of Pomacea canaliculata. Chin. J. Ecol. 2015;34(10):2943–2950. [ Google Scholar ] 
+ 4. Xue GJZ. Predation and indirect interference effects of Trachemys scripta elegans on Pomacea canaliculata. J. South China Agric. Univ. 2016;37(06):59–64. [ Google Scholar ] 
+ 5. Yang SZL, Zhang S, Zhong E, Liu Q, Zhang J, Yan T. A comparative study of haemocytes from different shell colours of golden apple snails (Pomacea canaliculata) Sichuan J. Zool. 2013;32(05):722–728. [ Google Scholar ] 
+ 6. Liu Q, Yang S, Zhao L-L, Yang S-Y, Zhang J-E. Fecundity of exotic golden apple snail, Pomacea canaliculata, in Sichuan. Chin. J. Ecol. 2014;33(04):1042–1046. [ Google Scholar ] 
+ 7. Jolly C, et al. Zona localization of shell matrix proteins in Mantle of Haliotis tuberculata (Mollusca, Gastropoda) Mar. Biotechnol. 2004;6(6):541–551. doi: 10.1007/s10126-004-3129-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 8. Saleuddin AS, Dillaman RM. Direct innervation of the mantle edge gland by neurosecretory axons in Helisoma duryi (Mollusca: Pulmonata) Cell Tissue Res. 1976;171(3):397–401. doi: 10.1007/BF00224664. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 9. Huang J, et al. Mantle tissue in the pearl oyster Pinctada fucata secretes immune components via vesicle transportation. Fish. Shellf. Immunol. 2022;121:116–123. doi: 10.1016/j.fsi.2022.01.001. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 10. Audino JA, et al. Mantle margin morphogenesis in Nodipecten nodosus (Mollusca: Bivalvia): New insights into the development and the roles of bivalve pallial folds. BMC Dev. Biol. 2015;15:22. doi: 10.1186/s12861-015-0074-9. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+ 11. Fang Z, et al. Investigation of cell proliferation and differentiation in the mantle of Pinctada fucata (Bivalve, Mollusca) Mar. Biol. 2007;153(4):745–754. [ Google Scholar ] 
+ 12. Fernández MS, et al. Is the snail shell repair process really influenced by eggshell membrane as a template of foreign scaffold? J. Struct. Biol. 2016;196(2):187–196. doi: 10.1016/j.jsb.2016.10.001. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 13. Nkansah MA, Agyei EA, Opoku F. Mineral and proximate composition of the meat and shell of three snail species. Heliyon. 2021;7(10):e08149. doi: 10.1016/j.heliyon.2021.e08149. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+ 14. Zhang P, et al. Metal resistant gut microbiota facilitates snails feeding on metal hyperaccumulator plant Sedum alfredii in the phytoremediation field. Ecotoxicol. Environ. Saf. 2022;236:113514. doi: 10.1016/j.ecoenv.2022.113514. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 15. Pang C, et al. Effects of sediment-associated copper to the deposit-feeding snail, Potamopyrgus antipodarum: A comparison of Cu added in aqueous form or as nano- and micro-CuO particles. Aquat. Toxicol. 2012;106–107:114–122. doi: 10.1016/j.aquatox.2011.10.005. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 16. Xu, Y. X., et al . A multiscale feature fusion method for automatic detection of eggs from two Pomacea spp. In UAV Aerial Images. IEEE Geoscience and Remote Sensing Letters , Vol. 19 (2022). 
+ 17. Li F, et al. Glacial-interglacial evolution of seasonal cooling events documented by land-snail eggs from Chinese loess. Quatern. Sci. Rev. 2022;284:107506. [ Google Scholar ] 
+ 18. Li F, et al. Land-snail eggs as a proxy of abrupt climatic cooling events during the reproductive season. Sci. Bull. 2021;66(13):1274–1277. doi: 10.1016/j.scib.2021.02.017. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 19. Deng Y, et al. Biomimetic mineralization of calcium carbonate under synergistic regulation of Sr2+ and egg-white proteins. Mater. Lett. 2023;346:134544. [ Google Scholar ] 
+ 20. Liu H, Liu C, Huang J. Characterization of the shell proteins in two freshwater snails Pomacea canaliculata and Cipangopaludina chinensis. Int. J. Biol. Macromol. 2023;242:124524. doi: 10.1016/j.ijbiomac.2023.124524. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 21. Tamburi NE, Seuffert ME, Martin PR. Temperature-induced plasticity in morphology and relative shell weight in the invasive apple snail Pomacea canaliculata. J. Therm. Biol. 2018;74:331–336. doi: 10.1016/j.jtherbio.2018.04.008. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 22. Kaufman AJ, et al. When life got hard: An environmental driver for metazoan biomineralization. Estud. Geol. Madrid. 2019;75:2. [ Google Scholar ] 
+ 23. Tambutte S, et al. Coral biomineralization: From the gene to the environment. J. Exp. Mar. Biol. Ecol. 2011;408(1–2):58–78. [ Google Scholar ] 
+ 24. Kontrec J, et al. Effect of pH and type of stirring on the spontaneous precipitation of CaCO3 at identical initial supersaturation, ionic strength and a(Ca2+)/a(CO32−) ratio. Crystals. 2021;11:9. [ Google Scholar ] 
+ 25. Li F, et al. Self-mediated pH changes in culture medium affecting biosorption and biomineralization of Cd2+ by Bacillus cereus Cd01. J. Hazard. Mater. 2018;358:178–186. doi: 10.1016/j.jhazmat.2018.06.066. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 26. Schwaner C, et al. Proteomic and transcriptomic responses enable clams to correct the pH of calcifying fluids and sustain biomineralization in acidified environments. Int. J. Mol. Sci. 2022;23:24. doi: 10.3390/ijms232416066. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+ 27. Zhu T, et al. Extracellular biomineralization of uranium and its toxicity alleviation to Bacillus thuringiensis X-27. J. Environ. Radioact. 2023;26:1. doi: 10.1016/j.jenvrad.2023.107126. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 28. Dammer LK, et al. Temperature impact on magnesium isotope fractionation in cultured foraminifera. Front. Earth Sci. 2021;9:25. [ Google Scholar ] 
+ 29. Li B, et al. Effects of temperature on biomineralization of iron reducing bacteria Shewanella putrefaciens CN32. Chin. J. Geophys. Chin. Ed. 2011;54(10):2631–2638. [ Google Scholar ] 
+ 30. Dickinson GH, et al. Assessing the effect of salinity on barnacle adhesion and biomineralization. J. Shellf. Res. 2015;34(2):625–625. [ Google Scholar ] 
+ 31. Matoo O, et al. Elevated CO2, temperature and salinity interactively affect biomineralization and shell properties of hard shell clams Mercenaria mercenaria. Integrat. Comp. Biol. 2013;53:E327–E327. [ Google Scholar ] 
+ 32. de Francisco P, et al. Quantitative proteomic analyses of a Pb-adapted Tetrahymena thermophila strain reveal the cellular strategy to Pb(II) stress including lead biomineralization to chloropyromorphite. Sci. Total Environ. 2023;8:91. doi: 10.1016/j.scitotenv.2023.164252. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 33. Varney RM, et al. Chitons on the cutting edge: The biomineralization of iron-clad teeth in Acanthopleura granulata. Integrat. Comp. Biol. 2021;61:E932–E933. [ Google Scholar ] 
+ 34. Shan B, et al. A review on mechanism of biomineralization using microbial-induced precipitation for immobilizing lead ions. Environ. Sci. Pollut. Res. 2021;28(24):30486–30498. doi: 10.1007/s11356-021-14045-8. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 35. Zheng Y, Xiao C, Chi R. Remediation of soil cadmium pollution by biomineralization using microbial-induced precipitation: A review. World J. Microbiol. Biotechnol. 2021;37:12. doi: 10.1007/s11274-021-03176-2. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 36. Loucaides S, et al. Controls on the recycling and preservation of biogenic silica from biomineralization to burial. SILICON. 2012;4(1):7–22. [ Google Scholar ] 
+ 37. Ripoll JP. Colorimetric determination of calcium in serum using methylthymol blue. Clin. Chim. Acta Int. J. Clin. Chem. 1976;72(1):133–139. doi: 10.1016/0009-8981(76)90044-9. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 38. Shiau KS, Chen TL. Initial protein concentration effects on precipitation by salt. Biotechnol. Bioeng. 1997;53(2):202–206. doi: 10.1002/(SICI)1097-0290(19970120)53:2<202::AID-BIT10>3.0.CO;2-M. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 39. Ismail R, et al. The potential use of green mussel (Perna viridis) shells for synthetic calcium carbonate polymorphs in biomaterials. J. Cryst. Growth. 2021;572:126282. [ Google Scholar ] 
+ 40. Li J, Xue S, Mao Y. Seawater carbonate parameters function differently in affecting embryonic development and calcification in Pacific abalone (Haliotis discus hannai) Aquat. Toxicol. 2023;257:106450. doi: 10.1016/j.aquatox.2023.106450. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 41. Yang X, et al. A novel matrix protein PfX regulates shell ultrastructure by binding to specific calcium carbonate crystal faces. Int. J. Biol. Macromol. 2020;156:302–313. doi: 10.1016/j.ijbiomac.2020.04.016. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 42. Xu D, et al. Synthesis of stable calcium carbonate nanoparticles for pH-responsive controlled drug release. Mater. Lett. 2023;333:133635. [ Google Scholar ] 
+ 43. Ahammad MU, et al. Effect of oyster shell, limestone and calcium premix on egg production and egg shell quality. Indian J. Anim. Sci. 2005;75(7):823–826. [ Google Scholar ] 
+ 44. de Souza DS, et al. Quail performance and egg quality at the end of production fed with varying levels of calcium. Semina Cie. Agrarias. 2016;37(4):2395–2406. [ Google Scholar ] 
+ 45. Heyn AN. The crystalline structure of calcium carbonate in the avian egg shell; and electron microscope study. J. Ultrastruct. Res. 1963;8:176–188. doi: 10.1016/s0022-5320(63)80029-5. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 46. Jones KT. Ca2+ oscillations in the activation of the egg and development of the embryo in mammals. Int. J. Dev. Biol. 1998;42(1):1–10. [ PubMed ] [ Google Scholar ] 
+ 47. Khan SR, et al. Agar and egg shell derived calcium carbonate and calcium hydroxide nanoparticles: Synthesis, characterization and applications. Chem. Phys. Lett. 2019;732:136662. [ Google Scholar ] 
+ 48. de Souza JM, et al. Predation of Diatraea saccharalis eggs and neonates by the earwig Euborellia annulipes. Biol. Control. 2022;172:104953. [ Google Scholar ] 
+ 49. Novillo M, et al. Egg predation in Antarctic fish: The ingestion by Notothenia coriiceps of an entire Trematomus bernacchii spawn identified by molecular techniques. Estuar. Coast. Shelf Sci. 2022;266:107742. [ Google Scholar ] 
+ 50. Xiao Q, et al. Transcriptome sequencing reveals the differentially expressed lncRNAs and mRNAs in response to cold acclimation and cold stress in Pomacea canaliculata. BMC Genom. 2022;23:1. doi: 10.1186/s12864-022-08622-5. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+ 51. Xiong YM, et al. Immune related genes expression in juveniles of an invasive snail after challenged with Lipopolysaccharide. Invertebrate Surv. J. 2017;14:295–302. [ Google Scholar ] 
+ 52. Qin Z, et al. Enhanced salinity tolerance of Pomacea canaliculata through acclimation to lower salinities. Hydrobiologia. 2022;849(13):3015–3029. [ Google Scholar ] 
+ 53. Tahara Y, Obara K, Kamihira M. Calcium carbonate supplementation to chorioallantoic membranes improves hatchability in shell-less chick embryo culture. J. Biosci. Bioeng. 2021;131(3):314–319. doi: 10.1016/j.jbiosc.2020.11.001. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 54. Qiao T, et al. Clonorcis sinensis eggs are associated with calcium carbonate gallbladder stones. Acta Trop. 2014;138:28–37. doi: 10.1016/j.actatropica.2014.06.004. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 55. Colvin CN, et al. The effect of environmental factors on shell growth and repair in Buccinum undatum. J. Exp. Mar. Biol. Ecol. 2022;5:51. [ Google Scholar ] 
+ 56. Chen Y, et al. Repaired shells of the pearl oyster largely recapitulate normal prismatic layer growth: A proteomics study of shell matrix proteins. ACS Biomater. Sci. Eng. 2019;5(2):519–529. doi: 10.1021/acsbiomaterials.8b01355. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 57. Xiong X, et al. Transcriptome analysis reveals the transition and crosslinking of immune response and biomineralization in shell damage repair in pearl oyster. Aquac. Rep. 2021;21:25. [ Google Scholar ] 
+ 58. Bosch-Belmar M, et al. Short-term exposure to concurrent biotic and abiotic stressors may impair farmed molluscs performance. Mar. Pollut. Bull. 2022;179:113724. doi: 10.1016/j.marpolbul.2022.113724. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 59. Huang J, Xie L, Zhang R. Shell repair and the potential microbial causal in a shell disease of the pearl oyster Pinctada fucata. Fish Shellf. Immunol. 2019;86:934–941. doi: 10.1016/j.fsi.2018.12.032. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 60. Guo J, et al. Biological control of the exotic invasive snail Pomacea canaliculata with the indigenous medicinal leech Whitmania pigra. Biocontrol Sci. Tech. 2017;27(9):1071–1081. [ Google Scholar ] 
+ Associated Data 
+ This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+ Supplementary Materials 
+ Supplementary Information. (150.2KB, xlsx) 
+ Data Availability Statement 
+ All data generated or analysed during this study are included in this published article. 
+ Articles from Scientific Reports are provided here courtesy of Nature Publishing Group 
+ ACTIONS 
+ View on publisher site 
+ PDF (1.5 MB) 
+ Cite 
+ Collections 
+ Permalink 
+ PERMALINK 
+ Copy 
+ RESOURCES 
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+ Cite 
+ Copy 
+ Download .nbib 
+ .nbib 
+ Format: 
+ AMA
+ APA
+ MLA
+ NLM
+ Add to Collections 
+ Create a new collection 
+ Add to an existing collection 
+ Name your collection
+ * 
+ Choose a collection
+ Unable to load your collection due to an error 
+ Please try again 
+ Add
+ Cancel
+ Follow NCBI
+ NCBI on X (formerly known as Twitter) 
+ NCBI on Facebook 
+ NCBI on LinkedIn 
+ NCBI on GitHub 
+ NCBI RSS feed 
+ Connect with NLM
+ NLM on X (formerly known as Twitter) 
+ NLM on Facebook 
+ NLM on YouTube 
+ National Library of Medicine
+ 8600 Rockville Pike Bethesda, MD 20894 
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+ Back to Top 

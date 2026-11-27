@@ -1,0 +1,125 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "kralice_orta",
+     "klip": "kralice_orta"
+    },
+    "iscilar"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "isci_portre",
+    "larva"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "larva",
+     "a": [
+      0.5,
+      0.5,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "gorsel": "sut_hucre",
+     "klip": "sut_hucre"
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "yeni_kralice",
+    {
+     "gorsel": "iscilar",
+     "a": [
+      0.5,
+      0.45,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "yeni_kralice",
+     "a": [
+      0.5,
+      0.42,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.5
+     ]
+    },
+    {
+     "gorsel": "isci_portre",
+     "a": [
+      0.5,
+      0.42,
+      0.7
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.55
+     ]
+    },
+    {
+     "gorsel": "kralice_orta",
+     "a": [
+      0.5,
+      0.45,
+      0.8
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "petek_bos",
+    {
+     "gorsel": "petek_bos",
+     "a": [
+      0.55,
+      0.45,
+      0.6
+     ],
+     "b": [
+      0.55,
+      0.45,
+      0.45
+     ]
+    }
+   ]
+  }
+ ]
+}

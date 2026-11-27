@@ -1,0 +1,138 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "bocek_lamba",
+     "klip": "bocek_lamba"
+    },
+    "bocek_yakin"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "doner",
+    {
+     "gorsel": "gece_lamba",
+     "klip": "gece_lamba"
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "sirt_isik",
+    {
+     "gorsel": "sirt_isik",
+     "a": [
+      0.5,
+      0.42,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "gokyuzu",
+    {
+     "gorsel": "gokyuzu",
+     "a": [
+      0.5,
+      0.35,
+      0.7
+     ],
+     "b": [
+      0.5,
+      0.35,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "doner",
+     "a": [
+      0.5,
+      0.5,
+      0.75
+     ],
+     "b": [
+      0.5,
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "gorsel": "bocek_lamba",
+     "a": [
+      0.5,
+      0.42,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.5
+     ]
+    },
+    {
+     "gorsel": "doner",
+     "a": [
+      0.5,
+      0.5,
+      0.95
+     ],
+     "b": [
+      0.5,
+      0.5,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "bocek_yakin",
+     "a": [
+      0.5,
+      0.42,
+      0.7
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.5
+     ]
+    },
+    {
+     "gorsel": "gece_lamba",
+     "a": [
+      0.5,
+      0.45,
+      0.8
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.6
+     ]
+    },
+    "bocek_lamba"
+   ]
+  }
+ ]
+}

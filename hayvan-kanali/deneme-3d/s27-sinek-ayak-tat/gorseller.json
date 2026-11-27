@@ -1,0 +1,54 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "ayak_yakin",
+   "oran": "9:16",
+   "istem": "Extreme macro 3D close-up of the tip of a housefly's leg standing on large glittering sugar crystals: bristly hairs along the leg, two small curved claws and two soft sticky hairy pads at the tip, tiny golden glowing points on the hairs, dramatic rim light, dark warm background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Karasinek bacak ucu: kıllı bacak, iki küçük pençe, iki yapışkan tüylü ped. Tek bacak ucu görünür.",
+   "aday": 2
+  },
+  {
+   "ad": "sinek_portre",
+   "oran": "9:16",
+   "istem": "Extreme macro portrait of a realistic housefly (Musca domestica: grey thorax with four dark lengthwise stripes, large deep red compound eyes, exactly two transparent wings, six bristly legs) perched on the rim of a sugar bowl, facing the viewer, huge deep red compound eyes, short sponge-like mouth part, soft warm rim light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kırmızı bileşik iri gözler, gri gövde, süngerimsi ağız. İki kanat.",
+   "aday": 2
+  },
+  {
+   "ad": "seker_yuru",
+   "oran": "9:16",
+   "istem": "Side view of a realistic housefly (Musca domestica: grey thorax with four dark lengthwise stripes, large deep red compound eyes, exactly two transparent wings, six bristly legs) walking over a white plate scattered with sugar crystals, six legs on the surface, two transparent wings folded over its back, warm window light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Karasinek şekerli tabakta yürüyor: altı bacak, iki şeffaf kanat.",
+   "aday": 2
+  },
+  {
+   "ad": "tat_alici",
+   "oran": "9:16",
+   "istem": "Extreme macro 3D visualization of a fly's leg tip with fine hairs, tiny soft golden glowing points at the tip of each hair, dark warm background, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Bacak ucu ince tüyler, tüy uçlarında küçük altın ışık noktaları.",
+   "aday": 2
+  },
+  {
+   "ad": "ovusturme",
+   "oran": "9:16",
+   "istem": "Front macro view of a realistic housefly (Musca domestica: grey thorax with four dark lengthwise stripes, large deep red compound eyes, exactly two transparent wings, six bristly legs) rubbing its two front legs together in front of its head, huge red compound eyes, grey striped thorax, warm soft light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Karasinek iki ön bacağını birbirine sürtüyor; iki kanat, kırmızı gözler.",
+   "aday": 2
+  },
+  {
+   "ad": "seker_kase",
+   "oran": "9:16",
+   "istem": "Sugar crystals and a small pile of sugar on a white saucer in warm window light, crystals glittering, shallow depth of field, a few crystals scattered on a wooden table, empty of animals.",
+   "not": "Hayvansız şeker tabağı.",
+   "aday": 1
+  },
+  {
+   "ad": "agiz",
+   "oran": "9:16",
+   "istem": "Macro of a realistic housefly (Musca domestica: grey thorax with four dark lengthwise stripes, large deep red compound eyes, exactly two transparent wings, six bristly legs) with its soft proboscis extended, sipping from a shiny drop of golden syrup on a white plate, huge red compound eyes, warm rim light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Karasinek hortumunu şurup damlasına uzatmış; iki kanat, kırmızı gözler.",
+   "aday": 2
+  }
+ ]
+}

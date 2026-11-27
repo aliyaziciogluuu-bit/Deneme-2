@@ -1,0 +1,126 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "dusme",
+     "klip": "dusme"
+    },
+    "donus"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "tavan_geko",
+    {
+     "gorsel": "donus",
+     "a": [
+      0.5,
+      0.45,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.5
+     ]
+    },
+    "inis"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "kuyruk",
+     "klip": "kuyruk"
+    },
+    {
+     "gorsel": "dusme",
+     "a": [
+      0.45,
+      0.4,
+      0.7
+     ],
+     "b": [
+      0.45,
+      0.4,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "tavan_bos",
+    {
+     "gorsel": "donus",
+     "a": [
+      0.55,
+      0.42,
+      0.8
+     ],
+     "b": [
+      0.55,
+      0.42,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "donus",
+    {
+     "gorsel": "kuyruk",
+     "a": [
+      0.5,
+      0.45,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.5
+     ]
+    },
+    {
+     "gorsel": "dusme",
+     "a": [
+      0.5,
+      0.475,
+      0.95
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "kuyruksuz",
+    {
+     "gorsel": "kuyruksuz",
+     "a": [
+      0.5,
+      0.42,
+      0.6
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.45
+     ]
+    }
+   ]
+  }
+ ]
+}

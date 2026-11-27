@@ -1,0 +1,126 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "kuyruk_iz",
+     "klip": "kuyruk_iz"
+    },
+    "kuyruk_kivrim"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "avci",
+     "klip": "avci"
+    },
+    {
+     "gorsel": "geko_duvar",
+     "a": [
+      0.5,
+      0.45,
+      0.9
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "geko_duvar",
+    "kirik_nokta",
+    {
+     "gorsel": "kirik_nokta",
+     "a": [
+      0.5,
+      0.45,
+      0.7
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "sakin",
+    {
+     "gorsel": "geko_duvar",
+     "a": [
+      0.5,
+      0.65,
+      0.5
+     ],
+     "b": [
+      0.5,
+      0.65,
+      0.45
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "sakin",
+     "a": [
+      0.45,
+      0.42,
+      0.6
+     ],
+     "b": [
+      0.45,
+      0.42,
+      0.45
+     ]
+    },
+    {
+     "gorsel": "geko_duvar",
+     "a": [
+      0.6,
+      0.42,
+      0.75
+     ],
+     "b": [
+      0.6,
+      0.42,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "kisa_kuyruk",
+    {
+     "gorsel": "kisa_kuyruk",
+     "a": [
+      0.5,
+      0.42,
+      0.6
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.45
+     ]
+    },
+    "duvar_bos"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "kuyruk_iz",
+   "oran": "9:16",
+   "istem": "Dramatic close-up at night on a rough warm plaster wall: a detached pale beige gecko tail with a clean smooth tapered end, curled in an S shape and glowing softly in warm lamp light in the center of the frame; high in the corner, the rear of a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) pressed flat against the wall, legs splayed sideways, is scurrying away out of the frame. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kopan kuyruk: temiz, pürüzsüz, kan yok; S şeklinde kıvrık. Geko yalnız arkadan, duvara yassı, bacaklar yanlara açık, köşede küçük.",
+   "aday": 2
+  },
+  {
+   "ad": "geko_duvar",
+   "oran": "9:16",
+   "istem": "Full-body view of a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) pressed flat against a rough plaster wall at night, belly on the wall, legs splayed out sideways with all four feet flat on the wall, head turned looking at the viewer, tail intact, warm lamp light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Ev kertenkelesi duvara yassı: bacaklar yanlara açık, dört ayak, her ayakta beş geniş parmak, uzun sağlam kuyruk, dikey göz bebeği.",
+   "aday": 2
+  },
+  {
+   "ad": "kuyruk_kivrim",
+   "oran": "9:16",
+   "istem": "Macro 3D close-up of a detached pale beige gecko tail lying on a dark stone surface in a graceful curl, smooth clean tip, fine scales visible, warm rim light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Yalnız kopmuş kuyruk, ince pullu, kıvrık, temiz uç.",
+   "aday": 2
+  },
+  {
+   "ad": "avci",
+   "oran": "9:16",
+   "istem": "Close-up portrait of a small tabby cat crouching on a garden stone wall at night, ears forward, wide attentive eyes looking toward the lower part of the frame, a tiny pale detached gecko tail wriggling in the blurred foreground, warm lamp light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Tekir kedi yakın plan, kulaklar dik, dikkatli bakış. Korkutucu değil.",
+   "aday": 2
+  },
+  {
+   "ad": "kirik_nokta",
+   "oran": "9:16",
+   "istem": "Stylized 3D science visualization: a single smooth ivory column of small tail bones inside a gecko tail, one thin glowing ring around it marking the spot where it breaks, dark blue background, soft light.",
+   "not": "Tek parlayan nesne: ivory kuyruk omurları ve tek ince parlak halka. Dişli ya da devre dokusu olmamalı.",
+   "aday": 1
+  },
+  {
+   "ad": "sakin",
+   "oran": "9:16",
+   "istem": "Front view of a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) resting calmly on a stone window ledge at dusk, belly flat on the stone, legs splayed sideways, long plump tail curled neatly beside it, warm golden light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Sakin geko, dolgun uzun kuyruk yanında kıvrık, dört kısa bacak yanlara açık.",
+   "aday": 2
+  },
+  {
+   "ad": "kisa_kuyruk",
+   "oran": "9:16",
+   "istem": "Close-up of a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) on a mossy stone at sunrise looking toward the viewer, its tail is short and blunt, a small stubby tail stump, belly flat on the stone, legs splayed sideways, soft golden light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kuyruğu kısa, küt bir kök; kan ya da yara yok. Dört bacak yanlara açık, beş parmak.",
+   "aday": 2
+  },
+  {
+   "ad": "duvar_bos",
+   "oran": "9:16",
+   "istem": "Warm rough plaster wall at night with a softly glowing round wall lamp casting a golden halo, tiny dust specks floating in the light, empty of animals.",
+   "not": "Hayvansız ışıklı duvar.",
+   "aday": 1
+  }
+ ]
+}

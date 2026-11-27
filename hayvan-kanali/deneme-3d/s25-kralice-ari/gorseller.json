@@ -1,0 +1,54 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "kralice_orta",
+   "oran": "9:16",
+   "istem": "Inside a honey bee hive, a vertical golden honeycomb: in the center a realistic queen honey bee (Apis mellifera: the same golden-brown colors as the workers but with a distinctly longer, slender, tapering abdomen that extends well beyond her folded wings, six legs) stands still on the comb, around her many worker bees crowd anxiously, right next to her a large wax cell filled to the brim with glowing golden-white royal jelly, warm amber light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kraliçe: işçilerden belirgin uzun, ince karınlı. İşçiler altın-kahve çizgili, altı bacaklı, iki çift şeffaf kanat. Yanında ağzına kadar dolu arı sütü hücresi.",
+   "aday": 2
+  },
+  {
+   "ad": "iscilar",
+   "oran": "9:16",
+   "istem": "Close-up inside a honey bee hive: a cluster of golden-brown worker bees crowding and touching antennae on a golden honeycomb, warm amber light, shallow depth of field, a few bees sharply in focus in the center. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Işçi arılar kalabalık petekte; hepsi altın-kahve çizgili, altı bacak, kanatlar sırtta.",
+   "aday": 2
+  },
+  {
+   "ad": "larva",
+   "oran": "9:16",
+   "istem": "Extreme macro inside a honey bee hive: a tiny pearly-white curled larva resting in a hexagonal wax cell surrounded by milky creamy glowing royal jelly, neighboring cells with golden honey, warm soft light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Küçük, inci beyazı, kıvrık larva; süt rengi arı sütü içinde. Pembe et yok.",
+   "aday": 2
+  },
+  {
+   "ad": "sut_hucre",
+   "oran": "9:16",
+   "istem": "Inside a honey bee hive: a large peanut-shaped wax queen cell hanging vertically from the golden honeycomb, glowing warmly from within, the surrounding honeycomb cells golden and glistening, soft amber light, empty of bees.",
+   "not": "Hayvansız: tek büyük fıstık biçimli kraliçe hücresi.",
+   "aday": 1
+  },
+  {
+   "ad": "yeni_kralice",
+   "oran": "9:16",
+   "istem": "Macro portrait of a realistic queen honey bee (Apis mellifera: the same golden-brown colors as the workers but with a distinctly longer, slender, tapering abdomen that extends well beyond her folded wings, six legs) on a golden honeycomb, facing the viewer, big dark brown compound eyes, soft amber light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Yeni kraliçe: uzun ince karın kanatların ötesine uzanır; kahverengi büyük gözler.",
+   "aday": 2
+  },
+  {
+   "ad": "petek_bos",
+   "oran": "9:16",
+   "istem": "Extreme close-up of empty hexagonal honeycomb cells glowing amber and gold with dark depths in some of them, warm soft light, shallow depth of field, empty of bees.",
+   "not": "Hayvansız boş petek hücreleri.",
+   "aday": 1
+  },
+  {
+   "ad": "isci_portre",
+   "oran": "9:16",
+   "istem": "Macro portrait of a realistic worker honey bee (Apis mellifera: golden-brown fuzzy thorax, abdomen with alternating dark brown and amber stripes, big dark brown compound eyes, six legs, two pairs of transparent wings) on a golden honeycomb, facing the viewer, a little yellow pollen on its legs, soft amber light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "İşçi arı: kısa tüylü gövde, çizgili karın, iri koyu gözler, altı bacak.",
+   "aday": 2
+  }
+ ]
+}

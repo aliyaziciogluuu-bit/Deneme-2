@@ -1,0 +1,125 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "damla_carpma",
+     "klip": "damla_carpma"
+    },
+    {
+     "gorsel": "ucus",
+     "a": [
+      0.5,
+      0.45,
+      0.9
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "hafif",
+     "a": [
+      0.5,
+      0.45,
+      0.9
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.7
+     ]
+    },
+    {
+     "gorsel": "damla_carpma",
+     "a": [
+      0.55,
+      0.42,
+      0.65
+     ],
+     "b": [
+      0.55,
+      0.42,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "yapisma",
+    {
+     "gorsel": "yapisma",
+     "a": [
+      0.5,
+      0.4,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.4,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "ucus",
+     "a": [
+      0.4,
+      0.42,
+      0.7
+     ],
+     "b": [
+      0.4,
+      0.42,
+      0.55
+     ]
+    },
+    "portre"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "yagmur_bahce",
+    "sicrama",
+    "zemin"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "zemin",
+     "klip": "zemin"
+    },
+    {
+     "gorsel": "portre",
+     "a": [
+      0.5,
+      0.42,
+      0.7
+     ],
+     "b": [
+      0.5,
+      0.42,
+      0.5
+     ]
+    }
+   ]
+  }
+ ]
+}

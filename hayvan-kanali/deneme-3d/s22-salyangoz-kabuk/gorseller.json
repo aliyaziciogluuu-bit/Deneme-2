@@ -1,0 +1,54 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "kirik",
+   "oran": "9:16",
+   "istem": "Extreme close-up of a realistic freshwater apple snail (Pomacea canaliculata: round glossy golden-brown spiral shell with darker spiral bands, soft cream-yellow body, two long thin tentacles and two small eyes on short stalks) on a wet green leaf: its glossy golden-brown shell has a clearly visible jagged crack with a chipped broken edge, along the crack a thin translucent pale-amber layer of new shell is forming and softly glowing, warm rim light, dark green background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Salyangoz kabuğunda belirgin çatlak ve kırık kenar; çatlak boyunca ince yeni tabaka. Yuvarlak spiral kabuk, iki uzun dokunaç, kısa saplı iki göz. Bacak yok.",
+   "aday": 2
+  },
+  {
+   "ad": "portre",
+   "oran": "9:16",
+   "istem": "Side view of a realistic freshwater apple snail (Pomacea canaliculata: round glossy golden-brown spiral shell with darker spiral bands, soft cream-yellow body, two long thin tentacles and two small eyes on short stalks) gliding on a green water-plant leaf at the edge of a pond, intact undamaged shell, tentacles extended forward, drops of water on the leaf, soft golden morning light, blurred green background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Sağlam kabuklu elma salyangozu; yuvarlak spiral kabuk, dokunaçlar öne. Hiç bacak ya da ayak yok.",
+   "aday": 2
+  },
+  {
+   "ad": "kabuk_yakin",
+   "oran": "9:16",
+   "istem": "Extreme macro of the surface of a glossy golden-brown spiral snail shell with fine curved growth lines and darker spiral bands, a few water droplets on it, soft warm light, dark background.",
+   "not": "Yalnız kabuk yüzeyi, büyüme çizgileri.",
+   "aday": 1
+  },
+  {
+   "ad": "onarim",
+   "oran": "9:16",
+   "istem": "Extreme macro of a snail shell with a narrow crack that is mostly covered over by a smooth thin glossy new layer of pale amber shell material, a few water droplets, soft warm side light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Yalnız kabuk; çatlak kısmen yeni ince tabakayla kapanmış. Et ya da iç doku görünmez.",
+   "aday": 2
+  },
+  {
+   "ad": "havuz",
+   "oran": "9:16",
+   "istem": "Sunlit freshwater pond in the morning with round green lily pads floating on calm water, golden light sparkling on ripples, tall reeds, mist, gentle depth, empty of animals.",
+   "not": "Hayvansız tatlı su havuzu.",
+   "aday": 1
+  },
+  {
+   "ad": "kapali",
+   "oran": "9:16",
+   "istem": "Front close-up of a realistic freshwater apple snail (Pomacea canaliculata: round glossy golden-brown spiral shell with darker spiral bands, soft cream-yellow body, two long thin tentacles and two small eyes on short stalks) fully withdrawn into its round golden-brown shell on a green leaf, the shell opening sealed with a smooth brown round plate, tentacles pulled in, water drops on the leaf, soft light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Salyangoz kabuğuna çekilmiş, ağzı kahverengi yuvarlak kapakla kapalı; dokunaç görünmez.",
+   "aday": 2
+  },
+  {
+   "ad": "kotu",
+   "oran": "9:16",
+   "istem": "Close-up of a golden-brown snail shell resting on a wet dark stone, a large jagged broken gap along its edge with the dark empty spiral interior visible, moody soft light, shallow depth of field, a few water drops. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Büyük kırık kenarlı boş kabuk görünümü; kabuk içi koyu spiral. Pembe et yok.",
+   "aday": 2
+  }
+ ]
+}

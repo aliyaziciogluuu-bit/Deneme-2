@@ -1,0 +1,61 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "damla_carpma",
+   "oran": "9:16",
+   "istem": "Extreme close-up slow-motion at night in heavy rain: a huge crystal-clear raindrop, about three times the size of the mosquito's body, has just hit a realistic Culex mosquito (small slender grey-brown body with pale bands on the abdomen, a long thin needle-like proboscis pointing forward from the head, exactly six very thin long legs, two narrow transparent wings with fine veins, small dark compound eyes) in mid-air; the mosquito clings to the side of the glass-clear drop and is carried down with it, unharmed, rim light, dark blue stormy background with bright rain streaks. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Sivrisinek: ince uzun 6 bacak, iki şeffaf kanat, öne uzanan ince hortum. Damla sivrisineğin gövdesinden yaklaşık üç kat büyük, saydam. Sivrisinek ezilmemiş, bütün.",
+   "aday": 2
+  },
+  {
+   "ad": "ucus",
+   "oran": "9:16",
+   "istem": "Side view close-up at night in light rain: a realistic Culex mosquito (small slender grey-brown body with pale bands on the abdomen, a long thin needle-like proboscis pointing forward from the head, exactly six very thin long legs, two narrow transparent wings with fine veins, small dark compound eyes) flying freely through the air, wings spread, six thin legs trailing, a few raindrops around it, warm yellow garden lamp glow bokeh behind. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Sivrisinek uçuşta: iki kanat, altı ince bacak, hortum öne. Dört kanat ya da kısa kalın gövde olmamalı.",
+   "aday": 2
+  },
+  {
+   "ad": "hafif",
+   "oran": "9:16",
+   "istem": "Macro 3D scene: a realistic Culex mosquito (small slender grey-brown body with pale bands on the abdomen, a long thin needle-like proboscis pointing forward from the head, exactly six very thin long legs, two narrow transparent wings with fine veins, small dark compound eyes) perched weightlessly on the tip of a single white feather, a large round water droplet hanging from the feather beside it, soft dawn light, dark green blurred background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Sivrisinek tüyün ucunda, yanında iri damla. Altı bacak, iki kanat. Damla sivrisinekten büyük.",
+   "aday": 2
+  },
+  {
+   "ad": "yapisma",
+   "oran": "9:16",
+   "istem": "Macro 3D close-up: a realistic Culex mosquito (small slender grey-brown body with pale bands on the abdomen, a long thin needle-like proboscis pointing forward from the head, exactly six very thin long legs, two narrow transparent wings with fine veins, small dark compound eyes) clinging to the side of a large falling raindrop that is stretched slightly downward, the drop is clear as glass with a tiny reflection of a garden in it, rain streaks and dark green blur behind. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Sivrisinek damlanın yan yüzeyine tutunmuş, damla aşağı düşüyor. Altı ince bacak, iki kanat.",
+   "aday": 2
+  },
+  {
+   "ad": "zemin",
+   "oran": "9:16",
+   "istem": "Low-angle macro at night: a large raindrop falling just above a wet dark stone surface covered with a thin film of water, a realistic Culex mosquito (small slender grey-brown body with pale bands on the abdomen, a long thin needle-like proboscis pointing forward from the head, exactly six very thin long legs, two narrow transparent wings with fine veins, small dark compound eyes) caught between the drop and the stone surface just above the ground, tiny splash ripples beginning on the stone, dramatic rim light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Sivrisinek damla ile ıslak zemin arasında sıkışmış. Altı bacak, iki kanat, hortum.",
+   "aday": 2
+  },
+  {
+   "ad": "yagmur_bahce",
+   "oran": "9:16",
+   "istem": "Cinematic night garden in heavy rain: bright rain streaks backlit by a distant warm lamp, wet leaves glistening, puddles reflecting the lamp light, deep blue and amber colors, empty of animals.",
+   "not": "Hayvansız yağmurlu gece bahçesi.",
+   "aday": 1
+  },
+  {
+   "ad": "sicrama",
+   "oran": "9:16",
+   "istem": "Extreme macro slow-motion: a raindrop hitting a calm puddle and forming a perfect crown-shaped splash with a tiny rising droplet at the top, dark blue background, warm rim light.",
+   "not": "Hayvansız, damla sıçraması.",
+   "aday": 1
+  },
+  {
+   "ad": "portre",
+   "oran": "9:16",
+   "istem": "Extreme macro portrait of a realistic Culex mosquito (small slender grey-brown body with pale bands on the abdomen, a long thin needle-like proboscis pointing forward from the head, exactly six very thin long legs, two narrow transparent wings with fine veins, small dark compound eyes) resting on a wet green leaf covered in tiny water beads, facing the viewer, soft rim light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Yakın portre: iki küçük koyu bileşik göz, ince hortum, tüylü anten, kanatlar sırta katlı, ince bacaklar.",
+   "aday": 2
+  }
+ ]
+}

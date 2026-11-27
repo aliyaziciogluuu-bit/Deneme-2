@@ -1,0 +1,47 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "islak_tas",
+   "oran": "9:16",
+   "istem": "Dramatic close-up of a realistic European common green frog (smooth moist olive-green skin with dark spots and a pale green stripe along the back, big golden-bronze eyes with horizontal oval pupils, wide mouth) sitting low on a wet dark stone at the edge of shallow water, its mouth closed, only the front of the body and head visible with the lower body sunk in the water and resting on the stone, shimmering droplets of water seeping into the skin of its belly and rear as soft glowing points, golden rim light, dark teal background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kurbağa ıslak taşta, ağız kapalı; karın ve arka kısım suya değiyor, deriden içeri parlayan damlacıklar. Arka bacaklar su altında, ayak görünmez.",
+   "aday": 2
+  },
+  {
+   "ad": "portre",
+   "oran": "9:16",
+   "istem": "Close-up portrait of a realistic European common green frog (smooth moist olive-green skin with dark spots and a pale green stripe along the back, big golden-bronze eyes with horizontal oval pupils, wide mouth) with mouth closed, a bead of water on its snout, golden-bronze eyes with horizontal oval pupils, glistening wet olive-green skin, soft light, blurred green background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Ağzı kapalı kurbağa yüzü; yatay oval göz bebeği, ıslak deri.",
+   "aday": 2
+  },
+  {
+   "ad": "karin_deri",
+   "oran": "9:16",
+   "istem": "Extreme macro of the pale cream belly skin of a frog resting on a wet stone, a thin film of water on it, very fine thin red lines of tiny blood vessels visible beneath the smooth translucent skin, glistening water droplets soaking in, soft warm light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Karın derisi: soluk krem, ince damar çizgileri, ıslak film. Pembe et yığını yok.",
+   "aday": 2
+  },
+  {
+   "ad": "su_film",
+   "oran": "9:16",
+   "istem": "Wet dark stone surface covered with a thin shimmering film of water and many tiny round droplets, soft teal and golden light, droplets slowly merging, shallow depth of field, empty of animals.",
+   "not": "Hayvansız ıslak taş ve damlalar.",
+   "aday": 1
+  },
+  {
+   "ad": "catlak_toprak",
+   "oran": "9:16",
+   "istem": "Dry cracked pale earth under harsh bright midday sun with deep cracks forming a pattern, heat haze, a single dry leaf, empty of animals.",
+   "not": "Hayvansız kuru çatlak toprak.",
+   "aday": 1
+  },
+  {
+   "ad": "yosun",
+   "oran": "9:16",
+   "istem": "Close-up of the head of a realistic European common green frog (smooth moist olive-green skin with dark spots and a pale green stripe along the back, big golden-bronze eyes with horizontal oval pupils, wide mouth) resting in damp green moss and wet leaves with only its head and shoulders visible, eyes half closed and calm, water drops on moss, soft green light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Yosunda dinlenen kurbağa başı; alt gövde yosunda gizli.",
+   "aday": 2
+  }
+ ]
+}

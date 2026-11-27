@@ -1,0 +1,138 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "dans_isik",
+     "klip": "dans_isik"
+    },
+    "dansci"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "sekiz_yol",
+    {
+     "gorsel": "dansci",
+     "a": [
+      0.5,
+      0.45,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "gunes",
+     "klip": "gunes"
+    },
+    {
+     "gorsel": "sekiz_yol",
+     "a": [
+      0.5,
+      0.5,
+      0.7
+     ],
+     "b": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "gorsel": "gunes",
+     "a": [
+      0.4,
+      0.5,
+      0.7
+     ],
+     "b": [
+      0.4,
+      0.5,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    {
+     "gorsel": "dansci",
+     "a": [
+      0.45,
+      0.45,
+      0.8
+     ],
+     "b": [
+      0.45,
+      0.45,
+      0.6
+     ]
+    },
+    "ucus_cicek"
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "izleyiciler",
+    {
+     "gorsel": "ucus_cicek",
+     "a": [
+      0.5,
+      0.45,
+      0.7
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.5
+     ]
+    },
+    {
+     "gorsel": "ucus_cicek",
+     "a": [
+      0.5,
+      0.5,
+      0.95
+     ],
+     "b": [
+      0.5,
+      0.5,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "gorseller": [
+    "karanlik",
+    {
+     "gorsel": "karanlik",
+     "a": [
+      0.5,
+      0.45,
+      0.65
+     ],
+     "b": [
+      0.5,
+      0.45,
+      0.5
+     ]
+    }
+   ]
+  }
+ ]
+}

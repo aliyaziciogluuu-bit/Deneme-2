@@ -1,0 +1,54 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "dusme",
+   "oran": "9:16",
+   "istem": "Dramatic slow-motion view in a dim room at night: a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) falling through the air upside down with its belly facing up, all four legs spread wide like a skydiver, its tail whipping sharply to one side in a curve, a glowing round ceiling lamp far above, floating dust specks, warm light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Havada düşen geko: sırtüstü, dört bacak yanlara açık, kuyruk bir yana savrulmuş. Dört bacak, her ayakta beş parmak.",
+   "aday": 2
+  },
+  {
+   "ad": "tavan_geko",
+   "oran": "9:16",
+   "istem": "View from below looking up: a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) lying flat upside down on a white ceiling at night next to a glowing round ceiling lamp, belly pressed to the ceiling, all four legs splayed sideways, all four feet flat on the ceiling, tail curved. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Tavanda ters yassı geko, dört ayak tavanda düz.",
+   "aday": 2
+  },
+  {
+   "ad": "donus",
+   "oran": "9:16",
+   "istem": "Side view in a dim room at night: a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) twisting in mid-air with its body half rotated, belly turning toward the floor, flat broad tail swung out to the side, legs spread wide, warm lamp light and floating dust specks. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Havada dönen geko, kuyruk yana savrulmuş, karın yere dönüyor. Dört bacak.",
+   "aday": 2
+  },
+  {
+   "ad": "kuyruk",
+   "oran": "9:16",
+   "istem": "Close-up of the flat broad scalloped-edged tail of a pale beige gecko swinging through the air in a curve, the gecko body slightly blurred behind, warm lamp glow, floating dust specks, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Yassı kuyruk yakın plan, kenarları hafif dalgalı, havada kıvrılıyor.",
+   "aday": 2
+  },
+  {
+   "ad": "inis",
+   "oran": "9:16",
+   "istem": "Low-angle view of a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) landing belly-down on a smooth tile floor, all four feet flat on the floor, legs splayed sideways, head raised looking toward the viewer, a puff of fine dust, warm lamp light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Karnı üstüne inen geko; dört ayak yerde, beş parmak, uzun kuyruk.",
+   "aday": 2
+  },
+  {
+   "ad": "tavan_bos",
+   "oran": "9:16",
+   "istem": "View from below looking up at a white ceiling of a dim bedroom at night with a round glowing ceiling lamp and a warm halo, dust specks floating in the light, empty of animals.",
+   "not": "Hayvansız tavan ve lamba.",
+   "aday": 1
+  },
+  {
+   "ad": "kuyruksuz",
+   "oran": "9:16",
+   "istem": "Close-up of a realistic Mediterranean house gecko (pale, slightly translucent beige skin with small bumps, big dark eyes with vertical pupils, four short legs, five wide toes on each foot, a long tapering tail) on a floor tile in soft evening light looking at the viewer, its tail is a short blunt stubby tail, belly flat on the floor, legs splayed sideways, moody warm light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kısa küt kuyruklu geko; kan yok; dört bacak, beş parmak.",
+   "aday": 2
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+Kaynak: https://pmc.ncbi.nlm.nih.gov/articles/PMC2393739/
+İndirildi: 27 Kasım 2026 (sayfa metni)
+
+
+ Active tails enhance arboreal acrobatics in geckos - PMC
+ Skip to main content
+ An official website of the United States government
+ Here's how you know 
+ Here's how you know 
+ Official websites use .gov 
+ A
+ .gov website belongs to an official
+ government organization in the United States.
+ Secure .gov websites use HTTPS 
+ A lock (
+ Lock 
+ Locked padlock icon
+ ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+ Log in 
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+ Search PMC Full-Text Archive 
+ Search in PMC 
+ Journal List
+ User Guide
+ PERMALINK 
+ Copy 
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. 
+ Learn more:
+ PMC Disclaimer 
+ |
+ PMC Copyright Notice
+ Proc Natl Acad Sci U S A . 2008 Mar 17;105(11):4215–4219. doi: 10.1073/pnas.0711944105 
+ Search in PMC 
+ Search in PubMed 
+ View in NLM Catalog 
+ Add to search 
+ Active tails enhance arboreal acrobatics in geckos 
+ Ardian Jusufi 
+ Ardian Jusufi 
+ 1 Department of Integrative Biology, University of California, Berkeley, CA 94720 
+ Find articles by Ardian Jusufi 
+ 1 , Daniel I Goldman 
+ Daniel I Goldman 
+ 1 Department of Integrative Biology, University of California, Berkeley, CA 94720 
+ Find articles by Daniel I Goldman 
+ 1, * , Shai Revzen 
+ Shai Revzen 
+ 1 Department of Integrative Biology, University of California, Berkeley, CA 94720 
+ Find articles by Shai Revzen 
+ 1 , Robert J Full 
+ Robert J Full 
+ 1 Department of Integrative Biology, University of California, Berkeley, CA 94720 
+ Find articles by Robert J Full 
+ 1, † 
+ Author information 
+ Article notes 
+ Copyright and License information 
+ 1 Department of Integrative Biology, University of California, Berkeley, CA 94720 
+ † To whom correspondence should be addressed. E-mail: rjfull@berkeley.edu 
+ Communicated by David B. Wake, University of California, Berkeley, CA, January 15, 2008 
+ Author contributions: A.J., D.I.G., S.R., and R.J.F. designed research; A.J. performed research; A.J., D.I.G., and S.R. analyzed data; and A.J. and R.J.F. wrote the paper. 
+ *Present address: School of Physics, Georgia Institute of Technology, Atlanta, GA 30332. 
+ Series information 
+ From the Cover Received 2007 Nov 13; Issue date 2008 Mar 18. 
+ © 2008 by The National Academy of Sciences of the USA 
+ Freely available online through the PNAS open access option. 
+ PMC Copyright notice 
+ PMCID: PMC2393739  PMID: 18347344 
+ Abstract 
+ Geckos are nature's elite climbers. Their remarkable climbing feats have been attributed to specialized feet with hairy toes that uncurl and peel in milliseconds. Here, we report that the secret to the gecko's arboreal acrobatics includes an active tail. We examine the tail's role during rapid climbing, aerial descent, and gliding. We show that a gecko's tail functions as an emergency fifth leg to prevent falling during rapid climbing. A response initiated by slipping causes the tail tip to push against the vertical surface, thereby preventing pitch-back of the head and upper body. When pitch-back cannot be prevented, geckos avoid falling by placing their tail in a posture similar to a bicycle's kickstand. Should a gecko fall with its back to the ground, a swing of its tail induces the most rapid, zero-angular momentum air-righting response yet measured. Once righted to a sprawled gliding posture, circular tail movements control yaw and pitch as the gecko descends. Our results suggest that large, active tails can function as effective control appendages. These results have provided biological inspiration for the design of an active tail on a climbing robot, and we anticipate their use in small, unmanned gliding vehicles and multisegment spacecraft. 
+ Keywords: biomechanics, climbing, air-righting, gliding, locomotion 
+ In a single second of vertical running, geckos travel 15 body lengths and take 30 steps ( 1 ). During rapid climbing, their toes attach in 5 ms and detach in only 15 ms. To explain their climbing agility, research has focused on the fibrillar adhesives found on their toes that function by van der Waals forces ( 2 ). Despite morphological and behavioral adaptations that enhance stability ( 3 ), lizards, such as Sceloperus occidentalis , can fall frequently in experimental ( 4 ) as well as in natural conditions ( 5 ). During our initial explorations of climbing on realistic surfaces and upside-down locomotion, we noticed that a gecko's agility involved far more than just secure footholds. Here, we pursue our observations by testing the hypothesis that the gecko's tail enhances its scansorial and arboreal performance. 
+ Reptilian tails have been shown to affect running speed ( 6 – 8 ), maneuverability ( 9 ), and endurance ( 10 ) on level ground. In arboreal environments, prehensile tails ( 11 ) facilitate resting balance and slow climbing. However, tail function during rapid climbing, aerial descent, and gliding is largely unknown ( 10 , 12 , 13 ). To examine the tail's role in each behavior, we studied the flat-tailed house gecko, Cosymbotus platyurus , because it is agile and has a sizeable, active tail. Moreover, the dynamics of house geckos' horizontal running ( 14 ) and vertical climbing ( 1 ) are well characterized. Our results suggest that large tails not only serve as passive structures that store fat ( 8 , 15 ), provide balance, and give a grip, but also function as highly active control appendages. 
+ Results and Discussion 
+ We began by investigating tail use during rapid vertical climbing. In nature, swift climbers must respond rapidly to discontinuous supports, obstacles, and slippery surfaces. We challenged geckos with three vertical surfaces that produced different degrees of foot slippage. First, we ran geckos up a high-traction vertical track built from perforated board. Geckos running up vertical surfaces that provide a good grip balance the tendency to pitch back by pulling their head toward the wall with their foreleg on each step ( 1 ). We noticed that the gecko's tail was held off of the surface [tail tip to wall distance of 7.7 ± 2.2 mm (mean ± SE)] when footholds were secure. Next, we inserted a slippery patch into the high-traction vertical track. When geckos reached the patch, their forefoot slipped toward their body (undergoing large displacements of 2.2 ± 0.3 foot lengths). Foot slippage initiated a tail response that appeared to compensate for the lost grip of the forefoot [see supporting information (SI) Movies 1 and 2 ]. Geckos running on a vertical high-traction surface began to move their tail tip toward the wall ≈28.9 ± 6.3 ms after forefoot contact with the low-traction patch (see Materials and Methods for characteristics of experimental substrata). The latency and consistency of response suggest this action might be a reflex. The tail tip of C. platyurus contacted the surface in 47.0 ± 11.0 ms to stabilize the body from impending pitch-back ( Fig. 1 a–c ). 
+ Fig. 1. 
+ Open in a new tab 
+ Gecko tail response activated during rapid vertical climbing ( SI Movies 1 and 2 ). ( a ) Dorsal view of a gecko running up a high traction vertical track with a slippery patch lacking traction. ( b ) Side view demonstrates that the tail remains clear of the surface before slipping but contacts the surface shortly after the forefoot slips. ( c ) Plot of tail tip position as a function of time shows tail response activation after the forefoot slips and subsequent depression of the tail tip. ( d and e ) Dorsal and side view of gecko climbing a moderate traction surface with an embedded force platform. ( f ) Plot shows tail tip normal force as a function of time. Substantial normal forces were measured when geckos pushed their tail into the wall after a forefoot slip (red arrow). To test the hypothesis that tails adjust contact force actively and sufficiently to counter the animal's body pitch-back, we ran geckos up another vertical surface of intermediate traction (moderate displacements of 0.4 ± 0.1 foot lengths). For these trials, we embedded a sensitive scale into the track that could measure force. In contrast to the surface with secure footholds, geckos running up a substrate that resulted in moderate foot slippage at each step kept their tails in contact with the substrate at all times. We again inserted the slippery patch into the track. We measured a significant increase in stabilizing impulse moment (0.007 ± 0.002 mN·m·s, n = 7, P < 0.05) shortly (16.9 ± 4.7 ms) after the forefoot slipped ( Fig. 1 d–f ). Calculations showed that the tail response induced a stabilizing impulse moment (0.007 ± 0.002 mN·m·s) that counterbalanced the natural pitch-back impulse moment (0.012 ± 0.003 mN·m·s, P > 0.05, n = 7). The latter was determined from the product of the animal's body mass (3.15 ± 0.3 g), distance from the center of mass to the wall ( d = 4.9 ± 0.5 mm), stride period (0.08 ± 0.01 s), and gravity. The tail's stabilizing impulse moment calculated as tail force normal to the wall integrated over time increased in proportion to the distance ( r = 0.64, P = 0.01; n = 14) and duration ( r = 0.63, P = 0.02, n = 14) that the forefeet slipped, suggesting active control. 
+ The tail response could not correct for large repeated slips. When the tail response was insufficient, geckos tolerated pitch-back up to 60°, eventually preventing overturning by placing their tail in a posture where the last two-thirds of the tail pressed against the wall similar to that of a bicycle's kickstand ( Fig. 2 a ). Gecko tails stopped the backwards pitching within ≈130 ms and managed to regain hold of the wall in only ≈120 ms more (both durations ≈1.6 of a stride period). Even during these extreme perturbations, tailed animals never fell off the wall ( n = 30). In contrast, catastrophic pitch-back resulting in falling was observed in nearly 20% of animals without tails. Despite no difference in average climbing velocity between tailed (0.78 ms −1 ± 0.03, n = 23) and tailless animals (0.77 ms −1 ± 0.02, n = 34, P = 0.64), in >60% of the trials, tailless animals failed to cross the slippery patch, whereas <15% of the tailed animal trials were unsuccessful. 
+ Fig. 2. 
+ Open in a new tab 
+ Tail use in a running gecko and a legged climbing robot in response to a large pitch-back. ( a ) Repeated, large foot slips ( t = 0 ms) resulted in pitch-back. To prevent overturning, an extreme posture similar to that of a bicycle kickstand was used by geckos ( t = 126 ms; SI Movie 3 ), which enabled them to avoid falls and regain contact with the wall ( t = 230 ms) to traverse gaps. ( b ) RiSE (Robot in Scansorial Environment), a quadrupedal, bio-inspired robot, will use an active tail as an emergency fifth limb to assist in climbing. We observed that rapidly climbing geckos that fell or jumped off the wall always landed with the ventral side facing the ground independent of the initial posture at take-off. To examine how geckos executed quick air-righting reactions, we placed them upside-down (in supine position) on a light, loosely mounted platform that mimicked the underside of a flexible plant leaf. Upon loss of foothold, geckos rapidly spread their feet out laterally and fell in a supine posture ( Fig. 3 a and SI Movie 4 ; average latency of 45 ± 5 ms, n = 16). Next, the tail pitched into a position perpendicular to the longitudinal axis of the torso ( Fig. 3 b ). Simultaneously, the head pitched slightly. A cyclic rotation of the tail about the longitudinal axis produced a counter-rotation of the body ( Fig. 3 b and c ). The transition from supine to prone (right-side up) body posture was marked by inflation of the lateral membranes along the body of Cosymbotus . As the geckos attained prone posture, tail rotation stopped, thus terminating body rotation ( Fig. 3 d ). The average time to reorient was only 106 ± 6 ms ( n = 16; Fig. 3 f ), the shortest duration yet reported for air-righting animals unassisted by wings ( 16 – 19 ). Finally, the tail was realigned with the longitudinal body axis, which compensated for the initially generated pitch. After a prone posture was attained, geckos began to parachute in the characteristic skydiving posture ( 20 ) ( Fig. 3 d ). When C. platyurus 's horizontally sprawled body deviated from the horizontal posture in roll during subsequent free fall after completion of air-righting (first-order response), they generated second-order corrections by way of partial counter-rotations of the tail to regain the preferred body orientation of descent. In nearly 70% of the trials, the tail alone generated air-righting without head–shoulder or shoulder–pelvis rotations. All geckos that induced reorientation with their tails recovered from a supine posture to attain a near prone posture (rotating through 140° to 180°). Fully prone posture was attained in half of the trials within the vertical distance investigated (23 cm from take-off location which represents approximately four body or snout–vent lengths). In contrast, none of the geckos without tails attained a fully prone posture within the same vertical falling distance ( n = 19). In nearly half of the trials, tailless geckos rotated only halfway ( Fig. 3 g ) to the prone position by twisting. In <10% of all trials, tailed geckos did not rotate their tails during free fall and reorientation performance was similar to that of tailless geckos. 
+ Fig. 3. 
+ Open in a new tab 
+ Tail-induced air-righting maneuver in geckos ( SI Movie 4 ). ( a ) At takeoff the gecko released from an upside down (supine) posture. ( b and c ) Counterclockwise tail rotation (red arrow; θ T ) induced a clockwise rotation of the body (blue arrow; θ B ). ( d ) As the gecko's body attained right-side up (prone) posture, the tail stopped rotating. The animal maintained a skydiving posture during the subsequent free fall. ( e ) Schematic of a supine gecko falling to show angle convention. ( f and g ) Rotation of body and tail segments as a function of time in tailed ( f ) and tailless animals ( g ). Beginning with the study of the falling cat ( 21 ) in 1894, the mechanical explanation of air-righting with zero angular momentum has intrigued biologists, engineers, mathematicians, and physicists alike for over 100 years. Mammalian air-righting responses are generally characterized by twists and flexions of the spine that change shape ( 16 – 19 , 21 ) and therefore the instantaneous moment of inertia ( 22 ). No difference is apparent between the air-righting performance of tailed and tailless cats ( 16 ). Rats are unable to execute air-righting responses if head–torso and torso–pelvis rotation is prevented, leaving only the tail free to move ( 17 ). Tail cycling during free fall of the “flying gecko” Ptychozoon kuhli has been associated with changes in posture such as somersaulting ( 23 ). Tail motion in lizards has also been observed in microgravity on parabolic flights ( 20 ) and in jumps during above-ground acrobatics ( 24 ). Lizards appear to be unusual in their ability to perform the change in shape using their relatively large tails. 
+ To test the hypothesis that geckos self-right by swinging their tail, we demonstrated that angular momentum of body and tail about the central axis is conserved ( 22 ) during the righting maneuver. We acquired the rotation angle of both segments ( Δ θ B , Δ θ T ) experimentally and calculated the moments of inertia ( I B , I T ) using data approximating Cosymbotus 's morphology [see Materials and Methods (air-righting model)]. The moment-of-inertia ratios predicted by this model (1.44 ± 0.26) were not significantly different from our direct kinematic measurements of rotation (1.26 ± 0.20, n = 6, P = 0.29, t test of paired means), thus suggesting that the gecko's tail is capable of generating sufficient rotational impulse moments to account for a reorientation of its body. 
+ After rapid self-righting, we noticed that C. platyurus adopted a skydiving posture and glided to a safe landing site. In nature, Cosymbotus representatives have been reported to parachute and glide ( 25 ). To test whether an active tail plays a role in the control of gliding, we used a vertically tilted wind tunnel ( 26 ). Airflow at the calculated terminal velocities of ≈6 ms −1 for C. platyurus induced an equilibrium glide. We discovered that circular tail motion was coupled with yaw maneuvers of the body. Geckos that rotated their partially dorsi-flexed tail in a clockwise direction when viewed head-on ( Fig. 4 ) initiated a clockwise turn to the right in yaw ( n = 8) when viewed from above. A clockwise tail rotation when viewed head-on produced a counterclockwise rotation of the tail's center of mass motion when projected onto the plane of the body. As the conservation of angular momentum predicts, when the tail's motion was counterclockwise in the plane of the body, the body rotated in the opposite direction by yawing to the right. Tail rotations in the counterclockwise direction caused a counterclockwise turn in yaw to the left ( n = 7; SI Movie 5 ). The sharpest turns in yaw ( Fig. 4 ) occurred when the tail rotated predominantly in the plane perpendicular to C. platyurus 's sprawled torso, thereby projecting the largest circular motion on the body plane. Flat-tailed house geckos parachuting at terminal velocity controlled body pitch by moving their tail in the dorsoventral plane. Ventral flexion of the tail accompanied pitch-down ( n = 4) and dorsi-flexion accompanied pitch up ( n = 9). We found that geckos were capable of moving parallel to the ground while gliding. They generated translation in the cranial direction by oscillating the tail in the sagittal plane alternating positive and negative pitch with the corresponding tail motions ( n = 3; SI Movie 6 ). 
+ Fig. 4. 
+ Open in a new tab 
+ Tail-based turning maneuver of gecko during an equilibrium glide in a vertical wind tunnel that moved air upward. Time sequence from left to right of postural stages during a right turn while gliding. When viewed head-on, the tail rotated in a clockwise manner starting from the 12 o'clock position at t = 0 s ( a ) and sweeping to the right (3 o'clock position; b ), down (near 6 o'clock; c ), and swinging back past the 9 o'clock position ( d and e ), and finally stopping near the 12 o'clock position at t = 0.9 s ( f ). Geckos that rotated their partially dorsi-flexed tail in this clockwise direction initiated a clockwise turn to the right in yaw when viewed from above. ( SI Movie 5 shows that a counterclockwise tail rotation correspondingly produced a left turn.) Discovering that active tails allow arboreal acrobatics in geckos opens the door for future studies of the tail's neuromechanical control, evolution, and effectiveness in the gecko's natural environment. The tail response that prevents catastrophic pitch-back during rapid climbing has already provided biological inspiration for the design of a new active tail in the legged-robot named RiSE ( 27 ), which can climb brick walls, fences, and trees ( Fig. 2 b ). Similarly, biological inspiration could result in small, highly maneuverable unmanned aerial vehicles that glide. Finally, the investigation of zero-angular-momentum maneuvers in biological systems may provide inspiration for energy-efficient attitude control ( 28 ) for multisegment space vehicles and the astronauts who pilot them ( 29 , 30 ). Materials and Methods 
+ Rapid Vertical Ascent: Climbing. 
+ Animals. 
+ Flat-tailed house geckos, Cosymbotus platyurus , were purchased from commercial vendors (California Zoological Supply and The Reptile Company). The majority of kinematic measurements were conducted with trials from nine individuals (3.25 ± 0.2 g, 5.3 ± 0.07 cm snout–vent length; mean ± 1 SE), and force measurements were made on six individuals (2.91 ± 0.2 g, 5.4 ± 0.08 cm snout–vent length). Geckos were housed in individual containers in an animal care facility and fed with a diet of water, crickets, and vitamin/mineral supplements. Animals were kept in an environmental room illuminated for 12 h per day at 25 ± 2°C. Trials were conducted at an average temperature of 29°C and average humidity of 28%. The Animal Care and Use Committee at University of California, Berkeley, whose activities are mandated by the U.S. Animal Welfare Act and Public Health Service Policy, approved all experimental procedures described for these research projects. 
+ When possible, we used geckos that had let go of their tails. To induce caudotomy, we followed procedures well established in the literature (e.g., refs. 6 – 8 , 10 , and 12 ), in which autotomy was initiated by holding the base of the tail past the biologically predetermined breaking point upon which lizards release their tail voluntarily to escape. There was usually no or very minor blood loss when geckos shed their tails. To avoid infections, the area was covered with silver sulfadiazene cream. The animals were not used for locomotion experiments for 48 h after shedding of the tail. Each individual that experienced caudal autotomy began to regenerate their tail. Climbing substrata. 
+ High-traction substrate. 
+ To develop a substrate providing the most secure foothold that enabled both claw and toe pad engagement ( Fig. 1 a ), we manufactured a perforated track (560 × 75 mm) using a laser cutter (VersaLaser-200; Universal Laser Systems Inc.) that drilled 1.7-mm-deep holes through a polyethylene plate in a hexagonal fashion (center–center 2.5 mm). Conceptual drawings were done in SolidWorks 2005 and sent into the laser cutter to create two concentric circles of 0.8 and 0.37 mm diameter, which yielded perforations of 1 mm diameter in the plastic plate. The perforated track was coated with latex-based paint after having cooled down to room temperature. High-traction substrate with slippery patch. 
+ To induce single foot displacements, we inserted a slippery patch (width of 1.7–3.4 cm) into the high-traction substrate ( Fig. 1 a ). Geckos were unable to attain foothold on a patch made from commercial dry-erase board (Quartet) and coated with dry erase marker (EXPO and Avery). Intermediate traction substrate with slippery patch. 
+ We coated an aluminum plate with glass beads (diameter = 0.7 mm), which were applied using glue that consisted of 90% acetone (ACE) and 10% cement (Duco). We again inserted a dry-erase board slippery patch. Wall reaction force measurements. 
+ A force platform was inserted into the floor of the track-way. Semiconductor strain gauges (bonded to spring blades cut from the brass supporting beams) embedded in a force-sensitive instrument ( 1 , 14 , 31 ) ( Fig. 1 g ; platform dimensions of 105 × 68 × 1.3 mm) responded to fore–aft, lateral, and normal forces that geckos exerted onto the wall. Force signals were filtered using a fifth-order Butterworth filter at a cut-off frequency of 100 Hz (unloaded natural frequency of the plate of >200 Hz in all channels). Cross-talk between three axes of force measurement was <5%. Loads in the range 0.005–0.069 N produced a linear response with a maximum variation across the platform of <2%. Signals from each force platform channel were amplified (Vishay Measurements Group) and collected by a 16-bit data-acquisition system (National Instruments) on a computer (Power Macintosh 9500) at a frequency of 9,500 Hz. Results from force measurements are shown in Fig. 1 f . Kinematic measurements: Climbing. 
+ We video-recorded one dorsal and one sagittal view simultaneously by using digital video cameras capturing 500 frames·s −1 [Kodak EktaPro HG Imager, Model 2000 (Redlake); Photron FASTCAM-PCI; SI Movie 2 ]. Video frames were acquired and the coordinates of various landmarks [white-out (Liquid Paper; SANFORD)] on the body at each frame were digitized into a computer by using video analysis programs in MATLAB 6.5 (The MathWorks). A trigger switch synchronized video frames from both camera views with the force data. We measured the extent of foot slippage from the video. The unit for foot displacements measurements on various substrates was individual foot lengths. One individual foot length was defined as the distance from the claw tip of the middle toe to the heel of the forefoot that was subjected to perturbation. Because foot slippage could be detected immediately upon contact by means of digital mechanosensors, we measured the response time from initial contact of the forefoot with the slippery surface until the tail tip touched the wall or a substantial increase in production of tail force was detected. Aerial Descent: Attitude Control. 
+ Animals. 
+ The average weight of the C. platyurus used in aerial descent experiments was 3.17 ± 0.1 g ( n = 11). Their tails weighed ≈0.29 ± 0.1 g, which represents ≈10% of their entire body mass. Caudotomy was initiated, and the animals were housed as described just above under Rapid Vertical Ascent: Climbing . Air-righting. 
+ Take-off site: Horizontal platform. 
+ To study how geckos self-right during aerial descent, they were placed onto the bottom of a platform in a supine or inverted posture 2 m above a padded 1 × 1-m landing area ( SI Movie 4 ). We observed the first 23 cm of their aerial descent. For this experiment, we held a rectangular polyethylene foil in a horizontal position with four fishing lines that were tied to each corner. The platform was loosely mounted to reduce the possibility of geckos introducing a lateral momentum by pushing off before release. The platform was 12 cm × 10 cm and weighed only 4.5 g. The transparent platform allowed a mirror mounted above it to provide us with a top view of the falling animal. One additional mirror was mounted at an angle next to the experimental setup and perpendicular to the optical axis such that a sagittal view of the animal's falling behavior could be captured. Usually geckos lost their foothold on their own after just a few minutes. If not, we gently vibrated the platform to induce the gecko to release. All geckos landed safely in a prone posture on a soft landing zone. Kinematic measurements. 
+ We operationally defined a successful air-righting trial as one in which ( i ) the gecko released and began to fall in a supine position, ( ii ) the fall was followed by motion of body segments, such as feet, head, or limbs, relative to the rest of the body leading to postural changes, and ( iii ) all feet left the platform symmetrically and simultaneously. We defined simultaneous release as all four feet detaching from the platform within 0.02 s of one another. Trials in which animals released asymmetrically—i.e., first left forefoot and left hind foot followed by right fore and right hind foot or first with their forefeet followed by hind feet—were excluded. The air-righting behavior was recorded with digital high-speed video cameras (Redlake) operating at 500 frames·s −1 . The time was measured from release to the beginning of reorientation and from beginning of reorientation until the body attained a prone (horizontal, skydiving) posture, after which the air-righting behavior was completed. We measured tail position and rotation angle as well as the shoulder and pelvis position and rotation angles for each trial as a control to check the contributions of twisting to air-righting. By suitable camera placement and positioning of the gecko before the fall, we ensured that the body axis of the gecko was normal to the plane of cranial camera view during fall to within ±5°. This alignment allowed accurate resolution of body and tail angle by using projected views onto a single imaging plane. Air-righting model. 
+ The angular momentum L of an object is expressed as the product of its moment of inertia I and its angular velocity vector (Δθ/Δ t ) ( Eq. 1 ):
+ When a gecko is free falling without external torques acting on its body, the sum of the angular momentum of the body segment [ I B (Δθ B /Δ t )] and the tail [ I T (Δθ T /Δ t )] equals zero; thus, total angular momentum is conserved ( Eq. 2 ):
+ We calculated individual moments of inertia of the gecko's body, I B , assuming an object with a fixed mass and the principal rotation occurring about the fixed, longitudinal body axis. 
+ The total moment of inertia of the tail I T was estimated by treating the tail as a cone rotating perpendicular to the body about one end. Given Eq. 3 , the ratio of change in tail rotation angle to the change in body rotation angle Δθ T /Δθ B equals the ratio of the moment of inertia of the body to the moment of inertia of the tail I B / I T :
+ Aerial descent: Gliding, turning, and translation. 
+ Wind tunnel. 
+ The airflow moving past a gecko skydiving in a vertically tilted wind tunnel is not different from the airflow around a gecko parachuting or gliding through still air ( 26 ), where the air moves relative to the gecko. Instead of pursuing an experimental approach that involves dropping animals from large heights (e.g., ref. 23 ), we used a vertically tilted wind tunnel (MIDIMASTER Eco; Siemens) to simulate the conditions of aerial descent ( SI Movies 5 and 6 ). Terminal falling velocity is reached when the aerodynamic drag and lift forces balance the force of gravity. Depending on individual mass and surface area, C. platyurus attained terminal velocity at ventral airflow speeds between 4.0 and 7.0 ms −1 , consistent with our prediction of 6 ms −1 . The wind tunnel was set such that it contained fields of identified flow rates ranging from 2.5 to 8.0 ms −1 . We mounted transparent Plexiglas sidewalls around the opening of the wind tunnel. This prevented geckos from maneuvering sideways out of the test section and enabled high-speed video recording at 250 and 300 frames·s −1 . To prevent animals from contacting the expansion chamber of the wind tunnel, we installed a safety net in the test section. Anemometers (VelociCalc; TSI, Inc.) were used to determine an area of uniform airflow. We marked the area on the safety net with white paint and only used this section for video recording. Kinematics measurements: Gliding, turning, and translation. 
+ We placed the geckos in the wind tunnel and they began to hover. Animals were positioned toward the uniform flow in our marked area by using a feathered brush. We operationally defined a successful turning trial as one in which the gecko ( i ) adopted a skydiving posture, ( ii ) remained stable in pitch, yaw, and roll, and then ( iii ) yawed more than 20° ( SI Movie 5 ). We analyzed kinematics of the body and tail that occurred before the maneuver. We defined translation as when the gecko ( i ) adopted a skydiving posture, ( ii ) remained stable in pitch, yaw, and roll, and then ( iii ) moved horizontally ( SI Movie 6 ). Supplementary Material 
+ Supporting Movies 
+ pnas_0711944105_index.html (4.5KB, html) 
+ Acknowledgments. 
+ We thank D. M. Dudek and S. Sponberg for discussion of statistical analyses, R. Dudley for the use of his wind tunnel and valuable insights, P. Jennings and Thomas Libby for the artwork, Boston Dynamics for the RiSE photo, and R. Fearing and R. Groff for use of the laser cutter. This work was supported by Defense Advanced Research Projects Agency/Space and Naval Warfare Systems Command Grant N66001-03-C-8045 (to R.J.F.), National Science Foundation Grant EF 0425878 FIBR (to R.J.F.), the Kurt and Barbara Gilgen Fund (A.J.), and the Burroughs Wellcome Fund (D.I.G.). Footnotes 
+ The authors declare no conflict of interest. 
+ This article is a PNAS Direct Submission. 
+ This article contains supporting information online at www.pnas.org/cgi/content/full/0711944105/DC1 . 
+ References 
+ 1. Autumn K, et al. Dynamics of geckos running vertically. J Exp Biol. 2006;209:260–272. doi: 10.1242/jeb.01980. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 2. Autumn K, et al. Adhesive force of a single gecko foot-hair. Nature. 2000;405:681–685. doi: 10.1038/35015073. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 3. Cartmill M. In: Functional Vertebrate Morphology. Hildebrand M, Bramble DM, Liem KF, Wake DB, editors. Cambridge, MA: Belknap; 1985. pp. 73–88. [ Google Scholar ] 
+ 4. Sinervo B, Losos JB. Walking the tight rope: Arboreal sprint performance among Sceloporus occidentalis lizard populations. Ecology. 1991;72:1225–1233. [ Google Scholar ] 
+ 5. Schlesinger WH, Knops JMH, Nash TH. Arboreal sprint failure: Lizardfall in a California Oak Woodland. Ecology. 1993;74:2465–2467. [ Google Scholar ] 
+ 6. Ballinger RE, Nietfeldt JW, Krupa JJ. An experimental analysis of the role of the tail in attaining high running speed in Cnemidophorus sexlineatus (Reptilia: Squamata: Lacertilia). Herpetologica. 1979;35:114–116. [ Google Scholar ] 
+ 7. Daniels CB. Running: An escape strategy enhanced by autotomy. Herpetologica. 1983;39:162–165. [ Google Scholar ] 
+ 8. Lin ZH, Qu YF, Ji X. Energetic and locomotor costs of tail loss in the Chinese skink, Eumeces chinensis. Comp Biochem Phys A. 2006;143:508–513. doi: 10.1016/j.cbpa.2006.01.018. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 9. Carrier DR, Walter RM, Lee DV. Influence of rotational inertia on turning performance in theropod dinosaurs: Clues from humans with increased rotational inertia. J Exp Biol. 2001;202:3917–3926. doi: 10.1242/jeb.204.22.3917. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 10. Chapple DG, Swain R. Effect of caudal autotomy on locomotor performance in a viviparous skink, Niveoscincus metallicus. Funct Ecol. 2002;16:817–825. [ Google Scholar ] 
+ 11. Emmons LH, Gentry AH. Tropical forest structure and the distribution of gliding and prehensile-tailed vertebrates. Am Nat. 1983;121:513–524. [ Google Scholar ] 
+ 12. Brown RM, Taylor H, Gist DH. Effect of caudal autotomy on locomotor performance of wall lizards (Podacris muralis). J Herpetol. 1995;29:98–105. [ Google Scholar ] 
+ 13. Essner RL. Three-dimensional launch kinematics in leaping, parachuting and gliding squirrels. J Exp Biol. 2002;205:2469–2477. doi: 10.1242/jeb.205.16.2469. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 14. Chen JJ, Peattie AM, Autumn K, Full RJ. Differential leg function in a sprawled-posture quadrupedal trotter. J Exp Biol. 2006;209:249–259. doi: 10.1242/jeb.01979. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 15. Bustard RH. Gekkonid lizards adapt fat storage to desert environments. Science. 1967;158:1197–1198. doi: 10.1126/science.158.3805.1197. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 16. McDonald DA. How does a cat fall on its feet? New Sci. 1960;7:1647–1649. [ Google Scholar ] 
+ 17. Laouris Y, Kalli-Laouri J, Schwartze P. The postnatal development of the air-righting reaction in albino rats. Quantitative analysis of normal development and the effect of preventing neck-torso and torso-pelvis rotations. Behav Brain Res. 1990;37:37–44. doi: 10.1016/0166-4328(90)90070-u. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 18. Pellis SM, Pellis VC, Morrissey TK, Teitelbaum P. Visual modulation of the vestibularly-triggered air-righting in the rat. Behav Brain Res. 1989;35:23–26. doi: 10.1016/s0166-4328(89)80004-x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 19. Schönfelder J. The development of air-righting reflex in postnatal growing rabbits. Behav Brain Res. 1984;11:213–221. doi: 10.1016/0166-4328(84)90213-4. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 20. Wassersug RJ, et al. The behavioral responses of amphibians and reptiles to microgravity on parabolic flights. Zoology (Jena) 2005;108:107–120. doi: 10.1016/j.zool.2005.03.001. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 21. Marey E-J. The movements that certain animals execute to fall on their feet when they are tossed from an elevated place (Translated from French). C R Acad Sci. 1894;119:714–717. [ Google Scholar ] 
+ 22. Marsden JE, Ostrowski J. Symmetries in motion: Geometric foundations of motion control. Nonlinear Sci Today. 1998 Available at www.cds.caltech.edu/∼marsden/bib/1998/13-MaOs1998/MaOs1998.pdf . 
+ 23. Young BA, Lee CE, Daley KA. On a flap and a foot: Aerial locomotion in the “flying” gecko, Ptychozoon kuhli. J Herpetol. 2002;36:412–418. [ Google Scholar ] 
+ 24. Higham TE, Davenport MS, Jayne BC. Maneuvering in an arboreal habitat: The effects of turning angle on the locomotion of three sympatric ecomorphs of Anolis lizards. J Exp Biol. 2001;204:4141–4155. doi: 10.1242/jeb.204.23.4141. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 25. Honda M, Hikida T, Araya K, Ota H, Nabhitabhata J. Cosymbotus craspedotus (Frilly Gecko) and C. platyurus (Flat-tailed Gecko). Gliding behavior. Herpetol Rev. 1997;28:42. [ Google Scholar ] 
+ 26. McCay MG. Aerodynamic stability and maneuverability of the gliding frog Polypedates dennysi. J Exp Biol. 2001;204:2817–2826. doi: 10.1242/jeb.204.16.2817. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 27. Autumn K, et al. Robotics in scansorial environments. Proc SPIE Int Soc Opt Eng. 2005;5804:291–302. [ Google Scholar ] 
+ 28. Kane TP, Scher MP. A method of active attitude control based on energy considerations. J Spacecraft Rockets. 1969;6:633–636. [ Google Scholar ] 
+ 29. Kane TP, Scher MP. Human self-rotation by means of limb movements. J Biomech. 1970;3:39–49. doi: 10.1016/0021-9290(70)90049-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 30. Passerello CR, Huston RL. Human attitude control. J Biomech. 1971;4:95–102. doi: 10.1016/0021-9290(71)90019-4. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ 31. Full RJ, Tu MS. Mechanics of six-legged runners. J Exp Biol. 1990;148:129–146. doi: 10.1242/jeb.148.1.129. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ Associated Data 
+ This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+ Supplementary Materials 
+ Supporting Movies 
+ pnas_0711944105_index.html (4.5KB, html) 
+ Download video file (4.9MB, mov) 
+ Download video file (1.9MB, mov) 
+ Download video file (3.7MB, mov) 
+ Download video file (3.2MB, mov) 
+ Download video file (1.2MB, mov) 
+ Download video file (1.7MB, mov) 
+ Articles from Proceedings of the National Academy of Sciences of the United States of America are provided here courtesy of National Academy of Sciences 
+ ACTIONS 
+ View on publisher site 
+ PDF (709.3 KB) 
+ Cite 
+ Collections 
+ Permalink 
+ PERMALINK 
+ Copy 
+ RESOURCES 
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+ Cite 
+ Copy 
+ Download .nbib 
+ .nbib 
+ Format: 
+ AMA
+ APA
+ MLA
+ NLM
+ Add to Collections 
+ Create a new collection 
+ Add to an existing collection 
+ Name your collection
+ * 
+ Choose a collection
+ Unable to load your collection due to an error 
+ Please try again 
+ Add
+ Cancel
+ Follow NCBI
+ NCBI on X (formerly known as Twitter) 
+ NCBI on Facebook 
+ NCBI on LinkedIn 
+ NCBI on GitHub 
+ NCBI RSS feed 
+ Connect with NLM
+ NLM on X (formerly known as Twitter) 
+ NLM on Facebook 
+ NLM on YouTube 
+ National Library of Medicine
+ 8600 Rockville Pike Bethesda, MD 20894 
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+ Back to Top 

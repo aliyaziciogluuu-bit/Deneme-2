@@ -1,0 +1,54 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "goz_cokme",
+   "oran": "9:16",
+   "istem": "Extreme close-up of the head of a realistic European common green frog (smooth moist olive-green skin with dark spots and a pale green stripe along the back, big golden-bronze eyes with horizontal oval pupils, wide mouth) half-submerged in water on a wet stone, its bulging eyes pulled down into the head so that the eyeballs are sunken level with the skin and covered by a thin pale-green eyelid, the throat swelling, drops of water on the skin, dramatic rim light, dark blue-green background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kurbağa başı: gözler içeri çekilmiş, deriyle aynı hizada, ince göz kapağıyla örtülü; boğaz şişmiş. Ayak görünmez.",
+   "aday": 2
+  },
+  {
+   "ad": "portre",
+   "oran": "9:16",
+   "istem": "Close-up portrait of a realistic European common green frog (smooth moist olive-green skin with dark spots and a pale green stripe along the back, big golden-bronze eyes with horizontal oval pupils, wide mouth) with its head and shoulders above water, big golden-bronze eyes wide open and bulging, mouth closed, water drops on its skin, soft golden light, blurred green reeds behind. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Gözler iri altın-bronz, yatay oval göz bebeği, çıkık gözler. Alt gövde su altında.",
+   "aday": 2
+  },
+  {
+   "ad": "av",
+   "oran": "9:16",
+   "istem": "Close-up of a realistic European common green frog (smooth moist olive-green skin with dark spots and a pale green stripe along the back, big golden-bronze eyes with horizontal oval pupils, wide mouth) with its head above water looking at a small cricket on a green leaf right in front of its snout, mouth just slightly open, wide golden-bronze eyes, soft light, blurred green background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Kurbağa ve önündeki küçük cırcır böceği (6 bacaklı). Ağız hafif açık.",
+   "aday": 2
+  },
+  {
+   "ad": "cam_kafa",
+   "oran": "9:16",
+   "istem": "Clean 3D schematic: the head of a frog in side view as smooth translucent teal glass, inside it a single glowing amber sphere (the eyeball) sunken downward into the mouth area, dark background, soft glow. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Tek parlayan nesne: cam kurbağa başı ve içinde tek amber küre. Dişli, devre, pembe et yok.",
+   "aday": 2
+  },
+  {
+   "ad": "bogaz",
+   "oran": "9:16",
+   "istem": "Extreme macro of the pale throat and chin skin of a green frog swelling in a gulp, beads of water on the smooth skin, the green jaw line above, soft light, dark background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Yalnız çene ve boğaz derisi, su damlaları.",
+   "aday": 2
+  },
+  {
+   "ad": "semender",
+   "oran": "9:16",
+   "istem": "Close-up of a fire salamander (black smooth skin with bright yellow spots, round black eyes on both sides of the broad head) with only its head and shoulders emerging from green moss, drops of water, soft forest light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Ateş semenderi: siyah deri, sarı lekeler, iri yuvarlak göz. Ayaklar yosunda gizli.",
+   "aday": 2
+  },
+  {
+   "ad": "gol_bos",
+   "oran": "9:16",
+   "istem": "Misty pond at dusk with round lily pads on dark calm water, soft purple and teal light, tiny ripples, reeds, empty of animals.",
+   "not": "Hayvansız göl.",
+   "aday": 1
+  }
+ ]
+}

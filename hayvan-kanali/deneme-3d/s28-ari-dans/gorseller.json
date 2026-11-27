@@ -1,0 +1,54 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational science animation, cinematic dramatic lighting, vivid colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, vertical composition with the main subject large and centered. No text, no letters, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "dans_isik",
+   "oran": "9:16",
+   "istem": "Dark honeycomb surface inside a hive: a realistic worker honey bee (Apis mellifera: golden-brown fuzzy thorax, abdomen with alternating dark brown and amber stripes, big dark brown compound eyes, six legs, two pairs of transparent wings) performing a waggle dance in the center of the comb, her abdomen tilted up and wagging, the path she traces glowing as a golden-white figure-eight line of light on the comb, a ring of attentive worker bees around her facing her, warm amber light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Dans eden işçi arı ortada, çizdiği sekiz şekli parlayan ışık izi. Etrafında halka olmuş izleyici arılar. Altı bacak, iki çift kanat.",
+   "aday": 2
+  },
+  {
+   "ad": "dansci",
+   "oran": "9:16",
+   "istem": "Top-down close-up of a realistic worker honey bee (Apis mellifera: golden-brown fuzzy thorax, abdomen with alternating dark brown and amber stripes, big dark brown compound eyes, six legs, two pairs of transparent wings) dancing on a golden honeycomb, abdomen raised and wagging, motion blur on the tip of the abdomen, wings folded over her back, other bees blurred around her, warm amber light. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Dansçı arı: karın kalkık, sallanıyor, kanatlar sırtta, altı bacak.",
+   "aday": 2
+  },
+  {
+   "ad": "izleyiciler",
+   "oran": "9:16",
+   "istem": "Close-up inside a hive: three worker bees on a golden honeycomb with their heads and antennae pointed toward one center point, as if watching a dancer, warm amber light, shallow depth of field. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Birkaç işçi arı başlarını merkeze çevirmiş; altın-kahve çizgili, altı bacak.",
+   "aday": 2
+  },
+  {
+   "ad": "sekiz_yol",
+   "oran": "9:16",
+   "istem": "Dark honeycomb surface with a glowing golden-white figure-eight line of light drawn across it, soft glow, dust motes, shallow depth of field, empty of bees.",
+   "not": "Hayvansız: petek üstünde parlayan sekiz şekli ışık çizgisi.",
+   "aday": 1
+  },
+  {
+   "ad": "gunes",
+   "oran": "9:16",
+   "istem": "Vertical cinematic view of a sunlit flower meadow at golden hour with the bright sun low on the horizon at the left, long soft sun rays, a patch of purple flowers in the distance, tall grass in the foreground, empty of animals.",
+   "not": "Hayvansız, alçak güneşli çiçek çayırı.",
+   "aday": 1
+  },
+  {
+   "ad": "ucus_cicek",
+   "oran": "9:16",
+   "istem": "Side view of a realistic worker honey bee (Apis mellifera: golden-brown fuzzy thorax, abdomen with alternating dark brown and amber stripes, big dark brown compound eyes, six legs, two pairs of transparent wings) flying across a sunny meadow toward a distant patch of purple flowers, wings spread, legs tucked, soft golden light and blurred meadow background. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Uçan bal arısı: iki çift kanat, altı bacak, çizgili karın.",
+   "aday": 2
+  },
+  {
+   "ad": "karanlik",
+   "oran": "9:16",
+   "istem": "Dim dark inside of a beehive: several honey bees on a vertical honeycomb lit only by a faint warm amber glow, deep shadows around, shallow depth of field, a few bees sharply in focus. The animal's face sits in the upper middle part of the frame, with calm empty space in the lower third.",
+   "not": "Karanlık kovan içi, birkaç bal arısı, loş amber ışık.",
+   "aday": 2
+  }
+ ]
+}
