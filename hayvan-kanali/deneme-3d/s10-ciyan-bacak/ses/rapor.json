@@ -1,0 +1,37 @@
+{
+ "000": {
+  "yazi": "Taşın altından fırlayan çıyanın kaç bacağı var?",
+  "duyulan": "taşın altından fırlayan çıyanın kaç bacağı var?",
+  "hata": 0,
+  "sure": 2.62,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Gövdesi vagon dizisi gibi; çoğu bölümde bir çift bacak var.",
+  "duyulan": "Gövdesi vagon dizisi gibi. Çoğu bölümde bir çift bacak var.",
+  "hata": 0,
+  "sure": 3.64,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bilinen çıyanlarda bacak çiftlerinin sayısı hep tek; bu yüzden hiçbir çıyanın tam yüz bacağı olmaz.",
+  "duyulan": "Bilinen çıyanlarda bacak çiftlerinin sayısı hep tek. Bu yüzden hiçbir çıyanın tam 100 bacağı olmaz.",
+  "hata": 0,
+  "sure": 6.0,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Öndeki bacak çifti zehir kıskacına dönüşmüş.",
+  "duyulan": "Öndeki bacak çifti zehir kıskacına dönüşmüş.",
+  "hata": 0,
+  "sure": 2.44,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Isırık çocuklarda ve arı alerjisi olanlarda tehlikeli olabilir; nefes darlığı ya da ağır belirti olursa sağlık kuruluşuna başvur.",
+  "duyulan": "ısırık çocuklarda ve arı alerjisi olanlarda tehlikeli olabilir. Nefes darlığı ya da ağır belirte olursa sağlık kuruluşuna başvur.",
+  "hata": 1,
+  "sure": 7.58,
+  "uygun": true
+ }
+}

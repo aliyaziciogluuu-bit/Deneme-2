@@ -209,7 +209,7 @@ Görsel notu: ince bacaklı hayvanlarda (karınca, yusufçuk, ağustos böceği,
 
 ## S11 – Karıncalar Aynı Yoldan Nasıl Yürüyor? 🐜
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: ONAY (bilgi kontrolü 27 Kasım)
 - Başlık: Karıncalar Aynı Yoldan Nasıl Yürüyor? 🐜
 - Kelime: 51; cümle: 6; tahmini süre ≈ 22 sn
 - Kapsam: grup hâlinde yiyecek arayan karınca türleri (Formicidae); bütün karıncalar iz bırakmaz, metin türü bu kapsamla sınırlıyor. Sayı yok.
@@ -243,7 +243,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S12 – Uğur Böceğinin Benekleri Ne İşe Yarıyor? 🐞
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: ONAY (bilgi kontrolü 27 Kasım)
 - Başlık: Uğur Böceğinin Benekleri Ne İşe Yarıyor? 🐞
 - Kelime: 48; cümle: 5; tahmini süre ≈ 21 sn
 - Kapsam: uğur böcekleri (Coccinellidae); renk uyarısı "birçok türde", beden sıvısı damlatma "rahatsız edilen uğur böceklerinde". Isırık/sokma/zehir konusu işlenmiyor (kaynaktaki "toksik" sözcüğü bilerek metne alınmadı, yalnızca "acı"); benek sayısı ve yaş yazılmadı.
@@ -256,7 +256,7 @@ Metin:
 2. Sanki sırtına bir dur levhası asılmış.
 3. Birçok uğur böceği türünde kırmızı üstüne siyah benekler, yırtıcılara tadının kötü olduğunu bildiriyor.
 4. Rahatsız edilince uğur böcekleri, bacak eklemlerinden acı bir sıvı damlatıyor.
-5. Yani yaprağın üstündeki kırmızı sırt, süs değil, açık bir uyarı.
+5. Yani birçok uğur böceğinde kırmızı sırt, süs değil, bir uyarı.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Yaprak üstünde parlak kırmızı, bombeli, siyah benekli uğur böceği, yukarıdan yakın plan; kırmızı kabuk ve küçük siyah baş (bacaklar kabuğun altında, kadraj dışı).
@@ -275,9 +275,9 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S13 – Yusufçuğun Gözleri Neden Bu Kadar Büyük? 👀
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: ONAY (bilgi kontrolü 27 Kasım)
 - Başlık: Yusufçuğun Gözleri Neden Bu Kadar Büyük? 👀
-- Kelime: 43; cümle: 5; tahmini süre ≈ 19 sn
+- Kelime: 42; cümle: 5; tahmini süre ≈ 18 sn
 - Kapsam: yusufçuklar (Anisoptera; Türkçe "yusufçuk", kızböceklerinden ayrı alt takım); "büyük türlerde" göz birimi sayısı binlerle ifade ediliyor (kaynakta iki türde yirmi iki bin altı yüz elli ve yirmi üç bin sekiz yüz doksan; sayı metne yazılmadı). Görüş alanı ve renk görme yazılmadı.
 - Üst yazı: YUSUFÇUK GÖZÜ
 - Açıklama ilk satırı: Yusufçuğun başının yüzeyinin çoğunu kaplayan iki büyük göz, binlerce küçük birimden oluşuyor.
@@ -287,7 +287,7 @@ Metin:
 1. Bir yusufçuğun yüzünde gördüğün o iki kocaman şey tam olarak ne?
 2. Sanki kafasına ters çevrilmiş iki cam kâse oturtulmuş.
 3. Bunlar gözler ve başın yüzeyinin çoğunu kaplıyor.
-4. Büyük türlerde her göz, binlerce küçük birimden oluşuyor.
+4. Büyük türlerde gözler, binlerce küçük birimden oluşuyor.
 5. Yani yusufçuğun yüzündeki iki kocaman göz, küçük birimlerin birleşimi.
 
 3D görsel fikri (her cümle için bir sahne):
@@ -307,9 +307,9 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S14 – Ağustos Böceği Nasıl Ötüyor? 🎶
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: bilgi kontrolü 2. tur bekliyor
 - Başlık: Ağustos Böceği Nasıl Ötüyor? 🎶
-- Kelime: 48; cümle: 5; tahmini süre ≈ 21 sn
+- Kelime: 50; cümle: 5; tahmini süre ≈ 22 sn
 - Kapsam: ağustos böcekleri (Cicadidae); ses organı "çoğu türde" bu zarlardır, belirgin ötüşü "yalnızca erkekler" çıkarır (kaynakta istisna türler var: bazı türlerde kanat sürtmesi, bir türde iki cinsiyet de ses çıkarır; metin bu istisnaları söylemiyor, kapsam notunda duruyor). Desibel ve işitme kaybı bilgisi bilerek yazılmadı.
 - Üst yazı: AĞUSTOS BÖCEĞİ
 - Açıklama ilk satırı: Ağustos böceğinin sesi ağzından değil, karnındaki davul benzeri zarlardan geliyor.
@@ -317,10 +317,10 @@ Kaynaklar ve cümle eşlemesi:
 
 Metin:
 1. Ağustos böceğinin o gür sesi ağzından mı çıkıyor?
-2. Hayır; karnının iki yanında davula benzeyen zarlar var.
+2. Hayır; çoğu türde karnının iki yanında davula benzeyen zarlar var.
 3. Kaslar zarları içeri çökertiyor; kaslar gevşeyince zarlar hızla eski hâline dönüyor.
-4. Bu belirgin sesi yalnızca erkekler çıkarıyor, ötmeleri sırasında kendi kulak zarlarını devre dışı bırakıyor.
-5. Yani ağustos böceğinin sesi, karnındaki davuldan geliyor.
+4. Bu belirgin sesi erkekler çıkarıyor; ötmeleri sırasında kendi kulak zarlarını devre dışı bırakıyorlar.
+5. Yani çoğu ağustos böceğinin sesi, karnındaki davuldan geliyor.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Ağaç gövdesinde ağustos böceği, yandan yakın plan: iri yan duran gözler, kısa antenler, saydam zar kanatlar (bacaklar gövdeye yapışık, kadraj dışına yakın).
@@ -339,9 +339,9 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S15 – Kelebek Kanadındaki Toz Nedir? 🦋
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: bilgi kontrolü 2. tur bekliyor
 - Başlık: Kelebek Kanadındaki Toz Nedir? 🦋
-- Kelime: 45; cümle: 5; tahmini süre ≈ 20 sn
+- Kelime: 46; cümle: 5; tahmini süre ≈ 20 sn
 - Kapsam: kelebekler ve güveler (Lepidoptera, pul kanatlılar); ağdan kurtulma deneyi güvelerle yapılmış, kelebeklere genellenmedi. "Toz = pul" eşlemesi kaynakta "pullar gevşekçe tutunur, kolayca ayrılır" ifadesine dayanıyor; kontrolcü onaylasın. "Kiremit" yalnızca benzetme.
 - Üst yazı: KANAT PULU
 - Açıklama ilk satırı: Kelebeğe dokununca parmakta kalan toz, kanattan ayrılan minik pullar.
@@ -352,7 +352,7 @@ Metin:
 2. Aslında toz değil; kanat, kiremit gibi minik pullarla kaplı.
 3. Pullar kanada gevşekçe tutunuyor ve böceğe zarar vermeden kolayca ayrılıyor.
 4. Bir deneyde örümcek ağına bırakılan güveler kurtulabildi; ağda pul izleri kaldı.
-5. Yani parmağında kalan o toz, kanattan ayrılan pullar.
+5. Yani kanattan kolayca ayrılan o toz, kanadı kaplayan pullar.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Bahçe çiçeğinde kanat açmış kelebek (parlak turuncu-siyah desenli büyük kanatlar, ucu topuzlu iki anten), yakın plan; ince bacaklar yapraklarda gizli ya da kadraj dışı.
@@ -374,9 +374,9 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S16 – Kedi Neden Mırlar? 🐈
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: ONAY (bilgi kontrolü 27 Kasım)
 - Başlık: Kedi Neden Mırlar? 🐈
-- Kelime: 49; cümle: 5; tahmini süre ≈ 21 sn
+- Kelime: 55; cümle: 5; tahmini süre ≈ 24 sn
 - Kapsam: evcil kedi (Felis catus). Mırlama mekanizması kaynakta "henüz tam açıklanmadı, bir hipotez" diye geçiyor; metin çekinceli yazıldı. Sayı (yirmi-otuz titreşim) bilerek yazılmadı. Mırlama nedeni "çoğunlukla mutluluk", ağrı ikincil. Güvenlik cümlesi veteriner yönlendirmesi, tıbbi hüküm değil.
 - Üst yazı: KEDİ MIRLAMASI
 - Açıklama ilk satırı: Kedinin mırlaması çoğunlukla mutluluğu anlatıyor, ama ağrıyı yönetmek için de olabiliyor.
@@ -387,14 +387,14 @@ Metin:
 2. Sanki içinde küçük bir motor çalışıyor.
 3. Nasıl olduğu tam açıklanmış değil; bir varsayıma göre kedi, gırtlak kaslarıyla ses yarığını hızla açıp kapatıyor.
 4. Mırlama çoğunlukla mutluluğu anlatıyor; kedi ağrıyı yönetmek ve kendini sakinleştirmek için de mırlıyor.
-5. Kedinin ağrısından şüphelenirsen veterinere danış.
+5. Mırlama tek başına kedinin iyi olduğunu göstermez; ağrısından şüphelenirsen veterinere danış.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Koltukta kıvrılmış kedi, kucak ve el stilize (yüz yok); kedinin kafası ve boğaz kısmı yakın planda, gözler yarı kapalı (ayaklar kadraj dışı).
 2. Kedinin göğsünün içi şeffaf: küçük bir motor çarkı yavaşça dönüyor (şematik, pembe et yok).
 3. Boğaz bölgesi yakın plan: gırtlakta ses yarığı açılıp kapanıyor (basit şematik kapak, tek şekil).
 4. Mutlu yarı kapalı gözlü kedi; yanında yumuşak ses halkaları; yan yana sakin ve dinlenen kedi görünümü (yüz odakta).
-5. Sakin bir veteriner kapısı ve ışıklı tabela (Türkçe: VETERİNER), kamera çekilir.
+5. Sakin, ışıklı bir veteriner kapısı, yazısız (yalnızca pati simgesi); kamera çekilir.
 
 Kaynaklar ve cümle eşlemesi:
 - Vikipedi – Purr (İngilizce), açıldı: https://en.wikipedia.org/wiki/Purr
@@ -404,11 +404,11 @@ Kaynaklar ve cümle eşlemesi:
   - Cümle: 5
   - Kaynakta geçen ifade: Bilgi iddiası değil, yönlendirme: kesin tıbbi hüküm yok; karar veterinere bırakılıyor. Kaynak: SERI_METINLER S2/S6 güvenlik kalıbı.
 
-## S17 – Solucan Nasıl Nefes Alıyor? 🪱
+## S17 – Toprak Solucanı Nasıl Nefes Alıyor? 🪱
 
-- Durum: bilgi kontrolü bekliyor
-- Başlık: Solucan Nasıl Nefes Alıyor? 🪱
-- Kelime: 44; cümle: 5; tahmini süre ≈ 19 sn
+- Durum: bilgi kontrolü 2. tur bekliyor
+- Başlık: Toprak Solucanı Nasıl Nefes Alıyor? 🪱
+- Kelime: 45; cümle: 5; tahmini süre ≈ 20 sn
 - Kapsam: toprak solucanları (Earthworm; Türkçe vikipedide Lumbricus terrestris için "bir toprak solucanı"). Deri kurursa ne olduğu ve yağmurda yüzeye çıkma nedeni yazılmadı (kaynakta doğrulanmadı). Rakam yok.
 - Üst yazı: SOLUCAN NEFESİ
 - Açıklama ilk satırı: Toprak solucanının akciğeri yok; nemli derisinden nefes alıyor.
@@ -419,7 +419,7 @@ Metin:
 2. Sanki derisi bir akciğer gibi çalışıyor.
 3. Oksijen nemli deriden ve kılcal damarlardan geçiyor, kandaki hemoglobin onu alıyor.
 4. Derideki özel hücreler, vücudu nemli tutan sümüksü bir sıvı salgılıyor.
-5. Yani solucan, nemli derisiyle nefes alan bir hayvan.
+5. Yani toprak solucanı, nemli derisiyle nefes alan bir hayvan.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Nemli koyu toprakta parlak, pembe-kahverengi solucan, yakın plan; halka halka bölümler, şişkin açık renkli kuşak (bacak ve göz yok, düz silindir gövde).
@@ -438,9 +438,9 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S18 – Posta Güvercini Yolunu Nasıl Buluyor? 🕊️
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: bilgi kontrolü 2. tur bekliyor
 - Başlık: Posta Güvercini Yolunu Nasıl Buluyor? 🕊️
-- Kelime: 51; cümle: 5; tahmini süre ≈ 22 sn
+- Kelime: 52; cümle: 5; tahmini süre ≈ 23 sn
 - Kapsam: posta güvercini (homing pigeon, Columba livia domestica; yarış ve haberleşme için yetiştirilmiş evcil güvercin); sokak güvercinleri için ayrı iddia yok. Manyetik algı kuramı ve 2012 çalışması bilerek yazılmadı. "Çoğu araştırmacı" ifadesi kaynakta "most researchers".
 - Üst yazı: GÜVERCİN HARİTASI
 - Açıklama ilk satırı: Posta güvercininin eve dönüşünde pusula Güneş'e dayanıyor görünüyor; harita kısmı hâlâ tartışılıyor.
@@ -449,9 +449,9 @@ Kaynaklar ve cümle eşlemesi:
 Metin:
 1. Hiç gitmediği yerden bırakılan posta güvercini eve nasıl dönüyor?
 2. Sanki gökyüzünde onun için çizilmiş bir yol var.
-3. Araştırmacıların çoğuna göre güvercin, pusula ve harita denen iki parçalı bir sistem kullanıyor.
-4. Pusula kısmı Güneş'e dayanıyor gibi görünüyor, ama haritanın nasıl çalıştığı hâlâ çok tartışılıyor.
-5. Yani güvercinin gökyüzündeki haritası henüz tam anlaşılmış değil.
+3. Araştırmacıların çoğuna göre posta güvercini, pusula ve harita denen iki parçalı bir sistem kullanıyor.
+4. Pusula kısmında Güneş'in rolü olduğu düşünülüyor, ama haritanın nasıl çalıştığı hâlâ çok tartışılıyor.
+5. Yani posta güvercininin haritası henüz tam anlaşılmış değil.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Kafes ya da sepetten bırakılan posta güvercini, yan görünüm yakın plan: parlak mor-yeşil boyun, turuncu göz, gagadaki beyaz kabarık burun eti (bacaklar kadraj dışı ya da gizli).
@@ -470,9 +470,9 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S19 – Kurbağanın Dili Neden Yapışkan? 🐸
 
-- Durum: bilgi kontrolü bekliyor
+- Durum: bilgi kontrolü 2. tur bekliyor
 - Başlık: Kurbağanın Dili Neden Yapışkan? 🐸
-- Kelime: 48; cümle: 6; tahmini süre ≈ 21 sn
+- Kelime: 52; cümle: 5; tahmini süre ≈ 23 sn
 - Kapsam: kurbağalar (Anura), "genellikle" avını yapışkan diliyle yakalar; kaynakta dili olmayan kurbağalar da var, metin "genellikle" diyor. Tür adı verilmiyor; kara kurbağası için ayrı iddia yok. Hız ve sayı yazılmadı.
 - Üst yazı: KURBAĞA DİLİ
 - Açıklama ilk satırı: Kurbağanın dilindeki tükürük, basınçla akıcılaşıp sonra koyulaşarak avı tutuyor.
@@ -481,56 +481,52 @@ Kaynaklar ve cümle eşlemesi:
 Metin:
 1. Kurbağa dilini fırlatınca böcek neden yapışıp kalıyor?
 2. Sanki dili bala bulanmış.
-3. Kurbağalar genellikle avını yapışkan diliyle yakalıyor.
-4. Dil, önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor.
-5. Bu dildeki tükürük, avı sararken akıcı hâle geliyor; basınç azalınca yeniden koyulaşıp sıkıca tutuyor.
-6. Yani böceği tutan şey, durum değiştiren bir tükürük.
+3. Dili olan kurbağalarda dil, önden çeneye bağlı, arkası serbest, ağızda kıvrık duruyor.
+4. Bu dildeki tükürük, avı sararken akıcı hâle geliyor; basınç azalınca yeniden koyulaşıp dile ek bir tutuş sağlıyor.
+5. Yani böceğin dilde kalmasına yardım eden şeylerden biri, durum değiştiren bir tükürük.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Nilüfer yaprağında parlak yeşil, pürüzsüz nemli derili kurbağa, baş yakın plan; iri çıkık gözler, geniş ağız (ayaklar kadraj dışı, yalnızca baş ve ön gövde).
 2. Kurbağanın ağzından pembe bir dil yavaşça uzanıyor, ucunda parlak bal damlası görünümü (benzetme, sade).
-3. Dilin ucu böceğe değiyor, böcek dile yapışıyor (böcek küçük bir sinek, bacaklar ayrıntısız).
-4. Ağız içi yan kesit yüzeyi: dil önden çeneye bağlı, geriye doğru serbest kıvrılmış (şematik, et/pasta görünümü yok).
-5. Dil yüzeyi makro: tükürük film halinde akıyor, sonra koyulaşıyor (iki aşama, iki renk tonu, şematik).
-6. Kurbağa dili geri çekilirken kamera ilk kareye döner (döngü).
+3. Ağız içi yan kesit yüzeyi: dil önden çeneye bağlı, geriye doğru serbest kıvrılmış (şematik, et/pasta görünümü yok).
+4. Dil yüzeyi makro: tükürük film halinde akıyor, sonra koyulaşıyor (iki aşama, iki renk tonu, şematik).
+5. Kurbağa dili geri çekilirken kamera ilk kareye döner (döngü).
 
 Kaynaklar ve cümle eşlemesi:
 - Vikipedi – Frog (İngilizce), açıldı: https://en.wikipedia.org/wiki/Frog
-  - Cümle: 3, 4, 5, 6
+  - Cümle: 3, 4, 5 (cümle 3: dil önden çeneye bağlı; cümle 4: tükürük; cümle 5: özet)
   - Kaynakta geçen ifade: "Frogs generally seize and ingest food by protruding their adhesive tongue" ; "the frog uses its sticky, cleft tongue to catch insects and other small moving prey. The tongue normally lies coiled in the mouth, free at the back and attached to the mandible at the front." ; "salivary glands on the tongue, which in frogs produce what is called a two-phase viscoelastic fluid. When exposed to pressure, like when the tongue is wrapping around a prey, it becomes runny and covers the prey's body. As the pressure drops, it returns to a thick and elastic state, which gives the tongue an extra grip. Some frogs have no tongue"
 - Vikipedi – Kurbağa (Türkçe), açıldı: https://tr.wikipedia.org/wiki/Kurba%C4%9Fa
   - Cümle: kapsam (Türkçe ad = Anura)
   - Kaynakta geçen ifade: "Kuyruksuz kurbağalar (), … Erişkinlerinin uzun arka bacaklar, tıknaz gövde, araları zarlı parmaklar, çıkık gözler ve kuyruksuzluk gibi özellikleri bulunan kurbağaların…" (sayfa Anura'yı kurbağa olarak tanımlıyor)
 
-## S20 – Kâğıt Arısı Yuvasını Neyden Yapıyor? 🐝
+## S20 – Yaban Arısı Yuvasını Neyden Yapıyor? 🐝
 
-- Durum: bilgi kontrolü bekliyor
-- Başlık: Kâğıt Arısı Yuvasını Neyden Yapıyor? 🐝
-- Kelime: 50; cümle: 5; tahmini süre ≈ 22 sn
-- Kapsam: gerçek kâğıt arıları (Polistinae); "çoğu" kâğıt arısı bu yöntemle yuva yapar, bazı arılar çamur kullanır. Türkçede "eşek arısı" adı hangi gruba denk geldiği doğrulanamadığı için metinde ve başlıkta geçmiyor. Sokma bilgisi güvenlik cümlesine bağlı; yuva kaldırma önerisi yazılmadı (kaynakta yok).
+- Durum: bilgi kontrolü 2. tur bekliyor
+- Başlık: Yaban Arısı Yuvasını Neyden Yapıyor? 🐝
+- Kelime: 55; cümle: 4; tahmini süre ≈ 24 sn
+- Kapsam: gerçek kâğıt arıları (Polistinae); "çoğu" kâğıt arısı bu yöntemle yuva yapar, bazı arılar çamur kullanır. Ad "yaban arısı" ile kuruldu (kanal sahibi/kontrol kararı); "eşek arısı" geçmiyor. Sokma uyarısı kaynaktaki "quite painful" ve anafilaksi cümlesine dayanıyor; yuva kaldırma önerisi yazılmadı (kaynakta yok).
 - Üst yazı: ARI YUVASI
 - Açıklama ilk satırı: Kâğıt arılarının yuvası, ölü odun lifinin tükürükle karışmasından yapılıyor.
 - İlgili uzun video: yok
 
 Metin:
 1. Saçağın altında sallanan gri yuva neden kâğıda benziyor?
-2. Sanki biri onu elle yapılmış kâğıttan örmüş.
-3. Kâğıt arılarının çoğu ölü odundan ve bitki saplarından lif toplayıp tükürükle karıştırarak yuvasını yapıyor.
-4. Yuvadaki açık petekte hücreler aşağı bakıyor.
-5. Yuvaya yaklaşma; sokulursan nefes darlığı, yüzde ya da boğazda şişme olursa hemen sağlık kuruluşuna başvur.
+2. Sanki elle yapılmış kâğıttan örülmüş.
+3. Kâğıt yapan yaban arılarının çoğu ölü odundan ve bitki saplarından lif toplayıp tükürükle karıştırarak yuvasını yapıyor.
+4. Yuvaya yaklaşma ve ona dokunma; sokması çok acı verebilir ve bazı kişilerde ağır alerjik tepkiye yol açabilir. Sokulursan ve kendini kötü hissedersen hemen sağlık kuruluşuna başvur.
 
 3D görsel fikri (her cümle için bir sahne):
 1. Evin saçağının altında asılı gri-kahverengi kâğıtsı yuva, orta mesafe; üstte ince bir sap yuvayı tutuyor (arılar çok küçük, kadrajda silüet ya da hiç yok).
-2. Yuva yüzeyi yakın plan: katman katman kâğıt dokusu, solgun gri ve kahverengi şeritler.
+2. Yuva yüzeyi yakın plan: katman katman kâğıt dokusu, solgun gri ve kahverengi şeritler; altından bakınca aşağı bakan açık hücreler.
 3. Ölü odundan lif kazıyan arının baş ve çene yakın planı, ağızda küçük bir lif topağı (ince bacaklar kadraj dışı).
-4. Yuvanın altından görünüm: aşağı bakan açık, altıgen hücreler, ince sap (arı yok).
-5. Sakin bir sağlık kuruluşu kapısı ve ışıklı tabela (Türkçe: SAĞLIK), kamera çekilir.
+4. Sakin, ışıklı bir sağlık kuruluşu kapısı, yazısız (yalnızca yeşil artı simgesi); kamera çekilir.
 
 Kaynaklar ve cümle eşlemesi:
 - Vikipedi – Paper wasp (İngilizce), açıldı: https://en.wikipedia.org/wiki/Paper_wasp
-  - Cümle: 3, 4, 5, kapsam
+  - Cümle: 3, 4, 5, 6, kapsam
   - Kaynakta geçen ifade: "The nests of most true paper wasps are characterized by having open combs with cells for brood rearing. The wasps gather fibers from dead wood and plant stems, which they mix with saliva, and use to construct nests that appear made out of gray or brown papery material" ; "Paper wasp nests are characterized by open combs with down pointing cells." ; "Nests can be found in sheltered areas, such as the eaves of a house" ; "their stings are quite painful and – like all venomous animals – can produce a potentially fatal anaphylactic reaction in some individuals"
-- Cümle 5 (güvenlik): —
-  - Cümle: 5
-  - Kaynakta geçen ifade: Bilgi iddiası değil, yönlendirme: kesin tıbbi hüküm yok; karar sağlık kuruluşuna bırakılıyor (S2 kalıbı). Kaynaktaki "anafilaktik reaksiyon" cümlesi yönlendirmenin gerekçesi.
+- Cümle 5 ve 6 (güvenlik): —
+  - Cümle: 5, 6
+  - Kaynakta geçen ifade: Kaynak: Paper wasp sayfası (acı verici sokma, anafilaktik reaksiyon). Yönlendirme: kesin tıbbi hüküm yok; karar sağlık kuruluşuna bırakılıyor (S2 kalıbı). Kaynaktaki "anafilaktik reaksiyon" cümlesi yönlendirmenin gerekçesi.
 
