@@ -59,3 +59,11 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - **Risk:** abonelerden gelen görüntüleme %0,4 (46 / 12.500). Kirpi uzun video 17 görüntüleme (12'si aramadan, ortalama 1 sn — anlamsız tıklama), ort. izleme %33. Reklam aboneleri henüz izlemiyor. Test: yarasa (26 Kas 18:00) ilk 24 saatte abonelerden kaç görüntüleme alıyor.
 - Shorts: 'Sağır Yılan Aslında Kuyruğunu Koparan Bir Kertenkele!' 1 saat 40 dakikada 454 görüntüleme ('X yapıyorsa / şaşırtıcı iddia' serisi tutuyor; 'Göz Kırpıyorsa' 4 abone). 'Kirpiye Sakın Süt Verme!' Shorts'u ~10 saatte 2 görüntüleme (yeniden yüklenmiş Shorts; 26 Kas yeniden bakılacak).
 - Yorum: son 7 günde izleyici yorumu yok. 100 abone anketi yayınlandı (3 seçenek).
+
+## 27 Kasım – Windsor kontrolü (veri 24 Kasım'a kadar; 2–3 gün gecikme)
+- Günlük izlenme süresi: 21–23 Kas 4.200–5.200 dk/gün (geko tanıtımı) → 24 Kas 137 dk (tanıtım duraklatıldı). Organik taban ≈ 2–2,5 saat/gün.
+- 24 Kas: 484 görüntüleme, +44 abone (Kitle büyütme tanıtımı).
+- Uzun videolar organik zayıf: kirpi 14 görüntüleme, ort. izleme %25; sağır yılan 169 görüntüleme, ort. %9 (tanıtım trafiği hızlı çıkıyor); geko 6.804 (tanıtım dönemi), %49.
+- Shorts güçlü taraf: "Kertenkele Yemeğe Düşerse" 759 (%50), "Kertenkele Tavanda Nasıl Yürüyor?" 704 (ort. %187 → tekrar izleniyor), "Yumurtlamayan Kertenkele" 310 (%66).
+- Planlı/yayında olmayan videolarda 1–2 görüntüleme: yükleme/kontrol sırasındaki önizlemeler, sorun değil.
+- Windsor'da gösterim/tıklama oranı yok → kirpi için Studio'dan gösterim ve TO istenecek.
