@@ -1,0 +1,100 @@
+{
+ "000": {
+  "yazi": "Gece mutfağa giriyorsun, ışığı yakıyorsun ve duvarda iri bir örümcek duruyor.",
+  "duyulan": "Gece mutfağa giriyorsun, ışığı yakıyorsun ve duvarda iri bir örümcek duruyor.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Evdeki örümcek zehirli mi?",
+  "duyulan": "Evdeki örümcek zehirli mi?",
+  "hata": 0,
+  "sure": 1.46,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Şaşıracaksın: neredeyse bütün örümceklerin zehir bezi var.",
+  "duyulan": "Şaşıracaksın, neredeyse bütün örümceklerin zihir bezi var.",
+  "hata": 1,
+  "sure": 3.46,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Yine de Türkiye'den bir tıp makalesi, yaşam alanlarımızda bulunabilen örümceklerin çoğunun insanlar için zehirli olmadığını yazıyor.",
+  "duyulan": "Yine de Türkiye'den bir tıp makalesi, yaşam alanlarımızda bulunabilen örümceklerin çoğunun insanlar için zehirli olmadığını yazıyor.",
+  "hata": 0,
+  "sure": 7.04,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Ama Türkiye'de de insanda belirgin etki yapabilen başlıca iki cins var.",
+  "duyulan": "Ama Türkiye'de de insanda belirgin etki yapabilen başlıca iki cins var.",
+  "hata": 0,
+  "sure": 4.84,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Biri daha çok bozkırda ve tarlada yaşıyor.",
+  "duyulan": "biri daha çok bozkırda ve tarlada yaşıyor.",
+  "hata": 0,
+  "sure": 2.14,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Peki doktora örümcek ısırdı diye gidenlerin çoğunda neden başka bir şey çıkıyor?",
+  "duyulan": "Peki, doktora örümce kısırdı diye gidenlerin çoğunda neden başka bir şey çıkıyor?",
+  "hata": 0,
+  "sure": 4.6,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Tavan köşesindeki upuzun bacaklı örümcek, dünyanın en zehirlisi mi?",
+  "duyulan": "Tavan köşesindeki upuzun bacaklı örümcek dünyanın en zehirlisi mi?",
+  "hata": 0,
+  "sure": 4.34,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Öyle diyen bir şehir efsanesi var: zehri çok güçlüymüş ama dişleri derini delemeyecek kadar küçükmüş.",
+  "duyulan": "Öyle diyen bir şehir efsanesi var. Zehri çok güçlüymüş ama dişleri derini delemeyecek kadar küçükmüş.",
+  "hata": 0,
+  "sure": 6.52,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Vikipedi bunun doğru olmadığını söylüyor: ısırabiliyor, ama zehri tıbben önemli değil.",
+  "duyulan": "Wikipedia'da bunun doğru olmadığını söylüyor, ısırabiliyor ama zehri tıbben önemli değil.",
+  "hata": 1,
+  "sure": 5.1,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Böyle bir yanlışı her hafta düzeltiyoruz; sıradakini kaçırmamak için abone ol.",
+  "duyulan": "Böyle bir yanlışı her hafta düzeltiyoruz. Sıradakini kaçırmamak için abone ol.",
+  "hata": 0,
+  "sure": 4.06,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Salı ve cumartesi akşamı yeni komşu geliyor.",
+  "duyulan": "Salı ve Cumartesi akşamı yeni komşu geliyor.",
+  "hata": 0,
+  "sure": 2.74,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Olası bir açıklama şu: Vikipedi, bu örümceğin karadul gibi tehlikeli örümcekleri de avladığını anlatıyor.",
+  "duyulan": "Olası bir açıklama şu, Bikipedi bu örümceğin karadul gibi tehlikeli örümcekleri de avladığını anlatıyor.",
+  "hata": 1,
+  "sure": 6.0,
+  "uygun": true
+ },
+ "013": {
+  "yazi": "Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
+  "duyulan": "Bazı uzun bacaklı örümcekler ağa sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
+  "hata": 1,
+  "sure": 5.62,
+  "uygun": true
+ }
+}

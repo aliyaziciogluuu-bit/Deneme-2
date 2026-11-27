@@ -1,0 +1,124 @@
+{
+ "cekimler": [
+  {
+   "n": 1,
+   "gorsel": "uzun_bacakli_ag_kose",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ],
+   "klip": "pholcid_kose_k",
+   "kx": 0.5
+  },
+  {
+   "n": 1,
+   "gorsel": "uzun_bacakli_yakin",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ],
+   "klip": "pholcid_yakin_k",
+   "kx": 0.5
+  },
+  {
+   "n": 1,
+   "gorsel": "uzun_bacakli_yakin",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ],
+   "klip": "pholcid_yakin_k",
+   "kx": 0.5
+  },
+  {
+   "n": 1,
+   "gorsel": "uzun_bacakli_titrer",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ],
+   "klip": "pholcid_titrer_k",
+   "kx": 0.5
+  },
+  {
+   "n": 1,
+   "gorsel": "bardak_kagit",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "saglik_kurulusu",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "hekim",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ]
+  },
+  {
+   "n": 1,
+   "gorsel": "ev_genel",
+   "a": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "b": [
+    0.5,
+    0.5,
+    0.85
+   ]
+  }
+ ]
+}

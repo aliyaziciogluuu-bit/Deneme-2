@@ -19,35 +19,51 @@
    "cumleler": [
     {
      "yazi": "Vikipedi'ye göre uzun bacaklı örümceğin zehri tıbben önemli değil.",
-     "gorsel": "uzun_bacakli_ag_kose"
+     "gorsel": "uzun_bacakli_ag_kose",
+     "x": 0.5,
+     "klip": "pholcid_kose_k",
+     "kx": 0.5
     },
     {
      "yazi": "Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.",
-     "gorsel": "uzun_bacakli_yakin"
+     "gorsel": "uzun_bacakli_yakin",
+     "x": 0.5,
+     "klip": "pholcid_yakin_k",
+     "kx": 0.5
     },
     {
      "yazi": "Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil.",
-     "gorsel": "uzun_bacakli_yakin"
+     "gorsel": "uzun_bacakli_yakin",
+     "x": 0.5,
+     "klip": "pholcid_yakin_k",
+     "kx": 0.5
     },
     {
      "yazi": "Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
-     "gorsel": "uzun_bacakli_titrer"
+     "gorsel": "uzun_bacakli_titrer",
+     "x": 0.5,
+     "klip": "pholcid_titrer_k",
+     "kx": 0.5
     },
     {
      "yazi": "Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak.",
-     "gorsel": "bardak_kagit"
+     "gorsel": "bardak_kagit",
+     "x": 0.5
     },
     {
      "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
-     "gorsel": "saglik_kurulusu"
+     "gorsel": "saglik_kurulusu",
+     "x": 0.5
     },
     {
      "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "ev_genel"
+     "gorsel": "ev_genel",
+     "x": 0.5
     }
    ],
    "kapsam": "yalnızca uzun bacaklı örümcekler (Pholcidae; Vikipedi). \"Bütün örümceklerin zehri önemsizdir\" genellemesi yok: karadul ve Akdeniz münzevi örümceği Shorts'ta anılmıyor, ama uzun videoda var; bu yüzden güvenlik cümleleri (belirti, hekim) taşındı. İlk cümle başlığın sorusunu uzun videodaki 10. cümleyle cevaplıyor. Güvenlik cümleleri uzun videodan kelimesi kelimesine. Efsanenin sayısı yok."
@@ -71,35 +87,43 @@
    "cumleler": [
     {
      "yazi": "Doktora örümcek ısırdı diye gidenlerin çoğunda başka bir şey çıkıyor.",
-     "gorsel": "isirik_sanilan_yara"
+     "gorsel": "isirik_sanilan_yara",
+     "x": 0.5
     },
     {
      "yazi": "Kaliforniya'daki bir acil servis çalışmasında, bu şikâyetle gelenlerin yalnızca çok azı örümceği ısırma anında görmüştü.",
-     "gorsel": "acil_servis"
+     "gorsel": "acil_servis",
+     "x": 0.5
     },
     {
      "yazi": "Bu yüzden yaran kötüleşiyorsa örümcektir deyip bekleme; hekime göster.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
-     "gorsel": "saglik_kurulusu"
+     "gorsel": "saglik_kurulusu",
+     "x": 0.5
     },
     {
      "yazi": "Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
-     "gorsel": "cocuk_saglik"
+     "gorsel": "cocuk_saglik",
+     "x": 0.5
     },
     {
      "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "ev_genel"
+     "gorsel": "ev_genel",
+     "x": 0.5
     }
    ],
    "kapsam": "\"örümcek ısırığı\" diye başvuranlar; çalışma Kaliforniya'da (cümlede yer adı var), Türkiye verisi değil. \"Hiç örümcek ısırığı yoktur\" genellemesi yok: doğrulanmış ısırıklar olduğu uzun videoda anlatılıyor. Güvenlik cümleleri uzun videodaki 52 ve 60–63'den kelimesi kelimesine; ölüm/doku ölümü anlatımı yok. Yer yoktu: \"Çoğuna deri enfeksiyonu teşhisi konmuş\" ve \"yarayı örümceğe yormak tedaviyi geciktirir\" cümleleri uzun videoda var, burada atıldı."
@@ -123,31 +147,38 @@
    "cumleler": [
     {
      "yazi": "Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak.",
-     "gorsel": "bardak_kagit"
+     "gorsel": "bardak_kagit",
+     "x": 0.5
     },
     {
      "yazi": "Elinle tutma, deriye bastırma; çoğu örümcek insanı nadiren ısırır, ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman.",
-     "gorsel": "el_tutma"
+     "gorsel": "el_tutma",
+     "x": 0.5
     },
     {
      "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
-     "gorsel": "saglik_kurulusu"
+     "gorsel": "saglik_kurulusu",
+     "x": 0.5
     },
     {
      "yazi": "Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
-     "gorsel": "cocuk_saglik"
+     "gorsel": "cocuk_saglik",
+     "x": 0.5
     },
     {
      "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "ev_genel"
+     "gorsel": "ev_genel",
+     "x": 0.5
     }
    ],
    "kapsam": "evde görülen sıradan örümceği güvenli taşıma ve ısırık sonrası ilk adımlar. Bardak ve kâğıt \"Bize göre\" önerisi (Vikipedi kap ile taşımayı anlatıyor). Hangi örümceğin ne zehri olduğu anlatılmıyor; karadul ya da Akdeniz münzevi örümceği olduğundan emin olma hükmü yok. Güvenlik cümleleri uzun videodaki 56 ve 60–63'den kelimesi kelimesine. Yer yoktu: kaba yönlendirme, silkeleme, eldiven ve sabunlu su cümleleri uzun videoda var, burada atıldı. Telefon numarası yok."

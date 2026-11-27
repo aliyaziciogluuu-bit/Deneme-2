@@ -1,0 +1,89 @@
+{
+ "not": "14 klip x 0,35 $ = 4.90 $. Yalnızca bacak hareketi gerektirmeyen sahneler: örümcek durgun; hareket kamera yaklaşması, ışık, ağ titremesi. İnsan eli klibi yok. Her klipten 5 kare (0,5-4,9 sn) incelenir; bacak sayısı/uzuv bozulması varsa klip RET. avlu-gorsel-denetci KABUL vermeden klip üretilmez.",
+ "klipler": [
+  {
+   "ad": "duvar_gece_k",
+   "gorsel": "duvar_gece",
+   "sure": 5,
+   "istem": "The kitchen light flickers very slightly and the camera pushes in slowly toward the resting spider on the wall. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "zehir_yakin_k",
+   "gorsel": "zehir_bezi_yakin",
+   "sure": 5,
+   "istem": "The camera pushes in slowly on the spider's face, light glints softly on its eyes and fine hairs. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "pholcid_kose_k",
+   "gorsel": "uzun_bacakli_ag_kose",
+   "sure": 5,
+   "istem": "A faint draft makes the loose web strands sway very slightly, dust motes drift in the light, the spider hangs still. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "pholcid_yakin_k",
+   "gorsel": "uzun_bacakli_yakin",
+   "sure": 5,
+   "istem": "The camera pushes in very slowly on the tiny body, soft light shimmers on the web threads. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "pholcid_titrer_k",
+   "gorsel": "uzun_bacakli_titrer",
+   "sure": 5,
+   "istem": "The blurred spider keeps vibrating in a soft whirl on the same spot and the web shimmers, the body never leaves the web. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "sicrayan_duvar_k",
+   "gorsel": "sicrayan_duvar",
+   "sure": 5,
+   "istem": "Warm window light shifts gently across the wall, the camera pushes in slowly, the spider stays still. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "sicrayan_goz_k",
+   "gorsel": "sicrayan_goz",
+   "sure": 5,
+   "istem": "The camera pushes in slowly, the large eyes catch small moving highlights, the face stays still. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "huni_ag_k",
+   "gorsel": "huni_ag",
+   "sure": 5,
+   "istem": "Soft morning light moves across the funnel web, the camera pushes in slowly, the spider waits still at the mouth of the funnel. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "dolap_arka_k",
+   "gorsel": "dolap_arkasi",
+   "sure": 5,
+   "istem": "Dust motes drift in the thin beam of light, the camera pushes in slowly, the spider stays still in the half shadow. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "dolap_yakin_k",
+   "gorsel": "dolap_yakin",
+   "sure": 5,
+   "istem": "The camera pushes in slowly, light glides over the glossy round abdomen, the spider stays still. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "iri_duvar_k",
+   "gorsel": "iri_orumcek_duvar",
+   "sure": 5,
+   "istem": "Green garden light flickers softly through the open door, the camera pushes in slowly, the large spider stays still on the wall. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "karadul_k",
+   "gorsel": "karadul_tam",
+   "sure": 5,
+   "istem": "The camera pushes in slowly, a faint breeze moves the thin web strands, the spider stays still. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "karadul_tas_k",
+   "gorsel": "karadul_tas_odun",
+   "sure": 5,
+   "istem": "A faint breeze moves the web strands between the stones, soft light shifts, the camera pushes in slowly, the spider stays still. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "lox_yakin_k",
+   "gorsel": "loxosceles_yakin",
+   "sure": 5,
+   "istem": "The camera pushes in slowly on the violin-marked back, light glints softly, the spider stays still. The spider's legs stay completely still, no leg movement, the number of legs never changes. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  }
+ ]
+}

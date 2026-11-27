@@ -1,0 +1,313 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational nature documentary animation, cinematic warm natural lighting, rich realistic colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, wide horizontal 16:9 composition with the main subject clearly visible. No text, no letters, no numbers, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "duvar_gece",
+   "oran": "16:9",
+   "istem": "A dim modern kitchen at night with the ceiling light just switched on, warm light on a pale plaster wall above the counter; on the wall, at medium distance, a brown hairy house spider (genus Tegenaria): elongated hairy brown body with a flattened head-chest and a smooth pale-brown abdomen with faint darker chevrons, long hairy brown legs, exactly 8 legs, 4 on each side, resting still on the wall, small in the frame, one spider only, soft cinematic light.",
+   "aday": 3,
+   "not": "Açılış. Ev örümceği (Tegenaria) orta mesafede duvarda; sekiz bacak, dört sağda dört solda, yassı baş-göğüs, tüylü kahverengi. Bacak sayısı şüpheliyse kullanma."
+  },
+  {
+   "ad": "zehir_bezi_yakin",
+   "oran": "16:9",
+   "istem": "Extreme macro close-up of the face of a brown hairy house spider (genus Tegenaria): elongated hairy brown body with a flattened head-chest and a smooth pale-brown abdomen with faint darker chevrons, long hairy brown legs, exactly 8 legs, 4 on each side, front view of the head with eight small dark eyes in two rows and short folded fangs, soft fuzzy hairs lit by warm side light, the long legs leave the frame at the edges, shallow depth of field, dark blurred wall behind.",
+   "aday": 3,
+   "not": "Yüz makrosu: gözler iki sıra, kelicerler kapalı; bacaklar kadraj dışı. Zehir damlası/ağız açık yok."
+  },
+  {
+   "ad": "laboratuvar_sise",
+   "oran": "16:9",
+   "istem": "A tidy research bench by a window: a stereo microscope, tweezers, an empty glass petri dish, clean empty glass vials with plain blank stoppers, a stack of plain white sheets, soft daylight, nothing written anywhere.",
+   "aday": 2,
+   "not": "Bilgi sahnesi (makale/zehir/panzehir). Hayvan yok; yazı ve etiket çıkmamalı."
+  },
+  {
+   "ad": "iki_cins",
+   "oran": "16:9",
+   "istem": "On a flat pale grey stone slab seen at medium distance, two spiders side by side with a clear gap between them: on the left a female Mediterranean black widow spider (Latrodectus tredecimguttatus): glossy jet-black rounded abdomen with a pattern of bright red round spots on top, glossy black head-chest and thin black legs, exactly 8 legs, 4 on each side; on the right a small Mediterranean recluse spider (Loxosceles rufescens): light tan-brown head-chest with a dark violin-shaped mark on its back, a grey-yellowish abdomen, long thin light-brown legs, exactly 8 legs, 4 on each side; soft neutral studio-like daylight, both fully visible, clearly separate.",
+   "aday": 3,
+   "not": "İki cins yan yana: solda karadul (kırmızı benekli siyah karın), sağda keman lekeli açık kahverengi örümcek. Her birinde sekiz bacak; kırmızı leke sağdaki örümceğe geçmemeli."
+  },
+  {
+   "ad": "bozkir_tarla",
+   "oran": "16:9",
+   "istem": "A wide Anatolian steppe field at golden hour with dry golden grass, a low pile of stones and cut firewood near a small plain wooden shed, long soft shadows, distant hills, calm documentary light.",
+   "aday": 1,
+   "not": "Bozkır/tarla; hayvan yok."
+  },
+  {
+   "ad": "hekim",
+   "oran": "16:9",
+   "istem": "A calm doctor's consultation room seen from behind both people: a doctor in a white coat sitting at a wooden desk facing a patient who sits opposite, only backs and shoulders visible, no faces, a plain wall, a potted plant, warm soft window light.",
+   "aday": 2,
+   "not": "Hekim sahnesi; yüz yok, yazı yok, haç/logo yok."
+  },
+  {
+   "ad": "isirik_sanilan_yara",
+   "oran": "16:9",
+   "istem": "Close view of a doctor's hands in light blue medical gloves gently holding a person's bare forearm with clean smooth unmarked skin under soft clinic light, calm careful examination, human hands with exactly five fingers each, no face visible, a plain pale background.",
+   "aday": 3,
+   "not": "Sembolik muayene: eldivenli el, sakin; deride kızarıklık/yara/morarma YOK; her elde beş parmak."
+  },
+  {
+   "ad": "uzun_bacakli_ag_kose",
+   "oran": "16:9",
+   "istem": "A high corner where the ceiling meets two plain white walls, a loose messy tangled cobweb in the corner; hanging upside down in the web at medium distance, a daddy-long-legs cellar spider (family Pholcidae): a tiny pale beige-grey pea-sized body with a small round abdomen and extremely long, extremely thin, straight legs, exactly 8 legs, 4 on each side, the pale body small and the long thin legs fanning out evenly, half in soft shadow, the spider centered horizontally in the frame, quiet room light.",
+   "aday": 3,
+   "not": "Pholcidae: küçük soluk gövde, çok ince uzun sekiz bacak (4+4), dağınık düzensiz ağ, tavan köşesinde ters asılı; gövde yatayda ortada."
+  },
+  {
+   "ad": "uzun_bacakli_yakin",
+   "oran": "16:9",
+   "istem": "Close-up macro of the tiny pale beige-grey body of a daddy-long-legs cellar spider (family Pholcidae): a tiny pale beige-grey pea-sized body with a small round abdomen and extremely long, extremely thin, straight legs, exactly 8 legs, 4 on each side, hanging in a loose tangled web, the body sharp and centered, the extremely long thin legs extending out past the edges of the frame, shallow depth of field, soft warm blurred background.",
+   "aday": 3,
+   "not": "Yakın plan: küçük soluk gövde, bacaklar kadraj dışına uzanıyor; gövde ortada (Shorts dikey kesit)."
+  },
+  {
+   "ad": "avlu_genel",
+   "oran": "16:9",
+   "istem": "A cozy backyard courtyard in warm evening light: old stone wall, a wooden gate, pots of green plants, a small garden path, quiet and peaceful, no animals and no people.",
+   "aday": 1,
+   "not": "Seri/abone sahnesi; hayvan yok."
+  },
+  {
+   "ad": "uzun_bacakli_titrer",
+   "oran": "16:9",
+   "istem": "A daddy-long-legs cellar spider (family Pholcidae) hanging upside down in a loose tangled web in a ceiling corner, caught mid-vibration: its whole small pale body and its long thin legs blurred into a soft whirling motion halo, the web strands shimmering, the blurred spider centered horizontally in the frame, soft room light.",
+   "aday": 3,
+   "not": "Titreme: hareket bulanıklığı; bacak sayısı seçilmez, bu yüzden bulanık hâl doğru. Net-ve-yamuk bacaklı adayı alma."
+  },
+  {
+   "ad": "sicrayan_duvar",
+   "oran": "16:9",
+   "istem": "A sunlit pale plaster wall near a window; at medium distance a jumping spider (family Salticidae): stocky fuzzy grey-brown body with short sturdy legs, a flat boxy face with two very large glossy dark forward-facing eyes in the middle of the front row and two smaller eyes beside them, exactly 8 legs, 4 on each side, resting still on the wall, the whole body in view, soft warm light, shallow depth of field, spider centered horizontally.",
+   "aday": 3,
+   "not": "Salticidae: tıknaz, kısa bacaklı, düz dikdörtgen yüz, iri ön gözler. Sekiz bacak."
+  },
+  {
+   "ad": "sicrayan_goz",
+   "oran": "16:9",
+   "istem": "Charming close-up portrait of the face of a jumping spider (family Salticidae): stocky fuzzy grey-brown body with short sturdy legs, a flat boxy face with two very large glossy dark forward-facing eyes in the middle of the front row and two smaller eyes beside them, exactly 8 legs, 4 on each side, the two very large glossy dark front eyes in sharp focus with tiny highlights, fuzzy face hairs, only the front of the head and chest visible, legs cropped out of frame, shallow depth of field, soft warm light, face centered in the frame.",
+   "aday": 3,
+   "not": "Ön gözler iki iri parlak, yanlarında iki küçük göz; bacaklar kadraj dışı. Kapak C ile aynı yüz; en sevimli aday."
+  },
+  {
+   "ad": "sicrayan_cadir",
+   "oran": "16:9",
+   "istem": "In the corner of a sunlit window frame, a small white silk tent-shaped retreat spun between the glass and the wooden frame, soft translucent silk with a small round opening, tiny dust motes in warm light, shallow depth of field, no spider visible.",
+   "aday": 2,
+   "not": "İpek çadır barınak; örümcek görünmüyor (bacak riski yok). Çadır beyaz ipek, açıklığı küçük."
+  },
+  {
+   "ad": "yatak_oda",
+   "oran": "16:9",
+   "istem": "A quiet bedroom at night with a neatly made bed, a pillow and a folded blanket, soft blue moonlight through a window with curtains, a bedside lamp glowing warmly, nobody in the room.",
+   "aday": 1,
+   "not": "Uyurken efsanesi; kimse yok, hayvan yok."
+  },
+  {
+   "ad": "huni_ag",
+   "oran": "16:9",
+   "istem": "A low corner of a kitchen floor where the counter meets the wall, a funnel-shaped sheet web spread flat with a deep funnel tube at its back; at the mouth of the funnel waits a brown hairy house spider (genus Tegenaria): elongated hairy brown body with a flattened head-chest and a smooth pale-brown abdomen with faint darker chevrons, long hairy brown legs, exactly 8 legs, 4 on each side, centered horizontally, medium distance, soft morning light.",
+   "aday": 3,
+   "not": "Tegenaria: huni uçlu yaprak ağ; uzun gövde, yassı baş-göğüs, düz karın; sekiz tüylü bacak."
+  },
+  {
+   "ad": "dolap_arkasi",
+   "oran": "16:9",
+   "istem": "The narrow gap behind a wooden kitchen cupboard, dusty shadowy wall and floor, a thin beam of warm light; at medium distance in the half shadow a cupboard spider (genus Steatoda): a glossy round globe-shaped dark brown-black abdomen, smooth and plain, slender dark brown legs, exactly 8 legs, 4 on each side, the round abdomen clearly visible and centered, quiet documentary mood.",
+   "aday": 3,
+   "not": "Steatoda: yuvarlak koyu karın, düz renk (kırmızı leke yok); yarı gölgede orta mesafe."
+  },
+  {
+   "ad": "el_tutma",
+   "oran": "16:9",
+   "istem": "A flat open human hand with exactly five fingers raised in a calm 'keep away' gesture, held back at a safe distance in front of a plain pale wall, human hands with exactly five fingers each, no face visible, on the wall far behind it a tiny blurred dark spot of a small spider, soft light.",
+   "aday": 3,
+   "not": "Elle tutma uyarısı: açık el, beş parmak, yüz yok; örümcek uzakta ve küçük. Parmak sayısını incele."
+  },
+  {
+   "ad": "dolap_yakin",
+   "oran": "16:9",
+   "istem": "Close-up macro of the glossy round globe-shaped dark brown-black abdomen of a cupboard spider (genus Steatoda): a glossy round globe-shaped dark brown-black abdomen, smooth and plain, slender dark brown legs, exactly 8 legs, 4 on each side, plain and smooth with no markings, the slender legs leaving the frame at the edges, warm side light, dark blurred cupboard wood behind, abdomen centered.",
+   "aday": 3,
+   "not": "Steatoda yakın plan: karın küre gibi, tamamen düz koyu (kırmızı leke/kum saati yok). Bacaklar kadraj dışı."
+  },
+  {
+   "ad": "oda_sabah",
+   "oran": "16:9",
+   "istem": "A calm living room in bright morning light through a window with sheer curtains, a sofa, a wooden table with a cup, warm peaceful mood, nobody in the room.",
+   "aday": 1,
+   "not": "Zaman geçişi / iyileşme; hayvan yok."
+  },
+  {
+   "ad": "kis_pencere",
+   "oran": "16:9",
+   "istem": "A cozy warm indoor room seen next to a window, outside a snowy garden under a grey winter sky, a radiator under the window, warm lamp light, nobody in the room.",
+   "aday": 1,
+   "not": "Kış/ev; hayvan yok."
+  },
+  {
+   "ad": "iri_orumcek_duvar",
+   "oran": "16:9",
+   "istem": "A rustic garden-side hallway wall beside an open door with green garden light; on the wall at medium distance a large sturdy brown spider (genus Zoropsis): two dark stripes along the tan head-chest and a dark leaf-like pattern on the tan abdomen, thick strong banded legs, exactly 8 legs, 4 on each side, clearly visible, still, centered horizontally, soft daylight.",
+   "aday": 3,
+   "not": "Zoropsis: iri, desenli (başta iki koyu çizgi, karında yaprak desen), kalın bantlı bacaklar; sekiz bacak."
+  },
+  {
+   "ad": "iri_orumcek_yumurta",
+   "oran": "16:9",
+   "istem": "On a flat stone in a garden at medium distance, a large sturdy brown spider (genus Zoropsis): two dark stripes along the tan head-chest and a dark leaf-like pattern on the tan abdomen, thick strong banded legs, exactly 8 legs, 4 on each side, sitting guard beside a round white silk egg sac the size of a small marble, the spider's body behind the sac, soft shaded garden light.",
+   "aday": 3,
+   "not": "Zoropsis dişisi ve beyaz ipek yumurta kesesi; kese yuvarlak, bacaklar kesenin ardından sekiz tane."
+  },
+  {
+   "ad": "karadul_tam",
+   "oran": "16:9",
+   "istem": "A weathered stone corner of a garden shed, a wispy irregular web between the stone and a plank; in the web at medium distance a female Mediterranean black widow spider (Latrodectus tredecimguttatus): glossy jet-black rounded abdomen with a pattern of bright red round spots on top, glossy black head-chest and thin black legs, exactly 8 legs, 4 on each side, seen from a slight angle above so the red spots on the abdomen are visible, the whole spider centered horizontally, documentary light, calm and not menacing.",
+   "aday": 3,
+   "not": "Latrodectus tredecimguttatus: parlak siyah karın, üstte KIRMIZI yuvarlak benekler (kum saati YOK); sekiz bacak."
+  },
+  {
+   "ad": "karadul_tas_odun",
+   "oran": "16:9",
+   "istem": "A pile of stones and split firewood beside a plain wooden coop on dry steppe, soft low light, wispy web strands between the stones, and in a gap of the pile a small glossy black round-bodied spider with red spots on its abdomen, small in the frame, exactly 8 legs, 4 on each side, spider centered horizontally.",
+   "aday": 3,
+   "not": "Taş-odun yığını ve kümes; karadul küçük ve orta mesafede (bacak sayısı fark edilmez). Benekler kırmızı."
+  },
+  {
+   "ad": "anadolu_manzara",
+   "oran": "16:9",
+   "istem": "A wide cinematic view of rolling Anatolian hills with a small town of flat-roofed houses in the distance, a winding road, warm afternoon light and scattered clouds, no text.",
+   "aday": 1,
+   "not": "Türkiye'de yerler; harita değil manzara, yazı yok."
+  },
+  {
+   "ad": "tarla_sabah",
+   "oran": "16:9",
+   "istem": "A farm field at dawn with straw bales and a wooden shepherd's staff leaning on a bale, mist, gentle sunrise light on the horizon, nobody in the field.",
+   "aday": 1,
+   "not": "Çoban sahnesi; kimse ve hayvan yok."
+  },
+  {
+   "ad": "saglik_kurulusu",
+   "oran": "16:9",
+   "istem": "A bright calm clinic reception: a wooden reception desk, white walls, a potted plant, a row of plain chairs, soft daylight from a large window, nobody in view, no signs.",
+   "aday": 2,
+   "not": "Sağlık kuruluşu; tabela/haç/logo yok, insan yok."
+  },
+  {
+   "ad": "loxosceles_tam",
+   "oran": "16:9",
+   "istem": "Top-down three-quarter view on a pale wooden surface of a small Mediterranean recluse spider (Loxosceles rufescens): light tan-brown head-chest with a dark violin-shaped mark on its back, a grey-yellowish abdomen, long thin light-brown legs, exactly 8 legs, 4 on each side, the violin-shaped dark mark clearly visible on the head-chest, the legs thin and evenly spread, the whole spider small and centered, soft neutral light.",
+   "aday": 3,
+   "not": "Loxosceles rufescens: açık kahverengi, SIRTTA keman biçimli koyu leke, gri-sarımsı karın; sekiz ince bacak."
+  },
+  {
+   "ad": "uzman_mikroskop",
+   "oran": "16:9",
+   "istem": "Gloved hands of a scientist holding fine tweezers over an empty glass petri dish beside a stereo microscope on a clean bench, human hands with exactly five fingers each, no face visible, soft daylight, a plain blurred lab background, nothing written anywhere.",
+   "aday": 2,
+   "not": "Uzman incelemesi; eller beş parmak, yüz yok; petri kabı boş."
+  },
+  {
+   "ad": "loxosceles_mobilya",
+   "oran": "16:9",
+   "istem": "The dusty gap behind a heavy wardrobe next to a stack of plain brown cardboard boxes, warm low light; on the edge of a box at medium distance in half shadow a small Mediterranean recluse spider (Loxosceles rufescens): light tan-brown head-chest with a dark violin-shaped mark on its back, a grey-yellowish abdomen, long thin light-brown legs, exactly 8 legs, 4 on each side, small and centered horizontally.",
+   "aday": 3,
+   "not": "Mobilya arkası ve kutu yığını; küçük açık kahverengi örümcek (keman lekesi çok net olmayabilir, önemli olan açık kahverengi + ince bacak)."
+  },
+  {
+   "ad": "loxosceles_yakin",
+   "oran": "16:9",
+   "istem": "Close-up macro of the head-chest of a small Mediterranean recluse spider (Loxosceles rufescens): light tan-brown head-chest with a dark violin-shaped mark on its back, a grey-yellowish abdomen, long thin light-brown legs, exactly 8 legs, 4 on each side, the dark violin-shaped mark clearly visible on the light tan-brown back, six small eyes, the long thin legs leaving the frame at the edges, shallow depth of field, soft warm light, centered.",
+   "aday": 3,
+   "not": "Keman lekesi net; altı göz (üç çift) tercih; bacaklar kadraj dışı."
+  },
+  {
+   "ad": "acil_servis",
+   "oran": "16:9",
+   "istem": "A quiet hospital emergency corridor with a gurney and a plain curtain, bright white clean light, empty chairs, no people, no signs, no equipment screens showing writing.",
+   "aday": 2,
+   "not": "Acil servis; insan, yazı ve kan yok."
+  },
+  {
+   "ad": "karsilasma_duvar",
+   "oran": "16:9",
+   "istem": "A bright hallway with a pale wall and a wooden floor; on the wall at medium distance a small a brown hairy house spider (genus Tegenaria): elongated hairy brown body with a flattened head-chest and a smooth pale-brown abdomen with faint darker chevrons, long hairy brown legs, exactly 8 legs, 4 on each side, centered horizontally, calm natural window light, as seen by someone standing a few steps away.",
+   "aday": 3,
+   "not": "Evde karşılaşma: ev örümceği duvarda orta mesafe; sekiz bacak."
+  },
+  {
+   "ad": "bardak_kagit",
+   "oran": "16:9",
+   "istem": "On a pale wooden table, a clear glass tumbler turned upside down over a small brown spider so the spider sits calmly inside under the glass (legs free and not touching the glass walls much), a stiff white card being slid under the rim of the glass by one hand while the other hand holds the glass, human hands with exactly five fingers each, no face visible, soft window light.",
+   "aday": 3,
+   "not": "Bardak ters, altında kâğıt; örümcek camın içinde, bacakları sıkışmıyor. İki el, beş parmak. Örümcek bulanık/küçük olabilir."
+  },
+  {
+   "ad": "ayakkabi_silkele",
+   "oran": "16:9",
+   "istem": "A hand with exactly five fingers holding a leather shoe upside down and shaking it gently over a tiled hallway floor beside a doormat, no face visible, nothing falling out, soft entrance-hall light.",
+   "aday": 2,
+   "not": "Silkeleme; tek el, beş parmak; ayakkabıdan bir şey düşmüyor."
+  },
+  {
+   "ad": "eldiven_odun",
+   "oran": "16:9",
+   "istem": "Hands in thick brown work gloves, each with five fingers, lifting a flat stone from a stack of stones and firewood in a garden, no face visible, bare earth underneath, warm afternoon light.",
+   "aday": 2,
+   "not": "Eldivenle taş kaldırma; altında hayvan yok."
+  },
+  {
+   "ad": "sabun_su_el",
+   "oran": "16:9",
+   "istem": "A sink with a running tap: two clean hands with five fingers each washing a forearm with white soap foam under the water, then a small ice pack beside the sink, no face visible, bright bathroom light, plain white tiles.",
+   "aday": 2,
+   "not": "Sabun ve soğuk uygulama; deride yara/kızarıklık yok."
+  },
+  {
+   "ad": "cocuk_saglik",
+   "oran": "16:9",
+   "istem": "Inside a calm clinic waiting room, an adult hand holding a small child's hand, exactly five fingers on each hand, seen from the side at hand level, no faces visible, a child's small backpack on a chair, soft daylight.",
+   "aday": 3,
+   "not": "Çocuk ve yetişkin eli; parmak sayısı ve el şekli kontrol; yüz yok."
+  },
+  {
+   "ad": "ev_genel",
+   "oran": "16:9",
+   "istem": "A cozy stone house with a small garden at dusk, a warm lit window, a wooden gate and flowerbeds, calm and welcoming, no people, no animals.",
+   "aday": 1,
+   "not": "Genel ev sahnesi; yazı/tabela yok."
+  },
+  {
+   "ad": "tas_alti_gizem",
+   "oran": "16:9",
+   "istem": "A flat garden stone just lifted and leaning aside, revealing damp dark soil with a few pale roots underneath, soft low evening light, shallow depth of field, completely bare soil with nothing on it.",
+   "aday": 1,
+   "not": "Çıyan vaadi için gizemli kare; toprağın üstünde hiçbir şey yok."
+  },
+  {
+   "ad": "kapak_ev_orumcegi",
+   "oran": "16:9",
+   "istem": "Full-frame thumbnail composition, no black bars: a kitchen corner with soft blurred shelves and a warm light; on the wall, centered in the right 50 percent of the frame at medium distance, a brown hairy house spider (genus Tegenaria): elongated hairy brown body with a flattened head-chest and a smooth pale-brown abdomen with faint darker chevrons, long hairy brown legs, exactly 8 legs, 4 on each side, the spider clearly visible and not touching the middle of the frame; the left half is a plain softly blurred pale wall, empty for text; documentary light.",
+   "aday": 3,
+   "not": "Kapak A. Örümcek sağ yarıda, sol boş; tam sekiz bacak; ürkütücü değil."
+  },
+  {
+   "ad": "kapak_karadul_tarla",
+   "oran": "16:9",
+   "istem": "Full-frame thumbnail composition, no black bars: beside a pile of stones and firewood in a wide steppe, a female Mediterranean black widow spider (Latrodectus tredecimguttatus): glossy jet-black rounded abdomen with a pattern of bright red round spots on top, glossy black head-chest and thin black legs, exactly 8 legs, 4 on each side, in a thin web, placed in the left 45 percent of the frame at medium distance, red spots on its abdomen visible; the right half is soft blurred golden steppe and sky, empty for text; documentary light, not menacing.",
+   "aday": 3,
+   "not": "Kapak B. Yazı sağda; örümcek solda; kırmızı benekler görünmeli."
+  },
+  {
+   "ad": "kapak_isirik_sandin",
+   "oran": "16:9",
+   "istem": "Full-frame thumbnail composition, no black bars: a charming close-up of the face of a jumping spider (family Salticidae): stocky fuzzy grey-brown body with short sturdy legs, a flat boxy face with two very large glossy dark forward-facing eyes in the middle of the front row and two smaller eyes beside them, exactly 8 legs, 4 on each side, the two very large glossy front eyes in the right 50 percent of the frame, the legs cropped out of the frame; the left half is a softly blurred warm pale wall, empty for text.",
+   "aday": 3,
+   "not": "Kapak C. Yazı solda; yüz sağ yarıda; gözler yazıya binmesin."
+  }
+ ]
+}
