@@ -344,6 +344,8 @@ def klipleri_hazirla(klasor: pathlib.Path):
     gecici = klasor / "_gecici"
     gecici.mkdir(exist_ok=True)
     kx = {}
+    # hızlı kurgudaki alt çekimlerin ("gorseller") klipleri de hazırlanır (28 Kasım: yalnız üst düzey klipler hazırlanıyordu)
+    plan = plan + [g for c in plan for g in c.get("gorseller", []) if isinstance(g, dict)]
     for c in plan:  # dikeyde klibin hangi yatay bölümü alınacak (0 sol, 0,5 orta, 1 sağ)
         if c.get("klip"):  # kz: yakınlaştırma (1 = yok), ky: yakınlaştırınca hangi dikey bölüm (0 üst, 0,5 orta, 1 alt)
             kx.setdefault(c["klip"], (c.get("kx", 0.5), max(1.0, c.get("kz", 1.0)), c.get("ky", 0.5), c.get("kt")))

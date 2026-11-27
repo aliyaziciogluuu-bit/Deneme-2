@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Lambanın çevresindeki böcek, ışığa âşık değil.",
+  "duyulan": "Lambanın çevresindeki böcek ışığa aşık değil.",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Araştırmacılara göre, ışığa doğrudan gitmiyor.",
+  "duyulan": "Araştırmacılara göre ışığa doğrudan gitmiyor.",
+  "hata": 0,
+  "sure": 3.04,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Sırtını ışığa doğru çeviriyor.",
+  "duyulan": "sırtını ışığa doğru çeviriyor.",
+  "hata": 0,
+  "sure": 2.34,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Doğada en parlak yer genellikle gökyüzü.",
+  "duyulan": "Doğada en parlak yer genellikle gökyüzü.",
+  "hata": 0,
+  "sure": 2.74,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yapay lambada bu refleks, onu dönüp durmaya sürükleyebiliyor.",
+  "duyulan": "Yapay lambada bu refleks onu dönüp durmaya sürükleyebiliyor.",
+  "hata": 0,
+  "sure": 4.12,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Yani lamba, böceğin uçuş dengesini bozuyor.",
+  "duyulan": "Yani lamba, böceğin uçuş dengesini bozuyor.",
+  "hata": 0,
+  "sure": 3.14,
+  "uygun": true
+ }
+}

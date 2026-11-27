@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Kurbağa, suyu ağzıyla içmiyor; derisiyle alıyor.",
+  "duyulan": "Kurbağa suyu ağzıyla içmiyor, derisiyle alıyor.",
+  "hata": 0,
+  "sure": 3.14,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Birçok kurbağa, karnının alt derisinden suyu hızla emiyor.",
+  "duyulan": "Birçok kurbağa karnının alt derisinden suyu hızla emiyor.",
+  "hata": 0,
+  "sure": 3.88,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bu bölge, damarlarla dolu.",
+  "duyulan": "Bu bölge damarlarla dolu.",
+  "hata": 0,
+  "sure": 1.86,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Kurbağalar, çoğu kara hayvanından hızlı su kaybediyor.",
+  "duyulan": "Kurbağalar çoğu kara hayvanından hızlı su kaybediyor.",
+  "hata": 0,
+  "sure": 3.06,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bu yüzden kurbağayı ıslak yerinde rahat bırak.",
+  "duyulan": "Bu yüzden kurbağayı ıslak yerinde rahat bırak.",
+  "hata": 0,
+  "sure": 2.62,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ya derisi başka neler yapıyor?",
+  "duyulan": "Ya derisi başka neler yapıyor?",
+  "hata": 0,
+  "sure": 1.9,
+  "uygun": true
+ }
+}

@@ -5,3 +5,4 @@ izleyiciler: KABUL (aday 2; görsel denetçi 28 Kas)
 karanlik: KABUL (aday 1; görsel denetçi 28 Kas)
 dans_isik: KABUL (aday 2; görsel denetçi 28 Kas, 2. tur)
 sekiz_yol: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur)
+klip denetimi 28 Kas: gunes KABUL

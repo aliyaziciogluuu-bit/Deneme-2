@@ -4,3 +4,4 @@ gece_lamba: KABUL (aday 1; görsel denetçi 28 Kas)
 gokyuzu: KABUL (aday 1; görsel denetçi 28 Kas)
 sirt_isik: KABUL (aday 1; görsel denetçi 28 Kas)
 bocek_lamba: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur)
+klip denetimi 28 Kas: gece_lamba KABUL

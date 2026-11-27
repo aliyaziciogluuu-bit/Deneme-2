@@ -86,7 +86,11 @@
     },
     {
      "gorsel": "sinek_portre",
-     "klip": "sinek_portre"
+     "klip": "sinek_portre",
+     "kt": [
+      0,
+      3.6
+     ]
     }
    ]
   },
