@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Sivrisinek, kendinden ağır yağmur damlasından sağ çıkıyor.",
+  "duyulan": "Sivrisinek kendinden ağır yağmur damlasından sağ çıkıyor.",
+  "hata": 0,
+  "sure": 3.84,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Çok hafif olduğu için damla ona az kuvvet uyguluyor.",
+  "duyulan": "Çok hafif olduğu için damla ona az kuvvet uyguluyor.",
+  "hata": 0,
+  "sure": 3.46,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bir süre damlaya yapışıp aşağı sürükleniyor.",
+  "duyulan": "bir süre damlaya yapışıp aşağı sürükleniyor.",
+  "hata": 0,
+  "sure": 2.56,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Sonra yana kayıp uçmaya devam ediyor.",
+  "duyulan": "sonra yana kayıp uçmaya devam ediyor.",
+  "hata": 0,
+  "sure": 2.28,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Asıl tehlike yağmur değil, zemin.",
+  "duyulan": "Asıl tehlike yağmur değil, zemin.",
+  "hata": 0,
+  "sure": 2.7,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Yere yakın uçarsa damladan ayrılacak yer kalmıyor.",
+  "duyulan": "Yere yakın uçarsa, damladan ayrılacak yer kalmıyor.",
+  "hata": 0,
+  "sure": 3.56,
+  "uygun": true
+ }
+}
