@@ -7,13 +7,17 @@
      "gorsel": "bocek_lamba",
      "klip": "bocek_lamba"
     },
-    "bocek_yakin"
+    {
+     "gorsel": "bocek_yakin"
+    }
    ]
   },
   {
    "n": 1,
    "gorseller": [
-    "doner",
+    {
+     "gorsel": "doner"
+    },
     {
      "gorsel": "gece_lamba",
      "klip": "gece_lamba"
@@ -23,7 +27,9 @@
   {
    "n": 1,
    "gorseller": [
-    "sirt_isik",
+    {
+     "gorsel": "sirt_isik"
+    },
     {
      "gorsel": "sirt_isik",
      "a": [
@@ -42,7 +48,9 @@
   {
    "n": 1,
    "gorseller": [
-    "gokyuzu",
+    {
+     "gorsel": "gokyuzu"
+    },
     {
      "gorsel": "gokyuzu",
      "a": [
@@ -78,12 +86,12 @@
      "gorsel": "bocek_lamba",
      "a": [
       0.5,
-      0.42,
+      0.62,
       0.65
      ],
      "b": [
       0.5,
-      0.42,
+      0.62,
       0.5
      ]
     },
@@ -131,7 +139,9 @@
       0.6
      ]
     },
-    "bocek_lamba"
+    {
+     "gorsel": "bocek_lamba"
+    }
    ]
   }
  ]

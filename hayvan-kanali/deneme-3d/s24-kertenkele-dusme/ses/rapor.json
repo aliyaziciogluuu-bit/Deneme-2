@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Bir ev gekosu türü düşerken kuyruğuyla dönüyor.",
+  "duyulan": "bir ev gekosu türü düşerken kuyruğuyla dönüyor.",
+  "hata": 0,
+  "sure": 2.74,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Sırtüstü düşse bile, karnı yere bakıyor.",
+  "duyulan": "Sırtüstü düşse bile karnı yere bakıyor.",
+  "hata": 0,
+  "sure": 2.22,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kuyruk bir yöne dönünce gövde ters dönüyor.",
+  "duyulan": "Kuyruk bir yöne dönünce gövde ters dönüyor.",
+  "hata": 0,
+  "sure": 2.46,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bu dönüş, saniyenin yaklaşık onda biri sürüyor.",
+  "duyulan": "Bu dönüş saniyenin yaklaşık onda biri sürüyor.",
+  "hata": 0,
+  "sure": 2.56,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Havada süzülürken kuyruk, yönü de ayarlıyor.",
+  "duyulan": "havada süzülürken kuyruk yönü de ayarlıyor.",
+  "hata": 0,
+  "sure": 2.48,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Peki kuyruğu kopmuş gekoyu ne bekliyor?",
+  "duyulan": "Peki kuyruğu kopmuş ge koyu ne bekliyor?",
+  "hata": 0,
+  "sure": 2.46,
+  "uygun": true
+ }
+}
