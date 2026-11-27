@@ -45,7 +45,7 @@ def main(klasor: str) -> None:
                 blok = f.read(PARCA)
                 if not blok:
                     break
-                ad = f"{dosya.name}.p{i:02d}"
+                ad = f"{dosya.name}.parca{i:02d}"  # .p12 sertifika uzantısı sayılıp Drive referansla yüklemeyi reddediyor
                 (hedef / ad).write_bytes(blok)
                 parcalar.append(ad)
                 i += 1
