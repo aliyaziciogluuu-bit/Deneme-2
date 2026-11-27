@@ -180,5 +180,61 @@
   "hata": 1,
   "sure": 6.92,
   "uygun": true
+ },
+ "026": {
+  "yazi": "Odunun içindeki hayvan orada ne yapıyordu?",
+  "duyulan": "Odu'nun içindeki hayvan orada ne yapıyordu?",
+  "hata": 0,
+  "sure": 2.58,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Birçok semender türü, kışı çürüyen kütüklerin içinde ve altında uyuyarak geçiriyor.",
+  "duyulan": "Birçok semender türü kışı çürüyen kütüklerin içinde ve altında uyuyarak geçiriyor.",
+  "hata": 0,
+  "sure": 5.08,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Bir derlemeye göre ateş efsanesinin kökü burada olabilir.",
+  "duyulan": "Bir derlemeye göre ateş efsanesinin kökü burada olabilir.",
+  "hata": 0,
+  "sure": 3.52,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Odun eve getirilip ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.",
+  "duyulan": "Odun eve getirilip ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.",
+  "hata": 0,
+  "sure": 5.16,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "On altıncı yüzyıl İtalyan sanatçısı Cellini, çocukken ateşte böyle bir hayvan gördüğünü anılarında yazmış.",
+  "duyulan": "16. yüzyıl İtalyan sanatçısı Cellini, çocukken ateşte böyle bir hayvan gördüğünü anılarında yazmış.",
+  "hata": 0,
+  "sure": 6.12,
+  "uygun": true
+ },
+ "031": {
+  "yazi": "Bize göre eskiler gerçek bir şey görmüş olabilir; açıklamaları eksik kalmış olabilir.",
+  "duyulan": "...bize göre eskiler gerçek bir şey görmüş olabilir, açıklamaları eksik kalmış olabilir.",
+  "hata": 0,
+  "sure": 4.92,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Türkiye'deki semender de odunda mı kışlıyor?",
+  "duyulan": "Türkiye'deki semender de odunda mı kışlıyor?",
+  "hata": 0,
+  "sure": 2.53,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Bunu gösteren bir yazıya rastlamadık; ama gündüz yaprak altında, kayaların arasında ve oyuklarda saklandığı yazılıyor.",
+  "duyulan": "Bunu gösteren bir yazıya rastlamadık, ama gündüz yaprak altında, kayaların arasında ve oyuklarda saklandığı yazılıyor.",
+  "hata": 0,
+  "sure": 7.04,
+  "uygun": true
  }
 }

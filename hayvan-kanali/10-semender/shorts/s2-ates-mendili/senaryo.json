@@ -1,0 +1,53 @@
+{
+  "dikey": true,
+  "baslik": "Semender Yününden Yapılan Kumaş Neydi? 🔥 #shorts",
+  "aciklama": "Bir derlemeye göre \"semender yününden\" denen kumaşlar gerçekte asbest kumaşıydı. Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor. Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor. Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor. Tam video kanalımızda: \"Semender Ateşten mi Doğar? (Odun Yığınındaki Sır)\"\n\nKaynaklar:\n- Vikipedi – Salamander (legendary creature): en.wikipedia.org/wiki/Salamander_(legendary_creature)\n- Vikipedi – Asbestos: en.wikipedia.org/wiki/Asbestos\n- Dünya Sağlık Örgütü – Asbestos: who.int/news-room/fact-sheets/detail/asbestos\n- Özdemir, M. (2021). Klasik Türk Şiirinde Semender. Akademik Dil ve Edebiyat Dergisi 5(4): 1861–1900. doi.org/10.34083/akaded.1024301\n\n#shorts #semender #doğa",
+  "etiketler": [
+    "semender yünü",
+    "semender ateşte yanar mı",
+    "asbest",
+    "semender efsanesi",
+    "shorts",
+    "doğa"
+  ],
+  "ust_yazi": [
+    "ASBESTTEN",
+    "KUMAŞ"
+  ],
+  "kaynaklar": [],
+  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+  "ambiyans": {
+    "dosya": "../../../sesler/gece_cirit.ogg",
+    "seviye": 0.05,
+    "kaynak": ""
+  },
+  "ana_video": "Semender Ateşten mi Doğar? (Odun Yığınındaki Sır)",
+  "sahneler": [
+    {
+      "ad": "Semender Yününden Yapılan Kumaş Neydi? 🔥 #shorts",
+      "cumleler": [
+        {
+          "yazi": "Semender yününden yapıldığı söylenen kumaşlar, bir derlemeye göre gerçekte asbesttendi."
+        },
+        {
+          "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş."
+        },
+        {
+          "yazi": "Asbest, yanmaya dayanıklı bez yapılan lifli bir mineral."
+        },
+        {
+          "yazi": "Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor."
+        },
+        {
+          "yazi": "Yani yanmaya dayanan kumaş gerçekti, ama onu veren hayvan yoktu."
+        },
+        {
+          "yazi": "Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor."
+        },
+        {
+          "yazi": "Tam videosu kanalımızda."
+        }
+      ]
+    }
+  ]
+}

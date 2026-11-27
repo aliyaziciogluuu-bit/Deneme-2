@@ -19,31 +19,42 @@
       "cumleler": [
         {
           "yazi": "Bir derlemeye göre ateşten doğduğu sanılan semender, kütüğün içinde kış uykusuna yatan semenderlerden çıkmış olabilir.",
-          "gorsel": "kutuk_icinde"
+          "gorsel": "kutuk_icinde",
+          "x": 0.52,
+          "aw": 0.6,
+          "ay": 0.6,
+          "w": 0.55,
+          "y": 0.6
         },
         {
           "yazi": "Odun eve getirilip ateşe atılınca hayvanlar alevlerden çıkıyormuş gibi görünmüş.",
-          "gorsel": "soba_ates"
+          "gorsel": "soba_ates",
+          "x": 0.55
         },
         {
           "yazi": "Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık.",
-          "gorsel": "odun_yigini_kis"
+          "gorsel": "odun_yigini_kis",
+          "x": 0.5
         },
         {
           "yazi": "Semender görürsen sobaya atma ve dokunma; dokunduysan elini sabunla yıka, gözüne ve ağzına götürme.",
-          "gorsel": "eller_odun_birak"
+          "gorsel": "eller_odun_birak",
+          "x": 0.5
         },
         {
           "yazi": "Küçük çocuk dokunduysa ya da ağzına aldıysa yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış.",
-          "gorsel": "el_yika"
+          "gorsel": "el_yika",
+          "x": 0.5
         },
         {
           "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
-          "gorsel": "veteriner_kopek"
+          "gorsel": "veteriner_kopek",
+          "x": 0.5
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "koy_manzara"
+          "gorsel": "koy_manzara",
+          "x": 0.62
         }
       ]
     },
@@ -66,31 +77,42 @@
       "cumleler": [
         {
           "yazi": "Semender yününden yapıldığı söylenen kumaşlar, bir derlemeye göre gerçekte asbesttendi.",
-          "gorsel": "mendil_ates"
+          "gorsel": "mendil_ates",
+          "x": 0.5
         },
         {
           "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş.",
-          "gorsel": "osmanli_sozluk"
+          "gorsel": "osmanli_sozluk",
+          "x": 0.68
         },
         {
           "yazi": "Asbest, yanmaya dayanıklı bez yapılan lifli bir mineral.",
-          "gorsel": "asbest_kumas"
+          "gorsel": "asbest_kumas",
+          "x": 0.5
         },
         {
           "yazi": "Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.",
-          "gorsel": "asbest_kumas"
+          "gorsel": "asbest_kumas",
+          "x": 0.5
         },
         {
           "yazi": "Yani yanmaya dayanan kumaş gerçekti, ama onu veren hayvan yoktu.",
-          "gorsel": "mendil_ates"
+          "gorsel": "mendil_ates",
+          "x": 0.5
         },
         {
           "yazi": "Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor.",
-          "gorsel": "kutuk_icinde"
+          "gorsel": "kutuk_icinde",
+          "x": 0.52,
+          "aw": 0.6,
+          "ay": 0.6,
+          "w": 0.55,
+          "y": 0.6
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "koy_manzara"
+          "gorsel": "koy_manzara",
+          "x": 0.62
         }
       ]
     },
@@ -113,31 +135,54 @@
       "cumleler": [
         {
           "yazi": "Semender bir kertenkele değil; derisinde pul yok. Türk semenderinin derisi nemli, pürüzsüz ve parlak.",
-          "gorsel": "gercek_turk_semenderi"
+          "gorsel": "gercek_turk_semenderi",
+          "x": 0.68,
+          "aw": 0.7,
+          "ay": 0.36,
+          "w": 0.7,
+          "y": 0.36
         },
         {
           "yazi": "Kertenkelenin derisi, keratinden yapılmış üst üste binen pullarla kaplı.",
-          "gorsel": "kertenkele_pul"
+          "gorsel": "kertenkele_pul",
+          "x": 0.38,
+          "aw": 0.6,
+          "ay": 0.34,
+          "w": 0.6,
+          "y": 0.34
         },
         {
           "yazi": "Bir Farsça sözlük, semender derisinden tahriş edici bir madde salgılandığını yazıyor; dokunma, dokunduysan elini sabunla yıka.",
-          "gorsel": "el_yika"
+          "gorsel": "el_yika",
+          "x": 0.5
         },
         {
           "yazi": "Gözüne ve ağzına götürme; küçük çocuk dokunduysa yıkamasına yardım et, gözde ya da ağızda rahatsızlık olursa doktora danış.",
-          "gorsel": "el_yika"
+          "gorsel": "el_yika",
+          "x": 0.5
         },
         {
           "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
-          "gorsel": "gercek_turk_semenderi"
+          "gorsel": "gercek_turk_semenderi",
+          "x": 0.68,
+          "aw": 0.7,
+          "ay": 0.36,
+          "w": 0.7,
+          "y": 0.36
         },
         {
           "yazi": "Ne yapacağını bilemiyorsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
-          "gorsel": "gercek_turk_semenderi"
+          "gorsel": "gercek_turk_semenderi",
+          "x": 0.68,
+          "aw": 0.7,
+          "ay": 0.36,
+          "w": 0.7,
+          "y": 0.36
         },
         {
           "yazi": "Tam videosu kanalımızda.",
-          "gorsel": "koy_manzara"
+          "gorsel": "koy_manzara",
+          "x": 0.62
         }
       ]
     }
