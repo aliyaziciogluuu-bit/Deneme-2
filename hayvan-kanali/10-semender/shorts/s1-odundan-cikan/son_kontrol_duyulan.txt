@@ -1,0 +1,9 @@
+000 fark=0 | Semender ateşten doğmuyor; efsanenin, kütükten çıkan semenderlerden doğduğu öne sürülüyor. || Semender ateşten doğmuyor, efsanenin kütükten çıkan semenderlerden doğduğu öne sürülüyor.
+001 fark=0 | Bir derlemeye göre birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor; odun ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş. || Bir derlemeye göre birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor. Odun ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.
+002 fark=0 | Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık. || Türkiye'deki türün odunda kışladığını gösteren bir yazıya rastlamadık.
+003 fark=0 | Avrupa lekeli semenderinin salgısında, insan için tehlikeli olabilecek maddeler de bildiriliyor. || Avrupa lekeli semenderinin salgısında insan için tehlikeli olabilecek maddeler de bildiriliyor.
+004 fark=0 | Semenderi ateşe ya da sobaya atma; ona dokunma, dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme. || Semenderi ateşe ya da sobaya atma, ona dokunma, dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.
+005 fark=0 | Küçük çocuk dokunduysa elini yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış. || Küçük çocuk dokunduysa elini yıkamasına yardım et. Gözde ya da ağızda rahatsızlık olursa doktora danış.
+006 fark=0 | Köpek ya da kedi ağzına aldıysa veterinere başvur. || Köpek ya da kedi ağzına aldıysa veterinere başvur.
+007 fark=0 | Semenderi doğadan alıp eve götürme; kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış. || Semenderi doğadan alıp eve götürme. Kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.
+008 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

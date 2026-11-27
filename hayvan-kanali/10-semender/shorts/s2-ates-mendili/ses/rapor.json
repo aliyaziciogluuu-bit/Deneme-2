@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestti.",
+  "duyulan": "Ateşte temizlendiği söylenen semender kumaşı bir derlemeye göre az pesti.",
+  "hata": 2,
+  "sure": 4.7,
+  "uygun": false
+ },
+ "001": {
+  "yazi": "Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş.",
+  "duyulan": "Osmanlı sözlüplerinden biri Semender Derisi'nden mendil yapıldığı rivayetini aktarıyor. Kirlenince ateşe atılıp temizlenirmiş.",
+  "hata": 1,
+  "sure": 7.4,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Asbest, yanmaya dayanıklı bez yapımında kullanılmış lifli bir mineral.",
+  "duyulan": "Asbest yanmaya dayanıklı bez yapımında kullanılmış lifli bir mineral.",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.",
+  "duyulan": "Asbest bugün sağlığa zararlı sayılıyor. Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.",
+  "hata": 0,
+  "sure": 6.8,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Yani yanmaya dayanan kumaş gerçekti, ama onu veren hayvan yoktu.",
+  "duyulan": "Yani yanmaya dayanan kumaş gerçekti ama onu veren hayvan yoktu.",
+  "hata": 0,
+  "sure": 3.96,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor.",
+  "duyulan": "Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor.",
+  "hata": 0,
+  "sure": 5.42,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.32,
+  "uygun": true
+ }
+}

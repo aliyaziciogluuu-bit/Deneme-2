@@ -37,13 +37,13 @@
     "Avludaki Komşular"
   ],
   "kapak": {
-    "gorsel": "kapak_a",
+    "gorsel": "kapak_kutuk",
     "buyuk": [
       "ODUNDAKİ",
-      "KONUK"
+      "SIR"
     ],
-    "kucuk": "Ateşle ilgisi yok",
-    "konum": "sag",
+    "kucuk": "Kütükte ne arıyor?",
+    "konum": "sol",
     "genislik": 500
   },
   "ambiyans": {
@@ -303,21 +303,21 @@
       "kucuk": "Derisinde pul yok",
       "konum": "sol",
       "genislik": 500,
-      "gorsel": "gercek_semender_yaprak",
+      "gorsel": "kapak_goz",
       "etiket": "B",
-      "gorsel_notu": "Türk semenderi yakın plan, gerçek iNaturalist fotoğrafı (taxon Salamandra infraimmaculata, Türkiye gözlemi), nemli yaprak üstünde, sevimli ifade; yazı yüze binmez"
+      "gorsel_notu": "3D makro: parlak siyah göz ve sarı lekeli pürüzsüz deri (Kontext ile göz tamamen siyah yapıldı)"
     },
     {
       "buyuk": [
-        "ATEŞTE YIKANAN",
-        "MENDİL?"
+        "ODUNDAKİ",
+        "KONUK"
       ],
-      "kucuk": "Kumaşı kim verdi?",
-      "konum": "sol",
+      "kucuk": "Ateşle ilgisi yok",
+      "konum": "sag",
       "genislik": 500,
-      "gorsel": "mendil_ates",
+      "gorsel": "kapak_a",
       "etiket": "C",
-      "gorsel_notu": "yaprak kuruyken suluboya: ateşte bir mendil ve yanında küçük siyah sarı semender; semender Türk semenderi gibi (siyah, sarı lekeli, bacaklı, kuyruklu, pulsuz, parlak deri)"
+      "gorsel_notu": "3D, kütükteki semender yakın plan (kutuk_icinde kırpımı), ayaklar kadraj dışında"
     }
   ],
   "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video (bahçendeki yılan zehirli mi). Son 10-15 saniyede ekranda boş alan kalır.",

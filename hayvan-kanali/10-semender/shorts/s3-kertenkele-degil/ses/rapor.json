@@ -1,0 +1,72 @@
+{
+ "000": {
+  "yazi": "Semender kertenkele değil; derisinde pul yok.",
+  "duyulan": "SEMENDER KERTEN KALI DEĞİL. DERİSİNDE PUL YOK.",
+  "hata": 2,
+  "sure": 2.76,
+  "uygun": false
+ },
+ "001": {
+  "yazi": "Türk semenderinin derisi pürüzsüz ve parlak.",
+  "duyulan": "Türk semen derinin derisi pürüzsüz ve parlak.",
+  "hata": 0,
+  "sure": 2.94,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Kertenkelenin derisi, keratinden yapılmış üst üste binen pullarla kaplı.",
+  "duyulan": "Kertenkale'nin derisi keratinden yapılmış üst üste binen pullarla kaplı.",
+  "hata": 1,
+  "sure": 4.12,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bir Farsça sözlük, semender derisinden tahriş edici, yapışkan bir madde salgılandığını yazıyor.",
+  "duyulan": "Bir Farsça sözlük, semender derisinden tahriş edici yapışkan bir madde salgılandığını yazıyor.",
+  "hata": 0,
+  "sure": 5.24,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Avrupa lekeli semenderinin salgısında, insan için tehlikeli olabilecek maddeler de bildiriliyor.",
+  "duyulan": "Avrupa lekeli semenderinin salgısında insan için tehlikeli olabilecek maddeler de bildiriliyor.",
+  "hata": 0,
+  "sure": 5.16,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Bu yüzden ona dokunma; dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.",
+  "duyulan": "Bu yüzden ona dokunma, dokunduysan elini sabunla yıka, yıkamadan gözüne ve ağzına götürme.",
+  "hata": 0,
+  "sure": 5.76,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Küçük çocuk dokunduysa elini yıkamasına yardım et; gözde ya da ağızda rahatsızlık olursa doktora danış.",
+  "duyulan": "Küçük çocuk dokunduysa, elini yıkamasına yardım et. Gözde ya da ağızda rahatsızlık olursa doktora danış.",
+  "hata": 0,
+  "sure": 6.1,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Köpek ya da kedi ağzına aldıysa veterinere başvur.",
+  "duyulan": "köpek ya da kedi ağzını aldıysa veterinere başvur.",
+  "hata": 1,
+  "sure": 2.82,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Semenderi doğadan alıp eve götürme; kararsız kalırsan bölgendeki Doğa Koruma ve Milli Parklar şube müdürlüğüne danış.",
+  "duyulan": "Semendiri doğadan alıp eve götürme. Kararsız kalırsan, bölgendeki Doğa Koruma ve Milli Parklar Şube Müdürlüğüne danış.",
+  "hata": 1,
+  "sure": 6.92,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.36,
+  "uygun": true
+ }
+}
