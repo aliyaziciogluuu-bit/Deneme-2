@@ -2,16 +2,16 @@
  "cekimler": [
   {
    "n": 1,
-   "gorsel": "kutuk_icinde",
+   "gorsel": "deri_parlak_yakin",
    "a": [
     0.52,
-    0.6,
-    0.6
+    0.5,
+    1.0
    ],
    "b": [
     0.52,
-    0.6,
-    0.55
+    0.5,
+    0.85
    ]
   },
   {

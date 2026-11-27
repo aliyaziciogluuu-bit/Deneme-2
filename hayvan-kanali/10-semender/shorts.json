@@ -19,12 +19,8 @@
    "cumleler": [
     {
      "yazi": "Semender ateşten doğmuyor; efsanenin, kütükten çıkan semenderlerden doğduğu öne sürülüyor.",
-     "gorsel": "kutuk_icinde",
-     "x": 0.52,
-     "aw": 0.6,
-     "ay": 0.6,
-     "w": 0.55,
-     "y": 0.6
+     "gorsel": "deri_parlak_yakin",
+     "x": 0.52
     },
     {
      "yazi": "Bir derlemeye göre birçok semender türü kışı çürüyen kütüklerde uyuyarak geçiriyor; odun ateşe atılınca hayvanlar alevlerin içinden çıkıyormuş gibi görünmüş.",

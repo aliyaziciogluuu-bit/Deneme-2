@@ -39,12 +39,12 @@
   "kapak": {
     "gorsel": "kapak_kutuk",
     "buyuk": [
-      "ODUNDAKİ",
-      "SIR"
+      "GİZLİ",
+      "MİSAFİR"
     ],
     "kucuk": "Kütükte ne arıyor?",
     "konum": "sol",
-    "genislik": 500
+    "genislik": 360
   },
   "ambiyans": {
     "dosya": "../sesler/gece_cirit.ogg",
