@@ -33,3 +33,4 @@ anadolu_harita: KABUL (denetçi 3. tur, aday 4 – Kontext ile bayrak/iğne sili
 kutuk_alev_kenari: KABUL (aday 5: Kontext ile ayaklar yosunla örtüldü; pençe izlenimi yok, orta mesafe)
 agac_kuyu: KABUL (aday 1: hayvansız elma ağacı + kuyu)
 eller_odun_birak: KABUL (aday 1: eldivenler 5 parmak, logo yok)
+harita_nabiz (klip): RET — Kling İç Anadolu'ya parlayan iğne ekledi (yanlış yer izlenimi); çekimde durağan görsel + yavaş yakınlaşma kullanılıyor
