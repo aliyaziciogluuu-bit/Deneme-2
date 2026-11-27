@@ -3,7 +3,7 @@
 Kullanım:
   python klip.py 01-sagir-yilan            # eksik klipleri üretir (önce maliyeti gösterir)
   python klip.py 01-sagir-yilan --onay     # harcamayı onaylar
-  python klip.py 01-sagir-yilan --onay goz # yalnızca adı verilen klibi (yeniden) üretir
+  python klip.py 01-sagir-yilan --onay goz # yalnızca adı verilen klibi üretir (varsa atlar; yeniden üretmek için --yeniden)
 
 Bütçe koruması: <video>/gorsel_denetim.txt içinde her görsel için "ad: KABUL" satırı yoksa klip üretilmez
 (görsel denetçisi onaylamadan klip yok; zorunlu istisna için --denetimsiz).
@@ -54,7 +54,8 @@ def main():
     hedef.mkdir(exist_ok=True)
     adlar = [a for a in arg if not a.startswith("--")]
     if adlar:
-        liste = [k for k in tanim if k["ad"] in adlar]
+        liste = [k for k in tanim if k["ad"] in adlar
+                 and ("--yeniden" in arg or not (hedef / f"{k['ad']}.mp4").exists())]  # var olan klip --yeniden olmadan tekrar üretilmez
     else:
         liste = [k for k in tanim if not (hedef / f"{k['ad']}.mp4").exists()]
     maliyet = sum(FIYAT_5SN * k.get("sure", 5) / 5 for k in liste)
