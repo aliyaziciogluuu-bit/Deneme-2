@@ -215,5 +215,110 @@
   "hata": 0,
   "sure": 9.64,
   "uygun": true
+ },
+ "031": {
+  "yazi": "Peki bu başlıca iki cins hangileri ve neden dikkat istiyorlar?",
+  "duyulan": "Peki, bu başlıca iki cins hangileri ve neden dikkat istiyorlar?",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Birincisi karadul; bilimsel adı Latrodectus.",
+  "duyulan": "Birincisi karadul. Bilimsel adı latrodectus.",
+  "hata": 0,
+  "sure": 2.88,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun yığınında, kulübe ve kümeste ağ örüyor.",
+  "duyulan": "Türkiye'de kayıtlı karadullardan biri, Akdeniz Karadolu Örümceği. Bozkırda, tarlada, taş ve odun yağınında, kulübe ve kümeste ağ örüyor.",
+  "hata": 2,
+  "sure": 8.08,
+  "uygun": false
+ },
+ "034": {
+  "yazi": "İstanbul, Ankara, Adana, Mardin ve Kars gibi yerlerde kaydedilmiş.",
+  "duyulan": "İstanbul, Ankara, Adana, Mardin ve Kars gibi yerlerde kaydedilmiş.",
+  "hata": 0,
+  "sure": 3.88,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Ankara'da tarlada göğsündeki ağrıyla uyanan bir çoban yoğun bakıma alındı; belirtileri beşinci günde düzeldi.",
+  "duyulan": "Ankara'da, tarlada, göğsündeki ağrıyla uyanan bir çoban yoğun bakıma alındı. Belirtileri 5.günde düzeldi.",
+  "hata": 0,
+  "sure": 6.93,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Makaleye göre Türkiye'de karadul panzehiri yok; yine de zehirlenme görülme sıklığı çok düşük.",
+  "duyulan": "Makaleye göre Türkiye'de kara dulpan zehir yok. Yine de zehirlenme görülme sıklığı çok düşük.",
+  "hata": 3,
+  "sure": 4.68,
+  "uygun": false
+ },
+ "037": {
+  "yazi": "Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini, çocuk ve yaşlıların hastane gözlemi gerektirebildiğini bildiriyor.",
+  "duyulan": "Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini, çocuk ve yaşlıların hastane gözlemi gerektirebildiğini bildiriyor.",
+  "hata": 0,
+  "sure": 6.58,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "İkincisi Loxosceles; Türkiye'de sorun çıkaran türü Akdeniz münzevi ya da Akdeniz kahverengi örümceği, keman biçimli lekeyle bilinir.",
+  "duyulan": "İkincisi loxoseles, Türkiye'de sorun çıkaran türü Akdeniz Münzevi ya da Akdeniz Kahverengi Örümceği, keman biçimli lekeyle bilinir.",
+  "hata": 1,
+  "sure": 7.46,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Evde gördüğün örümceğin bu tür olup olmadığına yalnızca uzman karar verebilir.",
+  "duyulan": "Evde gördüğün örümceğin bu tür olup olmadığına yalnızca uzman karar verebilir.",
+  "hata": 0,
+  "sure": 3.7,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Kayalıkta yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutu yığınlarında bulunuyor; ayakkabıya, giysiye, çarşafa da saklanıyor.",
+  "duyulan": "Kayalıkta yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutu yığınlarında bulunuyor. Ayakkabıya, giysiye, çarşafa da saklanıyor.",
+  "hata": 0,
+  "sure": 7.6,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Akdeniz münzevi örümceği saldırgan değil ama deriye bastırılırsa ısırabiliyor; çoğunlukla giyinirken ya da uyurken.",
+  "duyulan": "Akdeniz Münzevi Örümceyi saldırgan değil ama deriye bastırılırsa ısırabiliyor, çoğunlukla giyinirken ya da uyurken.",
+  "hata": 1,
+  "sure": 6.56,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Türkiye'de İstanbul, Mardin, Kahramanmaraş, Hatay, Antalya, Muğla ve Aydın'da saptanmış; liste yalnızca bildirilen yerleri gösteriyor.",
+  "duyulan": "Türkiye'de İstanbul, Mardin, Kahraman Maraş, Hatay, Antalya, Mula ve Aydın'da saptanmış. Liste yalnızca bildirilen yerleri gösteriyor.",
+  "hata": 3,
+  "sure": 7.64,
+  "uygun": false
+ },
+ "043": {
+  "yazi": "Akdeniz münzevi örümceğinin ısırığı çoğunlukla acısız; saatler içinde kızarıklık, kabarcık ve morarma görülebiliyor.",
+  "duyulan": "Akdeniz müzevi yörümceğinin ısırı çoğunlukla acısız. Saatler içinde kızarıklık, kabarcık ve morarma görülebiliyor.",
+  "hata": 3,
+  "sure": 6.32,
+  "uygun": false
+ },
+ "044": {
+  "yazi": "Hafif vakalarda kızarıklık iki üç haftada geçiyor; ağır vakalarda doku ölümü olabiliyor, iyileşme aylar sürebiliyor.",
+  "duyulan": "Hafif vakalarda kızarıklık 2-3 haftada geçiyor. Ağır vakalarda doku ölümü olabiliyor, iyileşme aylar sürebiliyor.",
+  "hata": 0,
+  "sure": 6.54,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Yine de bir derleme, Akdeniz münzevi örümceğinin zehrinin Amerika kıtasındaki akrabalarından çok daha az tehlikeli sayıldığını belirtiyor.",
+  "duyulan": "Yine de bir derleme, Akdeniz Münzevi yörümceğinin zehrinin Amerika kıtasındaki akrabalarından çok daha az tehlikeli sayıldığını belirtiyor.",
+  "hata": 1,
+  "sure": 6.96,
+  "uygun": true
  }
 }
