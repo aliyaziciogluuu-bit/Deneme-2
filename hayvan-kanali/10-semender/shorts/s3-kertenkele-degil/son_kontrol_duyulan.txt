@@ -1,4 +1,4 @@
-000 fark=2 | Semender kertenkele değil; derisinde pul yok. || SEMENDER KERTEN KALI DEĞİL, DERİSİNDE PUL YOK
+000 fark=0 | Semender bir kertenkele değil; derisinde pul yok. || Semender bir kertenkele değil, derisinde pul yok.
 001 fark=0 | Türk semenderinin derisi pürüzsüz ve parlak. || Türk semen derinin derisi pürüzsüz ve parlak.
 002 fark=1 | Kertenkelenin derisi, keratinden yapılmış üst üste binen pullarla kaplı. || Kertenkale'nin derisi keratinden yapılmış üst üste binen pullarla kaplı.
 003 fark=0 | Bir Farsça sözlük, semender derisinden tahriş edici, yapışkan bir madde salgılandığını yazıyor. || Bir Farsça sözlük, semender derisinden tahriş edici yapışkan bir madde salgılandığını yazıyor.

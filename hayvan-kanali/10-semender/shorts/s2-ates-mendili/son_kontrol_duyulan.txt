@@ -1,7 +1,7 @@
-000 fark=2 | Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestti. || Ateşte temizlendiği söylenen semender kumaşı bir derlemeye göre az pesti.
-001 fark=0 | Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş. || Osmanlı sözlüklerinden biri semender derisinden mendil yapıldığı rivayetini aktarıyor. Kirlenince ateşe atılıp temizlenirmiş.
+000 fark=0 | Ateşte temizlendiği söylenen semender kumaşı, bir derlemeye göre asbestten yapılmıştı. || Ateşte temizlendiği söylenen semender kumaşı bir derlemeye göre asbestten yapılmıştı.
+001 fark=1 | Osmanlı sözlüklerinden biri, semender derisinden mendil yapıldığı rivayetini aktarıyor; kirlenince ateşe atılıp temizlenirmiş. || Osmanlı sözlüplerinden biri semender derisinden mendil yapıldığı rivayetini aktarıyor. Kirlenince ateşe atılıp temizlenirmiş.
 002 fark=0 | Asbest, yanmaya dayanıklı bez yapımında kullanılmış lifli bir mineral. || Asbest yanmaya dayanıklı bez yapımında kullanılmış lifli bir mineral.
 003 fark=0 | Asbest bugün sağlığa zararlı sayılıyor; Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor. || Asbest bugün sağlığa zararlı sayılıyor. Dünya Sağlık Örgütü her türünün insanda kansere yol açtığını bildiriyor.
 004 fark=0 | Yani yanmaya dayanan kumaş gerçekti, ama onu veren hayvan yoktu. || Yani yanmaya dayanan kumaş gerçekti ama onu veren hayvan yoktu.
-005 fark=0 | Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor. || Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor.
+005 fark=0 | Semenderin ateşte yaşadığı inancının kökünün, kütükten çıkan semenderler olduğu öne sürülüyor. || Semenderin ateşte yaşadığı inancının kökünün kütükten çıkan semenderler olduğu öne sürülüyor.
 006 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.

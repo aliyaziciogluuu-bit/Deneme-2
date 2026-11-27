@@ -395,5 +395,5 @@ Sıradaki komşu: bahçendeki yılan zehirli mi,
 ve bunu uzaktan nasıl anlarsın?
 
 100
-00:05:20,677 --> 00:05:21,787
+00:05:20,677 --> 00:05:21,847
 Komşunu tanı.

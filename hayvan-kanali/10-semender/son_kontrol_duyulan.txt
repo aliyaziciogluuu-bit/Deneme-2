@@ -58,5 +58,5 @@
 057 fark=0 | Özetle semender ateşten doğmuyor; ateş hikâyesinin kütükten çıkan, kış uykusundaki semenderlerle bağlantılı olduğu öne sürülüyor. || Özetle Semender Ateş'ten doğmuyor. Ateş hikayesinin kütükten çıkan kış uykusundaki semenderlerle bağlantılı olduğu öne sürülüyor.
 058 fark=0 | Senin köyünde semendere ne derler, hiç odunun içinden hayvan çıktı mı? || Senin köyünde semendere ne derler? Hiç odunun içinden hayvan çıktı mı?
 059 fark=0 | Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. || Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.
-060 fark=0 | Sıradaki komşu: bahçendeki yılan zehirli mi, ve bunu uzaktan nasıl anlarsın? || Sıradaki komşu, bahçendeki yılan zehirli mi ve bunu uzaktan nasıl anlarsın?
-061 fark=2 | Komşunu tanı. || Komşu notan.
+060 fark=0 | Sıradaki komşu: bahçendeki yılan zehirli mi, ve bunu uzaktan nasıl anlarsın? || Sıradaki komşu bahçendeki yılan zehirli mi ve bunu uzaktan nasıl anlarsın?
+061 fark=0 | Komşunu tanı. || Komşunu tanı.
