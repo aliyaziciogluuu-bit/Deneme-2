@@ -70,3 +70,9 @@ Hedef (YouTube İş Ortağı Programı): **1.000 abone** + son 12 ayda **4.000 s
 - 27 Kas, kirpi uzun video (yayından ~3 gün): 52 gösterim, küçük resim tıklama oranı %5,8 (iyi). Trafik: arama %65, göz atma %20. Sorun tıklama değil, gösterim azlığı. vidIQ'da "kirpi" araması TR'de BMC Kirpi zırhlı araç ve "Kirpi Piki" çizgi filmiyle dolu → başlık/açıklamada hayvan bağlamı ("kirpi süt içer mi", "bahçedeki kirpi") net olmalı. Öneri: arama odaklı başlık testi + açıklamaya arama ifadeleri.
 - 27 Kas, yarasa uzun video (yayından ~15 saat): 15 gösterim, TO %6,7 (iyi), trafik göz atma %83 (abonelik akışı/ana sayfa). 254 aboneye rağmen yalnızca 15 gösterim → tanıtımla gelen abonelere video gösterilmiyor/ilgilenmiyorlar; tohum kitle zayıf. Çözüm: gerçek ilgili izleyici (WhatsApp/aile/öğretmen paylaşımı, Shorts→uzun, arama başlıkları).
 - 27 Kasım: kanal sahibinin onayıyla Windsor üzerinden kirpi ve yarasa açıklamalarının başına arama satırı eklendi (geri kalan açıklama aynen). Yeni başlık kuralı: başlıklar insanların aradığı soru biçiminde ("… süt içer mi?", "… zehirli mi?"). Kirpi başlık testi evdeki bilgisayarda yapılacak.
+
+## 27 Kasım 17:05 – ilk 3D Shorts sinyali (kanal sahibinin Studio ekranı)
+- 3D geko "Kertenkele Tavandan Neden Düşmüyor?" (16:00): ilk 1 sa 5 dk'da **699 görüntüleme**, 9 beğeni; kanalın son 10 içeriği içinde 1. sırada.
+- Aynı gün normal tarz yarasa Shorts'u: ilk 5 sa 5 dk'da 5 görüntüleme.
+- Abone 325 (26 Kas: 254). Son 28 gün: 15,4 B görüntüleme, 292 saat.
+- Yorum: 3D kalıbın ilk saatteki dağıtımı ~100 kat daha geniş; erken veri (izlemeye devam oranı henüz yok). 24 saat sonra görüntüleme, izlemeye devam %, kazanılan abone kontrol edilecek. 27 Kas "tamamen 3D" kararını destekliyor.
