@@ -236,5 +236,47 @@
   "hata": 0,
   "sure": 7.04,
   "uygun": true
+ },
+ "034": {
+  "yazi": "Peki semender, kertenkele midir?",
+  "duyulan": "Peki Semender kertenkele midir?",
+  "hata": 0,
+  "sure": 1.86,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Öyle sanmak kolay: dört bacağı ve bir kuyruğu var.",
+  "duyulan": "Öyle sanmak kolay, dört bacağı ve bir kuyruğu var.",
+  "hata": 0,
+  "sure": 2.9,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Oysa semender bir iki yaşamlıdır; kurbağayla aynı sınıftan.",
+  "duyulan": "Oysa semender bir iki yaşamlıdır. Kurbağıyla aynı sınıftan.",
+  "hata": 1,
+  "sure": 3.46,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Kertenkelenin derisi, keratinden yapılmış üst üste binen pullarla kaplı.",
+  "duyulan": "Kertenkele'nin derisi keratinden yapılmış üst üste binen pullarla kaplı.",
+  "hata": 0,
+  "sure": 4.64,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Semenderlerin derisinde pul yok; Türk semenderinin derisi pürüzsüz ve parlak.",
+  "duyulan": "Semenderlerin derisinde pul yok. Türk semenderinin derisi pürüzsüz ve parlak.",
+  "hata": 0,
+  "sure": 5.14,
+  "uygun": true
+ },
+ "039": {
+  "yazi": "Bir derlemeye göre semender, kertenkeleye bir memeliden daha yakın akraba değil.",
+  "duyulan": "Bir derlemeye göre Semender, kertenkeleye bir memeliden daha yakın akraba değil.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
  }
 }
