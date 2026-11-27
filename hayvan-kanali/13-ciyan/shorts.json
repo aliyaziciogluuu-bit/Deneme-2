@@ -50,12 +50,12 @@
      "gorsel": "ev_genel"
     }
    ],
-   "kapsam": "yalnızca ev çıyanı (Vikipedi, Scutigera coleoptrata) ve genel risk çekincesi. 'Bütün çıyanlar zararsız' genellemesi yok: büyük türlerin ısırığı ve küçük çocuk ile arı alerjisi uyarısı uzun videodaki 45 numaradan, 'emin değilsen elle tutma' cümlesi 16'dan, nefes darlığı cümlesi 64'ten, güvenlik cümleleri 60 ve 61'den kelimesi kelimesine. İlk cümle 'ısırır mı' sorusunu uzun videodaki 33 numaralı cümleyle doğrudan cevaplıyor. Yer yoktu: 'ısırık genellikle ancak sıkışırsa' (34), hamile cümlesi (62), 'Bize göre' kalp/tansiyon ihtiyatı (63) ve hekim kararı cümlesi (65) uzun videoda var, burada atıldı. Türkiye iddiası yok."
+   "kapsam": "yalnızca ev çıyanı (Vikipedi, Scutigera coleoptrata) ve genel risk çekincesi. 'Bütün çıyanlar zararsız' genellemesi yok: büyük türlerin ısırığı ve küçük çocuk ile arı alerjisi uyarısı uzun videodaki 44 numaradan, 'emin değilsen elle tutma' cümlesi 16'dan, nefes darlığı cümlesi 64'ten, güvenlik cümleleri 60 ve 61'den kelimesi kelimesine. İlk cümle 'ısırır mı' sorusunu uzun videodaki 33 numaralı cümleyle doğrudan cevaplıyor. Yer yoktu: hamile cümlesi (62), 'Bize göre' kalp/tansiyon ihtiyatı (63) ve hekim kararı cümlesi (65) uzun videoda var, burada atıldı. Türkiye iddiası yok."
   },
   {
    "ad": "s2-kirkayak-isirmaz",
    "baslik": "Kırkayak Isırır mı? 🐛 #shorts",
-   "aciklama": "Kırkayak ısırmaz da sokmaz da. Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor. Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur. Çıyan utangaçtır ama tehdit anında ısırabilir; kırkayak çoğu zaman kıvrılır. Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir. Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. Bu video tıbbi tavsiye yerine geçmez. Tam video kanalımızda: \"Çıyan Isırır mı?\"\n\nKaynaklar:\n- Vikipedi (İngilizce) – Millipede: en.wikipedia.org/wiki/Millipede\n- Vikipedi (İngilizce) – Centipede: en.wikipedia.org/wiki/Centipede\n- Vikipedi (Türkçe) – Çıyan: tr.wikipedia.org/wiki/Çıyan\n- Vikipedi (Türkçe) – Kırkayak: tr.wikipedia.org/wiki/Kırkayak\n- Yüksel, E., Taşçı, S. & Canhilal, R. (2020). Zehirli Arthropodlar: Akrepler, Örümcekler, Böcekler ve Çıyanlar. Erciyes Tarım ve Hayvan Bilimleri Dergisi 3(2): 26–31. dergipark.org.tr/en/download/article-file/1346124\n\n#shorts #çıyan #doğa",
+   "aciklama": "Kırkayak ısırmaz da sokmaz da. Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor. Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur. Çıyan utangaçtır ama tehdit anında ısırabilir; kırkayak çoğu zaman kıvrılır. Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir. Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git. Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. Bu video tıbbi tavsiye yerine geçmez. Tam video kanalımızda: \"Çıyan Isırır mı?\"\n\nKaynaklar:\n- Vikipedi (İngilizce) – Millipede: en.wikipedia.org/wiki/Millipede\n- Vikipedi (İngilizce) – Centipede: en.wikipedia.org/wiki/Centipede\n- Vikipedi (Türkçe) – Çıyan: tr.wikipedia.org/wiki/Çıyan\n- Vikipedi (Türkçe) – Kırkayak: tr.wikipedia.org/wiki/Kırkayak\n- Yüksel, E., Taşçı, S. & Canhilal, R. (2020). Zehirli Arthropodlar: Akrepler, Örümcekler, Böcekler ve Çıyanlar. Erciyes Tarım ve Hayvan Bilimleri Dergisi 3(2): 26–31. dergipark.org.tr/en/download/article-file/1346124\n\n#shorts #çıyan #doğa",
    "etiketler": [
     "kırkayak ısırır mı",
     "çıyan ve kırkayak farkı",
@@ -90,6 +90,10 @@
      "gorsel": "cocuk_saglik"
     },
     {
+     "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git.",
+     "gorsel": "acil_servis"
+    },
+    {
      "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
      "gorsel": "saglik_kurulusu"
     },
@@ -102,12 +106,12 @@
      "gorsel": "ev_genel"
     }
    ],
-   "kapsam": "kırkayak (Diplopoda) ve çıyan (Chilopoda) ayrımı ve kırkayak savunma salgısı. 'Kırkayak zararsız' denmiyor: salgının göz ve deri etkisi var. Salgı cümlesi uzun videodaki 48, ilk yardım 53, çıyan cümlesi 15, risk cümlesi 45 numaradan; güvenlik cümleleri 60 ve 61'den kelimesi kelimesine. Yer yoktu: bacak çifti karşılaştırması (9), salgının şiddeti konusunda iki kaynağın farkı (49–51) ve hekim kararı cümlesi (65) uzun videoda var, burada atıldı; Shorts yalnızca 'çıyan ısırdıysa' belirti ve hekim cümlelerini taşıyor. 5 Aralık bacak Shorts'u ile çakışan cümle yok."
+   "kapsam": "kırkayak (Diplopoda) ve çıyan (Chilopoda) ayrımı ve kırkayak savunma salgısı. 'Kırkayak zararsız' denmiyor: salgının göz ve deri etkisi var. Salgı cümlesi uzun videodaki 47, ilk yardım 52, çıyan cümlesi 15, risk cümlesi 44, nefes darlığı 64 numaradan; güvenlik cümleleri 60 ve 61'den kelimesi kelimesine. Yer yoktu: bacak çifti karşılaştırması (9), 'emin değilsen elle tutma' (16), salgının şiddeti konusunda iki kaynağın farkı (48–50) ve hekim kararı cümlesi (65) uzun videoda var, burada atıldı; Shorts yalnızca 'çıyan ısırdıysa' belirti ve hekim cümlelerini taşıyor. 5 Aralık bacak Shorts'u ile çakışan cümle yok."
   },
   {
    "ad": "s3-ev-ciyani-ne-yer",
    "baslik": "Ev Çıyanı Ne Yer? 🕷️ #shorts",
-   "aciklama": "Ev çıyanı örümcek, tahtakurusu, hamamböceği ve karınca gibi evdeki eklembacaklıları yiyor. Avının üstüne atlıyor ya da bacaklarıyla kement atar gibi sarıyor. Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir. Bize göre kalp veya tansiyon hastası yaşlılar da belirti gösterirse aynı şekilde davransın. Bu video tıbbi tavsiye yerine geçmez. Tam video kanalımızda: \"Çıyan Isırır mı?\"\n\nKaynaklar:\n- Vikipedi (İngilizce) – Scutigera coleoptrata: en.wikipedia.org/wiki/Scutigera_coleoptrata\n- Yüksel, E., Taşçı, S. & Canhilal, R. (2020). Zehirli Arthropodlar: Akrepler, Örümcekler, Böcekler ve Çıyanlar. Erciyes Tarım ve Hayvan Bilimleri Dergisi 3(2): 26–31. dergipark.org.tr/en/download/article-file/1346124\n- Vikipedi (İngilizce) – Centipede: en.wikipedia.org/wiki/Centipede\n\n#shorts #çıyan #doğa",
+   "aciklama": "Ev çıyanı örümcek, tahtakurusu, hamamböceği ve karınca gibi evdeki eklembacaklıları yiyor. Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir. Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun. Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git. Bu video tıbbi tavsiye yerine geçmez. Tam video kanalımızda: \"Çıyan Isırır mı?\"\n\nKaynaklar:\n- Vikipedi (İngilizce) – Scutigera coleoptrata: en.wikipedia.org/wiki/Scutigera_coleoptrata\n- Yüksel, E., Taşçı, S. & Canhilal, R. (2020). Zehirli Arthropodlar: Akrepler, Örümcekler, Böcekler ve Çıyanlar. Erciyes Tarım ve Hayvan Bilimleri Dergisi 3(2): 26–31. dergipark.org.tr/en/download/article-file/1346124\n- Vikipedi (İngilizce) – Centipede: en.wikipedia.org/wiki/Centipede\n\n#shorts #çıyan #doğa",
    "etiketler": [
     "evdeki çıyan ne yer",
     "ev çıyanı",
@@ -126,10 +130,6 @@
      "gorsel": "ev_ciyani_ornek_avlar"
     },
     {
-     "yazi": "Avının üstüne atlıyor ya da bacaklarıyla kement atar gibi sarıyor.",
-     "gorsel": "ev_ciyani_kement"
-    },
-    {
      "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
      "gorsel": "saglik_kurulusu"
     },
@@ -142,15 +142,19 @@
      "gorsel": "cocuk_saglik"
     },
     {
-     "yazi": "Bize göre kalp veya tansiyon hastası yaşlılar da belirti gösterirse aynı şekilde davransın.",
+     "yazi": "Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun.",
      "gorsel": "aile_saglik"
+    },
+    {
+     "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git.",
+     "gorsel": "acil_servis"
     },
     {
      "yazi": "Tam videosu kanalımızda.",
      "gorsel": "ev_genel"
     }
    ],
-   "kapsam": "yalnızca ev çıyanı (Scutigera coleoptrata; Vikipedi). Diğer çıyan türleri anlatılmıyor; 'evdeki bütün çıyanlar ev çıyanıdır' demiyor. Yiyecek ve kement cümleleri uzun videodaki 24 ve 26 numaralardan; güvenlik cümleleri 60, 61 ve 45'ten, 'Bize göre' işaretli kalp/tansiyon ihtiyatı 63'ten kelimesi kelimesine. Yer yoktu: arka bacak (23), hamile cümlesi (62), nefes darlığı (64) ve hekim kararı (65) cümleleri uzun videoda var, burada atıldı. Türkiye iddiası yok."
+   "kapsam": "yalnızca ev çıyanı (Scutigera coleoptrata; Vikipedi). Diğer çıyan türleri anlatılmıyor; 'evdeki bütün çıyanlar ev çıyanıdır' demiyor. Yiyecek cümlesi uzun videodaki 24 numaradan; güvenlik cümleleri 60, 61, 44, 63 ('Bize göre' işaretli kalp/tansiyon ihtiyatı) ve 64'ten kelimesi kelimesine. Yer yoktu: kement (26), arka bacak (23), hamile cümlesi (62) ve hekim kararı (65) cümleleri uzun videoda var, burada atıldı. Türkiye iddiası yok."
   }
  ]
 }

@@ -117,75 +117,75 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 - 32 → kaynak gerekmiyor → — → bölüm sorusu
 **33.** Ev çıyanı ısırabilir ama saldırgan değil; rahatsız edilince genellikle kaçıyor.
 - 33 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «not aggressive towards people and usually flee when disturbed» → açıldı
-**34.** Isırık genellikle ancak çıyan sıkışırsa ya da sertçe tutulursa oluyor.
-- 34 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «usually resulting only when the centipede is cornered or aggressively handled» → açıldı
-**35.** Başarılı bir ısırık genellikle hafif, bölgesel ağrı ve şişlik yapıyor; arı sokmasına benzetiliyor.
-- 35 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Successful stings typically produce only mild, localized pain and swelling, similar to bee sting» → açıldı
-**36.** Alerjik tepki bildirilmiş ama nadir.
-- 36 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Allergic reactions to centipede stings have been reported, but these are rare» → açıldı
-**37.** Küçük çıyanlar genellikle insan derisini zaten delemiyor.
-- 37 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «Smaller centipedes are generally incapable of piercing human skin» → açıldı
-**38.** Türkiye'de bulunan çıyan türlerinden biri Skolopendra kingulata; Akdeniz çevresinde kendi takımının en yaygın türü.
-- 38 → https://tr.wikipedia.org/wiki/Scolopendra → tr_vikipedi_scolopendra.txt → «Cinsin Türkiye'de 5 türü bulunur» → açıldı
-- 38 → https://tr.wikipedia.org/wiki/Scolopendra → tr_vikipedi_scolopendra.txt → «Scolopendra cingulata - Latreille, 1829» → açıldı
-- 38 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «the most common scolopendromorph species in the Mediterranean area» → açıldı
+**34.** Başarılı bir ısırık genellikle hafif, bölgesel ağrı ve şişlik yapıyor; arı sokmasına benzetiliyor.
+- 34 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Successful stings typically produce only mild, localized pain and swelling, similar to bee sting» → açıldı
+**35.** Alerjik tepki bildirilmiş ama nadir.
+- 35 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Allergic reactions to centipede stings have been reported, but these are rare» → açıldı
+**36.** Küçük çıyanlar genellikle insan derisini zaten delemiyor.
+- 36 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «Smaller centipedes are generally incapable of piercing human skin» → açıldı
+**37.** Türkiye'de bulunan çıyan türlerinden biri Skolopendra kingulata; Akdeniz çevresinde kendi takımının en yaygın türü.
+- 37 → https://tr.wikipedia.org/wiki/Scolopendra → tr_vikipedi_scolopendra.txt → «Cinsin Türkiye'de 5 türü bulunur» → açıldı
+- 37 → https://tr.wikipedia.org/wiki/Scolopendra → tr_vikipedi_scolopendra.txt → «Scolopendra cingulata - Latreille, 1829» → açıldı
+- 37 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «the most common scolopendromorph species in the Mediterranean area» → açıldı
   - not: Türkiye kaydı Vikipedi (Türkçe) Scolopendra sayfasındaki tür listesine dayanır; sayfa Zapparoli 1999'a atıf yapıyor, o makale açılamadı. 'Beş tür' sayısı söylenmedi
-**39.** Bu çıyanın bantları siyah ve sarı-altın renkli; karanlık, nemli yerde, kütük ve yaprak altında yaşıyor.
-- 39 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «alternating bands of black and yellow-gold» → açıldı
-- 39 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «preferring dark, damp environments such as beneath logs and in leaf litter» → açıldı
-**40.** Kendinden büyük olmayan hemen her hayvana saldırıyor; böcek ve küçük kertenkele de yiyor.
-- 40 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «will attack and consume almost any animal that is not larger than itself; this includes insects and small lizards» → açıldı
-**41.** Türkçe bir derleme, çıyanlar arasında en zehirli türlerin Skolopendra cinsinde olduğunu yazıyor.
-- 41 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «Scolpopendra cinsi en zehirli türleri içermektedir» → açıldı
+**38.** Bu çıyanın bantları siyah ve sarı-altın renkli; karanlık, nemli yerde, kütük ve yaprak altında yaşıyor.
+- 38 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «alternating bands of black and yellow-gold» → açıldı
+- 38 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «preferring dark, damp environments such as beneath logs and in leaf litter» → açıldı
+**39.** Kendinden büyük olmayan hemen her hayvana saldırıyor; böcek ve küçük kertenkele de yiyor.
+- 39 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «will attack and consume almost any animal that is not larger than itself; this includes insects and small lizards» → açıldı
+**40.** Türkçe bir derleme, çıyanlar arasında en zehirli türlerin Skolopendra cinsinde olduğunu yazıyor.
+- 40 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «Scolpopendra cinsi en zehirli türleri içermektedir» → açıldı
   - not: kaynakta yazım 'Scolpopendra' (yazım hatası, kaynakta aynen)
-**42.** Skolopendra cinsinin zehrine maruz kalanlarda şişme ve kızarıklığın yanında baş ağrısı, kalp çarpıntısı, bulantı ve kusma görülmüş.
-- 42 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «Bu türlerin zehrine maruz kalanlarda sokulan bölge ve etrafında şişme, kızarıklık, baş ağrısı, kalp çarpıntısı, bulantı ve kusma gibi semptomlar görülmektedir» → açıldı
-**43.** Bazı çıyan türlerinin ısırığı yetişkin biri için genellikle çok acı verici; şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor.
-- 43 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «While a bite to an adult human is usually very painful and may cause severe swelling, chills, fever, and weakness» → açıldı
-**44.** Çıyan ısırıkları acı verse de insanda nadiren ağır sağlık sorunu yapıyor.
-- 44 → https://en.wikipedia.org/wiki/Centipede_bite → en_vikipedi_centipede_bite.txt → «Centipede bites, while painful, rarely cause severe health complications in people» → açıldı
-**45.** Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir.
-- 45 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «centiped bites can be dangerous to small children and those with allergies to bee stings» → açıldı
-- 45 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «The venomous bite of larger centipedes can induce anaphylactic shock in such people» → açıldı
+**41.** Skolopendra cinsinin zehrine maruz kalanlarda şişme ve kızarıklığın yanında baş ağrısı, kalp çarpıntısı, bulantı ve kusma görülmüş.
+- 41 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «Bu türlerin zehrine maruz kalanlarda sokulan bölge ve etrafında şişme, kızarıklık, baş ağrısı, kalp çarpıntısı, bulantı ve kusma gibi semptomlar görülmektedir» → açıldı
+**42.** Bazı çıyan türlerinin ısırığı yetişkin biri için genellikle çok acı verici; şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor.
+- 42 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «While a bite to an adult human is usually very painful and may cause severe swelling, chills, fever, and weakness» → açıldı
+**43.** Çıyan ısırıkları acı verse de insanda nadiren ağır sağlık sorunu yapıyor.
+- 43 → https://en.wikipedia.org/wiki/Centipede_bite → en_vikipedi_centipede_bite.txt → «Centipede bites, while painful, rarely cause severe health complications in people» → açıldı
+**44.** Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir.
+- 44 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «centiped bites can be dangerous to small children and those with allergies to bee stings» → açıldı
+- 44 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «The venomous bite of larger centipedes can induce anaphylactic shock in such people» → açıldı
   - not: E_CEN'de yazım 'centiped bites' (kaynakta aynen)
-**46.** Peki kırkayak gerçekten zararsız mı?
-- 46 → kaynak gerekmiyor → — → bölüm sorusu
-**47.** Kırkayak ısırmaz; tehlikede çoğu zaman sıkı bir spiral olup bacaklarını zırhlı gövdesinin içine saklıyor.
-- 47 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Due to their lack of speed and their inability to bite or sting, millipedes' primary defence mechanism is to curl into a tight coil» → açıldı
-- 47 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «curl into a tight coil, thus protecting their delicate legs inside an armoured exoskeleton» → açıldı
-**48.** Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor.
-- 48 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Many species also emit various foul-smelling liquid secretions through microscopic holes called ozopores» → açıldı
-- 48 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Among the many irritant and toxic chemicals found in these secretions» → açıldı
-**49.** Türkçe derleme, tutulan ya da sıkılan kırkayakta etkilenen bölgede yanma ve koyu lezyon görülebildiğini yazıyor.
-- 49 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «tutulduklarında ya da sıkıldıklarında» → açıldı
-- 49 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «Etkilenen bölgede yanmalara, iltihaplanmalara ve siyah-kahverengi lezyonlara neden olurlar» → açıldı
+**45.** Peki kırkayak gerçekten zararsız mı?
+- 45 → kaynak gerekmiyor → — → bölüm sorusu
+**46.** Kırkayak ısırmaz; tehlikede çoğu zaman sıkı bir spiral olup bacaklarını zırhlı gövdesinin içine saklıyor.
+- 46 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Due to their lack of speed and their inability to bite or sting, millipedes' primary defence mechanism is to curl into a tight coil» → açıldı
+- 46 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «curl into a tight coil, thus protecting their delicate legs inside an armoured exoskeleton» → açıldı
+**47.** Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor.
+- 47 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Many species also emit various foul-smelling liquid secretions through microscopic holes called ozopores» → açıldı
+- 47 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Among the many irritant and toxic chemicals found in these secretions» → açıldı
+**48.** Türkçe derleme, tutulan ya da sıkılan kırkayakta etkilenen bölgede yanma ve koyu lezyon görülebildiğini yazıyor.
+- 48 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «tutulduklarında ya da sıkıldıklarında» → açıldı
+- 48 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «Etkilenen bölgede yanmalara, iltihaplanmalara ve siyah-kahverengi lezyonlara neden olurlar» → açıldı
   - not: Y 'her segmentinde bulunan lateral salgı bezlerinden zehirli cyanide ve quinone toksinlerini dışarıya salarlar' diyor
-**50.** Vikipedi daha hafif anlatıyor: salgılar çoğunlukla zararsız, genellikle yalnızca hafif renk değişimi yapıyor.
-- 50 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «their defensive secretions are mostly harmless to humans, usually causing only minor discolouration on the skin» → açıldı
+**49.** Vikipedi daha hafif anlatıyor: salgılar çoğunlukla zararsız, genellikle yalnızca hafif renk değişimi yapıyor.
+- 49 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «their defensive secretions are mostly harmless to humans, usually causing only minor discolouration on the skin» → açıldı
   - not: iki kaynak (Y ve E_MIL) şiddet konusunda tam aynı fikirde değil; ikisi de aktarıldı
-**51.** Ağrı ve kabarcık gibi daha ağır etkiler bazı tropikal türlerde bildirilmiş.
-- 51 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «the secretions of some tropical species may cause pain, itching, local erythema, edema, blisters» → açıldı
-**52.** Göze kaçarsa tahriş ve göz iltihabı gibi daha ciddi sorunlar çıkabilir.
-- 52 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Eye exposures to these secretions causes general irritation and potentially more severe effects such as conjunctivitis and keratitis» → açıldı
+**50.** Ağrı ve kabarcık gibi daha ağır etkiler bazı tropikal türlerde bildirilmiş.
+- 50 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «the secretions of some tropical species may cause pain, itching, local erythema, edema, blisters» → açıldı
+**51.** Göze kaçarsa tahriş ve göz iltihabı gibi daha ciddi sorunlar çıkabilir.
+- 51 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Eye exposures to these secretions causes general irritation and potentially more severe effects such as conjunctivitis and keratitis» → açıldı
   - not: conjunctivitis = göz zarı iltihabı
-**53.** Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur.
-- 53 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «First aid consists of flushing the area thoroughly with water» → açıldı
+**52.** Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur.
+- 52 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «First aid consists of flushing the area thoroughly with water» → açıldı
   - not: ikinci yarı (sağlık kuruluşu) Bize göre güvenlik önerisi
-**54.** Karşılaşırsan ne yapmalısın?
-- 54 → kaynak gerekmiyor → — → bölüm sorusu
-**55.** Taş ya da odun yığınını kaldırırken eldiven giy.
-- 55 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «primarily under large rocks, woodpiles» → açıldı
+**53.** Karşılaşırsan ne yapmalısın?
+- 53 → kaynak gerekmiyor → — → bölüm sorusu
+**54.** Taş ya da odun yığınını kaldırırken eldiven giy.
+- 54 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «primarily under large rocks, woodpiles» → açıldı
   - not: Bize göre öneri; dayanak: ev çıyanının taş ve odun yığını altında yaşaması
-**56.** Bize göre hangi çıyan olursa olsun elle tutma, sıkıştırma.
-- 56 → kaynak gerekmiyor → — → Bize göre güvenlik önerisi; kaynak iddiası yok
-**57.** Ev çıyanı genellikle ancak sıkışınca ya da sertçe tutulunca ısırıyor.
-- 57 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «usually resulting only when the centipede is cornered or aggressively handled» → açıldı
+**55.** Bize göre hangi çıyan olursa olsun elle tutma, sıkıştırma.
+- 55 → kaynak gerekmiyor → — → Bize göre güvenlik önerisi; kaynak iddiası yok
+**56.** Ev çıyanı genellikle ancak sıkışınca ya da sertçe tutulunca ısırıyor.
+- 56 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «usually resulting only when the centipede is cornered or aggressively handled» → açıldı
   - not: E_SCU: 'usually' = genellikle
-**58.** Bize göre yakalamak istersen kabı üstüne kapat, altına sert kâğıt kaydır; bacaklarını sıkıştırma.
-- 58 → kaynak gerekmiyor → — → Bize göre öneri; kaynak iddiası yok
-**59.** Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur; Vikipedi'ye göre bezle sarılı buz da yardımcı oluyor.
+**57.** Bize göre yakalamak istersen kabı üstüne kapat, altına sert kâğıt kaydır; bacaklarını sıkıştırma.
+- 57 → kaynak gerekmiyor → — → Bize göre öneri; kaynak iddiası yok
+**58.** Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur.
+- 58 → kaynak gerekmiyor → — → Bize göre güvenlik önerisi; kaynak iddiası yok
+**59.** Vikipedi'ye göre buz da yardımcı oluyor, ama bize göre buzu doğrudan deriye değil, bezle sararak koy.
 - 59 → https://en.wikipedia.org/wiki/Centipede_bite → en_vikipedi_centipede_bite.txt → «Icing also helps» → açıldı
-  - not: sabunlu su Bize göre; buz: Vikipedi 'Icing also helps' (bezle sarma ayrıntısı kaynakta yok, güvenlik önerisi)
+  - not: buz: Vikipedi 'Icing also helps'; bezle sarma Bize göre güvenlik önerisi
 **60.** Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.
 - 60 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «şişme, kızarıklık, baş ağrısı, kalp çarpıntısı, bulantı ve kusma» → açıldı
 - 60 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «severe swelling, chills, fever, and weakness» → açıldı
@@ -195,7 +195,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 **62.** Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git.
 - 62 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «dangerous to small children and those with allergies to bee stings» → açıldı
   - not: çocuk ve arı alerjisi kaynaklı; hamile genel ihtiyat; Shorts'a kelimesi kelimesine
-**63.** Bize göre kalp veya tansiyon hastası yaşlılar da belirti gösterirse aynı şekilde davransın.
+**63.** Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun.
 - 63 → kaynak gerekmiyor → — → Bize göre ihtiyat (kalp/tansiyon hastası yaşlı kaynakta yok)
 **64.** Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git.
 - 64 → kaynak gerekmiyor → — → güvenlik cümlesi (anafilaksi çekincesi)
@@ -218,12 +218,12 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 
 Shorts cümlelerinin hepsi uzun videodaki cümlelerin kelimesi kelimesine kopyasıdır (`shorts.json` ile `senaryo.json` betikle karşılaştırıldı); eşleme uzun video numaralarıyla:
 
-- **s1-ev-ciyani-isirir**: 33, 35, 16, 45, 60, 61, 64, 'Tam videosu kanalımızda.' (köprü cümlesi)
-- **s2-kirkayak-isirmaz**: 5, 48, 53, 15, 45, 60, 61, 'Tam videosu kanalımızda.' (köprü cümlesi)
-- **s3-ev-ciyani-ne-yer**: 24, 26, 60, 61, 45, 63, 'Tam videosu kanalımızda.' (köprü cümlesi)
+- **s1-ev-ciyani-isirir**: 33, 34, 16, 44, 60, 61, 64, 'Tam videosu kanalımızda.' (köprü cümlesi)
+- **s2-kirkayak-isirmaz**: 5, 47, 52, 15, 44, 64, 60, 61, 'Tam videosu kanalımızda.' (köprü cümlesi)
+- **s3-ev-ciyani-ne-yer**: 24, 60, 61, 44, 63, 64, 'Tam videosu kanalımızda.' (köprü cümlesi)
 
 ## Doğrulama sonucu (27 Kasım 2026)
 
-`python3 -I kaynak_dogrula.py` → cümle sayısı: 71; doğrulanan ifade: 77; sorun: 0. Shorts cümleleri uzun videoda aynen var.
+`python3 -I kaynak_dogrula.py` → cümle sayısı: 71; doğrulanan ifade: 76; sorun: 0. Shorts cümleleri uzun videoda aynen var.
 
 Ek: açılıp arşive kaydedilen ama cümlede doğrudan kullanılmayan sayfalar: en_vikipedi_millipede_burn.txt, en_vikipedi_scolopendra.txt, tr_vikipedi_diplopoda.txt, tr_vikipedi_scolopendra_cingulata.txt. iNaturalist tarayıcı sayfası 403 verdi; aynı gözlem resmî API'den (api.inaturalist.org/v1/observations/253992882) açıldı: özet inat_253992882.txt, ham yanıt inat_253992882_api.json.
