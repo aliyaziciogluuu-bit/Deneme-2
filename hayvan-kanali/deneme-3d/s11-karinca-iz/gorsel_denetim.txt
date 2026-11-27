@@ -1,0 +1,4 @@
+seker: KABUL (aday 1; görsel denetçi 27 Kas)
+yol: KABUL (aday 3; görsel denetçi 27 Kas)
+tasima: KABUL (aday 3; görsel denetçi 27 Kas)
+don: KABUL (aday 2; görsel denetçi 27 Kas)

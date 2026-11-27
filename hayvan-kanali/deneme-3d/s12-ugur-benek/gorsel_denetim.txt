@@ -1,0 +1,5 @@
+kirmizi: KABUL (aday 1; görsel denetçi 27 Kas)
+levha: KABUL (aday 1; görsel denetçi 27 Kas)
+kus: KABUL (aday 2; görsel denetçi 27 Kas)
+damla: KABUL (aday 1; görsel denetçi 27 Kas)
+don: KABUL (aday 2; görsel denetçi 27 Kas)

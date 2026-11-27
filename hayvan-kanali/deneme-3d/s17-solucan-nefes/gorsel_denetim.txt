@@ -1,0 +1,4 @@
+solucan: KABUL (aday 2; görsel denetçi 27 Kas)
+deri: KABUL (aday 1; görsel denetçi 27 Kas)
+kesit: KABUL (aday 1; görsel denetçi 27 Kas)
+film: KABUL (aday 1; görsel denetçi 27 Kas)

@@ -1,0 +1,4 @@
+kedi: KABUL (aday 1; görsel denetçi 27 Kas)
+gogus: KABUL (aday 2; görsel denetçi 27 Kas)
+mutlu: KABUL (aday 1; görsel denetçi 27 Kas)
+vet: KABUL (aday 2; görsel denetçi 27 Kas)
