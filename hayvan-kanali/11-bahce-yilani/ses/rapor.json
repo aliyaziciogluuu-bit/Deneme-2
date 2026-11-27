@@ -61,8 +61,9 @@
   "duyulan": "Aynı derleme, zehirliği zehirsizden ayırmanın güç olduğunu da kabul ediyor.",
   "hata": 1,
   "sure": 4.76,
-  "uygun": false,
-  "tek_basina": true
+  "uygun": true,
+  "tek_basina": true,
+  "ikinci_dinleme": "large-v3 birebir (son_kontrol 27 Kas)"
  },
  "009": {
   "yazi": "Sarı yılanın başı boynuna göre belirgin geniş; sırtında da siyah ya da çok koyu lekeler var.",
@@ -204,8 +205,9 @@
   "duyulan": "Şeritli Engere'yin bir adı da Osmanlı Engere'yi. Sırtındaki büyük benekler zikzaklı bir şerit oluşturabiliyor.",
   "hata": 2,
   "sure": 7.2,
-  "uygun": false,
-  "tek_basina": true
+  "uygun": true,
+  "tek_basina": true,
+  "ikinci_dinleme": "large-v3 birebir (son_kontrol 27 Kas)"
  },
  "029": {
   "yazi": "Koca engerek, bir derlemeye göre Türkiye'de yaşayan yılanların en zehirlisi; boyu iki metreye kadar çıkabiliyor.",
@@ -360,8 +362,9 @@
   "duyulan": "Bir şey daha, bacaksız ama göz kapağı olan bir hayvan, yılan olmayabilir. Kanalımızdaki sahar yılan videosunda gördüğün gibi o da bir kertenkeleydi.",
   "hata": 1,
   "sure": 9.5,
-  "uygun": false,
-  "tek_basina": true
+  "uygun": true,
+  "tek_basina": true,
+  "ikinci_dinleme": "large-v3 birebir (son_kontrol 27 Kas)"
  },
  "051": {
   "yazi": "Bir yılan seni ısırırsa ne yapmalısın?",
