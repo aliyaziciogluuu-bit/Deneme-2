@@ -1,0 +1,44 @@
+{
+ "000": {
+  "yazi": "Bazı kertenkelelerin kopan kuyruğu kıpırdamaya devam ediyor.",
+  "duyulan": "Bazı kertenkelelerin kopan kuyruğu kıpırdamaya devam ediyor.",
+  "hata": 0,
+  "sure": 3.84,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bu, avcının dikkatini dağıtıyor.",
+  "duyulan": "Bu, avcunun dikkatini dağıtıyor.",
+  "hata": 1,
+  "sure": 1.88,
+  "uygun": false
+ },
+ "002": {
+  "yazi": "Bir gekoda kuyruk, önceden ayrılmış noktalardan kopuyor.",
+  "duyulan": "bir GECO'da kuyruk önceden ayrılmış noktalardan kopuyor.",
+  "hata": 0,
+  "sure": 3.9,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Ama bedeli ağır: kuyruk hareket ve yağ depolamaya yarıyor.",
+  "duyulan": "Ama bedeli ağır, kuyruk hareket ve yağ depolamaya yarıyor.",
+  "hata": 0,
+  "sure": 4.54,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bu yüzden kertenkeleyi asla kuyruğundan tutma.",
+  "duyulan": "Bu yüzden kertenkeleyi asla kuyruğundan tutma.",
+  "hata": 0,
+  "sure": 3.28,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Ya kopan kuyruğun yerine ne çıkıyor?",
+  "duyulan": "Ya kopan kuyruğun yerine ne çıkıyor?",
+  "hata": 0,
+  "sure": 2.34,
+  "uygun": true
+ }
+}
