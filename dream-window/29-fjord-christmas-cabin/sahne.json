@@ -1,0 +1,379 @@
+{
+  "gorsel": "sahne.png",
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        750,
+        115,
+        990,
+        518
+      ],
+      [
+        1030,
+        32,
+        1656,
+        528
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          1262,
+          610
+        ],
+        [
+          1290,
+          520
+        ],
+        [
+          1330,
+          466
+        ],
+        [
+          1530,
+          470
+        ],
+        [
+          1565,
+          466
+        ],
+        [
+          1672,
+          458
+        ],
+        [
+          1672,
+          600
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 276,
+      "y": 512,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 792,
+      "y": 668,
+      "sigma": 72,
+      "genlik": 0.1
+    },
+    {
+      "x": 65,
+      "y": 624,
+      "sigma": 76,
+      "genlik": 0.1
+    },
+    {
+      "x": 110,
+      "y": 617,
+      "sigma": 58,
+      "genlik": 0.1
+    },
+    {
+      "x": 485,
+      "y": 552,
+      "sigma": 54,
+      "genlik": 0.1
+    },
+    {
+      "x": 110,
+      "y": 158,
+      "sigma": 58,
+      "genlik": 0.1
+    },
+    {
+      "x": 36,
+      "y": 162,
+      "sigma": 67,
+      "genlik": 0.1
+    },
+    {
+      "x": 415,
+      "y": 191,
+      "sigma": 55,
+      "genlik": 0.1
+    },
+    {
+      "x": 710,
+      "y": 722,
+      "sigma": 48,
+      "genlik": 0.1
+    },
+    {
+      "x": 750,
+      "y": 740,
+      "sigma": 44,
+      "genlik": 0.1
+    },
+    {
+      "x": 542,
+      "y": 574,
+      "sigma": 40,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Christmas Fjord Cabin",
+  "pirilti": [
+    {
+      "kutu": [
+        520,
+        215,
+        687,
+        532
+      ],
+      "genlik": 0.3,
+      "esik": 0.7,
+      "sicak": 0.1
+    },
+    {
+      "kutu": [
+        40,
+        205,
+        500,
+        268
+      ],
+      "genlik": 0.3,
+      "esik": 0.7,
+      "sicak": 0.1
+    }
+  ],
+  "ates": {
+    "kutu": [
+      164,
+      392,
+      388,
+      618
+    ],
+    "ic": [
+      186,
+      423,
+      366,
+      602
+    ],
+    "taban": 595,
+    "tepe": 438,
+    "olcek": 0.71,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "../sesler/ates_gece.mp3",
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "03-christmas-cabin",
+    "karisik": true,
+    "kutu": [
+      72,
+      303,
+      478,
+      703
+    ],
+    "parlak_esik": [
+      0.5,
+      0.8
+    ]
+  },
+  "shorts": {
+    "bas": 1250,
+    "son": 300,
+    "tur": 2,
+    "baslik": "Christmas Fjord Cabin",
+    "alt": "Northern Lights & Crackling Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1080,
+    "son": 1300,
+    "tur": 2,
+    "baslik": "POV: Christmas night by a quiet fjord",
+    "alt": "the northern lights are out tonight",
+    "ses_kazanc": 7.5,
+    "yakin": 1.4,
+    "y": 400,
+    "y_son": 336,
+    "ses_tohum": 7
+  },
+  "buhar": {
+    "kutu": [
+      975,
+      555,
+      1065,
+      650
+    ],
+    "genlik": 0.7
+  },
+  "su": {
+    "kutu": [
+      850,
+      395,
+      1400,
+      520
+    ],
+    "esik": 0.12
+  },
+  "ek_klipler": [
+    {
+      "dosya": "aurora_klip.mp4",
+      "kutu": [
+        900,
+        0,
+        1672,
+        350
+      ],
+      "kaynak": "11-aurora-igloo (ucretsiz, ayni klip)",
+      "ekran": true,
+      "zaman_bukme": true,
+      "yumusaklik": 3,
+      "guc": 0.6,
+      "cokgenler": [
+        [
+          [
+            758,
+            147
+          ],
+          [
+            984,
+            121
+          ],
+          [
+            984,
+            203
+          ],
+          [
+            960,
+            202
+          ],
+          [
+            940,
+            200
+          ],
+          [
+            920,
+            204
+          ],
+          [
+            900,
+            202
+          ],
+          [
+            880,
+            187
+          ],
+          [
+            860,
+            175
+          ],
+          [
+            830,
+            164
+          ],
+          [
+            800,
+            153
+          ],
+          [
+            758,
+            150
+          ]
+        ],
+        [
+          [
+            1034,
+            114
+          ],
+          [
+            1560,
+            53
+          ],
+          [
+            1554,
+            74
+          ],
+          [
+            1500,
+            98
+          ],
+          [
+            1450,
+            134
+          ],
+          [
+            1400,
+            172
+          ],
+          [
+            1360,
+            226
+          ],
+          [
+            1330,
+            262
+          ],
+          [
+            1300,
+            268
+          ],
+          [
+            1250,
+            268
+          ],
+          [
+            1200,
+            264
+          ],
+          [
+            1150,
+            266
+          ],
+          [
+            1125,
+            266
+          ],
+          [
+            1105,
+            250
+          ],
+          [
+            1085,
+            218
+          ],
+          [
+            1060,
+            208
+          ],
+          [
+            1034,
+            212
+          ]
+        ]
+      ],
+      "doldur": 25,
+      "kazanc": 1.2,
+      "esik": 0.1
+    }
+  ],
+  "sure_dakika": 480,
+  "not": "8 saatlik video: uret.py --dakika 480 (tur=300). Kuzey isigi: 11'in aurora_klip.mp4 dosyasi ekran karisimi, zaman_bukme, dongu 96 sn.",
+  "sure_etiket": "8 HOURS",
+  "kapak_yazi": "sol_ust"
+}

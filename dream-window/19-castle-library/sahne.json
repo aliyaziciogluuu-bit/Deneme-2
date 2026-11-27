@@ -1,0 +1,123 @@
+{
+  "gorsel": "sahne.png",
+  "yagis": "kar",
+  "cam": {
+    "kutular": [
+      [
+        1111,
+        0,
+        1672,
+        696
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5
+  },
+  "isiklar": [
+    {
+      "x": 215,
+      "y": 600,
+      "sigma": 340,
+      "genlik": 0.085
+    },
+    {
+      "x": 368,
+      "y": 283,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 971,
+      "y": 130,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 546,
+      "y": 59,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 621,
+      "y": 569,
+      "sigma": 90,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Snowy Castle Library",
+  "ates": {
+    "kutu": [
+      60,
+      420,
+      370,
+      775
+    ],
+    "ic": [
+      95,
+      462,
+      338,
+      745
+    ],
+    "taban": 735,
+    "tepe": 520,
+    "olcek": 1.0,
+    "kivilcim": 14
+  },
+  "ses": {
+    "ates": [
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3",
+      "../sesler/ates_gece.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ]
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "03-christmas-cabin",
+    "karisik": true,
+    "kutu": [
+      -66,
+      295,
+      495,
+      899
+    ],
+    "cubuk_koru": true
+  },
+  "shorts": {
+    "bas": 281,
+    "son": 1391,
+    "tur": 2,
+    "baslik": "Snowy Castle Library",
+    "alt": "Snowfall & Crackling Fireplace",
+    "ses_kazanc": 7.5
+  },
+  "shorts2": {
+    "bas": 1391,
+    "son": 281,
+    "tur": 2,
+    "baslik": "POV: a castle library at midnight",
+    "alt": "the snow won't stop",
+    "ses_kazanc": 7.5
+  },
+  "buhar": {
+    "kutu": [
+      360,
+      580,
+      450,
+      690
+    ],
+    "genlik": 0.6
+  },
+  "gorsel_4k": "sahne_4k.png",
+  "sure_etiket": "8 HOURS",
+  "sure_dakika": 480
+}

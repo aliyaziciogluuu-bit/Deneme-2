@@ -1,0 +1,216 @@
+{
+  "gorsel": "sahne.png",
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        0,
+        0,
+        880,
+        590
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          0,
+          405
+        ],
+        [
+          100,
+          410
+        ],
+        [
+          310,
+          450
+        ],
+        [
+          305,
+          520
+        ],
+        [
+          130,
+          560
+        ],
+        [
+          130,
+          600
+        ],
+        [
+          0,
+          600
+        ]
+      ],
+      [
+        [
+          575,
+          520
+        ],
+        [
+          680,
+          520
+        ],
+        [
+          690,
+          595
+        ],
+        [
+          575,
+          595
+        ]
+      ],
+      [
+        [
+          725,
+          505
+        ],
+        [
+          865,
+          505
+        ],
+        [
+          865,
+          575
+        ],
+        [
+          725,
+          575
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 988,
+      "y": 105,
+      "sigma": 70,
+      "genlik": 0.1
+    },
+    {
+      "x": 1565,
+      "y": 655,
+      "sigma": 80,
+      "genlik": 0.12
+    },
+    {
+      "x": 740,
+      "y": 200,
+      "sigma": 45,
+      "genlik": 0.08
+    },
+    {
+      "x": 293,
+      "y": 400,
+      "sigma": 25,
+      "genlik": 0.08
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Stormy Seaside Cottage",
+  "ates": {
+    "kutu": [
+      1174,
+      362,
+      1396,
+      593
+    ],
+    "ic": [
+      1197,
+      398,
+      1373,
+      575
+    ],
+    "taban": 568,
+    "tepe": 413,
+    "olcek": 0.7,
+    "kivilcim": 14
+  },
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ],
+    "ates": [
+      "ses_kaynak/ates.ogg",
+      "../sesler/ates_somine_gur.mp3",
+      "../sesler/ates_gece.mp3"
+    ],
+    "ates_katman": 3,
+    "ates_duzey": 0.18,
+    "ates_tavan": 0.17,
+    "ates_govde": 3.3,
+    "ates_denge": [
+      0.9,
+      0.5
+    ],
+    "dalga": "../sesler/firtina_dalga.mp3",
+    "dalga_duzey": 0.17
+  },
+  "ates_klip": {
+    "dosya": "ates_klip.mp4",
+    "kaynak": "05-snowy-library",
+    "karisik": true,
+    "kutu": [
+      1100,
+      280,
+      1578,
+      673
+    ]
+  },
+  "shorts": {
+    "bas": 760,
+    "son": 1250,
+    "tur": 2,
+    "baslik": "Stormy Seaside Cottage",
+    "alt": "Storm Waves & Crackling Fireplace",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 610,
+    "son": 1250,
+    "tur": 2,
+    "baslik": "POV: a quiet cottage while the sea rages",
+    "alt": "the lighthouse keeps watch tonight",
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 380,
+    "y_son": 470,
+    "ses_tohum": 7
+  },
+  "buhar": {
+    "kutu": [
+      930,
+      590,
+      1010,
+      650
+    ],
+    "genlik": 0.7
+  },
+  "ek_klipler": [
+    {
+      "dosya": "deniz_klip.mp4",
+      "kutu": [
+        190,
+        190,
+        820,
+        580
+      ],
+      "model": "kwaivgi/kling-v2.5-turbo-pro",
+      "cozunurluk": "480p",
+      "tahmin": "qexm2pbk0xrmt0d1y0r92wf1z8",
+      "sure_sn": 201,
+      "maske_cam": true,
+      "karisik": true,
+      "parca_sn": 8.0,
+      "gecis_sn": 1.5
+    }
+  ],
+  "gorsel_4k": "sahne_4k.png",
+  "sure_etiket": "8 HOURS",
+  "sure_dakika": 480
+}

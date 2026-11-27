@@ -1,0 +1,127 @@
+{
+  "gorsel": "sahne.png",
+  "yagis": "yagmur",
+  "cam": {
+    "kutular": [
+      [
+        680,
+        0,
+        1595,
+        640
+      ]
+    ],
+    "esik": 0.0,
+    "temizlik": 5,
+    "haric": [
+      [
+        [
+          600,
+          300
+        ],
+        [
+          700,
+          295
+        ],
+        [
+          780,
+          310
+        ],
+        [
+          860,
+          345
+        ],
+        [
+          830,
+          420
+        ],
+        [
+          790,
+          470
+        ],
+        [
+          745,
+          505
+        ],
+        [
+          740,
+          565
+        ],
+        [
+          650,
+          565
+        ],
+        [
+          655,
+          500
+        ],
+        [
+          620,
+          400
+        ]
+      ]
+    ]
+  },
+  "isiklar": [
+    {
+      "x": 352,
+      "y": 191,
+      "sigma": 90,
+      "genlik": 0.1
+    },
+    {
+      "x": 530,
+      "y": 422,
+      "sigma": 80,
+      "genlik": 0.1
+    },
+    {
+      "x": 1620,
+      "y": 640,
+      "sigma": 100,
+      "genlik": 0.1
+    }
+  ],
+  "dongu_sn": 96,
+  "ad": "Rainy Tokyo Apartment",
+  "ses": {
+    "zemin": "ses_kaynak/yagmur.mp3",
+    "zemin_bas": 20,
+    "zemin_duzey": 0.08,
+    "zemin_ek": [
+      "../sesler/yagmur_cam.mp3",
+      "../sesler/yagmur_hafif.mp3"
+    ]
+  },
+  "shorts": {
+    "bas": 1300,
+    "son": 900,
+    "tur": 2,
+    "baslik": "Rainy Tokyo Apartment",
+    "alt": "Gentle Rain & City Lights",
+    "ses_kazanc": 1.5
+  },
+  "shorts2": {
+    "bas": 1410,
+    "son": 1000,
+    "tur": 2,
+    "baslik": "POV: Tokyo in the rain from your window",
+    "alt": "the city never sleeps, you do",
+    "ses_kazanc": 1.5,
+    "yakin": 1.4,
+    "y": 340,
+    "y_son": 520,
+    "ses_tohum": 7
+  },
+  "buhar": {
+    "kutu": [
+      515,
+      445,
+      585,
+      535
+    ],
+    "genlik": 0.7
+  },
+  "gorsel_4k": "sahne_4k.png",
+  "sure_etiket": "8 HOURS",
+  "sure_dakika": 480
+}
