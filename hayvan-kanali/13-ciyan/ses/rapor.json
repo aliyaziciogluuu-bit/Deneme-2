@@ -131,5 +131,89 @@
   "hata": 0,
   "sure": 4.9,
   "uygun": true
+ },
+ "019": {
+  "yazi": "Evde yaşayabilen çıyan nasıl biri?",
+  "duyulan": "Evde yaşayabilen çıyan nasıl biri?",
+  "hata": 0,
+  "sure": 1.84,
+  "uygun": true
+ },
+ "020": {
+  "yazi": "Ev çıyanı denen bu tür, gövdesine göre bacakları upuzun bir hayvan.",
+  "duyulan": "Ev çıyanı denen bu tür, gövdesine göre bacakları up uzun bir hayvan.",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "021": {
+  "yazi": "Yerde, duvarda, hatta tavanda koşuyor; bacak ve antenleriyle olduğundan büyük görünüyor.",
+  "duyulan": "yerde, duvarda, hatta tavanda koşuyor. Bacak ve antenleriyle olduğundan büyük görünüyor.",
+  "hata": 0,
+  "sure": 5.46,
+  "uygun": true
+ },
+ "022": {
+  "yazi": "Ev çıyanının arka bacakları anten gibi görünüyor; dinlenirken baş mı kuyruk mu anlamak zor.",
+  "duyulan": "Ev çıyanının arka bacakları anten gibi görünüyor. Dinlenirken baş mı kuyruk mu anlamak zor.",
+  "hata": 0,
+  "sure": 4.98,
+  "uygun": true
+ },
+ "023": {
+  "yazi": "Ev çıyanının yemeği evdeki eklembacaklılar: örümcek, tahtakurusu, hamamböceği ve karınca.",
+  "duyulan": "Ev çıyanının yemeği, evdeki eklen bacaklılar, örümcek, tahta kurusu, hamam böceği ve karınca.",
+  "hata": 6,
+  "sure": 5.78,
+  "uygun": false
+ },
+ "024": {
+  "yazi": "Avını nasıl yakalıyor?",
+  "duyulan": "avını nasıl yakalıyor?",
+  "hata": 0,
+  "sure": 1.08,
+  "uygun": true
+ },
+ "025": {
+  "yazi": "Avının üstüne atlıyor ya da bacaklarıyla kement atar gibi sarıyor.",
+  "duyulan": "avının üstüne atlıyor ya da bacaklarıyla kement atar gibi sarıyor.",
+  "hata": 0,
+  "sure": 3.56,
+  "uygun": true
+ },
+ "026": {
+  "yazi": "Ev çıyanı yakalanırsa sıkışan bacağını koparıp kaçabiliyor.",
+  "duyulan": "Ev çıyanı yakalanırsa sıkışan bacağını koparıp kaçabiliyor.",
+  "hata": 0,
+  "sure": 3.26,
+  "uygun": true
+ },
+ "027": {
+  "yazi": "Evin içinde çoğunlukla bodrum ve garaj gibi karanlık yerlerde, banyo ve mutfakta da görülüyor.",
+  "duyulan": "Evin içinde çoğunlukla bodrum ve garaj gibi karanlık yerlerde, banyo ve mutfakta da görülüyor.",
+  "hata": 0,
+  "sure": 4.92,
+  "uygun": true
+ },
+ "028": {
+  "yazi": "Çoğu evin dışında, özellikle büyük taşların, odun ve yaprak öbeklerinin altında yaşıyor.",
+  "duyulan": "çoğu evin dışında, özellikle büyük taşların, odun ve yaprak göbeklerinin altında yaşıyor.",
+  "hata": 1,
+  "sure": 5.02,
+  "uygun": true
+ },
+ "029": {
+  "yazi": "Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış; bilimsel adı Scutigera coleoptrata.",
+  "duyulan": "Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış. Bilimsel adı Skutigere Koleoptrata.",
+  "hata": 1,
+  "sure": 4.8,
+  "uygun": true
+ },
+ "030": {
+  "yazi": "Ev çıyanı Türkiye'de de gözlemlenmiş.",
+  "duyulan": "ev çıyanı Türkiye'de de gözlenmiş.",
+  "hata": 1,
+  "sure": 1.92,
+  "uygun": false
  }
 }

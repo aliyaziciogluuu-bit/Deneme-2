@@ -1,6 +1,6 @@
 000 fark=0 | Sivrisinek, kendinden ağır yağmur damlasından sağ çıkıyor. || Sivri sinek kendinden ağır yağmur damlasından sağ çıkıyor.
-001 fark=0 | Çok hafif olduğu için damla ona az kuvvet uyguluyor. || Çok hafif olduğu için damla ona az kuvvet uyguluyor.
+001 fark=0 | Çok hafif olduğu için damla ona az kuvvet uyguluyor. || çok hafif olduğu için damla ona az kuvvet uyguluyor.
 002 fark=0 | Bir süre damlaya yapışıp aşağı sürükleniyor. || bir süre damlaya yapışıp aşağı sürükleniyor.
-003 fark=0 | Sonra yana kayıp uçmaya devam ediyor. || Sonra yana kayıp uçmaya devam ediyor.
+003 fark=0 | Sonra yana kayıp uçmaya devam ediyor. || sonra yana kayıp uçmaya devam ediyor.
 004 fark=0 | Asıl tehlike yağmur değil, zemin. || Asıl tehlike yağmur değil, zemin.
 005 fark=0 | Yere yakın uçarsa damladan ayrılacak yer kalmıyor. || Yere yakın uçarsa, damladan ayrılacak yer kalmıyor.

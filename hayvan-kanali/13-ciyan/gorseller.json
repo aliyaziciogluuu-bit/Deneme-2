@@ -39,9 +39,9 @@
   {
    "ad": "ev_ciyani_duvar",
    "oran": "16:9",
-   "istem": "A dim modern hallway with the ceiling light just switched on, warm light on a pale plaster wall; on the wall at medium distance, centered horizontally, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, resting still, small in the frame, one centipede only, soft cinematic light.",
+   "istem": "three LENGTHWISE dark stripes on the back (not crosswise), each leg at least four times the body length, thin banded legs spread wide, medium-close, animal fills about a quarter of the frame width, exactly ONE centipede. A dim modern hallway with the ceiling light just switched on, warm light on a pale plaster wall; on the wall at medium distance, centered horizontally, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, resting still, small in the frame, one centipede only, soft cinematic light.",
    "aday": 2,
-   "not": "Ev çıyanı duvarda orta mesafe: küçük oval gövde, sırtta üç koyu şerit, 15 çift ÇOK uzun ince halkalı bacak, uzun anten. Kısa bacaklı/kalın gövdeli ise RET. Ev çıyanı tam sayım zor; bacaklar uzun ve ince olmalı."
+   "not": "Ev çıyanı duvarda orta mesafe: küçük oval gövde, sırtta üç koyu şerit, 15 çift ÇOK uzun ince halkalı bacak, uzun anten. Kısa bacaklı/kalın gövdeli ise RET. Ev çıyanı tam sayım zor; bacaklar uzun ve ince olmalı. | 2. tur (28 Kas)"
   },
   {
    "ad": "ciyan_tas_alti",
@@ -53,9 +53,9 @@
   {
    "ad": "karsilastir_yan",
    "oran": "16:9",
-   "istem": "On a flat pale grey stone slab seen from the side at medium distance, two animals side by side with a clear gap between them: on the left a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; on the right a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers; soft neutral studio-like daylight, both animals fully visible and clearly separate, same size roughly, legs of the centipede in a single row along its flat body, legs of the millipede as a dense short fringe under its round tube body.",
+   "istem": "exactly TWO animals only, no third animal; left only the centipede, right only the millipede; the millipede dark chestnut-brown (not grey) with a fringe of short legs visible below the body, about two thirds of the centipede's length. On a flat pale grey stone slab seen from the side at medium distance, two animals side by side with a clear gap between them: on the left a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; on the right a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers; soft neutral studio-like daylight, both animals fully visible and clearly separate, same size roughly, legs of the centipede in a single row along its flat body, legs of the millipede as a dense short fringe under its round tube body.",
    "aday": 3,
-   "not": "Solda çıyan (yassı, tek sıra uzun bacak, kıskaç), sağda kırkayak (silindir, kısa saçak bacak). Özellikler birbirine geçmemeli. Geçerse RET."
+   "not": "Solda çıyan (yassı, tek sıra uzun bacak, kıskaç), sağda kırkayak (silindir, kısa saçak bacak). Özellikler birbirine geçmemeli. Geçerse RET. | 2. tur (28 Kas)"
   },
   {
    "ad": "ciyan_ust",
@@ -77,13 +77,6 @@
    "istem": "On a thick layer of rotting brown leaves and damp bark in a shady corner of a garden, at medium distance, a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers, resting still with its body in a slow curve, centered horizontally, soft low light.",
    "aday": 2,
    "not": "Kırkayak çürüyen yaprakta; silindirik, kısa bacak saçağı. Yaprak çürüğü ve nem görünür."
-  },
-  {
-   "ad": "zehir_boru",
-   "oran": "16:9",
-   "istem": "Side view studio-style on a clean pale grey background, the head and first body segments of a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; the animal is fully solid and opaque with natural skin, and a single thin glowing amber tube runs inside from the base of the head along the inside of the curved claw to its tip, the one glowing amber line is the only glowing object, the rest of the animal is natural and solid, antennae visible.",
-   "aday": 3,
-   "not": "Zehir yolu TEK parlayan amber çizgi; başka iç organ, dişli, devre, yumurta yok. Dişli/devre dokusu çıkarsa RET (dersler 27 Kas)."
   },
   {
    "ad": "ev_ciyani_tam",
@@ -109,16 +102,9 @@
   {
    "ad": "ev_ciyani_arka",
    "oran": "16:9",
-   "istem": "Medium-close view of the back end of a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs on a pale wall: its two longest rear legs trail behind like two thin tails and look like antennae, the small striped body and the two long front antennae on the other end are also visible, centered horizontally, soft light.",
+   "istem": "Seen from above on a pale wall: a realistic house centipede (Scutigera coleoptrata): short oval body only about one third as long as its legs, three dark lengthwise stripes on a pale yellow-grey back, 15 pairs of very long thin banded legs, two very long antennae; body length about 2.5 cm, each leg 3 to 4 times longer than the body, the rear two legs trailing twice as long as the body and clearly banded like legs, NOT a long tube or worm-like body; one animal only.",
    "aday": 3,
-   "not": "Arka bacak çifti anten gibi uzun ve ince; baş ve anten karşı uçta. Kuyruk antenden ayırt edilmeli (halkalı, bacak gibi)."
-  },
-  {
-   "ad": "ev_ciyani_ornek_avlar",
-   "oran": "16:9",
-   "istem": "On a pale stone floor in soft daylight, a row of four small house pests with clear gaps between them, seen from above at medium distance, evenly spaced: a small brown hairy house spider with exactly 8 legs, a flat reddish-brown oval bed bug with 6 legs, a shiny brown cockroach with 6 legs and two antennae, a small black ant with 6 legs; in front of them at the left edge, partly in the frame, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs.",
-   "aday": 3,
-   "not": "Ev çıyanı ve dört av: örümcek (8 bacak), tahtakurusu (6, yassı kırmızı-kahve), hamamböceği (6+anten), karınca (6). Karışırsa/dört av seçilemezse RET; yedek: ev_ciyani_pusu."
+   "not": "Arka bacak çifti anten gibi uzun ve ince; baş ve anten karşı uçta. Kuyruk antenden ayırt edilmeli (halkalı, bacak gibi). | 2. tur (28 Kas)"
   },
   {
    "ad": "ev_ciyani_pusu",
@@ -137,16 +123,16 @@
   {
    "ad": "ev_ciyani_kopar",
    "oran": "16:9",
-   "istem": "A pale tile floor in soft light; in the sharp foreground a single long thin banded leg lies detached on the tile (just one leg), and in the blurred background a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs is walking away, centered horizontally.",
+   "istem": "On a pale floor tile, in the sharp foreground exactly one long thin banded leg lies detached on the tile, about 3 cm long, no animal body touching it; a realistic house centipede (Scutigera coleoptrata): short oval body only about one third as long as its legs, three dark lengthwise stripes on a pale yellow-grey back, 15 pairs of very long thin banded legs, two very long antennae is small and strongly blurred far in the background, running away.",
    "aday": 2,
-   "not": "Önde tek kopmuş ince halkalı bacak; arkada bulanık ev çıyanı uzaklaşıyor. Kan yok. Arka plan hayvanın gövdesi bozuksa yine kullanılabilir (bulanık)."
+   "not": "Önde tek kopmuş ince halkalı bacak; arkada bulanık ev çıyanı uzaklaşıyor. Kan yok. Arka plan hayvanın gövdesi bozuksa yine kullanılabilir (bulanık). | 2. tur (28 Kas)"
   },
   {
    "ad": "bodrum_garaj",
    "oran": "16:9",
-   "istem": "A dim stone basement corner with a wooden shelf holding plain cardboard boxes, a metal bucket and a coil of plain rope on the floor, cool grey light from a tiny window, no animals, no people, no writing.",
+   "istem": "A tidy dim basement storage corner in a Turkish house: plain cardboard boxes, a wooden shelf, a plain unlabeled bucket and a folded cloth on the floor, soft light from a small high window; no rope at all, no hanging cord, no label, no writing on any object, no animals, no people.",
    "aday": 1,
-   "not": "Bodrum/garaj; hayvan yok. İp çıkarsa sorun değil ama yılan izlenimi olmamalı."
+   "not": "Bodrum/garaj; hayvan yok. İp çıkarsa sorun değil ama yılan izlenimi olmamalı. | 2. tur (28 Kas)"
   },
   {
    "ad": "tas_odun_dis",
@@ -172,9 +158,9 @@
   {
    "ad": "ciyan_av",
    "oran": "16:9",
-   "istem": "On damp soil under a log, at medium distance seen from the side, centered horizontally, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, holding a small brown cricket with its two venom claws, the cricket smaller than the centipede's head-end, calm documentary light.",
+   "istem": "Side view on dark soil at night: a realistic Mediterranean banded centipede (Scolopendra cingulata: flat body, exactly ONE leg per body segment, black-olive back bands with golden-yellow edges, two long thin antennae) whose two curved venom claws grip a small brown cricket (about 2 cm, 6 legs, long hind legs, long antennae) held in front of its head, the claws clearly touching the cricket's body, the cricket much smaller than the centipede's head.",
    "aday": 2,
-   "not": "Çıyan küçük bir cırcırböceğini kıskaçlarıyla tutuyor (böcek çıyandan küçük). Kertenkele çizdirme. Böcek çıyana benzerse RET."
+   "not": "Çıyan küçük bir cırcırböceğini kıskaçlarıyla tutuyor (böcek çıyandan küçük). Kertenkele çizdirme. Böcek çıyana benzerse RET. | 2. tur (28 Kas)"
   },
   {
    "ad": "derleme_masa",
@@ -186,9 +172,9 @@
   {
    "ad": "belirti_masa",
    "oran": "16:9",
-   "istem": "A bedside table in a calm room with a glass of water, a small digital thermometer, a plain white blister pack of pills and a folded blanket on a chair, soft warm light, nobody in view, no text.",
+   "istem": "thermometer with a completely blank, dark, switched-off screen. A bedside table in a calm room with a glass of water, a small digital thermometer, a plain white blister pack of pills and a folded blanket on a chair, soft warm light, nobody in view, no text.",
    "aday": 1,
-   "not": "Belirti sahnesi; insan yok, yazı yok."
+   "not": "Belirti sahnesi; insan yok, yazı yok. | 2. tur (28 Kas)"
   },
   {
    "ad": "kirkayak_spiral",
@@ -200,9 +186,9 @@
   {
    "ad": "kirkayak_gozenek",
    "oran": "16:9",
-   "istem": "Side close view of the middle part of a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers on a leaf, its shiny armored segments with a tiny row of pores along the side and a few tiny clear-amber droplets seeping from the pores, the short leg fringe underneath, soft warm light, centered horizontally.",
+   "istem": "close side view of ONLY the glossy armored body segments filling the frame, no head in view; along the lower edge of each ring one tiny dark pore dot, and from 3 to 4 of the pores a tiny clear amber droplet; legs only as a short dense fringe at the very bottom edge. Side close view of the middle part of a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers on a leaf, its shiny armored segments with a tiny row of pores along the side and a few tiny clear-amber droplets seeping from the pores, the short leg fringe underneath, soft warm light, centered horizontally.",
    "aday": 2,
-   "not": "Kırkayak yan gövde; yanlarda sıra gözenek ve birkaç minik damla. Yazı/diş yok."
+   "not": "Kırkayak yan gövde; yanlarda sıra gözenek ve birkaç minik damla. Yazı/diş yok. | 2. tur (28 Kas)"
   },
   {
    "ad": "goz_yikama",
@@ -221,9 +207,9 @@
   {
    "ad": "bardak_ciyan",
    "oran": "16:9",
-   "istem": "On a pale tile floor, a clear glass tumbler turned upside down over a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, which sits calmly inside, its long legs resting free inside the glass, a stiff white card lying flat on the floor right next to the glass ready to be slid under it, no hands and no people, soft window light.",
+   "istem": "A clear glass tumbler standing upside down with its rim flat on the tile floor, walls vertical, seen from a low side angle at eye level; the whole house centipede is fully inside the glass, its very long thin legs touching the glass walls from the inside; a realistic house centipede (Scutigera coleoptrata): short oval body only about one third as long as its legs, three dark lengthwise stripes on a pale yellow-grey back, 15 pairs of very long thin banded legs, two very long antennae; a white card lies flat on the floor beside the glass, not touching the animal; no hands, no people.",
    "aday": 3,
-   "not": "Bardak ters, altında ev çıyanı, yanında kağıt; insan eli YOK. Bacaklar camın içinde serbest."
+   "not": "Bardak ters, altında ev çıyanı, yanında kağıt; insan eli YOK. Bacaklar camın içinde serbest. | 2. tur (28 Kas)"
   },
   {
    "ad": "buz_bez",
@@ -256,16 +242,16 @@
   {
    "ad": "kapak_kiskac",
    "oran": "16:9",
-   "istem": "Full-frame thumbnail composition, no black bars: on damp dark soil beside a stone, seen from the side at medium distance, centered in the right 50 percent of the frame, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, the pair of dark-orange venom claws under the head clearly visible and sharp; the left half of the frame is one plain softly blurred dark earthy surface, smooth and empty for text; all legs and body fully inside the right half of the frame.",
+   "istem": "the centipede's head faces LEFT and sits at about 55 percent from the left edge; only its front third is in frame and the body curves and trails off to the right edge; the whole left 45 percent of the frame is empty, smooth, dark, softly blurred soil with no rock; venom claws large, sharp and in focus; one animal only. Full-frame thumbnail composition, no black bars: on damp dark soil beside a stone, seen from the side at medium distance, centered in the right 50 percent of the frame, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, the pair of dark-orange venom claws under the head clearly visible and sharp; the left half of the frame is one plain softly blurred dark earthy surface, smooth and empty for text; all legs and body fully inside the right half of the frame.",
    "aday": 3,
-   "not": "Kapak A. Çıyan sağ yarıda; kıskaç net; sol boş. Yüz/kıskaç yazıya binmesin."
+   "not": "Kapak A. Çıyan sağ yarıda; kıskaç net; sol boş. Yüz/kıskaç yazıya binmesin. | 2. tur (28 Kas)"
   },
   {
    "ad": "kapak_bacak_cifti",
    "oran": "16:9",
-   "istem": "Full-frame thumbnail composition, no black bars: on a flat pale stone seen from the side at medium distance, two animals side by side in the left 55 percent of the frame with a clear gap between them: on the left a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; on the right a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers; the right 45 percent of the frame is one plain softly blurred pale warm surface, smooth and empty for text.",
+   "istem": "exactly TWO animals clearly separated by a wide gap, each fully visible, both inside the RIGHT 55 percent of the frame, left 45 percent empty and softly blurred; no third animal; millipede legs a short dense fringe, dark chestnut body. Full-frame thumbnail composition, no black bars: on a flat pale stone seen from the side at medium distance, two animals side by side in the left 55 percent of the frame with a clear gap between them: on the left a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; on the right a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers; the right 45 percent of the frame is one plain softly blurred pale warm surface, smooth and empty for text.",
    "aday": 3,
-   "not": "Kapak B. İki hayvan solda yan yana, sağ boş; çıyan yassı tek sıra, kırkayak silindir kısa saçak."
+   "not": "Kapak B. İki hayvan solda yan yana, sağ boş; çıyan yassı tek sıra, kırkayak silindir kısa saçak. | 2. tur (28 Kas)"
   },
   {
    "ad": "kapak_ev_avcisi",

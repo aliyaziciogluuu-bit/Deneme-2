@@ -3,7 +3,7 @@
 002 fark=0 | Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil. || Bu doğru değil. Isırabiliyor ama dünyanın en zehirlisi de değil.
 003 fark=1 | Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor. || Bazı uzun bacaklı örümcekler ağa sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.
 004 fark=0 | Örümceği elle tutmana gerek yok: bardağı üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak. || Örümceyi elle tutmana gerek yok, bardağı üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.
-005 fark=0 | Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. || Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.
+005 fark=0 | Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. || Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa, vakit kaybetmeden bir sağlık kuruluşuna git.
 006 fark=0 | Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git. || Belirti gösteren çocuk hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.
 007 fark=0 | Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer. || Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.
-008 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.
+008 fark=0 | Tam videosu kanalımızda. || tam videosu kanalımızda.

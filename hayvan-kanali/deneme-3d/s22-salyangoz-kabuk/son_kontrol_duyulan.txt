@@ -1,6 +1,6 @@
 000 fark=0 | Kırılan salyangoz kabuğu, kendini onarabiliyor. || Kırılan salyangoz kabuğu kendini onarabiliyor.
 001 fark=0 | Bir deneyde kırık kabuklar çoğunlukla yirmi bir günde onarıldı. || Bir deneyde kırık kabuklar çoğunlukla 21 günde onarıldı.
-002 fark=0 | Onarım hızı ilk günlerde yükselip sonra yavaşladı. || Onarım hızı ilk günlerde yükselip sonra yavaşladı.
+002 fark=1 | Onarım hızı ilk günlerde yükselip sonra yavaşladı. || Fonarım hızı ilk günlerde yükselip sonra yavaşladı.
 003 fark=0 | Ama bu sonuç yalnızca bir tatlı su salyangozu türünden. || Ama bu sonuç yalnızca bir tatlı susal yangozu türünden.
 004 fark=0 | Sen yine de kabuğa zarar verme. || Sen yine de kabuğa zarar verme.
 005 fark=0 | Peki kabuk çok kötü kırılırsa? || Peki kabuk çok kötü kırılırsa?

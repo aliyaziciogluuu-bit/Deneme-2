@@ -3,7 +3,7 @@
 [GEÇTİ] Görüntü biçimi 1080x1920 30 fps h264/aac
 [GEÇTİ] Video ve ses süresi tutarlı video 21.2 sn, ses 21.2 sn
 [GEÇTİ] Shorts süresi (≤ 60 sn) 21.2 sn
-[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -14.9 LUFS, tepe -1.5 dBTP
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -14.8 LUFS, tepe -1.5 dBTP
 [GEÇTİ] Siyah kare yok 
 [GEÇTİ] Donmuş görüntü yok (4 sn+) 
 [GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 6/6 cümle birebir, toplam 0/37 kelime farkı
