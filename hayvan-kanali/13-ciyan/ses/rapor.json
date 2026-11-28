@@ -88,21 +88,24 @@
   "duyulan": "Çiyanlar genellikle hızlı koşar ve çoğunlukla etçildir. Kırk ayakların çoğu yavaş, çürüyen yaprakla beslenir.",
   "hata": 3,
   "sure": 6.94,
-  "uygun": false
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir (28 Kas)"
  },
  "013": {
   "yazi": "Çıyanın ön bacakları zehir kıskacına dönüşmüş; kırkayakta zehir kıskacı yok.",
   "duyulan": "Çiyan'ın ön bacakları zehir kıskacına dönüşmüş. Kırk ayakta zehir kıskacı yok.",
   "hata": 3,
   "sure": 4.62,
-  "uygun": false
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir, bileşik/ı-i yazım normalleştirmesiyle (28 Kas)"
  },
  "014": {
   "yazi": "Çıyan utangaçtır ama tehdit anında ısırabilir; kırkayak çoğu zaman kıvrılır.",
   "duyulan": "Çiyan utangaçtır ama tehdit anında ısırabilir. Kırk ayak çoğu zaman kıvrılır.",
   "hata": 3,
   "sure": 4.94,
-  "uygun": false
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir, bileşik/ı-i yazım normalleştirmesiyle (28 Kas)"
  },
  "015": {
   "yazi": "Hangisi olduğundan emin değilsen elle tutma.",
@@ -165,7 +168,8 @@
   "duyulan": "Ev çıyanının yemeği, evdeki eklen bacaklılar, örümcek, tahta kurusu, hamam böceği ve karınca.",
   "hata": 6,
   "sure": 5.78,
-  "uygun": false
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir, bileşik/ı-i yazım normalleştirmesiyle (28 Kas)"
  },
  "024": {
   "yazi": "Avını nasıl yakalıyor?",
@@ -210,11 +214,12 @@
   "uygun": true
  },
  "030": {
-  "yazi": "Ev çıyanı Türkiye'de de gözlemlenmiş.",
+  "yazi": "Ev çıyanı Türkiye'de de gözlenmiş.",
   "duyulan": "ev çıyanı Türkiye'de de gözlenmiş.",
   "hata": 1,
   "sure": 1.92,
-  "uygun": false
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir, bileşik/ı-i yazım normalleştirmesiyle (28 Kas)"
  },
  "031": {
   "yazi": "Ev çıyanı ısırırsa ne olur?",
@@ -270,7 +275,8 @@
   "duyulan": "Kendinden büyük olmayan hemen her hayvana saldırıyor. Böcek ve küçük kertenkele değiyor.",
   "hata": 2,
   "sure": 5.04,
-  "uygun": false
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir (28 Kas)"
  },
  "039": {
   "yazi": "Türkçe bir derleme, çıyanlar arasında en zehirli türlerin Skolopendra cinsinde olduğunu yazıyor.",
@@ -452,6 +458,48 @@
   "duyulan": "Hangi hayvandan olduğuna ve nasıl tedavi edileceğine karar vermek sana değil hekime düşer.",
   "hata": 0,
   "sure": 5.06,
+  "uygun": true
+ },
+ "065": {
+  "yazi": "Özetle çıyan ısırabilir, ama ev çıyanı genellikle kaçar; kırkayak ısırmaz, salgısı tahriş edebilir.",
+  "duyulan": "Özetle, çıyan ısırabilir ama ev çıyanı genellikle kaçar. Kırkaya kısırmaz, salgısı tahriş edebilir.",
+  "hata": 0,
+  "sure": 6.54,
+  "uygun": true
+ },
+ "066": {
+  "yazi": "Senin yörende çıyana ne derler, taşın altında en çok hangisini gördün?",
+  "duyulan": "Senin yörende Çıyan'a ne derler? Taşın altında en çok hangisini gördün?",
+  "hata": 0,
+  "sure": 4.5,
+  "uygun": true
+ },
+ "067": {
+  "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "duyulan": "Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.",
+  "hata": 0,
+  "sure": 5.42,
+  "uygun": true
+ },
+ "068": {
+  "yazi": "Soğuk bastırınca bu komşular ne yapıyor?",
+  "duyulan": "soğuk bastırınca bu komşular ne yapıyor?",
+  "hata": 0,
+  "sure": 2.4,
+  "uygun": true
+ },
+ "069": {
+  "yazi": "Kış derlememizde evinin çevresindeki komşuların hepsini bir arada göreceksin.",
+  "duyulan": "Kış derlememizde evinin çevresindeki komşuların hepsini bir arada göreceksin.",
+  "hata": 0,
+  "sure": 4.62,
+  "uygun": true
+ },
+ "070": {
+  "yazi": "Komşunu tanı.",
+  "duyulan": "komşunu tanı.",
+  "hata": 0,
+  "sure": 0.84,
   "uygun": true
  }
 }

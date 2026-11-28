@@ -117,7 +117,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 - 30 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Scutigera coleoptrata, also known as the house centipede» → açıldı
 - 30 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Originating in the Mediterranean region, it has spread to other parts of the world» → açıldı
   - not: Türkiye'de görüldüğüne dair açılan kaynakta ifade yok; cümlede Türkiye iddiası yok
-**31.** Ev çıyanı Türkiye'de de gözlemlenmiş.
+**31.** Ev çıyanı Türkiye'de de gözlenmiş. (28 Kas: 'gözlemlenmiş' → 'gözlenmiş', seslendirmeyle uyum; anlam aynı)
 - 31 → https://www.inaturalist.org/observations/253992882 → inat_253992882.txt → «quality_grade: research; takson: Scutigera coleoptrata» → açıldı
 - 31 → https://www.inaturalist.org/observations/253992882 → inat_253992882.txt → «İzmir, Türkiye» → açıldı
   - not: iNaturalist araştırma sınıfı gözlem (İzmir, 2024); API ile açıldı, arşivde
