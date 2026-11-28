@@ -1,0 +1,8 @@
+000 fark=0 | Doktora örümcek ısırdı diye gidenlerin çoğunda başka bir şey çıkıyor. || Doktora örümcek ısırdı diye gidenlerin çoğunda başka bir şey çıkıyor.
+001 fark=1 | Kaliforniya'daki bir acil servis çalışmasında, bu şikâyetle gelenlerin yalnızca çok azı örümceği ısırma anında görmüştü. || Kaliforniya'daki bir acil servis çalışmasında bu şikayetle gelenlerin yalnızca çok azı örümceyi ısırma anında görmüştü.
+002 fark=0 | Bu yüzden yaran kötüleşiyorsa örümcektir deyip bekleme; hekime göster. || Bu yüzden yaran kötüleşiyorsa, örümcektir deyip bekleme. Hekime göster.
+003 fark=5 | Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. || Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa, vakit kaybetme...
+004 fark=14 | Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. || 
+005 fark=16 | Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git. || 
+006 fark=10 | Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer. || 
+007 fark=3 | Tam videosu kanalımızda. || 

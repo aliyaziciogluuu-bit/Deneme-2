@@ -1,0 +1,51 @@
+{
+ "000": {
+  "yazi": "Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak.",
+  "duyulan": "Bize göre en kolayı bardağı örümceğin üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.",
+  "hata": 0,
+  "sure": 6.06,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Elinle tutma, deriye bastırma; çoğu örümcek insanı nadiren ısırır, ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman.",
+  "duyulan": "Elinle tutma, deriye bastırma. Çoğu örümcek insanı nadiren ısırır. Isırırsa da kaçamadığı ya da deriye bastırıldığı zaman.",
+  "hata": 0,
+  "sure": 7.56,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "duyulan": "Şiddetli ağrı, kask rampı, terleme ya da bulantı varsa, vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 6.24,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
+  "duyulan": "Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
+  "hata": 0,
+  "sure": 5.24,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 6.96,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
+  "duyulan": "Isırığın hangi örümcekten olduğuna karar vermek sana değil il hekime düşer.",
+  "hata": 1,
+  "sure": 4.18,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.44,
+  "uygun": true
+ }
+}

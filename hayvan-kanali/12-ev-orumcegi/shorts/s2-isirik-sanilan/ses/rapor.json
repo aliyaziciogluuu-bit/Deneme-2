@@ -1,0 +1,58 @@
+{
+ "000": {
+  "yazi": "Doktora örümcek ısırdı diye gidenlerin çoğunda başka bir şey çıkıyor.",
+  "duyulan": "Doktora örümcek ısırdı diye gidenlerin çoğunda başka bir şey çıkıyor.",
+  "hata": 0,
+  "sure": 4.0,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Kaliforniya'daki bir acil servis çalışmasında, bu şikâyetle gelenlerin yalnızca çok azı örümceği ısırma anında görmüştü.",
+  "duyulan": "Kaliforniya'daki bir acil servis çalışmasında bu şikayetle gelenlerin yalnızca çok azı örümceyi ısırma anında görmüştü.",
+  "hata": 1,
+  "sure": 7.06,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bu yüzden yaran kötüleşiyorsa örümcektir deyip bekleme; hekime göster.",
+  "duyulan": "Bu yüzden yaran kötüleşiyorsa, örümcektir deyip bekleme. Hekime göster.",
+  "hata": 0,
+  "sure": 4.28,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "duyulan": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 5.98,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
+  "duyulan": "Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 6.54,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
+  "duyulan": "Isırığın hangi örümcekten olduğuna karar vermek sana değil hekime düşer.",
+  "hata": 0,
+  "sure": 3.82,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.36,
+  "uygun": true
+ }
+}
