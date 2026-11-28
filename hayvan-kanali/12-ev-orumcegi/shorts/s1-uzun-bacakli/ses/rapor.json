@@ -1,0 +1,65 @@
+{
+ "000": {
+  "yazi": "Uzun bacaklı örümceğin zehri, Vikipedi'ye göre tıbben önemli değil.",
+  "duyulan": "Uzun bacaklı örümceğin zehri, Wikipedia'ya göre tıbben önemli değil.",
+  "hata": 0,
+  "sure": 3.92,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.",
+  "duyulan": "Bir şehir efsanesi bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.",
+  "hata": 0,
+  "sure": 6.54,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil.",
+  "duyulan": "Bu doğru değil. Isırabiliyor ama dünyanın en zehirlisi de değil.",
+  "hata": 0,
+  "sure": 4.04,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
+  "duyulan": "Bazı uzun bacaklı örümcekler ağa sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
+  "hata": 1,
+  "sure": 5.36,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Örümceği elle tutmana gerek yok: bardağı üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak.",
+  "duyulan": "Örümceyi elle tutmana gerek yok, bardağı üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.",
+  "hata": 0,
+  "sure": 5.26,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "duyulan": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 5.92,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Belirti gösteren çocuk hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 6.34,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
+  "duyulan": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
+  "hata": 0,
+  "sure": 3.98,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.18,
+  "uygun": true
+ }
+}

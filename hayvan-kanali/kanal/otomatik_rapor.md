@@ -1,7 +1,7 @@
-# Otomatik bekçi raporu – 27.11.2026 18:17
+# Otomatik bekçi raporu – 28.11.2026 03:40
 
-Boş disk: 12.6 GB
+Boş disk: 10.5 GB
 
-### 11-bahce-yilani
+### 12-ev-orumcegi
 - Temiz.
 

@@ -4,8 +4,9 @@
   "duyulan": "Örümceyi elle tutmana gerek yok. Bardağı üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.",
   "hata": 1,
   "sure": 6.32,
-  "uygun": false,
-  "tek_basina": true
+  "uygun": true,
+  "tek_basina": true,
+  "ikinci_dinleme": "large-v3 birebir (28 Kas)"
  },
  "001": {
   "yazi": "Elinle tutma, deriye bastırma; çoğu örümcek insanı nadiren ısırır, ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman.",
