@@ -1,51 +1,51 @@
 {
-  "dikey": true,
-  "baslik": "Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌 #shorts",
-  "aciklama": "Bir tatlı su salyangozu (Pomacea canaliculata) üzerinde, suya kalsiyum eklenen ve eklenmeyen gruplarla yapılan deneyde, kırılan kabuklar çoğunlukla yirmi bir gün içinde onarıldı; onarım hızı ilk günlerde yükselip sonra yavaşladı. Kalsiyum eklenen deneyde fark yalnızca belirli bir günde ve dişilerde görüldü. Bu sonuç tek bir türden; bahçe salyangozları için genelleme yapmıyoruz. Salyangozların kabuğunu kırmayın, onlara zarar vermeyin.\n\n#shorts #neolur #doğa #avludakikomşular",
-  "etiketler": [
-    "salyangoz",
-    "salyangoz kabuğu",
-    "salyangoz kabuğu kırılırsa",
-    "kabuk onarımı",
-    "shorts",
-    "doğa"
-  ],
-  "ust_yazi": [
-    "KIRIK KABUK",
-    "ONARILIR MI?"
-  ],
-  "kapsam": "tatlı su salyangozu Pomacea canaliculata (tek tür, tek araştırma); bahçe salyangozu için iddia yok; sayı yalnızca 'yirmi bir gün içinde çoğunlukla'.",
-  "kaynaklar": [
-    "Ca2+ addition facilitates the shell repair with eggs production of Pomacea canaliculata, Sci Rep 2023: https://pmc.ncbi.nlm.nih.gov/articles/PMC10593848"
-  ],
-  "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
-  "altyazi_stili": "kelime",
-  "muzik": "lyria_gerilim",
-  "ilk_kare": "Yapraktaki salyangozun kabuğunda belirgin bir çatlak ve kırık kenar, yakın plan; çatlağın üstünde yumuşak bir ışık yeni örülen ince tabakayı gösteriyor.",
-  "tur": "ne_olur",
-  "sahneler": [
+ "dikey": true,
+ "baslik": "Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌 #shorts",
+ "aciklama": "Bir tatlı su salyangozu (Pomacea canaliculata) üzerinde, suya kalsiyum eklenen ve eklenmeyen gruplarla yapılan deneyde, kırılan kabuklar çoğunlukla yirmi bir gün içinde onarıldı; onarım hızı ilk günlerde yükselip sonra yavaşladı. Kalsiyum eklenen deneyde fark yalnızca belirli bir günde ve dişilerde görüldü. Bu sonuç tek bir türden; bahçe salyangozları için genelleme yapmıyoruz. Salyangozların kabuğunu kırmayın, onlara zarar vermeyin.\n\n#shorts #neolur #doğa #avludakikomşular",
+ "etiketler": [
+  "salyangoz",
+  "salyangoz kabuğu",
+  "salyangoz kabuğu kırılırsa",
+  "kabuk onarımı",
+  "shorts",
+  "doğa"
+ ],
+ "ust_yazi": [
+  "KIRIK KABUK",
+  "ONARILIR MI?"
+ ],
+ "kapsam": "tatlı su salyangozu Pomacea canaliculata (tek tür, tek araştırma); bahçe salyangozu için iddia yok; sayı yalnızca 'yirmi bir gün içinde çoğunlukla'.",
+ "kaynaklar": [
+  "Ca2+ addition facilitates the shell repair with eggs production of Pomacea canaliculata, Sci Rep 2023: https://pmc.ncbi.nlm.nih.gov/articles/PMC10593848"
+ ],
+ "beyan": "Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır.",
+ "altyazi_stili": "kelime",
+ "muzik": "lyria_gerilim",
+ "ilk_kare": "Yapraktaki salyangozun kabuğunda belirgin bir çatlak ve kırık kenar, yakın plan; çatlağın üstünde yumuşak bir ışık yeni örülen ince tabakayı gösteriyor.",
+ "tur": "ne_olur",
+ "sahneler": [
+  {
+   "ad": "Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌 #shorts",
+   "cumleler": [
     {
-      "ad": "Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌 #shorts",
-      "cumleler": [
-        {
-          "yazi": "Bazı salyangozlar kırık kabuğunu onarabiliyor."
-        },
-        {
-          "yazi": "Bir deneyde kırık kabuklar çoğunlukla yirmi bir günde onarıldı."
-        },
-        {
-          "yazi": "Onarım hızı ilk günlerde yükselip sonra yavaşladı."
-        },
-        {
-          "yazi": "Ama bu sonuç, tek bir tatlı su salyangozundan."
-        },
-        {
-          "yazi": "Sen yine de kabuğa dokunma."
-        },
-        {
-          "yazi": "Peki kabuk çok kötü kırılırsa?"
-        }
-      ]
+     "yazi": "Kırılan salyangoz kabuğu, kendini onarabiliyor."
+    },
+    {
+     "yazi": "Bir deneyde kırık kabuklar çoğunlukla yirmi bir günde onarıldı."
+    },
+    {
+     "yazi": "Onarım hızı ilk günlerde yükselip sonra yavaşladı."
+    },
+    {
+     "yazi": "Ama bu sonuç yalnızca bir tatlı su salyangozu türünden."
+    },
+    {
+     "yazi": "Sen yine de kabuğa zarar verme."
+    },
+    {
+     "yazi": "Peki kabuk çok kötü kırılırsa?"
     }
-  ]
+   ]
+  }
+ ]
 }

@@ -577,11 +577,11 @@ Kaynaklar ve cümle eşlemesi:
 - İlgili uzun video: yok
 
 Metin:
-1. Bazı salyangozlar kırık kabuğunu onarabiliyor.
+1. Kırılan salyangoz kabuğu, kendini onarabiliyor.
 2. Bir deneyde kırık kabuklar çoğunlukla yirmi bir günde onarıldı.
 3. Onarım hızı ilk günlerde yükselip sonra yavaşladı.
-4. Ama bu sonuç, tek bir tatlı su salyangozundan.
-5. Sen yine de kabuğa dokunma.
+4. Ama bu sonuç yalnızca bir tatlı su salyangozu türünden.
+5. Sen yine de kabuğa zarar verme.
 6. Peki kabuk çok kötü kırılırsa?
 
 Kaynaklar ve cümle eşlemesi:
@@ -592,10 +592,10 @@ Kaynaklar ve cümle eşlemesi:
   - Cümle: 5
   - Kaynakta geçen ifade: Bilgi iddiası değil; hayvanı rahatsız etmeme yönlendirmesi. Cümle 6 soru, iddia içermiyor.
 
-## S23 – Kertenkelenin Kuyruğu Kopunca Ne Olur? 🦎
+## S23 – Kopan Kertenkele Kuyruğu Neden Kıpırdıyor? 🦎
 
 - Durum: senaryo yazıldı, bilgi kontrolü bekliyor
-- Başlık: Kertenkelenin Kuyruğu Kopunca Ne Olur? 🦎 #shorts
+- Başlık: Kopan Kertenkele Kuyruğu Neden Kıpırdıyor? 🦎 #shorts
 - Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
 - Kelime: 39; cümle: 6; tahmini süre ≈ 22 sn
 - Kapsam: kuyruğunu bırakabilen bazı kertenkeleler; 'önceden ayrılmış noktalar' Tokay gekosu bulgusu ('bir gekoda'); ev kertenkelesi (Hemidactylus) için ayrı iddia yok; kuyruğun yenilendiği söylenmiyor (soru olarak bırakıldı).
@@ -649,10 +649,10 @@ Kaynaklar ve cümle eşlemesi:
   - Cümle: 6
   - Kaynakta geçen ifade: Soru, iddia yok (kuyruksuz gekoların performansı kaynakta ayrıca ölçülmüş, metne alınmadı).
 
-## S25 – Kovandaki Kraliçe Arı Ölürse Ne Olur? 🐝
+## S25 – Kraliçesiz Kalan Kovan Yeni Kraliçeyi Nereden Buluyor? 🐝
 
 - Durum: senaryo yazıldı, bilgi kontrolü bekliyor
-- Başlık: Kovandaki Kraliçe Arı Ölürse Ne Olur? 🐝 #shorts
+- Başlık: Kraliçesiz Kalan Kovan Yeni Kraliçeyi Nereden Buluyor? 🐝 #shorts
 - Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
 - Kelime: 37; cümle: 6; tahmini süre ≈ 21 sn
 - Kapsam: bal arısı (Apis mellifera) kovanı; kraliçenin aniden ölmesi; başka arı türlerine genelleme yok; sayı yok ('bir günlük' larva kaynakta 1-day-old).
@@ -736,10 +736,10 @@ Kaynaklar ve cümle eşlemesi:
   - Cümle: 2
   - Kaynakta geçen ifade: "Contact chemoreceptors on the mouthparts and legs of the blowfly Phormia regina" (karasinek değil, aynı takımdan başka bir sinek; yalnızca destek, açıklamada "incelenmiştir")
 
-## S28 – Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝
+## S28 – Arılar Çiçeğin Adresini Dansla Nasıl Veriyor? 🐝
 
 - Durum: senaryo yazıldı, bilgi kontrolü bekliyor
-- Başlık: Bal Arısı Dans Ederek Çiçeğin Adresini Veriyor! 🐝 #shorts
+- Başlık: Arılar Çiçeğin Adresini Dansla Nasıl Veriyor? 🐝 #shorts
 - Tür: yetenek; müzik: lyria_hayret; altyazı: kelime
 - Kelime: 37; cümle: 6; tahmini süre ≈ 21 sn
 - Kapsam: bal arısı (Apis mellifera) sallanma dansı; yön Güneş'e göre, mesafe sallanma süresine bağlı; 'bazı arılar' (kaynakta 'some of them may be recruited'); mesafe oranı/sayı yazılmadı.
@@ -787,10 +787,10 @@ Kaynaklar ve cümle eşlemesi:
   - Cümle: 1, 2, 3, 4, 5, 6
   - Kaynakta geçen ifade: "Contrary to the expectation of attraction, insects do not steer directly toward the light. Instead, insects turn their dorsum toward the light, generating flight bouts perpendicular to the source. Under natural sky light, tilting the dorsum towards the brightest visual hemisphere helps maintain proper flight attitude and control. Near artificial sources, however, this highly conserved dorsal-light-response can produce continuous steering around the light and trap an insect." ; "the brightest part of the visual field has been the sky" ; araştırma lambaya birkaç metre yakınlıkta, on böcek takımından kayıtla ; cümle 6: "this highly conserved dorsal-light-response can produce continuous steering around the light and trap an insect" (uçuş dengesi = "proper flight attitude and control"; "pusula" benzetmesi çıkarıldı, eski kuramı ("lunar navigation") geri getiriyordu)
 
-## S30 – Kurbağa Su İçmiyor, Peki Nasıl Susuzluğunu Gideriyor? 🐸
+## S30 – Su İçmeyen Kurbağa Susuzluğunu Nasıl Gideriyor? 🐸
 
 - Durum: senaryo yazıldı, bilgi kontrolü bekliyor
-- Başlık: Kurbağa Su İçmiyor, Peki Nasıl Susuzluğunu Gideriyor? 🐸 #shorts
+- Başlık: Su İçmeyen Kurbağa Susuzluğunu Nasıl Gideriyor? 🐸 #shorts
 - Tür: efsane; müzik: lyria_merak; altyazı: kelime
 - Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
 - Kapsam: kurbağa ve kara kurbağası dâhil kuyruksuz amfibiler (Anura); 'birçok kurbağa' deriyle emiyor; araştırma altı türde (iki Bufo/Rana dâhil) yapıldı; sayı yok.
