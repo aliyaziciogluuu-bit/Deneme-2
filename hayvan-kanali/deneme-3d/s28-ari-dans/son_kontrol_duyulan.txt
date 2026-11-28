@@ -1,5 +1,5 @@
 000 fark=0 | Bal arısı dans ederek adres tarif ediyor. || Bal arısı dans ederek adres tarif ediyor.
-001 fark=0 | Dans, sekiz şeklinde bir yol çiziyor. || Dans, sekiz şeklinde bir yol çiziyor.
+001 fark=0 | Dans, sekiz şeklinde bir yol çiziyor. || Dans 8 şeklinde bir yol çiziyor.
 002 fark=0 | Dansın açısı, çiçeğin Güneş'e göre yönünü anlatıyor. || Dansın açısı, çiçeğin güneşe göre yönünü anlatıyor.
 003 fark=0 | Uzun sallanma, uzak çiçek demek. || Uzun sallanma, uzak çiçek demek.
 004 fark=0 | Dansı izleyen bazı arılar o çiçeğe uçuyor. || Dansı izleyen bazı arılar o çiçeğe uçuyor.

@@ -1,6 +1,6 @@
 000 fark=0 | Karasinek, yemeğin tadına ayaklarıyla bakıyor. || Karasinek yemeğin tadına ayaklarıyla bakıyor.
 001 fark=0 | Bacaklarının ucunda, tat alan özel organlar var. || Bacaklarının ucunda tat alan özel organlar var.
-002 fark=0 | Bir şeyin üstünde yürüyerek şekeri tanıyabiliyor. || Bir şeyin üstünde yürüyerek şekeri tanıyabiliyor.
+002 fark=0 | Bir şeyin üstünde yürüyerek şekeri tanıyabiliyor. || bir şeyin üstünde yürüyerek şekeri tanıyabiliyor.
 003 fark=0 | Sık sık bacaklarını birbirine sürtüyor. || Sık sık bacaklarını birbirine sürtüyor.
 004 fark=0 | Bunun, alıcıları yeniden tazelediği söyleniyor. || Bunun alıcıları yeniden tazelediği söyleniyor.
 005 fark=0 | Yani sineğin ayakları, ikinci bir tat organı gibi. || Yani sineğin ayakları ikinci bir tat organı gibi.

@@ -1,0 +1,135 @@
+{
+ "000": {
+  "yazi": "Bahçede bir taşı kaldırıyorsun ve altından upuzun, çok bacaklı bir hayvan fırlıyor.",
+  "duyulan": "Bahçede bir taşı kaldırıyorsun ve altından upuzun, çok bacaklı bir hayvan fırlıyor.",
+  "hata": 0,
+  "sure": 5.28,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Çıyan ısırır mı?",
+  "duyulan": "Çıyan ısırır mı?",
+  "hata": 0,
+  "sure": 0.96,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Isırabilir; hem de ağzıyla değil, bacağının dönüştüğü bir kıskaçla.",
+  "duyulan": "ısırabilir. Hem de ağzıyla değil, bacağının dönüştüğü bir kıskaçla.",
+  "hata": 0,
+  "sure": 4.32,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Ama taşın altında yavaşça kıvrılan çok bacaklı hayvan, aslında bir kırkayak olabilir.",
+  "duyulan": "Ama taşın altında yavaşça kıvrılan çok bacaklı hayvan aslında bir kırk ayak olabilir.",
+  "hata": 0,
+  "sure": 5.18,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Kırkayak ısırmaz da sokmaz da.",
+  "duyulan": "Kırk ayak ısırmaz da sokmaz da.",
+  "hata": 0,
+  "sure": 2.02,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Evlerde yaşayabilen bir çıyan türü var; yediği şeyler arasında örümcek bile bulunuyor.",
+  "duyulan": "Evlerde yaşayabilen bir çıyan türü var. Yediği şeyler arasında örümcek bile bulunuyor.",
+  "hata": 0,
+  "sure": 5.38,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Çıyan ısırırsa kimler için ciddi olabilir?",
+  "duyulan": "...çıyanı sırırsa kimler için ciddi olabilir?",
+  "hata": 0,
+  "sure": 2.42,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Bu iki hayvan benzer görünür ama yalnızca uzak akrabadır.",
+  "duyulan": "Bu iki hayvan benzer görünür ama yalnızca uzak akrabadır.",
+  "hata": 0,
+  "sure": 3.8,
+  "uygun": true
+ },
+ "008": {
+  "yazi": "Çıyanda her bölümde bir çift bacak var; kırkayakta çoğu bölümde iki çift.",
+  "duyulan": "Çıyan'da her bölümde bir çift bacak var, kırk ayakta çoğu bölümde iki çift.",
+  "hata": 0,
+  "sure": 4.68,
+  "uygun": true
+ },
+ "009": {
+  "yazi": "Böyle bir yanlışı her hafta düzeltiyoruz; sıradakini kaçırmamak için abone ol.",
+  "duyulan": "Böyle bir yanlışı her hafta düzeltiyoruz. Sıradakini kaçırmamak için abone ol.",
+  "hata": 0,
+  "sure": 4.0,
+  "uygun": true
+ },
+ "010": {
+  "yazi": "Salı ve cumartesi akşamı yeni komşu geliyor.",
+  "duyulan": "Salı ve Cumartesi akşamı yeni komşu geliyor.",
+  "hata": 0,
+  "sure": 2.46,
+  "uygun": true
+ },
+ "011": {
+  "yazi": "Başka hangi farklar var?",
+  "duyulan": "Başka hangi farklar var?",
+  "hata": 0,
+  "sure": 1.42,
+  "uygun": true
+ },
+ "012": {
+  "yazi": "Çıyanlar genellikle hızlı koşar ve çoğunlukla etçildir; kırkayakların çoğu yavaş, çürüyen yaprakla beslenir.",
+  "duyulan": "Çiyanlar genellikle hızlı koşar ve çoğunlukla etçildir. Kırk ayakların çoğu yavaş, çürüyen yaprakla beslenir.",
+  "hata": 3,
+  "sure": 6.94,
+  "uygun": false
+ },
+ "013": {
+  "yazi": "Çıyanın ön bacakları zehir kıskacına dönüşmüş; kırkayakta zehir kıskacı yok.",
+  "duyulan": "Çiyan'ın ön bacakları zehir kıskacına dönüşmüş. Kırk ayakta zehir kıskacı yok.",
+  "hata": 3,
+  "sure": 4.62,
+  "uygun": false
+ },
+ "014": {
+  "yazi": "Çıyan utangaçtır ama tehdit anında ısırabilir; kırkayak çoğu zaman kıvrılır.",
+  "duyulan": "Çiyan utangaçtır ama tehdit anında ısırabilir. Kırk ayak çoğu zaman kıvrılır.",
+  "hata": 3,
+  "sure": 4.94,
+  "uygun": false
+ },
+ "015": {
+  "yazi": "Hangisi olduğundan emin değilsen elle tutma.",
+  "duyulan": "Hangisi olduğundan emin değilsen elle tutma.",
+  "hata": 0,
+  "sure": 2.56,
+  "uygun": true
+ },
+ "016": {
+  "yazi": "Çıyanın zehri nereden geliyor?",
+  "duyulan": "Çıyanın zehri nereden geliyor?",
+  "hata": 0,
+  "sure": 1.74,
+  "uygun": true
+ },
+ "017": {
+  "yazi": "Zehir bezleri kafanın içinden başlıyor; bir tüp, zehri kıskacın ucuna taşıyor, kıskaç avı da tutuyor.",
+  "duyulan": "Zehir bezleri kafanın içinden başlıyor. Bir tüp zehri kıskaçın ucuna taşıyor. Kıskaç avı da tutuyor.",
+  "hata": 1,
+  "sure": 6.9,
+  "uygun": true
+ },
+ "018": {
+  "yazi": "Vikipedi'ye göre, ön bacağı zehir enjektörü olan bilinen tek örnek çıyanlar.",
+  "duyulan": "Wikipedia'ya göre ön bacağı zehir enjektörü olan bilinen tek örnek çıyanlar.",
+  "hata": 0,
+  "sure": 4.9,
+  "uygun": true
+ }
+}

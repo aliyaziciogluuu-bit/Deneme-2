@@ -1,4 +1,4 @@
-000 fark=0 | Uzun bacaklı örümceğin zehri, Vikipedi'ye göre tıbben önemli değil. || Uzun bacaklı örümceğin zehri Wikipedia'ya göre tıbben önemli değil.
+000 fark=0 | Uzun bacaklı örümceğin zehri, Vikipedi'ye göre tıbben önemli değil. || Uzun bacaklı örümceğin zehri, Wikipedia'ya göre tıbben önemli değil.
 001 fark=0 | Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler. || Bir şehir efsanesi bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.
 002 fark=0 | Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil. || Bu doğru değil. Isırabiliyor ama dünyanın en zehirlisi de değil.
 003 fark=1 | Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor. || Bazı uzun bacaklı örümcekler ağa sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.

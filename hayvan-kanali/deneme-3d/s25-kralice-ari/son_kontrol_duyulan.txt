@@ -1,6 +1,6 @@
 000 fark=0 | Kraliçe ölünce, işçi arılar yeni kraliçe yetiştiriyor. || Kraliçe ölünce işçi arılar yeni kraliçe yetiştiriyor.
 001 fark=0 | Üstelik sıradan bir işçi larvadan. || Üstelik sıradan bir işçi larvadan.
 002 fark=0 | Seçilen larva, bol arı sütüyle besleniyor. || Seçilen larva bol arı sütüyle besleniyor.
-003 fark=0 | İşçiler mümkünse en genç larvaları seçiyor. || İşçiler, mümkünse en genç larvaları seçiyor.
+003 fark=0 | İşçiler mümkünse en genç larvaları seçiyor. || İşçiler mümkünse en genç larvaları seçiyor.
 004 fark=0 | Bir günlük larvadan çıkan kraliçe, daha çok işçi çekiyor. || Bir günlük larvadan çıkan Kraliçe daha çok işçi çekiyor.
 005 fark=0 | Ya genç larva kalmamışsa? || Ya genç larva kalmamışsa?
