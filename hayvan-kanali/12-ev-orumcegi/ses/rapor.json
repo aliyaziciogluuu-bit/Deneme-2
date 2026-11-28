@@ -189,11 +189,12 @@
   "uygun": true
  },
  "027": {
-  "yazi": "Dolap örümceği ısırıkları kışın da evde olabiliyor; karadul ısırığı genellikle yazın dışarıda oluyor.",
-  "duyulan": "Dolap örümceği ısırıkları kışında evde olabiliyor. Kara dolu sırı genellikle yazın dışarıda oluyor.",
-  "hata": 5,
-  "sure": 5.68,
-  "uygun": false
+  "yazi": "Dolap örümceği kış aylarında da evde ısırabiliyor; karadul genellikle yazın, dışarıda ısırıyor.",
+  "duyulan": "Dolap örümceyi, kış aylarında da evde ısırabiliyor. Karadul genellikle yazın dışarıda ısırıyor.",
+  "hata": 1,
+  "sure": 5.94,
+  "uygun": false,
+  "tek_basina": true
  },
  "028": {
   "yazi": "Bahçeden eve giren iri örümceklerden korkmalı mısın?",
@@ -252,11 +253,12 @@
   "uygun": true
  },
  "036": {
-  "yazi": "Makaleye göre Türkiye'de karadul panzehiri yok; yine de zehirlenme görülme sıklığı çok düşük.",
-  "duyulan": "Makaleye göre Türkiye'de kara dulpan zehri yok. Yine de zehirlenme görülme sıklığı çok düşük.",
-  "hata": 3,
-  "sure": 5.2,
-  "uygun": false
+  "yazi": "Makaleye göre Türkiye'de karadul için özel bir panzehir yok; yine de zehirlenme görülme sıklığı çok düşük.",
+  "duyulan": "Makaleye göre, Türkiye'de karadul için özel bir panzehir yok. Yine de zehirlenme görülme sıklığı çok düşük.",
+  "hata": 0,
+  "sure": 6.92,
+  "uygun": true,
+  "tek_basina": true
  },
  "037": {
   "yazi": "Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini, çocuk ve yaşlıların hastane gözlemi gerektirebildiğini bildiriyor.",
@@ -280,11 +282,12 @@
   "uygun": true
  },
  "040": {
-  "yazi": "Kayalıkta yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutu yığınlarında bulunuyor; ayakkabıya, giysiye, çarşafa da saklanıyor.",
-  "duyulan": "Kayalıkta yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutu yılınlarında bulunuyor. Ayakkabıya, bc, çarşafa da saklanıyor.",
-  "hata": 2,
-  "sure": 7.32,
-  "uygun": false
+  "yazi": "Kayalıklarda yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutuların arasında bulunuyor; ayakkabıya, elbiseye, çarşafa da saklanıyor.",
+  "duyulan": "Kayalıklarda yaşayabilir, ama sık sık evlerde, mobilya arkasında ve kutuların arasında bulunuyor. Ayakkabıya, elbiseye, çarşafada saklanıyor.",
+  "hata": 0,
+  "sure": 9.9,
+  "uygun": true,
+  "tek_basina": true
  },
  "041": {
   "yazi": "Akdeniz münzevi örümceği saldırgan değil ama deriye bastırılırsa ısırabiliyor; çoğunlukla giyinirken ya da uyurken.",

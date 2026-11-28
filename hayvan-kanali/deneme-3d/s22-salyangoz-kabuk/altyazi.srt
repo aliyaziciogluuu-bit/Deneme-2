@@ -1,0 +1,39 @@
+1
+00:00:00,700 --> 00:00:02,070
+Bazı salyangozlar kırık
+
+2
+00:00:02,070 --> 00:00:03,625
+kabuğunu onarabiliyor.
+
+3
+00:00:03,730 --> 00:00:05,273
+Bir deneyde kırık kabuklar
+
+4
+00:00:05,273 --> 00:00:07,655
+çoğunlukla yirmi bir günde onarıldı.
+
+5
+00:00:07,760 --> 00:00:09,259
+Onarım hızı ilk günlerde
+
+6
+00:00:09,259 --> 00:00:11,065
+yükselip sonra yavaşladı.
+
+7
+00:00:11,170 --> 00:00:11,996
+Ama bu sonuç,
+
+8
+00:00:11,996 --> 00:00:14,275
+tek bir tatlı su salyangozundan.
+
+9
+00:00:14,380 --> 00:00:16,085
+Sen yine de kabuğa dokunma.
+
+10
+00:00:16,190 --> 00:00:18,440
+Peki kabuk çok kötü kırılırsa?

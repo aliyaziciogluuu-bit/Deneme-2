@@ -116,7 +116,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr (curl ile; WebFetch aracı bu
 **027** [Mutfak köşesi ve dolabın arkası] Bölgesel belirtiler iki üç günde geçiyor.
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “which subside within 2-3 days without complications” — açıldı
   - not: Fusto yalnızca bölgesel belirtilerin 2-3 günde geçtiğini yazıyor
-**028** [Mutfak köşesi ve dolabın arkası] Dolap örümceği ısırıkları kışın da evde olabiliyor; karadul ısırığı genellikle yazın dışarıda oluyor.
+**028** [Mutfak köşesi ve dolabın arkası] Dolap örümceği kış aylarında da evde ısırabiliyor; karadul genellikle yazın, dışarıda ısırıyor. (28 Kas: ses tanıma için yeniden kuruldu, anlam aynı; eski: «Dolap örümceği ısırıkları kışın da evde olabiliyor; karadul ısırığı genellikle yazın dışarıda oluyor.»)
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “bites usually occur indoors all year round, also during winter” — açıldı
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “Latrodectus tredecimguttatus bites, which usually happen outdoors during summer” — açıldı
   - not: Fusto bunu ayırıcı tanı için ipucu olarak veriyor
@@ -148,7 +148,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr (curl ile; WebFetch aracı bu
   - https://dergipark.org.tr/tr/download/article-file/1437890 → “woke up in a field in Ankara, the capital of Turkey, with” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/1437890 → “the patient was transferred to the intensive care unit” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/1437890 → “The patient’s symptoms improved on the fifth day” — açıldı
-**037** [Dikkat isteyen başlıca iki cins] Makaleye göre Türkiye'de karadul panzehiri yok; yine de zehirlenme görülme sıklığı çok düşük.
+**037** [Dikkat isteyen başlıca iki cins] Makaleye göre Türkiye'de karadul için özel bir panzehir yok; yine de zehirlenme görülme sıklığı çok düşük. (28 Kas: ses tanıma için yeniden kuruldu, anlam aynı; eski: «Makaleye göre Türkiye'de karadul panzehiri yok; yine de zehirlenme görülme sıklığı çok düşük.»)
   - https://dergipark.org.tr/tr/download/article-file/1437890 → “black widow antivenom is not available in Turkey” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/1437890 → “poisoning is very low” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/1662710 → “Yaşadığımız çoğrafyada ise örümcek antivenomu mevcut değildir” — açıldı
@@ -164,7 +164,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr (curl ile; WebFetch aracı bu
 **040** [Dikkat isteyen başlıca iki cins] Evde gördüğün örümceğin bu tür olup olmadığına yalnızca uzman karar verebilir.
   - https://dergipark.org.tr/en/download/article-file/711091 → “tecrübeli biyolog/araknolog tarafından tanımlanamazsa” — açıldı
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “most physicians and patients are unable to recognize a certain spider species or distinguish spiders from other arthropods” — açıldı
-**041** [Dikkat isteyen başlıca iki cins] Kayalıkta yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutu yığınlarında bulunuyor; ayakkabıya, giysiye, çarşafa da saklanıyor.
+**041** [Dikkat isteyen başlıca iki cins] Kayalıklarda yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutuların arasında bulunuyor; ayakkabıya, elbiseye, çarşafa da saklanıyor. (28 Kas: ses tanıma için yeniden kuruldu, anlam aynı; eski: «Kayalıkta yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutu yığınlarında bulunuyor; ayakkabıya, giysiye, çarşafa da saklanıyor.»)
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “it is often found around and inside houses and buildings (behind furniture, piled boxes etc.)” — açıldı
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “its tendency to hide in shoes, clothes and bed sheets” — açıldı
 **042** [Dikkat isteyen başlıca iki cins] Akdeniz münzevi örümceği saldırgan değil ama deriye bastırılırsa ısırabiliyor; çoğunlukla giyinirken ya da uyurken.
