@@ -407,8 +407,8 @@ class Sahne:
         anahtar = (c["gorsel"], c.get("kip"))
         if anahtar not in self._gorsel:
             yol = next((self.klasor / "gorseller").glob(c["gorsel"] + ".*"), None)
-        if yol is None:  # StopIteration işçi süreçte sessizce yutuluyor ve video yarıda kesiliyordu (28 Kasım)
-            raise FileNotFoundError(f"görsel yok: {c['gorsel']}")
+            if yol is None:  # StopIteration işçi süreçte sessizce yutuluyor ve video yarıda kesiliyordu (28 Kasım)
+                raise FileNotFoundError(f"görsel yok: {c['gorsel']}")
             g = Image.open(yol).convert("RGB")
             self._gorsel[anahtar] = sigdir_tuvali(g) if c.get("kip") == "sigdir" else g
         return self._gorsel[anahtar]

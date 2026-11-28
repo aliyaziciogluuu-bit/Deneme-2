@@ -6,7 +6,7 @@
 [GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.3 LUFS, tepe -1.4 dBTP
 [GEÇTİ] Siyah kare yok 
 [GEÇTİ] Donmuş görüntü yok (4 sn+) 
-[KALDI] Bitmiş videoda anlatım = senaryo (cümle cümle) 3/8 cümle birebir, toplam 49/92 kelime farkı
+[KALDI] Bitmiş videoda anlatım = senaryo (cümle cümle) 3/8 cümle birebir, toplam 48/92 kelime farkı
 [KALDI] Altyazı zamanlaması 22 altyazı, son 41.3 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 38 karakter
 [GEÇTİ] Başlık uzunluğu 50 karakter
