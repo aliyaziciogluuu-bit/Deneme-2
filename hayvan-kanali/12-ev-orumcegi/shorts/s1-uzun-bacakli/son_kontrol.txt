@@ -1,13 +1,13 @@
 [GEÇTİ] Video, ses ve senaryodan yeni 
 [GEÇTİ] Cümle cümle ses doğrulaması 8/8 cümle doğrulandı; large-v3 ikinci dinlemeyle: ['000']
 [GEÇTİ] Görüntü biçimi 1080x1920 30 fps h264/aac
-[GEÇTİ] Video ve ses süresi tutarlı video 40.4 sn, ses 40.4 sn
-[GEÇTİ] Shorts süresi (≤ 60 sn) 40.4 sn
-[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.6 LUFS, tepe -1.3 dBTP
+[GEÇTİ] Video ve ses süresi tutarlı video 41.7 sn, ses 41.6 sn
+[GEÇTİ] Shorts süresi (≤ 60 sn) 41.7 sn
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.5 LUFS, tepe -1.3 dBTP
 [GEÇTİ] Siyah kare yok 
 [GEÇTİ] Donmuş görüntü yok (4 sn+) 
-[KALDI] Bitmiş videoda anlatım = senaryo (cümle cümle) 7/8 cümle birebir, toplam 8/91 kelime farkı
-[GEÇTİ] Altyazı zamanlaması 20 altyazı, son 38.2 sn
+[GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 8/8 cümle birebir, toplam 2/91 kelime farkı
+[GEÇTİ] Altyazı zamanlaması 20 altyazı, son 39.5 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 41 karakter
 [GEÇTİ] Başlık uzunluğu 43 karakter
 [GEÇTİ] Açıklama uzunluğu ve karakterleri 1644 karakter
