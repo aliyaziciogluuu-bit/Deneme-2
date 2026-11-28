@@ -31,10 +31,10 @@
 030 fark=0 | Aralarında rahatsız edilince en çok savunmaya geçen tür, özellikle yumurtasını koruyan dişisiymiş; ısırığı yaban arısı sokmasından hafif bulunmuş. || Aralarında rahatsız edilince en çok savunmaya geçen tür, özellikle yumurtasını koruyan dişisiymiş. Isırığı yaban arısı sokmasından hafif bulunmuş.
 031 fark=1 | Peki bu başlıca iki cins hangileri ve neden dikkat istiyorlar? || Peki bu başlıca iki cinse hangileri ve neden dikkat istiyorlar?
 032 fark=0 | Birincisi karadul; bilimsel adı Latrodectus. || Birincisi Karadul. Bilimsel adı Latrodectus.
-033 fark=1 | Türkiye'de kayıtlı türlerden biri Akdeniz karadulu; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor. || Türkiye'de kayıtlı türlerden biri, Akdeniz karadulu. Bozkırda, tarlada, taş ve odun arasında kulübe ve kümeste ağa kuruyor.
+033 fark=0 | Türkiye'de kayıtlı türlerden biri Akdeniz karadulu; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağını örüyor. || Türkiye'de kayıtlı türlerden biri, Akdeniz karadulu. Bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağını örüyor.
 034 fark=0 | İstanbul, Ankara, Adana, Mardin ve Kars gibi yerlerde kaydedilmiş. || İstanbul, Ankara, Adana, Mardin ve Kars gibi yerlerde kaydedilmiş.
 035 fark=0 | Ankara'da tarlada göğsündeki ağrıyla uyanan bir çoban yoğun bakıma alındı; belirtileri beşinci günde düzeldi. || Ankara'da, tarlada göğsündeki ağrıyla uyanan bir çoban yoğun bakıma alındı. Belirtileri 5.günde düzeldi.
-036 fark=0 | Makaleye göre Türkiye'de karadul için özel bir panzehir yok; yine de zehirlenme görülme sıklığı çok düşük. || Makaleye göre, Türkiye'de karadul için özel bir panzehir yok. Yine de zehirlenme görülme sıklığı çok düşük.
+036 fark=0 | Makaleye göre Türkiye'de karadul için özel bir panzehir yok; yine de zehirlenme görülme sıklığı çok düşük. || Makaleye göre Türkiye'de karadul için özel bir panzehir yok. Yine de zehirlenme görülme sıklığı çok düşük.
 037 fark=1 | Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini, çocuk ve yaşlıların hastane gözlemi gerektirebildiğini bildiriyor. || Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini, çocuk veya yaşlıların hastane gözlemi gerektirebildiğini bildiriyor.
 038 fark=0 | İkincisi Loxosceles; Türkiye'de sorun çıkaran türüne Akdeniz münzevi örümceği deniyor, sırtındaki keman biçimli lekeyle bilinir. || İkincisi loxoseles. Türkiye'de sorun çıkaran türüne Akdeniz Münzevi Örümceği deniyor. Sırtındaki keman biçimli lekeyle bilinir.
 039 fark=0 | Evde gördüğün örümceğin bu tür olup olmadığına yalnızca uzman karar verebilir. || Evde gördüğün örümceğin bu tür olup olmadığına yalnızca uzman karar verebilir.
@@ -56,7 +56,7 @@
 055 fark=0 | Elinle tutma, deriye bastırma; çoğu örümcek insanı nadiren ısırır, ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman. || Elinle tutma, deriye bastırma. Çoğu örümcek insanı nadiren ısırır, ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman.
 056 fark=3 | Ayakkabı ve giysiyi giymeden önce silkele; Akdeniz münzevi örümceği ayakkabıya, giysiye ve çarşafa saklanabiliyor. || Ayakkabı ve giysiği giymeden önce silkeli. Akdeniz Münzevi Örümceyi ayakkabıya, giysiye ve çarşafa saklanabiliyor. || large-v3: Ayakkabı ve giysiyi giymeden önce silkele. Akdeniz Münzevi Örümceği ayakkabıya, giysiye ve çarşafa saklanabiliyor.
 057 fark=1 | Taş ya da odun yığınını kaldırırken eldiven giy; karadul orada ağ örebiliyor. || Taş ya da odun yanını kaldırırken eldiven giy. Karadul orada ağ örebiliyor.
-058 fark=0 | Isırıldığını düşünüyorsan yarayı sabunlu suyla yıka, soğuk uygula. || Isırıldığını düşünüyorsan yarayı sabunlu suyla yıka, soğuk uygula.
+058 fark=0 | Isırıldığını düşünüyorsan yarayı sabunlu suyla yıka, soğuk uygula. || Isırıldığını düşünüyorsan, yarayı sabunlu suyla yıka, soğuk uygula.
 059 fark=0 | Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. || Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.
 060 fark=0 | Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. || Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.
 061 fark=0 | Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git. || Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.
@@ -66,4 +66,4 @@
 065 fark=1 | Senin yörende örümceğe ne derler, evinde en çok hangisini gördün? || Senin yörende örümceye ne derler? Evinde en çok hangisini gördün?
 066 fark=0 | Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz. || Avludaki komşularda evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz.
 067 fark=0 | Sıradaki komşu: çıyan ısırır mı, ve kırkayakla aynı hayvan mı? || Sıradaki komşu, çıyanı sırır mı ve kırk ayakla aynı hayvan mı?
-068 fark=2 | Komşunu tanı. || Komşu nutana. || large-v3: Komşunu tanı.
+068 fark=0 | Komşunu tanı. || Komşunu tanı.

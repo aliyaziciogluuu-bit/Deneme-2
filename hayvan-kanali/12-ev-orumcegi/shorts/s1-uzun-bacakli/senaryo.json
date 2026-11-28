@@ -1,56 +1,53 @@
 {
-  "dikey": true,
-  "baslik": "Uzun Bacaklı Örümcek Zehirli mi? 🕷️ #shorts",
-  "aciklama": "Vikipedi'ye göre uzun bacaklı örümceğin zehri tıbben önemli değil: ısırabiliyor, ama dünyanın en zehirlisi de değil. Bazı uzun bacaklı örümcekler ağı sarsılınca hızla titreyip dönüyor. Evde örümcek görürsen: bize göre en kolayı bardağı üstüne kapatıp altına sert bir kâğıt kaydırmak ve dışarı bırakmak. Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer. Bu video tıbbi tavsiye yerine geçmez. Tam video kanalımızda: \"Evdeki Örümcek Zehirli mi?\"\n\nKaynaklar:\n- Vikipedi – Pholcidae: en.wikipedia.org/wiki/Pholcidae\n- Vikipedi – Yanlış inanışlar listesi: en.wikipedia.org/wiki/List_of_common_misconceptions_about_science,_technology,_and_mathematics\n- Vikipedi – Tegenaria domestica: en.wikipedia.org/wiki/Tegenaria_domestica\n- Fusto ve ark. (2020). Spider bites of medical significance in the Mediterranean area. J Venom Anim Toxins Incl Trop Dis 26: e20190100. doi.org/10.1590/1678-9199-JVATITD-2019-0100\n- Vikipedi – Spider bite: en.wikipedia.org/wiki/Spider_bite\n- Bildik ve ark. (2021). Mediterranean Black Widow Spider Poisoning in a Metropolitan City in Turkey. J Emerg Med Case Rep 12(2): 48–51. doi.org/10.33706/jemcr.837733\n\n#shorts #örümcek #doğa",
-  "etiketler": [
-    "uzun bacaklı örümcek zehirli mi",
-    "uzun bacaklı örümcek",
-    "evdeki örümcek",
-    "örümcek efsanesi",
-    "shorts",
-    "doğa"
-  ],
-  "ust_yazi": [
-    "UZUN BACAKLI:",
-    "EFSANE"
-  ],
-  "kaynaklar": [],
-  "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
-  "ambiyans": {
-    "dosya": "../../../sesler/gece_cirit.ogg",
-    "seviye": 0.05,
-    "kaynak": "Kanal tarafından sentezlendi (sesler/sentez_gece.py), telifsiz"
-  },
-  "ana_video": "Evdeki Örümcek Zehirli mi? (Önce Bardağı Al)",
-  "sahneler": [
+ "dikey": true,
+ "baslik": "Uzun Bacaklı Örümcek Zehirli mi? 🕷️ #shorts",
+ "aciklama": "Vikipedi'ye göre uzun bacaklı örümceğin zehri tıbben önemli değil: ısırabiliyor, ama dünyanın en zehirlisi de değil. Bazı uzun bacaklı örümcekler ağı sarsılınca hızla titreyip dönüyor. Evde örümcek görürsen: bize göre en kolayı bardağı üstüne kapatıp altına sert bir kâğıt kaydırmak ve dışarı bırakmak. Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer. Bu video tıbbi tavsiye yerine geçmez. Tam video kanalımızda: \"Evdeki Örümcek Zehirli mi?\"\n\nKaynaklar:\n- Vikipedi – Pholcidae: en.wikipedia.org/wiki/Pholcidae\n- Vikipedi – Yanlış inanışlar listesi: en.wikipedia.org/wiki/List_of_common_misconceptions_about_science,_technology,_and_mathematics\n- Vikipedi – Tegenaria domestica: en.wikipedia.org/wiki/Tegenaria_domestica\n- Fusto ve ark. (2020). Spider bites of medical significance in the Mediterranean area. J Venom Anim Toxins Incl Trop Dis 26: e20190100. doi.org/10.1590/1678-9199-JVATITD-2019-0100\n- Vikipedi – Spider bite: en.wikipedia.org/wiki/Spider_bite\n- Bildik ve ark. (2021). Mediterranean Black Widow Spider Poisoning in a Metropolitan City in Turkey. J Emerg Med Case Rep 12(2): 48–51. doi.org/10.33706/jemcr.837733\n\n#shorts #örümcek #doğa",
+ "etiketler": [
+  "uzun bacaklı örümcek zehirli mi",
+  "uzun bacaklı örümcek",
+  "evdeki örümcek",
+  "örümcek efsanesi",
+  "shorts",
+  "doğa"
+ ],
+ "ust_yazi": [
+  "UZUN BACAKLI:",
+  "EFSANE"
+ ],
+ "kaynaklar": [],
+ "beyan": "Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır.",
+ "ana_video": "Evdeki Örümcek Zehirli mi? (Önce Bardağı Al)",
+ "sahneler": [
+  {
+   "ad": "Uzun Bacaklı Örümcek Zehirli mi? 🕷️ #shorts",
+   "cumleler": [
     {
-      "ad": "Uzun Bacaklı Örümcek Zehirli mi? 🕷️ #shorts",
-      "cumleler": [
-        {
-          "yazi": "Vikipedi'ye göre uzun bacaklı örümceğin zehri tıbben önemli değil."
-        },
-        {
-          "yazi": "Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler."
-        },
-        {
-          "yazi": "Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil."
-        },
-        {
-          "yazi": "Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor."
-        },
-        {
-          "yazi": "Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak."
-        },
-        {
-          "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git."
-        },
-        {
-          "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer."
-        },
-        {
-          "yazi": "Tam videosu kanalımızda."
-        }
-      ]
+     "yazi": "Vikipedi'ye göre uzun bacaklı örümceğin zehri tıbben önemli değil."
+    },
+    {
+     "yazi": "Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler."
+    },
+    {
+     "yazi": "Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil."
+    },
+    {
+     "yazi": "Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor."
+    },
+    {
+     "yazi": "Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak."
+    },
+    {
+     "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git."
+    },
+    {
+     "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer."
+    },
+    {
+     "yazi": "Tam videosu kanalımızda."
     }
-  ]
+   ]
+  }
+ ],
+ "altyazi_stili": "kelime",
+ "muzik": "lyria_merak"
 }

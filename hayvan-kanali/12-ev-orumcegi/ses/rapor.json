@@ -232,11 +232,11 @@
   "uygun": true
  },
  "033": {
-  "yazi": "Türkiye'de kayıtlı türlerden biri Akdeniz karadulu; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor.",
-  "duyulan": "Türkiye'de kayıtlı türlerden biri Akdeniz-Karadulu. Bozkırda, tarlada, taş ve odun arasında kulübe ve kümeste ağa kuruyor.",
-  "hata": 1,
-  "sure": 8.96,
-  "uygun": false,
+  "yazi": "Türkiye'de kayıtlı türlerden biri Akdeniz karadulu; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağını örüyor.",
+  "duyulan": "Türkiye'de kayıtlı türlerden biri, Akdeniz Karadulu. Bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağını örüyor.",
+  "hata": 0,
+  "sure": 10.1,
+  "uygun": true,
   "tek_basina": true
  },
  "034": {
