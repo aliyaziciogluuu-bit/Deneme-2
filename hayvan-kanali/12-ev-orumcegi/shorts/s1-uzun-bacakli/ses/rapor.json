@@ -1,0 +1,58 @@
+{
+ "000": {
+  "yazi": "Vikipedi'ye göre uzun bacaklı örümceğin zehri tıbben önemli değil.",
+  "duyulan": "Wikipedia'ya göre uzun bacaklı örümceğin zehri tıbben önemli değil.",
+  "hata": 1,
+  "sure": 3.76,
+  "uygun": true
+ },
+ "001": {
+  "yazi": "Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.",
+  "duyulan": "Bir şehir efsanesi bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.",
+  "hata": 0,
+  "sure": 6.02,
+  "uygun": true
+ },
+ "002": {
+  "yazi": "Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil.",
+  "duyulan": "Bu doğru değil. Isırabiliyor ama dünyanın en zehrilisi de değil.",
+  "hata": 1,
+  "sure": 3.62,
+  "uygun": true
+ },
+ "003": {
+  "yazi": "Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
+  "duyulan": "Bazı uzun bacaklı örümcekler ağa sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.",
+  "hata": 1,
+  "sure": 5.24,
+  "uygun": true
+ },
+ "004": {
+  "yazi": "Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak.",
+  "duyulan": "Bize göre en kolayı bardağı örümceğin üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.",
+  "hata": 0,
+  "sure": 5.18,
+  "uygun": true
+ },
+ "005": {
+  "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "duyulan": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 5.48,
+  "uygun": true
+ },
+ "006": {
+  "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
+  "duyulan": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
+  "hata": 0,
+  "sure": 3.88,
+  "uygun": true
+ },
+ "007": {
+  "yazi": "Tam videosu kanalımızda.",
+  "duyulan": "Tam videosu kanalımızda.",
+  "hata": 0,
+  "sure": 1.16,
+  "uygun": true
+ }
+}

@@ -47,7 +47,7 @@
   "ambiyans": {
     "dosya": "../sesler/gece_cirit.ogg",
     "seviye": 0.05,
-    "kaynak": "Kanal tarafından sentezlendi (sesler/sentez_gece.py), telifsiz"
+    "kaynak": "Kanal tarafından sentezlendi, telifsiz"
   },
   "baslik_secenekleri": [
     "Çıyan Isırır mı? (Kırkayakla Aynı Mı?)",

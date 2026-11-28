@@ -1,0 +1,8 @@
+000 fark=1 | Vikipedi'ye göre uzun bacaklı örümceğin zehri tıbben önemli değil. || Wikipedia'ya göre uzun bacaklı örümceğin zehri tıbben önemli değil.
+001 fark=0 | Bir şehir efsanesi, bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler. || Bir şehir efsanesi bu örümceğin zehrinin çok güçlü ama dişlerinin derini delemeyecek kadar küçük olduğunu söyler.
+002 fark=1 | Bu doğru değil: ısırabiliyor, ama dünyanın en zehirlisi de değil. || Bu doğru değil. Isırabiliyor ama dünyanın en zehrilisi de değil.
+003 fark=1 | Bazı uzun bacaklı örümcekler, ağı sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor. || Bazı uzun bacaklı örümcekler ağa sarsılınca ters asılı olduğu yerde hızla titreyip dönüyor.
+004 fark=0 | Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak. || Bize göre en kolayı bardağı örümceğin üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.
+005 fark=0 | Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. || Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa, vakit kaybetmeden bir sağlık kuruluşuna git.
+006 fark=0 | Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer. || Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.
+007 fark=0 | Tam videosu kanalımızda. || Tam videosu kanalımızda.
