@@ -39,3 +39,7 @@ zehir_boru: ÜRETİM DIŞI (kesit istemi riskli; yerine kiskac_yakin, zehir_boru
 ev_ciyani_ornek_avlar: ÜRETİM DIŞI (3 adayda av sayısı/tür tutmadı; yerine ev_ciyani_pusu)
 ev_ciyani_duvar: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur)
 karsilastir_yan: KABUL (aday 3; görsel denetçi 28 Kas, 2. tur)
+ev_ciyani_arka: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur, uyarılı)
+ciyan_av: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur; siyah şeritler kırpıldı)
+ev_ciyani_kopar: ÜRETİM DIŞI (2 tur RET; yerine ev_ciyani_yakin bacağa kayan kadrajla)
+bodrum_garaj: ÜRETİM DIŞI (1. tur ilmik, 2. tur sarkan kablo ve etiket; yerine ev_ciyani_tavan; bodrum_garaj_k iptal)

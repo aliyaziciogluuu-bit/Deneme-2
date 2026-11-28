@@ -121,20 +121,6 @@
    "not": "Ev çıyanı bacaklarıyla böceği çevrelemiş (kement gibi). Karmaşıksa RET; ev_ciyani_yakin ile karşılanır."
   },
   {
-   "ad": "ev_ciyani_kopar",
-   "oran": "16:9",
-   "istem": "On a pale floor tile, in the sharp foreground exactly one long thin banded leg lies detached on the tile, about 3 cm long, no animal body touching it; a realistic house centipede (Scutigera coleoptrata): short oval body only about one third as long as its legs, three dark lengthwise stripes on a pale yellow-grey back, 15 pairs of very long thin banded legs, two very long antennae is small and strongly blurred far in the background, running away.",
-   "aday": 2,
-   "not": "Önde tek kopmuş ince halkalı bacak; arkada bulanık ev çıyanı uzaklaşıyor. Kan yok. Arka plan hayvanın gövdesi bozuksa yine kullanılabilir (bulanık). | 2. tur (28 Kas)"
-  },
-  {
-   "ad": "bodrum_garaj",
-   "oran": "16:9",
-   "istem": "A tidy dim basement storage corner in a Turkish house: plain cardboard boxes, a wooden shelf, a plain unlabeled bucket and a folded cloth on the floor, soft light from a small high window; no rope at all, no hanging cord, no label, no writing on any object, no animals, no people.",
-   "aday": 1,
-   "not": "Bodrum/garaj; hayvan yok. İp çıkarsa sorun değil ama yılan izlenimi olmamalı. | 2. tur (28 Kas)"
-  },
-  {
    "ad": "tas_odun_dis",
    "oran": "16:9",
    "istem": "A garden corner in warm afternoon light with a low pile of flat stones, a stack of cut firewood and a heap of dry leaves beside an old stone wall, bare earth around, calm and quiet, no animals, no people.",

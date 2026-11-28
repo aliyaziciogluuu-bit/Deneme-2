@@ -360,21 +360,21 @@
   },
   {
    "n": 1,
-   "gorsel": "ev_ciyani_kopar",
+   "gorsel": "ev_ciyani_yakin",
    "a": [
     0.5,
     0.5,
-    1
+    1.0
    ],
    "b": [
-    0.53,
-    0.46,
-    0.78
+    0.32,
+    0.62,
+    0.62
    ]
   },
   {
    "n": 1,
-   "gorsel": "bodrum_garaj",
+   "gorsel": "ev_ciyani_tavan",
    "a": [
     0.5,
     0.5,
@@ -384,8 +384,7 @@
     0.47,
     0.46,
     0.78
-   ],
-   "klip": "bodrum_garaj_k"
+   ]
   },
   {
    "n": 1,
