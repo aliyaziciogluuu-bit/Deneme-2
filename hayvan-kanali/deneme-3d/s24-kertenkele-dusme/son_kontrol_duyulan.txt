@@ -1,0 +1,6 @@
+000 fark=0 | Bir ev gekosu türü düşerken kuyruğuyla dönüyor. || bir ev gekosu türü düşerken kuyruğuyla dönüyor.
+001 fark=0 | Sırtüstü düşse bile, karnı yere bakıyor. || Sırtüstü düşse bile karnı yere bakıyor.
+002 fark=0 | Kuyruk bir yöne dönünce gövde ters dönüyor. || Kuyruk bir yöne dönünce gövde ters dönüyor.
+003 fark=0 | Bu dönüş, saniyenin yaklaşık onda biri sürüyor. || Bu dönüş saniyenin yaklaşık onda biri sürüyor.
+004 fark=0 | Havada süzülürken kuyruk, yönü de ayarlıyor. || Havada süzülürken kuyruk yönü de ayarlıyor.
+005 fark=1 | Peki kuyruğu kopmuş gekoyu ne bekliyor? || Peki kuyruğu kopmuş Gecko'yu ne bekliyor? || large-v3: Peki kuyruğu kopmuş gekoyu ne bekliyor?

@@ -1,0 +1,39 @@
+1
+00:00:00,700 --> 00:00:02,514
+Kraliçe ölünce, işçi arılar
+
+2
+00:00:02,514 --> 00:00:04,505
+yeni kraliçe yetiştiriyor.
+
+3
+00:00:04,610 --> 00:00:06,735
+Üstelik sıradan bir işçi larvadan.
+
+4
+00:00:06,840 --> 00:00:07,851
+Seçilen larva,
+
+5
+00:00:07,851 --> 00:00:10,045
+bol arı sütüyle besleniyor.
+
+6
+00:00:10,150 --> 00:00:11,435
+İşçiler mümkünse en
+
+7
+00:00:11,435 --> 00:00:13,235
+genç larvaları seçiyor.
+
+8
+00:00:13,340 --> 00:00:15,319
+Bir günlük larvadan çıkan kraliçe,
+
+9
+00:00:15,319 --> 00:00:16,845
+daha çok işçi çekiyor.
+
+10
+00:00:16,950 --> 00:00:19,000
+Ya genç larva kalmamışsa?
