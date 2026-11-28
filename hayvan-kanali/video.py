@@ -338,6 +338,9 @@ def sigdir_tuvali(gorsel: Image.Image) -> Image.Image:
     return zemin
 
 
+KLIP_FPS = 24  # Kling klipleri 24 kare/sn; önbellek klibin kendi hızında tutulur (30'a çevirmek %25 fazla disk harcıyordu, 28 Kasım)
+
+
 def klipleri_hazirla(klasor: pathlib.Path, zamanli_plan=None):
     """cekimler.json'daki klipleri 1920x1080, 30 fps ham karelere çevirir (işçi süreçler bellek eşlemeyle okur).
     zamanli_plan (Sahne.plan) verilirse her klipten yalnızca çekimde gerçekten kullanılan süre önbelleğe alınır
@@ -368,7 +371,7 @@ def klipleri_hazirla(klasor: pathlib.Path, zamanli_plan=None):
                 aralik = (["-ss", str(kx[ad][3][0])] if kx[ad][3] else []) + ["-t", f"{sure:.2f}"]
             subprocess.run(["ffmpeg", "-v", "error", "-y", *aralik, "-i", str(klasor / "klipler" / f"{ad}.mp4"), "-an", "-vf",
                             f"scale={round(G * kx[ad][1])}:{round(Y * kx[ad][1])}:force_original_aspect_ratio=increase:flags=lanczos,"
-                            f"crop={G}:{Y}:(iw-{G})*{kx[ad][0]}:(ih-{Y})*{kx[ad][2]},fps={FPS}",
+                            f"crop={G}:{Y}:(iw-{G})*{kx[ad][0]}:(ih-{Y})*{kx[ad][2]},fps={KLIP_FPS}",
                             "-pix_fmt", "rgb24", "-f", "rawvideo", str(hedef)], check=True)
 
 
@@ -420,9 +423,9 @@ class Sahne:
             yol = self.klasor / "_gecici" / f"klip_{ad}.rgb"
             self._klip[ad] = np.memmap(yol, dtype=np.uint8, mode="r").reshape(-1, Y, G, 3)
         kareler = self._klip[ad]
-        uzunluk, sure = len(kareler) / FPS, c["bit"] - c["bas"]
+        uzunluk, sure = len(kareler) / KLIP_FPS, c["bit"] - c["bas"]
         hiz = min(1.0, uzunluk / sure)
-        i = min(int((t - c["bas"]) * FPS * hiz), len(kareler) - 1)
+        i = min(int((t - c["bas"]) * KLIP_FPS * hiz), len(kareler) - 1)
         return Image.fromarray(np.ascontiguousarray(kareler[max(i, 0)]))
 
     def kamera(self, c, t):
@@ -624,6 +627,8 @@ def main():
     gorevler = [(klasor, sinir[i], sinir[i + 1], gecici / f"p{i}.mp4") for i in range(isci)]
     with mp.Pool(isci) as havuz:
         parcalar = havuz.map(parca_uret, gorevler)
+    for f in gecici.glob("klip_*.rgb"):  # kareler işlendi; birleştirmeden önce diski boşalt (uzun videoda ~8 GB)
+        f.unlink()
     (gecici / "liste.txt").write_text("".join(f"file '{p.name}'\n" for p in parcalar))
     amb = sahne.senaryo.get("ambiyans")
     girdiler, filtre = ["-i", str(gecici / "ses.wav")], "[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"

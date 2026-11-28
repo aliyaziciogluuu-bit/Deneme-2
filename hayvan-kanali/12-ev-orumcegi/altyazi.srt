@@ -1,0 +1,455 @@
+1
+00:00:00,700 --> 00:00:03,192
+Gece mutfağa giriyorsun, ışığı yakıyorsun
+
+2
+00:00:03,192 --> 00:00:05,565
+ve duvarda iri bir örümcek duruyor.
+
+3
+00:00:05,670 --> 00:00:07,375
+Evdeki örümcek zehirli mi?
+
+4
+00:00:07,480 --> 00:00:11,185
+Şaşıracaksın: neredeyse bütün örümceklerin zehir bezi var.
+
+5
+00:00:11,290 --> 00:00:14,998
+Yine de Türkiye'den bir tıp makalesi, yaşam alanlarımızda bulunabilen
+
+6
+00:00:14,998 --> 00:00:18,575
+örümceklerin çoğunun insanlar için zehirli olmadığını yazıyor.
+
+7
+00:00:18,680 --> 00:00:23,768
+Ama Türkiye'de de insanda belirgin etki yapabilen başlıca iki cins var.
+
+8
+00:00:23,872 --> 00:00:26,258
+Biri daha çok bozkırda ve tarlada yaşıyor.
+
+9
+00:00:26,362 --> 00:00:28,866
+Peki doktora örümcek ısırdı diye gidenlerin
+
+10
+00:00:28,866 --> 00:00:31,212
+çoğunda neden başka bir şey çıkıyor?
+
+11
+00:00:31,812 --> 00:00:36,397
+Tavan köşesindeki upuzun bacaklı örümcek, dünyanın en zehirlisi mi?
+
+12
+00:00:36,502 --> 00:00:38,719
+Öyle diyen bir şehir efsanesi var:
+
+13
+00:00:38,719 --> 00:00:43,267
+zehri çok güçlüymüş ama dişleri derini delemeyecek kadar küçükmüş.
+
+14
+00:00:43,372 --> 00:00:45,832
+Vikipedi bunun doğru olmadığını söylüyor:
+
+15
+00:00:45,832 --> 00:00:48,717
+ısırabiliyor, ama zehri tıbben önemli değil.
+
+16
+00:00:48,822 --> 00:00:50,984
+Böyle bir yanlışı her hafta düzeltiyoruz;
+
+17
+00:00:50,984 --> 00:00:53,127
+sıradakini kaçırmamak için abone ol.
+
+18
+00:00:53,232 --> 00:00:56,217
+Salı ve cumartesi akşamı yeni komşu geliyor.
+
+19
+00:00:56,322 --> 00:00:59,380
+Olası bir açıklama şu: Vikipedi, bu örümceğin karadul
+
+20
+00:00:59,380 --> 00:01:02,567
+gibi tehlikeli örümcekleri de avladığını anlatıyor.
+
+21
+00:01:02,672 --> 00:01:05,390
+Bazı uzun bacaklı örümcekler, ağı sarsılınca
+
+22
+00:01:05,390 --> 00:01:08,542
+ters asılı olduğu yerde hızla titreyip dönüyor.
+
+23
+00:01:09,142 --> 00:01:13,068
+Peki duvarda sıçrayarak ilerleyen, iri gözlü örümcek kim?
+
+24
+00:01:13,172 --> 00:01:14,828
+Bunlar sıçrayan örümcekler;
+
+25
+00:01:14,828 --> 00:01:18,078
+ağ kurup beklemek yerine avının üzerine sıçrıyor.
+
+26
+00:01:18,182 --> 00:01:21,278
+Gözleri eklembacaklılar arasında en iyi görenlerden;
+
+27
+00:01:21,278 --> 00:01:23,488
+renkli görme bile yapabiliyorlar.
+
+28
+00:01:23,592 --> 00:01:26,898
+Geceyi ve kışı ipekten küçük bir çadırda geçiriyorlar.
+
+29
+00:01:27,002 --> 00:01:29,580
+Çoğu örümcek tehlike görünce kaçar ya da
+
+30
+00:01:29,580 --> 00:01:32,468
+ölü taklidi yapar; insanı nadiren ısırır.
+
+31
+00:01:32,572 --> 00:01:34,627
+Uyurken örümcek yuttuğun söylenir;
+
+32
+00:01:34,627 --> 00:01:38,562
+Vikipedi'ye göre insanlar uykuda çok sayıda örümcek yutmuyor.
+
+33
+00:01:39,162 --> 00:01:42,808
+Mutfak köşesindeki huni biçimli ağın sahibi tehlikeli mi?
+
+34
+00:01:42,912 --> 00:01:45,965
+Huni ağı ören ev örümceği cinsi nadiren ısırır;
+
+35
+00:01:45,965 --> 00:01:49,977
+ısırırsa savunma içindir ve deriyi delmesi olası değildir.
+
+36
+00:01:50,082 --> 00:01:53,230
+Dolabın arkasında yuvarlak karınlı koyu bir örümcek,
+
+37
+00:01:53,230 --> 00:01:57,168
+dolap örümceği ya da sahte karadul diye anılan cins olabilir.
+
+38
+00:01:57,272 --> 00:02:01,078
+Uzman olmayanlar onu karaduldan kolay ayıramaz; o yüzden elle tutma.
+
+39
+00:02:01,182 --> 00:02:03,167
+Dolap örümceği ısırırsa ne olur?
+
+40
+00:02:03,272 --> 00:02:07,701
+Dolap örümceğinin ısırığı bölgesel ağrı, kızarıklık ve şişlik yapabiliyor;
+
+41
+00:02:07,701 --> 00:02:10,938
+bazı olgularda bulantı ve baş ağrısı da görülüyor.
+
+42
+00:02:11,042 --> 00:02:13,968
+Bölgesel belirtiler genellikle iki üç günde geçiyor.
+
+43
+00:02:14,072 --> 00:02:16,969
+Dolap örümceği ısırıkları kışın da evde olabiliyor;
+
+44
+00:02:16,969 --> 00:02:20,002
+karadul ısırığı genellikle yazın dışarıda oluyor.
+
+45
+00:02:20,602 --> 00:02:24,028
+Bahçeden eve giren iri örümceklerden korkmalı mısın?
+
+46
+00:02:24,132 --> 00:02:28,432
+Akdeniz çevresi için yazılmış bir derleme, bu endişenin yersiz olduğunu,
+
+47
+00:02:28,432 --> 00:02:32,678
+iri örümceklerin zehrinin insanda pek etkili olmadığını belirtiyor.
+
+48
+00:02:32,782 --> 00:02:37,201
+Aralarında rahatsız edilince en çok savunmaya geçen tür, özellikle
+
+49
+00:02:37,201 --> 00:02:39,276
+yumurtasını koruyan dişisiymiş;
+
+50
+00:02:39,276 --> 00:02:42,673
+ısırığı yaban arısı sokmasından hafif bulunmuş.
+
+51
+00:02:43,272 --> 00:02:46,878
+Peki bu başlıca iki cins hangileri ve neden dikkat istiyorlar?
+
+52
+00:02:46,983 --> 00:02:50,028
+Birincisi karadul; bilimsel adı Latrodectus.
+
+53
+00:02:50,133 --> 00:02:53,982
+Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği;
+
+54
+00:02:53,982 --> 00:02:58,438
+bozkırda, tarlada, taş ve odun yığınında, kulübe ve kümeste ağ örüyor.
+
+55
+00:02:58,543 --> 00:03:02,868
+İstanbul, Ankara, Adana, Mardin ve Kars gibi yerlerde kaydedilmiş.
+
+56
+00:03:02,973 --> 00:03:05,780
+Ankara'da tarlada göğsündeki ağrıyla uyanan bir çoban
+
+57
+00:03:05,780 --> 00:03:08,938
+yoğun bakıma alındı; belirtileri beşinci günde düzeldi.
+
+58
+00:03:09,043 --> 00:03:11,698
+Makaleye göre Türkiye'de karadul panzehiri yok;
+
+59
+00:03:11,698 --> 00:03:14,485
+yine de zehirlenme görülme sıklığı çok düşük.
+
+60
+00:03:14,590 --> 00:03:17,815
+Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini,
+
+61
+00:03:17,815 --> 00:03:21,335
+çocuk ve yaşlıların hastane gözlemi gerektirebildiğini bildiriyor.
+
+62
+00:03:21,440 --> 00:03:25,128
+İkincisi Loxosceles; Türkiye'de sorun çıkaran türü Akdeniz münzevi
+
+63
+00:03:25,128 --> 00:03:29,005
+ya da Akdeniz kahverengi örümceği, keman biçimli lekeyle bilinir.
+
+64
+00:03:29,110 --> 00:03:30,883
+Evde gördüğün örümceğin bu tür olup
+
+65
+00:03:30,883 --> 00:03:33,255
+olmadığına yalnızca uzman karar verebilir.
+
+66
+00:03:33,360 --> 00:03:37,047
+Kayalıkta yaşayabilir ama sık sık evlerde, mobilya arkasında ve kutu
+
+67
+00:03:37,047 --> 00:03:40,925
+yığınlarında bulunuyor; ayakkabıya, giysiye, çarşafa da saklanıyor.
+
+68
+00:03:41,030 --> 00:03:43,705
+Akdeniz münzevi örümceği saldırgan değil ama deriye
+
+69
+00:03:43,705 --> 00:03:47,255
+bastırılırsa ısırabiliyor; çoğunlukla giyinirken ya da uyurken.
+
+70
+00:03:47,360 --> 00:03:51,033
+Türkiye'de İstanbul, Mardin, Kahramanmaraş, Hatay, Antalya,
+
+71
+00:03:51,033 --> 00:03:55,885
+Muğla ve Aydın'da saptanmış; liste yalnızca bildirilen yerleri gösteriyor.
+
+72
+00:03:55,990 --> 00:03:58,836
+Akdeniz münzevi örümceğinin ısırığı çoğunlukla acısız;
+
+73
+00:03:58,836 --> 00:04:02,295
+saatler içinde kızarıklık, kabarcık ve morarma görülebiliyor.
+
+74
+00:04:02,400 --> 00:04:05,305
+Hafif vakalarda kızarıklık iki üç haftada geçiyor;
+
+75
+00:04:05,305 --> 00:04:09,328
+ağır vakalarda doku ölümü olabiliyor, iyileşme aylar sürebiliyor.
+
+76
+00:04:09,432 --> 00:04:12,868
+Yine de bir derleme, Akdeniz münzevi örümceğinin zehrinin Amerika
+
+77
+00:04:12,868 --> 00:04:16,922
+kıtasındaki akrabalarından çok daha az tehlikeli sayıldığını belirtiyor.
+
+78
+00:04:17,522 --> 00:04:19,506
+Başta sorduğumuz soruya dönelim:
+
+79
+00:04:19,506 --> 00:04:23,347
+ısırık sanılan şey neden çoğu zaman başka bir şey çıkıyor?
+
+80
+00:04:23,452 --> 00:04:27,303
+Bir derleme, örümcek ısırığının ancak örümcek ısırırken görülür,
+
+81
+00:04:27,303 --> 00:04:31,218
+yakalanır ve bir uzman tanırsa kesinleşebildiğini bildiriyor.
+
+82
+00:04:31,322 --> 00:04:34,763
+Kaliforniya'daki bir acil servis çalışmasında, bu şikâyetle
+
+83
+00:04:34,763 --> 00:04:38,508
+gelenlerin yalnızca çok azı örümceği ısırma anında görmüştü.
+
+84
+00:04:38,612 --> 00:04:40,878
+Çoğuna deri enfeksiyonu teşhisi konmuş.
+
+85
+00:04:40,982 --> 00:04:43,204
+Derleme, yarayı örümceğe yormanın uygun
+
+86
+00:04:43,204 --> 00:04:45,728
+tedaviyi geciktirebildiğini de söylüyor.
+
+87
+00:04:45,833 --> 00:04:50,323
+Bu yüzden yaran kötüleşiyorsa örümcektir deyip bekleme; hekime göster.
+
+88
+00:04:50,922 --> 00:04:53,868
+Peki karşına bir örümcek çıkınca ne yapmalısın?
+
+89
+00:04:53,972 --> 00:04:56,972
+Bize göre en kolayı: bardağı örümceğin üstüne kapat,
+
+90
+00:04:56,972 --> 00:04:59,698
+altına sert bir kâğıt kaydır, dışarı bırak.
+
+91
+00:04:59,802 --> 00:05:02,887
+Vikipedi, ev örümceğinin arkadan rahatsız edilince ileri
+
+92
+00:05:02,887 --> 00:05:06,328
+kaçtığını, bu yüzden önüne konan kaba girdiğini anlatıyor.
+
+93
+00:05:06,432 --> 00:05:10,436
+Elinle tutma, deriye bastırma; çoğu örümcek insanı nadiren ısırır,
+
+94
+00:05:10,436 --> 00:05:14,018
+ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman.
+
+95
+00:05:14,122 --> 00:05:16,635
+Ayakkabı ve giysiyi giymeden önce silkele;
+
+96
+00:05:16,635 --> 00:05:21,128
+Akdeniz münzevi örümceği ayakkabıya, giysiye ve çarşafa saklanabiliyor.
+
+97
+00:05:21,232 --> 00:05:24,315
+Taş ya da odun yığınını kaldırırken eldiven giy;
+
+98
+00:05:24,315 --> 00:05:26,358
+karadul orada ağ örebiliyor.
+
+99
+00:05:26,463 --> 00:05:30,688
+Isırıldığını düşünüyorsan yarayı sabunlu suyla yıka, soğuk uygula.
+
+100
+00:05:30,792 --> 00:05:33,741
+Şiddetli ağrı, kas krampı, terleme ya da bulantı
+
+101
+00:05:33,741 --> 00:05:37,058
+varsa vakit kaybetmeden bir sağlık kuruluşuna git.
+
+102
+00:05:37,162 --> 00:05:39,282
+Isırık yeri günler içinde kötüleşiyor,
+
+103
+00:05:39,282 --> 00:05:42,428
+morarıyor ya da ateş çıkıyorsa da bir hekime başvur.
+
+104
+00:05:42,532 --> 00:05:46,068
+Belirti gösteren çocuk, hamile ya da kalp veya tansiyon
+
+105
+00:05:46,068 --> 00:05:49,720
+hastası yaşlı varsa beklemeden sağlık kuruluşuna git.
+
+106
+00:05:49,825 --> 00:05:53,975
+Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.
+
+107
+00:05:54,575 --> 00:05:58,333
+Özetle evdeki örümceklerin çoğu insanlar için zehirli değil;
+
+108
+00:05:58,333 --> 00:06:01,960
+karadul ile Akdeniz münzevi örümceği ciddiye alınmalı.
+
+109
+00:06:02,065 --> 00:06:05,390
+Isırık sandığın yara için de örümceğe değil, doktora sor.
+
+110
+00:06:05,495 --> 00:06:09,340
+Senin yörende örümceğe ne derler, evinde en çok hangisini gördün?
+
+111
+00:06:09,445 --> 00:06:12,230
+Avludaki Komşular'da, evinin çevresindeki yanlış
+
+112
+00:06:12,230 --> 00:06:14,970
+tanınan komşuları anlatmaya devam edeceğiz.
+
+113
+00:06:15,075 --> 00:06:19,520
+Sıradaki komşu: çıyan ısırır mı, ve kırkayakla aynı hayvan mı?
+
+114
+00:06:19,625 --> 00:06:20,615
+Komşunu tanı.
