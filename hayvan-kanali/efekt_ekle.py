@@ -45,7 +45,7 @@ def main():
         if alt:  # cümle içindeki sert kesme: efekt yok (28 Kasım, kanal sahibi: geçiş efektleri rahatsız edici)
             continue
         if g.yumusak:  # cümle aralarındaki kesmede kısa, alçak "fısıltı"
-            olaylar.append(("fisilti.wav", max(t - 0.08, 0), g.seviye - 6))
+            olaylar.append(("fisilti.wav", max(t - 0.16, 0), g.seviye - 6))  # konuşma başlamadan biter (kısa ilk kelimeyi maskelemesin)
         else:
             olaylar.append(("whoosh.wav" if i % 2 == 0 else "whoosh_ters.wav", max(t - 0.12, 0), g.seviye))  # konuşma bittikten sonra başlasın (ara/2 = 0,175 sn)
     for n in [int(x) for x in g.parilti.split(",") if x.strip()]:
