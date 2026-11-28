@@ -306,5 +306,61 @@
   "hata": 0,
   "sure": 7.48,
   "uygun": true
+ },
+ "044": {
+  "yazi": "Peki kırkayak gerçekten zararsız mı?",
+  "duyulan": "Peki, kırk ayak gerçekten zararsız mı?",
+  "hata": 0,
+  "sure": 2.4,
+  "uygun": true
+ },
+ "045": {
+  "yazi": "Kırkayak ısırmaz; tehlikede çoğu zaman sıkı bir spiral olup bacaklarını zırhlı gövdesinin içine saklıyor.",
+  "duyulan": "Kırk ayak ısırmaz, tehlikede çoğu zaman sıkı bir spiral olup bacaklarını zırhlı gövdesinin içine saklıyor.",
+  "hata": 0,
+  "sure": 5.96,
+  "uygun": true
+ },
+ "046": {
+  "yazi": "Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor.",
+  "duyulan": "Birçok kırk ayak, yanlardaki gözeneklerden kötü kokulu tahriş edici bir sıvı salgılıyor.",
+  "hata": 0,
+  "sure": 4.96,
+  "uygun": true
+ },
+ "047": {
+  "yazi": "Türkçe derleme, tutulan ya da sıkılan kırkayakta etkilenen bölgede yanma ve koyu lezyon görülebildiğini yazıyor.",
+  "duyulan": "Türkçe derleme tutulan ya da sıkılan kırk ayakta etkilenen bölgede yanma ve koyu lezyon görülebildiğini yazıyor.",
+  "hata": 0,
+  "sure": 6.64,
+  "uygun": true
+ },
+ "048": {
+  "yazi": "Vikipedi daha hafif anlatıyor: salgılar çoğunlukla zararsız, genellikle yalnızca hafif renk değişimi yapıyor.",
+  "duyulan": "Wikipedia daha hafif anlatıyor, salgılar çoğunlukla zararsız, genellikle yalnızca hafif renk değişimi yapıyor.",
+  "hata": 0,
+  "sure": 6.32,
+  "uygun": true
+ },
+ "049": {
+  "yazi": "Ağrı ve kabarcık gibi daha ağır etkiler bazı tropikal türlerde bildirilmiş.",
+  "duyulan": "Ağrı ve kabarcık gibi daha ağır etkiler bazı tropikal türlerde bildirilmiş.",
+  "hata": 0,
+  "sure": 4.82,
+  "uygun": true
+ },
+ "050": {
+  "yazi": "Göze kaçarsa tahriş ve göz iltihabı gibi daha ciddi sorunlar çıkabilir.",
+  "duyulan": "Göze kaçarsa tahriş ve göz iltihabı gibi daha ciddi sorunlar çıkabilir.",
+  "hata": 0,
+  "sure": 4.06,
+  "uygun": true
+ },
+ "051": {
+  "yazi": "Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur.",
+  "duyulan": "Göze ya da deriye değerse bol suyla iyice yıka, gözle şikayet sürerse sağlık kuruluşuna başvur.",
+  "hata": 1,
+  "sure": 6.54,
+  "uygun": true
  }
 }
