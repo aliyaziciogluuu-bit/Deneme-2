@@ -605,7 +605,7 @@ Kaynaklar ve cümle eşlemesi:
 
 Metin:
 1. Bazı kertenkelelerin kopan kuyruğu kıpırdamaya devam ediyor.
-2. Bu, avcının dikkatini dağıtıyor.
+2. Bu, düşmanın dikkatini dağıtıyor.
 3. Bir gekoda kuyruk, önceden ayrılmış noktalardan kopuyor.
 4. Ama bedeli ağır: kuyruk hareket ve yağ depolamaya yarıyor.
 5. Bu yüzden kertenkeleyi asla kuyruğundan tutma.
@@ -693,7 +693,7 @@ Kaynaklar ve cümle eşlemesi:
 Metin:
 1. Bu kurbağa yutkunurken gözlerini içeri çekiyor.
 2. Bunu özel bir göz kası yapıyor.
-3. Gözler, ağzın tavanından ağıza iniyor.
+3. Gözler, ağzın tavanından ağza iniyor.
 4. Muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor.
 5. Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor.
 6. Peki gözleri olmasa yutamaz mıydı?
