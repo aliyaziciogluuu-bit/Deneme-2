@@ -1,9 +1,9 @@
 [GEÇTİ] Video, ses ve senaryodan yeni 
 [GEÇTİ] Cümle cümle ses doğrulaması 8/8 cümle doğrulandı; large-v3 ikinci dinlemeyle: ['000']
 [GEÇTİ] Görüntü biçimi 1080x1920 30 fps h264/aac
-[GEÇTİ] Video ve ses süresi tutarlı video 40.4 sn, ses 40.5 sn
+[GEÇTİ] Video ve ses süresi tutarlı video 40.4 sn, ses 40.4 sn
 [GEÇTİ] Shorts süresi (≤ 60 sn) 40.4 sn
-[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.4 LUFS, tepe -1.3 dBTP
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.6 LUFS, tepe -1.3 dBTP
 [GEÇTİ] Siyah kare yok 
 [GEÇTİ] Donmuş görüntü yok (4 sn+) 
 [KALDI] Bitmiş videoda anlatım = senaryo (cümle cümle) 7/8 cümle birebir, toplam 8/91 kelime farkı
