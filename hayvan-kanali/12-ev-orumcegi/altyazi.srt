@@ -207,249 +207,249 @@ Peki bu başlıca iki cins hangileri ve neden dikkat istiyorlar?
 Birincisi karadul; bilimsel adı Latrodectus.
 
 53
-00:02:50,392 --> 00:02:54,939
-Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği;
+00:02:50,392 --> 00:02:54,910
+Türkiye'de kayıtlı türlerden biri Akdeniz karadulu; bozkırda,
 
 54
-00:02:54,939 --> 00:03:00,158
-bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor.
+00:02:54,910 --> 00:02:59,598
+tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor.
 
 55
-00:03:00,263 --> 00:03:04,588
+00:02:59,703 --> 00:03:04,028
 İstanbul, Ankara, Adana, Mardin ve Kars gibi yerlerde kaydedilmiş.
 
 56
-00:03:04,693 --> 00:03:07,500
+00:03:04,133 --> 00:03:06,940
 Ankara'da tarlada göğsündeki ağrıyla uyanan bir çoban
 
 57
-00:03:07,500 --> 00:03:10,658
+00:03:06,940 --> 00:03:10,098
 yoğun bakıma alındı; belirtileri beşinci günde düzeldi.
 
 58
-00:03:10,763 --> 00:03:14,717
+00:03:10,203 --> 00:03:14,157
 Makaleye göre Türkiye'de karadul için özel bir panzehir yok;
 
 59
-00:03:14,717 --> 00:03:17,928
+00:03:14,157 --> 00:03:17,368
 yine de zehirlenme görülme sıklığı çok düşük.
 
 60
-00:03:18,033 --> 00:03:21,258
+00:03:17,473 --> 00:03:20,698
 Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini,
 
 61
-00:03:21,258 --> 00:03:24,778
+00:03:20,698 --> 00:03:24,218
 çocuk ve yaşlıların hastane gözlemi gerektirebildiğini bildiriyor.
 
 62
-00:03:24,883 --> 00:03:28,964
+00:03:24,323 --> 00:03:28,404
 İkincisi Loxosceles; Türkiye'de sorun çıkaran türüne Akdeniz
 
 63
-00:03:28,964 --> 00:03:33,768
+00:03:28,404 --> 00:03:33,208
 münzevi örümceği deniyor, sırtındaki keman biçimli lekeyle bilinir.
 
 64
-00:03:33,873 --> 00:03:35,645
+00:03:33,313 --> 00:03:35,085
 Evde gördüğün örümceğin bu tür olup
 
 65
-00:03:35,645 --> 00:03:38,018
+00:03:35,085 --> 00:03:37,458
 olmadığına yalnızca uzman karar verebilir.
 
 66
-00:03:38,123 --> 00:03:42,790
+00:03:37,563 --> 00:03:42,230
 Kayalıklarda yaşayabilir ama sık sık evlerde, mobilya arkasında ve
 
 67
-00:03:42,790 --> 00:03:48,268
+00:03:42,230 --> 00:03:47,708
 kutuların arasında bulunuyor; ayakkabıya, elbiseye, çarşafa da saklanıyor.
 
 68
-00:03:48,373 --> 00:03:51,048
+00:03:47,813 --> 00:03:50,488
 Akdeniz münzevi örümceği saldırgan değil ama deriye
 
 69
-00:03:51,048 --> 00:03:54,598
+00:03:50,488 --> 00:03:54,038
 bastırılırsa ısırabiliyor; çoğunlukla giyinirken ya da uyurken.
 
 70
-00:03:54,703 --> 00:03:58,376
+00:03:54,143 --> 00:03:57,816
 Türkiye'de İstanbul, Mardin, Kahramanmaraş, Hatay, Antalya,
 
 71
-00:03:58,376 --> 00:04:03,228
+00:03:57,816 --> 00:04:02,668
 Muğla ve Aydın'da saptanmış; liste yalnızca bildirilen yerleri gösteriyor.
 
 72
-00:04:03,333 --> 00:04:06,178
+00:04:02,773 --> 00:04:05,618
 Akdeniz münzevi örümceğinin ısırığı çoğunlukla acısız;
 
 73
-00:04:06,178 --> 00:04:09,638
+00:04:05,618 --> 00:04:09,078
 saatler içinde kızarıklık, kabarcık ve morarma görülebiliyor.
 
 74
-00:04:09,743 --> 00:04:12,648
+00:04:09,183 --> 00:04:12,088
 Hafif vakalarda kızarıklık iki üç haftada geçiyor;
 
 75
-00:04:12,648 --> 00:04:16,670
+00:04:12,088 --> 00:04:16,110
 ağır vakalarda doku ölümü olabiliyor, iyileşme aylar sürebiliyor.
 
 76
-00:04:16,775 --> 00:04:20,210
+00:04:16,215 --> 00:04:19,650
 Yine de bir derleme, Akdeniz münzevi örümceğinin zehrinin Amerika
 
 77
-00:04:20,210 --> 00:04:24,265
+00:04:19,650 --> 00:04:23,705
 kıtasındaki akrabalarından çok daha az tehlikeli sayıldığını belirtiyor.
 
 78
-00:04:24,865 --> 00:04:26,849
+00:04:24,305 --> 00:04:26,289
 Başta sorduğumuz soruya dönelim:
 
 79
-00:04:26,849 --> 00:04:30,690
+00:04:26,289 --> 00:04:30,130
 ısırık sanılan şey neden çoğu zaman başka bir şey çıkıyor?
 
 80
-00:04:30,795 --> 00:04:34,645
+00:04:30,235 --> 00:04:34,085
 Bir derleme, örümcek ısırığının ancak örümcek ısırırken görülür,
 
 81
-00:04:34,645 --> 00:04:38,560
+00:04:34,085 --> 00:04:38,000
 yakalanır ve bir uzman tanırsa kesinleşebildiğini bildiriyor.
 
 82
-00:04:38,665 --> 00:04:42,106
+00:04:38,105 --> 00:04:41,546
 Kaliforniya'daki bir acil servis çalışmasında, bu şikâyetle
 
 83
-00:04:42,106 --> 00:04:45,850
+00:04:41,546 --> 00:04:45,290
 gelenlerin yalnızca çok azı örümceği ısırma anında görmüştü.
 
 84
-00:04:45,955 --> 00:04:48,220
+00:04:45,395 --> 00:04:47,660
 Çoğuna deri enfeksiyonu teşhisi konmuş.
 
 85
-00:04:48,325 --> 00:04:50,547
+00:04:47,765 --> 00:04:49,987
 Derleme, yarayı örümceğe yormanın uygun
 
 86
-00:04:50,547 --> 00:04:53,070
+00:04:49,987 --> 00:04:52,510
 tedaviyi geciktirebildiğini de söylüyor.
 
 87
-00:04:53,175 --> 00:04:57,665
+00:04:52,615 --> 00:04:57,105
 Bu yüzden yaran kötüleşiyorsa örümcektir deyip bekleme; hekime göster.
 
 88
-00:04:58,265 --> 00:05:01,210
+00:04:57,705 --> 00:05:00,650
 Peki karşına bir örümcek çıkınca ne yapmalısın?
 
 89
-00:05:01,315 --> 00:05:04,315
+00:05:00,755 --> 00:05:03,755
 Bize göre en kolayı: bardağı örümceğin üstüne kapat,
 
 90
-00:05:04,315 --> 00:05:07,040
+00:05:03,755 --> 00:05:06,480
 altına sert bir kâğıt kaydır, dışarı bırak.
 
 91
-00:05:07,145 --> 00:05:10,230
+00:05:06,585 --> 00:05:09,670
 Vikipedi, ev örümceğinin arkadan rahatsız edilince ileri
 
 92
-00:05:10,230 --> 00:05:13,670
+00:05:09,670 --> 00:05:13,110
 kaçtığını, bu yüzden önüne konan kaba girdiğini anlatıyor.
 
 93
-00:05:13,775 --> 00:05:17,779
+00:05:13,215 --> 00:05:17,219
 Elinle tutma, deriye bastırma; çoğu örümcek insanı nadiren ısırır,
 
 94
-00:05:17,779 --> 00:05:21,360
+00:05:17,219 --> 00:05:20,800
 ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman.
 
 95
-00:05:21,465 --> 00:05:23,978
+00:05:20,905 --> 00:05:23,418
 Ayakkabı ve giysiyi giymeden önce silkele;
 
 96
-00:05:23,978 --> 00:05:28,470
+00:05:23,418 --> 00:05:27,910
 Akdeniz münzevi örümceği ayakkabıya, giysiye ve çarşafa saklanabiliyor.
 
 97
-00:05:28,575 --> 00:05:31,657
+00:05:28,015 --> 00:05:31,097
 Taş ya da odun yığınını kaldırırken eldiven giy;
 
 98
-00:05:31,657 --> 00:05:33,700
+00:05:31,097 --> 00:05:33,140
 karadul orada ağ örebiliyor.
 
 99
-00:05:33,805 --> 00:05:38,030
+00:05:33,245 --> 00:05:37,470
 Isırıldığını düşünüyorsan yarayı sabunlu suyla yıka, soğuk uygula.
 
 100
-00:05:38,135 --> 00:05:41,084
+00:05:37,575 --> 00:05:40,524
 Şiddetli ağrı, kas krampı, terleme ya da bulantı
 
 101
-00:05:41,084 --> 00:05:44,400
+00:05:40,524 --> 00:05:43,840
 varsa vakit kaybetmeden bir sağlık kuruluşuna git.
 
 102
-00:05:44,505 --> 00:05:46,625
+00:05:43,945 --> 00:05:46,065
 Isırık yeri günler içinde kötüleşiyor,
 
 103
-00:05:46,625 --> 00:05:49,770
+00:05:46,065 --> 00:05:49,210
 morarıyor ya da ateş çıkıyorsa da bir hekime başvur.
 
 104
-00:05:49,875 --> 00:05:53,411
+00:05:49,315 --> 00:05:52,851
 Belirti gösteren çocuk, hamile ya da kalp veya tansiyon
 
 105
-00:05:53,411 --> 00:05:57,063
+00:05:52,851 --> 00:05:56,503
 hastası yaşlı varsa beklemeden sağlık kuruluşuna git.
 
 106
-00:05:57,168 --> 00:06:01,318
+00:05:56,608 --> 00:06:00,758
 Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.
 
 107
-00:06:01,918 --> 00:06:05,675
+00:06:01,358 --> 00:06:05,115
 Özetle evdeki örümceklerin çoğu insanlar için zehirli değil;
 
 108
-00:06:05,675 --> 00:06:09,303
+00:06:05,115 --> 00:06:08,743
 karadul ile Akdeniz münzevi örümceği ciddiye alınmalı.
 
 109
-00:06:09,408 --> 00:06:12,733
+00:06:08,848 --> 00:06:12,173
 Isırık sandığın yara için de örümceğe değil, doktora sor.
 
 110
-00:06:12,838 --> 00:06:16,683
+00:06:12,278 --> 00:06:16,123
 Senin yörende örümceğe ne derler, evinde en çok hangisini gördün?
 
 111
-00:06:16,788 --> 00:06:19,573
+00:06:16,228 --> 00:06:19,013
 Avludaki Komşular'da, evinin çevresindeki yanlış
 
 112
-00:06:19,573 --> 00:06:22,313
+00:06:19,013 --> 00:06:21,753
 tanınan komşuları anlatmaya devam edeceğiz.
 
 113
-00:06:22,418 --> 00:06:26,863
+00:06:21,858 --> 00:06:26,303
 Sıradaki komşu: çıyan ısırır mı, ve kırkayakla aynı hayvan mı?
 
 114
-00:06:26,968 --> 00:06:27,958
+00:06:26,408 --> 00:06:27,398
 Komşunu tanı.
