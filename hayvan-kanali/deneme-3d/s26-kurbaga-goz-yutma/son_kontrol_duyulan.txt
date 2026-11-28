@@ -1,6 +1,6 @@
 000 fark=0 | Bu kurbağa yutkunurken gözlerini içeri çekiyor. || Bu kurbağa yutkunurken gözlerini içeri çekiyor.
 001 fark=0 | Bunu özel bir göz kası yapıyor. || Bunu özel bir göz kası yapıyor.
-002 fark=1 | Gözler, ağzın tavanından ağıza iniyor. || Gözler ağzın tavanından ağza iniyor.
+002 fark=0 | Gözler, ağzın tavanından ağza iniyor. || Gözler ağzın tavanından ağza iniyor.
 003 fark=0 | Muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor. || muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor.
-004 fark=1 | Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor. || Dört ayaklılar arasında yalnızca kurbalar ve semenderler yapıyor.
+004 fark=0 | Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor. || Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor.
 005 fark=0 | Peki gözleri olmasa yutamaz mıydı? || Peki gözleri olmasa yutamaz mıydı?

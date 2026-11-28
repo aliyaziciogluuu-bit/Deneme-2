@@ -7,11 +7,12 @@
   "uygun": true
  },
  "001": {
-  "yazi": "Bu, avcının dikkatini dağıtıyor.",
-  "duyulan": "Bu, avcunun dikkatini dağıtıyor.",
-  "hata": 1,
-  "sure": 1.88,
-  "uygun": false
+  "yazi": "Bu, düşmanın dikkatini dağıtıyor.",
+  "duyulan": "bu düşmanın dikkatini dağıtıyor.",
+  "hata": 0,
+  "sure": 2.02,
+  "uygun": true,
+  "tek_basina": true
  },
  "002": {
   "yazi": "Bir gekoda kuyruk, önceden ayrılmış noktalardan kopuyor.",

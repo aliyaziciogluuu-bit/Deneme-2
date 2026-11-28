@@ -1,0 +1,39 @@
+1
+00:00:00,700 --> 00:00:02,002
+Bal arısı dans ederek
+
+2
+00:00:02,002 --> 00:00:03,425
+adres tarif ediyor.
+
+3
+00:00:03,530 --> 00:00:05,975
+Dans, sekiz şeklinde bir yol çiziyor.
+
+4
+00:00:06,080 --> 00:00:06,926
+Dansın açısı,
+
+5
+00:00:06,926 --> 00:00:09,645
+çiçeğin Güneş'e göre yönünü anlatıyor.
+
+6
+00:00:09,750 --> 00:00:12,215
+Uzun sallanma, uzak çiçek demek.
+
+7
+00:00:12,320 --> 00:00:13,435
+Dansı izleyen bazı
+
+8
+00:00:13,435 --> 00:00:15,105
+arılar o çiçeğe uçuyor.
+
+9
+00:00:15,210 --> 00:00:16,401
+Ama karanlık kovanda
+
+10
+00:00:16,401 --> 00:00:18,140
+Güneş'i nasıl biliyorlar?

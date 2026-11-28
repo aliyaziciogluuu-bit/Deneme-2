@@ -1,0 +1,43 @@
+1
+00:00:00,700 --> 00:00:02,592
+Lambanın çevresindeki böcek,
+
+2
+00:00:02,592 --> 00:00:03,985
+ışığa âşık değil.
+
+3
+00:00:04,090 --> 00:00:05,509
+Araştırmacılara göre,
+
+4
+00:00:05,509 --> 00:00:07,375
+ışığa doğrudan gitmiyor.
+
+5
+00:00:07,480 --> 00:00:10,070
+Sırtını ışığa doğru çeviriyor.
+
+6
+00:00:10,175 --> 00:00:11,580
+Doğada en parlak yer
+
+7
+00:00:11,580 --> 00:00:13,160
+genellikle gökyüzü.
+
+8
+00:00:13,265 --> 00:00:14,982
+Yapay lambada bu refleks,
+
+9
+00:00:14,982 --> 00:00:17,630
+onu dönüp durmaya sürükleyebiliyor.
+
+10
+00:00:17,735 --> 00:00:18,557
+Yani lamba,
+
+11
+00:00:18,557 --> 00:00:21,125
+böceğin uçuş dengesini bozuyor.

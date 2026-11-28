@@ -1,0 +1,6 @@
+000 fark=0 | Lambanın çevresindeki böcek, ışığa âşık değil. || Lambanın çevresindeki böcek, ışığa aşık değil.
+001 fark=0 | Araştırmacılara göre, ışığa doğrudan gitmiyor. || Araştırmacılara göre ışığa doğrudan gitmiyor.
+002 fark=0 | Sırtını ışığa doğru çeviriyor. || Sırtını ışığa doğru çeviriyor.
+003 fark=0 | Doğada en parlak yer genellikle gökyüzü. || Doğada en parlak yer genellikle gökyüzü.
+004 fark=0 | Yapay lambada bu refleks, onu dönüp durmaya sürükleyebiliyor. || Yapay lambada bu refleks onu dönüp durmaya sürükleyebiliyor.
+005 fark=0 | Yani lamba, böceğin uçuş dengesini bozuyor. || Yani lamba, böceğin uçuş dengesini bozuyor.

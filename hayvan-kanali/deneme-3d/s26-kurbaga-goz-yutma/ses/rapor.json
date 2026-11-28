@@ -14,11 +14,12 @@
   "uygun": true
  },
  "002": {
-  "yazi": "Gözler, ağzın tavanından ağıza iniyor.",
-  "duyulan": "Gözler ağzın tavanından ağıza iniyor.",
+  "yazi": "Gözler, ağzın tavanından ağza iniyor.",
+  "duyulan": "Gözler ağzın tavanından ağza iniyor.",
   "hata": 0,
-  "sure": 2.36,
-  "uygun": true
+  "sure": 2.68,
+  "uygun": true,
+  "tek_basina": true
  },
  "003": {
   "yazi": "Muhtemelen yemeği yerinde tutmaya ve itmeye yardım ediyor.",
@@ -29,10 +30,11 @@
  },
  "004": {
   "yazi": "Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor.",
-  "duyulan": "Dört ayaklılar arasında yalnızca kurbalar ve semenderler yapıyor.",
-  "hata": 1,
-  "sure": 4.04,
-  "uygun": true
+  "duyulan": "Dört ayaklılar arasında yalnızca kurbağalar ve semenderler yapıyor.",
+  "hata": 0,
+  "sure": 4.38,
+  "uygun": true,
+  "tek_basina": true
  },
  "005": {
   "yazi": "Peki gözleri olmasa yutamaz mıydı?",

@@ -1,5 +1,5 @@
 000 fark=0 | Bazı kertenkelelerin kopan kuyruğu kıpırdamaya devam ediyor. || Bazı kertenkelelerin kopan kuyruğu kıpırdamaya devam ediyor.
-001 fark=1 | Bu, avcının dikkatini dağıtıyor. || Bu, avcunun dikkatini dağıtıyor.
+001 fark=0 | Bu, düşmanın dikkatini dağıtıyor. || Bu, düşmanın dikkatini dağıtıyor.
 002 fark=0 | Bir gekoda kuyruk, önceden ayrılmış noktalardan kopuyor. || Bir GECO'da kuyruk önceden ayrılmış noktalardan kopuyor.
 003 fark=0 | Ama bedeli ağır: kuyruk hareket ve yağ depolamaya yarıyor. || Ama bedeli ağır. Kuyruk, hareket ve yağ depolamaya yarıyor.
 004 fark=1 | Bu yüzden kertenkeleyi asla kuyruğundan tutma. || O yüzden kertenkeleyi asla kuyruğundan tutma. || large-v3: Bu yüzden kertenkeleyi asla kuyruğundan tutma.

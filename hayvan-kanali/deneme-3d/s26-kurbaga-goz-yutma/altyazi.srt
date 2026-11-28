@@ -11,25 +11,25 @@ gözlerini içeri çekiyor.
 Bunu özel bir göz kası yapıyor.
 
 4
-00:00:06,080 --> 00:00:08,685
-Gözler, ağzın tavanından ağıza iniyor.
+00:00:06,080 --> 00:00:09,005
+Gözler, ağzın tavanından ağza iniyor.
 
 5
-00:00:08,790 --> 00:00:10,264
+00:00:09,110 --> 00:00:10,584
 Muhtemelen yemeği yerinde
 
 6
-00:00:10,264 --> 00:00:12,395
+00:00:10,584 --> 00:00:12,715
 tutmaya ve itmeye yardım ediyor.
 
 7
-00:00:12,500 --> 00:00:14,459
+00:00:12,820 --> 00:00:14,944
 Dört ayaklılar arasında yalnızca
 
 8
-00:00:14,459 --> 00:00:16,785
+00:00:14,944 --> 00:00:17,445
 kurbağalar ve semenderler yapıyor.
 
 9
-00:00:16,890 --> 00:00:19,420
+00:00:17,550 --> 00:00:20,080
 Peki gözleri olmasa yutamaz mıydı?
