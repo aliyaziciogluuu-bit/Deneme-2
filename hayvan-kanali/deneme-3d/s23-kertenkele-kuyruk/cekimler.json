@@ -4,20 +4,24 @@
    "n": 1,
    "gorseller": [
     {
-     "gorsel": "kuyruk_kivrim",
-     "klip": "kuyruk_kivrim_k"
-    },
-    {
-     "gorsel": "kuyruk_kivrim",
+     "gorsel": "sakin",
      "a": [
       0.5,
-      0.5,
-      0.7
+      0.46,
+      0.75
      ],
      "b": [
       0.5,
-      0.5,
-      0.55
+      0.46,
+      0.6
+     ]
+    },
+    {
+     "gorsel": "kuyruk_kivrim",
+     "klip": "kuyruk_kivrim_k",
+     "kt": [
+      0,
+      2.4
      ]
     }
    ]
@@ -27,7 +31,11 @@
    "gorseller": [
     {
      "gorsel": "avci",
-     "klip": "avci"
+     "klip": "avci",
+     "kt": [
+      0,
+      1.9
+     ]
     },
     {
      "gorsel": "geko_duvar",

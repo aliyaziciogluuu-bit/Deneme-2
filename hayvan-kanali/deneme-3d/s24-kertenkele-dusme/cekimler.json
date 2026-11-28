@@ -5,7 +5,11 @@
    "gorseller": [
     {
      "gorsel": "dusme",
-     "klip": "dusme"
+     "klip": "dusme",
+     "kt": [
+      0,
+      2.0
+     ]
     },
     "donus"
    ]

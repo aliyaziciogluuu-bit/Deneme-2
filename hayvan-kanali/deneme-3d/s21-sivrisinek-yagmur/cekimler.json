@@ -103,7 +103,11 @@
    "gorseller": [
     {
      "gorsel": "zemin",
-     "klip": "zemin"
+     "klip": "zemin",
+     "kt": [
+      0,
+      3.0
+     ]
     },
     {
      "gorsel": "portre",

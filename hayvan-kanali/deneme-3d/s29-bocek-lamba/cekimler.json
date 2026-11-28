@@ -5,7 +5,11 @@
    "gorseller": [
     {
      "gorsel": "bocek_lamba",
-     "klip": "bocek_lamba"
+     "klip": "bocek_lamba",
+     "kt": [
+      0,
+      1.8
+     ]
     },
     {
      "gorsel": "bocek_yakin"

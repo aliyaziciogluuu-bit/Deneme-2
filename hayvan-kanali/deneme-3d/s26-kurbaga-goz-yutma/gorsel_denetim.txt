@@ -5,3 +5,4 @@ bogaz: KABUL (aday 1; görsel denetçi 28 Kas)
 semender: KABUL (aday 1; görsel denetçi 28 Kas)
 gol_bos: KABUL (aday 1; görsel denetçi 28 Kas)
 goz_cokme: ÜRETİM DIŞI (2 tur RET: gözler çökmüş çizilemedi; yerine cam_kafa ve portre)
+klip denetimi 28 Kas: cam_kafa_k KABUL

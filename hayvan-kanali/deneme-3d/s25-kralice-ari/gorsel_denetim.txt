@@ -5,3 +5,4 @@ yeni_kralice: KABUL (aday 1; görsel denetçi 28 Kas)
 petek_bos: KABUL (aday 1; görsel denetçi 28 Kas)
 larva: KABUL (aday 2; görsel denetçi 28 Kas, 2. tur)
 sut_hucre: KABUL (aday 1; görsel denetçi 28 Kas, 2. tur)
+klip denetimi 28 Kas: sut_hucre KABUL
