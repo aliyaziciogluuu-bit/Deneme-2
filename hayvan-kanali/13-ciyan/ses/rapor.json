@@ -215,5 +215,96 @@
   "hata": 1,
   "sure": 1.92,
   "uygun": false
+ },
+ "031": {
+  "yazi": "Ev çıyanı ısırırsa ne olur?",
+  "duyulan": "Ev çıyanı ısırırsa ne olur?",
+  "hata": 0,
+  "sure": 1.56,
+  "uygun": true
+ },
+ "032": {
+  "yazi": "Ev çıyanı ısırabilir ama saldırgan değil; rahatsız edilince genellikle kaçıyor.",
+  "duyulan": "Ev çıyanı ısırabilir ama saldırgan değil, rahatsız edilince genellikle kaçıyor.",
+  "hata": 0,
+  "sure": 4.74,
+  "uygun": true
+ },
+ "033": {
+  "yazi": "Ev çıyanı deriyi delebilirse genellikle hafif, bölgesel ağrı ve şişlik oluyor; arı sokmasına benzetiliyor.",
+  "duyulan": "Ev çıyanı deriyi delebilirse genellikle hafif bölgesel ağrı ve şişlik oluyor. Arı sokmasına benzetiliyor.",
+  "hata": 0,
+  "sure": 5.96,
+  "uygun": true
+ },
+ "034": {
+  "yazi": "Alerjik tepki bildirilmiş ama nadir.",
+  "duyulan": "alerjik tepki bildirilmiş ama nadir.",
+  "hata": 0,
+  "sure": 2.38,
+  "uygun": true
+ },
+ "035": {
+  "yazi": "Küçük çıyanlar genellikle insan derisini zaten delemiyor.",
+  "duyulan": "Küçük çıyanlar genellikle insan derisini zaten delemiyor.",
+  "hata": 0,
+  "sure": 2.92,
+  "uygun": true
+ },
+ "036": {
+  "yazi": "Türkiye'de bulunan çıyan türlerinden biri Scolopendra cingulata; Akdeniz çevresinde kendi takımının en yaygın türü.",
+  "duyulan": "Türkiye'de bulunan çıyan türlerinden biri Skolopendra kingulata. Akdeniz çevresinde kendi takımının en yaygın türü.",
+  "hata": 0,
+  "sure": 7.02,
+  "uygun": true
+ },
+ "037": {
+  "yazi": "Bu çıyanın bantları siyah ve sarı-altın renkli; karanlık, nemli yerde, kütük ve yaprak altında yaşıyor.",
+  "duyulan": "Bu çıyanın bantları siyah ve sarı altın renkli. Karanlık nemli yerde, kütük ve yaprak altında yaşıyor.",
+  "hata": 0,
+  "sure": 6.82,
+  "uygun": true
+ },
+ "038": {
+  "yazi": "Kendinden büyük olmayan hemen her hayvana saldırıyor; böcek ve küçük kertenkele de yiyor.",
+  "duyulan": "Kendinden büyük olmayan hemen her hayvana saldırıyor. Böcek ve küçük kertenkele değiyor.",
+  "hata": 2,
+  "sure": 5.04,
+  "uygun": false
+ },
+ "039": {
+  "yazi": "Türkçe bir derleme, çıyanlar arasında en zehirli türlerin Skolopendra cinsinde olduğunu yazıyor.",
+  "duyulan": "Türkçe bir derleme, çıyanlar arasında en zehirli türlerin Skolopendra cinsinde olduğunu yazıyor.",
+  "hata": 0,
+  "sure": 5.18,
+  "uygun": true
+ },
+ "040": {
+  "yazi": "Skolopendra cinsinin zehrine maruz kalanlarda şişme ve kızarıklığın yanında baş ağrısı, kalp çarpıntısı, bulantı ve kusma görülmüş.",
+  "duyulan": "Skolopendra cinsinin zehrine maruz kalanlarda şişme ve kızarıklığın yanında baş ağrısı, kalp çarpıntısı, bulantı ve kusma görülmüş.",
+  "hata": 0,
+  "sure": 8.16,
+  "uygun": true
+ },
+ "041": {
+  "yazi": "Bazı çıyan türleri ısırınca yetişkin biri için genellikle çok acı verici; şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor.",
+  "duyulan": "Bazı çıyan türleri ısırınca, yetişkin biri için genellikle çok acı verici. Şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor.",
+  "hata": 0,
+  "sure": 7.8,
+  "uygun": true
+ },
+ "042": {
+  "yazi": "Çıyan insanı ısırdığında acı verse de nadiren ağır sağlık sorunu yapıyor.",
+  "duyulan": "Çiyan insanı ısırdığında acı verse de nadiren ağır sağlık sorunu yapıyor.",
+  "hata": 1,
+  "sure": 4.48,
+  "uygun": true
+ },
+ "043": {
+  "yazi": "Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanlar ısırırsa bu kişilerde ağır alerjik tepki yapabilir.",
+  "duyulan": "küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir. Büyük çıyanları sırırsa bu kişiler de ağır alerjik tepki yapabilir.",
+  "hata": 0,
+  "sure": 7.48,
+  "uygun": true
  }
 }
