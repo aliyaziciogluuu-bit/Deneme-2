@@ -29,7 +29,8 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 - 3 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «Forcipules are not oral mouthparts» → açıldı
 - 3 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «The forcipules are modifications of the first pair of legs» → açıldı
 - 3 → https://tr.wikipedia.org/wiki/Çıyan → tr_vikipedi_ciyan.txt → «tehdit esnasında ısırabilmesine karşın» → açıldı
-**4.** Ama taşın altında yavaşça kıvrılan çok bacaklı hayvan, çıyan değil kırkayak olabilir.
+**4.** Ama taşın altında yavaşça kıvrılan çok bacaklı hayvan, aslında bir kırkayak olabilir.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Ama taşın altında yavaşça kıvrılan çok bacaklı hayvan, çıyan değil kırkayak olabilir.»
 - 4 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «which move rapidly, are venomous, carnivorous, and have only a single pair of legs on each body segment» → açıldı
 - 4 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Other millipedes commonly curl into a spiral when attacked or disturbed» → açıldı
 - 4 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «Most millipedes are slow-moving detritivores» → açıldı
@@ -39,9 +40,11 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 **6.** Evlerde yaşayabilen bir çıyan türü var; yediği şeyler arasında örümcek bile bulunuyor.
 - 6 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «it frequently lives in and around human homes» → açıldı
 - 6 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «House centipedes feed on spiders» → açıldı
-**7.** Peki çıyan ısırığı kimler için ciddi olabilir?
+**7.** Çıyan ısırırsa kimler için ciddi olabilir?
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Peki çıyan ısırığı kimler için ciddi olabilir?»
 - 7 → kaynak gerekmiyor → — → giriş sonu merak sorusu; cevabı 'Isırırsa ne olur' bölümünde
-**8.** Çıyan ve kırkayak benzer görünür ama yalnızca uzak akrabadır.
+**8.** Bu iki hayvan benzer görünür ama yalnızca uzak akrabadır.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Çıyan ve kırkayak benzer görünür ama yalnızca uzak akrabadır.»
 - 8 → https://tr.wikipedia.org/wiki/Kırkayak → tr_vikipedi_kirkayak.txt → «benzeseler de sadece kuzenlerdir» → açıldı
 - 8 → https://en.wikipedia.org/wiki/Millipede → en_vikipedi_millipede.txt → «only distantly related centipedes» → açıldı
 **9.** Çıyanda her bölümde bir çift bacak var; kırkayakta çoğu bölümde iki çift.
@@ -73,12 +76,14 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 - 16 → kaynak gerekmiyor → — → Bize göre güvenlik önerisi (türü ayırt edememe riski); kaynak iddiası yok
 **17.** Çıyanın zehri nereden geliyor?
 - 17 → kaynak gerekmiyor → — → bölüm sorusu
-**18.** Zehir bezleri kafanın içinden başlıyor; bir tüp zehri kıskacın ucuna taşıyor, kıskaç avı da tutuyor.
+**18.** Zehir bezleri kafanın içinden başlıyor; bir tüp, zehri kıskacın ucuna taşıyor, kıskaç avı da tutuyor.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Zehir bezleri kafanın içinden başlıyor; bir tüp zehri kıskacın ucuna taşıyor, kıskaç avı da tutuyor.»
 - 18 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «Venom glands run through a tube, from inside the head to the tip of each forcipule» → açıldı
 - 18 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «they are used to subdue prey by injecting venom and gripping the prey animal» → açıldı
 **19.** Vikipedi'ye göre, ön bacağı zehir enjektörü olan bilinen tek örnek çıyanlar.
 - 19 → https://en.wikipedia.org/wiki/Forcipule → en_vikipedi_forcipule.txt → «They are the only known examples of front legs acting as venom injectors» → açıldı
-**20.** Peki evde yaşayabilen çıyan nasıl biri?
+**20.** Evde yaşayabilen çıyan nasıl biri?
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Peki evde yaşayabilen çıyan nasıl biri?»
 - 20 → kaynak gerekmiyor → — → bölüm sorusu
 **21.** Ev çıyanı denen bu tür, gövdesine göre bacakları upuzun bir hayvan.
 - 21 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «it frequently lives in and around human homes» → açıldı
@@ -91,7 +96,8 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 **23.** Ev çıyanının arka bacakları anten gibi görünüyor; dinlenirken baş mı kuyruk mu anlamak zor.
 - 23 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «its tail-like hind legs present the appearance of antennae» → açıldı
 - 23 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «it is not easy to tell its cranial end from its caudal end» → açıldı
-**24.** Ev çıyanı örümcek, tahtakurusu, hamamböceği ve karınca gibi evdeki eklembacaklıları yiyor.
+**24.** Ev çıyanının yemeği evdeki eklembacaklılar: örümcek, tahtakurusu, hamamböceği ve karınca.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Ev çıyanı örümcek, tahtakurusu, hamamböceği ve karınca gibi evdeki eklembacaklıları yiyor.»
 - 24 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «House centipedes feed on spiders, bed bugs, termites, cockroaches, silverfish, ants» → açıldı
 **25.** Avını nasıl yakalıyor?
 - 25 → kaynak gerekmiyor → — → bölüm içi soru
@@ -102,10 +108,12 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 **28.** Evin içinde çoğunlukla bodrum ve garaj gibi karanlık yerlerde, banyo ve mutfakta da görülüyor.
 - 28 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «they are usually encountered in dark or dimly lit areas such as basements and garages» → açıldı
 - 28 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «they can be found in bathrooms, lavatories and kitchens» → açıldı
-**29.** Çoğu evin dışında, özellikle büyük taşların, odun ve yaprak yığınlarının altında yaşıyor.
+**29.** Çoğu evin dışında, özellikle büyük taşların, odun ve yaprak öbeklerinin altında yaşıyor.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Çoğu evin dışında, özellikle büyük taşların, odun ve yaprak yığınlarının altında yaşıyor.»
 - 29 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Most live outside, primarily under large rocks, woodpiles, barkdust and especially under piles of leaves or compost» → açıldı
   - not: ev çıyanı için; hikâyedeki 'taşı kaldırıyorsun' sahnesine bağ
-**30.** Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış; bilimsel adı Skutigera koleoptrata.
+**30.** Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış; bilimsel adı Scutigera coleoptrata.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «…bilimsel adı Skutigera koleoptrata. (yazıda artık Scutigera coleoptrata; okunuş ses alanında Skutigera koleoptrata)»
 - 30 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Scutigera coleoptrata, also known as the house centipede» → açıldı
 - 30 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Originating in the Mediterranean region, it has spread to other parts of the world» → açıldı
   - not: Türkiye'de görüldüğüne dair açılan kaynakta ifade yok; cümlede Türkiye iddiası yok
@@ -117,13 +125,15 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 - 32 → kaynak gerekmiyor → — → bölüm sorusu
 **33.** Ev çıyanı ısırabilir ama saldırgan değil; rahatsız edilince genellikle kaçıyor.
 - 33 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «not aggressive towards people and usually flee when disturbed» → açıldı
-**34.** Başarılı bir ısırık genellikle hafif, bölgesel ağrı ve şişlik yapıyor; arı sokmasına benzetiliyor.
+**34.** Ev çıyanı deriyi delebilirse genellikle hafif, bölgesel ağrı ve şişlik oluyor; arı sokmasına benzetiliyor.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Başarılı bir ısırık genellikle hafif, bölgesel ağrı ve şişlik yapıyor; arı sokmasına benzetiliyor.»
 - 34 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Successful stings typically produce only mild, localized pain and swelling, similar to bee sting» → açıldı
 **35.** Alerjik tepki bildirilmiş ama nadir.
 - 35 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «Allergic reactions to centipede stings have been reported, but these are rare» → açıldı
 **36.** Küçük çıyanlar genellikle insan derisini zaten delemiyor.
 - 36 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «Smaller centipedes are generally incapable of piercing human skin» → açıldı
-**37.** Türkiye'de bulunan çıyan türlerinden biri Skolopendra kingulata; Akdeniz çevresinde kendi takımının en yaygın türü.
+**37.** Türkiye'de bulunan çıyan türlerinden biri Scolopendra cingulata; Akdeniz çevresinde kendi takımının en yaygın türü.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «…Skolopendra kingulata… (yazıda artık Scolopendra cingulata; okunuş ses alanında Skolopendra kingulata)»
 - 37 → https://tr.wikipedia.org/wiki/Scolopendra → tr_vikipedi_scolopendra.txt → «Cinsin Türkiye'de 5 türü bulunur» → açıldı
 - 37 → https://tr.wikipedia.org/wiki/Scolopendra → tr_vikipedi_scolopendra.txt → «Scolopendra cingulata - Latreille, 1829» → açıldı
 - 37 → https://en.wikipedia.org/wiki/Scolopendra_cingulata → en_vikipedi_scolopendra_cingulata.txt → «the most common scolopendromorph species in the Mediterranean area» → açıldı
@@ -138,11 +148,14 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
   - not: kaynakta yazım 'Scolpopendra' (yazım hatası, kaynakta aynen)
 **41.** Skolopendra cinsinin zehrine maruz kalanlarda şişme ve kızarıklığın yanında baş ağrısı, kalp çarpıntısı, bulantı ve kusma görülmüş.
 - 41 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «Bu türlerin zehrine maruz kalanlarda sokulan bölge ve etrafında şişme, kızarıklık, baş ağrısı, kalp çarpıntısı, bulantı ve kusma gibi semptomlar görülmektedir» → açıldı
-**42.** Bazı çıyan türlerinin ısırığı yetişkin biri için genellikle çok acı verici; şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor.
+**42.** Bazı çıyan türleri ısırınca yetişkin biri için genellikle çok acı verici; şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Bazı çıyan türlerinin ısırığı yetişkin biri için genellikle çok acı verici; …»
 - 42 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «While a bite to an adult human is usually very painful and may cause severe swelling, chills, fever, and weakness» → açıldı
-**43.** Çıyan ısırıkları acı verse de insanda nadiren ağır sağlık sorunu yapıyor.
+**43.** Çıyan insanı ısırdığında acı verse de nadiren ağır sağlık sorunu yapıyor.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Çıyan ısırıkları acı verse de insanda nadiren ağır sağlık sorunu yapıyor.»
 - 43 → https://en.wikipedia.org/wiki/Centipede_bite → en_vikipedi_centipede_bite.txt → «Centipede bites, while painful, rarely cause severe health complications in people» → açıldı
-**44.** Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir.
+**44.** Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanlar ısırırsa bu kişilerde ağır alerjik tepki yapabilir.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «…büyük çıyanların ısırığı bu kişilerde ağır alerjik tepki yapabilir.»
 - 44 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «centiped bites can be dangerous to small children and those with allergies to bee stings» → açıldı
 - 44 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «The venomous bite of larger centipedes can induce anaphylactic shock in such people» → açıldı
   - not: E_CEN'de yazım 'centiped bites' (kaynakta aynen)
@@ -171,9 +184,10 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
   - not: ikinci yarı (sağlık kuruluşu) Bize göre güvenlik önerisi
 **53.** Karşılaşırsan ne yapmalısın?
 - 53 → kaynak gerekmiyor → — → bölüm sorusu
-**54.** Taş ya da odun yığınını kaldırırken eldiven giy.
+**54.** Taş ya da odun öbeğini kaldırırken eldiven giy.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Taş ya da odun yığınını kaldırırken eldiven giy.»
 - 54 → https://en.wikipedia.org/wiki/Scutigera_coleoptrata → en_vikipedi_scutigera_coleoptrata.txt → «primarily under large rocks, woodpiles» → açıldı
-  - not: Bize göre öneri; dayanak: ev çıyanının taş ve odun yığını altında yaşaması
+  - not: Bize göre öneri; dayanak: ev çıyanının taş ve odun öbeği altında yaşaması
 **55.** Bize göre hangi çıyan olursa olsun elle tutma, sıkıştırma.
 - 55 → kaynak gerekmiyor → — → Bize göre güvenlik önerisi; kaynak iddiası yok
 **56.** Ev çıyanı genellikle ancak sıkışınca ya da sertçe tutulunca ısırıyor.
@@ -190,7 +204,8 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr, en/tr.wikipedia.org. Açıla
 - 60 → https://dergipark.org.tr/en/download/article-file/1346124 → yuksel2020_ethabd.txt → «şişme, kızarıklık, baş ağrısı, kalp çarpıntısı, bulantı ve kusma» → açıldı
 - 60 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «severe swelling, chills, fever, and weakness» → açıldı
   - not: güvenlik cümlesi; Shorts'a kelimesi kelimesine taşınır
-**61.** Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.
+**61.** Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.
+- söyleyiş değişikliği (28 Kasım, seslendirme riski; anlam ve kaynak aynı), eski hâli: «Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.»
 - 61 → kaynak gerekmiyor → — → güvenlik cümlesi (12-ev-orumcegi ile aynı kalıp); Shorts'a kelimesi kelimesine
 **62.** Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git.
 - 62 → https://en.wikipedia.org/wiki/Centipede → en_vikipedi_centipede.txt → «dangerous to small children and those with allergies to bee stings» → açıldı

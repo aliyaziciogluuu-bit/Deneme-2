@@ -27,6 +27,20 @@ def whoosh(sure=0.55, f0=300, f1=3000, seed=1):
     env = np.sin(np.pi * np.clip(t / sure, 0, 1)) ** 2
     return y * env
 
+def fisilti(sure=0.22, seed=3):
+    """Yumuşak, kısa geçiş sesi (28 Kasım, kanal sahibi: whoosh rahatsız edici): alçak bantta hafif hava üflemesi."""
+    n = int(SR * sure); t = np.arange(n) / SR
+    g = np.random.default_rng(seed).standard_normal(n)
+    y = np.zeros(n); lp = 0.0; lp2 = 0.0
+    fc = 250 * (900 / 250) ** (t / sure)
+    for i in range(n):
+        a = np.exp(-2 * np.pi * fc[i] / SR)
+        lp = (1 - a) * g[i] + a * lp
+        lp2 = (1 - a) * lp + a * lp2
+        y[i] = lp2
+    env = np.sin(np.pi * np.clip(t / sure, 0, 1)) ** 3
+    return y * env
+
 def pop(sure=0.12):
     t = np.arange(int(SR * sure)) / SR
     f = 900 * np.exp(-t * 25) + 180
@@ -42,6 +56,7 @@ def parilti(sure=1.2):
 if __name__ == "__main__":
     yaz("whoosh.wav", whoosh())
     yaz("whoosh_ters.wav", whoosh(0.45, 2500, 400, seed=2))
+    yaz("fisilti.wav", fisilti())
     yaz("pop.wav", pop())
     yaz("parilti.wav", parilti())
     print("efektler hazır")

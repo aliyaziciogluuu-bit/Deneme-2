@@ -29,6 +29,7 @@ def main():
     p.add_argument("klasor")
     p.add_argument("--parilti", default="")
     p.add_argument("--seviye", type=float, default=-14.0, help="efektlerin dB düzeyi (anlatımın altında)")
+    p.add_argument("--whoosh", dest="yumusak", action="store_false", help="eski güçlü whoosh (varsayılan: yumuşak fısıltı)")
     p.add_argument("--muzik", default=None, help="sesler/muzik/ altındaki altlık (ör. lyria_merak); verilmezse senaryo.json 'muzik' alanı")
     p.add_argument("--muzik-seviye", type=float, default=-21.0, help="müziğin dB düzeyi; konuşma sırasında ayrıca bastırılır")
     g = p.parse_args()
@@ -41,8 +42,10 @@ def main():
     sahne_bas = [0.0] + kesimler
     olaylar = [("pop.wav", 0.0, g.seviye + 2)]
     for i, (t, alt) in enumerate(plan):
-        if alt:  # cümle içindeki sert kesme: kısa ve hafif (her kesmede tam whoosh yorucu olur)
-            olaylar.append(("whoosh_ters.wav" if i % 2 else "whoosh.wav", max(t - 0.06, 0), g.seviye - 7))
+        if alt:  # cümle içindeki sert kesme: efekt yok (28 Kasım, kanal sahibi: geçiş efektleri rahatsız edici)
+            continue
+        if g.yumusak:  # cümle aralarındaki kesmede kısa, alçak "fısıltı"
+            olaylar.append(("fisilti.wav", max(t - 0.08, 0), g.seviye - 6))
         else:
             olaylar.append(("whoosh.wav" if i % 2 == 0 else "whoosh_ters.wav", max(t - 0.12, 0), g.seviye))  # konuşma bittikten sonra başlasın (ara/2 = 0,175 sn)
     for n in [int(x) for x in g.parilti.split(",") if x.strip()]:
