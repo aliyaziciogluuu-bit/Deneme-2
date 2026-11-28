@@ -136,7 +136,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr (curl ile; WebFetch aracı bu
 **033** [Dikkat isteyen başlıca iki cins] Birincisi karadul; bilimsel adı Latrodectus.
   - https://dergipark.org.tr/tr/download/article-file/1662710 → “Latrodectus cinsi örümcekler” — açıldı
   - https://dergipark.org.tr/en/download/article-file/1346124 → “Latrodectus cinsine ait olan karadul örümcekleri” — açıldı
-**034** [Dikkat isteyen başlıca iki cins] Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor. (28 Kas: ses tanıma için sadeleştirildi; eski: «Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun yığınında, kulübe ve kümeste ağ örüyor.»)
+**034** [Dikkat isteyen başlıca iki cins] Türkiye'de kayıtlı türlerden biri Akdeniz karadulu; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor. (28 Kas, 2. düzeltme; önceki: «Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor.») (28 Kas: ses tanıma için sadeleştirildi; eski: «Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun yığınında, kulübe ve kümeste ağ örüyor.»)
   - https://dergipark.org.tr/en/download/article-file/1346124 → “Akdeniz Karadul Örümceği olarak bilinen” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/1437890 → “It primarily lives in steppes and grasslands” — açıldı
   - https://dergipark.org.tr/en/download/article-file/414927 → “This spider built its web on huts, coops, stacks of woods and stones” — açıldı
