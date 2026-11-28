@@ -1,6 +1,6 @@
 # Üretim panosu – Avludaki Komşular
 
-Güncelleme: 27.11.2026 06:47 (`python3 pano.py`)
+Güncelleme: 28.11.2026 06:49 (`python3 pano.py`)
 
 | Video | Bekleyen istasyon | Ayrıntı |
 |---|---|---|
@@ -17,6 +17,9 @@ Güncelleme: 27.11.2026 06:47 (`python3 pano.py`)
 | 07-kirlangic | TAMAM (teslim edildi) | ses 64/64 · çekim 64/64 · görsel 20/20 · klip 5/5 · test GEÇTİ · s1-yolculuk:✓ s2-yuva:✓ · puan 83.0 |
 | 08-kara-kurbagasi | TAMAM (teslim edildi) | ses 66/66 · çekim 66/66 · görsel 21/19 · klip 4/4 · test GEÇTİ · s1-sigil:✓ s2-kopek:✓ · puan 83.0 |
 | 09-yilan-inek | TAMAM (teslim edildi) | ses 61/61 · çekim 61/61 · görsel 25/23 · klip 5/5 · test GEÇTİ · s1-yilan-agzi:✓ s2-kirpi-buzagi:✓ s3-buzagi:✓ · puan 80.5 |
-| 10-semender | Görsel | ses 0/62 · çekim 0/62 · görsel 4/0 · klip 0/0 · test — · Shorts yok · puan — |
+| 10-semender | Görsel | ses 62/62 · çekim 62/62 · görsel 38/39 · klip 10/15 · test GEÇTİ · s1-odundan-cikan:✓ s2-ates-mendili:✓ s3-kertenkele-degil:✓ · puan — |
+| 11-bahce-yilani | TAMAM (teslim edildi) | ses 66/66 · çekim 66/66 · görsel 37/42 · klip 14/17 · test GEÇTİ · s1-bas-sekli:✓ s2-goz-bebegi:✓ s3-isirik:✓ · puan — |
+| 12-ev-orumcegi | TAMAM (teslim edildi) | ses 69/69 · çekim 69/69 · görsel 42/42 · klip 13/13 · test GEÇTİ · s1-uzun-bacakli:✓ s2-isirik-sanilan:✓ s3-bardak-kagit:✓ · puan — |
+| 13-ciyan | Bilgi onayı | ses 0/71 · çekim 0/71 · görsel 0/0 · klip 0/0 · test — · Shorts yok · puan — |
 
-Teslim edilmiş video: 9. Stok hedefi: 4 hazır video (şirket el kitabı).
+Teslim edilmiş video: 11. Stok hedefi: 4 hazır video (şirket el kitabı).

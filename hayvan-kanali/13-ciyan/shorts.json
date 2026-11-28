@@ -78,6 +78,11 @@
      "gorsel": "kirkayak_spiral"
     },
     {
+     "yazi": "Hangisi olduğundan emin değilsen elle tutma.",
+     "gorsel": "goz_yikama",
+     "x": 0.5
+    },
+    {
      "yazi": "Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur.",
      "gorsel": "goz_yikama"
     },

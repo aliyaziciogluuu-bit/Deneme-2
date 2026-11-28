@@ -226,7 +226,7 @@ def video_denetle(klasor: pathlib.Path, duzelt=False, kaynak=False, onkontrol=Fa
     for s in sh.get("shorts", []):
         ses_alani(d, f"Shorts {s.get('ad')}", s.get("cumleler", []))
         metin_s = " ".join(c.get("yazi", "") for c in s.get("cumleler", [])).lower()
-        if "yıka" in metin_s and "dokunma" not in metin_s:  # 17 Kasım + 23 Kasım dersi: Shorts kısaltılırken "dokunma" düşüyor
+        if "yıka" in metin_s and "dokunma" not in metin_s and "elle tutma" not in metin_s:  # 28 Kasım: çıyan videosundaki eşdeğer uyarı "elle tutma"  # 17 Kasım + 23 Kasım dersi: Shorts kısaltılırken "dokunma" düşüyor
             d.hata.append(f"Shorts {s.get('ad')}: el yıkama uyarısı var ama 'dokunma' uyarısı yok (uzun videodaki güvenlik cümlesini aynen taşı)")
         for c in s.get("cumleler", []):
             y = c.get("yazi", "").lower()
