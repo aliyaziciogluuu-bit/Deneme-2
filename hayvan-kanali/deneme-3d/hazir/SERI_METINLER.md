@@ -543,7 +543,7 @@ Görsel notu: ince bacaklı hayvanlarda (geko, sinek, kurbağa, arı) bacaklar k
 
 ## S21 – Yağmur Damlası Sivrisineğe Çarparsa Ne Olur? 🦟
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Yağmur Damlası Sivrisineğe Çarparsa Ne Olur? 🦟 #shorts
 - Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
 - Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
@@ -567,7 +567,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S22 – Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Salyangozun Kabuğu Kırılırsa Ne Olur? 🐌 #shorts
 - Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
 - Kelime: 39; cümle: 6; tahmini süre ≈ 22 sn
@@ -594,7 +594,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S23 – Kopan Kertenkele Kuyruğu Neden Kıpırdıyor? 🦎
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Kopan Kertenkele Kuyruğu Neden Kıpırdıyor? 🦎 #shorts
 - Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
 - Kelime: 39; cümle: 6; tahmini süre ≈ 22 sn
@@ -624,7 +624,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S24 – Tavandan Düşen Geko Havada Ne Yapıyor? 🦎
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Tavandan Düşen Geko Havada Ne Yapıyor? 🦎 #shorts
 - Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
 - Kelime: 39; cümle: 6; tahmini süre ≈ 22 sn
@@ -651,7 +651,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S25 – Kraliçesiz Kalan Kovan Yeni Kraliçeyi Nereden Buluyor? 🐝
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Kraliçesiz Kalan Kovan Yeni Kraliçeyi Nereden Buluyor? 🐝 #shorts
 - Tür: ne_olur; müzik: lyria_gerilim; altyazı: kelime
 - Kelime: 37; cümle: 6; tahmini süre ≈ 21 sn
@@ -681,7 +681,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S26 – Kurbağa Yutarken Gözlerini İçeri Çekiyor! 🐸
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Kurbağa Yutarken Gözlerini İçeri Çekiyor! 🐸 #shorts
 - Tür: yetenek; müzik: lyria_hayret; altyazı: kelime
 - Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
@@ -711,7 +711,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S27 – Karasinek Yemeğin Tadına Ayaklarıyla Bakıyor! 🪰
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Karasinek Yemeğin Tadına Ayaklarıyla Bakıyor! 🪰 #shorts
 - Tür: yetenek; müzik: lyria_merak; altyazı: kelime
 - Kelime: 36; cümle: 6; tahmini süre ≈ 20 sn
@@ -738,7 +738,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S28 – Arılar Çiçeğin Adresini Dansla Nasıl Veriyor? 🐝
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Arılar Çiçeğin Adresini Dansla Nasıl Veriyor? 🐝 #shorts
 - Tür: yetenek; müzik: lyria_hayret; altyazı: kelime
 - Kelime: 37; cümle: 6; tahmini süre ≈ 21 sn
@@ -765,7 +765,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S29 – Böcekler Lambaya Âşık Değil! Peki Neden Dönüp Duruyor? 💡
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Böcekler Lambaya Âşık Değil! Peki Neden Dönüp Duruyor? 💡 #shorts
 - Tür: efsane; müzik: lyria_merak; altyazı: kelime
 - Kelime: 35; cümle: 6; tahmini süre ≈ 19 sn
@@ -789,7 +789,7 @@ Kaynaklar ve cümle eşlemesi:
 
 ## S30 – Su İçmeyen Kurbağa Susuzluğunu Nasıl Gideriyor? 🐸
 
-- Durum: senaryo yazıldı, bilgi kontrolü bekliyor
+- Durum: TESLİM (28 Kas) – bilgi kontrolü 2 tur, görsel/klip denetimi, metin editörü, kalite kontrol, kanal yöneticisi ONAY; son kontrol GEÇTİ; teslim/3d-seri-2
 - Başlık: Su İçmeyen Kurbağa Susuzluğunu Nasıl Gideriyor? 🐸 #shorts
 - Tür: efsane; müzik: lyria_merak; altyazı: kelime
 - Kelime: 38; cümle: 6; tahmini süre ≈ 21 sn
