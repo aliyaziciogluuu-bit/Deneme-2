@@ -1,350 +1,338 @@
 {
-  "baslik": "Çıyan Isırır mı? (Kırkayakla Aynı Mı?)",
-  "not": "13. video (yapı: karşılaştırma ve ev turu. Önce çıyan–kırkayak ayrımı bölüm başına bacak çifti, hız, zehir kıskacı ve savunma salgısıyla; sonra evde görülebilen tür (ev çıyanı), ısırık belirtileri ve risk grubu, kırkayak salgısı, güvenlik. Önceki yapılar: 09 şüpheli sorgusu, 10 tarihte yolculuk, 11 ölçüt sınaması, 12 ev turu). TAMAMEN 3D. Örümcek videosunun kapanış vaadi ('sıradaki komşu: çıyan ısırır mı, ve kırkayakla aynı hayvan mı?') iki soruyla karşılanıyor. Kaynaklar yalnızca açılabilenler ve hepsi kaynaklar/ klasörüne kaydedildi: Vikipedi (Türkçe ve İngilizce) ve DergiPark'ta Yüksel ve ark. 2020 (Türkçe derleme, 12-ev-orumcegi arşivinden kopya). BU ORTAMDAN AÇILAMAYAN (kullanılmadı): pmc.ncbi.nlm.nih.gov (bu gün reCAPTCHA verdi; çıyan ısırığı vaka makaleleri PMC7944685, PMC9176727 ve StatPearls NBK542312, NBK557454 açılamadı), medlineplus.gov, ufhealth.org, statpearls.com, scielo.br, hkmj.org, mdedge.com, gbif.org, memorial.com.tr (hastane sağlık rehberi), tandfonline.com (Enghoff ve Kebapçı 2008, 'Calyptophyllum longiventre invading houses in Turkey' kırkayak makalesi; yalnızca Vikipedi kaynakçasında başlığı görüldü, cümle kurulmadı), archive.org ve escholarship.org (Zapparoli 1999, Anadolu çıyan faunası). DergiPark'ta çıyan ısırığı olgu makalesi bulunamadı (arama sonuçlarında yılan ve fare ısırığı çıktı). Bu yüzden ısırık belirtileri Vikipedi (Centipede, Scutigera, Centipede bite) ve Yüksel 2020'ye dayanıyor; resmî sağlık kuruluşu sayfası açılamadı, resmî sağlık kurumu anılmadı. Zehir Danışma Merkezi anılmadı, telefon numarası yok. Doğa Koruma ve Milli Parklar şube müdürlüğü bu videoda kullanılmadı (yönlendirme sağlık kuruluşu ve hekim). 3 çıyan Shorts'u: 5 Aralık 'Çıyanın Kaç Ayağı Var?' Shorts'unun onaylı cümleleri tekrar edilmedi (bacak çifti sayısının tek olması gibi); bu videoda yalnızca 'çıyanda her bölümde bir çift, kırkayakta çoğu bölümde iki çift' bilgisi var. BELİRSİZLER: (1) Ev çıyanının Türkiye'de görüldüğü yalnızca iNaturalist araştırma sınıfı bir gözlemle (İzmir, 2024; API ile açıldı, kaynaklar/inat_253992882.txt) desteklenir; yaygınlığı ya da bölgeleri hakkında iddia kurulmadı. (2) Türkiye'de Scolopendra cingulata bilgisi Vikipedi (Türkçe) tür listesine dayanıyor (sayfa Zapparoli 1999'a atıf yapıyor, o makale açılamadı); 'beş tür' sayısı söylenmedi. (3) Kırkayak salgısının şiddeti için iki kaynak aynı fikirde değil (Yüksel: yanma ve koyu lezyon; Vikipedi: çoğunlukla zararsız, bazı tropikal türlerde ağır); ikisi de aktarıldı. Türkiye'deki kırkayak türlerinin salgı etkisi için kaynak yok. (4) Çıyan ısırığında 'ölümcül olması olası değil' ve ölüm vakaları (Vikipedi Centipede bite'ta diyabetli iki kişi) anlatılmadı; video ne 'ölmez' ne 'ölür' diyor. (5) 'Isırık' ile 'sokma': kaynaklar kıskaçla zehir enjeksiyonu için 'sting' diyor; videoda halk dili 'ısırık' kullanıldı. (6) Buz önerisi Vikipedi (Centipede bite: 'Icing also helps'); aynı sayfadaki ılık su önerisi anılmadı (yanık riski ve çelişki). (7) Kış derlemesi kapanışı (26 Aralık) genel bağ; derlemenin içeriği hakkında iddia yok; patron tarihi doğrular. (8) Vikipedi Türkçe Çıyan sayfasının 'ısırılan yere buz' cümlesi 'kaynak belirtilmeli' etiketli olduğu için kullanılmadı. 3D GÖRSEL NOTLARI (çıyan ve kırkayak Flux'ta karışır; her görselde ayırt edici özellik istemin başında olumlu tarif edilir; bacaklar durağan, orta mesafe, baş ve kıskaç yakın planı; gerçek iNaturalist fotoğrafı tür kimliğiyle tercih): ÇIYAN (Chilopoda): gövde yassı, her bölümde YALNIZCA BİR bacak çifti ve bacaklar gövdenin YANLARINDAN çıkar; uzun ince iplik gibi antenler; baş arkasında öne uzanan, kıskaç biçimli bir çift zehir kıskacı (ön bacağın dönüşmüş hali); son bacak çifti arkaya uzanır. Bacak sayısı yazılmaz, 'sağda solda eşit sıralı bacaklar' tarif edilir. EV ÇIYANI (Scutigera coleoptrata): sarımsı-gri, sırtta üç koyu şerit, bacaklarda koyu çizgiler, gövdeye göre çok uzun ince bacaklar, arka bacaklar anten gibi uzun, iyi gelişmiş iri göz; duvarda, banyo köşesinde, bodrumda. SKOLOPENDRA KİNGULATA: siyah ve sarı-altın dönüşümlü bantlı, daha iri, kütük ve yaprak altı. KIRKAYAK (Diplopoda): silindirik, her bölümde İKİ çift KISA bacak ve bacaklar gövdenin ALT yüzünde, kısa dirsekli antenler, kıskaç YOK, yavaş; tehlikede sıkı spiral; güzel ayırt: parlak koyu kahverengi silindir gövde. Kırkayak ve çıyan ASLA aynı karede 'aynı hayvan' gibi çizilmez; kıyas sahnesi yan yana iki ayrı hayvan, etiketsiz. Ev çıyanı eşekarısı/yaban arısı sahnesi çizilmez (klip riski); kement sahnesi durağan. Isırık yarası, kanama, şişlik, doku hasarı gösterilmez; sağlık kuruluşu sahnesi nötr; çocuk ve arı alerjisi sahnesi arı çizilmeden (nötr aile planı). Ölü ya da ezilmiş çıyan/kırkayak gösterilmez. Elle tutma yasağı: el yok, yalnızca üstü kapalı bardak ya da eldivenli el; eldivenli el çıyana değmez. Göze salgı sahnesi: gözyıkama, çocuk yüzü yok, yetişkin musluk altında.",
-  "aciklama": "Çıyan ısırır mı? Taşın altından fırlayan çok bacaklı hayvan çıyan mı, kırkayak mı; elle tutmadan önce neleri bilmelisin?\nYanlış Tanınan Komşular serisi: evinin çevresinde yaşayan, yanlış tanınan hayvanlar.\n\nBu videoda çıyan ve kırkayağın farkını (bölüm başına bacak çifti, zehir kıskacı ve savunma salgısı), evlerde yaşayabilen ev çıyanını ve Türkiye'de bulunan çıyan türlerinden birini tanıyoruz. Çıyan ısırığında belirtilerin neye benzeyebildiğine, kimlerin daha çok dikkat etmesi gerektiğine ve kırkayak salgısının deriye ve göze etkisine de bakıyoruz.\n\nVideoda geçen gruplar: çıyanlar (Chilopoda), kırkayaklar (Diplopoda), ev çıyanı (Scutigera coleoptrata) ve Türkiye'de bulunan bir çıyan türü (Scolopendra cingulata).\n\nAradığın sorular: çıyan ısırır mı, çıyan zehirli mi, çıyan ve kırkayak aynı hayvan mı, ev çıyanı zararlı mı, çıyan ısırırsa ne yapılır, kırkayak ısırır mı, kırkayak gözü yakar mı.\n\nÇıyan ya da kırkayakla karşılaşırsan temel önlem şu: elle tutma, sıkıştırma. Taş ya da odun öbeğini kaldırırken eldiven giy. Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur. Vikipedi'ye göre buz da yardımcı oluyor, ama bize göre buzu doğrudan deriye değil, bezle sararak koy. Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git. Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun. Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git. Kırkayak salgısı göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur. Hangi hayvandan olduğuna ve nasıl tedavi edileceğine karar vermek sana değil, hekime düşer. Bu video tıbbi tavsiye yerine geçmez.\n\nÖğretmenler ve veliler: bu videoyu derste ve evde kullanabilirsiniz; kaynaklar aşağıda.",
-  "yorum_sorusu": "Senin yörende çıyana ne derler? Taşın altında en çok hangisini gördün, çıyanı mı kırkayağı mı? Yorumlarda yaz.",
-  "kaynaklar": [
-    "Yüksel, E., Taşçı, S. & Canhilal, R. (2020). Zehirli Arthropodlar: Akrepler, Örümcekler, Böcekler ve Çıyanlar. Erciyes Tarım ve Hayvan Bilimleri Dergisi 3(2): 26–31. dergipark.org.tr/en/download/article-file/1346124",
-    "Vikipedi (İngilizce) – Centipede: en.wikipedia.org/wiki/Centipede",
-    "Vikipedi (İngilizce) – Forcipule: en.wikipedia.org/wiki/Forcipule",
-    "Vikipedi (İngilizce) – Millipede: en.wikipedia.org/wiki/Millipede",
-    "Vikipedi (İngilizce) – Scutigera coleoptrata: en.wikipedia.org/wiki/Scutigera_coleoptrata",
-    "Vikipedi (İngilizce) – Scolopendra cingulata: en.wikipedia.org/wiki/Scolopendra_cingulata",
-    "Vikipedi (İngilizce) – Centipede bite: en.wikipedia.org/wiki/Centipede_bite",
-    "Vikipedi (Türkçe) – Çıyan: tr.wikipedia.org/wiki/Çıyan",
-    "Vikipedi (Türkçe) – Kırkayak: tr.wikipedia.org/wiki/Kırkayak",
-    "Vikipedi (Türkçe) – Scolopendra: tr.wikipedia.org/wiki/Scolopendra",
-    "Vikipedi (Türkçe) – Scutigera coleoptrata: tr.wikipedia.org/wiki/Scutigera_coleoptrata",
-    "iNaturalist – gözlem 253992882, Scutigera coleoptrata, araştırma sınıfı, İzmir (2024): inaturalist.org/observations/253992882"
+ "baslik": "Çıyan Isırır mı? (Kırkayakla Aynı Mı?)",
+ "not": "13. video (yapı: karşılaştırma ve ev turu. Önce çıyan–kırkayak ayrımı bölüm başına bacak çifti, hız, zehir kıskacı ve savunma salgısıyla; sonra evde görülebilen tür (ev çıyanı), ısırık belirtileri ve risk grubu, kırkayak salgısı, güvenlik. Önceki yapılar: 09 şüpheli sorgusu, 10 tarihte yolculuk, 11 ölçüt sınaması, 12 ev turu). TAMAMEN 3D. Örümcek videosunun kapanış vaadi ('sıradaki komşu: çıyan ısırır mı, ve kırkayakla aynı hayvan mı?') iki soruyla karşılanıyor. Kaynaklar yalnızca açılabilenler ve hepsi kaynaklar/ klasörüne kaydedildi: Vikipedi (Türkçe ve İngilizce) ve DergiPark'ta Yüksel ve ark. 2020 (Türkçe derleme, 12-ev-orumcegi arşivinden kopya). BU ORTAMDAN AÇILAMAYAN (kullanılmadı): pmc.ncbi.nlm.nih.gov (bu gün reCAPTCHA verdi; çıyan ısırığı vaka makaleleri PMC7944685, PMC9176727 ve StatPearls NBK542312, NBK557454 açılamadı), medlineplus.gov, ufhealth.org, statpearls.com, scielo.br, hkmj.org, mdedge.com, gbif.org, memorial.com.tr (hastane sağlık rehberi), tandfonline.com (Enghoff ve Kebapçı 2008, 'Calyptophyllum longiventre invading houses in Turkey' kırkayak makalesi; yalnızca Vikipedi kaynakçasında başlığı görüldü, cümle kurulmadı), archive.org ve escholarship.org (Zapparoli 1999, Anadolu çıyan faunası). DergiPark'ta çıyan ısırığı olgu makalesi bulunamadı (arama sonuçlarında yılan ve fare ısırığı çıktı). Bu yüzden ısırık belirtileri Vikipedi (Centipede, Scutigera, Centipede bite) ve Yüksel 2020'ye dayanıyor; resmî sağlık kuruluşu sayfası açılamadı, resmî sağlık kurumu anılmadı. Zehir Danışma Merkezi anılmadı, telefon numarası yok. Doğa Koruma ve Milli Parklar şube müdürlüğü bu videoda kullanılmadı (yönlendirme sağlık kuruluşu ve hekim). 3 çıyan Shorts'u: 5 Aralık 'Çıyanın Kaç Ayağı Var?' Shorts'unun onaylı cümleleri tekrar edilmedi (bacak çifti sayısının tek olması gibi); bu videoda yalnızca 'çıyanda her bölümde bir çift, kırkayakta çoğu bölümde iki çift' bilgisi var. BELİRSİZLER: (1) Ev çıyanının Türkiye'de görüldüğü yalnızca iNaturalist araştırma sınıfı bir gözlemle (İzmir, 2024; API ile açıldı, kaynaklar/inat_253992882.txt) desteklenir; yaygınlığı ya da bölgeleri hakkında iddia kurulmadı. (2) Türkiye'de Scolopendra cingulata bilgisi Vikipedi (Türkçe) tür listesine dayanıyor (sayfa Zapparoli 1999'a atıf yapıyor, o makale açılamadı); 'beş tür' sayısı söylenmedi. (3) Kırkayak salgısının şiddeti için iki kaynak aynı fikirde değil (Yüksel: yanma ve koyu lezyon; Vikipedi: çoğunlukla zararsız, bazı tropikal türlerde ağır); ikisi de aktarıldı. Türkiye'deki kırkayak türlerinin salgı etkisi için kaynak yok. (4) Çıyan ısırığında 'ölümcül olması olası değil' ve ölüm vakaları (Vikipedi Centipede bite'ta diyabetli iki kişi) anlatılmadı; video ne 'ölmez' ne 'ölür' diyor. (5) 'Isırık' ile 'sokma': kaynaklar kıskaçla zehir enjeksiyonu için 'sting' diyor; videoda halk dili 'ısırık' kullanıldı. (6) Buz önerisi Vikipedi (Centipede bite: 'Icing also helps'); aynı sayfadaki ılık su önerisi anılmadı (yanık riski ve çelişki). (7) Kış derlemesi kapanışı (26 Aralık) genel bağ; derlemenin içeriği hakkında iddia yok; patron tarihi doğrular. (8) Vikipedi Türkçe Çıyan sayfasının 'ısırılan yere buz' cümlesi 'kaynak belirtilmeli' etiketli olduğu için kullanılmadı. 3D GÖRSEL NOTLARI (çıyan ve kırkayak Flux'ta karışır; her görselde ayırt edici özellik istemin başında olumlu tarif edilir; bacaklar durağan, orta mesafe, baş ve kıskaç yakın planı; gerçek iNaturalist fotoğrafı tür kimliğiyle tercih): ÇIYAN (Chilopoda): gövde yassı, her bölümde YALNIZCA BİR bacak çifti ve bacaklar gövdenin YANLARINDAN çıkar; uzun ince iplik gibi antenler; baş arkasında öne uzanan, kıskaç biçimli bir çift zehir kıskacı (ön bacağın dönüşmüş hali); son bacak çifti arkaya uzanır. Bacak sayısı yazılmaz, 'sağda solda eşit sıralı bacaklar' tarif edilir. EV ÇIYANI (Scutigera coleoptrata): sarımsı-gri, sırtta üç koyu şerit, bacaklarda koyu çizgiler, gövdeye göre çok uzun ince bacaklar, arka bacaklar anten gibi uzun, iyi gelişmiş iri göz; duvarda, banyo köşesinde, bodrumda. SKOLOPENDRA KİNGULATA: siyah ve sarı-altın dönüşümlü bantlı, daha iri, kütük ve yaprak altı. KIRKAYAK (Diplopoda): silindirik, her bölümde İKİ çift KISA bacak ve bacaklar gövdenin ALT yüzünde, kısa dirsekli antenler, kıskaç YOK, yavaş; tehlikede sıkı spiral; güzel ayırt: parlak koyu kahverengi silindir gövde. Kırkayak ve çıyan ASLA aynı karede 'aynı hayvan' gibi çizilmez; kıyas sahnesi yan yana iki ayrı hayvan, etiketsiz. Ev çıyanı eşekarısı/yaban arısı sahnesi çizilmez (klip riski); kement sahnesi durağan. Isırık yarası, kanama, şişlik, doku hasarı gösterilmez; sağlık kuruluşu sahnesi nötr; çocuk ve arı alerjisi sahnesi arı çizilmeden (nötr aile planı). Ölü ya da ezilmiş çıyan/kırkayak gösterilmez. Elle tutma yasağı: el yok, yalnızca üstü kapalı bardak ya da eldivenli el; eldivenli el çıyana değmez. Göze salgı sahnesi: gözyıkama, çocuk yüzü yok, yetişkin musluk altında.",
+ "aciklama": "Çıyan ısırır mı? Taşın altından fırlayan çok bacaklı hayvan çıyan mı, kırkayak mı; elle tutmadan önce neleri bilmelisin?\nYanlış Tanınan Komşular serisi: evinin çevresinde yaşayan, yanlış tanınan hayvanlar.\n\nBu videoda çıyan ve kırkayağın farkını (bölüm başına bacak çifti, zehir kıskacı ve savunma salgısı), evlerde yaşayabilen ev çıyanını ve Türkiye'de bulunan çıyan türlerinden birini tanıyoruz. Çıyan ısırığında belirtilerin neye benzeyebildiğine, kimlerin daha çok dikkat etmesi gerektiğine ve kırkayak salgısının deriye ve göze etkisine de bakıyoruz.\n\nVideoda geçen gruplar: çıyanlar (Chilopoda), kırkayaklar (Diplopoda), ev çıyanı (Scutigera coleoptrata) ve Türkiye'de bulunan bir çıyan türü (Scolopendra cingulata).\n\nAradığın sorular: çıyan ısırır mı, çıyan zehirli mi, çıyan ve kırkayak aynı hayvan mı, ev çıyanı zararlı mı, çıyan ısırırsa ne yapılır, kırkayak ısırır mı, kırkayak gözü yakar mı.\n\nÇıyan ya da kırkayakla karşılaşırsan temel önlem şu: elle tutma, sıkıştırma. Taş ya da odun öbeğini kaldırırken eldiven giy. Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur. Vikipedi'ye göre buz da yardımcı oluyor, ama bize göre buzu doğrudan deriye değil, bezle sararak koy. Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git. Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git. Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun. Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git. Kırkayak salgısı göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur. Hangi hayvandan olduğuna ve nasıl tedavi edileceğine karar vermek sana değil, hekime düşer. Bu video tıbbi tavsiye yerine geçmez.\n\nÖğretmenler ve veliler: bu videoyu derste ve evde kullanabilirsiniz; kaynaklar aşağıda.",
+ "yorum_sorusu": "Senin yörende çıyana ne derler? Taşın altında en çok hangisini gördün, çıyanı mı kırkayağı mı? Yorumlarda yaz.",
+ "kaynaklar": [
+  "Yüksel, E., Taşçı, S. & Canhilal, R. (2020). Zehirli Arthropodlar: Akrepler, Örümcekler, Böcekler ve Çıyanlar. Erciyes Tarım ve Hayvan Bilimleri Dergisi 3(2): 26–31. dergipark.org.tr/en/download/article-file/1346124",
+  "Vikipedi (İngilizce) – Centipede: en.wikipedia.org/wiki/Centipede",
+  "Vikipedi (İngilizce) – Forcipule: en.wikipedia.org/wiki/Forcipule",
+  "Vikipedi (İngilizce) – Millipede: en.wikipedia.org/wiki/Millipede",
+  "Vikipedi (İngilizce) – Scutigera coleoptrata: en.wikipedia.org/wiki/Scutigera_coleoptrata",
+  "Vikipedi (İngilizce) – Scolopendra cingulata: en.wikipedia.org/wiki/Scolopendra_cingulata",
+  "Vikipedi (İngilizce) – Centipede bite: en.wikipedia.org/wiki/Centipede_bite",
+  "Vikipedi (Türkçe) – Çıyan: tr.wikipedia.org/wiki/Çıyan",
+  "Vikipedi (Türkçe) – Kırkayak: tr.wikipedia.org/wiki/Kırkayak",
+  "Vikipedi (Türkçe) – Scolopendra: tr.wikipedia.org/wiki/Scolopendra",
+  "Vikipedi (Türkçe) – Scutigera coleoptrata: tr.wikipedia.org/wiki/Scutigera_coleoptrata",
+  "iNaturalist – gözlem 253992882, Scutigera coleoptrata, araştırma sınıfı, İzmir (2024): inaturalist.org/observations/253992882"
+ ],
+ "etiketler": [
+  "çıyan ısırır mı",
+  "çıyan zehirli mi",
+  "çıyan ve kırkayak aynı hayvan mı",
+  "kırkayak ısırır mı",
+  "kırkayak gözü yakar mı",
+  "ev çıyanı",
+  "evdeki çıyan",
+  "çıyan ısırırsa ne yapılır",
+  "çıyan ısırığı belirtileri",
+  "çıyan görünce ne yapılır",
+  "Scolopendra",
+  "doğa",
+  "Yanlış Tanınan Komşular",
+  "Avludaki Komşular"
+ ],
+ "kapak": {
+  "gorsel": "kapak_kiskac",
+  "buyuk": [
+   "BACAĞI",
+   "KISKAÇ"
   ],
-  "etiketler": [
-    "çıyan ısırır mı",
-    "çıyan zehirli mi",
-    "çıyan ve kırkayak aynı hayvan mı",
-    "kırkayak ısırır mı",
-    "kırkayak gözü yakar mı",
-    "ev çıyanı",
-    "evdeki çıyan",
-    "çıyan ısırırsa ne yapılır",
-    "çıyan ısırığı belirtileri",
-    "çıyan görünce ne yapılır",
-    "Scolopendra",
-    "doğa",
-    "Yanlış Tanınan Komşular",
-    "Avludaki Komşular"
-  ],
-  "kapak": {
-    "gorsel": "kapak_kiskac",
-    "buyuk": [
-      "BACAĞI",
-      "KISKAÇ"
-    ],
-    "kucuk": "Kimler dikkat etmeli?",
-    "konum": "sol",
-    "genislik": 420,
-    "gorsel_notu": "3D: taş altında orta mesafe tek çıyan (yassı gövde, her bölümde bir bacak çifti, bacaklar durağan), baş arkasında kıskaç biçimli zehir kıskacı net görünür; arka plan nemli toprak ve taş; yüz ve kıskaç yazıya binmesin; yazı sol, çıyan sağda; kanama yok"
-  },
-  "ambiyans": {
-    "dosya": "../sesler/gece_cirit.ogg",
-    "seviye": 0.05,
-    "kaynak": "Kanal tarafından sentezlendi, telifsiz"
-  },
-  "baslik_secenekleri": [
-    "Çıyan Isırır mı? (Kırkayakla Aynı Mı?)",
-    "Çıyan Isırır mı? (Bacağı Neden Kıskaç?)",
-    "Çıyan Isırır mı? (Elle Tutmadan Önce İzle)"
-  ],
-  "baslik_notu": "Öneri; son karar paketleme uzmanında. Üçü de arama sorgusunu birebir taşır ve parantez cevabı vermez: 1. başlık kırkayak karışıklığını merak olarak açar (videonun ikinci vaadi), 2. başlık kıskacı (3. bölümün şaşırtması), 3. başlık korumacı eylem. '… Zehirli mi?' kalıbı yok. Kapak yazıları başlıktaki kelimeleri (çıyan, ısırır, kırkayak) tekrar etmez: A 'BACAĞI KISKAÇ' (Vikipedi Centipede ve Forcipule: zehir kıskacı ön bacağın dönüşmüş hali) + 'Kimler dikkat etmeli?' (videonun risk grubu cevabı, çekinceli); B 'BİR ÇİFT İKİ ÇİFT' + 'Çoğu bölümde' (Vikipedi: kırkayakta çoğu bölümde iki çift; nitelemesi korundu); C 'ÖRÜMCEK DE YER' + 'Evlerde yaşayabilen tür' (Vikipedi: ev çıyanı örümcek yer; tek tür olduğu alt yazıda belli). Kapaklarda ısırık yarası ve kan yok. Zamanlar kelime sayısından tahmin (≈2,3 kelime/sn): arama sorusu ≈0:07, ilk cevap kırıntısı (ısırabilir) ≈0:10, ilk kanıt (kırkayak ısırmaz) ≈0:18, giriş sorusu ≈0:26, abone çağrısı ≈0:39, kıskaç bölümü ≈0:59, ev çıyanı ≈1:22, bilimsel ad ≈2:05 (ilk iki dakikadan sonra), ısırık bölümü ≈2:10, risk grubu cevabı ≈3:18, kırkayak salgısı ≈3:21, güvenlik ≈4:01, kapanış ≈4:57; toplam ≈5:23 (yedi yüz kırk iki kelime).",
-  "kapak_alternatifler": [
+  "kucuk": "Kimler dikkat etmeli?",
+  "konum": "sol",
+  "genislik": 420,
+  "gorsel_notu": "3D: taş altında orta mesafe tek çıyan (yassı gövde, her bölümde bir bacak çifti, bacaklar durağan), baş arkasında kıskaç biçimli zehir kıskacı net görünür; arka plan nemli toprak ve taş; yüz ve kıskaç yazıya binmesin; yazı sol, çıyan sağda; kanama yok"
+ },
+ "ambiyans": {
+  "dosya": "../sesler/gece_cirit.ogg",
+  "seviye": 0.05,
+  "kaynak": "Kanal tarafından sentezlendi, telifsiz"
+ },
+ "baslik_secenekleri": [
+  "Çıyan Isırır mı? (Kırkayakla Aynı Mı?)",
+  "Çıyan Isırır mı? (Bacağı Neden Kıskaç?)",
+  "Çıyan Isırır mı? (Elle Tutmadan Önce İzle)"
+ ],
+ "baslik_notu": "Öneri; son karar paketleme uzmanında. Üçü de arama sorgusunu birebir taşır ve parantez cevabı vermez: 1. başlık kırkayak karışıklığını merak olarak açar (videonun ikinci vaadi), 2. başlık kıskacı (3. bölümün şaşırtması), 3. başlık korumacı eylem. '… Zehirli mi?' kalıbı yok. Kapak yazıları başlıktaki kelimeleri (çıyan, ısırır, kırkayak) tekrar etmez: A 'BACAĞI KISKAÇ' (Vikipedi Centipede ve Forcipule: zehir kıskacı ön bacağın dönüşmüş hali) + 'Kimler dikkat etmeli?' (videonun risk grubu cevabı, çekinceli); B 'BİR ÇİFT İKİ ÇİFT' + 'Çoğu bölümde' (Vikipedi: kırkayakta çoğu bölümde iki çift; nitelemesi korundu); C 'ÖRÜMCEK DE YER' + 'Evlerde yaşayabilen tür' (Vikipedi: ev çıyanı örümcek yer; tek tür olduğu alt yazıda belli). Kapaklarda ısırık yarası ve kan yok. Zamanlar kelime sayısından tahmin (≈2,3 kelime/sn): arama sorusu ≈0:07, ilk cevap kırıntısı (ısırabilir) ≈0:10, ilk kanıt (kırkayak ısırmaz) ≈0:18, giriş sorusu ≈0:26, abone çağrısı ≈0:39, kıskaç bölümü ≈0:59, ev çıyanı ≈1:22, bilimsel ad ≈2:05 (ilk iki dakikadan sonra), ısırık bölümü ≈2:10, risk grubu cevabı ≈3:18, kırkayak salgısı ≈3:21, güvenlik ≈4:01, kapanış ≈4:57; toplam ≈5:23 (yedi yüz kırk iki kelime).",
+ "kapak_alternatifler": [
+  {
+   "buyuk": [
+    "ÖRÜMCEK",
+    "DE YER"
+   ],
+   "kucuk": "Evlerde yaşayabilen tür",
+   "konum": "sag",
+   "genislik": 460,
+   "gorsel": "kapak_ev_avcisi",
+   "etiket": "C",
+   "gorsel_notu": "3D: duvarda orta mesafede ev çıyanı (sarımsı-gri, sırtta üç koyu şerit, çok uzun ince bacaklar), yakınında küçük bir örümcek; yazı sağ, hayvan solda; kanama yok"
+  }
+ ],
+ "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video. Çıyan videosunda 'Sıradaki komşu' sözü verilmedi; 22–26 Aralık arası bitiş ekranına kış derlemesi (26 Aralık) yayına girince onu, girmeden önce 'Yanlış Tanınan Komşular' oynatma listesini koy. Son 10-15 saniyede ekranda boş alan kalır.",
+ "yayin": {
+  "uzun": "22 Aralık Salı 18:00",
+  "shorts": {
+   "s1-ev-ciyani-isirir": "23 Aralık Çarşamba 12:00",
+   "s2-kirkayak-isirmaz": "24 Aralık Perşembe 12:00",
+   "s3-ev-ciyani-ne-yer": "25 Aralık Cuma 12:00"
+  }
+ },
+ "sahneler": [
+  {
+   "ad": "Taşın altından fırlayan komşu",
+   "cumleler": [
     {
-      "buyuk": [
-        "BİR ÇİFT",
-        "İKİ ÇİFT"
-      ],
-      "kucuk": "Çoğu bölümde",
-      "konum": "sol",
-      "genislik": 460,
-      "gorsel": "kapak_bacak_cifti",
-      "etiket": "B",
-      "gorsel_notu": "3D: yan yana iki ayrı hayvan, solda çıyan (yassı, bacaklar gövdenin yanından, tek sıra), sağda kırkayak (silindirik, kısa bacaklar altta, iki sıra); aynı zemin; yazılar hayvanların yüzüne binmesin; bacak sayısı yazılmaz"
+     "yazi": "Bahçede bir taşı kaldırıyorsun ve altından upuzun, çok bacaklı bir hayvan fırlıyor."
     },
     {
-      "buyuk": [
-        "ÖRÜMCEK",
-        "DE YER"
-      ],
-      "kucuk": "Evlerde yaşayabilen tür",
-      "konum": "sag",
-      "genislik": 460,
-      "gorsel": "kapak_ev_avcisi",
-      "etiket": "C",
-      "gorsel_notu": "3D: duvarda orta mesafede ev çıyanı (sarımsı-gri, sırtta üç koyu şerit, çok uzun ince bacaklar), yakınında küçük bir örümcek; yazı sağ, hayvan solda; kanama yok"
+     "yazi": "Çıyan ısırır mı?"
+    },
+    {
+     "yazi": "Isırabilir; hem de ağzıyla değil, bacağının dönüştüğü bir kıskaçla."
+    },
+    {
+     "yazi": "Ama taşın altında yavaşça kıvrılan çok bacaklı hayvan, aslında bir kırkayak olabilir."
+    },
+    {
+     "yazi": "Kırkayak ısırmaz da sokmaz da."
+    },
+    {
+     "yazi": "Evlerde yaşayabilen bir çıyan türü var; yediği şeyler arasında örümcek bile bulunuyor."
+    },
+    {
+     "yazi": "Çıyan ısırırsa kimler için ciddi olabilir?"
     }
-  ],
-  "bitis_ekrani_notu": "Bitiş ekranı: sıradaki video. Çıyan videosunda 'Sıradaki komşu' sözü verilmedi; 22–26 Aralık arası bitiş ekranına kış derlemesi (26 Aralık) yayına girince onu, girmeden önce 'Yanlış Tanınan Komşular' oynatma listesini koy. Son 10-15 saniyede ekranda boş alan kalır.",
-  "yayin": {
-    "uzun": "22 Aralık Salı 18:00",
-    "shorts": {
-      "s1-ev-ciyani-isirir": "23 Aralık Çarşamba 12:00",
-      "s2-kirkayak-isirmaz": "24 Aralık Perşembe 12:00",
-      "s3-ev-ciyani-ne-yer": "25 Aralık Cuma 12:00"
-    }
+   ]
   },
-  "sahneler": [
+  {
+   "ad": "Çıyan mı, kırkayak mı?",
+   "cumleler": [
     {
-      "ad": "Taşın altından fırlayan komşu",
-      "cumleler": [
-        {
-          "yazi": "Bahçede bir taşı kaldırıyorsun ve altından upuzun, çok bacaklı bir hayvan fırlıyor."
-        },
-        {
-          "yazi": "Çıyan ısırır mı?"
-        },
-        {
-          "yazi": "Isırabilir; hem de ağzıyla değil, bacağının dönüştüğü bir kıskaçla."
-        },
-        {
-          "yazi": "Ama taşın altında yavaşça kıvrılan çok bacaklı hayvan, aslında bir kırkayak olabilir."
-        },
-        {
-          "yazi": "Kırkayak ısırmaz da sokmaz da."
-        },
-        {
-          "yazi": "Evlerde yaşayabilen bir çıyan türü var; yediği şeyler arasında örümcek bile bulunuyor."
-        },
-        {
-          "yazi": "Çıyan ısırırsa kimler için ciddi olabilir?"
-        }
-      ]
+     "yazi": "Bu iki hayvan benzer görünür ama yalnızca uzak akrabadır."
     },
     {
-      "ad": "Çıyan mı, kırkayak mı?",
-      "cumleler": [
-        {
-          "yazi": "Bu iki hayvan benzer görünür ama yalnızca uzak akrabadır."
-        },
-        {
-          "yazi": "Çıyanda her bölümde bir çift bacak var; kırkayakta çoğu bölümde iki çift."
-        },
-        {
-          "yazi": "Böyle bir yanlışı her hafta düzeltiyoruz; sıradakini kaçırmamak için abone ol."
-        },
-        {
-          "yazi": "Salı ve cumartesi akşamı yeni komşu geliyor."
-        },
-        {
-          "yazi": "Başka hangi farklar var?"
-        },
-        {
-          "yazi": "Çıyanlar genellikle hızlı koşar ve çoğunlukla etçildir; kırkayakların çoğu yavaş, çürüyen yaprakla beslenir."
-        },
-        {
-          "yazi": "Çıyanın ön bacakları zehir kıskacına dönüşmüş; kırkayakta zehir kıskacı yok."
-        },
-        {
-          "yazi": "Çıyan utangaçtır ama tehdit anında ısırabilir; kırkayak çoğu zaman kıvrılır."
-        },
-        {
-          "yazi": "Hangisi olduğundan emin değilsen elle tutma."
-        }
-      ]
+     "yazi": "Çıyanda her bölümde bir çift bacak var; kırkayakta çoğu bölümde iki çift."
     },
     {
-      "ad": "Bacağı kıskaç olan hayvan",
-      "cumleler": [
-        {
-          "yazi": "Çıyanın zehri nereden geliyor?"
-        },
-        {
-          "yazi": "Zehir bezleri kafanın içinden başlıyor; bir tüp, zehri kıskacın ucuna taşıyor, kıskaç avı da tutuyor."
-        },
-        {
-          "yazi": "Vikipedi'ye göre, ön bacağı zehir enjektörü olan bilinen tek örnek çıyanlar."
-        }
-      ]
+     "yazi": "Böyle bir yanlışı her hafta düzeltiyoruz; sıradakini kaçırmamak için abone ol."
     },
     {
-      "ad": "Evdeki çıyan kim?",
-      "cumleler": [
-        {
-          "yazi": "Evde yaşayabilen çıyan nasıl biri?"
-        },
-        {
-          "yazi": "Ev çıyanı denen bu tür, gövdesine göre bacakları upuzun bir hayvan."
-        },
-        {
-          "yazi": "Yerde, duvarda, hatta tavanda koşuyor; bacak ve antenleriyle olduğundan büyük görünüyor."
-        },
-        {
-          "yazi": "Ev çıyanının arka bacakları anten gibi görünüyor; dinlenirken baş mı kuyruk mu anlamak zor."
-        },
-        {
-          "yazi": "Ev çıyanının yemeği evdeki eklembacaklılar: örümcek, tahtakurusu, hamamböceği ve karınca."
-        },
-        {
-          "yazi": "Avını nasıl yakalıyor?"
-        },
-        {
-          "yazi": "Avının üstüne atlıyor ya da bacaklarıyla kement atar gibi sarıyor."
-        },
-        {
-          "yazi": "Ev çıyanı yakalanırsa sıkışan bacağını koparıp kaçabiliyor."
-        },
-        {
-          "yazi": "Evin içinde çoğunlukla bodrum ve garaj gibi karanlık yerlerde, banyo ve mutfakta da görülüyor."
-        },
-        {
-          "yazi": "Çoğu evin dışında, özellikle büyük taşların, odun ve yaprak öbeklerinin altında yaşıyor."
-        },
-        {
-          "yazi": "Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış; bilimsel adı Scutigera coleoptrata.",
-          "ses": "Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış; bilimsel adı Skutigera koleoptrata."
-        },
-        {
-          "yazi": "Ev çıyanı Türkiye'de de gözlemlenmiş."
-        }
-      ]
+     "yazi": "Salı ve cumartesi akşamı yeni komşu geliyor."
     },
     {
-      "ad": "Çıyan ısırırsa ne olur?",
-      "cumleler": [
-        {
-          "yazi": "Ev çıyanı ısırırsa ne olur?"
-        },
-        {
-          "yazi": "Ev çıyanı ısırabilir ama saldırgan değil; rahatsız edilince genellikle kaçıyor."
-        },
-        {
-          "yazi": "Ev çıyanı deriyi delebilirse genellikle hafif, bölgesel ağrı ve şişlik oluyor; arı sokmasına benzetiliyor."
-        },
-        {
-          "yazi": "Alerjik tepki bildirilmiş ama nadir."
-        },
-        {
-          "yazi": "Küçük çıyanlar genellikle insan derisini zaten delemiyor."
-        },
-        {
-          "yazi": "Türkiye'de bulunan çıyan türlerinden biri Scolopendra cingulata; Akdeniz çevresinde kendi takımının en yaygın türü.",
-          "ses": "Türkiye'de bulunan çıyan türlerinden biri Skolopendra kingulata; Akdeniz çevresinde kendi takımının en yaygın türü."
-        },
-        {
-          "yazi": "Bu çıyanın bantları siyah ve sarı-altın renkli; karanlık, nemli yerde, kütük ve yaprak altında yaşıyor."
-        },
-        {
-          "yazi": "Kendinden büyük olmayan hemen her hayvana saldırıyor; böcek ve küçük kertenkele de yiyor."
-        },
-        {
-          "yazi": "Türkçe bir derleme, çıyanlar arasında en zehirli türlerin Skolopendra cinsinde olduğunu yazıyor."
-        },
-        {
-          "yazi": "Skolopendra cinsinin zehrine maruz kalanlarda şişme ve kızarıklığın yanında baş ağrısı, kalp çarpıntısı, bulantı ve kusma görülmüş."
-        },
-        {
-          "yazi": "Bazı çıyan türleri ısırınca yetişkin biri için genellikle çok acı verici; şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor."
-        },
-        {
-          "yazi": "Çıyan insanı ısırdığında acı verse de nadiren ağır sağlık sorunu yapıyor."
-        },
-        {
-          "yazi": "Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanlar ısırırsa bu kişilerde ağır alerjik tepki yapabilir."
-        }
-      ]
+     "yazi": "Başka hangi farklar var?"
     },
     {
-      "ad": "Kırkayak gerçekten zararsız mı?",
-      "cumleler": [
-        {
-          "yazi": "Peki kırkayak gerçekten zararsız mı?"
-        },
-        {
-          "yazi": "Kırkayak ısırmaz; tehlikede çoğu zaman sıkı bir spiral olup bacaklarını zırhlı gövdesinin içine saklıyor."
-        },
-        {
-          "yazi": "Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor."
-        },
-        {
-          "yazi": "Türkçe derleme, tutulan ya da sıkılan kırkayakta etkilenen bölgede yanma ve koyu lezyon görülebildiğini yazıyor."
-        },
-        {
-          "yazi": "Vikipedi daha hafif anlatıyor: salgılar çoğunlukla zararsız, genellikle yalnızca hafif renk değişimi yapıyor."
-        },
-        {
-          "yazi": "Ağrı ve kabarcık gibi daha ağır etkiler bazı tropikal türlerde bildirilmiş."
-        },
-        {
-          "yazi": "Göze kaçarsa tahriş ve göz iltihabı gibi daha ciddi sorunlar çıkabilir."
-        },
-        {
-          "yazi": "Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur."
-        }
-      ]
+     "yazi": "Çıyanlar genellikle hızlı koşar ve çoğunlukla etçildir; kırkayakların çoğu yavaş, çürüyen yaprakla beslenir."
     },
     {
-      "ad": "Karşılaşırsan ne yapmalısın?",
-      "cumleler": [
-        {
-          "yazi": "Karşılaşırsan ne yapmalısın?"
-        },
-        {
-          "yazi": "Taş ya da odun öbeğini kaldırırken eldiven giy."
-        },
-        {
-          "yazi": "Bize göre hangi çıyan olursa olsun elle tutma, sıkıştırma."
-        },
-        {
-          "yazi": "Ev çıyanı genellikle ancak sıkışınca ya da sertçe tutulunca ısırıyor."
-        },
-        {
-          "yazi": "Bize göre yakalamak istersen kabı üstüne kapat, altına sert kâğıt kaydır; bacaklarını sıkıştırma."
-        },
-        {
-          "yazi": "Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur."
-        },
-        {
-          "yazi": "Vikipedi'ye göre buz da yardımcı oluyor, ama bize göre buzu doğrudan deriye değil, bezle sararak koy."
-        },
-        {
-          "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git."
-        },
-        {
-          "yazi": "Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur."
-        },
-        {
-          "yazi": "Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git."
-        },
-        {
-          "yazi": "Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun."
-        },
-        {
-          "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git."
-        },
-        {
-          "yazi": "Hangi hayvandan olduğuna ve nasıl tedavi edileceğine karar vermek sana değil, hekime düşer."
-        }
-      ]
+     "yazi": "Çıyanın ön bacakları zehir kıskacına dönüşmüş; kırkayakta zehir kıskacı yok."
     },
     {
-      "ad": "Komşunu tanı",
-      "cumleler": [
-        {
-          "yazi": "Özetle çıyan ısırabilir, ama ev çıyanı genellikle kaçar; kırkayak ısırmaz, salgısı tahriş edebilir."
-        },
-        {
-          "yazi": "Senin yörende çıyana ne derler, taşın altında en çok hangisini gördün?"
-        },
-        {
-          "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz."
-        },
-        {
-          "yazi": "Soğuk bastırınca bu komşular ne yapıyor?"
-        },
-        {
-          "yazi": "Kış derlememizde evinin çevresindeki komşuların hepsini bir arada göreceksin."
-        },
-        {
-          "yazi": "Komşunu tanı."
-        }
-      ]
+     "yazi": "Çıyan utangaçtır ama tehdit anında ısırabilir; kırkayak çoğu zaman kıvrılır."
+    },
+    {
+     "yazi": "Hangisi olduğundan emin değilsen elle tutma."
     }
-  ]
+   ]
+  },
+  {
+   "ad": "Bacağı kıskaç olan hayvan",
+   "cumleler": [
+    {
+     "yazi": "Çıyanın zehri nereden geliyor?"
+    },
+    {
+     "yazi": "Zehir bezleri kafanın içinden başlıyor; bir tüp, zehri kıskacın ucuna taşıyor, kıskaç avı da tutuyor."
+    },
+    {
+     "yazi": "Vikipedi'ye göre, ön bacağı zehir enjektörü olan bilinen tek örnek çıyanlar."
+    }
+   ]
+  },
+  {
+   "ad": "Evdeki çıyan kim?",
+   "cumleler": [
+    {
+     "yazi": "Evde yaşayabilen çıyan nasıl biri?"
+    },
+    {
+     "yazi": "Ev çıyanı denen bu tür, gövdesine göre bacakları upuzun bir hayvan."
+    },
+    {
+     "yazi": "Yerde, duvarda, hatta tavanda koşuyor; bacak ve antenleriyle olduğundan büyük görünüyor."
+    },
+    {
+     "yazi": "Ev çıyanının arka bacakları anten gibi görünüyor; dinlenirken baş mı kuyruk mu anlamak zor."
+    },
+    {
+     "yazi": "Ev çıyanının yemeği evdeki eklembacaklılar: örümcek, tahtakurusu, hamamböceği ve karınca."
+    },
+    {
+     "yazi": "Avını nasıl yakalıyor?"
+    },
+    {
+     "yazi": "Avının üstüne atlıyor ya da bacaklarıyla kement atar gibi sarıyor."
+    },
+    {
+     "yazi": "Ev çıyanı yakalanırsa sıkışan bacağını koparıp kaçabiliyor."
+    },
+    {
+     "yazi": "Evin içinde çoğunlukla bodrum ve garaj gibi karanlık yerlerde, banyo ve mutfakta da görülüyor."
+    },
+    {
+     "yazi": "Çoğu evin dışında, özellikle büyük taşların, odun ve yaprak öbeklerinin altında yaşıyor."
+    },
+    {
+     "yazi": "Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış; bilimsel adı Scutigera coleoptrata.",
+     "ses": "Akdeniz çevresinde ortaya çıkıp dünyaya yayılmış; bilimsel adı Skutigera koleoptrata."
+    },
+    {
+     "yazi": "Ev çıyanı Türkiye'de de gözlemlenmiş."
+    }
+   ]
+  },
+  {
+   "ad": "Çıyan ısırırsa ne olur?",
+   "cumleler": [
+    {
+     "yazi": "Ev çıyanı ısırırsa ne olur?"
+    },
+    {
+     "yazi": "Ev çıyanı ısırabilir ama saldırgan değil; rahatsız edilince genellikle kaçıyor."
+    },
+    {
+     "yazi": "Ev çıyanı deriyi delebilirse genellikle hafif, bölgesel ağrı ve şişlik oluyor; arı sokmasına benzetiliyor."
+    },
+    {
+     "yazi": "Alerjik tepki bildirilmiş ama nadir."
+    },
+    {
+     "yazi": "Küçük çıyanlar genellikle insan derisini zaten delemiyor."
+    },
+    {
+     "yazi": "Türkiye'de bulunan çıyan türlerinden biri Scolopendra cingulata; Akdeniz çevresinde kendi takımının en yaygın türü.",
+     "ses": "Türkiye'de bulunan çıyan türlerinden biri Skolopendra kingulata; Akdeniz çevresinde kendi takımının en yaygın türü."
+    },
+    {
+     "yazi": "Bu çıyanın bantları siyah ve sarı-altın renkli; karanlık, nemli yerde, kütük ve yaprak altında yaşıyor."
+    },
+    {
+     "yazi": "Kendinden büyük olmayan hemen her hayvana saldırıyor; böcek ve küçük kertenkele de yiyor."
+    },
+    {
+     "yazi": "Türkçe bir derleme, çıyanlar arasında en zehirli türlerin Skolopendra cinsinde olduğunu yazıyor."
+    },
+    {
+     "yazi": "Skolopendra cinsinin zehrine maruz kalanlarda şişme ve kızarıklığın yanında baş ağrısı, kalp çarpıntısı, bulantı ve kusma görülmüş."
+    },
+    {
+     "yazi": "Bazı çıyan türleri ısırınca yetişkin biri için genellikle çok acı verici; şiddetli şişlik, titreme, ateş ve halsizlik yapabiliyor."
+    },
+    {
+     "yazi": "Çıyan insanı ısırdığında acı verse de nadiren ağır sağlık sorunu yapıyor."
+    },
+    {
+     "yazi": "Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanlar ısırırsa bu kişilerde ağır alerjik tepki yapabilir."
+    }
+   ]
+  },
+  {
+   "ad": "Kırkayak gerçekten zararsız mı?",
+   "cumleler": [
+    {
+     "yazi": "Peki kırkayak gerçekten zararsız mı?"
+    },
+    {
+     "yazi": "Kırkayak ısırmaz; tehlikede çoğu zaman sıkı bir spiral olup bacaklarını zırhlı gövdesinin içine saklıyor."
+    },
+    {
+     "yazi": "Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor."
+    },
+    {
+     "yazi": "Türkçe derleme, tutulan ya da sıkılan kırkayakta etkilenen bölgede yanma ve koyu lezyon görülebildiğini yazıyor."
+    },
+    {
+     "yazi": "Vikipedi daha hafif anlatıyor: salgılar çoğunlukla zararsız, genellikle yalnızca hafif renk değişimi yapıyor."
+    },
+    {
+     "yazi": "Ağrı ve kabarcık gibi daha ağır etkiler bazı tropikal türlerde bildirilmiş."
+    },
+    {
+     "yazi": "Göze kaçarsa tahriş ve göz iltihabı gibi daha ciddi sorunlar çıkabilir."
+    },
+    {
+     "yazi": "Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur."
+    }
+   ]
+  },
+  {
+   "ad": "Karşılaşırsan ne yapmalısın?",
+   "cumleler": [
+    {
+     "yazi": "Karşılaşırsan ne yapmalısın?"
+    },
+    {
+     "yazi": "Taş ya da odun öbeğini kaldırırken eldiven giy."
+    },
+    {
+     "yazi": "Bize göre hangi çıyan olursa olsun elle tutma, sıkıştırma."
+    },
+    {
+     "yazi": "Ev çıyanı genellikle ancak sıkışınca ya da sertçe tutulunca ısırıyor."
+    },
+    {
+     "yazi": "Bize göre yakalamak istersen kabı üstüne kapat, altına sert kâğıt kaydır; bacaklarını sıkıştırma."
+    },
+    {
+     "yazi": "Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur."
+    },
+    {
+     "yazi": "Vikipedi'ye göre buz da yardımcı oluyor, ama bize göre buzu doğrudan deriye değil, bezle sararak koy."
+    },
+    {
+     "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git."
+    },
+    {
+     "yazi": "Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur."
+    },
+    {
+     "yazi": "Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git."
+    },
+    {
+     "yazi": "Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun."
+    },
+    {
+     "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git."
+    },
+    {
+     "yazi": "Hangi hayvandan olduğuna ve nasıl tedavi edileceğine karar vermek sana değil, hekime düşer."
+    }
+   ]
+  },
+  {
+   "ad": "Komşunu tanı",
+   "cumleler": [
+    {
+     "yazi": "Özetle çıyan ısırabilir, ama ev çıyanı genellikle kaçar; kırkayak ısırmaz, salgısı tahriş edebilir."
+    },
+    {
+     "yazi": "Senin yörende çıyana ne derler, taşın altında en çok hangisini gördün?"
+    },
+    {
+     "yazi": "Avludaki Komşular'da, evinin çevresindeki yanlış tanınan komşuları anlatmaya devam edeceğiz."
+    },
+    {
+     "yazi": "Soğuk bastırınca bu komşular ne yapıyor?"
+    },
+    {
+     "yazi": "Kış derlememizde evinin çevresindeki komşuların hepsini bir arada göreceksin."
+    },
+    {
+     "yazi": "Komşunu tanı."
+    }
+   ]
+  }
+ ]
 }

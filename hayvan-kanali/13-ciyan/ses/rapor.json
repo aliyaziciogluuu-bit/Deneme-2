@@ -362,5 +362,96 @@
   "hata": 1,
   "sure": 6.54,
   "uygun": true
+ },
+ "052": {
+  "yazi": "Karşılaşırsan ne yapmalısın?",
+  "duyulan": "karşılaşırsan ne yapmalısın?",
+  "hata": 0,
+  "sure": 1.64,
+  "uygun": true
+ },
+ "053": {
+  "yazi": "Taş ya da odun öbeğini kaldırırken eldiven giy.",
+  "duyulan": "taş ya da odun öbeğini kaldırırken eldiven giy.",
+  "hata": 0,
+  "sure": 2.68,
+  "uygun": true
+ },
+ "054": {
+  "yazi": "Bize göre hangi çıyan olursa olsun elle tutma, sıkıştırma.",
+  "duyulan": "Bize göre hangi çıyan olursa olsun elle tutma, sıkıştırma.",
+  "hata": 0,
+  "sure": 3.81,
+  "uygun": true
+ },
+ "055": {
+  "yazi": "Ev çıyanı genellikle ancak sıkışınca ya da sertçe tutulunca ısırıyor.",
+  "duyulan": "Ev çıyanı genellikle ancak sıkışınca ya da sertçe tutulunca ısırıyor.",
+  "hata": 0,
+  "sure": 4.08,
+  "uygun": true
+ },
+ "056": {
+  "yazi": "Bize göre yakalamak istersen kabı üstüne kapat, altına sert kâğıt kaydır; bacaklarını sıkıştırma.",
+  "duyulan": "Bize göre yakalamak istersen kabı üstüne kapat, altına sert kağıt kaydır, bacaklarını sıkıştırma.",
+  "hata": 0,
+  "sure": 5.56,
+  "uygun": true
+ },
+ "057": {
+  "yazi": "Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur.",
+  "duyulan": "Bize göre ısırılan yeri sabunlu suyla yıkamak iyi olur.",
+  "hata": 0,
+  "sure": 2.98,
+  "uygun": true
+ },
+ "058": {
+  "yazi": "Vikipedi'ye göre buz da yardımcı oluyor, ama bize göre buzu doğrudan deriye değil, bezle sararak koy.",
+  "duyulan": "Wikipedia'ya göre buz da yardımcı oluyor ama bize göre buzu doğrudan diriye değil, bezle sararak koy.",
+  "hata": 1,
+  "sure": 5.96,
+  "uygun": true
+ },
+ "059": {
+  "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "duyulan": "şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 7.6,
+  "uygun": true
+ },
+ "060": {
+  "yazi": "Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
+  "duyulan": "Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
+  "hata": 0,
+  "sure": 5.22,
+  "uygun": true
+ },
+ "061": {
+  "yazi": "Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git.",
+  "duyulan": "Belirti gösteren çocuk, hamile ya da arı alerjili biri varsa beklemeden sağlık kuruluşuna git.",
+  "hata": 0,
+  "sure": 5.34,
+  "uygun": true
+ },
+ "062": {
+  "yazi": "Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun.",
+  "duyulan": "Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun.",
+  "hata": 0,
+  "sure": 5.55,
+  "uygun": true
+ },
+ "063": {
+  "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git.",
+  "duyulan": "Nefes darlığı gibi ağır bir belirte olursa hemen acil servise git.",
+  "hata": 1,
+  "sure": 3.86,
+  "uygun": true
+ },
+ "064": {
+  "yazi": "Hangi hayvandan olduğuna ve nasıl tedavi edileceğine karar vermek sana değil, hekime düşer.",
+  "duyulan": "Hangi hayvandan olduğuna ve nasıl tedavi edileceğine karar vermek sana değil hekime düşer.",
+  "hata": 0,
+  "sure": 5.06,
+  "uygun": true
  }
 }
