@@ -18,7 +18,8 @@
   "duyulan": "Şaşıracaksın, neredeyse bütün örümceklerin zihir bezi var.",
   "hata": 1,
   "sure": 3.46,
-  "uygun": true
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir (28 Kas, kanal yöneticisi şartı)"
  },
  "003": {
   "yazi": "Yine de Türkiye'den bir tıp makalesi, yaşam alanlarımızda bulunabilen örümceklerin çoğunun insanlar için zehirli olmadığını yazıyor.",
@@ -180,7 +181,8 @@
   "duyulan": "Dolap örümceğinin ısırığı, bölgesel ağırığı, kızarıklık ve şişlik yapabiliyor. Bazı olgularda bulantı ve baş ağrısı da görülüyor.",
   "hata": 1,
   "sure": 7.42,
-  "uygun": true
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir (28 Kas, kanal yöneticisi şartı)"
  },
  "026": {
   "yazi": "Bölgesel belirtiler genellikle iki üç günde geçiyor.",
@@ -411,7 +413,8 @@
   "duyulan": "Taş ya da odun yağını kaldırırken eldiven giy. Karadul orada ağ örebiliyor.",
   "hata": 1,
   "sure": 4.88,
-  "uygun": true
+  "uygun": true,
+  "ikinci_dinleme": "large-v3 birebir (28 Kas, kanal yöneticisi şartı)"
  },
  "058": {
   "yazi": "Isırıldığını düşünüyorsan yarayı sabunlu suyla yıka, soğuk uygula.",
