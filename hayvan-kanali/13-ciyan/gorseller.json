@@ -1,0 +1,355 @@
+{
+ "stil": "Highly detailed 3D animated render in the style of a premium educational nature documentary animation, cinematic warm natural lighting, rich realistic colors, clean realistic materials with subtle subsurface scattering, shallow depth of field, scientifically accurate anatomy, wide horizontal 16:9 composition with the main subject clearly visible. No text, no letters, no numbers, no labels, no arrows, no watermark, no logo.",
+ "gorseller": [
+  {
+   "ad": "tas_kaldir_ciyan",
+   "oran": "16:9",
+   "istem": "In a garden at golden hour a flat stone has just been lifted and leans aside against a pile of firewood, revealing damp dark soil; on the soil at medium distance, seen from the side, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, sitting still and low on the soil, centered horizontally, small in the frame, soft low cinematic light, the stone and soil clearly visible.",
+   "aday": 2,
+   "not": "Açılış. Taş yana yaslı; altında tek çıyan, yan görünüş, orta mesafe. Her bölümde TEK çift bacak (21 çift), baş altında kıskaç, uzun anten, yassı gövde. Çok bacaklı hayvan kırkayak gibi (silindir, kısa bacak) çizildiyse RET."
+  },
+  {
+   "ad": "ciyan_yan",
+   "oran": "16:9",
+   "istem": "On a flat pale stone slab in soft studio-like daylight, seen from the side at medium distance, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, resting still, centered horizontally, the whole animal fully inside the frame, plain softly blurred earthy background.",
+   "aday": 2,
+   "not": "Çıyan yan görünüş, orta mesafe. Bacaklar gövdenin yanından tek sıra, her bölümde bir çift; yassı, bantlı; kıskaç ve anten görünür. Silindirik/çift sıra bacak varsa RET."
+  },
+  {
+   "ad": "kiskac_yakin",
+   "oran": "16:9",
+   "istem": "Three-quarter close view of the front end of a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, resting on a dark damp stone; the head with its two long antennae and the pair of strong curved dark-orange venom claws (forcipules) under the head are in focus and clearly visible, the first body segments with one pair of legs each trail behind and fade into soft blur, soft cinematic light, animal centered horizontally.",
+   "aday": 2,
+   "not": "Kıskaç (forcipule): baş altında bir çift kıvrık koyu turuncu pençe; bacak değil ağız parçası gibi görünmeli. Kanama yok. Göz düzeni önemsiz; yüz makrosu değil, yarım yakın plan."
+  },
+  {
+   "ad": "kirkayak_tas",
+   "oran": "16:9",
+   "istem": "A damp dark soil bed under a lifted flat stone leaning aside, at medium distance one a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers, creeping slowly out from under the stone, seen from the side, centered horizontally, soft low light.",
+   "aday": 2,
+   "not": "Kırkayak: silindirik, parlak kahverengi, çok sayıda kısa bacak ALTTA bir saçak; kıskaç yok, anten kısa. Yassı gövde/uzun bacak/kıskaç varsa (çıyan gibi) RET."
+  },
+  {
+   "ad": "kirkayak_yakin",
+   "oran": "16:9",
+   "istem": "On a bed of fallen brown leaves in soft daylight, seen from the side at medium-close distance, a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers, the body slowly gliding, a long part of the body visible and curving gently, centered horizontally, shallow depth of field.",
+   "aday": 2,
+   "not": "Kırkayak orta-yakın yan görünüş; bacaklar altta yoğun kısa saçak. Çıyan gibi yassı ya da uzun anten/kıskaç çizildiyse RET."
+  },
+  {
+   "ad": "ev_ciyani_duvar",
+   "oran": "16:9",
+   "istem": "A dim modern hallway with the ceiling light just switched on, warm light on a pale plaster wall; on the wall at medium distance, centered horizontally, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, resting still, small in the frame, one centipede only, soft cinematic light.",
+   "aday": 2,
+   "not": "Ev çıyanı duvarda orta mesafe: küçük oval gövde, sırtta üç koyu şerit, 15 çift ÇOK uzun ince halkalı bacak, uzun anten. Kısa bacaklı/kalın gövdeli ise RET. Ev çıyanı tam sayım zor; bacaklar uzun ve ince olmalı."
+  },
+  {
+   "ad": "ciyan_tas_alti",
+   "oran": "16:9",
+   "istem": "A damp shady spot where a flat stone rests on dark soil; at medium distance a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, half hidden under the edge of the stone with its front half and antennae peeking out, seen from the side, centered horizontally, calm dim light.",
+   "aday": 2,
+   "not": "Çıyan taş kenarından başını çıkarmış; yan görünüş. Kıskaç, anten, tek sıra bacak. Utangaç/saklanan duruş."
+  },
+  {
+   "ad": "karsilastir_yan",
+   "oran": "16:9",
+   "istem": "On a flat pale grey stone slab seen from the side at medium distance, two animals side by side with a clear gap between them: on the left a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; on the right a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers; soft neutral studio-like daylight, both animals fully visible and clearly separate, same size roughly, legs of the centipede in a single row along its flat body, legs of the millipede as a dense short fringe under its round tube body.",
+   "aday": 3,
+   "not": "Solda çıyan (yassı, tek sıra uzun bacak, kıskaç), sağda kırkayak (silindir, kısa saçak bacak). Özellikler birbirine geçmemeli. Geçerse RET."
+  },
+  {
+   "ad": "ciyan_ust",
+   "oran": "16:9",
+   "istem": "Top-down view of a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, laid out straight and still on a pale grey stone slab so that each body segment with its single pair of legs is clearly visible, one leg to the left and one leg to the right of every segment, medium distance, whole animal inside the frame, soft even light.",
+   "aday": 2,
+   "not": "Üstten görünüş: her bölüm TEK çift bacak, sol ve sağda birer tane. Bölüm başına iki bacak çizildiyse RET."
+  },
+  {
+   "ad": "ciyan_hizli",
+   "oran": "16:9",
+   "istem": "On dry brown soil and sparse grass, at medium distance, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, body stretched out low and long as if it just ran across the ground, still caught in a calm moment, seen from the side, centered horizontally, soft daylight.",
+   "aday": 2,
+   "not": "Çıyan zeminde uzamış, yan görünüş; her bölümde bir çift bacak. Hız hissi için uzun duruş; bacak sayısı tutmuyorsa RET."
+  },
+  {
+   "ad": "kirkayak_yaprak",
+   "oran": "16:9",
+   "istem": "On a thick layer of rotting brown leaves and damp bark in a shady corner of a garden, at medium distance, a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers, resting still with its body in a slow curve, centered horizontally, soft low light.",
+   "aday": 2,
+   "not": "Kırkayak çürüyen yaprakta; silindirik, kısa bacak saçağı. Yaprak çürüğü ve nem görünür."
+  },
+  {
+   "ad": "zehir_boru",
+   "oran": "16:9",
+   "istem": "Side view studio-style on a clean pale grey background, the head and first body segments of a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; the animal is fully solid and opaque with natural skin, and a single thin glowing amber tube runs inside from the base of the head along the inside of the curved claw to its tip, the one glowing amber line is the only glowing object, the rest of the animal is natural and solid, antennae visible.",
+   "aday": 3,
+   "not": "Zehir yolu TEK parlayan amber çizgi; başka iç organ, dişli, devre, yumurta yok. Dişli/devre dokusu çıkarsa RET (dersler 27 Kas)."
+  },
+  {
+   "ad": "ev_ciyani_tam",
+   "oran": "16:9",
+   "istem": "A tiled bathroom floor corner in soft daylight, at medium distance seen from a slightly raised angle, centered horizontally, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, standing on the pale tiles with its long legs spread, small in the frame.",
+   "aday": 2,
+   "not": "Ev çıyanı karoda orta mesafe; 15 çift çok uzun ince bacak, üç koyu sırt şeridi, uzun anten."
+  },
+  {
+   "ad": "ev_ciyani_yakin",
+   "oran": "16:9",
+   "istem": "Medium-close view of a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, on a pale plaster wall, the small striped body in the centre in focus and the long banded legs spreading around it, a very long antenna on each side, centered horizontally, soft window light.",
+   "aday": 2,
+   "not": "Ev çıyanı orta-yakın; üç şerit, halkalı çok uzun bacaklar. Yüz makrosu değil. Kısa/kalın bacak ya da çıyan (Scolopendra) gibi yassı çizim RET."
+  },
+  {
+   "ad": "ev_ciyani_tavan",
+   "oran": "16:9",
+   "istem": "A pale ceiling and wall corner in a quiet room, soft warm light; high on the wall near the corner at medium distance, centered horizontally, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, clinging to the wall with its long legs spread sideways, belly pressed flat to the wall, not standing, not hanging.",
+   "aday": 2,
+   "not": "Ev çıyanı duvar/tavan köşesinde; bacaklar yana açılmış, gövde duvara yapışık (dik duran ya da sarkan çizim RET)."
+  },
+  {
+   "ad": "ev_ciyani_arka",
+   "oran": "16:9",
+   "istem": "Medium-close view of the back end of a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs on a pale wall: its two longest rear legs trail behind like two thin tails and look like antennae, the small striped body and the two long front antennae on the other end are also visible, centered horizontally, soft light.",
+   "aday": 3,
+   "not": "Arka bacak çifti anten gibi uzun ve ince; baş ve anten karşı uçta. Kuyruk antenden ayırt edilmeli (halkalı, bacak gibi)."
+  },
+  {
+   "ad": "ev_ciyani_ornek_avlar",
+   "oran": "16:9",
+   "istem": "On a pale stone floor in soft daylight, a row of four small house pests with clear gaps between them, seen from above at medium distance, evenly spaced: a small brown hairy house spider with exactly 8 legs, a flat reddish-brown oval bed bug with 6 legs, a shiny brown cockroach with 6 legs and two antennae, a small black ant with 6 legs; in front of them at the left edge, partly in the frame, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs.",
+   "aday": 3,
+   "not": "Ev çıyanı ve dört av: örümcek (8 bacak), tahtakurusu (6, yassı kırmızı-kahve), hamamböceği (6+anten), karınca (6). Karışırsa/dört av seçilemezse RET; yedek: ev_ciyani_pusu."
+  },
+  {
+   "ad": "ev_ciyani_pusu",
+   "oran": "16:9",
+   "istem": "A quiet kitchen at night, the ceiling light just switched on, warm light on a pale wall above the counter; on the wall at medium distance, centered horizontally, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, still, and a few steps from it on the same wall a small brown hairy house spider (genus Tegenaria): hairy brown body, exactly 8 legs, 4 on each side, small in the frame, both fully visible and clearly separate, soft cinematic light.",
+   "aday": 2,
+   "not": "Duvarda ev çıyanı ve ondan ayrı küçük örümcek; av anı değil, pusu. Örümcekte 8, ev çıyanında 15 çift uzun bacak."
+  },
+  {
+   "ad": "ev_ciyani_sarar",
+   "oran": "16:9",
+   "istem": "On a pale stone floor in soft daylight, at medium distance seen from slightly above, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, its long banded legs gathered loosely around a small beetle lying on the floor like a cage around it, centered horizontally, calm documentary light.",
+   "aday": 2,
+   "not": "Ev çıyanı bacaklarıyla böceği çevrelemiş (kement gibi). Karmaşıksa RET; ev_ciyani_yakin ile karşılanır."
+  },
+  {
+   "ad": "ev_ciyani_kopar",
+   "oran": "16:9",
+   "istem": "A pale tile floor in soft light; in the sharp foreground a single long thin banded leg lies detached on the tile (just one leg), and in the blurred background a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs is walking away, centered horizontally.",
+   "aday": 2,
+   "not": "Önde tek kopmuş ince halkalı bacak; arkada bulanık ev çıyanı uzaklaşıyor. Kan yok. Arka plan hayvanın gövdesi bozuksa yine kullanılabilir (bulanık)."
+  },
+  {
+   "ad": "bodrum_garaj",
+   "oran": "16:9",
+   "istem": "A dim stone basement corner with a wooden shelf holding plain cardboard boxes, a metal bucket and a coil of plain rope on the floor, cool grey light from a tiny window, no animals, no people, no writing.",
+   "aday": 1,
+   "not": "Bodrum/garaj; hayvan yok. İp çıkarsa sorun değil ama yılan izlenimi olmamalı."
+  },
+  {
+   "ad": "tas_odun_dis",
+   "oran": "16:9",
+   "istem": "A garden corner in warm afternoon light with a low pile of flat stones, a stack of cut firewood and a heap of dry leaves beside an old stone wall, bare earth around, calm and quiet, no animals, no people.",
+   "aday": 1,
+   "not": "Taş, odun ve yaprak yığını; hayvan yok."
+  },
+  {
+   "ad": "akdeniz_kiyi",
+   "oran": "16:9",
+   "istem": "A sunny Mediterranean coast with a calm turquoise sea, a rocky shore, olive trees and an old whitewashed stone house on a hillside, warm clear light, no people, no text.",
+   "aday": 1,
+   "not": "Akdeniz çevresi; hayvan ve yazı yok."
+  },
+  {
+   "ad": "ciyan_kutuk",
+   "oran": "16:9",
+   "istem": "Under a rotting log on damp dark soil with moss and leaf litter, at medium distance, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, resting still in a gentle S-curve, seen from slightly above and the side, golden-yellow and black bands clearly visible along the whole body, centered horizontally, shaded warm light.",
+   "aday": 2,
+   "not": "Scolopendra cingulata: sarı-altın ve siyah bantlı gövde, kütük altı nemli yer. Her bölümde bir çift bacak. Kıskaç ve anten görünür."
+  },
+  {
+   "ad": "ciyan_av",
+   "oran": "16:9",
+   "istem": "On damp soil under a log, at medium distance seen from the side, centered horizontally, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, holding a small brown cricket with its two venom claws, the cricket smaller than the centipede's head-end, calm documentary light.",
+   "aday": 2,
+   "not": "Çıyan küçük bir cırcırböceğini kıskaçlarıyla tutuyor (böcek çıyandan küçük). Kertenkele çizdirme. Böcek çıyana benzerse RET."
+  },
+  {
+   "ad": "derleme_masa",
+   "oran": "16:9",
+   "istem": "A wooden desk by a window with a neat stack of plain white printed papers without visible writing, a pair of reading glasses and a cup of tea, soft daylight, nobody in view, nothing written anywhere.",
+   "aday": 1,
+   "not": "Derleme/makale; yazı görünmemeli (kağıtlar boş)."
+  },
+  {
+   "ad": "belirti_masa",
+   "oran": "16:9",
+   "istem": "A bedside table in a calm room with a glass of water, a small digital thermometer, a plain white blister pack of pills and a folded blanket on a chair, soft warm light, nobody in view, no text.",
+   "aday": 1,
+   "not": "Belirti sahnesi; insan yok, yazı yok."
+  },
+  {
+   "ad": "kirkayak_spiral",
+   "oran": "16:9",
+   "istem": "On damp dark soil in soft daylight, at medium-close distance, a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers tightly curled into a flat coil like a watch spring, the head tucked into the middle and the armored back facing outward, its legs hidden inside the coil, centered horizontally.",
+   "aday": 2,
+   "not": "Kırkayak sıkı spiral; bacaklar içte saklı. Ortada baş. Spiral düzensizse ya da çıyan gibi göründüyse RET."
+  },
+  {
+   "ad": "kirkayak_gozenek",
+   "oran": "16:9",
+   "istem": "Side close view of the middle part of a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers on a leaf, its shiny armored segments with a tiny row of pores along the side and a few tiny clear-amber droplets seeping from the pores, the short leg fringe underneath, soft warm light, centered horizontally.",
+   "aday": 2,
+   "not": "Kırkayak yan gövde; yanlarda sıra gözenek ve birkaç minik damla. Yazı/diş yok."
+  },
+  {
+   "ad": "goz_yikama",
+   "oran": "16:9",
+   "istem": "A bright simple bathroom sink with a chrome tap and clear water running into the white basin, a clean white towel folded on the side, soft daylight, nobody in view, no text, no mirror reflections of people.",
+   "aday": 1,
+   "not": "Lavabo ve akan su; insan yok."
+  },
+  {
+   "ad": "el_tutma",
+   "oran": "16:9",
+   "istem": "A flat open human hand with exactly five fingers raised in a calm 'keep away' gesture, held up in front of a plain pale wall, human hand with exactly five fingers, no face visible, nothing else in the frame, soft light.",
+   "aday": 2,
+   "not": "Elle tutma uyarısı: açık el, beş parmak; hayvan yok. Parmak sayısını incele."
+  },
+  {
+   "ad": "bardak_ciyan",
+   "oran": "16:9",
+   "istem": "On a pale tile floor, a clear glass tumbler turned upside down over a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, which sits calmly inside, its long legs resting free inside the glass, a stiff white card lying flat on the floor right next to the glass ready to be slid under it, no hands and no people, soft window light.",
+   "aday": 3,
+   "not": "Bardak ters, altında ev çıyanı, yanında kağıt; insan eli YOK. Bacaklar camın içinde serbest."
+  },
+  {
+   "ad": "buz_bez",
+   "oran": "16:9",
+   "istem": "On a pale kitchen counter an ice pack wrapped in a soft grey cloth lying beside a few clear ice cubes in a glass bowl, soft daylight, nobody in view, no text.",
+   "aday": 1,
+   "not": "Buzu bezle sarma; deri/yara yok."
+  },
+  {
+   "ad": "cocuk_saglik",
+   "oran": "16:9",
+   "istem": "A bright pediatric waiting corner with small colorful wooden chairs, a low table with plain wooden toys and a soft rug, soft daylight, nobody in view, no signs, no writing.",
+   "aday": 2,
+   "not": "Çocuk risk grubu; çocuk/insan yok, yazı yok."
+  },
+  {
+   "ad": "aile_saglik",
+   "oran": "16:9",
+   "istem": "A cozy living room corner with a plain beige armchair, a folded blanket, a side table with a glass of water and a small plain digital blood pressure monitor with a blank screen, warm lamp light, nobody in view, no text.",
+   "aday": 2,
+   "not": "Yaşlı risk grubu: koltuk ve tansiyon aleti; insan yok, ekranda yazı yok."
+  },
+  {
+   "ad": "kis_bahce",
+   "oran": "16:9",
+   "istem": "A quiet garden corner in cold winter dusk with a light dusting of snow on a stone pile, a stack of firewood, a stone wall and bare branches, soft blue-grey light, no animals, no people.",
+   "aday": 1,
+   "not": "Kış bahçesi; hayvan yok."
+  },
+  {
+   "ad": "kapak_kiskac",
+   "oran": "16:9",
+   "istem": "Full-frame thumbnail composition, no black bars: on damp dark soil beside a stone, seen from the side at medium distance, centered in the right 50 percent of the frame, a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round, the pair of dark-orange venom claws under the head clearly visible and sharp; the left half of the frame is one plain softly blurred dark earthy surface, smooth and empty for text; all legs and body fully inside the right half of the frame.",
+   "aday": 3,
+   "not": "Kapak A. Çıyan sağ yarıda; kıskaç net; sol boş. Yüz/kıskaç yazıya binmesin."
+  },
+  {
+   "ad": "kapak_bacak_cifti",
+   "oran": "16:9",
+   "istem": "Full-frame thumbnail composition, no black bars: on a flat pale stone seen from the side at medium distance, two animals side by side in the left 55 percent of the frame with a clear gap between them: on the left a flat elongated giant centipede (Scolopendra cingulata): golden-yellow-orange head and legs, a flattened wide body made of segments banded in black-olive with golden-yellow edges, every body segment has exactly one pair of legs, one leg on the left and one leg on the right, 21 pairs of legs in total, a pair of strong curved dark-orange venom claws under the head like pincers, a pair of long thin antennae, the last pair of legs pointing straight backward, the body is flat and wide, not round; on the right a round cylindrical millipede (class Diplopoda): shiny smooth dark chestnut-brown armored tube-shaped body made of many ring segments, every body segment has exactly two pairs of short legs tucked under the body so a dense fringe of many short legs lines the underside, a small rounded head with two very short antennae, smooth mouth without claws or pincers; the right 45 percent of the frame is one plain softly blurred pale warm surface, smooth and empty for text.",
+   "aday": 3,
+   "not": "Kapak B. İki hayvan solda yan yana, sağ boş; çıyan yassı tek sıra, kırkayak silindir kısa saçak."
+  },
+  {
+   "ad": "kapak_ev_avcisi",
+   "oran": "16:9",
+   "istem": "Full-frame thumbnail composition, no black bars: on a pale wall at medium distance centered in the left 45 percent of the frame, a house centipede (Scutigera coleoptrata): a small oval pale yellowish-grey body with three dark stripes along the back, exactly 15 pairs of extremely long thin banded legs, the rear pair the longest and trailing like two thin tails, two very long thin antennae, a tiny body compared to its very long legs, and a few steps above it a small brown hairy house spider (genus Tegenaria): hairy brown body, exactly 8 legs, 4 on each side, both clearly visible and separate; the right half of the frame is a softly blurred plain pale wall, smooth and empty for text; documentary light, not menacing.",
+   "aday": 3,
+   "not": "Kapak C. Ev çıyanı solda, yakınında küçük örümcek; sağ boş. Bacak sayıları: çıyan 15 çift çok uzun ince, örümcek 8."
+  },
+  {
+   "ad": "hekim",
+   "oran": "16:9",
+   "istem": "A calm doctor's consultation room seen from behind both people: a doctor in a white coat sitting at a wooden desk facing a patient who sits opposite, only backs and shoulders visible, no faces, a plain wall, a potted plant, warm soft window light.",
+   "aday": 1,
+   "not": "Hekim sahnesi; yüz yok, yazı yok, haç/logo yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "saglik_kurulusu",
+   "oran": "16:9",
+   "istem": "A bright calm clinic reception: a wooden reception desk, white walls, a potted plant, a row of plain chairs, soft daylight from a large window, nobody in view, no signs.",
+   "aday": 1,
+   "not": "Sağlık kuruluşu; tabela/haç/logo yok, insan yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "acil_servis",
+   "oran": "16:9",
+   "istem": "A quiet hospital emergency corridor with a gurney and a plain curtain, bright white clean light, empty chairs, no people, no signs, no equipment screens showing writing.",
+   "aday": 1,
+   "not": "Acil servis; insan, yazı ve kan yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "ev_genel",
+   "oran": "16:9",
+   "istem": "A cozy stone house with a small garden at dusk, a warm lit window, a wooden gate and flowerbeds, calm and welcoming, no people, no animals.",
+   "aday": 1,
+   "not": "Genel ev sahnesi; yazı/tabela yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "avlu_genel",
+   "oran": "16:9",
+   "istem": "A cozy backyard courtyard in warm evening light: old stone wall, a wooden gate, pots of green plants, a small garden path, quiet and peaceful, no animals and no people.",
+   "aday": 1,
+   "not": "Seri/abone sahnesi; hayvan yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "laboratuvar_sise",
+   "oran": "16:9",
+   "istem": "A tidy research bench by a window: a stereo microscope, tweezers, an empty glass petri dish, clean empty glass vials with plain blank stoppers, a stack of plain white sheets, soft daylight, nothing written anywhere.",
+   "aday": 1,
+   "not": "Bilgi sahnesi (makale/zehir/panzehir). Hayvan yok; yazı ve etiket çıkmamalı. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "eldiven_odun",
+   "oran": "16:9",
+   "istem": "Hands in thick brown work gloves, each with five fingers, lifting a flat stone from a stack of stones and firewood in a garden, no face visible, bare earth underneath, warm afternoon light.",
+   "aday": 1,
+   "not": "Eldivenle taş kaldırma; altında hayvan yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "sabun_su_el",
+   "oran": "16:9",
+   "istem": "A sink with a running tap: two clean hands with five fingers each washing a forearm with white soap foam under the water, then a small ice pack beside the sink, no face visible, bright bathroom light, plain white tiles.",
+   "aday": 1,
+   "not": "Sabun ve soğuk uygulama; deride yara/kızarıklık yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "tas_alti_gizem",
+   "oran": "16:9",
+   "istem": "A flat garden stone just lifted and leaning aside, revealing damp dark soil with a few pale roots underneath, soft low evening light, shallow depth of field, completely bare soil with nothing on it.",
+   "aday": 1,
+   "not": "Çıyan vaadi için gizemli kare; toprağın üstünde hiçbir şey yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "anadolu_manzara",
+   "oran": "16:9",
+   "istem": "A wide cinematic view of rolling Anatolian hills with a small town of flat-roofed houses in the distance, a winding road, warm afternoon light and scattered clouds, no text.",
+   "aday": 1,
+   "not": "Türkiye'de yerler; harita değil manzara, yazı yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  },
+  {
+   "ad": "kis_pencere",
+   "oran": "16:9",
+   "istem": "A cozy warm indoor room seen next to a window, outside a snowy garden under a grey winter sky, a radiator under the window, warm lamp light, nobody in the room.",
+   "aday": 1,
+   "not": "Kış/ev; hayvan yok. (12-ev-orumcegi'nden kopya, KABUL almıştı; yeniden üretilmez)"
+  }
+ ]
+}

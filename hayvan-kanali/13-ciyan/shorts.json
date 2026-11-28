@@ -19,35 +19,49 @@
    "cumleler": [
     {
      "yazi": "Ev çıyanı ısırabilir ama saldırgan değil; rahatsız edilince genellikle kaçıyor.",
-     "gorsel": "ev_ciyani_duvar"
+     "gorsel": "ev_ciyani_duvar",
+     "x": 0.5,
+     "klip": "ev_ciyani_duvar_k",
+     "kx": 0.5,
+     "aw": 0.6,
+     "ay": 0.55
     },
     {
      "yazi": "Ev çıyanı deriyi delebilirse genellikle hafif, bölgesel ağrı ve şişlik oluyor; arı sokmasına benzetiliyor.",
-     "gorsel": "ev_ciyani_yakin"
+     "gorsel": "ev_ciyani_yakin",
+     "x": 0.5,
+     "aw": 0.6,
+     "ay": 0.55
     },
     {
      "yazi": "Hangisi olduğundan emin değilsen elle tutma.",
-     "gorsel": "el_tutma"
+     "gorsel": "el_tutma",
+     "x": 0.5
     },
     {
      "yazi": "Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanlar ısırırsa bu kişilerde ağır alerjik tepki yapabilir.",
-     "gorsel": "cocuk_saglik"
+     "gorsel": "cocuk_saglik",
+     "x": 0.5
     },
     {
      "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
-     "gorsel": "saglik_kurulusu"
+     "gorsel": "saglik_kurulusu",
+     "x": 0.5
     },
     {
      "yazi": "Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git.",
-     "gorsel": "acil_servis"
+     "gorsel": "acil_servis",
+     "x": 0.5
     },
     {
      "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "ev_genel"
+     "gorsel": "ev_genel",
+     "x": 0.5
     }
    ],
    "kapsam": "yalnızca ev çıyanı (Vikipedi, Scutigera coleoptrata) ve genel risk çekincesi. 'Bütün çıyanlar zararsız' genellemesi yok: büyük türlerin ısırığı ve küçük çocuk ile arı alerjisi uyarısı uzun videodaki 44 numaradan, 'emin değilsen elle tutma' cümlesi 16'dan, nefes darlığı cümlesi 64'ten, güvenlik cümleleri 60 ve 61'den kelimesi kelimesine. İlk cümle 'ısırır mı' sorusunu uzun videodaki 33 numaralı cümleyle doğrudan cevaplıyor. Yer yoktu: hamile cümlesi (62), 'Bize göre' kalp/tansiyon ihtiyatı (63) ve hekim kararı cümlesi (65) uzun videoda var, burada atıldı. Türkiye iddiası yok."
@@ -71,11 +85,17 @@
    "cumleler": [
     {
      "yazi": "Kırkayak ısırmaz da sokmaz da.",
-     "gorsel": "kirkayak_yakin"
+     "gorsel": "kirkayak_yakin",
+     "x": 0.5,
+     "klip": "kirkayak_yakin_k",
+     "kx": 0.5,
+     "aw": 0.6,
+     "ay": 0.55
     },
     {
      "yazi": "Birçok kırkayak, yanlardaki gözeneklerden kötü kokulu, tahriş edici bir sıvı salgılıyor.",
-     "gorsel": "kirkayak_spiral"
+     "gorsel": "kirkayak_spiral",
+     "x": 0.5
     },
     {
      "yazi": "Hangisi olduğundan emin değilsen elle tutma.",
@@ -84,31 +104,38 @@
     },
     {
      "yazi": "Göze ya da deriye değerse bol suyla iyice yıka; gözde şikâyet sürerse sağlık kuruluşuna başvur.",
-     "gorsel": "goz_yikama"
+     "gorsel": "goz_yikama",
+     "x": 0.5
     },
     {
      "yazi": "Çıyan utangaçtır ama tehdit anında ısırabilir; kırkayak çoğu zaman kıvrılır.",
-     "gorsel": "ciyan_tas_alti"
+     "gorsel": "ciyan_tas_alti",
+     "x": 0.5
     },
     {
      "yazi": "Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanlar ısırırsa bu kişilerde ağır alerjik tepki yapabilir.",
-     "gorsel": "cocuk_saglik"
+     "gorsel": "cocuk_saglik",
+     "x": 0.5
     },
     {
      "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git.",
-     "gorsel": "acil_servis"
+     "gorsel": "acil_servis",
+     "x": 0.5
     },
     {
      "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
-     "gorsel": "saglik_kurulusu"
+     "gorsel": "saglik_kurulusu",
+     "x": 0.5
     },
     {
      "yazi": "Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "ev_genel"
+     "gorsel": "ev_genel",
+     "x": 0.5
     }
    ],
    "kapsam": "kırkayak (Diplopoda) ve çıyan (Chilopoda) ayrımı ve kırkayak savunma salgısı. 'Kırkayak zararsız' denmiyor: salgının göz ve deri etkisi var. Salgı cümlesi uzun videodaki 47, ilk yardım 52, çıyan cümlesi 15, risk cümlesi 44, nefes darlığı 64 numaradan; güvenlik cümleleri 60 ve 61'den kelimesi kelimesine. Yer yoktu: bacak çifti karşılaştırması (9), 'emin değilsen elle tutma' (16), salgının şiddeti konusunda iki kaynağın farkı (48–50) ve hekim kararı cümlesi (65) uzun videoda var, burada atıldı; Shorts yalnızca 'çıyan ısırdıysa' belirti ve hekim cümlelerini taşıyor. 5 Aralık bacak Shorts'u ile çakışan cümle yok."
@@ -132,31 +159,40 @@
    "cumleler": [
     {
      "yazi": "Ev çıyanının yemeği evdeki eklembacaklılar: örümcek, tahtakurusu, hamamböceği ve karınca.",
-     "gorsel": "ev_ciyani_ornek_avlar"
+     "gorsel": "ev_ciyani_ornek_avlar",
+     "x": 0.5,
+     "aw": 0.6,
+     "ay": 0.55
     },
     {
      "yazi": "Şiddetli ağrı, şişlik, ateş, kalp çarpıntısı, bulantı ya da kusma varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
-     "gorsel": "saglik_kurulusu"
+     "gorsel": "saglik_kurulusu",
+     "x": 0.5
     },
     {
      "yazi": "Isırılan yer günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur.",
-     "gorsel": "hekim"
+     "gorsel": "hekim",
+     "x": 0.5
     },
     {
      "yazi": "Küçük çocuklar ve arı alerjisi olanlar için tehlikeli olabilir; büyük çıyanlar ısırırsa bu kişilerde ağır alerjik tepki yapabilir.",
-     "gorsel": "cocuk_saglik"
+     "gorsel": "cocuk_saglik",
+     "x": 0.5
     },
     {
      "yazi": "Bize göre kalp veya tansiyon hastası yaşlılar belirti gösterirse de vakit kaybetmeden hekime başvursun.",
-     "gorsel": "aile_saglik"
+     "gorsel": "aile_saglik",
+     "x": 0.5
     },
     {
      "yazi": "Nefes darlığı gibi ağır bir belirti olursa hemen acil servise git.",
-     "gorsel": "acil_servis"
+     "gorsel": "acil_servis",
+     "x": 0.5
     },
     {
      "yazi": "Tam videosu kanalımızda.",
-     "gorsel": "ev_genel"
+     "gorsel": "ev_genel",
+     "x": 0.5
     }
    ],
    "kapsam": "yalnızca ev çıyanı (Scutigera coleoptrata; Vikipedi). Diğer çıyan türleri anlatılmıyor; 'evdeki bütün çıyanlar ev çıyanıdır' demiyor. Yiyecek cümlesi uzun videodaki 24 numaradan; güvenlik cümleleri 60, 61, 44, 63 ('Bize göre' işaretli kalp/tansiyon ihtiyatı) ve 64'ten kelimesi kelimesine. Yer yoktu: kement (26), arka bacak (23), hamile cümlesi (62) ve hekim kararı (65) cümleleri uzun videoda var, burada atıldı. Türkiye iddiası yok."

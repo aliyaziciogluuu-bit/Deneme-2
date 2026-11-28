@@ -1,0 +1,77 @@
+{
+ "not": "12 klip x 0,35 $ = 4,20 $. Yalnızca kamera/ışık/ortam hareketi; hiçbir klipte bacak hareketi yok (çok bacaklı hayvan: Kling bacak sayısını bozar). İnsan eli klibi yok. Her klipten 5 kare (0,5-4,9 sn) incelenir. avlu-gorsel-denetci KABUL vermeden klip üretilmez; görsel RET/değişirse klip istemi de yeniden okunur.",
+ "klipler": [
+  {
+   "ad": "tas_kaldir_k",
+   "gorsel": "tas_kaldir_ciyan",
+   "sure": 5,
+   "istem": "Soft low sunlight shifts slightly and tiny dust specks drift near the stone, the camera pushes in very slowly toward the still centipede on the soil. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "ciyan_yan_k",
+   "gorsel": "ciyan_yan",
+   "sure": 5,
+   "istem": "The camera pushes in very slowly on the resting centipede, soft light glints on its banded back. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "kirkayak_yakin_k",
+   "gorsel": "kirkayak_yakin",
+   "sure": 5,
+   "istem": "Soft daylight shimmers on the shiny leaves and the camera pushes in very slowly, the millipede rests still. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "ev_ciyani_duvar_k",
+   "gorsel": "ev_ciyani_duvar",
+   "sure": 5,
+   "istem": "The hallway light flickers very slightly and the camera pushes in slowly toward the resting centipede on the wall. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "ciyan_tas_alti_k",
+   "gorsel": "ciyan_tas_alti",
+   "sure": 5,
+   "istem": "A faint breeze moves a few leaves near the stone edge and the camera pushes in very slowly, the centipede stays hidden and still. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "ev_ciyani_yakin_k",
+   "gorsel": "ev_ciyani_yakin",
+   "sure": 5,
+   "istem": "Soft window light shifts gently and the camera pushes in very slowly toward the resting centipede. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "ev_ciyani_pusu_k",
+   "gorsel": "ev_ciyani_pusu",
+   "sure": 5,
+   "istem": "The kitchen light flickers very slightly and the camera pushes in slowly toward the two still animals on the wall. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "ciyan_kutuk_k",
+   "gorsel": "ciyan_kutuk",
+   "sure": 5,
+   "istem": "A few dust motes drift in a shaft of light and the camera pushes in very slowly, the centipede rests still under the log. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "kirkayak_spiral_k",
+   "gorsel": "kirkayak_spiral",
+   "sure": 5,
+   "istem": "The camera pushes in very slowly on the tightly curled coil, soft light glints on the armored back, the coil stays completely still. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "bodrum_garaj_k",
+   "gorsel": "bodrum_garaj",
+   "sure": 5,
+   "istem": "Dust motes drift slowly in the light from the small window and the camera pushes in very slowly, nothing else moves. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "kis_bahce_k",
+   "gorsel": "kis_bahce",
+   "sure": 5,
+   "istem": "A few light snowflakes drift slowly down through the cold dusk air and the camera pushes in very slowly, nothing else moves. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  },
+  {
+   "ad": "zehir_boru_k",
+   "gorsel": "zehir_boru",
+   "sure": 5,
+   "istem": "The single amber glow pulses very softly and the camera pushes in very slowly, the animal stays completely still. The legs stay completely still, no leg movement, the number of legs never changes, the animal does not walk. Static camera or slow push-in, gentle natural motion only, nothing new appears, 3D animation style preserved."
+  }
+ ]
+}
