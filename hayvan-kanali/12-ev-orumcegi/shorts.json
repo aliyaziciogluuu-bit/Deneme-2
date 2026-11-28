@@ -52,6 +52,11 @@
      "x": 0.5
     },
     {
+     "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
+     "gorsel": "acil_servis",
+     "x": 0.5
+    },
+    {
      "yazi": "Isırığın hangi örümcekten olduğuna karar vermek sana değil, hekime düşer.",
      "gorsel": "hekim",
      "x": 0.5
@@ -84,8 +89,8 @@
    "cumleler": [
     {
      "yazi": "Doktora örümcek ısırdı diye gidenlerin çoğunda başka bir şey çıkıyor.",
-     "gorsel": "isirik_sanilan_yara",
-     "x": 0.5
+     "gorsel": "kapak_isirik_sandin",
+     "x": 0.68
     },
     {
      "yazi": "Kaliforniya'daki bir acil servis çalışmasında, bu şikâyetle gelenlerin yalnızca çok azı örümceği ısırma anında görmüştü.",
