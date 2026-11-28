@@ -29,11 +29,12 @@
   "uygun": true
  },
  "004": {
-  "yazi": "Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak.",
-  "duyulan": "Bize göre en kolayı bardağı örümceğin üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.",
+  "yazi": "Örümceği elle tutmana gerek yok: bardağı üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak.",
+  "duyulan": "Örümceyi elle tutmana gerek yok, bardağı üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.",
   "hata": 0,
-  "sure": 5.18,
-  "uygun": true
+  "sure": 6.46,
+  "uygun": true,
+  "tek_basina": true
  },
  "005": {
   "yazi": "Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git.",
