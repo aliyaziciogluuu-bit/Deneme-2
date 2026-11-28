@@ -184,3 +184,4 @@ Kaynak: kanal/kucuk_kanallar_2026-11-26.md (vidIQ).
 ## Karar (27 Kasım, tanıtım testi sonucu)
 - Aralık'ta ücretli tanıtım yapılmıyor; büyüme günlük 3D Shorts (19:00) + haftada iki 3D uzun video ile organik.
 - Para kazanma yolu: alt kademede 500 abone + 3 Mn geçerli Shorts görüntüleme (90 gün) izlenme saatinden (3.000) çok daha yakın; Shorts serisi önceliklidir.
+- 28 Kasım kuralı: Yüklenmiş/planlanmış video asla silinip yeniden yüklenmez; tarih değişikliği Studio'da planlama ayarından yapılır (yarasa s2 yeniden yüklendikten sonra 1,5 saatte 0 görüntüleme).
