@@ -1,5 +1,5 @@
 BAŞLIK
-Evdeki Örümcek Zehirli mi? (Önce Bardağı Al)
+Evdeki Örümcek Zehirli mi? (Isırık Sandığın Şey Ne?)
 
 AÇIKLAMA
 Evdeki örümcek zehirli mi? Duvarda, tavan köşesinde ya da dolabın arkasında gördüğün örümceği elle tutmadan önce ne bilmelisin?
@@ -42,8 +42,8 @@ Kaynaklar:
 - Vikipedi (İngilizce) – List of common misconceptions about science, technology, and mathematics: en.wikipedia.org/wiki/List_of_common_misconceptions_about_science,_technology,_and_mathematics
 - Vikipedi (Türkçe) – Örümcek: tr.wikipedia.org/wiki/Örümcek
 
-Görseller yapay zekâ ile üretilmiş çizimlerdir; seslendirme yapay zekâ ile yapılmıştır. Bilgiler yukarıdaki kaynaklardan derlenmiştir.
-Doğa sesi: Kanal tarafından sentezlendi (sesler/sentez_gece.py), telifsiz
+Görseller yapay zekâ ile üretilmiş 3D görüntülerdir; seslendirme yapay zekâ ile yapılmıştır. Bilgiler yukarıdaki kaynaklardan derlenmiştir.
+Doğa sesi: Kanal tarafından sentezlendi, telifsiz
 
 🌿 AVLUDAKİ KOMŞULAR
 Bu kanalda evinin, bahçenin ve köyünün çevresinde yaşayan ama yanlış tanınan hayvanları anlatıyoruz: efsaneler, gerçekler ve karşılaşınca ne yapman gerektiği. Her bölümde kaynaklarıyla birlikte.

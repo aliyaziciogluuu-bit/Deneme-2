@@ -1,4 +1,4 @@
-000 fark=0 | Bize göre en kolayı: bardağı örümceğin üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak. || Bize göre en kolayı bardağı örümceğin üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.
+000 fark=1 | Örümceği elle tutmana gerek yok: bardağı üstüne kapat, altına sert bir kâğıt kaydır, dışarı bırak. || Örümceyi el ile tutmana gerek yok. Bardağı üstüne kapat, altına sert bir kağıt kaydır, dışarı bırak.
 001 fark=0 | Elinle tutma, deriye bastırma; çoğu örümcek insanı nadiren ısırır, ısırırsa da kaçamadığı ya da deriye bastırıldığı zaman. || Elinle tutma, deriye bastırma. Çoğu örümcek insanı nadiren ısırır. Isırırsa da kaçamadığı ya da deriye bastırıldığı zaman.
 002 fark=0 | Şiddetli ağrı, kas krampı, terleme ya da bulantı varsa vakit kaybetmeden bir sağlık kuruluşuna git. || Şiddetli ağrı, kask rampı, terleme ya da bulantı varsa, vakit kaybetmeden bir sağlık kuruluşuna git.
 003 fark=14 | Isırık yeri günler içinde kötüleşiyor, morarıyor ya da ateş çıkıyorsa da bir hekime başvur. || 

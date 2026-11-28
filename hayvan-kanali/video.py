@@ -406,7 +406,9 @@ class Sahne:
     def gorsel(self, c):
         anahtar = (c["gorsel"], c.get("kip"))
         if anahtar not in self._gorsel:
-            yol = next((self.klasor / "gorseller").glob(c["gorsel"] + ".*"))
+            yol = next((self.klasor / "gorseller").glob(c["gorsel"] + ".*"), None)
+        if yol is None:  # StopIteration işçi süreçte sessizce yutuluyor ve video yarıda kesiliyordu (28 Kasım)
+            raise FileNotFoundError(f"görsel yok: {c['gorsel']}")
             g = Image.open(yol).convert("RGB")
             self._gorsel[anahtar] = sigdir_tuvali(g) if c.get("kip") == "sigdir" else g
         return self._gorsel[anahtar]
@@ -647,6 +649,11 @@ def main():
          "-filter_complex", filtre, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
          "-shortest", "-movflags", "+faststart", str(klasor / "video.mp4")], check=True)
     ses_yuksekligi_duzelt(klasor / "video.mp4")
+    sure = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                 str(klasor / "video.mp4")], capture_output=True, text=True).stdout or 0)
+    assert abs(sure - sahne.toplam) < 1.0, f"video {sure:.1f} sn, plan {sahne.toplam:.1f} sn: bir parça eksik (28 Kasım dersi)"
+    if "--gecici-tut" in sys.argv:  # hata ayıklama: ara parçaları bırak
+        return
     for d in gecici.iterdir():
         d.unlink()
     gecici.rmdir()

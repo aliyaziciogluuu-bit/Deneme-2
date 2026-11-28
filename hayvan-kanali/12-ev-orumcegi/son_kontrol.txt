@@ -8,8 +8,8 @@
 [GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 69/69 cümle birebir, toplam 26/813 kelime farkı; large-v3 ikinci dinlemeyle doğrulanan: ['056', '064']
 [GEÇTİ] Altyazı zamanlaması 114 altyazı, son 388.5 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 74 karakter
-[GEÇTİ] Başlık uzunluğu 44 karakter
-[GEÇTİ] Açıklama uzunluğu ve karakterleri 4973 karakter
+[GEÇTİ] Başlık uzunluğu 52 karakter
+[GEÇTİ] Açıklama uzunluğu ve karakterleri 4954 karakter
 [GEÇTİ] Etiketler (toplam ≤ 500) 16 etiket
 [GEÇTİ] Bölümler (YouTube kuralları) 9 bölüm, en kısa 23 sn
-[GEÇTİ] Kapak 1280x720, 111 KB
+[GEÇTİ] Kapak 1280x720, 114 KB

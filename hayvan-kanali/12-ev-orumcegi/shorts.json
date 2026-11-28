@@ -109,7 +109,7 @@
     },
     {
      "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
-     "gorsel": "cocuk_saglik",
+     "gorsel": "acil_servis",
      "x": 0.5
     },
     {
@@ -165,7 +165,7 @@
     },
     {
      "yazi": "Belirti gösteren çocuk, hamile ya da kalp veya tansiyon hastası yaşlı varsa beklemeden sağlık kuruluşuna git.",
-     "gorsel": "cocuk_saglik",
+     "gorsel": "acil_servis",
      "x": 0.5
     },
     {
