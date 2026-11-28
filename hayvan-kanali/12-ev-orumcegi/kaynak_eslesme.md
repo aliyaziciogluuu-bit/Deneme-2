@@ -136,7 +136,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr (curl ile; WebFetch aracı bu
 **033** [Dikkat isteyen başlıca iki cins] Birincisi karadul; bilimsel adı Latrodectus.
   - https://dergipark.org.tr/tr/download/article-file/1662710 → “Latrodectus cinsi örümcekler” — açıldı
   - https://dergipark.org.tr/en/download/article-file/1346124 → “Latrodectus cinsine ait olan karadul örümcekleri” — açıldı
-**034** [Dikkat isteyen başlıca iki cins] Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun yığınında, kulübe ve kümeste ağ örüyor.
+**034** [Dikkat isteyen başlıca iki cins] Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun arasında, kulübe ve kümeste ağ kuruyor. (28 Kas: ses tanıma için sadeleştirildi; eski: «Türkiye'de kayıtlı karadullardan biri, Akdeniz karadul örümceği; bozkırda, tarlada, taş ve odun yığınında, kulübe ve kümeste ağ örüyor.»)
   - https://dergipark.org.tr/en/download/article-file/1346124 → “Akdeniz Karadul Örümceği olarak bilinen” — açıldı
   - https://dergipark.org.tr/tr/download/article-file/1437890 → “It primarily lives in steppes and grasslands” — açıldı
   - https://dergipark.org.tr/en/download/article-file/414927 → “This spider built its web on huts, coops, stacks of woods and stones” — açıldı
@@ -155,7 +155,7 @@ Bu ortamdan açılabilen siteler: dergipark.org.tr (curl ile; WebFetch aracı bu
 **038** [Dikkat isteyen başlıca iki cins] Bir derleme, çoğu hastanın bir hafta içinde tamamen iyileştiğini, çocuk ve yaşlıların hastane gözlemi gerektirebildiğini bildiriyor.
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “The majority of patients with envenomation recover fully within a week” — açıldı
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/ → “but some individuals (especially children and the elderly) may require it due to the severity of their clinical picture” — açıldı
-**039** [Dikkat isteyen başlıca iki cins] İkincisi Loxosceles; Türkiye'de sorun çıkaran türü Akdeniz münzevi ya da Akdeniz kahverengi örümceği, keman biçimli lekeyle bilinir.
+**039** [Dikkat isteyen başlıca iki cins] İkincisi Loxosceles; Türkiye'de sorun çıkaran türüne Akdeniz münzevi örümceği deniyor, sırtındaki keman biçimli lekeyle bilinir. (28 Kas: ses tanıma için sadeleştirildi; eski: «İkincisi Loxosceles; Türkiye'de sorun çıkaran türü Akdeniz münzevi ya da Akdeniz kahverengi örümceği, keman biçimli lekeyle bilinir.»)
   - https://dergipark.org.tr/en/download/article-file/711091 → “Ülkemiz coğrafyasında loxoscelism’e neden olan tek türün” — açıldı
   - https://dergipark.org.tr/en/download/article-file/1346124 → “Loxosceles rufescens (Akdeniz Münzevi Örümceği)” — açıldı
   - https://dergipark.org.tr/en/download/article-file/711091 → “Akdeniz kahverengi örümceği” — açıldı

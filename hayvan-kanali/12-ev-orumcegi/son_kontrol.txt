@@ -1,15 +1,15 @@
 [GEÇTİ] Video, ses ve senaryodan yeni 
-[KALDI] Cümle cümle ses doğrulaması 66/69 cümle doğrulandı; sorunlu: ['027', '036', '040']; large-v3 ikinci dinlemeyle: ['024', '064']
+[GEÇTİ] Cümle cümle ses doğrulaması 69/69 cümle doğrulandı; large-v3 ikinci dinlemeyle: ['024', '027', '064']
 [GEÇTİ] Görüntü biçimi 1920x1080 30 fps h264/aac
-[GEÇTİ] Video ve ses süresi tutarlı video 382.8 sn, ses 382.8 sn
-[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.4 LUFS, tepe -1.4 dBTP
+[GEÇTİ] Video ve ses süresi tutarlı video 387.4 sn, ses 387.4 sn
+[GEÇTİ] Ses yüksekliği (-16..-13 LUFS, tepe ≤ -1 dBTP) -15.4 LUFS, tepe -1.3 dBTP
 [GEÇTİ] Siyah kare yok 
 [GEÇTİ] Donmuş görüntü yok (4 sn+) 
-[KALDI] Bitmiş videoda anlatım = senaryo (cümle cümle) 64/69 cümle birebir, toplam 43/814 kelime farkı; large-v3 ikinci dinlemeyle doğrulanan: ['056', '064']
-[GEÇTİ] Altyazı zamanlaması 114 altyazı, son 380.6 sn
+[KALDI] Bitmiş videoda anlatım = senaryo (cümle cümle) 67/69 cümle birebir, toplam 32/816 kelime farkı; large-v3 ikinci dinlemeyle doğrulanan: ['056', '064']
+[GEÇTİ] Altyazı zamanlaması 114 altyazı, son 385.2 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 74 karakter
 [GEÇTİ] Başlık uzunluğu 44 karakter
-[KALDI] Açıklama uzunluğu ve karakterleri 5049 karakter
+[GEÇTİ] Açıklama uzunluğu ve karakterleri 4973 karakter
 [GEÇTİ] Etiketler (toplam ≤ 500) 16 etiket
-[GEÇTİ] Bölümler (YouTube kuralları) 9 bölüm, en kısa 22 sn
+[GEÇTİ] Bölümler (YouTube kuralları) 9 bölüm, en kısa 23 sn
 [GEÇTİ] Kapak 1280x720, 111 KB

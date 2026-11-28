@@ -9,6 +9,6 @@
 [GEÇTİ] Bitmiş videoda anlatım = senaryo (cümle cümle) 6/6 cümle birebir, toplam 1/39 kelime farkı; large-v3 ikinci dinlemeyle doğrulanan: ['004']
 [GEÇTİ] Altyazı zamanlaması 11 altyazı, son 22.6 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 37 karakter
-[GEÇTİ] Başlık uzunluğu 48 karakter
+[GEÇTİ] Başlık uzunluğu 52 karakter
 [GEÇTİ] Açıklama uzunluğu ve karakterleri 1007 karakter
 [GEÇTİ] Etiketler (toplam ≤ 500) 6 etiket

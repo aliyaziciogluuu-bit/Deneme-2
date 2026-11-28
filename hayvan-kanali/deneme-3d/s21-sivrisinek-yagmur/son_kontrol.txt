@@ -10,5 +10,5 @@
 [GEÇTİ] Altyazı zamanlaması 10 altyazı, son 21.1 sn
 [GEÇTİ] Altyazı uzunluğu en uzun 37 karakter
 [GEÇTİ] Başlık uzunluğu 54 karakter
-[GEÇTİ] Açıklama uzunluğu ve karakterleri 912 karakter
+[GEÇTİ] Açıklama uzunluğu ve karakterleri 910 karakter
 [GEÇTİ] Etiketler (toplam ≤ 500) 6 etiket
